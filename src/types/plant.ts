@@ -72,7 +72,7 @@ export interface IdentifyResponse {
 // --- Save API types (match backend POST /plants/save) ---
 
 export interface SavePlantInput {
-  device_id: string;
+  device_id?: string;
   plant: {
     scientific: string;
     common_name: string;

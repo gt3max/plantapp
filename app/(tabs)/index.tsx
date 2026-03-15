@@ -18,7 +18,7 @@ import { Card } from '../../src/components/ui/Card';
 import { Badge } from '../../src/components/ui/Badge';
 import { ProgressBar } from '../../src/components/ui/ProgressBar';
 import { Colors, Spacing, FontSize, BorderRadius } from '../../src/constants/colors';
-import { useIdentifyPlant } from '../../src/features/plants/api/identify-api';
+import { useIdentifyPlant, useSavePlant } from '../../src/features/plants/api/identify-api';
 import { usePlantsWithDevices } from '../../src/features/plants/api/plants-api';
 import { pickImageFromCamera, pickImageFromGallery } from '../../src/lib/image-utils';
 import type { PickedImage } from '../../src/lib/image-utils';
@@ -160,10 +160,19 @@ export default function IdentifyScreen() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [errorMsg, setErrorMsg] = useState('');
   const identifyMutation = useIdentifyPlant();
+  const saveMutation = useSavePlant();
 
   const { plants, isRefetching, refetch } = usePlantsWithDevices();
   const activePlants = plants.filter((p) => p.active);
   const libraryPlants = plants.filter((p) => !p.active);
+
+  const reset = useCallback(() => {
+    setScreenState('idle');
+    setPickedImage(null);
+    setResults([]);
+    setExpandedId(null);
+    setErrorMsg('');
+  }, []);
 
   const handleIdentify = useCallback(async (source: 'camera' | 'gallery') => {
     const image = source === 'camera'
@@ -193,21 +202,33 @@ export default function IdentifyScreen() {
     });
   }, [identifyMutation]);
 
-  const handleSave = useCallback((_result: IdentifyResult) => {
-    // Placeholder — will be wired in Step 8
-    Alert.alert(
-      'Coming Soon',
-      'Save flow will be connected in the next update. Connect a Polivalka device to save plants.',
+  const handleSave = useCallback((result: IdentifyResult) => {
+    saveMutation.mutate(
+      {
+        plant: {
+          scientific: result.scientific,
+          common_name: result.commonNames[0] ?? result.scientific,
+          family: result.family,
+          preset: result.care.preset,
+          start_pct: result.care.start_pct,
+          stop_pct: result.care.stop_pct,
+          image_url: result.images[0],
+          poisonous_to_pets: result.toxicity?.poisonous_to_pets,
+          poisonous_to_humans: result.toxicity?.poisonous_to_humans,
+          toxicity_note: result.toxicity?.toxicity_note,
+        },
+      },
+      {
+        onSuccess: () => {
+          Alert.alert('Saved!', `${result.commonNames[0] ?? result.scientific} added to My Plants.`);
+          reset();
+        },
+        onError: (err) => {
+          Alert.alert('Error', err instanceof Error ? err.message : 'Failed to save plant.');
+        },
+      },
     );
-  }, []);
-
-  const reset = () => {
-    setScreenState('idle');
-    setPickedImage(null);
-    setResults([]);
-    setExpandedId(null);
-    setErrorMsg('');
-  };
+  }, [saveMutation, reset]);
 
   return (
     <SafeAreaView style={styles.container} edges={['bottom']}>
