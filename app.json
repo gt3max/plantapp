@@ -2,7 +2,7 @@
   "expo": {
     "name": "PlantApp",
     "slug": "plantapp",
-    "version": "0.1.3",
+    "version": "0.3.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "plantapp",
@@ -31,7 +31,14 @@
     },
     "plugins": [
       "expo-router",
-      "expo-secure-store"
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Allow PlantApp to take photos of plants for identification",
+          "photosPermission": "Allow PlantApp to select plant photos for identification"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true

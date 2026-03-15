@@ -52,7 +52,7 @@ export default function TabLayout() {
         options={{
           title: 'Fleet',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="hardware-chip-outline" size={size} color={color} />
+            <Ionicons name="cube-outline" size={size} color={color} />
           ),
         }}
       />

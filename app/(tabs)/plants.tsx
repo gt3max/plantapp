@@ -1,173 +1,182 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   View,
   Text,
   StyleSheet,
   ScrollView,
-  RefreshControl,
+  Image,
   TouchableOpacity,
+  TextInput,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { usePlantsWithDevices } from '../../src/features/plants/api/plants-api';
-import { Button } from '../../src/components/ui/Button';
 import { Card } from '../../src/components/ui/Card';
 import { Badge } from '../../src/components/ui/Badge';
-import { ProgressBar } from '../../src/components/ui/ProgressBar';
-import { Colors, Spacing, FontSize } from '../../src/constants/colors';
-import type { PlantWithDevice } from '../../src/types/plant';
+import { Colors, Spacing, FontSize, BorderRadius } from '../../src/constants/colors';
+import { POPULAR_PLANTS, CATEGORIES } from '../../src/constants/popular-plants';
+import type { PopularPlant } from '../../src/constants/popular-plants';
 
-function moistureColor(pct: number): string {
-  if (pct < 20) return Colors.error;
-  if (pct < 40) return Colors.warning;
-  return Colors.accent;
+// --- Category Tile ---
+function CategoryTile({
+  label,
+  icon,
+  count,
+  selected,
+  onPress,
+}: {
+  label: string;
+  icon: string;
+  count: number;
+  selected: boolean;
+  onPress: () => void;
+}) {
+  return (
+    <TouchableOpacity
+      activeOpacity={0.7}
+      onPress={onPress}
+      style={[styles.categoryTile, selected && styles.categoryTileSelected]}
+    >
+      <Text style={styles.categoryEmoji}>{icon}</Text>
+      <Text style={[styles.categoryLabel, selected && styles.categoryLabelSelected]}>
+        {label}
+      </Text>
+      <Text style={styles.categoryCount}>{count}</Text>
+    </TouchableOpacity>
+  );
 }
 
-function PlantCard({ plant }: { plant: PlantWithDevice }) {
+// --- Plant List Item ---
+function PlantListItem({ plant }: { plant: PopularPlant }) {
   const router = useRouter();
-  const name = plant.common_name || plant.scientific || 'Unknown plant';
-  const moisture = plant.moisture_pct;
-  const hasDevice = plant.active && plant.device_id;
 
   return (
     <TouchableOpacity
       activeOpacity={0.7}
-      onPress={() => {
-        if (hasDevice) router.push(`/device/${plant.device_id}`);
-      }}
+      onPress={() => router.push(`/plant/${plant.id}`)}
     >
       <Card style={styles.plantCard}>
-        {/* Plant info — primary */}
-        <View style={styles.plantHeader}>
-          <View style={styles.plantIconWrap}>
-            <Ionicons name="leaf" size={24} color={Colors.accent} />
-          </View>
+        <View style={styles.plantRow}>
+          {plant.image_url ? (
+            <Image source={{ uri: plant.image_url }} style={styles.plantImage} />
+          ) : (
+            <View style={[styles.plantImage, styles.imagePlaceholder]}>
+              <Ionicons name="leaf" size={20} color={Colors.accent} />
+            </View>
+          )}
           <View style={styles.plantInfo}>
-            <Text style={styles.plantName}>{name}</Text>
-            {plant.scientific && plant.common_name && (
-              <Text style={styles.scientificName}>{plant.scientific}</Text>
-            )}
-            {plant.preset && (
-              <Text style={styles.presetLabel}>{plant.preset}</Text>
-            )}
+            <Text style={styles.plantScientific}>{plant.scientific}</Text>
+            <Text style={styles.plantCommon}>{plant.common_name}</Text>
+            <Text style={styles.plantFamily}>{plant.family}</Text>
           </View>
-          {!plant.active && (
-            <Badge text="Archived" variant="neutral" size="sm" />
+          <Ionicons name="chevron-forward" size={16} color={Colors.textSecondary} />
+        </View>
+        <View style={styles.badgeRow}>
+          <Badge text={plant.preset} variant="success" size="sm" />
+          {plant.poisonous_to_pets ? (
+            <Badge text="Toxic to pets" variant="error" size="sm" />
+          ) : (
+            <Badge text="Pet safe" variant="success" size="sm" />
           )}
         </View>
-
-        {/* Moisture bar — live data from attached device */}
-        {hasDevice && moisture !== null && moisture !== undefined ? (
-          <View style={styles.moistureRow}>
-            <Ionicons name="water" size={14} color={moistureColor(moisture)} />
-            <Text style={styles.moistureValue}>{moisture}%</Text>
-            <View style={styles.moistureBar}>
-              <ProgressBar value={moisture} color={moistureColor(moisture)} />
-            </View>
-            {plant.start_pct != null && plant.stop_pct != null && (
-              <Text style={styles.moistureRange}>
-                {plant.start_pct}-{plant.stop_pct}%
-              </Text>
-            )}
-          </View>
-        ) : !hasDevice ? (
-          <Text style={styles.noDevice}>No device attached</Text>
-        ) : (
-          <Text style={styles.noDevice}>No sensor data</Text>
-        )}
-
-        {/* Device badge — secondary (only if attached) */}
-        {hasDevice && (
-          <View style={styles.deviceBadge}>
-            <Ionicons name="hardware-chip-outline" size={12} color={Colors.textSecondary} />
-            <Text style={styles.deviceBadgeText}>{plant.device_id}</Text>
-            <Badge
-              text={plant.device_online ? 'Online' : 'Offline'}
-              variant={plant.device_online ? 'success' : 'neutral'}
-              size="sm"
-            />
-            {plant.device_mode && (
-              <>
-                <Ionicons
-                  name={(plant.device_mode === 'sensor' ? 'water-outline' : plant.device_mode === 'timer' ? 'timer-outline' : 'hand-left-outline') as keyof typeof Ionicons.glyphMap}
-                  size={12}
-                  color={Colors.primary}
-                />
-                <Text style={styles.deviceBadgeMode}>
-                  {plant.device_mode === 'sensor' ? 'Sensor' : plant.device_mode === 'timer' ? 'Timer' : 'Manual'}
-                </Text>
-              </>
-            )}
-          </View>
-        )}
       </Card>
     </TouchableOpacity>
   );
 }
 
-export default function PlantsScreen() {
-  const { plants, isRefetching, refetch } = usePlantsWithDevices();
+// --- Main Screen ---
+export default function LibraryScreen() {
+  const [search, setSearch] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  const activePlants = plants.filter((p) => p.active);
-  const libraryPlants = plants.filter((p) => !p.active);
+  const filteredPlants = useMemo(() => {
+    let list = POPULAR_PLANTS;
+
+    if (selectedCategory) {
+      list = list.filter((p) => p.category === selectedCategory);
+    }
+
+    if (search.trim()) {
+      const q = search.toLowerCase().trim();
+      list = list.filter(
+        (p) =>
+          p.scientific.toLowerCase().includes(q) ||
+          p.common_name.toLowerCase().includes(q) ||
+          p.family.toLowerCase().includes(q),
+      );
+    }
+
+    return list;
+  }, [search, selectedCategory]);
+
+  const handleCategoryPress = (key: string) => {
+    setSelectedCategory(selectedCategory === key ? null : key);
+  };
 
   return (
     <SafeAreaView style={styles.container} edges={['bottom']}>
-      <ScrollView
-        contentContainerStyle={styles.scroll}
-        refreshControl={
-          <RefreshControl refreshing={isRefetching} onRefresh={refetch} tintColor={Colors.primary} />
-        }
-      >
-        {/* Identify buttons */}
-        <View style={styles.identifyRow}>
-          <Button
-            title="Take Photo"
-            onPress={() => {}}
-            variant="outline"
-            style={styles.identifyBtn}
-            icon={<Ionicons name="camera-outline" size={18} color={Colors.primary} />}
+      <ScrollView contentContainerStyle={styles.scroll}>
+        {/* Search */}
+        <View style={styles.searchBar}>
+          <Ionicons name="search" size={18} color={Colors.textSecondary} />
+          <TextInput
+            style={styles.searchInput}
+            placeholder="Search plants..."
+            placeholderTextColor={Colors.textSecondary}
+            value={search}
+            onChangeText={setSearch}
+            autoCapitalize="none"
+            autoCorrect={false}
           />
-          <Button
-            title="From Gallery"
-            onPress={() => {}}
-            variant="outline"
-            style={styles.identifyBtn}
-            icon={<Ionicons name="image-outline" size={18} color={Colors.primary} />}
-          />
+          {search.length > 0 && (
+            <TouchableOpacity onPress={() => setSearch('')}>
+              <Ionicons name="close-circle" size={18} color={Colors.textSecondary} />
+            </TouchableOpacity>
+          )}
         </View>
 
-        {/* Active plants */}
+        {/* Categories */}
+        <Text style={styles.sectionTitle}>Categories</Text>
+        <View style={styles.categoryGrid}>
+          {CATEGORIES.map((cat) => (
+            <CategoryTile
+              key={cat.key}
+              label={cat.label}
+              icon={cat.icon}
+              count={cat.count}
+              selected={selectedCategory === cat.key}
+              onPress={() => handleCategoryPress(cat.key)}
+            />
+          ))}
+        </View>
+
+        {/* Plants list */}
         <Text style={styles.sectionTitle}>
-          My Plants ({activePlants.length})
+          {selectedCategory
+            ? `${CATEGORIES.find((c) => c.key === selectedCategory)?.label ?? 'Plants'} (${filteredPlants.length})`
+            : `Popular Plants (${filteredPlants.length})`}
         </Text>
 
-        {activePlants.length === 0 && (
+        {filteredPlants.length === 0 ? (
           <Card style={styles.emptyCard}>
-            <Text style={styles.emptyEmoji}>🌿</Text>
-            <Text style={styles.emptyTitle}>No plants yet</Text>
-            <Text style={styles.emptyText}>
-              Identify a plant by photo or connect a Polivalka device.
-            </Text>
+            <Ionicons name="search-outline" size={40} color={Colors.textSecondary} />
+            <Text style={styles.emptyTitle}>No plants found</Text>
+            <Text style={styles.emptyText}>Try a different search or category</Text>
           </Card>
+        ) : (
+          filteredPlants.map((plant) => (
+            <PlantListItem key={plant.id} plant={plant} />
+          ))
         )}
 
-        {activePlants.map((plant) => (
-          <PlantCard key={plant.plant_id} plant={plant} />
-        ))}
-
-        {/* Library (archived) */}
-        {libraryPlants.length > 0 && (
-          <>
-            <Text style={[styles.sectionTitle, { marginTop: Spacing.lg }]}>
-              Library ({libraryPlants.length})
-            </Text>
-            {libraryPlants.map((plant) => (
-              <PlantCard key={plant.plant_id} plant={plant} />
-            ))}
-          </>
-        )}
+        {/* Coming soon */}
+        <Card style={styles.comingSoonCard}>
+          <Ionicons name="library-outline" size={32} color={Colors.accent} />
+          <Text style={styles.comingSoonTitle}>100,000+ plants coming soon</Text>
+          <Text style={styles.comingSoonText}>
+            We're building the most complete free plant encyclopedia.
+          </Text>
+        </Card>
       </ScrollView>
     </SafeAreaView>
   );
@@ -175,53 +184,113 @@ export default function PlantsScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: Colors.background },
-  scroll: { padding: Spacing.lg },
-  identifyRow: { flexDirection: 'row', gap: Spacing.md, marginBottom: Spacing.xl },
-  identifyBtn: { flex: 1 },
+  scroll: { padding: Spacing.lg, paddingBottom: 40 },
+
+  // Search
+  searchBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: Colors.surface,
+    borderRadius: BorderRadius.lg,
+    paddingHorizontal: Spacing.md,
+    paddingVertical: Spacing.sm,
+    marginBottom: Spacing.lg,
+    borderWidth: 1,
+    borderColor: Colors.border,
+  },
+  searchInput: {
+    flex: 1,
+    fontSize: FontSize.md,
+    color: Colors.text,
+    marginLeft: Spacing.sm,
+    paddingVertical: 4,
+  },
+
+  // Section
   sectionTitle: {
     fontSize: FontSize.lg,
     fontWeight: '600',
     color: Colors.text,
     marginBottom: Spacing.md,
   },
-  plantCard: { marginBottom: Spacing.md },
-  plantHeader: {
+
+  // Categories
+  categoryGrid: {
     flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: Spacing.sm,
+    flexWrap: 'wrap',
+    gap: Spacing.sm,
+    marginBottom: Spacing.xl,
   },
-  plantIconWrap: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
+  categoryTile: {
+    width: '31%',
+    backgroundColor: Colors.surface,
+    borderRadius: BorderRadius.lg,
+    paddingVertical: Spacing.md,
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: Colors.border,
+  },
+  categoryTileSelected: {
+    borderColor: Colors.primary,
+    backgroundColor: '#E8F5E9',
+  },
+  categoryEmoji: { fontSize: 28, marginBottom: Spacing.xs },
+  categoryLabel: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.text },
+  categoryLabelSelected: { color: Colors.primary },
+  categoryCount: { fontSize: FontSize.xs, color: Colors.textSecondary, marginTop: 2 },
+
+  // Plant card
+  plantCard: { marginBottom: Spacing.sm },
+  plantRow: { flexDirection: 'row', alignItems: 'center' },
+  plantImage: {
+    width: 52,
+    height: 52,
+    borderRadius: BorderRadius.md,
+    marginRight: Spacing.md,
+  },
+  imagePlaceholder: {
     backgroundColor: Colors.background,
     alignItems: 'center',
     justifyContent: 'center',
-    marginRight: Spacing.md,
   },
   plantInfo: { flex: 1 },
-  plantName: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text },
-  scientificName: { fontSize: FontSize.sm, color: Colors.textSecondary, fontStyle: 'italic', marginTop: 2 },
-  presetLabel: { fontSize: FontSize.xs, color: Colors.primary, marginTop: 2 },
-  moistureRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
+  plantScientific: {
+    fontSize: FontSize.md,
+    fontWeight: '600',
+    color: Colors.text,
+    fontStyle: 'italic',
+  },
+  plantCommon: { fontSize: FontSize.sm, color: Colors.textSecondary },
+  plantFamily: { fontSize: FontSize.xs, color: Colors.textSecondary, marginTop: 2 },
+  badgeRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 4, marginTop: Spacing.sm },
+
+  // Empty
+  emptyCard: { alignItems: 'center', paddingVertical: Spacing.xxxl },
+  emptyTitle: {
+    fontSize: FontSize.lg,
+    fontWeight: '600',
+    color: Colors.text,
+    marginTop: Spacing.md,
     marginBottom: Spacing.sm,
   },
-  moistureValue: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.text, width: 32 },
-  moistureBar: { flex: 1 },
-  moistureRange: { fontSize: FontSize.xs, color: Colors.textSecondary },
-  noDevice: { fontSize: FontSize.sm, color: Colors.textSecondary, marginBottom: Spacing.sm },
-  deviceBadge: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 4,
-  },
-  deviceBadgeText: { fontSize: FontSize.xs, color: Colors.textSecondary },
-  deviceBadgeMode: { fontSize: FontSize.xs, color: Colors.primary, fontWeight: '500' },
-  emptyCard: { alignItems: 'center', paddingVertical: Spacing.xxxl },
-  emptyEmoji: { fontSize: 48, marginBottom: Spacing.lg },
-  emptyTitle: { fontSize: FontSize.lg, fontWeight: '600', color: Colors.text, marginBottom: Spacing.sm },
   emptyText: { fontSize: FontSize.md, color: Colors.textSecondary, textAlign: 'center' },
+
+  // Coming soon
+  comingSoonCard: {
+    alignItems: 'center',
+    paddingVertical: Spacing.xxl,
+    marginTop: Spacing.lg,
+  },
+  comingSoonTitle: {
+    fontSize: FontSize.md,
+    fontWeight: '600',
+    color: Colors.text,
+    marginTop: Spacing.md,
+    marginBottom: Spacing.xs,
+  },
+  comingSoonText: {
+    fontSize: FontSize.sm,
+    color: Colors.textSecondary,
+    textAlign: 'center',
+  },
 });

@@ -32,6 +32,7 @@ export const PLANT_ENDPOINTS = {
   identify: '/plants/identify',
   care: '/plants/care',
   library: '/plants/library',
+  save: '/plants/save',
 } as const;
 
 // Token refresh buffer (5 minutes before expiry)

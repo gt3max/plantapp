@@ -25,7 +25,6 @@ export interface PlantEntry {
 
 // Enriched plant for UI (plant + live device data)
 export interface PlantWithDevice extends PlantEntry {
-  // Live data from device (if active)
   moisture_pct?: number | null;
   battery_pct?: number | null;
   battery_charging?: boolean;
@@ -33,24 +32,57 @@ export interface PlantWithDevice extends PlantEntry {
   device_mode?: string;
 }
 
+// --- Identify API types (match backend POST /plants/identify response) ---
+
 export interface IdentifyResult {
-  name: string;
-  scientific_name: string;
-  confidence: number;
-  family?: string;
-  description?: string;
-  care?: PlantCareInfo;
-  photo_url?: string;
+  id: string;
+  scientific: string;
+  commonNames: string[];
+  family: string;
+  genus: string;
+  score: number;              // 0-100
+  images: string[];           // PlantNet reference photo URLs
+  care: IdentifyCareSummary;
+  toxicity: ToxicityInfo | null;
 }
 
-export interface PlantCareInfo {
-  light: string;
+export interface IdentifyCareSummary {
+  preset: string;             // 'Succulents' | 'Standard' | 'Tropical' | 'Herbs'
+  start_pct: number;
+  stop_pct: number;
   watering: string;
+  light: string;
   temperature: string;
   humidity: string;
-  soil: string;
-  fertilizing: string;
-  toxic_to_pets: boolean;
-  toxic_to_humans: boolean;
-  common_problems: string[];
+  tips: string;
+}
+
+export interface ToxicityInfo {
+  poisonous_to_pets: boolean;
+  poisonous_to_humans: boolean;
+  toxicity_note: string;
+}
+
+export interface IdentifyResponse {
+  success: boolean;
+  results: IdentifyResult[];
+  source: string;
+}
+
+// --- Save API types (match backend POST /plants/save) ---
+
+export interface SavePlantInput {
+  device_id: string;
+  plant: {
+    scientific: string;
+    common_name: string;
+    family?: string;
+    preset?: string;
+    start_pct?: number;
+    stop_pct?: number;
+    image_url?: string;
+    poisonous_to_pets?: boolean;
+    poisonous_to_humans?: boolean;
+    toxicity_note?: string;
+  };
 }
