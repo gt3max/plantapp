@@ -7,6 +7,7 @@ import {
   Image,
   TouchableOpacity,
   TextInput,
+  ActivityIndicator,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
@@ -15,7 +16,9 @@ import { Card } from '../../src/components/ui/Card';
 import { Badge } from '../../src/components/ui/Badge';
 import { Colors, Spacing, FontSize, BorderRadius } from '../../src/constants/colors';
 import { POPULAR_PLANTS, CATEGORIES } from '../../src/constants/popular-plants';
+import { usePlantDBSearch, usePlantDBStats } from '../../src/features/plants/api/plant-db-api';
 import type { PopularPlant } from '../../src/constants/popular-plants';
+import type { PlantDBSearchResult } from '../../src/types/plant-db';
 
 // --- Category Tile ---
 function CategoryTile({
@@ -84,34 +87,72 @@ function PlantListItem({ plant }: { plant: PopularPlant }) {
   );
 }
 
+// --- DB Search Result Item ---
+function DBSearchItem({ result }: { result: PlantDBSearchResult }) {
+  const router = useRouter();
+
+  return (
+    <TouchableOpacity
+      activeOpacity={0.7}
+      onPress={() => router.push(`/plant/${result.plant_id}`)}
+    >
+      <Card style={styles.plantCard}>
+        <View style={styles.plantRow}>
+          {result.image_url ? (
+            <Image source={{ uri: result.image_url }} style={styles.plantImage} />
+          ) : (
+            <View style={[styles.plantImage, styles.imagePlaceholder]}>
+              <Ionicons name="leaf" size={20} color={Colors.accent} />
+            </View>
+          )}
+          <View style={styles.plantInfo}>
+            <Text style={styles.plantScientific}>{result.scientific}</Text>
+            <Text style={styles.plantCommon}>{result.common_name}</Text>
+            <Text style={styles.plantFamily}>{result.family}</Text>
+          </View>
+          <Ionicons name="chevron-forward" size={16} color={Colors.textSecondary} />
+        </View>
+        <View style={styles.badgeRow}>
+          <Badge text={result.preset} variant="success" size="sm" />
+          {result.toxic_to_pets ? (
+            <Badge text="Toxic to pets" variant="error" size="sm" />
+          ) : (
+            <Badge text="Pet safe" variant="success" size="sm" />
+          )}
+        </View>
+      </Card>
+    </TouchableOpacity>
+  );
+}
+
 // --- Main Screen ---
 export default function LibraryScreen() {
   const [search, setSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
+  // Turso DB search (fires when search >= 2 chars)
+  const { data: dbResults, isLoading: dbLoading } = usePlantDBSearch(search.trim());
+  const { data: dbStats } = usePlantDBStats();
+  const isSearching = search.trim().length >= 2;
+
   const filteredPlants = useMemo(() => {
+    // When actively searching, Turso results take over
+    if (isSearching) return [];
+
     let list = POPULAR_PLANTS;
 
     if (selectedCategory) {
       list = list.filter((p) => p.category === selectedCategory);
     }
 
-    if (search.trim()) {
-      const q = search.toLowerCase().trim();
-      list = list.filter(
-        (p) =>
-          p.scientific.toLowerCase().includes(q) ||
-          p.common_name.toLowerCase().includes(q) ||
-          p.family.toLowerCase().includes(q),
-      );
-    }
-
     return list;
-  }, [search, selectedCategory]);
+  }, [selectedCategory, isSearching]);
 
   const handleCategoryPress = (key: string) => {
     setSelectedCategory(selectedCategory === key ? null : key);
   };
+
+  const totalPlants = dbStats?.total_plants ?? 25;
 
   return (
     <SafeAreaView style={styles.container} edges={['bottom']}>
@@ -121,7 +162,7 @@ export default function LibraryScreen() {
           <Ionicons name="search" size={18} color={Colors.textSecondary} />
           <TextInput
             style={styles.searchInput}
-            placeholder="Search plants..."
+            placeholder={`Search ${totalPlants.toLocaleString()} plants...`}
             placeholderTextColor={Colors.textSecondary}
             value={search}
             onChangeText={setSearch}
@@ -135,46 +176,77 @@ export default function LibraryScreen() {
           )}
         </View>
 
-        {/* Categories */}
-        <Text style={styles.sectionTitle}>Categories</Text>
-        <View style={styles.categoryGrid}>
-          {CATEGORIES.map((cat) => (
-            <CategoryTile
-              key={cat.key}
-              label={cat.label}
-              icon={cat.icon}
-              count={cat.count}
-              selected={selectedCategory === cat.key}
-              onPress={() => handleCategoryPress(cat.key)}
-            />
-          ))}
-        </View>
-
-        {/* Plants list */}
-        <Text style={styles.sectionTitle}>
-          {selectedCategory
-            ? `${CATEGORIES.find((c) => c.key === selectedCategory)?.label ?? 'Plants'} (${filteredPlants.length})`
-            : `Popular Plants (${filteredPlants.length})`}
-        </Text>
-
-        {filteredPlants.length === 0 ? (
-          <Card style={styles.emptyCard}>
-            <Ionicons name="search-outline" size={40} color={Colors.textSecondary} />
-            <Text style={styles.emptyTitle}>No plants found</Text>
-            <Text style={styles.emptyText}>Try a different search or category</Text>
-          </Card>
+        {/* Turso search results */}
+        {isSearching ? (
+          <>
+            {dbLoading ? (
+              <View style={styles.loadingRow}>
+                <ActivityIndicator size="small" color={Colors.primary} />
+                <Text style={styles.loadingText}>Searching...</Text>
+              </View>
+            ) : dbResults && dbResults.results.length > 0 ? (
+              <>
+                <Text style={styles.sectionTitle}>
+                  Results ({dbResults.count})
+                </Text>
+                {dbResults.results.map((r) => (
+                  <DBSearchItem key={r.plant_id} result={r} />
+                ))}
+              </>
+            ) : (
+              <Card style={styles.emptyCard}>
+                <Ionicons name="search-outline" size={40} color={Colors.textSecondary} />
+                <Text style={styles.emptyTitle}>No plants found</Text>
+                <Text style={styles.emptyText}>Try a different search term</Text>
+              </Card>
+            )}
+          </>
         ) : (
-          filteredPlants.map((plant) => (
-            <PlantListItem key={plant.id} plant={plant} />
-          ))
+          <>
+            {/* Categories */}
+            <Text style={styles.sectionTitle}>Categories</Text>
+            <View style={styles.categoryGrid}>
+              {CATEGORIES.map((cat) => (
+                <CategoryTile
+                  key={cat.key}
+                  label={cat.label}
+                  icon={cat.icon}
+                  count={cat.count}
+                  selected={selectedCategory === cat.key}
+                  onPress={() => handleCategoryPress(cat.key)}
+                />
+              ))}
+            </View>
+
+            {/* Plants list */}
+            <Text style={styles.sectionTitle}>
+              {selectedCategory
+                ? `${CATEGORIES.find((c) => c.key === selectedCategory)?.label ?? 'Plants'} (${filteredPlants.length})`
+                : `Popular Plants (${filteredPlants.length})`}
+            </Text>
+
+            {filteredPlants.length === 0 ? (
+              <Card style={styles.emptyCard}>
+                <Ionicons name="search-outline" size={40} color={Colors.textSecondary} />
+                <Text style={styles.emptyTitle}>No plants found</Text>
+                <Text style={styles.emptyText}>Try a different search or category</Text>
+              </Card>
+            ) : (
+              filteredPlants.map((plant) => (
+                <PlantListItem key={plant.id} plant={plant} />
+              ))
+            )}
+          </>
         )}
 
-        {/* Coming soon */}
+        {/* DB info */}
         <Card style={styles.comingSoonCard}>
           <Ionicons name="library-outline" size={32} color={Colors.accent} />
-          <Text style={styles.comingSoonTitle}>100,000+ plants coming soon</Text>
+          <Text style={styles.comingSoonTitle}>
+            {totalPlants.toLocaleString()} plants in database
+          </Text>
           <Text style={styles.comingSoonText}>
-            We're building the most complete free plant encyclopedia.
+            Growing to 100,000+ species with per-plant care data.
           </Text>
         </Card>
       </ScrollView>
@@ -274,6 +346,16 @@ const styles = StyleSheet.create({
     marginBottom: Spacing.sm,
   },
   emptyText: { fontSize: FontSize.md, color: Colors.textSecondary, textAlign: 'center' },
+
+  // Loading
+  loadingRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: Spacing.sm,
+    paddingVertical: Spacing.xxl,
+  },
+  loadingText: { fontSize: FontSize.md, color: Colors.textSecondary },
 
   // Coming soon
   comingSoonCard: {

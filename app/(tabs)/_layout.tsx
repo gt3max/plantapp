@@ -32,18 +32,27 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'My Plants',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="home-outline" size={size} color={color} />
+            <Ionicons name="leaf-outline" size={size} color={color} />
           ),
         }}
       />
       <Tabs.Screen
         name="plants"
         options={{
-          title: 'Plants',
+          title: 'Library',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="leaf-outline" size={size} color={color} />
+            <Ionicons name="library-outline" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="doctor"
+        options={{
+          title: 'AI Doctor',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="medical-outline" size={size} color={color} />
           ),
         }}
       />

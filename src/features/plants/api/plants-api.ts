@@ -1,4 +1,4 @@
-import { useQuery } from '@tanstack/react-query';
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { api } from '../../../lib/api-client';
 import { PLANT_ENDPOINTS } from '../../../constants/api';
 import { useDevices } from '../../devices/api/devices-api';
@@ -57,4 +57,21 @@ export function usePlantsWithDevices(): {
     isRefetching: plantsRefetching || devicesRefetching,
     refetch: () => { refetchPlants(); refetchDevices(); },
   };
+}
+
+/** Delete a plant (soft-delete). Supports both device plants and user-collection plants. */
+export function useDeletePlant() {
+  const queryClient = useQueryClient();
+
+  return useMutation({
+    mutationFn: async ({ deviceId, plantId }: { deviceId: string; plantId: string }) => {
+      const path = deviceId === 'user-collection'
+        ? `/plants/user-collection?plant_id=${encodeURIComponent(plantId)}`
+        : `/plants/${deviceId}?plant_id=${encodeURIComponent(plantId)}`;
+      return api.delete(path);
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['plant-library'] });
+    },
+  });
 }

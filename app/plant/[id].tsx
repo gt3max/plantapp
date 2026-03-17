@@ -6,6 +6,7 @@ import {
   ScrollView,
   Image,
   TouchableOpacity,
+  ViewStyle,
 } from 'react-native';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -16,6 +17,8 @@ import { Colors, Spacing, FontSize, BorderRadius } from '../../src/constants/col
 import { POPULAR_PLANTS } from '../../src/constants/popular-plants';
 import { PRESET_CARE } from '../../src/constants/presets';
 import { usePlantsWithDevices } from '../../src/features/plants/api/plants-api';
+import { usePlantDBDetail } from '../../src/features/plants/api/plant-db-api';
+import { dbCareToPresetCare, getCommonName } from '../../src/lib/plant-db-adapter';
 import type { PresetCare } from '../../src/constants/presets';
 
 // ─── Build plant view model from either source ───────────────────────
@@ -27,6 +30,9 @@ interface PlantVM {
   preset: string;
   plant_type: 'decorative' | 'greens' | 'fruiting';
   image_url?: string;
+  description: string;
+  difficulty: string;
+  growth_rate: string;
   poisonous_to_pets: boolean;
   poisonous_to_humans: boolean;
   toxicity_note: string;
@@ -40,17 +46,26 @@ interface PlantVM {
   device_mode?: string;
   start_pct: number;
   stop_pct: number;
+  soil_ph_min?: number;
+  soil_ph_max?: number;
 }
 
 function usePlantVM(id: string | undefined): PlantVM | null {
   const { plants } = usePlantsWithDevices();
+  // Turso DB lookup (runs for all IDs, cached 5min)
+  const { data: dbEntry } = usePlantDBDetail(id);
 
   return useMemo(() => {
     if (!id) return null;
 
+    // Priority 1: User's own plant (from DynamoDB library)
     const userPlant = plants.find((p) => p.plant_id === id);
     if (userPlant) {
-      const care = PRESET_CARE[userPlant.preset ?? 'Standard'] ?? PRESET_CARE.Standard;
+      const presetCare = PRESET_CARE[userPlant.preset ?? 'Standard'] ?? PRESET_CARE.Standard;
+      // If Turso has per-species care, merge it in (Turso > preset defaults)
+      const care = dbEntry?.care
+        ? dbCareToPresetCare(dbEntry.care, presetCare)
+        : presetCare;
       return {
         scientific: userPlant.scientific ?? '',
         common_name: userPlant.common_name ?? '',
@@ -58,6 +73,9 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         preset: userPlant.preset ?? 'Standard',
         plant_type: 'decorative' as const,
         image_url: userPlant.image_url,
+        description: dbEntry?.description ?? '',
+        difficulty: dbEntry?.care?.difficulty ?? '',
+        growth_rate: dbEntry?.care?.growth_rate ?? '',
         poisonous_to_pets: userPlant.poisonous_to_pets ?? false,
         poisonous_to_humans: userPlant.poisonous_to_humans ?? false,
         toxicity_note: userPlant.toxicity_note ?? '',
@@ -71,12 +89,43 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         device_mode: userPlant.device_mode,
         start_pct: userPlant.start_pct ?? care.start_pct,
         stop_pct: userPlant.stop_pct ?? care.stop_pct,
+        soil_ph_min: dbEntry?.care?.soil_ph_min,
+        soil_ph_max: dbEntry?.care?.soil_ph_max,
       };
     }
 
+    // Priority 2: Turso DB (per-species encyclopedia)
+    if (dbEntry) {
+      const presetCare = PRESET_CARE[dbEntry.preset] ?? PRESET_CARE.Standard;
+      const care = dbCareToPresetCare(dbEntry.care, presetCare);
+      const category = dbEntry.category as 'decorative' | 'greens' | 'fruiting';
+      return {
+        scientific: dbEntry.scientific,
+        common_name: getCommonName(dbEntry),
+        family: dbEntry.family,
+        preset: dbEntry.preset,
+        plant_type: category === 'greens' || category === 'fruiting' ? category : 'decorative',
+        image_url: dbEntry.image_url,
+        description: dbEntry.description ?? '',
+        difficulty: dbEntry.care?.difficulty ?? '',
+        growth_rate: dbEntry.care?.growth_rate ?? '',
+        poisonous_to_pets: !!dbEntry.care?.toxic_to_pets,
+        poisonous_to_humans: !!dbEntry.care?.toxic_to_humans,
+        toxicity_note: dbEntry.care?.toxicity_note ?? '',
+        care,
+        hasDevice: false,
+        start_pct: care.start_pct,
+        stop_pct: care.stop_pct,
+        soil_ph_min: dbEntry.care?.soil_ph_min,
+        soil_ph_max: dbEntry.care?.soil_ph_max,
+      };
+    }
+
+    // Priority 3: Hardcoded popular plants (offline fallback)
     const lib = POPULAR_PLANTS.find((p) => p.id === id);
     if (lib) {
-      const care = PRESET_CARE[lib.preset] ?? PRESET_CARE.Standard;
+      const presetCare = PRESET_CARE[lib.preset] ?? PRESET_CARE.Standard;
+      const care = lib.care ? { ...presetCare, ...lib.care } : presetCare;
       return {
         scientific: lib.scientific,
         common_name: lib.common_name,
@@ -84,6 +133,9 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         preset: lib.preset,
         plant_type: lib.plant_type,
         image_url: lib.image_url,
+        description: '',
+        difficulty: '',
+        growth_rate: '',
         poisonous_to_pets: lib.poisonous_to_pets,
         poisonous_to_humans: lib.poisonous_to_humans,
         toxicity_note: lib.toxicity_note,
@@ -95,7 +147,7 @@ function usePlantVM(id: string | undefined): PlantVM | null {
     }
 
     return null;
-  }, [id, plants]);
+  }, [id, plants, dbEntry]);
 }
 
 // ─── Screen ──────────────────────────────────────────────────────────
@@ -128,7 +180,7 @@ export default function PlantDetailScreen() {
       <Stack.Screen options={{ title }} />
       <ScrollView style={styles.container} contentContainerStyle={styles.scroll}>
 
-        {/* ═══ #1 IDENTIFICATION ═══ (hero + names + tags) */}
+        {/* ═══ HERO + NAMES ═══ */}
         {plant.image_url ? (
           <Image source={{ uri: plant.image_url }} style={styles.heroImage} />
         ) : (
@@ -147,10 +199,8 @@ export default function PlantDetailScreen() {
           </Text>
         </View>
 
-        {/* Quick tags (like Planta but better) */}
+        {/* Quick tags — only Toxicity + Edible/Fruiting */}
         <View style={styles.tagRow}>
-          <Badge text={care.light.split(',')[0]} variant="neutral" size="md" />
-          <Badge text={care.humidity.split(' ')[0]} variant="info" size="md" />
           {isToxic ? (
             <Badge text="Toxic" variant="error" size="md" />
           ) : (
@@ -164,12 +214,35 @@ export default function PlantDetailScreen() {
           )}
         </View>
 
-        {/* ═══ #2 WATERING ═══ */}
+        {/* ═══ LEVEL 1: #1 ABOUT ═══ */}
+        {(plant.description || plant.difficulty || plant.growth_rate) && (
+          <CareCard
+            icon="information-circle-outline"
+            iconBg="#EDE9FE"
+            iconColor="#7C3AED"
+            title="About"
+            subtitle={[plant.difficulty, plant.growth_rate].filter(Boolean).join(' \u00B7 ')}
+          >
+            {plant.description ? (
+              <Text style={styles.aboutText}>{plant.description}</Text>
+            ) : null}
+            <View style={styles.detailGrid}>
+              {plant.difficulty ? (
+                <DetailCell label="Difficulty" value={plant.difficulty} />
+              ) : null}
+              {plant.growth_rate ? (
+                <DetailCell label="Growth rate" value={plant.growth_rate} />
+              ) : null}
+            </View>
+          </CareCard>
+        )}
+
+        {/* ═══ LEVEL 1: #2 CARE (merged watering + fertilizer + soil + repot + live sensor) ═══ */}
         <CareCard
           icon="water"
           iconBg="#EBF5FF"
           iconColor={Colors.moisture}
-          title="Watering"
+          title="Care"
           subtitle={care.watering}
         >
           <ActionHint
@@ -180,8 +253,16 @@ export default function PlantDetailScreen() {
             }
           />
           <View style={styles.detailGrid}>
-            <DetailCell label="Target moisture" value={`${plant.start_pct}-${plant.stop_pct}%`} />
+            <DetailCell label="Summer" value={care.watering} />
             <DetailCell label="Winter" value={care.watering_winter} />
+          </View>
+          <View style={styles.detailGrid}>
+            <DetailCell label="Fertilizer" value={care.fertilizer} />
+            <DetailCell label="Season" value={care.fertilizer_season} />
+          </View>
+          <View style={styles.detailGrid}>
+            <DetailCell label="Soil" value={care.soil} />
+            <DetailCell label="Repot" value={care.repot} />
           </View>
 
           {/* Live moisture from device */}
@@ -197,68 +278,7 @@ export default function PlantDetailScreen() {
           )}
         </CareCard>
 
-        {/* ═══ #3 LIGHT + PPFD ═══ */}
-        <CareCard
-          icon="sunny"
-          iconBg="#FFF8E1"
-          iconColor="#F59E0B"
-          title="Light"
-          subtitle={care.light}
-        >
-          <ActionHint
-            text={
-              care.light.toLowerCase().includes('full sun')
-                ? 'Place on a sunny windowsill or balcony (6+ hours direct sun)'
-                : care.light.toLowerCase().includes('no direct')
-                  ? 'Place near a window with filtered sunlight, avoid direct rays'
-                  : 'Keep in a well-lit room with bright indirect light'
-            }
-          />
-          <Text style={styles.alsoOkText}>Also OK: {care.light_also_ok}</Text>
-
-          {/* PPFD / DLI — our unique data, Planta doesn't have this */}
-          <View style={styles.ppfdSection}>
-            <View style={styles.ppfdHeader}>
-              <Ionicons name="flash-outline" size={14} color={Colors.primary} />
-              <Text style={styles.ppfdTitle}>Light intensity (PPFD / DLI)</Text>
-            </View>
-            <View style={styles.detailGrid}>
-              <DetailCell
-                label="PPFD"
-                value={`${care.ppfd_min}-${care.ppfd_max} \u00B5mol/m\u00B2/s`}
-              />
-              <DetailCell
-                label="DLI"
-                value={`${care.dli_min}-${care.dli_max} mol/m\u00B2/day`}
-              />
-            </View>
-            <Text style={styles.ppfdHint}>
-              Use phone camera light meter to check (coming soon)
-            </Text>
-          </View>
-
-          {/* Greens: light spectrum info */}
-          {plant.plant_type === 'greens' && (
-            <View style={styles.spectrumBlock}>
-              <Ionicons name="color-wand-outline" size={14} color={Colors.primary} />
-              <Text style={styles.spectrumText}>
-                Optimal spectrum: blue + white (vegetative growth, leafy mass)
-              </Text>
-            </View>
-          )}
-
-          {/* Fruiting: spectrum changes by phase */}
-          {plant.plant_type === 'fruiting' && (
-            <View style={styles.spectrumBlock}>
-              <Ionicons name="color-wand-outline" size={14} color={Colors.primary} />
-              <Text style={styles.spectrumText}>
-                Spectrum changes by phase: blue (seedling) → balanced (vegetative) → red (flowering/fruiting)
-              </Text>
-            </View>
-          )}
-        </CareCard>
-
-        {/* ═══ #4 TOXICITY ═══ */}
+        {/* ═══ LEVEL 1: #3 TOXICITY ═══ */}
         <CareCard
           icon={isToxic ? 'warning' : 'checkmark-circle'}
           iconBg={isToxic ? '#FEE2E2' : '#DCFCE7'}
@@ -293,30 +313,30 @@ export default function PlantDetailScreen() {
           )}
         </CareCard>
 
-        {/* ═══ #5 PROBLEMS & PESTS ═══ */}
+        {/* ═══ LEVEL 1: #4 PROBLEMS & PESTS ═══ */}
         <CareCard
           icon="medkit-outline"
           iconBg="#FFF3E0"
           iconColor="#E65100"
           title="Common Problems"
-          subtitle={`${care.common_problems.length} issues · ${care.common_pests.length} pests`}
+          subtitle={`${care.common_problems.length} issues \u00B7 ${care.common_pests.length} pests`}
         >
-          {care.common_problems.map((p, i) => (
-            <View key={i} style={styles.problemRow}>
+          {care.common_problems.map((problem) => (
+            <View key={problem} style={styles.problemRow}>
               <Ionicons name="alert-circle" size={14} color={Colors.warning} />
-              <Text style={styles.problemText}>{p}</Text>
+              <Text style={styles.problemText}>{problem}</Text>
             </View>
           ))}
 
           <Text style={styles.pestSectionTitle}>Common Pests</Text>
           <View style={styles.pestRow}>
-            {care.common_pests.map((p, i) => (
-              <Badge key={i} text={p} variant="warning" size="sm" />
+            {care.common_pests.map((pest) => (
+              <Badge key={pest} text={pest} variant="warning" size="sm" />
             ))}
           </View>
         </CareCard>
 
-        {/* ═══ Greens: Harvest block ═══ */}
+        {/* ═══ LEVEL 1: #5 Greens: Harvest block ═══ */}
         {plant.plant_type === 'greens' && (
           <CareCard
             icon="nutrition-outline"
@@ -326,16 +346,10 @@ export default function PlantDetailScreen() {
             subtitle="Harvest regularly for best flavor"
           >
             <ActionHint text="Pick outer leaves first, leaving the center to grow. Harvest in the morning for best flavor." />
-            <View style={styles.spectrumBlock}>
-              <Ionicons name="flask-outline" size={14} color={Colors.primary} />
-              <Text style={styles.spectrumText}>
-                Fertilizer focus: nitrogen (N) for leafy growth
-              </Text>
-            </View>
           </CareCard>
         )}
 
-        {/* ═══ Fruiting: Harvest + Phases block ═══ */}
+        {/* ═══ LEVEL 1: #5 Fruiting: Phases block ═══ */}
         {plant.plant_type === 'fruiting' && (
           <CareCard
             icon="nutrition-outline"
@@ -347,9 +361,9 @@ export default function PlantDetailScreen() {
             <Text style={styles.phaseNote}>
               Fruiting plants have distinct phases with different watering, light, and fertilizer needs.
             </Text>
-            {['Seedling', 'Vegetative', 'Flowering', 'Fruiting', 'Dormancy'].map((phase, i) => (
-              <View key={i} style={styles.phaseRow}>
-                <View style={[styles.phaseDot, i <= 3 && { backgroundColor: Colors.accent }]} />
+            {['Seedling', 'Vegetative', 'Flowering', 'Fruiting', 'Dormancy'].map((phase) => (
+              <View key={phase} style={styles.phaseRow}>
+                <View style={[styles.phaseDot, phase !== 'Dormancy' && { backgroundColor: Colors.accent }]} />
                 <Text style={styles.phaseText}>{phase}</Text>
               </View>
             ))}
@@ -371,38 +385,82 @@ export default function PlantDetailScreen() {
             color={Colors.primary}
           />
           <Text style={styles.level2ToggleText}>
-            {level2Open ? 'Hide Advanced Care' : 'Advanced Care Guide'}
+            {level2Open ? 'Hide Advanced' : 'Advanced (instruments needed)'}
           </Text>
         </TouchableOpacity>
 
-        {/* ═══ LEVEL 2: #6-10 ═══ */}
+        {/* ═══ LEVEL 2: Advanced ═══ */}
         {level2Open && (
           <View style={styles.level2Container}>
-            {/* #6 Temperature */}
-            <Level2Row icon="thermometer-outline" title="Temperature" value={care.temperature}>
-              <Text style={styles.l2Action}>
-                Avoid cold drafts and sudden temperature changes. Keep away from AC vents.
-              </Text>
+            {/* #1 Light */}
+            <Level2Row icon="sunny-outline" title="Light" value={care.light}>
+              <Text style={styles.l2Action}>Also OK: {care.light_also_ok}</Text>
+              <View style={styles.ppfdSection}>
+                <View style={styles.ppfdHeader}>
+                  <Ionicons name="flash-outline" size={14} color={Colors.primary} />
+                  <Text style={styles.ppfdTitle}>PPFD / DLI</Text>
+                </View>
+                <View style={styles.detailGrid}>
+                  <DetailCell
+                    label="PPFD"
+                    value={`${care.ppfd_min}-${care.ppfd_max} \u00B5mol/m\u00B2/s`}
+                  />
+                  <DetailCell
+                    label="DLI"
+                    value={`${care.dli_min}-${care.dli_max} mol/m\u00B2/day`}
+                  />
+                </View>
+              </View>
+
+              {/* Spectrum info for greens/fruiting */}
+              {plant.plant_type === 'greens' && (
+                <View style={styles.spectrumBlock}>
+                  <Ionicons name="color-wand-outline" size={14} color={Colors.primary} />
+                  <Text style={styles.spectrumText}>
+                    Optimal spectrum: blue + white (vegetative growth, leafy mass)
+                  </Text>
+                </View>
+              )}
+              {plant.plant_type === 'fruiting' && (
+                <View style={styles.spectrumBlock}>
+                  <Ionicons name="color-wand-outline" size={14} color={Colors.primary} />
+                  <Text style={styles.spectrumText}>
+                    Spectrum changes by phase: blue (seedling) → balanced (vegetative) → red (flowering/fruiting)
+                  </Text>
+                </View>
+              )}
             </Level2Row>
 
-            {/* #7 Humidity */}
-            <Level2Row icon="water-outline" title="Humidity" value={care.humidity}>
+            {/* #2 Environment */}
+            <Level2Row icon="thermometer-outline" title="Environment" value={care.temperature}>
+              <View style={styles.detailGrid}>
+                <DetailCell label="Temperature" value={care.temperature} />
+                <DetailCell label="Humidity" value={care.humidity} />
+              </View>
               <Text style={styles.l2Action}>{care.humidity_action}</Text>
             </Level2Row>
 
-            {/* #8 Soil & Repotting */}
-            <Level2Row icon="layers-outline" title="Soil & Repotting" value={care.soil}>
-              <Text style={styles.l2Action}>Repot: {care.repot}. Use a pot with drainage holes.</Text>
+            {/* #3 Soil Science */}
+            <Level2Row icon="layers-outline" title="Soil Science" value={care.soil}>
+              {plant.soil_ph_min != null && plant.soil_ph_max != null && (
+                <View style={styles.detailGrid}>
+                  <DetailCell label="pH range" value={`${plant.soil_ph_min} - ${plant.soil_ph_max}`} />
+                </View>
+              )}
             </Level2Row>
 
-            {/* #9 Fertilizing */}
-            <Level2Row icon="flask-outline" title="Fertilizing" value={care.fertilizer}>
+            {/* #4 Sensor Settings */}
+            <Level2Row
+              icon="speedometer-outline"
+              title="Sensor Settings"
+              value={`Start ${plant.start_pct}% / Stop ${plant.stop_pct}%`}
+            >
               <Text style={styles.l2Action}>
-                Season: {care.fertilizer_season}. Use balanced liquid fertilizer at half strength. Stop in winter.
+                Preset: {plant.preset}. Calibrate sensor for your specific soil type.
               </Text>
             </Level2Row>
 
-            {/* #10 Tips */}
+            {/* Tips (if any, only unique content not already in Care) */}
             {care.tips ? (
               <Level2Row icon="bulb-outline" title="Pro Tips" value={care.tips} />
             ) : null}
@@ -463,10 +521,10 @@ function CareCard({
   title: string;
   subtitle: string;
   children: React.ReactNode;
-  cardStyle?: object;
+  cardStyle?: ViewStyle;
 }) {
   return (
-    <Card style={[styles.careCard, cardStyle]}>
+    <Card style={StyleSheet.flatten([styles.careCard, cardStyle])}>
       <View style={styles.careIconRow}>
         <View style={[styles.careIconCircle, { backgroundColor: iconBg }]}>
           <Ionicons name={icon} size={22} color={iconColor} />
@@ -533,7 +591,7 @@ const styles = StyleSheet.create({
   notFoundText: { fontSize: FontSize.lg, color: Colors.textSecondary, marginTop: Spacing.md },
   backLink: { fontSize: FontSize.md, color: Colors.primary, marginTop: Spacing.lg },
 
-  // #1 Identification
+  // Hero
   heroImage: { width: '100%', height: 280 },
   heroPlaceholder: { backgroundColor: Colors.surface, alignItems: 'center', justifyContent: 'center' },
   nameSection: { padding: Spacing.lg, paddingBottom: Spacing.sm },
@@ -541,6 +599,9 @@ const styles = StyleSheet.create({
   commonName: { fontSize: FontSize.lg, color: Colors.textSecondary, marginTop: 2 },
   familyLine: { fontSize: FontSize.sm, color: Colors.textSecondary, marginTop: Spacing.xs },
   tagRow: { flexDirection: 'row', flexWrap: 'wrap', gap: Spacing.sm, paddingHorizontal: Spacing.lg, marginBottom: Spacing.xl },
+
+  // About
+  aboutText: { fontSize: FontSize.sm, color: Colors.text, lineHeight: 20, marginBottom: Spacing.sm },
 
   // Care cards
   careCard: { marginHorizontal: Spacing.lg, marginBottom: Spacing.md },
@@ -553,7 +614,7 @@ const styles = StyleSheet.create({
 
   // Action hints
   actionRow: { flexDirection: 'row', alignItems: 'flex-start', gap: Spacing.sm, borderRadius: BorderRadius.md, padding: Spacing.md, marginTop: Spacing.sm },
-  actionText: { flex: 1, fontSize: FontSize.sm, lineHeight: 18 },
+  actionText: { flex: 1, fontSize: FontSize.sm, lineHeight: 20 },
 
   // Detail grid
   detailGrid: { flexDirection: 'row', gap: Spacing.lg, marginTop: Spacing.sm },
@@ -568,19 +629,18 @@ const styles = StyleSheet.create({
   liveLabel: { fontSize: FontSize.xs, color: Colors.textSecondary, flex: 1 },
   liveValue: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text },
 
-  // Light — PPFD
-  alsoOkText: { fontSize: FontSize.sm, color: Colors.textSecondary, marginTop: Spacing.sm },
-  ppfdSection: { marginTop: Spacing.md, paddingTop: Spacing.md, borderTopWidth: 1, borderTopColor: Colors.border },
-  ppfdHeader: { flexDirection: 'row', alignItems: 'center', gap: Spacing.xs, marginBottom: Spacing.sm },
+  // Light — PPFD (now in Level 2)
+  ppfdSection: { marginTop: Spacing.sm },
+  ppfdHeader: { flexDirection: 'row', alignItems: 'center', gap: Spacing.xs, marginBottom: Spacing.xs },
   ppfdTitle: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.primary },
   ppfdHint: { fontSize: FontSize.xs, color: Colors.textSecondary, fontStyle: 'italic', marginTop: Spacing.sm },
 
-  // Spectrum (greens/fruiting)
+  // Spectrum
   spectrumBlock: { flexDirection: 'row', alignItems: 'flex-start', gap: Spacing.sm, marginTop: Spacing.md, paddingTop: Spacing.md, borderTopWidth: 1, borderTopColor: Colors.border },
-  spectrumText: { flex: 1, fontSize: FontSize.sm, color: Colors.primary, lineHeight: 18 },
+  spectrumText: { flex: 1, fontSize: FontSize.sm, color: Colors.primary, lineHeight: 20 },
 
   // Toxicity
-  toxDetail: { fontSize: FontSize.sm, color: Colors.text, lineHeight: 18, marginBottom: Spacing.xs },
+  toxDetail: { fontSize: FontSize.sm, color: Colors.text, lineHeight: 20, marginBottom: Spacing.xs },
 
   // Problems & Pests
   problemRow: { flexDirection: 'row', alignItems: 'center', gap: Spacing.sm, marginTop: Spacing.sm },
@@ -588,8 +648,8 @@ const styles = StyleSheet.create({
   pestSectionTitle: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.textSecondary, marginTop: Spacing.lg, marginBottom: Spacing.sm },
   pestRow: { flexDirection: 'row', flexWrap: 'wrap', gap: Spacing.xs },
 
-  // Phases (fruiting)
-  phaseNote: { fontSize: FontSize.sm, color: Colors.textSecondary, lineHeight: 18, marginBottom: Spacing.md },
+  // Phases
+  phaseNote: { fontSize: FontSize.sm, color: Colors.textSecondary, lineHeight: 20, marginBottom: Spacing.md },
   phaseRow: { flexDirection: 'row', alignItems: 'center', gap: Spacing.sm, paddingVertical: 4 },
   phaseDot: { width: 10, height: 10, borderRadius: 5, backgroundColor: Colors.border },
   phaseText: { fontSize: FontSize.sm, color: Colors.text },
@@ -603,8 +663,8 @@ const styles = StyleSheet.create({
   l2Card: { paddingVertical: Spacing.md, borderBottomWidth: 1, borderBottomColor: Colors.border },
   l2Header: { flexDirection: 'row', alignItems: 'center', gap: Spacing.sm, marginBottom: Spacing.xs },
   l2Title: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.textSecondary },
-  l2Value: { fontSize: FontSize.md, color: Colors.text, lineHeight: 20 },
-  l2Action: { fontSize: FontSize.sm, color: Colors.textSecondary, marginTop: Spacing.xs, lineHeight: 18 },
+  l2Value: { fontSize: FontSize.md, color: Colors.text, lineHeight: 22 },
+  l2Action: { fontSize: FontSize.sm, color: Colors.textSecondary, marginTop: Spacing.xs, lineHeight: 20 },
 
   // Device
   batteryRow: { flexDirection: 'row', alignItems: 'center', gap: Spacing.sm, marginTop: Spacing.sm, paddingTop: Spacing.sm, borderTopWidth: 1, borderTopColor: Colors.border },

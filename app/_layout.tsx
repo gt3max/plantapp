@@ -3,6 +3,7 @@ import { Stack, useRouter, useSegments } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { useAuthStore } from '../src/stores/auth-store';
 
 export { ErrorBoundary } from 'expo-router';
@@ -48,20 +49,22 @@ export default function RootLayout() {
   }, []);
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <AuthGuard>
-        <Stack screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="(auth)" />
-          <Stack.Screen name="(tabs)" />
-          <Stack.Screen name="plant/[id]" options={{ headerShown: true, title: 'Plant' }} />
-          <Stack.Screen name="device/[id]" options={{ headerShown: true, title: 'Device' }} />
-          <Stack.Screen
-            name="settings"
-            options={{ presentation: 'modal', headerShown: true, title: 'Settings' }}
-          />
-        </Stack>
-        <StatusBar style="auto" />
-      </AuthGuard>
-    </QueryClientProvider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <QueryClientProvider client={queryClient}>
+        <AuthGuard>
+          <Stack screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="(auth)" />
+            <Stack.Screen name="(tabs)" />
+            <Stack.Screen name="plant/[id]" options={{ headerShown: true, title: 'Plant' }} />
+            <Stack.Screen name="device/[id]" options={{ headerShown: true, title: 'Device' }} />
+            <Stack.Screen
+              name="settings"
+              options={{ presentation: 'modal', headerShown: true, title: 'Settings' }}
+            />
+          </Stack>
+          <StatusBar style="auto" />
+        </AuthGuard>
+      </QueryClientProvider>
+    </GestureHandlerRootView>
   );
 }

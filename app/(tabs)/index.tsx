@@ -17,9 +17,10 @@ import { Button } from '../../src/components/ui/Button';
 import { Card } from '../../src/components/ui/Card';
 import { Badge } from '../../src/components/ui/Badge';
 import { ProgressBar } from '../../src/components/ui/ProgressBar';
+import { SwipeableRow } from '../../src/components/ui/SwipeableRow';
 import { Colors, Spacing, FontSize, BorderRadius } from '../../src/constants/colors';
 import { useIdentifyPlant, useSavePlant } from '../../src/features/plants/api/identify-api';
-import { usePlantsWithDevices } from '../../src/features/plants/api/plants-api';
+import { usePlantsWithDevices, useDeletePlant } from '../../src/features/plants/api/plants-api';
 import { pickImageFromCamera, pickImageFromGallery } from '../../src/lib/image-utils';
 import type { PickedImage } from '../../src/lib/image-utils';
 import type { IdentifyResult, PlantWithDevice } from '../../src/types/plant';
@@ -98,12 +99,12 @@ function ResultCard({
   );
 }
 
-// --- My Plant Card ---
+// --- My Plant Card (cleaned up) ---
 function MyPlantCard({ plant }: { plant: PlantWithDevice }) {
   const router = useRouter();
   const name = plant.common_name || plant.scientific || 'Unknown plant';
   const moisture = plant.moisture_pct;
-  const hasDevice = plant.active && plant.device_id;
+  const hasDevice = plant.active && plant.device_id && plant.device_id !== 'user-collection';
 
   return (
     <TouchableOpacity
@@ -116,7 +117,7 @@ function MyPlantCard({ plant }: { plant: PlantWithDevice }) {
             <Image source={{ uri: plant.image_url }} style={styles.plantImage} />
           ) : (
             <View style={[styles.plantImage, styles.imagePlaceholder]}>
-              <Ionicons name="leaf" size={20} color={Colors.accent} />
+              <Ionicons name="leaf" size={24} color={Colors.accent} />
             </View>
           )}
           <View style={styles.plantInfo}>
@@ -124,25 +125,20 @@ function MyPlantCard({ plant }: { plant: PlantWithDevice }) {
             {plant.scientific && plant.common_name && (
               <Text style={styles.plantScientific}>{plant.scientific}</Text>
             )}
-            {hasDevice && moisture != null ? (
+            {hasDevice && moisture != null && (
               <View style={styles.moistureRow}>
-                <Ionicons name="water" size={12} color={Colors.moisture} />
+                <Ionicons name="water" size={13} color={Colors.moisture} />
                 <Text style={styles.moistureText}>{moisture}%</Text>
                 <View style={styles.moistureBar}>
                   <ProgressBar value={moisture} color={Colors.moisture} />
                 </View>
               </View>
-            ) : !hasDevice ? (
-              <Text style={styles.noDeviceText}>No device attached</Text>
-            ) : null}
+            )}
           </View>
-          {plant.preset && (
-            <Badge text={plant.preset} variant="success" size="sm" />
-          )}
         </View>
         {hasDevice && (
           <View style={styles.deviceRow}>
-            <Ionicons name="hardware-chip-outline" size={11} color={Colors.textSecondary} />
+            <Ionicons name="hardware-chip-outline" size={12} color={Colors.textSecondary} />
             <Text style={styles.deviceText}>{plant.device_id}</Text>
             <View style={[styles.onlineDot, { backgroundColor: plant.device_online ? Colors.online : Colors.offline }]} />
           </View>
@@ -153,7 +149,7 @@ function MyPlantCard({ plant }: { plant: PlantWithDevice }) {
 }
 
 // --- Main Screen ---
-export default function IdentifyScreen() {
+export default function MyPlantsScreen() {
   const [screenState, setScreenState] = useState<ScreenState>('idle');
   const [pickedImage, setPickedImage] = useState<PickedImage | null>(null);
   const [results, setResults] = useState<IdentifyResult[]>([]);
@@ -161,10 +157,12 @@ export default function IdentifyScreen() {
   const [errorMsg, setErrorMsg] = useState('');
   const identifyMutation = useIdentifyPlant();
   const saveMutation = useSavePlant();
+  const deleteMutation = useDeletePlant();
 
   const { plants, isRefetching, refetch } = usePlantsWithDevices();
-  const activePlants = plants.filter((p) => p.active);
-  const libraryPlants = plants.filter((p) => !p.active);
+  // My Plants = active on device OR saved to collection (no device)
+  const myPlants = plants.filter((p) => p.active || p.device_id === 'user-collection');
+  const archivedPlants = plants.filter((p) => !p.active && p.device_id !== 'user-collection');
 
   const reset = useCallback(() => {
     setScreenState('idle');
@@ -186,9 +184,11 @@ export default function IdentifyScreen() {
 
     identifyMutation.mutate(image.base64, {
       onSuccess: (data) => {
-        if (data.results && data.results.length > 0) {
-          setResults(data.results);
-          setExpandedId(data.results[0].id);
+        // Filter out low-confidence results (< 1%)
+        const filtered = (data.results ?? []).filter((r) => r.score >= 1);
+        if (filtered.length > 0) {
+          setResults(filtered);
+          setExpandedId(filtered[0].id);
           setScreenState('results');
         } else {
           setErrorMsg('No plants identified. Try a clearer photo.');
@@ -212,7 +212,7 @@ export default function IdentifyScreen() {
           preset: result.care.preset,
           start_pct: result.care.start_pct,
           stop_pct: result.care.stop_pct,
-          image_url: result.images[0],
+          image_url: result.images?.[0] || '',
           poisonous_to_pets: result.toxicity?.poisonous_to_pets,
           poisonous_to_humans: result.toxicity?.poisonous_to_humans,
           toxicity_note: result.toxicity?.toxicity_note,
@@ -230,6 +230,31 @@ export default function IdentifyScreen() {
     );
   }, [saveMutation, reset]);
 
+  const handleDelete = useCallback((plant: PlantWithDevice) => {
+    const name = plant.common_name || plant.scientific || 'this plant';
+    Alert.alert(
+      'Delete Plant',
+      `Remove "${name}" from your collection?`,
+      [
+        { text: 'Cancel', style: 'cancel' },
+        {
+          text: 'Delete',
+          style: 'destructive',
+          onPress: () => {
+            deleteMutation.mutate(
+              { deviceId: plant.device_id, plantId: plant.plant_id },
+              {
+                onError: (err) => {
+                  Alert.alert('Error', err instanceof Error ? err.message : 'Failed to delete plant.');
+                },
+              },
+            );
+          },
+        },
+      ],
+    );
+  }, [deleteMutation]);
+
   return (
     <SafeAreaView style={styles.container} edges={['bottom']}>
       <ScrollView
@@ -238,31 +263,23 @@ export default function IdentifyScreen() {
           <RefreshControl refreshing={isRefetching} onRefresh={refetch} tintColor={Colors.primary} />
         }
       >
-        {/* === IDENTIFY SECTION === */}
+        {/* === COMPACT IDENTIFY BUTTONS (always visible in idle) === */}
         {screenState === 'idle' && (
-          <View style={styles.identifySection}>
-            <View style={styles.identifyIcon}>
-              <Ionicons name="leaf" size={48} color={Colors.accent} />
-            </View>
-            <Text style={styles.identifyTitle}>Identify Your Plant</Text>
-            <Text style={styles.identifySubtitle}>Take a photo or choose from gallery</Text>
+          <View style={styles.identifyRow}>
             <Button
-              title="Take Photo"
+              title="Identify"
               onPress={() => handleIdentify('camera')}
               variant="primary"
-              size="lg"
               style={styles.identifyBtn}
-              icon={<Ionicons name="camera-outline" size={20} color="#fff" />}
+              icon={<Ionicons name="camera-outline" size={18} color="#fff" />}
             />
-            <View style={styles.secondaryBtns}>
-              <Button
-                title="Gallery"
-                onPress={() => handleIdentify('gallery')}
-                variant="outline"
-                style={styles.halfBtn}
-                icon={<Ionicons name="image-outline" size={16} color={Colors.primary} />}
-              />
-            </View>
+            <Button
+              title="Gallery"
+              onPress={() => handleIdentify('gallery')}
+              variant="outline"
+              style={styles.identifyBtn}
+              icon={<Ionicons name="image-outline" size={18} color={Colors.primary} />}
+            />
           </View>
         )}
 
@@ -317,27 +334,31 @@ export default function IdentifyScreen() {
         {/* === MY PLANTS SECTION (only in idle state) === */}
         {screenState === 'idle' && (
           <>
-            {activePlants.length > 0 && (
+            {myPlants.length > 0 && (
               <>
-                <Text style={styles.sectionTitle}>My Plants ({activePlants.length})</Text>
-                {activePlants.map((plant) => (
-                  <MyPlantCard key={plant.plant_id} plant={plant} />
+                <Text style={styles.sectionTitle}>My Plants ({myPlants.length})</Text>
+                {myPlants.map((plant) => (
+                  <SwipeableRow key={plant.plant_id} onDelete={() => handleDelete(plant)}>
+                    <MyPlantCard plant={plant} />
+                  </SwipeableRow>
                 ))}
               </>
             )}
 
-            {libraryPlants.length > 0 && (
+            {archivedPlants.length > 0 && (
               <>
                 <Text style={[styles.sectionTitle, { marginTop: Spacing.xl }]}>
-                  Archive ({libraryPlants.length})
+                  Archive ({archivedPlants.length})
                 </Text>
-                {libraryPlants.map((plant) => (
-                  <MyPlantCard key={plant.plant_id} plant={plant} />
+                {archivedPlants.map((plant) => (
+                  <SwipeableRow key={plant.plant_id} onDelete={() => handleDelete(plant)}>
+                    <MyPlantCard plant={plant} />
+                  </SwipeableRow>
                 ))}
               </>
             )}
 
-            {activePlants.length === 0 && libraryPlants.length === 0 && (
+            {myPlants.length === 0 && archivedPlants.length === 0 && (
               <Card style={styles.emptyCard}>
                 <Ionicons name="leaf-outline" size={40} color={Colors.accent} />
                 <Text style={styles.emptyTitle}>No plants yet</Text>
@@ -355,19 +376,13 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: Colors.background },
   scroll: { padding: Spacing.lg, paddingBottom: 40 },
 
-  // Identify
-  identifySection: { alignItems: 'center', paddingVertical: Spacing.xxl },
-  identifyIcon: {
-    width: 80, height: 80, borderRadius: 40,
-    backgroundColor: Colors.surface, alignItems: 'center', justifyContent: 'center',
+  // Compact identify row (replaces big header)
+  identifyRow: {
+    flexDirection: 'row',
+    gap: Spacing.md,
     marginBottom: Spacing.lg,
-    shadowColor: '#000', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.1, shadowRadius: 8, elevation: 3,
   },
-  identifyTitle: { fontSize: FontSize.xxl, fontWeight: '700', color: Colors.text, marginBottom: Spacing.sm },
-  identifySubtitle: { fontSize: FontSize.md, color: Colors.textSecondary, marginBottom: Spacing.xxl },
-  identifyBtn: { width: '100%', marginBottom: Spacing.md },
-  secondaryBtns: { flexDirection: 'row', gap: Spacing.md, width: '100%' },
-  halfBtn: { flex: 1 },
+  identifyBtn: { flex: 1 },
 
   // Loading / Error
   centerSection: { alignItems: 'center', paddingVertical: Spacing.xxl },
@@ -402,14 +417,13 @@ const styles = StyleSheet.create({
   sectionTitle: { fontSize: FontSize.lg, fontWeight: '600', color: Colors.text, marginBottom: Spacing.md, marginTop: Spacing.lg },
   plantCard: { marginBottom: Spacing.sm },
   plantRow: { flexDirection: 'row', alignItems: 'center' },
-  plantImage: { width: 44, height: 44, borderRadius: BorderRadius.md, marginRight: Spacing.md },
+  plantImage: { width: 56, height: 56, borderRadius: BorderRadius.md, marginRight: Spacing.md },
   plantInfo: { flex: 1 },
   plantName: { fontSize: FontSize.md, fontWeight: '600', color: Colors.text },
   plantScientific: { fontSize: FontSize.xs, color: Colors.textSecondary, fontStyle: 'italic' },
   moistureRow: { flexDirection: 'row', alignItems: 'center', gap: 4, marginTop: 3 },
   moistureText: { fontSize: FontSize.xs, color: Colors.text, fontWeight: '500', width: 28 },
   moistureBar: { flex: 1, maxWidth: 100 },
-  noDeviceText: { fontSize: FontSize.xs, color: Colors.textSecondary, marginTop: 2 },
   deviceRow: { flexDirection: 'row', alignItems: 'center', gap: 4, marginTop: Spacing.xs },
   deviceText: { fontSize: FontSize.xs, color: Colors.textSecondary },
   onlineDot: { width: 6, height: 6, borderRadius: 3 },

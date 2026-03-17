@@ -51,13 +51,13 @@ export const Spacing = {
 } as const;
 
 export const FontSize = {
-  xs: 11,
-  sm: 13,
-  md: 15,
-  lg: 17,
-  xl: 20,
-  xxl: 24,
-  xxxl: 32,
+  xs: 12,
+  sm: 14,
+  md: 16,
+  lg: 18,
+  xl: 22,
+  xxl: 26,
+  xxxl: 34,
 } as const;
 
 export const BorderRadius = {

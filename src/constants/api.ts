@@ -35,5 +35,12 @@ export const PLANT_ENDPOINTS = {
   save: '/plants/save',
 } as const;
 
+// Plant DB endpoints (public, Turso encyclopedia)
+export const PLANT_DB_ENDPOINTS = {
+  search: '/plants/db/search',
+  detail: (id: string) => `/plants/db/${id}`,
+  stats: '/plants/db/stats',
+} as const;
+
 // Token refresh buffer (5 minutes before expiry)
 export const TOKEN_REFRESH_BUFFER_MS = 5 * 60 * 1000;
