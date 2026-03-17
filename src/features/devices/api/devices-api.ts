@@ -14,7 +14,9 @@ function normalizeSensorData(device: Device): Device {
 async function fetchDevices(): Promise<Device[]> {
   const devices = await api.get<Device[]>(DEVICE_ENDPOINTS.list);
   if (!Array.isArray(devices)) return [];
-  return devices.map(normalizeSensorData);
+  return devices
+    .filter((d) => d.device_id !== 'user-collection')
+    .map(normalizeSensorData);
 }
 
 export function useDevices() {
