@@ -15,43 +15,16 @@ import { Ionicons } from '@expo/vector-icons';
 import { Card } from '../../src/components/ui/Card';
 import { Badge } from '../../src/components/ui/Badge';
 import { Colors, Spacing, FontSize, BorderRadius } from '../../src/constants/colors';
-import { POPULAR_PLANTS, CATEGORIES } from '../../src/constants/popular-plants';
+import { POPULAR_PLANTS } from '../../src/constants/popular-plants';
 import { usePlantDBSearch, usePlantDBStats } from '../../src/features/plants/api/plant-db-api';
 import type { PopularPlant } from '../../src/constants/popular-plants';
 import type { PlantDBSearchResult } from '../../src/types/plant-db';
 
-// --- Category Tile ---
-function CategoryTile({
-  label,
-  icon,
-  count,
-  selected,
-  onPress,
-}: {
-  label: string;
-  icon: string;
-  count: number;
-  selected: boolean;
-  onPress: () => void;
-}) {
-  return (
-    <TouchableOpacity
-      activeOpacity={0.7}
-      onPress={onPress}
-      style={[styles.categoryTile, selected && styles.categoryTileSelected]}
-    >
-      <Text style={styles.categoryEmoji}>{icon}</Text>
-      <Text style={[styles.categoryLabel, selected && styles.categoryLabelSelected]}>
-        {label}
-      </Text>
-      <Text style={styles.categoryCount}>{count}</Text>
-    </TouchableOpacity>
-  );
-}
-
-// --- Plant List Item ---
+// --- Plant List Item (popular plants with rich data) ---
 function PlantListItem({ plant }: { plant: PopularPlant }) {
   const router = useRouter();
+  const diffVariant = plant.difficulty === 'Advanced' ? 'error'
+    : plant.difficulty === 'Medium' ? 'warning' : 'success';
 
   return (
     <TouchableOpacity
@@ -64,18 +37,23 @@ function PlantListItem({ plant }: { plant: PopularPlant }) {
             <Image source={{ uri: plant.image_url }} style={styles.plantImage} />
           ) : (
             <View style={[styles.plantImage, styles.imagePlaceholder]}>
-              <Ionicons name="leaf" size={20} color={Colors.accent} />
+              <Ionicons name="leaf" size={24} color={Colors.accent} />
             </View>
           )}
           <View style={styles.plantInfo}>
+            <Text style={styles.plantName}>{plant.common_name}</Text>
             <Text style={styles.plantScientific}>{plant.scientific}</Text>
-            <Text style={styles.plantCommon}>{plant.common_name}</Text>
-            <Text style={styles.plantFamily}>{plant.family}</Text>
+            <Text style={styles.plantDesc} numberOfLines={2}>{plant.description}</Text>
           </View>
           <Ionicons name="chevron-forward" size={16} color={Colors.textSecondary} />
         </View>
         <View style={styles.badgeRow}>
-          <Badge text={plant.preset} variant="success" size="sm" />
+          {plant.difficulty ? (
+            <Badge text={plant.difficulty} variant={diffVariant} size="sm" />
+          ) : null}
+          {plant.edible && (
+            <Badge text="Edible" variant="success" size="sm" />
+          )}
           {plant.poisonous_to_pets ? (
             <Badge text="Toxic to pets" variant="error" size="sm" />
           ) : (
@@ -102,18 +80,19 @@ function DBSearchItem({ result }: { result: PlantDBSearchResult }) {
             <Image source={{ uri: result.image_url }} style={styles.plantImage} />
           ) : (
             <View style={[styles.plantImage, styles.imagePlaceholder]}>
-              <Ionicons name="leaf" size={20} color={Colors.accent} />
+              <Ionicons name="leaf" size={24} color={Colors.accent} />
             </View>
           )}
           <View style={styles.plantInfo}>
-            <Text style={styles.plantScientific}>{result.scientific}</Text>
-            <Text style={styles.plantCommon}>{result.common_name}</Text>
+            <Text style={styles.plantName}>{result.common_name || result.scientific}</Text>
+            {result.common_name ? (
+              <Text style={styles.plantScientific}>{result.scientific}</Text>
+            ) : null}
             <Text style={styles.plantFamily}>{result.family}</Text>
           </View>
           <Ionicons name="chevron-forward" size={16} color={Colors.textSecondary} />
         </View>
         <View style={styles.badgeRow}>
-          <Badge text={result.preset} variant="success" size="sm" />
           {result.toxic_to_pets ? (
             <Badge text="Toxic to pets" variant="error" size="sm" />
           ) : (
@@ -128,31 +107,25 @@ function DBSearchItem({ result }: { result: PlantDBSearchResult }) {
 // --- Main Screen ---
 export default function LibraryScreen() {
   const [search, setSearch] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   // Turso DB search (fires when search >= 2 chars)
   const { data: dbResults, isLoading: dbLoading } = usePlantDBSearch(search.trim());
   const { data: dbStats } = usePlantDBStats();
   const isSearching = search.trim().length >= 2;
 
+  // Local search through popular plants when not hitting DB
   const filteredPlants = useMemo(() => {
-    // When actively searching, Turso results take over
     if (isSearching) return [];
+    const q = search.trim().toLowerCase();
+    if (!q) return POPULAR_PLANTS;
+    return POPULAR_PLANTS.filter((p) =>
+      p.common_name.toLowerCase().includes(q) ||
+      p.scientific.toLowerCase().includes(q) ||
+      p.family.toLowerCase().includes(q)
+    );
+  }, [search, isSearching]);
 
-    let list = POPULAR_PLANTS;
-
-    if (selectedCategory) {
-      list = list.filter((p) => p.category === selectedCategory);
-    }
-
-    return list;
-  }, [selectedCategory, isSearching]);
-
-  const handleCategoryPress = (key: string) => {
-    setSelectedCategory(selectedCategory === key ? null : key);
-  };
-
-  const totalPlants = dbStats?.total_plants ?? 25;
+  const totalPlants = dbStats?.total_plants ?? POPULAR_PLANTS.length;
 
   return (
     <SafeAreaView style={styles.container} edges={['bottom']}>
@@ -203,33 +176,16 @@ export default function LibraryScreen() {
           </>
         ) : (
           <>
-            {/* Categories */}
-            <Text style={styles.sectionTitle}>Categories</Text>
-            <View style={styles.categoryGrid}>
-              {CATEGORIES.map((cat) => (
-                <CategoryTile
-                  key={cat.key}
-                  label={cat.label}
-                  icon={cat.icon}
-                  count={cat.count}
-                  selected={selectedCategory === cat.key}
-                  onPress={() => handleCategoryPress(cat.key)}
-                />
-              ))}
-            </View>
-
-            {/* Plants list */}
+            {/* Plants list — no categories, just the list */}
             <Text style={styles.sectionTitle}>
-              {selectedCategory
-                ? `${CATEGORIES.find((c) => c.key === selectedCategory)?.label ?? 'Plants'} (${filteredPlants.length})`
-                : `Popular Plants (${filteredPlants.length})`}
+              Plants ({filteredPlants.length})
             </Text>
 
             {filteredPlants.length === 0 ? (
               <Card style={styles.emptyCard}>
                 <Ionicons name="search-outline" size={40} color={Colors.textSecondary} />
                 <Text style={styles.emptyTitle}>No plants found</Text>
-                <Text style={styles.emptyText}>Try a different search or category</Text>
+                <Text style={styles.emptyText}>Try a different search term</Text>
               </Card>
             ) : (
               filteredPlants.map((plant) => (
@@ -238,17 +194,6 @@ export default function LibraryScreen() {
             )}
           </>
         )}
-
-        {/* DB info */}
-        <Card style={styles.comingSoonCard}>
-          <Ionicons name="library-outline" size={32} color={Colors.accent} />
-          <Text style={styles.comingSoonTitle}>
-            {totalPlants.toLocaleString()} plants in database
-          </Text>
-          <Text style={styles.comingSoonText}>
-            Growing to 100,000+ species with per-plant care data.
-          </Text>
-        </Card>
       </ScrollView>
     </SafeAreaView>
   );
@@ -286,38 +231,13 @@ const styles = StyleSheet.create({
     marginBottom: Spacing.md,
   },
 
-  // Categories
-  categoryGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: Spacing.sm,
-    marginBottom: Spacing.xl,
-  },
-  categoryTile: {
-    width: '31%',
-    backgroundColor: Colors.surface,
-    borderRadius: BorderRadius.lg,
-    paddingVertical: Spacing.md,
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: Colors.border,
-  },
-  categoryTileSelected: {
-    borderColor: Colors.primary,
-    backgroundColor: '#E8F5E9',
-  },
-  categoryEmoji: { fontSize: 28, marginBottom: Spacing.xs },
-  categoryLabel: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.text },
-  categoryLabelSelected: { color: Colors.primary },
-  categoryCount: { fontSize: FontSize.xs, color: Colors.textSecondary, marginTop: 2 },
-
   // Plant card
   plantCard: { marginBottom: Spacing.sm },
   plantRow: { flexDirection: 'row', alignItems: 'center' },
   plantImage: {
-    width: 52,
-    height: 52,
-    borderRadius: BorderRadius.md,
+    width: 64,
+    height: 64,
+    borderRadius: BorderRadius.lg,
     marginRight: Spacing.md,
   },
   imagePlaceholder: {
@@ -326,13 +246,22 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   plantInfo: { flex: 1 },
-  plantScientific: {
+  plantName: {
     fontSize: FontSize.md,
-    fontWeight: '600',
+    fontWeight: '700',
     color: Colors.text,
+  },
+  plantScientific: {
+    fontSize: FontSize.sm,
+    color: Colors.textSecondary,
     fontStyle: 'italic',
   },
-  plantCommon: { fontSize: FontSize.sm, color: Colors.textSecondary },
+  plantDesc: {
+    fontSize: FontSize.xs,
+    color: Colors.textSecondary,
+    lineHeight: 16,
+    marginTop: 2,
+  },
   plantFamily: { fontSize: FontSize.xs, color: Colors.textSecondary, marginTop: 2 },
   badgeRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 4, marginTop: Spacing.sm },
 
@@ -356,23 +285,4 @@ const styles = StyleSheet.create({
     paddingVertical: Spacing.xxl,
   },
   loadingText: { fontSize: FontSize.md, color: Colors.textSecondary },
-
-  // Coming soon
-  comingSoonCard: {
-    alignItems: 'center',
-    paddingVertical: Spacing.xxl,
-    marginTop: Spacing.lg,
-  },
-  comingSoonTitle: {
-    fontSize: FontSize.md,
-    fontWeight: '600',
-    color: Colors.text,
-    marginTop: Spacing.md,
-    marginBottom: Spacing.xs,
-  },
-  comingSoonText: {
-    fontSize: FontSize.sm,
-    color: Colors.textSecondary,
-    textAlign: 'center',
-  },
 });

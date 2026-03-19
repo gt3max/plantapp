@@ -1,0 +1,150 @@
+[
+  {
+    "plant_id": "aloe_vera",
+    "scientific": "Aloe vera",
+    "family": "Asphodelaceae",
+    "genus": "Aloe",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Succulents",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/330px-Aloe_vera_flower_inset.png",
+    "description": "",
+    "wikidata_id": "",
+    "sources": [
+      "popular-plants.ts"
+    ],
+    "updated_at": "2026-03-16T00:41:21Z",
+    "care": {
+      "plant_id": "aloe_vera",
+      "water_frequency": "Every 2-3 weeks, soak and dry method",
+      "water_winter": "Once a month or less",
+      "water_demand": "",
+      "start_pct": 0,
+      "stop_pct": 0,
+      "light_preferred": "Bright direct sun (south window)",
+      "light_also_ok": "Bright indirect",
+      "ppfd_min": 300,
+      "ppfd_max": 800,
+      "dli_min": 10.0,
+      "dli_max": 25.0,
+      "temp_min_c": 13,
+      "temp_max_c": 27,
+      "humidity_level": "Low (30-40%)",
+      "humidity_min_pct": 30,
+      "humidity_action": "",
+      "soil_types": "Cactus/succulent mix with extra perlite",
+      "soil_ph_min": 0.0,
+      "soil_ph_max": 0.0,
+      "repot_frequency": "Every 2-3 years when rootbound",
+      "fertilizer_type": "Diluted balanced fertilizer once in spring",
+      "fertilizer_freq": "",
+      "fertilizer_season": "",
+      "height_min_cm": 0,
+      "height_max_cm": 0,
+      "lifecycle": "",
+      "difficulty": "",
+      "growth_rate": "",
+      "watering_guide": "",
+      "light_guide": "",
+      "tips": "Gel inside leaves is medicinal. Let soil dry completely. Needs lots of light to stay compact.",
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 0,
+      "toxicity_note": "Saponins cause vomiting/diarrhea in pets",
+      "common_problems": [
+        "Root rot (overwatering)",
+        "Soft/mushy leaves (too much water)",
+        "Brown tips (sunburn or underwatering)"
+      ],
+      "common_pests": [
+        "Mealybugs",
+        "Scale",
+        "Aloe mites"
+      ]
+    },
+    "common_names": {
+      "en": [
+        "Aloe Vera"
+      ]
+    },
+    "tags": [
+      "succulents"
+    ],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "haworthia_fasciata",
+    "scientific": "Haworthiopsis attenuata",
+    "family": "Asphodelaceae",
+    "genus": "Haworthiopsis",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Succulents",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Winterbourne_-_Haworthia_attenuata_%286120983526%29.jpg/330px-Winterbourne_-_Haworthia_attenuata_%286120983526%29.jpg",
+    "description": "",
+    "wikidata_id": "",
+    "sources": [
+      "popular-plants.ts"
+    ],
+    "updated_at": "2026-03-16T00:41:21Z",
+    "care": {
+      "plant_id": "haworthia_fasciata",
+      "water_frequency": "Every 2-3 weeks, let dry completely",
+      "water_winter": "Once a month",
+      "water_demand": "",
+      "start_pct": 0,
+      "stop_pct": 0,
+      "light_preferred": "Bright indirect, some direct morning sun",
+      "light_also_ok": "Medium indirect",
+      "ppfd_min": 150,
+      "ppfd_max": 500,
+      "dli_min": 6.0,
+      "dli_max": 16.0,
+      "temp_min_c": 18,
+      "temp_max_c": 27,
+      "humidity_level": "Low (30-40%)",
+      "humidity_min_pct": 30,
+      "humidity_action": "",
+      "soil_types": "Gritty succulent mix with extra perlite",
+      "soil_ph_min": 0.0,
+      "soil_ph_max": 0.0,
+      "repot_frequency": "Every 2-3 years, small pot preferred",
+      "fertilizer_type": "Once in spring with diluted cactus fertilizer",
+      "fertilizer_freq": "",
+      "fertilizer_season": "",
+      "height_min_cm": 0,
+      "height_max_cm": 0,
+      "lifecycle": "",
+      "difficulty": "",
+      "growth_rate": "",
+      "watering_guide": "",
+      "light_guide": "",
+      "tips": "White stripes are raised tubercles, not variegation. Compact and perfect for windowsills. Produces offsets for easy propagation.",
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": "",
+      "common_problems": [
+        "Brown tips (too much direct sun)",
+        "Root rot (overwatering)",
+        "Closing up (not enough light)"
+      ],
+      "common_pests": [
+        "Mealybugs",
+        "Scale"
+      ]
+    },
+    "common_names": {
+      "en": [
+        "Zebra Plant"
+      ]
+    },
+    "tags": [
+      "pet-safe",
+      "succulents"
+    ],
+    "external_ids": {}
+  }
+]

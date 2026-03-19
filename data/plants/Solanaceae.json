@@ -1,0 +1,83 @@
+[
+  {
+    "plant_id": "solanum_lycopersicum",
+    "scientific": "Solanum lycopersicum",
+    "family": "Solanaceae",
+    "genus": "Solanum",
+    "category": "fruiting",
+    "indoor": 1,
+    "edible": 1,
+    "has_phases": 1,
+    "preset": "Herbs",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Cherry_tomatoes_red_and_green_2009_16x9.jpg/330px-Cherry_tomatoes_red_and_green_2009_16x9.jpg",
+    "description": "Grow your own snack-size tomatoes on a windowsill or balcony. Cherry varieties are the easiest for indoor growing — compact, productive, and ripen fast. About 60-70 days from planting to first harvest.",
+    "wikidata_id": "",
+    "sources": [
+      "popular-plants.ts"
+    ],
+    "updated_at": "2026-03-19T00:00:00Z",
+    "care": {
+      "plant_id": "solanum_lycopersicum",
+      "water_frequency": "Every 2-3 days in summer, daily in hot weather. Consistent watering prevents cracking.",
+      "water_winter": "Not applicable — annual warm-season plant. Start new seeds in spring.",
+      "water_demand": "high",
+      "start_pct": 30,
+      "stop_pct": 45,
+      "light_preferred": "Full sun 8+ hours daily. South-facing window minimum; balcony or grow light ideal.",
+      "light_also_ok": "Bright indirect with supplemental grow light (at least 14 hours total light)",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 15.0,
+      "dli_max": 30.0,
+      "temp_min_c": 18,
+      "temp_max_c": 29,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": 40,
+      "humidity_action": "Good air circulation prevents fungal disease. Avoid wetting leaves when watering.",
+      "soil_types": "Rich, well-draining potting mix with compost. At least a 5-liter pot for bush varieties.",
+      "soil_ph_min": 6.0,
+      "soil_ph_max": 6.8,
+      "repot_frequency": "Annual plant. Pot up seedlings once when they outgrow starter pots.",
+      "fertilizer_type": "Tomato-specific fertilizer (high potassium) weekly once flowering starts. Calcium supplement prevents blossom end rot.",
+      "fertilizer_freq": "Weekly during flowering and fruiting",
+      "fertilizer_season": "From first flowers through harvest",
+      "height_min_cm": 20,
+      "height_max_cm": 100,
+      "lifecycle": "annual",
+      "difficulty": "Medium — needs lots of light and consistent feeding, but very rewarding. Bush varieties are easier indoors.",
+      "growth_rate": "Fast",
+      "watering_guide": "Water deeply until water drains from the bottom. Consistent moisture is key — fluctuations cause fruit cracking and blossom end rot. Mulch the surface to retain moisture.",
+      "light_guide": "The single most important factor. If seedlings are leggy and pale, they need more light. A grow light is almost essential for indoor growing without a south-facing window or balcony.",
+      "tips": "Choose bush/determinate varieties for indoors: Tiny Tim, Red Robin, Micro Tom. Hand-pollinate by gently shaking the plant or tapping flowers when they open. Pinch off suckers to focus energy on fruit. Harvest when fully colored.",
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 0,
+      "toxicity_note": "Ripe fruit is safe. Leaves, stems, and green unripe fruit contain solanine — mildly toxic to pets and small children if eaten in quantity.",
+      "common_problems": [
+        "Blossom end rot (black spot on bottom of fruit — calcium deficiency from inconsistent watering)",
+        "Leggy seedlings (not enough light — the #1 indoor problem, get a grow light)",
+        "Blossom drop / no fruit (too hot, too cold, or not pollinated — shake the plant daily during flowering)"
+      ],
+      "common_pests": [
+        "Aphids (green clusters on stems — blast with water or insecticidal soap)",
+        "Whiteflies (tiny white moths — yellow sticky traps)",
+        "Spider mites (in dry indoor air — mist around plant, not on leaves)"
+      ]
+    },
+    "common_names": {
+      "en": [
+        "Cherry Tomato",
+        "Tomato"
+      ],
+      "ru": [
+        "Томат черри",
+        "Помидор"
+      ]
+    },
+    "tags": [
+      "edible",
+      "fruiting",
+      "fast-growing"
+    ],
+    "external_ids": {}
+  }
+]

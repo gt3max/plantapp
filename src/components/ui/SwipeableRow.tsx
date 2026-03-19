@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { View, Text, StyleSheet, Animated } from 'react-native';
+import { View, Text, StyleSheet, Animated, TouchableOpacity } from 'react-native';
 import { Swipeable } from 'react-native-gesture-handler';
 import { Ionicons } from '@expo/vector-icons';
 import { Colors, Spacing, FontSize, BorderRadius } from '../../constants/colors';
@@ -23,25 +23,26 @@ export function SwipeableRow({ children, onDelete }: SwipeableRowProps) {
     });
 
     return (
-      <View style={styles.rightAction}>
+      <TouchableOpacity
+        activeOpacity={0.8}
+        onPress={() => {
+          swipeableRef.current?.close();
+          onDelete();
+        }}
+        style={styles.rightAction}
+      >
         <Animated.View style={[styles.deleteBtn, { transform: [{ scale }] }]}>
           <Ionicons name="trash-outline" size={22} color="#fff" />
           <Text style={styles.deleteText}>Delete</Text>
         </Animated.View>
-      </View>
+      </TouchableOpacity>
     );
-  };
-
-  const handleSwipeOpen = () => {
-    onDelete();
-    swipeableRef.current?.close();
   };
 
   return (
     <Swipeable
       ref={swipeableRef}
       renderRightActions={renderRightActions}
-      onSwipeableOpen={handleSwipeOpen}
       rightThreshold={80}
       overshootRight={false}
     >

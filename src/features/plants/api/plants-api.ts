@@ -59,15 +59,23 @@ export function usePlantsWithDevices(): {
   };
 }
 
-/** Delete a plant (soft-delete). Supports both device plants and user-collection plants. */
+/** Delete a plant (soft-delete). Supports device plants, user-collection plants, and active plants. */
 export function useDeletePlant() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: async ({ deviceId, plantId }: { deviceId: string; plantId: string }) => {
-      const path = deviceId === 'user-collection'
-        ? `/plants/user-collection?plant_id=${encodeURIComponent(plantId)}`
-        : `/plants/${deviceId}?plant_id=${encodeURIComponent(plantId)}`;
+    mutationFn: async ({ deviceId, plantId, active }: { deviceId: string; plantId: string; active?: boolean }) => {
+      let path: string;
+      if (deviceId === 'user-collection') {
+        // User-collection plants: always need plant_id
+        path = `/plants/user-collection?plant_id=${encodeURIComponent(plantId)}`;
+      } else if (active) {
+        // Active plant on device: delete without plant_id so Lambda removes the active plant
+        path = `/plants/${deviceId}`;
+      } else {
+        // Archived/library plant on device: specify plant_id to target it in plant_library
+        path = `/plants/${deviceId}?plant_id=${encodeURIComponent(plantId)}`;
+      }
       return api.delete(path);
     },
     onSuccess: () => {

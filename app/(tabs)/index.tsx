@@ -232,17 +232,25 @@ export default function MyPlantsScreen() {
 
   const handleDelete = useCallback((plant: PlantWithDevice) => {
     const name = plant.common_name || plant.scientific || 'this plant';
+    const deviceId = plant.device_id;
+
+    if (!deviceId) {
+      Alert.alert('Error', 'Cannot delete: plant has no associated device or collection.');
+      return;
+    }
+
     Alert.alert(
-      'Delete Plant',
-      `Remove "${name}" from your collection?`,
+      'Delete plant?',
+      `Remove ${name} from your collection?`,
       [
         { text: 'Cancel', style: 'cancel' },
         {
           text: 'Delete',
           style: 'destructive',
           onPress: () => {
+            console.log('[DELETE]', { deviceId, plantId: plant.plant_id, active: plant.active });
             deleteMutation.mutate(
-              { deviceId: plant.device_id, plantId: plant.plant_id },
+              { deviceId, plantId: plant.plant_id, active: plant.active },
               {
                 onError: (err) => {
                   Alert.alert('Error', err instanceof Error ? err.message : 'Failed to delete plant.');

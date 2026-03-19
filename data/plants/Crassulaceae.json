@@ -1,0 +1,84 @@
+[
+  {
+    "plant_id": "crassula_ovata",
+    "scientific": "Crassula ovata",
+    "family": "Crassulaceae",
+    "genus": "Crassula",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Succulents",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Crassula_ovata_700.jpg/330px-Crassula_ovata_700.jpg",
+    "description": "The ultimate set-and-forget houseplant. Survives 2-3 weeks without water, grows into a miniature tree over the years, and looks good on any windowsill. Perfect first succulent.",
+    "wikidata_id": "",
+    "sources": [
+      "popular-plants.ts"
+    ],
+    "updated_at": "2026-03-19T00:00:00Z",
+    "care": {
+      "plant_id": "crassula_ovata",
+      "water_frequency": "Every 2-3 weeks, let soil dry completely between waterings",
+      "water_winter": "Once a month",
+      "water_demand": "low",
+      "start_pct": 15,
+      "stop_pct": 25,
+      "light_preferred": "Bright indirect to direct sun (south or west window)",
+      "light_also_ok": "Medium light (survives but grows leggy and slow)",
+      "ppfd_min": 200,
+      "ppfd_max": 600,
+      "dli_min": 8.0,
+      "dli_max": 20.0,
+      "temp_min_c": 15,
+      "temp_max_c": 24,
+      "humidity_level": "Low to average (30-50%)",
+      "humidity_min_pct": 30,
+      "humidity_action": "No misting needed. Normal apartment air is perfect.",
+      "soil_types": "Well-draining succulent mix with coarse sand or perlite. Terracotta pot helps soil dry faster.",
+      "soil_ph_min": 6.0,
+      "soil_ph_max": 7.0,
+      "repot_frequency": "Every 2-3 years. Prefers a snug pot.",
+      "fertilizer_type": "Diluted balanced fertilizer 2-3 times during spring and summer",
+      "fertilizer_freq": "2-3 times per growing season",
+      "fertilizer_season": "Spring-Summer",
+      "height_min_cm": 30,
+      "height_max_cm": 150,
+      "lifecycle": "perennial",
+      "difficulty": "Easy — forgives missed watering, only dies from overwatering or frost",
+      "growth_rate": "Slow",
+      "watering_guide": "Stick your finger 3 cm into the soil. If dry, water thoroughly until it drains from the bottom. If even slightly damp, wait another few days.",
+      "light_guide": "Place within 1 meter of a south or west-facing window for best results. Can tolerate a few hours of direct sun. Moves away from the window = leggier growth.",
+      "tips": "Overwatering is the #1 killer. When in doubt, wait another week. Develops a thick woody trunk with age — can become a stunning bonsai-like showpiece over 5-10 years.",
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 0,
+      "toxicity_note": "Toxic to cats and dogs if ingested — causes vomiting and lethargy. Keep on a high shelf if you have pets.",
+      "common_problems": [
+        "Soft, mushy leaves (overwatering — let it dry out and reduce frequency)",
+        "Dropping leaves (cold draft or overwatering)",
+        "Leggy, stretched growth (needs more light — move closer to window)"
+      ],
+      "common_pests": [
+        "Mealybugs (white cottony spots — wipe with rubbing alcohol)",
+        "Spider mites (tiny webs — increase air circulation)",
+        "Scale (brown bumps on stems — scrape off manually)"
+      ]
+    },
+    "common_names": {
+      "en": [
+        "Jade Plant",
+        "Money Tree",
+        "Lucky Plant"
+      ],
+      "ru": [
+        "Денежное дерево",
+        "Толстянка"
+      ]
+    },
+    "tags": [
+      "succulents",
+      "beginner-friendly",
+      "low-maintenance"
+    ],
+    "external_ids": {}
+  }
+]

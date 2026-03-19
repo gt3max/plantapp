@@ -1,0 +1,77 @@
+[
+  {
+    "plant_id": "calathea_orbifolia",
+    "scientific": "Calathea orbifolia",
+    "family": "Marantaceae",
+    "genus": "Calathea",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Tropical",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Calathea_orbifolia_2.jpg/330px-Calathea_orbifolia_2.jpg",
+    "description": "",
+    "wikidata_id": "",
+    "sources": [
+      "popular-plants.ts"
+    ],
+    "updated_at": "2026-03-16T00:41:21Z",
+    "care": {
+      "plant_id": "calathea_orbifolia",
+      "water_frequency": "Every 5-7 days, keep soil consistently moist",
+      "water_winter": "Every 7-10 days, slightly drier",
+      "water_demand": "",
+      "start_pct": 0,
+      "stop_pct": 0,
+      "light_preferred": "Medium indirect light, no direct sun",
+      "light_also_ok": "Low light (tolerates)",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
+      "temp_min_c": 18,
+      "temp_max_c": 24,
+      "humidity_level": "High (60-80%)",
+      "humidity_min_pct": 60,
+      "humidity_action": "Use humidifier or pebble tray. Mist with distilled water only.",
+      "soil_types": "Well-draining mix with peat, perlite, and orchid bark",
+      "soil_ph_min": 0.0,
+      "soil_ph_max": 0.0,
+      "repot_frequency": "Every 1-2 years in spring",
+      "fertilizer_type": "Monthly with balanced liquid fertilizer in growing season",
+      "fertilizer_freq": "",
+      "fertilizer_season": "",
+      "height_min_cm": 0,
+      "height_max_cm": 0,
+      "lifecycle": "",
+      "difficulty": "",
+      "growth_rate": "",
+      "watering_guide": "",
+      "light_guide": "",
+      "tips": "Use filtered/distilled water — very sensitive to fluoride. Leaves fold up at night (prayer movement). Rotate weekly for even growth.",
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": "",
+      "common_problems": [
+        "Brown edges (hard water or low humidity)",
+        "Curling leaves (underwatering)",
+        "Fading patterns (too much sun)"
+      ],
+      "common_pests": [
+        "Spider mites",
+        "Fungus gnats",
+        "Mealybugs"
+      ]
+    },
+    "common_names": {
+      "en": [
+        "Round-leaf Calathea"
+      ]
+    },
+    "tags": [
+      "pet-safe",
+      "tropical"
+    ],
+    "external_ids": {}
+  }
+]

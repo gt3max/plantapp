@@ -1,0 +1,83 @@
+[
+  {
+    "plant_id": "phalaenopsis_amabilis",
+    "scientific": "Phalaenopsis amabilis",
+    "family": "Orchidaceae",
+    "genus": "Phalaenopsis",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Tropical",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Phalaenopsis_amabilis_Orchi_198.jpg/330px-Phalaenopsis_amabilis_Orchi_198.jpg",
+    "description": "The orchid you see everywhere — and for good reason. Blooms last 2-3 months, re-blooms yearly with minimal effort. Not the diva people think.",
+    "wikidata_id": "",
+    "sources": [
+      "popular-plants.ts"
+    ],
+    "updated_at": "2026-03-19T00:00:00Z",
+    "care": {
+      "plant_id": "phalaenopsis_amabilis",
+      "water_frequency": "Every 7-10 days: soak the bark, let it drain completely",
+      "water_winter": "Every 10-14 days",
+      "water_demand": "medium",
+      "start_pct": 55,
+      "stop_pct": 75,
+      "light_preferred": "Bright indirect light — east or north-facing window",
+      "light_also_ok": "Can tolerate lower light, but may not re-bloom",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
+      "temp_min_c": 18,
+      "temp_max_c": 27,
+      "humidity_level": "Average to high (50-70%)",
+      "humidity_min_pct": 50,
+      "humidity_action": "Light misting in dry winters helps. Never let water pool in the crown — causes rot.",
+      "soil_types": "Orchid bark mix (bark, sphagnum, perlite). Never use regular potting soil — roots need air!",
+      "soil_ph_min": 5.5,
+      "soil_ph_max": 6.5,
+      "repot_frequency": "Every 2-3 years after flowering, when bark decomposes",
+      "fertilizer_type": "Orchid-specific fertilizer (20-20-20) every 2 weeks, half strength",
+      "fertilizer_freq": "Every 2 weeks during growing season",
+      "fertilizer_season": "Spring through Fall",
+      "height_min_cm": 20,
+      "height_max_cm": 60,
+      "lifecycle": "perennial",
+      "difficulty": "Easy — despite its reputation, very forgiving if you follow two rules: no soggy roots, no direct sun",
+      "growth_rate": "Slow",
+      "watering_guide": "Soak the bark for 10-15 minutes, let all water drain out completely. Roots should go from silver to green after watering. Water again when roots turn silver.",
+      "light_guide": "East-facing window is perfect. No direct afternoon sun — burns leaves. If leaves are dark green, it needs more light. Light green with slight yellow tinge = perfect.",
+      "tips": "After all flowers drop: cut the spike above the second node from the base — often triggers a second bloom. Green roots = healthy, silver roots = thirsty. Use a clear pot to see root health.",
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": "Completely non-toxic. Safe around kids and pets.",
+      "common_problems": [
+        "Bud blast / buds falling off (moved the plant or temperature shock — pick a spot and leave it)",
+        "Wrinkled leaves (roots are dead or dehydrated — check root health)",
+        "Yellow lower leaf (normal aging if one at a time. Multiple = overwatering)"
+      ],
+      "common_pests": [
+        "Mealybugs (cottony white masses near leaf joints — isolate and treat with alcohol)",
+        "Scale (brown or tan bumps — scrape off, treat with neem)",
+        "Thrips (silvery streaks on flowers — remove affected flowers)"
+      ]
+    },
+    "common_names": {
+      "en": [
+        "Moth Orchid",
+        "Phalaenopsis"
+      ],
+      "ru": [
+        "Фаленопсис",
+        "Орхидея-бабочка"
+      ]
+    },
+    "tags": [
+      "flowering",
+      "pet-safe",
+      "beginner-friendly"
+    ],
+    "external_ids": {}
+  }
+]

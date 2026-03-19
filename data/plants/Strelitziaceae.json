@@ -1,0 +1,76 @@
+[
+  {
+    "plant_id": "strelitzia_reginae",
+    "scientific": "Strelitzia reginae",
+    "family": "Strelitziaceae",
+    "genus": "Strelitzia",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Tropical",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bird_of_Paradise_flower.JPG/330px-Bird_of_Paradise_flower.JPG",
+    "description": "",
+    "wikidata_id": "",
+    "sources": [
+      "popular-plants.ts"
+    ],
+    "updated_at": "2026-03-16T00:41:21Z",
+    "care": {
+      "plant_id": "strelitzia_reginae",
+      "water_frequency": "Every 7-10 days when top 2 inches are dry",
+      "water_winter": "Every 10-14 days",
+      "water_demand": "",
+      "start_pct": 0,
+      "stop_pct": 0,
+      "light_preferred": "Bright direct to indirect light (6+ hours)",
+      "light_also_ok": "Bright indirect",
+      "ppfd_min": 200,
+      "ppfd_max": 600,
+      "dli_min": 8.0,
+      "dli_max": 20.0,
+      "temp_min_c": 18,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": 40,
+      "humidity_action": "Normal room humidity. Mist occasionally.",
+      "soil_types": "Well-draining potting mix with perlite and sand",
+      "soil_ph_min": 0.0,
+      "soil_ph_max": 0.0,
+      "repot_frequency": "Every 2-3 years, large pot needed (grows big)",
+      "fertilizer_type": "Monthly with balanced fertilizer spring-summer",
+      "fertilizer_freq": "",
+      "fertilizer_season": "",
+      "height_min_cm": 0,
+      "height_max_cm": 0,
+      "lifecycle": "",
+      "difficulty": "",
+      "growth_rate": "",
+      "watering_guide": "",
+      "light_guide": "",
+      "tips": "Dramatic bird-like flowers require maturity (5+ years) and bright light. Grows large (1.5m+). Fan-shaped leaf arrangement. Slow grower.",
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 0,
+      "toxicity_note": "Mildly toxic if ingested by pets",
+      "common_problems": [
+        "No flowers (too young, not enough light)",
+        "Brown leaves (too much direct sun)",
+        "Curling leaves (underwatering)"
+      ],
+      "common_pests": [
+        "Spider mites",
+        "Mealybugs",
+        "Scale"
+      ]
+    },
+    "common_names": {
+      "en": [
+        "Bird of Paradise"
+      ]
+    },
+    "tags": [
+      "tropical"
+    ],
+    "external_ids": {}
+  }
+]
