@@ -791,13 +791,13 @@ function WateringMethodsAccordion({ recommendedMethod }: { recommendedMethod?: s
       {WATERING_METHODS.map((method) => {
         const recommended = isRecommended(method.title);
         return (
-        <View key={method.title} style={[styles.accordionItem, recommended && styles.accordionItemRecommended]}>
+        <View key={method.title} style={styles.accordionItem}>
           <TouchableOpacity
             onPress={() => setExpanded(expanded === method.title ? null : method.title)}
             style={styles.accordionHeader}
           >
             <Text style={styles.accordionTitle}>{method.title}{recommended ? ' (Recommended)' : ''}</Text>
-            <Ionicons name={expanded === method.title ? 'chevron-up' : 'chevron-down'} size={16} color={recommended ? Colors.primary : Colors.textSecondary} />
+            <Ionicons name={expanded === method.title ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
           </TouchableOpacity>
           {expanded === method.title && (
             <View style={styles.accordionBody}>
