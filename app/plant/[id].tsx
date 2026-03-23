@@ -172,8 +172,9 @@ function usePlantVM(id: string | undefined): PlantVM | null {
 // ─── Section definitions ─────────────────────────────────────────────
 
 type SectionKey =
-  | 'water' | 'light' | 'difficulty' | 'size' | 'toxicity'
-  | 'humidity' | 'fertilizing' | 'repotting' | 'temperature' | 'about';
+  | 'water' | 'light' | 'humidity' | 'temperature' | 'toxicity'
+  | 'lifecycle' | 'used_for' | 'soil' | 'fertilizing'
+  | 'difficulty' | 'size' | 'taxonomy';
 
 interface SectionDef {
   key: SectionKey;
@@ -181,20 +182,20 @@ interface SectionDef {
 }
 
 function getSections(_plant: PlantVM): SectionDef[] {
-  const sections: SectionDef[] = [
+  return [
     { key: 'water', label: 'Water' },
     { key: 'light', label: 'Light' },
-    { key: 'difficulty', label: 'Difficulty' },
-    { key: 'toxicity', label: 'Toxicity' },
-  ];
-  sections.push(
     { key: 'humidity', label: 'Air Humidity' },
+    { key: 'temperature', label: 'Air Temperature' },
+    { key: 'toxicity', label: 'Toxicity' },
+    { key: 'lifecycle', label: 'Lifecycle' },
+    { key: 'used_for', label: 'Used for' },
+    { key: 'soil', label: 'Soil' },
     { key: 'fertilizing', label: 'Fertilizing' },
-    { key: 'repotting', label: 'Soil & Repotting' },
-    { key: 'temperature', label: 'Temperature' },
-    { key: 'about', label: 'About' },
-  );
-  return sections;
+    { key: 'difficulty', label: 'Difficulty' },
+    { key: 'size', label: 'Size' },
+    { key: 'taxonomy', label: 'Taxonomy' },
+  ];
 }
 
 // ─── Screen ──────────────────────────────────────────────────────────
@@ -422,10 +423,9 @@ export default function PlantDetailScreen() {
         {/* ═══ CHILD 4: ALL SECTIONS (long feed) ═══ */}
         <View style={styles.sectionsContainer} onLayout={onContainerLayout}>
 
-          {/* ── Water ── */}
+          {/* ── 1. Water ── */}
           <View onLayout={(e) => onSectionLayout('water', e)}>
             <SectionTitle text="Water" />
-            <FreqCircle number={care.watering.match(/\d+/)?.[0] ?? '?'} label={care.watering} />
             <InfoRow icon="water-outline" text={care.watering} sub="Summer" />
             <InfoRow icon="snow-outline" text={care.watering_winter} sub="Winter" />
             {waterDrops === 1 && (
@@ -441,60 +441,42 @@ export default function PlantDetailScreen() {
                 <ProgressBar value={plant.moisture_pct} color={Colors.moisture} />
               </View>
             )}
-            {!plant.hasDevice && (
-              <InfoBox text="Why guess when you can measure? Connect a Polivalka sensor for precise soil moisture readings." variant="info" />
-            )}
             <SectionDivider />
           </View>
 
-          {/* ── Light ── */}
+          {/* ── 2. Light ── */}
           <View onLayout={(e) => onSectionLayout('light', e)}>
             <SectionTitle text="Light" />
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
             <InfoRow icon="partly-sunny-outline" text={care.light_also_ok} sub="Also tolerates" />
             {care.light.includes('Full') || care.light.includes('Bright') ? (
-              <InfoBox text="Without enough light this plant will stretch, lose color, and eventually die. In northern regions (Oct–Mar), consider a grow light." variant="warning" />
+              <InfoBox text="Without enough light this plant will stretch, lose color, and eventually die. In northern regions (Oct\u2013Mar), consider a grow light." variant="warning" />
             ) : care.light.includes('indirect') ? (
-              <InfoBox text="Avoid direct sun — leaves can burn. A spot near a window with filtered light works best." variant="info" />
+              <InfoBox text="Avoid direct sun \u2014 leaves can burn. A spot near a window with filtered light works best." variant="info" />
             ) : (
               <InfoBox text="Low-light tolerant, but growth will slow significantly in very dark spots." variant="info" />
             )}
             <SectionDivider />
           </View>
 
-          {/* ── Difficulty ── */}
-          <View onLayout={(e) => onSectionLayout('difficulty', e)}>
-            <SectionTitle text="Difficulty" />
-            <View style={styles.difficultyRow}>
-              <DifficultyStars count={diffStars} color={diffColor} size={22} />
-              <Text style={[styles.difficultyLabel, { color: diffColor }]}>{plant.difficulty || 'Unknown'}</Text>
-            </View>
-            {plant.difficulty_note ? (
-              <InfoBox text={plant.difficulty_note} variant="info" />
-            ) : plant.difficulty === 'Easy' ? (
-              <InfoBox text="Forgiving plant — tolerates irregular watering, adapts to various light conditions. Great for beginners." variant="success" />
-            ) : plant.difficulty === 'Advanced' ? (
-              <InfoBox text="Needs precise humidity, consistent watering schedule, and specific light conditions. Not forgiving of mistakes." variant="warning" />
-            ) : (
-              <InfoBox text="Needs some attention — regular watering and decent light, but recovers from occasional neglect." variant="info" />
-            )}
-            <SectionDivider />
-          </View>
-
-          {/* ── Size ── */}
-          <View onLayout={(e) => onSectionLayout('size', e)}>
-            <SectionTitle text="Size" />
-            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `Up to ${plant.height_max_cm} cm` : 'Not specified'} sub="Max height (full grown, in ground)" />
-            <InfoRow icon="trending-up-outline" text={plant.growth_rate || 'Not specified'} sub="Growth rate" />
-            {plant.height_max_cm > 100 ? (
-              <InfoBox text={`In a pot, expect much less than ${plant.height_max_cm} cm. Pot size limits root growth which limits height. A 30 cm pot typically caps this plant at 1–2 m.`} variant="info" />
-            ) : plant.height_max_cm > 0 ? (
-              <InfoBox text="Pot size directly affects final size. Bigger pot = bigger plant. Repot when roots circle the bottom." variant="info" />
+          {/* ── 3. Air Humidity ── */}
+          <View onLayout={(e) => onSectionLayout('humidity', e)}>
+            <SectionTitle text="Air Humidity" />
+            <InfoRow icon="cloud-outline" text={care.humidity} sub="Air humidity level" />
+            {care.humidity_action ? (
+              <InfoBox text={care.humidity_action} variant="info" />
             ) : null}
             <SectionDivider />
           </View>
 
-          {/* ── Toxicity (always shown) ── */}
+          {/* ── 4. Air Temperature ── */}
+          <View onLayout={(e) => onSectionLayout('temperature', e)}>
+            <SectionTitle text="Air Temperature" />
+            <InfoRow icon="thermometer-outline" text={care.temperature} sub="Recommended range" />
+            <SectionDivider />
+          </View>
+
+          {/* ── 5. Toxicity ── */}
           <View onLayout={(e) => onSectionLayout('toxicity', e)}>
             <SectionTitle text="Toxicity" />
             {isToxic ? (
@@ -523,62 +505,87 @@ export default function PlantDetailScreen() {
             <SectionDivider />
           </View>
 
-          {/* ── Air Humidity ── */}
-          <View onLayout={(e) => onSectionLayout('humidity', e)}>
-            <SectionTitle text="Air Humidity" />
-            <InfoRow icon="cloud-outline" text={care.humidity} sub="Air humidity level" />
-            {care.humidity_action ? (
-              <InfoBox text={care.humidity_action} variant="info" />
+          {/* ── 6. Lifecycle ── */}
+          <View onLayout={(e) => onSectionLayout('lifecycle', e)}>
+            <SectionTitle text="Lifecycle" />
+            <InfoRow icon="sync-outline" text={plant.lifecycle === 'perennial' ? 'Perennial' : plant.lifecycle === 'annual' ? 'Annual' : plant.lifecycle || 'Unknown'} sub={plant.lifecycle === 'perennial' ? 'Lives for many years' : plant.lifecycle === 'annual' ? 'One growing season, then start fresh' : 'Lifecycle'} />
+            <SectionDivider />
+          </View>
+
+          {/* ── 7. Used for ── */}
+          <View onLayout={(e) => onSectionLayout('used_for', e)}>
+            <SectionTitle text="Used for" />
+            <View style={styles.chipRow}>
+              {plant.plant_type === 'decorative' && <View style={styles.chip}><Text style={styles.chipText}>Decorative</Text></View>}
+              {plant.plant_type === 'greens' && <View style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>Edible greens</Text></View>}
+              {plant.plant_type === 'fruiting' && <View style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>Fruiting</Text></View>}
+              {plant.edible && <View style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>Edible</Text></View>}
+            </View>
+            {plant.edible_parts ? (
+              <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
             ) : null}
             <SectionDivider />
           </View>
 
-          {/* ── Fertilizing ── */}
+          {/* ── 8. Soil ── */}
+          <View onLayout={(e) => onSectionLayout('soil', e)}>
+            <SectionTitle text="Soil" />
+            <InfoRow icon="layers-outline" text={care.soil} sub="Soil mix" />
+            {plant.soil_ph_min != null && plant.soil_ph_min > 0 && (
+              <InfoRow icon="flask-outline" text={`pH ${plant.soil_ph_min} \u2013 ${plant.soil_ph_max}`} sub="Soil acidity" />
+            )}
+            <InfoRow icon="resize-outline" text={care.repot} sub="Repotting" />
+            <InfoRow icon="sparkles-outline" text="Wipe leaves with a damp cloth" sub="Removes dust, helps photosynthesis" />
+            <SectionDivider />
+          </View>
+
+          {/* ── 9. Fertilizing ── */}
           <View onLayout={(e) => onSectionLayout('fertilizing', e)}>
             <SectionTitle text="Fertilizing" />
-            <FreqCircle number={care.fertilizer.match(/\d+/)?.[0] ?? '?'} label={care.fertilizer} />
             <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
             <SectionDivider />
           </View>
 
-          {/* ── Soil & Repotting ── */}
-          <View onLayout={(e) => onSectionLayout('repotting', e)}>
-            <SectionTitle text="Soil & Repotting" />
-            <InfoRow icon="resize-outline" text={care.repot} sub="Repotting" />
-            <InfoRow icon="layers-outline" text={care.soil} sub="Soil mix" />
-            {plant.soil_ph_min != null && plant.soil_ph_min > 0 && (
-              <InfoRow icon="flask-outline" text={`pH ${plant.soil_ph_min} - ${plant.soil_ph_max}`} sub="Soil acidity" />
+          {/* ── 10. Difficulty ── */}
+          <View onLayout={(e) => onSectionLayout('difficulty', e)}>
+            <SectionTitle text="Difficulty" />
+            <View style={styles.difficultyRow}>
+              <DifficultyStars count={diffStars} color={diffColor} size={22} />
+              <Text style={[styles.difficultyLabel, { color: diffColor }]}>{plant.difficulty || 'Unknown'}</Text>
+            </View>
+            {plant.difficulty_note ? (
+              <InfoBox text={plant.difficulty_note} variant="info" />
+            ) : plant.difficulty === 'Easy' ? (
+              <InfoBox text="Forgiving plant \u2014 tolerates irregular watering, adapts to various light conditions. Great for beginners." variant="success" />
+            ) : plant.difficulty === 'Advanced' ? (
+              <InfoBox text="Needs precise humidity, consistent watering schedule, and specific light conditions. Not forgiving of mistakes." variant="warning" />
+            ) : (
+              <InfoBox text="Needs some attention \u2014 regular watering and decent light, but recovers from occasional neglect." variant="info" />
             )}
-            <InfoRow icon="sparkles-outline" text="Clean leaves regularly" sub="Helps absorb more light" />
             <SectionDivider />
           </View>
 
-          {/* ── Temperature ── */}
-          <View onLayout={(e) => onSectionLayout('temperature', e)}>
-            <SectionTitle text="Temperature" />
-            <InfoRow icon="thermometer-outline" text={care.temperature} sub="Temperature range" />
+          {/* ── 11. Size ── */}
+          <View onLayout={(e) => onSectionLayout('size', e)}>
+            <SectionTitle text="Size" />
+            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `Up to ${plant.height_max_cm} cm (${Math.round(plant.height_max_cm / 2.54)}\u2033)` : 'Not specified'} sub="Max height (full grown)" />
+            <InfoRow icon="trending-up-outline" text={plant.growth_rate || 'Not specified'} sub="Growth rate" />
+            {plant.height_max_cm > 100 ? (
+              <InfoBox text={`In a pot, expect much less than ${plant.height_max_cm} cm. Pot size limits root growth which limits height.`} variant="info" />
+            ) : plant.height_max_cm > 0 ? (
+              <InfoBox text="Pot size directly affects final size. Bigger pot = bigger plant. Repot when roots circle the bottom." variant="info" />
+            ) : null}
             <SectionDivider />
           </View>
 
-          {/* ── About ── */}
-          <View onLayout={(e) => onSectionLayout('about', e)}>
-            <SectionTitle text="About" />
-            <InfoRow icon="sync-outline" text={plant.lifecycle === 'perennial' ? 'Perennial' : plant.lifecycle === 'annual' ? 'Annual' : plant.lifecycle || 'Unknown'} sub="Lifecycle" />
-            <InfoRow icon="leaf-outline" text={plant.lifecycle === 'perennial' ? 'Evergreen' : 'Seasonal'} sub="Foliage type" />
-            {plant.plant_type !== 'decorative' && (
-              <View style={styles.chipRow}>
-                {plant.plant_type === 'greens' && <View style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>Edible greens</Text></View>}
-                {plant.plant_type === 'fruiting' && <View style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>Fruiting</Text></View>}
-              </View>
-            )}
-            {plant.edible_parts ? (
-              <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
-            ) : null}
-            {plant.harvest_info ? (
-              <InfoBox text={plant.harvest_info} variant="info" />
-            ) : null}
+          {/* ── 12. Taxonomy ── */}
+          <View onLayout={(e) => onSectionLayout('taxonomy', e)}>
+            <SectionTitle text="Taxonomy" />
             <InfoRow icon="document-text-outline" text={plant.scientific} sub="Scientific name" />
             <InfoRow icon="git-branch-outline" text={plant.family} sub="Family" />
+            {plant.common_name ? (
+              <InfoRow icon="globe-outline" text={plant.common_name} sub="Common name" />
+            ) : null}
           </View>
 
         </View>
