@@ -654,11 +654,8 @@ export default function PlantDetailScreen() {
           <ScrollView contentContainerStyle={styles.modalScroll}>
             <Text style={styles.modalPlantName}>{title}</Text>
 
-            <Text style={styles.guideSectionTitle}>Frequency by season</Text>
-            <InfoRow icon="flower-outline" text={`Every ~${Math.round(baseDays * 1.6)} days`} sub="Spring" />
-            <InfoRow icon="sunny-outline" text={`Every ~${baseDays} days`} sub="Summer" />
-            <InfoRow icon="leaf-outline" text={`Every ~${Math.round(baseDays * 1.6)} days`} sub="Autumn" />
-            <InfoRow icon="snow-outline" text={`Every ~${Math.round(baseDays * 2.8)} days`} sub="Winter" />
+            <Text style={styles.guideSectionTitle}>Watering frequency</Text>
+            <WateringChart baseDays={baseDays} currentMonth={monthIndex} />
 
             <Text style={styles.guideSectionTitle}>Recommended method</Text>
             <Text style={styles.bodyText}>{plant.watering_method || care.watering}</Text>
@@ -678,6 +675,62 @@ export default function PlantDetailScreen() {
         </View>
       </Modal>
     </>
+  );
+}
+
+// ─── Watering frequency chart ────────────────────────────────────────
+
+const SEASON_COEFFS = [3.0, 2.8, 2.1, 1.6, 1.2, 1.0, 1.0, 1.0, 1.2, 1.6, 2.1, 2.8];
+const MONTH_LABELS = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+
+function WateringChart({ baseDays, currentMonth }: { baseDays: number; currentMonth: number }) {
+  const [selectedMonth, setSelectedMonth] = useState<number | null>(null);
+
+  const daysPerMonth = SEASON_COEFFS.map((c) => Math.round(baseDays * c));
+  const maxDays = Math.max(...daysPerMonth);
+
+  const activeMonth = selectedMonth ?? currentMonth;
+  const activeDays = daysPerMonth[activeMonth];
+  const activeLabel = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][activeMonth];
+
+  // Bar height: invert — more frequent (fewer days) = taller bar
+  // So bar represents "water need", not "days between"
+  const maxBarHeight = 80;
+
+  return (
+    <View>
+      <Text style={styles.chartLabel}>
+        {activeLabel}: every ~{activeDays} {activeDays === 1 ? 'day' : 'days'}
+      </Text>
+      <View style={styles.chartContainer}>
+        {daysPerMonth.map((days, i) => {
+          const barHeight = Math.max(8, maxBarHeight * (1 - (days - baseDays) / (maxDays - baseDays + 1)));
+          const isCurrent = i === currentMonth;
+          const isSelected = i === activeMonth;
+          return (
+            <TouchableOpacity
+              key={i}
+              onPress={() => setSelectedMonth(i === currentMonth ? null : i)}
+              style={styles.chartBarCol}
+              activeOpacity={0.7}
+            >
+              <View
+                style={[
+                  styles.chartBar,
+                  {
+                    height: barHeight,
+                    backgroundColor: isSelected ? Colors.primary : isCurrent ? Colors.moisture : '#D1D5DB',
+                  },
+                ]}
+              />
+              <Text style={[styles.chartMonthLabel, isCurrent && styles.chartMonthLabelActive]}>
+                {MONTH_LABELS[i]}
+              </Text>
+            </TouchableOpacity>
+          );
+        })}
+      </View>
+    </View>
   );
 }
 
@@ -947,6 +1000,14 @@ const styles = StyleSheet.create({
   stepRow: { flexDirection: 'row', marginBottom: Spacing.sm, gap: Spacing.sm },
   stepNumber: { fontSize: FontSize.sm, fontWeight: '700', color: Colors.primary, width: 20 },
   stepText: { fontSize: FontSize.sm, color: Colors.text, lineHeight: 20, flex: 1 },
+
+  // Watering chart
+  chartContainer: { flexDirection: 'row', alignItems: 'flex-end', justifyContent: 'space-between', height: 100, paddingTop: Spacing.sm },
+  chartBarCol: { alignItems: 'center', flex: 1 },
+  chartBar: { width: 16, borderRadius: 4, minHeight: 8 },
+  chartMonthLabel: { fontSize: 10, color: Colors.textSecondary, marginTop: 4, fontWeight: '500' },
+  chartMonthLabelActive: { color: Colors.primary, fontWeight: '700' },
+  chartLabel: { fontSize: FontSize.sm, color: Colors.text, fontWeight: '600', textAlign: 'center', marginBottom: Spacing.sm },
 
   // Section title
   sectionTitle: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text, marginTop: Spacing.md, marginBottom: Spacing.md },
