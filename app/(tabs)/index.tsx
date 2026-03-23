@@ -3,13 +3,13 @@ import {
   View,
   Text,
   StyleSheet,
-  ScrollView,
   Image,
   TouchableOpacity,
   ActivityIndicator,
   Alert,
   RefreshControl,
 } from 'react-native';
+import { ScrollView } from 'react-native-gesture-handler';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -232,12 +232,7 @@ export default function MyPlantsScreen() {
 
   const handleDelete = useCallback((plant: PlantWithDevice) => {
     const name = plant.common_name || plant.scientific || 'this plant';
-    const deviceId = plant.device_id;
-
-    if (!deviceId) {
-      Alert.alert('Error', 'Cannot delete: plant has no associated device or collection.');
-      return;
-    }
+    const deviceId = plant.device_id || 'user-collection';
 
     Alert.alert(
       'Delete plant?',
