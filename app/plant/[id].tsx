@@ -503,11 +503,11 @@ export default function PlantDetailScreen() {
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
             <InfoRow icon="partly-sunny-outline" text={care.light_also_ok} sub="Also tolerates" />
             {care.light.includes('Full') || care.light.includes('Bright') ? (
-              <InfoBox text="Without enough light this plant will stretch, lose color, and eventually die. In northern regions (Oct–Mar), consider a grow light." variant="warning" />
+              <InfoBox text="Needs strong light. Without it — stretches and weakens." variant="warning" />
             ) : care.light.includes('indirect') ? (
-              <InfoBox text="Avoid direct sun — leaves can burn. A spot near a window with filtered light works best." variant="info" />
+              <InfoBox text="No direct sun — leaves burn." variant="info" />
             ) : (
-              <InfoBox text="Low-light tolerant, but growth will slow significantly in very dark spots." variant="info" />
+              <InfoBox text="Low-light tolerant. Growth slows in dark spots." variant="info" />
             )}
             <TouchableOpacity onPress={() => {}} style={styles.measureLightBtn}>
               <Ionicons name="flashlight-outline" size={18} color="#fff" />
@@ -696,34 +696,31 @@ export default function PlantDetailScreen() {
           <ScrollView contentContainerStyle={styles.modalScroll}>
             <Text style={styles.guideSectionTitle}>How to light {title}</Text>
             <Text style={styles.bodyText}>{care.light.includes('Full') || care.light.includes('Bright')
-              ? `${title} needs at least 6 hours of direct sunlight daily. Place near a south-facing window with no obstructions. If your window faces east or west, supplement with a grow light.`
+              ? `South-facing window, 6+ hours direct sun. No curtains or obstructions.`
               : care.light.includes('indirect')
-              ? `${title} thrives in bright indirect light. Place near an east or west-facing window, or a few feet from a south-facing window. Avoid direct sun — it burns the leaves.`
-              : `${title} tolerates low light conditions. A north-facing window or a spot away from direct light works fine. Growth will be slower but the plant will survive.`
+              ? `East or west window, or a few feet from a south window. No direct sun.`
+              : `North-facing window or away from direct light. Grows slower but survives.`
             }</Text>
 
             {care.ppfd_min > 0 && (
               <>
                 <Text style={styles.guideSectionTitle}>Light intensity</Text>
-                <InfoRow icon="sunny-outline" text={`${care.ppfd_min}–${care.ppfd_max} PPFD`} sub="Photosynthetic light (µmol/m²/s)" />
-                <InfoRow icon="time-outline" text={`${care.dli_min}–${care.dli_max} DLI`} sub="Daily Light Integral (mol/m²/day)" />
-                <InfoBox text={care.ppfd_min >= 300
-                  ? "High light demand. A south-facing window is a must. In winter or dark apartments, a grow light makes a real difference."
-                  : care.ppfd_min >= 100
-                  ? "Moderate light. Most well-lit rooms work. Move closer to the window if you see stretching or pale leaves."
-                  : "Low light demand. This plant survives in dim corners, but will grow faster with more light."
-                } variant="info" />
+                <InfoRow icon="sunny-outline" text={`${care.ppfd_min}–${care.ppfd_max} PPFD`} sub="µmol/m²/s" />
+                <InfoRow icon="time-outline" text={`${care.dli_min}–${care.dli_max} DLI`} sub="mol/m²/day" />
               </>
             )}
 
             {(care.light.includes('Full') || care.light.includes('Bright')) && (
-              <>
-                <Text style={styles.guideSectionTitle}>Winter lighting</Text>
-                <InfoBox text={`In northern regions (above 50°N), natural daylight drops below 8 hours Oct–Mar. ${title} may need a grow light to stay healthy through winter. Look for full-spectrum LED, 12–14 hours daily.`} variant="warning" />
-              </>
+              <InfoBox text={`In northern regions Oct–Mar, ${title} may need a grow light (full-spectrum LED, 12–14h daily).`} variant="warning" />
             )}
 
-            <LightLevelsAccordion />
+            <LightLevelsAccordion recommendedLight={care.light} />
+
+            <Text style={styles.guideSectionTitle}>Signs of incorrect lighting</Text>
+            <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.sm }]}>Not enough light</Text>
+            <Text style={styles.bodyText}>{'• Leaves turn yellow and fall off\n• New leaves smaller than older ones\n• Plant stretches towards light\n• Slow, weak growth\n• Leaves far apart on stem'}</Text>
+            <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.sm }]}>Too much light</Text>
+            <Text style={styles.bodyText}>{'• Leaves drooping\n• Leaf edges dry up\n• Color fading\n• Flowers shrivel and die'}</Text>
           </ScrollView>
         </View>
       </Modal>
@@ -751,85 +748,42 @@ const LIGHT_LEVELS = [
   },
 ];
 
-const LIGHT_SIGNS = {
-  notEnough: [
-    'Leaves turn yellow and fall off',
-    'New leaves are smaller than older ones',
-    'Plant stretches towards light',
-    'Growth is slow and weak',
-    'Leaves are far apart on the stem',
-  ],
-  tooMuch: [
-    'Leaves are drooping',
-    'Leaf edges dry up and turn brown',
-    'Color fading',
-    'Flowers shrivel up and die',
-  ],
-};
 
-function LightLevelsAccordion() {
+function LightLevelsAccordion({ recommendedLight }: { recommendedLight?: string }) {
   const [expanded, setExpanded] = useState<string | null>(null);
+
+  const isRecommended = (title: string): boolean => {
+    if (!recommendedLight) return false;
+    const lower = recommendedLight.toLowerCase();
+    if (title === 'Full sun' && (lower.includes('full') || lower.includes('direct'))) return true;
+    if (title === 'Part sun, part shade' && (lower.includes('indirect') || lower.includes('part'))) return true;
+    if (title === 'Shade' && (lower.includes('low') || lower.includes('shade'))) return true;
+    return false;
+  };
 
   return (
     <View style={{ marginTop: Spacing.lg }}>
       <Text style={styles.guideSectionTitle}>Light levels</Text>
-      {LIGHT_LEVELS.map((level) => (
-        <View key={level.title} style={styles.accordionItem}>
-          <TouchableOpacity
-            onPress={() => setExpanded(expanded === level.title ? null : level.title)}
-            style={styles.accordionHeader}
-          >
-            <Text style={styles.accordionTitle}>{level.title}</Text>
-            <Ionicons name={expanded === level.title ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
-          </TouchableOpacity>
-          {expanded === level.title && (
-            <View style={styles.accordionBody}>
-              <Text style={styles.bodyText}>{level.description}</Text>
-              <Text style={[styles.bodyText, { fontStyle: 'italic', color: Colors.textSecondary }]}>Also described as: {level.also}</Text>
-            </View>
-          )}
-        </View>
-      ))}
-
-      <Text style={[styles.guideSectionTitle, { marginTop: Spacing.lg }]}>Signs of incorrect lighting</Text>
-      <View style={styles.accordionItem}>
-        <TouchableOpacity
-          onPress={() => setExpanded(expanded === 'not-enough' ? null : 'not-enough')}
-          style={styles.accordionHeader}
-        >
-          <Text style={styles.accordionTitle}>Not enough light</Text>
-          <Ionicons name={expanded === 'not-enough' ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
-        </TouchableOpacity>
-        {expanded === 'not-enough' && (
-          <View style={styles.accordionBody}>
-            {LIGHT_SIGNS.notEnough.map((sign, i) => (
-              <View key={i} style={styles.stepRow}>
-                <Text style={styles.stepNumber}>•</Text>
-                <Text style={styles.stepText}>{sign}</Text>
+      {LIGHT_LEVELS.map((level) => {
+        const recommended = isRecommended(level.title);
+        return (
+          <View key={level.title} style={styles.accordionItem}>
+            <TouchableOpacity
+              onPress={() => setExpanded(expanded === level.title ? null : level.title)}
+              style={styles.accordionHeader}
+            >
+              <Text style={styles.accordionTitle}>{level.title}{recommended ? ' (Recommended)' : ''}</Text>
+              <Ionicons name={expanded === level.title ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
+            </TouchableOpacity>
+            {expanded === level.title && (
+              <View style={styles.accordionBody}>
+                <Text style={styles.bodyText}>{level.description}</Text>
+                <Text style={[styles.bodyText, { fontStyle: 'italic', color: Colors.textSecondary }]}>Also described as: {level.also}</Text>
               </View>
-            ))}
+            )}
           </View>
-        )}
-      </View>
-      <View style={styles.accordionItem}>
-        <TouchableOpacity
-          onPress={() => setExpanded(expanded === 'too-much' ? null : 'too-much')}
-          style={styles.accordionHeader}
-        >
-          <Text style={styles.accordionTitle}>Too much light</Text>
-          <Ionicons name={expanded === 'too-much' ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
-        </TouchableOpacity>
-        {expanded === 'too-much' && (
-          <View style={styles.accordionBody}>
-            {LIGHT_SIGNS.tooMuch.map((sign, i) => (
-              <View key={i} style={styles.stepRow}>
-                <Text style={styles.stepNumber}>•</Text>
-                <Text style={styles.stepText}>{sign}</Text>
-              </View>
-            ))}
-          </View>
-        )}
-      </View>
+        );
+      })}
     </View>
   );
 }
