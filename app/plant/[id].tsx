@@ -250,6 +250,7 @@ export default function PlantDetailScreen() {
   const tabXs = useRef<Record<string, number>>({});
   const [activeSection, setActiveSection] = useState<SectionKey>('water');
   const [showWateringGuide, setShowWateringGuide] = useState(false);
+  const [showLightGuide, setShowLightGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -508,6 +509,14 @@ export default function PlantDetailScreen() {
             ) : (
               <InfoBox text="Low-light tolerant, but growth will slow significantly in very dark spots." variant="info" />
             )}
+            <TouchableOpacity onPress={() => {}} style={styles.measureLightBtn}>
+              <Ionicons name="flashlight-outline" size={18} color="#fff" />
+              <Text style={styles.measureLightText}>Measure light</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => setShowLightGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Light guide</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 3. Air Humidity ── */}
@@ -674,7 +683,154 @@ export default function PlantDetailScreen() {
           </ScrollView>
         </View>
       </Modal>
+
+      {/* ═══ LIGHT GUIDE MODAL ═══ */}
+      <Modal visible={showLightGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Light guide</Text>
+            <TouchableOpacity onPress={() => setShowLightGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>How to light {title}</Text>
+            <Text style={styles.bodyText}>{care.light.includes('Full') || care.light.includes('Bright')
+              ? `${title} needs at least 6 hours of direct sunlight daily. Place near a south-facing window with no obstructions. If your window faces east or west, supplement with a grow light.`
+              : care.light.includes('indirect')
+              ? `${title} thrives in bright indirect light. Place near an east or west-facing window, or a few feet from a south-facing window. Avoid direct sun — it burns the leaves.`
+              : `${title} tolerates low light conditions. A north-facing window or a spot away from direct light works fine. Growth will be slower but the plant will survive.`
+            }</Text>
+
+            {care.ppfd_min > 0 && (
+              <>
+                <Text style={styles.guideSectionTitle}>Light intensity</Text>
+                <InfoRow icon="sunny-outline" text={`${care.ppfd_min}–${care.ppfd_max} PPFD`} sub="Photosynthetic light (µmol/m²/s)" />
+                <InfoRow icon="time-outline" text={`${care.dli_min}–${care.dli_max} DLI`} sub="Daily Light Integral (mol/m²/day)" />
+                <InfoBox text={care.ppfd_min >= 300
+                  ? "High light demand. A south-facing window is a must. In winter or dark apartments, a grow light makes a real difference."
+                  : care.ppfd_min >= 100
+                  ? "Moderate light. Most well-lit rooms work. Move closer to the window if you see stretching or pale leaves."
+                  : "Low light demand. This plant survives in dim corners, but will grow faster with more light."
+                } variant="info" />
+              </>
+            )}
+
+            {(care.light.includes('Full') || care.light.includes('Bright')) && (
+              <>
+                <Text style={styles.guideSectionTitle}>Winter lighting</Text>
+                <InfoBox text={`In northern regions (above 50°N), natural daylight drops below 8 hours Oct–Mar. ${title} may need a grow light to stay healthy through winter. Look for full-spectrum LED, 12–14 hours daily.`} variant="warning" />
+              </>
+            )}
+
+            <LightLevelsAccordion />
+          </ScrollView>
+        </View>
+      </Modal>
     </>
+  );
+}
+
+// ─── Light levels accordion ──────────────────────────────────────────
+
+const LIGHT_LEVELS = [
+  {
+    title: 'Full sun',
+    description: 'At least 6 hours of direct sunlight daily. South-facing window with no barriers (curtains, buildings, trees). Plants: Aloes, Succulents, Cacti, Herbs.',
+    also: 'Bright light, direct light',
+  },
+  {
+    title: 'Part sun, part shade',
+    description: '2–4 hours of direct light per day. West or east-facing window, or further from a sunny window. Plants: Monstera, Orchids, Calathea.',
+    also: 'Dappled sunlight, medium light, filtered sunlight, bright indirect light',
+  },
+  {
+    title: 'Shade',
+    description: 'No direct sunlight. North-facing window or far from windows. Plants: ZZ-plant, Pothos, Snake Plant.',
+    also: 'Low light',
+  },
+];
+
+const LIGHT_SIGNS = {
+  notEnough: [
+    'Leaves turn yellow and fall off',
+    'New leaves are smaller than older ones',
+    'Plant stretches towards light',
+    'Growth is slow and weak',
+    'Leaves are far apart on the stem',
+  ],
+  tooMuch: [
+    'Leaves are drooping',
+    'Leaf edges dry up and turn brown',
+    'Color fading',
+    'Flowers shrivel up and die',
+  ],
+};
+
+function LightLevelsAccordion() {
+  const [expanded, setExpanded] = useState<string | null>(null);
+
+  return (
+    <View style={{ marginTop: Spacing.lg }}>
+      <Text style={styles.guideSectionTitle}>Light levels</Text>
+      {LIGHT_LEVELS.map((level) => (
+        <View key={level.title} style={styles.accordionItem}>
+          <TouchableOpacity
+            onPress={() => setExpanded(expanded === level.title ? null : level.title)}
+            style={styles.accordionHeader}
+          >
+            <Text style={styles.accordionTitle}>{level.title}</Text>
+            <Ionicons name={expanded === level.title ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
+          </TouchableOpacity>
+          {expanded === level.title && (
+            <View style={styles.accordionBody}>
+              <Text style={styles.bodyText}>{level.description}</Text>
+              <Text style={[styles.bodyText, { fontStyle: 'italic', color: Colors.textSecondary }]}>Also described as: {level.also}</Text>
+            </View>
+          )}
+        </View>
+      ))}
+
+      <Text style={[styles.guideSectionTitle, { marginTop: Spacing.lg }]}>Signs of incorrect lighting</Text>
+      <View style={styles.accordionItem}>
+        <TouchableOpacity
+          onPress={() => setExpanded(expanded === 'not-enough' ? null : 'not-enough')}
+          style={styles.accordionHeader}
+        >
+          <Text style={styles.accordionTitle}>Not enough light</Text>
+          <Ionicons name={expanded === 'not-enough' ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
+        </TouchableOpacity>
+        {expanded === 'not-enough' && (
+          <View style={styles.accordionBody}>
+            {LIGHT_SIGNS.notEnough.map((sign, i) => (
+              <View key={i} style={styles.stepRow}>
+                <Text style={styles.stepNumber}>•</Text>
+                <Text style={styles.stepText}>{sign}</Text>
+              </View>
+            ))}
+          </View>
+        )}
+      </View>
+      <View style={styles.accordionItem}>
+        <TouchableOpacity
+          onPress={() => setExpanded(expanded === 'too-much' ? null : 'too-much')}
+          style={styles.accordionHeader}
+        >
+          <Text style={styles.accordionTitle}>Too much light</Text>
+          <Ionicons name={expanded === 'too-much' ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
+        </TouchableOpacity>
+        {expanded === 'too-much' && (
+          <View style={styles.accordionBody}>
+            {LIGHT_SIGNS.tooMuch.map((sign, i) => (
+              <View key={i} style={styles.stepRow}>
+                <Text style={styles.stepNumber}>•</Text>
+                <Text style={styles.stepText}>{sign}</Text>
+              </View>
+            ))}
+          </View>
+        )}
+      </View>
+    </View>
   );
 }
 
@@ -993,6 +1149,8 @@ const styles = StyleSheet.create({
   sectionCard: { backgroundColor: Colors.surface, borderRadius: BorderRadius.lg, padding: Spacing.lg, borderWidth: 1, borderColor: Colors.border },
 
   // Watering guide button & content
+  measureLightBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.sm, backgroundColor: Colors.primary, borderRadius: BorderRadius.md, paddingVertical: Spacing.sm, marginTop: Spacing.md },
+  measureLightText: { fontSize: FontSize.sm, fontWeight: '600', color: '#fff' },
   guideBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.xs, paddingVertical: Spacing.sm, marginTop: Spacing.sm, borderTopWidth: 1, borderTopColor: Colors.border },
   guideBtnText: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.primary },
   guideSectionTitle: { fontSize: FontSize.sm, fontWeight: '700', color: Colors.text, marginBottom: Spacing.sm, marginTop: Spacing.md },
