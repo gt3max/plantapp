@@ -35,7 +35,16 @@ interface PlantVM {
   difficulty_note: string;
   growth_rate: string;
   lifecycle: string;
+  lifecycle_years: string;
   height_max_cm: number;
+  used_for: string[];
+  watering_freq_summer_days: number;
+  watering_freq_winter_days: number;
+  watering_demand: string;
+  watering_soil_hint: string;
+  watering_warning: string;
+  watering_method: string;
+  watering_avoid: string;
   edible: boolean;
   edible_parts: string;
   poisonous_to_pets: boolean;
@@ -87,6 +96,15 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         poisonous_to_humans: userPlant.poisonous_to_humans ?? false,
         toxicity_note: userPlant.toxicity_note ?? '',
         harvest_info: lib?.harvest_info ?? '',
+        lifecycle_years: lib?.lifecycle_years ?? '',
+        used_for: lib?.used_for ?? [],
+        watering_freq_summer_days: lib?.watering_freq_summer_days ?? 7,
+        watering_freq_winter_days: lib?.watering_freq_winter_days ?? 14,
+        watering_demand: lib?.watering_demand ?? '',
+        watering_soil_hint: lib?.watering_soil_hint ?? '',
+        watering_warning: lib?.watering_warning ?? '',
+        watering_method: lib?.watering_method ?? '',
+        watering_avoid: lib?.watering_avoid ?? '',
         care,
         hasDevice: userPlant.active && !!userPlant.device_id,
         device_id: userPlant.device_id,
@@ -126,6 +144,15 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         poisonous_to_humans: !!dbEntry.care?.toxic_to_humans,
         toxicity_note: dbEntry.care?.toxicity_note ?? '',
         harvest_info: lib?.harvest_info ?? '',
+        lifecycle_years: lib?.lifecycle_years ?? '',
+        used_for: lib?.used_for ?? [],
+        watering_freq_summer_days: lib?.watering_freq_summer_days ?? 7,
+        watering_freq_winter_days: lib?.watering_freq_winter_days ?? 14,
+        watering_demand: lib?.watering_demand ?? '',
+        watering_soil_hint: lib?.watering_soil_hint ?? '',
+        watering_warning: lib?.watering_warning ?? '',
+        watering_method: lib?.watering_method ?? '',
+        watering_avoid: lib?.watering_avoid ?? '',
         care,
         hasDevice: false,
         start_pct: care.start_pct,
@@ -158,6 +185,15 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         poisonous_to_humans: lib.poisonous_to_humans,
         toxicity_note: lib.toxicity_note,
         harvest_info: lib.harvest_info ?? '',
+        lifecycle_years: lib.lifecycle_years ?? '',
+        used_for: lib.used_for ?? [],
+        watering_freq_summer_days: lib.watering_freq_summer_days ?? 7,
+        watering_freq_winter_days: lib.watering_freq_winter_days ?? 14,
+        watering_demand: lib.watering_demand ?? '',
+        watering_soil_hint: lib.watering_soil_hint ?? '',
+        watering_warning: lib.watering_warning ?? '',
+        watering_method: lib.watering_method ?? '',
+        watering_avoid: lib.watering_avoid ?? '',
         care,
         hasDevice: false,
         start_pct: care.start_pct,
@@ -212,6 +248,7 @@ export default function PlantDetailScreen() {
   const stickyNavHeight = useRef(0);
   const tabXs = useRef<Record<string, number>>({});
   const [activeSection, setActiveSection] = useState<SectionKey>('water');
+  const [showWateringGuide, setShowWateringGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -308,6 +345,15 @@ export default function PlantDetailScreen() {
   const diffBg = plant.difficulty === 'Advanced' ? '#FEE2E2'
     : plant.difficulty === 'Medium' ? '#FFF8E1' : '#DCFCE7';
   const diffStars = plant.difficulty === 'Advanced' ? 3 : plant.difficulty === 'Medium' ? 2 : 1;
+
+  // Watering frequency for current month
+  const now = new Date();
+  const monthIndex = now.getMonth(); // 0-11
+  const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  const currentMonth = monthNames[monthIndex];
+  const seasonCoeff = [2.0, 1.8, 1.5, 1.2, 1.0, 1.0, 1.0, 1.0, 1.0, 1.2, 1.5, 1.8][monthIndex];
+  const baseDays = plant.watering_freq_summer_days || 7;
+  const currentWateringDays = Math.round(baseDays * seasonCoeff);
 
   // stickyHeaderIndices: hero=0, name=1, desc(optional)=2, stickyNav is next
   // We always render desc wrapper (even if empty) to keep indices stable
@@ -424,13 +470,14 @@ export default function PlantDetailScreen() {
         <View style={styles.sectionsContainer} onLayout={onContainerLayout}>
 
           {/* ── 1. Water ── */}
-          <View onLayout={(e) => onSectionLayout('water', e)}>
+          <View onLayout={(e) => onSectionLayout('water', e)} style={styles.sectionCard}>
             <SectionTitle text="Water" />
-            <InfoRow icon="water-outline" text={care.watering} sub="Summer" />
-            <InfoRow icon="snow-outline" text={care.watering_winter} sub="Winter" />
-            {waterDrops === 1 && (
-              <InfoBox text="This plant is sensitive to overwatering. Let the soil dry out completely between waterings. Root rot is the #1 killer." variant="warning" />
-            )}
+            <InfoRow icon="water-outline" text={`~${currentWateringDays} days in ${currentMonth}`} sub={plant.watering_demand ? `${plant.watering_soil_hint} \u2022 ${plant.watering_demand} demand` : care.watering} />
+            {plant.watering_warning ? (
+              <InfoBox text={plant.watering_warning} variant="warning" />
+            ) : waterDrops === 1 ? (
+              <InfoBox text="This plant is sensitive to overwatering. Let the soil dry out completely between waterings." variant="warning" />
+            ) : null}
             {plant.hasDevice && plant.moisture_pct != null && (
               <View style={styles.liveBlock}>
                 <View style={styles.liveHeader}>
@@ -441,11 +488,27 @@ export default function PlantDetailScreen() {
                 <ProgressBar value={plant.moisture_pct} color={Colors.moisture} />
               </View>
             )}
-            <SectionDivider />
+            <TouchableOpacity onPress={() => setShowWateringGuide(!showWateringGuide)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Watering guide</Text>
+              <Ionicons name={showWateringGuide ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.primary} />
+            </TouchableOpacity>
+            {showWateringGuide && (
+              <View style={styles.guideContent}>
+                <Text style={styles.guideSectionTitle}>Recommended method</Text>
+                <Text style={styles.bodyText}>{plant.watering_method || care.watering}</Text>
+                {plant.watering_avoid ? (
+                  <>
+                    <Text style={styles.guideSectionTitle}>What to avoid</Text>
+                    <InfoBox text={plant.watering_avoid} variant="warning" />
+                  </>
+                ) : null}
+                <InfoBox text="Make sure your pot has drainage holes. Without drainage, water collects at the bottom and roots rot." variant="info" />
+              </View>
+            )}
           </View>
 
           {/* ── 2. Light ── */}
-          <View onLayout={(e) => onSectionLayout('light', e)}>
+          <View onLayout={(e) => onSectionLayout('light', e)} style={styles.sectionCard}>
             <SectionTitle text="Light" />
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
             <InfoRow icon="partly-sunny-outline" text={care.light_also_ok} sub="Also tolerates" />
@@ -456,28 +519,25 @@ export default function PlantDetailScreen() {
             ) : (
               <InfoBox text="Low-light tolerant, but growth will slow significantly in very dark spots." variant="info" />
             )}
-            <SectionDivider />
           </View>
 
           {/* ── 3. Air Humidity ── */}
-          <View onLayout={(e) => onSectionLayout('humidity', e)}>
+          <View onLayout={(e) => onSectionLayout('humidity', e)} style={styles.sectionCard}>
             <SectionTitle text="Air Humidity" />
             <InfoRow icon="cloud-outline" text={care.humidity} sub="Air humidity level" />
             {care.humidity_action ? (
               <InfoBox text={care.humidity_action} variant="info" />
             ) : null}
-            <SectionDivider />
           </View>
 
           {/* ── 4. Air Temperature ── */}
-          <View onLayout={(e) => onSectionLayout('temperature', e)}>
+          <View onLayout={(e) => onSectionLayout('temperature', e)} style={styles.sectionCard}>
             <SectionTitle text="Air Temperature" />
             <InfoRow icon="thermometer-outline" text={care.temperature} sub="Recommended range" />
-            <SectionDivider />
           </View>
 
           {/* ── 5. Toxicity ── */}
-          <View onLayout={(e) => onSectionLayout('toxicity', e)}>
+          <View onLayout={(e) => onSectionLayout('toxicity', e)} style={styles.sectionCard}>
             <SectionTitle text="Toxicity" />
             {isToxic ? (
               <>
@@ -502,33 +562,39 @@ export default function PlantDetailScreen() {
                 <InfoBox text="This plant is considered non-toxic to humans and pets." variant="success" />
               </>
             )}
-            <SectionDivider />
           </View>
 
           {/* ── 6. Lifecycle ── */}
-          <View onLayout={(e) => onSectionLayout('lifecycle', e)}>
+          <View onLayout={(e) => onSectionLayout('lifecycle', e)} style={styles.sectionCard}>
             <SectionTitle text="Lifecycle" />
-            <InfoRow icon="sync-outline" text={plant.lifecycle === 'perennial' ? 'Perennial' : plant.lifecycle === 'annual' ? 'Annual' : plant.lifecycle || 'Unknown'} sub={plant.lifecycle === 'perennial' ? 'Lives for many years' : plant.lifecycle === 'annual' ? 'One growing season, then start fresh' : 'Lifecycle'} />
-            <SectionDivider />
+            <InfoRow icon="sync-outline" text={plant.lifecycle === 'perennial' ? 'Perennial' : plant.lifecycle === 'annual' ? 'Annual' : plant.lifecycle || 'Unknown'} sub={plant.lifecycle_years ? (plant.lifecycle === 'perennial' ? `Lives ${plant.lifecycle_years} years` : `${plant.lifecycle_years}`) : (plant.lifecycle === 'perennial' ? 'Lives for multiple years' : 'One growing season')} />
           </View>
 
           {/* ── 7. Used for ── */}
-          <View onLayout={(e) => onSectionLayout('used_for', e)}>
+          <View onLayout={(e) => onSectionLayout('used_for', e)} style={styles.sectionCard}>
             <SectionTitle text="Used for" />
             <View style={styles.chipRow}>
-              {plant.plant_type === 'decorative' && <View style={styles.chip}><Text style={styles.chipText}>Decorative</Text></View>}
-              {plant.plant_type === 'greens' && <View style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>Edible greens</Text></View>}
-              {plant.plant_type === 'fruiting' && <View style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>Fruiting</Text></View>}
-              {plant.edible && <View style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>Edible</Text></View>}
+              {plant.used_for.length > 0 ? (
+                plant.used_for.map((tag) => (
+                  <View key={tag} style={tag === 'Edible' || tag === 'Edible greens' || tag === 'Fruiting' ? [styles.chip, styles.chipGreen] : styles.chip}>
+                    <Text style={tag === 'Edible' || tag === 'Edible greens' || tag === 'Fruiting' ? styles.chipTextGreen : styles.chipText}>{tag}</Text>
+                  </View>
+                ))
+              ) : (
+                <>
+                  {plant.plant_type === 'decorative' && <View style={styles.chip}><Text style={styles.chipText}>Decorative</Text></View>}
+                  {plant.plant_type === 'greens' && <View style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>Edible greens</Text></View>}
+                  {plant.plant_type === 'fruiting' && <View style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>Fruiting</Text></View>}
+                </>
+              )}
             </View>
             {plant.edible_parts ? (
               <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
             ) : null}
-            <SectionDivider />
           </View>
 
           {/* ── 8. Soil ── */}
-          <View onLayout={(e) => onSectionLayout('soil', e)}>
+          <View onLayout={(e) => onSectionLayout('soil', e)} style={styles.sectionCard}>
             <SectionTitle text="Soil" />
             <InfoRow icon="layers-outline" text={care.soil} sub="Soil mix" />
             {plant.soil_ph_min != null && plant.soil_ph_min > 0 && (
@@ -536,18 +602,16 @@ export default function PlantDetailScreen() {
             )}
             <InfoRow icon="resize-outline" text={care.repot} sub="Repotting" />
             <InfoRow icon="sparkles-outline" text="Wipe leaves with a damp cloth" sub="Removes dust, helps photosynthesis" />
-            <SectionDivider />
           </View>
 
           {/* ── 9. Fertilizing ── */}
-          <View onLayout={(e) => onSectionLayout('fertilizing', e)}>
+          <View onLayout={(e) => onSectionLayout('fertilizing', e)} style={styles.sectionCard}>
             <SectionTitle text="Fertilizing" />
             <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
-            <SectionDivider />
           </View>
 
           {/* ── 10. Difficulty ── */}
-          <View onLayout={(e) => onSectionLayout('difficulty', e)}>
+          <View onLayout={(e) => onSectionLayout('difficulty', e)} style={styles.sectionCard}>
             <SectionTitle text="Difficulty" />
             <View style={styles.difficultyRow}>
               <DifficultyStars count={diffStars} color={diffColor} size={22} />
@@ -562,11 +626,10 @@ export default function PlantDetailScreen() {
             ) : (
               <InfoBox text="Needs some attention \u2014 regular watering and decent light, but recovers from occasional neglect." variant="info" />
             )}
-            <SectionDivider />
           </View>
 
           {/* ── 11. Size ── */}
-          <View onLayout={(e) => onSectionLayout('size', e)}>
+          <View onLayout={(e) => onSectionLayout('size', e)} style={styles.sectionCard}>
             <SectionTitle text="Size" />
             <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `Up to ${plant.height_max_cm} cm (${Math.round(plant.height_max_cm / 2.54)}\u2033)` : 'Not specified'} sub="Max height (full grown)" />
             <InfoRow icon="trending-up-outline" text={plant.growth_rate || 'Not specified'} sub="Growth rate" />
@@ -575,11 +638,10 @@ export default function PlantDetailScreen() {
             ) : plant.height_max_cm > 0 ? (
               <InfoBox text="Pot size directly affects final size. Bigger pot = bigger plant. Repot when roots circle the bottom." variant="info" />
             ) : null}
-            <SectionDivider />
           </View>
 
           {/* ── 12. Taxonomy ── */}
-          <View onLayout={(e) => onSectionLayout('taxonomy', e)}>
+          <View onLayout={(e) => onSectionLayout('taxonomy', e)} style={styles.sectionCard}>
             <SectionTitle text="Taxonomy" />
             <InfoRow icon="document-text-outline" text={plant.scientific} sub="Scientific name" />
             <InfoRow icon="git-branch-outline" text={plant.family} sub="Family" />
@@ -762,7 +824,16 @@ const styles = StyleSheet.create({
   tabTextActive: { color: '#fff' },
 
   // Sections container
-  sectionsContainer: { paddingHorizontal: Spacing.lg, paddingTop: Spacing.sm },
+  sectionsContainer: { paddingHorizontal: Spacing.md, paddingTop: Spacing.sm, gap: Spacing.md },
+
+  // Section card
+  sectionCard: { backgroundColor: Colors.surface, borderRadius: BorderRadius.lg, padding: Spacing.lg, borderWidth: 1, borderColor: Colors.border },
+
+  // Watering guide button & content
+  guideBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.xs, paddingVertical: Spacing.sm, marginTop: Spacing.sm, borderTopWidth: 1, borderTopColor: Colors.border },
+  guideBtnText: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.primary },
+  guideContent: { marginTop: Spacing.md, paddingTop: Spacing.md, borderTopWidth: 1, borderTopColor: Colors.border },
+  guideSectionTitle: { fontSize: FontSize.sm, fontWeight: '700', color: Colors.text, marginBottom: Spacing.sm, marginTop: Spacing.sm },
 
   // Section title
   sectionTitle: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text, marginTop: Spacing.md, marginBottom: Spacing.md },

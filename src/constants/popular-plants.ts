@@ -15,7 +15,16 @@ export interface PopularPlant {
   difficulty_note?: string;   // extra context on difficulty (shown as action hint)
   growth_rate: string;        // Slow / Medium / Fast
   lifecycle?: string;         // annual / perennial
+  lifecycle_years?: string;   // e.g. "2+" or "10-20" or "1 season"
   height_max_cm?: number;     // max indoor height
+  used_for?: string[];        // e.g. ['Decorative', 'Air purifier', 'Aromatic']
+  watering_freq_summer_days?: number;  // base interval in days (summer)
+  watering_freq_winter_days?: number;  // base interval in days (winter)
+  watering_demand?: string;   // 'Low' | 'Medium' | 'High' | 'Very high'
+  watering_soil_hint?: string; // e.g. 'Let soil dry completely' or 'Keep soil moist'
+  watering_warning?: string;  // e.g. 'Sensitive to lime in water'
+  watering_method?: string;   // recommended method for this plant
+  watering_avoid?: string;    // what NOT to do
   edible: boolean;            // true for herbs, veggies, fruit
   edible_parts?: string;      // what parts are edible (for edible plants)
   harvest_info?: string;      // when/how to harvest (for edible/fruiting)
@@ -58,7 +67,15 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     difficulty_note: 'Tolerates neglect. #1 cause of death: overwatering.',
     growth_rate: 'Slow',
     lifecycle: 'perennial',
+    lifecycle_years: '50+',
     height_max_cm: 150,
+    used_for: ['Decorative', 'Bonsai'],
+    watering_freq_summer_days: 14,
+    watering_freq_winter_days: 30,
+    watering_demand: 'Low',
+    watering_soil_hint: 'Let soil dry completely',
+    watering_method: 'Water over the soil slowly until it drains. Discard excess water from saucer.',
+    watering_avoid: 'Never let the pot sit in water. Overwatering causes root rot — the #1 killer of Jade Plants.',
     edible: false,
     poisonous_to_pets: true,
     poisonous_to_humans: false,
@@ -97,7 +114,15 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     difficulty_note: 'Two rules: no soggy roots, no direct sun. Rest is forgiving.',
     growth_rate: 'Slow',
     lifecycle: 'perennial',
+    lifecycle_years: '10-15',
     height_max_cm: 60,
+    used_for: ['Decorative', 'Flowering'],
+    watering_freq_summer_days: 7,
+    watering_freq_winter_days: 12,
+    watering_demand: 'Medium',
+    watering_soil_hint: 'Let bark dry between waterings',
+    watering_method: 'Soak the bark for 10-15 minutes, then drain completely. Never leave roots sitting in water.',
+    watering_avoid: 'Never pour water into the crown (center of leaves) — causes crown rot. Never use ice cubes — this is a myth.',
     edible: false,
     poisonous_to_pets: false,
     poisonous_to_humans: false,
@@ -136,7 +161,15 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     difficulty_note: 'Fast growing. Needs consistent sun and water. Bolts if stressed by heat or drought.',
     growth_rate: 'Fast',
     lifecycle: 'annual',
+    lifecycle_years: '1 season',
     height_max_cm: 60,
+    used_for: ['Edible', 'Aromatic', 'Culinary herb'],
+    watering_freq_summer_days: 3,
+    watering_freq_winter_days: 6,
+    watering_demand: 'Very high',
+    watering_soil_hint: 'Keep soil moist but not soggy',
+    watering_method: 'Water over the soil at the base. Avoid wetting leaves — promotes fungal issues.',
+    watering_avoid: 'Do not let soil dry out — basil wilts fast and recovers slowly if caught late. But also no standing water.',
     edible: true,
     edible_parts: 'Leaves, flowers, seeds — all edible',
     harvest_info: 'Harvest from the top, cutting above a leaf pair. First harvest 3-4 weeks from seed. Pick regularly to keep it bushy.',
@@ -177,7 +210,15 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     difficulty_note: 'Easy outdoors, trickier indoors: overwatering + poor air circulation are the main killers.',
     growth_rate: 'Medium',
     lifecycle: 'perennial',
+    lifecycle_years: '10-20',
     height_max_cm: 120,
+    used_for: ['Edible', 'Aromatic', 'Culinary herb', 'Medicinal'],
+    watering_freq_summer_days: 8,
+    watering_freq_winter_days: 12,
+    watering_demand: 'Low',
+    watering_soil_hint: 'Let top inch dry between waterings',
+    watering_method: 'Water at the base, let drain. Terracotta pot helps soil dry evenly.',
+    watering_avoid: 'Do not overwater — root rot is the #1 indoor killer for rosemary. If in doubt, skip watering.',
     edible: true,
     edible_parts: 'Leaves and flowers — both edible',
     harvest_info: 'Cut sprigs (not individual needles) above a leaf node. Available year-round. Flavor is strongest just before flowering.',
@@ -218,7 +259,15 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     difficulty_note: 'Demanding on light (8h+) and feeding, but very productive. Bush varieties easier indoors.',
     growth_rate: 'Fast',
     lifecycle: 'annual',
+    lifecycle_years: '1 season',
     height_max_cm: 100,
+    used_for: ['Edible', 'Fruiting'],
+    watering_freq_summer_days: 2,
+    watering_freq_winter_days: undefined,
+    watering_demand: 'Very high',
+    watering_soil_hint: 'Keep soil consistently moist',
+    watering_method: 'Deep soak at the base. Consistent watering prevents fruit cracking. Mulch helps retain moisture.',
+    watering_avoid: 'Avoid wetting leaves — promotes blight. Inconsistent watering causes blossom end rot and cracking.',
     edible: true,
     edible_parts: 'Ripe fruit only — leaves and stems are toxic',
     harvest_info: 'Pick when fully red and slightly soft to the touch. About 60-70 days from planting to first harvest. One plant can produce 100+ tomatoes.',
@@ -258,7 +307,16 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     difficulty_note: 'The most forgiving houseplant. Survives weeks of neglect. Only real killer: overwatering.',
     growth_rate: 'Slow',
     lifecycle: 'perennial',
+    lifecycle_years: '20-25',
     height_max_cm: 120,
+    used_for: ['Decorative', 'Air purifier'],
+    watering_freq_summer_days: 14,
+    watering_freq_winter_days: 30,
+    watering_demand: 'Low',
+    watering_soil_hint: 'Let soil dry completely',
+    watering_warning: 'Sensitive to lime in water — use filtered or rainwater if possible',
+    watering_method: 'Water at the base, avoiding the leaf rosette. Let drain fully. Bottom watering works well.',
+    watering_avoid: 'Never let pot sit in water. Do not water into the center of the leaf rosette — causes rot.',
     edible: false,
     poisonous_to_pets: true,
     poisonous_to_humans: false,
