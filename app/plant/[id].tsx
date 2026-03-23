@@ -502,9 +502,9 @@ export default function PlantDetailScreen() {
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
             <InfoRow icon="partly-sunny-outline" text={care.light_also_ok} sub="Also tolerates" />
             {care.light.includes('Full') || care.light.includes('Bright') ? (
-              <InfoBox text="Without enough light this plant will stretch, lose color, and eventually die. In northern regions (Oct\u2013Mar), consider a grow light." variant="warning" />
+              <InfoBox text="Without enough light this plant will stretch, lose color, and eventually die. In northern regions (Oct–Mar), consider a grow light." variant="warning" />
             ) : care.light.includes('indirect') ? (
-              <InfoBox text="Avoid direct sun \u2014 leaves can burn. A spot near a window with filtered light works best." variant="info" />
+              <InfoBox text="Avoid direct sun — leaves can burn. A spot near a window with filtered light works best." variant="info" />
             ) : (
               <InfoBox text="Low-light tolerant, but growth will slow significantly in very dark spots." variant="info" />
             )}
@@ -587,7 +587,7 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Soil" />
             <InfoRow icon="layers-outline" text={care.soil} sub="Soil mix" />
             {plant.soil_ph_min != null && plant.soil_ph_min > 0 && (
-              <InfoRow icon="flask-outline" text={`pH ${plant.soil_ph_min} \u2013 ${plant.soil_ph_max}`} sub="Soil acidity" />
+              <InfoRow icon="flask-outline" text={`pH ${plant.soil_ph_min} – ${plant.soil_ph_max}`} sub="Soil acidity" />
             )}
             <InfoRow icon="resize-outline" text={care.repot} sub="Repotting" />
             <InfoRow icon="sparkles-outline" text="Wipe leaves with a damp cloth" sub="Removes dust, helps photosynthesis" />
@@ -609,18 +609,18 @@ export default function PlantDetailScreen() {
             {plant.difficulty_note ? (
               <InfoBox text={plant.difficulty_note} variant="info" />
             ) : plant.difficulty === 'Easy' ? (
-              <InfoBox text="Forgiving plant \u2014 tolerates irregular watering, adapts to various light conditions. Great for beginners." variant="success" />
+              <InfoBox text="Forgiving plant — tolerates irregular watering, adapts to various light conditions. Great for beginners." variant="success" />
             ) : plant.difficulty === 'Advanced' ? (
               <InfoBox text="Needs precise humidity, consistent watering schedule, and specific light conditions. Not forgiving of mistakes." variant="warning" />
             ) : (
-              <InfoBox text="Needs some attention \u2014 regular watering and decent light, but recovers from occasional neglect." variant="info" />
+              <InfoBox text="Needs some attention — regular watering and decent light, but recovers from occasional neglect." variant="info" />
             )}
           </View>
 
           {/* ── 11. Size ── */}
           <View onLayout={(e) => onSectionLayout('size', e)} style={styles.sectionCard}>
             <SectionTitle text="Size" />
-            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `Up to ${plant.height_max_cm} cm (${Math.round(plant.height_max_cm / 2.54)}\u2033)` : 'Not specified'} sub="Max height (full grown)" />
+            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `Up to ${plant.height_max_cm} cm (${Math.round(plant.height_max_cm / 2.54)}″)` : 'Not specified'} sub="Max height (full grown)" />
             <InfoRow icon="trending-up-outline" text={plant.growth_rate || 'Not specified'} sub="Growth rate" />
             {plant.height_max_cm > 100 ? (
               <InfoBox text={`In a pot, expect much less than ${plant.height_max_cm} cm. Pot size limits root growth which limits height.`} variant="info" />
@@ -668,9 +668,9 @@ export default function PlantDetailScreen() {
             ) : null}
 
             <Text style={styles.guideSectionTitle}>Drainage</Text>
-            <InfoBox text="Make sure your pot has drainage holes at the bottom. Without drainage, water collects and roots rot. If your pot has no holes, use it as a cachepot \u2014 place a smaller pot with holes inside." variant="info" />
+            <InfoBox text="Make sure your pot has drainage holes at the bottom. Without drainage, water collects and roots rot. If your pot has no holes, use it as a cachepot — place a smaller pot with holes inside." variant="info" />
 
-            <WateringMethodsAccordion />
+            <WateringMethodsAccordion recommendedMethod={plant.watering_method} />
           </ScrollView>
         </View>
       </Modal>
@@ -742,7 +742,7 @@ const WATERING_METHODS = [
     steps: [
       'Pour water over the soil using a watering can or place the pot directly under a tap.',
       'Continue adding water until it starts to run out from the drainage holes.',
-      'If you have a tray under the pot, make sure you remove all collected water afterwards \u2014 never let your plant sit in water.',
+      'If you have a tray under the pot, make sure you remove all collected water afterwards — never let your plant sit in water.',
       'If you watered under a tap, make sure water has stopped running out from the bottom before putting it back.',
     ],
     note: null,
@@ -753,8 +753,8 @@ const WATERING_METHODS = [
       'Fill the plant tray with water.',
       'Make sure the soil is in contact with the water on the tray.',
       'Wait for about 10 minutes.',
-      'Feel the soil to see if it absorbed enough water \u2014 if moist throughout, remove excess water from the tray.',
-      'If it\u2019s still dry \u2014 add more water to the tray.',
+      'Feel the soil to see if it absorbed enough water — if moist throughout, remove excess water from the tray.',
+      "If it's still dry — add more water to the tray.",
       'Wait 20 more minutes before removing the excess.',
     ],
     note: 'Bottom watering will not wash away salts and other minerals from the soil, so make sure to also give water over the soil every now and then.',
@@ -764,29 +764,40 @@ const WATERING_METHODS = [
     steps: [
       'Fill a bucket or any other vessel with lukewarm water.',
       'Lower the whole pot down in the water, stop where the stem of the plant starts. Make sure all of the soil is under water.',
-      'The water will now start to bubble \u2014 wait until it stopped.',
+      'The water will now start to bubble — wait until it stopped.',
       'Lift the pot up and let the excess drain off.',
       'Put your plant back in the cachepot or on the tray.',
-      'After 1 hour, check that your plant isn\u2019t standing in water \u2014 if it is, it might get overwatered and rot.',
+      "After 1 hour, check that your plant isn't standing in water — if it is, it might get overwatered and rot.",
     ],
     note: null,
   },
 ];
 
-function WateringMethodsAccordion() {
+function WateringMethodsAccordion({ recommendedMethod }: { recommendedMethod?: string }) {
   const [expanded, setExpanded] = useState<string | null>(null);
+
+  const isRecommended = (title: string): boolean => {
+    if (!recommendedMethod) return false;
+    const lower = recommendedMethod.toLowerCase();
+    if (title === 'Water over the soil' && (lower.includes('over') || lower.includes('base') || lower.includes('pour') || lower.includes('watering can'))) return true;
+    if (title === 'Bottom watering' && (lower.includes('bottom') || lower.includes('tray'))) return true;
+    if (title === 'Water bath' && (lower.includes('bath') || lower.includes('soak') || lower.includes('submerge'))) return true;
+    return false;
+  };
 
   return (
     <View style={{ marginTop: Spacing.lg }}>
       <Text style={styles.guideSectionTitle}>Watering methods</Text>
-      {WATERING_METHODS.map((method) => (
-        <View key={method.title} style={styles.accordionItem}>
+      {WATERING_METHODS.map((method) => {
+        const recommended = isRecommended(method.title);
+        return (
+        <View key={method.title} style={[styles.accordionItem, recommended && styles.accordionItemRecommended]}>
           <TouchableOpacity
             onPress={() => setExpanded(expanded === method.title ? null : method.title)}
             style={styles.accordionHeader}
           >
-            <Text style={styles.accordionTitle}>{method.title}</Text>
-            <Ionicons name={expanded === method.title ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
+            <Text style={styles.accordionTitle}>{method.title}{recommended ? ' (Recommended)' : ''}</Text>
+            <Ionicons name={expanded === method.title ? 'chevron-up' : 'chevron-down'} size={16} color={recommended ? Colors.primary : Colors.textSecondary} />
           </TouchableOpacity>
           {expanded === method.title && (
             <View style={styles.accordionBody}>
@@ -802,7 +813,8 @@ function WateringMethodsAccordion() {
             </View>
           )}
         </View>
-      ))}
+        );
+      })}
     </View>
   );
 }
@@ -994,6 +1006,7 @@ const styles = StyleSheet.create({
 
   // Accordion
   accordionItem: { borderWidth: 1, borderColor: Colors.border, borderRadius: BorderRadius.md, marginBottom: Spacing.sm, overflow: 'hidden' },
+  accordionItemRecommended: { borderColor: Colors.primary, borderWidth: 1.5 },
   accordionHeader: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: Spacing.md, backgroundColor: Colors.surface },
   accordionTitle: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.text },
   accordionBody: { padding: Spacing.md, paddingTop: Spacing.sm, borderTopWidth: 1, borderTopColor: Colors.border },

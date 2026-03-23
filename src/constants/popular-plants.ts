@@ -69,7 +69,7 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle: 'perennial',
     lifecycle_years: '50+',
     height_max_cm: 150,
-    used_for: ['Decorative', 'Bonsai'],
+    used_for: ['Decorative'],
     watering_freq_summer_days: 10,
     watering_freq_winter_days: 30,
     watering_demand: 'Low',
