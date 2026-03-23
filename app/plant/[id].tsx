@@ -180,16 +180,13 @@ interface SectionDef {
   label: string;
 }
 
-function getSections(plant: PlantVM): SectionDef[] {
-  const isToxic = plant.poisonous_to_pets || plant.poisonous_to_humans;
+function getSections(_plant: PlantVM): SectionDef[] {
   const sections: SectionDef[] = [
     { key: 'water', label: 'Water' },
     { key: 'light', label: 'Light' },
     { key: 'difficulty', label: 'Difficulty' },
+    { key: 'toxicity', label: 'Toxicity' },
   ];
-  if (isToxic) {
-    sections.push({ key: 'toxicity', label: 'Toxicity' });
-  }
   sections.push(
     { key: 'humidity', label: 'Air Humidity' },
     { key: 'fertilizing', label: 'Fertilizing' },
@@ -497,29 +494,34 @@ export default function PlantDetailScreen() {
             <SectionDivider />
           </View>
 
-          {/* ── Toxicity (only if toxic) ── */}
-          {isToxic && (
-            <View onLayout={(e) => onSectionLayout('toxicity', e)}>
-              <SectionTitle text="Toxicity" />
-              <InfoRow icon="alert-circle" text="Toxic" iconColor={Colors.error} />
-              <Text style={styles.bodyText}>Toxic to:</Text>
-              <View style={styles.chipRow}>
-                {plant.poisonous_to_humans && <View style={styles.chip}><Text style={styles.chipText}>Humans</Text></View>}
-                {plant.poisonous_to_pets && <View style={styles.chip}><Text style={styles.chipText}>Animals</Text></View>}
-              </View>
-              {plant.edible && plant.edible_parts ? (
-                <>
+          {/* ── Toxicity (always shown) ── */}
+          <View onLayout={(e) => onSectionLayout('toxicity', e)}>
+            <SectionTitle text="Toxicity" />
+            {isToxic ? (
+              <>
+                <InfoRow icon="alert-circle" text="Toxic" iconColor={Colors.error} />
+                <Text style={styles.bodyText}>Toxic to:</Text>
+                <View style={styles.chipRow}>
+                  {plant.poisonous_to_humans && <View style={styles.chip}><Text style={styles.chipText}>Humans</Text></View>}
+                  {plant.poisonous_to_pets && <View style={styles.chip}><Text style={styles.chipText}>Animals</Text></View>}
+                </View>
+                {plant.edible && plant.edible_parts ? (
                   <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
-                </>
-              ) : null}
-              {plant.toxicity_note ? (
-                <InfoBox text={plant.toxicity_note} variant="warning" />
-              ) : (
-                <InfoBox text="Toxic according to different sources, use this information at your own risk." variant="warning" />
-              )}
-              <SectionDivider />
-            </View>
-          )}
+                ) : null}
+                {plant.toxicity_note ? (
+                  <InfoBox text={plant.toxicity_note} variant="warning" />
+                ) : (
+                  <InfoBox text="Toxic according to different sources, use this information at your own risk." variant="warning" />
+                )}
+              </>
+            ) : (
+              <>
+                <InfoRow icon="checkmark-circle" text="Not toxic" iconColor={Colors.success} />
+                <InfoBox text="This plant is considered non-toxic to humans and pets." variant="success" />
+              </>
+            )}
+            <SectionDivider />
+          </View>
 
           {/* ── Air Humidity ── */}
           <View onLayout={(e) => onSectionLayout('humidity', e)}>
