@@ -6,6 +6,7 @@ import {
   ScrollView,
   Image,
   TouchableOpacity,
+  Modal,
   LayoutChangeEvent,
   NativeSyntheticEvent,
   NativeScrollEvent,
@@ -472,7 +473,7 @@ export default function PlantDetailScreen() {
           {/* ── 1. Water ── */}
           <View onLayout={(e) => onSectionLayout('water', e)} style={styles.sectionCard}>
             <SectionTitle text="Water" />
-            <InfoRow icon="water-outline" text={`~${currentWateringDays} days in ${currentMonth}`} sub={plant.watering_demand ? `${plant.watering_soil_hint} \u2022 ${plant.watering_demand} demand` : care.watering} />
+            <InfoRow icon="water-outline" text={`Every ~${currentWateringDays} days in ${currentMonth}`} sub={plant.watering_demand ? `${plant.watering_soil_hint} \u2022 ${plant.watering_demand} demand` : care.watering} />
             {plant.watering_warning ? (
               <InfoBox text={plant.watering_warning} variant="warning" />
             ) : waterDrops === 1 ? (
@@ -488,23 +489,10 @@ export default function PlantDetailScreen() {
                 <ProgressBar value={plant.moisture_pct} color={Colors.moisture} />
               </View>
             )}
-            <TouchableOpacity onPress={() => setShowWateringGuide(!showWateringGuide)} style={styles.guideBtn}>
+            <TouchableOpacity onPress={() => setShowWateringGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Watering guide</Text>
-              <Ionicons name={showWateringGuide ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.primary} />
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
-            {showWateringGuide && (
-              <View style={styles.guideContent}>
-                <Text style={styles.guideSectionTitle}>Recommended method</Text>
-                <Text style={styles.bodyText}>{plant.watering_method || care.watering}</Text>
-                {plant.watering_avoid ? (
-                  <>
-                    <Text style={styles.guideSectionTitle}>What to avoid</Text>
-                    <InfoBox text={plant.watering_avoid} variant="warning" />
-                  </>
-                ) : null}
-                <InfoBox text="Make sure your pot has drainage holes. Without drainage, water collects at the bottom and roots rot." variant="info" />
-              </View>
-            )}
           </View>
 
           {/* ── 2. Light ── */}
@@ -652,6 +640,38 @@ export default function PlantDetailScreen() {
 
         </View>
       </ScrollView>
+
+      {/* ═══ WATERING GUIDE MODAL ═══ */}
+      <Modal visible={showWateringGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Watering guide</Text>
+            <TouchableOpacity onPress={() => setShowWateringGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.modalPlantName}>{title}</Text>
+
+            <Text style={styles.guideSectionTitle}>Frequency by season</Text>
+            <InfoRow icon="sunny-outline" text={`Every ~${baseDays} days`} sub="Summer (active growth)" />
+            <InfoRow icon="snow-outline" text={`Every ~${plant.watering_freq_winter_days || Math.round(baseDays * 2)} days`} sub="Winter (dormant)" />
+
+            <Text style={styles.guideSectionTitle}>How to water</Text>
+            <Text style={styles.bodyText}>{plant.watering_method || care.watering}</Text>
+
+            {plant.watering_avoid ? (
+              <>
+                <Text style={styles.guideSectionTitle}>What to avoid</Text>
+                <InfoBox text={plant.watering_avoid} variant="warning" />
+              </>
+            ) : null}
+
+            <Text style={styles.guideSectionTitle}>Drainage</Text>
+            <InfoBox text="Make sure your pot has drainage holes at the bottom. Without drainage, water collects and roots rot. If your pot has no holes, use it as a cachepot — place a smaller pot with holes inside." variant="info" />
+          </ScrollView>
+        </View>
+      </Modal>
     </>
   );
 }
@@ -832,8 +852,14 @@ const styles = StyleSheet.create({
   // Watering guide button & content
   guideBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.xs, paddingVertical: Spacing.sm, marginTop: Spacing.sm, borderTopWidth: 1, borderTopColor: Colors.border },
   guideBtnText: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.primary },
-  guideContent: { marginTop: Spacing.md, paddingTop: Spacing.md, borderTopWidth: 1, borderTopColor: Colors.border },
-  guideSectionTitle: { fontSize: FontSize.sm, fontWeight: '700', color: Colors.text, marginBottom: Spacing.sm, marginTop: Spacing.sm },
+  guideSectionTitle: { fontSize: FontSize.sm, fontWeight: '700', color: Colors.text, marginBottom: Spacing.sm, marginTop: Spacing.md },
+
+  // Modal
+  modalContainer: { flex: 1, backgroundColor: Colors.background },
+  modalHeader: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: Spacing.lg, paddingTop: Spacing.xl, paddingBottom: Spacing.md, borderBottomWidth: 1, borderBottomColor: Colors.border },
+  modalTitle: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text },
+  modalScroll: { padding: Spacing.lg, paddingBottom: 60 },
+  modalPlantName: { fontSize: FontSize.md, color: Colors.textSecondary, fontStyle: 'italic', marginBottom: Spacing.lg },
 
   // Section title
   sectionTitle: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text, marginTop: Spacing.md, marginBottom: Spacing.md },
