@@ -658,7 +658,7 @@ export default function PlantDetailScreen() {
             <InfoRow icon="sunny-outline" text={`Every ~${baseDays} days`} sub="Summer (active growth)" />
             <InfoRow icon="snow-outline" text={`Every ~${plant.watering_freq_winter_days || Math.round(baseDays * 2)} days`} sub="Winter (dormant)" />
 
-            <Text style={styles.guideSectionTitle}>How to water</Text>
+            <Text style={styles.guideSectionTitle}>Recommended method</Text>
             <Text style={styles.bodyText}>{plant.watering_method || care.watering}</Text>
 
             {plant.watering_avoid ? (
@@ -669,11 +669,86 @@ export default function PlantDetailScreen() {
             ) : null}
 
             <Text style={styles.guideSectionTitle}>Drainage</Text>
-            <InfoBox text="Make sure your pot has drainage holes at the bottom. Without drainage, water collects and roots rot. If your pot has no holes, use it as a cachepot — place a smaller pot with holes inside." variant="info" />
+            <InfoBox text="Make sure your pot has drainage holes at the bottom. Without drainage, water collects and roots rot. If your pot has no holes, use it as a cachepot \u2014 place a smaller pot with holes inside." variant="info" />
+
+            <WateringMethodsAccordion />
           </ScrollView>
         </View>
       </Modal>
     </>
+  );
+}
+
+// ─── Watering methods accordion ──────────────────────────────────────
+
+const WATERING_METHODS = [
+  {
+    title: 'Water over the soil',
+    steps: [
+      'Pour water over the soil using a watering can or place the pot directly under a tap.',
+      'Continue adding water until it starts to run out from the drainage holes.',
+      'If you have a tray under the pot, make sure you remove all collected water afterwards \u2014 never let your plant sit in water.',
+      'If you watered under a tap, make sure water has stopped running out from the bottom before putting it back.',
+    ],
+    note: null,
+  },
+  {
+    title: 'Bottom watering',
+    steps: [
+      'Fill the plant tray with water.',
+      'Make sure the soil is in contact with the water on the tray.',
+      'Wait for about 10 minutes.',
+      'Feel the soil to see if it absorbed enough water \u2014 if moist throughout, remove excess water from the tray.',
+      'If it\u2019s still dry \u2014 add more water to the tray.',
+      'Wait 20 more minutes before removing the excess.',
+    ],
+    note: 'Bottom watering will not wash away salts and other minerals from the soil, so make sure to also give water over the soil every now and then.',
+  },
+  {
+    title: 'Water bath',
+    steps: [
+      'Fill a bucket or any other vessel with lukewarm water.',
+      'Lower the whole pot down in the water, stop where the stem of the plant starts. Make sure all of the soil is under water.',
+      'The water will now start to bubble \u2014 wait until it stopped.',
+      'Lift the pot up and let the excess drain off.',
+      'Put your plant back in the cachepot or on the tray.',
+      'After 1 hour, check that your plant isn\u2019t standing in water \u2014 if it is, it might get overwatered and rot.',
+    ],
+    note: null,
+  },
+];
+
+function WateringMethodsAccordion() {
+  const [expanded, setExpanded] = useState<string | null>(null);
+
+  return (
+    <View style={{ marginTop: Spacing.lg }}>
+      <Text style={styles.guideSectionTitle}>Watering methods</Text>
+      {WATERING_METHODS.map((method) => (
+        <View key={method.title} style={styles.accordionItem}>
+          <TouchableOpacity
+            onPress={() => setExpanded(expanded === method.title ? null : method.title)}
+            style={styles.accordionHeader}
+          >
+            <Text style={styles.accordionTitle}>{method.title}</Text>
+            <Ionicons name={expanded === method.title ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
+          </TouchableOpacity>
+          {expanded === method.title && (
+            <View style={styles.accordionBody}>
+              {method.steps.map((step, i) => (
+                <View key={i} style={styles.stepRow}>
+                  <Text style={styles.stepNumber}>{i + 1}.</Text>
+                  <Text style={styles.stepText}>{step}</Text>
+                </View>
+              ))}
+              {method.note && (
+                <InfoBox text={method.note} variant="info" />
+              )}
+            </View>
+          )}
+        </View>
+      ))}
+    </View>
   );
 }
 
@@ -861,6 +936,15 @@ const styles = StyleSheet.create({
   modalTitle: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text },
   modalScroll: { padding: Spacing.lg, paddingBottom: 60 },
   modalPlantName: { fontSize: FontSize.md, color: Colors.textSecondary, fontStyle: 'italic', marginBottom: Spacing.lg },
+
+  // Accordion
+  accordionItem: { borderWidth: 1, borderColor: Colors.border, borderRadius: BorderRadius.md, marginBottom: Spacing.sm, overflow: 'hidden' },
+  accordionHeader: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: Spacing.md, backgroundColor: Colors.surface },
+  accordionTitle: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.text },
+  accordionBody: { padding: Spacing.md, paddingTop: Spacing.sm, borderTopWidth: 1, borderTopColor: Colors.border },
+  stepRow: { flexDirection: 'row', marginBottom: Spacing.sm, gap: Spacing.sm },
+  stepNumber: { fontSize: FontSize.sm, fontWeight: '700', color: Colors.primary, width: 20 },
+  stepText: { fontSize: FontSize.sm, color: Colors.text, lineHeight: 20, flex: 1 },
 
   // Section title
   sectionTitle: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text, marginTop: Spacing.md, marginBottom: Spacing.md },
