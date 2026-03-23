@@ -657,7 +657,7 @@ export default function PlantDetailScreen() {
             <Text style={styles.guideSectionTitle}>Watering frequency</Text>
             <WateringChart baseDays={baseDays} currentMonth={monthIndex} />
 
-            <Text style={styles.guideSectionTitle}>Recommended method</Text>
+            <Text style={styles.guideSectionTitle}>How to water {title}</Text>
             <Text style={styles.bodyText}>{plant.watering_method || care.watering}</Text>
 
             {plant.watering_avoid ? (
