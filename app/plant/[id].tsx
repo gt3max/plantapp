@@ -251,6 +251,7 @@ export default function PlantDetailScreen() {
   const [activeSection, setActiveSection] = useState<SectionKey>('water');
   const [showWateringGuide, setShowWateringGuide] = useState(false);
   const [showLightGuide, setShowLightGuide] = useState(false);
+  const [showHumidityGuide, setShowHumidityGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -524,8 +525,12 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Air Humidity" />
             <InfoRow icon="cloud-outline" text={care.humidity} sub="Air humidity level" />
             {care.humidity_action ? (
-              <InfoBox text={care.humidity_action} variant="info" />
+              <InfoBox text={care.humidity_action} variant={care.humidity.toLowerCase().includes('low') ? 'warning' : 'info'} />
             ) : null}
+            <TouchableOpacity onPress={() => setShowHumidityGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Humidity guide</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 4. Air Temperature ── */}
@@ -733,6 +738,42 @@ export default function PlantDetailScreen() {
           </ScrollView>
         </View>
       </Modal>
+
+      {/* ═══ HUMIDITY GUIDE MODAL ═══ */}
+      <Modal visible={showHumidityGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Humidity guide</Text>
+            <TouchableOpacity onPress={() => setShowHumidityGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>Humidity for {title}</Text>
+            <InfoRow icon="cloud-outline" text={care.humidity} sub="Recommended level" />
+            {care.humidity_action ? (
+              <Text style={styles.bodyText}>{care.humidity_action}</Text>
+            ) : null}
+
+            <Text style={styles.guideSectionTitle}>Warnings</Text>
+            {care.humidity.toLowerCase().includes('high') || care.humidity.toLowerCase().includes('60') || care.humidity.toLowerCase().includes('70') || care.humidity.toLowerCase().includes('80') ? (
+              <>
+                <InfoBox text={`${title} needs high humidity. In dry apartments (especially with central heating in winter), leaf tips will turn brown and crispy.`} variant="warning" />
+                <InfoBox text="Low humidity also attracts spider mites — the #1 indoor pest for tropical plants." variant="warning" />
+              </>
+            ) : care.humidity.toLowerCase().includes('low') || care.humidity.toLowerCase().includes('dry') ? (
+              <>
+                <InfoBox text={`${title} prefers dry air. High humidity causes fungal issues and root rot. Do not mist this plant.`} variant="warning" />
+                <InfoBox text="Avoid placing in bathrooms or near humidifiers." variant="warning" />
+              </>
+            ) : (
+              <InfoBox text={`${title} does fine in average room humidity (40–60%). No special measures needed in most homes.`} variant="info" />
+            )}
+
+            <HumidityMethodsAccordion />
+          </ScrollView>
+        </View>
+      </Modal>
     </>
   );
 }
@@ -798,6 +839,69 @@ function LightLevelsAccordion({ recommendedLight, alsoSuitable }: { recommendedL
           </View>
         );
       })}
+    </View>
+  );
+}
+
+// ─── Humidity methods accordion ──────────────────────────────────────
+
+const HUMIDITY_METHODS = [
+  {
+    title: 'How to increase humidity',
+    steps: [
+      'Group plants together — they create a microclimate with higher humidity.',
+      'Place a tray with pebbles and water under the pot. Water evaporates and humidifies the air around the plant.',
+      'Use a room humidifier nearby, especially in winter with central heating.',
+      'Move the plant to a naturally humid room (kitchen, bathroom with window).',
+    ],
+  },
+  {
+    title: 'How to decrease humidity',
+    steps: [
+      'Improve air circulation — open windows, use a fan.',
+      'Move the plant away from bathrooms and kitchens.',
+      'Use a dehumidifier if the room is consistently above 70%.',
+      'Avoid overwatering — wet soil adds moisture to the air.',
+      'Use terracotta pots — they absorb excess moisture.',
+    ],
+  },
+  {
+    title: 'About misting',
+    steps: [
+      'Misting raises humidity for minutes, not hours. It helps tropical plants but is not a substitute for a humidifier.',
+      'Never mist succulents, cacti, or plants with fuzzy leaves — water sits on leaves and causes rot or fungal spots.',
+      'If you mist, do it in the morning so leaves dry before evening.',
+    ],
+  },
+];
+
+function HumidityMethodsAccordion() {
+  const [expanded, setExpanded] = useState<string | null>(null);
+
+  return (
+    <View style={{ marginTop: Spacing.lg }}>
+      <Text style={styles.guideSectionTitle}>Managing humidity</Text>
+      {HUMIDITY_METHODS.map((method) => (
+        <View key={method.title} style={styles.accordionItem}>
+          <TouchableOpacity
+            onPress={() => setExpanded(expanded === method.title ? null : method.title)}
+            style={styles.accordionHeader}
+          >
+            <Text style={styles.accordionTitle}>{method.title}</Text>
+            <Ionicons name={expanded === method.title ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
+          </TouchableOpacity>
+          {expanded === method.title && (
+            <View style={styles.accordionBody}>
+              {method.steps.map((step, i) => (
+                <View key={i} style={styles.stepRow}>
+                  <Text style={styles.stepNumber}>{i + 1}.</Text>
+                  <Text style={styles.stepText}>{step}</Text>
+                </View>
+              ))}
+            </View>
+          )}
+        </View>
+      ))}
     </View>
   );
 }
