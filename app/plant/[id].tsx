@@ -655,8 +655,10 @@ export default function PlantDetailScreen() {
             <Text style={styles.modalPlantName}>{title}</Text>
 
             <Text style={styles.guideSectionTitle}>Frequency by season</Text>
-            <InfoRow icon="sunny-outline" text={`Every ~${baseDays} days`} sub="Summer (active growth)" />
-            <InfoRow icon="snow-outline" text={`Every ~${plant.watering_freq_winter_days || Math.round(baseDays * 2)} days`} sub="Winter (dormant)" />
+            <InfoRow icon="flower-outline" text={`Every ~${Math.round(baseDays * 1.6)} days`} sub="Spring" />
+            <InfoRow icon="sunny-outline" text={`Every ~${baseDays} days`} sub="Summer" />
+            <InfoRow icon="leaf-outline" text={`Every ~${Math.round(baseDays * 1.6)} days`} sub="Autumn" />
+            <InfoRow icon="snow-outline" text={`Every ~${Math.round(baseDays * 2.8)} days`} sub="Winter" />
 
             <Text style={styles.guideSectionTitle}>Recommended method</Text>
             <Text style={styles.bodyText}>{plant.watering_method || care.watering}</Text>
