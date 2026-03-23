@@ -696,25 +696,34 @@ export default function PlantDetailScreen() {
           <ScrollView contentContainerStyle={styles.modalScroll}>
             <Text style={styles.guideSectionTitle}>How to light {title}</Text>
             <Text style={styles.bodyText}>{care.light.includes('Full') || care.light.includes('Bright')
-              ? `South-facing window, 6+ hours direct sun. No curtains or obstructions.`
+              ? `South-facing window, 6+ hours direct sun.`
               : care.light.includes('indirect')
-              ? `East or west window, or a few feet from a south window. No direct sun.`
-              : `North-facing window or away from direct light. Grows slower but survives.`
+              ? `East or west window. No direct sun.`
+              : `North-facing window or away from direct light.`
             }</Text>
+
+            <LightLevelsAccordion recommendedLight={care.light} alsoSuitable={care.light_also_ok} />
 
             {care.ppfd_min > 0 && (
               <>
                 <Text style={styles.guideSectionTitle}>Light intensity</Text>
-                <InfoRow icon="sunny-outline" text={`${care.ppfd_min}–${care.ppfd_max} PPFD`} sub="µmol/m²/s" />
-                <InfoRow icon="time-outline" text={`${care.dli_min}–${care.dli_max} DLI`} sub="mol/m²/day" />
+                <InfoRow icon="sunny-outline" text={`${care.ppfd_min}–${care.ppfd_max} PPFD`} sub="Photosynthetic Photon Flux Density" />
+                <InfoRow icon="time-outline" text={`${care.dli_min}–${care.dli_max} DLI`} sub="Daily Light Integral" />
+                <InfoBox text="PPFD measures how much usable light reaches the plant per second. DLI is the total light received per day. These values help when choosing a grow light — match its output to the plant's needs." variant="info" />
               </>
             )}
 
-            {(care.light.includes('Full') || care.light.includes('Bright')) && (
-              <InfoBox text={`In northern regions Oct–Mar, ${title} may need a grow light (full-spectrum LED, 12–14h daily).`} variant="warning" />
+            <Text style={styles.guideSectionTitle}>Warnings</Text>
+            {care.light.includes('Full') || care.light.includes('Bright') ? (
+              <>
+                <InfoBox text={`Without enough light, ${title} will stretch, lose color, and weaken.`} variant="warning" />
+                <InfoBox text={`In northern regions Oct–Mar, ${title} may need a grow light (full-spectrum LED, 12–14h daily).`} variant="warning" />
+              </>
+            ) : care.light.includes('indirect') ? (
+              <InfoBox text={`Direct sun burns the leaves of ${title}. Keep away from unfiltered south-facing windows.`} variant="warning" />
+            ) : (
+              <InfoBox text={`${title} tolerates low light, but growth will slow significantly in very dark spots.`} variant="info" />
             )}
-
-            <LightLevelsAccordion recommendedLight={care.light} />
 
             <Text style={styles.guideSectionTitle}>Signs of incorrect lighting</Text>
             <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.sm }]}>Not enough light</Text>
@@ -749,30 +758,35 @@ const LIGHT_LEVELS = [
 ];
 
 
-function LightLevelsAccordion({ recommendedLight }: { recommendedLight?: string }) {
+function LightLevelsAccordion({ recommendedLight, alsoSuitable }: { recommendedLight?: string; alsoSuitable?: string }) {
   const [expanded, setExpanded] = useState<string | null>(null);
 
-  const isRecommended = (title: string): boolean => {
-    if (!recommendedLight) return false;
-    const lower = recommendedLight.toLowerCase();
+  const matchesLight = (title: string, text: string): boolean => {
+    const lower = text.toLowerCase();
     if (title === 'Full sun' && (lower.includes('full') || lower.includes('direct'))) return true;
     if (title === 'Part sun, part shade' && (lower.includes('indirect') || lower.includes('part'))) return true;
     if (title === 'Shade' && (lower.includes('low') || lower.includes('shade'))) return true;
     return false;
   };
 
+  const getLabel = (title: string): string => {
+    if (recommendedLight && matchesLight(title, recommendedLight)) return ' (Recommended)';
+    if (alsoSuitable && matchesLight(title, alsoSuitable)) return ' (Also suitable)';
+    return '';
+  };
+
   return (
     <View style={{ marginTop: Spacing.lg }}>
       <Text style={styles.guideSectionTitle}>Light levels</Text>
       {LIGHT_LEVELS.map((level) => {
-        const recommended = isRecommended(level.title);
+        const label = getLabel(level.title);
         return (
           <View key={level.title} style={styles.accordionItem}>
             <TouchableOpacity
               onPress={() => setExpanded(expanded === level.title ? null : level.title)}
               style={styles.accordionHeader}
             >
-              <Text style={styles.accordionTitle}>{level.title}{recommended ? ' (Recommended)' : ''}</Text>
+              <Text style={styles.accordionTitle}>{level.title}{label}</Text>
               <Ionicons name={expanded === level.title ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
             </TouchableOpacity>
             {expanded === level.title && (
