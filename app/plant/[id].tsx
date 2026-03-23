@@ -352,7 +352,8 @@ export default function PlantDetailScreen() {
   const monthIndex = now.getMonth(); // 0-11
   const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   const currentMonth = monthNames[monthIndex];
-  const seasonCoeff = [2.0, 1.8, 1.5, 1.2, 1.0, 1.0, 1.0, 1.0, 1.0, 1.2, 1.5, 1.8][monthIndex];
+  // Jan=3.0 (deep dormancy) → Jun-Aug=1.0 (active growth) → Dec=2.8
+  const seasonCoeff = [3.0, 2.8, 2.1, 1.6, 1.2, 1.0, 1.0, 1.0, 1.2, 1.6, 2.1, 2.8][monthIndex];
   const baseDays = plant.watering_freq_summer_days || 7;
   const currentWateringDays = Math.round(baseDays * seasonCoeff);
 
