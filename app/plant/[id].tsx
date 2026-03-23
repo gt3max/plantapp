@@ -704,15 +704,6 @@ export default function PlantDetailScreen() {
 
             <LightLevelsAccordion recommendedLight={care.light} alsoSuitable={care.light_also_ok} />
 
-            {care.ppfd_min > 0 && (
-              <>
-                <Text style={styles.guideSectionTitle}>Light intensity</Text>
-                <InfoRow icon="sunny-outline" text={`${care.ppfd_min}–${care.ppfd_max} PPFD`} sub="Photosynthetic Photon Flux Density" />
-                <InfoRow icon="time-outline" text={`${care.dli_min}–${care.dli_max} DLI`} sub="Daily Light Integral" />
-                <InfoBox text="PPFD measures how much usable light reaches the plant per second. DLI is the total light received per day. These values help when choosing a grow light — match its output to the plant's needs." variant="info" />
-              </>
-            )}
-
             <Text style={styles.guideSectionTitle}>Warnings</Text>
             {care.light.includes('Full') || care.light.includes('Bright') ? (
               <>
@@ -730,6 +721,15 @@ export default function PlantDetailScreen() {
             <Text style={styles.bodyText}>{'• Leaves turn yellow and fall off\n• New leaves smaller than older ones\n• Plant stretches towards light\n• Slow, weak growth\n• Leaves far apart on stem'}</Text>
             <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.sm }]}>Too much light</Text>
             <Text style={styles.bodyText}>{'• Leaves drooping\n• Leaf edges dry up\n• Color fading\n• Flowers shrivel and die'}</Text>
+
+            {care.ppfd_min > 0 && (
+              <>
+                <Text style={styles.guideSectionTitle}>Light intensity</Text>
+                <InfoRow icon="sunny-outline" text={`${care.ppfd_min}–${care.ppfd_max} PPFD`} sub="Photosynthetic Photon Flux Density" />
+                <InfoRow icon="time-outline" text={`${care.dli_min}–${care.dli_max} DLI`} sub="Daily Light Integral" />
+                <InfoBox text="PPFD measures how much usable light reaches the plant per second. DLI is the total light received per day. These values help when choosing a grow light — match its output to the plant's needs." variant="info" />
+              </>
+            )}
           </ScrollView>
         </View>
       </Modal>
