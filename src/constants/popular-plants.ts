@@ -96,8 +96,8 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     toxicity_note: 'Toxic to cats and dogs if ingested — causes vomiting and lethargy. Keep on a high shelf if you have pets.',
     toxic_parts: 'All parts (leaves, stems, sap)',
     toxicity_severity: 'Mild',
-    toxicity_symptoms: 'Pets: vomiting, lethargy, loss of coordination. Humans: nausea, diarrhea if large amount ingested.',
-    toxicity_first_aid: 'Pets: remove plant material from mouth, offer water, contact vet if symptoms persist. Humans: rinse mouth, drink water. Seek medical advice if symptoms worsen.',
+    toxicity_symptoms: 'Ingestion: nausea, vomiting, diarrhea, lethargy (pets: also loss of coordination).\nDermal: generally no reaction, wash hands after handling.\nEye contact: mild irritation if sap gets in eyes.\nInhalation: not applicable.',
+    toxicity_first_aid: 'Ingestion: remove plant material from mouth, rinse with water, offer water or milk. Monitor for a few hours — call poison control or vet if symptoms persist.\nDermal: wash skin with soap and water.\nEye contact: flush with clean water for 10–15 minutes.',
     category: 'succulents',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely between waterings',
@@ -304,8 +304,8 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     toxicity_note: 'Ripe fruit is safe. Leaves, stems, and green unripe fruit contain solanine — mildly toxic to pets and small children if eaten in quantity.',
     toxic_parts: 'Leaves, stems, green unripe fruit (contain solanine). Ripe fruit is safe.',
     toxicity_severity: 'Mild to Moderate',
-    toxicity_symptoms: 'Nausea, vomiting, abdominal pain, diarrhea. Large quantities: headache, dizziness. Pets are more sensitive.',
-    toxicity_first_aid: 'Remove plant material, rinse mouth, drink water. If large amount consumed, contact poison control or vet immediately.',
+    toxicity_symptoms: 'Ingestion (leaves/green fruit): nausea, vomiting, abdominal pain, diarrhea. Large quantities: headache, dizziness. Pets are more sensitive than humans.\nDermal: sap may cause mild skin irritation in sensitive individuals.\nEye contact: irritation if sap gets in eyes.\nInhalation: not applicable.',
+    toxicity_first_aid: 'Ingestion: remove plant material, rinse mouth, drink water. If large amount consumed — call poison control or vet.\nDermal: wash with soap and water.\nEye contact: flush with clean water for 10–15 minutes.',
     category: 'fruiting',
     care: {
       watering: 'Every 2-3 days in summer, daily in hot weather. Consistent watering prevents cracking. Deep soak, not a sprinkle.',
@@ -358,8 +358,8 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     toxicity_note: 'Mildly toxic to cats and dogs if chewed — causes nausea, vomiting, diarrhea. Keep away from pets that like to chew leaves.',
     toxic_parts: 'All parts (contains saponins)',
     toxicity_severity: 'Mild',
-    toxicity_symptoms: 'Pets: nausea, vomiting, diarrhea, drooling. Usually self-limiting. Humans: mouth/throat irritation if chewed, unlikely to cause serious harm.',
-    toxicity_first_aid: 'Pets: remove plant material, offer water, monitor for 24h. Contact vet if vomiting persists. Humans: rinse mouth, drink water.',
+    toxicity_symptoms: 'Ingestion: nausea, vomiting, diarrhea, drooling (pets). Mouth and throat irritation (humans). Usually self-limiting.\nDermal: sap may cause mild irritation or rash on sensitive skin.\nEye contact: irritation, redness.\nInhalation: not applicable.',
+    toxicity_first_aid: 'Ingestion: remove plant material from mouth, rinse with water, offer water. Monitor pets for 24h — contact vet if vomiting persists.\nDermal: wash with soap and water.\nEye contact: flush with clean water for 10–15 minutes.',
     category: 'foliage',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely. Stick your finger 5 cm into soil — if dry, water.',

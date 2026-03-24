@@ -980,15 +980,31 @@ export default function PlantDetailScreen() {
 
             {plant.toxicity_symptoms ? (
               <>
-                <Text style={styles.guideSectionTitle}>Symptoms</Text>
-                <Text style={styles.bodyText}>{plant.toxicity_symptoms}</Text>
+                <Text style={styles.guideSectionTitle}>Symptoms by exposure</Text>
+                {plant.toxicity_symptoms.split('\n').filter(Boolean).map((line, i) => {
+                  const [cat, ...rest] = line.split(': ');
+                  return (
+                    <View key={i} style={{ marginBottom: Spacing.sm }}>
+                      <Text style={[styles.bodyText, { fontWeight: '600' }]}>{cat}</Text>
+                      <Text style={styles.bodyText}>{rest.join(': ')}</Text>
+                    </View>
+                  );
+                })}
               </>
             ) : null}
 
             {plant.toxicity_first_aid ? (
               <>
                 <Text style={styles.guideSectionTitle}>What to do</Text>
-                <Text style={styles.bodyText}>{plant.toxicity_first_aid}</Text>
+                {plant.toxicity_first_aid.split('\n').filter(Boolean).map((line, i) => {
+                  const [cat, ...rest] = line.split(': ');
+                  return (
+                    <View key={i} style={{ marginBottom: Spacing.sm }}>
+                      <Text style={[styles.bodyText, { fontWeight: '600' }]}>{cat}</Text>
+                      <Text style={styles.bodyText}>{rest.join(': ')}</Text>
+                    </View>
+                  );
+                })}
               </>
             ) : null}
 
