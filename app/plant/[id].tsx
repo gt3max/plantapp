@@ -567,6 +567,7 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('temperature', e)} style={styles.sectionCard}>
             <SectionTitle text="Air Temperature" />
             <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} />
+            <InfoRow icon="thermometer-outline" text={`Min ${plant.temp_min_c}°C / Max ${plant.temp_max_c}°C`} sub="Survival limits" />
             {plant.temp_warning ? (
               <InfoBox text={plant.temp_warning} variant="warning" />
             ) : null}
