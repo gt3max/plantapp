@@ -622,8 +622,14 @@ export default function PlantDetailScreen() {
                   {plant.poisonous_to_humans && <View style={styles.chip}><Text style={styles.chipText}>Humans</Text></View>}
                   {plant.poisonous_to_pets && <View style={styles.chip}><Text style={styles.chipText}>Animals</Text></View>}
                 </View>
+                {plant.toxic_parts ? (
+                  <InfoRow icon="warning-outline" text={plant.toxic_parts} sub="Toxic parts" iconColor={Colors.error} />
+                ) : null}
                 {plant.edible && plant.edible_parts ? (
                   <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
+                ) : null}
+                {plant.toxicity_note ? (
+                  <InfoBox text={plant.toxicity_note} variant="warning" />
                 ) : null}
                 <TouchableOpacity onPress={() => setShowToxicityGuide(true)} style={styles.guideBtn}>
                   <Text style={styles.guideBtnText}>Toxicity details</Text>
