@@ -870,6 +870,9 @@ export default function PlantDetailScreen() {
               </>
             ) : null}
 
+            <Text style={styles.guideSectionTitle}>Current conditions</Text>
+            <InfoBox text="Enable location services to see current outdoor temperature in your area and whether it's safe to place this plant outside." variant="info" />
+
             <Text style={styles.guideSectionTitle}>Common indoor problems</Text>
             <Text style={styles.bodyText}>{'• Cold drafts from windows — move plant away from drafty spots in winter\n• Hot radiators — dry out the air and overheat roots on the side closest to heat\n• Air conditioning — sudden cold blasts stress tropical plants\n• Temperature swings day/night — most plants prefer stable temperature'}</Text>
           </ScrollView>
