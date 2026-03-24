@@ -18,6 +18,13 @@ export interface PopularPlant {
   lifecycle_years?: string;   // e.g. "2+" or "10-20" or "1 season"
   height_max_cm?: number;     // max indoor height
   used_for?: string[];        // e.g. ['Decorative', 'Air purifier', 'Aromatic']
+  temp_min_c?: number;        // absolute minimum (plant dies below)
+  temp_opt_low_c?: number;    // optimal range low
+  temp_opt_high_c?: number;   // optimal range high
+  temp_max_c?: number;        // absolute maximum
+  temp_winter_low_c?: number; // winter optimal low (if different)
+  temp_winter_high_c?: number;// winter optimal high
+  temp_warning?: string;      // specific warning
   watering_freq_summer_days?: number;  // base interval in days (summer)
   watering_freq_winter_days?: number;  // base interval in days (winter)
   watering_demand?: string;   // 'Low' | 'Medium' | 'High' | 'Very high'
@@ -70,6 +77,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle_years: '50+',
     height_max_cm: 150,
     used_for: ['Decorative'],
+    temp_min_c: 4, temp_opt_low_c: 15, temp_opt_high_c: 24, temp_max_c: 35,
+    temp_winter_low_c: 12, temp_winter_high_c: 18,
+    temp_warning: 'Keep above 4°C. Sensitive to cold drafts — move away from open windows in winter.',
     watering_freq_summer_days: 10,
     watering_freq_winter_days: 30,
     watering_demand: 'Low',
@@ -117,6 +127,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle_years: '10-15',
     height_max_cm: 60,
     used_for: ['Decorative', 'Flowering'],
+    temp_min_c: 15, temp_opt_low_c: 18, temp_opt_high_c: 27, temp_max_c: 35,
+    temp_winter_low_c: 15, temp_winter_high_c: 22,
+    temp_warning: 'A 5°C night temperature drop in autumn triggers re-blooming. Never below 15°C.',
     watering_freq_summer_days: 7,
     watering_freq_winter_days: 12,
     watering_demand: 'Medium',
@@ -164,6 +177,8 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle_years: '1 season',
     height_max_cm: 60,
     used_for: ['Edible', 'Aromatic', 'Culinary herb'],
+    temp_min_c: 5, temp_opt_low_c: 18, temp_opt_high_c: 27, temp_max_c: 38,
+    temp_warning: 'Below 10°C kills basil. Bring indoors at first sign of cold nights.',
     watering_freq_summer_days: 2,
     watering_freq_winter_days: 5,
     watering_demand: 'Very high',
@@ -213,6 +228,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle_years: '10-20',
     height_max_cm: 120,
     used_for: ['Edible', 'Aromatic', 'Culinary herb', 'Medicinal'],
+    temp_min_c: -5, temp_opt_low_c: 10, temp_opt_high_c: 24, temp_max_c: 35,
+    temp_winter_low_c: 5, temp_winter_high_c: 15,
+    temp_warning: 'Tolerates light frost outdoors. Indoors, prefers cooler conditions than most herbs.',
     watering_freq_summer_days: 5,
     watering_freq_winter_days: 14,
     watering_demand: 'Low',
@@ -262,6 +280,8 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle_years: '1 season',
     height_max_cm: 100,
     used_for: ['Edible', 'Fruiting'],
+    temp_min_c: 5, temp_opt_low_c: 18, temp_opt_high_c: 29, temp_max_c: 40,
+    temp_warning: 'Below 10°C stops growth. Above 35°C causes blossom drop — no fruit.',
     watering_freq_summer_days: 2,
     watering_freq_winter_days: undefined,
     watering_demand: 'Very high',
@@ -310,6 +330,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle_years: '20-25',
     height_max_cm: 120,
     used_for: ['Decorative', 'Air purifier'],
+    temp_min_c: 4, temp_opt_low_c: 15, temp_opt_high_c: 27, temp_max_c: 38,
+    temp_winter_low_c: 12, temp_winter_high_c: 25,
+    temp_warning: 'Keep above 10°C. Cold drafts cause permanent scarring on leaves.',
     watering_freq_summer_days: 14,
     watering_freq_winter_days: 30,
     watering_demand: 'Low',

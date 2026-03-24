@@ -46,6 +46,13 @@ interface PlantVM {
   watering_warning: string;
   watering_method: string;
   watering_avoid: string;
+  temp_min_c: number;
+  temp_opt_low_c: number;
+  temp_opt_high_c: number;
+  temp_max_c: number;
+  temp_winter_low_c: number;
+  temp_winter_high_c: number;
+  temp_warning: string;
   edible: boolean;
   edible_parts: string;
   poisonous_to_pets: boolean;
@@ -106,6 +113,13 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         watering_warning: lib?.watering_warning ?? '',
         watering_method: lib?.watering_method ?? '',
         watering_avoid: lib?.watering_avoid ?? '',
+        temp_min_c: lib?.temp_min_c ?? 5,
+        temp_opt_low_c: lib?.temp_opt_low_c ?? 15,
+        temp_opt_high_c: lib?.temp_opt_high_c ?? 25,
+        temp_max_c: lib?.temp_max_c ?? 35,
+        temp_winter_low_c: lib?.temp_winter_low_c ?? lib?.temp_opt_low_c ?? 12,
+        temp_winter_high_c: lib?.temp_winter_high_c ?? lib?.temp_opt_high_c ?? 22,
+        temp_warning: lib?.temp_warning ?? '',
         care,
         hasDevice: userPlant.active && !!userPlant.device_id,
         device_id: userPlant.device_id,
@@ -154,6 +168,13 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         watering_warning: lib?.watering_warning ?? '',
         watering_method: lib?.watering_method ?? '',
         watering_avoid: lib?.watering_avoid ?? '',
+        temp_min_c: lib?.temp_min_c ?? 5,
+        temp_opt_low_c: lib?.temp_opt_low_c ?? 15,
+        temp_opt_high_c: lib?.temp_opt_high_c ?? 25,
+        temp_max_c: lib?.temp_max_c ?? 35,
+        temp_winter_low_c: lib?.temp_winter_low_c ?? lib?.temp_opt_low_c ?? 12,
+        temp_winter_high_c: lib?.temp_winter_high_c ?? lib?.temp_opt_high_c ?? 22,
+        temp_warning: lib?.temp_warning ?? '',
         care,
         hasDevice: false,
         start_pct: care.start_pct,
@@ -195,6 +216,13 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         watering_warning: lib.watering_warning ?? '',
         watering_method: lib.watering_method ?? '',
         watering_avoid: lib.watering_avoid ?? '',
+        temp_min_c: lib.temp_min_c ?? 5,
+        temp_opt_low_c: lib.temp_opt_low_c ?? 15,
+        temp_opt_high_c: lib.temp_opt_high_c ?? 25,
+        temp_max_c: lib.temp_max_c ?? 35,
+        temp_winter_low_c: lib.temp_winter_low_c ?? lib.temp_opt_low_c ?? 12,
+        temp_winter_high_c: lib.temp_winter_high_c ?? lib.temp_opt_high_c ?? 22,
+        temp_warning: lib.temp_warning ?? '',
         care,
         hasDevice: false,
         start_pct: care.start_pct,
@@ -252,6 +280,7 @@ export default function PlantDetailScreen() {
   const [showWateringGuide, setShowWateringGuide] = useState(false);
   const [showLightGuide, setShowLightGuide] = useState(false);
   const [showHumidityGuide, setShowHumidityGuide] = useState(false);
+  const [showTempGuide, setShowTempGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -536,7 +565,14 @@ export default function PlantDetailScreen() {
           {/* ── 4. Air Temperature ── */}
           <View onLayout={(e) => onSectionLayout('temperature', e)} style={styles.sectionCard}>
             <SectionTitle text="Air Temperature" />
-            <InfoRow icon="thermometer-outline" text={care.temperature} sub="Recommended range" />
+            <TempRangeBar min={plant.temp_min_c} optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} max={plant.temp_max_c} label="Optimal range" />
+            {plant.temp_warning ? (
+              <InfoBox text={plant.temp_warning} variant="warning" />
+            ) : null}
+            <TouchableOpacity onPress={() => setShowTempGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Temperature guide</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 5. Toxicity ── */}
@@ -774,7 +810,67 @@ export default function PlantDetailScreen() {
           </ScrollView>
         </View>
       </Modal>
+
+      {/* ═══ TEMPERATURE GUIDE MODAL ═══ */}
+      <Modal visible={showTempGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Temperature guide</Text>
+            <TouchableOpacity onPress={() => setShowTempGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>Temperature for {title}</Text>
+
+            <Text style={[styles.bodyText, { fontWeight: '600' }]}>Summer</Text>
+            <TempRangeBar min={plant.temp_min_c} optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} max={plant.temp_max_c} label={`${plant.temp_opt_low_c}–${plant.temp_opt_high_c}°C`} />
+
+            {plant.temp_winter_low_c > 0 && (
+              <>
+                <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.md }]}>Winter</Text>
+                <TempRangeBar min={plant.temp_min_c} optLow={plant.temp_winter_low_c} optHigh={plant.temp_winter_high_c} max={plant.temp_max_c} label={`${plant.temp_winter_low_c}–${plant.temp_winter_high_c}°C`} />
+              </>
+            )}
+
+            <Text style={styles.guideSectionTitle}>Hardiness</Text>
+            <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temperature to survive (potted)" />
+
+            {plant.temp_warning ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Warnings</Text>
+                <InfoBox text={plant.temp_warning} variant="warning" />
+              </>
+            ) : null}
+          </ScrollView>
+        </View>
+      </Modal>
     </>
+  );
+}
+
+// ─── Temperature range bar ───────────────────────────────────────────
+
+function TempRangeBar({ min, optLow, optHigh, max, label }: {
+  min: number; optLow: number; optHigh: number; max: number; label: string;
+}) {
+  const scaleMin = Math.min(min - 5, -5);
+  const scaleMax = Math.max(max + 5, 40);
+  const range = scaleMax - scaleMin;
+  const leftPct = ((optLow - scaleMin) / range) * 100;
+  const widthPct = ((optHigh - optLow) / range) * 100;
+
+  return (
+    <View style={styles.tempBarContainer}>
+      <View style={styles.tempBarTrack}>
+        <View style={[styles.tempBarOptimal, { left: `${leftPct}%`, width: `${widthPct}%` }]} />
+      </View>
+      <View style={styles.tempBarLabels}>
+        <Text style={styles.tempBarLabel}>{scaleMin}°C</Text>
+        <Text style={[styles.tempBarLabel, { fontWeight: '600', color: Colors.text }]}>{label}</Text>
+        <Text style={styles.tempBarLabel}>{scaleMax}°C</Text>
+      </View>
+    </View>
   );
 }
 
@@ -1221,6 +1317,13 @@ const styles = StyleSheet.create({
   sectionCard: { backgroundColor: Colors.surface, borderRadius: BorderRadius.lg, padding: Spacing.lg, borderWidth: 1, borderColor: Colors.border },
 
   // Watering guide button & content
+  // Temperature range bar
+  tempBarContainer: { marginBottom: Spacing.md },
+  tempBarTrack: { height: 12, backgroundColor: '#E5E7EB', borderRadius: 6, overflow: 'hidden' as const },
+  tempBarOptimal: { position: 'absolute' as const, height: 12, backgroundColor: Colors.success, borderRadius: 6 },
+  tempBarLabels: { flexDirection: 'row' as const, justifyContent: 'space-between' as const, marginTop: 4 },
+  tempBarLabel: { fontSize: 10, color: Colors.textSecondary },
+
   measureLightBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.sm, backgroundColor: Colors.primary, borderRadius: BorderRadius.md, paddingVertical: Spacing.sm, marginTop: Spacing.md },
   measureLightText: { fontSize: FontSize.sm, fontWeight: '600', color: '#fff' },
   guideBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.xs, paddingVertical: Spacing.sm, marginTop: Spacing.sm, borderTopWidth: 1, borderTopColor: Colors.border },
