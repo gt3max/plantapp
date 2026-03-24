@@ -18,6 +18,7 @@ export interface PopularPlant {
   lifecycle_years?: string;   // e.g. "2+" or "10-20" or "1 season"
   height_max_cm?: number;     // max indoor height
   used_for?: string[];        // e.g. ['Decorative', 'Air purifier', 'Aromatic']
+  used_for_details?: string;  // expanded info for Used for guide
   temp_min_c?: number;        // absolute minimum (plant dies below)
   temp_opt_low_c?: number;    // optimal range low
   temp_opt_high_c?: number;   // optimal range high
@@ -81,6 +82,7 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle_years: '50+',
     height_max_cm: 150,
     used_for: ['Decorative'],
+    used_for_details: 'Symbol of good luck and prosperity in many cultures — often called Money Plant or Friendship Tree. Grows into an attractive tree-like form over decades. Can be shaped as bonsai.',
     temp_min_c: 4, temp_opt_low_c: 15, temp_opt_high_c: 24, temp_max_c: 35,
     temp_winter_low_c: 12, temp_winter_high_c: 18,
     temp_warning: 'Keep above 4°C. Sensitive to cold drafts — move away from open windows in winter.',
@@ -135,6 +137,7 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle_years: '10-15',
     height_max_cm: 60,
     used_for: ['Decorative', 'Flowering'],
+    used_for_details: 'Blooms for 2-3 months with minimal care. Available in hundreds of colors. One of the most popular gift plants worldwide. Can re-bloom year after year with proper autumn temperature drop.',
     temp_min_c: 15, temp_opt_low_c: 18, temp_opt_high_c: 27, temp_max_c: 35,
     temp_winter_low_c: 15, temp_winter_high_c: 22,
     temp_warning: 'A 5°C night temperature drop in autumn triggers re-blooming. Never below 15°C.',
@@ -184,7 +187,8 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle: 'annual',
     lifecycle_years: '1 season',
     height_max_cm: 60,
-    used_for: ['Edible', 'Aromatic', 'Culinary herb'],
+    used_for: ['Edible', 'Aromatic', 'Culinary herb', 'Attracts pollinators'],
+    used_for_details: 'Essential kitchen herb — pesto, salads, pasta, pizza. Flowers attract bees and butterflies. Strong aroma repels mosquitoes and flies. Companion plant for tomatoes — improves flavor and repels pests.',
     temp_min_c: 5, temp_opt_low_c: 18, temp_opt_high_c: 27, temp_max_c: 38,
     temp_warning: 'Below 10°C kills basil. Bring indoors at first sign of cold nights.',
     watering_freq_summer_days: 2,
@@ -235,7 +239,8 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle: 'perennial',
     lifecycle_years: '10-20',
     height_max_cm: 120,
-    used_for: ['Edible', 'Aromatic', 'Culinary herb', 'Medicinal'],
+    used_for: ['Edible', 'Aromatic', 'Culinary herb', 'Medicinal', 'Attracts pollinators'],
+    used_for_details: 'Versatile culinary herb — roasts, stews, bread, tea. Medicinal: anti-inflammatory, improves memory and concentration (traditional use). Flowers attract bees. Strong scent repels deer and rabbits — good garden border plant.',
     temp_min_c: -5, temp_opt_low_c: 10, temp_opt_high_c: 24, temp_max_c: 35,
     temp_winter_low_c: 5, temp_winter_high_c: 15,
     temp_warning: 'Tolerates light frost outdoors. Indoors, prefers cooler conditions than most herbs.',
@@ -287,7 +292,8 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle: 'annual',
     lifecycle_years: '1 season',
     height_max_cm: 100,
-    used_for: ['Edible', 'Fruiting'],
+    used_for: ['Edible', 'Fruiting', 'Attracts pollinators'],
+    used_for_details: 'One plant yields 100+ cherry tomatoes per season. Rich in vitamins A and C. Hand-pollinate indoors by shaking flowering stems. Bush varieties (Tiny Tim, Micro Tom) ideal for windowsill or balcony.',
     temp_min_c: 5, temp_opt_low_c: 18, temp_opt_high_c: 29, temp_max_c: 40,
     temp_warning: 'Below 10°C stops growth. Above 35°C causes blossom drop — no fruit.',
     watering_freq_summer_days: 2,
@@ -342,6 +348,7 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     lifecycle_years: '20-25',
     height_max_cm: 120,
     used_for: ['Decorative', 'Air purifier'],
+    used_for_details: 'One of the top air-purifying plants (NASA Clean Air Study). Removes formaldehyde, benzene, trichloroethylene, xylene from indoor air. Unique feature: releases oxygen at night (most plants only during the day) — ideal for bedrooms. Recommended: 2-3 large plants per room for noticeable air quality improvement.',
     temp_min_c: 4, temp_opt_low_c: 15, temp_opt_high_c: 27, temp_max_c: 38,
     temp_winter_low_c: 12, temp_winter_high_c: 25,
     temp_warning: 'Keep above 10°C. Cold drafts cause permanent scarring on leaves.',

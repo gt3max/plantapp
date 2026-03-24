@@ -39,6 +39,7 @@ interface PlantVM {
   lifecycle_years: string;
   height_max_cm: number;
   used_for: string[];
+  used_for_details: string;
   watering_freq_summer_days: number;
   watering_freq_winter_days: number;
   watering_demand: string;
@@ -114,6 +115,7 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         harvest_info: lib?.harvest_info ?? '',
         lifecycle_years: lib?.lifecycle_years ?? '',
         used_for: lib?.used_for ?? [],
+        used_for_details: lib?.used_for_details ?? '',
         watering_freq_summer_days: lib?.watering_freq_summer_days ?? 7,
         watering_freq_winter_days: lib?.watering_freq_winter_days ?? 14,
         watering_demand: lib?.watering_demand ?? '',
@@ -173,6 +175,7 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         harvest_info: lib?.harvest_info ?? '',
         lifecycle_years: lib?.lifecycle_years ?? '',
         used_for: lib?.used_for ?? [],
+        used_for_details: lib?.used_for_details ?? '',
         watering_freq_summer_days: lib?.watering_freq_summer_days ?? 7,
         watering_freq_winter_days: lib?.watering_freq_winter_days ?? 14,
         watering_demand: lib?.watering_demand ?? '',
@@ -225,6 +228,7 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         harvest_info: lib.harvest_info ?? '',
         lifecycle_years: lib.lifecycle_years ?? '',
         used_for: lib.used_for ?? [],
+        used_for_details: lib.used_for_details ?? '',
         watering_freq_summer_days: lib.watering_freq_summer_days ?? 7,
         watering_freq_winter_days: lib.watering_freq_winter_days ?? 14,
         watering_demand: lib.watering_demand ?? '',
@@ -300,6 +304,7 @@ export default function PlantDetailScreen() {
   const [showTempGuide, setShowTempGuide] = useState(false);
   const [showOutdoorGuide, setShowOutdoorGuide] = useState(false);
   const [showToxicityGuide, setShowToxicityGuide] = useState(false);
+  const [showUsedForGuide, setShowUsedForGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -677,6 +682,10 @@ export default function PlantDetailScreen() {
             {plant.edible_parts ? (
               <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
             ) : null}
+            <TouchableOpacity onPress={() => setShowUsedForGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Learn more</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 8. Soil ── */}
@@ -1026,6 +1035,60 @@ export default function PlantDetailScreen() {
 
             <Text style={styles.guideSectionTitle}>Disclaimer</Text>
             <InfoBox text="Toxicity information is compiled from multiple botanical sources and may not be exhaustive. Individual reactions vary — allergies and sensitivities are not covered here. If you or your pet ingested any plant material and feel unwell, contact a medical professional or poison control center immediately. This is not medical advice." variant="info" />
+          </ScrollView>
+        </View>
+      </Modal>
+
+      {/* ═══ USED FOR GUIDE MODAL ═══ */}
+      <Modal visible={showUsedForGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>About {title}</Text>
+            <TouchableOpacity onPress={() => setShowUsedForGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>What is {title} used for</Text>
+            <View style={styles.chipRow}>
+              {plant.used_for.map((tag) => (
+                <View key={tag} style={tag === 'Edible' || tag === 'Edible greens' || tag === 'Fruiting' ? [styles.chip, styles.chipGreen] : styles.chip}>
+                  <Text style={tag === 'Edible' || tag === 'Edible greens' || tag === 'Fruiting' ? styles.chipTextGreen : styles.chipText}>{tag}</Text>
+                </View>
+              ))}
+            </View>
+
+            {plant.used_for_details ? (
+              <Text style={styles.bodyText}>{plant.used_for_details}</Text>
+            ) : null}
+
+            {plant.edible_parts ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Edible parts</Text>
+                <InfoRow icon="nutrition-outline" text={plant.edible_parts} iconColor={Colors.success} />
+              </>
+            ) : null}
+
+            {plant.harvest_info ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Harvest</Text>
+                <Text style={styles.bodyText}>{plant.harvest_info}</Text>
+              </>
+            ) : null}
+
+            {plant.used_for.includes('Air purifier') && (
+              <>
+                <Text style={styles.guideSectionTitle}>Air purification</Text>
+                <InfoBox text="According to the NASA Clean Air Study, certain houseplants can remove common indoor pollutants like formaldehyde, benzene, and trichloroethylene. For noticeable effect, aim for 2-3 large plants per average room." variant="info" />
+              </>
+            )}
+
+            {plant.used_for.includes('Attracts pollinators') && (
+              <>
+                <Text style={styles.guideSectionTitle}>Pollinators</Text>
+                <InfoBox text="This plant attracts bees and butterflies. Great for balconies and gardens where you want to support local pollinator populations." variant="info" />
+              </>
+            )}
           </ScrollView>
         </View>
       </Modal>
