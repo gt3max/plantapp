@@ -58,6 +58,10 @@ interface PlantVM {
   poisonous_to_pets: boolean;
   poisonous_to_humans: boolean;
   toxicity_note: string;
+  toxic_parts: string;
+  toxicity_severity: string;
+  toxicity_symptoms: string;
+  toxicity_first_aid: string;
   harvest_info: string;
   care: PresetCare;
   hasDevice: boolean;
@@ -103,6 +107,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         poisonous_to_pets: userPlant.poisonous_to_pets ?? false,
         poisonous_to_humans: userPlant.poisonous_to_humans ?? false,
         toxicity_note: userPlant.toxicity_note ?? '',
+        toxic_parts: lib?.toxic_parts ?? '',
+        toxicity_severity: lib?.toxicity_severity ?? '',
+        toxicity_symptoms: lib?.toxicity_symptoms ?? '',
+        toxicity_first_aid: lib?.toxicity_first_aid ?? '',
         harvest_info: lib?.harvest_info ?? '',
         lifecycle_years: lib?.lifecycle_years ?? '',
         used_for: lib?.used_for ?? [],
@@ -158,6 +166,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         poisonous_to_pets: !!dbEntry.care?.toxic_to_pets,
         poisonous_to_humans: !!dbEntry.care?.toxic_to_humans,
         toxicity_note: dbEntry.care?.toxicity_note ?? '',
+        toxic_parts: lib?.toxic_parts ?? '',
+        toxicity_severity: lib?.toxicity_severity ?? '',
+        toxicity_symptoms: lib?.toxicity_symptoms ?? '',
+        toxicity_first_aid: lib?.toxicity_first_aid ?? '',
         harvest_info: lib?.harvest_info ?? '',
         lifecycle_years: lib?.lifecycle_years ?? '',
         used_for: lib?.used_for ?? [],
@@ -206,6 +218,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         poisonous_to_pets: lib.poisonous_to_pets,
         poisonous_to_humans: lib.poisonous_to_humans,
         toxicity_note: lib.toxicity_note,
+        toxic_parts: lib.toxic_parts ?? '',
+        toxicity_severity: lib.toxicity_severity ?? '',
+        toxicity_symptoms: lib.toxicity_symptoms ?? '',
+        toxicity_first_aid: lib.toxicity_first_aid ?? '',
         harvest_info: lib.harvest_info ?? '',
         lifecycle_years: lib.lifecycle_years ?? '',
         used_for: lib.used_for ?? [],
@@ -283,6 +299,7 @@ export default function PlantDetailScreen() {
   const [showHumidityGuide, setShowHumidityGuide] = useState(false);
   const [showTempGuide, setShowTempGuide] = useState(false);
   const [showOutdoorGuide, setShowOutdoorGuide] = useState(false);
+  const [showToxicityGuide, setShowToxicityGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -600,8 +617,7 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Toxicity" />
             {isToxic ? (
               <>
-                <InfoRow icon="alert-circle" text="Toxic" iconColor={Colors.error} />
-                <Text style={styles.bodyText}>Toxic to:</Text>
+                <InfoRow icon="alert-circle" text={`Toxic${plant.toxicity_severity ? ` (${plant.toxicity_severity})` : ''}`} iconColor={Colors.error} />
                 <View style={styles.chipRow}>
                   {plant.poisonous_to_humans && <View style={styles.chip}><Text style={styles.chipText}>Humans</Text></View>}
                   {plant.poisonous_to_pets && <View style={styles.chip}><Text style={styles.chipText}>Animals</Text></View>}
@@ -609,11 +625,10 @@ export default function PlantDetailScreen() {
                 {plant.edible && plant.edible_parts ? (
                   <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
                 ) : null}
-                {plant.toxicity_note ? (
-                  <InfoBox text={plant.toxicity_note} variant="warning" />
-                ) : (
-                  <InfoBox text="Toxic according to different sources, use this information at your own risk." variant="warning" />
-                )}
+                <TouchableOpacity onPress={() => setShowToxicityGuide(true)} style={styles.guideBtn}>
+                  <Text style={styles.guideBtnText}>Toxicity details</Text>
+                  <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+                </TouchableOpacity>
               </>
             ) : (
               <>
@@ -925,6 +940,64 @@ export default function PlantDetailScreen() {
               Important: these zones assume the plant is in the ground. Potted plants are 1–2 zones less hardy because roots are exposed to cold from all sides.
             </Text>
             <InfoBox text="Enable location services and we will determine your frost tolerance zone automatically." variant="info" />
+          </ScrollView>
+        </View>
+      </Modal>
+
+      {/* ═══ TOXICITY GUIDE MODAL ═══ */}
+      <Modal visible={showToxicityGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Toxicity details</Text>
+            <TouchableOpacity onPress={() => setShowToxicityGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>Toxicity of {title}</Text>
+
+            <InfoRow icon="alert-circle" text={plant.toxicity_severity ? `${plant.toxicity_severity} toxicity` : 'Toxic'} iconColor={Colors.error} />
+
+            <View style={styles.chipRow}>
+              {plant.poisonous_to_humans && <View style={styles.chip}><Text style={styles.chipText}>Humans</Text></View>}
+              {plant.poisonous_to_pets && <View style={styles.chip}><Text style={styles.chipText}>Cats</Text></View>}
+              {plant.poisonous_to_pets && <View style={styles.chip}><Text style={styles.chipText}>Dogs</Text></View>}
+            </View>
+
+            {plant.toxic_parts ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Toxic parts</Text>
+                <Text style={styles.bodyText}>{plant.toxic_parts}</Text>
+              </>
+            ) : null}
+
+            {plant.edible && plant.edible_parts ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Edible parts</Text>
+                <InfoRow icon="nutrition-outline" text={plant.edible_parts} iconColor={Colors.success} />
+              </>
+            ) : null}
+
+            {plant.toxicity_symptoms ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Symptoms</Text>
+                <Text style={styles.bodyText}>{plant.toxicity_symptoms}</Text>
+              </>
+            ) : null}
+
+            {plant.toxicity_first_aid ? (
+              <>
+                <Text style={styles.guideSectionTitle}>What to do</Text>
+                <Text style={styles.bodyText}>{plant.toxicity_first_aid}</Text>
+              </>
+            ) : null}
+
+            {plant.toxicity_note ? (
+              <InfoBox text={plant.toxicity_note} variant="warning" />
+            ) : null}
+
+            <Text style={styles.guideSectionTitle}>Disclaimer</Text>
+            <InfoBox text="Toxicity information is compiled from multiple botanical sources and may not be exhaustive. Individual reactions vary — allergies and sensitivities are not covered here. If you or your pet ingested any plant material and feel unwell, contact a medical professional or poison control center immediately. This is not medical advice." variant="info" />
           </ScrollView>
         </View>
       </Modal>

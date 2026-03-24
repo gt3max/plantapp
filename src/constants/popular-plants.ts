@@ -38,6 +38,10 @@ export interface PopularPlant {
   poisonous_to_pets: boolean;
   poisonous_to_humans: boolean;
   toxicity_note: string;
+  toxic_parts?: string;       // which parts are toxic: 'All parts' / 'Leaves, sap' / etc
+  toxicity_severity?: string; // 'Mild' / 'Moderate' / 'Severe'
+  toxicity_symptoms?: string; // symptoms if ingested/contacted
+  toxicity_first_aid?: string; // what to do
   category: string;           // for grouping in UI (tropical/succulents/foliage/herbs/flowering/fruiting)
   care?: Partial<PresetCare>; // per-species care overrides (merged with preset defaults)
 }
@@ -90,6 +94,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     poisonous_to_pets: true,
     poisonous_to_humans: false,
     toxicity_note: 'Toxic to cats and dogs if ingested — causes vomiting and lethargy. Keep on a high shelf if you have pets.',
+    toxic_parts: 'All parts (leaves, stems, sap)',
+    toxicity_severity: 'Mild',
+    toxicity_symptoms: 'Pets: vomiting, lethargy, loss of coordination. Humans: nausea, diarrhea if large amount ingested.',
+    toxicity_first_aid: 'Pets: remove plant material from mouth, offer water, contact vet if symptoms persist. Humans: rinse mouth, drink water. Seek medical advice if symptoms worsen.',
     category: 'succulents',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely between waterings',
@@ -294,6 +302,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     poisonous_to_pets: true,
     poisonous_to_humans: false,
     toxicity_note: 'Ripe fruit is safe. Leaves, stems, and green unripe fruit contain solanine — mildly toxic to pets and small children if eaten in quantity.',
+    toxic_parts: 'Leaves, stems, green unripe fruit (contain solanine). Ripe fruit is safe.',
+    toxicity_severity: 'Mild to Moderate',
+    toxicity_symptoms: 'Nausea, vomiting, abdominal pain, diarrhea. Large quantities: headache, dizziness. Pets are more sensitive.',
+    toxicity_first_aid: 'Remove plant material, rinse mouth, drink water. If large amount consumed, contact poison control or vet immediately.',
     category: 'fruiting',
     care: {
       watering: 'Every 2-3 days in summer, daily in hot weather. Consistent watering prevents cracking. Deep soak, not a sprinkle.',
@@ -344,6 +356,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     poisonous_to_pets: true,
     poisonous_to_humans: false,
     toxicity_note: 'Mildly toxic to cats and dogs if chewed — causes nausea, vomiting, diarrhea. Keep away from pets that like to chew leaves.',
+    toxic_parts: 'All parts (contains saponins)',
+    toxicity_severity: 'Mild',
+    toxicity_symptoms: 'Pets: nausea, vomiting, diarrhea, drooling. Usually self-limiting. Humans: mouth/throat irritation if chewed, unlikely to cause serious harm.',
+    toxicity_first_aid: 'Pets: remove plant material, offer water, monitor for 24h. Contact vet if vomiting persists. Humans: rinse mouth, drink water.',
     category: 'foliage',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely. Stick your finger 5 cm into soil — if dry, water.',
