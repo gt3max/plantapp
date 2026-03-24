@@ -833,8 +833,15 @@ export default function PlantDetailScreen() {
               </>
             )}
 
+            <Text style={styles.guideSectionTitle}>Indoor / Outdoor</Text>
+            <InfoRow icon="home-outline" text="Full year" sub="Indoor months" />
+            <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor months (potted)" />
+            <InfoRow icon="earth-outline" text="Depends on your location" sub="Outdoor months (in ground)" />
+            <InfoBox text="Outdoor availability will be calculated based on your location. Enable location services to see personalized data." variant="info" />
+
             <Text style={styles.guideSectionTitle}>Hardiness</Text>
             <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temperature to survive (potted)" />
+            <InfoBox text="Potted plants are more sensitive to cold than plants in the ground. Roots in a pot freeze faster — bring inside before frost." variant="info" />
 
             {plant.temp_warning ? (
               <>
