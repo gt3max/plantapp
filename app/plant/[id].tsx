@@ -259,7 +259,7 @@ function usePlantVM(id: string | undefined): PlantVM | null {
 type SectionKey =
   | 'water' | 'light' | 'humidity' | 'temperature' | 'outdoor' | 'toxicity'
   | 'lifecycle' | 'used_for' | 'soil' | 'fertilizing'
-  | 'difficulty' | 'size' | 'taxonomy';
+  | 'difficulty' | 'size' | 'taxonomy' | 'companions';
 
 interface SectionDef {
   key: SectionKey;
@@ -281,6 +281,7 @@ function getSections(_plant: PlantVM): SectionDef[] {
     { key: 'difficulty', label: 'Difficulty' },
     { key: 'size', label: 'Size' },
     { key: 'taxonomy', label: 'Taxonomy' },
+    { key: 'companions', label: 'Companions' },
   ];
 }
 
@@ -735,7 +736,7 @@ export default function PlantDetailScreen() {
             ) : null}
           </View>
 
-          {/* ── 12. Taxonomy ── */}
+          {/* ── 13. Taxonomy ── */}
           <View onLayout={(e) => onSectionLayout('taxonomy', e)} style={styles.sectionCard}>
             <SectionTitle text="Taxonomy" />
             <InfoRow icon="document-text-outline" text={plant.scientific} sub="Scientific name" />
@@ -743,6 +744,12 @@ export default function PlantDetailScreen() {
             {plant.common_name ? (
               <InfoRow icon="globe-outline" text={plant.common_name} sub="Common name" />
             ) : null}
+          </View>
+
+          {/* ── 14. Companions ── */}
+          <View onLayout={(e) => onSectionLayout('companions', e)} style={styles.sectionCard}>
+            <SectionTitle text="Companions" />
+            <InfoBox text="Companion planting data coming soon — good and bad neighbors, nutrient cycling, pest management." variant="info" />
           </View>
 
         </View>
