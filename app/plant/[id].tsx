@@ -282,6 +282,7 @@ export default function PlantDetailScreen() {
   const [showLightGuide, setShowLightGuide] = useState(false);
   const [showHumidityGuide, setShowHumidityGuide] = useState(false);
   const [showTempGuide, setShowTempGuide] = useState(false);
+  const [showOutdoorGuide, setShowOutdoorGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -580,10 +581,18 @@ export default function PlantDetailScreen() {
           {/* ── 5. Outdoor ── */}
           <View onLayout={(e) => onSectionLayout('outdoor', e)} style={styles.sectionCard}>
             <SectionTitle text="Outdoor" />
-            <InfoRow icon="home-outline" text="Full year" sub="Indoor months" />
+            <InfoRow icon="home-outline" text="Full year" sub="Can be kept indoors" />
             <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor months (potted)" />
-            <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temperature to survive (potted)" />
-            <InfoBox text="Potted plants freeze faster than plants in the ground. Bring inside before frost." variant="info" />
+            <InfoRow icon="earth-outline" text="Depends on your location" sub="Outdoor months (in ground)" />
+            <View style={{ marginTop: Spacing.sm }}>
+              <Text style={[styles.bodyText, { fontWeight: '600' }]}>Hardiness</Text>
+              <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp to survive when potted" />
+            </View>
+            <InfoBox text="Potted plants are more sensitive to cold than plants in the ground — roots in a pot freeze faster." variant="warning" />
+            <TouchableOpacity onPress={() => setShowOutdoorGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Outdoor guide</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 6. Toxicity ── */}
@@ -853,6 +862,46 @@ export default function PlantDetailScreen() {
           </ScrollView>
         </View>
       </Modal>
+
+      {/* ═══ OUTDOOR GUIDE MODAL ═══ */}
+      <Modal visible={showOutdoorGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Outdoor guide</Text>
+            <TouchableOpacity onPress={() => setShowOutdoorGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>{title} outdoors</Text>
+            <Text style={styles.bodyText}>
+              {plant.temp_min_c <= 0
+                ? `${title} tolerates light frost and can stay outdoors longer than most houseplants. Still, potted plants are more vulnerable than those in the ground.`
+                : plant.temp_min_c <= 5
+                ? `${title} can go outdoors in warm months but must come inside before temperatures drop below ${plant.temp_min_c}°C.`
+                : `${title} is sensitive to cold. Only put outdoors when nighttime temperatures are consistently above ${plant.temp_min_c + 5}°C.`
+              }
+            </Text>
+
+            <Text style={styles.guideSectionTitle}>Indoor vs Outdoor months</Text>
+            <InfoRow icon="home-outline" text="Full year" sub="Indoor — safe year-round" />
+            <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor (potted) — enable location for dates" />
+            <InfoRow icon="earth-outline" text="Depends on your location" sub="Outdoor (in ground) — enable location for dates" />
+            <InfoBox text="Enable location services to see which months are safe for outdoor placement in your area." variant="info" />
+
+            <Text style={styles.guideSectionTitle}>Hardiness</Text>
+            <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp to survive when potted" />
+            <InfoBox text="This is the temperature the plant can endure — not the temperature it prefers. At this point the plant suffers: leaves may drop, growth stops, scarring occurs. It should survive and recover once moved to warmth." variant="info" />
+
+            <Text style={styles.guideSectionTitle}>Potted vs in ground</Text>
+            <Text style={styles.bodyText}>
+              A plant in the ground has soil insulation protecting its roots. A potted plant has exposed sides — the pot freezes through much faster. This means potted plants need to come inside earlier in autumn and go out later in spring.
+            </Text>
+
+            <HardinessAccordion />
+          </ScrollView>
+        </View>
+      </Modal>
     </>
   );
 }
@@ -881,6 +930,40 @@ function TempRangeBar({ optLow, optHigh, color, label }: {
         <Text style={styles.tempBarLabel}>{scaleMin}°C</Text>
         <Text style={styles.tempBarLabel}>15°C</Text>
         <Text style={styles.tempBarLabel}>{scaleMax}°C</Text>
+      </View>
+    </View>
+  );
+}
+
+// ─── Hardiness accordion ─────────────────────────────────────────────
+
+function HardinessAccordion() {
+  const [expanded, setExpanded] = useState(false);
+
+  return (
+    <View style={{ marginTop: Spacing.lg }}>
+      <View style={styles.accordionItem}>
+        <TouchableOpacity
+          onPress={() => setExpanded(!expanded)}
+          style={styles.accordionHeader}
+        >
+          <Text style={styles.accordionTitle}>Hardiness zones explained</Text>
+          <Ionicons name={expanded ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
+        </TouchableOpacity>
+        {expanded && (
+          <View style={styles.accordionBody}>
+            <Text style={styles.bodyText}>
+              A hardiness zone is based on the average lowest winter temperature in your area. It determines which plants can survive outdoors year-round.
+            </Text>
+            <Text style={styles.bodyText}>
+              Zones range from 1a (coldest, below -51°C) to 13b (warmest, above 21°C). Each zone spans about 5°C. Zone 1a is the furthest north, Zone 13b is tropical.
+            </Text>
+            <Text style={styles.bodyText}>
+              Important: hardiness zones assume the plant is in the ground. Potted plants are 1-2 zones less hardy because roots are exposed to cold air from all sides.
+            </Text>
+            <InfoBox text="Enable location services and we will determine your hardiness zone automatically." variant="info" />
+          </View>
+        )}
       </View>
     </View>
   );
