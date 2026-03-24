@@ -841,14 +841,24 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
           <ScrollView contentContainerStyle={styles.modalScroll}>
-            <Text style={styles.guideSectionTitle}>Temperature for {title}</Text>
+            <Text style={styles.guideSectionTitle}>Indoor temperature for {title}</Text>
+            <Text style={styles.bodyText}>
+              {plant.preset === 'Tropical'
+                ? `${title} is a tropical plant. It thrives at typical room temperature (18–27°C) all year. No special temperature adjustments needed indoors.`
+                : plant.preset === 'Succulents'
+                ? `${title} comes from an arid climate. Normal room temperature works year-round. A slight winter cool-down (10–15°C) can encourage blooming, but is not required to keep the plant alive.`
+                : plant.preset === 'Herbs'
+                ? `${title} prefers moderate temperatures. Some herbs from temperate climates benefit from cooler winters. Avoid hot radiators and cold drafts equally.`
+                : `${title} is a temperate plant. It may need a cooler winter period (dormancy) to stay healthy long-term. Without winter cool-down, it can weaken and become susceptible to pests.`
+              }
+            </Text>
 
-            <Text style={[styles.bodyText, { fontWeight: '600' }]}>Summer</Text>
+            <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.md }]}>Summer (optimal)</Text>
             <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} color="#EF4444" />
 
             {plant.temp_winter_low_c > 0 && (
               <>
-                <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.md }]}>Winter</Text>
+                <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.md }]}>Winter (optimal)</Text>
                 <TempRangeBar optLow={plant.temp_winter_low_c} optHigh={plant.temp_winter_high_c} color="#6B7280" />
               </>
             )}
@@ -859,6 +869,9 @@ export default function PlantDetailScreen() {
                 <InfoBox text={plant.temp_warning} variant="warning" />
               </>
             ) : null}
+
+            <Text style={styles.guideSectionTitle}>Common indoor problems</Text>
+            <Text style={styles.bodyText}>{'• Cold drafts from windows — move plant away from drafty spots in winter\n• Hot radiators — dry out the air and overheat roots on the side closest to heat\n• Air conditioning — sudden cold blasts stress tropical plants\n• Temperature swings day/night — most plants prefer stable temperature'}</Text>
           </ScrollView>
         </View>
       </Modal>
