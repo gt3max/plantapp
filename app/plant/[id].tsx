@@ -63,6 +63,10 @@ interface PlantVM {
   toxicity_severity: string;
   toxicity_symptoms: string;
   toxicity_first_aid: string;
+  soil_types: string[];
+  pot_type: string;
+  pot_size_note: string;
+  repot_signs: string;
   harvest_info: string;
   care: PresetCare;
   hasDevice: boolean;
@@ -112,6 +116,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         toxicity_severity: lib?.toxicity_severity ?? '',
         toxicity_symptoms: lib?.toxicity_symptoms ?? '',
         toxicity_first_aid: lib?.toxicity_first_aid ?? '',
+        soil_types: lib?.soil_types ?? [],
+        pot_type: lib?.pot_type ?? '',
+        pot_size_note: lib?.pot_size_note ?? '',
+        repot_signs: lib?.repot_signs ?? '',
         harvest_info: lib?.harvest_info ?? '',
         lifecycle_years: lib?.lifecycle_years ?? '',
         used_for: lib?.used_for ?? [],
@@ -172,6 +180,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         toxicity_severity: lib?.toxicity_severity ?? '',
         toxicity_symptoms: lib?.toxicity_symptoms ?? '',
         toxicity_first_aid: lib?.toxicity_first_aid ?? '',
+        soil_types: lib?.soil_types ?? [],
+        pot_type: lib?.pot_type ?? '',
+        pot_size_note: lib?.pot_size_note ?? '',
+        repot_signs: lib?.repot_signs ?? '',
         harvest_info: lib?.harvest_info ?? '',
         lifecycle_years: lib?.lifecycle_years ?? '',
         used_for: lib?.used_for ?? [],
@@ -225,6 +237,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         toxicity_severity: lib.toxicity_severity ?? '',
         toxicity_symptoms: lib.toxicity_symptoms ?? '',
         toxicity_first_aid: lib.toxicity_first_aid ?? '',
+        soil_types: lib.soil_types ?? [],
+        pot_type: lib.pot_type ?? '',
+        pot_size_note: lib.pot_size_note ?? '',
+        repot_signs: lib.repot_signs ?? '',
         harvest_info: lib.harvest_info ?? '',
         lifecycle_years: lib.lifecycle_years ?? '',
         used_for: lib.used_for ?? [],
@@ -306,6 +322,7 @@ export default function PlantDetailScreen() {
   const [showOutdoorGuide, setShowOutdoorGuide] = useState(false);
   const [showToxicityGuide, setShowToxicityGuide] = useState(false);
   const [showUsedForGuide, setShowUsedForGuide] = useState(false);
+  const [showSoilGuide, setShowSoilGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -689,15 +706,24 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 8. Soil ── */}
+          {/* ── 9. Soil ── */}
           <View onLayout={(e) => onSectionLayout('soil', e)} style={styles.sectionCard}>
             <SectionTitle text="Soil" />
-            <InfoRow icon="layers-outline" text={care.soil} sub="Soil mix" />
-            {plant.soil_ph_min != null && plant.soil_ph_min > 0 && (
-              <InfoRow icon="flask-outline" text={`pH ${plant.soil_ph_min} – ${plant.soil_ph_max}`} sub="Soil acidity" />
+            {plant.soil_types.length > 0 && (
+              <View style={styles.chipRow}>
+                {plant.soil_types.map((t) => (
+                  <View key={t} style={styles.chip}><Text style={styles.chipText}>{t}</Text></View>
+                ))}
+              </View>
             )}
-            <InfoRow icon="resize-outline" text={care.repot} sub="Repotting" />
-            <InfoRow icon="sparkles-outline" text="Wipe leaves with a damp cloth" sub="Removes dust, helps photosynthesis" />
+            <InfoRow icon="resize-outline" text={care.repot} sub="Repotting frequency" />
+            {plant.pot_type ? (
+              <InfoRow icon="cube-outline" text={plant.pot_type} sub="Recommended pot" />
+            ) : null}
+            <TouchableOpacity onPress={() => setShowSoilGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Soil guide</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 9. Fertilizing ── */}
@@ -1099,7 +1125,105 @@ export default function PlantDetailScreen() {
           </ScrollView>
         </View>
       </Modal>
+
+      {/* ═══ SOIL GUIDE MODAL ═══ */}
+      <Modal visible={showSoilGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Soil guide</Text>
+            <TouchableOpacity onPress={() => setShowSoilGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>Soil for {title}</Text>
+            <Text style={styles.bodyText}>{care.soil}</Text>
+
+            {plant.soil_types.length > 0 && (
+              <>
+                <Text style={styles.guideSectionTitle}>Recommended soil types</Text>
+                <View style={styles.chipRow}>
+                  {plant.soil_types.map((t) => (
+                    <View key={t} style={styles.chip}><Text style={styles.chipText}>{t}</Text></View>
+                  ))}
+                </View>
+              </>
+            )}
+
+            {plant.soil_ph_min != null && plant.soil_ph_min > 0 && (
+              <>
+                <Text style={styles.guideSectionTitle}>Soil acidity (pH)</Text>
+                <InfoRow icon="flask-outline" text={`pH ${plant.soil_ph_min} – ${plant.soil_ph_max}`} sub="Optimal range" />
+                <InfoBox text="pH below 7 is acidic (peat, pine bark). pH above 7 is alkaline (limestone, chalk). Most houseplants prefer slightly acidic to neutral (5.5–7.0). Test with a simple pH kit from any garden store." variant="info" />
+              </>
+            )}
+
+            <Text style={styles.guideSectionTitle}>Pot</Text>
+            {plant.pot_type ? (
+              <InfoRow icon="cube-outline" text={plant.pot_type} />
+            ) : null}
+            {plant.pot_size_note ? (
+              <Text style={styles.bodyText}>{plant.pot_size_note}</Text>
+            ) : null}
+            <InfoBox text="Always use a pot with drainage holes. No drainage = standing water = root rot. If you love a decorative pot without holes, use it as a cachepot — place a smaller pot with holes inside." variant="warning" />
+
+            <Text style={styles.guideSectionTitle}>When to repot</Text>
+            <InfoRow icon="resize-outline" text={care.repot} sub="Frequency" />
+            {plant.repot_signs ? (
+              <>
+                <Text style={[styles.bodyText, { fontWeight: '600' }]}>Signs it's time:</Text>
+                <Text style={styles.bodyText}>{plant.repot_signs}</Text>
+              </>
+            ) : null}
+
+            <RepottingAccordion />
+
+            <Text style={styles.guideSectionTitle}>Cleaning</Text>
+            <Text style={styles.bodyText}>Wipe leaves with a damp cloth regularly. Dust blocks light absorption and slows photosynthesis. For fuzzy-leaved plants, use a soft brush instead.</Text>
+          </ScrollView>
+        </View>
+      </Modal>
     </>
+  );
+}
+
+// ─── Repotting accordion ─────────────────────────────────────────────
+
+function RepottingAccordion() {
+  const [expanded, setExpanded] = useState(false);
+
+  return (
+    <View style={{ marginTop: Spacing.sm }}>
+      <View style={styles.accordionItem}>
+        <TouchableOpacity
+          onPress={() => setExpanded(!expanded)}
+          style={styles.accordionHeader}
+        >
+          <Text style={styles.accordionTitle}>How to repot (step by step)</Text>
+          <Ionicons name={expanded ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
+        </TouchableOpacity>
+        {expanded && (
+          <View style={styles.accordionBody}>
+            {[
+              'Water the plant a day before repotting — moist soil holds together better.',
+              'Choose a new pot 2-3 cm larger in diameter. Too big = too much wet soil = root rot.',
+              'Place drainage material at the bottom (clay shards, pebbles, or LECA).',
+              'Fill the bottom with fresh soil mix appropriate for your plant.',
+              'Gently remove the plant from the old pot. Loosen the root ball with your fingers.',
+              'Trim any dead, mushy, or circling roots with clean scissors.',
+              'Place the plant in the new pot at the same depth as before.',
+              'Fill around the roots with fresh soil, pressing gently to remove air pockets.',
+              'Water thoroughly and let drain. Do not fertilize for 2-4 weeks — fresh soil has nutrients.',
+            ].map((step, i) => (
+              <View key={i} style={styles.stepRow}>
+                <Text style={styles.stepNumber}>{i + 1}.</Text>
+                <Text style={styles.stepText}>{step}</Text>
+              </View>
+            ))}
+          </View>
+        )}
+      </View>
+    </View>
   );
 }
 

@@ -43,6 +43,10 @@ export interface PopularPlant {
   toxicity_severity?: string; // 'Mild' / 'Moderate' / 'Severe'
   toxicity_symptoms?: string; // symptoms if ingested/contacted
   toxicity_first_aid?: string; // what to do
+  soil_types?: string[];      // e.g. ['Cactus & succulent mix', 'Perlite']
+  pot_type?: string;          // e.g. 'Terracotta' / 'Plastic' / 'Clear (orchids)'
+  pot_size_note?: string;     // pot size advice
+  repot_signs?: string;       // when to know it's time to repot
   category: string;           // for grouping in UI (tropical/succulents/foliage/herbs/flowering/fruiting)
   care?: Partial<PresetCare>; // per-species care overrides (merged with preset defaults)
 }
@@ -100,6 +104,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     toxicity_severity: 'Mild',
     toxicity_symptoms: 'Ingestion: nausea, vomiting, diarrhea, lethargy (pets: also loss of coordination).\nDermal: generally no reaction, wash hands after handling.\nEye contact: mild irritation if sap gets in eyes.\nInhalation: not applicable.',
     toxicity_first_aid: 'Ingestion: remove plant material from mouth, rinse with water, offer water or milk. Monitor for a few hours — call poison control or vet if symptoms persist.\nDermal: wash skin with soap and water.\nEye contact: flush with clean water for 10–15 minutes.',
+    soil_types: ['Cactus & succulent mix', 'Perlite', 'Coarse sand'],
+    pot_type: 'Terracotta — lets soil breathe and dry faster',
+    pot_size_note: 'Prefers a snug pot — slightly rootbound encourages compact growth.',
+    repot_signs: 'Roots growing out of drainage holes, soil dries out within a day, plant becomes top-heavy.',
     category: 'succulents',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely between waterings',
@@ -151,6 +159,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     poisonous_to_pets: false,
     poisonous_to_humans: false,
     toxicity_note: 'Completely non-toxic. Safe around kids and pets.',
+    soil_types: ['Orchid bark mix', 'Sphagnum moss', 'Perlite'],
+    pot_type: 'Clear plastic pot — roots photosynthesize and you can see root health',
+    pot_size_note: 'Orchids like tight pots. Only repot when bark decomposes (every 2-3 years after flowering).',
+    repot_signs: 'Bark breaking down and holding too much water, roots rotting, plant wobbling in pot.',
     category: 'flowering',
     care: {
       watering: 'Every 7-10 days: soak the bark, let it drain completely. Roots should dry between waterings.',
@@ -203,6 +215,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     poisonous_to_pets: false,
     poisonous_to_humans: false,
     toxicity_note: 'Completely safe. All parts are edible.',
+    soil_types: ['Rich potting mix', 'Compost', 'Peat-based mix'],
+    pot_type: 'Any pot with drainage holes — plastic or terracotta both work',
+    pot_size_note: 'Annual plant — no need to upsize. Start new from seed every 3-4 months.',
+    repot_signs: 'Not applicable — basil is annual. Start fresh from seed instead of repotting.',
     category: 'herbs',
     care: {
       watering: 'Every 3-5 days, keep soil moist but never soggy. Wilts dramatically when thirsty — water immediately.',
@@ -256,6 +272,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     poisonous_to_pets: false,
     poisonous_to_humans: false,
     toxicity_note: 'Completely safe. Used in cooking, tea, and aromatherapy.',
+    soil_types: ['Sandy mix', 'Perlite', 'Well-draining potting soil'],
+    pot_type: 'Terracotta — lets soil breathe, prevents root rot',
+    pot_size_note: 'Repot every 1-2 years. Does not mind being slightly rootbound.',
+    repot_signs: 'Roots circling the bottom, water runs straight through without absorbing, stunted growth.',
     category: 'herbs',
     care: {
       watering: 'Every 7-10 days when top inch of soil is dry. Let it dry out between waterings — this is not basil.',
@@ -312,6 +332,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     toxicity_severity: 'Mild to Moderate',
     toxicity_symptoms: 'Ingestion (leaves/green fruit): nausea, vomiting, abdominal pain, diarrhea. Large quantities: headache, dizziness. Pets are more sensitive than humans.\nDermal: sap may cause mild skin irritation in sensitive individuals.\nEye contact: irritation if sap gets in eyes.\nInhalation: not applicable.',
     toxicity_first_aid: 'Ingestion: remove plant material, rinse mouth, drink water. If large amount consumed — call poison control or vet.\nDermal: wash with soap and water.\nEye contact: flush with clean water for 10–15 minutes.',
+    soil_types: ['Rich potting mix', 'Compost', 'Peat-based mix'],
+    pot_type: 'Any pot with drainage, at least 5 liters for bush varieties',
+    pot_size_note: 'Annual — start new each spring. Pot up seedlings once when they outgrow starter pots.',
+    repot_signs: 'Seedlings outgrowing starter pots — move to final container. Do not disturb once fruiting.',
     category: 'fruiting',
     care: {
       watering: 'Every 2-3 days in summer, daily in hot weather. Consistent watering prevents cracking. Deep soak, not a sprinkle.',
@@ -367,6 +391,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     toxicity_severity: 'Mild',
     toxicity_symptoms: 'Ingestion: nausea, vomiting, diarrhea, drooling (pets). Mouth and throat irritation (humans). Usually self-limiting.\nDermal: sap may cause mild irritation or rash on sensitive skin.\nEye contact: irritation, redness.\nInhalation: not applicable.',
     toxicity_first_aid: 'Ingestion: remove plant material from mouth, rinse with water, offer water. Monitor pets for 24h — contact vet if vomiting persists.\nDermal: wash with soap and water.\nEye contact: flush with clean water for 10–15 minutes.',
+    soil_types: ['Cactus & succulent mix', 'Perlite', 'Well-draining potting soil'],
+    pot_type: 'Terracotta — helps soil dry evenly, prevents overwatering',
+    pot_size_note: 'Likes being rootbound — no rush to repot. Every 2-3 years is fine.',
+    repot_signs: 'Pot cracking from root pressure, roots growing out of drainage holes, soil depleted.',
     category: 'foliage',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely. Stick your finger 5 cm into soil — if dry, water.',
