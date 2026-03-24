@@ -237,7 +237,7 @@ function usePlantVM(id: string | undefined): PlantVM | null {
 // ─── Section definitions ─────────────────────────────────────────────
 
 type SectionKey =
-  | 'water' | 'light' | 'humidity' | 'temperature' | 'toxicity'
+  | 'water' | 'light' | 'humidity' | 'temperature' | 'outdoor' | 'toxicity'
   | 'lifecycle' | 'used_for' | 'soil' | 'fertilizing'
   | 'difficulty' | 'size' | 'taxonomy';
 
@@ -252,6 +252,7 @@ function getSections(_plant: PlantVM): SectionDef[] {
     { key: 'light', label: 'Light' },
     { key: 'humidity', label: 'Air Humidity' },
     { key: 'temperature', label: 'Air Temperature' },
+    { key: 'outdoor', label: 'Outdoor' },
     { key: 'toxicity', label: 'Toxicity' },
     { key: 'lifecycle', label: 'Lifecycle' },
     { key: 'used_for', label: 'Used for' },
@@ -575,7 +576,16 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 5. Toxicity ── */}
+          {/* ── 5. Outdoor ── */}
+          <View onLayout={(e) => onSectionLayout('outdoor', e)} style={styles.sectionCard}>
+            <SectionTitle text="Outdoor" />
+            <InfoRow icon="home-outline" text="Full year" sub="Indoor months" />
+            <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor months (potted)" />
+            <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temperature to survive (potted)" />
+            <InfoBox text="Potted plants freeze faster than plants in the ground. Bring inside before frost." variant="info" />
+          </View>
+
+          {/* ── 6. Toxicity ── */}
           <View onLayout={(e) => onSectionLayout('toxicity', e)} style={styles.sectionCard}>
             <SectionTitle text="Toxicity" />
             {isToxic ? (
@@ -832,16 +842,6 @@ export default function PlantDetailScreen() {
                 <TempRangeBar optLow={plant.temp_winter_low_c} optHigh={plant.temp_winter_high_c} color="#6B7280" />
               </>
             )}
-
-            <Text style={styles.guideSectionTitle}>Indoor / Outdoor</Text>
-            <InfoRow icon="home-outline" text="Full year" sub="Indoor months" />
-            <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor months (potted)" />
-            <InfoRow icon="earth-outline" text="Depends on your location" sub="Outdoor months (in ground)" />
-            <InfoBox text="Outdoor availability will be calculated based on your location. Enable location services to see personalized data." variant="info" />
-
-            <Text style={styles.guideSectionTitle}>Hardiness</Text>
-            <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temperature to survive (potted)" />
-            <InfoBox text="Potted plants are more sensitive to cold than plants in the ground. Roots in a pot freeze faster — bring inside before frost." variant="info" />
 
             {plant.temp_warning ? (
               <>
