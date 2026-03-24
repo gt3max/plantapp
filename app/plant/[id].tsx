@@ -585,7 +585,7 @@ export default function PlantDetailScreen() {
             <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor months (potted)" />
             <InfoRow icon="earth-outline" text="Depends on your location" sub="Outdoor months (in ground)" />
             <View style={{ marginTop: Spacing.sm }}>
-              <Text style={[styles.bodyText, { fontWeight: '600' }]}>Hardiness</Text>
+              <Text style={[styles.bodyText, { fontWeight: '600' }]}>Frost tolerance</Text>
               <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp to survive when potted" />
             </View>
             <InfoBox text="Potted plants are more sensitive to cold than plants in the ground — roots in a pot freeze faster." variant="warning" />
@@ -905,7 +905,7 @@ export default function PlantDetailScreen() {
             <InfoRow icon="earth-outline" text="Depends on your location" sub="Outdoor (in ground) — enable location for dates" />
             <InfoBox text="Enable location services to see which months are safe for outdoor placement in your area." variant="info" />
 
-            <Text style={styles.guideSectionTitle}>Hardiness</Text>
+            <Text style={styles.guideSectionTitle}>Frost tolerance</Text>
             <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp to survive when potted" />
             <InfoBox text="This is the temperature the plant can endure — not the temperature it prefers. At this point the plant suffers: leaves may drop, growth stops, scarring occurs. It should survive and recover once moved to warmth." variant="info" />
 
@@ -914,7 +914,17 @@ export default function PlantDetailScreen() {
               A plant in the ground has soil insulation protecting its roots. A potted plant has exposed sides — the pot freezes through much faster. This means potted plants need to come inside earlier in autumn and go out later in spring.
             </Text>
 
-            <HardinessAccordion />
+            <Text style={styles.guideSectionTitle}>Frost tolerance zones</Text>
+            <Text style={styles.bodyText}>
+              A frost tolerance zone is based on the average lowest winter temperature in your area. It determines which plants can survive outdoors year-round.
+            </Text>
+            <Text style={styles.bodyText}>
+              Zones range from 1a (coldest, below -51°C) to 13b (warmest, above 21°C). Each zone spans about 5°C.
+            </Text>
+            <Text style={styles.bodyText}>
+              Important: these zones assume the plant is in the ground. Potted plants are 1–2 zones less hardy because roots are exposed to cold from all sides.
+            </Text>
+            <InfoBox text="Enable location services and we will determine your frost tolerance zone automatically." variant="info" />
           </ScrollView>
         </View>
       </Modal>
@@ -951,39 +961,6 @@ function TempRangeBar({ optLow, optHigh, color, label }: {
   );
 }
 
-// ─── Hardiness accordion ─────────────────────────────────────────────
-
-function HardinessAccordion() {
-  const [expanded, setExpanded] = useState(false);
-
-  return (
-    <View style={{ marginTop: Spacing.lg }}>
-      <View style={styles.accordionItem}>
-        <TouchableOpacity
-          onPress={() => setExpanded(!expanded)}
-          style={styles.accordionHeader}
-        >
-          <Text style={styles.accordionTitle}>Hardiness zones explained</Text>
-          <Ionicons name={expanded ? 'chevron-up' : 'chevron-down'} size={16} color={Colors.textSecondary} />
-        </TouchableOpacity>
-        {expanded && (
-          <View style={styles.accordionBody}>
-            <Text style={styles.bodyText}>
-              A hardiness zone is based on the average lowest winter temperature in your area. It determines which plants can survive outdoors year-round.
-            </Text>
-            <Text style={styles.bodyText}>
-              Zones range from 1a (coldest, below -51°C) to 13b (warmest, above 21°C). Each zone spans about 5°C. Zone 1a is the furthest north, Zone 13b is tropical.
-            </Text>
-            <Text style={styles.bodyText}>
-              Important: hardiness zones assume the plant is in the ground. Potted plants are 1-2 zones less hardy because roots are exposed to cold air from all sides.
-            </Text>
-            <InfoBox text="Enable location services and we will determine your hardiness zone automatically." variant="info" />
-          </View>
-        )}
-      </View>
-    </View>
-  );
-}
 
 // ─── Light levels accordion ──────────────────────────────────────────
 
