@@ -552,7 +552,7 @@ export default function PlantDetailScreen() {
           {/* ── 3. Air Humidity ── */}
           <View onLayout={(e) => onSectionLayout('humidity', e)} style={styles.sectionCard}>
             <SectionTitle text="Air Humidity" />
-            <InfoRow icon="cloud-outline" text={care.humidity} sub="Air humidity level" />
+            <InfoRow icon="cloud-outline" text={care.humidity.replace(/\s*\([\d\-–%\s]+\)\s*/g, '')} sub="Air humidity level" />
             {care.humidity_action ? (
               <InfoBox text={care.humidity_action} variant={care.humidity.toLowerCase().includes('low') ? 'warning' : 'info'} />
             ) : null}
@@ -565,7 +565,7 @@ export default function PlantDetailScreen() {
           {/* ── 4. Air Temperature ── */}
           <View onLayout={(e) => onSectionLayout('temperature', e)} style={styles.sectionCard}>
             <SectionTitle text="Air Temperature" />
-            <TempRangeBar min={plant.temp_min_c} optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} max={plant.temp_max_c} label="Optimal range" />
+            <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} />
             {plant.temp_warning ? (
               <InfoBox text={plant.temp_warning} variant="warning" />
             ) : null}
@@ -824,12 +824,12 @@ export default function PlantDetailScreen() {
             <Text style={styles.guideSectionTitle}>Temperature for {title}</Text>
 
             <Text style={[styles.bodyText, { fontWeight: '600' }]}>Summer</Text>
-            <TempRangeBar min={plant.temp_min_c} optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} max={plant.temp_max_c} label={`${plant.temp_opt_low_c}–${plant.temp_opt_high_c}°C`} />
+            <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} color="#EF4444" />
 
             {plant.temp_winter_low_c > 0 && (
               <>
                 <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.md }]}>Winter</Text>
-                <TempRangeBar min={plant.temp_min_c} optLow={plant.temp_winter_low_c} optHigh={plant.temp_winter_high_c} max={plant.temp_max_c} label={`${plant.temp_winter_low_c}–${plant.temp_winter_high_c}°C`} />
+                <TempRangeBar optLow={plant.temp_winter_low_c} optHigh={plant.temp_winter_high_c} color="#6B7280" />
               </>
             )}
 
@@ -851,23 +851,27 @@ export default function PlantDetailScreen() {
 
 // ─── Temperature range bar ───────────────────────────────────────────
 
-function TempRangeBar({ min, optLow, optHigh, max, label }: {
-  min: number; optLow: number; optHigh: number; max: number; label: string;
+function TempRangeBar({ optLow, optHigh, color, label }: {
+  optLow: number; optHigh: number; color?: string; label?: string;
 }) {
-  const scaleMin = Math.min(min - 5, -5);
-  const scaleMax = Math.max(max + 5, 40);
+  // Fixed scale 0-30°C like Planta
+  const scaleMin = 0;
+  const scaleMax = 30;
   const range = scaleMax - scaleMin;
-  const leftPct = ((optLow - scaleMin) / range) * 100;
-  const widthPct = ((optHigh - optLow) / range) * 100;
+  const leftPct = Math.max(0, ((optLow - scaleMin) / range) * 100);
+  const widthPct = Math.min(100 - leftPct, ((optHigh - optLow) / range) * 100);
+  const barColor = color ?? Colors.success;
 
   return (
     <View style={styles.tempBarContainer}>
       <View style={styles.tempBarTrack}>
-        <View style={[styles.tempBarOptimal, { left: `${leftPct}%`, width: `${widthPct}%` }]} />
+        <View style={[styles.tempBarOptimal, { left: `${leftPct}%`, width: `${widthPct}%`, backgroundColor: barColor }]}>
+          <Text style={styles.tempBarInnerLabel}>{label ?? `${optLow}°C – ${optHigh}°C`}</Text>
+        </View>
       </View>
       <View style={styles.tempBarLabels}>
         <Text style={styles.tempBarLabel}>{scaleMin}°C</Text>
-        <Text style={[styles.tempBarLabel, { fontWeight: '600', color: Colors.text }]}>{label}</Text>
+        <Text style={styles.tempBarLabel}>15°C</Text>
         <Text style={styles.tempBarLabel}>{scaleMax}°C</Text>
       </View>
     </View>
@@ -1319,8 +1323,9 @@ const styles = StyleSheet.create({
   // Watering guide button & content
   // Temperature range bar
   tempBarContainer: { marginBottom: Spacing.md },
-  tempBarTrack: { height: 12, backgroundColor: '#E5E7EB', borderRadius: 6, overflow: 'hidden' as const },
-  tempBarOptimal: { position: 'absolute' as const, height: 12, backgroundColor: Colors.success, borderRadius: 6 },
+  tempBarTrack: { height: 24, backgroundColor: '#E5E7EB', borderRadius: 12, overflow: 'visible' as const },
+  tempBarOptimal: { position: 'absolute' as const, height: 24, backgroundColor: Colors.success, borderRadius: 12, justifyContent: 'center' as const, alignItems: 'center' as const },
+  tempBarInnerLabel: { fontSize: 10, fontWeight: '700' as const, color: '#fff' },
   tempBarLabels: { flexDirection: 'row' as const, justifyContent: 'space-between' as const, marginTop: 4 },
   tempBarLabel: { fontSize: 10, color: Colors.textSecondary },
 
