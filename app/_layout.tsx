@@ -5,10 +5,18 @@ import * as SplashScreen from 'expo-splash-screen';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { useAuthStore } from '../src/stores/auth-store';
+import {
+  configureNotifications,
+  requestNotificationPermissions,
+  rescheduleAll,
+} from '../src/lib/reminders';
 
 export { ErrorBoundary } from 'expo-router';
 
 SplashScreen.preventAutoHideAsync();
+
+// Configure notification handler at module level (before any scheduling)
+configureNotifications();
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -45,6 +53,15 @@ export default function RootLayout() {
   useEffect(() => {
     initialize().finally(() => {
       SplashScreen.hideAsync();
+    });
+
+    // Request notification permissions and reschedule existing reminders
+    requestNotificationPermissions().then((granted) => {
+      if (granted) {
+        rescheduleAll().catch(() => {
+          // non-critical — reminders will be rescheduled next launch
+        });
+      }
     });
   }, []);
 

@@ -203,20 +203,32 @@ export default function MyPlantsScreen() {
   }, [identifyMutation]);
 
   const handleSave = useCallback((result: IdentifyResult) => {
+    // Default watering frequency (summer days) based on preset
+    const presetWateringDays: Record<string, number> = {
+      Succulents: 10,
+      Standard: 7,
+      Tropical: 5,
+      Herbs: 2,
+    };
+    const wateringFreqDays = presetWateringDays[result.care.preset] ?? 7;
+
     saveMutation.mutate(
       {
-        plant: {
-          scientific: result.scientific,
-          common_name: result.commonNames[0] ?? result.scientific,
-          family: result.family,
-          preset: result.care.preset,
-          start_pct: result.care.start_pct,
-          stop_pct: result.care.stop_pct,
-          image_url: result.images?.[0] || '',
-          poisonous_to_pets: result.toxicity?.poisonous_to_pets,
-          poisonous_to_humans: result.toxicity?.poisonous_to_humans,
-          toxicity_note: result.toxicity?.toxicity_note,
+        input: {
+          plant: {
+            scientific: result.scientific,
+            common_name: result.commonNames[0] ?? result.scientific,
+            family: result.family,
+            preset: result.care.preset,
+            start_pct: result.care.start_pct,
+            stop_pct: result.care.stop_pct,
+            image_url: result.images?.[0] || '',
+            poisonous_to_pets: result.toxicity?.poisonous_to_pets,
+            poisonous_to_humans: result.toxicity?.poisonous_to_humans,
+            toxicity_note: result.toxicity?.toxicity_note,
+          },
         },
+        wateringFreqDays,
       },
       {
         onSuccess: () => {
