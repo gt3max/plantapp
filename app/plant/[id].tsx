@@ -348,6 +348,7 @@ export default function PlantDetailScreen() {
   const [showUsedForGuide, setShowUsedForGuide] = useState(false);
   const [showSoilGuide, setShowSoilGuide] = useState(false);
   const [showFertGuide, setShowFertGuide] = useState(false);
+  const [showSizeGuide, setShowSizeGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -792,15 +793,14 @@ export default function PlantDetailScreen() {
           {/* ── 12. Size ── */}
           <View onLayout={(e) => onSectionLayout('size', e)} style={styles.sectionCard}>
             <SectionTitle text="Size" />
-            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height, mature plant (in ground)" />
+            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (mature plant)" />
             {plant.spread_max_cm > 0 && (
               <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Crown diameter" />
             )}
-            {plant.height_indoor_max_cm > 0 && (
-              <InfoRow icon="cube-outline" text={`Up to ${plant.height_indoor_max_cm} cm`} sub="Plant height in a pot (without pot)" />
-            )}
-            <InfoRow icon="trending-up-outline" text={plant.growth_rate || 'Not specified'} sub="Growth rate" />
-            <InfoBox text="These dimensions are for a full grown plant. In a pot, root space is limited — the plant will stay smaller. Pot size is the main growth limiter indoors." variant="info" />
+            <TouchableOpacity onPress={() => setShowSizeGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Size guide</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 13. Taxonomy ── */}
@@ -1272,6 +1272,50 @@ export default function PlantDetailScreen() {
 
             <Text style={styles.guideSectionTitle}>Signs of under-fertilizing</Text>
             <Text style={styles.bodyText}>{'• Pale or yellow leaves (especially older ones)\n• Slow or stunted growth\n• Small new leaves\n• No flowers on a flowering plant'}</Text>
+          </ScrollView>
+        </View>
+      </Modal>
+
+      {/* ═══ SIZE GUIDE MODAL ═══ */}
+      <Modal visible={showSizeGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Size guide</Text>
+            <TouchableOpacity onPress={() => setShowSizeGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>{title} dimensions</Text>
+            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (mature plant, in ground)" />
+            {plant.spread_max_cm > 0 && (
+              <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Crown diameter" />
+            )}
+            <InfoRow icon="trending-up-outline" text={plant.growth_rate || 'Not specified'} sub="Growth rate" />
+            <InfoBox text="These dimensions are for a full grown plant in ideal conditions (in ground, outdoors). Indoor plants in pots will be significantly smaller." variant="info" />
+
+            <Text style={styles.guideSectionTitle}>In a pot</Text>
+            {plant.height_indoor_max_cm > 0 && (
+              <InfoRow icon="cube-outline" text={`Up to ${plant.height_indoor_max_cm} cm`} sub="Realistic height in a pot (plant only, without pot)" />
+            )}
+            <Text style={styles.bodyText}>
+              {`A pot limits root space, which limits the plant's overall size. This is the main reason indoor plants stay smaller than outdoor ones. The bigger the pot — the bigger the plant can grow. But too big a pot holds excess moisture and causes root rot.`}
+            </Text>
+
+            <Text style={styles.guideSectionTitle}>Recommended pot size</Text>
+            <Text style={styles.bodyText}>
+              {plant.preset === 'Succulents'
+                ? 'Start with a pot 2-3 cm wider than the root ball. Succulents prefer snug pots — too much soil stays wet and causes rot.'
+                : plant.preset === 'Tropical'
+                ? 'Start with a pot 3-5 cm wider than the root ball. Tropical plants grow faster and need room, but not too much at once.'
+                : plant.preset === 'Herbs'
+                ? 'For herbs, a pot 15-20 cm in diameter works for most. Deeper pots for plants with long roots (rosemary), shallower for bushy herbs (basil).'
+                : 'Start with a pot 2-4 cm wider than the root ball. Upsize gradually — one size at a time.'
+              }
+            </Text>
+
+            <Text style={styles.guideSectionTitle}>If your plant is not growing</Text>
+            <Text style={styles.bodyText}>{'• Not enough light — the #1 reason for stunted growth indoors\n• Pot too small — roots have nowhere to go\n• Wrong soil — compacted soil chokes roots\n• Not enough nutrients — time to fertilize\n• Dormancy — normal in winter, growth resumes in spring\n• Root rot — check roots if plant is wilting despite watering'}</Text>
           </ScrollView>
         </View>
       </Modal>
