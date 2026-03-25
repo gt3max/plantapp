@@ -793,12 +793,12 @@ export default function PlantDetailScreen() {
           {/* ── 12. Size ── */}
           <View onLayout={(e) => onSectionLayout('size', e)} style={styles.sectionCard}>
             <SectionTitle text="Size" />
-            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (mature plant)" />
+            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (mature plant, full grown)" />
             {plant.spread_max_cm > 0 && (
               <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Crown diameter" />
             )}
             <TouchableOpacity onPress={() => setShowSizeGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Size guide</Text>
+              <Text style={styles.guideBtnText}>Growth & dimensions</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -1280,7 +1280,7 @@ export default function PlantDetailScreen() {
       <Modal visible={showSizeGuide} animationType="slide" presentationStyle="pageSheet">
         <View style={styles.modalContainer}>
           <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Size guide</Text>
+            <Text style={styles.modalTitle}>Growth & dimensions</Text>
             <TouchableOpacity onPress={() => setShowSizeGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
               <Ionicons name="close" size={24} color={Colors.text} />
             </TouchableOpacity>
