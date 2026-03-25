@@ -792,12 +792,12 @@ export default function PlantDetailScreen() {
           {/* ── 12. Size ── */}
           <View onLayout={(e) => onSectionLayout('size', e)} style={styles.sectionCard}>
             <SectionTitle text="Size" />
-            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (full grown, in ground)" />
+            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height, mature plant (in ground)" />
             {plant.spread_max_cm > 0 && (
-              <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Spread / width" />
+              <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Crown diameter" />
             )}
             {plant.height_indoor_max_cm > 0 && (
-              <InfoRow icon="cube-outline" text={`Up to ${plant.height_indoor_max_cm} cm`} sub="Realistic height in a pot" />
+              <InfoRow icon="cube-outline" text={`Up to ${plant.height_indoor_max_cm} cm`} sub="Plant height in a pot (without pot)" />
             )}
             <InfoRow icon="trending-up-outline" text={plant.growth_rate || 'Not specified'} sub="Growth rate" />
             <InfoBox text="These dimensions are for a full grown plant. In a pot, root space is limited — the plant will stay smaller. Pot size is the main growth limiter indoors." variant="info" />
