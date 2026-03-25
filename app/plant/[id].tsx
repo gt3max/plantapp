@@ -716,7 +716,7 @@ export default function PlantDetailScreen() {
                 ))}
               </View>
             )}
-            <InfoRow icon="resize-outline" text={care.repot} sub="Repotting frequency" />
+            <InfoRow icon="swap-vertical-outline" text={`Repot: ${care.repot}`} sub="Repotting" />
             {plant.pot_type ? (
               <InfoRow icon="cube-outline" text={plant.pot_type} sub="Recommended pot" />
             ) : null}
