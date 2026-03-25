@@ -35,6 +35,11 @@ interface PlantVM {
   good_companions: string[];
   bad_companions: string[];
   companion_note: string;
+  pruning_info: string;
+  propagation_methods: string[];
+  propagation_detail: string;
+  germination_days: number;
+  germination_temp_c: string;
   preset: string;
   plant_type: 'decorative' | 'greens' | 'fruiting';
   image_url?: string;
@@ -118,6 +123,11 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         good_companions: lib?.good_companions ?? [],
         bad_companions: lib?.bad_companions ?? [],
         companion_note: lib?.companion_note ?? '',
+        pruning_info: lib?.pruning_info ?? '',
+        propagation_methods: lib?.propagation_methods ?? [],
+        propagation_detail: lib?.propagation_detail ?? '',
+        germination_days: lib?.germination_days ?? 0,
+        germination_temp_c: lib?.germination_temp_c ?? '',
         preset: userPlant.preset ?? 'Standard',
         plant_type: (lib?.plant_type ?? 'decorative') as 'decorative' | 'greens' | 'fruiting',
         image_url: userPlant.image_url,
@@ -195,6 +205,11 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         good_companions: lib?.good_companions ?? [],
         bad_companions: lib?.bad_companions ?? [],
         companion_note: lib?.companion_note ?? '',
+        pruning_info: lib?.pruning_info ?? '',
+        propagation_methods: lib?.propagation_methods ?? [],
+        propagation_detail: lib?.propagation_detail ?? '',
+        germination_days: lib?.germination_days ?? 0,
+        germination_temp_c: lib?.germination_temp_c ?? '',
         preset: dbEntry.preset,
         plant_type: category === 'greens' || category === 'fruiting' ? category : 'decorative',
         image_url: dbEntry.image_url,
@@ -265,6 +280,11 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         good_companions: lib.good_companions ?? [],
         bad_companions: lib.bad_companions ?? [],
         companion_note: lib.companion_note ?? '',
+        pruning_info: lib.pruning_info ?? '',
+        propagation_methods: lib.propagation_methods ?? [],
+        propagation_detail: lib.propagation_detail ?? '',
+        germination_days: lib.germination_days ?? 0,
+        germination_temp_c: lib.germination_temp_c ?? '',
         preset: lib.preset,
         plant_type: lib.plant_type,
         image_url: lib.image_url,
@@ -326,16 +346,16 @@ function usePlantVM(id: string | undefined): PlantVM | null {
 
 type SectionKey =
   | 'water' | 'light' | 'humidity' | 'temperature' | 'outdoor' | 'toxicity'
-  | 'lifecycle' | 'used_for' | 'soil' | 'fertilizing'
-  | 'difficulty' | 'size' | 'taxonomy' | 'companions';
+  | 'lifecycle' | 'used_for' | 'soil' | 'fertilizing' | 'pruning'
+  | 'harvest' | 'propagation' | 'difficulty' | 'size' | 'taxonomy' | 'companions';
 
 interface SectionDef {
   key: SectionKey;
   label: string;
 }
 
-function getSections(_plant: PlantVM): SectionDef[] {
-  return [
+function getSections(plant: PlantVM): SectionDef[] {
+  const sections: SectionDef[] = [
     { key: 'water', label: 'Water' },
     { key: 'light', label: 'Light' },
     { key: 'humidity', label: 'Air Humidity' },
@@ -346,11 +366,19 @@ function getSections(_plant: PlantVM): SectionDef[] {
     { key: 'used_for', label: 'Used for' },
     { key: 'soil', label: 'Soil' },
     { key: 'fertilizing', label: 'Fertilizing' },
+    { key: 'pruning', label: 'Pruning' },
+  ];
+  if (plant.plant_type === 'greens' || plant.plant_type === 'fruiting') {
+    sections.push({ key: 'harvest', label: 'Harvest' });
+  }
+  sections.push(
+    { key: 'propagation', label: 'Propagation' },
     { key: 'difficulty', label: 'Difficulty' },
     { key: 'size', label: 'Size' },
     { key: 'taxonomy', label: 'Taxonomy' },
     { key: 'companions', label: 'Companions' },
-  ];
+  );
+  return sections;
 }
 
 // ─── Screen ──────────────────────────────────────────────────────────
@@ -800,7 +828,54 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 10. Difficulty ── */}
+          {/* ── 11. Pruning ── */}
+          <View onLayout={(e) => onSectionLayout('pruning', e)} style={styles.sectionCard}>
+            <SectionTitle text="Pruning" />
+            {plant.pruning_info ? (
+              <Text style={styles.bodyText}>{plant.pruning_info}</Text>
+            ) : (
+              <Text style={styles.bodyText}>Remove dead or damaged leaves regularly. Prune to shape as needed.</Text>
+            )}
+          </View>
+
+          {/* ── 12. Harvest (edible only) ── */}
+          {(plant.plant_type === 'greens' || plant.plant_type === 'fruiting') && (
+            <View onLayout={(e) => onSectionLayout('harvest', e)} style={styles.sectionCard}>
+              <SectionTitle text="Harvest" />
+              {plant.harvest_info ? (
+                <Text style={styles.bodyText}>{plant.harvest_info}</Text>
+              ) : (
+                <Text style={styles.bodyText}>Harvest information not available yet.</Text>
+              )}
+              {plant.edible_parts ? (
+                <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
+              ) : null}
+            </View>
+          )}
+
+          {/* ── 13. Propagation ── */}
+          <View onLayout={(e) => onSectionLayout('propagation', e)} style={styles.sectionCard}>
+            <SectionTitle text="Propagation" />
+            {plant.propagation_methods.length > 0 && (
+              <View style={styles.chipRow}>
+                {plant.propagation_methods.map((m) => (
+                  <View key={m} style={styles.chip}><Text style={styles.chipText}>{m}</Text></View>
+                ))}
+              </View>
+            )}
+            <Text style={[styles.bodyText, { color: Colors.textSecondary }]}>Including germination from seed</Text>
+            {plant.germination_days > 0 && (
+              <InfoRow icon="time-outline" text={`~${plant.germination_days} days`} sub="Germination time from seed" />
+            )}
+            {plant.germination_temp_c ? (
+              <InfoRow icon="thermometer-outline" text={plant.germination_temp_c} sub="Germination temperature" />
+            ) : null}
+            {plant.propagation_detail ? (
+              <InfoBox text={plant.propagation_detail} variant="info" />
+            ) : null}
+          </View>
+
+          {/* ── 14. Difficulty ── */}
           <View onLayout={(e) => onSectionLayout('difficulty', e)} style={styles.sectionCard}>
             <SectionTitle text="Difficulty" />
             <View style={styles.difficultyRow}>

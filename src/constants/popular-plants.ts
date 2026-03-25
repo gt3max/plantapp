@@ -60,6 +60,11 @@ export interface PopularPlant {
   good_companions?: string[];  // plants that grow well together
   bad_companions?: string[];   // plants to keep apart
   companion_note?: string;     // why — specific interactions
+  pruning_info?: string;       // how/when to prune
+  propagation_methods?: string[]; // e.g. ['Stem cuttings', 'Seeds']
+  propagation_detail?: string; // specific instructions
+  germination_days?: number;   // days from seed
+  germination_temp_c?: string; // germination temperature
   category: string;            // for grouping in UI (tropical/succulents/foliage/herbs/flowering/fruiting)
   care?: Partial<PresetCare>; // per-species care overrides (merged with preset defaults)
 }
@@ -132,6 +137,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     origin: 'South Africa, Mozambique',
     good_companions: ['Other succulents', 'Snake Plant', 'Aloe Vera'],
     bad_companions: ['Tropical plants (different watering needs)'],
+    pruning_info: 'Prune leggy branches to encourage compact, bushy growth. Cut above a leaf node. Remove dead or yellowing leaves at the base. Can be shaped into a bonsai form with regular pruning over years.',
+    propagation_methods: ['Stem cuttings', 'Leaf cuttings'],
+    propagation_detail: 'Stem cuttings: cut a 10 cm branch, let dry for 2-3 days, plant in succulent mix. Leaf cuttings: twist off a healthy leaf, let callous for a day, lay on moist soil. Roots in 2-4 weeks.',
     companion_note: 'Group with other drought-tolerant plants. They share similar watering and light needs. Avoid mixing with moisture-loving tropicals — one will suffer.',
     category: 'succulents',
     care: {
@@ -199,6 +207,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     origin: 'Southeast Asia, Australia',
     good_companions: [],
     bad_companions: [],
+    pruning_info: 'After all flowers drop: cut the spike above the 2nd node from the base — often triggers a second bloom. Remove dead roots (brown, mushy) when repotting. Cut dead flower spikes at the base if no new growth after 2 months.',
+    propagation_methods: ['Division', 'Keiki (baby plant)'],
+    propagation_detail: 'Division: when repotting, separate clumps with at least 3 pseudobulbs each. Keiki: baby plants sometimes grow on flower spikes — let roots reach 5 cm, then cut and pot separately.',
     companion_note: 'Orchids grow in bark, not soil — companion planting does not apply in the traditional sense. Can be displayed alongside other plants for decoration.',
     category: 'flowering',
     care: {
@@ -267,6 +278,11 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     origin: 'Central Africa, Southeast Asia',
     good_companions: ['Tomato', 'Pepper', 'Parsley', 'Oregano'],
     bad_companions: ['Sage', 'Rue', 'Thyme (competes for nutrients)'],
+    pruning_info: 'Pinch off flower buds the moment you see them — flowering ends leaf production and turns leaves bitter. Harvest from the top, cutting above a leaf pair. This triggers two new branches = bushier plant.',
+    propagation_methods: ['Seeds', 'Stem cuttings'],
+    propagation_detail: 'Seeds: sow on surface of moist soil, press lightly, do not cover. Keep warm (20-25°C). Germinates in 5-10 days. Stem cuttings: cut 10 cm stem, remove lower leaves, place in water until roots appear (7-14 days).',
+    germination_days: 7,
+    germination_temp_c: '20-25°C',
     companion_note: 'Classic companion to tomatoes — improves flavor and repels aphids and whiteflies. Plant together in the same bed or neighboring pots. Avoid sage — they inhibit each other.',
     category: 'herbs',
     care: {
@@ -337,6 +353,11 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     synonyms: ['Rosmarinus officinalis'],
     good_companions: ['Cabbage', 'Beans', 'Carrots', 'Sage'],
     bad_companions: ['Cucumber', 'Pumpkin', 'Basil (competes)'],
+    pruning_info: 'Prune after flowering to maintain bushy shape. Cut back up to one-third of the plant. Never cut into old wood (brown, bare stems) — it will not regrow from there. Regular light pruning is better than one heavy cut.',
+    propagation_methods: ['Stem cuttings', 'Layering'],
+    propagation_detail: 'Stem cuttings: take 10-15 cm softwood cuttings in spring/summer, remove lower needles, dip in rooting hormone, plant in sandy mix. Keep moist. Roots in 4-8 weeks. Layering: bend a low branch to touch soil, pin down, cover with soil. Roots in a few months.',
+    germination_days: 21,
+    germination_temp_c: '15-20°C',
     companion_note: 'Strong scent repels carrot fly, cabbage moths, and bean beetles. Excellent border plant for vegetable gardens. Keep away from cucumbers — rosemary inhibits their growth.',
     category: 'herbs',
     care: {
@@ -409,6 +430,11 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     origin: 'South America (Peru, Ecuador)',
     good_companions: ['Basil', 'Carrot', 'Parsley', 'Marigold'],
     bad_companions: ['Fennel', 'Cabbage', 'Dill (when mature)'],
+    pruning_info: 'Remove suckers (shoots growing between main stem and branches) to focus energy on fruit production. Pinch growing tip when plant reaches desired height (for determinate/bush varieties). Remove yellow lower leaves for air circulation.',
+    propagation_methods: ['Seeds'],
+    propagation_detail: 'Seeds: sow indoors 6-8 weeks before last frost. Plant 0.5 cm deep in moist seed starting mix. Keep warm (20-25°C). Germinates in 5-10 days. Transplant to final pot when seedlings have 2 true leaves.',
+    germination_days: 7,
+    germination_temp_c: '20-25°C',
     companion_note: 'Basil repels aphids and whiteflies from tomatoes. Marigolds kill soil nematodes. Carrots loosen soil for tomato roots. Never plant near fennel — it inhibits tomato growth.',
     category: 'fruiting',
     care: {
@@ -481,6 +507,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     synonyms: ['Sansevieria trifasciata'],
     good_companions: ['Other succulents', 'Jade Plant', 'ZZ Plant', 'Pothos'],
     bad_companions: ['Tropical plants needing high humidity'],
+    pruning_info: 'Minimal pruning needed. Remove damaged or dead leaves at the base with a clean cut. If a leaf is partially damaged, you can trim the damaged part — the rest stays healthy. Divide overcrowded clumps when repotting.',
+    propagation_methods: ['Division', 'Leaf cuttings', 'Seeds (slow)'],
+    propagation_detail: 'Division: separate rhizome clumps when repotting, each piece with at least one leaf. Leaf cuttings: cut a leaf into 10 cm sections, let dry for a day, plant upright in moist soil. New shoots in 4-8 weeks. Note: variegated varieties lose stripes when propagated from cuttings.',
     companion_note: 'Group with other low-maintenance, drought-tolerant plants. They all tolerate dry air and infrequent watering. Avoid placing next to moisture-loving tropicals like Calathea.',
     category: 'foliage',
     care: {
