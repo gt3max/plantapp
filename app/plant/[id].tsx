@@ -408,6 +408,7 @@ export default function PlantDetailScreen() {
   const [showSizeGuide, setShowSizeGuide] = useState(false);
   const [showPropGuide, setShowPropGuide] = useState(false);
   const [showHarvestGuide, setShowHarvestGuide] = useState(false);
+  const [showCompanionGuide, setShowCompanionGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -636,7 +637,10 @@ export default function PlantDetailScreen() {
           {/* ── 1. Water ── */}
           <View onLayout={(e) => onSectionLayout('water', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.water }]}>
             <SectionTitle text="Water" />
-            <FreqCircle number={`${currentWateringDays}`} label={`days between watering in ${currentMonth}`} />
+            <InfoRow icon="water-outline" text={`Every ~${currentWateringDays} days in ${currentMonth}`} sub={plant.watering_demand ? `${plant.watering_demand} demand` : undefined} />
+            {plant.watering_warning ? (
+              <InfoBox text={plant.watering_warning} variant="warning" />
+            ) : null}
             {plant.hasDevice && plant.moisture_pct != null && (
               <View style={styles.liveBlock}>
                 <View style={styles.liveHeader}>
@@ -659,7 +663,7 @@ export default function PlantDetailScreen() {
             <LightLevelIndicator lightText={care.light} />
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
             <TouchableOpacity onPress={() => setShowLightGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Light guide</Text>
+              <Text style={styles.guideBtnText}>Understanding light needs</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -669,7 +673,7 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Air Humidity" />
             <HumidityBar level={care.humidity} />
             <TouchableOpacity onPress={() => setShowHumidityGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Humidity guide</Text>
+              <Text style={styles.guideBtnText}>Managing humidity</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -679,7 +683,7 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Air Temperature" />
             <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} />
             <TouchableOpacity onPress={() => setShowTempGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Temperature guide</Text>
+              <Text style={styles.guideBtnText}>Temperature details</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -689,7 +693,7 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Outdoor" />
             <InfoRow icon="thermometer-outline" text={`Frost limit: ${plant.temp_min_c}°C`} sub="Lowest temp to survive when potted" />
             <TouchableOpacity onPress={() => setShowOutdoorGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Outdoor guide</Text>
+              <Text style={styles.guideBtnText}>Can I put it outside?</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -772,7 +776,7 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Fertilizing" />
             <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
             <TouchableOpacity onPress={() => setShowFertGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Fertilizing guide</Text>
+              <Text style={styles.guideBtnText}>When and how to feed</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -834,7 +838,7 @@ export default function PlantDetailScreen() {
               <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Spread" />
             )}
             <TouchableOpacity onPress={() => setShowSizeGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Growth & dimensions</Text>
+              <Text style={styles.guideBtnText}>How big will it get?</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -851,18 +855,30 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('companions', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.companions }]}>
             <SectionTitle text="Companions" />
             {plant.good_companions.length > 0 && (
-              <View style={styles.chipRow}>
-                {plant.good_companions.map((c) => (
-                  <View key={c} style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>{c}</Text></View>
-                ))}
-              </View>
+              <>
+                <Text style={[styles.bodyText, { fontWeight: '600', marginBottom: Spacing.xs }]}>Good neighbors</Text>
+                <View style={styles.chipRow}>
+                  {plant.good_companions.map((c) => (
+                    <View key={c} style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>{c}</Text></View>
+                  ))}
+                </View>
+              </>
             )}
             {plant.bad_companions.length > 0 && (
-              <View style={styles.chipRow}>
-                {plant.bad_companions.map((c) => (
-                  <View key={c} style={[styles.chip, { backgroundColor: '#FEE2E2' }]}><Text style={[styles.chipText, { color: Colors.error }]}>{c}</Text></View>
-                ))}
-              </View>
+              <>
+                <Text style={[styles.bodyText, { fontWeight: '600', marginBottom: Spacing.xs }]}>Keep apart</Text>
+                <View style={styles.chipRow}>
+                  {plant.bad_companions.map((c) => (
+                    <View key={c} style={[styles.chip, { backgroundColor: '#FEE2E2' }]}><Text style={[styles.chipText, { color: Colors.error }]}>{c}</Text></View>
+                  ))}
+                </View>
+              </>
+            )}
+            {(plant.good_companions.length > 0 || plant.bad_companions.length > 0) && (
+              <TouchableOpacity onPress={() => setShowCompanionGuide(true)} style={styles.guideBtn}>
+                <Text style={styles.guideBtnText}>Why these combinations?</Text>
+                <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+              </TouchableOpacity>
             )}
           </View>
 
@@ -1450,6 +1466,66 @@ export default function PlantDetailScreen() {
             {isToxic && plant.edible ? (
               <InfoBox text={`Some parts of ${title} are toxic while others are edible. Always know which parts are safe before consuming.`} variant="warning" />
             ) : null}
+          </ScrollView>
+        </View>
+      </Modal>
+
+      {/* ═══ COMPANION GUIDE MODAL ═══ */}
+      <Modal visible={showCompanionGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Plant companions</Text>
+            <TouchableOpacity onPress={() => setShowCompanionGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>Why companion planting matters</Text>
+            <Text style={styles.bodyText}>
+              Some plants grow better together — they share nutrients, repel each other's pests, or create beneficial shade. Others compete for the same resources or release chemicals that inhibit their neighbors.
+            </Text>
+
+            {plant.good_companions.length > 0 && (
+              <>
+                <Text style={styles.guideSectionTitle}>Good neighbors for {title}</Text>
+                <View style={styles.chipRow}>
+                  {plant.good_companions.map((c) => (
+                    <View key={c} style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>{c}</Text></View>
+                  ))}
+                </View>
+                {plant.companion_note ? (
+                  <Text style={styles.bodyText}>{plant.companion_note}</Text>
+                ) : (
+                  <Text style={styles.bodyText}>
+                    These plants share similar soil and watering requirements, making them ideal pot or garden neighbors. They can be planted in the same bed or grouped together indoors.
+                  </Text>
+                )}
+              </>
+            )}
+
+            {plant.bad_companions.length > 0 && (
+              <>
+                <Text style={styles.guideSectionTitle}>Keep apart from {title}</Text>
+                <View style={styles.chipRow}>
+                  {plant.bad_companions.map((c) => (
+                    <View key={c} style={[styles.chip, { backgroundColor: '#FEE2E2' }]}><Text style={[styles.chipText, { color: Colors.error }]}>{c}</Text></View>
+                  ))}
+                </View>
+                <Text style={styles.bodyText}>
+                  These plants compete for resources, have incompatible soil/water needs, or may inhibit each other's growth. Keep them in separate containers or different areas.
+                </Text>
+              </>
+            )}
+
+            <Text style={styles.guideSectionTitle}>Soil sharing tips</Text>
+            <Text style={styles.bodyText}>
+              {'• Plants with similar pH and drainage needs can share soil\n• After harvesting herbs, their soil is often nutrient-depleted — refresh before reusing\n• Rotate crops in the same pot: follow a heavy feeder (tomato) with a light feeder (herbs)\n• Never reuse soil from a diseased plant'}
+            </Text>
+
+            <Text style={styles.guideSectionTitle}>Grouping indoors</Text>
+            <Text style={styles.bodyText}>
+              {'• Group plants with similar humidity needs — they create a shared microclimate\n• Tall plants can provide shade for low-light neighbors\n• Keep pest-prone plants away from healthy ones\n• Fragrant herbs (rosemary, lavender) can deter pests from nearby plants'}
+            </Text>
           </ScrollView>
         </View>
       </Modal>
