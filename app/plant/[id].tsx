@@ -37,7 +37,10 @@ interface PlantVM {
   growth_rate: string;
   lifecycle: string;
   lifecycle_years: string;
+  height_min_cm: number;
   height_max_cm: number;
+  height_indoor_max_cm: number;
+  spread_max_cm: number;
   used_for: string[];
   used_for_details: string;
   watering_freq_summer_days: number;
@@ -109,7 +112,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         difficulty_note: lib?.difficulty_note ?? '',
         growth_rate: dbEntry?.care?.growth_rate ?? lib?.growth_rate ?? '',
         lifecycle: dbEntry?.care?.lifecycle ?? lib?.lifecycle ?? '',
+        height_min_cm: lib?.height_min_cm ?? 0,
         height_max_cm: dbEntry?.care?.height_max_cm ?? lib?.height_max_cm ?? 0,
+        height_indoor_max_cm: lib?.height_indoor_max_cm ?? 0,
+        spread_max_cm: lib?.spread_max_cm ?? 0,
         edible: !!(dbEntry?.edible ?? lib?.edible),
         edible_parts: lib?.edible_parts ?? '',
         poisonous_to_pets: userPlant.poisonous_to_pets ?? false,
@@ -176,7 +182,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         difficulty_note: lib?.difficulty_note ?? '',
         growth_rate: dbEntry.care?.growth_rate ?? '',
         lifecycle: dbEntry.care?.lifecycle ?? '',
-        height_max_cm: dbEntry.care?.height_max_cm ?? 0,
+        height_min_cm: lib?.height_min_cm ?? 0,
+        height_max_cm: dbEntry.care?.height_max_cm ?? lib?.height_max_cm ?? 0,
+        height_indoor_max_cm: lib?.height_indoor_max_cm ?? 0,
+        spread_max_cm: lib?.spread_max_cm ?? 0,
         edible: !!dbEntry.edible,
         edible_parts: lib?.edible_parts ?? '',
         poisonous_to_pets: !!dbEntry.care?.toxic_to_pets,
@@ -236,7 +245,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         difficulty_note: lib.difficulty_note ?? '',
         growth_rate: lib.growth_rate ?? '',
         lifecycle: lib.lifecycle ?? '',
+        height_min_cm: lib.height_min_cm ?? 0,
         height_max_cm: lib.height_max_cm ?? 0,
+        height_indoor_max_cm: lib.height_indoor_max_cm ?? 0,
+        spread_max_cm: lib.spread_max_cm ?? 0,
         edible: !!lib.edible,
         edible_parts: lib.edible_parts ?? '',
         poisonous_to_pets: lib.poisonous_to_pets,
@@ -777,16 +789,18 @@ export default function PlantDetailScreen() {
             )}
           </View>
 
-          {/* ── 11. Size ── */}
+          {/* ── 12. Size ── */}
           <View onLayout={(e) => onSectionLayout('size', e)} style={styles.sectionCard}>
             <SectionTitle text="Size" />
-            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `Up to ${plant.height_max_cm} cm (${Math.round(plant.height_max_cm / 2.54)}″)` : 'Not specified'} sub="Max height (full grown)" />
+            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (full grown, in ground)" />
+            {plant.spread_max_cm > 0 && (
+              <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Spread / width" />
+            )}
+            {plant.height_indoor_max_cm > 0 && (
+              <InfoRow icon="cube-outline" text={`Up to ${plant.height_indoor_max_cm} cm`} sub="Realistic height in a pot" />
+            )}
             <InfoRow icon="trending-up-outline" text={plant.growth_rate || 'Not specified'} sub="Growth rate" />
-            {plant.height_max_cm > 100 ? (
-              <InfoBox text={`In a pot, expect much less than ${plant.height_max_cm} cm. Pot size limits root growth which limits height.`} variant="info" />
-            ) : plant.height_max_cm > 0 ? (
-              <InfoBox text="Pot size directly affects final size. Bigger pot = bigger plant. Repot when roots circle the bottom." variant="info" />
-            ) : null}
+            <InfoBox text="These dimensions are for a full grown plant. In a pot, root space is limited — the plant will stay smaller. Pot size is the main growth limiter indoors." variant="info" />
           </View>
 
           {/* ── 13. Taxonomy ── */}

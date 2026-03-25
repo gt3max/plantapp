@@ -16,7 +16,10 @@ export interface PopularPlant {
   growth_rate: string;        // Slow / Medium / Fast
   lifecycle?: string;         // annual / perennial
   lifecycle_years?: string;   // e.g. "2+" or "10-20" or "1 season"
-  height_max_cm?: number;     // max indoor height
+  height_min_cm?: number;     // min height (mature)
+  height_max_cm?: number;     // max height (in ground, full grown)
+  height_indoor_max_cm?: number; // realistic max in a pot
+  spread_max_cm?: number;     // width/spread (full grown)
   used_for?: string[];        // e.g. ['Decorative', 'Air purifier', 'Aromatic']
   used_for_details?: string;  // expanded info for Used for guide
   temp_min_c?: number;        // absolute minimum (plant dies below)
@@ -87,7 +90,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     growth_rate: 'Slow',
     lifecycle: 'perennial',
     lifecycle_years: '50+',
-    height_max_cm: 150,
+    height_min_cm: 10,
+    height_max_cm: 300,
+    height_indoor_max_cm: 100,
+    spread_max_cm: 200,
     used_for: ['Decorative'],
     used_for_details: 'Symbol of good luck and prosperity in many cultures — often called Money Plant or Friendship Tree. Grows into an attractive tree-like form over decades. Can be shaped as bonsai.',
     temp_min_c: 4, temp_opt_low_c: 15, temp_opt_high_c: 24, temp_max_c: 35,
@@ -149,7 +155,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     growth_rate: 'Slow',
     lifecycle: 'perennial',
     lifecycle_years: '10-15',
+    height_min_cm: 15,
     height_max_cm: 60,
+    height_indoor_max_cm: 50,
+    spread_max_cm: 30,
     used_for: ['Decorative', 'Flowering'],
     used_for_details: 'Blooms for 2-3 months with minimal care. Available in hundreds of colors. One of the most popular gift plants worldwide. Can re-bloom year after year with proper autumn temperature drop.',
     temp_min_c: 15, temp_opt_low_c: 18, temp_opt_high_c: 27, temp_max_c: 35,
@@ -207,7 +216,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     growth_rate: 'Fast',
     lifecycle: 'annual',
     lifecycle_years: '1 season',
+    height_min_cm: 20,
     height_max_cm: 60,
+    height_indoor_max_cm: 40,
+    spread_max_cm: 30,
     used_for: ['Edible', 'Aromatic', 'Culinary herb', 'Attracts pollinators'],
     used_for_details: 'Essential kitchen herb — pesto, salads, pasta, pizza. Flowers attract bees and butterflies. Strong aroma repels mosquitoes and flies. Companion plant for tomatoes — improves flavor and repels pests.',
     temp_min_c: 5, temp_opt_low_c: 18, temp_opt_high_c: 27, temp_max_c: 38,
@@ -266,7 +278,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     growth_rate: 'Medium',
     lifecycle: 'perennial',
     lifecycle_years: '10-20',
-    height_max_cm: 120,
+    height_min_cm: 30,
+    height_max_cm: 150,
+    height_indoor_max_cm: 60,
+    spread_max_cm: 120,
     used_for: ['Edible', 'Aromatic', 'Culinary herb', 'Medicinal', 'Attracts pollinators'],
     used_for_details: 'Versatile culinary herb — roasts, stews, bread, tea. Medicinal: anti-inflammatory, improves memory and concentration (traditional use). Flowers attract bees. Strong scent repels deer and rabbits — good garden border plant.',
     temp_min_c: -5, temp_opt_low_c: 10, temp_opt_high_c: 24, temp_max_c: 35,
@@ -326,7 +341,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     growth_rate: 'Fast',
     lifecycle: 'annual',
     lifecycle_years: '1 season',
-    height_max_cm: 100,
+    height_min_cm: 20,
+    height_max_cm: 200,
+    height_indoor_max_cm: 60,
+    spread_max_cm: 60,
     used_for: ['Edible', 'Fruiting', 'Attracts pollinators'],
     used_for_details: 'One plant yields 100+ cherry tomatoes per season. Rich in vitamins A and C. Hand-pollinate indoors by shaking flowering stems. Bush varieties (Tiny Tim, Micro Tom) ideal for windowsill or balcony.',
     temp_min_c: 5, temp_opt_low_c: 18, temp_opt_high_c: 29, temp_max_c: 40,
@@ -388,7 +406,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     growth_rate: 'Slow',
     lifecycle: 'perennial',
     lifecycle_years: '20-25',
+    height_min_cm: 20,
     height_max_cm: 120,
+    height_indoor_max_cm: 100,
+    spread_max_cm: 40,
     used_for: ['Decorative', 'Air purifier'],
     used_for_details: 'One of the top air-purifying plants (NASA Clean Air Study). Removes formaldehyde, benzene, trichloroethylene, xylene from indoor air. Unique feature: releases oxygen at night (most plants only during the day) — ideal for bedrooms. Recommended: 2-3 large plants per room for noticeable air quality improvement.',
     temp_min_c: 4, temp_opt_low_c: 15, temp_opt_high_c: 27, temp_max_c: 38,
