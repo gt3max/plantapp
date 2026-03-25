@@ -32,6 +32,9 @@ interface PlantVM {
   order: string;
   origin: string;
   synonyms: string[];
+  good_companions: string[];
+  bad_companions: string[];
+  companion_note: string;
   preset: string;
   plant_type: 'decorative' | 'greens' | 'fruiting';
   image_url?: string;
@@ -112,6 +115,9 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         order: lib?.order ?? '',
         origin: lib?.origin ?? '',
         synonyms: lib?.synonyms ?? [],
+        good_companions: lib?.good_companions ?? [],
+        bad_companions: lib?.bad_companions ?? [],
+        companion_note: lib?.companion_note ?? '',
         preset: userPlant.preset ?? 'Standard',
         plant_type: (lib?.plant_type ?? 'decorative') as 'decorative' | 'greens' | 'fruiting',
         image_url: userPlant.image_url,
@@ -186,6 +192,9 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         order: lib?.order ?? '',
         origin: lib?.origin ?? '',
         synonyms: lib?.synonyms ?? [],
+        good_companions: lib?.good_companions ?? [],
+        bad_companions: lib?.bad_companions ?? [],
+        companion_note: lib?.companion_note ?? '',
         preset: dbEntry.preset,
         plant_type: category === 'greens' || category === 'fruiting' ? category : 'decorative',
         image_url: dbEntry.image_url,
@@ -253,6 +262,9 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         order: lib.order ?? '',
         origin: lib.origin ?? '',
         synonyms: lib.synonyms ?? [],
+        good_companions: lib.good_companions ?? [],
+        bad_companions: lib.bad_companions ?? [],
+        companion_note: lib.companion_note ?? '',
         preset: lib.preset,
         plant_type: lib.plant_type,
         image_url: lib.image_url,
@@ -844,7 +856,29 @@ export default function PlantDetailScreen() {
           {/* ── 14. Companions ── */}
           <View onLayout={(e) => onSectionLayout('companions', e)} style={styles.sectionCard}>
             <SectionTitle text="Companions" />
-            <InfoBox text="Companion planting data coming soon — good and bad neighbors, nutrient cycling, pest management." variant="info" />
+            {plant.good_companions.length > 0 && (
+              <>
+                <Text style={[styles.bodyText, { fontWeight: '600' }]}>Good neighbors</Text>
+                <View style={styles.chipRow}>
+                  {plant.good_companions.map((c) => (
+                    <View key={c} style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>{c}</Text></View>
+                  ))}
+                </View>
+              </>
+            )}
+            {plant.bad_companions.length > 0 && (
+              <>
+                <Text style={[styles.bodyText, { fontWeight: '600' }]}>Bad neighbors</Text>
+                <View style={styles.chipRow}>
+                  {plant.bad_companions.map((c) => (
+                    <View key={c} style={[styles.chip, { backgroundColor: '#FEE2E2' }]}><Text style={[styles.chipText, { color: Colors.error }]}>{c}</Text></View>
+                  ))}
+                </View>
+              </>
+            )}
+            {plant.companion_note ? (
+              <InfoBox text={plant.companion_note} variant="info" />
+            ) : null}
           </View>
 
         </View>

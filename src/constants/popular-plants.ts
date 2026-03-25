@@ -57,6 +57,9 @@ export interface PopularPlant {
   order?: string;              // e.g. 'Saxifragales'
   origin?: string;             // e.g. 'South Africa, Mozambique'
   synonyms?: string[];         // e.g. ['Sansevieria trifasciata']
+  good_companions?: string[];  // plants that grow well together
+  bad_companions?: string[];   // plants to keep apart
+  companion_note?: string;     // why — specific interactions
   category: string;            // for grouping in UI (tropical/succulents/foliage/herbs/flowering/fruiting)
   care?: Partial<PresetCare>; // per-species care overrides (merged with preset defaults)
 }
@@ -127,6 +130,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     genus: 'Crassula',
     order: 'Saxifragales',
     origin: 'South Africa, Mozambique',
+    good_companions: ['Other succulents', 'Snake Plant', 'Aloe Vera'],
+    bad_companions: ['Tropical plants (different watering needs)'],
+    companion_note: 'Group with other drought-tolerant plants. They share similar watering and light needs. Avoid mixing with moisture-loving tropicals — one will suffer.',
     category: 'succulents',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely between waterings',
@@ -191,6 +197,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     genus: 'Phalaenopsis',
     order: 'Asparagales',
     origin: 'Southeast Asia, Australia',
+    good_companions: [],
+    bad_companions: [],
+    companion_note: 'Orchids grow in bark, not soil — companion planting does not apply in the traditional sense. Can be displayed alongside other plants for decoration.',
     category: 'flowering',
     care: {
       watering: 'Every 7-10 days: soak the bark, let it drain completely. Roots should dry between waterings.',
@@ -256,6 +265,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     genus: 'Ocimum',
     order: 'Lamiales',
     origin: 'Central Africa, Southeast Asia',
+    good_companions: ['Tomato', 'Pepper', 'Parsley', 'Oregano'],
+    bad_companions: ['Sage', 'Rue', 'Thyme (competes for nutrients)'],
+    companion_note: 'Classic companion to tomatoes — improves flavor and repels aphids and whiteflies. Plant together in the same bed or neighboring pots. Avoid sage — they inhibit each other.',
     category: 'herbs',
     care: {
       watering: 'Every 3-5 days, keep soil moist but never soggy. Wilts dramatically when thirsty — water immediately.',
@@ -323,6 +335,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     order: 'Lamiales',
     origin: 'Mediterranean region',
     synonyms: ['Rosmarinus officinalis'],
+    good_companions: ['Cabbage', 'Beans', 'Carrots', 'Sage'],
+    bad_companions: ['Cucumber', 'Pumpkin', 'Basil (competes)'],
+    companion_note: 'Strong scent repels carrot fly, cabbage moths, and bean beetles. Excellent border plant for vegetable gardens. Keep away from cucumbers — rosemary inhibits their growth.',
     category: 'herbs',
     care: {
       watering: 'Every 7-10 days when top inch of soil is dry. Let it dry out between waterings — this is not basil.',
@@ -392,6 +407,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     genus: 'Solanum',
     order: 'Solanales',
     origin: 'South America (Peru, Ecuador)',
+    good_companions: ['Basil', 'Carrot', 'Parsley', 'Marigold'],
+    bad_companions: ['Fennel', 'Cabbage', 'Dill (when mature)'],
+    companion_note: 'Basil repels aphids and whiteflies from tomatoes. Marigolds kill soil nematodes. Carrots loosen soil for tomato roots. Never plant near fennel — it inhibits tomato growth.',
     category: 'fruiting',
     care: {
       watering: 'Every 2-3 days in summer, daily in hot weather. Consistent watering prevents cracking. Deep soak, not a sprinkle.',
@@ -461,6 +479,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     order: 'Asparagales',
     origin: 'West Africa (Nigeria to Congo)',
     synonyms: ['Sansevieria trifasciata'],
+    good_companions: ['Other succulents', 'Jade Plant', 'ZZ Plant', 'Pothos'],
+    bad_companions: ['Tropical plants needing high humidity'],
+    companion_note: 'Group with other low-maintenance, drought-tolerant plants. They all tolerate dry air and infrequent watering. Avoid placing next to moisture-loving tropicals like Calathea.',
     category: 'foliage',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely. Stick your finger 5 cm into soil — if dry, water.',
