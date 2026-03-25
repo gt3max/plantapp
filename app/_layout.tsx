@@ -1,22 +1,21 @@
 import { useEffect } from 'react';
+import { Platform } from 'react-native';
 import { Stack, useRouter, useSegments } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { useAuthStore } from '../src/stores/auth-store';
-import {
-  configureNotifications,
-  requestNotificationPermissions,
-  rescheduleAll,
-} from '../src/lib/reminders';
 
 export { ErrorBoundary } from 'expo-router';
 
 SplashScreen.preventAutoHideAsync();
 
-// Configure notification handler at module level (before any scheduling)
-configureNotifications();
+// Notifications only on native (crashes SSR/web due to localStorage)
+if (Platform.OS !== 'web') {
+  const { configureNotifications } = require('../src/lib/reminders');
+  configureNotifications();
+}
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -55,14 +54,17 @@ export default function RootLayout() {
       SplashScreen.hideAsync();
     });
 
-    // Request notification permissions and reschedule existing reminders
-    requestNotificationPermissions().then((granted) => {
-      if (granted) {
-        rescheduleAll().catch(() => {
-          // non-critical — reminders will be rescheduled next launch
-        });
-      }
-    });
+    // Request notification permissions and reschedule existing reminders (native only)
+    if (Platform.OS !== 'web') {
+      const { requestNotificationPermissions, rescheduleAll } = require('../src/lib/reminders');
+      requestNotificationPermissions().then((granted: boolean) => {
+        if (granted) {
+          rescheduleAll().catch(() => {
+            // non-critical — reminders will be rescheduled next launch
+          });
+        }
+      });
+    }
   }, []);
 
   return (
