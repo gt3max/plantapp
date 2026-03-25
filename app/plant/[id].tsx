@@ -357,8 +357,8 @@ interface SectionDef {
 
 function getSections(plant: PlantVM): SectionDef[] {
   const sections: SectionDef[] = [
-    { key: 'light', label: 'Light' },
     { key: 'water', label: 'Water' },
+    { key: 'light', label: 'Light' },
     { key: 'humidity', label: 'Air Humidity' },
     { key: 'temperature', label: 'Air Temperature' },
     { key: 'outdoor', label: 'Outdoor' },
@@ -634,18 +634,7 @@ export default function PlantDetailScreen() {
         {/* ═══ CHILD 4: ALL SECTIONS (long feed) ═══ */}
         <View style={styles.sectionsContainer} onLayout={onContainerLayout}>
 
-          {/* ── 1. Light ── */}
-          <View onLayout={(e) => onSectionLayout('light', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.light }]}>
-            <SectionTitle text="Light" />
-            <LightLevelIndicator lightText={care.light} />
-            <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
-            <TouchableOpacity onPress={() => setShowLightGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Understanding light needs</Text>
-              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
-            </TouchableOpacity>
-          </View>
-
-          {/* ── 2. Water ── */}
+          {/* ── 1. Water ── */}
           <View onLayout={(e) => onSectionLayout('water', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.water }]}>
             <SectionTitle text="Water" />
             <InfoRow icon="water-outline" text={`Every ~${currentWateringDays} days in ${currentMonth}`} sub={plant.watering_demand ? `${plant.watering_demand} demand` : undefined} />
@@ -664,6 +653,17 @@ export default function PlantDetailScreen() {
             )}
             <TouchableOpacity onPress={() => setShowWateringGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Watering guide</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
+          </View>
+
+          {/* ── 2. Light ── */}
+          <View onLayout={(e) => onSectionLayout('light', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.light }]}>
+            <SectionTitle text="Light" />
+            <LightLevelIndicator lightText={care.light} />
+            <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
+            <TouchableOpacity onPress={() => setShowLightGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Understanding light needs</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
