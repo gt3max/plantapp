@@ -797,7 +797,7 @@ export default function PlantDetailScreen() {
             {plant.spread_max_cm > 0 && (
               <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Crown diameter" />
             )}
-            <Text style={[styles.bodyText, { fontStyle: 'italic', color: Colors.textSecondary, fontSize: 11, marginTop: 4 }]}>These dimensions represent a full grown plant</Text>
+            <InfoBox text="These dimensions represent a full grown plant." variant="info" />
             <TouchableOpacity onPress={() => setShowSizeGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Growth & dimensions</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
