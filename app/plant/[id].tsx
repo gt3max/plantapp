@@ -834,9 +834,9 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('pruning', e)} style={styles.sectionCard}>
             <SectionTitle text="Pruning" />
             {plant.pruning_info ? (
-              <Text style={styles.bodyText}>{plant.pruning_info}</Text>
+              <Text style={styles.bodyText} numberOfLines={3}>{plant.pruning_info}</Text>
             ) : (
-              <Text style={styles.bodyText}>Remove dead or damaged leaves regularly. Prune to shape as needed.</Text>
+              <Text style={styles.bodyText}>Remove dead or damaged leaves. Prune to shape as needed.</Text>
             )}
           </View>
 
@@ -1961,8 +1961,34 @@ function RoundBadge({ icon, label, bg, color, onPress, extraContent }: {
   return content;
 }
 
+const SECTION_ICONS: Record<string, keyof typeof Ionicons.glyphMap> = {
+  Water: 'water-outline',
+  Light: 'sunny-outline',
+  'Air Humidity': 'cloud-outline',
+  'Air Temperature': 'thermometer-outline',
+  Outdoor: 'leaf-outline',
+  Toxicity: 'alert-circle-outline',
+  Lifecycle: 'sync-outline',
+  'Used for': 'bookmark-outline',
+  Soil: 'layers-outline',
+  Fertilizing: 'flask-outline',
+  Pruning: 'cut-outline',
+  Harvest: 'nutrition-outline',
+  Propagation: 'git-branch-outline',
+  Difficulty: 'speedometer-outline',
+  Size: 'resize-outline',
+  Taxonomy: 'document-text-outline',
+  Companions: 'people-outline',
+};
+
 function SectionTitle({ text }: { text: string }) {
-  return <Text style={styles.sectionTitle}>{text}</Text>;
+  const icon = SECTION_ICONS[text];
+  return (
+    <View style={styles.sectionTitleRow}>
+      {icon && <Ionicons name={icon} size={18} color={Colors.primary} />}
+      <Text style={styles.sectionTitle}>{text}</Text>
+    </View>
+  );
 }
 
 function SectionDivider() {
@@ -2096,7 +2122,8 @@ const styles = StyleSheet.create({
   chartLabel: { fontSize: FontSize.sm, color: Colors.text, fontWeight: '600', textAlign: 'center', marginBottom: Spacing.sm },
 
   // Section title
-  sectionTitle: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text, marginTop: Spacing.md, marginBottom: Spacing.md },
+  sectionTitleRow: { flexDirection: 'row', alignItems: 'center', gap: Spacing.sm, marginBottom: Spacing.md },
+  sectionTitle: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text },
 
   // Divider
   divider: { height: 1, backgroundColor: Colors.border, marginVertical: Spacing.lg },
