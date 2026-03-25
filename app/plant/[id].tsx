@@ -443,18 +443,21 @@ export default function PlantDetailScreen() {
     const absY = getAbsoluteY(key);
     if (absY != null && mainScrollRef.current) {
       isAutoScrolling.current = true;
+      activeSectionRef.current = key;
       setActiveSection(key);
       scrollTabBarTo(key);
-      // Scroll so section appears just below the sticky nav
-      mainScrollRef.current.scrollTo({ y: absY - stickyNavHeight.current, animated: true });
+      const navH = stickyNavHeight.current || 120;
+      mainScrollRef.current.scrollTo({ y: absY - navH, animated: true });
       setTimeout(() => { isAutoScrolling.current = false; }, 600);
     }
   }, [scrollTabBarTo, getAbsoluteY]);
 
+  const activeSectionRef = useRef<SectionKey>('water');
+
   const onMainScroll = useCallback((e: NativeSyntheticEvent<NativeScrollEvent>) => {
     if (isAutoScrolling.current || !plant) return;
-    // The visible top edge, accounting for sticky nav
-    const scrollY = e.nativeEvent.contentOffset.y + stickyNavHeight.current + 20;
+    const navH = stickyNavHeight.current || 120;
+    const scrollY = e.nativeEvent.contentOffset.y + navH + 20;
     const sections = getSections(plant);
     let current = sections[0]?.key ?? 'water';
     for (const sec of sections) {
@@ -463,11 +466,12 @@ export default function PlantDetailScreen() {
         current = sec.key;
       }
     }
-    if (current !== activeSection) {
+    if (current !== activeSectionRef.current) {
+      activeSectionRef.current = current;
       setActiveSection(current);
       scrollTabBarTo(current);
     }
-  }, [plant, activeSection, scrollTabBarTo, getAbsoluteY]);
+  }, [plant, scrollTabBarTo, getAbsoluteY]);
 
   if (!plant) {
     return (
@@ -526,7 +530,7 @@ export default function PlantDetailScreen() {
         style={styles.container}
         contentContainerStyle={styles.scroll}
         onScroll={onMainScroll}
-        scrollEventThrottle={32}
+        scrollEventThrottle={64}
         stickyHeaderIndices={[stickyIndex]}
       >
 
