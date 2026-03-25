@@ -47,6 +47,9 @@ export interface PopularPlant {
   pot_type?: string;          // e.g. 'Terracotta' / 'Plastic' / 'Clear (orchids)'
   pot_size_note?: string;     // pot size advice
   repot_signs?: string;       // when to know it's time to repot
+  fertilizer_types?: string[];  // e.g. ['Balanced NPK', 'Succulent fertilizer']
+  fertilizer_npk?: string;      // e.g. '10-10-10' or '20-20-20'
+  fertilizer_warning?: string;  // what to avoid
   category: string;           // for grouping in UI (tropical/succulents/foliage/herbs/flowering/fruiting)
   care?: Partial<PresetCare>; // per-species care overrides (merged with preset defaults)
 }
@@ -108,6 +111,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     pot_type: 'Terracotta — lets soil breathe and dry faster',
     pot_size_note: 'Prefers a snug pot — slightly rootbound encourages compact growth.',
     repot_signs: 'Roots growing out of drainage holes, soil dries out within a day, plant becomes top-heavy.',
+    fertilizer_types: ['Succulent fertilizer', 'Balanced liquid (diluted to half)'],
+    fertilizer_npk: '10-10-10 or 2-7-7',
+    fertilizer_warning: 'Over-fertilizing causes salt buildup and root burn. Less is more with succulents.',
     category: 'succulents',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely between waterings',
@@ -163,6 +169,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     pot_type: 'Clear plastic pot — roots photosynthesize and you can see root health',
     pot_size_note: 'Orchids like tight pots. Only repot when bark decomposes (every 2-3 years after flowering).',
     repot_signs: 'Bark breaking down and holding too much water, roots rotting, plant wobbling in pot.',
+    fertilizer_types: ['Orchid fertilizer (20-20-20)', 'Balanced liquid (half strength)'],
+    fertilizer_npk: '20-20-20',
+    fertilizer_warning: '"Weekly, weakly" — half the recommended dose. Never fertilize a dry plant, water first.',
     category: 'flowering',
     care: {
       watering: 'Every 7-10 days: soak the bark, let it drain completely. Roots should dry between waterings.',
@@ -219,6 +228,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     pot_type: 'Any pot with drainage holes — plastic or terracotta both work',
     pot_size_note: 'Annual plant — no need to upsize. Start new from seed every 3-4 months.',
     repot_signs: 'Not applicable — basil is annual. Start fresh from seed instead of repotting.',
+    fertilizer_types: ['Nitrogen-rich liquid fertilizer', 'All-purpose liquid'],
+    fertilizer_npk: '10-5-5 or similar (high nitrogen)',
+    fertilizer_warning: 'Over-fertilizing reduces flavor and aroma. Keep it moderate.',
     category: 'herbs',
     care: {
       watering: 'Every 3-5 days, keep soil moist but never soggy. Wilts dramatically when thirsty — water immediately.',
@@ -276,6 +288,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     pot_type: 'Terracotta — lets soil breathe, prevents root rot',
     pot_size_note: 'Repot every 1-2 years. Does not mind being slightly rootbound.',
     repot_signs: 'Roots circling the bottom, water runs straight through without absorbing, stunted growth.',
+    fertilizer_types: ['Light all-purpose fertilizer'],
+    fertilizer_npk: '10-10-10 (diluted)',
+    fertilizer_warning: 'Too much fertilizer reduces essential oil content = less flavor. Once in spring is enough.',
     category: 'herbs',
     care: {
       watering: 'Every 7-10 days when top inch of soil is dry. Let it dry out between waterings — this is not basil.',
@@ -336,6 +351,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     pot_type: 'Any pot with drainage, at least 5 liters for bush varieties',
     pot_size_note: 'Annual — start new each spring. Pot up seedlings once when they outgrow starter pots.',
     repot_signs: 'Seedlings outgrowing starter pots — move to final container. Do not disturb once fruiting.',
+    fertilizer_types: ['Tomato fertilizer (high potassium)', 'Balanced + calcium supplement'],
+    fertilizer_npk: '5-10-10 or tomato-specific',
+    fertilizer_warning: 'Start fertilizing when flowers appear, not before. Calcium supplement prevents blossom end rot.',
     category: 'fruiting',
     care: {
       watering: 'Every 2-3 days in summer, daily in hot weather. Consistent watering prevents cracking. Deep soak, not a sprinkle.',
@@ -395,6 +413,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     pot_type: 'Terracotta — helps soil dry evenly, prevents overwatering',
     pot_size_note: 'Likes being rootbound — no rush to repot. Every 2-3 years is fine.',
     repot_signs: 'Pot cracking from root pressure, roots growing out of drainage holes, soil depleted.',
+    fertilizer_types: ['All-purpose liquid (diluted)', 'Succulent fertilizer'],
+    fertilizer_npk: '10-10-10 (half strength)',
+    fertilizer_warning: 'Fertilize only in spring-summer. Never in winter — plant is dormant.',
     category: 'foliage',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely. Stick your finger 5 cm into soil — if dry, water.',

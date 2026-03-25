@@ -67,6 +67,9 @@ interface PlantVM {
   pot_type: string;
   pot_size_note: string;
   repot_signs: string;
+  fertilizer_types: string[];
+  fertilizer_npk: string;
+  fertilizer_warning: string;
   harvest_info: string;
   care: PresetCare;
   hasDevice: boolean;
@@ -120,6 +123,9 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         pot_type: lib?.pot_type ?? '',
         pot_size_note: lib?.pot_size_note ?? '',
         repot_signs: lib?.repot_signs ?? '',
+        fertilizer_types: lib?.fertilizer_types ?? [],
+        fertilizer_npk: lib?.fertilizer_npk ?? '',
+        fertilizer_warning: lib?.fertilizer_warning ?? '',
         harvest_info: lib?.harvest_info ?? '',
         lifecycle_years: lib?.lifecycle_years ?? '',
         used_for: lib?.used_for ?? [],
@@ -184,6 +190,9 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         pot_type: lib?.pot_type ?? '',
         pot_size_note: lib?.pot_size_note ?? '',
         repot_signs: lib?.repot_signs ?? '',
+        fertilizer_types: lib?.fertilizer_types ?? [],
+        fertilizer_npk: lib?.fertilizer_npk ?? '',
+        fertilizer_warning: lib?.fertilizer_warning ?? '',
         harvest_info: lib?.harvest_info ?? '',
         lifecycle_years: lib?.lifecycle_years ?? '',
         used_for: lib?.used_for ?? [],
@@ -241,6 +250,9 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         pot_type: lib.pot_type ?? '',
         pot_size_note: lib.pot_size_note ?? '',
         repot_signs: lib.repot_signs ?? '',
+        fertilizer_types: lib.fertilizer_types ?? [],
+        fertilizer_npk: lib.fertilizer_npk ?? '',
+        fertilizer_warning: lib.fertilizer_warning ?? '',
         harvest_info: lib.harvest_info ?? '',
         lifecycle_years: lib.lifecycle_years ?? '',
         used_for: lib.used_for ?? [],
@@ -323,6 +335,7 @@ export default function PlantDetailScreen() {
   const [showToxicityGuide, setShowToxicityGuide] = useState(false);
   const [showUsedForGuide, setShowUsedForGuide] = useState(false);
   const [showSoilGuide, setShowSoilGuide] = useState(false);
+  const [showFertGuide, setShowFertGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -726,10 +739,24 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 9. Fertilizing ── */}
+          {/* ── 10. Fertilizing ── */}
           <View onLayout={(e) => onSectionLayout('fertilizing', e)} style={styles.sectionCard}>
             <SectionTitle text="Fertilizing" />
             <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
+            {plant.fertilizer_types.length > 0 && (
+              <View style={styles.chipRow}>
+                {plant.fertilizer_types.map((t) => (
+                  <View key={t} style={styles.chip}><Text style={styles.chipText}>{t}</Text></View>
+                ))}
+              </View>
+            )}
+            {plant.fertilizer_warning ? (
+              <InfoBox text={plant.fertilizer_warning} variant="warning" />
+            ) : null}
+            <TouchableOpacity onPress={() => setShowFertGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Fertilizing guide</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 10. Difficulty ── */}
@@ -1180,6 +1207,57 @@ export default function PlantDetailScreen() {
 
             <Text style={styles.guideSectionTitle}>Cleaning</Text>
             <Text style={styles.bodyText}>Wipe leaves with a damp cloth regularly. Dust blocks light absorption and slows photosynthesis. For fuzzy-leaved plants, use a soft brush instead.</Text>
+          </ScrollView>
+        </View>
+      </Modal>
+
+      {/* ═══ FERTILIZING GUIDE MODAL ═══ */}
+      <Modal visible={showFertGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Fertilizing guide</Text>
+            <TouchableOpacity onPress={() => setShowFertGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>Fertilizing {title}</Text>
+            <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
+
+            {plant.fertilizer_types.length > 0 && (
+              <>
+                <Text style={styles.guideSectionTitle}>Recommended fertilizers</Text>
+                <View style={styles.chipRow}>
+                  {plant.fertilizer_types.map((t) => (
+                    <View key={t} style={styles.chip}><Text style={styles.chipText}>{t}</Text></View>
+                  ))}
+                </View>
+              </>
+            )}
+
+            {plant.fertilizer_npk ? (
+              <>
+                <Text style={styles.guideSectionTitle}>NPK ratio</Text>
+                <InfoRow icon="flask-outline" text={plant.fertilizer_npk} sub="Nitrogen – Phosphorus – Potassium" />
+                <InfoBox text="NPK is the three numbers on every fertilizer bottle. N (nitrogen) = leaf growth. P (phosphorus) = roots and flowers. K (potassium) = overall health and fruit. Match the ratio to what your plant needs most." variant="info" />
+              </>
+            ) : null}
+
+            {plant.fertilizer_warning ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Warnings</Text>
+                <InfoBox text={plant.fertilizer_warning} variant="warning" />
+              </>
+            ) : null}
+
+            <Text style={styles.guideSectionTitle}>When NOT to fertilize</Text>
+            <Text style={styles.bodyText}>{'• Winter — plant is dormant, nutrients accumulate and burn roots\n• Right after repotting — fresh soil has nutrients for 2-4 weeks\n• Sick or stressed plant — fix the problem first, then feed\n• Dry soil — always water before fertilizing to avoid root burn'}</Text>
+
+            <Text style={styles.guideSectionTitle}>Signs of over-fertilizing</Text>
+            <Text style={styles.bodyText}>{'• White crust on soil surface (salt buildup)\n• Brown, crispy leaf tips and edges\n• Wilting despite moist soil\n• Slow growth or dropping leaves'}</Text>
+
+            <Text style={styles.guideSectionTitle}>Signs of under-fertilizing</Text>
+            <Text style={styles.bodyText}>{'• Pale or yellow leaves (especially older ones)\n• Slow or stunted growth\n• Small new leaves\n• No flowers on a flowering plant'}</Text>
           </ScrollView>
         </View>
       </Modal>
