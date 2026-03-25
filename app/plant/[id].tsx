@@ -721,7 +721,7 @@ export default function PlantDetailScreen() {
               <InfoRow icon="cube-outline" text={plant.pot_type} sub="Recommended pot" />
             ) : null}
             <TouchableOpacity onPress={() => setShowSoilGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Soil guide</Text>
+              <Text style={styles.guideBtnText}>Repotting guide</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -1126,16 +1126,36 @@ export default function PlantDetailScreen() {
         </View>
       </Modal>
 
-      {/* ═══ SOIL GUIDE MODAL ═══ */}
+      {/* ═══ REPOTTING GUIDE MODAL ═══ */}
       <Modal visible={showSoilGuide} animationType="slide" presentationStyle="pageSheet">
         <View style={styles.modalContainer}>
           <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Soil guide</Text>
+            <Text style={styles.modalTitle}>Repotting guide</Text>
             <TouchableOpacity onPress={() => setShowSoilGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
               <Ionicons name="close" size={24} color={Colors.text} />
             </TouchableOpacity>
           </View>
           <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>Repotting {title}</Text>
+            <InfoRow icon="swap-vertical-outline" text={care.repot} sub="Frequency" />
+            {plant.repot_signs ? (
+              <>
+                <Text style={[styles.bodyText, { fontWeight: '600' }]}>Signs it's time:</Text>
+                <Text style={styles.bodyText}>{plant.repot_signs}</Text>
+              </>
+            ) : null}
+
+            <Text style={styles.guideSectionTitle}>Pot</Text>
+            {plant.pot_type ? (
+              <InfoRow icon="cube-outline" text={plant.pot_type} />
+            ) : null}
+            {plant.pot_size_note ? (
+              <Text style={styles.bodyText}>{plant.pot_size_note}</Text>
+            ) : null}
+            <InfoBox text="Always use a pot with drainage holes. No drainage = standing water = root rot. If you love a decorative pot without holes, use it as a cachepot — place a smaller pot with holes inside." variant="warning" />
+
+            <RepottingAccordion />
+
             <Text style={styles.guideSectionTitle}>Soil for {title}</Text>
             <Text style={styles.bodyText}>{care.soil}</Text>
 
@@ -1157,26 +1177,6 @@ export default function PlantDetailScreen() {
                 <InfoBox text="pH below 7 is acidic (peat, pine bark). pH above 7 is alkaline (limestone, chalk). Most houseplants prefer slightly acidic to neutral (5.5–7.0). Test with a simple pH kit from any garden store." variant="info" />
               </>
             )}
-
-            <Text style={styles.guideSectionTitle}>Pot</Text>
-            {plant.pot_type ? (
-              <InfoRow icon="cube-outline" text={plant.pot_type} />
-            ) : null}
-            {plant.pot_size_note ? (
-              <Text style={styles.bodyText}>{plant.pot_size_note}</Text>
-            ) : null}
-            <InfoBox text="Always use a pot with drainage holes. No drainage = standing water = root rot. If you love a decorative pot without holes, use it as a cachepot — place a smaller pot with holes inside." variant="warning" />
-
-            <Text style={styles.guideSectionTitle}>When to repot</Text>
-            <InfoRow icon="resize-outline" text={care.repot} sub="Frequency" />
-            {plant.repot_signs ? (
-              <>
-                <Text style={[styles.bodyText, { fontWeight: '600' }]}>Signs it's time:</Text>
-                <Text style={styles.bodyText}>{plant.repot_signs}</Text>
-              </>
-            ) : null}
-
-            <RepottingAccordion />
 
             <Text style={styles.guideSectionTitle}>Cleaning</Text>
             <Text style={styles.bodyText}>Wipe leaves with a damp cloth regularly. Dust blocks light absorption and slows photosynthesis. For fuzzy-leaved plants, use a soft brush instead.</Text>
