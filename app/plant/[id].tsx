@@ -405,6 +405,7 @@ export default function PlantDetailScreen() {
   const [showSoilGuide, setShowSoilGuide] = useState(false);
   const [showFertGuide, setShowFertGuide] = useState(false);
   const [showSizeGuide, setShowSizeGuide] = useState(false);
+  const [showPropGuide, setShowPropGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -863,16 +864,11 @@ export default function PlantDetailScreen() {
                 ))}
               </View>
             )}
-            <Text style={[styles.bodyText, { color: Colors.textSecondary }]}>Including germination from seed</Text>
-            {plant.germination_days > 0 && (
-              <InfoRow icon="time-outline" text={`~${plant.germination_days} days`} sub="Germination time from seed" />
-            )}
-            {plant.germination_temp_c ? (
-              <InfoRow icon="thermometer-outline" text={plant.germination_temp_c} sub="Germination temperature" />
-            ) : null}
-            {plant.propagation_detail ? (
-              <InfoBox text={plant.propagation_detail} variant="info" />
-            ) : null}
+            <Text style={[styles.bodyText, { color: Colors.textSecondary }]}>Germination & propagation methods</Text>
+            <TouchableOpacity onPress={() => setShowPropGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Propagation guide</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 14. Difficulty ── */}
@@ -1453,6 +1449,49 @@ export default function PlantDetailScreen() {
 
             <Text style={styles.guideSectionTitle}>If your plant is not growing</Text>
             <Text style={styles.bodyText}>{'• Not enough light — the #1 reason for stunted growth indoors\n• Pot too small — roots have nowhere to go\n• Wrong soil — compacted soil chokes roots\n• Not enough nutrients — time to fertilize\n• Dormancy — normal in winter, growth resumes in spring\n• Root rot — check roots if plant is wilting despite watering'}</Text>
+          </ScrollView>
+        </View>
+      </Modal>
+
+      {/* ═══ PROPAGATION GUIDE MODAL ═══ */}
+      <Modal visible={showPropGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Propagation guide</Text>
+            <TouchableOpacity onPress={() => setShowPropGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>How to propagate {title}</Text>
+
+            {plant.propagation_methods.length > 0 && (
+              <>
+                <Text style={[styles.bodyText, { fontWeight: '600' }]}>Methods</Text>
+                <View style={styles.chipRow}>
+                  {plant.propagation_methods.map((m) => (
+                    <View key={m} style={styles.chip}><Text style={styles.chipText}>{m}</Text></View>
+                  ))}
+                </View>
+              </>
+            )}
+
+            {plant.propagation_detail ? (
+              <Text style={styles.bodyText}>{plant.propagation_detail}</Text>
+            ) : null}
+
+            {plant.germination_days > 0 && (
+              <>
+                <Text style={styles.guideSectionTitle}>From seed (germination)</Text>
+                <InfoRow icon="time-outline" text={`~${plant.germination_days} days`} sub="Time to germinate" />
+                {plant.germination_temp_c ? (
+                  <InfoRow icon="thermometer-outline" text={plant.germination_temp_c} sub="Optimal temperature" />
+                ) : null}
+              </>
+            )}
+
+            <Text style={styles.guideSectionTitle}>General tips</Text>
+            <Text style={styles.bodyText}>{'• Always use clean, sharp tools when taking cuttings\n• Spring and early summer are the best time to propagate\n• Keep soil moist but not soggy for new cuttings\n• Bright indirect light — no direct sun on fresh cuttings\n• Be patient — rooting can take weeks'}</Text>
           </ScrollView>
         </View>
       </Modal>
