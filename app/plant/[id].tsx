@@ -10,6 +10,7 @@ import {
   LayoutChangeEvent,
   NativeSyntheticEvent,
   NativeScrollEvent,
+  Animated,
 } from 'react-native';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -555,7 +556,7 @@ export default function PlantDetailScreen() {
         <View>
           {plant.description ? (
             <View style={styles.descBubble}>
-              <Text style={styles.descText}>{plant.description}</Text>
+              <ExpandableText text={plant.description} maxLines={3} />
             </View>
           ) : null}
         </View>
@@ -633,9 +634,9 @@ export default function PlantDetailScreen() {
         <View style={styles.sectionsContainer} onLayout={onContainerLayout}>
 
           {/* ── 1. Water ── */}
-          <View onLayout={(e) => onSectionLayout('water', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('water', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.water }]}>
             <SectionTitle text="Water" />
-            <InfoRow icon="water-outline" text={`Every ~${currentWateringDays} days in ${currentMonth}`} sub={plant.watering_demand ? `${plant.watering_soil_hint} \u2022 ${plant.watering_demand} demand` : care.watering} />
+            <FreqCircle number={`${currentWateringDays}`} label={`days between watering in ${currentMonth}\n${plant.watering_demand ? `${plant.watering_soil_hint} \u2022 ${plant.watering_demand} demand` : care.watering}`} />
             {plant.watering_warning ? (
               <InfoBox text={plant.watering_warning} variant="warning" />
             ) : waterDrops === 1 ? (
@@ -658,8 +659,9 @@ export default function PlantDetailScreen() {
           </View>
 
           {/* ── 2. Light ── */}
-          <View onLayout={(e) => onSectionLayout('light', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('light', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.light }]}>
             <SectionTitle text="Light" />
+            <LightLevelIndicator lightText={care.light} />
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
             <InfoRow icon="partly-sunny-outline" text={care.light_also_ok} sub="Also tolerates" />
             {care.light.includes('Full') || care.light.includes('Bright') ? (
@@ -680,8 +682,9 @@ export default function PlantDetailScreen() {
           </View>
 
           {/* ── 3. Air Humidity ── */}
-          <View onLayout={(e) => onSectionLayout('humidity', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('humidity', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.humidity }]}>
             <SectionTitle text="Air Humidity" />
+            <HumidityBar level={care.humidity} />
             <InfoRow icon="cloud-outline" text={care.humidity.replace(/\s*\([\d\-–%\s]+\)\s*/g, '')} sub="Air humidity level" />
             {care.humidity_action ? (
               <InfoBox text={care.humidity_action} variant={care.humidity.toLowerCase().includes('low') ? 'warning' : 'info'} />
@@ -693,7 +696,7 @@ export default function PlantDetailScreen() {
           </View>
 
           {/* ── 4. Air Temperature ── */}
-          <View onLayout={(e) => onSectionLayout('temperature', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('temperature', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.temperature }]}>
             <SectionTitle text="Air Temperature" />
             <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} />
             <InfoRow icon="thermometer-outline" text={`Min ${plant.temp_min_c}°C / Max ${plant.temp_max_c}°C`} sub="Survival limits" />
@@ -707,7 +710,7 @@ export default function PlantDetailScreen() {
           </View>
 
           {/* ── 5. Outdoor ── */}
-          <View onLayout={(e) => onSectionLayout('outdoor', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('outdoor', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.outdoor }]}>
             <SectionTitle text="Outdoor" />
             <InfoRow icon="home-outline" text="Full year" sub="Can be kept indoors" />
             <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor months (potted)" />
@@ -724,7 +727,7 @@ export default function PlantDetailScreen() {
           </View>
 
           {/* ── 6. Toxicity ── */}
-          <View onLayout={(e) => onSectionLayout('toxicity', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('toxicity', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.toxicity }]}>
             <SectionTitle text="Toxicity" />
             {isToxic ? (
               <>
@@ -756,7 +759,7 @@ export default function PlantDetailScreen() {
           </View>
 
           {/* ── 7. Lifecycle ── */}
-          <View onLayout={(e) => onSectionLayout('lifecycle', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('lifecycle', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.lifecycle }]}>
             <SectionTitle text="Lifecycle" />
             <InfoRow icon="sync-outline" text={plant.lifecycle === 'perennial' ? 'Perennial' : plant.lifecycle === 'annual' ? 'Annual' : plant.lifecycle || 'Unknown'} sub={plant.lifecycle_years ? (plant.lifecycle === 'perennial' ? `Lives ${plant.lifecycle_years} years` : `${plant.lifecycle_years}`) : (plant.lifecycle === 'perennial' ? 'Lives for multiple years' : 'One growing season')} />
             <InfoRow icon="leaf-outline" text={plant.lifecycle === 'perennial' ? 'Evergreen' : 'Seasonal'} sub="Foliage type" />
@@ -767,8 +770,8 @@ export default function PlantDetailScreen() {
             )}
           </View>
 
-          {/* ── 7. Used for ── */}
-          <View onLayout={(e) => onSectionLayout('used_for', e)} style={styles.sectionCard}>
+          {/* ── 8. Used for ── */}
+          <View onLayout={(e) => onSectionLayout('used_for', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.used_for }]}>
             <SectionTitle text="Used for" />
             <View style={styles.chipRow}>
               {plant.used_for.length > 0 ? (
@@ -795,7 +798,7 @@ export default function PlantDetailScreen() {
           </View>
 
           {/* ── 9. Soil ── */}
-          <View onLayout={(e) => onSectionLayout('soil', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('soil', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.soil }]}>
             <SectionTitle text="Soil" />
             {plant.soil_types.length > 0 && (
               <View style={styles.chipRow}>
@@ -803,6 +806,9 @@ export default function PlantDetailScreen() {
                   <View key={t} style={styles.chip}><Text style={styles.chipText}>{t}</Text></View>
                 ))}
               </View>
+            )}
+            {plant.soil_ph_min != null && plant.soil_ph_min > 0 && plant.soil_ph_max != null && (
+              <PHBar min={plant.soil_ph_min} max={plant.soil_ph_max} />
             )}
             <InfoRow icon="swap-vertical-outline" text={`Repot: ${care.repot}`} sub="Repotting" />
             {plant.pot_type ? (
@@ -815,7 +821,7 @@ export default function PlantDetailScreen() {
           </View>
 
           {/* ── 10. Fertilizing ── */}
-          <View onLayout={(e) => onSectionLayout('fertilizing', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('fertilizing', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.fertilizing }]}>
             <SectionTitle text="Fertilizing" />
             <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
             {plant.fertilizer_types.length > 0 && (
@@ -835,7 +841,7 @@ export default function PlantDetailScreen() {
           </View>
 
           {/* ── 11. Pruning ── */}
-          <View onLayout={(e) => onSectionLayout('pruning', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('pruning', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.pruning }]}>
             <SectionTitle text="Pruning" />
             {plant.pruning_info ? (
               <Text style={styles.bodyText} numberOfLines={3}>{plant.pruning_info}</Text>
@@ -846,7 +852,7 @@ export default function PlantDetailScreen() {
 
           {/* ── 12. Harvest (edible only) ── */}
           {(plant.plant_type === 'greens' || plant.plant_type === 'fruiting') && (
-            <View onLayout={(e) => onSectionLayout('harvest', e)} style={styles.sectionCard}>
+            <View onLayout={(e) => onSectionLayout('harvest', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.harvest }]}>
               <SectionTitle text="Harvest" />
               {plant.edible_parts ? (
                 <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
@@ -859,7 +865,7 @@ export default function PlantDetailScreen() {
           )}
 
           {/* ── 13. Propagation ── */}
-          <View onLayout={(e) => onSectionLayout('propagation', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('propagation', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.propagation }]}>
             <SectionTitle text="Propagation" />
             {plant.propagation_methods.length > 0 && (
               <View style={styles.chipRow}>
@@ -876,7 +882,7 @@ export default function PlantDetailScreen() {
           </View>
 
           {/* ── 14. Difficulty ── */}
-          <View onLayout={(e) => onSectionLayout('difficulty', e)} style={styles.sectionCard}>
+          <View onLayout={(e) => onSectionLayout('difficulty', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.difficulty }]}>
             <SectionTitle text="Difficulty" />
             <View style={styles.difficultyRow}>
               <DifficultyStars count={diffStars} color={diffColor} size={22} />
@@ -893,8 +899,8 @@ export default function PlantDetailScreen() {
             )}
           </View>
 
-          {/* ── 12. Size ── */}
-          <View onLayout={(e) => onSectionLayout('size', e)} style={styles.sectionCard}>
+          {/* ── 15. Size ── */}
+          <View onLayout={(e) => onSectionLayout('size', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.size }]}>
             <SectionTitle text="Size" />
             <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (mature plant, full grown)" />
             {plant.spread_max_cm > 0 && (
@@ -907,8 +913,8 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 13. Taxonomy ── */}
-          <View onLayout={(e) => onSectionLayout('taxonomy', e)} style={styles.sectionCard}>
+          {/* ── 16. Taxonomy ── */}
+          <View onLayout={(e) => onSectionLayout('taxonomy', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.taxonomy }]}>
             <SectionTitle text="Taxonomy" />
             <InfoRow icon="document-text-outline" text={plant.scientific} sub="Scientific name" />
             {plant.genus ? <InfoRow icon="git-branch-outline" text={plant.genus} sub="Genus" /> : null}
@@ -928,8 +934,8 @@ export default function PlantDetailScreen() {
             )}
           </View>
 
-          {/* ── 14. Companions ── */}
-          <View onLayout={(e) => onSectionLayout('companions', e)} style={styles.sectionCard}>
+          {/* ── 17. Companions ── */}
+          <View onLayout={(e) => onSectionLayout('companions', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.companions }]}>
             <SectionTitle text="Companions" />
             {plant.good_companions.length > 0 && (
               <>
@@ -2032,12 +2038,164 @@ function InfoRow({ icon, text, sub, iconColor }: {
 function InfoBox({ text, variant }: { text: string; variant: 'info' | 'warning' | 'success' }) {
   const bg = variant === 'warning' ? '#FFF8E1' : variant === 'success' ? '#DCFCE7' : '#EBF5FF';
   const color = variant === 'warning' ? '#92400E' : variant === 'success' ? '#166534' : '#1E40AF';
+  const iconName: keyof typeof Ionicons.glyphMap = variant === 'warning' ? 'alert-circle' : variant === 'success' ? 'checkmark-circle' : 'information-circle';
+  const iconColor = variant === 'warning' ? '#D97706' : variant === 'success' ? '#16A34A' : '#2563EB';
   return (
     <View style={[styles.infoBox, { backgroundColor: bg }]}>
-      <Text style={[styles.infoBoxText, { color }]}>{text}</Text>
+      <View style={styles.infoBoxRow}>
+        <Ionicons name={iconName} size={16} color={iconColor} style={styles.infoBoxIcon} />
+        <Text style={[styles.infoBoxText, { color }]}>{text}</Text>
+      </View>
     </View>
   );
 }
+
+// ─── Expandable description ──────────────────────────────────────────
+
+function ExpandableText({ text, maxLines = 3 }: { text: string; maxLines?: number }) {
+  const [expanded, setExpanded] = useState(false);
+  const [needsTruncation, setNeedsTruncation] = useState(false);
+
+  return (
+    <View>
+      <Text
+        style={styles.descText}
+        numberOfLines={expanded ? undefined : maxLines}
+        onTextLayout={(e) => {
+          if (e.nativeEvent.lines.length > maxLines) {
+            setNeedsTruncation(true);
+          }
+        }}
+      >
+        {text}
+      </Text>
+      {needsTruncation && (
+        <TouchableOpacity onPress={() => setExpanded(!expanded)} style={styles.readMoreBtn}>
+          <Text style={styles.readMoreText}>{expanded ? 'Show less' : 'Read more'}</Text>
+          <Ionicons name={expanded ? 'chevron-up' : 'chevron-down'} size={14} color={Colors.primary} />
+        </TouchableOpacity>
+      )}
+    </View>
+  );
+}
+
+// ─── Humidity level bar ──────────────────────────────────────────────
+
+function HumidityBar({ level }: { level: string }) {
+  // Determine humidity level from text
+  const lower = level.toLowerCase();
+  let pct = 50;
+  let label = 'Medium';
+  let barColor: string = Colors.info;
+  if (lower.includes('high') || lower.includes('70') || lower.includes('80') || lower.includes('tropical')) {
+    pct = 80; label = 'High'; barColor = '#0EA5E9';
+  } else if (lower.includes('low') || lower.includes('dry') || lower.includes('20') || lower.includes('30')) {
+    pct = 25; label = 'Low'; barColor = '#F59E0B';
+  } else if (lower.includes('moderate') || lower.includes('average') || lower.includes('40') || lower.includes('50') || lower.includes('60')) {
+    pct = 55; label = 'Medium'; barColor = '#22C55E';
+  }
+
+  return (
+    <View style={styles.humBarContainer}>
+      <View style={styles.humBarTrack}>
+        <View style={[styles.humBarFill, { width: `${pct}%`, backgroundColor: barColor }]} />
+      </View>
+      <View style={styles.humBarLabels}>
+        <Text style={styles.humBarLabel}>Dry</Text>
+        <Text style={[styles.humBarValue, { color: barColor }]}>{label} ~{pct}%</Text>
+        <Text style={styles.humBarLabel}>Humid</Text>
+      </View>
+    </View>
+  );
+}
+
+// ─── Light level indicator ───────────────────────────────────────────
+
+function LightLevelIndicator({ lightText }: { lightText: string }) {
+  const lower = lightText.toLowerCase();
+  let activeLevel = 1; // 0=shade, 1=partial, 2=full sun
+  if (lower.includes('full') || lower.includes('direct') || lower.includes('bright')) {
+    activeLevel = 2;
+  } else if (lower.includes('indirect') || lower.includes('part') || lower.includes('medium')) {
+    activeLevel = 1;
+  } else {
+    activeLevel = 0;
+  }
+
+  const levels = [
+    { icon: 'cloudy' as keyof typeof Ionicons.glyphMap, label: 'Low', color: '#94A3B8' },
+    { icon: 'partly-sunny' as keyof typeof Ionicons.glyphMap, label: 'Medium', color: '#F59E0B' },
+    { icon: 'sunny' as keyof typeof Ionicons.glyphMap, label: 'High', color: '#EF8C17' },
+  ];
+
+  return (
+    <View style={styles.lightLevelRow}>
+      {levels.map((lvl, i) => {
+        const isActive = i <= activeLevel;
+        return (
+          <View key={lvl.label} style={styles.lightLevelItem}>
+            <View style={[
+              styles.lightLevelCircle,
+              { backgroundColor: isActive ? `${lvl.color}20` : '#F3F4F6', borderColor: isActive ? lvl.color : '#E5E7EB' },
+            ]}>
+              <Ionicons name={lvl.icon} size={18} color={isActive ? lvl.color : '#D1D5DB'} />
+            </View>
+            <Text style={[styles.lightLevelLabel, isActive && { color: lvl.color, fontWeight: '700' }]}>{lvl.label}</Text>
+          </View>
+        );
+      })}
+      <View style={styles.lightLevelConnector} />
+    </View>
+  );
+}
+
+// ─── Soil pH bar ─────────────────────────────────────────────────────
+
+function PHBar({ min, max }: { min: number; max: number }) {
+  // pH scale 3-10
+  const scaleMin = 3;
+  const scaleMax = 10;
+  const range = scaleMax - scaleMin;
+  const leftPct = ((min - scaleMin) / range) * 100;
+  const widthPct = ((max - min) / range) * 100;
+
+  return (
+    <View style={styles.phBarContainer}>
+      <View style={styles.phBarTrack}>
+        <View style={[styles.phBarFill, { left: `${leftPct}%`, width: `${widthPct}%` }]}>
+          <Text style={styles.phBarValue}>{min} – {max}</Text>
+        </View>
+      </View>
+      <View style={styles.phBarLabels}>
+        <Text style={styles.phBarLabel}>Acidic</Text>
+        <Text style={[styles.phBarLabel, { textAlign: 'center' }]}>Neutral</Text>
+        <Text style={[styles.phBarLabel, { textAlign: 'right' }]}>Alkaline</Text>
+      </View>
+    </View>
+  );
+}
+
+// ─── Section accent colors ───────────────────────────────────────────
+
+const SECTION_ACCENT: Record<string, string> = {
+  water: '#3B82F6',
+  light: '#F59E0B',
+  humidity: '#0EA5E9',
+  temperature: '#EF4444',
+  outdoor: '#22C55E',
+  toxicity: '#EF4444',
+  lifecycle: '#8B5CF6',
+  used_for: '#10B981',
+  soil: '#92400E',
+  fertilizing: '#16A34A',
+  pruning: '#6B7280',
+  harvest: '#F97316',
+  propagation: '#8B5CF6',
+  difficulty: '#F59E0B',
+  size: '#7C3AED',
+  taxonomy: '#6B7280',
+  companions: '#10B981',
+};
 
 // ─── Styles ──────────────────────────────────────────────────────────
 
@@ -2084,6 +2242,7 @@ const styles = StyleSheet.create({
 
   // Section card
   sectionCard: { backgroundColor: Colors.surface, borderRadius: BorderRadius.lg, padding: Spacing.lg, borderWidth: 1, borderColor: Colors.border },
+  sectionCardAccent: { borderLeftWidth: 3 },
 
   // Watering guide button & content
   // Temperature range bar
@@ -2151,7 +2310,9 @@ const styles = StyleSheet.create({
 
   // Info box
   infoBox: { borderRadius: BorderRadius.md, padding: Spacing.md, marginBottom: Spacing.md },
-  infoBoxText: { fontSize: FontSize.sm, lineHeight: 20 },
+  infoBoxRow: { flexDirection: 'row', alignItems: 'flex-start', gap: Spacing.sm },
+  infoBoxIcon: { marginTop: 2 },
+  infoBoxText: { fontSize: FontSize.sm, lineHeight: 20, flex: 1 },
 
   // Body text
   bodyText: { fontSize: FontSize.sm, color: Colors.text, lineHeight: 20, marginBottom: Spacing.md },
@@ -2169,4 +2330,31 @@ const styles = StyleSheet.create({
   liveDot: { width: 8, height: 8, borderRadius: 4, backgroundColor: Colors.success },
   liveLabel: { fontSize: FontSize.xs, color: Colors.textSecondary, flex: 1 },
   liveValue: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text },
+
+  // Expandable text
+  readMoreBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, marginTop: 4 },
+  readMoreText: { fontSize: FontSize.xs, fontWeight: '600', color: Colors.primary },
+
+  // Humidity bar
+  humBarContainer: { marginBottom: Spacing.md },
+  humBarTrack: { height: 10, backgroundColor: '#E5E7EB', borderRadius: 5, overflow: 'hidden' },
+  humBarFill: { height: 10, borderRadius: 5 },
+  humBarLabels: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 4 },
+  humBarLabel: { fontSize: 10, color: Colors.textSecondary },
+  humBarValue: { fontSize: 11, fontWeight: '700' },
+
+  // Light level indicator
+  lightLevelRow: { flexDirection: 'row', justifyContent: 'center', gap: Spacing.xl, marginBottom: Spacing.md, position: 'relative' },
+  lightLevelItem: { alignItems: 'center', zIndex: 1 },
+  lightLevelCircle: { width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center', borderWidth: 2 },
+  lightLevelLabel: { fontSize: 10, color: Colors.textSecondary, marginTop: 4, fontWeight: '500' },
+  lightLevelConnector: { position: 'absolute', top: 19, left: '20%', right: '20%', height: 2, backgroundColor: '#E5E7EB', zIndex: 0 },
+
+  // pH bar
+  phBarContainer: { marginBottom: Spacing.md },
+  phBarTrack: { height: 16, borderRadius: 8, overflow: 'visible', backgroundColor: '#E5E7EB' },
+  phBarFill: { position: 'absolute', height: 16, borderRadius: 8, backgroundColor: '#22C55E', justifyContent: 'center', alignItems: 'center' },
+  phBarValue: { fontSize: 10, fontWeight: '700', color: '#fff' },
+  phBarLabels: { flexDirection: 'row', justifyContent: 'space-between', marginTop: 4 },
+  phBarLabel: { fontSize: 10, color: Colors.textSecondary, flex: 1 },
 });
