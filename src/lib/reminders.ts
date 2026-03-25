@@ -1,6 +1,11 @@
-import * as Notifications from 'expo-notifications';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Platform } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+// Lazy-load expo-notifications only on native (crashes web SSR)
+function getNotifications() {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  return require('expo-notifications') as typeof import('expo-notifications');
+}
 
 // ---------------------------------------------------------------------------
 // Season coefficients (Jan=0 … Dec=11)
@@ -56,6 +61,8 @@ function getSeasonalDays(baseDays: number): number {
  * Returns true if permissions were granted.
  */
 export async function requestNotificationPermissions(): Promise<boolean> {
+  if (Platform.OS === 'web') return false;
+  const Notifications = getNotifications();
   const { status: existing } = await Notifications.getPermissionsAsync();
   if (existing === 'granted') return true;
 
@@ -67,6 +74,9 @@ export async function requestNotificationPermissions(): Promise<boolean> {
  * Configure the notification handler (call once at module level in _layout).
  */
 export function configureNotifications(): void {
+  if (Platform.OS === 'web') return;
+  const Notifications = getNotifications();
+
   Notifications.setNotificationHandler({
     handleNotification: async () => ({
       shouldShowAlert: true,
@@ -91,17 +101,15 @@ export function configureNotifications(): void {
 
 /**
  * Schedule a local notification for watering a plant.
- *
- * @param plantId   Unique plant identifier
- * @param plantName Display name of the plant
- * @param baseDays  watering_freq_summer_days (summer base interval)
  */
 export async function scheduleWateringReminder(
   plantId: string,
   plantName: string,
   baseDays: number,
 ): Promise<void> {
-  // Cancel any existing reminder for this plant first
+  if (Platform.OS === 'web') return;
+  const Notifications = getNotifications();
+
   await cancelReminder(plantId);
 
   const days = getSeasonalDays(baseDays);
@@ -135,6 +143,9 @@ export async function scheduleWateringReminder(
  * Cancel a scheduled watering reminder for a specific plant.
  */
 export async function cancelReminder(plantId: string): Promise<void> {
+  if (Platform.OS === 'web') return;
+  const Notifications = getNotifications();
+
   const store = await loadStore();
   const record = store[plantId];
   if (record) {
@@ -146,20 +157,20 @@ export async function cancelReminder(plantId: string): Promise<void> {
 
 /**
  * Reschedule all stored reminders (e.g. after app restart or season change).
- * Cancels existing notifications and creates new ones with recalculated intervals.
  */
 export async function rescheduleAll(): Promise<void> {
+  if (Platform.OS === 'web') return;
+  const Notifications = getNotifications();
+
   const store = await loadStore();
   const entries = Object.values(store);
 
-  // Cancel all existing scheduled notifications for our reminders
   for (const record of entries) {
     await Notifications.cancelScheduledNotificationAsync(record.notificationId).catch(() => {
       // notification may have already fired or been dismissed
     });
   }
 
-  // Re-schedule each with current seasonal coefficient
   const newStore: ReminderStore = {};
   for (const record of entries) {
     const days = getSeasonalDays(record.baseDays);
