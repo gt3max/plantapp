@@ -53,7 +53,11 @@ export interface PopularPlant {
   fertilizer_types?: string[];  // e.g. ['Balanced NPK', 'Succulent fertilizer']
   fertilizer_npk?: string;      // e.g. '10-10-10' or '20-20-20'
   fertilizer_warning?: string;  // what to avoid
-  category: string;           // for grouping in UI (tropical/succulents/foliage/herbs/flowering/fruiting)
+  genus?: string;              // e.g. 'Crassula'
+  order?: string;              // e.g. 'Saxifragales'
+  origin?: string;             // e.g. 'South Africa, Mozambique'
+  synonyms?: string[];         // e.g. ['Sansevieria trifasciata']
+  category: string;            // for grouping in UI (tropical/succulents/foliage/herbs/flowering/fruiting)
   care?: Partial<PresetCare>; // per-species care overrides (merged with preset defaults)
 }
 
@@ -120,6 +124,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     fertilizer_types: ['Succulent fertilizer', 'Balanced liquid (diluted to half)'],
     fertilizer_npk: '10-10-10 or 2-7-7',
     fertilizer_warning: 'Over-fertilizing causes salt buildup and root burn. Less is more with succulents.',
+    genus: 'Crassula',
+    order: 'Saxifragales',
+    origin: 'South Africa, Mozambique',
     category: 'succulents',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely between waterings',
@@ -181,6 +188,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     fertilizer_types: ['Orchid fertilizer (20-20-20)', 'Balanced liquid (half strength)'],
     fertilizer_npk: '20-20-20',
     fertilizer_warning: '"Weekly, weakly" — half the recommended dose. Never fertilize a dry plant, water first.',
+    genus: 'Phalaenopsis',
+    order: 'Asparagales',
+    origin: 'Southeast Asia, Australia',
     category: 'flowering',
     care: {
       watering: 'Every 7-10 days: soak the bark, let it drain completely. Roots should dry between waterings.',
@@ -243,6 +253,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     fertilizer_types: ['Nitrogen-rich liquid fertilizer', 'All-purpose liquid'],
     fertilizer_npk: '10-5-5 or similar (high nitrogen)',
     fertilizer_warning: 'Over-fertilizing reduces flavor and aroma. Keep it moderate.',
+    genus: 'Ocimum',
+    order: 'Lamiales',
+    origin: 'Central Africa, Southeast Asia',
     category: 'herbs',
     care: {
       watering: 'Every 3-5 days, keep soil moist but never soggy. Wilts dramatically when thirsty — water immediately.',
@@ -306,6 +319,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     fertilizer_types: ['Light all-purpose fertilizer'],
     fertilizer_npk: '10-10-10 (diluted)',
     fertilizer_warning: 'Too much fertilizer reduces essential oil content = less flavor. Once in spring is enough.',
+    genus: 'Salvia',
+    order: 'Lamiales',
+    origin: 'Mediterranean region',
+    synonyms: ['Rosmarinus officinalis'],
     category: 'herbs',
     care: {
       watering: 'Every 7-10 days when top inch of soil is dry. Let it dry out between waterings — this is not basil.',
@@ -372,6 +389,9 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     fertilizer_types: ['Tomato fertilizer (high potassium)', 'Balanced + calcium supplement'],
     fertilizer_npk: '5-10-10 or tomato-specific',
     fertilizer_warning: 'Start fertilizing when flowers appear, not before. Calcium supplement prevents blossom end rot.',
+    genus: 'Solanum',
+    order: 'Solanales',
+    origin: 'South America (Peru, Ecuador)',
     category: 'fruiting',
     care: {
       watering: 'Every 2-3 days in summer, daily in hot weather. Consistent watering prevents cracking. Deep soak, not a sprinkle.',
@@ -437,6 +457,10 @@ export const POPULAR_PLANTS: PopularPlant[] = [
     fertilizer_types: ['All-purpose liquid (diluted)', 'Succulent fertilizer'],
     fertilizer_npk: '10-10-10 (half strength)',
     fertilizer_warning: 'Fertilize only in spring-summer. Never in winter — plant is dormant.',
+    genus: 'Dracaena',
+    order: 'Asparagales',
+    origin: 'West Africa (Nigeria to Congo)',
+    synonyms: ['Sansevieria trifasciata'],
     category: 'foliage',
     care: {
       watering: 'Every 2-3 weeks, let soil dry completely. Stick your finger 5 cm into soil — if dry, water.',

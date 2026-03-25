@@ -28,6 +28,10 @@ interface PlantVM {
   scientific: string;
   common_name: string;
   family: string;
+  genus: string;
+  order: string;
+  origin: string;
+  synonyms: string[];
   preset: string;
   plant_type: 'decorative' | 'greens' | 'fruiting';
   image_url?: string;
@@ -104,6 +108,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         scientific: userPlant.scientific ?? '',
         common_name: userPlant.common_name ?? '',
         family: userPlant.family ?? '',
+        genus: lib?.genus ?? '',
+        order: lib?.order ?? '',
+        origin: lib?.origin ?? '',
+        synonyms: lib?.synonyms ?? [],
         preset: userPlant.preset ?? 'Standard',
         plant_type: (lib?.plant_type ?? 'decorative') as 'decorative' | 'greens' | 'fruiting',
         image_url: userPlant.image_url,
@@ -174,6 +182,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         scientific: dbEntry.scientific,
         common_name: getCommonName(dbEntry),
         family: dbEntry.family,
+        genus: lib?.genus ?? dbEntry.genus ?? '',
+        order: lib?.order ?? '',
+        origin: lib?.origin ?? '',
+        synonyms: lib?.synonyms ?? [],
         preset: dbEntry.preset,
         plant_type: category === 'greens' || category === 'fruiting' ? category : 'decorative',
         image_url: dbEntry.image_url,
@@ -237,6 +249,10 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         scientific: lib.scientific,
         common_name: lib.common_name,
         family: lib.family,
+        genus: lib.genus ?? '',
+        order: lib.order ?? '',
+        origin: lib.origin ?? '',
+        synonyms: lib.synonyms ?? [],
         preset: lib.preset,
         plant_type: lib.plant_type,
         image_url: lib.image_url,
@@ -808,10 +824,21 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('taxonomy', e)} style={styles.sectionCard}>
             <SectionTitle text="Taxonomy" />
             <InfoRow icon="document-text-outline" text={plant.scientific} sub="Scientific name" />
+            {plant.genus ? <InfoRow icon="git-branch-outline" text={plant.genus} sub="Genus" /> : null}
             <InfoRow icon="git-branch-outline" text={plant.family} sub="Family" />
-            {plant.common_name ? (
-              <InfoRow icon="globe-outline" text={plant.common_name} sub="Common name" />
-            ) : null}
+            {plant.order ? <InfoRow icon="git-branch-outline" text={plant.order} sub="Order" /> : null}
+            {plant.origin ? <InfoRow icon="earth-outline" text={plant.origin} sub="Origin" /> : null}
+            {plant.common_name ? <InfoRow icon="globe-outline" text={plant.common_name} sub="Common name" /> : null}
+            {plant.synonyms.length > 0 && (
+              <View style={styles.chipRow}>
+                {plant.synonyms.map((s) => (
+                  <View key={s} style={styles.chip}><Text style={[styles.chipText, { fontStyle: 'italic' }]}>{s}</Text></View>
+                ))}
+              </View>
+            )}
+            {plant.synonyms.length > 0 && (
+              <Text style={[styles.bodyText, { color: Colors.textSecondary, fontSize: 11 }]}>Previously known as</Text>
+            )}
           </View>
 
           {/* ── 14. Companions ── */}
