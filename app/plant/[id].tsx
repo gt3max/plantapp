@@ -21,6 +21,7 @@ import { PRESET_CARE } from '../../src/constants/presets';
 import { usePlantsWithDevices } from '../../src/features/plants/api/plants-api';
 import { usePlantDBDetail } from '../../src/features/plants/api/plant-db-api';
 import { dbCareToPresetCare, getCommonName } from '../../src/lib/plant-db-adapter';
+import { useLocationData, getOutdoorMonths, formatMonthRange } from '../../src/lib/geolocation';
 import type { PresetCare } from '../../src/constants/presets';
 
 // ─── PlantVM ─────────────────────────────────────────────────────────
@@ -493,6 +494,14 @@ export default function PlantDetailScreen() {
   const { care } = plant;
   const sections = getSections(plant);
 
+  // Location & outdoor data
+  const locationData = useLocationData();
+  const outdoorMonths = locationData.monthlyAvgTemps.length === 12
+    ? getOutdoorMonths(plant.temp_min_c, locationData.monthlyAvgTemps)
+    : null;
+  const pottedRange = outdoorMonths ? formatMonthRange(outdoorMonths.potted) : null;
+  const inGroundRange = outdoorMonths ? formatMonthRange(outdoorMonths.inGround) : null;
+
   // Water demand level
   const waterDrops = care.watering.toLowerCase().includes('2-3 week') ? 1
     : care.watering.toLowerCase().includes('7-10') || care.watering.toLowerCase().includes('every 7') ? 2 : 3;
@@ -693,6 +702,17 @@ export default function PlantDetailScreen() {
           {/* ── 5. Outdoor ── */}
           <View onLayout={(e) => onSectionLayout('outdoor', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.outdoor }]}>
             <SectionTitle text="Outdoor" />
+            {locationData.isLoading ? (
+              <InfoRow icon="location-outline" text="Getting your location..." sub="Determining outdoor months" />
+            ) : locationData.error ? (
+              <InfoRow icon="location-outline" text="Location unavailable" sub="Enable location to see outdoor months" />
+            ) : (
+              <>
+                <InfoRow icon="thermometer-outline" text={`Now: ${Math.round(locationData.currentTemp)}°C outside`} sub={`Zone ${locationData.hardinessZone}`} />
+                <InfoRow icon="leaf-outline" text={pottedRange ?? 'N/A'} sub="Outdoor months (potted)" />
+                <InfoRow icon="earth-outline" text={inGroundRange ?? 'N/A'} sub="Outdoor months (in ground)" />
+              </>
+            )}
             <InfoRow icon="thermometer-outline" text={`Frost limit: ${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp to survive when potted" />
             <InfoBox text="Potted plants are more sensitive to cold than in-ground — roots freeze faster." variant="warning" />
             <TouchableOpacity onPress={() => setShowOutdoorGuide(true)} style={styles.guideBtn}>
@@ -1053,7 +1073,28 @@ export default function PlantDetailScreen() {
             ) : null}
 
             <Text style={styles.guideSectionTitle}>Current conditions</Text>
-            <InfoBox text="Enable location services to see current outdoor temperature in your area and whether it's safe to place this plant outside." variant="info" />
+            {locationData.isLoading ? (
+              <InfoBox text="Getting your location..." variant="info" />
+            ) : locationData.error ? (
+              <InfoBox text="Enable location services to see current outdoor temperature in your area and whether it's safe to place this plant outside." variant="info" />
+            ) : (
+              <InfoBox
+                text={`It's ${Math.round(locationData.currentTemp)}°C outside right now. ${
+                  locationData.currentTemp >= plant.temp_opt_low_c && locationData.currentTemp <= plant.temp_opt_high_c
+                    ? 'This is within the optimal range for this plant.'
+                    : locationData.currentTemp >= plant.temp_min_c
+                      ? 'The plant can survive at this temperature, but it\'s outside the optimal range.'
+                      : 'Too cold — keep this plant indoors.'
+                }`}
+                variant={
+                  locationData.currentTemp >= plant.temp_opt_low_c && locationData.currentTemp <= plant.temp_opt_high_c
+                    ? 'success'
+                    : locationData.currentTemp >= plant.temp_min_c
+                      ? 'warning'
+                      : 'warning'
+                }
+              />
+            )}
 
             <Text style={styles.guideSectionTitle}>Common indoor problems</Text>
             <Text style={styles.bodyText}>{'• Cold drafts from windows — move plant away from drafty spots in winter\n• Hot radiators — dry out the air and overheat roots on the side closest to heat\n• Air conditioning — sudden cold blasts stress tropical plants\n• Temperature swings day/night — most plants prefer stable temperature'}</Text>
@@ -1083,9 +1124,21 @@ export default function PlantDetailScreen() {
 
             <Text style={styles.guideSectionTitle}>Indoor vs Outdoor months</Text>
             <InfoRow icon="home-outline" text="Full year" sub="Indoor — safe year-round" />
-            <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor (potted) — enable location for dates" />
-            <InfoRow icon="earth-outline" text="Depends on your location" sub="Outdoor (in ground) — enable location for dates" />
-            <InfoBox text="Enable location services to see which months are safe for outdoor placement in your area." variant="info" />
+            {locationData.isLoading ? (
+              <InfoRow icon="location-outline" text="Getting your location..." sub="Determining outdoor months" />
+            ) : locationData.error ? (
+              <>
+                <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor (potted) — enable location for dates" />
+                <InfoRow icon="earth-outline" text="Depends on your location" sub="Outdoor (in ground) — enable location for dates" />
+                <InfoBox text="Enable location services to see which months are safe for outdoor placement in your area." variant="info" />
+              </>
+            ) : (
+              <>
+                <InfoRow icon="leaf-outline" text={pottedRange ?? 'N/A'} sub="Outdoor (potted)" />
+                <InfoRow icon="earth-outline" text={inGroundRange ?? 'N/A'} sub="Outdoor (in ground)" />
+                <InfoBox text={`Based on your location (zone ${locationData.hardinessZone}). Potted plants need +5°C above frost limit, in-ground +2°C.`} variant="info" />
+              </>
+            )}
 
             <Text style={styles.guideSectionTitle}>Frost tolerance</Text>
             <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp to survive when potted" />
@@ -1106,7 +1159,11 @@ export default function PlantDetailScreen() {
             <Text style={styles.bodyText}>
               Important: these zones assume the plant is in the ground. Potted plants are 1–2 zones less hardy because roots are exposed to cold from all sides.
             </Text>
-            <InfoBox text="Enable location services and we will determine your frost tolerance zone automatically." variant="info" />
+            {locationData.error ? (
+              <InfoBox text="Enable location services and we will determine your frost tolerance zone automatically." variant="info" />
+            ) : !locationData.isLoading ? (
+              <InfoBox text={`Your zone: ${locationData.hardinessZone}. Current outdoor temperature: ${Math.round(locationData.currentTemp)}°C.`} variant="success" />
+            ) : null}
           </ScrollView>
         </View>
       </Modal>

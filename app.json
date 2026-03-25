@@ -19,7 +19,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.gt3max.plantapp"
+      "bundleIdentifier": "com.gt3max.plantapp",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "PlantApp uses your location to determine outdoor growing months and hardiness zone for your area."
+      }
     },
     "android": {
       "package": "com.gt3max.plantapp",
@@ -31,7 +34,9 @@
       },
       "predictiveBackGestureEnabled": false,
       "permissions": [
-        "android.permission.RECORD_AUDIO"
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
       ]
     },
     "web": {
@@ -47,6 +52,12 @@
         {
           "cameraPermission": "Allow PlantApp to take photos of plants for identification",
           "photosPermission": "Allow PlantApp to select plant photos for identification"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "PlantApp uses your location to determine outdoor growing months and hardiness zone for your area."
         }
       ]
     ],
