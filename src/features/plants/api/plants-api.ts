@@ -42,7 +42,11 @@ export function usePlantLibrary() {
 function useLocalDeletedIds() {
   return useQuery({
     queryKey: ['local-deleted-ids'],
-    queryFn: async () => getLocalDeletedIds(),
+    queryFn: async () => {
+      const ids = await getLocalDeletedIds();
+      // Return as array for stable serialization — Set doesn't serialize in React Query
+      return [...ids];
+    },
     staleTime: Infinity,
   });
 }
@@ -56,14 +60,15 @@ export function usePlantsWithDevices(): {
 } {
   const { data: plantEntries, isLoading: plantsLoading, isRefetching: plantsRefetching, refetch: refetchPlants } = usePlantLibrary();
   const { data: devices, isLoading: devicesLoading, isRefetching: devicesRefetching, refetch: refetchDevices } = useDevices();
-  const { data: localDeletedIds } = useLocalDeletedIds();
+  const { data: localDeletedArr } = useLocalDeletedIds();
+  const localDeletedSet = new Set(localDeletedArr ?? []);
 
   // Build device lookup by device_id
   const deviceMap = new Map((devices ?? []).map((d) => [d.device_id, d]));
 
   // Enrich plants with live device data, filter out deleted (backend + local)
   const plants: PlantWithDevice[] = (plantEntries ?? [])
-    .filter((p) => !p.archived && !p.deleted && !localDeletedIds?.has(p.plant_id))
+    .filter((p) => !p.archived && !p.deleted && !localDeletedSet.has(p.plant_id))
     .map((plant) => {
       const device = plant.active ? deviceMap.get(plant.device_id) : undefined;
       return {
