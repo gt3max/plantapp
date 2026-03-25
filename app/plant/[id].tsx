@@ -705,16 +705,15 @@ export default function PlantDetailScreen() {
             {locationData.isLoading ? (
               <InfoRow icon="location-outline" text="Getting your location..." sub="Determining outdoor months" />
             ) : locationData.error ? (
-              <InfoRow icon="location-outline" text="Location unavailable" sub="Enable location to see outdoor months" />
+              <InfoRow icon="location-outline" text="Enable location to see outdoor months" sub="Tap to allow location access" />
             ) : (
               <>
-                <InfoRow icon="thermometer-outline" text={`Now: ${Math.round(locationData.currentTemp)}°C outside`} sub={`Zone ${locationData.hardinessZone}`} />
-                <InfoRow icon="leaf-outline" text={pottedRange ?? 'N/A'} sub="Outdoor months (potted)" />
-                <InfoRow icon="earth-outline" text={inGroundRange ?? 'N/A'} sub="Outdoor months (in ground)" />
+                <InfoRow icon="thermometer-outline" text={`Now: ${Math.round(locationData.currentTemp)}°C outside`} sub={`Hardiness zone ${locationData.hardinessZone}`} />
+                <MonthBar activeMonths={outdoorMonths?.potted ?? []} label="Outdoor (potted)" color="#22C55E" />
+                <MonthBar activeMonths={outdoorMonths?.inGround ?? []} label="Outdoor (in ground)" color="#16A34A" />
               </>
             )}
-            <InfoRow icon="thermometer-outline" text={`Frost limit: ${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp to survive when potted" />
-            <InfoBox text="Potted plants are more sensitive to cold than in-ground — roots freeze faster." variant="warning" />
+            <InfoRow icon="thermometer-outline" text={`Frost limit: ${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp the plant can endure" />
             <TouchableOpacity onPress={() => setShowOutdoorGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Can I put it outside?</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -2221,6 +2220,64 @@ function PHBar({ min, max }: { min: number; max: number }) {
   );
 }
 
+// ─── Month bar (outdoor months visualization) ───────────────────────
+
+const MONTH_SHORT_LABELS = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+const MONTH_FULL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+function MonthBar({ activeMonths, label, color }: { activeMonths: string[]; label: string; color?: string }) {
+  const barColor = color ?? Colors.success;
+  const activeSet = new Set(activeMonths);
+
+  // Find first and last active index for the label
+  const activeIndices = MONTH_FULL.map((m, i) => activeSet.has(m) ? i : -1).filter((i) => i >= 0);
+  const firstActive = activeIndices[0] ?? -1;
+  const lastActive = activeIndices[activeIndices.length - 1] ?? -1;
+
+  const rangeText = activeMonths.length === 0
+    ? 'Not recommended'
+    : activeMonths.length === 12
+    ? 'Full year'
+    : `${MONTH_FULL[firstActive]?.slice(0, 3)} \u2013 ${MONTH_FULL[lastActive]?.slice(0, 3)}`;
+
+  return (
+    <View style={styles.monthBarContainer}>
+      <Text style={styles.monthBarLabel}>{label}</Text>
+      <View style={styles.monthBarRow}>
+        {MONTH_FULL.map((month, i) => {
+          const isActive = activeSet.has(month);
+          // Check if neighbors are active for connected bar effect
+          const prevActive = i > 0 && activeSet.has(MONTH_FULL[i - 1]);
+          const nextActive = i < 11 && activeSet.has(MONTH_FULL[i + 1]);
+          return (
+            <View key={month} style={styles.monthBarCol}>
+              <View style={[
+                styles.monthBarDot,
+                isActive && {
+                  backgroundColor: barColor,
+                  borderRadius: 4,
+                  flex: 1,
+                  marginHorizontal: 0,
+                  borderTopLeftRadius: !prevActive ? 8 : 2,
+                  borderBottomLeftRadius: !prevActive ? 8 : 2,
+                  borderTopRightRadius: !nextActive ? 8 : 2,
+                  borderBottomRightRadius: !nextActive ? 8 : 2,
+                },
+              ]} />
+              <Text style={[styles.monthBarMonthLabel, isActive && { color: barColor, fontWeight: '700' }]}>
+                {MONTH_SHORT_LABELS[i]}
+              </Text>
+            </View>
+          );
+        })}
+      </View>
+      {activeMonths.length > 0 && (
+        <Text style={[styles.monthBarRangeText, { color: barColor }]}>{rangeText}</Text>
+      )}
+    </View>
+  );
+}
+
 // ─── Section accent colors ───────────────────────────────────────────
 
 const SECTION_ACCENT: Record<string, string> = {
@@ -2395,6 +2452,15 @@ const styles = StyleSheet.create({
   lightLevelCircle: { width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center', borderWidth: 2 },
   lightLevelLabel: { fontSize: 10, color: Colors.textSecondary, marginTop: 4, fontWeight: '500' },
   lightLevelConnector: { position: 'absolute', top: 19, left: '20%', right: '20%', height: 2, backgroundColor: '#E5E7EB', zIndex: 0 },
+
+  // Month bar (outdoor months)
+  monthBarContainer: { marginBottom: Spacing.md },
+  monthBarLabel: { fontSize: FontSize.xs, fontWeight: '600', color: Colors.textSecondary, marginBottom: Spacing.xs },
+  monthBarRow: { flexDirection: 'row', height: 16, gap: 2 },
+  monthBarCol: { flex: 1, alignItems: 'center' },
+  monthBarDot: { width: 8, height: 8, borderRadius: 4, backgroundColor: '#D1D5DB' },
+  monthBarMonthLabel: { fontSize: 8, color: Colors.textSecondary, marginTop: 2 },
+  monthBarRangeText: { fontSize: FontSize.xs, fontWeight: '700', textAlign: 'center', marginTop: 4 },
 
   // pH bar
   phBarContainer: { marginBottom: Spacing.md },
