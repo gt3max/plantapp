@@ -406,6 +406,7 @@ export default function PlantDetailScreen() {
   const [showFertGuide, setShowFertGuide] = useState(false);
   const [showSizeGuide, setShowSizeGuide] = useState(false);
   const [showPropGuide, setShowPropGuide] = useState(false);
+  const [showHarvestGuide, setShowHarvestGuide] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -843,14 +844,13 @@ export default function PlantDetailScreen() {
           {(plant.plant_type === 'greens' || plant.plant_type === 'fruiting') && (
             <View onLayout={(e) => onSectionLayout('harvest', e)} style={styles.sectionCard}>
               <SectionTitle text="Harvest" />
-              {plant.harvest_info ? (
-                <Text style={styles.bodyText}>{plant.harvest_info}</Text>
-              ) : (
-                <Text style={styles.bodyText}>Harvest information not available yet.</Text>
-              )}
               {plant.edible_parts ? (
                 <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
               ) : null}
+              <TouchableOpacity onPress={() => setShowHarvestGuide(true)} style={styles.guideBtn}>
+                <Text style={styles.guideBtnText}>Harvesting guide</Text>
+                <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+              </TouchableOpacity>
             </View>
           )}
 
@@ -1492,6 +1492,50 @@ export default function PlantDetailScreen() {
 
             <Text style={styles.guideSectionTitle}>General tips</Text>
             <Text style={styles.bodyText}>{'• Always use clean, sharp tools when taking cuttings\n• Spring and early summer are the best time to propagate\n• Keep soil moist but not soggy for new cuttings\n• Bright indirect light — no direct sun on fresh cuttings\n• Be patient — rooting can take weeks'}</Text>
+          </ScrollView>
+        </View>
+      </Modal>
+
+      {/* ═══ HARVEST GUIDE MODAL ═══ */}
+      <Modal visible={showHarvestGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Harvesting {title}</Text>
+            <TouchableOpacity onPress={() => setShowHarvestGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            {plant.edible_parts ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Edible parts</Text>
+                <InfoRow icon="nutrition-outline" text={plant.edible_parts} iconColor={Colors.success} />
+              </>
+            ) : null}
+
+            {plant.harvest_info ? (
+              <>
+                <Text style={styles.guideSectionTitle}>How to harvest</Text>
+                <Text style={styles.bodyText}>{plant.harvest_info}</Text>
+              </>
+            ) : null}
+
+            {plant.plant_type === 'fruiting' ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Fruit stages</Text>
+                <Text style={styles.bodyText}>{'• Flowering — pollination needed (shake stems indoors)\n• Fruit set — small green fruits appear after pollination\n• Growing — fruit enlarges, needs consistent watering\n• Ripening — color changes, fruit softens slightly\n• Harvest — pick when fully colored and gives slightly to gentle pressure'}</Text>
+                <InfoBox text="Do not pick too early. Unripe fruit lacks flavor and may contain higher levels of toxins (e.g. solanine in green tomatoes)." variant="warning" />
+              </>
+            ) : plant.plant_type === 'greens' ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Harvesting tips</Text>
+                <Text style={styles.bodyText}>{'• Always harvest from the top — cut above a leaf pair\n• Never take more than one-third of the plant at once\n• Regular harvesting stimulates bushier growth\n• Harvest in the morning — oils and flavor are strongest\n• Pinch off flower buds immediately — flowering ends leaf production'}</Text>
+              </>
+            ) : null}
+
+            {isToxic && plant.edible ? (
+              <InfoBox text={`Some parts of ${title} are toxic while others are edible. Always know which parts are safe before consuming.`} variant="warning" />
+            ) : null}
           </ScrollView>
         </View>
       </Modal>
