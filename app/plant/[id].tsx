@@ -2111,7 +2111,7 @@ function LightLevelIndicator({ lightText }: { lightText: string }) {
   return (
     <View style={styles.lightLevelRow}>
       {levels.map((lvl, i) => {
-        const isActive = i <= activeLevel;
+        const isActive = i === activeLevel;
         return (
           <View key={lvl.label} style={styles.lightLevelItem}>
             <View style={[
