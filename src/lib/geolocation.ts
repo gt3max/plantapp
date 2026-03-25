@@ -136,11 +136,13 @@ interface CurrentWeatherResponse {
   };
 }
 
-interface MonthlyArchiveResponse {
-  monthly: {
-    temperature_2m_mean: number[];
+interface DailyArchiveResponse {
+  daily: {
+    temperature_2m_mean: (number | null)[];
   };
 }
+
+const DAYS_PER_MONTH = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]; // leap-safe
 
 async function fetchCurrentWeather(lat: number, lon: number): Promise<number> {
   const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m`;
@@ -151,11 +153,24 @@ async function fetchCurrentWeather(lat: number, lon: number): Promise<number> {
 }
 
 async function fetchMonthlyAverages(lat: number, lon: number): Promise<MonthlyTemps> {
-  const url = `https://archive-api.open-meteo.com/v1/archive?latitude=${lat}&longitude=${lon}&start_date=2024-01-01&end_date=2024-12-31&monthly=temperature_2m_mean&timezone=auto`;
+  // Open-Meteo archive doesn't support monthly aggregation — fetch daily and compute
+  const url = `https://archive-api.open-meteo.com/v1/archive?latitude=${lat}&longitude=${lon}&start_date=2024-01-01&end_date=2024-12-31&daily=temperature_2m_mean&timezone=auto`;
   const response = await fetch(url);
   if (!response.ok) throw new Error(`Archive API error: ${response.status}`);
-  const data = (await response.json()) as MonthlyArchiveResponse;
-  return { temps: data.monthly.temperature_2m_mean };
+  const data = (await response.json()) as DailyArchiveResponse;
+  const dailyTemps = data.daily?.temperature_2m_mean ?? [];
+
+  // Aggregate daily → monthly averages
+  const monthlyAvgs: number[] = [];
+  let dayIndex = 0;
+  for (let m = 0; m < 12; m++) {
+    const daysInMonth = DAYS_PER_MONTH[m];
+    const chunk = dailyTemps.slice(dayIndex, dayIndex + daysInMonth).filter((t): t is number => t !== null);
+    monthlyAvgs.push(chunk.length > 0 ? Math.round((chunk.reduce((a, b) => a + b, 0) / chunk.length) * 10) / 10 : 0);
+    dayIndex += daysInMonth;
+  }
+
+  return { temps: monthlyAvgs };
 }
 
 // ─── Hook ────────────────────────────────────────────────────────────
