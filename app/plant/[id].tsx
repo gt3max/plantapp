@@ -866,7 +866,7 @@ export default function PlantDetailScreen() {
             )}
             <Text style={[styles.bodyText, { color: Colors.textSecondary }]}>Germination & propagation methods</Text>
             <TouchableOpacity onPress={() => setShowPropGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>How to grow a new {title}</Text>
+              <Text style={styles.guideBtnText}>How to grow a new one</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
