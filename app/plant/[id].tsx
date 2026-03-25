@@ -636,12 +636,7 @@ export default function PlantDetailScreen() {
           {/* ── 1. Water ── */}
           <View onLayout={(e) => onSectionLayout('water', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.water }]}>
             <SectionTitle text="Water" />
-            <FreqCircle number={`${currentWateringDays}`} label={`days between watering in ${currentMonth}\n${plant.watering_demand ? `${plant.watering_soil_hint} \u2022 ${plant.watering_demand} demand` : care.watering}`} />
-            {plant.watering_warning ? (
-              <InfoBox text={plant.watering_warning} variant="warning" />
-            ) : waterDrops === 1 ? (
-              <InfoBox text="This plant is sensitive to overwatering. Let the soil dry out completely between waterings." variant="warning" />
-            ) : null}
+            <FreqCircle number={`${currentWateringDays}`} label={`days between watering in ${currentMonth}`} />
             {plant.hasDevice && plant.moisture_pct != null && (
               <View style={styles.liveBlock}>
                 <View style={styles.liveHeader}>
@@ -663,18 +658,6 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Light" />
             <LightLevelIndicator lightText={care.light} />
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
-            <InfoRow icon="partly-sunny-outline" text={care.light_also_ok} sub="Also tolerates" />
-            {care.light.includes('Full') || care.light.includes('Bright') ? (
-              <InfoBox text="Needs strong light. Without it — stretches and weakens." variant="warning" />
-            ) : care.light.includes('indirect') ? (
-              <InfoBox text="No direct sun — leaves burn." variant="info" />
-            ) : (
-              <InfoBox text="Low-light tolerant. Growth slows in dark spots." variant="info" />
-            )}
-            <TouchableOpacity onPress={() => {}} style={styles.measureLightBtn}>
-              <Ionicons name="flashlight-outline" size={18} color="#fff" />
-              <Text style={styles.measureLightText}>Measure light</Text>
-            </TouchableOpacity>
             <TouchableOpacity onPress={() => setShowLightGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Light guide</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -685,10 +668,6 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('humidity', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.humidity }]}>
             <SectionTitle text="Air Humidity" />
             <HumidityBar level={care.humidity} />
-            <InfoRow icon="cloud-outline" text={care.humidity.replace(/\s*\([\d\-–%\s]+\)\s*/g, '')} sub="Air humidity level" />
-            {care.humidity_action ? (
-              <InfoBox text={care.humidity_action} variant={care.humidity.toLowerCase().includes('low') ? 'warning' : 'info'} />
-            ) : null}
             <TouchableOpacity onPress={() => setShowHumidityGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Humidity guide</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -699,10 +678,6 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('temperature', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.temperature }]}>
             <SectionTitle text="Air Temperature" />
             <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} />
-            <InfoRow icon="thermometer-outline" text={`Min ${plant.temp_min_c}°C / Max ${plant.temp_max_c}°C`} sub="Survival limits" />
-            {plant.temp_warning ? (
-              <InfoBox text={plant.temp_warning} variant="warning" />
-            ) : null}
             <TouchableOpacity onPress={() => setShowTempGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Temperature guide</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -712,14 +687,7 @@ export default function PlantDetailScreen() {
           {/* ── 5. Outdoor ── */}
           <View onLayout={(e) => onSectionLayout('outdoor', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.outdoor }]}>
             <SectionTitle text="Outdoor" />
-            <InfoRow icon="home-outline" text="Full year" sub="Can be kept indoors" />
-            <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor months (potted)" />
-            <InfoRow icon="earth-outline" text="Depends on your location" sub="Outdoor months (in ground)" />
-            <View style={{ marginTop: Spacing.sm }}>
-              <Text style={[styles.bodyText, { fontWeight: '600' }]}>Frost tolerance</Text>
-              <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp to survive when potted" />
-            </View>
-            <InfoBox text="Potted plants are more sensitive to cold than plants in the ground — roots in a pot freeze faster." variant="warning" />
+            <InfoRow icon="thermometer-outline" text={`Frost limit: ${plant.temp_min_c}°C`} sub="Lowest temp to survive when potted" />
             <TouchableOpacity onPress={() => setShowOutdoorGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Outdoor guide</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -736,25 +704,13 @@ export default function PlantDetailScreen() {
                   {plant.poisonous_to_humans && <View style={styles.chip}><Text style={styles.chipText}>Humans</Text></View>}
                   {plant.poisonous_to_pets && <View style={styles.chip}><Text style={styles.chipText}>Animals</Text></View>}
                 </View>
-                {plant.toxic_parts ? (
-                  <InfoRow icon="warning-outline" text={plant.toxic_parts} sub="Toxic parts" iconColor={Colors.error} />
-                ) : null}
-                {plant.edible && plant.edible_parts ? (
-                  <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
-                ) : null}
-                {plant.toxicity_note ? (
-                  <InfoBox text={plant.toxicity_note} variant="warning" />
-                ) : null}
                 <TouchableOpacity onPress={() => setShowToxicityGuide(true)} style={styles.guideBtn}>
                   <Text style={styles.guideBtnText}>Toxicity details</Text>
                   <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
                 </TouchableOpacity>
               </>
             ) : (
-              <>
-                <InfoRow icon="checkmark-circle" text="Not toxic" iconColor={Colors.success} />
-                <InfoBox text="This plant is considered non-toxic to humans and pets." variant="success" />
-              </>
+              <InfoRow icon="checkmark-circle" text="Non-toxic to humans and pets" iconColor={Colors.success} />
             )}
           </View>
 
@@ -762,12 +718,6 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('lifecycle', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.lifecycle }]}>
             <SectionTitle text="Lifecycle" />
             <InfoRow icon="sync-outline" text={plant.lifecycle === 'perennial' ? 'Perennial' : plant.lifecycle === 'annual' ? 'Annual' : plant.lifecycle || 'Unknown'} sub={plant.lifecycle_years ? (plant.lifecycle === 'perennial' ? `Lives ${plant.lifecycle_years} years` : `${plant.lifecycle_years}`) : (plant.lifecycle === 'perennial' ? 'Lives for multiple years' : 'One growing season')} />
-            <InfoRow icon="leaf-outline" text={plant.lifecycle === 'perennial' ? 'Evergreen' : 'Seasonal'} sub="Foliage type" />
-            {plant.lifecycle === 'perennial' ? (
-              <InfoBox text="Active growth in spring and summer. Slower or dormant in winter — reduce watering and feeding." variant="info" />
-            ) : (
-              <InfoBox text="Complete lifecycle in one season. Start new plants from seed when this one finishes." variant="info" />
-            )}
           </View>
 
           {/* ── 8. Used for ── */}
@@ -810,12 +760,9 @@ export default function PlantDetailScreen() {
             {plant.soil_ph_min != null && plant.soil_ph_min > 0 && plant.soil_ph_max != null && (
               <PHBar min={plant.soil_ph_min} max={plant.soil_ph_max} />
             )}
-            <InfoRow icon="swap-vertical-outline" text={`Repot: ${care.repot}`} sub="Repotting" />
-            {plant.pot_type ? (
-              <InfoRow icon="cube-outline" text={plant.pot_type} sub="Recommended pot" />
-            ) : null}
+            <InfoRow icon="swap-vertical-outline" text={`Repot: ${care.repot}`} sub="Repotting schedule" />
             <TouchableOpacity onPress={() => setShowSoilGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Repotting guide</Text>
+              <Text style={styles.guideBtnText}>Soil & repotting guide</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -824,16 +771,6 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('fertilizing', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.fertilizing }]}>
             <SectionTitle text="Fertilizing" />
             <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
-            {plant.fertilizer_types.length > 0 && (
-              <View style={styles.chipRow}>
-                {plant.fertilizer_types.map((t) => (
-                  <View key={t} style={styles.chip}><Text style={styles.chipText}>{t}</Text></View>
-                ))}
-              </View>
-            )}
-            {plant.fertilizer_warning ? (
-              <InfoBox text={plant.fertilizer_warning} variant="warning" />
-            ) : null}
             <TouchableOpacity onPress={() => setShowFertGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Fertilizing guide</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -874,7 +811,6 @@ export default function PlantDetailScreen() {
                 ))}
               </View>
             )}
-            <Text style={[styles.bodyText, { color: Colors.textSecondary }]}>Germination & propagation methods</Text>
             <TouchableOpacity onPress={() => setShowPropGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>How to grow a new one</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -888,25 +824,15 @@ export default function PlantDetailScreen() {
               <DifficultyStars count={diffStars} color={diffColor} size={22} />
               <Text style={[styles.difficultyLabel, { color: diffColor }]}>{plant.difficulty || 'Unknown'}</Text>
             </View>
-            {plant.difficulty_note ? (
-              <InfoBox text={plant.difficulty_note} variant="info" />
-            ) : plant.difficulty === 'Easy' ? (
-              <InfoBox text="Forgiving plant — tolerates irregular watering, adapts to various light conditions. Great for beginners." variant="success" />
-            ) : plant.difficulty === 'Advanced' ? (
-              <InfoBox text="Needs precise humidity, consistent watering schedule, and specific light conditions. Not forgiving of mistakes." variant="warning" />
-            ) : (
-              <InfoBox text="Needs some attention — regular watering and decent light, but recovers from occasional neglect." variant="info" />
-            )}
           </View>
 
           {/* ── 15. Size ── */}
           <View onLayout={(e) => onSectionLayout('size', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.size }]}>
             <SectionTitle text="Size" />
-            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (mature plant, full grown)" />
+            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (mature)" />
             {plant.spread_max_cm > 0 && (
-              <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Crown diameter" />
+              <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Spread" />
             )}
-            <InfoBox text="These dimensions represent a full grown plant." variant="info" />
             <TouchableOpacity onPress={() => setShowSizeGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Growth & dimensions</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -917,49 +843,27 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('taxonomy', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.taxonomy }]}>
             <SectionTitle text="Taxonomy" />
             <InfoRow icon="document-text-outline" text={plant.scientific} sub="Scientific name" />
-            {plant.genus ? <InfoRow icon="git-branch-outline" text={plant.genus} sub="Genus" /> : null}
             <InfoRow icon="git-branch-outline" text={plant.family} sub="Family" />
-            {plant.order ? <InfoRow icon="git-branch-outline" text={plant.order} sub="Order" /> : null}
             {plant.origin ? <InfoRow icon="earth-outline" text={plant.origin} sub="Origin" /> : null}
-            {plant.common_name ? <InfoRow icon="globe-outline" text={plant.common_name} sub="Common name" /> : null}
-            {plant.synonyms.length > 0 && (
-              <View style={styles.chipRow}>
-                {plant.synonyms.map((s) => (
-                  <View key={s} style={styles.chip}><Text style={[styles.chipText, { fontStyle: 'italic' }]}>{s}</Text></View>
-                ))}
-              </View>
-            )}
-            {plant.synonyms.length > 0 && (
-              <Text style={[styles.bodyText, { color: Colors.textSecondary, fontSize: 11 }]}>Previously known as</Text>
-            )}
           </View>
 
           {/* ── 17. Companions ── */}
           <View onLayout={(e) => onSectionLayout('companions', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.companions }]}>
             <SectionTitle text="Companions" />
             {plant.good_companions.length > 0 && (
-              <>
-                <Text style={[styles.bodyText, { fontWeight: '600' }]}>Good neighbors</Text>
-                <View style={styles.chipRow}>
-                  {plant.good_companions.map((c) => (
-                    <View key={c} style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>{c}</Text></View>
-                  ))}
-                </View>
-              </>
+              <View style={styles.chipRow}>
+                {plant.good_companions.map((c) => (
+                  <View key={c} style={[styles.chip, styles.chipGreen]}><Text style={styles.chipTextGreen}>{c}</Text></View>
+                ))}
+              </View>
             )}
             {plant.bad_companions.length > 0 && (
-              <>
-                <Text style={[styles.bodyText, { fontWeight: '600' }]}>Bad neighbors</Text>
-                <View style={styles.chipRow}>
-                  {plant.bad_companions.map((c) => (
-                    <View key={c} style={[styles.chip, { backgroundColor: '#FEE2E2' }]}><Text style={[styles.chipText, { color: Colors.error }]}>{c}</Text></View>
-                  ))}
-                </View>
-              </>
+              <View style={styles.chipRow}>
+                {plant.bad_companions.map((c) => (
+                  <View key={c} style={[styles.chip, { backgroundColor: '#FEE2E2' }]}><Text style={[styles.chipText, { color: Colors.error }]}>{c}</Text></View>
+                ))}
+              </View>
             )}
-            {plant.companion_note ? (
-              <InfoBox text={plant.companion_note} variant="info" />
-            ) : null}
           </View>
 
         </View>
