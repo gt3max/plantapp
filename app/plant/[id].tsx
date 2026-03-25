@@ -866,7 +866,7 @@ export default function PlantDetailScreen() {
             )}
             <Text style={[styles.bodyText, { color: Colors.textSecondary }]}>Germination & propagation methods</Text>
             <TouchableOpacity onPress={() => setShowPropGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Propagation guide</Text>
+              <Text style={styles.guideBtnText}>How to grow a new {title}</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -1457,7 +1457,7 @@ export default function PlantDetailScreen() {
       <Modal visible={showPropGuide} animationType="slide" presentationStyle="pageSheet">
         <View style={styles.modalContainer}>
           <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Propagation guide</Text>
+            <Text style={styles.modalTitle}>Germination & Propagation</Text>
             <TouchableOpacity onPress={() => setShowPropGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
               <Ionicons name="close" size={24} color={Colors.text} />
             </TouchableOpacity>
