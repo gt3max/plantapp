@@ -420,9 +420,6 @@ export default function PlantDetailScreen() {
         wateringFreqDays: plant.watering_freq_summer_days,
       },
       {
-        onSuccess: () => {
-          Alert.alert('Added', `${plant.common_name || plant.scientific} added to My Plants`);
-        },
         onError: (err) => {
           Alert.alert('Error', err instanceof Error ? err.message : 'Failed to save plant');
         },
@@ -893,13 +890,19 @@ export default function PlantDetailScreen() {
           {/* ── 14. Difficulty ── */}
           <View onLayout={(e) => onSectionLayout('difficulty', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.difficulty }]}>
             <SectionTitle text="Difficulty" />
-            <View style={styles.difficultyRow}>
-              <DifficultyStars count={diffStars} color={diffColor} size={22} />
-              <Text style={[styles.difficultyLabel, { color: diffColor }]}>{plant.difficulty || 'Unknown'}</Text>
-            </View>
-            {plant.difficulty_note ? (
-              <InfoBox text={plant.difficulty_note} variant="info" />
-            ) : null}
+            {plant.difficulty ? (
+              <>
+                <View style={styles.difficultyRow}>
+                  <DifficultyStars count={diffStars} color={diffColor} size={22} />
+                  <Text style={[styles.difficultyLabel, { color: diffColor }]}>{plant.difficulty}</Text>
+                </View>
+                {plant.difficulty_note ? (
+                  <InfoBox text={plant.difficulty_note} variant="info" />
+                ) : null}
+              </>
+            ) : (
+              <Text style={[styles.bodyText, { color: Colors.textSecondary }]}>No data available yet</Text>
+            )}
           </View>
 
           {/* ── 15. Size ── */}

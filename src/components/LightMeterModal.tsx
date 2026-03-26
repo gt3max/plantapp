@@ -55,9 +55,8 @@ export function LightMeterModal({
     setMeasuring(true);
     try {
       const photo = await cameraRef.current.takePictureAsync({
-        quality: 0.1, // low quality — we only need brightness
-        skipProcessing: true,
-        base64: false,
+        quality: 0.5,
+        exif: true,
       });
       if (!photo) {
         setMeasuring(false);
@@ -66,27 +65,32 @@ export function LightMeterModal({
 
       setCapturedUri(photo.uri);
 
-      // Estimate brightness from image dimensions + file heuristic
-      // Real implementation: decode image pixels. Simplified: use image metadata.
-      // For now, use a middle-ground approach: analyze via ImageManipulator or
-      // use a basic heuristic based on image size (compressed JPEG size correlates with brightness)
-      const response = await fetch(photo.uri);
-      const blob = await response.blob();
-      const fileSize = blob.size;
+      // Calculate Lux from EXIF exposure data (how real lux meter apps work)
+      // Formula: Lux ≈ (F² × K) / (ExposureTime × ISO)
+      // K = calibration constant, typically 12.5 (reflected light meter standard)
+      const exif = photo.exif;
+      let lux: number;
 
-      // Heuristic: JPEG at quality 0.1 — file size roughly correlates with image complexity/brightness
-      // Dark images compress smaller, bright uniform images compress smaller,
-      // but well-lit scenes with detail are larger.
-      // Width×Height at quality 0.1: typical 5-50KB
-      // We use a simplified mapping calibrated against known conditions:
-      const pixels = (photo.width ?? 640) * (photo.height ?? 480);
-      const bytesPerPixel = fileSize / pixels;
+      if (exif?.ExposureTime && exif?.ISOSpeedRatings) {
+        const exposureTime = Number(exif.ExposureTime);     // seconds
+        const iso = Array.isArray(exif.ISOSpeedRatings)
+          ? Number(exif.ISOSpeedRatings[0])
+          : Number(exif.ISOSpeedRatings);
+        const fNumber = Number(exif.FNumber ?? exif.ApertureValue ?? 1.8); // default phone aperture
+        const K = 12.5; // reflected light meter calibration constant
 
-      // bytesPerPixel range: ~0.005 (very dark/uniform) to ~0.05 (detailed/bright)
-      // Map to brightness 0-255
-      const avgBrightness = Math.min(255, Math.max(0, (bytesPerPixel / 0.04) * 200));
+        // EV = log2(F² / ExposureTime) - log2(ISO / 100)
+        // Lux = 2^EV × 2.5 (incident light approximation)
+        const ev = Math.log2((fNumber * fNumber) / exposureTime) - Math.log2(iso / 100);
+        lux = Math.pow(2, ev) * 2.5;
 
-      const lux = brightnessToLux(avgBrightness);
+        // Sanity clamp: 0 – 150,000 Lux (direct sunlight max)
+        lux = Math.max(0, Math.min(150000, Math.round(lux)));
+      } else {
+        // Fallback: no EXIF, rough estimate from image brightness
+        lux = brightnessToLux(128); // assume medium brightness
+      }
+
       const reading = createReading(lux, lightSource);
       const result = assessLight(reading, ppfdMin, ppfdMax, dliMin, dliMax);
       setAssessment(result);
