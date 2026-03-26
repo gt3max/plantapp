@@ -173,7 +173,7 @@ export function LightMeterModal({
                     color={lightSource === src ? '#fff' : Colors.textSecondary}
                   />
                   <Text style={[styles.sourceBtnText, lightSource === src && styles.sourceBtnTextActive]}>
-                    {src === 'sunlight' ? 'Sun' : src === 'led' ? 'LED' : 'Mixed'}
+                    {src === 'sunlight' ? 'Window' : src === 'led' ? 'Lamp' : 'Both'}
                   </Text>
                 </TouchableOpacity>
               ))}
@@ -294,7 +294,7 @@ function ResultView({
           <Text style={styles.detailLabel}>DLI (12h)</Text>
         </View>
         <View style={styles.detailItem}>
-          <Text style={styles.detailValue}>{reading.source === 'sunlight' ? 'Sun' : reading.source === 'led' ? 'LED' : 'Mixed'}</Text>
+          <Text style={styles.detailValue}>{reading.source === 'sunlight' ? 'Window' : reading.source === 'led' ? 'Lamp' : 'Both'}</Text>
           <Text style={styles.detailLabel}>Source</Text>
         </View>
       </View>

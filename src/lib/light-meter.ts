@@ -30,9 +30,9 @@ export interface LightAssessment {
 // ─── Conversion ──────────────────────────────────────────────────────
 
 const LUX_TO_PPFD: Record<LightSource, number> = {
-  sunlight: 0.018,
-  led: 0.012,
-  mixed: 0.015, // average for typical indoor with window + LED
+  sunlight: 0.018,  // natural daylight through window
+  led: 0.015,       // average lamp (LED=0.012, incandescent=0.017, fluorescent=0.014)
+  mixed: 0.016,     // window + lamp combined
 };
 
 const DEFAULT_PHOTOPERIOD_HOURS = 12;
