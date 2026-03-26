@@ -22,6 +22,7 @@ import { usePlantsWithDevices } from '../../src/features/plants/api/plants-api';
 import { usePlantDBDetail } from '../../src/features/plants/api/plant-db-api';
 import { dbCareToPresetCare, getCommonName } from '../../src/lib/plant-db-adapter';
 import { useLocationData, getOutdoorMonths, formatMonthRange, getSeasonCoefficients } from '../../src/lib/geolocation';
+import { LightMeterModal } from '../../src/components/LightMeterModal';
 import type { PresetCare } from '../../src/constants/presets';
 
 // ─── PlantVM ─────────────────────────────────────────────────────────
@@ -410,6 +411,7 @@ export default function PlantDetailScreen() {
   const [showPropGuide, setShowPropGuide] = useState(false);
   const [showHarvestGuide, setShowHarvestGuide] = useState(false);
   const [showCompanionGuide, setShowCompanionGuide] = useState(false);
+  const [showLightMeter, setShowLightMeter] = useState(false);
   const isAutoScrolling = useRef(false);
 
   const onContainerLayout = useCallback((e: LayoutChangeEvent) => {
@@ -672,6 +674,10 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Light" />
             <LightLevelIndicator lightText={care.light} />
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
+            <TouchableOpacity onPress={() => setShowLightMeter(true)} style={styles.measureLightBtn}>
+              <Ionicons name="flashlight-outline" size={18} color="#fff" />
+              <Text style={styles.measureLightText}>Measure light</Text>
+            </TouchableOpacity>
             <TouchableOpacity onPress={() => setShowLightGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Understanding light needs</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -1595,6 +1601,17 @@ export default function PlantDetailScreen() {
           </ScrollView>
         </View>
       </Modal>
+
+      {/* ═══ LIGHT METER ═══ */}
+      <LightMeterModal
+        visible={showLightMeter}
+        onClose={() => setShowLightMeter(false)}
+        plantName={title}
+        ppfdMin={care.ppfd_min}
+        ppfdMax={care.ppfd_max}
+        dliMin={care.dli_min}
+        dliMax={care.dli_max}
+      />
     </>
   );
 }
