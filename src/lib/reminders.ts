@@ -7,13 +7,7 @@ function getNotifications() {
   return require('expo-notifications') as typeof import('expo-notifications');
 }
 
-// ---------------------------------------------------------------------------
-// Season coefficients (Jan=0 … Dec=11)
-// Multiplier for summer-base watering interval → longer in winter, same in summer
-// ---------------------------------------------------------------------------
-const SEASON_COEFFICIENTS: readonly number[] = [
-  3.0, 2.8, 2.1, 1.6, 1.2, 1.0, 1.0, 1.0, 1.2, 1.6, 2.1, 2.8,
-] as const;
+import { getSeasonCoefficients } from './geolocation';
 
 const STORAGE_KEY = 'plantapp:watering_reminders';
 
@@ -45,11 +39,13 @@ async function saveStore(store: ReminderStore): Promise<void> {
 /**
  * Returns the adjusted watering interval (in days) for the current month.
  * baseDays is the summer frequency; we multiply by the seasonal coefficient.
+ * Hemisphere-aware: southern hemisphere shifts seasons by 6 months.
  */
 function getSeasonalDays(baseDays: number): number {
   const month = new Date().getMonth(); // 0-11
-  const coeff = SEASON_COEFFICIENTS[month];
-  return Math.round(baseDays * coeff);
+  // TODO: pass actual latitude when reminders support location
+  const coeffs = getSeasonCoefficients(null);
+  return Math.round(baseDays * coeffs[month]);
 }
 
 // ---------------------------------------------------------------------------

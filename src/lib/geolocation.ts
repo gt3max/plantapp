@@ -24,6 +24,33 @@ interface OutdoorMonths {
   inGround: string[];
 }
 
+// ─── Season coefficients (hemisphere-aware) ─────────────────────────
+
+// Northern hemisphere: Jan=winter(3.0) → Jun-Aug=summer(1.0) → Dec=winter(2.8)
+const SEASON_COEFFS_NORTH = [3.0, 2.8, 2.1, 1.6, 1.2, 1.0, 1.0, 1.0, 1.2, 1.6, 2.1, 2.8];
+
+/**
+ * Returns 12 seasonal watering coefficients adjusted for hemisphere.
+ * Southern hemisphere (latitude < 0) shifts by 6 months — their summer is our winter.
+ * Multiplier: 1.0 = summer frequency, 3.0 = deep winter (water rarely).
+ */
+export function getSeasonCoefficients(latitude: number | null): readonly number[] {
+  if (latitude != null && latitude < 0) {
+    // Southern hemisphere: shift 6 months
+    return [...SEASON_COEFFS_NORTH.slice(6), ...SEASON_COEFFS_NORTH.slice(0, 6)];
+  }
+  return SEASON_COEFFS_NORTH;
+}
+
+/**
+ * Returns the adjusted watering interval (in days) for the current month.
+ */
+export function getSeasonalWateringDays(baseDays: number, latitude: number | null): number {
+  const month = new Date().getMonth();
+  const coeffs = getSeasonCoefficients(latitude);
+  return Math.round(baseDays * coeffs[month]);
+}
+
 // ─── Constants ───────────────────────────────────────────────────────
 
 const MONTH_NAMES = [

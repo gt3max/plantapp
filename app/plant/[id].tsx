@@ -21,7 +21,7 @@ import { PRESET_CARE } from '../../src/constants/presets';
 import { usePlantsWithDevices } from '../../src/features/plants/api/plants-api';
 import { usePlantDBDetail } from '../../src/features/plants/api/plant-db-api';
 import { dbCareToPresetCare, getCommonName } from '../../src/lib/plant-db-adapter';
-import { useLocationData, getOutdoorMonths, formatMonthRange } from '../../src/lib/geolocation';
+import { useLocationData, getOutdoorMonths, formatMonthRange, getSeasonCoefficients } from '../../src/lib/geolocation';
 import type { PresetCare } from '../../src/constants/presets';
 
 // ─── PlantVM ─────────────────────────────────────────────────────────
@@ -525,7 +525,8 @@ export default function PlantDetailScreen() {
   const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   const currentMonth = monthNames[monthIndex];
   // Jan=3.0 (deep dormancy) → Jun-Aug=1.0 (active growth) → Dec=2.8
-  const seasonCoeff = [3.0, 2.8, 2.1, 1.6, 1.2, 1.0, 1.0, 1.0, 1.2, 1.6, 2.1, 2.8][monthIndex];
+  const seasonCoeffs = getSeasonCoefficients(locationData.latitude || null);
+  const seasonCoeff = seasonCoeffs[monthIndex];
   const baseDays = plant.watering_freq_summer_days || 7;
   const currentWateringDays = Math.round(baseDays * seasonCoeff);
 
@@ -926,7 +927,7 @@ export default function PlantDetailScreen() {
             <Text style={styles.modalPlantName}>{title}</Text>
 
             <Text style={styles.guideSectionTitle}>Watering frequency</Text>
-            <WateringChart baseDays={baseDays} currentMonth={monthIndex} />
+            <WateringChart baseDays={baseDays} currentMonth={monthIndex} latitude={locationData.latitude || null} />
 
             <Text style={styles.guideSectionTitle}>How to water {title}</Text>
             <Text style={styles.bodyText}>{plant.watering_method || care.watering}</Text>
@@ -1798,13 +1799,13 @@ function HumidityMethodsAccordion() {
 
 // ─── Watering frequency chart ────────────────────────────────────────
 
-const SEASON_COEFFS = [3.0, 2.8, 2.1, 1.6, 1.2, 1.0, 1.0, 1.0, 1.2, 1.6, 2.1, 2.8];
 const MONTH_LABELS = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
 
-function WateringChart({ baseDays, currentMonth }: { baseDays: number; currentMonth: number }) {
+function WateringChart({ baseDays, currentMonth, latitude }: { baseDays: number; currentMonth: number; latitude: number | null }) {
   const [selectedMonth, setSelectedMonth] = useState<number | null>(null);
 
-  const daysPerMonth = SEASON_COEFFS.map((c) => Math.round(baseDays * c));
+  const coeffs = getSeasonCoefficients(latitude);
+  const daysPerMonth = coeffs.map((c) => Math.round(baseDays * c));
   const maxDays = Math.max(...daysPerMonth);
 
   const activeMonth = selectedMonth ?? currentMonth;
