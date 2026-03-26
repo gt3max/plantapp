@@ -34,6 +34,24 @@ export interface PlantWithDevice extends PlantEntry {
 
 // --- Identify API types (match backend POST /plants/identify response) ---
 
+export interface SerpApiVerification {
+  verified: boolean;
+  kg_title?: string;
+  kg_description?: string;
+  kg_image?: string;
+}
+
+export interface PerenualEnrichment {
+  growth_rate?: string;
+  care_level?: string;
+  soil?: string[];
+  pruning_month?: string[];
+  propagation?: string[];
+  pest_susceptibility?: string[];
+  indoor?: boolean;
+  description?: string;
+}
+
 export interface IdentifyResult {
   id: string;
   scientific: string;
@@ -44,6 +62,8 @@ export interface IdentifyResult {
   images: string[];           // PlantNet reference photo URLs
   care: IdentifyCareSummary;
   toxicity: ToxicityInfo | null;
+  serpapi_verification?: SerpApiVerification;
+  enrichment?: PerenualEnrichment;
 }
 
 export interface IdentifyCareSummary {

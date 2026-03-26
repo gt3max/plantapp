@@ -59,8 +59,13 @@ function ResultCard({
             )}
             <Text style={styles.resultFamily}>{result.family}</Text>
           </View>
-          <View style={styles.scoreBadge}>
-            <Text style={styles.scoreText}>{Math.round(result.score)}%</Text>
+          <View style={styles.scoreCol}>
+            <View style={styles.scoreBadge}>
+              <Text style={styles.scoreText}>{Math.round(result.score)}%</Text>
+            </View>
+            {result.serpapi_verification?.verified && (
+              <Ionicons name="checkmark-circle" size={14} color={Colors.success} style={{ marginTop: 2 }} />
+            )}
           </View>
         </View>
 
@@ -83,6 +88,24 @@ function ResultCard({
               <>
                 <Text style={styles.expandedLabel}>Tips</Text>
                 <Text style={styles.expandedValue}>{result.care.tips}</Text>
+              </>
+            ) : null}
+            {result.enrichment?.growth_rate ? (
+              <>
+                <Text style={styles.expandedLabel}>Growth rate</Text>
+                <Text style={styles.expandedValue}>{result.enrichment.growth_rate}</Text>
+              </>
+            ) : null}
+            {result.enrichment?.care_level ? (
+              <>
+                <Text style={styles.expandedLabel}>Difficulty</Text>
+                <Text style={styles.expandedValue}>{result.enrichment.care_level}</Text>
+              </>
+            ) : null}
+            {result.enrichment?.pest_susceptibility && result.enrichment.pest_susceptibility.length > 0 ? (
+              <>
+                <Text style={styles.expandedLabel}>Common pests</Text>
+                <Text style={styles.expandedValue}>{result.enrichment.pest_susceptibility.join(', ')}</Text>
               </>
             ) : null}
             <Button
@@ -418,6 +441,7 @@ const styles = StyleSheet.create({
   resultScientific: { fontSize: FontSize.md, fontWeight: '600', color: Colors.text, fontStyle: 'italic' },
   resultCommon: { fontSize: FontSize.sm, color: Colors.textSecondary },
   resultFamily: { fontSize: FontSize.xs, color: Colors.textSecondary, marginTop: 2 },
+  scoreCol: { alignItems: 'center' },
   scoreBadge: { backgroundColor: Colors.accent, borderRadius: BorderRadius.sm, paddingHorizontal: Spacing.sm, paddingVertical: 2 },
   scoreText: { fontSize: FontSize.sm, fontWeight: '700', color: '#fff' },
 
