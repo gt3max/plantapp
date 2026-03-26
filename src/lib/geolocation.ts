@@ -51,6 +51,14 @@ export function getSeasonalWateringDays(baseDays: number, latitude: number | nul
   return Math.round(baseDays * coeffs[month]);
 }
 
+/**
+ * Returns the cached latitude from the last geolocation request, or null.
+ * Safe to call from non-React context (reminders, background tasks).
+ */
+export function getCachedLatitude(): number | null {
+  return cachedData?.latitude ?? null;
+}
+
 // ─── Constants ───────────────────────────────────────────────────────
 
 const MONTH_NAMES = [

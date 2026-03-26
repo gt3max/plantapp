@@ -7,7 +7,7 @@ function getNotifications() {
   return require('expo-notifications') as typeof import('expo-notifications');
 }
 
-import { getSeasonCoefficients } from './geolocation';
+import { getSeasonCoefficients, getCachedLatitude } from './geolocation';
 
 const STORAGE_KEY = 'plantapp:watering_reminders';
 
@@ -19,6 +19,7 @@ interface ReminderRecord {
   plantId: string;
   plantName: string;
   baseDays: number;
+  latitude: number | null;
   scheduledAt: string; // ISO date when the reminder was scheduled
 }
 
@@ -38,13 +39,11 @@ async function saveStore(store: ReminderStore): Promise<void> {
 
 /**
  * Returns the adjusted watering interval (in days) for the current month.
- * baseDays is the summer frequency; we multiply by the seasonal coefficient.
  * Hemisphere-aware: southern hemisphere shifts seasons by 6 months.
  */
-function getSeasonalDays(baseDays: number): number {
-  const month = new Date().getMonth(); // 0-11
-  // TODO: pass actual latitude when reminders support location
-  const coeffs = getSeasonCoefficients(null);
+function getSeasonalDays(baseDays: number, latitude: number | null): number {
+  const month = new Date().getMonth();
+  const coeffs = getSeasonCoefficients(latitude);
   return Math.round(baseDays * coeffs[month]);
 }
 
@@ -97,6 +96,7 @@ export function configureNotifications(): void {
 
 /**
  * Schedule a local notification for watering a plant.
+ * Uses cached latitude for hemisphere-aware seasonal adjustment.
  */
 export async function scheduleWateringReminder(
   plantId: string,
@@ -108,7 +108,8 @@ export async function scheduleWateringReminder(
 
   await cancelReminder(plantId);
 
-  const days = getSeasonalDays(baseDays);
+  const latitude = getCachedLatitude();
+  const days = getSeasonalDays(baseDays, latitude);
 
   const notificationId = await Notifications.scheduleNotificationAsync({
     content: {
@@ -130,6 +131,7 @@ export async function scheduleWateringReminder(
     plantId,
     plantName,
     baseDays,
+    latitude,
     scheduledAt: new Date().toISOString(),
   };
   await saveStore(store);
@@ -153,6 +155,7 @@ export async function cancelReminder(plantId: string): Promise<void> {
 
 /**
  * Reschedule all stored reminders (e.g. after app restart or season change).
+ * Uses stored latitude per plant, falling back to current cached latitude.
  */
 export async function rescheduleAll(): Promise<void> {
   if (Platform.OS === 'web') return;
@@ -160,6 +163,7 @@ export async function rescheduleAll(): Promise<void> {
 
   const store = await loadStore();
   const entries = Object.values(store);
+  const currentLatitude = getCachedLatitude();
 
   for (const record of entries) {
     await Notifications.cancelScheduledNotificationAsync(record.notificationId).catch(() => {
@@ -169,7 +173,9 @@ export async function rescheduleAll(): Promise<void> {
 
   const newStore: ReminderStore = {};
   for (const record of entries) {
-    const days = getSeasonalDays(record.baseDays);
+    // Use stored latitude (from when plant was saved), fall back to current
+    const lat = record.latitude ?? currentLatitude;
+    const days = getSeasonalDays(record.baseDays, lat);
 
     const notificationId = await Notifications.scheduleNotificationAsync({
       content: {
@@ -188,6 +194,7 @@ export async function rescheduleAll(): Promise<void> {
     newStore[record.plantId] = {
       ...record,
       notificationId,
+      latitude: lat,
       scheduledAt: new Date().toISOString(),
     };
   }
