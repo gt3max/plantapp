@@ -11,6 +11,7 @@ import {
   NativeSyntheticEvent,
   NativeScrollEvent,
   Animated,
+  Alert,
 } from 'react-native';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -23,6 +24,7 @@ import { usePlantDBDetail } from '../../src/features/plants/api/plant-db-api';
 import { dbCareToPresetCare, getCommonName } from '../../src/lib/plant-db-adapter';
 import { useLocationData, getOutdoorMonths, formatMonthRange, getSeasonCoefficients } from '../../src/lib/geolocation';
 import { LightMeterModal } from '../../src/components/LightMeterModal';
+import { useSavePlant } from '../../src/features/plants/api/identify-api';
 import type { PresetCare } from '../../src/constants/presets';
 
 // ─── PlantVM ─────────────────────────────────────────────────────────
@@ -101,6 +103,7 @@ interface PlantVM {
   stop_pct: number;
   soil_ph_min?: number;
   soil_ph_max?: number;
+  isInCollection: boolean;
 }
 
 function usePlantVM(id: string | undefined): PlantVM | null {
@@ -178,6 +181,7 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         temp_winter_high_c: lib?.temp_winter_high_c ?? lib?.temp_opt_high_c ?? 22,
         temp_warning: lib?.temp_warning ?? '',
         care,
+        isInCollection: true,
         hasDevice: userPlant.active && !!userPlant.device_id,
         device_id: userPlant.device_id,
         device_online: userPlant.device_online,
@@ -260,6 +264,7 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         temp_winter_high_c: lib?.temp_winter_high_c ?? lib?.temp_opt_high_c ?? 22,
         temp_warning: lib?.temp_warning ?? '',
         care,
+        isInCollection: false,
         hasDevice: false,
         start_pct: care.start_pct,
         stop_pct: care.stop_pct,
@@ -335,6 +340,7 @@ function usePlantVM(id: string | undefined): PlantVM | null {
         temp_winter_high_c: lib.temp_winter_high_c ?? lib.temp_opt_high_c ?? 22,
         temp_warning: lib.temp_warning ?? '',
         care,
+        isInCollection: false,
         hasDevice: false,
         start_pct: care.start_pct,
         stop_pct: care.stop_pct,
@@ -390,6 +396,39 @@ export default function PlantDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
   const plant = usePlantVM(id);
+  const saveMutation = useSavePlant();
+
+  const handleAddToCollection = useCallback(() => {
+    if (!plant) return;
+    saveMutation.mutate(
+      {
+        input: {
+          device_id: 'user-collection',
+          plant: {
+            scientific: plant.scientific,
+            common_name: plant.common_name,
+            family: plant.family,
+            preset: plant.preset,
+            start_pct: plant.start_pct,
+            stop_pct: plant.stop_pct,
+            image_url: plant.image_url,
+            poisonous_to_pets: plant.poisonous_to_pets,
+            poisonous_to_humans: plant.poisonous_to_humans,
+            toxicity_note: plant.toxicity_note,
+          },
+        },
+        wateringFreqDays: plant.watering_freq_summer_days,
+      },
+      {
+        onSuccess: () => {
+          Alert.alert('Added', `${plant.common_name || plant.scientific} added to My Plants`);
+        },
+        onError: (err) => {
+          Alert.alert('Error', err instanceof Error ? err.message : 'Failed to save plant');
+        },
+      },
+    );
+  }, [plant, saveMutation]);
 
   const mainScrollRef = useRef<ScrollView>(null);
   const tabScrollRef = useRef<ScrollView>(null);
@@ -919,6 +958,23 @@ export default function PlantDetailScreen() {
 
         </View>
       </ScrollView>
+
+      {/* ═══ ADD TO MY PLANTS (floating button, only when not in collection) ═══ */}
+      {!plant.isInCollection && (
+        <View style={styles.addToCollectionBar}>
+          <TouchableOpacity
+            onPress={handleAddToCollection}
+            style={styles.addToCollectionBtn}
+            disabled={saveMutation.isPending}
+            activeOpacity={0.8}
+          >
+            <Ionicons name="add-circle-outline" size={20} color="#fff" />
+            <Text style={styles.addToCollectionText}>
+              {saveMutation.isPending ? 'Saving...' : 'Add to My Plants'}
+            </Text>
+          </TouchableOpacity>
+        </View>
+      )}
 
       {/* ═══ WATERING GUIDE MODAL ═══ */}
       <Modal visible={showWateringGuide} animationType="slide" presentationStyle="pageSheet">
@@ -2320,7 +2376,7 @@ const SECTION_ACCENT: Record<string, string> = {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: Colors.background },
-  scroll: { paddingBottom: 60 },
+  scroll: { paddingBottom: 100 },
   centered: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: Spacing.xl },
   notFoundText: { fontSize: FontSize.lg, color: Colors.textSecondary, marginTop: Spacing.md },
   backLink: { fontSize: FontSize.md, color: Colors.primary, marginTop: Spacing.lg },
@@ -2449,6 +2505,11 @@ const styles = StyleSheet.create({
   liveDot: { width: 8, height: 8, borderRadius: 4, backgroundColor: Colors.success },
   liveLabel: { fontSize: FontSize.xs, color: Colors.textSecondary, flex: 1 },
   liveValue: { fontSize: FontSize.lg, fontWeight: '700', color: Colors.text },
+
+  // Add to collection floating bar
+  addToCollectionBar: { position: 'absolute', bottom: 0, left: 0, right: 0, padding: Spacing.md, paddingBottom: Spacing.xxl, backgroundColor: Colors.background },
+  addToCollectionBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.sm, backgroundColor: Colors.primary, borderRadius: BorderRadius.lg, paddingVertical: Spacing.md, shadowColor: '#000', shadowOpacity: 0.2, shadowRadius: 8, shadowOffset: { width: 0, height: -2 }, elevation: 5 },
+  addToCollectionText: { fontSize: FontSize.md, fontWeight: '700', color: '#fff' },
 
   // Expandable text
   readMoreBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, marginTop: 4 },
