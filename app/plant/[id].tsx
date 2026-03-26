@@ -1941,55 +1941,53 @@ function WateringMethodsAccordion({ recommendedMethod }: { recommendedMethod?: s
 // ─── Reusable components ─────────────────────────────────────────────
 
 function WaterDrops({ count }: { count: number }) {
+  const c = Colors.moisture;
   if (count === 1) {
-    return <Ionicons name="water" size={18} color={Colors.moisture} />;
+    return <Ionicons name="water" size={22} color={c} />;
   }
   if (count === 2) {
     return (
-      <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-        <Ionicons name="water" size={14} color={Colors.moisture} style={{ marginRight: -3 }} />
-        <Ionicons name="water" size={14} color={Colors.moisture} />
+      <View style={{ flexDirection: 'row', alignItems: 'flex-end' }}>
+        <Ionicons name="water" size={18} color={c} style={{ marginRight: -4, opacity: 0.7 }} />
+        <Ionicons name="water" size={22} color={c} />
       </View>
     );
   }
-  // 3 drops: pyramid — 1 on top, 2 on bottom, overlapping
   return (
     <View style={{ alignItems: 'center' }}>
-      <Ionicons name="water" size={12} color={Colors.moisture} style={{ marginBottom: -4 }} />
+      <Ionicons name="water" size={16} color={c} style={{ marginBottom: -5 }} />
       <View style={{ flexDirection: 'row' }}>
-        <Ionicons name="water" size={12} color={Colors.moisture} style={{ marginRight: -2 }} />
-        <Ionicons name="water" size={12} color={Colors.moisture} />
+        <Ionicons name="water" size={16} color={c} style={{ marginRight: -3, opacity: 0.7 }} />
+        <Ionicons name="water" size={16} color={c} />
       </View>
     </View>
   );
 }
 
 function RulerIcon({ color }: { color: string }) {
-  // Vertical ruler with L-shaped base and tick marks
-  const tick = (w: number) => (
-    <View style={{ height: 1.5, width: w, backgroundColor: color, marginBottom: 3 }} />
-  );
   return (
-    <View style={{ flexDirection: 'row', alignItems: 'flex-end', height: 22, width: 18 }}>
+    <View style={{ flexDirection: 'row', alignItems: 'flex-end', height: 24, width: 20 }}>
       {/* Vertical bar */}
-      <View style={{ width: 2, height: 22, backgroundColor: color, marginRight: 1 }} />
+      <View style={{ width: 2.5, height: 24, backgroundColor: color, borderRadius: 1 }} />
+      {/* Horizontal base */}
+      <View style={{ position: 'absolute', bottom: 0, left: 0, width: 14, height: 2.5, backgroundColor: color, borderRadius: 1 }} />
       {/* Ticks */}
-      <View style={{ justifyContent: 'space-between', height: 22, paddingVertical: 1 }}>
-        {tick(8)}
-        {tick(5)}
-        {tick(8)}
-        {tick(5)}
-        {tick(8)}
+      <View style={{ marginLeft: 1, justifyContent: 'space-between', height: 24, paddingVertical: 2 }}>
+        <View style={{ height: 1.5, width: 10, backgroundColor: color, borderRadius: 1 }} />
+        <View style={{ height: 1.5, width: 6, backgroundColor: color, borderRadius: 1, opacity: 0.6 }} />
+        <View style={{ height: 1.5, width: 10, backgroundColor: color, borderRadius: 1 }} />
+        <View style={{ height: 1.5, width: 6, backgroundColor: color, borderRadius: 1, opacity: 0.6 }} />
+        <View style={{ height: 1.5, width: 10, backgroundColor: color, borderRadius: 1 }} />
       </View>
     </View>
   );
 }
 
-function DifficultyStars({ count, color, size = 12 }: { count: number; color: string; size?: number }) {
+function DifficultyStars({ count, color, size = 14 }: { count: number; color: string; size?: number }) {
   return (
     <View style={styles.starsRow}>
-      {Array.from({ length: count }).map((_, i) => (
-        <Ionicons key={i} name="star" size={size} color={color} />
+      {Array.from({ length: 3 }).map((_, i) => (
+        <Ionicons key={i} name="star" size={size} color={i < count ? color : `${color}30`} />
       ))}
     </View>
   );
@@ -2005,8 +2003,8 @@ function RoundBadge({ icon, label, bg, color, onPress, extraContent }: {
 }) {
   const content = (
     <View style={styles.badge}>
-      <View style={[styles.badgeCircle, { backgroundColor: bg }]}>
-        {extraContent ?? <Ionicons name={icon} size={20} color={color} />}
+      <View style={[styles.badgeCircle, { backgroundColor: bg, shadowColor: color, shadowOpacity: 0.15, shadowRadius: 4, shadowOffset: { width: 0, height: 2 }, elevation: 3 }]}>
+        {extraContent ?? <Ionicons name={icon} size={22} color={color} />}
       </View>
       <Text style={[styles.badgeLabel, { color }]} numberOfLines={1}>{label}</Text>
     </View>
@@ -2328,9 +2326,9 @@ const styles = StyleSheet.create({
 
   // Round badges
   badgeRow: { flexDirection: 'row', paddingHorizontal: Spacing.lg, gap: Spacing.md, marginBottom: Spacing.sm, justifyContent: 'center' },
-  badge: { alignItems: 'center', width: 58 },
-  badgeCircle: { width: 46, height: 46, borderRadius: 23, alignItems: 'center', justifyContent: 'center', marginBottom: 4 },
-  badgeLabel: { fontSize: 11, fontWeight: '600', textAlign: 'center' },
+  badge: { alignItems: 'center', width: 62 },
+  badgeCircle: { width: 50, height: 50, borderRadius: 25, alignItems: 'center', justifyContent: 'center', marginBottom: 4 },
+  badgeLabel: { fontSize: 11, fontWeight: '700', textAlign: 'center' },
   dropsRow: { flexDirection: 'row', gap: 1 },
   starsRow: { flexDirection: 'row', gap: 1 },
 
