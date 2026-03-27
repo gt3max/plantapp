@@ -10,6 +10,7 @@ import {
   requestNotificationPermissions,
   rescheduleAll,
 } from '../src/lib/reminders';
+import { useSettingsStore } from '../src/stores/settings-store';
 
 export { ErrorBoundary } from 'expo-router';
 
@@ -49,9 +50,10 @@ function AuthGuard({ children }: { children: React.ReactNode }) {
 
 export default function RootLayout() {
   const initialize = useAuthStore((s) => s.initialize);
+  const loadSettings = useSettingsStore((s) => s.load);
 
   useEffect(() => {
-    initialize().finally(() => {
+    Promise.all([initialize(), loadSettings()]).finally(() => {
       SplashScreen.hideAsync();
     });
 
