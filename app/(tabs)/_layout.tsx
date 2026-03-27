@@ -52,7 +52,7 @@ export default function TabLayout() {
         options={{
           title: 'AI Doctor',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="medical-outline" size={size} color={color} />
+            <Ionicons name="medkit-outline" size={size} color={color} />
           ),
         }}
       />

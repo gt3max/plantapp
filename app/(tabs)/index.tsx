@@ -398,25 +398,7 @@ export default function MyPlantsScreen() {
           </View>
         )}
 
-        {/* === COMPACT IDENTIFY BUTTONS (only in idle + plants tab) === */}
-        {screenState === 'idle' && activeTab === 'plants' && (
-          <View style={styles.identifyRow}>
-            <Button
-              title="Identify"
-              onPress={() => handleIdentify('camera')}
-              variant="primary"
-              style={styles.identifyBtn}
-              icon={<Ionicons name="camera-outline" size={18} color="#fff" />}
-            />
-            <Button
-              title="Gallery"
-              onPress={() => handleIdentify('gallery')}
-              variant="outline"
-              style={styles.identifyBtn}
-              icon={<Ionicons name="image-outline" size={18} color={Colors.primary} />}
-            />
-          </View>
-        )}
+        {/* Identify buttons moved below plant list */}
 
         {screenState === 'loading' && (
           <View style={styles.centerSection}>
@@ -500,6 +482,24 @@ export default function MyPlantsScreen() {
                 <Text style={styles.emptyText}>Identify a plant by photo to get started</Text>
               </Card>
             )}
+
+            {/* === IDENTIFY BUTTONS (below plant list) === */}
+            <View style={styles.identifyColumn}>
+              <Button
+                title="Identify plant"
+                onPress={() => handleIdentify('camera')}
+                variant="primary"
+                style={styles.identifyBtnFull}
+                icon={<Ionicons name="camera-outline" size={18} color="#fff" />}
+              />
+              <Button
+                title="Choose from gallery"
+                onPress={() => handleIdentify('gallery')}
+                variant="outline"
+                style={styles.identifyBtnFull}
+                icon={<Ionicons name="image-outline" size={18} color={Colors.primary} />}
+              />
+            </View>
           </>
         )}
 
@@ -611,13 +611,12 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: Colors.background },
   scroll: { padding: Spacing.lg, paddingBottom: 40 },
 
-  // Compact identify row (replaces big header)
-  identifyRow: {
-    flexDirection: 'row',
-    gap: Spacing.md,
-    marginBottom: Spacing.lg,
+  // Identify buttons (stacked vertically, below plant list)
+  identifyColumn: {
+    marginTop: Spacing.xl,
+    gap: Spacing.sm,
   },
-  identifyBtn: { flex: 1 },
+  identifyBtnFull: { width: '100%' },
 
   // Loading / Error
   centerSection: { alignItems: 'center', paddingVertical: Spacing.xxl },
