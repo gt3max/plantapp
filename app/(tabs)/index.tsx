@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import {
   View,
   Text,
@@ -8,6 +8,8 @@ import {
   ActivityIndicator,
   Alert,
   RefreshControl,
+  Modal,
+  Dimensions,
 } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -24,6 +26,7 @@ import { usePlantsWithDevices, useDeletePlant } from '../../src/features/plants/
 import { pickImageFromCamera, pickImageFromGallery } from '../../src/lib/image-utils';
 import type { PickedImage } from '../../src/lib/image-utils';
 import type { IdentifyResult, PlantWithDevice } from '../../src/types/plant';
+import { getJournalEntries, deleteJournalEntry, type JournalEntry } from '../../src/lib/plant-journal';
 
 type ScreenState = 'idle' | 'loading' | 'results' | 'error';
 
@@ -178,6 +181,10 @@ export default function MyPlantsScreen() {
   const [results, setResults] = useState<IdentifyResult[]>([]);
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [errorMsg, setErrorMsg] = useState('');
+  const [activeTab, setActiveTab] = useState<'plants' | 'journal'>('plants');
+  const [journalEntries, setJournalEntries] = useState<JournalEntry[]>([]);
+  const [journalLoading, setJournalLoading] = useState(false);
+  const [selectedEntry, setSelectedEntry] = useState<JournalEntry | null>(null);
   const identifyMutation = useIdentifyPlant();
   const saveMutation = useSavePlant();
   const deleteMutation = useDeletePlant();
@@ -293,6 +300,78 @@ export default function MyPlantsScreen() {
     );
   }, [deleteMutation]);
 
+  // Load journal entries when journal tab is active
+  const loadJournal = useCallback(async () => {
+    setJournalLoading(true);
+    try {
+      const entries = await getJournalEntries();
+      setJournalEntries(entries);
+    } catch {
+      // silently fail — journal is non-critical
+    } finally {
+      setJournalLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (activeTab === 'journal') {
+      loadJournal();
+    }
+  }, [activeTab, loadJournal]);
+
+  // Build a plantId→name map for journal display
+  const plantNameMap = useCallback((): Record<string, string> => {
+    const map: Record<string, string> = {};
+    for (const p of plants) {
+      map[p.plant_id] = p.common_name || p.scientific || 'Unknown';
+    }
+    return map;
+  }, [plants]);
+
+  // Group journal entries by month/year
+  const groupedJournal = useCallback((): Array<{ label: string; entries: JournalEntry[] }> => {
+    const groups: Map<string, JournalEntry[]> = new Map();
+    for (const entry of journalEntries) {
+      const d = new Date(entry.date);
+      const key = `${d.getFullYear()}-${String(d.getMonth()).padStart(2, '0')}`;
+      const label = d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+      if (!groups.has(key)) {
+        groups.set(key, []);
+      }
+      groups.get(key)!.push(entry);
+    }
+    return Array.from(groups.entries()).map(([, entries]) => {
+      const d = new Date(entries[0].date);
+      return {
+        label: d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+        entries,
+      };
+    });
+  }, [journalEntries]);
+
+  const handleDeleteJournalEntry = useCallback((entry: JournalEntry) => {
+    const names = plantNameMap();
+    Alert.alert(
+      'Delete photo?',
+      `Remove this photo of ${names[entry.plantId] ?? 'Unknown'}?`,
+      [
+        { text: 'Cancel', style: 'cancel' },
+        {
+          text: 'Delete',
+          style: 'destructive',
+          onPress: async () => {
+            await deleteJournalEntry(entry.id);
+            setSelectedEntry(null);
+            loadJournal();
+          },
+        },
+      ],
+    );
+  }, [plantNameMap, loadJournal]);
+
+  const screenWidth = Dimensions.get('window').width;
+  const thumbSize = (screenWidth - Spacing.lg * 2 - Spacing.sm * 2) / 3;
+
   return (
     <SafeAreaView style={styles.container} edges={['bottom']}>
       <ScrollView
@@ -301,8 +380,26 @@ export default function MyPlantsScreen() {
           <RefreshControl refreshing={isRefetching} onRefresh={refetch} tintColor={Colors.primary} />
         }
       >
-        {/* === COMPACT IDENTIFY BUTTONS (always visible in idle) === */}
+        {/* === TAB SWITCHER (only in idle) === */}
         {screenState === 'idle' && (
+          <View style={styles.tabSwitcher}>
+            <TouchableOpacity
+              onPress={() => setActiveTab('plants')}
+              style={[styles.tabBtn, activeTab === 'plants' && styles.tabBtnActive]}
+            >
+              <Text style={[styles.tabBtnText, activeTab === 'plants' && styles.tabBtnTextActive]}>Plants</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => setActiveTab('journal')}
+              style={[styles.tabBtn, activeTab === 'journal' && styles.tabBtnActive]}
+            >
+              <Text style={[styles.tabBtnText, activeTab === 'journal' && styles.tabBtnTextActive]}>Journal</Text>
+            </TouchableOpacity>
+          </View>
+        )}
+
+        {/* === COMPACT IDENTIFY BUTTONS (only in idle + plants tab) === */}
+        {screenState === 'idle' && activeTab === 'plants' && (
           <View style={styles.identifyRow}>
             <Button
               title="Identify"
@@ -369,8 +466,8 @@ export default function MyPlantsScreen() {
           </View>
         )}
 
-        {/* === MY PLANTS SECTION (only in idle state) === */}
-        {screenState === 'idle' && (
+        {/* === MY PLANTS SECTION (only in idle state + plants tab) === */}
+        {screenState === 'idle' && activeTab === 'plants' && (
           <>
             {myPlants.length > 0 && (
               <>
@@ -405,6 +502,106 @@ export default function MyPlantsScreen() {
             )}
           </>
         )}
+
+        {/* === JOURNAL TAB (only in idle state + journal tab) === */}
+        {screenState === 'idle' && activeTab === 'journal' && (
+          <>
+            {journalLoading && (
+              <View style={styles.centerSection}>
+                <ActivityIndicator size="large" color={Colors.primary} />
+              </View>
+            )}
+
+            {!journalLoading && journalEntries.length === 0 && (
+              <Card style={styles.emptyCard}>
+                <Ionicons name="images-outline" size={40} color={Colors.accent} />
+                <Text style={styles.emptyTitle}>No photos yet</Text>
+                <Text style={styles.emptyText}>
+                  Open a plant and tap Add Photo to start your journal.
+                </Text>
+              </Card>
+            )}
+
+            {!journalLoading && journalEntries.length > 0 && (
+              <>
+                {groupedJournal().map((group) => (
+                  <View key={group.label}>
+                    <Text style={styles.sectionTitle}>{group.label}</Text>
+                    <View style={styles.journalGrid}>
+                      {group.entries.map((entry) => {
+                        const names = plantNameMap();
+                        return (
+                          <TouchableOpacity
+                            key={entry.id}
+                            activeOpacity={0.8}
+                            onPress={() => setSelectedEntry(entry)}
+                            style={[styles.journalThumb, { width: thumbSize, height: thumbSize }]}
+                          >
+                            <Image source={{ uri: entry.thumbnailUri }} style={styles.journalThumbImage} />
+                            <View style={styles.journalThumbBadge}>
+                              <Text style={styles.journalThumbName} numberOfLines={1}>
+                                {names[entry.plantId] ?? 'Unknown'}
+                              </Text>
+                            </View>
+                            <View style={styles.journalThumbDate}>
+                              <Text style={styles.journalThumbDateText}>
+                                {new Date(entry.date).getDate()}
+                              </Text>
+                            </View>
+                          </TouchableOpacity>
+                        );
+                      })}
+                    </View>
+                  </View>
+                ))}
+              </>
+            )}
+          </>
+        )}
+
+        {/* === JOURNAL PHOTO VIEWER MODAL === */}
+        <Modal
+          visible={selectedEntry !== null}
+          transparent
+          animationType="fade"
+          onRequestClose={() => setSelectedEntry(null)}
+        >
+          {selectedEntry && (
+            <View style={styles.modalOverlay}>
+              <View style={styles.modalContent}>
+                <Image source={{ uri: selectedEntry.uri }} style={styles.modalImage} />
+                <Text style={styles.modalPlantName}>
+                  {plantNameMap()[selectedEntry.plantId] ?? 'Unknown'}
+                </Text>
+                <Text style={styles.modalDate}>
+                  {new Date(selectedEntry.date).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </Text>
+                {selectedEntry.note ? (
+                  <Text style={styles.modalNote}>{selectedEntry.note}</Text>
+                ) : null}
+                <View style={styles.modalActions}>
+                  <TouchableOpacity
+                    onPress={() => handleDeleteJournalEntry(selectedEntry)}
+                    style={styles.modalDeleteBtn}
+                  >
+                    <Ionicons name="trash-outline" size={18} color={Colors.error} />
+                    <Text style={styles.modalDeleteText}>Delete</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    onPress={() => setSelectedEntry(null)}
+                    style={styles.modalCloseBtn}
+                  >
+                    <Text style={styles.modalCloseText}>Close</Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
+            </View>
+          )}
+        </Modal>
       </ScrollView>
     </SafeAreaView>
   );
@@ -471,4 +668,140 @@ const styles = StyleSheet.create({
   emptyCard: { alignItems: 'center', paddingVertical: Spacing.xxxl, marginTop: Spacing.lg },
   emptyTitle: { fontSize: FontSize.lg, fontWeight: '600', color: Colors.text, marginTop: Spacing.md, marginBottom: Spacing.sm },
   emptyText: { fontSize: FontSize.md, color: Colors.textSecondary, textAlign: 'center' },
+
+  // Tab switcher (segment control)
+  tabSwitcher: {
+    flexDirection: 'row',
+    backgroundColor: '#F3F4F6',
+    borderRadius: BorderRadius.sm,
+    padding: 2,
+    marginBottom: Spacing.lg,
+  },
+  tabBtn: {
+    flex: 1,
+    paddingVertical: Spacing.sm,
+    borderRadius: BorderRadius.sm - 1,
+    alignItems: 'center',
+  },
+  tabBtnActive: {
+    backgroundColor: Colors.surface,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    shadowOffset: { width: 0, height: 1 },
+    elevation: 2,
+  },
+  tabBtnText: { fontSize: FontSize.sm, color: Colors.textSecondary, fontWeight: '600' },
+  tabBtnTextActive: { color: Colors.text },
+
+  // Journal grid
+  journalGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: Spacing.sm,
+  },
+  journalThumb: {
+    borderRadius: BorderRadius.md,
+    overflow: 'hidden',
+    position: 'relative',
+  },
+  journalThumbImage: {
+    width: '100%',
+    height: '100%',
+  },
+  journalThumbBadge: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: 'rgba(0,0,0,0.55)',
+    paddingHorizontal: Spacing.xs,
+    paddingVertical: 2,
+  },
+  journalThumbName: {
+    fontSize: FontSize.xs,
+    color: '#fff',
+    fontWeight: '600',
+  },
+  journalThumbDate: {
+    position: 'absolute',
+    top: Spacing.xs,
+    right: Spacing.xs,
+    backgroundColor: 'rgba(0,0,0,0.45)',
+    borderRadius: BorderRadius.sm,
+    paddingHorizontal: Spacing.xs,
+    paddingVertical: 1,
+  },
+  journalThumbDateText: {
+    fontSize: FontSize.xs,
+    color: '#fff',
+    fontWeight: '600',
+  },
+
+  // Journal modal
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.85)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: Spacing.lg,
+  },
+  modalContent: {
+    backgroundColor: Colors.surface,
+    borderRadius: BorderRadius.lg,
+    overflow: 'hidden',
+    width: '100%',
+    maxWidth: 400,
+  },
+  modalImage: {
+    width: '100%',
+    aspectRatio: 1,
+  },
+  modalPlantName: {
+    fontSize: FontSize.lg,
+    fontWeight: '600',
+    color: Colors.text,
+    paddingHorizontal: Spacing.lg,
+    paddingTop: Spacing.md,
+  },
+  modalDate: {
+    fontSize: FontSize.sm,
+    color: Colors.textSecondary,
+    paddingHorizontal: Spacing.lg,
+    marginTop: Spacing.xs,
+  },
+  modalNote: {
+    fontSize: FontSize.md,
+    color: Colors.text,
+    paddingHorizontal: Spacing.lg,
+    marginTop: Spacing.sm,
+  },
+  modalActions: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: Spacing.lg,
+    marginTop: Spacing.sm,
+  },
+  modalDeleteBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: Spacing.xs,
+  },
+  modalDeleteText: {
+    fontSize: FontSize.sm,
+    color: Colors.error,
+    fontWeight: '600',
+  },
+  modalCloseBtn: {
+    backgroundColor: Colors.primary,
+    paddingHorizontal: Spacing.xl,
+    paddingVertical: Spacing.sm,
+    borderRadius: BorderRadius.sm,
+  },
+  modalCloseText: {
+    fontSize: FontSize.sm,
+    color: '#fff',
+    fontWeight: '600',
+  },
 });
