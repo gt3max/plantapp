@@ -614,7 +614,7 @@ const styles = StyleSheet.create({
   // Identify buttons (stacked vertically, below plant list)
   identifyColumn: {
     marginTop: Spacing.xl,
-    gap: Spacing.sm,
+    gap: Spacing.md,
   },
   identifyBtnFull: { width: '100%' },
 
