@@ -75,12 +75,11 @@ export function LightMeterModal({
           const fNumber = Number(exif.FNumber ?? exif.ApertureValue ?? 1.8);
 
           // EV = log2(F² / ExposureTime) - log2(ISO / 100)
-          // Lux = 2^EV × C (C=1.0 calibrated for indoor reflected light metering)
-          // Phone cameras meter reflected light off surfaces, not incident light.
-          // Standard reflected meter constant is 12.5, but phones overexpose indoors.
-          // C=1.0 gives realistic indoor readings: window ~5000-15000 Lux.
+          // Lux = 2^EV × C where C=2.5 (ISO 2720 standard)
+          // Equivalent to Lux = (F² × 250) / (t × ISO)
+          // Method: point camera at white paper on plant surface (acts as diffuser)
           const ev = Math.log2((fNumber * fNumber) / exposureTime) - Math.log2(iso / 100);
-          const lux = Math.pow(2, ev) * 1.0;
+          const lux = Math.pow(2, ev) * 2.5;
           luxReadings.push(Math.max(0, Math.min(150000, lux)));
         }
       }
@@ -163,10 +162,10 @@ export function LightMeterModal({
             />
             <View style={styles.overlay}>
               <Text style={styles.instruction}>
-                Point camera DOWN at the plant's spot
+                Place a white paper where plant sits
               </Text>
               <Text style={styles.subInstruction}>
-                Measure the light falling on the surface, not the window
+                Point camera at the paper from above (~30 cm)
               </Text>
             </View>
 
