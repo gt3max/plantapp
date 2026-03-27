@@ -54,41 +54,51 @@ export function LightMeterModal({
     if (!cameraRef.current) return;
     setMeasuring(true);
     try {
-      const photo = await cameraRef.current.takePictureAsync({
-        quality: 0.5,
-        exif: true,
-      });
-      if (!photo) {
-        setMeasuring(false);
-        return;
+      // Take 3 photos rapidly and average the Lux readings for stability
+      const luxReadings: number[] = [];
+      let lastUri: string | null = null;
+
+      for (let i = 0; i < 3; i++) {
+        const photo = await cameraRef.current.takePictureAsync({
+          quality: 0.3,
+          exif: true,
+        });
+        if (!photo) continue;
+        if (i === 2) lastUri = photo.uri; // keep last photo for display
+
+        const exif = photo.exif;
+        if (exif?.ExposureTime && exif?.ISOSpeedRatings) {
+          const exposureTime = Number(exif.ExposureTime);
+          const iso = Array.isArray(exif.ISOSpeedRatings)
+            ? Number(exif.ISOSpeedRatings[0])
+            : Number(exif.ISOSpeedRatings);
+          const fNumber = Number(exif.FNumber ?? exif.ApertureValue ?? 1.8);
+
+          // EV = log2(F² / ExposureTime) - log2(ISO / 100)
+          // Lux = 2^EV × C (C=1.0 calibrated for indoor reflected light metering)
+          // Phone cameras meter reflected light off surfaces, not incident light.
+          // Standard reflected meter constant is 12.5, but phones overexpose indoors.
+          // C=1.0 gives realistic indoor readings: window ~5000-15000 Lux.
+          const ev = Math.log2((fNumber * fNumber) / exposureTime) - Math.log2(iso / 100);
+          const lux = Math.pow(2, ev) * 1.0;
+          luxReadings.push(Math.max(0, Math.min(150000, lux)));
+        }
       }
 
-      setCapturedUri(photo.uri);
+      setCapturedUri(lastUri);
 
-      // Calculate Lux from EXIF exposure data (how real lux meter apps work)
-      // Formula: Lux ≈ (F² × K) / (ExposureTime × ISO)
-      // K = calibration constant, typically 12.5 (reflected light meter standard)
-      const exif = photo.exif;
       let lux: number;
-
-      if (exif?.ExposureTime && exif?.ISOSpeedRatings) {
-        const exposureTime = Number(exif.ExposureTime);     // seconds
-        const iso = Array.isArray(exif.ISOSpeedRatings)
-          ? Number(exif.ISOSpeedRatings[0])
-          : Number(exif.ISOSpeedRatings);
-        const fNumber = Number(exif.FNumber ?? exif.ApertureValue ?? 1.8); // default phone aperture
-        const K = 12.5; // reflected light meter calibration constant
-
-        // EV = log2(F² / ExposureTime) - log2(ISO / 100)
-        // Lux = 2^EV × 2.5 (incident light approximation)
-        const ev = Math.log2((fNumber * fNumber) / exposureTime) - Math.log2(iso / 100);
-        lux = Math.pow(2, ev) * 2.5;
-
-        // Sanity clamp: 0 – 150,000 Lux (direct sunlight max)
-        lux = Math.max(0, Math.min(150000, Math.round(lux)));
+      if (luxReadings.length > 0) {
+        // Average of readings, discard outliers if 3 samples
+        if (luxReadings.length === 3) {
+          luxReadings.sort((a, b) => a - b);
+          lux = luxReadings[1]; // median of 3
+        } else {
+          lux = luxReadings.reduce((a, b) => a + b, 0) / luxReadings.length;
+        }
+        lux = Math.round(lux);
       } else {
-        // Fallback: no EXIF, rough estimate from image brightness
-        lux = brightnessToLux(128); // assume medium brightness
+        lux = brightnessToLux(128); // fallback
       }
 
       const reading = createReading(lux, lightSource);
@@ -153,10 +163,10 @@ export function LightMeterModal({
             />
             <View style={styles.overlay}>
               <Text style={styles.instruction}>
-                Point camera at where your plant sits
+                Point camera DOWN at the plant's spot
               </Text>
               <Text style={styles.subInstruction}>
-                Aim at the light source reaching the plant
+                Measure the light falling on the surface, not the window
               </Text>
             </View>
 
