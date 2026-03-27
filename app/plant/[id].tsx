@@ -25,6 +25,8 @@ import { dbCareToPresetCare, getCommonName } from '../../src/lib/plant-db-adapte
 import { useLocationData, getOutdoorMonths, formatMonthRange, getSeasonCoefficients } from '../../src/lib/geolocation';
 import { LightMeterModal } from '../../src/components/LightMeterModal';
 import { useSavePlant } from '../../src/features/plants/api/identify-api';
+import { addJournalEntry } from '../../src/lib/plant-journal';
+import * as ImagePicker from 'expo-image-picker';
 import type { PresetCare } from '../../src/constants/presets';
 
 // ─── PlantVM ─────────────────────────────────────────────────────────
@@ -427,6 +429,29 @@ export default function PlantDetailScreen() {
     );
   }, [plant, saveMutation]);
 
+  const handleAddPhoto = useCallback(async () => {
+    if (!plant || !id) return;
+    const result = await ImagePicker.launchImageLibraryAsync({
+      mediaTypes: ['images'],
+      quality: 0.8,
+    });
+    if (result.canceled || !result.assets[0]) return;
+    await addJournalEntry(id, result.assets[0].uri);
+    Alert.alert('Photo added', 'Check your Journal for this plant.');
+  }, [plant, id]);
+
+  const handleTakePhoto = useCallback(async () => {
+    if (!plant || !id) return;
+    const perm = await ImagePicker.requestCameraPermissionsAsync();
+    if (!perm.granted) return;
+    const result = await ImagePicker.launchCameraAsync({
+      quality: 0.8,
+    });
+    if (result.canceled || !result.assets[0]) return;
+    await addJournalEntry(id, result.assets[0].uri);
+    Alert.alert('Photo added', 'Check your Journal for this plant.');
+  }, [plant, id]);
+
   const mainScrollRef = useRef<ScrollView>(null);
   const tabScrollRef = useRef<ScrollView>(null);
   const sectionYs = useRef<Record<string, number>>({});
@@ -595,7 +620,14 @@ export default function PlantDetailScreen() {
 
         {/* ═══ CHILD 1: NAME ═══ */}
         <View style={styles.nameBlock}>
-          <Text style={styles.name}>{plant.common_name || plant.scientific}</Text>
+          <View style={styles.nameRow}>
+            <Text style={[styles.name, { flex: 1 }]}>{plant.common_name || plant.scientific}</Text>
+            {plant.isInCollection && (
+              <TouchableOpacity onPress={handleTakePhoto} style={styles.addPhotoBtn} activeOpacity={0.7}>
+                <Ionicons name="camera-outline" size={20} color={Colors.primary} />
+              </TouchableOpacity>
+            )}
+          </View>
           {plant.common_name ? (
             <Text style={styles.scientific}>{plant.scientific}</Text>
           ) : null}
@@ -2390,7 +2422,9 @@ const styles = StyleSheet.create({
 
   // Name
   nameBlock: { paddingHorizontal: Spacing.lg, paddingTop: Spacing.lg, paddingBottom: Spacing.sm },
+  nameRow: { flexDirection: 'row', alignItems: 'center', gap: Spacing.sm },
   name: { fontSize: 26, fontWeight: '700', color: Colors.text },
+  addPhotoBtn: { width: 40, height: 40, borderRadius: 20, backgroundColor: '#EBF5FF', alignItems: 'center', justifyContent: 'center' },
   scientific: { fontSize: FontSize.md, color: Colors.textSecondary, fontStyle: 'italic', marginTop: 2 },
 
   // Description bubble
