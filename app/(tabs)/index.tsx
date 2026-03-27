@@ -387,7 +387,7 @@ export default function MyPlantsScreen() {
               onPress={() => setActiveTab('plants')}
               style={[styles.tabBtn, activeTab === 'plants' && styles.tabBtnActive]}
             >
-              <Text style={[styles.tabBtnText, activeTab === 'plants' && styles.tabBtnTextActive]}>Plants</Text>
+              <Text style={[styles.tabBtnText, activeTab === 'plants' && styles.tabBtnTextActive]}>My Plants</Text>
             </TouchableOpacity>
             <TouchableOpacity
               onPress={() => setActiveTab('journal')}
