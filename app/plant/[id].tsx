@@ -870,6 +870,7 @@ export default function PlantDetailScreen() {
                 <Text style={{ fontSize: FontSize.sm, fontWeight: '600', color: '#fff' }}>Measure</Text>
               </TouchableOpacity>
             </View>
+            <LightLevelIndicator lightText={care.light} />
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
             <TouchableOpacity onPress={() => setShowLightGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Understanding light</Text>
