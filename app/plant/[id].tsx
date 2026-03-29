@@ -2660,10 +2660,10 @@ const styles = StyleSheet.create({
   // Month bar (outdoor months)
   monthBarContainer: { marginBottom: Spacing.md },
   monthBarLabel: { fontSize: FontSize.xs, fontWeight: '600', color: Colors.textSecondary, marginBottom: Spacing.xs },
-  monthBarRow: { flexDirection: 'row', height: 16, gap: 2 },
+  monthBarRow: { flexDirection: 'row', height: 24, gap: 2 },
   monthBarCol: { flex: 1, alignItems: 'center' },
-  monthBarDot: { width: 8, height: 8, borderRadius: 4, backgroundColor: '#D1D5DB' },
-  monthBarMonthLabel: { fontSize: 8, color: Colors.textSecondary, marginTop: 2 },
+  monthBarDot: { width: 12, height: 12, borderRadius: 6, backgroundColor: '#D1D5DB' },
+  monthBarMonthLabel: { fontSize: 11, color: Colors.textSecondary, marginTop: 3 },
   monthBarRangeText: { fontSize: FontSize.xs, fontWeight: '700', textAlign: 'center', marginTop: 4 },
 
   // pH bar
