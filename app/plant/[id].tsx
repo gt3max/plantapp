@@ -838,18 +838,18 @@ export default function PlantDetailScreen() {
 
           {/* ── 5. Light ── */}
           <View onLayout={(e) => onSectionLayout('light', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.light }]}>
-            <SectionTitle text="Light" />
-            <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
-            <View style={{ flexDirection: 'row', gap: Spacing.sm, marginTop: Spacing.xs }}>
-              <TouchableOpacity onPress={() => setShowLightMeter(true)} style={[styles.measureLightBtn, { flex: 1 }]}>
-                <Ionicons name="flashlight-outline" size={16} color="#fff" />
-                <Text style={[styles.measureLightText, { fontSize: FontSize.xs }]}>Measure</Text>
-              </TouchableOpacity>
-              <TouchableOpacity onPress={() => setShowLightGuide(true)} style={[styles.guideBtn, { flex: 1, marginTop: 0, borderTopWidth: 0 }]}>
-                <Text style={styles.guideBtnText}>Understanding light</Text>
-                <Ionicons name="chevron-forward" size={14} color={Colors.primary} />
+            <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+              <SectionTitle text="Light" />
+              <TouchableOpacity onPress={() => setShowLightMeter(true)} style={styles.measureLightBtnCompact}>
+                <Ionicons name="flashlight-outline" size={14} color="#fff" />
+                <Text style={{ fontSize: 11, fontWeight: '600', color: '#fff' }}>Measure</Text>
               </TouchableOpacity>
             </View>
+            <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
+            <TouchableOpacity onPress={() => setShowLightGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Understanding light</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 6. Air Humidity ── */}
@@ -882,7 +882,7 @@ export default function PlantDetailScreen() {
             ) : locationData.error ? (
               <InfoRow icon="leaf-outline" text="Enable location to see outdoor months" sub="" />
             ) : (
-              <InfoRow icon="leaf-outline" text={pottedRange === 'Not recommended' ? 'Not recommended for outdoor' : pottedRange === 'Year-round' ? 'Can stay outside year-round' : `${pottedRange} — safe to keep outside`} sub="" />
+              <InfoRow icon="leaf-outline" text={pottedRange === 'Not recommended' ? 'Not recommended for outdoor' : pottedRange === 'Year-round' ? 'Can stay outside year-round' : `${pottedRange} — safe to keep outside`} sub={locationData.cityName ? `Based on climate in ${locationData.cityName}` : undefined} />
             )}
             <TouchableOpacity onPress={() => setShowOutdoorGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Indoor & outdoor</Text>
@@ -1288,9 +1288,6 @@ export default function PlantDetailScreen() {
                 : `${title} is sensitive to cold. Only put outdoors when nighttime temperatures are consistently above ${plant.temp_min_c + 5}°C.`
               }
             </Text>
-
-            <Text style={styles.guideSectionTitle}>Indoor months</Text>
-            <MonthBar activeMonths={['January','February','March','April','May','June','July','August','September','October','November','December']} label="" color="#22C55E" />
 
             <Text style={styles.guideSectionTitle}>Outdoor months (potted)</Text>
             {locationData.isLoading ? (
@@ -2534,6 +2531,7 @@ const styles = StyleSheet.create({
   tempBarLabel: { fontSize: 10, color: Colors.textSecondary },
 
   measureLightBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.sm, backgroundColor: Colors.primary, borderRadius: BorderRadius.md, paddingVertical: Spacing.sm, marginTop: Spacing.md },
+  measureLightBtnCompact: { flexDirection: 'row', alignItems: 'center', gap: 4, backgroundColor: Colors.primary, borderRadius: BorderRadius.sm, paddingHorizontal: Spacing.sm, paddingVertical: 4 },
   measureLightText: { fontSize: FontSize.sm, fontWeight: '600', color: '#fff' },
   guideBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.xs, paddingVertical: Spacing.sm, marginTop: Spacing.sm, borderTopWidth: 1, borderTopColor: Colors.border },
   guideBtnText: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.primary },

@@ -12,6 +12,7 @@ interface MonthlyTemps {
 interface LocationData {
   latitude: number;
   longitude: number;
+  cityName: string;
   currentTemp: number;
   monthlyAvgTemps: number[];
   hardinessZone: string;
@@ -154,6 +155,7 @@ export function formatMonthRange(months: string[]): string {
 interface CachedData {
   latitude: number;
   longitude: number;
+  cityName: string;
   currentTemp: number;
   monthlyAvgTemps: number[];
   minWinterTemp: number;
@@ -213,6 +215,7 @@ async function fetchMonthlyAverages(lat: number, lon: number): Promise<MonthlyTe
 const DEFAULT_STATE: LocationData = {
   latitude: 0,
   longitude: 0,
+  cityName: '',
   currentTemp: 0,
   monthlyAvgTemps: [],
   hardinessZone: '',
@@ -241,6 +244,7 @@ export function useLocationData(): LocationData {
       setState({
         latitude: cachedData.latitude,
         longitude: cachedData.longitude,
+        cityName: cachedData.cityName,
         currentTemp: cachedData.currentTemp,
         monthlyAvgTemps: cachedData.monthlyAvgTemps,
         hardinessZone: cachedData.hardinessZone,
@@ -272,17 +276,20 @@ export function useLocationData(): LocationData {
         });
         const { latitude, longitude } = location.coords;
 
-        const [currentTemp, monthly] = await Promise.all([
+        const [currentTemp, monthly, geocode] = await Promise.all([
           fetchCurrentWeather(latitude, longitude),
           fetchMonthlyAverages(latitude, longitude),
+          Location.reverseGeocodeAsync({ latitude, longitude }).catch(() => []),
         ]);
 
+        const cityName = geocode[0]?.city ?? geocode[0]?.region ?? '';
         const minWinterTemp = Math.min(...monthly.temps);
         const hardinessZone = getHardinessZone(minWinterTemp);
 
         const newData: CachedData = {
           latitude,
           longitude,
+          cityName,
           currentTemp,
           monthlyAvgTemps: monthly.temps,
           minWinterTemp,
@@ -295,6 +302,7 @@ export function useLocationData(): LocationData {
           setState({
             latitude,
             longitude,
+            cityName,
             currentTemp,
             monthlyAvgTemps: monthly.temps,
             hardinessZone,
