@@ -827,7 +827,31 @@ export default function PlantDetailScreen() {
           {/* ── 3. Fertilizing ── */}
           <View onLayout={(e) => onSectionLayout('fertilizing', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.fertilizing }]}>
             <SectionTitle text="Fertilizing" />
-            <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
+            {(() => {
+              // Determine if current month is in fertilizing season
+              const seasonText = (care.fertilizer_season || '').toLowerCase();
+              const m = monthIndex;
+              const isSpring = m >= 2 && m <= 4;
+              const isSummer = m >= 5 && m <= 7;
+              const isAutumn = m >= 8 && m <= 10;
+              const isWinter = m <= 1 || m === 11;
+              let inSeason = true; // default: always
+              if (seasonText.includes('spring') && seasonText.includes('summer')) {
+                inSeason = isSpring || isSummer;
+              } else if (seasonText.includes('spring')) {
+                inSeason = isSpring;
+              } else if (seasonText.includes('summer')) {
+                inSeason = isSummer;
+              }
+              if (seasonText.includes('not in winter') || seasonText.includes('no winter')) {
+                if (isWinter) inSeason = false;
+              }
+              return inSeason ? (
+                <InfoRow icon="leaf-outline" text={`${care.fertilizer} — active season now`} sub={care.fertilizer_season} />
+              ) : (
+                <InfoRow icon="leaf-outline" text={`No fertilizing needed in ${currentMonth}`} sub={`Resume in ${care.fertilizer_season}`} />
+              );
+            })()}
             <TouchableOpacity onPress={() => setShowFertGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Fertilizing guide</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -841,8 +865,8 @@ export default function PlantDetailScreen() {
             <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
               <SectionTitle text="Light" />
               <TouchableOpacity onPress={() => setShowLightMeter(true)} style={styles.measureLightBtnCompact}>
-                <Ionicons name="flashlight-outline" size={14} color="#fff" />
-                <Text style={{ fontSize: 11, fontWeight: '600', color: '#fff' }}>Measure</Text>
+                <Ionicons name="flashlight-outline" size={16} color="#fff" />
+                <Text style={{ fontSize: FontSize.sm, fontWeight: '600', color: '#fff' }}>Measure</Text>
               </TouchableOpacity>
             </View>
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
@@ -2531,7 +2555,7 @@ const styles = StyleSheet.create({
   tempBarLabel: { fontSize: 10, color: Colors.textSecondary },
 
   measureLightBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.sm, backgroundColor: Colors.primary, borderRadius: BorderRadius.md, paddingVertical: Spacing.sm, marginTop: Spacing.md },
-  measureLightBtnCompact: { flexDirection: 'row', alignItems: 'center', gap: 4, backgroundColor: Colors.primary, borderRadius: BorderRadius.sm, paddingHorizontal: Spacing.sm, paddingVertical: 4 },
+  measureLightBtnCompact: { flexDirection: 'row', alignItems: 'center', gap: Spacing.xs, backgroundColor: Colors.primary, borderRadius: BorderRadius.md, paddingHorizontal: Spacing.md, paddingVertical: Spacing.sm },
   measureLightText: { fontSize: FontSize.sm, fontWeight: '600', color: '#fff' },
   guideBtn: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: Spacing.xs, paddingVertical: Spacing.sm, marginTop: Spacing.sm, borderTopWidth: 1, borderTopColor: Colors.border },
   guideBtnText: { fontSize: FontSize.sm, fontWeight: '600', color: Colors.primary },
