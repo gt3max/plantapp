@@ -191,8 +191,9 @@ export default function MyPlantsScreen() {
 
   const { plants, isRefetching, refetch } = usePlantsWithDevices();
   // My Plants = active on device OR saved to collection (no device)
-  const myPlants = plants.filter((p) => p.active || p.device_id === 'user-collection');
-  const archivedPlants = plants.filter((p) => !p.active && p.device_id !== 'user-collection');
+  // App shows only user-collection plants (no device plants — app works WITHOUT devices)
+  const myPlants = plants.filter((p) => p.device_id === 'user-collection');
+  const archivedPlants: typeof plants = []; // No archive in app mode
 
   const reset = useCallback(() => {
     setScreenState('idle');
