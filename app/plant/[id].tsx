@@ -353,42 +353,88 @@ function usePlantVM(id: string | undefined): PlantVM | null {
   }, [id, plants, dbEntry]);
 }
 
-// ─── Section definitions ─────────────────────────────────────────────
+// ─── Section & Group definitions ─────────────────────────────────────
 
 type SectionKey =
   | 'water' | 'light' | 'humidity' | 'temperature' | 'outdoor' | 'toxicity'
   | 'lifecycle' | 'used_for' | 'soil' | 'fertilizing' | 'pruning'
   | 'harvest' | 'propagation' | 'difficulty' | 'size' | 'taxonomy' | 'companions';
 
+type GroupKey = 'care' | 'environment' | 'safety' | 'growing' | 'about' | 'companions';
+
 interface SectionDef {
   key: SectionKey;
   label: string;
 }
 
-function getSections(plant: PlantVM): SectionDef[] {
-  const sections: SectionDef[] = [
-    { key: 'water', label: 'Water' },
-    { key: 'light', label: 'Light' },
-    { key: 'humidity', label: 'Air Humidity' },
-    { key: 'temperature', label: 'Air Temperature' },
-    { key: 'outdoor', label: 'Outdoor' },
-    { key: 'toxicity', label: 'Toxicity' },
-    { key: 'lifecycle', label: 'Lifecycle' },
-    { key: 'used_for', label: 'Used for' },
-    { key: 'soil', label: 'Soil' },
-    { key: 'fertilizing', label: 'Fertilizing' },
-    { key: 'pruning', label: 'Pruning' },
-  ];
+interface GroupDef {
+  key: GroupKey;
+  label: string;
+  sections: SectionDef[];
+}
+
+function getGroups(plant: PlantVM): GroupDef[] {
+  const growingSections: SectionDef[] = [];
   if (plant.plant_type === 'greens' || plant.plant_type === 'fruiting') {
-    sections.push({ key: 'harvest', label: 'Harvest' });
+    growingSections.push({ key: 'harvest', label: 'Harvest' });
   }
-  sections.push(
-    { key: 'propagation', label: 'Propagation' },
-    { key: 'difficulty', label: 'Difficulty' },
-    { key: 'size', label: 'Size' },
-    { key: 'taxonomy', label: 'Taxonomy' },
-    { key: 'companions', label: 'Companions' },
-  );
+  growingSections.push({ key: 'propagation', label: 'Propagation' });
+
+  return [
+    {
+      key: 'care', label: 'Care',
+      sections: [
+        { key: 'water', label: 'Water' },
+        { key: 'soil', label: 'Soil' },
+        { key: 'fertilizing', label: 'Fertilizing' },
+        { key: 'pruning', label: 'Pruning' },
+      ],
+    },
+    {
+      key: 'environment', label: 'Environment',
+      sections: [
+        { key: 'light', label: 'Light' },
+        { key: 'humidity', label: 'Air Humidity' },
+        { key: 'temperature', label: 'Air Temperature' },
+        { key: 'outdoor', label: 'Outdoor' },
+      ],
+    },
+    {
+      key: 'safety', label: 'Safety',
+      sections: [
+        { key: 'toxicity', label: 'Toxicity' },
+      ],
+    },
+    {
+      key: 'growing', label: 'Growing',
+      sections: growingSections,
+    },
+    {
+      key: 'about', label: 'About',
+      sections: [
+        { key: 'difficulty', label: 'Difficulty' },
+        { key: 'size', label: 'Size' },
+        { key: 'lifecycle', label: 'Lifecycle' },
+        { key: 'used_for', label: 'Used for' },
+        { key: 'taxonomy', label: 'Taxonomy' },
+      ],
+    },
+    {
+      key: 'companions', label: 'Companions',
+      sections: [
+        { key: 'companions', label: 'Companions' },
+      ],
+    },
+  ];
+}
+
+// Flat list of all sections for scroll tracking (preserves layout order)
+function getSections(plant: PlantVM): SectionDef[] {
+  const groups = getGroups(plant);
+  const sections: SectionDef[] = [];
+  for (const g of groups) {
+    sections.push(...g.sections);
+  }
   return sections;
 }
 
@@ -458,7 +504,7 @@ export default function PlantDetailScreen() {
   const containerY = useRef(0);
   const stickyNavHeight = useRef(0);
   const tabXs = useRef<Record<string, number>>({});
-  const [activeSection, setActiveSection] = useState<SectionKey>('water');
+  const [activeGroup, setActiveGroup] = useState<GroupKey>('care');
   const [showWateringGuide, setShowWateringGuide] = useState(false);
   const [showLightGuide, setShowLightGuide] = useState(false);
   const [showHumidityGuide, setShowHumidityGuide] = useState(false);
@@ -492,7 +538,7 @@ export default function PlantDetailScreen() {
     tabXs.current[key] = e.nativeEvent.layout.x;
   }, []);
 
-  const scrollTabBarTo = useCallback((key: SectionKey) => {
+  const scrollTabBarTo = useCallback((key: GroupKey) => {
     const x = tabXs.current[key];
     if (x != null && tabScrollRef.current) {
       tabScrollRef.current.scrollTo({ x: Math.max(0, x - 40), animated: true });
@@ -505,37 +551,67 @@ export default function PlantDetailScreen() {
     return containerY.current + localY;
   }, []);
 
-  const scrollToSection = useCallback((key: SectionKey) => {
-    const absY = getAbsoluteY(key);
+  const scrollToGroup = useCallback((groupKey: GroupKey) => {
+    if (!plant) return;
+    const groups = getGroups(plant);
+    const group = groups.find((g) => g.key === groupKey);
+    if (!group || group.sections.length === 0) return;
+    // Scroll to first section of the group
+    const firstSectionKey = group.sections[0].key;
+    const absY = getAbsoluteY(firstSectionKey);
     if (absY != null && mainScrollRef.current) {
       isAutoScrolling.current = true;
-      activeSectionRef.current = key;
-      setActiveSection(key);
-      scrollTabBarTo(key);
+      activeGroupRef.current = groupKey;
+      setActiveGroup(groupKey);
+      scrollTabBarTo(groupKey);
       const navH = stickyNavHeight.current || 120;
       mainScrollRef.current.scrollTo({ y: absY - navH, animated: true });
       setTimeout(() => { isAutoScrolling.current = false; }, 600);
     }
-  }, [scrollTabBarTo, getAbsoluteY]);
+  }, [plant, scrollTabBarTo, getAbsoluteY]);
 
-  const activeSectionRef = useRef<SectionKey>('water');
+  // Keep scrollToSection for internal use (guide buttons etc)
+  const scrollToSection = useCallback((key: SectionKey) => {
+    const absY = getAbsoluteY(key);
+    if (absY != null && mainScrollRef.current) {
+      isAutoScrolling.current = true;
+      const navH = stickyNavHeight.current || 120;
+      mainScrollRef.current.scrollTo({ y: absY - navH, animated: true });
+      setTimeout(() => { isAutoScrolling.current = false; }, 600);
+    }
+  }, [getAbsoluteY]);
+
+  const activeGroupRef = useRef<GroupKey>('care');
+
+  // Map section key → group key for scroll tracking
+  const sectionToGroup = useMemo((): Record<string, GroupKey> => {
+    if (!plant) return {};
+    const map: Record<string, GroupKey> = {};
+    for (const g of getGroups(plant)) {
+      for (const s of g.sections) {
+        map[s.key] = g.key;
+      }
+    }
+    return map;
+  }, [plant]);
 
   const onMainScroll = useCallback((e: NativeSyntheticEvent<NativeScrollEvent>) => {
     if (isAutoScrolling.current || !plant) return;
     const navH = stickyNavHeight.current || 120;
     const scrollY = e.nativeEvent.contentOffset.y + navH + 20;
     const sections = getSections(plant);
-    let current = sections[0]?.key ?? 'water';
+    let currentSection = sections[0]?.key ?? 'water';
     for (const sec of sections) {
       const absY = getAbsoluteY(sec.key);
       if (absY != null && scrollY >= absY) {
-        current = sec.key;
+        currentSection = sec.key;
       }
     }
-    if (current !== activeSectionRef.current) {
-      activeSectionRef.current = current;
-      setActiveSection(current);
-      scrollTabBarTo(current);
+    const currentGroup = sectionToGroup[currentSection] ?? 'care';
+    if (currentGroup !== activeGroupRef.current) {
+      activeGroupRef.current = currentGroup;
+      setActiveGroup(currentGroup);
+      scrollTabBarTo(currentGroup);
     }
   }, [plant, scrollTabBarTo, getAbsoluteY]);
 
@@ -651,14 +727,12 @@ export default function PlantDetailScreen() {
               bg="#EBF5FF"
               color={Colors.moisture}
               extraContent={<WaterDrops count={waterDrops} />}
-              onPress={() => scrollToSection('water')}
             />
             <RoundBadge
               icon={lightIcon}
               label={lightLabel}
               bg="#FFF8E1"
               color="#F59E0B"
-              onPress={() => scrollToSection('light')}
             />
             {plant.difficulty ? (
               <RoundBadge
@@ -667,24 +741,14 @@ export default function PlantDetailScreen() {
                 bg={diffBg}
                 color={diffColor}
                 extraContent={<DifficultyStars count={diffStars} color={diffColor} />}
-                onPress={() => scrollToSection('difficulty')}
               />
             ) : null}
-            <RoundBadge
-              icon="resize-outline"
-              label="Size"
-              bg="#F3E8FF"
-              color="#7C3AED"
-              extraContent={<RulerIcon color="#7C3AED" />}
-              onPress={() => scrollToSection('size')}
-            />
             {isToxic && (
               <RoundBadge
                 icon={plant.poisonous_to_humans ? 'skull-outline' : 'warning-outline'}
                 label="Toxic"
                 bg="#FEE2E2"
                 color={Colors.error}
-                onPress={() => scrollToSection('toxicity')}
               />
             )}
           </View>
@@ -695,16 +759,16 @@ export default function PlantDetailScreen() {
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={styles.tabBar}
           >
-            {sections.map((sec) => (
+            {getGroups(plant).map((group) => (
               <TouchableOpacity
-                key={sec.key}
+                key={group.key}
                 activeOpacity={0.7}
-                onPress={() => scrollToSection(sec.key)}
-                onLayout={(e) => onTabLayout(sec.key, e)}
-                style={[styles.tab, activeSection === sec.key && styles.tabActive]}
+                onPress={() => scrollToGroup(group.key)}
+                onLayout={(e) => onTabLayout(group.key, e)}
+                style={[styles.tab, activeGroup === group.key && styles.tabActive]}
               >
-                <Text style={[styles.tabText, activeSection === sec.key && styles.tabTextActive]}>
-                  {sec.label}
+                <Text style={[styles.tabText, activeGroup === group.key && styles.tabTextActive]}>
+                  {group.label}
                 </Text>
               </TouchableOpacity>
             ))}
@@ -713,6 +777,8 @@ export default function PlantDetailScreen() {
 
         {/* ═══ CHILD 4: ALL SECTIONS (long feed) ═══ */}
         <View style={styles.sectionsContainer} onLayout={onContainerLayout}>
+
+          {/* ═══ GROUP: Care ═══ */}
 
           {/* ── 1. Water ── */}
           <View onLayout={(e) => onSectionLayout('water', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.water }]}>
@@ -737,7 +803,49 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 2. Light ── */}
+          {/* ── 2. Soil ── */}
+          <View onLayout={(e) => onSectionLayout('soil', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.soil }]}>
+            <SectionTitle text="Soil" />
+            {plant.soil_types.length > 0 && (
+              <View style={styles.chipRow}>
+                {plant.soil_types.map((t) => (
+                  <View key={t} style={styles.chip}><Text style={styles.chipText}>{t}</Text></View>
+                ))}
+              </View>
+            )}
+            {plant.soil_ph_min != null && plant.soil_ph_min > 0 && plant.soil_ph_max != null && (
+              <PHBar min={plant.soil_ph_min} max={plant.soil_ph_max} />
+            )}
+            <InfoRow icon="swap-vertical-outline" text={`Repot: ${care.repot}`} sub="Repotting" />
+            <TouchableOpacity onPress={() => setShowSoilGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Soil & repotting guide</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
+          </View>
+
+          {/* ── 3. Fertilizing ── */}
+          <View onLayout={(e) => onSectionLayout('fertilizing', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.fertilizing }]}>
+            <SectionTitle text="Fertilizing" />
+            <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
+            <TouchableOpacity onPress={() => setShowFertGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>When and how to feed</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
+          </View>
+
+          {/* ── 4. Pruning ── */}
+          <View onLayout={(e) => onSectionLayout('pruning', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.pruning }]}>
+            <SectionTitle text="Pruning" />
+            {plant.pruning_info ? (
+              <Text style={styles.bodyText} numberOfLines={3}>{plant.pruning_info}</Text>
+            ) : (
+              <Text style={styles.bodyText}>Remove dead or damaged leaves. Prune to shape as needed.</Text>
+            )}
+          </View>
+
+          {/* ═══ GROUP: Environment ═══ */}
+
+          {/* ── 5. Light ── */}
           <View onLayout={(e) => onSectionLayout('light', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.light }]}>
             <SectionTitle text="Light" />
             <LightLevelIndicator lightText={care.light} />
@@ -752,7 +860,7 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 3. Air Humidity ── */}
+          {/* ── 6. Air Humidity ── */}
           <View onLayout={(e) => onSectionLayout('humidity', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.humidity }]}>
             <SectionTitle text="Air Humidity" />
             <HumidityBar level={care.humidity} />
@@ -762,7 +870,7 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 4. Air Temperature ── */}
+          {/* ── 7. Air Temperature ── */}
           <View onLayout={(e) => onSectionLayout('temperature', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.temperature }]}>
             <SectionTitle text="Air Temperature" />
             <Text style={[styles.bodyText, { fontWeight: '600', marginBottom: Spacing.xs }]}>Ideal range</Text>
@@ -774,7 +882,7 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 5. Outdoor ── */}
+          {/* ── 8. Outdoor ── */}
           <View onLayout={(e) => onSectionLayout('outdoor', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.outdoor }]}>
             <SectionTitle text="Outdoor" />
             {locationData.isLoading ? (
@@ -790,7 +898,9 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 6. Toxicity ── */}
+          {/* ═══ GROUP: Safety ═══ */}
+
+          {/* ── 9. Toxicity ── */}
           <View onLayout={(e) => onSectionLayout('toxicity', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.toxicity }]}>
             <SectionTitle text="Toxicity" />
             {isToxic ? (
@@ -810,14 +920,79 @@ export default function PlantDetailScreen() {
             )}
           </View>
 
-          {/* ── 7. Lifecycle ── */}
+          {/* ═══ GROUP: Growing ═══ */}
+
+          {/* ── 10. Harvest (edible only) ── */}
+          {(plant.plant_type === 'greens' || plant.plant_type === 'fruiting') && (
+            <View onLayout={(e) => onSectionLayout('harvest', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.harvest }]}>
+              <SectionTitle text="Harvest" />
+              {plant.edible_parts ? (
+                <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
+              ) : null}
+              <TouchableOpacity onPress={() => setShowHarvestGuide(true)} style={styles.guideBtn}>
+                <Text style={styles.guideBtnText}>Harvesting guide</Text>
+                <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+              </TouchableOpacity>
+            </View>
+          )}
+
+          {/* ── 11. Propagation ── */}
+          <View onLayout={(e) => onSectionLayout('propagation', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.propagation }]}>
+            <SectionTitle text="Propagation" />
+            {plant.propagation_methods.length > 0 && (
+              <View style={styles.chipRow}>
+                {plant.propagation_methods.map((m) => (
+                  <View key={m} style={styles.chip}><Text style={styles.chipText}>{m}</Text></View>
+                ))}
+              </View>
+            )}
+            <TouchableOpacity onPress={() => setShowPropGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>How to grow a new one</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
+          </View>
+
+          {/* ═══ GROUP: About ═══ */}
+
+          {/* ── 12. Difficulty ── */}
+          <View onLayout={(e) => onSectionLayout('difficulty', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.difficulty }]}>
+            <SectionTitle text="Difficulty" />
+            {plant.difficulty ? (
+              <>
+                <View style={styles.difficultyRow}>
+                  <DifficultyStars count={diffStars} color={diffColor} size={22} />
+                  <Text style={[styles.difficultyLabel, { color: diffColor }]}>{plant.difficulty}</Text>
+                </View>
+                {plant.difficulty_note ? (
+                  <InfoBox text={plant.difficulty_note} variant="info" />
+                ) : null}
+              </>
+            ) : (
+              <Text style={[styles.bodyText, { color: Colors.textSecondary }]}>No data available yet</Text>
+            )}
+          </View>
+
+          {/* ── 13. Size ── */}
+          <View onLayout={(e) => onSectionLayout('size', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.size }]}>
+            <SectionTitle text="Size" />
+            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (mature)" />
+            {plant.spread_max_cm > 0 && (
+              <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Spread" />
+            )}
+            <TouchableOpacity onPress={() => setShowSizeGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>How big will it get?</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
+          </View>
+
+          {/* ── 14. Lifecycle ── */}
           <View onLayout={(e) => onSectionLayout('lifecycle', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.lifecycle }]}>
             <SectionTitle text="Lifecycle" />
             <InfoRow icon="sync-outline" text={plant.lifecycle === 'perennial' ? 'Perennial' : plant.lifecycle === 'annual' ? 'Annual' : plant.lifecycle || 'Unknown'} sub={plant.lifecycle_years ? (plant.lifecycle === 'perennial' ? `Lives ${plant.lifecycle_years} years` : `${plant.lifecycle_years}`) : (plant.lifecycle === 'perennial' ? 'Lives for multiple years' : 'One growing season')} />
             <InfoRow icon="leaf-outline" text={plant.lifecycle === 'perennial' ? 'Evergreen' : 'Seasonal'} sub="Foliage type" />
           </View>
 
-          {/* ── 8. Used for ── */}
+          {/* ── 15. Used for ── */}
           <View onLayout={(e) => onSectionLayout('used_for', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.used_for }]}>
             <SectionTitle text="Used for" />
             <View style={styles.chipRow}>
@@ -844,107 +1019,6 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 9. Soil ── */}
-          <View onLayout={(e) => onSectionLayout('soil', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.soil }]}>
-            <SectionTitle text="Soil" />
-            {plant.soil_types.length > 0 && (
-              <View style={styles.chipRow}>
-                {plant.soil_types.map((t) => (
-                  <View key={t} style={styles.chip}><Text style={styles.chipText}>{t}</Text></View>
-                ))}
-              </View>
-            )}
-            {plant.soil_ph_min != null && plant.soil_ph_min > 0 && plant.soil_ph_max != null && (
-              <PHBar min={plant.soil_ph_min} max={plant.soil_ph_max} />
-            )}
-            <InfoRow icon="swap-vertical-outline" text={`Repot: ${care.repot}`} sub="Repotting" />
-            <TouchableOpacity onPress={() => setShowSoilGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Soil & repotting guide</Text>
-              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
-            </TouchableOpacity>
-          </View>
-
-          {/* ── 10. Fertilizing ── */}
-          <View onLayout={(e) => onSectionLayout('fertilizing', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.fertilizing }]}>
-            <SectionTitle text="Fertilizing" />
-            <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
-            <TouchableOpacity onPress={() => setShowFertGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>When and how to feed</Text>
-              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
-            </TouchableOpacity>
-          </View>
-
-          {/* ── 11. Pruning ── */}
-          <View onLayout={(e) => onSectionLayout('pruning', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.pruning }]}>
-            <SectionTitle text="Pruning" />
-            {plant.pruning_info ? (
-              <Text style={styles.bodyText} numberOfLines={3}>{plant.pruning_info}</Text>
-            ) : (
-              <Text style={styles.bodyText}>Remove dead or damaged leaves. Prune to shape as needed.</Text>
-            )}
-          </View>
-
-          {/* ── 12. Harvest (edible only) ── */}
-          {(plant.plant_type === 'greens' || plant.plant_type === 'fruiting') && (
-            <View onLayout={(e) => onSectionLayout('harvest', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.harvest }]}>
-              <SectionTitle text="Harvest" />
-              {plant.edible_parts ? (
-                <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
-              ) : null}
-              <TouchableOpacity onPress={() => setShowHarvestGuide(true)} style={styles.guideBtn}>
-                <Text style={styles.guideBtnText}>Harvesting guide</Text>
-                <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
-              </TouchableOpacity>
-            </View>
-          )}
-
-          {/* ── 13. Propagation ── */}
-          <View onLayout={(e) => onSectionLayout('propagation', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.propagation }]}>
-            <SectionTitle text="Propagation" />
-            {plant.propagation_methods.length > 0 && (
-              <View style={styles.chipRow}>
-                {plant.propagation_methods.map((m) => (
-                  <View key={m} style={styles.chip}><Text style={styles.chipText}>{m}</Text></View>
-                ))}
-              </View>
-            )}
-            <TouchableOpacity onPress={() => setShowPropGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>How to grow a new one</Text>
-              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
-            </TouchableOpacity>
-          </View>
-
-          {/* ── 14. Difficulty ── */}
-          <View onLayout={(e) => onSectionLayout('difficulty', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.difficulty }]}>
-            <SectionTitle text="Difficulty" />
-            {plant.difficulty ? (
-              <>
-                <View style={styles.difficultyRow}>
-                  <DifficultyStars count={diffStars} color={diffColor} size={22} />
-                  <Text style={[styles.difficultyLabel, { color: diffColor }]}>{plant.difficulty}</Text>
-                </View>
-                {plant.difficulty_note ? (
-                  <InfoBox text={plant.difficulty_note} variant="info" />
-                ) : null}
-              </>
-            ) : (
-              <Text style={[styles.bodyText, { color: Colors.textSecondary }]}>No data available yet</Text>
-            )}
-          </View>
-
-          {/* ── 15. Size ── */}
-          <View onLayout={(e) => onSectionLayout('size', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.size }]}>
-            <SectionTitle text="Size" />
-            <InfoRow icon="arrow-up-outline" text={plant.height_max_cm > 0 ? `${plant.height_min_cm || '?'} – ${plant.height_max_cm} cm` : 'Not specified'} sub="Height (mature)" />
-            {plant.spread_max_cm > 0 && (
-              <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Spread" />
-            )}
-            <TouchableOpacity onPress={() => setShowSizeGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>How big will it get?</Text>
-              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
-            </TouchableOpacity>
-          </View>
-
           {/* ── 16. Taxonomy ── */}
           <View onLayout={(e) => onSectionLayout('taxonomy', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.taxonomy }]}>
             <SectionTitle text="Taxonomy" />
@@ -954,6 +1028,8 @@ export default function PlantDetailScreen() {
             {plant.order ? <InfoRow icon="git-branch-outline" text={plant.order} sub="Order" /> : null}
             {plant.origin ? <InfoRow icon="earth-outline" text={plant.origin} sub="Origin" /> : null}
           </View>
+
+          {/* ═══ GROUP: Companions ═══ */}
 
           {/* ── 17. Companions ── */}
           <View onLayout={(e) => onSectionLayout('companions', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.companions }]}>
