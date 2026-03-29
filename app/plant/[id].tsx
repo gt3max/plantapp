@@ -819,7 +819,7 @@ export default function PlantDetailScreen() {
             )}
             <InfoRow icon="swap-vertical-outline" text={`Repot: ${care.repot}`} sub="Repotting" />
             <TouchableOpacity onPress={() => setShowSoilGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Soil & repotting guide</Text>
+              <Text style={styles.guideBtnText}>Repotting guide</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -829,7 +829,7 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Fertilizing" />
             <InfoRow icon="leaf-outline" text={care.fertilizer} sub={care.fertilizer_season} />
             <TouchableOpacity onPress={() => setShowFertGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>When and how to feed</Text>
+              <Text style={styles.guideBtnText}>Fertilizing guide</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -846,7 +846,7 @@ export default function PlantDetailScreen() {
                 <Text style={[styles.measureLightText, { fontSize: FontSize.xs }]}>Measure</Text>
               </TouchableOpacity>
               <TouchableOpacity onPress={() => setShowLightGuide(true)} style={[styles.guideBtn, { flex: 1, marginTop: 0, borderTopWidth: 0 }]}>
-                <Text style={styles.guideBtnText}>Learn more</Text>
+                <Text style={styles.guideBtnText}>Understanding light</Text>
                 <Ionicons name="chevron-forward" size={14} color={Colors.primary} />
               </TouchableOpacity>
             </View>
@@ -869,7 +869,7 @@ export default function PlantDetailScreen() {
             <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} />
             <InfoRow icon="thermometer-outline" text={`Min ${plant.temp_min_c}°C / Max ${plant.temp_max_c}°C`} sub="Survival limits" />
             <TouchableOpacity onPress={() => setShowTempGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Temperature details</Text>
+              <Text style={styles.guideBtnText}>Temperature & climate</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -885,7 +885,7 @@ export default function PlantDetailScreen() {
               <InfoRow icon="leaf-outline" text={pottedRange === 'Not recommended' ? 'Not recommended for outdoor' : pottedRange === 'Year-round' ? 'Can stay outside year-round' : `${pottedRange} — safe to keep outside`} sub="" />
             )}
             <TouchableOpacity onPress={() => setShowOutdoorGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Can I put it outside?</Text>
+              <Text style={styles.guideBtnText}>Indoor & outdoor</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -949,7 +949,7 @@ export default function PlantDetailScreen() {
               </View>
             )}
             <TouchableOpacity onPress={() => setShowPropGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>How to grow a new one</Text>
+              <Text style={styles.guideBtnText}>Germination & propagation</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -982,7 +982,7 @@ export default function PlantDetailScreen() {
               <InfoRow icon="swap-horizontal-outline" text={`Up to ${plant.spread_max_cm} cm`} sub="Spread" />
             )}
             <TouchableOpacity onPress={() => setShowSizeGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>How big will it get?</Text>
+              <Text style={styles.guideBtnText}>Growth & dimensions</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -1016,7 +1016,7 @@ export default function PlantDetailScreen() {
               <InfoRow icon="nutrition-outline" text={plant.edible_parts} sub="Edible parts" iconColor={Colors.success} />
             ) : null}
             <TouchableOpacity onPress={() => setShowUsedForGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Learn more</Text>
+              <Text style={styles.guideBtnText}>About this plant</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -1055,7 +1055,7 @@ export default function PlantDetailScreen() {
             )}
             {(plant.good_companions.length > 0 || plant.bad_companions.length > 0) && (
               <TouchableOpacity onPress={() => setShowCompanionGuide(true)} style={styles.guideBtn}>
-                <Text style={styles.guideBtnText}>Why these combinations?</Text>
+                <Text style={styles.guideBtnText}>Plant companions</Text>
                 <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
               </TouchableOpacity>
             )}
