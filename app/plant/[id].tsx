@@ -2278,18 +2278,14 @@ function InfoBox({ text, variant }: { text: string; variant: 'info' | 'warning' 
 
 function ExpandableText({ text, maxLines = 3 }: { text: string; maxLines?: number }) {
   const [expanded, setExpanded] = useState(false);
-  const [needsTruncation, setNeedsTruncation] = useState(false);
+  // Show "Read more" if text is likely longer than maxLines (~40 chars per line)
+  const needsTruncation = text.length > maxLines * 40;
 
   return (
     <View>
       <Text
         style={styles.descText}
         numberOfLines={expanded ? undefined : maxLines}
-        onTextLayout={(e) => {
-          if (e.nativeEvent.lines.length > maxLines) {
-            setNeedsTruncation(true);
-          }
-        }}
       >
         {text}
       </Text>
