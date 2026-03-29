@@ -1289,21 +1289,23 @@ export default function PlantDetailScreen() {
               }
             </Text>
 
-            <Text style={styles.guideSectionTitle}>Indoor vs Outdoor months</Text>
-            <InfoRow icon="home-outline" text="Full year" sub="Indoor — safe year-round" />
+            <Text style={styles.guideSectionTitle}>Indoor months</Text>
+            <MonthBar activeMonths={['January','February','March','April','May','June','July','August','September','October','November','December']} label="" color="#22C55E" />
+
+            <Text style={styles.guideSectionTitle}>Outdoor months (potted)</Text>
             {locationData.isLoading ? (
-              <InfoRow icon="location-outline" text="Getting your location..." sub="Determining outdoor months" />
+              <InfoRow icon="location-outline" text="Getting your location..." sub="" />
             ) : locationData.error ? (
               <>
-                <InfoRow icon="leaf-outline" text="Depends on your location" sub="Outdoor (potted) — enable location for dates" />
-                <InfoRow icon="earth-outline" text="Depends on your location" sub="Outdoor (in ground) — enable location for dates" />
-                <InfoBox text="Enable location services to see which months are safe for outdoor placement in your area." variant="info" />
+                <Text style={styles.bodyText}>Enable location to see which months are safe for outdoor placement in your area.</Text>
               </>
             ) : (
               <>
-                <InfoRow icon="leaf-outline" text={pottedRange ?? 'N/A'} sub="Outdoor (potted)" />
-                <InfoRow icon="earth-outline" text={inGroundRange ?? 'N/A'} sub="Outdoor (in ground)" />
-                <InfoBox text={`Based on your location (zone ${locationData.hardinessZone}). Potted plants need +5°C above frost limit, in-ground +2°C.`} variant="info" />
+                <Text style={styles.bodyText}>These are the months {title} can be outdoor in your area. The rest of the year the temperature is too cold.</Text>
+                <MonthBar activeMonths={outdoorMonths?.potted ?? []} label="" color="#22C55E" />
+
+                <Text style={styles.guideSectionTitle}>Outdoor months (in ground)</Text>
+                <MonthBar activeMonths={outdoorMonths?.inGround ?? []} label="" color="#16A34A" />
               </>
             )}
 
