@@ -1118,7 +1118,7 @@ export default function PlantDetailScreen() {
       <Modal visible={showLightGuide} animationType="slide" presentationStyle="pageSheet">
         <View style={styles.modalContainer}>
           <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Light guide</Text>
+            <Text style={styles.modalTitle}>Understanding light</Text>
             <TouchableOpacity onPress={() => setShowLightGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
               <Ionicons name="close" size={24} color={Colors.text} />
             </TouchableOpacity>
@@ -1168,7 +1168,7 @@ export default function PlantDetailScreen() {
       <Modal visible={showHumidityGuide} animationType="slide" presentationStyle="pageSheet">
         <View style={styles.modalContainer}>
           <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Humidity guide</Text>
+            <Text style={styles.modalTitle}>Managing humidity</Text>
             <TouchableOpacity onPress={() => setShowHumidityGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
               <Ionicons name="close" size={24} color={Colors.text} />
             </TouchableOpacity>
@@ -1204,7 +1204,7 @@ export default function PlantDetailScreen() {
       <Modal visible={showTempGuide} animationType="slide" presentationStyle="pageSheet">
         <View style={styles.modalContainer}>
           <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Temperature guide</Text>
+            <Text style={styles.modalTitle}>Temperature & climate</Text>
             <TouchableOpacity onPress={() => setShowTempGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
               <Ionicons name="close" size={24} color={Colors.text} />
             </TouchableOpacity>
@@ -1273,7 +1273,7 @@ export default function PlantDetailScreen() {
       <Modal visible={showOutdoorGuide} animationType="slide" presentationStyle="pageSheet">
         <View style={styles.modalContainer}>
           <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Outdoor guide</Text>
+            <Text style={styles.modalTitle}>Indoor & outdoor</Text>
             <TouchableOpacity onPress={() => setShowOutdoorGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
               <Ionicons name="close" size={24} color={Colors.text} />
             </TouchableOpacity>
