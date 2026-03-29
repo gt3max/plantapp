@@ -374,7 +374,9 @@ interface GroupDef {
 }
 
 function getGroups(plant: PlantVM): GroupDef[] {
-  const growingSections: SectionDef[] = [];
+  const growingSections: SectionDef[] = [
+    { key: 'pruning', label: 'Pruning' },
+  ];
   if (plant.plant_type === 'greens' || plant.plant_type === 'fruiting') {
     growingSections.push({ key: 'harvest', label: 'Harvest' });
   }
@@ -387,7 +389,6 @@ function getGroups(plant: PlantVM): GroupDef[] {
         { key: 'water', label: 'Water' },
         { key: 'soil', label: 'Soil' },
         { key: 'fertilizing', label: 'Fertilizing' },
-        { key: 'pruning', label: 'Pruning' },
       ],
     },
     {
@@ -400,7 +401,7 @@ function getGroups(plant: PlantVM): GroupDef[] {
       ],
     },
     {
-      key: 'safety', label: 'Safety',
+      key: 'safety', label: 'Toxicity',
       sections: [
         { key: 'toxicity', label: 'Toxicity' },
       ],
@@ -833,16 +834,6 @@ export default function PlantDetailScreen() {
             </TouchableOpacity>
           </View>
 
-          {/* ── 4. Pruning ── */}
-          <View onLayout={(e) => onSectionLayout('pruning', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.pruning }]}>
-            <SectionTitle text="Pruning" />
-            {plant.pruning_info ? (
-              <Text style={styles.bodyText} numberOfLines={3}>{plant.pruning_info}</Text>
-            ) : (
-              <Text style={styles.bodyText}>Remove dead or damaged leaves. Prune to shape as needed.</Text>
-            )}
-          </View>
-
           {/* ═══ GROUP: Environment ═══ */}
 
           {/* ── 5. Light ── */}
@@ -922,7 +913,17 @@ export default function PlantDetailScreen() {
 
           {/* ═══ GROUP: Growing ═══ */}
 
-          {/* ── 10. Harvest (edible only) ── */}
+          {/* ── Pruning ── */}
+          <View onLayout={(e) => onSectionLayout('pruning', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.pruning }]}>
+            <SectionTitle text="Pruning" />
+            {plant.pruning_info ? (
+              <Text style={styles.bodyText} numberOfLines={3}>{plant.pruning_info}</Text>
+            ) : (
+              <Text style={styles.bodyText}>Remove dead or damaged leaves. Prune to shape as needed.</Text>
+            )}
+          </View>
+
+          {/* ── Harvest (edible only) ── */}
           {(plant.plant_type === 'greens' || plant.plant_type === 'fruiting') && (
             <View onLayout={(e) => onSectionLayout('harvest', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.harvest }]}>
               <SectionTitle text="Harvest" />
