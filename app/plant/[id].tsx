@@ -839,16 +839,17 @@ export default function PlantDetailScreen() {
           {/* ── 5. Light ── */}
           <View onLayout={(e) => onSectionLayout('light', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.light }]}>
             <SectionTitle text="Light" />
-            <LightLevelIndicator lightText={care.light} />
             <InfoRow icon="sunny-outline" text={care.light} sub="Preferred" />
-            <TouchableOpacity onPress={() => setShowLightMeter(true)} style={styles.measureLightBtn}>
-              <Ionicons name="flashlight-outline" size={18} color="#fff" />
-              <Text style={styles.measureLightText}>Measure light</Text>
-            </TouchableOpacity>
-            <TouchableOpacity onPress={() => setShowLightGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Understanding light needs</Text>
-              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
-            </TouchableOpacity>
+            <View style={{ flexDirection: 'row', gap: Spacing.sm, marginTop: Spacing.xs }}>
+              <TouchableOpacity onPress={() => setShowLightMeter(true)} style={[styles.measureLightBtn, { flex: 1 }]}>
+                <Ionicons name="flashlight-outline" size={16} color="#fff" />
+                <Text style={[styles.measureLightText, { fontSize: FontSize.xs }]}>Measure</Text>
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => setShowLightGuide(true)} style={[styles.guideBtn, { flex: 1, marginTop: 0, borderTopWidth: 0 }]}>
+                <Text style={styles.guideBtnText}>Learn more</Text>
+                <Ionicons name="chevron-forward" size={14} color={Colors.primary} />
+              </TouchableOpacity>
+            </View>
           </View>
 
           {/* ── 6. Air Humidity ── */}
@@ -1023,10 +1024,7 @@ export default function PlantDetailScreen() {
           {/* ── 16. Taxonomy ── */}
           <View onLayout={(e) => onSectionLayout('taxonomy', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.taxonomy }]}>
             <SectionTitle text="Taxonomy" />
-            <InfoRow icon="document-text-outline" text={plant.scientific} sub="Scientific name" />
-            {plant.genus ? <InfoRow icon="git-branch-outline" text={plant.genus} sub="Genus" /> : null}
-            <InfoRow icon="git-branch-outline" text={plant.family} sub="Family" />
-            {plant.order ? <InfoRow icon="git-branch-outline" text={plant.order} sub="Order" /> : null}
+            <InfoRow icon="document-text-outline" text={plant.scientific} sub={[plant.genus, plant.family, plant.order].filter(Boolean).join(' · ')} />
             {plant.origin ? <InfoRow icon="earth-outline" text={plant.origin} sub="Origin" /> : null}
           </View>
 
