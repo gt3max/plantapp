@@ -1017,16 +1017,8 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Lifecycle" />
             <InfoRow icon="sync-outline" text={plant.lifecycle === 'perennial' ? 'Perennial' : plant.lifecycle === 'annual' ? 'Annual' : plant.lifecycle || 'Unknown'} sub={plant.lifecycle_years ? (plant.lifecycle === 'perennial' ? `Lives ${plant.lifecycle_years} years` : `${plant.lifecycle_years}`) : (plant.lifecycle === 'perennial' ? 'Lives for multiple years' : 'One growing season')} />
             <InfoRow icon="leaf-outline" text={plant.lifecycle === 'perennial' ? 'Evergreen' : 'Seasonal'} sub="Foliage type" />
-            {plant.growth_rate ? (
-              <InfoRow icon="trending-up-outline" text={plant.growth_rate} sub="Growth rate" />
-            ) : null}
-            {plant.lifecycle === 'perennial' ? (
-              <InfoBox text="Active growth in spring and summer. Slower or dormant in winter — reduce watering and feeding." variant="info" />
-            ) : plant.lifecycle === 'annual' ? (
-              <InfoBox text="Completes its lifecycle in one season. Start new plants from seed when this one finishes." variant="info" />
-            ) : null}
             <TouchableOpacity onPress={() => setShowLifecycleGuide(true)} style={styles.guideBtn}>
-              <Text style={styles.guideBtnText}>Lifecycle & growth</Text>
+              <Text style={styles.guideBtnText}>Lifecycle</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
             </TouchableOpacity>
           </View>
@@ -1743,7 +1735,7 @@ export default function PlantDetailScreen() {
       <Modal visible={showLifecycleGuide} animationType="slide" presentationStyle="pageSheet">
         <View style={styles.modalContainer}>
           <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Lifecycle & growth</Text>
+            <Text style={styles.modalTitle}>Lifecycle</Text>
             <TouchableOpacity onPress={() => setShowLifecycleGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
               <Ionicons name="close" size={24} color={Colors.text} />
             </TouchableOpacity>
