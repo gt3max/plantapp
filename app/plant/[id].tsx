@@ -519,6 +519,7 @@ export default function PlantDetailScreen() {
   const [showPropGuide, setShowPropGuide] = useState(false);
   const [showHarvestGuide, setShowHarvestGuide] = useState(false);
   const [showCompanionGuide, setShowCompanionGuide] = useState(false);
+  const [showLifecycleGuide, setShowLifecycleGuide] = useState(false);
   const [showLightMeter, setShowLightMeter] = useState(false);
   const isAutoScrolling = useRef(false);
 
@@ -1016,11 +1017,18 @@ export default function PlantDetailScreen() {
             <SectionTitle text="Lifecycle" />
             <InfoRow icon="sync-outline" text={plant.lifecycle === 'perennial' ? 'Perennial' : plant.lifecycle === 'annual' ? 'Annual' : plant.lifecycle || 'Unknown'} sub={plant.lifecycle_years ? (plant.lifecycle === 'perennial' ? `Lives ${plant.lifecycle_years} years` : `${plant.lifecycle_years}`) : (plant.lifecycle === 'perennial' ? 'Lives for multiple years' : 'One growing season')} />
             <InfoRow icon="leaf-outline" text={plant.lifecycle === 'perennial' ? 'Evergreen' : 'Seasonal'} sub="Foliage type" />
+            {plant.growth_rate ? (
+              <InfoRow icon="trending-up-outline" text={plant.growth_rate} sub="Growth rate" />
+            ) : null}
             {plant.lifecycle === 'perennial' ? (
               <InfoBox text="Active growth in spring and summer. Slower or dormant in winter — reduce watering and feeding." variant="info" />
-            ) : (
+            ) : plant.lifecycle === 'annual' ? (
               <InfoBox text="Completes its lifecycle in one season. Start new plants from seed when this one finishes." variant="info" />
-            )}
+            ) : null}
+            <TouchableOpacity onPress={() => setShowLifecycleGuide(true)} style={styles.guideBtn}>
+              <Text style={styles.guideBtnText}>Lifecycle & growth</Text>
+              <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
+            </TouchableOpacity>
           </View>
 
           {/* ── 15. Used for ── */}
@@ -1726,6 +1734,67 @@ export default function PlantDetailScreen() {
 
             {isToxic && plant.edible ? (
               <InfoBox text={`Some parts of ${title} are toxic while others are edible. Always know which parts are safe before consuming.`} variant="warning" />
+            ) : null}
+          </ScrollView>
+        </View>
+      </Modal>
+
+      {/* ═══ LIFECYCLE & GROWTH MODAL ═══ */}
+      <Modal visible={showLifecycleGuide} animationType="slide" presentationStyle="pageSheet">
+        <View style={styles.modalContainer}>
+          <View style={styles.modalHeader}>
+            <Text style={styles.modalTitle}>Lifecycle & growth</Text>
+            <TouchableOpacity onPress={() => setShowLifecycleGuide(false)} hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}>
+              <Ionicons name="close" size={24} color={Colors.text} />
+            </TouchableOpacity>
+          </View>
+          <ScrollView contentContainerStyle={styles.modalScroll}>
+            <Text style={styles.guideSectionTitle}>About {title}</Text>
+            <InfoRow icon="sync-outline" text={plant.lifecycle === 'perennial' ? 'Perennial' : plant.lifecycle === 'annual' ? 'Annual' : plant.lifecycle || 'Unknown'} sub={plant.lifecycle_years ? `Lives ${plant.lifecycle_years} years` : undefined} />
+            {plant.growth_rate ? (
+              <InfoRow icon="trending-up-outline" text={plant.growth_rate} sub="Growth rate" />
+            ) : null}
+
+            <Text style={styles.guideSectionTitle}>What does this mean?</Text>
+            {plant.lifecycle === 'perennial' ? (
+              <Text style={styles.bodyText}>
+                Perennial plants live for more than two years. They grow actively in spring and summer, then slow down or go dormant in winter. During dormancy, reduce watering and stop fertilizing — the plant is resting, not dying. Most houseplants are perennials.
+              </Text>
+            ) : plant.lifecycle === 'annual' ? (
+              <Text style={styles.bodyText}>
+                Annual plants complete their entire lifecycle in one growing season — from seed to flower to seed again. After producing seeds, the plant naturally dies. This is normal. To continue growing, start new plants from seed or buy new seedlings each season.
+              </Text>
+            ) : (
+              <Text style={styles.bodyText}>
+                Biennial plants take two years to complete their lifecycle. In the first year they grow leaves and roots, in the second year they flower, produce seeds, and die. Some plants grown as annuals in cold climates are actually perennials in warmer regions.
+              </Text>
+            )}
+
+            <Text style={styles.guideSectionTitle}>Types of plant lifecycles</Text>
+            <Text style={[styles.bodyText, { fontWeight: '600' }]}>Annual</Text>
+            <Text style={styles.bodyText}>One growing season. Examples: basil, tomato, lettuce, sunflower. Plant → grow → harvest → done.</Text>
+
+            <Text style={[styles.bodyText, { fontWeight: '600' }]}>Perennial</Text>
+            <Text style={styles.bodyText}>Lives for years. Examples: monstera, jade plant, orchid, rosemary. Goes dormant in winter, comes back in spring.</Text>
+
+            <Text style={[styles.bodyText, { fontWeight: '600' }]}>Biennial</Text>
+            <Text style={styles.bodyText}>Two-year cycle. Examples: parsley, carrot, foxglove. Leaves first year, flowers second year, then dies.</Text>
+
+            <Text style={styles.guideSectionTitle}>Seasonal care tips</Text>
+            <Text style={styles.bodyText}>{'• Spring: active growth starts — increase watering, start fertilizing\n• Summer: peak growth — regular watering and feeding\n• Autumn: growth slows — reduce watering gradually\n• Winter: dormancy — minimal water, no fertilizer, cooler spot if possible'}</Text>
+
+            {plant.growth_rate ? (
+              <>
+                <Text style={styles.guideSectionTitle}>Growth rate</Text>
+                <Text style={styles.bodyText}>
+                  {plant.growth_rate === 'Fast' || plant.growth_rate === 'fast'
+                    ? `${title} is a fast grower. Expect visible changes weekly during the growing season. May need more frequent repotting and pruning.`
+                    : plant.growth_rate === 'Slow' || plant.growth_rate === 'slow'
+                    ? `${title} grows slowly. Don't worry if you don't see changes for weeks — this is normal. Slow growers are often more tolerant of neglect.`
+                    : `${title} has a moderate growth rate. With proper care, you'll see steady progress during the growing season.`
+                  }
+                </Text>
+              </>
             ) : null}
           </ScrollView>
         </View>
