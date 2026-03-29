@@ -882,7 +882,7 @@ export default function PlantDetailScreen() {
             ) : locationData.error ? (
               <InfoRow icon="leaf-outline" text="Enable location to see outdoor months" sub="" />
             ) : (
-              <InfoRow icon="leaf-outline" text={pottedRange === 'Not recommended' ? 'Not recommended for outdoor' : pottedRange === 'Year-round' ? 'Can stay outside year-round' : `Outdoor: ${pottedRange} (potted)`} sub={`Based on your location · Zone ${locationData.hardinessZone}`} />
+              <InfoRow icon="leaf-outline" text={pottedRange === 'Not recommended' ? 'Not recommended for outdoor' : pottedRange === 'Year-round' ? 'Can stay outside year-round' : `${pottedRange} — safe to keep outside`} sub="" />
             )}
             <TouchableOpacity onPress={() => setShowOutdoorGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Can I put it outside?</Text>
