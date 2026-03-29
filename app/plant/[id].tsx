@@ -778,17 +778,12 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('outdoor', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.outdoor }]}>
             <SectionTitle text="Outdoor" />
             {locationData.isLoading ? (
-              <InfoRow icon="location-outline" text="Getting your location..." sub="Determining outdoor months" />
+              <InfoRow icon="location-outline" text="Checking your location..." sub="" />
             ) : locationData.error ? (
-              <InfoRow icon="location-outline" text="Enable location to see outdoor months" sub="Tap to allow location access" />
+              <InfoRow icon="leaf-outline" text="Enable location to see outdoor months" sub="" />
             ) : (
-              <>
-                <InfoRow icon="thermometer-outline" text={`Now: ${Math.round(locationData.currentTemp)}°C outside`} sub={`Hardiness zone ${locationData.hardinessZone}`} />
-                <MonthBar activeMonths={outdoorMonths?.potted ?? []} label="Outdoor (potted)" color="#22C55E" />
-                <MonthBar activeMonths={outdoorMonths?.inGround ?? []} label="Outdoor (in ground)" color="#16A34A" />
-              </>
+              <InfoRow icon="leaf-outline" text={pottedRange === 'Not recommended' ? 'Not recommended for outdoor' : pottedRange === 'Year-round' ? 'Can stay outside year-round' : `Outdoor: ${pottedRange} (potted)`} sub={`Based on your location · Zone ${locationData.hardinessZone}`} />
             )}
-            <InfoRow icon="thermometer-outline" text={`Frost limit: ${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp the plant can endure" />
             <TouchableOpacity onPress={() => setShowOutdoorGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Can I put it outside?</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
