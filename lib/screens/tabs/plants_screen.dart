@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:plantapp/app/theme.dart';
 import 'package:plantapp/models/plant.dart';
@@ -434,9 +435,7 @@ class _PlantsScreenState extends State<PlantsScreen> {
                           },
                           child: _PlantCard(
                             plant: plant,
-                            onTap: () {
-                              // TODO: navigate to plant detail
-                            },
+                            onTap: () => context.push('/plant/${plant.plantId}'),
                           ),
                         )),
 

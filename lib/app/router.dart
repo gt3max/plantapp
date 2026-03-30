@@ -9,6 +9,7 @@ import 'package:plantapp/screens/tabs/library_screen.dart';
 import 'package:plantapp/screens/tabs/doctor_screen.dart';
 import 'package:plantapp/screens/tabs/fleet_screen.dart';
 import 'package:plantapp/screens/settings_screen.dart';
+import 'package:plantapp/screens/plant_detail_screen.dart';
 import 'package:plantapp/stores/auth_store.dart';
 
 /// App router with auth guard and bottom tab navigation.
@@ -74,6 +75,15 @@ GoRouter buildRouter(WidgetRef ref) {
             ),
           ),
         ],
+      ),
+
+      // Plant detail (pushed on top, not in tabs)
+      GoRoute(
+        path: '/plant/:id',
+        builder: (context, state) {
+          final id = state.pathParameters['id'] ?? '';
+          return PlantDetailScreen(plantId: id);
+        },
       ),
 
       // Settings (pushed on top, not in tabs)

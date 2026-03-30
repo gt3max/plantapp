@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:plantapp/app/theme.dart';
 import 'package:plantapp/services/library_service.dart';
 
@@ -212,9 +213,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
         final plant = _results[index];
         return _LibraryCard(
           plant: plant,
-          onTap: () {
-            // TODO: navigate to plant detail with library ID
-          },
+          onTap: () => context.push('/plant/${plant.id}'),
         );
       },
     );
