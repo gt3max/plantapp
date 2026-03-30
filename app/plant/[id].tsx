@@ -24,6 +24,7 @@ import { usePlantDBDetail } from '../../src/features/plants/api/plant-db-api';
 import { dbCareToPresetCare, getCommonName } from '../../src/lib/plant-db-adapter';
 import { useLocationData, getOutdoorMonths, formatMonthRange, getSeasonCoefficients } from '../../src/lib/geolocation';
 import { LightMeterModal } from '../../src/components/LightMeterModal';
+import { useSettingsStore } from '../../src/stores/settings-store';
 import { useSavePlant } from '../../src/features/plants/api/identify-api';
 import { addJournalEntry } from '../../src/lib/plant-journal';
 import * as ImagePicker from 'expo-image-picker';
@@ -446,6 +447,15 @@ export default function PlantDetailScreen() {
   const router = useRouter();
   const plant = usePlantVM(id);
   const saveMutation = useSavePlant();
+  const temperatureUnit = useSettingsStore((s) => s.temperatureUnit);
+
+  /** Format temperature based on user's preference */
+  const fmtTemp = useCallback((celsius: number): string => {
+    if (temperatureUnit === 'fahrenheit') {
+      return `${Math.round(celsius * 9 / 5 + 32)}°F`;
+    }
+    return `${celsius}°C`;
+  }, [temperatureUnit]);
 
   const handleAddToCollection = useCallback(() => {
     if (!plant) return;
@@ -898,8 +908,8 @@ export default function PlantDetailScreen() {
           <View onLayout={(e) => onSectionLayout('temperature', e)} style={[styles.sectionCard, styles.sectionCardAccent, { borderLeftColor: SECTION_ACCENT.temperature }]}>
             <SectionTitle text="Air Temperature" />
             <Text style={[styles.bodyText, { fontWeight: '600', marginBottom: Spacing.xs }]}>Ideal range</Text>
-            <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} />
-            <InfoRow icon="thermometer-outline" text={`Min ${plant.temp_min_c}°C / Max ${plant.temp_max_c}°C`} sub="Survival limits" />
+            <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} formatT={fmtTemp} />
+            <InfoRow icon="thermometer-outline" text={`Min ${fmtTemp(plant.temp_min_c)} / Max ${fmtTemp(plant.temp_max_c)}`} sub="Survival limits" />
             <TouchableOpacity onPress={() => setShowTempGuide(true)} style={styles.guideBtn}>
               <Text style={styles.guideBtnText}>Temperature & climate</Text>
               <Ionicons name="chevron-forward" size={16} color={Colors.primary} />
@@ -1249,9 +1259,9 @@ export default function PlantDetailScreen() {
             <Text style={styles.guideSectionTitle}>Indoor temperature for {title}</Text>
             <Text style={styles.bodyText}>
               {plant.preset === 'Tropical'
-                ? `${title} is a tropical plant. It thrives at typical room temperature (18–27°C) all year. No special temperature adjustments needed indoors.`
+                ? `${title} is a tropical plant. It thrives at typical room temperature (${fmtTemp(18)}–${fmtTemp(27)}) all year. No special temperature adjustments needed indoors.`
                 : plant.preset === 'Succulents'
-                ? `${title} comes from an arid climate. Normal room temperature works year-round. A slight winter cool-down (10–15°C) can encourage blooming, but is not required to keep the plant alive.`
+                ? `${title} comes from an arid climate. Normal room temperature works year-round. A slight winter cool-down (${fmtTemp(10)}–${fmtTemp(15)}) can encourage blooming, but is not required to keep the plant alive.`
                 : plant.preset === 'Herbs'
                 ? `${title} prefers moderate temperatures. Some herbs from temperate climates benefit from cooler winters. Avoid hot radiators and cold drafts equally.`
                 : `${title} is a temperate plant. It may need a cooler winter period (dormancy) to stay healthy long-term. Without winter cool-down, it can weaken and become susceptible to pests.`
@@ -1259,12 +1269,12 @@ export default function PlantDetailScreen() {
             </Text>
 
             <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.md }]}>Summer (optimal)</Text>
-            <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} color="#EF4444" />
+            <TempRangeBar optLow={plant.temp_opt_low_c} optHigh={plant.temp_opt_high_c} color="#EF4444" formatT={fmtTemp} />
 
             {plant.temp_winter_low_c > 0 && (
               <>
                 <Text style={[styles.bodyText, { fontWeight: '600', marginTop: Spacing.md }]}>Winter (optimal)</Text>
-                <TempRangeBar optLow={plant.temp_winter_low_c} optHigh={plant.temp_winter_high_c} color="#6B7280" />
+                <TempRangeBar optLow={plant.temp_winter_low_c} optHigh={plant.temp_winter_high_c} color="#6B7280" formatT={fmtTemp} />
               </>
             )}
 
@@ -1282,7 +1292,7 @@ export default function PlantDetailScreen() {
               <InfoBox text="Enable location services to see current outdoor temperature in your area and whether it's safe to place this plant outside." variant="info" />
             ) : (
               <InfoBox
-                text={`It's ${Math.round(locationData.currentTemp)}°C outside right now. ${
+                text={`It's ${fmtTemp(Math.round(locationData.currentTemp))} outside right now. ${
                   locationData.currentTemp >= plant.temp_opt_low_c && locationData.currentTemp <= plant.temp_opt_high_c
                     ? 'This is within the optimal range for this plant.'
                     : locationData.currentTemp >= plant.temp_min_c
@@ -1320,8 +1330,8 @@ export default function PlantDetailScreen() {
               {plant.temp_min_c <= 0
                 ? `${title} tolerates light frost and can stay outdoors longer than most houseplants. Still, potted plants are more vulnerable than those in the ground.`
                 : plant.temp_min_c <= 5
-                ? `${title} can go outdoors in warm months but must come inside before temperatures drop below ${plant.temp_min_c}°C.`
-                : `${title} is sensitive to cold. Only put outdoors when nighttime temperatures are consistently above ${plant.temp_min_c + 5}°C.`
+                ? `${title} can go outdoors in warm months but must come inside before temperatures drop below ${fmtTemp(plant.temp_min_c)}.`
+                : `${title} is sensitive to cold. Only put outdoors when nighttime temperatures are consistently above ${fmtTemp(plant.temp_min_c + 5)}.`
               }
             </Text>
 
@@ -1343,7 +1353,7 @@ export default function PlantDetailScreen() {
             )}
 
             <Text style={styles.guideSectionTitle}>Frost tolerance</Text>
-            <InfoRow icon="thermometer-outline" text={`${plant.temp_min_c}°C (${Math.round(plant.temp_min_c * 9 / 5 + 32)}°F)`} sub="Lowest temp to survive when potted" />
+            <InfoRow icon="thermometer-outline" text={fmtTemp(plant.temp_min_c)} sub="Lowest temp to survive when potted" />
             <InfoBox text="This is the temperature the plant can endure — not the temperature it prefers. At this point the plant suffers: leaves may drop, growth stops, scarring occurs. It should survive and recover once moved to warmth." variant="info" />
 
             <Text style={styles.guideSectionTitle}>Potted vs in ground</Text>
@@ -1364,7 +1374,7 @@ export default function PlantDetailScreen() {
             {locationData.error ? (
               <InfoBox text="Enable location services and we will determine your frost tolerance zone automatically." variant="info" />
             ) : !locationData.isLoading ? (
-              <InfoBox text={`Your zone: ${locationData.hardinessZone}. Current outdoor temperature: ${Math.round(locationData.currentTemp)}°C.`} variant="success" />
+              <InfoBox text={`Your zone: ${locationData.hardinessZone}. Current outdoor temperature: ${fmtTemp(Math.round(locationData.currentTemp))}.`} variant="success" />
             ) : null}
           </ScrollView>
         </View>
@@ -1915,9 +1925,10 @@ function RepottingAccordion() {
 
 // ─── Temperature range bar ───────────────────────────────────────────
 
-function TempRangeBar({ optLow, optHigh, color, label }: {
-  optLow: number; optHigh: number; color?: string; label?: string;
+function TempRangeBar({ optLow, optHigh, color, label, formatT }: {
+  optLow: number; optHigh: number; color?: string; label?: string; formatT?: (c: number) => string;
 }) {
+  const fmt = formatT ?? ((c: number) => `${c}°C`);
   // Fixed scale 0-30°C like Planta
   const scaleMin = 0;
   const scaleMax = 30;
@@ -1930,13 +1941,13 @@ function TempRangeBar({ optLow, optHigh, color, label }: {
     <View style={styles.tempBarContainer}>
       <View style={styles.tempBarTrack}>
         <View style={[styles.tempBarOptimal, { left: `${leftPct}%`, width: `${widthPct}%`, backgroundColor: barColor }]}>
-          <Text style={styles.tempBarInnerLabel}>{label ?? `${optLow}°C – ${optHigh}°C`}</Text>
+          <Text style={styles.tempBarInnerLabel}>{label ?? `${fmt(optLow)} – ${fmt(optHigh)}`}</Text>
         </View>
       </View>
       <View style={styles.tempBarLabels}>
-        <Text style={styles.tempBarLabel}>{scaleMin}°C</Text>
-        <Text style={styles.tempBarLabel}>15°C</Text>
-        <Text style={styles.tempBarLabel}>{scaleMax}°C</Text>
+        <Text style={styles.tempBarLabel}>{fmt(scaleMin)}</Text>
+        <Text style={styles.tempBarLabel}>{fmt(15)}</Text>
+        <Text style={styles.tempBarLabel}>{fmt(scaleMax)}</Text>
       </View>
     </View>
   );
