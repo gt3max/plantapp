@@ -469,8 +469,14 @@ export default function PlantDetailScreen() {
         wateringFreqDays: plant.watering_freq_summer_days,
       },
       {
-        onError: (err) => {
-          Alert.alert('Error', err instanceof Error ? err.message : 'Failed to save plant');
+        onError: (err: unknown) => {
+          const axiosErr = err as { response?: { status?: number; data?: unknown }; message?: string };
+          console.log('[SAVE ERROR]', JSON.stringify({
+            status: axiosErr.response?.status,
+            data: axiosErr.response?.data,
+            message: axiosErr.message ?? String(err),
+          }));
+          Alert.alert('Error', axiosErr.message ?? 'Failed to save plant');
         },
       },
     );
@@ -1094,18 +1100,18 @@ export default function PlantDetailScreen() {
         </View>
       </ScrollView>
 
-      {/* ═══ ADD TO MY PLANTS (floating button, only when not in collection) ═══ */}
+      {/* ═══ ADD TO MY PLANTS (floating button) ═══ */}
       {!plant.isInCollection && (
         <View style={styles.addToCollectionBar}>
           <TouchableOpacity
             onPress={handleAddToCollection}
-            style={styles.addToCollectionBtn}
-            disabled={saveMutation.isPending}
+            style={[styles.addToCollectionBtn, saveMutation.isSuccess && { backgroundColor: Colors.success }]}
+            disabled={saveMutation.isPending || saveMutation.isSuccess}
             activeOpacity={0.8}
           >
-            <Ionicons name="add-circle-outline" size={20} color="#fff" />
+            <Ionicons name={saveMutation.isSuccess ? 'checkmark-circle' : 'add-circle-outline'} size={20} color="#fff" />
             <Text style={styles.addToCollectionText}>
-              {saveMutation.isPending ? 'Saving...' : 'Add to My Plants'}
+              {saveMutation.isSuccess ? 'Added ✓' : saveMutation.isPending ? 'Saving...' : 'Add to My Plants'}
             </Text>
           </TouchableOpacity>
         </View>
