@@ -159,11 +159,17 @@ class ToxicityInfo {
 class SavePlantInput {
   final String? deviceId;
   final Map<String, dynamic> plant;
+  final int? wateringFreqDays;
 
-  const SavePlantInput({this.deviceId, required this.plant});
+  const SavePlantInput({
+    this.deviceId,
+    required this.plant,
+    this.wateringFreqDays,
+  });
 
   Map<String, dynamic> toJson() => {
         if (deviceId != null) 'device_id': deviceId,
         'plant': plant,
+        if (wateringFreqDays != null) 'wateringFreqDays': wateringFreqDays,
       };
 }
