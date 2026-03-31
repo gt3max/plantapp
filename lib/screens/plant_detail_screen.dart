@@ -1010,142 +1010,409 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   }
 
   List<Widget> _guideContent(String key, _PresetCare care) {
-    final lib = _lib;
+    final p = _lib;
+    final c = p?.care;
     switch (key) {
+      // ═══ WATERING GUIDE (RN 1:1) ═══
       case 'water':
         return [
-          _guideSection('How to water $_title', lib?.wateringMethod ?? care.watering),
-          if (lib?.wateringAvoid.isNotEmpty == true)
-            _guideSection('What to avoid', lib!.wateringAvoid),
-          if (lib?.care.wateringWinter.isNotEmpty == true)
-            _guideSection('Winter watering', lib!.care.wateringWinter),
-          _guideSection('Drainage', 'Make sure your pot has drainage holes. Without drainage, water collects at the bottom and roots rot.'),
-          if (lib?.care.tips.isNotEmpty == true)
-            _guideSection('Tips', lib!.care.tips)
-          else
-            _guideSection('Tips', care.tips),
+          _guideSection('Watering frequency', 'Every ~$_currentWateringDays days in ${_months[DateTime.now().month - 1]}'),
+          _guideSection('How to water $_title', p?.wateringMethod ?? c?.watering ?? care.watering),
+          if (p?.wateringAvoid.isNotEmpty == true) ...[
+            _guideSectionTitle('What to avoid'),
+            InfoBox(text: p!.wateringAvoid, variant: 'warning'),
+          ],
+          _guideSectionTitle('Drainage'),
+          InfoBox(text: 'Make sure your pot has drainage holes at the bottom. Without drainage, water collects and roots rot. If your pot has no holes, use it as a cachepot \u2014 place a smaller pot with holes inside.', variant: 'info'),
+          // Watering methods
+          _guideSectionTitle('Watering methods'),
+          _guideMethod('Water over soil', 'Slowly pour water over the soil surface until it runs out of drainage holes. Let it drain completely. Discard excess from the saucer.', (p?.wateringMethod ?? '').contains('soil')),
+          _guideMethod('Bottom watering', 'Place the pot in a tray of water for 15\u201320 minutes. The soil absorbs water from below through the drainage holes. Remove and let drain.', (p?.wateringMethod ?? '').toLowerCase().contains('bottom')),
+          _guideMethod('Water bath / soak', 'Submerge the entire pot in water for 10\u201315 minutes, then drain. Best for bark-based substrates (orchids) and very dry soil that repels water from the top.', (p?.wateringMethod ?? '').toLowerCase().contains('soak') || (p?.wateringMethod ?? '').toLowerCase().contains('bark')),
         ];
-      case 'soil':
-        return [
-          _guideSection('Recommended soil', lib?.care.soil ?? care.soil),
-          if (lib?.soilTypes.isNotEmpty == true)
-            _guideSection('Soil components', lib!.soilTypes.join(', ')),
-          _guideSection('Repotting', lib?.care.repot ?? care.repot),
-          if (lib?.repotSigns.isNotEmpty == true)
-            _guideSection('Signs to repot', lib!.repotSigns),
-          if (lib?.potType.isNotEmpty == true)
-            _guideSection('Pot type', lib!.potType),
-          if (lib?.potSizeNote.isNotEmpty == true)
-            _guideSection('Pot size', lib!.potSizeNote),
-        ];
-      case 'fertilizing':
-        return [
-          _guideSection('Schedule', '${lib?.care.fertilizer ?? care.fertilizer}\nSeason: ${lib?.care.fertilizerSeason ?? care.fertilizerSeason}'),
-          if (lib?.fertilizerTypes.isNotEmpty == true)
-            _guideSection('Recommended fertilizers', lib!.fertilizerTypes.join(', ')),
-          if (lib?.fertilizerNpk.isNotEmpty == true)
-            _guideSection('NPK ratio', lib!.fertilizerNpk),
-          if (lib?.fertilizerWarning.isNotEmpty == true)
-            _guideSection('Warning', lib!.fertilizerWarning),
-          _guideSection('When NOT to fertilize', 'In winter (plant is dormant), right after repotting, when soil is dry (water first), when plant is stressed or sick.'),
-        ];
+      // ═══ LIGHT GUIDE (RN 1:1) ═══
       case 'light':
+        final lightText = c?.light ?? care.light;
         return [
-          _guideSection('Preferred light', lib?.care.light ?? care.light),
-          if (lib?.care.lightAlsoOk.isNotEmpty == true)
-            _guideSection('Also suitable', lib!.care.lightAlsoOk),
-          _guideSection('Signs of too little light', 'Leaves turn yellow, plant stretches towards light, slow weak growth, leaves far apart on stem.'),
-          _guideSection('Signs of too much light', 'Leaves drooping, leaf edges dry up, color fading, flowers shrivel.'),
-          if ((lib?.care.ppfdMin ?? 0) > 0)
-            _guideSection('Light intensity', 'PPFD: ${lib!.care.ppfdMin}\u2013${lib.care.ppfdMax} \u00B5mol/m\u00B2/s\nDLI: ${lib.care.dliMin}\u2013${lib.care.dliMax} mol/m\u00B2/day'),
+          _guideSection('How to light $_title',
+            lightText.contains('Full') || lightText.contains('Bright')
+              ? 'South-facing window, 6+ hours direct sun.'
+              : lightText.contains('indirect')
+                ? 'East or west window. No direct sun.'
+                : 'North-facing window or away from direct light.'),
+          // Light levels
+          _guideSectionTitle('Light levels'),
+          _guideMethod('Full sun (6+ hours direct)', 'Aloes, Succulents, Cacti, Herbs. Place in south-facing window.', lightText.contains('Full') || lightText.contains('direct')),
+          _guideMethod('Part sun / bright indirect (2\u20134 hours)', 'Monstera, Orchids, Calathea. East or west window, or sheer curtain on south.', lightText.contains('indirect') || lightText.contains('Bright')),
+          _guideMethod('Shade (no direct sun)', 'ZZ Plant, Pothos, Snake Plant. North-facing window or interior of room.', lightText.contains('Low') || lightText.contains('shade')),
+          // Warnings
+          _guideSectionTitle('Warnings'),
+          if (lightText.contains('Full') || lightText.contains('Bright')) ...[
+            InfoBox(text: 'Without enough light, $_title will stretch, lose color, and weaken.', variant: 'warning'),
+            InfoBox(text: 'In northern regions Oct\u2013Mar, $_title may need a grow light (full-spectrum LED, 12\u201314h daily).', variant: 'warning'),
+          ] else if (lightText.contains('indirect')) ...[
+            InfoBox(text: 'Direct sun burns the leaves of $_title. Keep away from unfiltered south-facing windows.', variant: 'warning'),
+          ] else ...[
+            InfoBox(text: '$_title tolerates low light, but growth will slow significantly in very dark spots.', variant: 'info'),
+          ],
+          _guideSectionTitle('Signs of incorrect lighting'),
+          _guideSection('Not enough light', '\u2022 Leaves turn yellow and fall off\n\u2022 New leaves smaller than older ones\n\u2022 Plant stretches towards light\n\u2022 Slow, weak growth\n\u2022 Leaves far apart on stem'),
+          _guideSection('Too much light', '\u2022 Leaves drooping\n\u2022 Leaf edges dry up\n\u2022 Color fading\n\u2022 Flowers shrivel and die'),
+          if ((c?.ppfdMin ?? 0) > 0) ...[
+            _guideSectionTitle('Light intensity'),
+            _InfoRow(icon: Icons.wb_sunny_outlined, text: '${c!.ppfdMin}\u2013${c.ppfdMax} PPFD', sub: 'Photosynthetic Photon Flux Density'),
+            _InfoRow(icon: Icons.timer_outlined, text: '${c.dliMin}\u2013${c.dliMax} DLI', sub: 'Daily Light Integral'),
+            InfoBox(text: 'PPFD measures how much usable light reaches the plant per second. DLI is the total light received per day. These values help when choosing a grow light \u2014 match its output to the plant\u2019s needs.', variant: 'info'),
+          ],
         ];
+      // ═══ HUMIDITY GUIDE (RN 1:1) ═══
       case 'humidity':
+        final humText = (c?.humidity ?? care.humidity).toLowerCase();
         return [
-          _guideSection('Recommended level', lib?.care.humidity ?? care.humidity),
-          if (lib?.care.humidityAction.isNotEmpty == true)
-            _guideSection('What to do', lib!.care.humidityAction),
-          _guideSection('How to increase humidity', 'Group plants together, use a pebble tray with water, mist leaves in the morning, use a humidifier.'),
-          _guideSection('How to decrease humidity', 'Improve air circulation, open a window, use a small fan. Avoid overcrowding plants.'),
+          _guideSection('Humidity for $_title', c?.humidity ?? care.humidity),
+          if (c?.humidityAction.isNotEmpty == true)
+            _guideSection('', c!.humidityAction),
+          _guideSectionTitle('Warnings'),
+          if (humText.contains('high') || humText.contains('60') || humText.contains('70') || humText.contains('80')) ...[
+            InfoBox(text: '$_title needs high humidity. In dry apartments (especially with central heating in winter), leaf tips will turn brown and crispy.', variant: 'warning'),
+            InfoBox(text: 'Low humidity also attracts spider mites \u2014 the #1 indoor pest for tropical plants.', variant: 'warning'),
+          ] else if (humText.contains('low') || humText.contains('dry')) ...[
+            InfoBox(text: '$_title prefers dry air. High humidity causes fungal issues and root rot. Do not mist this plant.', variant: 'warning'),
+            InfoBox(text: 'Avoid placing in bathrooms or near humidifiers.', variant: 'warning'),
+          ] else ...[
+            InfoBox(text: '$_title does fine in average room humidity (40\u201360%). No special measures needed in most homes.', variant: 'info'),
+          ],
+          _guideSectionTitle('How to increase humidity'),
+          _guideSection('', '\u2022 Group plants together \u2014 they create a shared humid microclimate\n\u2022 Place pot on a tray with pebbles and water (not touching pot bottom)\n\u2022 Mist leaves in the morning (not evening \u2014 fungal risk)\n\u2022 Use a humidifier in the room'),
+          _guideSectionTitle('How to decrease humidity'),
+          _guideSection('', '\u2022 Improve air circulation \u2014 open a window, use a small fan\n\u2022 Reduce misting\n\u2022 Move plant to a drier room\n\u2022 Avoid overcrowding plants'),
         ];
+      // ═══ TEMPERATURE GUIDE (RN 1:1) ═══
       case 'temperature':
         return [
-          _guideSection('Ideal range', lib?.care.temperature ?? care.temperature),
-          if (lib?.tempWarning.isNotEmpty == true)
-            _guideSection('Warning', lib!.tempWarning),
-          _guideSection('Common indoor problems', 'Cold drafts from windows, hot air from radiators, dry air from air conditioning, sudden temperature swings when opening doors in winter.'),
+          _guideSection('Indoor temperature for $_title',
+            _preset == 'Tropical'
+              ? '$_title is a tropical plant. It thrives at typical room temperature (${_fmtTemp(18)}\u2013${_fmtTemp(27)}) all year. No special temperature adjustments needed indoors.'
+              : _preset == 'Succulents'
+                ? '$_title comes from an arid climate. Normal room temperature works year-round. A slight winter cool-down (${_fmtTemp(10)}\u2013${_fmtTemp(15)}) can encourage blooming, but is not required.'
+                : _preset == 'Herbs'
+                  ? '$_title prefers moderate temperatures. Some herbs from temperate climates benefit from cooler winters. Avoid hot radiators and cold drafts equally.'
+                  : '$_title is a temperate plant. It may need a cooler winter period (dormancy) to stay healthy long-term.'),
+          _guideSectionTitle('Summer (optimal)'),
+          TempRangeBar(optLow: p?.tempOptLowC ?? 15, optHigh: p?.tempOptHighC ?? 25, color: const Color(0xFFEF4444), formatT: _fmtTemp),
+          if ((p?.tempWinterLowC ?? 0) > 0) ...[
+            _guideSectionTitle('Winter (optimal)'),
+            TempRangeBar(optLow: p!.tempWinterLowC, optHigh: p.tempWinterHighC, color: const Color(0xFF6B7280), formatT: _fmtTemp),
+          ],
+          if (p?.tempWarning.isNotEmpty == true) ...[
+            _guideSectionTitle('Warnings'),
+            InfoBox(text: p!.tempWarning, variant: 'warning'),
+          ],
+          _guideSectionTitle('Common indoor problems'),
+          _guideSection('', '\u2022 Cold drafts from windows \u2014 move plant away from drafty spots in winter\n\u2022 Hot radiators \u2014 dry out the air and overheat roots on the side closest to heat\n\u2022 Air conditioning \u2014 sudden cold blasts stress tropical plants\n\u2022 Temperature swings day/night \u2014 most plants prefer stable temperature'),
         ];
+      // ═══ OUTDOOR GUIDE (RN 1:1) ═══
       case 'outdoor':
+        final tempMin = p?.tempMinC ?? 5;
         return [
-          _guideSection('Moving outdoors', 'Check local temperatures before moving plants outside. Acclimatize gradually over 1\u20132 weeks in a sheltered spot.'),
-          _guideSection('Bring inside when', 'Night temperatures drop below the plant\'s minimum tolerance (${_fmtTemp(lib?.tempMinC ?? 5)}). Usually before first frost.'),
+          _guideSection('$_title outdoors',
+            tempMin <= 0
+              ? '$_title tolerates light frost and can stay outdoors longer than most houseplants. Still, potted plants are more vulnerable than those in the ground.'
+              : tempMin <= 5
+                ? '$_title can go outdoors in warm months but must come inside before temperatures drop below ${_fmtTemp(tempMin)}.'
+                : '$_title is sensitive to cold. Only put outdoors when nighttime temperatures are consistently above ${_fmtTemp(tempMin + 5)}.'),
+          _guideSectionTitle('Frost tolerance'),
+          _InfoRow(icon: Icons.thermostat_outlined, text: _fmtTemp(tempMin), sub: 'Lowest temp to survive when potted'),
+          InfoBox(text: 'This is the temperature the plant can endure \u2014 not the temperature it prefers. At this point the plant suffers: leaves may drop, growth stops, scarring occurs. It should survive and recover once moved to warmth.', variant: 'info'),
+          _guideSectionTitle('Potted vs in ground'),
+          _guideSection('', 'A plant in the ground has soil insulation protecting its roots. A potted plant has exposed sides \u2014 the pot freezes through much faster. This means potted plants need to come inside earlier in autumn and go out later in spring.'),
+          _guideSectionTitle('Frost tolerance zones'),
+          _guideSection('', 'A frost tolerance zone is based on the average lowest winter temperature in your area. Zones range from 1a (coldest, below \u221251\u00B0C) to 13b (warmest, above 21\u00B0C). Each zone spans about 5\u00B0C.\n\nImportant: these zones assume the plant is in the ground. Potted plants are 1\u20132 zones less hardy.'),
         ];
+      // ═══ TOXICITY GUIDE (RN 1:1) ═══
       case 'toxicity':
         return [
-          if (lib?.toxicParts.isNotEmpty == true)
-            _guideSection('Toxic parts', lib!.toxicParts),
-          if (lib?.toxicitySymptoms.isNotEmpty == true)
-            _guideSection('Symptoms', lib!.toxicitySymptoms),
-          if (lib?.toxicityFirstAid.isNotEmpty == true)
-            _guideSection('First aid', lib!.toxicityFirstAid),
-          if (lib?.toxicityNote.isNotEmpty == true)
-            _guideSection('Note', lib!.toxicityNote),
-          _guideSection('Disclaimer', 'This information is for reference only. In case of ingestion, always contact poison control or a veterinarian immediately.'),
+          _guideSection('Toxicity of $_title', ''),
+          _InfoRow(icon: Icons.warning_amber_outlined, text: p?.toxicitySeverity.isNotEmpty == true ? '${p!.toxicitySeverity} toxicity' : 'Toxic', iconColor: AppColors.error),
+          _ChipRow(chips: [
+            if (p?.poisonousToHumans == true) 'Humans',
+            if (p?.poisonousToPets == true) ...'Cats,Dogs'.split(','),
+          ]),
+          if (p?.toxicParts.isNotEmpty == true) ...[
+            _guideSectionTitle('Toxic parts'),
+            _guideSection('', p!.toxicParts),
+          ],
+          if (p?.edible == true && p?.edibleParts.isNotEmpty == true) ...[
+            _guideSectionTitle('Edible parts'),
+            _InfoRow(icon: Icons.restaurant_outlined, text: p!.edibleParts, iconColor: AppColors.success),
+          ],
+          if (p?.toxicitySymptoms.isNotEmpty == true) ...[
+            _guideSectionTitle('Symptoms by exposure'),
+            ...p!.toxicitySymptoms.split('\n').where((l) => l.isNotEmpty).map((line) {
+              final parts = line.split(': ');
+              if (parts.length >= 2) {
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Text(parts[0], style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+                    Text(parts.sublist(1).join(': '), style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4)),
+                  ]),
+                );
+              }
+              return _guideSection('', line);
+            }),
+          ],
+          if (p?.toxicityFirstAid.isNotEmpty == true) ...[
+            _guideSectionTitle('What to do'),
+            ...p!.toxicityFirstAid.split('\n').where((l) => l.isNotEmpty).map((line) {
+              final parts = line.split(': ');
+              if (parts.length >= 2) {
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+                  child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                    Text(parts[0], style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+                    Text(parts.sublist(1).join(': '), style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4)),
+                  ]),
+                );
+              }
+              return _guideSection('', line);
+            }),
+          ],
+          if (p?.toxicityNote.isNotEmpty == true)
+            InfoBox(text: p!.toxicityNote, variant: 'warning'),
+          _guideSectionTitle('Disclaimer'),
+          InfoBox(text: 'Toxicity information is compiled from multiple botanical sources and may not be exhaustive. Individual reactions vary. If you or your pet ingested any plant material and feel unwell, contact a medical professional or poison control center immediately. This is not medical advice.', variant: 'info'),
         ];
-      case 'harvest':
+      // ═══ SOIL / REPOTTING GUIDE (RN 1:1) ═══
+      case 'soil':
         return [
-          if (lib?.edibleParts.isNotEmpty == true)
-            _guideSection('Edible parts', lib!.edibleParts),
-          if (lib?.harvestInfo.isNotEmpty == true)
-            _guideSection('How to harvest', lib!.harvestInfo),
-          if (_plantType == 'greens')
-            _guideSection('Harvesting tips', 'Harvest from the top, cutting above a leaf pair. Never take more than 1/3 of the plant at once. Morning harvest preserves the most flavor. Pinch off flower buds to extend leaf production.')
-          else if (_plantType == 'fruiting')
-            _guideSection('Fruit ripeness', 'Pick when fully colored and slightly soft to the touch. Harvest regularly to encourage continued production. Green unripe fruit may contain toxins.'),
+          _guideSection('Repotting $_title', ''),
+          _InfoRow(icon: Icons.swap_vert, text: c?.repot ?? care.repot, sub: 'Frequency'),
+          if (p?.repotSigns.isNotEmpty == true) ...[
+            Text('Signs it\'s time:', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+            _guideSection('', p!.repotSigns),
+          ],
+          _guideSectionTitle('Pot'),
+          if (p?.potType.isNotEmpty == true)
+            _InfoRow(icon: Icons.inventory_2_outlined, text: p!.potType),
+          if (p?.potSizeNote.isNotEmpty == true)
+            _guideSection('', p!.potSizeNote),
+          InfoBox(text: 'Always use a pot with drainage holes. No drainage = standing water = root rot. If you love a decorative pot without holes, use it as a cachepot \u2014 place a smaller pot with holes inside.', variant: 'warning'),
+          // Repotting steps
+          _guideSectionTitle('How to repot (step by step)'),
+          _guideSection('', '1. Water the plant the day before repotting\n2. Choose a pot 2\u20134 cm wider than the current one\n3. Add drainage material (expanded clay, gravel) to the bottom\n4. Fill 1/3 with fresh soil\n5. Carefully remove the plant \u2014 squeeze the pot or use a knife along the edges\n6. Inspect roots \u2014 trim any dead (brown, mushy) roots with clean scissors\n7. Place plant in the new pot at the same depth as before\n8. Fill with soil around the root ball, press gently\n9. Water thoroughly and let drain'),
+          _guideSectionTitle('Soil for $_title'),
+          _guideSection('', c?.soil ?? care.soil),
+          if (p?.soilTypes.isNotEmpty == true) ...[
+            _guideSectionTitle('Recommended soil types'),
+            _ChipRow(chips: p!.soilTypes),
+          ],
+          _guideSectionTitle('Cleaning'),
+          _guideSection('', 'Wipe leaves with a damp cloth regularly. Dust blocks light absorption and slows photosynthesis. For fuzzy-leaved plants, use a soft brush instead.'),
         ];
-      case 'propagation':
+      // ═══ FERTILIZING GUIDE (RN 1:1) ═══
+      case 'fertilizing':
         return [
-          if (lib?.propagationMethods.isNotEmpty == true)
-            _guideSection('Methods', lib!.propagationMethods.join(', ')),
-          if (lib?.propagationDetail.isNotEmpty == true)
-            _guideSection('How to propagate', lib!.propagationDetail),
-          if ((lib?.germinationDays ?? 0) > 0)
-            _guideSection('From seed', 'Germination: ${lib!.germinationDays} days at ${lib.germinationTempC}'),
-          _guideSection('General tips', 'Use clean, sharp tools. Best time: spring or early summer. Keep cuttings in moist (not soggy) soil. Bright indirect light. Be patient \u2014 rooting takes weeks.'),
+          _guideSection('Fertilizing $_title', ''),
+          _InfoRow(icon: Icons.eco_outlined, text: c?.fertilizer ?? care.fertilizer, sub: c?.fertilizerSeason ?? care.fertilizerSeason),
+          if (p?.fertilizerTypes.isNotEmpty == true) ...[
+            _guideSectionTitle('Recommended fertilizers'),
+            _ChipRow(chips: p!.fertilizerTypes),
+          ],
+          if (p?.fertilizerNpk.isNotEmpty == true) ...[
+            _guideSectionTitle('NPK ratio'),
+            _InfoRow(icon: Icons.science_outlined, text: p!.fertilizerNpk, sub: 'Nitrogen \u2013 Phosphorus \u2013 Potassium'),
+            InfoBox(text: 'NPK is the three numbers on every fertilizer bottle. N (nitrogen) = leaf growth. P (phosphorus) = roots and flowers. K (potassium) = overall health and fruit. Match the ratio to what your plant needs most.', variant: 'info'),
+          ],
+          if (p?.fertilizerWarning.isNotEmpty == true) ...[
+            _guideSectionTitle('Warnings'),
+            InfoBox(text: p!.fertilizerWarning, variant: 'warning'),
+          ],
+          _guideSectionTitle('When NOT to fertilize'),
+          _guideSection('', '\u2022 Winter \u2014 plant is dormant, nutrients accumulate and burn roots\n\u2022 Right after repotting \u2014 fresh soil has nutrients for 2\u20134 weeks\n\u2022 Sick or stressed plant \u2014 fix the problem first, then feed\n\u2022 Dry soil \u2014 always water before fertilizing to avoid root burn'),
+          _guideSectionTitle('Signs of over-fertilizing'),
+          _guideSection('', '\u2022 White crust on soil surface (salt buildup)\n\u2022 Brown, crispy leaf tips and edges\n\u2022 Wilting despite moist soil\n\u2022 Slow growth or dropping leaves'),
+          _guideSectionTitle('Signs of under-fertilizing'),
+          _guideSection('', '\u2022 Pale or yellow leaves (especially older ones)\n\u2022 Slow or stunted growth\n\u2022 Small new leaves\n\u2022 No flowers on a flowering plant'),
         ];
+      // ═══ SIZE GUIDE (RN 1:1) ═══
       case 'size':
         return [
-          _guideSection('Dimensions', '${lib?.heightMinCm ?? 0}\u2013${lib?.heightMaxCm ?? 0} cm height (mature, in ground)\n${(lib?.spreadMaxCm ?? 0) > 0 ? 'Spread: up to ${lib!.spreadMaxCm} cm' : ''}'),
-          if ((lib?.heightIndoorMaxCm ?? 0) > 0)
-            _guideSection('In a pot', 'Realistic indoor height: up to ${lib!.heightIndoorMaxCm} cm. Pot size limits root growth which limits plant size.'),
-          if (lib?.growthRate.isNotEmpty == true)
-            _guideSection('Growth rate', lib!.growthRate),
+          _guideSection('$_title dimensions', ''),
+          _InfoRow(icon: Icons.height_outlined, text: '${p?.heightMinCm ?? 0} \u2013 ${p?.heightMaxCm ?? 0} cm', sub: 'Height (mature plant, in ground)'),
+          if ((p?.spreadMaxCm ?? 0) > 0)
+            _InfoRow(icon: Icons.swap_horiz_outlined, text: 'Up to ${p!.spreadMaxCm} cm', sub: 'Crown diameter'),
+          _InfoRow(icon: Icons.trending_up_outlined, text: p?.growthRate ?? 'Not specified', sub: 'Growth rate'),
+          InfoBox(text: 'These dimensions are for a full grown plant in ideal conditions (in ground, outdoors). Indoor plants in pots will be significantly smaller.', variant: 'info'),
+          if ((p?.heightIndoorMaxCm ?? 0) > 0) ...[
+            _guideSectionTitle('In a pot'),
+            _InfoRow(icon: Icons.inventory_2_outlined, text: 'Up to ${p!.heightIndoorMaxCm} cm', sub: 'Realistic height in a pot'),
+            _guideSection('', 'A pot limits root space, which limits the plant\u2019s overall size. The bigger the pot \u2014 the bigger the plant can grow. But too big a pot holds excess moisture and causes root rot.'),
+          ],
+          _guideSectionTitle('Recommended pot size'),
+          _guideSection('',
+            _preset == 'Succulents' ? 'Start with a pot 2\u20133 cm wider than the root ball. Succulents prefer snug pots \u2014 too much soil stays wet and causes rot.'
+              : _preset == 'Tropical' ? 'Start with a pot 3\u20135 cm wider than the root ball. Tropical plants grow faster and need room, but not too much at once.'
+              : _preset == 'Herbs' ? 'For herbs, a pot 15\u201320 cm in diameter works for most. Deeper pots for plants with long roots (rosemary), shallower for bushy herbs (basil).'
+              : 'Start with a pot 2\u20134 cm wider than the root ball. Upsize gradually \u2014 one size at a time.'),
+          _guideSectionTitle('If your plant is not growing'),
+          _guideSection('', '\u2022 Not enough light \u2014 the #1 reason for stunted growth indoors\n\u2022 Pot too small \u2014 roots have nowhere to go\n\u2022 Wrong soil \u2014 compacted soil chokes roots\n\u2022 Not enough nutrients \u2014 time to fertilize\n\u2022 Dormancy \u2014 normal in winter, growth resumes in spring\n\u2022 Root rot \u2014 check roots if plant is wilting despite watering'),
         ];
+      // ═══ PROPAGATION GUIDE (RN 1:1) ═══
+      case 'propagation':
+        return [
+          _guideSection('How to propagate $_title', ''),
+          if (p?.propagationMethods.isNotEmpty == true) ...[
+            Text('Methods', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+            _ChipRow(chips: p!.propagationMethods),
+          ],
+          if (p?.propagationDetail.isNotEmpty == true)
+            _guideSection('', p!.propagationDetail),
+          if ((p?.germinationDays ?? 0) > 0) ...[
+            _guideSectionTitle('From seed (germination)'),
+            _InfoRow(icon: Icons.timer_outlined, text: '~${p!.germinationDays} days', sub: 'Time to germinate'),
+            if (p.germinationTempC.isNotEmpty)
+              _InfoRow(icon: Icons.thermostat_outlined, text: p.germinationTempC, sub: 'Optimal temperature'),
+          ],
+          _guideSectionTitle('General tips'),
+          _guideSection('', '\u2022 Always use clean, sharp tools when taking cuttings\n\u2022 Spring and early summer are the best time to propagate\n\u2022 Keep soil moist but not soggy for new cuttings\n\u2022 Bright indirect light \u2014 no direct sun on fresh cuttings\n\u2022 Be patient \u2014 rooting can take weeks'),
+        ];
+      // ═══ HARVEST GUIDE (RN 1:1) ═══
+      case 'harvest':
+        return [
+          if (p?.edibleParts.isNotEmpty == true) ...[
+            _guideSectionTitle('Edible parts'),
+            _InfoRow(icon: Icons.restaurant_outlined, text: p!.edibleParts, iconColor: AppColors.success),
+          ],
+          if (p?.harvestInfo.isNotEmpty == true)
+            _guideSection('How to harvest', p!.harvestInfo),
+          if (_plantType == 'fruiting') ...[
+            _guideSectionTitle('Fruit stages'),
+            _guideSection('', '\u2022 Flowering \u2014 pollination needed (shake stems indoors)\n\u2022 Fruit set \u2014 small green fruits appear after pollination\n\u2022 Growing \u2014 fruit enlarges, needs consistent watering\n\u2022 Ripening \u2014 color changes, fruit softens slightly\n\u2022 Harvest \u2014 pick when fully colored and gives slightly to gentle pressure'),
+            InfoBox(text: 'Do not pick too early. Unripe fruit lacks flavor and may contain higher levels of toxins (e.g. solanine in green tomatoes).', variant: 'warning'),
+          ] else if (_plantType == 'greens') ...[
+            _guideSectionTitle('Harvesting tips'),
+            _guideSection('', '\u2022 Always harvest from the top \u2014 cut above a leaf pair\n\u2022 Never take more than one-third of the plant at once\n\u2022 Regular harvesting stimulates bushier growth\n\u2022 Harvest in the morning \u2014 oils and flavor are strongest\n\u2022 Pinch off flower buds immediately \u2014 flowering ends leaf production'),
+          ],
+          if (_isToxic && p?.edible == true)
+            InfoBox(text: 'Some parts of $_title are toxic while others are edible. Always know which parts are safe before consuming.', variant: 'warning'),
+        ];
+      // ═══ LIFECYCLE GUIDE (RN 1:1) ═══
       case 'lifecycle':
         return [
-          _guideSection('Type', '${lib?.lifecycle == 'perennial' ? 'Perennial \u2014 lives for multiple years' : 'Annual \u2014 completes lifecycle in one season'}${lib?.lifecycleYears.isNotEmpty == true ? ' (${lib!.lifecycleYears})' : ''}'),
-          _guideSection('Seasonal care', 'Spring: active growth begins \u2014 increase watering and start fertilizing.\nSummer: peak growth \u2014 regular watering and feeding.\nAutumn: growth slows \u2014 reduce watering and stop fertilizing.\nWinter: dormancy \u2014 minimal watering, no fertilizer.'),
+          _guideSection('About $_title', ''),
+          _InfoRow(icon: Icons.loop_outlined, text: (p?.lifecycle ?? 'perennial') == 'perennial' ? 'Perennial' : 'Annual', sub: p?.lifecycleYears.isNotEmpty == true ? 'Lives ${p!.lifecycleYears} years' : null),
+          if (p?.growthRate.isNotEmpty == true)
+            _InfoRow(icon: Icons.trending_up_outlined, text: p!.growthRate, sub: 'Growth rate'),
+          _guideSectionTitle('What does this mean?'),
+          _guideSection('', (p?.lifecycle ?? 'perennial') == 'perennial'
+            ? 'Perennial plants live for more than two years. They grow actively in spring and summer, then slow down or go dormant in winter. During dormancy, reduce watering and stop fertilizing \u2014 the plant is resting, not dying. Most houseplants are perennials.'
+            : 'Annual plants complete their entire lifecycle in one growing season \u2014 from seed to flower to seed again. After producing seeds, the plant naturally dies. This is normal. To continue growing, start new plants from seed or buy new seedlings each season.'),
+          _guideSectionTitle('Types of plant lifecycles'),
+          Text('Annual', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+          _guideSection('', 'One growing season. Examples: basil, tomato, lettuce, sunflower. Plant \u2192 grow \u2192 harvest \u2192 done.'),
+          Text('Perennial', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+          _guideSection('', 'Lives for years. Examples: monstera, jade plant, orchid, rosemary. Goes dormant in winter, comes back in spring.'),
+          Text('Biennial', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+          _guideSection('', 'Two-year cycle. Examples: parsley, carrot, foxglove. Leaves first year, flowers second year, then dies.'),
+          _guideSectionTitle('Seasonal care tips'),
+          _guideSection('', '\u2022 Spring: active growth starts \u2014 increase watering, start fertilizing\n\u2022 Summer: peak growth \u2014 regular watering and feeding\n\u2022 Autumn: growth slows \u2014 reduce watering gradually\n\u2022 Winter: dormancy \u2014 minimal water, no fertilizer, cooler spot if possible'),
+          if (p?.growthRate.isNotEmpty == true) ...[
+            _guideSectionTitle('Growth rate'),
+            _guideSection('', p!.growthRate == 'Fast' || p.growthRate == 'fast'
+              ? '$_title is a fast grower. Expect visible changes weekly during the growing season. May need more frequent repotting and pruning.'
+              : p.growthRate == 'Slow' || p.growthRate == 'slow'
+                ? '$_title grows slowly. Don\'t worry if you don\'t see changes for weeks \u2014 this is normal. Slow growers are often more tolerant of neglect.'
+                : '$_title has a moderate growth rate. With proper care, you\'ll see steady progress during the growing season.'),
+          ],
         ];
+      // ═══ USED FOR GUIDE (RN 1:1) ═══
       case 'used_for':
+        final tags = p?.usedFor ?? [];
         return [
-          if (lib?.usedForDetails.isNotEmpty == true)
-            _guideSection('About $_title', lib!.usedForDetails),
-          if (lib?.edibleParts.isNotEmpty == true)
-            _guideSection('Edible parts', lib!.edibleParts),
-          if (lib?.harvestInfo.isNotEmpty == true)
-            _guideSection('Harvest', lib!.harvestInfo),
+          _guideSectionTitle('What is $_title used for'),
+          if (tags.isNotEmpty)
+            _ChipRow(chips: tags, green: tags.any((t) => t.contains('Edible') || t.contains('Fruiting'))),
+          if (p?.usedForDetails.isNotEmpty == true)
+            _guideSection('', p!.usedForDetails),
+          if (p?.edibleParts.isNotEmpty == true) ...[
+            _guideSectionTitle('Edible parts'),
+            _InfoRow(icon: Icons.restaurant_outlined, text: p!.edibleParts, iconColor: AppColors.success),
+          ],
+          if (p?.harvestInfo.isNotEmpty == true) ...[
+            _guideSectionTitle('Harvest'),
+            _guideSection('', p!.harvestInfo),
+          ],
+          if (tags.contains('Air purifier')) ...[
+            _guideSectionTitle('Air purification'),
+            InfoBox(text: 'According to the NASA Clean Air Study, certain houseplants can remove common indoor pollutants like formaldehyde, benzene, and trichloroethylene. For noticeable effect, aim for 2\u20133 large plants per average room.', variant: 'info'),
+          ],
+          if (tags.contains('Attracts pollinators')) ...[
+            _guideSectionTitle('Pollinators'),
+            InfoBox(text: 'This plant attracts bees and butterflies. Great for balconies and gardens where you want to support local pollinator populations.', variant: 'info'),
+          ],
         ];
+      // ═══ COMPANION GUIDE (RN 1:1) ═══
       case 'companions':
         return [
-          _guideSection('Why companion planting matters', 'Some plants benefit each other through pest control, pollination, or nutrient sharing. Others compete for resources or inhibit each other\'s growth.'),
-          if (lib?.companionNote.isNotEmpty == true)
-            _guideSection('About $_title', lib!.companionNote),
-          _guideSection('Grouping indoors', 'Group plants with similar humidity needs together. Use tall plants to provide shade for shade-loving neighbors. Keep fragrant herbs near windows. Isolate any plant with pest issues immediately.'),
+          _guideSection('Why companion planting matters', 'Some plants grow better together \u2014 they share nutrients, repel each other\u2019s pests, or create beneficial shade. Others compete for the same resources or release chemicals that inhibit their neighbors.'),
+          if ((p?.goodCompanions ?? []).isNotEmpty) ...[
+            _guideSectionTitle('Good neighbors for $_title'),
+            _ChipRow(chips: p!.goodCompanions, green: true),
+            _guideSection('', p.companionNote.isNotEmpty ? p.companionNote : 'These plants share similar soil and watering requirements, making them ideal pot or garden neighbors.'),
+          ],
+          if ((p?.badCompanions ?? []).isNotEmpty) ...[
+            _guideSectionTitle('Keep apart from $_title'),
+            _ChipRow(chips: p!.badCompanions, red: true),
+            _guideSection('', 'These plants compete for resources, have incompatible soil/water needs, or may inhibit each other\u2019s growth. Keep them in separate containers or different areas.'),
+          ],
+          _guideSectionTitle('Soil sharing tips'),
+          _guideSection('', '\u2022 Plants with similar pH and drainage needs can share soil\n\u2022 After harvesting herbs, their soil is often nutrient-depleted \u2014 refresh before reusing\n\u2022 Rotate crops in the same pot: follow a heavy feeder (tomato) with a light feeder (herbs)\n\u2022 Never reuse soil from a diseased plant'),
+          _guideSectionTitle('Grouping indoors'),
+          _guideSection('', '\u2022 Group plants with similar humidity needs \u2014 they create a shared microclimate\n\u2022 Tall plants can provide shade for low-light neighbors\n\u2022 Keep pest-prone plants away from healthy ones\n\u2022 Fragrant herbs (rosemary, lavender) can deter pests from nearby plants'),
         ];
       default:
         return [
           _guideSection('Information', 'Detailed guide coming soon.'),
         ];
     }
+  }
+
+  Widget _guideSectionTitle(String title) {
+    return Padding(
+      padding: const EdgeInsets.only(top: AppSpacing.lg, bottom: AppSpacing.xs),
+      child: Text(title, style: TextStyle(fontSize: AppFontSize.md, fontWeight: FontWeight.w700, color: AppColors.text)),
+    );
+  }
+
+  Widget _guideMethod(String title, String description, bool isRecommended) {
+    return Container(
+      margin: const EdgeInsets.only(bottom: AppSpacing.sm),
+      padding: const EdgeInsets.all(AppSpacing.md),
+      decoration: BoxDecoration(
+        color: isRecommended ? const Color(0xFFDCFCE7) : const Color(0xFFF9FAFB),
+        borderRadius: BorderRadius.circular(AppBorderRadius.md),
+        border: Border.all(color: isRecommended ? AppColors.success : AppColors.border),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(children: [
+            Text(title, style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+            if (isRecommended) ...[
+              const SizedBox(width: AppSpacing.sm),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                decoration: BoxDecoration(color: AppColors.success, borderRadius: BorderRadius.circular(4)),
+                child: const Text('Recommended', style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600, color: Colors.white)),
+              ),
+            ],
+          ]),
+          const SizedBox(height: 4),
+          Text(description, style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4)),
+        ],
+      ),
+    );
   }
 
   Widget _guideSection(String title, String text) {
