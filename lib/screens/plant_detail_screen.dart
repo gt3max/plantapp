@@ -4,6 +4,7 @@ import 'package:plantapp/app/theme.dart';
 import 'package:plantapp/models/plant.dart';
 import 'package:plantapp/services/plant_service.dart';
 import 'package:plantapp/services/library_service.dart';
+import 'package:plantapp/services/geolocation_service.dart';
 import 'package:plantapp/stores/settings_store.dart';
 
 // Section accent colors (matching RN)
@@ -126,11 +127,13 @@ class PlantDetailScreen extends ConsumerStatefulWidget {
 class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   final _plantService = PlantService.instance;
   final _libraryService = LibraryService.instance;
+  final _geoService = GeolocationService.instance;
   final _scrollController = ScrollController();
 
   // Data
   PlantEntry? _userPlant;
   Map<String, dynamic>? _dbDetail;
+  LocationData? _locationData;
   bool _isLoading = true;
 
   // UI
@@ -177,6 +180,11 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
       } catch (_) {
         // DB detail not available — OK for user-collection plants
       }
+
+      // Load location (non-blocking)
+      _geoService.getLocationData().then((data) {
+        if (mounted) setState(() => _locationData = data);
+      });
     } catch (e) {
       // Silent — show what we have
     }
@@ -209,6 +217,11 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   _PresetCare get _care => _presetCare[_preset] ?? _presetCare['Standard']!;
 
   bool get _isInCollection => _userPlant != null;
+
+  int get _presetWateringDays {
+    const days = {'Succulents': 10, 'Standard': 7, 'Tropical': 5, 'Herbs': 2};
+    return days[_preset] ?? 7;
+  }
 
   bool get _isToxic {
     return (_userPlant?.poisonousToPets == true) ||
@@ -462,12 +475,16 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                     _buildSection('water', 'Water', [
                       _InfoRow(
                         icon: Icons.water_drop_outlined,
-                        text: care.watering,
+                        text: _locationData?.hasData == true
+                            ? 'Every ~${GeolocationService.getSeasonalWateringDays(_presetWateringDays, _locationData!.latitude)} days in ${_months[DateTime.now().month - 1]}'
+                            : care.watering,
                       ),
                       _InfoRow(
                         icon: Icons.calendar_today_outlined,
-                        text: 'Current month: ${_months[DateTime.now().month - 1]}',
-                        sub: care.tips,
+                        text: care.tips,
+                        sub: _locationData?.cityName.isNotEmpty == true
+                            ? 'Adjusted for ${_locationData!.cityName}'
+                            : null,
                       ),
                     ], guideLabel: 'Watering guide'),
                     _buildSection('soil', 'Soil', [
@@ -491,11 +508,28 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       _InfoRow(icon: Icons.thermostat_auto_outlined, text: 'Min ${_fmtTemp(5)} / Max ${_fmtTemp(35)}', sub: 'Survival limits'),
                     ], guideLabel: 'Temperature & climate'),
                     _buildSection('outdoor', 'Outdoor', [
-                      _InfoRow(
-                        icon: Icons.park_outlined,
-                        text: 'Enable location to see outdoor months',
-                        sub: 'Based on your local climate',
-                      ),
+                      if (_locationData?.hasData == true) ...[
+                        () {
+                          final outdoor = GeolocationService.getOutdoorMonths(5, _locationData!.monthlyAvgTemps);
+                          final pottedRange = GeolocationService.formatMonthRange(outdoor.potted);
+                          return _InfoRow(
+                            icon: Icons.park_outlined,
+                            text: pottedRange == 'Not recommended'
+                                ? 'Not recommended for outdoor'
+                                : pottedRange == 'Year-round'
+                                    ? 'Can stay outside year-round'
+                                    : '$pottedRange — safe to keep outside',
+                            sub: _locationData!.cityName.isNotEmpty
+                                ? 'Based on climate in ${_locationData!.cityName}'
+                                : null,
+                          );
+                        }(),
+                      ] else
+                        _InfoRow(
+                          icon: Icons.location_on_outlined,
+                          text: 'Enable location to see outdoor months',
+                          sub: 'Based on your local climate',
+                        ),
                     ], guideLabel: 'Indoor & outdoor'),
 
                     // ── GROUP: Safety ──
