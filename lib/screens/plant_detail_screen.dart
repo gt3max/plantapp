@@ -892,21 +892,21 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     final diff = _lib?.difficulty ?? 'Medium';
     final diffStars = diff.toLowerCase().contains('adv') ? 3 : diff.toLowerCase().contains('med') ? 2 : 1;
 
-    return Wrap(
-      alignment: WrapAlignment.spaceEvenly,
-      spacing: AppSpacing.sm,
-      runSpacing: AppSpacing.sm,
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         // 1. Water
         _RoundBadge(icon: Icons.water_drop, label: waterLabel, bgColor: const Color(0xFFEBF5FF), iconColor: const Color(0xFF3B82F6)),
+        const SizedBox(width: AppSpacing.md),
         // 2. Light
         _RoundBadge(icon: lightText.contains('Full') ? Icons.wb_sunny : Icons.wb_sunny_outlined, label: lightLabel, bgColor: const Color(0xFFFFF8E1), iconColor: const Color(0xFFF59E0B)),
+        const SizedBox(width: AppSpacing.md),
         // 3. Difficulty
-        _RoundBadge(icon: Icons.star, label: diff, bgColor: diffStars == 1 ? const Color(0xFFDCFCE7) : diffStars == 2 ? const Color(0xFFFEF3C7) : const Color(0xFFFEE2E2), iconColor: diffStars == 1 ? AppColors.success : diffStars == 2 ? const Color(0xFFF59E0B) : AppColors.error),
-        // 4. Size (if data available)
-        if ((_lib?.heightIndoorMaxCm ?? 0) > 0)
-          _RoundBadge(icon: Icons.straighten, label: '${_lib!.heightIndoorMaxCm} cm', bgColor: const Color(0xFFF3E8FF), iconColor: const Color(0xFF7C3AED)),
-        // 5. Toxicity (only if toxic)
+        if (diff.isNotEmpty) ...[
+          _RoundBadge(icon: Icons.star, label: diff, bgColor: diffStars == 1 ? const Color(0xFFDCFCE7) : diffStars == 2 ? const Color(0xFFFEF3C7) : const Color(0xFFFEE2E2), iconColor: diffStars == 1 ? AppColors.success : diffStars == 2 ? const Color(0xFFF59E0B) : AppColors.error),
+          const SizedBox(width: AppSpacing.md),
+        ],
+        // 4. Toxicity (only if toxic)
         if (_isToxic)
           _RoundBadge(icon: Icons.warning_amber, label: 'Toxic', bgColor: const Color(0xFFFEE2E2), iconColor: AppColors.error),
       ],
