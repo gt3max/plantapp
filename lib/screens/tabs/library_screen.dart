@@ -260,7 +260,6 @@ class _LibraryCard extends StatelessWidget {
                       plant.scientific,
                       style: TextStyle(
                         fontSize: AppFontSize.xs,
-                        fontStyle: FontStyle.italic,
                         color: AppColors.textSecondary,
                       ),
                       maxLines: 1,

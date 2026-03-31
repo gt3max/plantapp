@@ -976,15 +976,18 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   }
 
   Widget _groupHeader(String label) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: AppSpacing.sm, top: AppSpacing.xs),
-      child: Text(
-        label.toUpperCase(),
-        style: TextStyle(
-          fontSize: AppFontSize.xs,
-          fontWeight: FontWeight.w700,
-          color: AppColors.textSecondary,
-          letterSpacing: 1.2,
+    return Align(
+      alignment: Alignment.centerLeft,
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: AppSpacing.sm, top: AppSpacing.xs),
+        child: Text(
+          label.toUpperCase(),
+          style: TextStyle(
+            fontSize: AppFontSize.xs,
+            fontWeight: FontWeight.w700,
+            color: AppColors.textSecondary,
+            letterSpacing: 1.2,
+          ),
         ),
       ),
     );
