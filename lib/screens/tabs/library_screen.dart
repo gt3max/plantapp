@@ -18,6 +18,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
   Timer? _debounce;
 
   List<LibraryPlant> _results = [];
+  List<LibraryPlant> _popular = [];
   bool _isSearching = false;
   bool _hasSearched = false;
   int _totalPlants = 0;
@@ -26,6 +27,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
   void initState() {
     super.initState();
     _loadStats();
+    _loadPopular();
   }
 
   @override
@@ -39,6 +41,26 @@ class _LibraryScreenState extends State<LibraryScreen> {
     try {
       final count = await _libraryService.getPlantCount();
       if (mounted) setState(() => _totalPlants = count);
+    } catch (_) {}
+  }
+
+  Future<void> _loadPopular() async {
+    try {
+      // Load plants with broad searches to populate the list
+      final seen = <String>{};
+      final all = <LibraryPlant>[];
+      for (final q in ['mo', 'al', 'ba', 'fi', 'sa', 'ph', 'cr']) {
+        try {
+          final results = await _libraryService.search(q);
+          for (final p in results) {
+            if (seen.add(p.scientific)) all.add(p);
+          }
+        } catch (_) {}
+      }
+      if (mounted && all.isNotEmpty) {
+        all.sort((a, b) => a.scientific.compareTo(b.scientific));
+        setState(() => _popular = all);
+      }
     } catch (_) {}
   }
 
@@ -138,42 +160,57 @@ class _LibraryScreenState extends State<LibraryScreen> {
   }
 
   Widget _buildWelcome() {
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: AppSpacing.xl),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.local_florist_outlined,
-                size: 64, color: AppColors.accent),
-            const SizedBox(height: AppSpacing.lg),
-            Text(
-              'Plant Encyclopedia',
-              style: TextStyle(
-                fontSize: AppFontSize.xl,
-                fontWeight: FontWeight.w700,
-                color: AppColors.text,
+    if (_popular.isEmpty) {
+      return Center(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: AppSpacing.xl),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(Icons.local_florist_outlined,
+                  size: 64, color: AppColors.accent),
+              const SizedBox(height: AppSpacing.lg),
+              Text(
+                'Plant Encyclopedia',
+                style: TextStyle(
+                  fontSize: AppFontSize.xl,
+                  fontWeight: FontWeight.w700,
+                  color: AppColors.text,
+                ),
               ),
-            ),
-            const SizedBox(height: AppSpacing.sm),
-            Text(
-              'Search from ${_totalPlants > 0 ? '$_totalPlants' : 'hundreds of'} plants',
-              style: TextStyle(
-                fontSize: AppFontSize.md,
-                color: AppColors.textSecondary,
+              const SizedBox(height: AppSpacing.sm),
+              Text(
+                'Search from ${_totalPlants > 0 ? '$_totalPlants' : 'hundreds of'} plants',
+                style: TextStyle(
+                  fontSize: AppFontSize.md,
+                  color: AppColors.textSecondary,
+                ),
               ),
-            ),
-            const SizedBox(height: AppSpacing.xs),
-            Text(
-              'Type at least 2 characters to search',
-              style: TextStyle(
-                fontSize: AppFontSize.sm,
-                color: AppColors.textSecondary,
-              ),
-            ),
-          ],
+            ],
+          ),
         ),
-      ),
+      );
+    }
+
+    return ListView(
+      padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(bottom: AppSpacing.md),
+          child: Text(
+            'Popular Plants',
+            style: TextStyle(
+              fontSize: AppFontSize.lg,
+              fontWeight: FontWeight.w700,
+              color: AppColors.text,
+            ),
+          ),
+        ),
+        ..._popular.map((plant) => _LibraryCard(
+              plant: plant,
+              onTap: () => context.push('/plant/${plant.detailId}'),
+            )),
+      ],
     );
   }
 
@@ -213,7 +250,7 @@ class _LibraryScreenState extends State<LibraryScreen> {
         final plant = _results[index];
         return _LibraryCard(
           plant: plant,
-          onTap: () => context.push('/plant/${plant.id}'),
+          onTap: () => context.push('/plant/${plant.detailId}'),
         );
       },
     );

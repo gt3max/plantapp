@@ -14,7 +14,10 @@ class LibraryService {
     final data = await _api.get<Map<String, dynamic>>(
       '${PlantDBEndpoints.search}?q=${Uri.encodeComponent(query)}',
     );
-    final plants = (data['plants'] as List<dynamic>?) ?? [];
+    // API returns either 'plants' or 'results' depending on endpoint version
+    final plants = (data['plants'] as List<dynamic>?) ??
+        (data['results'] as List<dynamic>?) ??
+        [];
     return plants
         .map((p) => LibraryPlant.fromJson(p as Map<String, dynamic>))
         .toList();
@@ -36,6 +39,7 @@ class LibraryService {
 /// Turso DB plant entry
 class LibraryPlant {
   final int id;
+  final String? plantIdStr; // Turso uses string IDs like "monstera_deliciosa"
   final String scientific;
   final String? commonName;
   final String? family;
@@ -46,6 +50,7 @@ class LibraryPlant {
 
   const LibraryPlant({
     required this.id,
+    this.plantIdStr,
     required this.scientific,
     this.commonName,
     this.family,
@@ -55,15 +60,27 @@ class LibraryPlant {
     this.indoor,
   });
 
+  /// Get the ID to use for navigation/detail lookup
+  String get detailId => plantIdStr ?? id.toString();
+
   factory LibraryPlant.fromJson(Map<String, dynamic> json) => LibraryPlant(
-        id: json['id'] as int? ?? 0,
-        scientific: json['scientific_name'] as String? ?? '',
+        id: json['plant_id'] is int
+            ? json['plant_id'] as int
+            : 0,
+        plantIdStr: json['plant_id'] is String ? json['plant_id'] as String : null,
+        scientific: (json['scientific_name'] as String?) ??
+            (json['scientific'] as String?) ??
+            '',
         commonName: json['common_name'] as String?,
         family: json['family'] as String?,
-        imageUrl: json['default_image'] as String?,
+        imageUrl: (json['default_image'] as String?) ??
+            (json['image_url'] as String?),
         careLevel: json['care_level'] as String?,
-        watering: json['watering'] as String?,
-        indoor: json['indoor'] as bool?,
+        watering: (json['watering'] as String?) ??
+            (json['water_frequency'] as String?),
+        indoor: json['indoor'] is bool
+            ? json['indoor'] as bool
+            : json['indoor'] == 1,
       );
 
   String get displayName => commonName ?? scientific;
