@@ -590,10 +590,11 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
               ),
 
               // ═══ ALL SECTIONS ═══
-              SliverPadding(
-                padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
-                sliver: SliverList(
-                  delegate: SliverChildListDelegate([
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
+                  child: Column(
+                    children: [
                     // ══════ GROUP: Care ══════
 
                     // ── 1. Water (RN: InfoRow freq+demand, warning box, moisture) ──
@@ -883,7 +884,8 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
 
                     // Bottom padding for floating button
                     const SizedBox(height: 100),
-                  ]),
+                  ],
+                  ),
                 ),
               ),
             ],

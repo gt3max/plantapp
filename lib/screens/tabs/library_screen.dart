@@ -23,6 +23,18 @@ class _LibraryScreenState extends State<LibraryScreen> {
   bool _hasSearched = false;
 
   @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    // Precache all 6 plant images so they show immediately
+    for (final p in popularPlants) {
+      precacheImage(
+        NetworkImage(p.imageUrl, headers: const {'User-Agent': 'PlantApp/1.0'}),
+        context,
+      );
+    }
+  }
+
+  @override
   void dispose() {
     _searchController.dispose();
     _debounce?.cancel();
