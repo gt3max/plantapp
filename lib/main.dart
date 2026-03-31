@@ -17,17 +17,46 @@ class PlantApp extends ConsumerStatefulWidget {
 }
 
 class _PlantAppState extends ConsumerState<PlantApp> {
+  bool _initialized = false;
+
   @override
   void initState() {
     super.initState();
-    // Initialize auth (load tokens from secure storage)
-    Future.microtask(() {
-      ref.read(authProvider.notifier).initialize();
-    });
+    _init();
+  }
+
+  Future<void> _init() async {
+    try {
+      await ref.read(authProvider.notifier).initialize();
+    } catch (e) {
+      // Auth init failed — will show sign-in screen
+    }
+    if (mounted) {
+      setState(() => _initialized = true);
+    }
   }
 
   @override
   Widget build(BuildContext context) {
+    if (!_initialized) {
+      return MaterialApp(
+        home: Scaffold(
+          backgroundColor: AppColors.background,
+          body: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.eco, size: 64, color: AppColors.primary),
+                const SizedBox(height: 16),
+                CircularProgressIndicator(color: AppColors.primary),
+              ],
+            ),
+          ),
+        ),
+        debugShowCheckedModeBanner: false,
+      );
+    }
+
     final router = buildRouter(ref);
 
     return MaterialApp.router(
