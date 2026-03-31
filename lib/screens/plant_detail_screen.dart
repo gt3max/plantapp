@@ -360,15 +360,25 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     final section = firstSection[groupKey];
     if (section == null) return;
     final key = _sectionKeys[section];
-    if (key?.currentContext == null) return;
+    final ctx = key?.currentContext;
+    if (ctx == null) return;
+
+    // Calculate absolute scroll position of the target section
+    final box = ctx.findRenderObject() as RenderBox?;
+    if (box == null || !box.attached) return;
+
+    // Get the section's position relative to the viewport
+    final viewportPos = box.localToGlobal(Offset.zero);
+    // Current scroll offset + section's viewport position - sticky nav height (~120px)
+    final targetOffset = _scrollController.offset + viewportPos.dy - 120;
 
     setState(() {
       _activeGroup = groupKey;
       _isAutoScrolling = true;
     });
 
-    Scrollable.ensureVisible(
-      key!.currentContext!,
+    _scrollController.animateTo(
+      targetOffset.clamp(0, _scrollController.position.maxScrollExtent),
       duration: const Duration(milliseconds: 300),
       curve: Curves.easeInOut,
     ).then((_) {
