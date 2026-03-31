@@ -7,6 +7,7 @@ import 'package:plantapp/services/plant_service.dart';
 import 'package:plantapp/services/library_service.dart';
 import 'package:plantapp/services/geolocation_service.dart';
 import 'package:plantapp/stores/settings_store.dart';
+import 'package:plantapp/widgets/plant_indicators.dart';
 
 // Section accent colors (matching RN)
 const _sectionAccent = {
@@ -279,6 +280,19 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     return days[_preset] ?? 7;
   }
 
+  /// Current watering days (from lib data or seasonal adjustment)
+  int get _currentWateringDays {
+    if (_lib != null) {
+      return _lib!.wateringFreqSummerDays > 0 ? _lib!.wateringFreqSummerDays : _presetWateringDays;
+    }
+    if (_locationData?.hasData == true) {
+      return GeolocationService.getSeasonalWateringDays(_presetWateringDays, _locationData!.latitude);
+    }
+    return _presetWateringDays;
+  }
+
+  String get _plantType => _lib?.plantType ?? 'decorative';
+
   bool get _isToxic {
     return (_userPlant?.poisonousToPets == true) ||
         (_userPlant?.poisonousToHumans == true) ||
@@ -531,262 +545,200 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                   delegate: SliverChildListDelegate([
                     // ══════ GROUP: Care ══════
 
-                    // ── 1. Water ──
+                    // ── 1. Water (RN: InfoRow freq+demand, warning box, moisture) ──
                     _buildSection('water', 'Water', [
                       _InfoRow(
                         icon: Icons.water_drop_outlined,
-                        text: _dbCareStr('watering').isNotEmpty
-                            ? _dbCareStr('watering')
-                            : _lib?.care.watering.isNotEmpty == true
-                                ? _lib!.care.watering
-                                : (_locationData?.hasData == true
-                                    ? 'Every ~${GeolocationService.getSeasonalWateringDays(_presetWateringDays, _locationData!.latitude)} days in ${_months[DateTime.now().month - 1]}'
-                                    : care.watering),
-                        sub: (_dbCareStr('watering_demand').isNotEmpty
-                            ? '${_dbCareStr('watering_demand')} demand'
-                            : _lib?.wateringDemand.isNotEmpty == true
-                                ? '${_lib!.wateringDemand} demand'
-                                : null),
+                        text: 'Every ~$_currentWateringDays days in ${_months[DateTime.now().month - 1]}',
+                        sub: (_lib?.wateringDemand.isNotEmpty == true ? '${_lib!.wateringDemand} demand'
+                            : _dbCareStr('watering_demand').isNotEmpty ? '${_dbCareStr('watering_demand')} demand' : null),
                       ),
-                      if (_lib?.care.wateringWinter.isNotEmpty == true)
-                        _InfoRow(icon: Icons.ac_unit_outlined, text: _lib!.care.wateringWinter, sub: 'Winter'),
-                      if (_lib?.wateringMethod.isNotEmpty == true)
-                        _InfoRow(icon: Icons.opacity_outlined, text: _lib!.wateringMethod, sub: 'Method'),
-                      if (_lib?.wateringAvoid.isNotEmpty == true)
-                        _InfoRow(icon: Icons.warning_amber_outlined, text: _lib!.wateringAvoid, iconColor: AppColors.error),
-                      if (_locationData?.cityName.isNotEmpty == true)
-                        _InfoRow(icon: Icons.location_on_outlined, text: 'Adjusted for ${_locationData!.cityName}'),
-                      if (_dbStr('tips').isNotEmpty)
-                        _InfoRow(icon: Icons.tips_and_updates_outlined, text: _dbStr('tips'))
-                      else if (_lib?.care.tips.isNotEmpty == true)
-                        _InfoRow(icon: Icons.tips_and_updates_outlined, text: _lib!.care.tips)
-                      else
-                        _InfoRow(icon: Icons.tips_and_updates_outlined, text: care.tips),
+                      if (_lib?.wateringWarning.isNotEmpty == true)
+                        InfoBox(text: _lib!.wateringWarning, variant: 'warning'),
                     ], guideLabel: 'Watering guide'),
 
-                    // ── 2. Soil ──
+                    // ── 2. Soil (RN: chips, pH bar, repot InfoRow) ──
                     _buildSection('soil', 'Soil', [
-                      _InfoRow(
-                        icon: Icons.layers_outlined,
-                        text: _dbCareStr('soil').isNotEmpty
-                            ? _dbCareStr('soil')
-                            : _lib?.care.soil.isNotEmpty == true ? _lib!.care.soil : care.soil,
-                      ),
                       if (_lib?.soilTypes.isNotEmpty == true)
-                        _ChipRow(chips: _lib!.soilTypes),
-                      if (_lib?.potType.isNotEmpty == true)
-                        _InfoRow(icon: Icons.inventory_2_outlined, text: _lib!.potType, sub: 'Pot'),
-                      if (_lib?.potSizeNote.isNotEmpty == true)
-                        _InfoRow(icon: Icons.straighten_outlined, text: _lib!.potSizeNote),
+                        _ChipRow(chips: _lib!.soilTypes)
+                      else if (_dbCareStr('soil').isNotEmpty)
+                        _ChipRow(chips: [_dbCareStr('soil')]),
                       _InfoRow(
                         icon: Icons.swap_vert,
                         text: 'Repot: ${_dbCareStr('repot').isNotEmpty ? _dbCareStr('repot') : _lib?.care.repot.isNotEmpty == true ? _lib!.care.repot : care.repot}',
                         sub: 'Repotting',
                       ),
-                      if (_lib?.repotSigns.isNotEmpty == true)
-                        _InfoRow(icon: Icons.info_outline, text: _lib!.repotSigns, sub: 'Signs to repot'),
                     ], guideLabel: 'Repotting guide'),
 
-                    // ── 3. Fertilizing ──
+                    // ── 3. Fertilizing (RN: seasonal logic — active/inactive) ──
                     _buildSection('fertilizing', 'Fertilizing', [
-                      _InfoRow(
-                        icon: Icons.eco_outlined,
-                        text: _dbCareStr('fertilizer').isNotEmpty
+                      () {
+                        final fertText = _dbCareStr('fertilizer').isNotEmpty
                             ? _dbCareStr('fertilizer')
-                            : _lib?.care.fertilizer.isNotEmpty == true ? _lib!.care.fertilizer : care.fertilizer,
-                        sub: _lib?.care.fertilizerSeason.isNotEmpty == true ? _lib!.care.fertilizerSeason : care.fertilizerSeason,
-                      ),
-                      if (_lib?.fertilizerTypes.isNotEmpty == true)
-                        _ChipRow(chips: _lib!.fertilizerTypes),
-                      if (_lib?.fertilizerNpk.isNotEmpty == true)
-                        _InfoRow(icon: Icons.science_outlined, text: 'NPK: ${_lib!.fertilizerNpk}'),
-                      if (_lib?.fertilizerWarning.isNotEmpty == true)
-                        _InfoRow(icon: Icons.warning_amber_outlined, text: _lib!.fertilizerWarning, iconColor: AppColors.error),
+                            : _lib?.care.fertilizer.isNotEmpty == true ? _lib!.care.fertilizer : care.fertilizer;
+                        final seasonText = (_lib?.care.fertilizerSeason ?? care.fertilizerSeason).toLowerCase();
+                        final m = DateTime.now().month - 1;
+                        final isSpring = m >= 2 && m <= 4;
+                        final isSummer = m >= 5 && m <= 7;
+                        bool inSeason = true;
+                        if (seasonText.contains('spring') && seasonText.contains('summer')) {
+                          inSeason = isSpring || isSummer;
+                        } else if (seasonText.contains('spring')) {
+                          inSeason = isSpring;
+                        }
+                        if (seasonText.contains('winter') == false && (m <= 1 || m == 11)) {
+                          inSeason = false;
+                        }
+                        return inSeason
+                            ? _InfoRow(icon: Icons.eco_outlined, text: '$fertText \u2014 active season now', sub: _lib?.care.fertilizerSeason ?? care.fertilizerSeason)
+                            : _InfoRow(icon: Icons.eco_outlined, text: 'No fertilizing needed in ${_months[m]}', sub: 'Resume in ${_lib?.care.fertilizerSeason ?? care.fertilizerSeason}');
+                      }(),
                     ], guideLabel: 'Fertilizing guide'),
 
                     // ══════ GROUP: Environment ══════
 
-                    // ── 4. Light ──
+                    // ── 4. Light (RN: LightLevelIndicator + InfoRow preferred) ──
                     _buildSection('light', 'Light', [
+                      LightLevelIndicator(lightText: _dbCareStr('light').isNotEmpty ? _dbCareStr('light') : _lib?.care.light ?? care.light),
                       _InfoRow(
                         icon: Icons.wb_sunny_outlined,
-                        text: _dbCareStr('light').isNotEmpty
-                            ? _dbCareStr('light')
-                            : _lib?.care.light.isNotEmpty == true ? _lib!.care.light : care.light,
+                        text: _dbCareStr('light').isNotEmpty ? _dbCareStr('light') : _lib?.care.light ?? care.light,
                         sub: 'Preferred',
                       ),
-                      if (_lib?.care.lightAlsoOk.isNotEmpty == true)
-                        _InfoRow(icon: Icons.wb_sunny_outlined, text: _lib!.care.lightAlsoOk, sub: 'Also OK'),
-                      if ((_lib?.care.ppfdMin ?? 0) > 0)
-                        _InfoRow(icon: Icons.flash_on_outlined, text: 'PPFD: ${_lib!.care.ppfdMin}-${_lib!.care.ppfdMax} \u00B5mol/m\u00B2/s  |  DLI: ${_lib!.care.dliMin}-${_lib!.care.dliMax} mol/m\u00B2/day', sub: 'Advanced'),
                     ], guideLabel: 'Understanding light'),
 
-                    // ── 5. Humidity ──
+                    // ── 5. Humidity (RN: HumidityBar only) ──
                     _buildSection('humidity', 'Air Humidity', [
-                      _InfoRow(
-                        icon: Icons.water_drop_outlined,
-                        text: _dbCareStr('humidity').isNotEmpty
-                            ? _dbCareStr('humidity')
-                            : _lib?.care.humidity.isNotEmpty == true ? _lib!.care.humidity : care.humidity,
-                      ),
-                      if (_lib?.care.humidityAction.isNotEmpty == true)
-                        _InfoRow(icon: Icons.tips_and_updates_outlined, text: _lib!.care.humidityAction),
+                      HumidityBar(level: _dbCareStr('humidity').isNotEmpty ? _dbCareStr('humidity') : _lib?.care.humidity ?? care.humidity),
                     ], guideLabel: 'Managing humidity'),
 
-                    // ── 6. Temperature ──
+                    // ── 6. Temperature (RN: TempRangeBar + InfoRow survival) ──
                     _buildSection('temperature', 'Air Temperature', [
-                      _InfoRow(
-                        icon: Icons.thermostat_outlined,
-                        text: _lib?.care.temperature.isNotEmpty == true ? _lib!.care.temperature : care.temperature,
-                        sub: 'Ideal range',
-                      ),
+                      () {
+                        final optLow = _lib?.tempOptLowC ?? (_dbInt('temp_min_c') > 0 ? _dbInt('temp_min_c') : 15);
+                        final optHigh = _lib?.tempOptHighC ?? (_dbInt('temp_max_c') > 0 ? _dbInt('temp_max_c') : 25);
+                        return Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text('Ideal range', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+                            TempRangeBar(optLow: optLow, optHigh: optHigh, formatT: _fmtTemp),
+                          ],
+                        );
+                      }(),
                       () {
                         final minC = _dbInt('temp_min_c') > 0 ? _dbInt('temp_min_c') : _lib?.tempMinC ?? 5;
                         final maxC = _dbInt('temp_max_c') > 0 ? _dbInt('temp_max_c') : _lib?.tempMaxC ?? 35;
-                        return _InfoRow(
-                          icon: Icons.thermostat_auto_outlined,
-                          text: 'Min ${_fmtTemp(minC)} / Max ${_fmtTemp(maxC)}',
-                          sub: 'Survival limits',
-                        );
+                        return _InfoRow(icon: Icons.thermostat_outlined, text: 'Min ${_fmtTemp(minC)} / Max ${_fmtTemp(maxC)}', sub: 'Survival limits');
                       }(),
-                      if (_lib?.tempWarning.isNotEmpty == true)
-                        _InfoRow(icon: Icons.warning_amber_outlined, text: _lib!.tempWarning, iconColor: AppColors.error),
                     ], guideLabel: 'Temperature & climate'),
 
-                    // ── 7. Outdoor ──
+                    // ── 7. Outdoor (RN: InfoRow location status) ──
                     _buildSection('outdoor', 'Outdoor', [
                       if (_locationData?.hasData == true) ...[
                         () {
-                          final frostLimit = _dbInt('temp_min_c') > 0 ? _dbInt('temp_min_c') : 5;
-                          final outdoor = GeolocationService.getOutdoorMonths(frostLimit.toDouble(), _locationData!.monthlyAvgTemps);
+                          final frostLimit = (_lib?.tempMinC ?? (_dbInt('temp_min_c') > 0 ? _dbInt('temp_min_c') : 5)).toDouble();
+                          final outdoor = GeolocationService.getOutdoorMonths(frostLimit, _locationData!.monthlyAvgTemps);
                           final pottedRange = GeolocationService.formatMonthRange(outdoor.potted);
                           return _InfoRow(
                             icon: Icons.park_outlined,
-                            text: pottedRange == 'Not recommended'
-                                ? 'Not recommended for outdoor'
-                                : pottedRange == 'Year-round'
-                                    ? 'Can stay outside year-round'
-                                    : '$pottedRange — safe to keep outside',
-                            sub: _locationData!.cityName.isNotEmpty
-                                ? 'Based on climate in ${_locationData!.cityName}'
-                                : null,
+                            text: pottedRange == 'Not recommended' ? 'Not recommended for outdoor'
+                                : pottedRange == 'Year-round' ? 'Can stay outside year-round'
+                                : '$pottedRange \u2014 safe to keep outside',
+                            sub: _locationData!.cityName.isNotEmpty ? 'Based on climate in ${_locationData!.cityName}' : null,
                           );
                         }(),
                       ] else
-                        _InfoRow(
-                          icon: Icons.location_on_outlined,
-                          text: 'Enable location to see outdoor months',
-                          sub: 'Based on your local climate',
-                        ),
+                        _InfoRow(icon: Icons.location_on_outlined, text: 'Enable location to see outdoor months', sub: 'Based on your local climate'),
                     ], guideLabel: 'Indoor & outdoor'),
 
                     // ══════ GROUP: Toxicity ══════
 
-                    // ── 8. Toxicity ──
+                    // ── 8. Toxicity (RN: toxic alert+chips OR non-toxic green) ──
                     _buildSection('toxicity', 'Toxicity', [
                       if (_isToxic) ...[
                         _InfoRow(
                           icon: Icons.warning_amber_outlined,
-                          text: 'Toxic${_dbStr('toxicity_severity').isNotEmpty ? ' (${_dbStr('toxicity_severity')})' : _lib?.toxicitySeverity.isNotEmpty == true ? ' (${_lib!.toxicitySeverity})' : ''}',
+                          text: 'Toxic${_lib?.toxicitySeverity.isNotEmpty == true ? ' (${_lib!.toxicitySeverity})' : _dbStr('toxicity_severity').isNotEmpty ? ' (${_dbStr('toxicity_severity')})' : ''}',
                           iconColor: AppColors.error,
                         ),
                         _ChipRow(chips: [
                           if (_userPlant?.poisonousToHumans == true || _dbCare['toxic_to_humans'] == true || _dbCare['toxic_to_humans'] == 1 || _lib?.poisonousToHumans == true) 'Humans',
                           if (_userPlant?.poisonousToPets == true || _dbCare['toxic_to_pets'] == true || _dbCare['toxic_to_pets'] == 1 || _lib?.poisonousToPets == true) 'Animals',
                         ]),
-                        if (_lib?.toxicParts.isNotEmpty == true)
-                          _InfoRow(icon: Icons.dangerous_outlined, text: _lib!.toxicParts, sub: 'Toxic parts'),
-                        if ((_dbStr('toxicity_note').isNotEmpty || _lib?.toxicityNote.isNotEmpty == true))
-                          _InfoRow(icon: Icons.info_outline, text: _dbStr('toxicity_note').isNotEmpty ? _dbStr('toxicity_note') : _lib!.toxicityNote),
-                        if (_lib?.toxicitySymptoms.isNotEmpty == true)
-                          _InfoRow(icon: Icons.medical_services_outlined, text: _lib!.toxicitySymptoms, sub: 'Symptoms'),
-                        if (_lib?.toxicityFirstAid.isNotEmpty == true)
-                          _InfoRow(icon: Icons.health_and_safety_outlined, text: _lib!.toxicityFirstAid, sub: 'First aid'),
-                      ] else ...[
-                        _InfoRow(
-                          icon: Icons.check_circle_outline,
-                          text: _lib?.toxicityNote.isNotEmpty == true ? _lib!.toxicityNote : 'Non-toxic to humans and pets',
-                          iconColor: AppColors.success,
-                        ),
-                      ],
+                      ] else
+                        _InfoRow(icon: Icons.check_circle_outline, text: 'Non-toxic to humans and pets', iconColor: AppColors.success),
                     ], guideLabel: _isToxic ? 'Toxicity details' : null),
 
                     // ══════ GROUP: Growing ══════
 
-                    // ── 9. Pruning ──
+                    // ── 9. Pruning (RN: text 3 lines, NO guide) ──
                     _buildSection('pruning', 'Pruning', [
-                      _InfoRow(
-                        icon: Icons.content_cut_outlined,
-                        text: _dbStr('pruning_info').isNotEmpty
-                            ? _dbStr('pruning_info')
-                            : _lib?.pruningInfo.isNotEmpty == true
-                                ? _lib!.pruningInfo
-                                : 'Remove dead or damaged leaves. Prune to shape as needed.',
+                      Text(
+                        _lib?.pruningInfo.isNotEmpty == true ? _lib!.pruningInfo
+                            : _dbStr('pruning_info').isNotEmpty ? _dbStr('pruning_info')
+                            : 'Remove dead or damaged leaves. Prune to shape as needed.',
+                        maxLines: 3,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4),
                       ),
                     ]),
 
-                    // ── 10. Propagation ──
+                    // ── 10. Harvest (RN: only greens/fruiting, edible parts InfoRow) ──
+                    if (_plantType == 'greens' || _plantType == 'fruiting')
+                      _buildSection('harvest', 'Harvest', [
+                        if (_lib?.edibleParts.isNotEmpty == true)
+                          _InfoRow(icon: Icons.restaurant_outlined, text: _lib!.edibleParts, sub: 'Edible parts', iconColor: AppColors.success),
+                      ], guideLabel: 'Harvesting guide'),
+
+                    // ── 11. Propagation (RN: method chips) ──
                     _buildSection('propagation', 'Propagation', [
-                      if (_dbList('propagation_methods').isNotEmpty)
-                        _ChipRow(chips: _dbList('propagation_methods'))
-                      else if (_lib?.propagationMethods.isNotEmpty == true)
+                      if (_lib?.propagationMethods.isNotEmpty == true)
                         _ChipRow(chips: _lib!.propagationMethods)
+                      else if (_dbList('propagation_methods').isNotEmpty)
+                        _ChipRow(chips: _dbList('propagation_methods'))
                       else
                         _InfoRow(icon: Icons.call_split_outlined, text: 'Stem cuttings, division', sub: 'Common methods'),
-                      if (_lib?.propagationDetail.isNotEmpty == true)
-                        _InfoRow(icon: Icons.info_outline, text: _lib!.propagationDetail),
-                      if ((_lib?.germinationDays ?? 0) > 0)
-                        _InfoRow(icon: Icons.timer_outlined, text: 'Germination: ${_lib!.germinationDays} days at ${_lib!.germinationTempC}'),
-                    ]),
+                    ], guideLabel: 'Germination & propagation'),
 
                     // ══════ GROUP: About ══════
 
-                    // ── 11. Difficulty ──
+                    // ── 12. Difficulty (RN: stars + label + note InfoBox, NO guide) ──
                     _buildSection('difficulty', 'Difficulty', [
                       () {
-                        final diff = _dbStr('difficulty').isNotEmpty ? _dbStr('difficulty') : _lib?.difficulty ?? 'Medium';
+                        final diff = _lib?.difficulty ?? (_dbStr('difficulty').isNotEmpty ? _dbStr('difficulty') : 'Medium');
                         final stars = diff.toLowerCase().contains('adv') ? 3 : diff.toLowerCase().contains('med') ? 2 : 1;
                         final color = stars == 3 ? AppColors.error : stars == 2 ? const Color(0xFFF59E0B) : AppColors.success;
                         return Row(
                           children: [
-                            ...List.generate(stars, (_) => Icon(Icons.star, size: 20, color: color)),
-                            ...List.generate(3 - stars, (_) => Icon(Icons.star_border, size: 20, color: AppColors.border)),
+                            DifficultyStars(count: stars, color: color),
                             const SizedBox(width: AppSpacing.sm),
                             Text(diff, style: TextStyle(fontSize: AppFontSize.md, fontWeight: FontWeight.w600, color: color)),
                           ],
                         );
                       }(),
                       if (_lib?.difficultyNote.isNotEmpty == true)
-                        _InfoRow(icon: Icons.info_outline, text: _lib!.difficultyNote),
+                        InfoBox(text: _lib!.difficultyNote, variant: 'info'),
                     ]),
 
-                    // ── 12. Size ──
+                    // ── 13. Size (RN: height InfoRow + spread InfoRow) ──
                     _buildSection('size', 'Size', [
                       () {
-                        final hMin = _dbInt('height_min_cm') > 0 ? _dbInt('height_min_cm') : _lib?.heightMinCm ?? 0;
-                        final hMax = _dbInt('height_max_cm') > 0 ? _dbInt('height_max_cm') : _lib?.heightMaxCm ?? 0;
-                        final hIndoor = _lib?.heightIndoorMaxCm ?? 0;
+                        final hMin = _lib?.heightMinCm ?? (_dbInt('height_min_cm') > 0 ? _dbInt('height_min_cm') : 0);
+                        final hMax = _lib?.heightMaxCm ?? (_dbInt('height_max_cm') > 0 ? _dbInt('height_max_cm') : 0);
                         return _InfoRow(
                           icon: Icons.height_outlined,
-                          text: hMax > 0
-                              ? '${hMin > 0 ? '$hMin \u2013 ' : ''}$hMax cm${hIndoor > 0 ? ' (indoors up to $hIndoor cm)' : ''}'
-                              : 'Not specified',
+                          text: hMax > 0 ? '${hMin > 0 ? '$hMin \u2013 ' : ''}$hMax cm' : 'Not specified',
                           sub: 'Height (mature)',
                         );
                       }(),
-                      () {
-                        final spread = _dbInt('spread_max_cm') > 0 ? _dbInt('spread_max_cm') : _lib?.spreadMaxCm ?? 0;
-                        if (spread > 0) return _InfoRow(icon: Icons.swap_horiz_outlined, text: 'Up to $spread cm', sub: 'Spread');
-                        return const SizedBox.shrink();
-                      }(),
-                      if (_lib?.growthRate.isNotEmpty == true)
-                        _InfoRow(icon: Icons.trending_up_outlined, text: '${_lib!.growthRate} growth rate'),
-                    ]),
+                      if ((_lib?.spreadMaxCm ?? _dbInt('spread_max_cm')) > 0)
+                        _InfoRow(icon: Icons.swap_horiz_outlined, text: 'Up to ${_lib?.spreadMaxCm ?? _dbInt('spread_max_cm')} cm', sub: 'Spread'),
+                    ], guideLabel: 'Growth & dimensions'),
 
-                    // ── 13. Lifecycle ──
+                    // ── 14. Lifecycle (RN: type+years InfoRow + foliage InfoRow) ──
                     _buildSection('lifecycle', 'Lifecycle', [
                       () {
-                        final lc = _dbStr('lifecycle').isNotEmpty ? _dbStr('lifecycle') : _lib?.lifecycle ?? 'perennial';
+                        final lc = _lib?.lifecycle ?? (_dbStr('lifecycle').isNotEmpty ? _dbStr('lifecycle') : 'perennial');
                         final years = _lib?.lifecycleYears ?? '';
                         final label = lc == 'perennial' ? 'Perennial' : lc == 'annual' ? 'Annual' : lc;
                         final sub = years.isNotEmpty
@@ -794,79 +746,68 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                             : (lc == 'perennial' ? 'Lives for multiple years' : 'One growing season');
                         return _InfoRow(icon: Icons.loop_outlined, text: label, sub: sub);
                       }(),
-                    ]),
+                      _InfoRow(
+                        icon: Icons.eco_outlined,
+                        text: (_lib?.lifecycle ?? 'perennial') == 'perennial' ? 'Evergreen' : 'Seasonal',
+                        sub: 'Foliage type',
+                      ),
+                    ], guideLabel: 'Lifecycle'),
 
-                    // ── 14. Used for ──
+                    // ── 15. Used for (RN: chips + edible parts InfoRow) ──
                     _buildSection('used_for', 'Used for', [
-                      if (_dbList('used_for').isNotEmpty)
-                        _ChipRow(chips: _dbList('used_for'))
-                      else if (_lib?.usedFor.isNotEmpty == true)
-                        _ChipRow(chips: _lib!.usedFor)
-                      else
-                        _InfoRow(icon: Icons.local_florist_outlined, text: 'Decorative'),
-                      if (_lib?.usedForDetails.isNotEmpty == true)
-                        _InfoRow(icon: Icons.info_outline, text: _lib!.usedForDetails),
-                      if (_lib?.edible == true && _lib?.edibleParts.isNotEmpty == true)
-                        _InfoRow(icon: Icons.restaurant_outlined, text: _lib!.edibleParts, sub: 'Edible parts'),
-                      if (_lib?.harvestInfo.isNotEmpty == true)
-                        _InfoRow(icon: Icons.agriculture_outlined, text: _lib!.harvestInfo, sub: 'Harvest'),
-                    ]),
+                      () {
+                        final tags = _lib?.usedFor ?? _dbList('used_for');
+                        if (tags.isNotEmpty) {
+                          return _ChipRow(chips: tags, green: tags.any((t) => t.contains('Edible') || t.contains('Fruiting')));
+                        }
+                        return _ChipRow(chips: [_plantType == 'greens' ? 'Edible greens' : _plantType == 'fruiting' ? 'Fruiting' : 'Decorative']);
+                      }(),
+                      if (_lib?.edibleParts.isNotEmpty == true)
+                        _InfoRow(icon: Icons.restaurant_outlined, text: _lib!.edibleParts, sub: 'Edible parts', iconColor: AppColors.success),
+                    ], guideLabel: 'About this plant'),
 
-                    // ── 15. Taxonomy ──
+                    // ── 16. Taxonomy (RN: scientific InfoRow + origin, NO guide) ──
                     _buildSection('taxonomy', 'Taxonomy', [
                       _InfoRow(
                         icon: Icons.science_outlined,
                         text: _scientific,
                         sub: [
-                          _dbStr('genus').isNotEmpty ? _dbStr('genus') : _lib?.genus ?? '',
-                          (_dbDetail?['family'] as String? ?? '').isNotEmpty ? _dbDetail!['family'] as String : _lib?.family ?? '',
-                          _dbStr('order').isNotEmpty ? _dbStr('order') : _lib?.order ?? '',
+                          _lib?.genus ?? _dbStr('genus'),
+                          _lib?.family ?? (_dbDetail?['family'] as String? ?? ''),
+                          _lib?.order ?? _dbStr('order'),
                         ].where((s) => s.isNotEmpty).join(' \u00B7 '),
                       ),
-                      if (_dbStr('origin').isNotEmpty)
-                        _InfoRow(icon: Icons.public_outlined, text: _dbStr('origin'), sub: 'Origin')
-                      else if (_lib?.origin.isNotEmpty == true)
-                        _InfoRow(icon: Icons.public_outlined, text: _lib!.origin, sub: 'Origin'),
-                      if (_lib?.synonyms.isNotEmpty == true)
-                        _InfoRow(icon: Icons.label_outlined, text: _lib!.synonyms.join(', '), sub: 'Synonyms'),
+                      if ((_lib?.origin ?? '').isNotEmpty)
+                        _InfoRow(icon: Icons.public_outlined, text: _lib!.origin, sub: 'Origin')
+                      else if (_dbStr('origin').isNotEmpty)
+                        _InfoRow(icon: Icons.public_outlined, text: _dbStr('origin'), sub: 'Origin'),
                     ]),
 
                     // ══════ GROUP: Companions ══════
 
-                    // ── 16. Companions ──
+                    // ── 17. Companions (RN: good chips green + bad chips red) ──
                     _buildSection('companions', 'Companions', [
                       () {
-                        final good = _dbList('good_companions').isNotEmpty ? _dbList('good_companions') : _lib?.goodCompanions ?? [];
-                        final bad = _dbList('bad_companions').isNotEmpty ? _dbList('bad_companions') : _lib?.badCompanions ?? [];
-                        final note = _lib?.companionNote ?? '';
+                        final good = _lib?.goodCompanions ?? _dbList('good_companions');
+                        final bad = _lib?.badCompanions ?? _dbList('bad_companions');
                         return Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             if (good.isNotEmpty) ...[
-                              Padding(
-                                padding: const EdgeInsets.only(bottom: AppSpacing.xs),
-                                child: Text('Good neighbors', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
-                              ),
+                              Padding(padding: const EdgeInsets.only(bottom: AppSpacing.xs), child: Text('Good neighbors', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text))),
                               _ChipRow(chips: good, green: true),
                             ],
                             if (bad.isNotEmpty) ...[
                               const SizedBox(height: AppSpacing.sm),
-                              Padding(
-                                padding: const EdgeInsets.only(bottom: AppSpacing.xs),
-                                child: Text('Keep apart', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
-                              ),
+                              Padding(padding: const EdgeInsets.only(bottom: AppSpacing.xs), child: Text('Keep apart', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text))),
                               _ChipRow(chips: bad, red: true),
-                            ],
-                            if (note.isNotEmpty) ...[
-                              const SizedBox(height: AppSpacing.sm),
-                              _InfoRow(icon: Icons.info_outline, text: note),
                             ],
                             if (good.isEmpty && bad.isEmpty)
                               _InfoRow(icon: Icons.group_outlined, text: 'Companion data coming soon'),
                           ],
                         );
                       }(),
-                    ]),
+                    ], guideLabel: ((_lib?.goodCompanions ?? []).isNotEmpty || (_lib?.badCompanions ?? []).isNotEmpty) ? 'Plant companions' : null),
 
                     // Bottom padding for floating button
                     const SizedBox(height: 100),
@@ -1069,51 +1010,136 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   }
 
   List<Widget> _guideContent(String key, _PresetCare care) {
+    final lib = _lib;
     switch (key) {
       case 'water':
         return [
-          _guideSection('Watering frequency', care.watering),
-          _guideSection('Tips', care.tips),
-          _guideSection('Drainage', 'Make sure your pot has drainage holes. Without drainage, water collects and roots rot.'),
+          _guideSection('How to water $_title', lib?.wateringMethod ?? care.watering),
+          if (lib?.wateringAvoid.isNotEmpty == true)
+            _guideSection('What to avoid', lib!.wateringAvoid),
+          if (lib?.care.wateringWinter.isNotEmpty == true)
+            _guideSection('Winter watering', lib!.care.wateringWinter),
+          _guideSection('Drainage', 'Make sure your pot has drainage holes. Without drainage, water collects at the bottom and roots rot.'),
+          if (lib?.care.tips.isNotEmpty == true)
+            _guideSection('Tips', lib!.care.tips)
+          else
+            _guideSection('Tips', care.tips),
         ];
       case 'soil':
         return [
-          _guideSection('Recommended soil', care.soil),
-          _guideSection('Repotting', care.repot),
-          _guideSection('Signs to repot', 'Roots growing out of drainage holes, soil drying out very quickly, plant becoming top-heavy.'),
+          _guideSection('Recommended soil', lib?.care.soil ?? care.soil),
+          if (lib?.soilTypes.isNotEmpty == true)
+            _guideSection('Soil components', lib!.soilTypes.join(', ')),
+          _guideSection('Repotting', lib?.care.repot ?? care.repot),
+          if (lib?.repotSigns.isNotEmpty == true)
+            _guideSection('Signs to repot', lib!.repotSigns),
+          if (lib?.potType.isNotEmpty == true)
+            _guideSection('Pot type', lib!.potType),
+          if (lib?.potSizeNote.isNotEmpty == true)
+            _guideSection('Pot size', lib!.potSizeNote),
         ];
       case 'fertilizing':
         return [
-          _guideSection('Fertilizer', care.fertilizer),
-          _guideSection('Season', care.fertilizerSeason),
-          _guideSection('Warning', 'Never fertilize a dry plant. Water first, then fertilize. Over-fertilizing burns roots.'),
+          _guideSection('Schedule', '${lib?.care.fertilizer ?? care.fertilizer}\nSeason: ${lib?.care.fertilizerSeason ?? care.fertilizerSeason}'),
+          if (lib?.fertilizerTypes.isNotEmpty == true)
+            _guideSection('Recommended fertilizers', lib!.fertilizerTypes.join(', ')),
+          if (lib?.fertilizerNpk.isNotEmpty == true)
+            _guideSection('NPK ratio', lib!.fertilizerNpk),
+          if (lib?.fertilizerWarning.isNotEmpty == true)
+            _guideSection('Warning', lib!.fertilizerWarning),
+          _guideSection('When NOT to fertilize', 'In winter (plant is dormant), right after repotting, when soil is dry (water first), when plant is stressed or sick.'),
         ];
       case 'light':
         return [
-          _guideSection('Preferred light', care.light),
+          _guideSection('Preferred light', lib?.care.light ?? care.light),
+          if (lib?.care.lightAlsoOk.isNotEmpty == true)
+            _guideSection('Also suitable', lib!.care.lightAlsoOk),
           _guideSection('Signs of too little light', 'Leaves turn yellow, plant stretches towards light, slow weak growth, leaves far apart on stem.'),
           _guideSection('Signs of too much light', 'Leaves drooping, leaf edges dry up, color fading, flowers shrivel.'),
+          if ((lib?.care.ppfdMin ?? 0) > 0)
+            _guideSection('Light intensity', 'PPFD: ${lib!.care.ppfdMin}\u2013${lib.care.ppfdMax} \u00B5mol/m\u00B2/s\nDLI: ${lib.care.dliMin}\u2013${lib.care.dliMax} mol/m\u00B2/day'),
         ];
       case 'humidity':
         return [
-          _guideSection('Preferred humidity', care.humidity),
-          _guideSection('How to increase', 'Group plants together, use a pebble tray with water, mist leaves in the morning, use a humidifier.'),
+          _guideSection('Recommended level', lib?.care.humidity ?? care.humidity),
+          if (lib?.care.humidityAction.isNotEmpty == true)
+            _guideSection('What to do', lib!.care.humidityAction),
+          _guideSection('How to increase humidity', 'Group plants together, use a pebble tray with water, mist leaves in the morning, use a humidifier.'),
+          _guideSection('How to decrease humidity', 'Improve air circulation, open a window, use a small fan. Avoid overcrowding plants.'),
         ];
       case 'temperature':
         return [
-          _guideSection('Ideal range', care.temperature),
-          _guideSection('Avoid', 'Keep away from cold drafts, radiators, and air conditioning vents. Sudden temperature changes stress plants.'),
+          _guideSection('Ideal range', lib?.care.temperature ?? care.temperature),
+          if (lib?.tempWarning.isNotEmpty == true)
+            _guideSection('Warning', lib!.tempWarning),
+          _guideSection('Common indoor problems', 'Cold drafts from windows, hot air from radiators, dry air from air conditioning, sudden temperature swings when opening doors in winter.'),
         ];
       case 'outdoor':
         return [
-          _guideSection('Outdoor placement', 'Check local temperatures before moving plants outside. Acclimatize gradually over 1-2 weeks.'),
-          _guideSection('Bring inside when', 'Night temperatures drop below the plant\'s minimum tolerance. Usually before first frost.'),
+          _guideSection('Moving outdoors', 'Check local temperatures before moving plants outside. Acclimatize gradually over 1\u20132 weeks in a sheltered spot.'),
+          _guideSection('Bring inside when', 'Night temperatures drop below the plant\'s minimum tolerance (${_fmtTemp(lib?.tempMinC ?? 5)}). Usually before first frost.'),
         ];
       case 'toxicity':
         return [
-          _guideSection('Safety', _isToxic ? 'This plant is toxic. Keep away from children and pets.' : 'This plant is non-toxic and safe around children and pets.'),
-          if (_isToxic)
-            _guideSection('First aid', 'If ingested, contact poison control immediately. Rinse mouth with water. Do not induce vomiting.'),
+          if (lib?.toxicParts.isNotEmpty == true)
+            _guideSection('Toxic parts', lib!.toxicParts),
+          if (lib?.toxicitySymptoms.isNotEmpty == true)
+            _guideSection('Symptoms', lib!.toxicitySymptoms),
+          if (lib?.toxicityFirstAid.isNotEmpty == true)
+            _guideSection('First aid', lib!.toxicityFirstAid),
+          if (lib?.toxicityNote.isNotEmpty == true)
+            _guideSection('Note', lib!.toxicityNote),
+          _guideSection('Disclaimer', 'This information is for reference only. In case of ingestion, always contact poison control or a veterinarian immediately.'),
+        ];
+      case 'harvest':
+        return [
+          if (lib?.edibleParts.isNotEmpty == true)
+            _guideSection('Edible parts', lib!.edibleParts),
+          if (lib?.harvestInfo.isNotEmpty == true)
+            _guideSection('How to harvest', lib!.harvestInfo),
+          if (_plantType == 'greens')
+            _guideSection('Harvesting tips', 'Harvest from the top, cutting above a leaf pair. Never take more than 1/3 of the plant at once. Morning harvest preserves the most flavor. Pinch off flower buds to extend leaf production.')
+          else if (_plantType == 'fruiting')
+            _guideSection('Fruit ripeness', 'Pick when fully colored and slightly soft to the touch. Harvest regularly to encourage continued production. Green unripe fruit may contain toxins.'),
+        ];
+      case 'propagation':
+        return [
+          if (lib?.propagationMethods.isNotEmpty == true)
+            _guideSection('Methods', lib!.propagationMethods.join(', ')),
+          if (lib?.propagationDetail.isNotEmpty == true)
+            _guideSection('How to propagate', lib!.propagationDetail),
+          if ((lib?.germinationDays ?? 0) > 0)
+            _guideSection('From seed', 'Germination: ${lib!.germinationDays} days at ${lib.germinationTempC}'),
+          _guideSection('General tips', 'Use clean, sharp tools. Best time: spring or early summer. Keep cuttings in moist (not soggy) soil. Bright indirect light. Be patient \u2014 rooting takes weeks.'),
+        ];
+      case 'size':
+        return [
+          _guideSection('Dimensions', '${lib?.heightMinCm ?? 0}\u2013${lib?.heightMaxCm ?? 0} cm height (mature, in ground)\n${(lib?.spreadMaxCm ?? 0) > 0 ? 'Spread: up to ${lib!.spreadMaxCm} cm' : ''}'),
+          if ((lib?.heightIndoorMaxCm ?? 0) > 0)
+            _guideSection('In a pot', 'Realistic indoor height: up to ${lib!.heightIndoorMaxCm} cm. Pot size limits root growth which limits plant size.'),
+          if (lib?.growthRate.isNotEmpty == true)
+            _guideSection('Growth rate', lib!.growthRate),
+        ];
+      case 'lifecycle':
+        return [
+          _guideSection('Type', '${lib?.lifecycle == 'perennial' ? 'Perennial \u2014 lives for multiple years' : 'Annual \u2014 completes lifecycle in one season'}${lib?.lifecycleYears.isNotEmpty == true ? ' (${lib!.lifecycleYears})' : ''}'),
+          _guideSection('Seasonal care', 'Spring: active growth begins \u2014 increase watering and start fertilizing.\nSummer: peak growth \u2014 regular watering and feeding.\nAutumn: growth slows \u2014 reduce watering and stop fertilizing.\nWinter: dormancy \u2014 minimal watering, no fertilizer.'),
+        ];
+      case 'used_for':
+        return [
+          if (lib?.usedForDetails.isNotEmpty == true)
+            _guideSection('About $_title', lib!.usedForDetails),
+          if (lib?.edibleParts.isNotEmpty == true)
+            _guideSection('Edible parts', lib!.edibleParts),
+          if (lib?.harvestInfo.isNotEmpty == true)
+            _guideSection('Harvest', lib!.harvestInfo),
+        ];
+      case 'companions':
+        return [
+          _guideSection('Why companion planting matters', 'Some plants benefit each other through pest control, pollination, or nutrient sharing. Others compete for resources or inhibit each other\'s growth.'),
+          if (lib?.companionNote.isNotEmpty == true)
+            _guideSection('About $_title', lib!.companionNote),
+          _guideSection('Grouping indoors', 'Group plants with similar humidity needs together. Use tall plants to provide shade for shade-loving neighbors. Keep fragrant herbs near windows. Isolate any plant with pest issues immediately.'),
         ];
       default:
         return [
