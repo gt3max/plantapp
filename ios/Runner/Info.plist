@@ -30,6 +30,8 @@
 	<string>PlantApp needs camera access to identify plants by photo</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>PlantApp needs photo library access to identify plants from your photos</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>PlantApp uses your location to show outdoor months and seasonal watering advice</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
