@@ -478,6 +478,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       ? Image.network(
                           _imageUrl!,
                           fit: BoxFit.cover,
+                          headers: const {'User-Agent': 'PlantApp/1.0'},
                           errorBuilder: (_, __, ___) => _heroPlaceholder(),
                         )
                       : _heroPlaceholder(),
@@ -506,7 +507,6 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                             _scientific,
                             style: TextStyle(
                               fontSize: AppFontSize.lg,
-                              fontStyle: FontStyle.italic,
                               color: AppColors.textSecondary,
                             ),
                           ),
@@ -544,18 +544,15 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                               ),
                             ),
                             if (_description!.length > 120)
-                              Padding(
-                                padding: const EdgeInsets.only(top: 4),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    Text(
-                                      _descExpanded ? 'Show less' : 'Read more',
-                                      style: TextStyle(fontSize: AppFontSize.xs, fontWeight: FontWeight.w600, color: AppColors.primary),
-                                    ),
-                                    const SizedBox(width: 4),
-                                    Icon(_descExpanded ? Icons.keyboard_arrow_up : Icons.keyboard_arrow_down, size: 14, color: AppColors.primary),
-                                  ],
+                              Align(
+                                alignment: Alignment.centerRight,
+                                child: Padding(
+                                  padding: const EdgeInsets.only(top: 4),
+                                  child: Icon(
+                                    _descExpanded ? Icons.keyboard_arrow_up : Icons.keyboard_arrow_down,
+                                    size: 22,
+                                    color: AppColors.primary,
+                                  ),
                                 ),
                               ),
                           ],

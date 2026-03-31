@@ -348,6 +348,7 @@ class _PopularCard extends StatelessWidget {
                 width: 56,
                 height: 56,
                 fit: BoxFit.cover,
+                headers: const {'User-Agent': 'PlantApp/1.0'},
                 errorBuilder: (_, __, ___) => Container(
                   width: 56, height: 56,
                   color: AppColors.background,
