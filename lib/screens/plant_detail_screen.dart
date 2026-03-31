@@ -207,16 +207,22 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   String get _title {
     if (_userPlant != null) return _userPlant!.displayName;
     final db = _dbDetail;
-    if (db != null) return (db['common_name'] as String?) ?? (db['scientific_name'] as String?) ?? 'Plant';
+    if (db != null) {
+      // Try common_names.en[0] first, then scientific
+      final names = db['common_names'] as Map<String, dynamic>?;
+      final enNames = (names?['en'] as List<dynamic>?);
+      if (enNames != null && enNames.isNotEmpty) return enNames.first as String;
+      return (db['scientific'] as String?) ?? 'Plant';
+    }
     return 'Plant';
   }
 
   String get _scientific {
-    return _userPlant?.scientific ?? (_dbDetail?['scientific_name'] as String?) ?? '';
+    return _userPlant?.scientific ?? (_dbDetail?['scientific'] as String?) ?? '';
   }
 
   String? get _imageUrl {
-    return _userPlant?.imageUrl ?? (_dbDetail?['default_image'] as String?);
+    return _userPlant?.imageUrl ?? (_dbDetail?['image_url'] as String?);
   }
 
   String? get _description => _dbDetail?['description'] as String?;
@@ -229,9 +235,25 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
 
   bool get _isInCollection => _userPlant != null;
 
-  // DB care helpers
+  // DB care helpers — Turso field names differ from RN popular-plants
   Map<String, dynamic> get _dbCare =>
       (_dbDetail?['care'] as Map<String, dynamic>?) ?? {};
+
+  // Map friendly names to actual Turso care field names
+  String _dbCareStr(String key) {
+    const fieldMap = {
+      'watering': 'water_frequency',
+      'watering_winter': 'water_winter',
+      'watering_demand': 'water_demand',
+      'light': 'light_preferred',
+      'humidity': 'humidity_level',
+      'repot': 'repot_frequency',
+      'fertilizer': 'fertilizer_type',
+      'soil': 'soil_types',
+    };
+    final dbKey = fieldMap[key] ?? key;
+    return _dbCare[dbKey] as String? ?? '';
+  }
 
   String _dbStr(String key) => _dbCare[key] as String? ?? '';
   int _dbInt(String key) => (_dbCare[key] as num?)?.toInt() ?? 0;
@@ -254,8 +276,8 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   bool get _isToxic {
     return (_userPlant?.poisonousToPets == true) ||
         (_userPlant?.poisonousToHumans == true) ||
-        (_dbDetail?['care']?['toxic_to_pets'] == true) ||
-        (_dbDetail?['care']?['toxic_to_humans'] == true);
+        (_dbCare['toxic_to_pets'] == true || _dbCare['toxic_to_pets'] == 1) ||
+        (_dbCare['toxic_to_humans'] == true || _dbCare['toxic_to_humans'] == 1);
   }
 
   String _fmtTemp(int celsius) {
@@ -505,44 +527,62 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                     _buildSection('water', 'Water', [
                       _InfoRow(
                         icon: Icons.water_drop_outlined,
-                        text: _locationData?.hasData == true
-                            ? 'Every ~${GeolocationService.getSeasonalWateringDays(_presetWateringDays, _locationData!.latitude)} days in ${_months[DateTime.now().month - 1]}'
-                            : care.watering,
-                        sub: _dbStr('watering_demand').isNotEmpty
-                            ? '${_dbStr('watering_demand')} demand'
+                        text: _dbCareStr('watering').isNotEmpty
+                            ? _dbCareStr('watering')
+                            : (_locationData?.hasData == true
+                                ? 'Every ~${GeolocationService.getSeasonalWateringDays(_presetWateringDays, _locationData!.latitude)} days in ${_months[DateTime.now().month - 1]}'
+                                : care.watering),
+                        sub: _dbCareStr('watering_demand').isNotEmpty
+                            ? '${_dbCareStr('watering_demand')} demand'
                             : null,
                       ),
                       if (_locationData?.cityName.isNotEmpty == true)
-                        _InfoRow(
-                          icon: Icons.location_on_outlined,
-                          text: 'Adjusted for ${_locationData!.cityName}',
-                        ),
-                      _InfoRow(icon: Icons.tips_and_updates_outlined, text: care.tips),
+                        _InfoRow(icon: Icons.location_on_outlined, text: 'Adjusted for ${_locationData!.cityName}'),
+                      if (_dbStr('tips').isNotEmpty)
+                        _InfoRow(icon: Icons.tips_and_updates_outlined, text: _dbStr('tips'))
+                      else
+                        _InfoRow(icon: Icons.tips_and_updates_outlined, text: care.tips),
                     ], guideLabel: 'Watering guide'),
 
                     // ── 2. Soil ──
                     _buildSection('soil', 'Soil', [
-                      _InfoRow(icon: Icons.layers_outlined, text: care.soil),
-                      if (_dbList('soil_types').isNotEmpty)
-                        _ChipRow(chips: _dbList('soil_types')),
-                      _InfoRow(icon: Icons.swap_vert, text: 'Repot: ${care.repot}', sub: 'Repotting'),
+                      _InfoRow(
+                        icon: Icons.layers_outlined,
+                        text: _dbCareStr('soil').isNotEmpty ? _dbCareStr('soil') : care.soil,
+                      ),
+                      _InfoRow(
+                        icon: Icons.swap_vert,
+                        text: 'Repot: ${_dbCareStr('repot').isNotEmpty ? _dbCareStr('repot') : care.repot}',
+                        sub: 'Repotting',
+                      ),
                     ], guideLabel: 'Repotting guide'),
 
                     // ── 3. Fertilizing ──
                     _buildSection('fertilizing', 'Fertilizing', [
-                      _InfoRow(icon: Icons.eco_outlined, text: care.fertilizer, sub: care.fertilizerSeason),
+                      _InfoRow(
+                        icon: Icons.eco_outlined,
+                        text: _dbCareStr('fertilizer').isNotEmpty ? _dbCareStr('fertilizer') : care.fertilizer,
+                        sub: care.fertilizerSeason,
+                      ),
                     ], guideLabel: 'Fertilizing guide'),
 
                     // ══════ GROUP: Environment ══════
 
                     // ── 4. Light ──
                     _buildSection('light', 'Light', [
-                      _InfoRow(icon: Icons.wb_sunny_outlined, text: care.light, sub: 'Preferred'),
+                      _InfoRow(
+                        icon: Icons.wb_sunny_outlined,
+                        text: _dbCareStr('light').isNotEmpty ? _dbCareStr('light') : care.light,
+                        sub: 'Preferred',
+                      ),
                     ], guideLabel: 'Understanding light'),
 
                     // ── 5. Humidity ──
                     _buildSection('humidity', 'Air Humidity', [
-                      _InfoRow(icon: Icons.water_drop_outlined, text: care.humidity),
+                      _InfoRow(
+                        icon: Icons.water_drop_outlined,
+                        text: _dbCareStr('humidity').isNotEmpty ? _dbCareStr('humidity') : care.humidity,
+                      ),
                     ], guideLabel: 'Managing humidity'),
 
                     // ── 6. Temperature ──
@@ -596,8 +636,8 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                           iconColor: AppColors.error,
                         ),
                         _ChipRow(chips: [
-                          if (_userPlant?.poisonousToHumans == true || _dbCare['toxic_to_humans'] == true) 'Humans',
-                          if (_userPlant?.poisonousToPets == true || _dbCare['toxic_to_pets'] == true) 'Animals',
+                          if (_userPlant?.poisonousToHumans == true || _dbCare['toxic_to_humans'] == true || _dbCare['toxic_to_humans'] == 1) 'Humans',
+                          if (_userPlant?.poisonousToPets == true || _dbCare['toxic_to_pets'] == true || _dbCare['toxic_to_pets'] == 1) 'Animals',
                         ]),
                       ] else
                         _InfoRow(
