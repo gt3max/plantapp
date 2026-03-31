@@ -170,6 +170,5 @@ class SavePlantInput {
   Map<String, dynamic> toJson() => {
         if (deviceId != null) 'device_id': deviceId,
         'plant': plant,
-        if (wateringFreqDays != null) 'wateringFreqDays': wateringFreqDays,
       };
 }

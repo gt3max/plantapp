@@ -149,6 +149,7 @@ class _PlantsScreenState extends State<PlantsScreen> {
       final wateringDays = presetDays[result.care.preset] ?? 7;
 
       await _plantService.savePlant(SavePlantInput(
+        deviceId: 'user-collection',
         plant: {
           'scientific': result.scientific,
           'common_name':
@@ -164,7 +165,6 @@ class _PlantsScreenState extends State<PlantsScreen> {
             'toxicity_note': result.toxicity!.toxicityNote,
           },
         },
-        wateringFreqDays: wateringDays,
       ));
 
       if (!mounted) return;
@@ -699,12 +699,13 @@ class _IdentifyResultCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final commonName = result.commonNames.isNotEmpty ? result.commonNames.first : null;
+
     return GestureDetector(
       onTap: onTap,
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 200),
         margin: const EdgeInsets.only(bottom: AppSpacing.md),
-        padding: const EdgeInsets.all(AppSpacing.md),
         decoration: BoxDecoration(
           color: AppColors.surface,
           borderRadius: AppBorderRadius.lgAll,
@@ -716,191 +717,199 @@ class _IdentifyResultCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Header row: image + name + score
-            Row(
-              children: [
-                // Plant image
-                ClipRRect(
-                  borderRadius: AppBorderRadius.mdAll,
-                  child: result.images.isNotEmpty
-                      ? Image.network(
-                          result.images.first,
-                          width: 56,
-                          height: 56,
-                          fit: BoxFit.cover,
-                          errorBuilder: (_, __, ___) => _placeholder(),
-                        )
-                      : _placeholder(),
+            // Large plant image
+            if (result.images.isNotEmpty)
+              ClipRRect(
+                borderRadius: const BorderRadius.vertical(
+                    top: Radius.circular(AppBorderRadius.lg)),
+                child: Image.network(
+                  result.images.first,
+                  width: double.infinity,
+                  height: 180,
+                  fit: BoxFit.cover,
+                  errorBuilder: (_, __, ___) => Container(
+                    height: 180,
+                    color: AppColors.background,
+                    child: Center(
+                        child: Icon(Icons.eco, size: 48, color: AppColors.accent)),
+                  ),
                 ),
-                const SizedBox(width: AppSpacing.md),
+              ),
 
-                // Name + family
-                Expanded(
-                  child: Column(
+            Padding(
+              padding: const EdgeInsets.all(AppSpacing.md),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Name + score row
+                  Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        result.scientific,
-                        style: TextStyle(
-                          fontSize: AppFontSize.md,
-                          fontWeight: FontWeight.w600,
-                          fontStyle: FontStyle.italic,
-                          color: AppColors.text,
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            if (commonName != null)
+                              Text(
+                                commonName,
+                                style: TextStyle(
+                                  fontSize: AppFontSize.lg,
+                                  fontWeight: FontWeight.w700,
+                                  color: AppColors.text,
+                                ),
+                              ),
+                            Text(
+                              result.scientific,
+                              style: TextStyle(
+                                fontSize: commonName != null ? AppFontSize.sm : AppFontSize.lg,
+                                fontWeight: commonName != null ? FontWeight.w400 : FontWeight.w700,
+                                fontStyle: FontStyle.italic,
+                                color: commonName != null ? AppColors.textSecondary : AppColors.text,
+                              ),
+                            ),
+                            if (result.family.isNotEmpty) ...[
+                              const SizedBox(height: 2),
+                              Text(
+                                result.family,
+                                style: TextStyle(
+                                  fontSize: AppFontSize.xs,
+                                  color: AppColors.textSecondary,
+                                ),
+                              ),
+                            ],
+                          ],
                         ),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
                       ),
-                      if (result.commonNames.isNotEmpty) ...[
-                        const SizedBox(height: 2),
-                        Text(
-                          result.commonNames.first,
+
+                      const SizedBox(width: AppSpacing.sm),
+
+                      // Score badge
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: AppSpacing.sm, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: result.score >= 50
+                              ? const Color(0xFFDCFCE7)
+                              : const Color(0xFFFEF3C7),
+                          borderRadius: AppBorderRadius.smAll,
+                        ),
+                        child: Text(
+                          '${result.score.round()}%',
                           style: TextStyle(
                             fontSize: AppFontSize.sm,
-                            color: AppColors.textSecondary,
+                            fontWeight: FontWeight.w700,
+                            color: result.score >= 50
+                                ? const Color(0xFF166534)
+                                : const Color(0xFF92400E),
                           ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
-                      const SizedBox(height: 2),
-                      Text(
-                        result.family,
-                        style: TextStyle(
-                          fontSize: AppFontSize.xs,
-                          color: AppColors.textSecondary,
                         ),
                       ),
                     ],
                   ),
-                ),
 
-                // Score badge
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                      horizontal: AppSpacing.sm, vertical: 4),
-                  decoration: BoxDecoration(
-                    color: const Color(0xFFFEF3C7),
-                    borderRadius: AppBorderRadius.smAll,
+                  const SizedBox(height: AppSpacing.sm),
+
+                  // Badges row
+                  Wrap(
+                    spacing: AppSpacing.xs,
+                    runSpacing: AppSpacing.xs,
+                    children: [
+                      _Badge(
+                        label: result.care.watering.isNotEmpty
+                            ? result.care.watering
+                            : 'Water',
+                        color: const Color(0xFFDBEAFE),
+                        textColor: const Color(0xFF1E40AF),
+                      ),
+                      _Badge(
+                        label: result.care.light.isNotEmpty
+                            ? result.care.light
+                            : 'Light',
+                        color: const Color(0xFFF3F4F6),
+                        textColor: const Color(0xFF374151),
+                      ),
+                      if (result.toxicity?.poisonousToPets == true)
+                        _Badge(
+                          label: 'Toxic',
+                          color: const Color(0xFFFEE2E2),
+                          textColor: const Color(0xFF991B1B),
+                        ),
+                      _Badge(
+                        label: result.care.preset,
+                        color: const Color(0xFFDCFCE7),
+                        textColor: const Color(0xFF166534),
+                      ),
+                    ],
                   ),
-                  child: Text(
-                    '${result.score.round()}%',
-                    style: TextStyle(
-                      fontSize: AppFontSize.sm,
-                      fontWeight: FontWeight.w700,
-                      color: const Color(0xFF92400E),
+
+                  // Expanded details
+                  if (isExpanded) ...[
+                    const SizedBox(height: AppSpacing.md),
+                    const Divider(height: 1),
+                    const SizedBox(height: AppSpacing.md),
+
+                    if (result.care.temperature.isNotEmpty)
+                      _DetailRow(
+                          icon: Icons.thermostat_outlined,
+                          label: 'Temperature',
+                          value: result.care.temperature),
+                    if (result.care.humidity.isNotEmpty)
+                      _DetailRow(
+                          icon: Icons.water_drop_outlined,
+                          label: 'Humidity',
+                          value: result.care.humidity),
+                    if (result.care.tips.isNotEmpty) ...[
+                      const SizedBox(height: AppSpacing.sm),
+                      Text(
+                        result.care.tips,
+                        style: TextStyle(
+                          fontSize: AppFontSize.sm,
+                          color: AppColors.textSecondary,
+                        ),
+                      ),
+                    ],
+
+                    // Enrichment data
+                    if (result.enrichment != null) ...[
+                      if (result.enrichment!['care_level'] != null)
+                        _DetailRow(
+                            icon: Icons.speed_outlined,
+                            label: 'Difficulty',
+                            value: result.enrichment!['care_level'] as String),
+                      if (result.enrichment!['growth_rate'] != null)
+                        _DetailRow(
+                            icon: Icons.trending_up,
+                            label: 'Growth',
+                            value: result.enrichment!['growth_rate'] as String),
+                    ],
+
+                    const SizedBox(height: AppSpacing.lg),
+
+                    // Save button
+                    SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton.icon(
+                        onPressed: isSaving ? null : onSave,
+                        icon: isSaving
+                            ? const SizedBox(
+                                width: 16,
+                                height: 16,
+                                child: CircularProgressIndicator(
+                                    strokeWidth: 2, color: Colors.white),
+                              )
+                            : const Icon(Icons.add),
+                        label: Text(isSaving ? 'Saving...' : 'Save to My Plants'),
+                      ),
                     ),
-                  ),
-                ),
-              ],
-            ),
-
-            const SizedBox(height: AppSpacing.sm),
-
-            // Badges row
-            Wrap(
-              spacing: AppSpacing.xs,
-              runSpacing: AppSpacing.xs,
-              children: [
-                _Badge(
-                  label: result.care.watering.isNotEmpty
-                      ? result.care.watering
-                      : 'Water',
-                  color: const Color(0xFFDBEAFE),
-                  textColor: const Color(0xFF1E40AF),
-                ),
-                _Badge(
-                  label: result.care.light.isNotEmpty
-                      ? result.care.light
-                      : 'Light',
-                  color: const Color(0xFFF3F4F6),
-                  textColor: const Color(0xFF374151),
-                ),
-                if (result.toxicity?.poisonousToPets == true)
-                  _Badge(
-                    label: 'Toxic',
-                    color: const Color(0xFFFEE2E2),
-                    textColor: const Color(0xFF991B1B),
-                  ),
-                _Badge(
-                  label: result.care.preset,
-                  color: const Color(0xFFDCFCE7),
-                  textColor: const Color(0xFF166534),
-                ),
-              ],
-            ),
-
-            // Expanded details
-            if (isExpanded) ...[
-              const SizedBox(height: AppSpacing.md),
-              const Divider(height: 1),
-              const SizedBox(height: AppSpacing.md),
-
-              if (result.care.temperature.isNotEmpty)
-                _DetailRow(
-                    icon: Icons.thermostat_outlined,
-                    label: 'Temperature',
-                    value: result.care.temperature),
-              if (result.care.humidity.isNotEmpty)
-                _DetailRow(
-                    icon: Icons.water_drop_outlined,
-                    label: 'Humidity',
-                    value: result.care.humidity),
-              if (result.care.tips.isNotEmpty) ...[
-                const SizedBox(height: AppSpacing.sm),
-                Text(
-                  result.care.tips,
-                  style: TextStyle(
-                    fontSize: AppFontSize.sm,
-                    color: AppColors.textSecondary,
-                  ),
-                ),
-              ],
-
-              // Enrichment data
-              if (result.enrichment != null) ...[
-                if (result.enrichment!['care_level'] != null)
-                  _DetailRow(
-                      icon: Icons.speed_outlined,
-                      label: 'Difficulty',
-                      value: result.enrichment!['care_level'] as String),
-                if (result.enrichment!['growth_rate'] != null)
-                  _DetailRow(
-                      icon: Icons.trending_up,
-                      label: 'Growth',
-                      value: result.enrichment!['growth_rate'] as String),
-              ],
-
-              const SizedBox(height: AppSpacing.lg),
-
-              // Save button
-              SizedBox(
-                width: double.infinity,
-                child: ElevatedButton.icon(
-                  onPressed: isSaving ? null : onSave,
-                  icon: isSaving
-                      ? const SizedBox(
-                          width: 16,
-                          height: 16,
-                          child: CircularProgressIndicator(
-                              strokeWidth: 2, color: Colors.white),
-                        )
-                      : const Icon(Icons.add),
-                  label: Text(isSaving ? 'Saving...' : 'Save to My Plants'),
-                ),
+                  ],
+                ],
               ),
-            ],
+            ),
           ],
         ),
       ),
     );
   }
-
-  Widget _placeholder() => Container(
-        width: 56,
-        height: 56,
-        color: AppColors.background,
-        child: Icon(Icons.eco, color: AppColors.accent, size: 28),
-      );
 }
 
 class _Badge extends StatelessWidget {
