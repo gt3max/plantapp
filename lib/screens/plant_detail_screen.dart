@@ -144,6 +144,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   bool _descExpanded = false;
   bool _isSaving = false;
   bool _isSaved = false;
+  bool _isAutoScrolling = false;
 
   // Section keys for scroll tracking
   final _sectionKeys = <String, GlobalKey>{};
@@ -312,35 +313,37 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
 
   // ─── Scroll tracking ────────────────────────────────────────
 
-  void _onScroll() {
-    // Track which group is visible
-    const groupSections = {
-      'care': ['water', 'soil', 'fertilizing'],
-      'environment': ['light', 'humidity', 'temperature', 'outdoor'],
-      'safety': ['toxicity'],
-      'growing': ['pruning', 'propagation'],
-      'about': ['difficulty', 'size', 'lifecycle', 'used_for', 'taxonomy'],
-      'companions': ['companions'],
-    };
+  // Map section → group for scroll tracking
+  static const _sectionToGroup = {
+    'water': 'care', 'soil': 'care', 'fertilizing': 'care',
+    'light': 'environment', 'humidity': 'environment', 'temperature': 'environment', 'outdoor': 'environment',
+    'toxicity': 'safety',
+    'pruning': 'growing', 'harvest': 'growing', 'propagation': 'growing',
+    'difficulty': 'about', 'size': 'about', 'lifecycle': 'about', 'used_for': 'about', 'taxonomy': 'about',
+    'companions': 'companions',
+  };
 
-    String? currentGroup;
-    for (final entry in groupSections.entries) {
-      for (final section in entry.value) {
-        final key = _sectionKeys[section];
-        if (key?.currentContext != null) {
-          final box = key!.currentContext!.findRenderObject() as RenderBox?;
-          if (box != null && box.attached) {
-            final pos = box.localToGlobal(Offset.zero);
-            if (pos.dy < 200) {
-              currentGroup = entry.key;
-            }
+  void _onScroll() {
+    if (_isAutoScrolling) return;
+
+    // Find topmost visible section
+    String currentSection = 'water';
+    for (final entry in _sectionKeys.entries) {
+      final ctx = entry.value.currentContext;
+      if (ctx != null) {
+        final box = ctx.findRenderObject() as RenderBox?;
+        if (box != null && box.attached) {
+          final pos = box.localToGlobal(Offset.zero);
+          if (pos.dy < 160) {
+            currentSection = entry.key;
           }
         }
       }
     }
 
-    if (currentGroup != null && currentGroup != _activeGroup) {
-      setState(() => _activeGroup = currentGroup!);
+    final group = _sectionToGroup[currentSection] ?? 'care';
+    if (group != _activeGroup) {
+      setState(() => _activeGroup = group);
     }
   }
 
@@ -357,15 +360,22 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     final section = firstSection[groupKey];
     if (section == null) return;
     final key = _sectionKeys[section];
-    if (key?.currentContext != null) {
-      setState(() => _activeGroup = groupKey);
-      Scrollable.ensureVisible(
-        key!.currentContext!,
-        duration: const Duration(milliseconds: 300),
-        curve: Curves.easeInOut,
-        alignmentPolicy: ScrollPositionAlignmentPolicy.explicit,
-      );
-    }
+    if (key?.currentContext == null) return;
+
+    setState(() {
+      _activeGroup = groupKey;
+      _isAutoScrolling = true;
+    });
+
+    Scrollable.ensureVisible(
+      key!.currentContext!,
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeInOut,
+    ).then((_) {
+      Future.delayed(const Duration(milliseconds: 400), () {
+        if (mounted) setState(() => _isAutoScrolling = false);
+      });
+    });
   }
 
   // ─── Save to collection ──────────────────────────────────────
@@ -374,19 +384,20 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     setState(() => _isSaving = true);
     try {
       await _plantService.savePlant(SavePlantInput(
+        deviceId: 'user-collection',
         plant: {
           'scientific': _scientific,
           'common_name': _title,
-          'family': _dbDetail?['family'] as String? ?? '',
+          'family': _lib?.family ?? _dbDetail?['family'] as String? ?? '',
           'preset': _preset,
-          'start_pct': _userPlant?.startPct ?? 35,
-          'stop_pct': _userPlant?.stopPct ?? 55,
+          'start_pct': _lib?.care.watering.contains('2-3 week') == true ? 15 : 35,
+          'stop_pct': _lib?.care.watering.contains('2-3 week') == true ? 35 : 55,
           'image_url': _imageUrl,
-          'poisonous_to_pets': _isToxic,
-          'poisonous_to_humans':
-              _userPlant?.poisonousToHumans ?? (_dbDetail?['care']?['toxic_to_humans'] == true),
-          'toxicity_note': _userPlant?.toxicityNote ?? '',
+          'poisonous_to_pets': _lib?.poisonousToPets ?? false,
+          'poisonous_to_humans': _lib?.poisonousToHumans ?? false,
+          'toxicity_note': _lib?.toxicityNote ?? '',
         },
+        wateringFreqDays: _lib?.wateringFreqSummerDays,
       ));
       if (mounted) {
         setState(() {
@@ -449,7 +460,19 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
               SliverAppBar(
                 expandedHeight: 300,
                 pinned: true,
-                title: Text(_title),
+                backgroundColor: AppColors.background,
+                foregroundColor: AppColors.text,
+                leading: IconButton(
+                  icon: Container(
+                    padding: const EdgeInsets.all(6),
+                    decoration: BoxDecoration(
+                      color: Colors.black.withValues(alpha: 0.4),
+                      shape: BoxShape.circle,
+                    ),
+                    child: const Icon(Icons.arrow_back, color: Colors.white, size: 20),
+                  ),
+                  onPressed: () => Navigator.pop(context),
+                ),
                 flexibleSpace: FlexibleSpaceBar(
                   background: _imageUrl != null
                       ? Image.network(
@@ -464,7 +487,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
               // ═══ NAME + DESCRIPTION ═══
               SliverToBoxAdapter(
                 child: Padding(
-                  padding: const EdgeInsets.all(AppSpacing.lg),
+                  padding: const EdgeInsets.fromLTRB(AppSpacing.lg, AppSpacing.lg, AppSpacing.lg, AppSpacing.sm),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -477,49 +500,70 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         ),
                       ),
                       if (_scientific.isNotEmpty && _scientific != _title)
-                        Text(
-                          _scientific,
-                          style: TextStyle(
-                            fontSize: AppFontSize.md,
-                            fontStyle: FontStyle.italic,
-                            color: AppColors.textSecondary,
-                          ),
-                        ),
-                      if (_description != null && _description!.isNotEmpty) ...[
-                        const SizedBox(height: AppSpacing.md),
-                        GestureDetector(
-                          onTap: () => setState(() => _descExpanded = !_descExpanded),
+                        Padding(
+                          padding: const EdgeInsets.only(top: 2),
                           child: Text(
-                            _description!,
-                            maxLines: _descExpanded ? null : 3,
-                            overflow: _descExpanded ? null : TextOverflow.ellipsis,
+                            _scientific,
                             style: TextStyle(
-                              fontSize: AppFontSize.sm,
+                              fontSize: AppFontSize.lg,
+                              fontStyle: FontStyle.italic,
                               color: AppColors.textSecondary,
-                              height: 1.5,
                             ),
                           ),
                         ),
-                        if (_description!.length > 150)
-                          GestureDetector(
-                            onTap: () => setState(() => _descExpanded = !_descExpanded),
-                            child: Padding(
-                              padding: const EdgeInsets.only(top: 4),
-                              child: Text(
-                                _descExpanded ? 'Show less' : 'Read more',
-                                style: TextStyle(
-                                  fontSize: AppFontSize.sm,
-                                  fontWeight: FontWeight.w600,
-                                  color: AppColors.primary,
-                                ),
-                              ),
-                            ),
-                          ),
-                      ],
                     ],
                   ),
                 ),
               ),
+
+              // ═══ DESCRIPTION (green bubble like RN) ═══
+              if (_description != null && _description!.isNotEmpty)
+                SliverToBoxAdapter(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
+                    child: GestureDetector(
+                      onTap: () => setState(() => _descExpanded = !_descExpanded),
+                      child: Container(
+                        margin: const EdgeInsets.only(bottom: AppSpacing.md),
+                        padding: const EdgeInsets.all(AppSpacing.md),
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFE8F5E9),
+                          borderRadius: BorderRadius.circular(AppBorderRadius.lg),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              _description!,
+                              maxLines: _descExpanded ? null : 3,
+                              overflow: _descExpanded ? null : TextOverflow.ellipsis,
+                              style: const TextStyle(
+                                fontSize: AppFontSize.md,
+                                color: Color(0xFF1B5E20),
+                                height: 1.4,
+                              ),
+                            ),
+                            if (_description!.length > 120)
+                              Padding(
+                                padding: const EdgeInsets.only(top: 4),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    Text(
+                                      _descExpanded ? 'Show less' : 'Read more',
+                                      style: TextStyle(fontSize: AppFontSize.xs, fontWeight: FontWeight.w600, color: AppColors.primary),
+                                    ),
+                                    const SizedBox(width: 4),
+                                    Icon(_descExpanded ? Icons.keyboard_arrow_up : Icons.keyboard_arrow_down, size: 14, color: AppColors.primary),
+                                  ],
+                                ),
+                              ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
 
               // ═══ BADGES ═══
               SliverToBoxAdapter(
@@ -595,6 +639,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       }(),
                     ], guideLabel: 'Fertilizing guide'),
 
+                    const SizedBox(height: AppSpacing.md),
                     // ══════ GROUP: Environment ══════
 
                     // ── 4. Light (RN: LightLevelIndicator + InfoRow preferred) ──
@@ -651,6 +696,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         _InfoRow(icon: Icons.location_on_outlined, text: 'Enable location to see outdoor months', sub: 'Based on your local climate'),
                     ], guideLabel: 'Indoor & outdoor'),
 
+                    const SizedBox(height: AppSpacing.md),
                     // ══════ GROUP: Toxicity ══════
 
                     // ── 8. Toxicity (RN: toxic alert+chips OR non-toxic green) ──
@@ -669,17 +715,15 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         _InfoRow(icon: Icons.check_circle_outline, text: 'Non-toxic to humans and pets', iconColor: AppColors.success),
                     ], guideLabel: _isToxic ? 'Toxicity details' : null),
 
+                    const SizedBox(height: AppSpacing.md),
                     // ══════ GROUP: Growing ══════
 
-                    // ── 9. Pruning (RN: text 3 lines, NO guide) ──
+                    // ── 9. Pruning (expandable with icon, NO guide) ──
                     _buildSection('pruning', 'Pruning', [
-                      Text(
-                        _lib?.pruningInfo.isNotEmpty == true ? _lib!.pruningInfo
+                      _ExpandableText(
+                        text: _lib?.pruningInfo.isNotEmpty == true ? _lib!.pruningInfo
                             : _dbStr('pruning_info').isNotEmpty ? _dbStr('pruning_info')
                             : 'Remove dead or damaged leaves. Prune to shape as needed.',
-                        maxLines: 3,
-                        overflow: TextOverflow.ellipsis,
-                        style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4),
                       ),
                     ]),
 
@@ -700,6 +744,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         _InfoRow(icon: Icons.call_split_outlined, text: 'Stem cuttings, division', sub: 'Common methods'),
                     ], guideLabel: 'Germination & propagation'),
 
+                    const SizedBox(height: AppSpacing.md),
                     // ══════ GROUP: About ══════
 
                     // ── 12. Difficulty (RN: stars + label + note InfoBox, NO guide) ──
@@ -802,6 +847,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         _InfoRow(icon: Icons.public_outlined, text: _dbStr('origin'), sub: 'Origin'),
                     ]),
 
+                    const SizedBox(height: AppSpacing.md),
                     // ══════ GROUP: Companions ══════
 
                     // ── 17. Companions (RN: good chips green + bad chips red) ──
@@ -1000,45 +1046,41 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
         maxChildSize: 0.9,
         minChildSize: 0.4,
         expand: false,
-        builder: (ctx, scrollController) => Padding(
-          padding: const EdgeInsets.all(AppSpacing.lg),
-          child: ListView(
-            controller: scrollController,
-            children: [
-              // Handle bar
-              Center(
-                child: Container(
-                  width: 40,
-                  height: 4,
-                  margin: const EdgeInsets.only(bottom: AppSpacing.lg),
-                  decoration: BoxDecoration(
-                    color: AppColors.border,
-                    borderRadius: BorderRadius.circular(2),
+        builder: (ctx, scrollController) => Column(
+          children: [
+            // ─── Header: title left, X right (RN: modalHeader) ───
+            Container(
+              padding: const EdgeInsets.fromLTRB(AppSpacing.lg, AppSpacing.xl, AppSpacing.lg, AppSpacing.md),
+              decoration: BoxDecoration(
+                border: Border(bottom: BorderSide(color: AppColors.border)),
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    _guideTitles[sectionKey] ?? '$title guide',
+                    style: TextStyle(fontSize: AppFontSize.lg, fontWeight: FontWeight.w700, color: AppColors.text),
                   ),
-                ),
+                  GestureDetector(
+                    onTap: () => Navigator.pop(ctx),
+                    child: Icon(Icons.close, size: 24, color: AppColors.text),
+                  ),
+                ],
               ),
-              // Title (RN-exact per guide)
-              Text(
-                _guideTitles[sectionKey] ?? '$title guide',
-                style: TextStyle(
-                  fontSize: AppFontSize.xl,
-                  fontWeight: FontWeight.w700,
-                  color: AppColors.text,
-                ),
+            ),
+            // ─── Content ───
+            Expanded(
+              child: ListView(
+                controller: scrollController,
+                padding: const EdgeInsets.all(AppSpacing.lg),
+                children: [
+                  Text(_title, style: TextStyle(fontSize: AppFontSize.md, color: AppColors.textSecondary)),
+                  const SizedBox(height: AppSpacing.lg),
+                  ..._guideContent(sectionKey, care),
+                ],
               ),
-              const SizedBox(height: AppSpacing.sm),
-              Text(
-                _title,
-                style: TextStyle(
-                  fontSize: AppFontSize.md,
-                  color: AppColors.textSecondary,
-                ),
-              ),
-              const SizedBox(height: AppSpacing.lg),
-              // Content based on section
-              ..._guideContent(sectionKey, care),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
@@ -1640,7 +1682,7 @@ class _InfoRow extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Icon(icon, size: 18, color: iconColor ?? AppColors.textSecondary),
+          Icon(icon, size: 20, color: iconColor ?? AppColors.textSecondary),
           const SizedBox(width: AppSpacing.sm),
           Expanded(
             child: Column(
@@ -1649,7 +1691,7 @@ class _InfoRow extends StatelessWidget {
                 Text(
                   text,
                   style: TextStyle(
-                    fontSize: AppFontSize.sm,
+                    fontSize: AppFontSize.md,
                     color: AppColors.text,
                   ),
                 ),
@@ -1657,13 +1699,56 @@ class _InfoRow extends StatelessWidget {
                   Text(
                     sub!,
                     style: TextStyle(
-                      fontSize: AppFontSize.xs,
+                      fontSize: AppFontSize.sm,
                       color: AppColors.textSecondary,
                     ),
                   ),
               ],
             ),
           ),
+        ],
+      ),
+    );
+  }
+}
+
+// ─── Expandable text with icon (for Pruning etc) ────────────
+
+class _ExpandableText extends StatefulWidget {
+  const _ExpandableText({required this.text, this.maxLines = 3});
+  final String text;
+  final int maxLines;
+
+  @override
+  State<_ExpandableText> createState() => _ExpandableTextState();
+}
+
+class _ExpandableTextState extends State<_ExpandableText> {
+  bool _expanded = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final needsExpansion = widget.text.length > widget.maxLines * 50;
+    return GestureDetector(
+      onTap: needsExpansion ? () => setState(() => _expanded = !_expanded) : null,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            widget.text,
+            maxLines: _expanded ? null : widget.maxLines,
+            overflow: _expanded ? null : TextOverflow.ellipsis,
+            style: TextStyle(fontSize: AppFontSize.md, color: AppColors.textSecondary, height: 1.4),
+          ),
+          if (needsExpansion)
+            Padding(
+              padding: const EdgeInsets.only(top: 4),
+              child: Icon(
+                _expanded ? Icons.keyboard_arrow_up : Icons.keyboard_arrow_down,
+                size: 20,
+                color: AppColors.primary,
+              ),
+            ),
         ],
       ),
     );
@@ -1684,7 +1769,7 @@ class _ChipRow extends StatelessWidget {
         spacing: AppSpacing.xs,
         runSpacing: AppSpacing.xs,
         children: chips.map((chip) => Container(
-          padding: const EdgeInsets.symmetric(horizontal: AppSpacing.sm, vertical: 4),
+          padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md, vertical: 6),
           decoration: BoxDecoration(
             color: green
                 ? const Color(0xFFDCFCE7)
@@ -1696,7 +1781,7 @@ class _ChipRow extends StatelessWidget {
           child: Text(
             chip,
             style: TextStyle(
-              fontSize: AppFontSize.xs,
+              fontSize: AppFontSize.sm,
               fontWeight: FontWeight.w600,
               color: green
                   ? const Color(0xFF166534)
