@@ -19,6 +19,7 @@ dependencies:
   # HTTP
   dio: ^5.4.0
   http: ^1.2.0
+  timezone: ^0.9.0
 
   # State management
   flutter_riverpod: ^2.5.0
