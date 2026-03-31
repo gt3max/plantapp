@@ -1,28 +1,35 @@
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:plantapp/constants/api.dart';
 
-/// Secure token storage for JWT authentication.
-/// Uses flutter_secure_storage (Keychain on iOS, EncryptedSharedPreferences on Android).
+/// Token storage using SharedPreferences (UserDefaults on iOS).
+/// Survives app reinstalls — unlike Keychain which gets wiped.
 class TokenService {
   TokenService._();
   static final instance = TokenService._();
-
-  final _storage = const FlutterSecureStorage(
-    iOptions: IOSOptions(accessibility: KeychainAccessibility.first_unlock),
-  );
 
   static const _accessTokenKey = 'access_token';
   static const _refreshTokenKey = 'refresh_token';
   static const _expiresKey = 'token_expires';
   static const _emailKey = 'user_email';
 
-  Future<String?> getAccessToken() => _storage.read(key: _accessTokenKey);
-  Future<String?> getRefreshToken() => _storage.read(key: _refreshTokenKey);
-  Future<String?> getUserEmail() => _storage.read(key: _emailKey);
+  Future<String?> getAccessToken() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_accessTokenKey);
+  }
+
+  Future<String?> getRefreshToken() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_refreshTokenKey);
+  }
+
+  Future<String?> getUserEmail() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getString(_emailKey);
+  }
 
   Future<int> getTokenExpires() async {
-    final raw = await _storage.read(key: _expiresKey);
-    return raw != null ? int.tryParse(raw) ?? 0 : 0;
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(_expiresKey) ?? 0;
   }
 
   Future<bool> isTokenExpired() async {
@@ -36,29 +43,32 @@ class TokenService {
     required int expiresIn,
     required String email,
   }) async {
+    final prefs = await SharedPreferences.getInstance();
     final expiresAt = DateTime.now().millisecondsSinceEpoch + (expiresIn * 1000);
     await Future.wait([
-      _storage.write(key: _accessTokenKey, value: accessToken),
-      _storage.write(key: _refreshTokenKey, value: refreshToken),
-      _storage.write(key: _expiresKey, value: expiresAt.toString()),
-      _storage.write(key: _emailKey, value: email),
+      prefs.setString(_accessTokenKey, accessToken),
+      prefs.setString(_refreshTokenKey, refreshToken),
+      prefs.setInt(_expiresKey, expiresAt),
+      prefs.setString(_emailKey, email),
     ]);
   }
 
   Future<void> updateAccessToken(String accessToken, int expiresIn) async {
+    final prefs = await SharedPreferences.getInstance();
     final expiresAt = DateTime.now().millisecondsSinceEpoch + (expiresIn * 1000);
     await Future.wait([
-      _storage.write(key: _accessTokenKey, value: accessToken),
-      _storage.write(key: _expiresKey, value: expiresAt.toString()),
+      prefs.setString(_accessTokenKey, accessToken),
+      prefs.setInt(_expiresKey, expiresAt),
     ]);
   }
 
   Future<void> clearAll() async {
+    final prefs = await SharedPreferences.getInstance();
     await Future.wait([
-      _storage.delete(key: _accessTokenKey),
-      _storage.delete(key: _refreshTokenKey),
-      _storage.delete(key: _expiresKey),
-      _storage.delete(key: _emailKey),
+      prefs.remove(_accessTokenKey),
+      prefs.remove(_refreshTokenKey),
+      prefs.remove(_expiresKey),
+      prefs.remove(_emailKey),
     ]);
   }
 }
