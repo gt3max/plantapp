@@ -7,6 +7,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:plantapp/app/theme.dart';
 import 'package:plantapp/models/plant.dart';
 import 'package:plantapp/services/plant_service.dart';
+import 'package:plantapp/services/reminder_service.dart';
 
 class PlantsScreen extends StatefulWidget {
   const PlantsScreen({super.key});
@@ -171,6 +172,17 @@ class _PlantsScreenState extends State<PlantsScreen> {
       final name = result.commonNames.isNotEmpty
           ? result.commonNames.first
           : result.scientific;
+
+      // Schedule watering reminder
+      try {
+        await ReminderService.instance.scheduleWateringReminder(
+          plantId: result.scientific,
+          plantName: name,
+          baseDays: wateringDays,
+        );
+      } catch (_) {
+        // Non-critical — reminder scheduling can fail silently
+      }
 
       // Success — reset and refresh
       setState(() {

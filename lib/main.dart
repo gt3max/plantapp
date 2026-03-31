@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:plantapp/app/theme.dart';
 import 'package:plantapp/app/router.dart';
 import 'package:plantapp/stores/auth_store.dart';
+import 'package:plantapp/services/reminder_service.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,6 +29,10 @@ class _PlantAppState extends ConsumerState<PlantApp> {
   Future<void> _init() async {
     try {
       await ref.read(authProvider.notifier).initialize();
+      // Initialize reminders (non-blocking)
+      ReminderService.instance.initialize().then((_) {
+        ReminderService.instance.rescheduleAll();
+      });
     } catch (e) {
       // Auth init failed — will show sign-in screen
     }
