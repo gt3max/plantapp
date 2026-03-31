@@ -469,34 +469,34 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         text: 'Current month: ${_months[DateTime.now().month - 1]}',
                         sub: care.tips,
                       ),
-                    ]),
+                    ], guideLabel: 'Watering guide'),
                     _buildSection('soil', 'Soil', [
                       _InfoRow(icon: Icons.layers_outlined, text: care.soil),
                       _InfoRow(
                           icon: Icons.swap_vert, text: 'Repot: ${care.repot}', sub: 'Repotting'),
-                    ]),
+                    ], guideLabel: 'Repotting guide'),
                     _buildSection('fertilizing', 'Fertilizing', [
                       _InfoRow(icon: Icons.eco_outlined, text: care.fertilizer, sub: care.fertilizerSeason),
-                    ]),
+                    ], guideLabel: 'Fertilizing guide'),
 
                     // ── GROUP: Environment ──
                     _buildSection('light', 'Light', [
                       _InfoRow(icon: Icons.wb_sunny_outlined, text: care.light, sub: 'Preferred'),
-                    ]),
+                    ], guideLabel: 'Understanding light'),
                     _buildSection('humidity', 'Air Humidity', [
                       _InfoRow(icon: Icons.water_drop_outlined, text: care.humidity),
-                    ]),
+                    ], guideLabel: 'Managing humidity'),
                     _buildSection('temperature', 'Air Temperature', [
                       _InfoRow(icon: Icons.thermostat_outlined, text: care.temperature, sub: 'Ideal range'),
                       _InfoRow(icon: Icons.thermostat_auto_outlined, text: 'Min ${_fmtTemp(5)} / Max ${_fmtTemp(35)}', sub: 'Survival limits'),
-                    ]),
+                    ], guideLabel: 'Temperature & climate'),
                     _buildSection('outdoor', 'Outdoor', [
                       _InfoRow(
                         icon: Icons.park_outlined,
                         text: 'Enable location to see outdoor months',
                         sub: 'Based on your local climate',
                       ),
-                    ]),
+                    ], guideLabel: 'Indoor & outdoor'),
 
                     // ── GROUP: Safety ──
                     _buildSection('toxicity', 'Toxicity', [
@@ -512,7 +512,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                           text: 'Non-toxic to humans and pets',
                           iconColor: AppColors.success,
                         ),
-                    ]),
+                    ], guideLabel: _isToxic ? 'Toxicity details' : null),
 
                     // ── GROUP: Growing ──
                     _buildSection('pruning', 'Pruning', [
@@ -658,7 +658,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
 
   // ─── Section builder ─────────────────────────────────────────
 
-  Widget _buildSection(String key, String title, List<Widget> children) {
+  Widget _buildSection(String key, String title, List<Widget> children, {String? guideLabel}) {
     final accent = _sectionAccent[key] ?? AppColors.border;
     return Container(
       key: _keyFor(key),
@@ -687,6 +687,165 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           ),
           const SizedBox(height: AppSpacing.sm),
           ...children,
+          if (guideLabel != null) ...[
+            const SizedBox(height: AppSpacing.sm),
+            GestureDetector(
+              onTap: () => _showGuide(title, key),
+              child: Row(
+                children: [
+                  Text(
+                    guideLabel,
+                    style: TextStyle(
+                      fontSize: AppFontSize.sm,
+                      fontWeight: FontWeight.w600,
+                      color: AppColors.primary,
+                    ),
+                  ),
+                  const SizedBox(width: 4),
+                  Icon(Icons.chevron_right, size: 16, color: AppColors.primary),
+                ],
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  void _showGuide(String title, String sectionKey) {
+    final care = _care;
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (ctx) => DraggableScrollableSheet(
+        initialChildSize: 0.7,
+        maxChildSize: 0.9,
+        minChildSize: 0.4,
+        expand: false,
+        builder: (ctx, scrollController) => Padding(
+          padding: const EdgeInsets.all(AppSpacing.lg),
+          child: ListView(
+            controller: scrollController,
+            children: [
+              // Handle bar
+              Center(
+                child: Container(
+                  width: 40,
+                  height: 4,
+                  margin: const EdgeInsets.only(bottom: AppSpacing.lg),
+                  decoration: BoxDecoration(
+                    color: AppColors.border,
+                    borderRadius: BorderRadius.circular(2),
+                  ),
+                ),
+              ),
+              // Title
+              Text(
+                '$title guide',
+                style: TextStyle(
+                  fontSize: AppFontSize.xl,
+                  fontWeight: FontWeight.w700,
+                  color: AppColors.text,
+                ),
+              ),
+              const SizedBox(height: AppSpacing.sm),
+              Text(
+                _title,
+                style: TextStyle(
+                  fontSize: AppFontSize.md,
+                  color: AppColors.textSecondary,
+                ),
+              ),
+              const SizedBox(height: AppSpacing.lg),
+              // Content based on section
+              ..._guideContent(sectionKey, care),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  List<Widget> _guideContent(String key, _PresetCare care) {
+    switch (key) {
+      case 'water':
+        return [
+          _guideSection('Watering frequency', care.watering),
+          _guideSection('Tips', care.tips),
+          _guideSection('Drainage', 'Make sure your pot has drainage holes. Without drainage, water collects and roots rot.'),
+        ];
+      case 'soil':
+        return [
+          _guideSection('Recommended soil', care.soil),
+          _guideSection('Repotting', care.repot),
+          _guideSection('Signs to repot', 'Roots growing out of drainage holes, soil drying out very quickly, plant becoming top-heavy.'),
+        ];
+      case 'fertilizing':
+        return [
+          _guideSection('Fertilizer', care.fertilizer),
+          _guideSection('Season', care.fertilizerSeason),
+          _guideSection('Warning', 'Never fertilize a dry plant. Water first, then fertilize. Over-fertilizing burns roots.'),
+        ];
+      case 'light':
+        return [
+          _guideSection('Preferred light', care.light),
+          _guideSection('Signs of too little light', 'Leaves turn yellow, plant stretches towards light, slow weak growth, leaves far apart on stem.'),
+          _guideSection('Signs of too much light', 'Leaves drooping, leaf edges dry up, color fading, flowers shrivel.'),
+        ];
+      case 'humidity':
+        return [
+          _guideSection('Preferred humidity', care.humidity),
+          _guideSection('How to increase', 'Group plants together, use a pebble tray with water, mist leaves in the morning, use a humidifier.'),
+        ];
+      case 'temperature':
+        return [
+          _guideSection('Ideal range', care.temperature),
+          _guideSection('Avoid', 'Keep away from cold drafts, radiators, and air conditioning vents. Sudden temperature changes stress plants.'),
+        ];
+      case 'outdoor':
+        return [
+          _guideSection('Outdoor placement', 'Check local temperatures before moving plants outside. Acclimatize gradually over 1-2 weeks.'),
+          _guideSection('Bring inside when', 'Night temperatures drop below the plant\'s minimum tolerance. Usually before first frost.'),
+        ];
+      case 'toxicity':
+        return [
+          _guideSection('Safety', _isToxic ? 'This plant is toxic. Keep away from children and pets.' : 'This plant is non-toxic and safe around children and pets.'),
+          if (_isToxic)
+            _guideSection('First aid', 'If ingested, contact poison control immediately. Rinse mouth with water. Do not induce vomiting.'),
+        ];
+      default:
+        return [
+          _guideSection('Information', 'Detailed guide coming soon.'),
+        ];
+    }
+  }
+
+  Widget _guideSection(String title, String text) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: AppSpacing.lg),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            title,
+            style: TextStyle(
+              fontSize: AppFontSize.md,
+              fontWeight: FontWeight.w700,
+              color: AppColors.text,
+            ),
+          ),
+          const SizedBox(height: AppSpacing.xs),
+          Text(
+            text,
+            style: TextStyle(
+              fontSize: AppFontSize.sm,
+              color: AppColors.textSecondary,
+              height: 1.5,
+            ),
+          ),
         ],
       ),
     );
