@@ -173,12 +173,23 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
         if (mounted) setState(() => _userPlant = userPlant);
       }
 
-      // Try Turso DB detail
+      // Try Turso DB detail — search by scientific name for enrichment
       try {
+        // First try by plantId (library plants have Turso IDs)
         final detail = await _libraryService.getDetail(widget.plantId);
         if (mounted) setState(() => _dbDetail = detail);
       } catch (_) {
-        // DB detail not available — OK for user-collection plants
+        // Try search by scientific name
+        final scientific = _userPlant?.scientific;
+        if (scientific != null && scientific.isNotEmpty) {
+          try {
+            final results = await _libraryService.search(scientific);
+            if (results.isNotEmpty) {
+              final detail = await _libraryService.getDetail(results.first.id.toString());
+              if (mounted) setState(() => _dbDetail = detail);
+            }
+          } catch (_) {}
+        }
       }
 
       // Load location (non-blocking)
@@ -217,6 +228,23 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   _PresetCare get _care => _presetCare[_preset] ?? _presetCare['Standard']!;
 
   bool get _isInCollection => _userPlant != null;
+
+  // DB care helpers
+  Map<String, dynamic> get _dbCare =>
+      (_dbDetail?['care'] as Map<String, dynamic>?) ?? {};
+
+  String _dbStr(String key) => _dbCare[key] as String? ?? '';
+  int _dbInt(String key) => (_dbCare[key] as num?)?.toInt() ?? 0;
+  List<String> _dbList(String key) {
+    final val = _dbCare[key];
+    if (val is List) return val.map((e) => e.toString()).toList();
+    if (val is String && val.startsWith('[')) {
+      try {
+        return val.replaceAll('[', '').replaceAll(']', '').replaceAll('"', '').split(',').map((s) => s.trim()).where((s) => s.isNotEmpty).toList();
+      } catch (_) {}
+    }
+    return [];
+  }
 
   int get _presetWateringDays {
     const days = {'Succulents': 10, 'Standard': 7, 'Tropical': 5, 'Herbs': 2};
@@ -471,46 +499,71 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
                 sliver: SliverList(
                   delegate: SliverChildListDelegate([
-                    // ── GROUP: Care ──
+                    // ══════ GROUP: Care ══════
+
+                    // ── 1. Water ──
                     _buildSection('water', 'Water', [
                       _InfoRow(
                         icon: Icons.water_drop_outlined,
                         text: _locationData?.hasData == true
                             ? 'Every ~${GeolocationService.getSeasonalWateringDays(_presetWateringDays, _locationData!.latitude)} days in ${_months[DateTime.now().month - 1]}'
                             : care.watering,
-                      ),
-                      _InfoRow(
-                        icon: Icons.calendar_today_outlined,
-                        text: care.tips,
-                        sub: _locationData?.cityName.isNotEmpty == true
-                            ? 'Adjusted for ${_locationData!.cityName}'
+                        sub: _dbStr('watering_demand').isNotEmpty
+                            ? '${_dbStr('watering_demand')} demand'
                             : null,
                       ),
+                      if (_locationData?.cityName.isNotEmpty == true)
+                        _InfoRow(
+                          icon: Icons.location_on_outlined,
+                          text: 'Adjusted for ${_locationData!.cityName}',
+                        ),
+                      _InfoRow(icon: Icons.tips_and_updates_outlined, text: care.tips),
                     ], guideLabel: 'Watering guide'),
+
+                    // ── 2. Soil ──
                     _buildSection('soil', 'Soil', [
                       _InfoRow(icon: Icons.layers_outlined, text: care.soil),
-                      _InfoRow(
-                          icon: Icons.swap_vert, text: 'Repot: ${care.repot}', sub: 'Repotting'),
+                      if (_dbList('soil_types').isNotEmpty)
+                        _ChipRow(chips: _dbList('soil_types')),
+                      _InfoRow(icon: Icons.swap_vert, text: 'Repot: ${care.repot}', sub: 'Repotting'),
                     ], guideLabel: 'Repotting guide'),
+
+                    // ── 3. Fertilizing ──
                     _buildSection('fertilizing', 'Fertilizing', [
                       _InfoRow(icon: Icons.eco_outlined, text: care.fertilizer, sub: care.fertilizerSeason),
                     ], guideLabel: 'Fertilizing guide'),
 
-                    // ── GROUP: Environment ──
+                    // ══════ GROUP: Environment ══════
+
+                    // ── 4. Light ──
                     _buildSection('light', 'Light', [
                       _InfoRow(icon: Icons.wb_sunny_outlined, text: care.light, sub: 'Preferred'),
                     ], guideLabel: 'Understanding light'),
+
+                    // ── 5. Humidity ──
                     _buildSection('humidity', 'Air Humidity', [
                       _InfoRow(icon: Icons.water_drop_outlined, text: care.humidity),
                     ], guideLabel: 'Managing humidity'),
+
+                    // ── 6. Temperature ──
                     _buildSection('temperature', 'Air Temperature', [
                       _InfoRow(icon: Icons.thermostat_outlined, text: care.temperature, sub: 'Ideal range'),
-                      _InfoRow(icon: Icons.thermostat_auto_outlined, text: 'Min ${_fmtTemp(5)} / Max ${_fmtTemp(35)}', sub: 'Survival limits'),
+                      if (_dbInt('temp_min_c') > 0)
+                        _InfoRow(
+                          icon: Icons.thermostat_auto_outlined,
+                          text: 'Min ${_fmtTemp(_dbInt('temp_min_c'))} / Max ${_fmtTemp(_dbInt('temp_max_c'))}',
+                          sub: 'Survival limits',
+                        )
+                      else
+                        _InfoRow(icon: Icons.thermostat_auto_outlined, text: 'Min ${_fmtTemp(5)} / Max ${_fmtTemp(35)}', sub: 'Survival limits'),
                     ], guideLabel: 'Temperature & climate'),
+
+                    // ── 7. Outdoor ──
                     _buildSection('outdoor', 'Outdoor', [
                       if (_locationData?.hasData == true) ...[
                         () {
-                          final outdoor = GeolocationService.getOutdoorMonths(5, _locationData!.monthlyAvgTemps);
+                          final frostLimit = _dbInt('temp_min_c') > 0 ? _dbInt('temp_min_c') : 5;
+                          final outdoor = GeolocationService.getOutdoorMonths(frostLimit.toDouble(), _locationData!.monthlyAvgTemps);
                           final pottedRange = GeolocationService.formatMonthRange(outdoor.potted);
                           return _InfoRow(
                             icon: Icons.park_outlined,
@@ -532,15 +585,21 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         ),
                     ], guideLabel: 'Indoor & outdoor'),
 
-                    // ── GROUP: Safety ──
+                    // ══════ GROUP: Toxicity ══════
+
+                    // ── 8. Toxicity ──
                     _buildSection('toxicity', 'Toxicity', [
-                      if (_isToxic)
+                      if (_isToxic) ...[
                         _InfoRow(
                           icon: Icons.warning_amber_outlined,
-                          text: 'Toxic',
+                          text: 'Toxic${_dbStr('toxicity_severity').isNotEmpty ? ' (${_dbStr('toxicity_severity')})' : ''}',
                           iconColor: AppColors.error,
-                        )
-                      else
+                        ),
+                        _ChipRow(chips: [
+                          if (_userPlant?.poisonousToHumans == true || _dbCare['toxic_to_humans'] == true) 'Humans',
+                          if (_userPlant?.poisonousToPets == true || _dbCare['toxic_to_pets'] == true) 'Animals',
+                        ]),
+                      ] else
                         _InfoRow(
                           icon: Icons.check_circle_outline,
                           text: 'Non-toxic to humans and pets',
@@ -548,59 +607,112 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         ),
                     ], guideLabel: _isToxic ? 'Toxicity details' : null),
 
-                    // ── GROUP: Growing ──
+                    // ══════ GROUP: Growing ══════
+
+                    // ── 9. Pruning ──
                     _buildSection('pruning', 'Pruning', [
                       _InfoRow(
                         icon: Icons.content_cut_outlined,
-                        text: 'Remove dead or damaged leaves. Prune to shape as needed.',
-                      ),
-                    ]),
-                    _buildSection('propagation', 'Propagation', [
-                      _InfoRow(
-                        icon: Icons.call_split_outlined,
-                        text: 'Stem cuttings, division',
-                        sub: 'Common methods',
+                        text: _dbStr('pruning_info').isNotEmpty
+                            ? _dbStr('pruning_info')
+                            : 'Remove dead or damaged leaves. Prune to shape as needed.',
                       ),
                     ]),
 
-                    // ── GROUP: About ──
-                    _buildSection('difficulty', 'Difficulty', [
-                      _InfoRow(icon: Icons.speed_outlined, text: _dbDetail?['care']?['difficulty'] as String? ?? 'Medium'),
+                    // ── 10. Propagation ──
+                    _buildSection('propagation', 'Propagation', [
+                      if (_dbList('propagation_methods').isNotEmpty)
+                        _ChipRow(chips: _dbList('propagation_methods'))
+                      else
+                        _InfoRow(icon: Icons.call_split_outlined, text: 'Stem cuttings, division', sub: 'Common methods'),
                     ]),
+
+                    // ══════ GROUP: About ══════
+
+                    // ── 11. Difficulty ──
+                    _buildSection('difficulty', 'Difficulty', [
+                      () {
+                        final diff = _dbStr('difficulty').isNotEmpty ? _dbStr('difficulty') : 'Medium';
+                        final stars = diff.toLowerCase().contains('adv') ? 3 : diff.toLowerCase().contains('med') ? 2 : 1;
+                        final color = stars == 3 ? AppColors.error : stars == 2 ? const Color(0xFFF59E0B) : AppColors.success;
+                        return Row(
+                          children: [
+                            ...List.generate(stars, (_) => Icon(Icons.star, size: 20, color: color)),
+                            ...List.generate(3 - stars, (_) => Icon(Icons.star_border, size: 20, color: AppColors.border)),
+                            const SizedBox(width: AppSpacing.sm),
+                            Text(diff, style: TextStyle(fontSize: AppFontSize.md, fontWeight: FontWeight.w600, color: color)),
+                          ],
+                        );
+                      }(),
+                    ]),
+
+                    // ── 12. Size ──
                     _buildSection('size', 'Size', [
                       _InfoRow(
                         icon: Icons.height_outlined,
-                        text: _dbDetail?['care']?['height_max_cm'] != null
-                            ? '${_dbDetail!['care']['height_max_cm']} cm'
+                        text: _dbInt('height_max_cm') > 0
+                            ? '${_dbInt('height_min_cm') > 0 ? '${_dbInt('height_min_cm')} – ' : ''}${_dbInt('height_max_cm')} cm'
                             : 'Not specified',
                         sub: 'Height (mature)',
                       ),
+                      if (_dbInt('spread_max_cm') > 0)
+                        _InfoRow(icon: Icons.swap_horiz_outlined, text: 'Up to ${_dbInt('spread_max_cm')} cm', sub: 'Spread'),
                     ]),
+
+                    // ── 13. Lifecycle ──
                     _buildSection('lifecycle', 'Lifecycle', [
-                      _InfoRow(
-                        icon: Icons.loop_outlined,
-                        text: _dbDetail?['care']?['lifecycle'] as String? ?? 'Perennial',
-                        sub: 'Lives for multiple years',
-                      ),
+                      () {
+                        final lc = _dbStr('lifecycle').isNotEmpty ? _dbStr('lifecycle') : 'perennial';
+                        final label = lc == 'perennial' ? 'Perennial' : lc == 'annual' ? 'Annual' : lc;
+                        final sub = lc == 'perennial' ? 'Lives for multiple years' : 'One growing season';
+                        return _InfoRow(icon: Icons.loop_outlined, text: label, sub: sub);
+                      }(),
                     ]),
+
+                    // ── 14. Used for ──
                     _buildSection('used_for', 'Used for', [
-                      _InfoRow(icon: Icons.local_florist_outlined, text: 'Decorative'),
+                      if (_dbList('used_for').isNotEmpty)
+                        _ChipRow(chips: _dbList('used_for'))
+                      else
+                        _InfoRow(icon: Icons.local_florist_outlined, text: 'Decorative'),
                     ]),
+
+                    // ── 15. Taxonomy ──
                     _buildSection('taxonomy', 'Taxonomy', [
                       _InfoRow(
                         icon: Icons.science_outlined,
                         text: _scientific,
-                        sub: _dbDetail?['family'] as String?,
+                        sub: [
+                          _dbStr('genus'),
+                          _dbDetail?['family'] as String? ?? '',
+                          _dbStr('order'),
+                        ].where((s) => s.isNotEmpty).join(' · '),
                       ),
+                      if (_dbStr('origin').isNotEmpty)
+                        _InfoRow(icon: Icons.public_outlined, text: _dbStr('origin'), sub: 'Origin'),
                     ]),
 
-                    // ── GROUP: Companions ──
+                    // ══════ GROUP: Companions ══════
+
+                    // ── 16. Companions ──
                     _buildSection('companions', 'Companions', [
-                      _InfoRow(
-                        icon: Icons.group_outlined,
-                        text: 'Companion data coming soon',
-                        sub: 'Check back after database enrichment',
-                      ),
+                      if (_dbList('good_companions').isNotEmpty) ...[
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: AppSpacing.xs),
+                          child: Text('Good neighbors', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+                        ),
+                        _ChipRow(chips: _dbList('good_companions'), green: true),
+                      ],
+                      if (_dbList('bad_companions').isNotEmpty) ...[
+                        const SizedBox(height: AppSpacing.sm),
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: AppSpacing.xs),
+                          child: Text('Keep apart', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
+                        ),
+                        _ChipRow(chips: _dbList('bad_companions'), red: true),
+                      ],
+                      if (_dbList('good_companions').isEmpty && _dbList('bad_companions').isEmpty)
+                        _InfoRow(icon: Icons.group_outlined, text: 'Companion data coming soon'),
                     ]),
 
                     // Bottom padding for floating button
@@ -1038,6 +1150,47 @@ class _InfoRow extends StatelessWidget {
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _ChipRow extends StatelessWidget {
+  const _ChipRow({required this.chips, this.green = false, this.red = false});
+  final List<String> chips;
+  final bool green;
+  final bool red;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+      child: Wrap(
+        spacing: AppSpacing.xs,
+        runSpacing: AppSpacing.xs,
+        children: chips.map((chip) => Container(
+          padding: const EdgeInsets.symmetric(horizontal: AppSpacing.sm, vertical: 4),
+          decoration: BoxDecoration(
+            color: green
+                ? const Color(0xFFDCFCE7)
+                : red
+                    ? const Color(0xFFFEE2E2)
+                    : const Color(0xFFF3F4F6),
+            borderRadius: AppBorderRadius.smAll,
+          ),
+          child: Text(
+            chip,
+            style: TextStyle(
+              fontSize: AppFontSize.xs,
+              fontWeight: FontWeight.w600,
+              color: green
+                  ? const Color(0xFF166534)
+                  : red
+                      ? AppColors.error
+                      : AppColors.text,
+            ),
+          ),
+        )).toList(),
       ),
     );
   }
