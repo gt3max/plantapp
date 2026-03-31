@@ -753,14 +753,33 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       ),
                     ], guideLabel: 'Lifecycle'),
 
-                    // ── 15. Used for (RN: chips + edible parts InfoRow) ──
+                    // ── 15. Used for (RN: chips with individual green coloring) ──
                     _buildSection('used_for', 'Used for', [
                       () {
                         final tags = _lib?.usedFor ?? _dbList('used_for');
                         if (tags.isNotEmpty) {
-                          return _ChipRow(chips: tags, green: tags.any((t) => t.contains('Edible') || t.contains('Fruiting')));
+                          return Padding(
+                            padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+                            child: Wrap(
+                              spacing: AppSpacing.xs,
+                              runSpacing: AppSpacing.xs,
+                              children: tags.map((tag) {
+                                final isEdible = tag.contains('Edible') || tag.contains('Fruiting');
+                                return Container(
+                                  padding: const EdgeInsets.symmetric(horizontal: AppSpacing.sm, vertical: 4),
+                                  decoration: BoxDecoration(
+                                    color: isEdible ? const Color(0xFFDCFCE7) : const Color(0xFFF3F4F6),
+                                    borderRadius: AppBorderRadius.smAll,
+                                  ),
+                                  child: Text(tag, style: TextStyle(fontSize: AppFontSize.xs, fontWeight: FontWeight.w600, color: isEdible ? const Color(0xFF166534) : AppColors.text)),
+                                );
+                              }).toList(),
+                            ),
+                          );
                         }
-                        return _ChipRow(chips: [_plantType == 'greens' ? 'Edible greens' : _plantType == 'fruiting' ? 'Fruiting' : 'Decorative']);
+                        final fallbackTag = _plantType == 'greens' ? 'Edible greens' : _plantType == 'fruiting' ? 'Fruiting' : 'Decorative';
+                        final isEdible = _plantType != 'decorative';
+                        return _ChipRow(chips: [fallbackTag], green: isEdible);
                       }(),
                       if (_lib?.edibleParts.isNotEmpty == true)
                         _InfoRow(icon: Icons.restaurant_outlined, text: _lib!.edibleParts, sub: 'Edible parts', iconColor: AppColors.success),
@@ -856,42 +875,40 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   // ─── Badges ──────────────────────────────────────────────────
 
   Widget _buildBadges(_PresetCare care) {
-    // Water demand
-    final waterLabel = care.watering.contains('2-3 week')
-        ? 'Low'
-        : care.watering.contains('7-10') || care.watering.contains('7 day')
-            ? 'Medium'
-            : 'High';
+    // Water demand (from lib or parse care text)
+    final waterLabel = _lib?.wateringDemand.isNotEmpty == true
+        ? _lib!.wateringDemand
+        : care.watering.contains('2-3 week') ? 'Low'
+        : care.watering.contains('7-10') || care.watering.contains('7 day') ? 'Medium'
+        : 'High';
 
     // Light
-    final lightLabel = care.light.contains('Full')
-        ? 'Full sun'
-        : care.light.contains('indirect')
-            ? 'Indirect'
-            : 'Part sun';
+    final lightText = _lib?.care.light ?? care.light;
+    final lightLabel = lightText.contains('Full') ? 'Full sun'
+        : lightText.contains('indirect') ? 'Indirect'
+        : 'Part sun';
 
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    // Difficulty
+    final diff = _lib?.difficulty ?? 'Medium';
+    final diffStars = diff.toLowerCase().contains('adv') ? 3 : diff.toLowerCase().contains('med') ? 2 : 1;
+
+    return Wrap(
+      alignment: WrapAlignment.spaceEvenly,
+      spacing: AppSpacing.sm,
+      runSpacing: AppSpacing.sm,
       children: [
-        _RoundBadge(
-          icon: Icons.water_drop,
-          label: waterLabel,
-          bgColor: const Color(0xFFEBF5FF),
-          iconColor: const Color(0xFF3B82F6),
-        ),
-        _RoundBadge(
-          icon: care.light.contains('Full') ? Icons.wb_sunny : Icons.wb_sunny_outlined,
-          label: lightLabel,
-          bgColor: const Color(0xFFFFF8E1),
-          iconColor: const Color(0xFFF59E0B),
-        ),
+        // 1. Water
+        _RoundBadge(icon: Icons.water_drop, label: waterLabel, bgColor: const Color(0xFFEBF5FF), iconColor: const Color(0xFF3B82F6)),
+        // 2. Light
+        _RoundBadge(icon: lightText.contains('Full') ? Icons.wb_sunny : Icons.wb_sunny_outlined, label: lightLabel, bgColor: const Color(0xFFFFF8E1), iconColor: const Color(0xFFF59E0B)),
+        // 3. Difficulty
+        _RoundBadge(icon: Icons.star, label: diff, bgColor: diffStars == 1 ? const Color(0xFFDCFCE7) : diffStars == 2 ? const Color(0xFFFEF3C7) : const Color(0xFFFEE2E2), iconColor: diffStars == 1 ? AppColors.success : diffStars == 2 ? const Color(0xFFF59E0B) : AppColors.error),
+        // 4. Size (if data available)
+        if ((_lib?.heightIndoorMaxCm ?? 0) > 0)
+          _RoundBadge(icon: Icons.straighten, label: '${_lib!.heightIndoorMaxCm} cm', bgColor: const Color(0xFFF3E8FF), iconColor: const Color(0xFF7C3AED)),
+        // 5. Toxicity (only if toxic)
         if (_isToxic)
-          _RoundBadge(
-            icon: Icons.warning_amber,
-            label: 'Toxic',
-            bgColor: const Color(0xFFFEE2E2),
-            iconColor: AppColors.error,
-          ),
+          _RoundBadge(icon: Icons.warning_amber, label: 'Toxic', bgColor: const Color(0xFFFEE2E2), iconColor: AppColors.error),
       ],
     );
   }
@@ -952,6 +969,24 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     );
   }
 
+  // RN-exact guide titles
+  static const _guideTitles = {
+    'water': 'Watering guide',
+    'light': 'Understanding light',
+    'humidity': 'Managing humidity',
+    'temperature': 'Temperature & climate',
+    'outdoor': 'Indoor & outdoor',
+    'toxicity': 'Toxicity details',
+    'used_for': 'About this plant',
+    'soil': 'Repotting guide',
+    'fertilizing': 'Fertilizing guide',
+    'size': 'Growth & dimensions',
+    'propagation': 'Germination & propagation',
+    'harvest': 'Harvesting guide',
+    'lifecycle': 'Lifecycle',
+    'companions': 'Plant companions',
+  };
+
   void _showGuide(String title, String sectionKey) {
     final care = _care;
     showModalBottomSheet(
@@ -982,9 +1017,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                   ),
                 ),
               ),
-              // Title
+              // Title (RN-exact per guide)
               Text(
-                '$title guide',
+                _guideTitles[sectionKey] ?? '$title guide',
                 style: TextStyle(
                   fontSize: AppFontSize.xl,
                   fontWeight: FontWeight.w700,
@@ -1094,10 +1129,10 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
             _preset == 'Tropical'
               ? '$_title is a tropical plant. It thrives at typical room temperature (${_fmtTemp(18)}\u2013${_fmtTemp(27)}) all year. No special temperature adjustments needed indoors.'
               : _preset == 'Succulents'
-                ? '$_title comes from an arid climate. Normal room temperature works year-round. A slight winter cool-down (${_fmtTemp(10)}\u2013${_fmtTemp(15)}) can encourage blooming, but is not required.'
+                ? '$_title comes from an arid climate. Normal room temperature works year-round. A slight winter cool-down (${_fmtTemp(10)}\u2013${_fmtTemp(15)}) can encourage blooming, but is not required to keep the plant alive.'
                 : _preset == 'Herbs'
                   ? '$_title prefers moderate temperatures. Some herbs from temperate climates benefit from cooler winters. Avoid hot radiators and cold drafts equally.'
-                  : '$_title is a temperate plant. It may need a cooler winter period (dormancy) to stay healthy long-term.'),
+                  : '$_title is a temperate plant. It may need a cooler winter period (dormancy) to stay healthy long-term. Without winter cool-down, it can weaken and become susceptible to pests.'),
           _guideSectionTitle('Summer (optimal)'),
           TempRangeBar(optLow: p?.tempOptLowC ?? 15, optHigh: p?.tempOptHighC ?? 25, color: const Color(0xFFEF4444), formatT: _fmtTemp),
           if ((p?.tempWinterLowC ?? 0) > 0) ...[
@@ -1108,6 +1143,22 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
             _guideSectionTitle('Warnings'),
             InfoBox(text: p!.tempWarning, variant: 'warning'),
           ],
+          _guideSectionTitle('Current conditions'),
+          if (_locationData?.hasData == true) ...[
+            () {
+              final currentTemp = _locationData!.monthlyAvgTemps[DateTime.now().month - 1];
+              final optLow = p?.tempOptLowC ?? 15;
+              final optHigh = p?.tempOptHighC ?? 25;
+              final minC = p?.tempMinC ?? 5;
+              final inOptimal = currentTemp >= optLow && currentTemp <= optHigh;
+              final canSurvive = currentTemp >= minC;
+              return InfoBox(
+                text: 'It\'s ${_fmtTemp(currentTemp.round())} outside right now. ${inOptimal ? 'This is within the optimal range for this plant.' : canSurvive ? 'The plant can survive at this temperature, but it\'s outside the optimal range.' : 'Too cold \u2014 keep this plant indoors.'}',
+                variant: inOptimal ? 'success' : 'warning',
+              );
+            }(),
+          ] else
+            InfoBox(text: 'Enable location services to see current outdoor temperature in your area and whether it\'s safe to place this plant outside.', variant: 'info'),
           _guideSectionTitle('Common indoor problems'),
           _guideSection('', '\u2022 Cold drafts from windows \u2014 move plant away from drafty spots in winter\n\u2022 Hot radiators \u2014 dry out the air and overheat roots on the side closest to heat\n\u2022 Air conditioning \u2014 sudden cold blasts stress tropical plants\n\u2022 Temperature swings day/night \u2014 most plants prefer stable temperature'),
         ];
@@ -1121,13 +1172,25 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
               : tempMin <= 5
                 ? '$_title can go outdoors in warm months but must come inside before temperatures drop below ${_fmtTemp(tempMin)}.'
                 : '$_title is sensitive to cold. Only put outdoors when nighttime temperatures are consistently above ${_fmtTemp(tempMin + 5)}.'),
+          _guideSectionTitle('Outdoor months (potted)'),
+          if (_locationData?.hasData == true) ...[
+            _guideSection('', 'These are the months $_title can be outdoors in your area. The rest of the year the temperature is too cold.'),
+            // TODO: MonthBar visual component
+          ] else
+            _guideSection('', 'Enable location to see which months are safe for outdoor placement in your area.'),
           _guideSectionTitle('Frost tolerance'),
           _InfoRow(icon: Icons.thermostat_outlined, text: _fmtTemp(tempMin), sub: 'Lowest temp to survive when potted'),
           InfoBox(text: 'This is the temperature the plant can endure \u2014 not the temperature it prefers. At this point the plant suffers: leaves may drop, growth stops, scarring occurs. It should survive and recover once moved to warmth.', variant: 'info'),
           _guideSectionTitle('Potted vs in ground'),
           _guideSection('', 'A plant in the ground has soil insulation protecting its roots. A potted plant has exposed sides \u2014 the pot freezes through much faster. This means potted plants need to come inside earlier in autumn and go out later in spring.'),
           _guideSectionTitle('Frost tolerance zones'),
-          _guideSection('', 'A frost tolerance zone is based on the average lowest winter temperature in your area. Zones range from 1a (coldest, below \u221251\u00B0C) to 13b (warmest, above 21\u00B0C). Each zone spans about 5\u00B0C.\n\nImportant: these zones assume the plant is in the ground. Potted plants are 1\u20132 zones less hardy.'),
+          _guideSection('', 'A frost tolerance zone is based on the average lowest winter temperature in your area. It determines which plants can survive outdoors year-round.'),
+          _guideSection('', 'Zones range from 1a (coldest, below \u221251\u00B0C) to 13b (warmest, above 21\u00B0C). Each zone spans about 5\u00B0C.'),
+          _guideSection('', 'Important: these zones assume the plant is in the ground. Potted plants are 1\u20132 zones less hardy because roots are exposed to cold from all sides.'),
+          if (_locationData?.hasData == true)
+            InfoBox(text: 'Current outdoor temperature: ${_fmtTemp(_locationData!.monthlyAvgTemps[DateTime.now().month - 1].round())}.', variant: 'success')
+          else
+            InfoBox(text: 'Enable location services and we will determine your frost tolerance zone automatically.', variant: 'info'),
         ];
       // ═══ TOXICITY GUIDE (RN 1:1) ═══
       case 'toxicity':
@@ -1181,7 +1244,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           if (p?.toxicityNote.isNotEmpty == true)
             InfoBox(text: p!.toxicityNote, variant: 'warning'),
           _guideSectionTitle('Disclaimer'),
-          InfoBox(text: 'Toxicity information is compiled from multiple botanical sources and may not be exhaustive. Individual reactions vary. If you or your pet ingested any plant material and feel unwell, contact a medical professional or poison control center immediately. This is not medical advice.', variant: 'info'),
+          InfoBox(text: 'Toxicity information is compiled from multiple botanical sources and may not be exhaustive. Individual reactions vary \u2014 allergies and sensitivities are not covered here. If you or your pet ingested any plant material and feel unwell, contact a medical professional or poison control center immediately. This is not medical advice.', variant: 'info'),
         ];
       // ═══ SOIL / REPOTTING GUIDE (RN 1:1) ═══
       case 'soil':
@@ -1207,6 +1270,10 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
             _guideSectionTitle('Recommended soil types'),
             _ChipRow(chips: p!.soilTypes),
           ],
+          // pH section (from RN)
+          // TODO: PHBar visual component when soil_ph data available
+          _guideSectionTitle('Soil acidity (pH)'),
+          InfoBox(text: 'pH below 7 is acidic (peat, pine bark). pH above 7 is alkaline (limestone, chalk). Most houseplants prefer slightly acidic to neutral (5.5\u20137.0). Test with a simple pH kit from any garden store.', variant: 'info'),
           _guideSectionTitle('Cleaning'),
           _guideSection('', 'Wipe leaves with a damp cloth regularly. Dust blocks light absorption and slows photosynthesis. For fuzzy-leaved plants, use a soft brush instead.'),
         ];
@@ -1307,7 +1374,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           _guideSectionTitle('What does this mean?'),
           _guideSection('', (p?.lifecycle ?? 'perennial') == 'perennial'
             ? 'Perennial plants live for more than two years. They grow actively in spring and summer, then slow down or go dormant in winter. During dormancy, reduce watering and stop fertilizing \u2014 the plant is resting, not dying. Most houseplants are perennials.'
-            : 'Annual plants complete their entire lifecycle in one growing season \u2014 from seed to flower to seed again. After producing seeds, the plant naturally dies. This is normal. To continue growing, start new plants from seed or buy new seedlings each season.'),
+            : (p?.lifecycle ?? 'perennial') == 'annual'
+              ? 'Annual plants complete their entire lifecycle in one growing season \u2014 from seed to flower to seed again. After producing seeds, the plant naturally dies. This is normal. To continue growing, start new plants from seed or buy new seedlings each season.'
+              : 'Biennial plants take two years to complete their lifecycle. In the first year they grow leaves and roots, in the second year they flower, produce seeds, and die. Some plants grown as annuals in cold climates are actually perennials in warmer regions.'),
           _guideSectionTitle('Types of plant lifecycles'),
           Text('Annual', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
           _guideSection('', 'One growing season. Examples: basil, tomato, lettuce, sunflower. Plant \u2192 grow \u2192 harvest \u2192 done.'),
@@ -1359,7 +1428,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           if ((p?.goodCompanions ?? []).isNotEmpty) ...[
             _guideSectionTitle('Good neighbors for $_title'),
             _ChipRow(chips: p!.goodCompanions, green: true),
-            _guideSection('', p.companionNote.isNotEmpty ? p.companionNote : 'These plants share similar soil and watering requirements, making them ideal pot or garden neighbors.'),
+            _guideSection('', p.companionNote.isNotEmpty ? p.companionNote : 'These plants share similar soil and watering requirements, making them ideal pot or garden neighbors. They can be planted in the same bed or grouped together indoors.'),
           ],
           if ((p?.badCompanions ?? []).isNotEmpty) ...[
             _guideSectionTitle('Keep apart from $_title'),
