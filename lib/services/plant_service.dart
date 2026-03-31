@@ -29,6 +29,12 @@ class PlantService {
         .toList();
   }
 
+  /// Get all library plants (including device plants, for admin view)
+  Future<List<PlantEntry>> getAllPlants() async {
+    final all = await getLibrary();
+    return all.where((p) => p.deleted != true).toList();
+  }
+
   /// Identify plant from base64 image
   Future<List<IdentifyResult>> identify(String base64Image) async {
     final data = await _api.post<Map<String, dynamic>>(

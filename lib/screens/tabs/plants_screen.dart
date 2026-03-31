@@ -71,11 +71,11 @@ class _PlantsScreenState extends State<PlantsScreen> {
 
     try {
       await _plantService.deletePlant(plant.plantId, deviceId: plant.deviceId);
-      _loadPlants();
+      await _loadPlants();
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Failed to delete plant')),
+          SnackBar(content: Text('Delete failed (id=${plant.plantId}, dev=${plant.deviceId}): $e')),
         );
       }
     }
@@ -137,6 +137,9 @@ class _PlantsScreenState extends State<PlantsScreen> {
 
   Future<void> _savePlant(IdentifyResult result) async {
     setState(() => _savingResultId = result.id);
+    final name = result.commonNames.isNotEmpty
+        ? result.commonNames.first
+        : result.scientific;
 
     try {
       // Map preset → watering frequency
@@ -156,8 +159,8 @@ class _PlantsScreenState extends State<PlantsScreen> {
               result.commonNames.isNotEmpty ? result.commonNames.first : null,
           'family': result.family,
           'preset': result.care.preset,
-          'start_pct': result.care.startPct,
-          'stop_pct': result.care.stopPct,
+          'start_pct': result.care.startPct.toInt(),
+          'stop_pct': result.care.stopPct.toInt(),
           'image_url': result.images.isNotEmpty ? result.images.first : null,
           if (result.toxicity != null) ...{
             'poisonous_to_pets': result.toxicity!.poisonousToPets,
@@ -169,10 +172,6 @@ class _PlantsScreenState extends State<PlantsScreen> {
 
       if (!mounted) return;
 
-      final name = result.commonNames.isNotEmpty
-          ? result.commonNames.first
-          : result.scientific;
-
       // Schedule watering reminder
       try {
         await ReminderService.instance.scheduleWateringReminder(
@@ -180,24 +179,27 @@ class _PlantsScreenState extends State<PlantsScreen> {
           plantName: name,
           baseDays: wateringDays,
         );
-      } catch (_) {
-        // Non-critical — reminder scheduling can fail silently
-      }
+      } catch (_) {}
+
+      // Wait a moment for backend to finish writing
+      await Future.delayed(const Duration(milliseconds: 500));
+
+      // Reload and check
+      final plants = await _plantService.getMyPlants();
 
       // Success — reset and refresh
-      setState(() {
-        _identifyState = 'idle';
-        _previewPath = null;
-        _results = [];
-        _savingResultId = null;
-      });
-
-      _loadPlants();
-
       if (mounted) {
+        setState(() {
+          _identifyState = 'idle';
+          _previewPath = null;
+          _results = [];
+          _savingResultId = null;
+          _plants = plants;
+        });
+
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('$name added to My Plants'),
+            content: Text('$name added to My Plants (${plants.length} plants)'),
             backgroundColor: AppColors.primary,
           ),
         );
@@ -205,8 +207,11 @@ class _PlantsScreenState extends State<PlantsScreen> {
     } catch (e) {
       if (mounted) {
         setState(() => _savingResultId = null);
+        final msg = e.toString().contains('409') || e.toString().contains('duplicate')
+            ? '$name is already in your collection'
+            : 'Failed to save plant';
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Failed to save plant')),
+          SnackBar(content: Text(msg)),
         );
       }
     }

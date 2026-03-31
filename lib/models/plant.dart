@@ -16,6 +16,7 @@ class PlantEntry {
   final String deviceId;
   final bool? archived;
   final bool? deleted;
+  final String? owner; // Set only for admin — shows which user owns the plant
 
   const PlantEntry({
     required this.plantId,
@@ -33,6 +34,7 @@ class PlantEntry {
     this.deviceId = 'user-collection',
     this.archived,
     this.deleted,
+    this.owner,
   });
 
   factory PlantEntry.fromJson(Map<String, dynamic> json) => PlantEntry(
@@ -42,8 +44,8 @@ class PlantEntry {
         family: json['family'] as String?,
         imageUrl: json['image_url'] as String?,
         preset: json['preset'] as String?,
-        startPct: json['start_pct'] as int?,
-        stopPct: json['stop_pct'] as int?,
+        startPct: (json['start_pct'] as num?)?.toInt(),
+        stopPct: (json['stop_pct'] as num?)?.toInt(),
         poisonousToPets: json['poisonous_to_pets'] as bool?,
         poisonousToHumans: json['poisonous_to_humans'] as bool?,
         toxicityNote: json['toxicity_note'] as String?,
@@ -51,6 +53,7 @@ class PlantEntry {
         deviceId: json['device_id'] as String? ?? 'user-collection',
         archived: json['archived'] as bool?,
         deleted: json['deleted'] as bool?,
+        owner: json['owner'] as String?,
       );
 
   String get displayName => commonName ?? scientific ?? 'Unknown plant';
@@ -128,8 +131,8 @@ class IdentifyCareSummary {
   factory IdentifyCareSummary.fromJson(Map<String, dynamic> json) =>
       IdentifyCareSummary(
         preset: json['preset'] as String? ?? 'Standard',
-        startPct: json['start_pct'] as int? ?? 35,
-        stopPct: json['stop_pct'] as int? ?? 55,
+        startPct: (json['start_pct'] as num?)?.toInt() ?? 35,
+        stopPct: (json['stop_pct'] as num?)?.toInt() ?? 55,
         watering: json['watering'] as String? ?? '',
         light: json['light'] as String? ?? '',
         temperature: json['temperature'] as String? ?? '',
