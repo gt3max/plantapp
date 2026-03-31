@@ -416,10 +416,11 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
         });
       }
     } catch (e) {
+      debugPrint('[AddToCollection] ERROR: $e');
       if (mounted) {
         setState(() => _isSaving = false);
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Failed to save plant')),
+          SnackBar(content: Text('Failed to save: $e')),
         );
       }
     }
@@ -596,6 +597,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                   child: Column(
                     children: [
                     // ══════ GROUP: Care ══════
+                    _groupHeader('Care'),
 
                     // ── 1. Water (RN: InfoRow freq+demand, warning box, moisture) ──
                     _buildSection('water', 'Water', [
@@ -647,8 +649,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       }(),
                     ], guideLabel: 'Fertilizing guide'),
 
-                    const SizedBox(height: AppSpacing.md),
+                    const SizedBox(height: AppSpacing.lg),
                     // ══════ GROUP: Environment ══════
+                    _groupHeader('Environment'),
 
                     // ── 4. Light (RN: LightLevelIndicator + InfoRow preferred) ──
                     _buildSection('light', 'Light', [
@@ -704,8 +707,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         _InfoRow(icon: Icons.location_on_outlined, text: 'Enable location to see outdoor months', sub: 'Based on your local climate'),
                     ], guideLabel: 'Indoor & outdoor'),
 
-                    const SizedBox(height: AppSpacing.md),
+                    const SizedBox(height: AppSpacing.lg),
                     // ══════ GROUP: Toxicity ══════
+                    _groupHeader('Toxicity'),
 
                     // ── 8. Toxicity (RN: toxic alert+chips OR non-toxic green) ──
                     _buildSection('toxicity', 'Toxicity', [
@@ -723,8 +727,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         _InfoRow(icon: Icons.check_circle_outline, text: 'Non-toxic to humans and pets', iconColor: AppColors.success),
                     ], guideLabel: _isToxic ? 'Toxicity details' : null),
 
-                    const SizedBox(height: AppSpacing.md),
+                    const SizedBox(height: AppSpacing.lg),
                     // ══════ GROUP: Growing ══════
+                    _groupHeader('Growing'),
 
                     // ── 9. Pruning (expandable with icon, NO guide) ──
                     _buildSection('pruning', 'Pruning', [
@@ -752,8 +757,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         _InfoRow(icon: Icons.call_split_outlined, text: 'Stem cuttings, division', sub: 'Common methods'),
                     ], guideLabel: 'Germination & propagation'),
 
-                    const SizedBox(height: AppSpacing.md),
+                    const SizedBox(height: AppSpacing.lg),
                     // ══════ GROUP: About ══════
+                    _groupHeader('About'),
 
                     // ── 12. Difficulty (RN: stars + label + note InfoBox, NO guide) ──
                     _buildSection('difficulty', 'Difficulty', [
@@ -855,8 +861,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         _InfoRow(icon: Icons.public_outlined, text: _dbStr('origin'), sub: 'Origin'),
                     ]),
 
-                    const SizedBox(height: AppSpacing.md),
+                    const SizedBox(height: AppSpacing.lg),
                     // ══════ GROUP: Companions ══════
+                    _groupHeader('Companions'),
 
                     // ── 17. Companions (RN: good chips green + bad chips red) ──
                     _buildSection('companions', 'Companions', [
@@ -968,6 +975,21 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     );
   }
 
+  Widget _groupHeader(String label) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: AppSpacing.sm, top: AppSpacing.xs),
+      child: Text(
+        label.toUpperCase(),
+        style: TextStyle(
+          fontSize: AppFontSize.xs,
+          fontWeight: FontWeight.w700,
+          color: AppColors.textSecondary,
+          letterSpacing: 1.2,
+        ),
+      ),
+    );
+  }
+
   // ─── Section builder ─────────────────────────────────────────
 
   Widget _buildSection(String key, String title, List<Widget> children, {String? guideLabel}) {
@@ -1064,11 +1086,14 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                 border: Border(bottom: BorderSide(color: AppColors.border)),
               ),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    _guideTitles[sectionKey] ?? '$title guide',
-                    style: TextStyle(fontSize: AppFontSize.lg, fontWeight: FontWeight.w700, color: AppColors.text),
+                  const SizedBox(width: 24), // balance for X button
+                  Expanded(
+                    child: Text(
+                      _guideTitles[sectionKey] ?? '$title guide',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontSize: AppFontSize.lg, fontWeight: FontWeight.w700, color: AppColors.text),
+                    ),
                   ),
                   GestureDetector(
                     onTap: () => Navigator.pop(ctx),
@@ -1234,14 +1259,12 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           InfoBox(text: 'This is the temperature the plant can endure \u2014 not the temperature it prefers. At this point the plant suffers: leaves may drop, growth stops, scarring occurs. It should survive and recover once moved to warmth.', variant: 'info'),
           _guideSectionTitle('Potted vs in ground'),
           _guideSection('', 'A plant in the ground has soil insulation protecting its roots. A potted plant has exposed sides \u2014 the pot freezes through much faster. This means potted plants need to come inside earlier in autumn and go out later in spring.'),
-          _guideSectionTitle('Frost tolerance zones'),
-          _guideSection('', 'A frost tolerance zone is based on the average lowest winter temperature in your area. It determines which plants can survive outdoors year-round.'),
-          _guideSection('', 'Zones range from 1a (coldest, below \u221251\u00B0C) to 13b (warmest, above 21\u00B0C). Each zone spans about 5\u00B0C.'),
-          _guideSection('', 'Important: these zones assume the plant is in the ground. Potted plants are 1\u20132 zones less hardy because roots are exposed to cold from all sides.'),
-          if (_locationData?.hasData == true)
-            InfoBox(text: 'Current outdoor temperature: ${_fmtTemp(_locationData!.monthlyAvgTemps[DateTime.now().month - 1].round())}.', variant: 'success')
-          else
-            InfoBox(text: 'Enable location services and we will determine your frost tolerance zone automatically.', variant: 'info'),
+          if (_locationData?.hasData == true && _locationData!.cityName.isNotEmpty) ...[
+            _guideSectionTitle('Your location'),
+            _InfoRow(icon: Icons.location_on_outlined, text: _locationData!.cityName),
+            InfoBox(text: 'Current outdoor temperature: ${_fmtTemp(_locationData!.monthlyAvgTemps[DateTime.now().month - 1].round())}.', variant: 'success'),
+          ] else
+            InfoBox(text: 'Enable location services to see outdoor recommendations for your area.', variant: 'info'),
         ];
       // ═══ TOXICITY GUIDE (RN 1:1) ═══
       case 'toxicity':
@@ -1750,12 +1773,15 @@ class _ExpandableTextState extends State<_ExpandableText> {
             style: TextStyle(fontSize: AppFontSize.md, color: AppColors.textSecondary, height: 1.4),
           ),
           if (needsExpansion)
-            Padding(
-              padding: const EdgeInsets.only(top: 4),
-              child: Icon(
-                _expanded ? Icons.keyboard_arrow_up : Icons.keyboard_arrow_down,
-                size: 20,
-                color: AppColors.primary,
+            Align(
+              alignment: Alignment.centerRight,
+              child: Padding(
+                padding: const EdgeInsets.only(top: 4),
+                child: Icon(
+                  _expanded ? Icons.keyboard_arrow_up : Icons.keyboard_arrow_down,
+                  size: 20,
+                  color: AppColors.primary,
+                ),
               ),
             ),
         ],
