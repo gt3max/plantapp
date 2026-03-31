@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:plantapp/app/theme.dart';
+import 'package:plantapp/constants/popular_plants.dart';
 import 'package:plantapp/services/library_service.dart';
 
 class LibraryScreen extends StatefulWidget {
@@ -18,50 +19,14 @@ class _LibraryScreenState extends State<LibraryScreen> {
   Timer? _debounce;
 
   List<LibraryPlant> _results = [];
-  List<LibraryPlant> _popular = [];
   bool _isSearching = false;
   bool _hasSearched = false;
-  int _totalPlants = 0;
-
-  @override
-  void initState() {
-    super.initState();
-    _loadStats();
-    _loadPopular();
-  }
 
   @override
   void dispose() {
     _searchController.dispose();
     _debounce?.cancel();
     super.dispose();
-  }
-
-  Future<void> _loadStats() async {
-    try {
-      final count = await _libraryService.getPlantCount();
-      if (mounted) setState(() => _totalPlants = count);
-    } catch (_) {}
-  }
-
-  Future<void> _loadPopular() async {
-    try {
-      // Load plants with broad searches to populate the list
-      final seen = <String>{};
-      final all = <LibraryPlant>[];
-      for (final q in ['mo', 'al', 'ba', 'fi', 'sa', 'ph', 'cr']) {
-        try {
-          final results = await _libraryService.search(q);
-          for (final p in results) {
-            if (seen.add(p.scientific)) all.add(p);
-          }
-        } catch (_) {}
-      }
-      if (mounted && all.isNotEmpty) {
-        all.sort((a, b) => a.scientific.compareTo(b.scientific));
-        setState(() => _popular = all);
-      }
-    } catch (_) {}
   }
 
   void _onSearchChanged(String query) {
@@ -160,38 +125,6 @@ class _LibraryScreenState extends State<LibraryScreen> {
   }
 
   Widget _buildWelcome() {
-    if (_popular.isEmpty) {
-      return Center(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: AppSpacing.xl),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(Icons.local_florist_outlined,
-                  size: 64, color: AppColors.accent),
-              const SizedBox(height: AppSpacing.lg),
-              Text(
-                'Plant Encyclopedia',
-                style: TextStyle(
-                  fontSize: AppFontSize.xl,
-                  fontWeight: FontWeight.w700,
-                  color: AppColors.text,
-                ),
-              ),
-              const SizedBox(height: AppSpacing.sm),
-              Text(
-                'Search from ${_totalPlants > 0 ? '$_totalPlants' : 'hundreds of'} plants',
-                style: TextStyle(
-                  fontSize: AppFontSize.md,
-                  color: AppColors.textSecondary,
-                ),
-              ),
-            ],
-          ),
-        ),
-      );
-    }
-
     return ListView(
       padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
       children: [
@@ -206,9 +139,9 @@ class _LibraryScreenState extends State<LibraryScreen> {
             ),
           ),
         ),
-        ..._popular.map((plant) => _LibraryCard(
-              plant: plant,
-              onTap: () => context.push('/plant/${plant.detailId}'),
+        ...popularPlants.map((p) => _PopularCard(
+              plant: p,
+              onTap: () => context.push('/plant/${p.id}'),
             )),
       ],
     );
@@ -385,6 +318,105 @@ class _LibraryCard extends StatelessWidget {
         color: AppColors.background,
         child: Icon(Icons.eco, color: AppColors.accent, size: 28),
       );
+}
+
+// ─── Card for popular plants (from hardcoded data) ──────────
+
+class _PopularCard extends StatelessWidget {
+  const _PopularCard({required this.plant, required this.onTap});
+  final PopularPlant plant;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        margin: const EdgeInsets.only(bottom: AppSpacing.md),
+        padding: const EdgeInsets.all(AppSpacing.md),
+        decoration: BoxDecoration(
+          color: AppColors.surface,
+          borderRadius: AppBorderRadius.lgAll,
+          border: Border.all(color: AppColors.border),
+        ),
+        child: Row(
+          children: [
+            ClipRRect(
+              borderRadius: AppBorderRadius.mdAll,
+              child: Image.network(
+                plant.imageUrl,
+                width: 56,
+                height: 56,
+                fit: BoxFit.cover,
+                errorBuilder: (_, __, ___) => Container(
+                  width: 56, height: 56,
+                  color: AppColors.background,
+                  child: Icon(Icons.eco, color: AppColors.accent, size: 28),
+                ),
+              ),
+            ),
+            const SizedBox(width: AppSpacing.md),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    plant.commonName,
+                    style: TextStyle(
+                      fontSize: AppFontSize.md,
+                      fontWeight: FontWeight.w600,
+                      color: AppColors.text,
+                    ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    plant.scientific,
+                    style: TextStyle(
+                      fontSize: AppFontSize.xs,
+                      fontStyle: FontStyle.italic,
+                      color: AppColors.textSecondary,
+                    ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    plant.family,
+                    style: TextStyle(
+                      fontSize: AppFontSize.xs,
+                      color: AppColors.textSecondary,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                _SmallBadge(
+                  label: plant.difficulty,
+                  color: plant.difficulty == 'Easy'
+                      ? const Color(0xFFDCFCE7)
+                      : plant.difficulty == 'Medium'
+                          ? const Color(0xFFFEF3C7)
+                          : const Color(0xFFFEE2E2),
+                ),
+                const SizedBox(height: 4),
+                _SmallBadge(
+                  label: plant.wateringDemand.isNotEmpty ? plant.wateringDemand : 'Medium',
+                  color: const Color(0xFFDBEAFE),
+                ),
+              ],
+            ),
+            const SizedBox(width: AppSpacing.sm),
+            Icon(Icons.chevron_right, color: AppColors.textSecondary, size: 20),
+          ],
+        ),
+      ),
+    );
+  }
 }
 
 class _SmallBadge extends StatelessWidget {
