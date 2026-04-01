@@ -114,6 +114,48 @@ class JournalService {
     return grouped;
   }
 
+  /// Update note on an existing entry.
+  Future<void> updateNote(String entryId, String note) async {
+    final entries = await _loadEntries();
+    final idx = entries.indexWhere((e) => e.id == entryId);
+    if (idx >= 0) {
+      entries[idx] = JournalEntry(
+        id: entries[idx].id,
+        plantId: entries[idx].plantId,
+        uri: entries[idx].uri,
+        thumbnailUri: entries[idx].thumbnailUri,
+        date: entries[idx].date,
+        note: note,
+        createdAt: entries[idx].createdAt,
+      );
+      await _saveEntries(entries);
+    }
+  }
+
+  /// Delete all journal entries for a specific plant.
+  Future<void> deleteAllForPlant(String plantId) async {
+    final entries = await _loadEntries();
+    final toDelete = entries.where((e) => e.plantId == plantId).toList();
+    for (final entry in toDelete) {
+      final photoFile = File(entry.uri);
+      if (photoFile.existsSync()) photoFile.deleteSync();
+      final thumbFile = File(entry.thumbnailUri);
+      if (thumbFile.existsSync()) thumbFile.deleteSync();
+    }
+    entries.removeWhere((e) => e.plantId == plantId);
+    await _saveEntries(entries);
+  }
+
+  /// Get count of journal entries per plant.
+  Future<Map<String, int>> getCounts() async {
+    final entries = await _loadEntries();
+    final counts = <String, int>{};
+    for (final entry in entries) {
+      counts[entry.plantId] = (counts[entry.plantId] ?? 0) + 1;
+    }
+    return counts;
+  }
+
   // ─── Internal ────────────────────────────────────────────────
 
   Future<List<JournalEntry>> _loadEntries() async {

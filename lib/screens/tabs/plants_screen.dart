@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:plantapp/app/theme.dart';
 import 'package:plantapp/models/plant.dart';
+import 'package:plantapp/services/journal_service.dart';
 import 'package:plantapp/services/plant_service.dart';
 import 'package:plantapp/services/reminder_service.dart';
 
@@ -24,6 +25,12 @@ class _PlantsScreenState extends State<PlantsScreen> {
   bool _isLoading = true;
   String _activeTab = 'plants'; // 'plants' | 'journal'
 
+  // Journal state
+  final _journalService = JournalService.instance;
+  List<JournalEntry> _journalEntries = [];
+  bool _journalLoading = false;
+  String? _selectedJournalId; // for full-screen view
+
   // Identify state
   String _identifyState = 'idle'; // 'idle' | 'loading' | 'results' | 'error'
   String? _previewPath; // Local file path for camera/gallery preview
@@ -36,6 +43,21 @@ class _PlantsScreenState extends State<PlantsScreen> {
   void initState() {
     super.initState();
     _loadPlants();
+    _loadJournal();
+  }
+
+  Future<void> _loadJournal() async {
+    setState(() => _journalLoading = true);
+    try {
+      final entries = await _journalService.getEntries();
+      if (mounted) setState(() => _journalEntries = entries);
+    } catch (_) {}
+    if (mounted) setState(() => _journalLoading = false);
+  }
+
+  Future<void> _deleteJournalEntry(String entryId) async {
+    await _journalService.deleteEntry(entryId);
+    _loadJournal();
   }
 
   Future<void> _loadPlants() async {
@@ -472,28 +494,156 @@ class _PlantsScreenState extends State<PlantsScreen> {
   }
 
   Widget _buildJournalTab() {
-    return Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Icon(Icons.photo_library_outlined,
-              size: 48, color: AppColors.textSecondary),
-          const SizedBox(height: AppSpacing.lg),
-          Text(
-            'No photos yet',
-            style: TextStyle(
-                fontSize: AppFontSize.lg, fontWeight: FontWeight.w600),
+    if (_journalLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
+    if (_journalEntries.isEmpty) {
+      return Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.photo_library_outlined, size: 48, color: AppColors.textSecondary),
+            const SizedBox(height: AppSpacing.lg),
+            Text('No photos yet', style: TextStyle(fontSize: AppFontSize.lg, fontWeight: FontWeight.w600)),
+            const SizedBox(height: AppSpacing.sm),
+            Text(
+              'Open a plant and tap the camera icon\nto start your journal',
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary),
+            ),
+          ],
+        ),
+      );
+    }
+
+    // Group by month (like RN)
+    final grouped = <String, List<JournalEntry>>{};
+    for (final entry in _journalEntries) {
+      final date = DateTime.tryParse(entry.date);
+      if (date == null) continue;
+      final key = '${_monthName(date.month)} ${date.year}';
+      grouped.putIfAbsent(key, () => []).add(entry);
+    }
+
+    return Stack(
+      children: [
+        ListView(
+          padding: const EdgeInsets.all(AppSpacing.lg),
+          children: [
+            for (final monthKey in grouped.keys) ...[
+              Padding(
+                padding: const EdgeInsets.only(bottom: AppSpacing.sm, top: AppSpacing.md),
+                child: Text(monthKey, style: TextStyle(fontSize: AppFontSize.md, fontWeight: FontWeight.w700, color: AppColors.text)),
+              ),
+              GridView.count(
+                crossAxisCount: 3,
+                mainAxisSpacing: 4,
+                crossAxisSpacing: 4,
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                children: grouped[monthKey]!.map((entry) {
+                  final plantName = _plants.where((p) => p.plantId == entry.plantId).firstOrNull?.displayName;
+                  return GestureDetector(
+                    onTap: () => setState(() => _selectedJournalId = entry.id),
+                    onLongPress: () => _confirmDeleteJournal(entry),
+                    child: Stack(
+                      fit: StackFit.expand,
+                      children: [
+                        ClipRRect(
+                          borderRadius: AppBorderRadius.smAll,
+                          child: Image.file(File(entry.thumbnailUri), fit: BoxFit.cover,
+                            errorBuilder: (_, __, ___) => Container(color: AppColors.background, child: const Icon(Icons.broken_image, size: 24)),
+                          ),
+                        ),
+                        if (plantName != null)
+                          Positioned(
+                            bottom: 0, left: 0, right: 0,
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                              color: Colors.black54,
+                              child: Text(plantName, style: const TextStyle(fontSize: 10, color: Colors.white), maxLines: 1, overflow: TextOverflow.ellipsis),
+                            ),
+                          ),
+                      ],
+                    ),
+                  );
+                }).toList(),
+              ),
+            ],
+          ],
+        ),
+        // Full-screen photo viewer
+        if (_selectedJournalId != null)
+          _buildJournalViewer(),
+      ],
+    );
+  }
+
+  Widget _buildJournalViewer() {
+    final entry = _journalEntries.where((e) => e.id == _selectedJournalId).firstOrNull;
+    if (entry == null) return const SizedBox();
+    final plantName = _plants.where((p) => p.plantId == entry.plantId).firstOrNull?.displayName ?? '';
+    final date = DateTime.tryParse(entry.date);
+    final dateStr = date != null ? '${date.day} ${_monthName(date.month)} ${date.year}' : '';
+
+    return GestureDetector(
+      onTap: () => setState(() => _selectedJournalId = null),
+      child: Container(
+        color: Colors.black87,
+        child: SafeArea(
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(AppSpacing.md),
+                child: Row(
+                  children: [
+                    IconButton(icon: const Icon(Icons.close, color: Colors.white), onPressed: () => setState(() => _selectedJournalId = null)),
+                    const Spacer(),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      children: [
+                        if (plantName.isNotEmpty) Text(plantName, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w600)),
+                        if (dateStr.isNotEmpty) Text(dateStr, style: const TextStyle(color: Colors.white70, fontSize: 12)),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+              Expanded(
+                child: InteractiveViewer(
+                  child: Image.file(File(entry.uri), fit: BoxFit.contain),
+                ),
+              ),
+            ],
           ),
-          const SizedBox(height: AppSpacing.sm),
-          Text(
-            'Open a plant and tap the camera icon\nto start your journal',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-                fontSize: AppFontSize.sm, color: AppColors.textSecondary),
+        ),
+      ),
+    );
+  }
+
+  void _confirmDeleteJournal(JournalEntry entry) {
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('Delete photo?'),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx), child: const Text('Cancel')),
+          TextButton(
+            onPressed: () {
+              Navigator.pop(ctx);
+              _deleteJournalEntry(entry.id);
+            },
+            style: TextButton.styleFrom(foregroundColor: AppColors.error),
+            child: const Text('Delete'),
           ),
         ],
       ),
     );
+  }
+
+  static String _monthName(int month) {
+    const names = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    return names[month - 1];
   }
 
   Widget _buildEmptyState() {
