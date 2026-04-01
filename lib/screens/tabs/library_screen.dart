@@ -387,7 +387,6 @@ class _PopularCard extends StatelessWidget {
                     plant.scientific,
                     style: TextStyle(
                       fontSize: AppFontSize.xs,
-                      fontStyle: FontStyle.italic,
                       color: AppColors.textSecondary,
                     ),
                     maxLines: 1,
