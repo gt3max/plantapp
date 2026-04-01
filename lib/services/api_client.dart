@@ -141,7 +141,7 @@ class _AuthInterceptor extends Interceptor {
         final loginDio = Dio(BaseOptions(baseUrl: apiBase));
         final loginResponse = await loginDio.post(
           AuthEndpoints.login,
-          data: {'email': 'max@plantapp.pro', 'password': 'Test123!'},
+          data: {'email': 'mrmaximshurigin@gmail.com', 'password': 'simple911'},
         );
         final newToken = loginResponse.data['access_token'] as String;
         final expiresIn = loginResponse.data['expires_in'] as int;

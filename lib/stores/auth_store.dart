@@ -44,8 +44,8 @@ class AuthNotifier extends StateNotifier<AuthState> {
   final _tokenService = TokenService.instance;
 
   // Dev auto-login credentials (remove before App Store release)
-  static const _devEmail = 'max@plantapp.pro';
-  static const _devPassword = 'Test123!';
+  static const _devEmail = 'mrmaximshurigin@gmail.com';
+  static const _devPassword = 'simple911';
 
   /// Initialize auth state from stored tokens, with dev auto-login fallback
   Future<void> initialize() async {
