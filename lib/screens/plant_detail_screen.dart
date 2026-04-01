@@ -39,7 +39,7 @@ const _groupDefs = [
   ('environment', 'Environment'),
   ('safety', 'Toxicity'),
   ('growing', 'Growing'),
-  ('about', 'About'),
+  ('about', 'Details'),
   ('companions', 'Companions'),
 ];
 
@@ -929,7 +929,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       }(),
                       if (_lib?.edibleParts.isNotEmpty == true)
                         _InfoRow(icon: Icons.restaurant_outlined, text: _lib!.edibleParts, sub: 'Edible parts', iconColor: AppColors.success),
-                    ], guideLabel: 'About this plant'),
+                    ], guideLabel: 'Uses & benefits'),
 
                     const SizedBox(height: AppSpacing.lg),
                     // ══════ GROUP: Companions ══════
@@ -1168,7 +1168,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     'temperature': 'Temperature & climate',
     'outdoor': 'Indoor & outdoor',
     'toxicity': 'Toxicity details',
-    'used_for': 'About this plant',
+    'used_for': 'Uses & benefits',
     'soil': 'Repotting guide',
     'fertilizing': 'Fertilizing guide',
     'size': 'Growth & dimensions',
