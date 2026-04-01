@@ -704,7 +704,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                     // ══════ GROUP: Care ══════
                     _groupHeader('Care'),
 
-                    // ── 1. Water (RN: InfoRow freq+demand, warning box, moisture) ──
+                    // ── 1. Water (RN: InfoRow freq+demand, soil hint, winter freq, warning) ──
                     _buildSection('water', 'Water', [
                       _InfoRow(
                         icon: Icons.water_drop_outlined,
@@ -712,6 +712,10 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         sub: (_lib?.wateringDemand.isNotEmpty == true ? '${_lib!.wateringDemand} demand'
                             : _dbCareStr('watering_demand').isNotEmpty ? '${_dbCareStr('watering_demand')} demand' : null),
                       ),
+                      if (_lib?.wateringSoilHint.isNotEmpty == true)
+                        _InfoRow(icon: Icons.touch_app_outlined, text: _lib!.wateringSoilHint, sub: 'When to water'),
+                      if ((_lib?.wateringFreqWinterDays ?? 0) > 0)
+                        _InfoRow(icon: Icons.ac_unit_outlined, text: 'Every ~${_lib!.wateringFreqWinterDays} days in winter', sub: 'Winter schedule'),
                       if (_lib?.wateringWarning.isNotEmpty == true)
                         InfoBox(text: _lib!.wateringWarning, variant: 'warning'),
                     ], guideLabel: 'Watering guide'),
