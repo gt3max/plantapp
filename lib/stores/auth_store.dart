@@ -43,7 +43,11 @@ class AuthNotifier extends StateNotifier<AuthState> {
   final _api = ApiClient.instance;
   final _tokenService = TokenService.instance;
 
-  /// Initialize auth state from stored tokens
+  // Dev auto-login credentials (remove before App Store release)
+  static const _devEmail = 'max@plantapp.pro';
+  static const _devPassword = 'Test123!';
+
+  /// Initialize auth state from stored tokens, with dev auto-login fallback
   Future<void> initialize() async {
     try {
       final token = await _tokenService.getAccessToken();
@@ -55,7 +59,10 @@ class AuthNotifier extends StateNotifier<AuthState> {
           status: AuthStatus.authenticated,
           email: email,
         );
-      } else if (token != null && expired) {
+        return;
+      }
+
+      if (token != null && expired) {
         // Try refresh
         final refreshToken = await _tokenService.getRefreshToken();
         if (refreshToken != null) {
@@ -72,18 +79,44 @@ class AuthNotifier extends StateNotifier<AuthState> {
               status: AuthStatus.authenticated,
               email: email,
             );
+            return;
           } catch (_) {
-            await _tokenService.clearAll();
-            state = const AuthState(status: AuthStatus.unauthenticated);
+            // Refresh failed, fall through to dev auto-login
           }
-        } else {
-          await _tokenService.clearAll();
-          state = const AuthState(status: AuthStatus.unauthenticated);
         }
-      } else {
+      }
+
+      // Dev auto-login: no valid token → login automatically
+      await _devAutoLogin();
+    } catch (_) {
+      // Last resort: try dev auto-login
+      try {
+        await _devAutoLogin();
+      } catch (_) {
         state = const AuthState(status: AuthStatus.unauthenticated);
       }
-    } catch (_) {
+    }
+  }
+
+  Future<void> _devAutoLogin() async {
+    try {
+      final data = await _api.post<Map<String, dynamic>>(
+        AuthEndpoints.login,
+        {'email': _devEmail, 'password': _devPassword},
+      );
+      final auth = AuthResponse.fromJson(data);
+      await _tokenService.saveTokens(
+        accessToken: auth.accessToken,
+        refreshToken: auth.refreshToken,
+        expiresIn: auth.expiresIn,
+        email: auth.email,
+      );
+      state = AuthState(
+        status: AuthStatus.authenticated,
+        email: auth.email,
+      );
+    } catch (e) {
+      await _tokenService.clearAll();
       state = const AuthState(status: AuthStatus.unauthenticated);
     }
   }
