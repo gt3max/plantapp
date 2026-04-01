@@ -612,8 +612,10 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                             ),
                             // Difficulty + Taxonomy inside expandable area
                             if (_descExpanded) ...[
-                              const SizedBox(height: AppSpacing.md),
-                              // Difficulty
+                              const Divider(height: AppSpacing.xl),
+                              // ── Difficulty (full, with note) ──
+                              Text('Difficulty', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w700, color: const Color(0xFF1B5E20))),
+                              const SizedBox(height: AppSpacing.xs),
                               () {
                                 final diff = _lib?.difficulty ?? (_dbStr('difficulty').isNotEmpty ? _dbStr('difficulty') : 'Medium');
                                 final stars = diff.toLowerCase().contains('adv') ? 3 : diff.toLowerCase().contains('med') ? 2 : 1;
@@ -622,40 +624,39 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                                   children: [
                                     DifficultyStars(count: stars, color: color),
                                     const SizedBox(width: AppSpacing.sm),
-                                    Text(diff, style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: color)),
+                                    Text(diff, style: TextStyle(fontSize: AppFontSize.md, fontWeight: FontWeight.w600, color: color)),
                                   ],
                                 );
                               }(),
-                              // Taxonomy
-                              const SizedBox(height: AppSpacing.sm),
-                              Row(
-                                children: [
-                                  Icon(Icons.science_outlined, size: 14, color: const Color(0xFF2E7D32)),
-                                  const SizedBox(width: 6),
-                                  Expanded(
-                                    child: Text(
-                                      [
-                                        _lib?.genus ?? _dbStr('genus'),
-                                        _lib?.family ?? (_dbDetail?['family'] as String? ?? ''),
-                                        _lib?.order ?? _dbStr('order'),
-                                      ].where((s) => s.isNotEmpty).join(' · '),
-                                      style: const TextStyle(fontSize: AppFontSize.sm, color: Color(0xFF2E7D32)),
-                                    ),
-                                  ),
-                                ],
+                              if (_lib?.difficultyNote.isNotEmpty == true) ...[
+                                const SizedBox(height: AppSpacing.xs),
+                                Text(_lib!.difficultyNote, style: TextStyle(fontSize: AppFontSize.sm, color: const Color(0xFF2E7D32), height: 1.4)),
+                              ],
+                              // ── Taxonomy (full, with all fields) ──
+                              const Divider(height: AppSpacing.xl),
+                              Text('Taxonomy', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w700, color: const Color(0xFF1B5E20))),
+                              const SizedBox(height: AppSpacing.xs),
+                              _InfoRow(
+                                icon: Icons.science_outlined,
+                                text: _scientific,
+                                iconColor: const Color(0xFF2E7D32),
+                                sub: [
+                                  _lib?.genus ?? _dbStr('genus'),
+                                  _lib?.family ?? (_dbDetail?['family'] as String? ?? ''),
+                                  _lib?.order ?? _dbStr('order'),
+                                ].where((s) => s.isNotEmpty).join(' \u00B7 '),
                               ),
-                              if ((_lib?.origin ?? _dbStr('origin')).isNotEmpty) ...[
-                                const SizedBox(height: 4),
-                                Row(
-                                  children: [
-                                    Icon(Icons.public_outlined, size: 14, color: const Color(0xFF2E7D32)),
-                                    const SizedBox(width: 6),
-                                    Text(
-                                      'Origin: ${_lib?.origin ?? _dbStr('origin')}',
-                                      style: const TextStyle(fontSize: AppFontSize.sm, color: Color(0xFF2E7D32)),
-                                    ),
-                                  ],
+                              if ((_lib?.origin ?? _dbStr('origin')).isNotEmpty)
+                                _InfoRow(
+                                  icon: Icons.public_outlined,
+                                  text: _lib?.origin ?? _dbStr('origin'),
+                                  iconColor: const Color(0xFF2E7D32),
+                                  sub: 'Origin',
                                 ),
+                              if ((_lib?.synonyms ?? []).isNotEmpty) ...[
+                                const SizedBox(height: AppSpacing.xs),
+                                Text('Also known as: ${_lib!.synonyms.join(', ')}',
+                                  style: TextStyle(fontSize: AppFontSize.xs, color: const Color(0xFF2E7D32), fontStyle: FontStyle.italic)),
                               ],
                             ],
                             if (_description!.length > 120 || !_descExpanded)
