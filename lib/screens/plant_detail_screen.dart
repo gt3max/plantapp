@@ -334,7 +334,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     'light': 'environment', 'humidity': 'environment', 'temperature': 'environment', 'outdoor': 'environment',
     'toxicity': 'safety',
     'pruning': 'growing', 'harvest': 'growing', 'propagation': 'growing',
-    'difficulty': 'about', 'size': 'about', 'lifecycle': 'about', 'used_for': 'about', 'taxonomy': 'about',
+    'size': 'about', 'lifecycle': 'about', 'used_for': 'about',
     'companions': 'companions',
   };
 
@@ -610,7 +610,55 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                                 height: 1.4,
                               ),
                             ),
-                            if (_description!.length > 120)
+                            // Difficulty + Taxonomy inside expandable area
+                            if (_descExpanded) ...[
+                              const SizedBox(height: AppSpacing.md),
+                              // Difficulty
+                              () {
+                                final diff = _lib?.difficulty ?? (_dbStr('difficulty').isNotEmpty ? _dbStr('difficulty') : 'Medium');
+                                final stars = diff.toLowerCase().contains('adv') ? 3 : diff.toLowerCase().contains('med') ? 2 : 1;
+                                final color = stars == 3 ? AppColors.error : stars == 2 ? const Color(0xFFF59E0B) : AppColors.success;
+                                return Row(
+                                  children: [
+                                    DifficultyStars(count: stars, color: color),
+                                    const SizedBox(width: AppSpacing.sm),
+                                    Text(diff, style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: color)),
+                                  ],
+                                );
+                              }(),
+                              // Taxonomy
+                              const SizedBox(height: AppSpacing.sm),
+                              Row(
+                                children: [
+                                  Icon(Icons.science_outlined, size: 14, color: const Color(0xFF2E7D32)),
+                                  const SizedBox(width: 6),
+                                  Expanded(
+                                    child: Text(
+                                      [
+                                        _lib?.genus ?? _dbStr('genus'),
+                                        _lib?.family ?? (_dbDetail?['family'] as String? ?? ''),
+                                        _lib?.order ?? _dbStr('order'),
+                                      ].where((s) => s.isNotEmpty).join(' · '),
+                                      style: const TextStyle(fontSize: AppFontSize.sm, color: Color(0xFF2E7D32)),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              if ((_lib?.origin ?? _dbStr('origin')).isNotEmpty) ...[
+                                const SizedBox(height: 4),
+                                Row(
+                                  children: [
+                                    Icon(Icons.public_outlined, size: 14, color: const Color(0xFF2E7D32)),
+                                    const SizedBox(width: 6),
+                                    Text(
+                                      'Origin: ${_lib?.origin ?? _dbStr('origin')}',
+                                      style: const TextStyle(fontSize: AppFontSize.sm, color: Color(0xFF2E7D32)),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ],
+                            if (_description!.length > 120 || !_descExpanded)
                               Align(
                                 alignment: Alignment.centerRight,
                                 child: Padding(
@@ -817,24 +865,6 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                     // ══════ GROUP: About ══════
                     _groupHeader('About'),
 
-                    // ── 12. Difficulty (RN: stars + label + note InfoBox, NO guide) ──
-                    _buildSection('difficulty', 'Difficulty', [
-                      () {
-                        final diff = _lib?.difficulty ?? (_dbStr('difficulty').isNotEmpty ? _dbStr('difficulty') : 'Medium');
-                        final stars = diff.toLowerCase().contains('adv') ? 3 : diff.toLowerCase().contains('med') ? 2 : 1;
-                        final color = stars == 3 ? AppColors.error : stars == 2 ? const Color(0xFFF59E0B) : AppColors.success;
-                        return Row(
-                          children: [
-                            DifficultyStars(count: stars, color: color),
-                            const SizedBox(width: AppSpacing.sm),
-                            Text(diff, style: TextStyle(fontSize: AppFontSize.md, fontWeight: FontWeight.w600, color: color)),
-                          ],
-                        );
-                      }(),
-                      if (_lib?.difficultyNote.isNotEmpty == true)
-                        InfoBox(text: _lib!.difficultyNote, variant: 'info'),
-                    ]),
-
                     // ── 13. Size (RN: height InfoRow + spread InfoRow) ──
                     _buildSection('size', 'Size', [
                       () {
@@ -899,23 +929,6 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       if (_lib?.edibleParts.isNotEmpty == true)
                         _InfoRow(icon: Icons.restaurant_outlined, text: _lib!.edibleParts, sub: 'Edible parts', iconColor: AppColors.success),
                     ], guideLabel: 'About this plant'),
-
-                    // ── 16. Taxonomy (RN: scientific InfoRow + origin, NO guide) ──
-                    _buildSection('taxonomy', 'Taxonomy', [
-                      _InfoRow(
-                        icon: Icons.science_outlined,
-                        text: _scientific,
-                        sub: [
-                          _lib?.genus ?? _dbStr('genus'),
-                          _lib?.family ?? (_dbDetail?['family'] as String? ?? ''),
-                          _lib?.order ?? _dbStr('order'),
-                        ].where((s) => s.isNotEmpty).join(' \u00B7 '),
-                      ),
-                      if ((_lib?.origin ?? '').isNotEmpty)
-                        _InfoRow(icon: Icons.public_outlined, text: _lib!.origin, sub: 'Origin')
-                      else if (_dbStr('origin').isNotEmpty)
-                        _InfoRow(icon: Icons.public_outlined, text: _dbStr('origin'), sub: 'Origin'),
-                    ]),
 
                     const SizedBox(height: AppSpacing.lg),
                     // ══════ GROUP: Companions ══════
