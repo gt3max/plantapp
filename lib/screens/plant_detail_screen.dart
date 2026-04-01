@@ -938,8 +938,6 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                               Padding(padding: const EdgeInsets.only(bottom: AppSpacing.xs), child: Text('Keep apart', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text))),
                               _ChipRow(chips: bad, red: true),
                             ],
-                            if (good.isEmpty && bad.isEmpty)
-                              _InfoRow(icon: Icons.group_outlined, text: 'Companion data coming soon'),
                           ],
                         );
                       }(),
