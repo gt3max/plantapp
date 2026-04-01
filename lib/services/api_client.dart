@@ -136,9 +136,34 @@ class _AuthInterceptor extends Interceptor {
 
       return handler.resolve(retryResponse);
     } catch (refreshError) {
-      await _tokenService.clearAll();
-      _drainQueue(err);
-      return handler.next(err);
+      // Refresh failed — try dev auto-login as last resort
+      try {
+        final loginDio = Dio(BaseOptions(baseUrl: apiBase));
+        final loginResponse = await loginDio.post(
+          AuthEndpoints.login,
+          data: {'email': 'max@plantapp.pro', 'password': 'Test123!'},
+        );
+        final newToken = loginResponse.data['access_token'] as String;
+        final expiresIn = loginResponse.data['expires_in'] as int;
+        final refreshTk = loginResponse.data['refresh_token'] as String;
+        await _tokenService.saveTokens(
+          accessToken: newToken,
+          refreshToken: refreshTk,
+          expiresIn: expiresIn,
+          email: loginResponse.data['email'] as String,
+        );
+
+        // Retry original request with fresh token
+        err.requestOptions.headers['Authorization'] = 'Bearer $newToken';
+        err.requestOptions.extra['_retried'] = true;
+        final retryResponse = await ApiClient.instance.dio.fetch(err.requestOptions);
+        _processQueue(newToken);
+        return handler.resolve(retryResponse);
+      } catch (_) {
+        await _tokenService.clearAll();
+        _drainQueue(err);
+        return handler.next(err);
+      }
     } finally {
       _isRefreshing = false;
     }

@@ -369,8 +369,10 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
 
     // Get the section's position relative to the viewport
     final viewportPos = box.localToGlobal(Offset.zero);
-    // Current scroll offset + section's viewport position - sticky nav height (~120px)
-    final targetOffset = _scrollController.offset + viewportPos.dy - 120;
+    // Scroll so the GROUP HEADER (not section card) is right below sticky nav
+    // Account for: status bar (~54px) + sticky tab bar (48px) + group header (~24px) + padding
+    final navHeight = MediaQuery.of(context).padding.top + 48 + 16;
+    final targetOffset = _scrollController.offset + viewportPos.dy - navHeight;
 
     setState(() {
       _activeGroup = groupKey;
@@ -1026,21 +1028,24 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           ...children,
           if (guideLabel != null) ...[
             const SizedBox(height: AppSpacing.sm),
-            GestureDetector(
-              onTap: () => _showGuide(title, key),
-              child: Row(
-                children: [
-                  Text(
-                    guideLabel,
-                    style: TextStyle(
-                      fontSize: AppFontSize.sm,
-                      fontWeight: FontWeight.w600,
-                      color: AppColors.primary,
+            Center(
+              child: GestureDetector(
+                onTap: () => _showGuide(title, key),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      guideLabel,
+                      style: TextStyle(
+                        fontSize: AppFontSize.sm,
+                        fontWeight: FontWeight.w600,
+                        color: AppColors.primary,
+                      ),
                     ),
-                  ),
-                  const SizedBox(width: 4),
-                  Icon(Icons.chevron_right, size: 16, color: AppColors.primary),
-                ],
+                    const SizedBox(width: 4),
+                    Icon(Icons.chevron_right, size: 16, color: AppColors.primary),
+                  ],
+                ),
               ),
             ),
           ],
