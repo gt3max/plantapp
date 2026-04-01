@@ -368,7 +368,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
       'environment': 'light',
       'safety': 'toxicity',
       'growing': 'pruning',
-      'about': 'difficulty',
+      'about': 'size',
       'companions': 'companions',
     };
 
