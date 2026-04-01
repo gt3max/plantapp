@@ -7,6 +7,9 @@ import 'package:plantapp/services/plant_service.dart';
 import 'package:plantapp/services/library_service.dart';
 import 'package:plantapp/services/geolocation_service.dart';
 import 'package:plantapp/stores/settings_store.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:plantapp/services/journal_service.dart';
+import 'package:plantapp/widgets/light_meter_modal.dart';
 import 'package:plantapp/widgets/plant_indicators.dart';
 
 // Section accent colors (matching RN)
@@ -49,6 +52,8 @@ const _months = [
 // Preset care data (matches RN presets.ts)
 const _presetCare = {
   'Succulents': _PresetCare(
+    startPct: 15,
+    stopPct: 25,
     watering: 'Every 2-3 weeks',
     light: 'Bright direct or indirect light',
     temperature: '18-27°C',
@@ -60,6 +65,8 @@ const _presetCare = {
     tips: 'Let soil dry completely between waterings.',
   ),
   'Standard': _PresetCare(
+    startPct: 35,
+    stopPct: 55,
     watering: 'Every 7-10 days',
     light: 'Bright indirect light',
     temperature: '18-24°C',
@@ -71,6 +78,8 @@ const _presetCare = {
     tips: 'Water when top inch of soil is dry.',
   ),
   'Tropical': _PresetCare(
+    startPct: 55,
+    stopPct: 75,
     watering: 'Every 5-7 days',
     light: 'Bright indirect, no direct sun',
     temperature: '20-28°C',
@@ -82,6 +91,8 @@ const _presetCare = {
     tips: 'Keep soil consistently moist but not soggy.',
   ),
   'Herbs': _PresetCare(
+    startPct: 30,
+    stopPct: 45,
     watering: 'Every 2-3 days',
     light: 'Full sun (6+ hours)',
     temperature: '15-25°C',
@@ -95,6 +106,8 @@ const _presetCare = {
 };
 
 class _PresetCare {
+  final int startPct;
+  final int stopPct;
   final String watering;
   final String light;
   final String temperature;
@@ -106,6 +119,8 @@ class _PresetCare {
   final String tips;
 
   const _PresetCare({
+    required this.startPct,
+    required this.stopPct,
     required this.watering,
     required this.light,
     required this.temperature,
@@ -391,11 +406,33 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     });
   }
 
+  // ─── Journal photo (matches RN handleTakePhoto) ──────────────
+
+  final _imagePicker = ImagePicker();
+
+  Future<void> _takePhotoForJournal() async {
+    final picked = await _imagePicker.pickImage(source: ImageSource.camera, imageQuality: 80);
+    if (picked == null) return;
+
+    final plantId = widget.plantId;
+    try {
+      await JournalService.instance.addEntry(plantId: plantId, sourceUri: picked.path);
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Photo added. Check your Journal.')),
+        );
+      }
+    } catch (e) {
+      debugPrint('[Journal] Error: $e');
+    }
+  }
+
   // ─── Save to collection ──────────────────────────────────────
 
   Future<void> _addToCollection() async {
     setState(() => _isSaving = true);
     try {
+      final care = _care;
       await _plantService.savePlant(SavePlantInput(
         deviceId: 'user-collection',
         plant: {
@@ -403,8 +440,8 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           'common_name': _title,
           'family': _lib?.family ?? _dbDetail?['family'] as String? ?? '',
           'preset': _preset,
-          'start_pct': _lib?.care.watering.contains('2-3 week') == true ? 15 : 35,
-          'stop_pct': _lib?.care.watering.contains('2-3 week') == true ? 35 : 55,
+          'start_pct': _userPlant?.startPct ?? care.startPct,
+          'stop_pct': _userPlant?.stopPct ?? care.stopPct,
           'image_url': _imageUrl,
           'poisonous_to_pets': _lib?.poisonousToPets ?? false,
           'poisonous_to_humans': _lib?.poisonousToHumans ?? false,
@@ -417,6 +454,8 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           _isSaving = false;
           _isSaved = true;
         });
+        // Reload to update _isInCollection (matches RN queryClient.invalidateQueries)
+        _loadPlant();
       }
     } catch (e) {
       debugPrint('[AddToCollection] ERROR: $e');
@@ -506,13 +545,27 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        _title,
-                        style: TextStyle(
-                          fontSize: AppFontSize.xxl,
-                          fontWeight: FontWeight.w700,
-                          color: AppColors.text,
-                        ),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              _title,
+                              style: TextStyle(
+                                fontSize: AppFontSize.xxl,
+                                fontWeight: FontWeight.w700,
+                                color: AppColors.text,
+                              ),
+                            ),
+                          ),
+                          if (_isInCollection)
+                            GestureDetector(
+                              onTap: _takePhotoForJournal,
+                              child: Padding(
+                                padding: const EdgeInsets.only(left: AppSpacing.sm),
+                                child: Icon(Icons.camera_alt_outlined, size: 20, color: AppColors.primary),
+                              ),
+                            ),
+                        ],
                       ),
                       if (_scientific.isNotEmpty && _scientific != _title)
                         Padding(
@@ -656,7 +709,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                     // ══════ GROUP: Environment ══════
                     _groupHeader('Environment'),
 
-                    // ── 4. Light (RN: LightLevelIndicator + InfoRow preferred) ──
+                    // ── 4. Light (RN: LightLevelIndicator + InfoRow preferred + Measure button) ──
                     _buildSection('light', 'Light', [
                       LightLevelIndicator(lightText: _dbCareStr('light').isNotEmpty ? _dbCareStr('light') : _lib?.care.light ?? care.light),
                       _InfoRow(
@@ -664,7 +717,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         text: _dbCareStr('light').isNotEmpty ? _dbCareStr('light') : _lib?.care.light ?? care.light,
                         sub: 'Preferred',
                       ),
-                    ], guideLabel: 'Understanding light'),
+                    ], guideLabel: 'Understanding light', action: _buildMeasureButton()),
 
                     // ── 5. Humidity (RN: HumidityBar only) ──
                     _buildSection('humidity', 'Air Humidity', [
@@ -996,9 +1049,42 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     );
   }
 
+  // ─── Light Meter button (matches RN: compact inline button) ──
+
+  Widget _buildMeasureButton() {
+    return GestureDetector(
+      onTap: () {
+        Navigator.of(context).push(MaterialPageRoute(
+          builder: (_) => LightMeterModal(
+            plantName: _title,
+            ppfdMin: _lib?.care.ppfdMin ?? 100,
+            ppfdMax: _lib?.care.ppfdMax ?? 500,
+            dliMin: _lib?.care.dliMin ?? 4,
+            dliMax: _lib?.care.dliMax ?? 20,
+          ),
+        ));
+      },
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md, vertical: AppSpacing.xs),
+        decoration: BoxDecoration(
+          color: AppColors.primary,
+          borderRadius: BorderRadius.circular(16),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Icon(Icons.flashlight_on, size: 16, color: Colors.white),
+            const SizedBox(width: 4),
+            Text('Measure', style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: Colors.white)),
+          ],
+        ),
+      ),
+    );
+  }
+
   // ─── Section builder ─────────────────────────────────────────
 
-  Widget _buildSection(String key, String title, List<Widget> children, {String? guideLabel}) {
+  Widget _buildSection(String key, String title, List<Widget> children, {String? guideLabel, Widget? action}) {
     final accent = _sectionAccent[key] ?? AppColors.border;
     return Container(
       key: _keyFor(key),
@@ -1017,13 +1103,20 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            title,
-            style: TextStyle(
-              fontSize: AppFontSize.md,
-              fontWeight: FontWeight.w700,
-              color: AppColors.text,
-            ),
+          Row(
+            children: [
+              Expanded(
+                child: Text(
+                  title,
+                  style: TextStyle(
+                    fontSize: AppFontSize.md,
+                    fontWeight: FontWeight.w700,
+                    color: AppColors.text,
+                  ),
+                ),
+              ),
+              if (action != null) action,
+            ],
           ),
           const SizedBox(height: AppSpacing.sm),
           ...children,
