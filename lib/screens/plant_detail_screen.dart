@@ -1229,7 +1229,12 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
       // ═══ WATERING GUIDE (RN 1:1) ═══
       case 'water':
         return [
-          _guideSection('Watering frequency', 'Every ~$_currentWateringDays days in ${_months[DateTime.now().month - 1]}'),
+          _guideSectionTitle('Watering frequency'),
+          _WateringChart(
+            baseDays: _lib?.wateringFreqSummerDays ?? _presetWateringDays,
+            currentMonth: DateTime.now().month - 1,
+            latitude: _locationData?.latitude,
+          ),
           _guideSection('How to water $_title', p?.wateringMethod ?? c?.watering ?? care.watering),
           if (p?.wateringAvoid.isNotEmpty == true) ...[
             _guideSectionTitle('What to avoid'),
@@ -1839,6 +1844,87 @@ class _MonthBar extends StatelessWidget {
           );
         }),
       ),
+    );
+  }
+}
+
+// ─── Watering chart (monthly frequency bars, matches RN WateringChart) ──
+
+class _WateringChart extends StatefulWidget {
+  final int baseDays;
+  final int currentMonth;
+  final double? latitude;
+  const _WateringChart({required this.baseDays, required this.currentMonth, this.latitude});
+
+  @override
+  State<_WateringChart> createState() => _WateringChartState();
+}
+
+class _WateringChartState extends State<_WateringChart> {
+  int? _selectedMonth;
+
+  @override
+  Widget build(BuildContext context) {
+    final coeffs = GeolocationService.getSeasonCoefficients(widget.latitude);
+    final daysPerMonth = coeffs.map((c) => (widget.baseDays * c).round()).toList();
+    final maxDays = daysPerMonth.reduce((a, b) => a > b ? a : b);
+    final minDays = daysPerMonth.reduce((a, b) => a < b ? a : b);
+
+    final activeMonth = _selectedMonth ?? widget.currentMonth;
+    final activeDays = daysPerMonth[activeMonth];
+    final activeLabel = _months[activeMonth];
+
+    const maxBarHeight = 80.0;
+    const labels = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+
+    return Column(
+      children: [
+        Text(
+          '$activeLabel: every ~$activeDays ${activeDays == 1 ? "day" : "days"}',
+          style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text),
+        ),
+        const SizedBox(height: AppSpacing.sm),
+        SizedBox(
+          height: maxBarHeight + 24,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: List.generate(12, (i) {
+              final days = daysPerMonth[i];
+              final range = maxDays - minDays;
+              final barHeight = range > 0
+                  ? (maxBarHeight * (1 - (days - minDays) / (range + 1))).clamp(8.0, maxBarHeight)
+                  : maxBarHeight * 0.5;
+              final isCurrent = i == widget.currentMonth;
+              final isSelected = i == activeMonth;
+              return Expanded(
+                child: GestureDetector(
+                  onTap: () => setState(() => _selectedMonth = i == widget.currentMonth ? null : i),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Container(
+                        height: barHeight,
+                        margin: const EdgeInsets.symmetric(horizontal: 2),
+                        decoration: BoxDecoration(
+                          color: isSelected ? AppColors.primary : isCurrent ? const Color(0xFF3B82F6) : const Color(0xFFD1D5DB),
+                          borderRadius: BorderRadius.circular(3),
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(labels[i], style: TextStyle(
+                        fontSize: 10,
+                        fontWeight: isCurrent ? FontWeight.w700 : FontWeight.normal,
+                        color: isCurrent ? AppColors.primary : AppColors.textSecondary,
+                      )),
+                    ],
+                  ),
+                ),
+              );
+            }),
+          ),
+        ),
+        const SizedBox(height: AppSpacing.sm),
+      ],
     );
   }
 }
