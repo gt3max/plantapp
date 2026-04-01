@@ -140,17 +140,6 @@ class _LibraryScreenState extends State<LibraryScreen> {
     return ListView(
       padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
       children: [
-        Padding(
-          padding: const EdgeInsets.only(bottom: AppSpacing.md),
-          child: Text(
-            'Popular Plants',
-            style: TextStyle(
-              fontSize: AppFontSize.lg,
-              fontWeight: FontWeight.w700,
-              color: AppColors.text,
-            ),
-          ),
-        ),
         ...popularPlants.map((p) => _PopularCard(
               plant: p,
               onTap: () => context.push('/plant/${p.id}'),
@@ -360,6 +349,15 @@ class _PopularCard extends StatelessWidget {
                 height: 56,
                 fit: BoxFit.cover,
                 headers: const {'User-Agent': 'PlantApp/1.0'},
+                gaplessPlayback: true,
+                loadingBuilder: (ctx, child, progress) {
+                  if (progress == null) return child;
+                  return Container(
+                    width: 56, height: 56,
+                    color: AppColors.background,
+                    child: Center(child: SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2, color: AppColors.accent))),
+                  );
+                },
                 errorBuilder: (_, __, ___) => Container(
                   width: 56, height: 56,
                   color: AppColors.background,

@@ -369,9 +369,10 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
 
     // Get the section's position relative to the viewport
     final viewportPos = box.localToGlobal(Offset.zero);
-    // Scroll so the GROUP HEADER (not section card) is right below sticky nav
-    // Account for: status bar (~54px) + sticky tab bar (48px) + group header (~24px) + padding
-    final navHeight = MediaQuery.of(context).padding.top + 48 + 16;
+    // Scroll so the GROUP HEADER is fully visible below sticky nav
+    // The group header is ABOVE the first section card (added via _groupHeader widget)
+    // Need extra offset for: group header height (~30px) + spacing (~16px)
+    final navHeight = MediaQuery.of(context).padding.top + 48 + 56;
     final targetOffset = _scrollController.offset + viewportPos.dy - navHeight;
 
     setState(() {
