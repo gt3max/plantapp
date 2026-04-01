@@ -14,7 +14,7 @@ class ApiClient {
   late final Dio dio = Dio(BaseOptions(
     baseUrl: apiBase,
     connectTimeout: const Duration(seconds: 15),
-    receiveTimeout: const Duration(seconds: 15),
+    receiveTimeout: const Duration(seconds: 50), // PlantNet + Lambda cold start can be slow
     headers: {'Content-Type': 'application/json'},
   ))
     ..interceptors.add(_AuthInterceptor(_tokenService));
