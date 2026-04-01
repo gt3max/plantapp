@@ -7,6 +7,23 @@ import 'package:plantapp/services/reminder_service.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Prevent crashes from rendering errors — show red error box instead of crash
+  ErrorWidget.builder = (FlutterErrorDetails details) {
+    return Material(
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Text(
+            'Something went wrong',
+            style: TextStyle(color: Colors.red[300], fontSize: 14),
+            textAlign: TextAlign.center,
+          ),
+        ),
+      ),
+    );
+  };
+
   runApp(const ProviderScope(child: PlantApp()));
 }
 

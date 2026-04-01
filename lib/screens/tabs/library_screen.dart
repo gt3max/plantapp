@@ -22,15 +22,30 @@ class _LibraryScreenState extends State<LibraryScreen> {
   bool _isSearching = false;
   bool _hasSearched = false;
 
+  bool _imagesPrecached = false;
+
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    // Precache all 6 plant images so they show immediately
+    // Precache images one at a time to avoid Wikimedia 429 rate limiting
+    if (!_imagesPrecached) {
+      _imagesPrecached = true;
+      _precacheSequentially();
+    }
+  }
+
+  Future<void> _precacheSequentially() async {
     for (final p in popularPlants) {
-      precacheImage(
-        NetworkImage(p.imageUrl, headers: const {'User-Agent': 'PlantApp/1.0'}),
-        context,
-      );
+      if (!mounted) return;
+      try {
+        await precacheImage(
+          NetworkImage(p.imageUrl, headers: const {'User-Agent': 'PlantApp/1.0'}),
+          context,
+        );
+      } catch (_) {
+        // Wikimedia may 429 — skip silently, image will load on scroll
+      }
+      await Future.delayed(const Duration(milliseconds: 300));
     }
   }
 
