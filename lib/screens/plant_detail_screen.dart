@@ -945,8 +945,8 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       }(),
                     ], guideLabel: ((_lib?.goodCompanions ?? []).isNotEmpty || (_lib?.badCompanions ?? []).isNotEmpty) ? 'Plant companions' : null),
 
-                    // Bottom padding for floating button
-                    const SizedBox(height: 100),
+                    // Bottom padding so floating "Add to My Plants" button doesn't overlap content
+                    SizedBox(height: _isInCollection ? 24 : 120),
                   ],
                   ),
                 ),
@@ -1353,7 +1353,15 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           _guideSectionTitle('Outdoor months (potted)'),
           if (_locationData?.hasData == true) ...[
             _guideSection('', 'These are the months $_title can be outdoors in your area. The rest of the year the temperature is too cold.'),
-            // TODO: MonthBar visual component
+            () {
+              final outdoor = GeolocationService.getOutdoorMonths(tempMin.toDouble(), _locationData!.monthlyAvgTemps);
+              return _MonthBar(activeMonths: outdoor.potted, color: const Color(0xFF22C55E));
+            }(),
+            _guideSectionTitle('Outdoor months (in ground)'),
+            () {
+              final outdoor = GeolocationService.getOutdoorMonths(tempMin.toDouble(), _locationData!.monthlyAvgTemps);
+              return _MonthBar(activeMonths: outdoor.inGround, color: const Color(0xFF16A34A));
+            }(),
           ] else
             _guideSection('', 'Enable location to see which months are safe for outdoor placement in your area.'),
           _guideSectionTitle('Frost tolerance'),
@@ -1361,12 +1369,14 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           InfoBox(text: 'This is the temperature the plant can endure \u2014 not the temperature it prefers. At this point the plant suffers: leaves may drop, growth stops, scarring occurs. It should survive and recover once moved to warmth.', variant: 'info'),
           _guideSectionTitle('Potted vs in ground'),
           _guideSection('', 'A plant in the ground has soil insulation protecting its roots. A potted plant has exposed sides \u2014 the pot freezes through much faster. This means potted plants need to come inside earlier in autumn and go out later in spring.'),
+          _guideSectionTitle('Frost tolerance zones'),
+          _guideSection('', 'A frost tolerance zone is based on the average lowest winter temperature in your area. It determines which plants can survive outdoors year-round.'),
+          _guideSection('', 'Zones range from 1a (coldest, below -51\u00b0C) to 13b (warmest, above 21\u00b0C). Each zone spans about 5\u00b0C.'),
+          _guideSection('', 'Important: these zones assume the plant is in the ground. Potted plants are 1\u20132 zones less hardy because roots are exposed to cold from all sides.'),
           if (_locationData?.hasData == true && _locationData!.cityName.isNotEmpty) ...[
-            _guideSectionTitle('Your location'),
-            _InfoRow(icon: Icons.location_on_outlined, text: _locationData!.cityName),
-            InfoBox(text: 'Current outdoor temperature: ${_fmtTemp(_locationData!.monthlyAvgTemps[DateTime.now().month - 1].round())}.', variant: 'success'),
+            InfoBox(text: 'Your zone: ${_locationData!.hardinessZone}. Current outdoor temperature: ${_fmtTemp(_locationData!.monthlyAvgTemps[DateTime.now().month - 1].round())}.', variant: 'success'),
           ] else
-            InfoBox(text: 'Enable location services to see outdoor recommendations for your area.', variant: 'info'),
+            InfoBox(text: 'Enable location services and we will determine your frost tolerance zone automatically.', variant: 'info'),
         ];
       // ═══ TOXICITY GUIDE (RN 1:1) ═══
       case 'toxicity':
@@ -1793,6 +1803,44 @@ class _StickyTabDelegate extends SliverPersistentHeaderDelegate {
   @override
   bool shouldRebuild(covariant _StickyTabDelegate oldDelegate) =>
       activeGroup != oldDelegate.activeGroup;
+}
+
+// ─── Month bar (outdoor months visualization, matches RN MonthBar) ──
+
+class _MonthBar extends StatelessWidget {
+  final List<String> activeMonths;
+  final Color color;
+  const _MonthBar({required this.activeMonths, required this.color});
+
+  static const _monthLabels = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+  static const _monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: AppSpacing.sm),
+      child: Row(
+        children: List.generate(12, (i) {
+          final active = activeMonths.contains(_monthNames[i]);
+          return Expanded(
+            child: Column(
+              children: [
+                Container(
+                  width: 12, height: 12,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: active ? color : const Color(0xFFD1D5DB),
+                  ),
+                ),
+                const SizedBox(height: 3),
+                Text(_monthLabels[i], style: TextStyle(fontSize: 11, color: AppColors.textSecondary)),
+              ],
+            ),
+          );
+        }),
+      ),
+    );
+  }
 }
 
 // ─── Info row ────────────────────────────────────────────────
