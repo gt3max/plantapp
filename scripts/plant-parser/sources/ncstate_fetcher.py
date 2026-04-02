@@ -140,13 +140,33 @@ def enrich_from_ncstate(limit=100):
                     [f"Propagation: {data['propagation']}", pid]
                 ))
 
-            # Insects & diseases → common_problems + common_pests
+            # Insects & diseases → split into pests and problems separately
             if data.get('insects_diseases'):
                 text = data['insects_diseases']
-                statements.append((
-                    "UPDATE care SET common_problems = CASE WHEN common_problems IS NULL OR common_problems = '' OR common_problems = '[]' THEN ? ELSE common_problems END WHERE plant_id = ?",
-                    [json.dumps([text]), pid]
-                ))
+                # Split by sentences, classify each
+                _disease_words = ['rot', 'wilt', 'blight', 'mildew', 'spot', 'rust', 'canker', 'scab', 'virus', 'fungal', 'bacterial', 'disease', 'mold']
+                _pest_words = ['aphid', 'beetle', 'mite', 'bug', 'caterpillar', 'fly', 'whitefl', 'thrip', 'scale', 'mealybug', 'weevil', 'borer', 'insect', 'pest', 'worm', 'slug', 'snail']
+                sentences = [s.strip() for s in text.replace('. ', '.\n').split('\n') if s.strip()]
+                pest_items = []
+                disease_items = []
+                for s in sentences:
+                    sl = s.lower()
+                    if any(p in sl for p in _pest_words):
+                        pest_items.append(s)
+                    if any(d in sl for d in _disease_words):
+                        disease_items.append(s)
+                    if not any(p in sl for p in _pest_words) and not any(d in sl for d in _disease_words):
+                        disease_items.append(s)  # default to problems
+                if pest_items:
+                    statements.append((
+                        "UPDATE care SET common_pests = CASE WHEN common_pests IS NULL OR common_pests = '' OR common_pests = '[]' THEN ? ELSE common_pests END WHERE plant_id = ?",
+                        [json.dumps(pest_items), pid]
+                    ))
+                if disease_items:
+                    statements.append((
+                        "UPDATE care SET common_problems = CASE WHEN common_problems IS NULL OR common_problems = '' OR common_problems = '[]' THEN ? ELSE common_problems END WHERE plant_id = ?",
+                        [json.dumps(disease_items), pid]
+                    ))
 
             # Maintenance → difficulty
             if data.get('maintenance'):

@@ -1,34 +1,6 @@
 # PlantApp — TODO / Feedback Notes
 
-## ВЫПОЛНЕНО ✅
-
-### About group → Details (2026-04-01) ✅
-- Переименовано About → Details
-- Difficulty и Taxonomy перенесены в развёртку описания
-- Used for guide: "About this plant" → "Uses & benefits"
-
-### "Companion data coming soon" (2026-04-01) ✅
-- Убрано. Для popular plants companions показываются, для остальных — пусто (как в RN)
-
-### API ключи (2026-04-01) ✅
-- Все 6 ключей синхронизированы: SECRETS.txt = Lambda = parser .env
-- PlantNet, SerpAPI, Perenual, Trefle, Turso, JWT — все проверены
-
-### Smart Identify v2 (2026-04-02) ✅
-- PlantNet primary + SerpAPI Lens при low confidence/fallback
-- Enrichment: Turso + Trefle + Wikipedia + Perenual (v2 API) — все 5 работают
-- Кэш enrichment (DynamoDB, TTL 30 дней)
-- Rate limits: free=3/день, anon=1/день
-- Backwards compatible с сайтом
-
-### Library → Turso DB (2026-04-02) ✅
-- Library показывает растения из Turso вместо 6 хардкоженных
-- Картинки от Perenual (не Wikimedia)
-- Масштабируется автоматически с ростом базы
-
-### Perenual fetcher (2026-04-02) ✅
-- perenual_fetcher.py написан и протестирован
-- 85 растений в базе (63 из Perenual + 22 старых)
+> Обновлено: 2026-04-03
 
 ---
 
@@ -38,68 +10,107 @@
 ```
 cd scripts/plant-parser
 python3 sources/perenual_fetcher.py 100     # Perenual: 100/день (лимит API)
-python3 sources/trefle_fetcher.py 5000      # Trefle: каркас (безлимит) — TODO написать
-python3 sources/wikipedia_fetcher.py        # Wikipedia: описания — TODO написать
-python3 populate.py --stats                 # Статистика — TODO написать
+python3 sources/trefle_fetcher.py 5000      # Trefle: каркас (безлимит)
+python3 sources/wikipedia_fetcher.py 500    # Wikipedia: описания
+python3 sources/xiaomi_fetcher.py 1000      # Xiaomi: PPFD, humidity, fertilizing
+python3 sources/ncstate_fetcher.py 2000     # NC State: научные care данные
 python3 backup.py                           # JSON backup в git
 ```
 
-### График наполнения
+### Текущее состояние базы (03.04.2026)
 
-| День | Действие | Результат |
-|------|----------|-----------|
-| **02.04 (сегодня)** | Perenual 63 растения ✅ | 85 в базе |
-| **03.04** | Perenual +100, Trefle каркас +5000 | ~5,185 |
-| **04.04** | Perenual +100, Wikipedia описания | ~5,285 |
-| **05.04** | Perenual +100 | ~5,385 |
-| **06.04** | Perenual +100 | ~5,485 |
-| **07.04** | Perenual +100 | ~5,585 |
-| **Неделя 2** | Perenual +700, Trefle +20,000 | ~26,000 |
-| **Неделя 3** | Perenual +700 | ~27,000 |
-| **Неделя 4** | Perenual +700, завершение 3,000 free | ~28,000+ |
-| **Месяц 2** | Trefle до 100,000 каркас | 100,000+ |
+| Метрика | Значение |
+|---------|----------|
+| Всего растений | **10,206** |
+| 17/17 полей (полные) | **6** |
+| 11-14 полей | ~15 |
+| 8-10 полей | ~364 |
+| 5-7 полей (каркас) | ~8,400 |
+| С фото | 8,772 (86%) |
+| С описанием | 707 (7%) |
+| Бэкап | data/plants/ — 394 JSON, 17 МБ |
 
-### Что ещё нужно написать
-- [ ] `sources/trefle_fetcher.py` — bulk import таксономии (каркас + preset care)
-- [ ] `sources/wikipedia_fetcher.py` — рефакторинг из enrich_descriptions.py
-- [ ] `populate.py` — главный скрипт с флагами --perenual, --trefle, --wikipedia, --stats, --backup
-- [ ] Запоминание прогресса (последняя страница) для возобновления
+### Источники данных
 
-### Текущее состояние базы
-- **85 растений** в Turso (63 Perenual + 22 старых)
-- **Perenual лимит:** исчерпан на 02.04, сброс завтра
-- **Trefle:** не начат (fetcher не написан)
-- **Wikipedia:** 25 описаний (из старого seed)
+| Источник | Записей | Что даёт | Лимит |
+|----------|---------|----------|-------|
+| Perenual v2 | 96 | Полные care (50 полей) | 100/день, max 3,000 free |
+| Trefle | 10,088 | Каркас: название, семейство, фото | Безлимит |
+| Xiaomi DB | 862 | PPFD, humidity, fertilizer, pruning, temp | Разово, 1,000 |
+| Wikipedia | 707 | Описания | Безлимит |
+| NC State Extension | ~57+ (работает) | Научные: light, difficulty, propagation, insects/diseases, growth | Парсинг, 5,000 |
+| Permapeople | 100 | Propagation detail, used for, edibility | Пагинация сломана, ждём |
+| POWO (Kew) | — | Климат, distribution | API бесплатный |
+
+### Ежедневный ритуал
+1. `python3 sources/perenual_fetcher.py 100` — новые 100 полных care
+2. `python3 sources/ncstate_fetcher.py 500` — научные данные для существующих
+3. `python3 backup.py` — бэкап в git
+4. `git add data/plants/ && git commit && git push`
 
 ---
 
 ## TODO (по приоритету)
 
-### 1. Наполнение базы — скрипты
-- [x] perenual_fetcher.py — написан, работает
-- [ ] trefle_fetcher.py — каркас 50,000+
-- [ ] wikipedia_fetcher.py — описания
-- [ ] populate.py — единый скрипт
+### 1. Insects & Diseases — собирать данные СЕЙЧАС
+- NC State даёт insects_diseases для каждого растения
+- Perenual даёт pest_susceptibility
+- Нужно: **разделить на insects и diseases отдельно** в базе
+- Данные пригодятся для AI Doctor
+- Сейчас всё в common_problems/common_pests — нужна структура
+- Рассмотреть: отдельная таблица `plant_diseases` в Turso
 
 ### 2. Панель мониторинга (Admin Dashboard)
 - Страница на сайте (plantapp.pro/admin)
 - Статус сервисов, расход лимитов, ошибки
-- Объём базы, % заполненности, свободное место в Turso
+- Объём базы, % заполненности
 - Количество пользователей, identify за день
 
-### 3. Офлайн identify (Premium фича)
+### 3. Перепроверка данных 6 popular plants
+- Сверить с Perenual (завтра, когда лимит сбросится)
+- Сверить с NC State
+- Записать расхождения если есть
+
+### 4. Офлайн identify (Premium фича)
 - Встроенная нейросеть PlantNet-300K TFLite (~100 MB, 1,081 вид)
 - Работает без интернета
 
-### 4. Фото растений — карусель
-- Несколько фото (как у Planta — swipe, zoom, рассматривать листья)
-- Perenual даёт other_images[] — несколько фото на растение
-- Фото увеличение по тапу (сделано для identify v4.12.1)
+### 5. Фото растений — карусель
+- Несколько фото (как у Planta — swipe, zoom)
+- Perenual даёт other_images[]
+- Фото увеличение по тапу (сделано v4.12.1)
 
-### 5. UI identify результатов
+### 6. UI identify результатов
 - Кнопка save — отдельная, не по тапу на фото
 - Несколько фото в результате
 
-### 6. Auth / Логин
+### 7. Data Sources в Settings
+- ✅ Добавлено (v4.12.4): PlantNet, Perenual, Trefle, Wikipedia, Permapeople, Xiaomi, SerpAPI, NC State, POWO
+
+### 8. Auth / Логин
 - Dev auto-login, не трогать до релиза
 - Позже: нормальные аккаунты
+
+### 9. Permapeople пагинация
+- 9,032 растения на сайте, API отдаёт только 100
+- Написать им / попробовать другой формат запроса
+- Если починят — propagation detail + used for для тысяч
+
+---
+
+## ВЫПОЛНЕНО ✅
+
+- About → Details, Difficulty/Taxonomy в развёртку (2026-04-01)
+- "Companion data coming soon" убрано (2026-04-01)
+- API ключи синхронизированы (2026-04-01)
+- Smart Identify v2 (2026-04-02)
+- Library → Turso DB (2026-04-02)
+- Perenual fetcher (2026-04-02)
+- Trefle fetcher — 10K каркас (2026-04-02)
+- Wikipedia fetcher (2026-04-02)
+- Xiaomi enrichment — 862 растения (2026-04-02)
+- 6 popular plants полные 17/17 в Turso (2026-04-02)
+- Perenual resume fix (2026-04-03)
+- NC State parser (2026-04-03)
+- Data Sources в Settings (2026-04-03)
+- Бэкап базы — data/plants/ (2026-04-03)

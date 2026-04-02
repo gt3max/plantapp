@@ -139,9 +139,18 @@ def map_to_plant_record(data):
     soil_list = data.get('soil', []) or []
     soil_types = ', '.join(soil_list) if isinstance(soil_list, list) else str(soil_list)
 
-    # Pests
+    # Pests & Diseases — separate insects from diseases
     pests_raw = data.get('pest_susceptibility', []) or []
-    pests = [p.strip() for p in pests_raw if p and p.strip()] if isinstance(pests_raw, list) else []
+    pests_list = [p.strip() for p in pests_raw if p and p.strip()] if isinstance(pests_raw, list) else []
+    # Known disease keywords
+    _disease_words = ['rot', 'wilt', 'blight', 'mildew', 'spot', 'rust', 'canker', 'scab', 'virus', 'fungal', 'bacterial', 'disease', 'mold', 'mould']
+    pests = []
+    diseases = []
+    for item in pests_list:
+        if any(d in item.lower() for d in _disease_words):
+            diseases.append(item)
+        else:
+            pests.append(item)
 
     # Propagation → tags
     propagation = data.get('propagation', []) or []
@@ -187,6 +196,7 @@ def map_to_plant_record(data):
         toxic_to_humans=bool(data.get('poisonous_to_humans')),
         toxicity_note='Toxic to pets and/or humans' if data.get('poisonous_to_pets') or data.get('poisonous_to_humans') else '',
         common_pests=pests,
+        common_problems=diseases,
         tips=data.get('description', '')[:200] if data.get('description') else '',
     )
 
