@@ -838,6 +838,26 @@ class _PlantCard extends StatelessWidget {
 
 // ─── Identify result card ────────────────────────────────────
 
+void _showFullImage(BuildContext context, String url) {
+  Navigator.of(context).push(MaterialPageRoute(
+    builder: (_) => Scaffold(
+      backgroundColor: Colors.black,
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        foregroundColor: Colors.white,
+        elevation: 0,
+      ),
+      body: Center(
+        child: InteractiveViewer(
+          child: Image.network(url, fit: BoxFit.contain,
+            errorBuilder: (_, __, ___) => const Icon(Icons.broken_image, color: Colors.white54, size: 48),
+          ),
+        ),
+      ),
+    ),
+  ));
+}
+
 class _IdentifyResultCard extends StatelessWidget {
   const _IdentifyResultCard({
     required this.result,
@@ -872,21 +892,24 @@ class _IdentifyResultCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Large plant image
+            // Large plant image — tap to view full screen
             if (result.images.isNotEmpty)
-              ClipRRect(
-                borderRadius: const BorderRadius.vertical(
-                    top: Radius.circular(AppBorderRadius.lg)),
-                child: Image.network(
-                  result.images.first,
-                  width: double.infinity,
-                  height: 180,
-                  fit: BoxFit.cover,
-                  errorBuilder: (_, __, ___) => Container(
+              GestureDetector(
+                onTap: () => _showFullImage(context, result.images.first),
+                child: ClipRRect(
+                  borderRadius: const BorderRadius.vertical(
+                      top: Radius.circular(AppBorderRadius.lg)),
+                  child: Image.network(
+                    result.images.first,
+                    width: double.infinity,
                     height: 180,
-                    color: AppColors.background,
-                    child: Center(
-                        child: Icon(Icons.eco, size: 48, color: AppColors.accent)),
+                    fit: BoxFit.cover,
+                    errorBuilder: (_, __, ___) => Container(
+                      height: 180,
+                      color: AppColors.background,
+                      child: Center(
+                          child: Icon(Icons.eco, size: 48, color: AppColors.accent)),
+                    ),
                   ),
                 ),
               ),
@@ -918,7 +941,6 @@ class _IdentifyResultCard extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: commonName != null ? AppFontSize.sm : AppFontSize.lg,
                                 fontWeight: commonName != null ? FontWeight.w400 : FontWeight.w700,
-                                fontStyle: FontStyle.italic,
                                 color: commonName != null ? AppColors.textSecondary : AppColors.text,
                               ),
                             ),
