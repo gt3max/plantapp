@@ -213,6 +213,8 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             _sourceRow('Permapeople', 'Propagation & uses', 'permapeople.org'),
             _sourceRow('HHCC / Xiaomi', 'Light & humidity data', 'Open source'),
             _sourceRow('SerpAPI', 'Cross-verification', 'serpapi.com'),
+            _sourceRow('NC State Extension', 'Scientific plant data', 'plants.ces.ncsu.edu'),
+            _sourceRow('POWO (Kew Gardens)', 'Taxonomy & distribution', 'powo.science.kew.org'),
             const SizedBox(height: AppSpacing.md),
             Text(
               'Some data is licensed under Creative Commons (CC-BY-SA 4.0). '
