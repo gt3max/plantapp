@@ -125,6 +125,12 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
               onTap: () =>
                   launchUrl(Uri.parse('mailto:support@plantapp.pro')),
             ),
+            const Divider(height: 1),
+            _TapRow(
+              icon: Icons.source_outlined,
+              label: 'Data Sources & Licenses',
+              onTap: () => _showDataSources(context),
+            ),
           ]),
 
           const SizedBox(height: AppSpacing.lg),
@@ -176,6 +182,69 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
         actions: [
           TextButton(
               onPressed: () => Navigator.pop(ctx), child: const Text('OK')),
+        ],
+      ),
+    );
+  }
+
+  void _showDataSources(BuildContext context) {
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(16))),
+      builder: (_) => Padding(
+        padding: const EdgeInsets.all(AppSpacing.lg),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Data Sources & Licenses', style: TextStyle(fontSize: AppFontSize.lg, fontWeight: FontWeight.w700)),
+            const SizedBox(height: AppSpacing.md),
+            Text(
+              'PlantApp uses data from multiple sources to provide accurate plant care information. '
+              'We cross-reference data between sources to ensure quality.',
+              style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4),
+            ),
+            const SizedBox(height: AppSpacing.lg),
+            _sourceRow('Pl@ntNet', 'Plant identification', 'plantnet.org'),
+            _sourceRow('Perenual', 'Plant care data', 'perenual.com'),
+            _sourceRow('Trefle', 'Botanical taxonomy', 'trefle.io'),
+            _sourceRow('Wikipedia', 'Plant descriptions', 'wikipedia.org'),
+            _sourceRow('Permapeople', 'Propagation & uses', 'permapeople.org'),
+            _sourceRow('HHCC / Xiaomi', 'Light & humidity data', 'Open source'),
+            _sourceRow('SerpAPI', 'Cross-verification', 'serpapi.com'),
+            const SizedBox(height: AppSpacing.md),
+            Text(
+              'Some data is licensed under Creative Commons (CC-BY-SA 4.0). '
+              'Plant identification powered by Pl@ntNet API.',
+              style: TextStyle(fontSize: AppFontSize.xs, color: AppColors.textSecondary, height: 1.4),
+            ),
+            const SizedBox(height: AppSpacing.lg),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _sourceRow(String name, String desc, String url) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+      child: Row(
+        children: [
+          Icon(Icons.check_circle_outline, size: 16, color: AppColors.primary),
+          const SizedBox(width: AppSpacing.sm),
+          Expanded(
+            child: RichText(
+              text: TextSpan(
+                style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.text),
+                children: [
+                  TextSpan(text: name, style: const TextStyle(fontWeight: FontWeight.w600)),
+                  TextSpan(text: ' — $desc', style: TextStyle(color: AppColors.textSecondary)),
+                ],
+              ),
+            ),
+          ),
+          Text(url, style: TextStyle(fontSize: AppFontSize.xs, color: AppColors.textSecondary)),
         ],
       ),
     );
