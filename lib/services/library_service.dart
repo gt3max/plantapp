@@ -28,6 +28,19 @@ class LibraryService {
     return await _api.get<Map<String, dynamic>>(PlantDBEndpoints.detail(id));
   }
 
+  /// Get featured plants for Library home screen (from Turso DB)
+  Future<List<LibraryPlant>> getFeatured({int limit = 30}) async {
+    final data = await _api.get<Map<String, dynamic>>(
+      '${PlantDBEndpoints.search}?limit=$limit',
+    );
+    final plants = (data['plants'] as List<dynamic>?) ??
+        (data['results'] as List<dynamic>?) ??
+        [];
+    return plants
+        .map((p) => LibraryPlant.fromJson(p as Map<String, dynamic>))
+        .toList();
+  }
+
   /// Get DB stats (total count)
   Future<int> getPlantCount() async {
     final data =

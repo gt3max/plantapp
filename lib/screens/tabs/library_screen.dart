@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:plantapp/app/theme.dart';
-import 'package:plantapp/constants/popular_plants.dart';
 import 'package:plantapp/services/library_service.dart';
 
 class LibraryScreen extends StatefulWidget {
@@ -19,33 +18,23 @@ class _LibraryScreenState extends State<LibraryScreen> {
   Timer? _debounce;
 
   List<LibraryPlant> _results = [];
+  List<LibraryPlant> _featured = [];
   bool _isSearching = false;
   bool _hasSearched = false;
-
-  bool _imagesPrecached = false;
+  bool _featuredLoading = true;
 
   @override
-  void didChangeDependencies() {
-    super.didChangeDependencies();
-    // Precache images one at a time to avoid Wikimedia 429 rate limiting
-    if (!_imagesPrecached) {
-      _imagesPrecached = true;
-      _precacheSequentially();
-    }
+  void initState() {
+    super.initState();
+    _loadFeatured();
   }
 
-  Future<void> _precacheSequentially() async {
-    for (final p in popularPlants) {
-      if (!mounted) return;
-      try {
-        await precacheImage(
-          NetworkImage(p.imageUrl, headers: const {'User-Agent': 'PlantApp/1.0'}),
-          context,
-        );
-      } catch (_) {
-        // Wikimedia may 429 — skip silently, image will load on scroll
-      }
-      await Future.delayed(const Duration(milliseconds: 300));
+  Future<void> _loadFeatured() async {
+    try {
+      final plants = await _libraryService.getFeatured(limit: 30);
+      if (mounted) setState(() { _featured = plants; _featuredLoading = false; });
+    } catch (e) {
+      if (mounted) setState(() => _featuredLoading = false);
     }
   }
 
@@ -152,14 +141,24 @@ class _LibraryScreenState extends State<LibraryScreen> {
   }
 
   Widget _buildWelcome() {
-    return ListView(
+    if (_featuredLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
+    if (_featured.isEmpty) {
+      return Center(
+        child: Text('No plants in database yet', style: TextStyle(color: AppColors.textSecondary)),
+      );
+    }
+    return ListView.builder(
       padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
-      children: [
-        ...popularPlants.map((p) => _PopularCard(
-              plant: p,
-              onTap: () => context.push('/plant/${p.id}'),
-            )),
-      ],
+      itemCount: _featured.length,
+      itemBuilder: (context, index) {
+        final plant = _featured[index];
+        return _LibraryCard(
+          plant: plant,
+          onTap: () => context.push('/plant/${plant.detailId}'),
+        );
+      },
     );
   }
 
@@ -335,113 +334,7 @@ class _LibraryCard extends StatelessWidget {
       );
 }
 
-// ─── Card for popular plants (from hardcoded data) ──────────
-
-class _PopularCard extends StatelessWidget {
-  const _PopularCard({required this.plant, required this.onTap});
-  final PopularPlant plant;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        margin: const EdgeInsets.only(bottom: AppSpacing.md),
-        padding: const EdgeInsets.all(AppSpacing.md),
-        decoration: BoxDecoration(
-          color: AppColors.surface,
-          borderRadius: AppBorderRadius.lgAll,
-          border: Border.all(color: AppColors.border),
-        ),
-        child: Row(
-          children: [
-            ClipRRect(
-              borderRadius: AppBorderRadius.mdAll,
-              child: Image.network(
-                plant.imageUrl,
-                width: 56,
-                height: 56,
-                fit: BoxFit.cover,
-                headers: const {'User-Agent': 'PlantApp/1.0'},
-                gaplessPlayback: true,
-                loadingBuilder: (ctx, child, progress) {
-                  if (progress == null) return child;
-                  return Container(
-                    width: 56, height: 56,
-                    color: AppColors.background,
-                    child: Center(child: SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2, color: AppColors.accent))),
-                  );
-                },
-                errorBuilder: (_, __, ___) => Container(
-                  width: 56, height: 56,
-                  color: AppColors.background,
-                  child: Icon(Icons.eco, color: AppColors.accent, size: 28),
-                ),
-              ),
-            ),
-            const SizedBox(width: AppSpacing.md),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    plant.commonName,
-                    style: TextStyle(
-                      fontSize: AppFontSize.md,
-                      fontWeight: FontWeight.w600,
-                      color: AppColors.text,
-                    ),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                  const SizedBox(height: 2),
-                  Text(
-                    plant.scientific,
-                    style: TextStyle(
-                      fontSize: AppFontSize.xs,
-                      color: AppColors.textSecondary,
-                    ),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                  const SizedBox(height: 2),
-                  Text(
-                    plant.family,
-                    style: TextStyle(
-                      fontSize: AppFontSize.xs,
-                      color: AppColors.textSecondary,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                _SmallBadge(
-                  label: plant.difficulty,
-                  color: plant.difficulty == 'Easy'
-                      ? const Color(0xFFDCFCE7)
-                      : plant.difficulty == 'Medium'
-                          ? const Color(0xFFFEF3C7)
-                          : const Color(0xFFFEE2E2),
-                ),
-                const SizedBox(height: 4),
-                _SmallBadge(
-                  label: plant.wateringDemand.isNotEmpty ? plant.wateringDemand : 'Medium',
-                  color: const Color(0xFFDBEAFE),
-                ),
-              ],
-            ),
-            const SizedBox(width: AppSpacing.sm),
-            Icon(Icons.chevron_right, color: AppColors.textSecondary, size: 20),
-          ],
-        ),
-      ),
-    );
-  }
-}
+// ─── (PopularCard removed — Library now uses _LibraryCard for all plants from Turso DB) ──
 
 class _SmallBadge extends StatelessWidget {
   const _SmallBadge({required this.label, required this.color});
