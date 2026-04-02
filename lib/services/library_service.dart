@@ -29,7 +29,7 @@ class LibraryService {
   }
 
   /// Get featured plants for Library home screen (from Turso DB)
-  Future<List<LibraryPlant>> getFeatured({int limit = 30}) async {
+  Future<List<LibraryPlant>> getFeatured({int limit = 15}) async {
     final data = await _api.get<Map<String, dynamic>>(
       '${PlantDBEndpoints.search}?limit=$limit',
     );
