@@ -30,6 +30,20 @@ PERENUAL_V2_BASE = 'https://perenual.com/api/v2'
 MAX_FREE_ID = 3000
 DAILY_LIMIT = 100
 
+# Progress file — remember last page for resuming
+PROGRESS_FILE = Path(__file__).parent.parent / '.perenual_progress'
+
+
+def _load_progress():
+    if PROGRESS_FILE.exists():
+        return int(PROGRESS_FILE.read_text().strip())
+    return 1
+
+
+def _save_progress(page):
+    PROGRESS_FILE.write_text(str(page))
+
+
 # Family → preset mapping (same as Lambda)
 FAMILY_PRESETS = {
     'Araceae': 'Tropical', 'Marantaceae': 'Tropical', 'Bromeliaceae': 'Tropical',
@@ -251,13 +265,14 @@ def upsert_plant(record):
         turso_batch(statements[i:i+50])
 
 
-def fetch_and_store(count=100, indoor_first=True, start_page=1):
-    """Fetch plants from Perenual and store in Turso. Returns number stored."""
+def fetch_and_store(count=100, indoor_first=True, resume=True):
+    """Fetch NEW plants from Perenual and store in Turso. Skips already fetched. Returns number stored."""
     stored = 0
-    page = start_page
+    skipped = 0
+    page = _load_progress() if resume else 1
     request_count = 0
 
-    print(f"[Perenual] Fetching up to {count} plants (indoor_first={indoor_first})...")
+    print(f"[Perenual] Fetching up to {count} NEW plants, starting from page {page}...")
 
     while stored < count and request_count < DAILY_LIMIT:
         try:
@@ -271,6 +286,7 @@ def fetch_and_store(count=100, indoor_first=True, start_page=1):
                     print(f"[Perenual] No more indoor plants, switching to all...")
                     indoor_first = False
                     page = 1
+                    _save_progress(page)
                     continue
                 break
 
@@ -282,11 +298,19 @@ def fetch_and_store(count=100, indoor_first=True, start_page=1):
                 if species_id > MAX_FREE_ID:
                     continue
 
-                # Check if already in DB
+                # Skip if already fetched from Perenual
+                sci_name = sp.get('scientific_name', [''])
+                if isinstance(sci_name, list):
+                    sci_name = sci_name[0] if sci_name else ''
+                plant_id = sci_name.lower().replace(' ', '_').replace("'", '').replace('"', '')
+
                 existing = turso_query(
-                    'SELECT plant_id FROM plants WHERE plant_id = ?',
-                    [sp.get('scientific_name', [''])[0].lower().replace(' ', '_') if isinstance(sp.get('scientific_name'), list) else '']
+                    "SELECT sources FROM plants WHERE plant_id = ?",
+                    [plant_id]
                 )
+                if existing and 'perenual' in (existing[0].get('sources', '') or ''):
+                    skipped += 1
+                    continue
 
                 try:
                     detail = fetch_species_detail(species_id)
@@ -304,7 +328,7 @@ def fetch_and_store(count=100, indoor_first=True, start_page=1):
                     stored += 1
 
                     if stored % 10 == 0:
-                        print(f"[Perenual] Stored {stored}/{count} (requests: {request_count}/{DAILY_LIMIT})")
+                        print(f"[Perenual] Stored {stored}/{count} new (skipped: {skipped}, requests: {request_count}/{DAILY_LIMIT}, page: {page})")
                     elif stored <= 5:
                         print(f"  + {record.scientific} ({record.family})")
 
@@ -313,12 +337,15 @@ def fetch_and_store(count=100, indoor_first=True, start_page=1):
                     continue
 
             page += 1
+            _save_progress(page)
 
         except Exception as e:
             print(f"[Perenual] Page {page} error: {e}")
+            _save_progress(page)
             break
 
-    print(f"[Perenual] Done: {stored} plants stored, {request_count} API requests used")
+    print(f"[Perenual] Done: {stored} new plants stored, {skipped} skipped (already had), {request_count} API requests used")
+    print(f"[Perenual] Progress saved at page {page}. Next run continues from here.")
     return stored
 
 
@@ -330,5 +357,6 @@ def _safe_int(val, default=0):
 
 
 if __name__ == '__main__':
-    count = int(sys.argv[1]) if len(sys.argv) > 1 else 5
-    fetch_and_store(count)
+    count = int(sys.argv[1]) if len(sys.argv) > 1 else 100
+    resume = '--fresh' not in sys.argv
+    fetch_and_store(count, resume=resume)
