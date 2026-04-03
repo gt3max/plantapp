@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -47,8 +47,8 @@
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: NORTHWESTERN USA, WAS, BRC OO, BRC, CAL",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -116,8 +116,16 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Leaf spots and rusts may occur",
+        "Improperly sited plants may suffer from leaf scorch",
+        "Deer tend to avoid this plant",
+        "Uses\n\nBest in small groupings in shady areas",
+        "Shrub borders"
+      ],
+      "common_pests": [
+        "Watch for aphids, scale and whiteflies"
+      ]
     },
     "common_names": {
       "en": [
@@ -149,8 +157,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 46,
@@ -215,8 +223,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 46,
@@ -279,8 +287,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 57,
@@ -434,7 +442,13 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No serious insect or disease problems",
+        "Slow to establish from seed",
+        "Berry-like seeds are poisonous",
+        "Back to Previous Page\n\nThank You",
+        "The Garden wouldn't be the Garden without our Members, Donors and Volunteers"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -648,7 +662,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1669bef8ac2a8aee04435802b7347447e8f6575d",
-    "description": null,
+    "description": "Podophyllum is a genus of flowering plant in the family Berberidaceae, native from Afghanistan to China, and from southeast Canada to the central and eastern United States. The genus was first described by Carl Linnaeus in 1753.",
     "wikidata_id": null,
     "sources": [
       "trefle"

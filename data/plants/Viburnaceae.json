@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -47,8 +47,8 @@
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: BGM BE, IRE NI, KGZ OO, YUK OO, BLT KA",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -138,7 +138,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1fad0152c47cba9be23c69f7a14eacf55246a39e",
-    "description": null,
+    "description": "Sambucus ebulus, also known as danewort, dane weed, danesblood, dwarf elder or European dwarf elder, walewort, dwarf elderberry, elderwort and blood hilder, is a herbaceous species of elder, native to southern and central Europe and southwest Asia. The species is a well-established archaeophyte in much of the UK, and is also reportedly naturalized in parts of North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"

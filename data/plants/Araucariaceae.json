@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 78,
@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Fertile soil or special humus soil",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -47,15 +47,17 @@
       "difficulty": "Medium",
       "growth_rate": "Medium",
       "watering_guide": "Propagation: Seed",
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Cedrus deodara",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Cedrus deodara | Native to: CLC MA, CLC BI, CLC OH, CLS LL, CLS",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
       "common_problems": [
         "This tree does not tolerate urban pollution.  It is generally pest resistant but has some susceptibility to scales, leaf spot, phytophthora, root rot and sooty molds.  Siting must allow adequate space for this tree&#39;s large size at maturity as surface roots are capable of lifting sidewalks and impeding lawn mowing.  Large falling cones may be an undesirable litter or pedestrian issue."
       ],
-      "common_pests": null
+      "common_pests": [
+        "It is generally pest resistant but has some susceptibility to scales, leaf spot, phytophthora, root rot and sooty molds."
+      ]
     },
     "common_names": {
       "en": [

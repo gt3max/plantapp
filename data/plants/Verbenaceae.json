@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 57,
@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": "Soil with loose texture or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": "Remove aged tissues, dead and pest branches timely",
+      "light_guide": "Climate: seasonally dry tropical",
+      "tips": "Remove aged tissues, dead and pest branches timely | Native to: AGE SF, TEX OO, CLC CO, AGW, BZL RJ",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -97,7 +97,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -111,15 +111,17 @@
       "difficulty": "Medium",
       "growth_rate": "Rapid",
       "watering_guide": "Propagation: Layering",
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Similar plants: Buddleja salviifolia",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: subtropical",
+      "tips": "Similar plants: Buddleja salviifolia | Native to: BZC DF, BZN RO, BZC GO, AGW SJ, BZN PA",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
       "common_problems": [
         "Generally, problem-free grown outdoors. Those brought inside are susseptable to white fly, spider mite, and aphid infestations. Root rot can occur in too wet soils."
       ],
-      "common_pests": null
+      "common_pests": [
+        "Those brought inside are susseptable to white fly, spider mite, and aphid infestations."
+      ]
     },
     "common_names": {
       "en": [
@@ -140,7 +142,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9234d6c399e133d2d5b0389fc33a1ba64f9abdae",
-    "description": null,
+    "description": "½ inch, yellow-orange drupes in late summer to fall hang in long, trailing clusters.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -164,7 +166,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Loam (Silt), Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -173,17 +175,21 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "perennial",
+      "difficulty": "Medium",
+      "growth_rate": "Rapid",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Aesculus flava",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "No significant problems."
+      ],
+      "common_pests": [
+        "Watch for whiteflies."
+      ]
     },
     "common_names": {
       "en": [
@@ -204,7 +210,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3e223b316f056e39a2232d1baef217d6e4f711c7",
-    "description": null,
+    "description": "Lantana camara is a species of flowering plant in the verbena family (Verbenaceae), native to the American tropics. It is a very adaptable species, which can inhabit a wide variety of ecosystems; once it has been introduced into a habitat it spreads rapidly; between 45ºN and 45ºS and less than 1,400 metres in altitude.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -776,7 +782,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7ec44adacf3855bf9d6b4dd703d782e37390ca2d",
-    "description": null,
+    "description": "Phyla nodiflora, commonly known as lippia, kurapia, turkey tangle frogfruit, capeweed, and frogfruit, is a species of flowering plant in the family Verbenaceae. It can be found in the tropics around the globe. It is often grown as an ornamental plant for ground cover, and is often present in yards or disturbed areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"

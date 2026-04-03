@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/459818e1b344916d1f6a5b2a9272d355e1df5759",
-    "description": null,
+    "description": "Averrhoa carambola, commonly called star fruit is a small, slow-growing, short-trunked tropical tree that probably originated in Malaysia, Indonesia and southern China. It now extinct in the wild. It is grown commercially in many tropical and sub-tropical areas around the world for its unusual fruit. It also serves as an attractive, multi-branched ornamental tree. It typically grows to 20-30' tall with a broad rounded crown featuring odd-pinnate, medium green leaves (to 6-10\" long). Each leaf ha",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 46,
@@ -44,16 +44,24 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Winter hardy to USDA Zones 10-12 where it is best grown in rich, acidic, evenly moist, well-drained loams in full sun. Best sited in locations sheltered from wind. Generally intolerant of frost. In St. Louis, it may be grown in containers that are overwintered indoors, but it may not bear fruit. Pla",
       "light_guide": null,
       "tips": "Remove aged tissues, dead and pest branches timely",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Root rot may develop in overly moist soils",
+        "Anthracnose, leaf spots and sooty mold may also occur",
+        "No serious insect or disease problems",
+        "Uses\n\nFruit tree or small ornamental shade tree for frost free areas",
+        "Interesting container plant for colder areas"
+      ],
+      "common_pests": [
+        "Potential insect pests include fruit flies, beetles, caterpillars, nematodes, scale and stinkbugs"
+      ]
     },
     "common_names": {
       "en": [
@@ -890,7 +898,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/692c04e3bcf4152b9f824970e5e90a99759e4f4a",
-    "description": null,
+    "description": "Oxalis pes-caprae is a species of tristylous yellow-flowering plant in the wood sorrel family Oxalidaceae. Oxalis cernua is a less common synonym for this species.",
     "wikidata_id": null,
     "sources": [
       "trefle"

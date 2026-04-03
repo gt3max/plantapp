@@ -277,8 +277,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 69,
@@ -308,7 +308,13 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "Heart rot and rust may occur in some areas",
+        "No serious insect or disease problems",
+        "Uses\n\nLarge specimen tree",
+        "Screen, windbreak or hedge",
+        "Back to Previous Page\n\nThank You"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -341,8 +347,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 69,
@@ -372,7 +378,13 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "It causes an often-fatal root rot disease which poses a significant threat to the survival of the species",
+        "Phytophthora lateralis is a fungus which has spread through the native range of this tree at a rapid rate",
+        "Uses\n\nHuge tree that is infrequently grown in landscapes",
+        "A large number of compact to dwarf cultivars of this species are available in commerce for ornamental plantings",
+        "Back to Previous Page\n\nThank You"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -405,8 +417,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 69,
@@ -436,8 +448,16 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Some susceptibility to juniper blight, root rot and certain insect pests such as bagworms",
+        "Uses\n\nSpecimen evergreen conifer",
+        "Back to Previous Page\n\nThank You",
+        "The Garden wouldn't be the Garden without our Members, Donors and Volunteers",
+        "Info for\n\nMembers\nVisitors\nGardeners\nHorticulturists\nEducators\nResearchers\n\nMain Navigation\n\nVisit\nThings To Do\nGardens & Gardening\nLearn & Discover\nSustainability & Conservation\nPlant Science\nAbout\n\nQuick Links\n\nSupport the Garden\nMembers\nSh"
+      ],
+      "common_pests": [
+        "Some susceptibility to juniper blight, root rot and certain insect pests such as bagworms"
+      ]
     },
     "common_names": {
       "en": [
@@ -469,8 +489,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 69,
@@ -503,7 +523,9 @@
       "common_problems": [
         "Somewhat susceptible to bagworms and root rot, and juniper blight. See Clemson&#39;s publication on"
       ],
-      "common_pests": null
+      "common_pests": [
+        "Somewhat susceptible to bagworms and root rot, and juniper blight."
+      ]
     },
     "common_names": {
       "en": [
@@ -535,8 +557,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 69,
@@ -588,7 +610,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0bf0af4d52709994a556dca3d28730b8c5428df5",
-    "description": null,
+    "description": "Male (pollen) cones are in clusters near the apex of branches and are oblong and scaly. Female (seed) cones are round, brown, rosette looking on terminal branches singly or in groups.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -612,7 +634,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -621,16 +643,18 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
+      "lifecycle": "woody",
+      "difficulty": "Easy",
+      "growth_rate": "Medium",
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
+      "tips": "Similar plants: Berberis julianae",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "Problems may include leaf spot, leaf blight, and fungi."
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -652,7 +676,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d510e40f807f95bbf429d676bf7b75b2c1f6f7dc",
-    "description": null,
+    "description": "As a conifer, it does not produce fruits, producing grey-brown cones instead.  The cones only open once the branch they are on has died.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -676,7 +700,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Loam (Silt), Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -685,16 +709,18 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
+      "lifecycle": "woody",
+      "difficulty": "Easy",
+      "growth_rate": "Rapid",
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Juniperus virginiana",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "This tree is somewhat susceptible to canker."
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -780,7 +806,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/848595e3da41dd054bd0a941840b2d1aa5298cf6",
-    "description": null,
+    "description": "Seed cones are dry, hard, glossy, rounded, and persistent.  Open through heat.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -804,7 +830,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Loam (Silt), Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -813,12 +839,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "woody",
+      "difficulty": "Easy",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Cedrus atlantica",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -1612,7 +1638,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/800d54c13d6ca48a1aa1508f55ff42d08b5ff5fa",
-    "description": null,
+    "description": "Juniperus phoenicea, the Phoenicean juniper or Arâr, is a species of juniper found in the western Mediterranean region.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2376,7 +2402,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/df6a57e8a614f02a1a24347fb29c8bda38275e13",
-    "description": null,
+    "description": "Thuja occidentalis, also known as northern white-cedar, eastern white-cedar, or arborvitae, is an evergreen coniferous tree, in the cypress family Cupressaceae, which is native to eastern Canada and much of the north-central and northeastern United States. It is widely cultivated as an ornamental plant. It is not to be confused with Juniperus virginiana.",
     "wikidata_id": null,
     "sources": [
       "trefle"

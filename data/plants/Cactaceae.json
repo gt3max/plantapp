@@ -940,6 +940,70 @@
     "external_ids": {}
   },
   {
+    "plant_id": "echinocereus_enneacanthus",
+    "scientific": "Echinocereus enneacanthus",
+    "family": "Cactaceae",
+    "genus": "Echinocereus",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Succulents",
+    "image_url": "https://bs.plantnet.org/image/o/0b86c8ea603139af78355a96200ab1cfde28c288",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:39.294293+00:00",
+    "care": {
+      "plant_id": "echinocereus_enneacanthus",
+      "water_frequency": "Every 2-3 weeks",
+      "water_winter": null,
+      "water_demand": "Low",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright direct or indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 5,
+      "temp_max_c": 35,
+      "humidity_level": "Low (30-40%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Banana cactus"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
     "plant_id": "echinocereus_triglochidiatus",
     "scientific": "Echinocereus triglochidiatus",
     "family": "Cactaceae",
@@ -1334,7 +1398,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/ef3710f9d1cfa04b0e32722bc7ad7a3c8a3fc84e",
-    "description": null,
+    "description": "Opuntia ficus-indica, the Indian fig opuntia, fig opuntia, or prickly pear, is a species of cactus that has long been a domesticated crop plant grown in agricultural economies throughout arid and semiarid parts of the world. O. ficus-indica is the most widespread and most commercially important cactus. It is grown primarily as a fruit crop, and also for the vegetable nopales and other uses. Cacti are good crops for dry areas because they efficiently convert water into biomass. O.",
     "wikidata_id": null,
     "sources": [
       "trefle"

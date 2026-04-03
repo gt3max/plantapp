@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/371d0e1e77df6ea94304e0a5c171f9f0ce3856d3",
-    "description": null,
+    "description": "Bixa orellana, commonly called annato or achiote, is an evergreen tropical shrub or small tree that is native to tropical parts of Central and South America. It has been introduced over time to a large number of tropical areas around the world including South East Asia, India and the Philippines. As a shrub, it typically grows to 6-12' tall, but as a tree will sometimes rise to 20-30' tall. Pointed, ovate to heart-shaped leaves grow to 3-7\" long. Ornamentally attractive pink flowers (2\" diameter",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -44,15 +44,21 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Winter hardy to USDA Zones 10-12 where is easily grown in organically rich, medium moisture, well-drained soils in full sun. Best with consistent moisture.",
       "light_guide": null,
       "tips": "Remove aged tissues, dead and pest branches timely",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No serious insect or disease problems",
+        "Uses\n\nWhere winter hardy, it may be grown for ornamental purposes or for harvest of its fruits",
+        "Interesting specimen",
+        "Informal hedge",
+        "Dried fruit pods are attractive in floral arrangements"
+      ],
       "common_pests": null
     },
     "common_names": {

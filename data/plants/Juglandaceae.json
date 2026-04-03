@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -52,8 +52,16 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "White heart rot, anthracnose, leaf blotch, powdery mildew, leaf spot, catkin blight and crown gall are occasional diseases",
+        "Large trees can produce considerable litter through twig, leaf and fruit (nut) drop",
+        "Uses\n\nA tall ornamental shade tree for large properties and parks",
+        "Wood is strong and has been used in the past for yokes, wheels, tool handles, ladders and furniture",
+        "Wood is also used a"
+      ],
+      "common_pests": [
+        "Hickory bark beetle, pecan weevil, borers and twig girdler can be problems in some areas of its range"
+      ]
     },
     "common_names": {
       "en": [
@@ -85,8 +93,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -116,8 +124,16 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "White heart rot, anthracnose, leaf blotch, powdery mildew, leaf spot, cankers, catkin blight, crown gall and scab are occasional diseases",
+        "Large trees can produce considerable litter through twig, leaf and fruit (nut) drop",
+        "Uses\n\nNot commonly planted for ornamental purposes",
+        "A tall shade tree for large properties and parks",
+        "Wood is strong and has been used in the past for yokes, wheels, tool h"
+      ],
+      "common_pests": [
+        "Hickory bark beetle, pecan weevil, borers and twig girdler can be problems in some areas of its range"
+      ]
     },
     "common_names": {
       "en": [
@@ -149,8 +165,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -174,7 +190,7 @@
       "lifecycle": "woody",
       "difficulty": "Medium",
       "growth_rate": "Medium",
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Best grown in humusy, rich, moist, well-drained soils in full sun. Difficult to transplant because of its deep taproot. If grown for nut production, plant at least two different varieties for best cross-pollination. Nut production can be sparse in the northern part of its growing range, particularly",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Remove diseased and dead leaves timely | Similar plants: Carya illinoinensis",
       "toxic_to_pets": 0,
@@ -183,7 +199,9 @@
       "common_problems": [
         "Aphids, pecan weevils, stink bugs, twig girdlers, and fall webworms can cause some issues. Scab can infect both nuts and foliage, but scab-resistant cultivars are available. See Clemson&#39;s publication on"
       ],
-      "common_pests": null
+      "common_pests": [
+        "Aphids, pecan weevils, stink bugs, twig girdlers, and fall webworms can cause some issues."
+      ]
     },
     "common_names": {
       "en": [
@@ -215,8 +233,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,

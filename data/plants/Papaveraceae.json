@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": "Sand, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -47,8 +47,8 @@
       "difficulty": "Hard",
       "growth_rate": "Medium",
       "watering_guide": "Propagation: Seed",
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Similar plants: Cytisus scoparius",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: seasonally dry tropical",
+      "tips": "Similar plants: Cytisus scoparius | Native to: NCB, HAW JI, NWY OO, GEO, GHA",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -157,7 +157,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -167,12 +167,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "annual",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: seasonally dry tropical",
+      "tips": "Native to: OFS OO, MXI RG, ASIA TROPICAL, SWZ OO, CPP",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -307,7 +307,9 @@
       "common_problems": [
         "No significant insect or disease problems. It can become weedy."
       ],
-      "common_pests": null
+      "common_pests": [
+        "No significant insect or disease problems."
+      ]
     },
     "common_names": {
       "en": [
@@ -328,7 +330,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6772e41c2952a2a8af16e220806fc1e4b44732b5",
-    "description": null,
+    "description": "Ceratocapnos claviculata, the climbing corydalis, is a weak scrambling plant in the family Papaveraceae. It is endemic to Europe, growing mostly near the Atlantic fringe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -486,7 +488,7 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": "biennial",
-      "difficulty": null,
+      "difficulty": "Medium",
       "growth_rate": "Rapid",
       "watering_guide": "Propagation: Seed",
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
@@ -494,7 +496,13 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No serious insect or disease problems",
+        "Uses\n\nNaturalize in woodland, wild gardens or other areas where plant spread will not be a concern",
+        "Back to Previous Page\n\nThank You",
+        "The Garden wouldn't be the Garden without our Members, Donors and Volunteers",
+        "Info for\n\nMembers\nVisitors\nGardeners\nHorticulturists\nEducators\nResearchers\n\nMain Navigation\n\nVisit\nThings To Do\nGardens & Gardening\nLearn & Discover\nSustainability & Conservation\nPlant Science\nAbout\n\nQuick Links\n\nSupport the Garden\nMembers"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -580,7 +588,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/feb84d10bfb5530aa1489d7efa800d7bc41b539d",
-    "description": null,
+    "description": "Corydalis cava is a species of flowering plant in the family Papaveraceae, native to moist, shady, woodland habitats throughout most of mainland Europe, although commonest in central and southeast Europe.\nIts range extends from Spain in the west to Ukraine, Belarus and the Caucasus in the east and as far north as Sweden. It is absent from Iceland, the UK, the Netherlands, Norway, Finland, Russia and Greece.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -644,7 +652,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/21e39bc30c01250c23e116a0aeae6bb1fdb8058d",
-    "description": null,
+    "description": "The green capsules are tubular pods with black seeds",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -668,7 +676,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Loam (Silt), Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -677,16 +685,18 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "annual",
+      "difficulty": "Easy",
+      "growth_rate": "Rapid",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
+      "tips": "Similar plants: Trillium erectum",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No significant problems"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -956,7 +966,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bfba493af6dec7f43f520d68e1c51314e43c50d5",
-    "description": null,
+    "description": "Corydalis solida, fumewort or bird-in-a-bush, is a species of flowering plant in the family Papaveraceae, native to moist, shady habitats in northern Europe and Asia. Growing to 25 cm (10 in), it is a spring ephemeral, with foliage that appears in spring and dies down to its tuberous rootstock in summer. It is cultivated for its deeply divided, ferny leaves and narrow, long-spurred flowers which appear in spring. The flowers show color variation, and may be mauve, purple, red, or white.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1204,7 +1214,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/91d7876af35a35b476797f3c3797d42607dbf5cc",
-    "description": null,
+    "description": "1/2 inch drooping seed capsules are a somewhat flattened oval. Each capsule divides into 2 parts to release several seeds. Fruits are available in June.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1228,7 +1238,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -1237,12 +1247,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
+      "lifecycle": "perennial",
+      "difficulty": "Easy",
+      "growth_rate": "Medium",
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
+      "tips": "Similar plants: Dicentra cucullaria",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -1268,7 +1278,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/de3eb4eeea4efce424c9c40ea8c7fcac487691e7",
-    "description": null,
+    "description": "The oval seed capsules taper into points at both ends. These capsules split apart into 2 segments to release many seeds. Fruits appear from May to June.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1292,7 +1302,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -1301,12 +1311,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "perennial",
+      "difficulty": "Easy",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Division",
+      "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
+      "tips": "Similar plants: Trillium pusillum",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -1396,7 +1406,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f5334c840841ddfd651cbe447cccf3800830fa5d",
-    "description": null,
+    "description": "Eschscholzia californica, the California poppy, golden poppy, Mexican poppy, California sunlight or cup of gold, is a species of flowering plant in the family Papaveraceae, native to the United States and Mexico. It is cultivated as an ornamental plant flowering in summer, with showy flowers in brilliant shades of red, orange and yellow. It is also used as food or a garnish. It had various uses in indigenous herbalism. It became the official state flower of California in 1903.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2860,7 +2870,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/376cc5ba3d21f8a1050681f723f244fa928b02b2",
-    "description": null,
+    "description": "Papaver somniferum, commonly known as the opium poppy or breadseed poppy, is a species of flowering plant in the family Papaveraceae. It is the species of plant from which both opium and poppy seeds are derived and is also a valuable ornamental plant grown in gardens. Its native range is the western Mediterranean region, but has since been obscured by widespread introduction and cultivation since ancient times to the present day.",
     "wikidata_id": null,
     "sources": [
       "trefle"

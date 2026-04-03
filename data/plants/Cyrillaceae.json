@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/85eb099f8c7989843c5ea19e4d9ffb9c9c98a5a9",
-    "description": null,
+    "description": "Yellow-brown capsule ovoid, dry,  1/12 inch long, containing 1-5 seeds, but ending up with only 1 seed maturing.  Persists into winter. Displays from September to October.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -34,7 +34,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Moist",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -43,17 +43,23 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "perennial",
+      "difficulty": "Medium",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Root Cutting",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Cornus amomum",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "No significant pests or diseases.",
+        "Toxic pollen from this plant is responsible for purple brood to honeybee colonies.",
+        "This plant is not suitable for beekeepers."
+      ],
+      "common_pests": [
+        "No significant pests or diseases."
+      ]
     },
     "common_names": {
       "en": [

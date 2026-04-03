@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: seasonally dry tropical",
+      "tips": "Native to: NSW, NSW CT, NSW NS, QLD QU, NTA OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -145,8 +145,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 57,
@@ -170,7 +170,7 @@
       "lifecycle": "woody",
       "difficulty": "Easy",
       "growth_rate": "Medium",
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Easily grown in average, dry to medium, well-drained soils in full sun to part shade. Best in sandy loams or rocky soils with good drainage. Thick, woody, red roots go deep and help plant withstand droughty conditions, but make established shrubs difficult to transplant.",
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Ilex glabra",
       "toxic_to_pets": 0,
@@ -179,7 +179,9 @@
       "common_problems": [
         "The New Jersey tea is susceptible to leaf spot and powdery mildew. Prone to root rot in wet soils and canker disease."
       ],
-      "common_pests": null
+      "common_pests": [
+        "Syrphid fly\t\nSyrphid fly\t\nLandscape view\t\nInflorescence\t\nInflorescence\n\nInflorescence\t\nInflorescence\t\nLeaves, stem\t\nOverall plant\t\nYear 1 (2)\n\nYear 1 (3)\t\nYear 1 (4)\t\nCeanothus americanus seed\t\nLandscape view\t\nLandscape view\n\nLeaves, flowers\t\nFlowers\t\nFlowers\t\nInflore"
+      ]
     },
     "common_names": {
       "en": [
@@ -324,7 +326,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2d21185e9d0d80fbb79c6a730010aa0f96b3aabd",
-    "description": null,
+    "description": "Ceanothus herbaceus, commonly known as inland New Jersey tea or prairie redroot, is a small, upright, deciduous shrub native to glades, rocky prairie slopes, and sandy, loess hills in the central United States. In Missouri this species is mostly restricted to the western part of the state where it is relatively uncommon. This plant can reach up to 3' tall with a 2' spread. The new growth emerges in spring on slender stems with green to redish bark. The glossy leaves (between 1-2\" long and 0.5-1\"",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -358,15 +360,21 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Best grown in medium to dry, alkaline, well-draining soils in full sun. Drought tolerant once established. This plant has a deep and extensive root system, and should not be disturbed once established. Can be grown in an area with some light shade, but prefers full sun. Hardy in Zones 4-8.",
       "light_guide": null,
       "tips": null,
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No known pest or disease problems",
+        "Deer and rabbits will readily browse this plant",
+        "Uses\n\nThis plant will do well in moderately dry and sunny locations in the garden provided there is good drainage",
+        "Suitable for rock gardens, gravel gardens, native gardens or naturalized areas",
+        "Also useful for hard-to-grow areas such as dry rocky slopes and banks"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -1130,6 +1138,70 @@
     "external_ids": {}
   },
   {
+    "plant_id": "hovenia_dulcis",
+    "scientific": "Hovenia dulcis",
+    "family": "Rhamnaceae",
+    "genus": "Hovenia",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/6c394276fe036bb387bfb173cec7cac266c1ba51",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:55.757401+00:00",
+    "care": {
+      "plant_id": "hovenia_dulcis",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Japanese raisintree"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
     "plant_id": "karwinskia_humboldtiana",
     "scientific": "Karwinskia humboldtiana",
     "family": "Rhamnaceae",
@@ -1384,7 +1456,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c0c6a4b6e30f7c31f102eb6977eba711b8402380",
-    "description": null,
+    "description": "Rhamnus alaternus is a species of flowering plant in the buckthorn family Rhamnaceae, known by the common names Italian buckthorn or Mediterranean buckthorn. It is a hardy medium-sized evergreen shrub with fragrant flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"

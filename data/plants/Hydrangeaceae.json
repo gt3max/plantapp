@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9956d577042de2d7d26ef7b2fee17755632c4ece",
-    "description": null,
+    "description": "The fruit is a capsule that appears from August to October. Each capsule is a half-circle in shape and sparsely hairy.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -34,7 +34,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Loam (Silt), Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -43,17 +43,21 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "woody",
+      "difficulty": "Easy",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Deutzia",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Deutzia is generally pest and disease-free, but aphids and leaf spots may occur."
+      ],
+      "common_pests": [
+        "Deutzia is generally pest and disease-free, but aphids and leaf spots may occur."
+      ]
     },
     "common_names": {
       "en": [
@@ -74,7 +78,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c0cc8cca6ca0decc7c163bbf97916b129a7fb77c",
-    "description": null,
+    "description": "The fruit is a dry brown seed capsule and measures 0.25-inches in diameter. They mature in the fall and may be present throughout the winter months.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -98,7 +102,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -107,17 +111,23 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "woody",
+      "difficulty": "Easy",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Salvia rosmarinus",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "The fuzzy deutzia has no serious insect or disease issues, but aphids and leaf spots may be seen.",
+        "The shrub is potentially invasive due to its self-seeding.",
+        "It may spread and crowd out our native species."
+      ],
+      "common_pests": [
+        "The fuzzy deutzia has no serious insect or disease issues, but aphids and leaf spots may be seen."
+      ]
     },
     "common_names": {
       "en": [
@@ -446,7 +456,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/91f52328edb009bb771ff1e1d865fae14d80ec3b",
-    "description": null,
+    "description": "Hydrangea macrophylla is a species of flowering plant in the family Hydrangeaceae, native and endemic to Japan. It is a deciduous shrub growing to 3 m (10 ft) tall by 2.5 m (8 ft) or more broad with large heads of pink or blue flowers in summer and autumn. It is currently treated as monotypic, with no subspecies or varieties. Common names include bigleaf hydrangea, and, for particular cultivar groups, the names lacecap hydrangea, mophead hydrangea, and hortensia.",
     "wikidata_id": null,
     "sources": [
       "trefle"

@@ -70,7 +70,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/faadd408dd65aaad41a7fe82458313312aa20376",
-    "description": null,
+    "description": "Drosera anglica, commonly known as the English sundew or great sundew, is a carnivorous flowering plant species belonging to the sundew family Droseraceae. It is a temperate species with a circumboreal range, although it does occur as far south as Japan, southern Europe, and the island of Kauai in Hawaii, where it grows as a tropical sundew. It is thought to originate from an amphidiploid hybrid of D. rotundifolia and D.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -262,7 +262,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f28be23b0149d58eda7a72d3553c2b7cef4b1516",
-    "description": null,
+    "description": "Displays from July to October",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -286,7 +286,7 @@
       "humidity_level": "High (60-80%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Moist",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -295,16 +295,18 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "annual",
       "difficulty": null,
       "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Eriocaulon decangulare",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No significant problems."
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -386,7 +388,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/e2e4f8910f0db51a19ab65157521610926af1f62",
-    "description": null,
+    "description": "Drosera intermedia, commonly known as the oblong-leaved sundew, spoonleaf sundew, or spatulate leaved sundew, is an insectivorous plant species belonging to the sundew genus. It is a temperate or tropical species native to Europe, southeastern Canada, the eastern half of the United States, Cuba, Hispaniola, and northern South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -410,7 +412,7 @@
       "humidity_level": "High (60-80%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Frequent Standing Water",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -419,16 +421,18 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
-      "growth_rate": null,
+      "growth_rate": "Medium",
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Hibiscus laevis",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No significant problems."
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -598,7 +602,7 @@
       "humidity_level": "High (60-80%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Moist",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -607,16 +611,18 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
+      "lifecycle": "perennial",
+      "difficulty": "Easy",
+      "growth_rate": "Slow",
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Hibiscus laevis",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No significant problems."
+      ],
       "common_pests": null
     },
     "common_names": {

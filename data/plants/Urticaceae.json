@@ -254,7 +254,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/eed363c38e1a77b7100c2765b54197b9a8e4d59d",
-    "description": null,
+    "description": "Boehmeria nivea, commonly known as China grass, white ramie, green ramie or rhea, is an upright deciduous, monoecious sub-shrub or shrub in the nettle family (no stinging hairs however) that typically grows to 8-10’ tall. It is best known for providing a textile fiber of excellent strength and quality from the inner bark of the stems. It was used to make mummy cloths in Egypt during the period of 5000-3000 BCE. It is native to thickets, forest margins and roadsides, often in rocky places, in sou",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -288,15 +288,21 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Medium",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Winter hardy to USDA Zone 7b-11. Best in rich, fertile, warm, well-drained sandy soils in part shade. Intolerant of wet soils.",
       "light_guide": null,
       "tips": null,
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No serious insect or disease problems",
+        "Uses\n\nPrimarily used world-wide as a fiber crop to produce ramie, a strong, silky, flax-like fiber that is used in fabric",
+        "Uses include sewing threads, cloth, parachute fabrics, woven fire hoses, canvas, rope and wearing apparel",
+        "Plants are typically not planted in home gardens for ornamental purposes",
+        "Back to Previous Page\n\nThank You"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -556,6 +562,66 @@
         "West indian-nettle"
       ]
     },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "laportea_bulbifera",
+    "scientific": "Laportea bulbifera",
+    "family": "Urticaceae",
+    "genus": "Laportea",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/a14b86f8ee67707e52da497a36282122fd9f0057",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:43.958357+00:00",
+    "care": {
+      "plant_id": "laportea_bulbifera",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {},
     "tags": [],
     "external_ids": {}
   },
@@ -826,7 +892,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2df2972d3f782973ea2656f2ba78a3b7e9cec92a",
-    "description": null,
+    "description": "Parietaria officinalis, the eastern pellitory-of-the-wall, also known as upright pellitory and lichwort, is a plant of the nettle family. Its leaves, however, are non-stinging. The plant grows on rubbish and on walls, hence the name.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1642,7 +1708,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/07d729fed579b433f1735a15cf79130b18cb7a76",
-    "description": null,
+    "description": "Urtica urens, commonly known as annual nettle, dwarf nettle, small nettle, dog nettle, burning nettle, or bush nettle is a herbaceous annual flowering plant species in the nettle family Urticaceae. It is native to Eurasia, including the Himalayan regions of Kalimpong, Darjeeling and Sikkim in India and can be found in North America, New Zealand and South Africa as an introduced species. It is reputed to sting more strongly than Urtica dioica.",
     "wikidata_id": null,
     "sources": [
       "trefle"

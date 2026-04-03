@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -46,14 +46,22 @@
       "lifecycle": "woody",
       "difficulty": "Easy",
       "growth_rate": "Slow",
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Easily grown in average, medium, well-drained soil in full sun to part shade. Prefers moist, fertile soils. Seldom needs pruning. Tolerant of air pollution and adapts well to urban settings. Intolerant of prolonged dry conditions.",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Cornus florida",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "No serious insect or disease problems",
+        "Uses\n\nGrow in groups or as specimens in lawns or in shrub or woodland borders",
+        "Also may be used in native plant gardens or near streams or ponds",
+        "Can be spectacular in full bloom",
+        "Overall plant\t\nInflorescence\t\nInflorescence\t\nLandscape view\t\nOverall plant\n\nInflorescence\t\nInflorescence\t\nOverall plant\t\nFlowers\t\nstem, flowers\n\nflowers\t\nflowers\t\nflowers\t\nLandscape view\t\nLeaves"
+      ],
+      "common_pests": [
+        "Some susceptibility to scale and borers (particularly when grown in dry locations)"
+      ]
     },
     "common_names": {
       "en": [
@@ -74,7 +82,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/b3fc5c2a1744ba0562e90c2b4a24856a.jpg",
-    "description": null,
+    "description": "Black berries",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -98,7 +106,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -107,17 +115,22 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Chrysojasminum parkeri",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Generally free of serious pests and diseases."
+      ],
+      "common_pests": [
+        "Generally free of serious pests and diseases.",
+        "Insect pests may include aphids, scale insects and mealybugs."
+      ]
     },
     "common_names": {},
     "tags": [],
@@ -642,7 +655,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/95d6baebc1c1f4bcbc02a2174f8649b541a5bf40",
-    "description": null,
+    "description": "Fraxinus pennsylvanica, the green ash or red ash, is a species of ash native to eastern and central North America, from Nova Scotia west to southeastern Alberta and eastern Colorado, south to northern Florida, and southwest to Oklahoma and eastern Texas. It has spread and become naturalized in much of the western United States and also in Argentina and Europe, from Spain to Russia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1778,7 +1791,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3da0d1db8cb597252ef8b9ae5742eb52336040c8",
-    "description": null,
+    "description": "Phillyrea angustifolia, the narrow-leaved mock privet, is a species of flowering plant in the olive family Oleaceae, native to the western and central Mediterranean.",
     "wikidata_id": null,
     "sources": [
       "trefle"

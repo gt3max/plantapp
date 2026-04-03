@@ -21,8 +21,8 @@
       "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Low",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 7,
+      "stop_pct": 50,
       "light_preferred": "Bright direct or indirect light",
       "light_also_ok": null,
       "ppfd_min": 104,
@@ -33,7 +33,7 @@
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
       "humidity_min_pct": 15,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": "Peat and akadama mixed in 3:1 ratio",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": "Remove dead and rotten part timely",
+      "light_guide": "Climate: subtropical",
+      "tips": "Remove dead and rotten part timely | Native to: BAL OO, ALG, CNY OO, FRA FR, SIC MA",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -97,7 +97,7 @@
       "temp_max_c": 11,
       "humidity_level": null,
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -110,14 +110,22 @@
       "lifecycle": "Herbaceous Perennial",
       "difficulty": "Medium",
       "growth_rate": "Low",
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": "Stalked Aeonium, or Aeonium undulatum, is an amazing succulent species with its showy yellow blooms and striking foliage. Its bright purple-green foliage has stout stems that produce a neat rosette pa",
+      "watering_guide": "Missouri BG: Easily grown in sandy, dry to medium moisture, well-drained soils in full sun to light shade. Tolerates brief periods of minor frost (to 28-30°F). Plants may be grown in pots that are overwintered indoors in a sunny window. Propagate by seed or rosette cuttings.",
+      "light_guide": "Climate: subtropical",
+      "tips": "Stalked Aeonium, or Aeonium undulatum, is an amazing succulent species with its showy yellow blooms and striking foliage. Its bright purple-green foliage has stout stems that produce a neat rosette pa | Native to: AFRICA, CNY, MACARONESIA, NZN, NEW ZEALAND",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Root rot may develop in overly moist soils",
+        "Uses\n\nCactus or succulent garden where they can be effectively mixed with aloes, jade plants and/or agave",
+        "Sunny borders",
+        "Best grown in pots north of USDA Zone 10",
+        "Back to Previous Page\n\nThank You"
+      ],
+      "common_pests": [
+        "Aphids, mealybugs, mites or scale may appear"
+      ]
     },
     "common_names": {
       "en": [
@@ -612,9 +620,9 @@
       "lifecycle": "perennial",
       "difficulty": "Easy",
       "growth_rate": "Slow",
-      "watering_guide": "",
-      "light_guide": "",
-      "tips": "Let soil dry completely between waterings. Overwatering is the #1 killer.",
+      "watering_guide": "Propagation: Leaf Cutting",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Let soil dry completely between waterings. Overwatering is the #1 killer. | Similar plants: Crassula ovata",
       "toxic_to_pets": 1,
       "toxic_to_humans": 0,
       "toxicity_note": "Toxic to cats and dogs if ingested — causes vomiting and lethargy. Keep on a high shelf if you have pets.",
@@ -1004,12 +1012,12 @@
       "fertilizer_season": "",
       "height_min_cm": 0,
       "height_max_cm": 0,
-      "lifecycle": "",
-      "difficulty": "",
-      "growth_rate": "",
-      "watering_guide": "",
-      "light_guide": "",
-      "tips": "Powder on leaves (farina) is protective — don\\",
+      "lifecycle": "perennial",
+      "difficulty": "Easy",
+      "growth_rate": "Slow",
+      "watering_guide": "Propagation: Division",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Powder on leaves (farina) is protective — don\\ | Similar plants: Echeveria x gilva",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": "",
@@ -1166,7 +1174,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f5f3ad4ca389f24a59d091dbd4126486.jpg",
-    "description": null,
+    "description": "Hylotelephium telephium, known as orpine, livelong, frog's-stomach, harping Johnny, life-everlasting, live-forever, midsummer-men, Orphan John, witch's moneybags, and garden stonecrop is a succulent perennial plant of the family Crassulaceae native to Eurasia. The flowers are held in dense heads and can be reddish or yellowish-white.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1586,7 +1594,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/143f39dc67ce3544deee3f7988b62223.jpg",
-    "description": null,
+    "description": "Petrosedum rupestre, also known as reflexed stonecrop, Jenny's stonecrop, blue stonecrop, stone orpine, prick-madam and trip-madam, is a species of perennial succulent flowering plant in the family Crassulaceae, native to northern, central, and southern Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1646,7 +1654,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/31a9e47150e1c0856cf02ee7b9652faa.jpg",
-    "description": null,
+    "description": "Petrosedum sediforme, the pale stonecrop, is a perennial flowering plant in the family Crassulaceae. It is naturally distributed throughout the Mediterranean Basin, from Portugal in the west to Syria in the east. It is similar to other species of Petrosedum, but grows taller, and may be used in cooking or as an ornamental plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2134,7 +2142,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/02f8ef964f51bd7604bc533d60be1ed39aa057cd",
-    "description": null,
+    "description": "Sedum album, the white stonecrop, is a flowering plant of the genus Sedum in the family Crassulaceae. It is found in the northern temperate regions of the world, often growing in crevices or free-draining rocky soil. As a long-day plant it grows vegetatively for most of the year and flowers in summer.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3852,7 +3860,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/7ba8b844fabbdb392b1978d2ae5c83488c670b54",
-    "description": null,
+    "description": "Wall pennywort, also called navelwort, or penny-pies, is a fleshy, perennial, edible flowering plant in the stonecrop family Crassulaceae in the genus Umbilicus so named for its umbilicate (navel-like) leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"

@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 57,
@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": "Soil with loose texture or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -47,15 +47,18 @@
       "difficulty": "Medium",
       "growth_rate": "Rapid",
       "watering_guide": "Propagation: Seed",
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Ampelaster carolinianus",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: seasonally dry tropical",
+      "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Ampelaster carolinianus | Native to: AGW SJ, HAW JI, TON, GEO, GEO OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
       "common_problems": [
         "The vine has no serious pests or diseases. Caterpillars may eat the foliage."
       ],
-      "common_pests": null
+      "common_pests": [
+        "The vine has no serious pests or diseases.",
+        "Caterpillars may eat the foliage."
+      ]
     },
     "common_names": {
       "en": [
@@ -126,6 +129,66 @@
         "Alpine bistort"
       ]
     },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "coccoloba_caracasana",
+    "scientific": "Coccoloba caracasana",
+    "family": "Polygonaceae",
+    "genus": "Coccoloba",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/10ff65c815dfa21aed250a4163a99a54fa7be0b2",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:47.600812+00:00",
+    "care": {
+      "plant_id": "coccoloba_caracasana",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {},
     "tags": [],
     "external_ids": {}
   },
@@ -1656,7 +1719,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/54afa9d469dc90099d57efe40b85e0cb2df3165e",
-    "description": null,
+    "description": "Persicaria amphibia is a species of flowering plant in the knotweed family known by several common names, including longroot smartweed, water knotweed, water smartweed, and amphibious bistort. It is native to much of North America, Asia, Europe, and parts of Africa, and it grows elsewhere as an introduced species and sometimes a noxious weed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2100,7 +2163,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3d647c8b6e2026cc100df6d203cbfbe35dca7a11",
-    "description": null,
+    "description": "Persicaria lapathifolia, known as pale persicaria, is a plant of the family Polygonaceae. It is considered to be native throughout most of the world, from arctic to tropical realms, except South America and Southern Africa. It is closely related to Persicaria maculosa and as such is considered a weed in Britain and Europe. Other common names for the plant include pale smartweed, curlytop knotweed, and willow weed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4236,7 +4299,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d4dcea810a82f6e48e9b32091bf6354f4e52f6e7",
-    "description": null,
+    "description": "Rumex conglomeratus, known as clustered dock and sharp dock, is a plant of the family Polygonaceae. It is an annual or biennial plant growing up to 100 cm high. A native of Europe, Asia and North Africa, it has also been introduced into North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4350,6 +4413,66 @@
         "Curled dock"
       ]
     },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "rumex_hastatulus",
+    "scientific": "Rumex hastatulus",
+    "family": "Polygonaceae",
+    "genus": "Rumex",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6459e9fefa003053e3603e5f838bf364.jpg",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:43.958445+00:00",
+    "care": {
+      "plant_id": "rumex_hastatulus",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {},
     "tags": [],
     "external_ids": {}
   },
@@ -4488,7 +4611,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a38e8eaac628b62b06bd35ec4a2f4152e1a376b4",
-    "description": null,
+    "description": "Rumex longifolius, commonly known as the dooryard dock or northern dock, is a perennial species of plant in the genus Rumex.",
     "wikidata_id": null,
     "sources": [
       "trefle"

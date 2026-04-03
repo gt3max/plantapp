@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Sand, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -47,8 +47,8 @@
       "difficulty": "Easy",
       "growth_rate": null,
       "watering_guide": "Propagation: Seed",
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Similar plants: Trillium erectum",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Similar plants: Trillium erectum | Native to: VRG OO, TEX OO, ALA, INI, FLA OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -74,7 +74,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a572addba438cf7df09496bd117be45b755198a3",
-    "description": null,
+    "description": "Narthecium ossifragum, commonly known as bog asphodel, Lancashire asphodel or bastard asphodel, is a species of flowering plant in the family Nartheciaceae. It is native to Western Europe, found on wet, boggy moorlands up to about 1,000 m (3,300 ft) in elevation. It produces spikes of bright yellow flowers in summer. The bright orange fruits have been used as a colourant to replace saffron by Shetland Islanders.",
     "wikidata_id": null,
     "sources": [
       "trefle"

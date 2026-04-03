@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: seasonally dry tropical",
+      "tips": "Native to: ECU, NORTHERN SOUTH AMERICA, AGW, CLM, MXS CL",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -74,7 +74,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2c5d81645b07f82fef900ab78d598ba62617fb8b",
-    "description": null,
+    "description": "Alnus alnobetula is a common tree widespread across much of Europe, Asia, and North America. Many sources refer to it as Alnus viridis, the green alder, but botanically this is considered an illegitimate name synonymous with Alnus alnobetula subsp. fruticosa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -97,7 +97,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -107,12 +107,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: CHN SA, BUL OO, AUSTRALASIA, YUK OO, JAP SH",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -138,7 +138,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1ea5daef837278ade4a7c27b6c1ca644916e178c",
-    "description": null,
+    "description": "Alnus cordata, commonly called Italian alder, is a pyramidal, fast-growing, small to medium-sized, deciduous tree that is native to Corsica and southern Italy. It typically grows to 30-50’ in cultivation. It is particularly noted for its attractive glossy green leaves. Flowers are monoecious (separate male and female flowers on the same tree) appearing in catkins. Male catkins are yellow-green (elongated to 2-3” long). Female catkins are reddish-green but very small (1/4\" long). Catkins appear i",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -161,7 +161,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -171,17 +171,25 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
+      "lifecycle": "perennial",
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "watering_guide": "Missouri BG: Best grown in medium to wet soils in full sun to part shade. Also tolerates dry, infertile soils. Prune in winter to early spring. Best in cool climates. Does not perform well south of USDA Zone 7. Suckers from the roots form thickets.",
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: MIDDLE EUROPE, BGM BE, AZO OO, MACARONESIA, ALB",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Canker can be severe",
+        "Powdery mildew may appear",
+        "Uses\n\nGood selection for difficult sites such as moist low spots or dry sites with poor soils",
+        "Chlorosis will occur in high pH soils",
+        "Effective as a windbreak"
+      ],
+      "common_pests": [
+        "Watch for aphids, leaf miners, tent caterpillars, lace bugs and flea beetles"
+      ]
     },
     "common_names": {
       "en": [
@@ -225,7 +233,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -235,12 +243,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: KOR NK, KOR, EASTERN ASIA, JAP HK, JAP KY",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -273,8 +281,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -285,7 +293,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Peat or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -299,13 +307,21 @@
       "difficulty": "Hard",
       "growth_rate": "Rapid",
       "watering_guide": "Propagation: Seed",
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "In spring pruning and remove old, diseased and dead leaves timely | Similar plants: Acer tataricum subsp. ginnala",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "In spring pruning and remove old, diseased and dead leaves timely | Similar plants: Acer tataricum subsp. ginnala | Native to: BGM BE, IRE NI, INI, AUSTRALASIA, RHO OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Canker is the most severe disease problem",
+        "Uses\n\nA good selection for difficult sites such as moist low spots or dry sites with poor soils",
+        "Back to Previous Page\n\nThank You",
+        "The Garden wouldn't be the Garden without our Members, Donors and Volunteers",
+        "Info for\n\nMembers\nVisitors\nGardeners\nHorticulturists\nEducators\nResearchers\n\nMain Navigation\n\nVisit\nThings To Do\nGardens & Gardening\nLearn & Discover\nSustainabili"
+      ],
+      "common_pests": [
+        "Watch for aphids, leaf miner, tent caterpillars lace bugs and flea beetles"
+      ]
     },
     "common_names": {
       "en": [
@@ -349,7 +365,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Clay, Moist",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -363,8 +379,8 @@
       "difficulty": "Easy",
       "growth_rate": "Rapid",
       "watering_guide": "Propagation: Seed",
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Similar plants: Acer saccharinum",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Similar plants: Acer saccharinum | Native to: SIBERIA, CHM, JAP, YAK, KHA OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -401,8 +417,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -413,7 +429,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Peat or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -423,17 +439,25 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
+      "lifecycle": "perennial",
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": "In spring pruning and remove old, diseased and dead leaves timely",
+      "watering_guide": "Missouri BG: Best grown in medium to wet soils in full sun to part shade. Tolerates mucky soils. Avoid full shade. Winter hardy to UDSA Zones 2-6. Best in cool climates. Does not perform well south of USDA Zone 6.",
+      "light_guide": "Climate: temperate",
+      "tips": "In spring pruning and remove old, diseased and dead leaves timely | Native to: NCS ST, ASK, NWY OO, MNT OO, UKR MO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Canker can be severe",
+        "Powdery mildew and leaf curl may appear",
+        "Chlorosis will occur in high pH soils",
+        "Uses\n\nBest for moist areas of the landscape",
+        "Tolerates poor soils"
+      ],
+      "common_pests": [
+        "Watch for aphids, leaf miners, tent caterpillars, lace bugs and flea beetles"
+      ]
     },
     "common_names": {
       "en": [
@@ -477,7 +501,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Frequent Standing Water",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -490,9 +514,9 @@
       "lifecycle": "woody",
       "difficulty": "Easy",
       "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Similar plants: Acer saccharinum",
+      "watering_guide": "Missouri BG: Best grown in medium to wet soils in full sun to part shade. Also tolerates dry, infertile soils. Best in cool climates. Does not perform well south of USDA Zone 7.",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Similar plants: Acer saccharinum | Native to: CHS GD, CHS JX, CHN SX, CHN SA, CHM",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -531,8 +555,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -543,7 +567,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Peat or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -553,12 +577,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": "In spring pruning and remove old, diseased and dead leaves timely",
+      "light_guide": "Climate: temperate",
+      "tips": "In spring pruning and remove old, diseased and dead leaves timely | Native to: NORTHWESTERN USA, IDA, MNT OO, NORTHERN AMERICA, IDA OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -607,7 +631,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -621,15 +645,19 @@
       "difficulty": "Medium",
       "growth_rate": "Rapid",
       "watering_guide": null,
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Similar plants: Acer saccharinum",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Similar plants: Acer saccharinum | Native to: ASK, IDA OO, YUK, NORTHERN EUROPE, BRC",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
       "common_problems": [
         "Red alder is fairly free from most insect and disease problems, especially when young (age 40 or 50) and uninjured. Phellinus igniarius, a white heart rot, is probably the major cause of cull in older trees. The forest tent caterpillar (Malacosoma disstria), western tent caterpillar (M. californicum), alder woolly sawfly (Eriocampa ovata), striped alder sawfly (Hemichroa crocea), the alder flea beetle (Altica ambiens), and a leaf beetle (Pyrrhalta punctipennis) have caused substantia"
       ],
-      "common_pests": null
+      "common_pests": [
+        "Red alder is fairly free from most insect and disease problems, especially when young (age 40 or 50) and uninjured.",
+        "The forest tent caterpillar (Malacosoma disstria), western tent caterpillar (M.",
+        "californicum), alder woolly sawfly (Eriocampa ovata), striped alder sawfly (Hemichroa crocea), the alder flea beetle (Altica ambiens), and a leaf beetle (Pyrrhalta punctipennis) have caused substantia"
+      ]
     },
     "common_names": {
       "en": [
@@ -673,7 +701,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": "Clay, Moist",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -687,8 +715,8 @@
       "difficulty": "Easy",
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Similar plants: Quercus nigra",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: subtropical",
+      "tips": "Similar plants: Quercus nigra | Native to: TEX OO, INI, NWY OO, GEO, TEN",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -725,8 +753,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -756,8 +784,15 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "The shallow root system of this species makes it susceptible to windthrow if grown in thin, poorly drained soils",
+        "Like other birches, yellow birch is susceptible to a wide array of pathogenic fungi and bacteria which will invade wood with mechanical injuries or frost cracking",
+        "Two or three s"
+      ],
+      "common_pests": [
+        "The bronze birch borer is the most serious insect pest",
+        "Heavy feeding by birch skeletonizer, tent caterpillars, gypsy moths caterpillars, and dusky birch sawfly larvae can defoliate young trees and saplings"
+      ]
     },
     "common_names": {
       "en": [
@@ -902,7 +937,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e152fa1561e88c2ee7dfe9e729ababfaebab4e0a",
-    "description": null,
+    "description": "Betula glandulosa, commonly called resin birch, glandular birch, or bog birch, is a deciduous shrub native to wetlands, bogs, fens, swamps, wet, montane meadows, and boreal forest openings as well as rocky summits, barrens, ridges, and outcrops in arctic, alpine, and subalpine regions of the United States and Canada. Its range extends from Alaska through all of Canada to far northern New York, New Hampshire, and Maine, as well as south to high altitude areas of the Rocky Mountains and Cascade Ra",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -936,15 +971,21 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Best grown in acidic, evenly moist to wet, well-draining soils in full sun. Tolerant of a wide range of soil conditions including shallow, gravely loams, heavy clays, and poor, wet, boggy soils. Intolerant of shade. Hardy in Zones 2-6.",
       "light_guide": null,
       "tips": null,
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No major pest or disease problems of note",
+        "Uses\n\nAllow to naturalize along stream banks, lake and pond edges, in bogs, marshes, and other riparian areas",
+        "Can be used to add structure and fall color to woodland edges, rock gardens, and other mixed borders",
+        "Suitable for erosion control on slopes or as a coarse, shrubby ground cover",
+        "Back to Previous Page\n\nThank You"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -1041,8 +1082,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -1072,8 +1113,16 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Like other birches, sweet birch is susceptible to a wide range of pest and disease issues, including aphids, birch skeletonizer, birch leafminer, canker, leaf spot, and leaf rust",
+        "Uses\n\nBest in parks, as a lawn specimen, or allowed to naturalize on a woodland edge",
+        "The strong, heavy wood is used for flooring, trim, furniture, cabinets, and tool handles, but is not readily distinguishable from yellow birch in the lumber market",
+        "Oil of wintergreen can b"
+      ],
+      "common_pests": [
+        "Like other birches, sweet birch is susceptible to a wide range of pest and disease issues, including aphids, birch skeletonizer, birch leafminer, canker, leaf spot, and leaf rust",
+        "Reportedly resistant to bronze birch borer"
+      ]
     },
     "common_names": {
       "en": [
@@ -1094,7 +1143,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d6dff387bb56c853634dd8d88d5d83920ab5dc8b",
-    "description": null,
+    "description": "Betula nana, the dwarf birch, is a species of birch in the family Betulaceae, found mainly in the tundra of the Arctic region.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1169,8 +1218,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -1203,7 +1252,9 @@
       "common_problems": [
         "Although river birch is resistant to the bronze birch borer, which infects and kills trees, aphids, leaf miner and birch skeletonizer may occur. Watch for leaf spot problems."
       ],
-      "common_pests": null
+      "common_pests": [
+        "Although river birch is resistant to the bronze birch borer, which infects and kills trees, aphids, leaf miner and birch skeletonizer may occur."
+      ]
     },
     "common_names": {
       "en": [
@@ -1299,8 +1350,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -1363,8 +1414,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -1427,8 +1478,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -1619,8 +1670,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -1653,7 +1704,9 @@
       "common_problems": [
         "No serious insect or disease problems are known. Fungi may cause Leaf spots. Gray Squirrels may strip bark from the tree."
       ],
-      "common_pests": null
+      "common_pests": [
+        "No serious insect or disease problems are known."
+      ]
     },
     "common_names": {
       "en": [
@@ -1710,13 +1763,18 @@
       "lifecycle": "perennial",
       "difficulty": "Medium",
       "growth_rate": "Slow",
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Easily grown in average, medium moisture soil in part shade to full shade. Prefers moist, organically rich soils.",
       "light_guide": "NC State: Deep shade (Less than 2 hours to no direct sunlight)",
       "tips": "Similar plants: Crataegus phaenopyrum",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "Leaf spots, cankers and twig blight are occasional disease problems",
+        "Uses\n\nAn attractively shaped, low-maintenance understory tree for shady sites",
+        "May be grown in lawns or naturalized in woodland areas",
+        "Leaves\t\nLeaves\t\nLeaves\t\nLeaves & fruit\t\nLandscape view\n\n\t\n\t\n\t\n\t\nFall color\n\nFall color\t\nFall color\t\nFall color\t\nFall color\t\nOverall plant - Fall\n\nLeaves - Fall\t\nFall - leaves\t\nlimbs, fall leaves\t\nstems, fall leaves\t\nFall leaves\n\nLeaf arrangement - Fall"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -1815,8 +1873,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -1849,7 +1907,10 @@
       "common_problems": [
         "This tree has no serious pests or disease issues. Caterpillars and aphids may be seen. Powdery mildew, leaf spots, cankers, and twig blight can occur."
       ],
-      "common_pests": null
+      "common_pests": [
+        "This tree has no serious pests or disease issues.",
+        "Caterpillars and aphids may be seen."
+      ]
     },
     "common_names": {
       "en": [
@@ -1994,7 +2055,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c488c7aeea9f0408d625994ca15855a69fb43b25",
-    "description": null,
+    "description": "Female flowers develop into a small cluster of green nuts enclosed by two protective bracts that turn brown when the nuts are ripe. Nuts are 1/2 inch in size. Display time is late summer and fall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2018,7 +2079,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -2027,17 +2088,21 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "perennial",
+      "difficulty": "Easy",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Deep shade (Less than 2 hours to no direct sunlight)",
+      "tips": "Similar plants: Ptelea trifoliata",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Has occasional problems with leaf spots, blight, and crown gall."
+      ],
+      "common_pests": [
+        "Although there are no serious issues, this plant can be visited by Japanese beetles, scale, leaf hoppers, and various foliage-eating caterpillars."
+      ]
     },
     "common_names": {
       "en": [
@@ -2082,7 +2147,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -2091,12 +2156,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
+      "lifecycle": "woody",
+      "difficulty": "Easy",
       "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "watering_guide": "Propagation: Layering",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Juglans cinerea",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -2122,7 +2187,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b64ef2553fd5ec88f4de6ba7b35d67cf52b4b964",
-    "description": null,
+    "description": "Fruit on female plants is a hard edible nut up to 1/2 inch long enclosed in a leafy, hairy, light green husk that extends beyond the nut by at least one inch to form a beak. Displays from September to October",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2146,7 +2211,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -2155,12 +2220,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
+      "lifecycle": "woody",
+      "difficulty": "Hard",
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Acer pensylvanicum",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,

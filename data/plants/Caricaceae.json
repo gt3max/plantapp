@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/152edaa919bfdd51786c20312d9babf167d7552a",
-    "description": null,
+    "description": "Carica papaya, commonly called papaya, is a small, frost-tender, succulent, broadleaf evergreen tree that bears papaya fruits throughout the year. Each tree (Hortus Third asserts papaya is technically a giant herb because it never produces true woody tissue) typically has a single, unbranched, non-woody trunk bearing the scars of old leaf bases. The trunk is topped by an umbrella-like canopy of palmately lobed leaves. Large, fleshy, melon-like fruits (papayas) hang in clusters attached to the tr",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -44,15 +44,21 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Medium",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Winter hardy to USDA Zones 10-12. This plant is intolerant of frost. It is best grown in tropical or semi-tropical climates in rich, humusy, consistently moist but well-drained organic loams in full sun. Best fruit develops in full sun. Plants tolerate light shade if grown ornamentally instead of fo",
       "light_guide": null,
       "tips": "Remove aged tissues, dead and pest branches timely",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "Root rots may occur in overly moist soils",
+        "No serious insect or disease problems",
+        "Uses\n\nGrown for fruit production",
+        "Trees are short-lived, but have some ornamental value as large-leaved tropical plants",
+        "'Red Lady'\t\n\t\n\t\nFlower\t\nStem\n\n\t\n\t\nLeaf\t\n\t\n\n\n\t\n\t\n\t\n\t\nFruit\n\n\t\n\t\n\t\n\t\n\n\n\t\n\t\n\t\nFruit\t\nFruit\n\nFruit\t\nFruit\t\nFlowers\t\nFlower\t\nFlower\n\nFruit\t\nFruit\t\nFruit\t\nOverall plant\t\nBack to Previous Page\n\nThank You"
+      ],
       "common_pests": null
     },
     "common_names": {

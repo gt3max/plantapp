@@ -70,7 +70,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b6ee296610c3dd0eea7a47b1c2cd3845622ce809",
-    "description": null,
+    "description": "Blackstonia perfoliata or more commonly known as the yellow-wort is a species of flowering plant in the family Gentianaceae found around the Mediterranean Basin, but extending into northwestern Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -322,7 +322,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d8e6597cbe936bfc0756c900f83cbd9032b223f2",
-    "description": null,
+    "description": "Centaurium pulchellum  is a species of flowering plant in the gentian family known by the common name lesser centaury, or slender centaury. It differs from Centaurium erythraea by lacking basal rosette of leaves and by having a developed peduncle below the flowers. It is often much smaller, less than ten centimetres. It is native to the southern temperate parts of Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1004,6 +1004,70 @@
     "external_ids": {}
   },
   {
+    "plant_id": "gentiana_algida",
+    "scientific": "Gentiana algida",
+    "family": "Gentianaceae",
+    "genus": "Gentiana",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/7d9251f70c8687652267e7ac6a9f504e077bbd0c",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:30.705419+00:00",
+    "care": {
+      "plant_id": "gentiana_algida",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Arctic gentian"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
     "plant_id": "gentiana_alpina",
     "scientific": "Gentiana alpina",
     "family": "Gentianaceae",
@@ -1582,7 +1646,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8db6bbc988b8c44377924f2e9bd06bce7b893ba3",
-    "description": null,
+    "description": "Gentiana lutea, the great yellow gentian, is a species of gentian native to the mountains of central and southern Europe, including the Alps, the Carpathians, the Pyrenees, the Apennines, and the mountains of the Balkan Peninsula. It is the type species of the genus Gentiana.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1774,7 +1838,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/69e38edaaf77e3855923c47b1ab31a3f046cc0e6",
-    "description": null,
+    "description": "Gentiana pneumonanthe, the marsh gentian, is a species of the genus Gentiana. It was the first wildflower announced as flower of the year in Germany in 1980. The species can be found in marshes and moorlands. It is the host-plant of the Alcon blue .",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2282,7 +2346,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/15c23fb5561a0009db499010675bb96008c89f2d",
-    "description": null,
+    "description": "Gentiana verna, the spring gentian, is a species of flowering plant in the family Gentianaceae, and one of its smallest members, normally only growing to a height of a few centimetres.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2466,7 +2530,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3cd86729bb9ab3b804270951c683aeeab94eb416",
-    "description": null,
+    "description": "Gentianella campestris, common name field gentian, is a small herbaceous biennial flowering plant in the Gentianaceae native to Europe. Its bluish-purple flowers contain four petals.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2954,6 +3018,70 @@
     "common_names": {
       "en": [
         "Texas star"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "sabatia_stellaris",
+    "scientific": "Sabatia stellaris",
+    "family": "Gentianaceae",
+    "genus": "Sabatia",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/84f8394f14bb7de2c73702e5a38cb783a24146b2",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:55.758221+00:00",
+    "care": {
+      "plant_id": "sabatia_stellaris",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Rose of plymouth"
       ]
     },
     "tags": [],

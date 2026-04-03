@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -47,8 +47,8 @@
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: ASK, NWY OO, MNT OO, OHI, MSO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -894,7 +894,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/62b749bbc89d2c885001a00887dbad07aaf3c291",
-    "description": null,
+    "description": "Veratrum album, the false helleborine, white hellebore, European white hellebore, or white veratrum is a poisonous plant in the family Melanthiaceae. It is native to Europe and parts of western Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"

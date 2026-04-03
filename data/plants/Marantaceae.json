@@ -33,7 +33,7 @@
       "temp_max_c": 12,
       "humidity_level": null,
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -47,13 +47,21 @@
       "difficulty": "Medium",
       "growth_rate": "Low",
       "watering_guide": "Propagation: Division",
-      "light_guide": "NC State: Deep shade (Less than 2 hours to no direct sunlight)",
+      "light_guide": "NC State: Deep shade (Less than 2 hours to no direct sunlight) | Climate: wet tropical",
       "tips": "Calathea lancifolia, commonly known as rattlesnake plant, is an amazing houseplant that has extra-ordinary foliage. The leaves are long, narrow and wavy, like snakeskin, and have alternating white and | Similar plants: Goeppertia majestica",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Leaf spots may appear",
+        "Plants do not thrive in low humidity where leaves may roll or brown up",
+        "Direct sun usually causes leaf scorch",
+        "Uses\n\nThis plant is grown for its attractive foliage",
+        "Houseplant for bright areas with no direct sun"
+      ],
+      "common_pests": [
+        "Watch for aphids, scale, mealybugs and spider mites"
+      ]
     },
     "common_names": {
       "en": [
@@ -90,24 +98,24 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Average",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 65,
       "light_preferred": "part shade",
       "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "ppfd_min": 39,
+      "ppfd_max": 81,
+      "dli_min": 0.1,
+      "dli_max": 0.3,
       "temp_min_c": 11,
       "temp_max_c": 12,
-      "humidity_level": null,
-      "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_level": "Low (30-85%)",
+      "humidity_min_pct": 30,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
-      "fertilizer_type": null,
+      "fertilizer_type": "Apply low concentration fertilizers, apply 1-2 times monthly in spring and summer",
       "fertilizer_freq": null,
       "fertilizer_season": null,
       "height_min_cm": null,
@@ -116,7 +124,7 @@
       "difficulty": "Medium",
       "growth_rate": "Moderate",
       "watering_guide": "Propagation: Division",
-      "light_guide": "NC State: Partial Shade (Direct sunlight only part of the day, 2-6 hours)",
+      "light_guide": "NC State: Partial Shade (Direct sunlight only part of the day, 2-6 hours) | Climate: wet tropical",
       "tips": "The Peacock Plant (Calathea makoyana) is an amazing plant with unique foliage. Its striking leaves boast a bright green color on the surface and deep purple color on the underside. These attractive le | Similar plants: Acalypha wilkesiana",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
@@ -254,7 +262,7 @@
       "temp_max_c": 12,
       "humidity_level": null,
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -268,7 +276,7 @@
       "difficulty": "Medium",
       "growth_rate": "Low",
       "watering_guide": "Propagation: Division",
-      "light_guide": "NC State: Partial Shade (Direct sunlight only part of the day, 2-6 hours)",
+      "light_guide": "NC State: Partial Shade (Direct sunlight only part of the day, 2-6 hours) | Climate: seasonally dry tropical",
       "tips": "The zebra plant (Calathea zebrina) is truly an amazing species. It is an evergreen, tropical perennial native to Bolivia and Brazil that features striking deep green leaves with bright yellow and dark | Similar plants: Goeppertia insignis",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
@@ -276,7 +284,9 @@
       "common_problems": [
         "Monitor for spider mites, mealybugs, aphids, and scale insects. Overwatering can cause root rot, and leaf spot occurs from poor air circulation and by accidentally wetting the leaves when watering the plant. Low humidity and fluoride in tap water can cause browning of the leaf edges and tips. Leaf curling will result from inadequate water or low humidity. The leaf color will fade from inadequate light, and the leaves can develop leaf scorch from direct sunlight."
       ],
-      "common_pests": null
+      "common_pests": [
+        "Watch for aphids, scale, mealybugs and spider mites"
+      ]
     },
     "common_names": {
       "en": [

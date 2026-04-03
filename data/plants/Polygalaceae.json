@@ -1406,7 +1406,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2f8a09d7b4144a3b1e764f60f5a424201d7221ac",
-    "description": null,
+    "description": "Polygala serpyllifolia, the heath milkwort, is a European native perennial of heaths and grassy places.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1704,6 +1704,70 @@
       "common_pests": null
     },
     "common_names": {},
+    "tags": [],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "securidaca_diversifolia",
+    "scientific": "Securidaca diversifolia",
+    "family": "Polygalaceae",
+    "genus": "Securidaca",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/aa116fb681ef389c40064a1c7bf4339428901a62",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:39.294676+00:00",
+    "care": {
+      "plant_id": "securidaca_diversifolia",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Easter flower"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

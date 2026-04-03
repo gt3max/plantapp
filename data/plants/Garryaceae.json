@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 46,
@@ -55,7 +55,9 @@
       "common_problems": [
         "Plants occasionally suffer from scale, root rot, nematodes, and mealybugs. Fungal leaf spot and southern blight sometimes occur."
       ],
-      "common_pests": null
+      "common_pests": [
+        "Plants occasionally suffer from scale, root rot, nematodes, and mealybugs."
+      ]
     },
     "common_names": {
       "en": [
@@ -112,14 +114,23 @@
       "lifecycle": "Perennial",
       "difficulty": "Moderate",
       "growth_rate": "Low",
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Winter hardy to USDA Zones 6b(-5 to 0°F)-9 where this shrub is best grown in moist, organically rich, well-drained soils in part shade to full shade. Plants in hot summer climates perform best with plenty of shade, particularly from afternoon sun (young leaves are susceptible to burning). Establishe",
       "light_guide": null,
       "tips": "Spotted laurel (Aucuba japonica 'Mr. Goldstrike') is an amazing plant species because of its striking appearance. Its glossy, evergreen leaves consist of yellow spots on a dark green background, makin",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Root rot may occur in poorly-drained or overly-wet soils",
+        "Southern blight",
+        "Fungal leaf spot",
+        "Generally easy to grow",
+        "Watch for winter dieback in cold winter areas"
+      ],
+      "common_pests": [
+        "Potential insect problem are nematodes, scale and mealybugs",
+        "Spider mites can be troublesome indoors"
+      ]
     },
     "common_names": {
       "en": [
@@ -181,14 +192,23 @@
       "lifecycle": "Perennial",
       "difficulty": "Medium",
       "growth_rate": "Low",
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Winter hardy to USDA Zones 6b(-5 to 0°F)-9 where this shrub is best grown in moist, organically rich, well-drained soils in part shade to full shade. Plants in hot summer climates perform best with plenty of shade, particularly from afternoon sun (young leaves are susceptible to burning). Establishe",
       "light_guide": null,
       "tips": "The spotted laurel (Aucuba japonica 'Suruga Benten') is an amazing plant due to its striking foliage and hardiness. This evergreen shrub has gorgeous glossy leaves that are mottled in dark green, yell",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Root rot may occur in poorly-drained or overly-wet soils",
+        "Southern blight and fungal leaf spot are occasional problems",
+        "Generally an easy to grow selection",
+        "Watch for winter dieback in cold winter areas",
+        "Uses\n\nMass for a low hedge, or use as a specimen plant in a mixed border"
+      ],
+      "common_pests": [
+        "Potential insect problem are nematodes, scale and mealybugs",
+        "Spider mites can be troublesome indoors"
+      ]
     },
     "common_names": {
       "en": [
@@ -256,8 +276,17 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Root rot may occur in poorly-drained or overly-wet soils",
+        "Southern blight",
+        "Fungal leaf spot",
+        "Generally easy to grow",
+        "Watch for winter dieback in cold winter areas"
+      ],
+      "common_pests": [
+        "Potential insect problem are nematodes, scale and mealybugs",
+        "Spider mites can be troublesome indoors"
+      ]
     },
     "common_names": {
       "en": [

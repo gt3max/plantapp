@@ -202,7 +202,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/95dc3ae9fa503a2a2e33de557bdfbab4abc183c3",
-    "description": null,
+    "description": "The plant produces melons which are large modified berries called a pepo. They are rounded to oval mottled green with darker green rind. Black, cream or mottled colored elliptic seeds. Flesh general red or pink but can also be yellowish.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -226,7 +226,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Loam (Silt), Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -235,12 +235,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "annual",
+      "difficulty": "Medium",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Capsicum annuum",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -414,7 +414,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -423,17 +423,21 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "annual",
+      "difficulty": "Medium",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Cucumis sativus",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Plants in the cucumber family are susceptible  to cucumber beetles and wilt, powdery mildew, downy mildew, gummy stem blight, and anthracnose disease."
+      ],
+      "common_pests": [
+        "Plants in the cucumber family are susceptible  to cucumber beetles and wilt, powdery mildew, downy mildew, gummy stem blight, and anthracnose disease."
+      ]
     },
     "common_names": {
       "en": [
@@ -518,7 +522,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6d90d18a0ca76aa1ff0653e5b29b7b0381006e58",
-    "description": null,
+    "description": "The cucumber is a widely-cultivated creeping vine plant in the family Cucurbitaceae that bears cylindrical to spherical fruits, used as culinary vegetables. Considered an annual plant, there are three main types of cucumber—slicing, pickling, and seedless.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -542,7 +546,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -551,17 +555,21 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "annual",
+      "difficulty": "Medium",
+      "growth_rate": "Rapid",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Good companions: Beans, Corn, Dill, Nasturtium, Oregano, Peppers, Radish, Sunflowers, Tansy | Similar plants: Cucurbita pepo",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "There are pest and disease problems that can generally be managed through good cultural practices."
+      ],
+      "common_pests": [
+        "There are pest and disease problems that can generally be managed through good cultural practices."
+      ]
     },
     "common_names": {
       "en": [
@@ -646,7 +654,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/eff5d52fe68ffd97fa8d33a267f5c87e916ad275",
-    "description": null,
+    "description": "Soft or hard-shelled berries called pepos come in a variety of colors, shapes, and sizes and are harvested in the fall.  The stems of the fruits generally have a soft corky texture compared to other species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -670,7 +678,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -679,12 +687,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "annual",
+      "difficulty": "Medium",
+      "growth_rate": "Rapid",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Good companions: Beans, Borage, Calendula, Corn, Lovage, Marigold, Nasturtium, Oregano, Radish, Tansy | Similar plants: Cucurbita argyrosperma",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -710,7 +718,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0e3e8cb8780e032c69047fca5d3287b7443afbb2",
-    "description": null,
+    "description": "Cucurbita pepo is a cultivated plant of the genus Cucurbita. It yields varieties of winter squash and pumpkin, but the most widespread varieties belong to the subspecies Cucurbita pepo subsp. pepo, called summer squash.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -734,7 +742,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -743,17 +751,19 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "annual",
+      "difficulty": "Hard",
+      "growth_rate": "Rapid",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Good companions: Beans, Borage, Calendula, Corn, Lovage, Marigold, Nasturtium, Oregano, Radish, Tansy | Similar plants: Cucurbita argyrosperma",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
       "common_problems": null,
-      "common_pests": null
+      "common_pests": [
+        "Slugs, aphids, and beetles"
+      ]
     },
     "common_names": {
       "en": [

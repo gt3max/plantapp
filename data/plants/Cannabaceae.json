@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -74,7 +74,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/faac7c5630e2285bc127ae7490972ea163a9b45f",
-    "description": null,
+    "description": "Celtis australis, commonly known as Mediterranean hackberry, European hackberry or European nettle tree, is a medium to large deciduous tree that typically grows 40-70’ tall with upright-arching branching and a rounded spreading crown. Trunk diameter ranges from 1-3’ (less frequently to 4’). It is native to the Mediterranean area (southern Europe, northern Africa and southwestern Asia). Mature trees have smooth gray bark. Rough textured, sharply-toothed, ovate-lanceolate, dark green leaves (to 5",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -85,8 +85,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -108,16 +108,24 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Winter hardy to USDA Zone 6 where it is best grown in moist, organically rich, well-drained soils in full sun. Tolerates part shade. Also tolerates wind, many urban pollutants and a wide range of soil conditions, including both wet, dry and poor soils.",
       "light_guide": null,
       "tips": "Remove and shape excessive branches",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Powdery mildew, leaf spot and root rot may occur",
+        "Witches’ broom (dwarfed, dense, contorted twig clusters at the branch ends) is common in some areas",
+        "It does no significant harm to the tree, but can produce unsightly results",
+        "Hackberry nipple gall (disfigures leaves) is less of a problem with this species than with Celtis occidentalis",
+        "Uses\n\nMediterranean hackberry is a tough shade tree that grows in a wide range of soils"
+      ],
+      "common_pests": [
+        "Watch for lacebugs and scale"
+      ]
     },
     "common_names": {
       "en": [
@@ -273,8 +281,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -298,14 +306,22 @@
       "lifecycle": "woody",
       "difficulty": "Medium",
       "growth_rate": "Rapid",
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Easily grown in medium to wet, organically rich, well-drained soils in full sun. Tolerates part shade. Also tolerates wind, many urban pollutants and a wide range of soil conditions, including poor soils.",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Remove and shape excessive branches | Similar plants: Celtis tenuifolia",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Powdery mildew and leaf spot may occur",
+        "Hackberry nipple gall is so common in the St",
+        "Louis area that it is often used as an aid in identifying hackberries",
+        "Although the galls do not hurt these trees, they often significantly disfigure the leaves",
+        "Sugarberry has good resistance to witches’ broom (dwarfed, dense, contorted twig clusters at the branch ends)"
+      ],
+      "common_pests": [
+        "Watch for lacebugs and scale"
+      ]
     },
     "common_names": {
       "en": [
@@ -337,8 +353,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -371,7 +387,9 @@
       "common_problems": [
         "Watch for"
       ],
-      "common_pests": null
+      "common_pests": [
+        "Watch for lacebugs and scale"
+      ]
     },
     "common_names": {
       "en": [
@@ -527,8 +545,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -558,8 +576,16 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Powdery mildew, leaf spot and root rot may occur",
+        "Witches’ broom (dwarfed, dense, contorted twig clusters at the branch ends) is common in some areas",
+        "It does no significant harm to the tree, but can produce unsightly results",
+        "Hackberry nipple gall (disfigures leaves) is less of a problem with this species than with Celtis occidentalis",
+        "Uses\n\n‘Green Cascade’ is a weeping cultivar which is often described as being a conversation piece"
+      ],
+      "common_pests": [
+        "Watch for lacebugs and scale"
+      ]
     },
     "common_names": {
       "en": [

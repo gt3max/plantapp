@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 46,
@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Slightly acidic soil with loose texture or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": "Remove aged tissues, dead, rotten, diseased leaves timely",
+      "light_guide": "Climate: temperate",
+      "tips": "Remove aged tissues, dead, rotten, diseased leaves timely | Native to: ASS ME, CHC CQ, CHC HU, CHINA, EHM DJ",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -93,7 +93,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -103,12 +103,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: KUR OO, JAP HK, EASTERN ASIA, JAP KY, JAP",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -145,8 +145,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 57,
@@ -176,7 +176,13 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No serious insect or disease problems",
+        "Uses\n\nShaded or sun-dappled areas of border fronts",
+        "Large-leaved ground cover for woodland or shade gardens",
+        "Edging for paths and walkways",
+        "Water margins"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -198,7 +204,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e7b2c3281c3fe06f3ba85c9630f1f6039d0369f6",
-    "description": null,
+    "description": "Chrysosplenium alternifolium is a species of flowering plant in the saxifrage family known as the alternate-leaved golden-saxifrage. It is a mat-forming perennial of wet places that grows between 5 and 15 cm tall. It blooms from March onward.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -326,7 +332,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5f84fd5fed427ffbe7a9ec8ff29e163bffa4141d",
-    "description": null,
+    "description": "Chrysosplenium oppositifolium, the opposite-leaved golden-saxifrage, is a species of flowering plant in the family Saxifragaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1258,7 +1264,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8ce88d8e35fa4f1f5ce581ff4d49541cccc82ef0",
-    "description": null,
+    "description": "Saxifraga aizoides, yellow mountain saxifrage or yellow saxifrage, is a flowering alpine plant of the genus Saxifraga.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2762,7 +2768,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7418459e3275df709e56db9c16b30de1af6aa142",
-    "description": null,
+    "description": "Saxifraga oppositifolia, the purple saxifrage or purple mountain saxifrage, is a species of plant that is very common in the high Arctic and also some high mountainous areas further south, including northern Britain, the Alps and the Rocky Mountains.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2886,7 +2892,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/94bd11aff938adba7fff8a0dee36784a60769f72",
-    "description": null,
+    "description": "Saxifraga paniculata is an alpine species of flowering plant in the saxifrage family, with native distribution in the temperate northern hemisphere. Common names include alpine saxifrage, encrusted saxifrage, lifelong saxifrage, lime-encrusted saxifrage, livelong saxifrage, white mountain saxifrage, and silver saxifrage.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3330,7 +3336,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ae5501ff25b62c91be3478d5c05c9cea60eb37ea",
-    "description": null,
+    "description": "Saxifraga tridactylites, the rue-leaved saxifrage or \"nailwort\", is a species of plant in the family Saxifragaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"

@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -145,8 +145,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 57,
@@ -176,8 +176,17 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "No serious insect or disease problems",
+        "Nematodes can be troublesome in the South",
+        "Uses\n\nProvides excellent summer to fall flowers when few other shrubs are in bloom",
+        "Foundations",
+        "Popular fresh cut flower"
+      ],
+      "common_pests": [
+        "Watch for spider mites",
+        "Best grown in borders, cottage gardens, rose gardens or butterfly gardens"
+      ]
     },
     "common_names": {
       "en": [
@@ -1194,7 +1203,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6406fa90c0ffe376c686c8013e86cc0d63d806b4",
-    "description": null,
+    "description": "Scrophularia auriculata, the shoreline figwort or water figwort, is a perennial plant of the genus Scrophularia in the family Scrophulariaceae. It is found commonly in Western Europe and North Africa, on the margins of rivers, ponds and similar damp places.\nIt is an upright plant reaching 70 cm with blunt oval, crenate leaves in alternate pairs on the greenish–purple square stem, most leaves may have two small lobes at their base.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2026,7 +2035,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f494b3b819b96559d93293b6c6cac872028c3abe",
-    "description": null,
+    "description": "Verbascum lychnitis, the white mullein, is a flowering plant in the figwort family (Scrophulariaceae) native to Asia and Europe. It has naturalized in parts of North America. The species was first formally named by Carl Linnaeus in 1753. Despite its common name, the flowers can be white or yellow.",
     "wikidata_id": null,
     "sources": [
       "trefle"

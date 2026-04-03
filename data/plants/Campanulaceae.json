@@ -93,7 +93,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -103,12 +103,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: JAP HK, CHM HJ, JAP KY, CHM, JAP",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -153,7 +153,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -163,12 +163,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: CHN SX, CHN SA, KHA OO, JAP, CTA",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -258,7 +258,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f6b8a2d039199958c149cd5afb85ef68d2387edd",
-    "description": null,
+    "description": "Campanula americana, commonly called tall bellflower, is an upright annual or biennial that is native to moist open woods, moist meadows, streambanks and ditches in shady areas of eastern North America from New York and southern Ontario to Minnesota south to Florida, Alabama, Arkansas and Oklahoma. In Missouri, it is commonly found in every county throughout the State. In biennial mode, it produces in the first year only a low-growing basal rosette of leaves. In the second year, tall flower stem",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -292,16 +292,25 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Best grown in rich, moist, well-drained soils in part shade. Plants prefer cool summer climates where they will tolerate full sun, but they prefer part shade (particularly afternoon shade) in hot summer climates including Missouri. Plants need regular and even moisture. Deadhead spent flowers to enc",
       "light_guide": null,
       "tips": null,
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "No serious insect or disease problems",
+        "Uses\n\nMoist shaded areas of rock gardens",
+        "Also effective in lightly shaded woodland areas where plants can be left alone to naturalize",
+        "Mass or large groups are best",
+        "Back to Previous Page\n\nThank You"
+      ],
+      "common_pests": [
+        "Slugs and snails are occasional visitors",
+        "Watch for aphids"
+      ]
     },
     "common_names": {
       "en": [
@@ -450,7 +459,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cb44dcb0859ba79f6f741d4a3a1a7b5e1dd4d531",
-    "description": null,
+    "description": "Campanula bononiensis, commonly called European bellflower, is an upright perennial that is native from Europe to central Asia. It has escaped gardens and naturalized in a few locations in the State of Maine. Outward-drooping, bell-shaped, campanulate, lilac to light purple flowers (corolla to 3/4” long) in loose terminal spikes bloom July to September atop 2-3' tall stems rising from a rosette of petiolate, cordate-ovate, gray-green leaves. Sessile, serrate-margined, ovate to lanceolate stem le",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -484,16 +493,25 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Easily grown in average, medium moisture, well-drained soils in full sun to part shade. Plants prefer cool summer climates. Plants are generally intolerant of the extreme heat of the deep South, and do not perform well south of USDA Zone 6. Appreciates some part afternoon shade in hot summer climate",
       "light_guide": null,
       "tips": null,
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "No serious insect or disease problems",
+        "Uses\n\nBorders",
+        "Cottage gardens",
+        "Also effective in lightly shaded woodland areas where plants can be left alone to naturalize",
+        "Best planted in groups or massed"
+      ],
+      "common_pests": [
+        "Slugs and snails are occasional visitors",
+        "Watch for aphids"
+      ]
     },
     "common_names": {
       "en": [
@@ -692,6 +710,70 @@
     "external_ids": {}
   },
   {
+    "plant_id": "campanula_divaricata",
+    "scientific": "Campanula divaricata",
+    "family": "Campanulaceae",
+    "genus": "Campanula",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/1ed06203526f73aaddf6cb0ef35e51111813abf2",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:39.294746+00:00",
+    "care": {
+      "plant_id": "campanula_divaricata",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Appalachian bellflower"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
     "plant_id": "campanula_erinus",
     "scientific": "Campanula erinus",
     "family": "Campanulaceae",
@@ -773,8 +855,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -897,8 +979,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -1243,7 +1325,10 @@
       "common_problems": [
         "No significant insect or disease problems. Monitor for slugs, snails, and aphids."
       ],
-      "common_pests": null
+      "common_pests": [
+        "No significant insect or disease problems.",
+        "Monitor for slugs, snails, and aphids."
+      ]
     },
     "common_names": {
       "en": [
@@ -1275,8 +1360,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -1339,8 +1424,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -1403,8 +1488,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -1520,7 +1605,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/77e822e9b8cbad216460d58fe2e83d7ba30fb095",
-    "description": null,
+    "description": "Campanula rapunculus, common name rampion bellflower, rampion, rover bellflower, or rapunzel, is a species of bellflower (Campanula) in the family Campanulaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1531,8 +1616,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -1659,8 +1744,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -1950,6 +2035,66 @@
     "external_ids": {}
   },
   {
+    "plant_id": "campanula_stevenii",
+    "scientific": "Campanula stevenii",
+    "family": "Campanulaceae",
+    "genus": "Campanula",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7f40b9d4e09fdc7e7d389bd28a3dbfcd.jpg",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:59.533458+00:00",
+    "care": {
+      "plant_id": "campanula_stevenii",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {},
+    "tags": [],
+    "external_ids": {}
+  },
+  {
     "plant_id": "campanula_thyrsoides",
     "scientific": "Campanula thyrsoides",
     "family": "Campanulaceae",
@@ -2035,8 +2180,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -2069,7 +2214,9 @@
       "common_problems": [
         "Monitor for snails, slugs, and aphids. May be susceptible to powdery mildew and rust"
       ],
-      "common_pests": null
+      "common_pests": [
+        "Monitor for snails, slugs, and aphids."
+      ]
     },
     "common_names": {
       "en": [
@@ -2838,7 +2985,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/65f5dcfae8ab837aab788f2771010f65e957d1e1",
-    "description": null,
+    "description": "Lobelia cardinalis, the cardinal flower, is a species of flowering plant in the bellflower family Campanulaceae native to the Americas, from southeastern Canada south through the eastern and southwestern United States, Mexico and Central America to northern Colombia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3776,6 +3923,66 @@
     "external_ids": {}
   },
   {
+    "plant_id": "phyteuma_charmelii",
+    "scientific": "Phyteuma charmelii",
+    "family": "Campanulaceae",
+    "genus": "Phyteuma",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/d980ae3dc584d82178c2a5d09f24c518c45254b2",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:47.600620+00:00",
+    "care": {
+      "plant_id": "phyteuma_charmelii",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {},
+    "tags": [],
+    "external_ids": {}
+  },
+  {
     "plant_id": "phyteuma_globulariifolium",
     "scientific": "Phyteuma globulariifolium",
     "family": "Campanulaceae",
@@ -4034,7 +4241,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6aaab07d3b193be1f0aa2f38879b763609e831dc",
-    "description": null,
+    "description": "Phyteuma orbiculare, common name round-headed rampion or Pride of Sussex, is a herbaceous perennial plant of the genus Phyteuma belonging to the family Campanulaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4162,7 +4369,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/697922f7ff3132a922e76f0754e20878f61e20c2",
-    "description": null,
+    "description": "Phyteuma spicatum, the spiked rampion, is a herbaceous perennial plant in the family Campanulaceae. It is common across much of Europe. Its common names include raiponce en épi (French), Ährige Teufelskralle (German), Ährige Rapunzel, and Raponzolo giallo (Italian).",
     "wikidata_id": null,
     "sources": [
       "trefle"

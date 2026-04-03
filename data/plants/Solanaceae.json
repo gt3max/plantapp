@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: KGZ, CHM JL, NWY OO, UKR MO, KTY",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -93,7 +93,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -103,12 +103,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: seasonally dry tropical",
+      "tips": "Native to: WESTERN SOUTH AMERICA, BZL ES, BZN RO, BZE PB, BZN PA",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -254,7 +254,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6381bf75d46c1ad6e41f138b3d7e840268d2c65a",
-    "description": null,
+    "description": "Angel’s trumpet is a tropical shrub that, in the St. Louis area, typically matures to 5-10’ tall and features huge, nodding, trumpet-shaped, white flowers (to 12” long) from mid-summer to fall. Flowers emit a strong fragrance in evenings. Ovate to oblong leaves (to 8” long). In the first year, plants will typically grow to 3’ tall with minimal flowering. In the second year, plants will grow taller with more profuse flowering. Synonymous with and formerly known as Datura suaveolens.\n\nGenus name h",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -265,8 +265,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 92,
@@ -288,16 +288,24 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Medium",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Winter hardy to USDA Zones 8-10 where plants are typically grown as shrubs or small trees to 15’ tall in organically rich, medium moisture, well-drained soils in full sun. In St. Louis, growing options include: (1) grow in large containers or tubs which must be overwintered indoors in bright, sunny ",
       "light_guide": null,
       "tips": "Remove old, diseased and dead leaves timely",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Uses\n\nContainer plant for patios, decks or other sunny locations around the home",
+        "Accent shrub in Zones 8-10",
+        "Back to Previous Page\n\nThank You",
+        "The Garden wouldn't be the Garden without our Members, Donors and Volunteers",
+        "Info for\n\nMembers\nVisitors\nGardeners\nHorticulturists\nEducators\nResearchers\n\nMain Navigation\n\nVisit\nThings To Do\nGardens & Gardening\nLearn & Discover\nSustainability & Conservation\nPlan"
+      ],
+      "common_pests": [
+        "Watch for caterpillars, spider mites and whiteflies, particularly on overwintering plants"
+      ]
     },
     "common_names": {
       "en": [
@@ -393,8 +401,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 20,
+      "stop_pct": 65,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 101,
@@ -420,12 +428,19 @@
       "growth_rate": "Medium",
       "watering_guide": "Propagation: Seed",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Remove dead and yellowish leaves timely | Similar plants: Phaseolus vulgaris",
+      "tips": "Remove dead and yellowish leaves timely | Similar plants: Phaseolus vulgaris | Good companions: Basil, Chives, Cilantro, Dill, Leeks, Onions, Oregano, Rosemary",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Fungal and bacterial leaf spot, wilt, mosaic virus and stem/root rot may occur",
+        "Uses\n\nAll peppers can be highly ornamental with deep green leaves and fruit of a wide variety of shapes, sizes and colors",
+        "Colors may include green, red, yellow, chocolate, orange, lilac, purple, ivory and mahogany",
+        "As fruits gradually ripen, several colors can be found on a plant simultaneously"
+      ],
+      "common_pests": [
+        "Potential insect pests include aphids, white flies, cutworms, pepper maggots and Colorado potato beetles"
+      ]
     },
     "common_names": {
       "en": [
@@ -734,8 +749,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 22,
+      "stop_pct": 70,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 101,
@@ -798,8 +813,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 22,
+      "stop_pct": 70,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 101,
@@ -832,7 +847,10 @@
       "common_problems": [
         "Peppers share many pests and diseases with other nightshade family plants.  It is important to look out for aphids, whiteflies, cutworms, pepper maggots, and Colorado potato beetles. This plant is also sensitive to Verticillium wilt (a fungal pathogen) and mosaic virus (which should show a uniform yellow-green mosaic across the leaves followed by wilt)."
       ],
-      "common_pests": null
+      "common_pests": [
+        "Peppers share many pests and diseases with other nightshade family plants.",
+        "It is important to look out for aphids, whiteflies, cutworms, pepper maggots, and Colorado potato beetles."
+      ]
     },
     "common_names": {
       "en": [
@@ -864,8 +882,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 22,
+      "stop_pct": 70,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 101,
@@ -898,7 +916,10 @@
       "common_problems": [
         "The Tabasco Plant has very few pests or diseases. The plant typically repels insects.  The"
       ],
-      "common_pests": null
+      "common_pests": [
+        "The Tabasco Plant has very few pests or diseases.",
+        "The plant typically repels insects."
+      ]
     },
     "common_names": {},
     "tags": [],
@@ -915,7 +936,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6e8b17f47704fdd6d4683b98c71c8668a7629045",
-    "description": null,
+    "description": "Cestrum nocturnum, commonly called night jessamine or lady of the night, is an evergreen shrub native to lowland thickets, woodland openings, and disturbed areas in the West Indies and from southern Mexico south to Panama. It is widely planted as an ornamental in tropical regions around the world. Mature plants will reach 3-13' tall with a similar spread and an upright, spreading or scrambling habit. The slender, arching branches are clad in elliptic to oblong, 2-6\" long and 0.75-1.75\" wide leav",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -926,8 +947,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -949,16 +970,24 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Easily grown in evenly moist, rich, well-draining soils in full sun to part shade. Best blooming in full sun. Hardy in Zones 9-11. Large temperature swings, particularly from high to low, can reduce the fragrance of the blooms. Container grown plants can be overwintered indoors but require a sunny, ",
       "light_guide": null,
       "tips": "Remove aged tissues, dead and pest branches timely",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Poorly drained, waterlogged soils can lead to root rot",
+        "The fruits and leaves of this species are known to be poisonous",
+        "This plant has escaped cultivation and is considered to be an aggressive weed or invasive in many parts of Oceania including Australia, New Zealand, Fiji, French Polynesia, New Caledonia, and Samoa",
+        "The seeds are spread by birds and the shrubs can form dense thickets and crowd out native vegetation",
+        "Uses\n\nSuitable for u"
+      ],
+      "common_pests": [
+        "Whiteflies, aphids, and spider mites can be problematic"
+      ]
     },
     "common_names": {
       "en": [
@@ -979,7 +1008,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5861a7c4cd585448de041109453c7be1d336de0c",
-    "description": null,
+    "description": "Cestrum parqui, commonly called willow-leaved jessamine, Chilean jessamine, or green cestrum, is a semi-evergreen, medium to large sized, fast-growing shrub native to South America from central Chile and Argentina north to southern Brazil, Paraguay and the Bolivian Andes. This plant has escaped cultivation in subtropical regions around the world including southern Africa, Europe, and North America and is considered invasive in Australia. Mature plants will reach 5-10' tall with a 3-7' spread and",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1013,15 +1042,21 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Low",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Best grown in evenly moist, well-draining soils in full sun. Tolerant of a wide range of growing conditions including some shade, clayey or sandy soils, and occasional inundation. Hardy in Zones 7-10. Frost will damage flowers and growing tips, while colder temperatures will cause dieback. Resprouts",
       "light_guide": null,
       "tips": null,
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No major pest or disease problems of note",
+        "Has escaped cultivation and is considered invasive in certain areas",
+        "Deer tend to avoid this plant",
+        "Uses\n\nMixed borders, night gardens, hummingbird gardens, patios, large containers",
+        "Situate close to walkways, patios, or porches so the nighttime fragrance can be easily enjoyed"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -1103,7 +1138,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0b546f8631b29aa442a4fd5eb110346d0ccbd63c",
-    "description": null,
+    "description": "Capsule splits open irregularly when ripe to disperse its seeds. Seeds are long-lived and can remain dormant in the soil for many years.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1127,7 +1162,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -1136,12 +1171,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "perennial",
+      "difficulty": "Easy",
+      "growth_rate": "Slow",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Datura metel",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -1167,7 +1202,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/75ec4e2c731f65c35041a8ead9f10fdbc58b6d28",
-    "description": null,
+    "description": "Datura stramonium, known by the common names thornapple, jimsonweed, or devil's trumpet, is a poisonous flowering plant in the Daturae tribe of the nightshade family Solanaceae. Its likely origin was in Central America, and it has been introduced in many world regions. It is an aggressive invasive weed in temperate climates and tropical climates across the world. D. stramonium has frequently been employed in traditional medicine to treat a variety of ailments.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1191,7 +1226,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -1200,12 +1235,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "annual",
       "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "growth_rate": "Rapid",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Daphne genkwa",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -1231,7 +1266,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/721c5af85288102db17485807bb62dafc90eb5b9",
-    "description": null,
+    "description": "The fruits are spiny globe-shaped capsules, measuring 1 to 2 inches across, split open when ripe and release black seeds.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1255,7 +1290,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -1264,17 +1299,21 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "perennial",
+      "difficulty": "Medium",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Datura stramonium",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "No significant insect pests or diseases."
+      ],
+      "common_pests": [
+        "No significant insect pests or diseases."
+      ]
     },
     "common_names": {
       "en": [
@@ -1611,7 +1650,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/41d96e7d1a14e87bae3219da4db7f71fcd8f541d",
-    "description": null,
+    "description": "Lycium ferocissimum, the African boxthorn or boxthorn, is a shrub in the nightshade family (Solanaceae) indigenous to South Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3357,6 +3396,66 @@
     "external_ids": {}
   },
   {
+    "plant_id": "solanum_boliviense",
+    "scientific": "Solanum boliviense",
+    "family": "Solanaceae",
+    "genus": "Solanum",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f9c9680f86e7005f927bac99e3612a7f.jpg",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:34.995452+00:00",
+    "care": {
+      "plant_id": "solanum_boliviense",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {},
+    "tags": [],
+    "external_ids": {}
+  },
+  {
     "plant_id": "solanum_brevicaule",
     "scientific": "Solanum brevicaule",
     "family": "Solanaceae",
@@ -4850,7 +4949,7 @@
       "growth_rate": "Fast",
       "watering_guide": "",
       "light_guide": "",
-      "tips": "Consistent watering prevents cracking. Shake flowers for pollination.",
+      "tips": "Consistent watering prevents cracking. Shake flowers for pollination. | Good companions: Asparagus, Basil, Beans, Borage, Calendula, Celery, Marigold, Parsley, Radish, Rosemary",
       "toxic_to_pets": 1,
       "toxic_to_humans": 1,
       "toxicity_note": "Leaves and stems are toxic (solanine). Fruit is safe when ripe.",
@@ -5014,7 +5113,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bead71bbadbe1f20fdd1e7e594c037b527ea1ae7",
-    "description": null,
+    "description": "Eggplant, aubergine, brinjal, or baigan is a plant species in the nightshade family Solanaceae. Solanum melongena is grown worldwide for its edible fruit, typically used as a vegetable in cooking.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5744,6 +5843,70 @@
     "external_ids": {}
   },
   {
+    "plant_id": "solanum_rugosum",
+    "scientific": "Solanum rugosum",
+    "family": "Solanaceae",
+    "genus": "Solanum",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/a3c6cabb3e7579d7f16118da7ed5fa088a3e36fb",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:34.995742+00:00",
+    "care": {
+      "plant_id": "solanum_rugosum",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Tabacon aspero"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
     "plant_id": "solanum_schlechtendalianum",
     "scientific": "Solanum schlechtendalianum",
     "family": "Solanaceae",
@@ -6254,7 +6417,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/43f82d540f236ec7d769dd7e977a289a80e8211a",
-    "description": null,
+    "description": "The potato is a starchy tuberous vegetable native to the Americas that is consumed as a staple food in many parts of the world. Potatoes are underground stem tubers of the plant Solanum tuberosum, a perennial in the nightshade family Solanaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6292,7 +6455,7 @@
       "growth_rate": null,
       "watering_guide": null,
       "light_guide": null,
-      "tips": null,
+      "tips": "Good companions: Basil, Beans, Calendula, Cilantro, Dill, Garlic, Horseradish, Onion, Peas, Tansy",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,

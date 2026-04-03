@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c6e4a65dc9999229c5a62f77ba5063270d9ce3dc",
-    "description": null,
+    "description": "The pollinated female shrub produces fruits that are 0.3 inches long, elliptical, glaucous, and bluish-black drupes. Fruiting occurs from August to October.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -34,7 +34,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -43,17 +43,22 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
+      "lifecycle": "woody",
+      "difficulty": "Medium",
       "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Partial Shade (Direct sunlight only part of the day, 2-6 hours)",
+      "tips": "Similar plants: Hydrangea macrophylla",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "No serious insect or disease issues.",
+        "If planted in full sun, it requires afternoon shade to prevent leaf scorch."
+      ],
+      "common_pests": [
+        "No serious insect or disease issues."
+      ]
     },
     "common_names": {},
     "tags": [],

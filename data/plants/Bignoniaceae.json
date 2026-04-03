@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: wet tropical",
+      "tips": "Native to: BLZ, STH OO, AGW SJ, BZC GO, AGE FO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -97,7 +97,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -107,12 +107,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: wet tropical",
+      "tips": "Native to: BLZ, BZC GO, AGW SJ, BZE PB, AGE FO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -247,7 +247,9 @@
       "common_problems": [
         "There are no major pests of Cross-vine; however, the vine itself may become a problem. It spreads both by seed as well as by root suckers. To prevent the vine from spreading to areas where it is not wanted, pull up the root suckers as they are spotted."
       ],
-      "common_pests": null
+      "common_pests": [
+        "There are no major pests of Cross-vine; however, the vine itself may become a problem."
+      ]
     },
     "common_names": {
       "en": [
@@ -279,8 +281,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 69,
@@ -313,7 +315,9 @@
       "common_problems": [
         "No serious insect or disease problems, however, the species is an aggressive spreader. Trumpet vine is also commonly known as cow-itch vine because some people experience skin redness and itching after coming in contact with the leaves."
       ],
-      "common_pests": null
+      "common_pests": [
+        "No serious insect or disease problems, however, the species is an aggressive spreader."
+      ]
     },
     "common_names": {
       "en": [
@@ -345,8 +349,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 57,
@@ -379,7 +383,9 @@
       "common_problems": [
         "No serious problems. Catalpa sphinx moth caterpillars can do significant damage but are rarely lethal. Mildew, twig blight, verticillium wilt, and leaf spots are occasional problems. Leaves can become damaged and look unsightly from wind or hail."
       ],
-      "common_pests": null
+      "common_pests": [
+        "Catalpa sphinx moth caterpillars can do significant damage but are rarely lethal."
+      ]
     },
     "common_names": {
       "en": [
@@ -411,8 +417,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 57,
@@ -434,9 +440,9 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": "woody",
-      "difficulty": null,
+      "difficulty": "Medium",
       "growth_rate": "Medium",
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Easily grown in average, medium to wet, well-drained soils in full sun to part shade. Tolerant of a wide range of soil conditions including both wet and dry soils. Tolerant of seasonal flooding. Prefers moist fertile loams.",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Acer saccharinum",
       "toxic_to_pets": 0,
@@ -445,7 +451,9 @@
       "common_problems": [
         "This species does not have a serious problem with diseases or insects, however, it could be susceptible to verticillium wilt, leaf spot, mildew, and twig blight. The larvae of the catalpa sphinx moth also feed on the foliage, which can result in considerable damage, albeit temporary and non-lethal."
       ],
-      "common_pests": null
+      "common_pests": [
+        "This species does not have a serious problem with diseases or insects, however, it could be susceptible to verticillium wilt, leaf spot, mildew, and twig blight."
+      ]
     },
     "common_names": {
       "en": [
@@ -508,7 +516,13 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No major pest or disease problems",
+        "Uses\n\nDoes best in hot, dry areas of the garden",
+        "Suitable as an accent plant in rock gardens, pollinator gardens, desert gardens, and xeriscaping projects",
+        "Flowers\t\nFlowers\t\nFlowers\t\nLandscape view\t\nFlowers\n\nFlowers\t\nOverall plant\t\nFlower buds\t\nFlower buds\t\nFlowers\n\nFlowers\t\nOverall plant\t\nLandscape view\t\nFlowers\t\nLandscape view\n\nFlowers\t\n\t\n\t\t\nBack to Previous Page\n\nThank You",
+        "The Garden wouldn't be the Garden without our Members, Donors and Volunteers"
+      ],
       "common_pests": null
     },
     "common_names": {

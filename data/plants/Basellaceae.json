@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bb45660239a80e64133aa6dec06671ee740cfe7f",
-    "description": null,
+    "description": "Anredera cordifolia, commonly known as Madeira vine or mignonette vine, is an aggressive succulent climbing perennial vine that can rapidly invade areas in mild, frost-free, subtropical to tropical regions in a manner which smothers, collapses, breaks the branches of, and sometimes kills native trees and understory plants with the heft and vigor of its vine stems, fleshy leaves, aerial tubers, and lamb’s tail-like sprays of tiny white flowers. Madeira vine grows from fleshy rhizomes. It climbs b",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 27,
@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": "Well ventilated sandy loam",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -44,16 +44,24 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "Medium",
       "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": "Remove dead leaves timely",
+      "watering_guide": "Missouri BG: Winter hardy to USDA Zones 9-11 where this vine is easily grown in humusy, well-drained soils in full sun to part shade. This is a subtropical vine that only tolerates brief instances of light frost. It is evergreen, aggressive and difficult to control in warm frost-free climates (Zones 9-11), but d",
+      "light_guide": "Climate: seasonally dry tropical",
+      "tips": "Remove dead leaves timely | Native to: TEX OO, NORTHERN SOUTH AMERICA, AUSTRALASIA, JAP SH, STH",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "No serious insect or disease problems",
+        "Uses\n\nCan be trained to twine up trellises, fences or walls for ornamental purposes or screening",
+        "Back to Previous Page\n\nThank You",
+        "The Garden wouldn't be the Garden without our Members, Donors and Volunteers",
+        "Info for\n\nMembers\nVisitors\nGardeners\nHorticulturists\nEducators\nResearchers\n\nMain Navigation\n\nVisit\nThings To Do\nGardens & Gardening\nLearn & Discover\nSustainability & Conservation\nPlant"
+      ],
+      "common_pests": [
+        "Greenhouse plants are susceptible to spider mites and aphids"
+      ]
     },
     "common_names": {
       "en": [

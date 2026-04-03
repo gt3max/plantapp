@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6fa46acd5086db2a04eb7e5cbe041939aa691def",
-    "description": null,
+    "description": "Native to Japan, Chinese chestnut is a small to medium sized, broad, low-branched, deciduous tree that typically grows 30-40' tall with an open rounded crown. It is primarily grown as an ornamental tree. Its nuts are large and edible, but with a bitter flavor (high tannin content), and are generally considered to be much inferior in flavor to other chestnuts in the genus. Japanese chestnut is noted for having resistance to chestnut blight which is the disease that has nearly wiped out the native",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -44,16 +44,24 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": null,
-      "difficulty": null,
+      "difficulty": "High",
       "growth_rate": null,
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Grow in moist, deep, well-drained loams in full sun. Tolerant of summer heat and humidity. Established trees do well in dry conditions. If growing this tree at least in part for its edible nuts, planting more than one tree facilitates cross-pollination (single trees are close to being self-sterile) ",
       "light_guide": null,
       "tips": null,
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Japanese chestnut is resistant, but not immune, to chestnut blight (Endothia parasitica) which is a fatal fungal bark disease",
+        "Also susceptible to leaf spot, anthracnose and twig and stem cankers",
+        "Uses\n\nA beautiful specimen shade tree for lawns",
+        "Unfortunately, as is the case with the fruit of the sweet gum but perhaps more so, falling chestnuts can pose a significant litter problem, and often make walking barefoot in the lawn a real adventure",
+        "On the posi"
+      ],
+      "common_pests": [
+        "Weevils can be a problem in some areas"
+      ]
     },
     "common_names": {
       "en": [
@@ -85,8 +93,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -110,7 +118,7 @@
       "lifecycle": "woody",
       "difficulty": "Hard",
       "growth_rate": "Medium",
-      "watering_guide": null,
+      "watering_guide": "Missouri BG: Grow in moist, well-drained loams in full sun. Species plants should not be planted as ornamentals due to susceptibility to blight. Research is ongoing for developing disease resistant varieties.",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Carya cordiformis",
       "toxic_to_pets": 0,
@@ -151,8 +159,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 81,
@@ -182,8 +190,16 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Chinese chestnut is resistant, but not immune, to chestnut blight (Endothia parasitica) which is a fatal fungal bark disease",
+        "Also susceptible to leaf spot, anthracnose and twig and stem cankers",
+        "Uses\n\nA beautiful specimen shade tree for lawns",
+        "Unfortunately, as is the case with the fruit of the sweet gum but perhaps more so, falling chestnuts can pose a significant litter problem, and often make walking barefoot in the lawn a real adventure",
+        "On the posit"
+      ],
+      "common_pests": [
+        "Weevils can be a problem in some areas"
+      ]
     },
     "common_names": {
       "en": [
@@ -281,24 +297,24 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "ppfd_min": 81,
+      "ppfd_max": 115,
+      "dli_min": 0.3,
+      "dli_max": 0.4,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
-      "humidity_min_pct": null,
+      "humidity_min_pct": 30,
       "humidity_action": null,
       "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
-      "fertilizer_type": null,
+      "fertilizer_type": "Dilute fertilizers following instructions, apply 1-2 times monthly",
       "fertilizer_freq": null,
       "fertilizer_season": null,
       "height_min_cm": null,
@@ -322,6 +338,66 @@
         "European chestnut"
       ]
     },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "castanopsis_carlesii",
+    "scientific": "Castanopsis carlesii",
+    "family": "Fagaceae",
+    "genus": "Castanopsis",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ce3faf1f5557e982fd9ec6c192730334.jpg",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:06:03.211557+00:00",
+    "care": {
+      "plant_id": "castanopsis_carlesii",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {},
     "tags": [],
     "external_ids": {}
   },
@@ -720,7 +796,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e8955869856619fa1185a90a540118ea57f19b24",
-    "description": null,
+    "description": "Quercus agrifolia, the California live oak, or coast live oak, is an evergreen live oak native to the California Floristic Province. Live oaks are so-called because they keep living leaves on the tree all year, adding young leaves and shedding dead leaves simultaneously rather than dropping dead leaves en masse in the autumn like a true deciduous tree. Coast live oaks may be shrubby, depending on age and growing location, but is generally a medium-sized tree.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -784,7 +860,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/503f6acf4ef449b8aad82a90e12854cc12be8aae",
-    "description": null,
+    "description": "Quercus alba, the white oak, is one of the preeminent hardwoods of eastern and central North America. It is a long-lived oak, native to eastern and central North America and found from Minnesota, Ontario, Quebec, and southern Maine south as far as northern Florida and eastern Texas. Specimens have been documented to be over 450 years old.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1228,7 +1304,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/270824e4818e72691878f3e33d867db6af0074b8",
-    "description": null,
+    "description": "Quercus coccifera, commonly known as kermes oak, holly oak, or Palestine oak, is an evergreen oak shrub or tree in section Ilex of the genus. It has many synonyms, including Quercus calliprinos. It is native to the Mediterranean region and Northern African Maghreb, south to north from Morocco to France and west to east from Portugal to Cyprus and Turkey, crossing Spain, Italy, Libya, the Balkans, and Greece, including Crete.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1608,7 +1684,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cd21a35b7e37e1a1b8037c531fc9aa2b47aa8580",
-    "description": null,
+    "description": "Quercus faginea, the Portuguese oak, is a species of oak native to the western Mediterranean region in the Iberian Peninsula. Similar trees in the Atlas Mountains of northwest Africa are usually included in this species, or sometimes treated as a distinct species, Quercus tlemcenensis. It occurs in mountains from sea level to 1,900 metres above sea level, and flourishes in a variety of soils and climates.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1912,6 +1988,70 @@
     "common_names": {
       "en": [
         "Ring-cup oak"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "quercus_grisea",
+    "scientific": "Quercus grisea",
+    "family": "Fagaceae",
+    "genus": "Quercus",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/5e34ea28988f2a5c82713d71d6a044dc7857ba3e",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:06:03.212549+00:00",
+    "care": {
+      "plant_id": "quercus_grisea",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Gray oak"
       ]
     },
     "tags": [],

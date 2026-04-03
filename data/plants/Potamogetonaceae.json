@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: subtropical",
+      "tips": "Native to: FRA MO, ITA, FRA CI, ITA SM, ITA VC",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -454,7 +454,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9b4189ae8b19a689339e927492a7f598ea270e0a",
-    "description": null,
+    "description": "Potamogeton crispus, the crisp-leaved pondweed, curly pondweed, curly-leaf pondweed or curled pondweed, is a species of aquatic plant (hydrophyte) native to Eurasia but an introduced species and often a noxious weed in North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1154,7 +1154,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ceb0ebc3df8ebc3230079dda816c6615ee2354a3",
-    "description": null,
+    "description": "Potamogeton perfoliatus is a perennial aquatic plant in the family Potamogetonaceae occurring in both standing and flowing freshwater habitats. It is widely distributed globally, occurring in all continents except South America and Antarctica.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1218,7 +1218,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1280628ddf85016b5862716115187b7445593a7e",
-    "description": null,
+    "description": "Potamogeton polygonifolius or bog pondweed is an aquatic plant. It is found in shallow, nutrient-poor, usually acid standing or running water, bogs, fens and occasionally ditches.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1346,7 +1346,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/af9ee100755aa2e3fea4346980a297f35455dad4",
-    "description": null,
+    "description": "Potamogeton pusillus is a species of aquatic plant known by the common names small pondweed, lesser pondweed or least pondweed. It occurs in standing and slow-flowing freshwater habitats throughout the Northern Hemisphere.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1662,7 +1662,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0d574599a832be82621186787a32e549787f4d5e",
-    "description": null,
+    "description": "Zannichellia palustris, the horned pondweed, is a plant found in fresh to brackish waters in the United States, Europe, Asia, Australasia, and South America. It is recognizable by its long, thread-like leaves and \"stringy\" appearance. Its roots are long and tendril-like, and its seeds bear a distinctive horned shape, hence the common name.\nThe species epithet palustris is Latin for \"of the marsh\" and indicates its common habitat. A diploid, its chromosome number was confirmed as 2n = 24.",
     "wikidata_id": null,
     "sources": [
       "trefle"

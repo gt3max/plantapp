@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 55,
@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Peat or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -47,8 +47,8 @@
       "difficulty": "Easy",
       "growth_rate": "Slow",
       "watering_guide": null,
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Cedrus atlantica",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Cedrus atlantica | Native to: BGM BE, YUG CR, POR OO, FIN, IRE NI",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -85,8 +85,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 55,
@@ -97,7 +97,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Peat or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -110,14 +110,23 @@
       "lifecycle": "woody",
       "difficulty": "Medium",
       "growth_rate": "Medium",
-      "watering_guide": null,
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Abies fraseri",
+      "watering_guide": "Missouri BG: Best grown in rich, consistently moist, slightly acidic, well-drained soils in full sun to part shade. Best in full sun. Trees grow poorly in heavy clay soils. Trees are native to cool climates, and are not recommended for planting in the hot and humid summer conditions south of USDA Zone 5.",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Abies fraseri | Native to: VRG OO, MAN OO, FIN, FIN OO, NORTHERN EUROPE",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Disease problems include cankers, heart rot, root rot, needle rust and twig blight",
+        "Trees are generally intolerant of urban pollution",
+        "Uses\n\nSpecimen fir for the landscape",
+        "Ornamental yard tree",
+        "Popular commercially grown Christmas tree because of its attractive fragrance and long retention of needles"
+      ],
+      "common_pests": [
+        "Insect pests include Balsam woolly adelgids, bark beetles, spruce budworms, aphids, bagworms and scale",
+        "Spider mites may occur in hot conditions"
+      ]
     },
     "common_names": {
       "en": [
@@ -149,8 +158,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 55,
@@ -161,7 +170,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Peat or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -175,15 +184,18 @@
       "difficulty": "Easy",
       "growth_rate": "Slow",
       "watering_guide": "Propagation: Seed",
-      "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
-      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Cedrus atlantica",
+      "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day) | Climate: temperate",
+      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Cedrus atlantica | Native to: MIDDLE EUROPE, MXE AG, BLT, MXE CO, MXE TA",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
       "common_problems": [
         "It breaks buds early in the spring that can be susceptible to frost damage. See potential insect problems for conifers fact sheet to the left"
       ],
-      "common_pests": null
+      "common_pests": [
+        "Insect pests include balsam woolly adelgid, bark beetles, spruce budworms, aphids, bagworms and scale",
+        "Spider mites may occur in hot conditions"
+      ]
     },
     "common_names": {
       "en": [
@@ -227,7 +239,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -241,15 +253,19 @@
       "difficulty": "Easy",
       "growth_rate": "Rapid",
       "watering_guide": "Propagation: Seed",
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Similar plants: Abies cilicica",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Similar plants: Abies cilicica | Native to: IRE NI, ITA IT, NORTHERN EUROPE, IDA OO, BRC",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
       "common_problems": [
         "No serious insect or disease problems. The balsam woolly adelgid is a problem in some areas. Other potential insect pests include bark beetles, spruce budworms, tussock moths, aphids, bagworms and scale. Spider mites may occur in hot conditions. Potential disease problems include cankers, heart rot, root rot, needle rust and twig blight."
       ],
-      "common_pests": null
+      "common_pests": [
+        "No serious insect or disease problems.",
+        "Other potential insect pests include bark beetles, spruce budworms, tussock moths, aphids, bagworms and scale.",
+        "Spider mites may occur in hot conditions."
+      ]
     },
     "common_names": {
       "en": [
@@ -281,8 +297,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 55,
@@ -293,7 +309,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Peat or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -307,8 +323,8 @@
       "difficulty": "Easy",
       "growth_rate": "Slow",
       "watering_guide": null,
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Abies concolor",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Abies concolor | Native to: ICE, ASK, MNT OO, WYO OO, NWT OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -345,8 +361,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 55,
@@ -357,7 +373,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Peat or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -367,12 +383,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": "Medium",
       "growth_rate": "Medium",
       "watering_guide": "Propagation: Seed",
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Cedrus atlantica",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Cedrus atlantica | Native to: MIDDLE EUROPE, NCS ST, NCS KC, NCS IN, BLT",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -409,8 +425,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 55,
@@ -421,7 +437,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Peat or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -431,12 +447,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": "Pruning accordingly for any favorate tree shapes",
+      "light_guide": "Climate: temperate",
+      "tips": "Pruning accordingly for any favorate tree shapes | Native to: MIDDLE EUROPE, SPA AN, AUT LI, SPA SP, POR OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -473,8 +489,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 55,
@@ -485,7 +501,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": 30,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Peat or soil with specific nutrients",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -499,15 +515,18 @@
       "difficulty": null,
       "growth_rate": "Medium",
       "watering_guide": null,
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Abies concolor",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Pruning accordingly for any favorate tree shapes | Similar plants: Abies concolor | Native to: MIDDLE EUROPE, IRE NI, NORTHERN EUROPE, WAS, GRB",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
       "common_problems": [
         "No major losses from pests. Noble fir bark beetle ("
       ],
-      "common_pests": null
+      "common_pests": [
+        "No major losses from pests.",
+        "Noble fir bark beetle ("
+      ]
     },
     "common_names": {
       "en": [
@@ -551,7 +570,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -561,12 +580,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: temperate",
+      "tips": "Native to: CHX OO, FIN, FIN OO, KHA OO, KGZ OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -603,8 +622,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 69,
@@ -634,7 +653,13 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "Tip blight may occur",
+        "No serious insect or disease problems",
+        "Heavy snow in winter can break branches",
+        "Uses\n\nSpecimen plant",
+        "Back to Previous Page\n\nThank You"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -667,8 +692,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 69,
@@ -698,7 +723,13 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "Tip blight and root rot may occur",
+        "No serious insect or disease problems",
+        "Winter hardiness is a concern in the St",
+        "Louis area where consideration should be given to planting a cultivar such as ‘Shalimar’ that has slightly better hardiness than the species",
+        "Notwithstanding the winter hardiness problems, these plants usually struggle in the St"
+      ],
       "common_pests": null
     },
     "common_names": {
@@ -720,7 +751,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/25faef566078151e3f71f0e88be5eb72a4e68bcc",
-    "description": null,
+    "description": "Larix decidua, the European larch, is a species of larch native to the mountains of central Europe, in the Alps and Carpathian Mountains, with small disjunct lowland populations in northern Poland. Its life span has been confirmed to be close to 1000 years, with ages of around 2000 years likely.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1488,7 +1519,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ca7817d3c312ce91888268ffe9bb99ee0048f6ee",
-    "description": null,
+    "description": "Picea sitchensis, the Sitka spruce, is a large, coniferous, evergreen tree growing to just over 100 meters (330 ft) tall, with a trunk diameter at breast height that can exceed 5 m (16 ft). It is by far the largest species of spruce and the fifth-largest conifer in the world, and the third-tallest tree species. The Sitka spruce is one of only three species documented to exceed 100 m (330 ft) in height. Its name is derived from the community of Sitka in southeast Alaska, where it is prevalent.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2576,7 +2607,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cdcdf2935418d8e7770cfa8e77062dbf144b6616",
-    "description": null,
+    "description": "Pinus mugo, known as dwarf mountain pine, mountain pine, scrub mountain pine, Swiss mountain pine, bog pine, creeping pine, or mugo pine, is a species of conifer, native to high elevation habitats from southwestern to Central Europe and Southeast Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3408,7 +3439,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/35c5762c7ed63e82c52bdb6529b59e668c527440",
-    "description": null,
+    "description": "Pinus strobus, commonly called the eastern white pine, northern white pine, white pine, Weymouth pine (British), and soft pine is a large pine native to eastern North America. It occurs from Newfoundland, Canada, west through the Great Lakes region to southeastern Manitoba and Minnesota, United States, and south along the Appalachian Mountains and upper Piedmont to northernmost Georgia and very rare in some of the higher elevations in northeastern Alabama. It is considered rare in Indiana.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3792,7 +3823,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3f5fcd2930ece1b9455cb7cb0fb6a382b401ea80",
-    "description": null,
+    "description": "The Douglas fir is an evergreen conifer species in the pine family, Pinaceae. It is the tallest tree in the Pinaceae family. It is native to western North America and is also known as Douglas-fir, Douglas spruce, Oregon pine, and Columbian pine. There are three varieties: coast Douglas-fir, Rocky Mountain Douglas-fir and Mexican Douglas-fir.",
     "wikidata_id": null,
     "sources": [
       "trefle"

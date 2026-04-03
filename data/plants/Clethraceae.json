@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3ca201f0905da85863c407bf3fb9014dbde50788",
-    "description": null,
+    "description": "Brown capsules which ripen in the fall and persist through winter adding winter interest. Dry, 3-valved, dehiscent, pubescent, 1/8 inch diameter capsule that turns brown in fall and persists for a year or more. Fruit displays from September to October.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -34,7 +34,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "lifecycle": "perennial",
+      "difficulty": "Easy",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Division",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Ilex glabra",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -74,7 +74,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c683242212dd83caf007ed04f647cfc1aa9bdecb",
-    "description": null,
+    "description": "Flowers give way to dark brown seed capsules which persist into winter.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -82,6 +82,70 @@
     "updated_at": "2026-04-02T15:35:13.619771+00:00",
     "care": {
       "plant_id": "clethra_barbinervis",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": "High Organic Matter, Good Drainage",
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": "woody",
+      "difficulty": "Medium",
+      "growth_rate": "Rapid",
+      "watering_guide": "Propagation: Root Cutting",
+      "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
+      "tips": "Similar plants: Clethra fargesii",
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Clethra"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "clethra_mexicana",
+    "scientific": "Clethra mexicana",
+    "family": "Clethraceae",
+    "genus": "Clethra",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/db50b2f0e87bd57b7c12e9db98a4832782bc13d5",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:05:43.958300+00:00",
+    "care": {
+      "plant_id": "clethra_mexicana",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
@@ -121,7 +185,7 @@
     },
     "common_names": {
       "en": [
-        "Clethra"
+        "Nance macho"
       ]
     },
     "tags": [],

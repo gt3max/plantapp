@@ -21,8 +21,8 @@
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
-      "start_pct": null,
-      "stop_pct": null,
+      "start_pct": 15,
+      "stop_pct": 60,
       "light_preferred": "Bright indirect light",
       "light_also_ok": null,
       "ppfd_min": 69,
@@ -52,7 +52,13 @@
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
+      "common_problems": [
+        "No serious insect or disease problems",
+        "A trouble free shrub",
+        "Deer tend to not severely damage these plants",
+        "Uses\n\nSpecimen near front door, patio or other living areas where the fragrant flower aroma may be enjoyed",
+        "Shrub borders"
+      ],
       "common_pests": null
     },
     "common_names": {
