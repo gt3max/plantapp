@@ -48,11 +48,15 @@ def fetch_summary(scientific_name):
 
 
 def enrich_descriptions(limit=500):
-    """Fetch Wikipedia descriptions for plants that don't have one."""
-    rows = turso_query(
-        "SELECT plant_id, scientific FROM plants WHERE (description IS NULL OR description = '') LIMIT ?",
-        [limit]
-    )
+    """Fetch Wikipedia descriptions for plants that don't have one.
+    Tries scientific name first, then common name as fallback."""
+    rows = turso_query('''
+        SELECT p.plant_id, p.scientific, cn.name as common_name
+        FROM plants p
+        LEFT JOIN common_names cn ON p.plant_id = cn.plant_id AND cn.is_primary = 1
+        WHERE (p.description IS NULL OR p.description = '')
+        LIMIT ?
+    ''', [limit])
     if not rows:
         print("[Wikipedia] All plants have descriptions")
         return 0
@@ -62,8 +66,14 @@ def enrich_descriptions(limit=500):
     statements = []
 
     for i, row in enumerate(rows):
+        # Try scientific name first
         desc, img = fetch_summary(row['scientific'])
         time.sleep(WIKIPEDIA_DELAY)
+
+        # Fallback: try common name
+        if not desc and row.get('common_name'):
+            desc, img = fetch_summary(row['common_name'])
+            time.sleep(WIKIPEDIA_DELAY)
 
         if desc:
             statements.append((
