@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: wet tropical",
+      "tips": "Native to: PER, GUY OO, BZE BA, BZE PB, BZL RJ",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -70,7 +70,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/43317320dadb442e6fd1004390cdf721.jpg",
-    "description": null,
+    "description": "Geniostoma rupestre is a species of flowering plant in the family Loganaceae. It is a shrub or tree which ranges from Taiwan and Malesia to Papuasia, Queensland, New Zealand, and the western and central Pacific islands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -550,7 +550,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/48f1ac9cbf01d73c0ac03dcbe278e86659af86a7",
-    "description": null,
+    "description": "Spigelia anthelmia, the West Indian pinkroot, wormbush, or wormgrass, is a species of flowering plant in the family Loganiaceae. It is native to Mexico, Central America, the Caribbean, Florida, and northern South America through to Bolivia and Brazil, and it has been widely introduced to other tropical locales, including western and west-central Africa, India, Sri Lanka, Indonesia, Thailand, Peninsular Malaysia, Hainan, and the Bismarck Archipelago.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -614,7 +614,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/73c50c62c64962dc16daa5c137435afce5966323",
-    "description": null,
+    "description": "Spigelia marilandica, the woodland pinkroot or Indian pink is a herbacious perennial wildflower in the Loganiaceae family native to inland areas of the Southeastern and Midwestern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"

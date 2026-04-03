@@ -143,7 +143,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c01b0c63b8f3d073dc822fe5292156a13bbea55d",
-    "description": null,
+    "description": "A loculicidal woody capsule, 1 inch long.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -166,27 +166,34 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
-      "soil_types": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
       "fertilizer_type": null,
       "fertilizer_freq": null,
       "fertilizer_season": null,
-      "height_min_cm": null,
-      "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
+      "height_min_cm": 180,
+      "height_max_cm": 420,
+      "lifecycle": "perennial",
+      "difficulty": "Easy",
+      "growth_rate": "Rapid",
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: subtropical",
+      "tips": "Similar plants: Camellia japonica | Native to: VIE OO, JAP, ASIA TROPICAL, ASS MA, JAP SH",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Camellias are susceptible to a number of fungal diseases, including leaf spots, anthracnose, viruses, black mold, petal blight, canker, and root rot.",
+        "All camellias are susceptible to petal blight fungus; however, weather conditions are generally not favorable for the fungus to germinate when sasanqua camellias bloom in the fall.",
+        "If petal blight occurs (browning that runs from the edges t"
+      ],
+      "common_pests": [
+        "Scale can be a troublesome insect pest.",
+        "Aphids, planthoppers, and spider mites may also cause problems."
+      ]
     },
     "common_names": {
       "en": [

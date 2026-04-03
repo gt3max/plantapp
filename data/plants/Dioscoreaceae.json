@@ -442,7 +442,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1f534c98c87d06162fa5f6e5d95260a0.jpg",
-    "description": null,
+    "description": "Dioscorea japonica, known as East Asian mountain yam, yamaimo, or Japanese mountain yam, is a type of yam (Dioscorea) native to Japan, Korea, China, Taiwan, and Assam.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -870,7 +870,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/19df3a17ada230e91ac831690652b02dfd3aedb1",
-    "description": null,
+    "description": "Seeds are winged and released from a capsule that splits open",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -894,7 +894,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "High Organic Matter, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -903,17 +903,23 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
+      "lifecycle": "perennial",
+      "difficulty": "Hard",
+      "growth_rate": "Rapid",
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Lonicera japonica",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "No significant problems in this country.",
+        "However yams can be susceptible to fungal and viral diseases, scale, nematodes and mealybugs.",
+        "This species is listed as invasive by the NC Invasive Plant Council."
+      ],
+      "common_pests": [
+        "However yams can be susceptible to fungal and viral diseases, scale, nematodes and mealybugs."
+      ]
     },
     "common_names": {
       "en": [

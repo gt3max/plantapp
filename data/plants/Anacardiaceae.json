@@ -97,7 +97,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -107,12 +107,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: seasonally dry tropical",
+      "tips": "Native to: WESTERN SOUTH AMERICA, BZC DF, BZL ES, BZN RO, BZC GO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -221,7 +221,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -231,12 +231,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: seasonally dry tropical",
+      "tips": "Native to: AGE SF, BZE BA, CLM, NORTHERN SOUTH AMERICA, BZL RJ",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -469,7 +469,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "Average humidity (temperate climate)",
       "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -483,8 +483,8 @@
       "difficulty": "Easy",
       "growth_rate": "Rapid",
       "watering_guide": null,
-      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
-      "tips": "Similar plants: Cercis canadensis",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
+      "tips": "Similar plants: Cercis canadensis | Native to: NCS ST, NCS KC, CHN SX, EASTERN ASIA, NWY OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -1435,7 +1435,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/918abdb192fc867ff478415a916d33b677b12131",
-    "description": null,
+    "description": "Pistacia chinensis, the Chinese pistache, is a small to medium-sized tree in the genus Pistacia in the cashew family Anacardiaceae, native to central and western China. This species is planted as a street tree in temperate areas worldwide due to its attractive fruit and autumn foliage.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1691,7 +1691,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/70bb00fff3a8609bb523fed353bc9e23edec9cf0",
-    "description": null,
+    "description": "The pistachio is a small to medium-sized tree of the cashew family. The tree produces seeds that are widely consumed as food. Pistachios are eaten whole, and can be used as an ingredient in desserts, chocolate, candy, ice cream, and as a paste or butter. As a tree nut, pistachios are considered a priority allergen that may induce allergic reactions in susceptible people.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1879,7 +1879,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cd579c2aaa5fc3484745326604ee52fc4829a35c",
-    "description": null,
+    "description": "Rhus chinensis, the Chinese sumac or nutgall tree, is a deciduous shrub or small tree in the genus Rhus. Growing to 6 m (20 ft) tall, it has downy shoots and leaves comprising several leaflets. These turn red in autumn before falling.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1943,7 +1943,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c810a71d5a9749422fd658813ae2bf3511313b9c",
-    "description": null,
+    "description": "Rhus coriaria, commonly called Sicilian sumac, tanner's sumach, or elm-leaved sumach, is a deciduous shrub to small tree in the cashew family Anacardiaceae. It is native to southern Europe and western Asia. The dried fruits are used as a spice, particularly in combination with other spices in the mixture called za'atar.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3319,7 +3319,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4e1bc210ce771b0c2f659c2b9d770f5af2081c6c",
-    "description": null,
+    "description": "Spondias purpurea is a species of flowering plant in the cashew family, Anacardiaceae, that is native to tropical regions of the Americas, from Mexico to northern Colombia and the southwest Caribbean Islands. It has also been introduced to and naturalized to other parts of the American tropics, Southeast Asia, and West Africa. It is commonly known as jocote, which derives from the Nahuatl word xocotl, meaning any kind of sour or acidic fruit.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3507,7 +3507,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/970d13c6a809a7a5f4225b35a889a21e9c1e6171",
-    "description": null,
+    "description": "Tapirira guianensis is a species of plant in the family Anacardiaceae. It is native to Cerrado and Atlantic Forest (ecoregions) vegetation in Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3687,7 +3687,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b0bd57b7138a1156f49320ca13beb71c18089328",
-    "description": null,
+    "description": "Toxicodendron diversilobum, commonly named Pacific poison oak or western poison oak, is a woody vine or shrub in the sumac family, Anacardiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"

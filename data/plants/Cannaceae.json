@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/fe63592e4d813439e591b623b966fe02dee919cc",
-    "description": null,
+    "description": "Prickly 3-parted capsule",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -33,27 +33,31 @@
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
-      "soil_types": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
       "fertilizer_type": null,
       "fertilizer_freq": null,
       "fertilizer_season": null,
-      "height_min_cm": null,
-      "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
+      "height_min_cm": 60,
+      "height_max_cm": 180,
+      "lifecycle": "bulb",
+      "difficulty": "Medium",
       "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "watering_guide": "Propagation: Division",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: seasonally dry tropical",
+      "tips": "Similar plants: Canna | Native to: AGW SJ, BZC GO, BZE PB, AGE FO, PHI OO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "Keep in mind that rhizomes may rot in poorly drained wet soils and the plants are susceptible to damage from aster yellows."
+      ],
+      "common_pests": [
+        "Japanese beetles, leaf-rolling caterpillars, slugs and snails that are known to chew on the foliage."
+      ]
     },
     "common_names": {
       "en": [

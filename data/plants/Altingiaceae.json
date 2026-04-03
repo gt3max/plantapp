@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/46c0241250211e3600ec0a2140e434c59492fb25",
-    "description": null,
+    "description": "Dark brown, spherical burr-like cluster 1.5  in diameter appear in late summer and can persist into winter. Fruit is less woody and softer than L. styraciflua so are not as much of a stepping hazard.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -34,26 +34,30 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": null,
-      "soil_types": null,
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
       "fertilizer_type": null,
       "fertilizer_freq": null,
       "fertilizer_season": null,
-      "height_min_cm": null,
-      "height_max_cm": null,
-      "lifecycle": null,
-      "difficulty": null,
-      "growth_rate": null,
-      "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "height_min_cm": 1200,
+      "height_max_cm": 1800,
+      "lifecycle": "woody",
+      "difficulty": "Hard",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Nyssa sylvatica",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
-      "common_problems": null,
-      "common_pests": null
+      "common_problems": [
+        "May be attacked by canker disease."
+      ],
+      "common_pests": [
+        "May be susceptible to bagworm, fall webworm, leaf miner, tent caterpillar and cottony cushion scale."
+      ]
     },
     "common_names": {
       "en": [

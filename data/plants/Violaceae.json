@@ -33,7 +33,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -43,12 +43,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: seasonally dry tropical",
+      "tips": "Native to: ECU, BZE BA, BZL RJ, NORTHERN SOUTH AMERICA, CLM",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -153,7 +153,7 @@
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": null,
+      "humidity_action": "High humidity preferred (tropical climate)",
       "soil_types": null,
       "soil_ph_min": null,
       "soil_ph_max": null,
@@ -163,12 +163,12 @@
       "fertilizer_season": null,
       "height_min_cm": null,
       "height_max_cm": null,
-      "lifecycle": null,
+      "lifecycle": "perennial",
       "difficulty": null,
       "growth_rate": null,
       "watering_guide": null,
-      "light_guide": null,
-      "tips": null,
+      "light_guide": "Climate: wet tropical",
+      "tips": "Native to: ECU, NIC OO, BZE BA, CLM, NORTHERN SOUTH AMERICA",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
       "toxicity_note": null,
@@ -1822,7 +1822,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b9ed8c208e1b3327d2c044a3ed1346f9dc446a76",
-    "description": null,
+    "description": "Viola alba, commonly known as white violet, is a species of violet in the family Violaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2938,7 +2938,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d62b2ba4ebb7360f020b3a1a50e03c050d4c19d0",
-    "description": null,
+    "description": "Viola cornuta, known as horned pansy or horned violet, is a species of flowering plant in the violet family Violaceae, native to the Pyrenees and the Cordillera Cantábrica of northern Spain at an altitude of 1,000–2,300 metres (3,300–7,500 ft). It is a low-growing, clump-forming temperate evergreen perennial, reaching 50 cm (20 in) in height and spread. It has mid-green ovate leaves with rounded teeth, and masses of delicate pale violet flowers in early summer.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3249,8 +3249,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Viola_epipsila_5773.jpg",
+    "description": "Viola epipsila, the dwarf marsh violet, is a species of perennial forb in the genus Viola.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5178,7 +5178,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9341e15fd0c4b9fd681cf9713ec604a79f851f7a",
-    "description": null,
+    "description": "Viola pedunculata, the California golden violet, Johnny jump up, or yellow pansy, is a perennial yellow wildflower of the coast and coastal ranges in California and northwestern Baja California. However, the common name \"Johnny jump up\" is usually associated with Viola tricolor, an introduced garden annual.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6118,7 +6118,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ec9152b111e5181740e85c708a42bb6016ac8631",
-    "description": null,
+    "description": "Viola rupestris is a species of flowering plant belonging to the family Violaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6374,7 +6374,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/57921622521891238430108caf451e7284d5786b",
-    "description": null,
+    "description": "Viola sororia, known commonly as the common blue violet, is a short-stemmed herbaceous perennial plant native to eastern North America. It is known by a number of common names, including common meadow violet, purple violet, woolly blue violet, hooded violet, and wood violet.",
     "wikidata_id": null,
     "sources": [
       "trefle"
