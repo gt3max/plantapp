@@ -80,17 +80,50 @@ def parse_pests_diseases(html):
     return pests, diseases
 
 
+def parse_care_sections(html):
+    """Extract care sections beyond just pests: propagation, pruning, soil, watering, fertilizer."""
+    sections = {}
+
+    # Pattern: heading followed by content until next heading
+    # GardenersWorld uses h2/h3 for section titles
+    headings_map = {
+        'propagat': 'propagation',
+        'prun': 'pruning',
+        'soil': 'soil',
+        'water': 'watering',
+        'feed': 'fertilizer',
+        'fertili': 'fertilizer',
+        'plant': 'planting',
+        'harvest': 'harvest',
+    }
+
+    # Find all h2/h3 sections
+    for m in re.finditer(r'<h[23][^>]*>([^<]+)</h[23]>\s*(.*?)(?=<h[23]|</article|</section)', html, re.DOTALL):
+        heading = m.group(1).strip().lower()
+        content = re.sub(r'<[^>]+>', ' ', m.group(2)).strip()
+        content = re.sub(r'\s+', ' ', content)
+
+        if len(content) < 15:
+            continue
+
+        for keyword, section_name in headings_map.items():
+            if keyword in heading:
+                sections[section_name] = content[:500]
+                break
+
+    return sections
+
+
 def enrich_from_gardenersworld(limit=100):
     """Fetch GardenersWorld data for plants in our DB."""
-    # Get plants that need pests/diseases data
     rows = turso_query('''
         SELECT p.plant_id, p.scientific, cn.name as common_name
         FROM plants p
         LEFT JOIN care c ON p.plant_id = c.plant_id
         LEFT JOIN common_names cn ON p.plant_id = cn.plant_id AND cn.is_primary = 1
-        WHERE (c.common_pests IS NULL OR c.common_pests = '' OR c.common_pests = '[]')
-          AND p.image_url IS NOT NULL AND p.image_url != ''
+        WHERE p.image_url IS NOT NULL AND p.image_url != ''
         ORDER BY
+            CASE WHEN c.common_pests IS NULL OR c.common_pests = '' OR c.common_pests = '[]' THEN 0 ELSE 1 END,
             CASE WHEN p.sources LIKE ? THEN 0 ELSE 1 END,
             p.scientific
         LIMIT ?
@@ -125,8 +158,9 @@ def enrich_from_gardenersworld(limit=100):
                 continue
 
             pests, diseases = parse_pests_diseases(html)
+            care_sections = parse_care_sections(html)
 
-            if not pests and not diseases:
+            if not pests and not diseases and not care_sections:
                 not_found += 1
                 continue
 
@@ -142,11 +176,44 @@ def enrich_from_gardenersworld(limit=100):
                     [json.dumps(diseases[:5]), pid]
                 ))
 
+            # New care sections
+            if care_sections.get('propagation'):
+                statements.append((
+                    "UPDATE care SET propagation_detail = CASE WHEN propagation_detail IS NULL OR propagation_detail = '' THEN ? ELSE propagation_detail END WHERE plant_id = ?",
+                    [care_sections['propagation'], pid]
+                ))
+            if care_sections.get('pruning'):
+                statements.append((
+                    "UPDATE care SET pruning_info = CASE WHEN pruning_info IS NULL OR pruning_info = '' THEN ? ELSE pruning_info END WHERE plant_id = ?",
+                    [care_sections['pruning'], pid]
+                ))
+            if care_sections.get('soil'):
+                statements.append((
+                    "UPDATE care SET soil_types = CASE WHEN soil_types IS NULL OR soil_types = '' THEN ? ELSE soil_types END WHERE plant_id = ?",
+                    [care_sections['soil'][:200], pid]
+                ))
+            if care_sections.get('watering'):
+                statements.append((
+                    "UPDATE care SET watering_method = CASE WHEN watering_method IS NULL OR watering_method = '' THEN ? ELSE watering_method END WHERE plant_id = ?",
+                    [care_sections['watering'][:300], pid]
+                ))
+            if care_sections.get('fertilizer'):
+                statements.append((
+                    "UPDATE care SET fertilizer_type = CASE WHEN fertilizer_type IS NULL OR fertilizer_type = '' THEN ? ELSE fertilizer_type END WHERE plant_id = ?",
+                    [care_sections['fertilizer'][:200], pid]
+                ))
+            if care_sections.get('harvest'):
+                statements.append((
+                    "UPDATE care SET harvest_info = CASE WHEN harvest_info IS NULL OR harvest_info = '' THEN ? ELSE harvest_info END WHERE plant_id = ?",
+                    [care_sections['harvest'][:300], pid]
+                ))
+
             if statements:
                 turso_batch(statements)
                 enriched += 1
+                extras = list(care_sections.keys())
                 if enriched <= 5:
-                    print(f"  + {scientific}: pests={len(pests)}, diseases={len(diseases)}")
+                    print(f"  + {scientific}: pests={len(pests)}, diseases={len(diseases)}, sections={extras}")
 
             if (i + 1) % 20 == 0:
                 print(f"[GardenersWorld] Progress: {i+1}/{len(rows)}, enriched: {enriched}")

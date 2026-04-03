@@ -9,42 +9,104 @@ import json
 
 @dataclass
 class CareData:
+    # ── Water ──
     water_frequency: str = ''
     water_winter: str = ''
     water_demand: str = ''          # low/medium/high
-    start_pct: int = 0
-    stop_pct: int = 0
+    watering_method: str = ''       # "Water over soil at base, avoid wetting leaves"
+    watering_avoid: str = ''        # "#1 mistake: overwatering kills roots"
+    watering_guide: str = ''
+    start_pct: int = 0              # soil moisture sensor start %
+    stop_pct: int = 0               # soil moisture sensor stop %
+
+    # ── Light ──
     light_preferred: str = ''
     light_also_ok: str = ''
     ppfd_min: int = 0
     ppfd_max: int = 0
     dli_min: float = 0.0
     dli_max: float = 0.0
-    temp_min_c: int = 0
-    temp_max_c: int = 0
+    light_guide: str = ''
+
+    # ── Temperature ──
+    temp_min_c: int = 0             # survival minimum
+    temp_max_c: int = 0             # survival maximum
+    temp_opt_low_c: int = 0         # ideal range low
+    temp_opt_high_c: int = 0        # ideal range high
+    temp_winter_low_c: int = 0      # winter regime low
+    temp_winter_high_c: int = 0     # winter regime high
+    temp_warning: str = ''          # "Below 10°C kills basil"
+
+    # ── Humidity ──
     humidity_level: str = ''
     humidity_min_pct: int = 0
     humidity_action: str = ''
+
+    # ── Soil & Repotting ──
     soil_types: str = ''
     soil_ph_min: float = 0.0
     soil_ph_max: float = 0.0
+    pot_type: str = ''              # "Terracotta — lets soil breathe"
+    pot_size_note: str = ''         # "Prefers snug pot"
     repot_frequency: str = ''
+    repot_signs: str = ''           # "Roots growing out of drainage holes"
+
+    # ── Fertilizing ──
     fertilizer_type: str = ''
     fertilizer_freq: str = ''
     fertilizer_season: str = ''
+    fertilizer_npk: str = ''        # "10-10-10 or 2-7-7"
+    fertilizer_warning: str = ''    # "Over-fertilizing causes salt buildup"
+
+    # ── Size ──
     height_min_cm: int = 0
     height_max_cm: int = 0
+    height_indoor_max_cm: int = 0
+    spread_max_cm: int = 0
+
+    # ── Lifecycle & Difficulty ──
     lifecycle: str = ''             # perennial/annual/biennial
     difficulty: str = ''            # easy/moderate/hard
+    difficulty_note: str = ''       # "Tolerates neglect. #1 killer: overwatering"
     growth_rate: str = ''           # slow/moderate/fast
-    watering_guide: str = ''
-    light_guide: str = ''
-    tips: str = ''
+
+    # ── Toxicity ──
     toxic_to_pets: bool = False
     toxic_to_humans: bool = False
     toxicity_note: str = ''
+    toxic_parts: str = ''           # "All parts (leaves, stems, sap)"
+    toxicity_severity: str = ''     # mild/moderate/severe
+    toxicity_symptoms: str = ''     # "Vomiting, lethargy, diarrhea"
+    toxicity_first_aid: str = ''    # "Rinse mouth, call vet if symptoms persist"
+
+    # ── Used for ──
+    used_for: list[str] = field(default_factory=list)        # ["Decorative", "Aromatic"]
+    used_for_details: str = ''
+
+    # ── Harvest (edible only) ──
+    edible_parts: str = ''          # "Leaves, flowers, seeds"
+    harvest_info: str = ''          # "Harvest from top, cutting above leaf pair"
+
+    # ── Pruning ──
+    pruning_info: str = ''          # Dedicated pruning field (not buried in tips)
+
+    # ── Propagation ──
+    propagation_methods: list[str] = field(default_factory=list)  # ["Seeds", "Stem cuttings"]
+    propagation_detail: str = ''    # Step-by-step instructions
+    germination_days: int = 0
+    germination_temp_c: str = ''    # "20-25°C"
+
+    # ── Companions ──
+    good_companions: list[str] = field(default_factory=list)
+    bad_companions: list[str] = field(default_factory=list)
+    companion_note: str = ''        # "Basil repels aphids from tomatoes"
+
+    # ── Problems & Pests (for AI Doctor prep) ──
     common_problems: list[str] = field(default_factory=list)
     common_pests: list[str] = field(default_factory=list)
+
+    # ── Tips / Guides ──
+    tips: str = ''
 
     def to_dict(self) -> dict:
         d = {}
@@ -74,6 +136,9 @@ class PlantRecord:
     image_url: str = ''
     description: str = ''
     wikidata_id: str = ''
+    origin: str = ''                # "South Africa, Mozambique"
+    order_name: str = ''            # Taxonomic order (Saxifragales, Lamiales, etc.)
+    synonyms: list[str] = field(default_factory=list)  # Scientific name synonyms
     sources: list[str] = field(default_factory=list)
     updated_at: str = ''
 
@@ -104,6 +169,9 @@ class PlantRecord:
             'image_url': self.image_url,
             'description': self.description,
             'wikidata_id': self.wikidata_id,
+            'origin': self.origin,
+            'order_name': self.order_name,
+            'synonyms': self.synonyms,
             'sources': self.sources,
             'updated_at': self.updated_at,
             'common_names': self.common_names,
@@ -134,6 +202,7 @@ class PlantRecord:
         )
         for k in ('genus', 'category', 'indoor', 'edible', 'has_phases',
                    'preset', 'image_url', 'description', 'wikidata_id',
+                   'origin', 'order_name', 'synonyms',
                    'sources', 'updated_at', 'common_names', 'tags', 'external_ids'):
             if k in d and d[k] is not None:
                 setattr(rec, k, d[k])

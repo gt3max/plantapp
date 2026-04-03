@@ -145,23 +145,45 @@ def enrich_from_permapeople_web(max_pages=10):
                     pid = existing[0]['plant_id']
                     statements = []
 
-                    # Companions — this is the golden data!
+                    # Companions → proper columns now!
                     if data.get('companions'):
                         good = data['companions'][:10]
-                        bad = data.get('antagonists', [])[:5]
-                        companion_text = 'Good companions: ' + ', '.join(good)
-                        if bad:
-                            companion_text += ' | Keep apart: ' + ', '.join(bad)
                         statements.append((
-                            "UPDATE care SET tips = CASE WHEN tips IS NULL OR tips = '' THEN ? WHEN tips NOT LIKE ? THEN tips || ' | ' || ? ELSE tips END WHERE plant_id = ?",
-                            [companion_text, '%companions%', companion_text, pid]
+                            "UPDATE care SET good_companions = CASE WHEN good_companions IS NULL OR good_companions = '' OR good_companions = '[]' THEN ? ELSE good_companions END WHERE plant_id = ?",
+                            [json.dumps(good), pid]
+                        ))
+                    if data.get('antagonists'):
+                        bad = data['antagonists'][:5]
+                        statements.append((
+                            "UPDATE care SET bad_companions = CASE WHEN bad_companions IS NULL OR bad_companions = '' OR bad_companions = '[]' THEN ? ELSE bad_companions END WHERE plant_id = ?",
+                            [json.dumps(bad), pid]
                         ))
 
-                    # Propagation
+                    # Propagation → proper column
                     if data.get('propagation'):
+                        methods = [m.strip() for m in data['propagation'].split(',')]
                         statements.append((
-                            "UPDATE care SET watering_guide = CASE WHEN watering_guide IS NULL OR watering_guide = '' THEN ? WHEN watering_guide NOT LIKE ? THEN watering_guide || ' | Propagation: ' || ? ELSE watering_guide END WHERE plant_id = ?",
-                            [f"Propagation: {data['propagation']}", '%Propagation%', data['propagation'], pid]
+                            "UPDATE care SET propagation_methods = CASE WHEN propagation_methods IS NULL OR propagation_methods = '' OR propagation_methods = '[]' THEN ? ELSE propagation_methods END WHERE plant_id = ?",
+                            [json.dumps(methods), pid]
+                        ))
+                        statements.append((
+                            "UPDATE care SET propagation_detail = CASE WHEN propagation_detail IS NULL OR propagation_detail = '' THEN ? ELSE propagation_detail END WHERE plant_id = ?",
+                            [data['propagation'], pid]
+                        ))
+
+                    # Edible parts
+                    if data.get('edible_parts'):
+                        statements.append((
+                            "UPDATE care SET edible_parts = CASE WHEN edible_parts IS NULL OR edible_parts = '' THEN ? ELSE edible_parts END WHERE plant_id = ?",
+                            [data['edible_parts'], pid]
+                        ))
+
+                    # Used for
+                    if data.get('used_for'):
+                        uses_list = [u.strip() for u in data['used_for'].split(',')]
+                        statements.append((
+                            "UPDATE care SET used_for = CASE WHEN used_for IS NULL OR used_for = '' OR used_for = '[]' THEN ? ELSE used_for END WHERE plant_id = ?",
+                            [json.dumps(uses_list), pid]
                         ))
 
                     if statements:

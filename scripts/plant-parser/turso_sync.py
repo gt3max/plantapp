@@ -138,6 +138,59 @@ def _extract_value(cell):
     return val
 
 
+def upsert_care_fields(plant_id: str, fields: dict, overwrite: bool = False):
+    """Update care fields for a plant. Only fills empty fields unless overwrite=True.
+
+    Usage:
+        upsert_care_fields('monstera_deliciosa', {
+            'soil_types': 'Well-draining mix',
+            'difficulty': 'Easy',
+            'propagation_methods': '["Stem cuttings", "Division"]',
+        })
+    """
+    if not fields:
+        return
+    stmts = []
+    for col, val in fields.items():
+        if val is None:
+            continue
+        if overwrite:
+            stmts.append((
+                f"UPDATE care SET {col} = ? WHERE plant_id = ?",
+                [val, plant_id],
+            ))
+        else:
+            # Only fill if currently NULL or empty
+            stmts.append((
+                f"UPDATE care SET {col} = CASE WHEN {col} IS NULL OR {col} = '' OR {col} = '[]' THEN ? ELSE {col} END WHERE plant_id = ?",
+                [val, plant_id],
+            ))
+    if stmts:
+        turso_batch(stmts)
+
+
+def upsert_plant_fields(plant_id: str, fields: dict, overwrite: bool = False):
+    """Update plants table fields. Only fills empty fields unless overwrite=True."""
+    if not fields:
+        return
+    stmts = []
+    for col, val in fields.items():
+        if val is None:
+            continue
+        if overwrite:
+            stmts.append((
+                f"UPDATE plants SET {col} = ? WHERE plant_id = ?",
+                [val, plant_id],
+            ))
+        else:
+            stmts.append((
+                f"UPDATE plants SET {col} = CASE WHEN {col} IS NULL OR {col} = '' THEN ? ELSE {col} END WHERE plant_id = ?",
+                [val, plant_id],
+            ))
+    if stmts:
+        turso_batch(stmts)
+
+
 def test_connection():
     """Test Turso connection and print table info."""
     try:

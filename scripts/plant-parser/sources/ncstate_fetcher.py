@@ -23,7 +23,7 @@ if env_path.exists():
             key, val = line.split('=', 1)
             os.environ.setdefault(key.strip(), val.strip())
 
-from turso_sync import turso_query, turso_batch
+from turso_sync import turso_query, turso_batch, upsert_care_fields, upsert_plant_fields
 
 BASE_URL = 'https://plants.ces.ncsu.edu'
 DELAY = 1.0  # Polite: 1 second between requests
@@ -132,12 +132,16 @@ def enrich_from_ncstate(limit=100):
                     [f"NC State: {data['light']}", pid]
                 ))
 
-            # Propagation
+            # Propagation → proper field now
             if data.get('propagation'):
-                # This is propagation detail we've been missing!
+                methods = [m.strip() for m in data['propagation'].split(',')]
                 statements.append((
-                    "UPDATE care SET watering_guide = CASE WHEN watering_guide IS NULL OR watering_guide = '' THEN ? ELSE watering_guide END WHERE plant_id = ?",
-                    [f"Propagation: {data['propagation']}", pid]
+                    "UPDATE care SET propagation_methods = CASE WHEN propagation_methods IS NULL OR propagation_methods = '' OR propagation_methods = '[]' THEN ? ELSE propagation_methods END WHERE plant_id = ?",
+                    [json.dumps(methods), pid]
+                ))
+                statements.append((
+                    "UPDATE care SET propagation_detail = CASE WHEN propagation_detail IS NULL OR propagation_detail = '' THEN ? ELSE propagation_detail END WHERE plant_id = ?",
+                    [f"NC State recommends: {data['propagation']}", pid]
                 ))
 
             # Insects & diseases → split into pests and problems separately
@@ -234,13 +238,76 @@ def enrich_from_ncstate(limit=100):
                     [f"Similar plants: {similar}", f"%Similar plants%", f" | Similar plants: {similar}", pid]
                 ))
 
-            # Uses/Edibility
-            uses_parts = []
+            # Origin → plants.origin
+            if data.get('origin'):
+                statements.append((
+                    "UPDATE plants SET origin = CASE WHEN origin IS NULL OR origin = '' THEN ? ELSE origin END WHERE plant_id = ?",
+                    [data['origin'], pid]
+                ))
+
+            # Soil pH
+            if data.get('soil_ph'):
+                ph_text = data['soil_ph']
+                ph_nums = re.findall(r'(\d+\.?\d*)', ph_text)
+                if ph_nums:
+                    ph_min = float(ph_nums[0])
+                    ph_max = float(ph_nums[-1]) if len(ph_nums) > 1 else ph_min
+                    statements.append((
+                        "UPDATE care SET soil_ph_min = CASE WHEN soil_ph_min IS NULL OR soil_ph_min = 0 THEN ? ELSE soil_ph_min END, soil_ph_max = CASE WHEN soil_ph_max IS NULL OR soil_ph_max = 0 THEN ? ELSE soil_ph_max END WHERE plant_id = ?",
+                        [ph_min, ph_max, pid]
+                    ))
+
+            # Dimensions → also parse spread (Width)
+            if data.get('dimensions'):
+                dims = data['dimensions']
+                spread_m = re.search(r'Width:\s*(\d+)\s*ft', dims)
+                if spread_m:
+                    spread_vals = re.findall(r'Width:.*?(\d+)\s*ft', dims)
+                    if spread_vals:
+                        spread_cm = int(spread_vals[-1]) * 30
+                        statements.append((
+                            "UPDATE care SET spread_max_cm = CASE WHEN spread_max_cm IS NULL OR spread_max_cm = 0 THEN ? ELSE spread_max_cm END WHERE plant_id = ?",
+                            [spread_cm, pid]
+                        ))
+
+            # Hardiness zone → more precise temp_min_c
+            if data.get('hardiness_zone'):
+                zone_text = data['hardiness_zone']
+                zone_nums = re.findall(r'(\d+)', zone_text)
+                if zone_nums:
+                    zone_min = int(zone_nums[0])
+                    zone_temps = {1:-51,2:-45,3:-40,4:-34,5:-29,6:-23,7:-18,8:-12,9:-7,10:-1,11:4,12:10,13:15}
+                    if zone_min in zone_temps:
+                        statements.append((
+                            "UPDATE care SET temp_min_c = CASE WHEN temp_min_c IS NULL OR temp_min_c = 0 THEN ? ELSE temp_min_c END WHERE plant_id = ?",
+                            [zone_temps[zone_min], pid]
+                        ))
+
+            # Uses → used_for
             if data.get('uses'):
-                uses_parts.append(data['uses'])
+                uses_list = [u.strip() for u in data['uses'].split(',')]
+                statements.append((
+                    "UPDATE care SET used_for = CASE WHEN used_for IS NULL OR used_for = '' OR used_for = '[]' THEN ? ELSE used_for END WHERE plant_id = ?",
+                    [json.dumps(uses_list), pid]
+                ))
+                statements.append((
+                    "UPDATE care SET used_for_details = CASE WHEN used_for_details IS NULL OR used_for_details = '' THEN ? ELSE used_for_details END WHERE plant_id = ?",
+                    [data['uses'], pid]
+                ))
+
+            # Edibility → edible_parts
             if data.get('edibility'):
-                uses_parts.append(f"Edible: {data['edibility']}")
-            # Store in watering_guide as temp field (or we need a used_for column)
+                statements.append((
+                    "UPDATE care SET edible_parts = CASE WHEN edible_parts IS NULL OR edible_parts = '' THEN ? ELSE edible_parts END WHERE plant_id = ?",
+                    [data['edibility'], pid]
+                ))
+
+            # Habit/Form → can inform difficulty_note
+            if data.get('habit_form'):
+                statements.append((
+                    "UPDATE care SET difficulty_note = CASE WHEN difficulty_note IS NULL OR difficulty_note = '' THEN ? ELSE difficulty_note END WHERE plant_id = ?",
+                    [f"Growth habit: {data['habit_form']}", pid]
+                ))
 
             if statements:
                 turso_batch(statements)

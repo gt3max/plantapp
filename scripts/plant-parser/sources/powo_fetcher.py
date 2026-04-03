@@ -147,13 +147,30 @@ def enrich_from_powo(limit=500):
                         ))
                         break
 
-            # Native distribution → origin
+            # Native distribution → plants.origin (proper field now!)
             if native:
                 origin_text = ', '.join(native[:5])
-                # Store in tips as supplement
                 statements.append((
-                    "UPDATE care SET tips = CASE WHEN tips IS NULL OR tips = '' THEN ? WHEN tips NOT LIKE ? THEN tips || ? ELSE tips END WHERE plant_id = ?",
-                    [f"Native to: {origin_text}", f"%Native to%", f" | Native to: {origin_text}", pid]
+                    "UPDATE plants SET origin = CASE WHEN origin IS NULL OR origin = '' THEN ? ELSE origin END WHERE plant_id = ?",
+                    [origin_text, pid]
+                ))
+
+            # Synonyms
+            synonyms = detail.get('synonyms', []) or []
+            if synonyms:
+                syn_names = [s.get('name', '') for s in synonyms if s.get('name')][:10]
+                if syn_names:
+                    statements.append((
+                        "UPDATE plants SET synonyms = CASE WHEN synonyms IS NULL OR synonyms = '' THEN ? ELSE synonyms END WHERE plant_id = ?",
+                        [json.dumps(syn_names), pid]
+                    ))
+
+            # Taxonomic order
+            taxon_order = detail.get('order', '') or ''
+            if taxon_order:
+                statements.append((
+                    "UPDATE plants SET order_name = CASE WHEN order_name IS NULL OR order_name = '' THEN ? ELSE order_name END WHERE plant_id = ?",
+                    [taxon_order, pid]
                 ))
 
             if statements:

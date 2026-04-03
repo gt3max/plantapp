@@ -180,6 +180,13 @@ def map_to_plant_record(data):
     else:
         category = 'decorative'
 
+    # Propagation methods (was extracted but ignored!)
+    propagation_methods = [p.strip() for p in propagation if p and p.strip()] if isinstance(propagation, list) else []
+
+    # Origin
+    origin = data.get('origin', []) or []
+    origin_str = ', '.join(origin) if isinstance(origin, list) else str(origin) if origin else ''
+
     care = CareData(
         water_frequency=water_freq,
         water_demand=data.get('watering', '') or '',
@@ -197,6 +204,7 @@ def map_to_plant_record(data):
         toxicity_note='Toxic to pets and/or humans' if data.get('poisonous_to_pets') or data.get('poisonous_to_humans') else '',
         common_pests=pests,
         common_problems=diseases,
+        propagation_methods=propagation_methods,
         tips=data.get('description', '')[:200] if data.get('description') else '',
     )
 
@@ -211,6 +219,7 @@ def map_to_plant_record(data):
         preset=preset,
         image_url=image_url,
         description=data.get('description', '') or '',
+        origin=origin_str,
         sources=['perenual'],
         common_names={'en': names_en} if names_en else {},
         tags=tags,
@@ -229,11 +238,11 @@ def upsert_plant(record):
 
     # Plants table
     statements.append((
-        '''INSERT OR REPLACE INTO plants (plant_id, scientific, family, genus, category, indoor, edible, has_phases, preset, image_url, description, sources, updated_at)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''',
+        '''INSERT OR REPLACE INTO plants (plant_id, scientific, family, genus, category, indoor, edible, has_phases, preset, image_url, description, origin, sources, updated_at)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''',
         [record.plant_id, record.scientific, record.family, record.genus,
          record.category, int(record.indoor), int(record.edible), int(record.has_phases),
-         record.preset, record.image_url, record.description,
+         record.preset, record.image_url, record.description, record.origin,
          json.dumps(record.sources), now]
     ))
 

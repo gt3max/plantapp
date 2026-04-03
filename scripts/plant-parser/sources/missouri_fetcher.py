@@ -47,13 +47,11 @@ def parse_profile_text(text):
                 data[field.lower().replace(' ', '_')] = line[len(field)+1:].strip()
                 break
 
-    # Extract text sections
-    for section in ['Culture', 'Noteworthy Characteristics', 'Problems']:
+    # Extract text sections (longer limits for richer data)
+    for section in ['Culture', 'Noteworthy Characteristics', 'Problems', 'Garden Uses', 'Native Range']:
         idx = text.find(section)
         if idx >= 0:
-            # Get text until next section or end
             remaining = text[idx + len(section):]
-            # Find next section header
             next_section = len(remaining)
             for ns in ['Culture', 'Noteworthy', 'Problems', 'Garden Uses', 'Native Range']:
                 ns_idx = remaining.find(ns)
@@ -61,7 +59,8 @@ def parse_profile_text(text):
                     next_section = ns_idx
             section_text = remaining[:next_section].strip()
             if section_text:
-                data[section.lower().replace(' ', '_')] = section_text[:500]
+                key = section.lower().replace(' ', '_')
+                data[key] = section_text[:800]
 
     return data
 
@@ -181,6 +180,65 @@ def enrich_from_missouri(plants_to_check, browser_page):
                         "UPDATE care SET temp_min_c = CASE WHEN temp_min_c IS NULL OR temp_min_c = 0 THEN ? ELSE temp_min_c END WHERE plant_id = ?",
                         [temp_min, pid]
                     ))
+
+            # Spread
+            if data.get('spread'):
+                spreads = re.findall(r'(\d+(?:\.\d+)?)', data['spread'])
+                if spreads:
+                    s_max = int(float(spreads[-1]) * 30.48)
+                    statements.append((
+                        "UPDATE care SET spread_max_cm = CASE WHEN spread_max_cm IS NULL OR spread_max_cm = 0 THEN ? ELSE spread_max_cm END WHERE plant_id = ?",
+                        [s_max, pid]
+                    ))
+
+            # Suggested Use → used_for
+            if data.get('suggested_use'):
+                uses_list = [u.strip() for u in data['suggested_use'].split(',')]
+                statements.append((
+                    "UPDATE care SET used_for = CASE WHEN used_for IS NULL OR used_for = '' OR used_for = '[]' THEN ? ELSE used_for END WHERE plant_id = ?",
+                    [json.dumps(uses_list), pid]
+                ))
+
+            # Native Range → plants.origin
+            if data.get('native_range'):
+                statements.append((
+                    "UPDATE plants SET origin = CASE WHEN origin IS NULL OR origin = '' THEN ? ELSE origin END WHERE plant_id = ?",
+                    [data['native_range'][:200], pid]
+                ))
+
+            # Culture → extract pruning info if present
+            culture = data.get('culture', '')
+            if culture:
+                # Look for pruning sentences
+                culture_sents = [s.strip() for s in re.split(r'[.!]', culture) if s.strip()]
+                pruning_sents = [s for s in culture_sents if any(w in s.lower() for w in ['prun', 'trim', 'cut back', 'deadhead', 'pinch'])]
+                if pruning_sents:
+                    statements.append((
+                        "UPDATE care SET pruning_info = CASE WHEN pruning_info IS NULL OR pruning_info = '' THEN ? ELSE pruning_info END WHERE plant_id = ?",
+                        ['. '.join(pruning_sents[:2]) + '.', pid]
+                    ))
+
+                # Look for soil/fertilizer mentions
+                soil_sents = [s for s in culture_sents if any(w in s.lower() for w in ['soil', 'drain', 'compost', 'mulch'])]
+                if soil_sents:
+                    statements.append((
+                        "UPDATE care SET soil_types = CASE WHEN soil_types IS NULL OR soil_types = '' THEN ? ELSE soil_types END WHERE plant_id = ?",
+                        ['. '.join(soil_sents[:2]) + '.', pid]
+                    ))
+
+                fert_sents = [s for s in culture_sents if any(w in s.lower() for w in ['fertil', 'feed', 'compost tea', 'npk'])]
+                if fert_sents:
+                    statements.append((
+                        "UPDATE care SET fertilizer_type = CASE WHEN fertilizer_type IS NULL OR fertilizer_type = '' THEN ? ELSE fertilizer_type END WHERE plant_id = ?",
+                        ['. '.join(fert_sents[:2]) + '.', pid]
+                    ))
+
+            # Tolerate → difficulty_note
+            if data.get('tolerate'):
+                statements.append((
+                    "UPDATE care SET difficulty_note = CASE WHEN difficulty_note IS NULL OR difficulty_note = '' THEN ? ELSE difficulty_note END WHERE plant_id = ?",
+                    [f"Tolerates: {data['tolerate']}", pid]
+                ))
 
             if statements:
                 turso_batch(statements)
