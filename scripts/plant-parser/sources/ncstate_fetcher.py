@@ -221,7 +221,7 @@ def enrich_from_ncstate(limit=100):
                     h_min = int(heights[0]) * 30  # ft to cm
                     h_max = int(heights[-1]) * 30 if len(heights) > 1 else h_min
                     statements.append((
-                        "UPDATE care SET height_min_cm = CASE WHEN height_min_cm = 0 THEN ? ELSE height_min_cm END, height_max_cm = CASE WHEN height_max_cm = 0 THEN ? ELSE height_max_cm END WHERE plant_id = ?",
+                        "UPDATE care SET height_min_cm = CASE WHEN height_min_cm IS NULL OR height_min_cm = 0 THEN ? ELSE height_min_cm END, height_max_cm = CASE WHEN height_max_cm IS NULL OR height_max_cm = 0 THEN ? ELSE height_max_cm END WHERE plant_id = ?",
                         [h_min, h_max, pid]
                     ))
 

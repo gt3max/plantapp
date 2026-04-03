@@ -131,7 +131,7 @@ def enrich_from_missouri(plants_to_check, browser_page):
                     h_min = int(float(heights[0]) * 30.48)  # feet to cm
                     h_max = int(float(heights[-1]) * 30.48) if len(heights) > 1 else h_min
                     statements.append((
-                        "UPDATE care SET height_min_cm = CASE WHEN height_min_cm = 0 THEN ? ELSE height_min_cm END, height_max_cm = CASE WHEN height_max_cm = 0 THEN ? ELSE height_max_cm END WHERE plant_id = ?",
+                        "UPDATE care SET height_min_cm = CASE WHEN height_min_cm IS NULL OR height_min_cm = 0 THEN ? ELSE height_min_cm END, height_max_cm = CASE WHEN height_max_cm IS NULL OR height_max_cm = 0 THEN ? ELSE height_max_cm END WHERE plant_id = ?",
                         [h_min, h_max, pid]
                     ))
 
@@ -178,7 +178,7 @@ def enrich_from_missouri(plants_to_check, browser_page):
                     min_zone = int(zones[0])
                     temp_min = zone_to_temp.get(min_zone, 0)
                     statements.append((
-                        "UPDATE care SET temp_min_c = CASE WHEN temp_min_c = 0 THEN ? ELSE temp_min_c END WHERE plant_id = ?",
+                        "UPDATE care SET temp_min_c = CASE WHEN temp_min_c IS NULL OR temp_min_c = 0 THEN ? ELSE temp_min_c END WHERE plant_id = ?",
                         [temp_min, pid]
                     ))
 

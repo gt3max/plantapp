@@ -163,7 +163,7 @@ def enrich_from_xiaomi(limit=1000):
             temp_max = param.get('max_temp')
             if temp_min is not None and temp_max is not None:
                 statements.append((
-                    "UPDATE care SET temp_min_c = CASE WHEN temp_min_c = 0 THEN ? ELSE temp_min_c END, temp_max_c = CASE WHEN temp_max_c = 0 THEN ? ELSE temp_max_c END WHERE plant_id = ?",
+                    "UPDATE care SET temp_min_c = CASE WHEN temp_min_c IS NULL OR temp_min_c = 0 THEN ? ELSE temp_min_c END, temp_max_c = CASE WHEN temp_max_c IS NULL OR temp_max_c = 0 THEN ? ELSE temp_max_c END WHERE plant_id = ?",
                     [int(temp_min), int(temp_max), db_plant_id]
                 ))
 
@@ -172,7 +172,7 @@ def enrich_from_xiaomi(limit=1000):
             soil_max = param.get('max_soil_moist')
             if soil_min is not None and soil_max is not None:
                 statements.append((
-                    "UPDATE care SET start_pct = CASE WHEN start_pct = 0 THEN ? ELSE start_pct END, stop_pct = CASE WHEN stop_pct = 0 THEN ? ELSE stop_pct END WHERE plant_id = ?",
+                    "UPDATE care SET start_pct = CASE WHEN start_pct IS NULL OR start_pct = 0 THEN ? ELSE start_pct END, stop_pct = CASE WHEN stop_pct IS NULL OR stop_pct = 0 THEN ? ELSE stop_pct END WHERE plant_id = ?",
                     [int(soil_min), int(soil_max), db_plant_id]
                 ))
 
