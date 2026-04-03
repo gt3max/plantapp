@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/11e1408e09bf721616f60039209b1e752afdb5ad",
-    "description": null,
+    "description": "Thin, flattened capsule fruit.  A dry, green to brown, laterally compressed or flattened capsule, dehiscent, persistent, up to 1 inch long.  Splits open to appear as four lobes. Displays from September to November.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -18,6 +18,76 @@
     "updated_at": "2026-04-02T15:25:22.637367+00:00",
     "care": {
       "plant_id": "gelsemium_sempervirens",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": "High Organic Matter, Good Drainage",
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": 300,
+      "height_max_cm": 600,
+      "lifecycle": "perennial",
+      "difficulty": "Easy",
+      "growth_rate": "Medium",
+      "watering_guide": null,
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Ilex opaca",
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": [
+        "No significant pests or diseases.",
+        "Toxic pollen from this plant is detrimental to honeybee colonies.",
+        "This plant is not suitable for beekeepers."
+      ],
+      "common_pests": [
+        "No significant pests or diseases."
+      ]
+    },
+    "common_names": {
+      "en": [
+        "Carolina-jasmine"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "mostuea_brunonis",
+    "scientific": "Mostuea brunonis",
+    "family": "Gelsemiaceae",
+    "genus": "Mostuea",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:16:07.014110+00:00",
+    "care": {
+      "plant_id": "mostuea_brunonis",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
@@ -55,11 +125,7 @@
       "common_problems": null,
       "common_pests": null
     },
-    "common_names": {
-      "en": [
-        "Carolina-jasmine"
-      ]
-    },
+    "common_names": {},
     "tags": [],
     "external_ids": {}
   }

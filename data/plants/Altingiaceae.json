@@ -1,7 +1,7 @@
 [
   {
-    "plant_id": "liquidambar_styraciflua",
-    "scientific": "Liquidambar styraciflua",
+    "plant_id": "liquidambar_formosana",
+    "scientific": "Liquidambar formosana",
     "family": "Altingiaceae",
     "genus": "Liquidambar",
     "category": "decorative",
@@ -9,15 +9,15 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "https://bs.plantnet.org/image/o/d8250f0c88ac145438255101255406acabec366c",
-    "description": "Liquidambar styraciflua, commonly known as the American sweetgum among other names, is a deciduous tree in the genus Liquidambar native to warm temperate areas of eastern North America and tropical montane regions of Mexico and Central America. Sweetgum is one of the main valuable forest trees in the southeastern United States, and is a popular ornamental tree in temperate climates. It is recognizable by the combination of its five-pointed star-shaped leaves and its hard, spiked fruits.",
+    "image_url": "https://bs.plantnet.org/image/o/46c0241250211e3600ec0a2140e434c59492fb25",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
     ],
-    "updated_at": "2026-04-02T13:00:00.718098+00:00",
+    "updated_at": "2026-04-03T16:30:34.466832+00:00",
     "care": {
-      "plant_id": "liquidambar_styraciflua",
+      "plant_id": "liquidambar_formosana",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
@@ -54,6 +54,76 @@
       "toxicity_note": null,
       "common_problems": null,
       "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Formosan sweet-gum"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  },
+  {
+    "plant_id": "liquidambar_styraciflua",
+    "scientific": "Liquidambar styraciflua",
+    "family": "Altingiaceae",
+    "genus": "Liquidambar",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/d8250f0c88ac145438255101255406acabec366c",
+    "description": "Liquidambar styraciflua, commonly known as the American sweetgum among other names, is a deciduous tree in the genus Liquidambar native to warm temperate areas of eastern North America and tropical montane regions of Mexico and Central America. Sweetgum is one of the main valuable forest trees in the southeastern United States, and is a popular ornamental tree in temperate climates. It is recognizable by the combination of its five-pointed star-shaped leaves and its hard, spiked fruits.",
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-02T13:00:00.718098+00:00",
+    "care": {
+      "plant_id": "liquidambar_styraciflua",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": "Clay, Good Drainage",
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": 1800,
+      "height_max_cm": 3000,
+      "lifecycle": "woody",
+      "difficulty": "Easy",
+      "growth_rate": "Rapid",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Similar plants: Acer rubrum",
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": [
+        "Leaf spots, wood rot, and bleeding necrosis may occur.",
+        "Iron chlorosis may occur in alkaline soils.",
+        "The fruit is a litter problem in lawn and patio areas."
+      ],
+      "common_pests": [
+        "Webworms, caterpillars, borers, and scale may cause problems in some areas."
+      ]
     },
     "common_names": {
       "en": [

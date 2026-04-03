@@ -1,0 +1,66 @@
+[
+  {
+    "plant_id": "portulacaria_afra",
+    "scientific": "Portulacaria afra",
+    "family": "Didiereaceae",
+    "genus": "Portulacaria",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Succulents",
+    "image_url": "https://bs.plantnet.org/image/o/81a294078ac16bace7a0769cec0f7573a6282d29",
+    "description": null,
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-03T16:22:59.818531+00:00",
+    "care": {
+      "plant_id": "portulacaria_afra",
+      "water_frequency": "Every 2-3 weeks",
+      "water_winter": null,
+      "water_demand": "Low",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright direct or indirect light",
+      "light_also_ok": null,
+      "ppfd_min": null,
+      "ppfd_max": null,
+      "dli_min": null,
+      "dli_max": null,
+      "temp_min_c": 5,
+      "temp_max_c": 35,
+      "humidity_level": "Low (30-40%)",
+      "humidity_min_pct": null,
+      "humidity_action": null,
+      "soil_types": null,
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": null,
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": null,
+      "difficulty": null,
+      "growth_rate": null,
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": null,
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Elephant bush"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  }
+]
