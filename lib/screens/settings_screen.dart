@@ -214,7 +214,10 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             _sourceRow('HHCC / Xiaomi', 'Light & humidity data', 'Open source'),
             _sourceRow('SerpAPI', 'Cross-verification', 'serpapi.com'),
             _sourceRow('NC State Extension', 'Scientific plant data', 'plants.ces.ncsu.edu'),
+            _sourceRow('Missouri Botanical Garden', 'Care guides & problems', 'missouribotanicalgarden.org'),
             _sourceRow('POWO (Kew Gardens)', 'Taxonomy & distribution', 'powo.science.kew.org'),
+            _sourceRow('BBC Gardeners\' World', 'Pests & diseases', 'gardenersworld.com'),
+            _sourceRow('Old Farmer\'s Almanac', 'Companion planting', 'almanac.com'),
             const SizedBox(height: AppSpacing.md),
             Text(
               'Some data is licensed under Creative Commons (CC-BY-SA 4.0). '
