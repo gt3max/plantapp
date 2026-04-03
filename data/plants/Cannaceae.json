@@ -1,0 +1,66 @@
+[
+  {
+    "plant_id": "canna_indica",
+    "scientific": "Canna indica",
+    "family": "Cannaceae",
+    "genus": "Canna",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Tropical",
+    "image_url": "https://bs.plantnet.org/image/o/71738762b93bb9e6e465fe11cb27ce5851b455f9",
+    "description": "The fruit is an ellipsoid or globose chestnut-colored capsule that is covered with soft spines. The fruit measures 0.5 to 1 inch in diameter. The capsules contain a large amount of hard black seeds that are 0.2 inches in diameter.",
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-02T15:18:56.696755+00:00",
+    "care": {
+      "plant_id": "canna_indica",
+      "water_frequency": "Every 5-7 days",
+      "water_winter": null,
+      "water_demand": "High",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light, no direct sun",
+      "light_also_ok": null,
+      "ppfd_min": 92,
+      "ppfd_max": 138,
+      "dli_min": 0.3,
+      "dli_max": 0.5,
+      "temp_min_c": 15,
+      "temp_max_c": 30,
+      "humidity_level": "High (60-80%)",
+      "humidity_min_pct": 30,
+      "humidity_action": null,
+      "soil_types": "Soil with loose texture or soil with specific nutrients",
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": "Dilute fertilizers following instructions, apply 1-2 times monthly",
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": "perennial",
+      "difficulty": "Medium",
+      "growth_rate": null,
+      "watering_guide": "Propagation: Division",
+      "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
+      "tips": "Remove aged tissues, dead, rotten, diseased leaves timely | Similar plants: Acalypha wilkesiana",
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "African arrowroot"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  }
+]

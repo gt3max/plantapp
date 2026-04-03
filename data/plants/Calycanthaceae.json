@@ -1,0 +1,66 @@
+[
+  {
+    "plant_id": "calycanthus_floridus",
+    "scientific": "Calycanthus floridus",
+    "family": "Calycanthaceae",
+    "genus": "Calycanthus",
+    "category": "decorative",
+    "indoor": 1,
+    "edible": 0,
+    "has_phases": 0,
+    "preset": "Standard",
+    "image_url": "https://bs.plantnet.org/image/o/d019cffbeac6594b6000676131943560a9a0a299",
+    "description": "An urceolate (shaped like an urn) capsule, wrinkly and leathery, enclosing multiple seeds. Displays from August to September and starts soft green, fading to brown.",
+    "wikidata_id": null,
+    "sources": [
+      "trefle"
+    ],
+    "updated_at": "2026-04-02T15:24:49.610411+00:00",
+    "care": {
+      "plant_id": "calycanthus_floridus",
+      "water_frequency": "Every 7-10 days",
+      "water_winter": null,
+      "water_demand": "Medium",
+      "start_pct": null,
+      "stop_pct": null,
+      "light_preferred": "Bright indirect light",
+      "light_also_ok": null,
+      "ppfd_min": 69,
+      "ppfd_max": 138,
+      "dli_min": 0.3,
+      "dli_max": 0.5,
+      "temp_min_c": 10,
+      "temp_max_c": 30,
+      "humidity_level": "Average (40-60%)",
+      "humidity_min_pct": 30,
+      "humidity_action": null,
+      "soil_types": "Peat or soil with specific nutrients",
+      "soil_ph_min": null,
+      "soil_ph_max": null,
+      "repot_frequency": null,
+      "fertilizer_type": "Dilute fertilizers following instructions, top-dressing before and after flowering and defoliation",
+      "fertilizer_freq": null,
+      "fertilizer_season": null,
+      "height_min_cm": null,
+      "height_max_cm": null,
+      "lifecycle": "woody",
+      "difficulty": "Medium",
+      "growth_rate": "Medium",
+      "watering_guide": "Propagation: Seed",
+      "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
+      "tips": "Remove withered flowers, old, diseased, and dead leaves timely | Similar plants: Acer saccharum",
+      "toxic_to_pets": 0,
+      "toxic_to_humans": 0,
+      "toxicity_note": null,
+      "common_problems": null,
+      "common_pests": null
+    },
+    "common_names": {
+      "en": [
+        "Carolina-allspice"
+      ]
+    },
+    "tags": [],
+    "external_ids": {}
+  }
+]
