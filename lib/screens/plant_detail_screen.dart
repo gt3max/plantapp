@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:plantapp/app/theme.dart';
@@ -560,11 +561,11 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                     fit: StackFit.expand,
                     children: [
                       if (_imageUrl != null)
-                        Image.network(
-                          _imageUrl!,
+                        CachedNetworkImage(
+                          imageUrl: _imageUrl!,
                           fit: BoxFit.cover,
-                          headers: const {'User-Agent': 'PlantApp/1.0'},
-                          errorBuilder: (_, __, ___) => _heroPlaceholder(),
+                          placeholder: (_, __) => _heroPlaceholder(),
+                          errorWidget: (_, __, ___) => _heroPlaceholder(),
                         )
                       else
                         _heroPlaceholder(),
@@ -1790,15 +1791,11 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
             child: InteractiveViewer(
               minScale: 0.5,
               maxScale: 4.0,
-              child: Image.network(
-                fullUrl,
+              child: CachedNetworkImage(
+                imageUrl: fullUrl,
                 fit: BoxFit.contain,
-                headers: const {'User-Agent': 'PlantApp/1.0'},
-                errorBuilder: (_, __, ___) => const Icon(Icons.broken_image, color: Colors.white54, size: 64),
-                loadingBuilder: (context, child, loadingProgress) {
-                  if (loadingProgress == null) return child;
-                  return Center(child: CircularProgressIndicator(color: Colors.white));
-                },
+                placeholder: (_, __) => const Center(child: CircularProgressIndicator(color: Colors.white)),
+                errorWidget: (_, __, ___) => const Icon(Icons.broken_image, color: Colors.white54, size: 64),
               ),
             ),
           ),

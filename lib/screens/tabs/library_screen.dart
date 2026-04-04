@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:plantapp/app/theme.dart';
@@ -235,12 +236,13 @@ class _LibraryCard extends StatelessWidget {
             ClipRRect(
               borderRadius: AppBorderRadius.mdAll,
               child: plant.imageUrl != null && plant.imageUrl!.isNotEmpty
-                  ? Image.network(
-                      plant.imageUrl!,
+                  ? CachedNetworkImage(
+                      imageUrl: plant.imageUrl!,
                       width: 56,
                       height: 56,
                       fit: BoxFit.cover,
-                      errorBuilder: (_, __, ___) => _placeholder(),
+                      placeholder: (_, __) => _placeholder(),
+                      errorWidget: (_, __, ___) => _placeholder(),
                     )
                   : _placeholder(),
             ),
