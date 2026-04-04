@@ -4,6 +4,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:plantapp/app/theme.dart';
+import 'package:plantapp/constants/featured_plants.dart';
 import 'package:plantapp/services/library_service.dart';
 
 class LibraryScreen extends StatefulWidget {
@@ -19,25 +20,10 @@ class _LibraryScreenState extends State<LibraryScreen> {
   Timer? _debounce;
 
   List<LibraryPlant> _results = [];
-  List<LibraryPlant> _featured = [];
+  // Featured plants loaded instantly from hardcoded list — no API call
+  final List<LibraryPlant> _featured = featuredPlants;
   bool _isSearching = false;
   bool _hasSearched = false;
-  bool _featuredLoading = true;
-
-  @override
-  void initState() {
-    super.initState();
-    _loadFeatured();
-  }
-
-  Future<void> _loadFeatured() async {
-    try {
-      final plants = await _libraryService.getFeatured(limit: 30);
-      if (mounted) setState(() { _featured = plants; _featuredLoading = false; });
-    } catch (e) {
-      if (mounted) setState(() => _featuredLoading = false);
-    }
-  }
 
   @override
   void dispose() {
@@ -142,14 +128,6 @@ class _LibraryScreenState extends State<LibraryScreen> {
   }
 
   Widget _buildWelcome() {
-    if (_featuredLoading) {
-      // Skeleton shimmer while Lambda cold-starts
-      return ListView.builder(
-        padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
-        itemCount: 8,
-        itemBuilder: (_, __) => _SkeletonCard(),
-      );
-    }
     if (_featured.isEmpty) {
       return Center(
         child: Text('No plants in database yet', style: TextStyle(color: AppColors.textSecondary)),
@@ -342,45 +320,6 @@ class _LibraryCard extends StatelessWidget {
 }
 
 // ─── (PopularCard removed — Library now uses _LibraryCard for all plants from Turso DB) ──
-
-class _SkeletonCard extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      margin: const EdgeInsets.only(bottom: AppSpacing.md),
-      padding: const EdgeInsets.all(AppSpacing.md),
-      decoration: BoxDecoration(
-        color: AppColors.surface,
-        borderRadius: AppBorderRadius.lgAll,
-        border: Border.all(color: AppColors.border),
-      ),
-      child: Row(
-        children: [
-          Container(
-            width: 56, height: 56,
-            decoration: BoxDecoration(
-              color: AppColors.border,
-              borderRadius: AppBorderRadius.mdAll,
-            ),
-          ),
-          const SizedBox(width: AppSpacing.md),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Container(width: 140, height: 14, decoration: BoxDecoration(color: AppColors.border, borderRadius: AppBorderRadius.smAll)),
-                const SizedBox(height: 6),
-                Container(width: 100, height: 10, decoration: BoxDecoration(color: AppColors.border, borderRadius: AppBorderRadius.smAll)),
-                const SizedBox(height: 4),
-                Container(width: 80, height: 10, decoration: BoxDecoration(color: AppColors.border, borderRadius: AppBorderRadius.smAll)),
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
 
 class _SmallBadge extends StatelessWidget {
   const _SmallBadge({required this.label, required this.color});
