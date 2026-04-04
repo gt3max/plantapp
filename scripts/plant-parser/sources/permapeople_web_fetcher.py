@@ -159,13 +159,21 @@ def enrich_from_permapeople_web(max_pages=10):
                             [json.dumps(bad), pid]
                         ))
 
-                    # Propagation → proper column
+                    # Propagation → proper column (filter out planting instructions)
                     if data.get('propagation'):
-                        methods = [m.strip() for m in data['propagation'].split(',')]
-                        statements.append((
-                            "UPDATE care SET propagation_methods = CASE WHEN propagation_methods IS NULL OR propagation_methods = '' OR propagation_methods = '[]' THEN ? ELSE propagation_methods END WHERE plant_id = ?",
-                            [json.dumps(methods), pid]
-                        ))
+                        _valid_prop_words = ['seed', 'cutting', 'division', 'layer', 'graft', 'bulb',
+                                             'rhizome', 'tuber', 'runner', 'stolon', 'spore', 'offshoot',
+                                             'sucker', 'marcot', 'air layer', 'tissue culture']
+                        raw_methods = [m.strip() for m in data['propagation'].split(',')]
+                        # Only keep items that look like actual propagation methods
+                        valid_methods = [m for m in raw_methods
+                                         if any(w in m.lower() for w in _valid_prop_words)]
+                        if valid_methods:
+                            statements.append((
+                                "UPDATE care SET propagation_methods = CASE WHEN propagation_methods IS NULL OR propagation_methods = '' OR propagation_methods = '[]' THEN ? ELSE propagation_methods END WHERE plant_id = ?",
+                                [json.dumps(valid_methods), pid]
+                            ))
+                        # Store full text as detail regardless (it may contain useful planting info)
                         statements.append((
                             "UPDATE care SET propagation_detail = CASE WHEN propagation_detail IS NULL OR propagation_detail = '' THEN ? ELSE propagation_detail END WHERE plant_id = ?",
                             [data['propagation'], pid]

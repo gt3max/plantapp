@@ -102,6 +102,22 @@ def enrich_from_powo(limit=500):
             elif locations and isinstance(locations[0], str):
                 native = [l.replace('_', ' ') for l in locations[:5]]
 
+            # Filter out POWO region codes — keep only real geographic names
+            # POWO uses codes like MLY, CPP_WC, NZN_OO, STH OO, MACARONESIA, etc.
+            def _is_readable(name):
+                """Only accept names that a human would recognize as a place."""
+                if not name or len(name) < 3:
+                    return False
+                # Reject patterns with OO suffix (POWO sub-region codes)
+                if '_OO' in name or ' OO' in name or name.endswith('OO'):
+                    return False
+                # Reject ALL_CAPS tokens and SCREAMING_SNAKE (codes like MLY, NZN, NORTHERN_SOUTH_AMERICA)
+                parts = name.replace('_', ' ').split()
+                if all(p.isupper() for p in parts):
+                    return False
+                return True
+            native = [n for n in native if _is_readable(n)]
+
             if not climate and not lifeform and not native:
                 not_found += 1
                 continue

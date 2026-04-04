@@ -188,11 +188,18 @@ def enrich_from_ncstate(limit=100):
                     [data['growth_rate'], pid]
                 ))
 
-            # Life cycle
+            # Life cycle (map growth forms to lifecycle types)
             if data.get('life_cycle'):
+                lc_raw = data['life_cycle'].lower().strip()
+                _lifecycle_map = {
+                    'annual': 'annual', 'biennial': 'biennial', 'perennial': 'perennial',
+                    'woody': 'perennial', 'shrub': 'perennial', 'tree': 'perennial',
+                    'vine': 'perennial', 'sub-shrub': 'perennial', 'subshrub': 'perennial',
+                }
+                lc_value = _lifecycle_map.get(lc_raw, lc_raw)
                 statements.append((
                     "UPDATE care SET lifecycle = CASE WHEN lifecycle IS NULL OR lifecycle = '' THEN ? ELSE lifecycle END WHERE plant_id = ?",
-                    [data['life_cycle'].lower(), pid]
+                    [lc_value, pid]
                 ))
 
             # Soil
@@ -283,16 +290,12 @@ def enrich_from_ncstate(limit=100):
                             [zone_temps[zone_min], pid]
                         ))
 
-            # Uses → used_for
+            # Uses (ethnobotany) → used_for_details only, NOT used_for
+            # NC State "Uses" is historical/ethnobotanical, not modern plant purpose
             if data.get('uses'):
-                uses_list = [u.strip() for u in data['uses'].split(',')]
-                statements.append((
-                    "UPDATE care SET used_for = CASE WHEN used_for IS NULL OR used_for = '' OR used_for = '[]' THEN ? ELSE used_for END WHERE plant_id = ?",
-                    [json.dumps(uses_list), pid]
-                ))
                 statements.append((
                     "UPDATE care SET used_for_details = CASE WHEN used_for_details IS NULL OR used_for_details = '' THEN ? ELSE used_for_details END WHERE plant_id = ?",
-                    [data['uses'], pid]
+                    [f"(NC State ethnobotany) {data['uses']}", pid]
                 ))
 
             # Edibility → edible_parts
