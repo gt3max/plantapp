@@ -250,10 +250,34 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     return _userPlant?.imageUrl ?? (_dbDetail?['image_url'] as String?) ?? _lib?.imageUrl;
   }
 
-  String? get _description =>
-      (_dbDetail?['description'] as String?)?.isNotEmpty == true
-          ? _dbDetail!['description'] as String
-          : _lib?.description;
+  String? get _description {
+    final desc = (_dbDetail?['description'] as String?)?.isNotEmpty == true
+        ? _dbDetail!['description'] as String
+        : _lib?.description;
+    if (desc == null || desc.isEmpty) return null;
+    // Append common names (aliases) at the end if available
+    final aliases = _otherCommonNames;
+    if (aliases.isNotEmpty) {
+      return '$desc Also known as: ${aliases.join(", ")}.';
+    }
+    return desc;
+  }
+
+  List<String> get _otherCommonNames {
+    // Collect common names that differ from the title
+    final title = _title.toLowerCase();
+    final names = <String>{};
+    // From DB common_names
+    final dbNames = _dbDetail?['common_names'] as Map<String, dynamic>?;
+    final enNames = (dbNames?['en'] as List<dynamic>?) ?? [];
+    for (final n in enNames) {
+      final name = n.toString();
+      if (name.toLowerCase() != title && name.isNotEmpty) names.add(name);
+    }
+    // From PopularPlant synonyms are not stored separately, but Turso has common_names table
+    // Limit to 3 aliases
+    return names.take(3).toList();
+  }
 
   String get _preset {
     return _userPlant?.preset ?? (_dbDetail?['preset'] as String?) ?? _lib?.preset ?? 'Standard';
