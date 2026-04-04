@@ -37,6 +37,31 @@ def fetch_plant_page(slug):
         return resp.read().decode('utf-8', errors='replace')
 
 
+def search_ncstate(scientific_name):
+    """Search NC State plant database, return slug of best match or None."""
+    query = urllib.parse.quote(scientific_name)
+    url = f'{BASE_URL}/find_a_plant/?q={query}'
+    req = urllib.request.Request(url, headers={'User-Agent': 'PlantApp/1.0 (plantapp.pro, educational use)'})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        html = resp.read().decode('utf-8', errors='replace')
+    # Extract plant links: /plants/monstera-deliciosa/
+    links = re.findall(r'href=\"/plants/([a-z0-9-]+)/\"', html)
+    if not links:
+        return None
+    # Prefer exact match on genus+species
+    genus_species = scientific_name.lower().replace(' ', '-')
+    for link in links:
+        if link == genus_species:
+            return link
+    # Partial: genus match
+    genus = scientific_name.split()[0].lower()
+    for link in links:
+        if link.startswith(genus):
+            return link
+    # Take first result
+    return links[0] if links else None
+
+
 def parse_plant_page(html):
     """Extract structured data from NC State plant page."""
     data = {}
@@ -102,10 +127,15 @@ def enrich_from_ncstate(limit=100):
         scientific = row['scientific']
         pid = row['plant_id']
 
-        # Build slug: "Monstera deliciosa" → "monstera-deliciosa"
-        slug = scientific.lower().replace(' ', '-').replace("'", '').replace('"', '')
-
         try:
+            # First try search (much better hit rate than direct slug)
+            slug = search_ncstate(scientific)
+            time.sleep(DELAY)
+
+            if not slug:
+                not_found += 1
+                continue
+
             html = fetch_plant_page(slug)
             time.sleep(DELAY)
 

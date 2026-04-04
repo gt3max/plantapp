@@ -129,7 +129,7 @@ def enrich_from_gardenersworld(limit=100):
         LIMIT ?
     ''', ['%perenual%', limit])
 
-    print(f"[GardenersWorld] Checking {len(rows)} plants for pests/diseases...")
+    print(f"[GardenersWorld] Checking {len(rows)} plants...")
     enriched = 0
     not_found = 0
 
@@ -143,17 +143,38 @@ def enrich_from_gardenersworld(limit=100):
             [pid]
         )
         common = cn_rows[0]['name'] if cn_rows else ''
-        if not common:
-            common = scientific.split()[-1]  # species epithet
 
-        common_slug = common.lower().replace(' ', '-').replace("'", '').replace('"', '')
-        url = f'{BASE_URL}/how-to/grow-plants/how-to-grow-{common_slug}/'
+        # Try multiple URL patterns (GardenersWorld search is JS-only, so we brute-force URLs)
+        urls_to_try = []
+        if common:
+            slug = common.lower().replace(' ', '-').replace("'", '').replace('"', '')
+            urls_to_try.append(f'{BASE_URL}/how-to/grow-plants/how-to-grow-{slug}/')
+            # Also try singular/plural variants
+            if slug.endswith('s'):
+                urls_to_try.append(f'{BASE_URL}/how-to/grow-plants/how-to-grow-{slug[:-1]}/')
+            else:
+                urls_to_try.append(f'{BASE_URL}/how-to/grow-plants/how-to-grow-{slug}s/')
+        # Try scientific name as slug
+        sci_slug = scientific.lower().replace(' ', '-').replace("'", '')
+        urls_to_try.append(f'{BASE_URL}/how-to/grow-plants/how-to-grow-{sci_slug}/')
+        # Try just genus
+        genus_slug = scientific.split()[0].lower()
+        urls_to_try.append(f'{BASE_URL}/how-to/grow-plants/how-to-grow-{genus_slug}/')
 
         try:
-            html = fetch_page(url)
-            time.sleep(DELAY)
+            html = None
+            for url in urls_to_try:
+                try:
+                    html = fetch_page(url)
+                    time.sleep(DELAY)
+                    if len(html) >= 5000:
+                        break
+                    html = None
+                except Exception:
+                    html = None
+                    continue
 
-            if len(html) < 5000:
+            if not html or len(html) < 5000:
                 not_found += 1
                 continue
 
