@@ -528,11 +528,14 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                 ),
                 flexibleSpace: FlexibleSpaceBar(
                   background: _imageUrl != null
-                      ? Image.network(
-                          _imageUrl!,
-                          fit: BoxFit.cover,
-                          headers: const {'User-Agent': 'PlantApp/1.0'},
-                          errorBuilder: (_, __, ___) => _heroPlaceholder(),
+                      ? GestureDetector(
+                          onTap: () => _openFullScreenImage(context),
+                          child: Image.network(
+                            _imageUrl!,
+                            fit: BoxFit.cover,
+                            headers: const {'User-Agent': 'PlantApp/1.0'},
+                            errorBuilder: (_, __, ___) => _heroPlaceholder(),
+                          ),
                         )
                       : _heroPlaceholder(),
                 ),
@@ -1715,6 +1718,49 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
             ),
           ),
         ],
+      ),
+    );
+  }
+
+  void _openFullScreenImage(BuildContext context) {
+    if (_imageUrl == null) return;
+    // Convert Wikipedia 330px thumbnails to full-size
+    String fullUrl = _imageUrl!;
+    if (fullUrl.contains('/thumb/') && fullUrl.contains('330px')) {
+      // https://upload.wikimedia.org/.../thumb/X/Xa/File.jpg/330px-File.jpg
+      // → https://upload.wikimedia.org/.../X/Xa/File.jpg
+      fullUrl = fullUrl.replaceAll(RegExp(r'/thumb(/.*)/\d+px-[^/]+$'), r'$1');
+    }
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => Scaffold(
+          backgroundColor: Colors.black,
+          appBar: AppBar(
+            backgroundColor: Colors.transparent,
+            elevation: 0,
+            leading: IconButton(
+              icon: const Icon(Icons.close, color: Colors.white),
+              onPressed: () => Navigator.pop(context),
+            ),
+          ),
+          extendBodyBehindAppBar: true,
+          body: Center(
+            child: InteractiveViewer(
+              minScale: 0.5,
+              maxScale: 4.0,
+              child: Image.network(
+                fullUrl,
+                fit: BoxFit.contain,
+                headers: const {'User-Agent': 'PlantApp/1.0'},
+                errorBuilder: (_, __, ___) => const Icon(Icons.broken_image, color: Colors.white54, size: 64),
+                loadingBuilder: (context, child, loadingProgress) {
+                  if (loadingProgress == null) return child;
+                  return Center(child: CircularProgressIndicator(color: Colors.white));
+                },
+              ),
+            ),
+          ),
+        ),
       ),
     );
   }
