@@ -138,6 +138,33 @@ def _extract_value(cell):
     return val
 
 
+def store_source_data(plant_id: str, source: str, fields: dict):
+    """Store raw parser data in source_data table for later reconciliation.
+
+    This is the preferred way for parsers to submit data — it gets
+    verified by reconcile.py before being written to care/plants.
+
+    Usage:
+        store_source_data('monstera_deliciosa', 'ncstate', {
+            'difficulty': 'Easy',
+            'growth_rate': 'Medium',
+            'origin': 'Central America',
+        })
+    """
+    if not fields:
+        return
+    stmts = []
+    for field, value in fields.items():
+        if value is None or value == '':
+            continue
+        stmts.append((
+            "INSERT OR REPLACE INTO source_data (plant_id, source, field, value, fetched_at) VALUES (?, ?, ?, ?, datetime('now'))",
+            [plant_id, source, field, str(value)]
+        ))
+    if stmts:
+        turso_batch(stmts)
+
+
 def upsert_care_fields(plant_id: str, fields: dict, overwrite: bool = False):
     """Update care fields for a plant. Only fills empty fields unless overwrite=True.
 
