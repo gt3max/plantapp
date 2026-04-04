@@ -28,17 +28,36 @@ class LibraryService {
     return await _api.get<Map<String, dynamic>>(PlantDBEndpoints.detail(id));
   }
 
-  /// Get featured plants for Library home screen (from Turso DB)
-  Future<List<LibraryPlant>> getFeatured({int limit = 15}) async {
+  /// Fixed list of popular plants for Library home screen
+  static const _featuredIds = [
+    'monstera_deliciosa', 'epipremnum_aureum', 'dracaena_trifasciata',
+    'crassula_ovata', 'spathiphyllum_wallisii', 'ficus_lyrata',
+    'ficus_elastica', 'aloe_vera', 'zamioculcas_zamiifolia',
+    'chlorophytum_comosum', 'phalaenopsis_amabilis', 'calathea_orbifolia',
+    'dracaena_marginata', 'philodendron_hederaceum', 'monstera_adansonii',
+    'ocimum_basilicum', 'rosmarinus_officinalis', 'solanum_lycopersicum',
+    'nephrolepis_exaltata', 'anthurium_andraeanum', 'strelitzia_nicolai',
+    'echeveria_elegans', 'mentha_spicata', 'dieffenbachia_seguine',
+    'lavandula_angustifolia', 'dracaena_fragrans', 'dypsis_lutescens',
+    'cycas_revoluta',
+  ];
+
+  /// Get featured plants for Library home screen (fixed popular list, single API call)
+  Future<List<LibraryPlant>> getFeatured({int limit = 30}) async {
+    final ids = _featuredIds.take(limit).join(',');
     final data = await _api.get<Map<String, dynamic>>(
-      '${PlantDBEndpoints.search}?limit=$limit',
+      '${PlantDBEndpoints.search}?ids=$ids',
     );
     final plants = (data['plants'] as List<dynamic>?) ??
         (data['results'] as List<dynamic>?) ??
         [];
-    return plants
+    // Sort results to match our preferred order
+    final idOrder = {for (var i = 0; i < _featuredIds.length; i++) _featuredIds[i]: i};
+    final result = plants
         .map((p) => LibraryPlant.fromJson(p as Map<String, dynamic>))
         .toList();
+    result.sort((a, b) => (idOrder[a.detailId] ?? 99).compareTo(idOrder[b.detailId] ?? 99));
+    return result;
   }
 
   /// Get DB stats (total count)
