@@ -142,7 +142,12 @@ class _LibraryScreenState extends State<LibraryScreen> {
 
   Widget _buildWelcome() {
     if (_featuredLoading) {
-      return const Center(child: CircularProgressIndicator());
+      // Skeleton shimmer while Lambda cold-starts
+      return ListView.builder(
+        padding: const EdgeInsets.symmetric(horizontal: AppSpacing.lg),
+        itemCount: 8,
+        itemBuilder: (_, __) => _SkeletonCard(),
+      );
     }
     if (_featured.isEmpty) {
       return Center(
@@ -335,6 +340,45 @@ class _LibraryCard extends StatelessWidget {
 }
 
 // ─── (PopularCard removed — Library now uses _LibraryCard for all plants from Turso DB) ──
+
+class _SkeletonCard extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.only(bottom: AppSpacing.md),
+      padding: const EdgeInsets.all(AppSpacing.md),
+      decoration: BoxDecoration(
+        color: AppColors.surface,
+        borderRadius: AppBorderRadius.lgAll,
+        border: Border.all(color: AppColors.border),
+      ),
+      child: Row(
+        children: [
+          Container(
+            width: 56, height: 56,
+            decoration: BoxDecoration(
+              color: AppColors.border,
+              borderRadius: AppBorderRadius.mdAll,
+            ),
+          ),
+          const SizedBox(width: AppSpacing.md),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(width: 140, height: 14, decoration: BoxDecoration(color: AppColors.border, borderRadius: AppBorderRadius.smAll)),
+                const SizedBox(height: 6),
+                Container(width: 100, height: 10, decoration: BoxDecoration(color: AppColors.border, borderRadius: AppBorderRadius.smAll)),
+                const SizedBox(height: 4),
+                Container(width: 80, height: 10, decoration: BoxDecoration(color: AppColors.border, borderRadius: AppBorderRadius.smAll)),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
 
 class _SmallBadge extends StatelessWidget {
   const _SmallBadge({required this.label, required this.color});

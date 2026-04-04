@@ -556,17 +556,30 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                   onPressed: () => Navigator.pop(context),
                 ),
                 flexibleSpace: FlexibleSpaceBar(
-                  background: _imageUrl != null
-                      ? GestureDetector(
-                          onTap: () => _openFullScreenImage(context),
-                          child: Image.network(
-                            _imageUrl!,
-                            fit: BoxFit.cover,
-                            headers: const {'User-Agent': 'PlantApp/1.0'},
-                            errorBuilder: (_, __, ___) => _heroPlaceholder(),
-                          ),
+                  background: Stack(
+                    fit: StackFit.expand,
+                    children: [
+                      if (_imageUrl != null)
+                        Image.network(
+                          _imageUrl!,
+                          fit: BoxFit.cover,
+                          headers: const {'User-Agent': 'PlantApp/1.0'},
+                          errorBuilder: (_, __, ___) => _heroPlaceholder(),
                         )
-                      : _heroPlaceholder(),
+                      else
+                        _heroPlaceholder(),
+                      // Tap overlay for fullscreen
+                      if (_imageUrl != null)
+                        Positioned.fill(
+                          child: Material(
+                            color: Colors.transparent,
+                            child: InkWell(
+                              onTap: () => _openFullScreenImage(context),
+                            ),
+                          ),
+                        ),
+                    ],
+                  ),
                 ),
               ),
 
