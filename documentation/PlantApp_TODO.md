@@ -100,12 +100,17 @@
 ## 🟢 ПОСЛЕ РЕЛИЗА
 
 ### AI Doctor
-- [ ] Диагностика болезней по фото
-- [ ] Problems & Pests раздел (данные собираем уже)
-- [ ] **Фото болезней/вредителей** — парсить из NC State, GardenersWorld, Missouri BG
-- [ ] Новая таблица/колонка для pest/disease images
-- [ ] Отдельная таблица plant_diseases в Turso
-- [ ] Plant.id Health Assessment API или Claude Vision
+- [ ] Диагностика болезней по фото (Plant.id Health Assessment API или Claude Vision)
+- [ ] Problems & Pests раздел (данные собираем уже — NC State, GardenersWorld, ASPCA)
+
+**Каталог болезней/вредителей (disease_catalog):**
+- [ ] Таблица `disease_catalog`: name, type (pest/disease), image_url, description, symptoms, treatment
+- [ ] ~30-50 основных записей (Aphids, Spider mites, Root rot, Powdery mildew, Mealybugs, etc.)
+- [ ] Фото из Wikipedia Commons (19/20 есть, бесплатные, open license)
+- [ ] Описание + симптомы из Wikipedia API
+- [ ] Лечение — дополнить из NC State / GardenersWorld / ручная курация
+- [ ] Связь с растениями через common_pests / common_problems (уже парсим)
+- [ ] НЕ нужны отдельные фото для каждого растения — тля одинаковая на всех
 
 ### История ухода
 - [ ] Кнопка "Я полил" на карточке растения
@@ -149,17 +154,27 @@
 
 ---
 
-## ТЕКУЩИЕ ПРОЦЕССЫ (03.04, вечер)
+## ТЕКУЩИЕ ПРОЦЕССЫ (04.04, ночь)
 
-| Процесс | Статус | Что делает |
-|---------|--------|-----------|
-| Missouri BG (2,000) | 🔄 работает | Care guides, height, problems |
-| Permapeople Web (181 стр) | 🔄 page ~142 | Companions |
-| ASPCA (70 стр) | 🔄 начал | Toxicity |
-| Wikipedia (10,000) | 🔄 работает | Описания |
-| NC State (10,000) | 🔄 работает | Difficulty, growth, pests |
-| POWO (5,000) | 🔄 работает | Climate, lifecycle |
-| Trefle (10,000) | 🔄 работает | Каркас |
+| Процесс | Статус | Что делает | Hit rate |
+|---------|--------|-----------|----------|
+| NC State (20,000) | 🔄 **search-based** | difficulty, growth, height, soil, pests, problems, propagation, origin, pH, edibility | **100%** (search API) |
+| POWO (10,000) | 🔄 работает | origin, order, synonyms, lifecycle | ~50% |
+| Permapeople Web (181 стр) | 🔄 работает | good/bad companions, propagation, edible_parts, used_for | ~20% match |
+| GardenersWorld (10,000) | 🔄 **multi-URL** | pests, problems, pruning, propagation, soil, watering, fertilizer | ~60% |
+| ASPCA (70 стр) | 🔄 **+severity** | toxicity_symptoms, toxicity_severity, toxic_to_pets | Авторитетный |
+
+### Завершены ранее
+| Trefle | ✅ done | Каркас 20,197 растений (water, light, temp, humidity, toxic) |
+| Wikipedia | ✅ done | Описания 3,779 растений |
+| Xiaomi | ✅ done | PPFD, humidity_min для 352 растений |
+
+### Инфраструктура качества (04.04)
+- [x] Схема расширена: care 37→68 колонок, plants +3 (origin, order, synonyms)
+- [x] verify.py — cross-source верификация (NC State × POWO × Wikipedia × Turso)
+- [x] reconcile.py — consensus engine (confirmed/majority/conflict/fuzzy_match)
+- [x] source_data + reconciled таблицы
+- [ ] Перевести парсеры на store_source_data() → reconcile (после текущего прогона)
 
 ---
 
