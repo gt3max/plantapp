@@ -164,6 +164,27 @@ def enrich_toxicity(max_pages=70):
                             [is_toxic_pets, toxic_note[:300], pid]
                         ))
 
+                        # Clinical signs → toxicity_symptoms
+                        if data.get('clinical_signs'):
+                            statements.append((
+                                "UPDATE care SET toxicity_symptoms = CASE WHEN toxicity_symptoms IS NULL OR toxicity_symptoms = '' THEN ? ELSE toxicity_symptoms END WHERE plant_id = ?",
+                                [data['clinical_signs'][:500], pid]
+                            ))
+
+                        # Severity — derive from clinical signs
+                        if data.get('toxic_to_pets') and data.get('clinical_signs'):
+                            signs = data['clinical_signs'].lower()
+                            if any(w in signs for w in ['death', 'fatal', 'kidney failure', 'liver failure', 'cardiac', 'seizure', 'collapse']):
+                                severity = 'Severe'
+                            elif any(w in signs for w in ['vomiting', 'diarrhea', 'tremor', 'difficulty breathing', 'depression']):
+                                severity = 'Moderate'
+                            else:
+                                severity = 'Mild'
+                            statements.append((
+                                "UPDATE care SET toxicity_severity = CASE WHEN toxicity_severity IS NULL OR toxicity_severity = '' THEN ? ELSE toxicity_severity END WHERE plant_id = ?",
+                                [severity, pid]
+                            ))
+
                         # Also mark non-toxic explicitly
                         if not data.get('toxic_to_pets'):
                             statements.append((
