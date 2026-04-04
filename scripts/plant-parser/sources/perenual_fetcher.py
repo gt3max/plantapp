@@ -327,9 +327,12 @@ def fetch_and_store(count=100, indoor_first=True, resume=True):
                     "SELECT sources FROM plants WHERE plant_id = ?",
                     [plant_id]
                 )
-                if existing and 'perenual' in (existing[0].get('sources', '') or ''):
-                    skipped += 1
-                    continue
+                if existing:
+                    src = existing[0].get('sources', '') or ''
+                    # Never overwrite verified or already-perenual plants
+                    if 'perenual' in src or 'verified' in src:
+                        skipped += 1
+                        continue
 
                 try:
                     detail = fetch_species_detail(species_id)

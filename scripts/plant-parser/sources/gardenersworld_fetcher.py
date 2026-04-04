@@ -26,7 +26,7 @@ if env_path.exists():
 from turso_sync import turso_query, turso_batch
 
 BASE_URL = 'https://www.gardenersworld.com'
-DELAY = 2.0  # Polite: 2 seconds
+DELAY = 4.0  # Polite: 4 seconds (was 2, but they disconnect at high rate)
 
 # Known pest and disease keywords for classification
 _PEST_WORDS = ['aphid', 'beetle', 'mite', 'bug', 'caterpillar', 'fly', 'whitefl', 'thrip',
