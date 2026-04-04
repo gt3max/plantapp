@@ -227,14 +227,19 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
 
   String get _title {
     if (_userPlant != null) return _userPlant!.displayName;
+    // Prefer our curated common name from PopularPlant
+    if (_lib != null) return _lib!.commonName;
     final db = _dbDetail;
     if (db != null) {
+      // Use primary common name from DB
+      final primaryName = db['primary_common_name'] as String?;
+      if (primaryName != null && primaryName.isNotEmpty) return primaryName;
       final names = db['common_names'] as Map<String, dynamic>?;
       final enNames = (names?['en'] as List<dynamic>?);
       if (enNames != null && enNames.isNotEmpty) return enNames.first as String;
-      return (db['scientific'] as String?) ?? _lib?.commonName ?? 'Plant';
+      return (db['scientific'] as String?) ?? 'Plant';
     }
-    return _lib?.commonName ?? 'Plant';
+    return 'Plant';
   }
 
   String get _scientific {
