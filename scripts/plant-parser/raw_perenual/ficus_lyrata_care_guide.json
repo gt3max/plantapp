@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "id": 39,
+      "species_id": 2963,
+      "common_name": "fiddle-leaf fig",
+      "scientific_name": [
+        "Ficus lyrata"
+      ],
+      "section": [
+        {
+          "id": 124,
+          "type": "watering",
+          "description": "Fiddle-leaf figs should be watered generously once a week at a minimum, and prefer to be watered deeply and slowly. It is best to use lukewarm water, about room temperature, and it is important to not let the plant sit in any extra water, as this can cause root rot. To water the fiddle-leaf fig, the soil should be damp but not wet to the touch. If the top inch of soil is dry, then it is time to water the plant. It is beneficial to use filtered or distilled water as tap water often contains minerals and other chemicals that can be harmful to fiddle-leaf figs."
+        },
+        {
+          "id": 125,
+          "type": "sunlight",
+          "description": "Fiddle-leaf figs (Ficus lyrata) prefer bright, indirect sunlight. They should receive direct sunlight for 4-6 hours per day, preferably early in the morning or late in the afternoon. Plants that receive too much sunlight may be scorched or develop yellow leaves. To prevent this, place the plant near a window, but not directly in front of it, which can cause too much direct sun."
+        },
+        {
+          "id": 126,
+          "type": "pruning",
+          "description": "Fiddle-leaf figs can be pruned any time of year, but the best time to prune them is during the early spring when new growth begins emerging. Pruning should be minimal and focused primarily on removing dead, damaged, or diseased branches and foliage. Additionally, you can remove up to a third of the canopy to shape the plant and control growth. Make sure to use sharp, clean pruning tools and be sure not to over-prune, as this can damage the plant."
+        }
+      ]
+    }
+  ],
+  "to": 1,
+  "per_page": 30,
+  "current_page": 1,
+  "from": 1,
+  "last_page": 1,
+  "total": 1
+}

@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "id": 420,
+      "species_id": 855,
+      "common_name": "anthurium",
+      "scientific_name": [
+        "Anthurium andraeanum"
+      ],
+      "section": [
+        {
+          "id": 257,
+          "type": "watering",
+          "description": "Anthurium andraeanum should be watered roughly every 5 to 7 days, depending on the climate and soil, and should be watered thoroughly. The amount of water needed can be estimated by placing your finger in the soil \u2013 if it feels dry 1 centimetre down, it indicates that it could use a good watering. The soil should remain moist at all times, but not soggy. As a general rule, reduce the amount of water if you notice yellowed leaves or drooping stems and increase it if the soil appears too dry."
+        },
+        {
+          "id": 258,
+          "type": "sunlight",
+          "description": "Anthurium andraeanum requires medium light, partial shade and filtered light exposure to keep its vibrant foliage. It needs bright indirect light to thrive, but should not be in direct sunlight as this can scorch the leaves. Make sure to avoid exposure to afternoon sunlight, as well. It is best to provide your plant with bright, indirect light for 6-8 hours a day."
+        },
+        {
+          "id": 259,
+          "type": "pruning",
+          "description": "Pruning anthurium plants should be done sparingly and only when necessary. The plant's growth generally occurs in late spring and early summer, so the best time to prune is during this growth spurt. Prune off any dead leaves, stems, and wilted flowers. Do not prune more than 20-25% of the overall foliage. Pruning should be done only if the plant is looking lanky or if you'd like to shape it. Pruning should be done with clean, sharp scissors and only the dead foliage should be removed. Pruning more than 25% of growth on an anthurium plant can cause it stress, so it should be avoided."
+        }
+      ]
+    }
+  ],
+  "to": 1,
+  "per_page": 30,
+  "current_page": 1,
+  "from": 1,
+  "last_page": 1,
+  "total": 1
+}
