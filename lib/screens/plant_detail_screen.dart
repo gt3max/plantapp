@@ -790,8 +790,6 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       ),
                       if (_lib?.wateringSoilHint.isNotEmpty == true)
                         _InfoRow(icon: Icons.touch_app_outlined, text: _lib!.wateringSoilHint, sub: 'When to water'),
-                      if ((_lib?.wateringFreqWinterDays ?? 0) > 0)
-                        _InfoRow(icon: Icons.ac_unit_outlined, text: 'Every ~${_lib!.wateringFreqWinterDays} days in winter', sub: 'Winter schedule'),
                       if (_lib?.wateringWarning.isNotEmpty == true)
                         InfoBox(text: _lib!.wateringWarning, variant: 'warning'),
                     ], guideLabel: 'Watering guide'),
