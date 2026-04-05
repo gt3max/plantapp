@@ -155,6 +155,11 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   LocationData? _locationData;
   bool _isLoading = true;
 
+  // Photo carousel
+  List<String> _photoUrls = [];
+  int _currentPhotoIndex = 0;
+  final _pageController = PageController();
+
   // UI
   String _activeGroup = 'care';
   bool _descExpanded = false;
@@ -176,7 +181,29 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   void dispose() {
     _scrollController.removeListener(_onScroll);
     _scrollController.dispose();
+    _pageController.dispose();
     super.dispose();
+  }
+
+  Future<void> _loadPhotos() async {
+    try {
+      final detail = await _libraryService.getDetail(widget.plantId);
+      final images = (detail['images'] as List<dynamic>?) ?? [];
+      final urls = images.map((i) => i.toString()).where((u) => u.isNotEmpty).toList();
+      // Always include main image first if not already in list
+      final mainUrl = _imageUrl;
+      if (mainUrl != null && !urls.contains(mainUrl)) {
+        urls.insert(0, mainUrl);
+      }
+      if (urls.isEmpty && mainUrl != null) {
+        urls.add(mainUrl);
+      }
+      if (mounted && urls.length > 1) {
+        setState(() => _photoUrls = urls);
+      }
+    } catch (_) {
+      // Silently fall back to single image
+    }
   }
 
   GlobalKey _keyFor(String section) {
@@ -218,6 +245,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
       _geoService.getLocationData().then((data) {
         if (mounted) setState(() => _locationData = data);
       });
+
+      // Load photo carousel (non-blocking)
+      _loadPhotos();
     } catch (e) {
       // Silent — show what we have
     }
@@ -557,30 +587,31 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                   onPressed: () => Navigator.pop(context),
                 ),
                 flexibleSpace: FlexibleSpaceBar(
-                  background: Stack(
-                    fit: StackFit.expand,
-                    children: [
-                      if (_imageUrl != null)
-                        CachedNetworkImage(
-                          imageUrl: _imageUrl!,
-                          fit: BoxFit.cover,
-                          placeholder: (_, __) => _heroPlaceholder(),
-                          errorWidget: (_, __, ___) => _heroPlaceholder(),
-                        )
-                      else
-                        _heroPlaceholder(),
-                      // Tap overlay for fullscreen
-                      if (_imageUrl != null)
-                        Positioned.fill(
-                          child: Material(
-                            color: Colors.transparent,
-                            child: InkWell(
-                              onTap: () => _openFullScreenImage(context),
-                            ),
-                          ),
+                  background: _photoUrls.length > 1
+                      ? _buildPhotoCarousel()
+                      : Stack(
+                          fit: StackFit.expand,
+                          children: [
+                            if (_imageUrl != null)
+                              CachedNetworkImage(
+                                imageUrl: _imageUrl!,
+                                fit: BoxFit.cover,
+                                placeholder: (_, __) => _heroPlaceholder(),
+                                errorWidget: (_, __, ___) => _heroPlaceholder(),
+                              )
+                            else
+                              _heroPlaceholder(),
+                            if (_imageUrl != null)
+                              Positioned.fill(
+                                child: Material(
+                                  color: Colors.transparent,
+                                  child: InkWell(
+                                    onTap: () => _openFullScreenImage(context),
+                                  ),
+                                ),
+                              ),
+                          ],
                         ),
-                    ],
-                  ),
                 ),
               ),
 
@@ -1765,13 +1796,63 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     );
   }
 
-  void _openFullScreenImage(BuildContext context) {
-    if (_imageUrl == null) return;
+  Widget _buildPhotoCarousel() {
+    return Stack(
+      fit: StackFit.expand,
+      children: [
+        PageView.builder(
+          controller: _pageController,
+          itemCount: _photoUrls.length,
+          onPageChanged: (i) => setState(() => _currentPhotoIndex = i),
+          itemBuilder: (context, index) {
+            return GestureDetector(
+              onTap: () => _openFullScreenImage(context, photoIndex: index),
+              child: CachedNetworkImage(
+                imageUrl: _photoUrls[index],
+                fit: BoxFit.cover,
+                placeholder: (_, __) => _heroPlaceholder(),
+                errorWidget: (_, __, ___) => _heroPlaceholder(),
+              ),
+            );
+          },
+        ),
+        // Dot indicators
+        Positioned(
+          bottom: 12,
+          left: 0,
+          right: 0,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: List.generate(_photoUrls.length, (i) {
+              return Container(
+                width: 8,
+                height: 8,
+                margin: const EdgeInsets.symmetric(horizontal: 3),
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: i == _currentPhotoIndex
+                      ? Colors.white
+                      : Colors.white.withValues(alpha: 0.4),
+                ),
+              );
+            }),
+          ),
+        ),
+      ],
+    );
+  }
+
+  void _openFullScreenImage(BuildContext context, {int photoIndex = 0}) {
+    // Use carousel photo if available, otherwise main image
+    String? fullUrl;
+    if (_photoUrls.isNotEmpty && photoIndex < _photoUrls.length) {
+      fullUrl = _photoUrls[photoIndex];
+    } else {
+      fullUrl = _imageUrl;
+    }
+    if (fullUrl == null) return;
     // Convert Wikipedia 330px thumbnails to full-size
-    String fullUrl = _imageUrl!;
     if (fullUrl.contains('/thumb/') && fullUrl.contains('330px')) {
-      // https://upload.wikimedia.org/.../thumb/X/Xa/File.jpg/330px-File.jpg
-      // → https://upload.wikimedia.org/.../X/Xa/File.jpg
       fullUrl = fullUrl.replaceAll(RegExp(r'/thumb(/.*)/\d+px-[^/]+$'), r'$1');
     }
     Navigator.of(context).push(
@@ -1792,7 +1873,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
               minScale: 0.5,
               maxScale: 4.0,
               child: CachedNetworkImage(
-                imageUrl: fullUrl,
+                imageUrl: fullUrl!,
                 fit: BoxFit.contain,
                 placeholder: (_, __) => const Center(child: CircularProgressIndicator(color: Colors.white)),
                 errorWidget: (_, __, ___) => const Icon(Icons.broken_image, color: Colors.white54, size: 64),
