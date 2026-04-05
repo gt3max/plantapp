@@ -2280,10 +2280,8 @@ class _FullScreenGalleryState extends State<_FullScreenGallery> {
           icon: const Icon(Icons.close, color: Colors.white),
           onPressed: () => Navigator.pop(context),
         ),
-        title: widget.urls.length > 1
-            ? Text('${_current + 1} / ${widget.urls.length}',
-                style: const TextStyle(color: Colors.white70, fontSize: 14))
-            : null,
+        title: Text('${_current + 1} / ${widget.urls.length}',
+            style: const TextStyle(color: Colors.white70, fontSize: 14)),
         centerTitle: true,
       ),
       extendBodyBehindAppBar: true,
