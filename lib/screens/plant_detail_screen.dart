@@ -368,8 +368,8 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   }
 
   int get _presetWateringDays {
-    const days = {'Succulents': 14, 'Standard': 7, 'Tropical': 7, 'Herbs': 3};
-    return days[_preset] ?? 7;
+    const days = {'Succulents': 21, 'Standard': 10, 'Tropical': 10, 'Herbs': 3};
+    return days[_preset] ?? 10;
   }
 
   /// Parse base watering days from DB water_frequency text.
