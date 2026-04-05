@@ -1862,44 +1862,12 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   }
 
   void _openFullScreenImage(BuildContext context, {int photoIndex = 0}) {
-    // Use carousel photo if available, otherwise main image
-    String? fullUrl;
-    if (_photoUrls.isNotEmpty && photoIndex < _photoUrls.length) {
-      fullUrl = _photoUrls[photoIndex];
-    } else {
-      fullUrl = _imageUrl;
-    }
-    if (fullUrl == null) return;
-    // Convert Wikipedia 330px thumbnails to full-size
-    if (fullUrl.contains('/thumb/') && fullUrl.contains('330px')) {
-      fullUrl = fullUrl.replaceAll(RegExp(r'/thumb(/.*)/\d+px-[^/]+$'), r'$1');
-    }
+    final urls = _photoUrls.isNotEmpty ? _photoUrls : (_imageUrl != null ? [_imageUrl!] : <String>[]);
+    if (urls.isEmpty) return;
+
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) => Scaffold(
-          backgroundColor: Colors.black,
-          appBar: AppBar(
-            backgroundColor: Colors.transparent,
-            elevation: 0,
-            leading: IconButton(
-              icon: const Icon(Icons.close, color: Colors.white),
-              onPressed: () => Navigator.pop(context),
-            ),
-          ),
-          extendBodyBehindAppBar: true,
-          body: Center(
-            child: InteractiveViewer(
-              minScale: 0.5,
-              maxScale: 4.0,
-              child: CachedNetworkImage(
-                imageUrl: fullUrl!,
-                fit: BoxFit.contain,
-                placeholder: (_, __) => const Center(child: CircularProgressIndicator(color: Colors.white)),
-                errorWidget: (_, __, ___) => const Icon(Icons.broken_image, color: Colors.white54, size: 64),
-              ),
-            ),
-          ),
-        ),
+        builder: (_) => _FullScreenGallery(urls: urls, initialIndex: photoIndex),
       ),
     );
   }
@@ -2263,6 +2231,107 @@ class _ChipRow extends StatelessWidget {
             ),
           ),
         )).toList(),
+      ),
+    );
+  }
+}
+
+// ─── Fullscreen photo gallery with swipe ─────────────────────
+
+class _FullScreenGallery extends StatefulWidget {
+  const _FullScreenGallery({required this.urls, this.initialIndex = 0});
+  final List<String> urls;
+  final int initialIndex;
+
+  @override
+  State<_FullScreenGallery> createState() => _FullScreenGalleryState();
+}
+
+class _FullScreenGalleryState extends State<_FullScreenGallery> {
+  late PageController _controller;
+  late int _current;
+
+  @override
+  void initState() {
+    super.initState();
+    _current = widget.initialIndex;
+    _controller = PageController(initialPage: _current);
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.black,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        leading: IconButton(
+          icon: const Icon(Icons.close, color: Colors.white),
+          onPressed: () => Navigator.pop(context),
+        ),
+        title: widget.urls.length > 1
+            ? Text('${_current + 1} / ${widget.urls.length}',
+                style: const TextStyle(color: Colors.white70, fontSize: 14))
+            : null,
+        centerTitle: true,
+      ),
+      extendBodyBehindAppBar: true,
+      body: Stack(
+        children: [
+          PageView.builder(
+            controller: _controller,
+            itemCount: widget.urls.length,
+            onPageChanged: (i) => setState(() => _current = i),
+            itemBuilder: (context, index) {
+              return InteractiveViewer(
+                minScale: 0.5,
+                maxScale: 4.0,
+                child: Center(
+                  child: Image.network(
+                    widget.urls[index],
+                    fit: BoxFit.contain,
+                    errorBuilder: (_, __, ___) => const Icon(
+                        Icons.broken_image, color: Colors.white54, size: 64),
+                    loadingBuilder: (_, child, progress) {
+                      if (progress == null) return child;
+                      return const Center(
+                          child: CircularProgressIndicator(color: Colors.white));
+                    },
+                  ),
+                ),
+              );
+            },
+          ),
+          // Dot indicators
+          if (widget.urls.length > 1)
+            Positioned(
+              bottom: MediaQuery.of(context).padding.bottom + 16,
+              left: 0,
+              right: 0,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: List.generate(widget.urls.length, (i) {
+                  return Container(
+                    width: 8,
+                    height: 8,
+                    margin: const EdgeInsets.symmetric(horizontal: 3),
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: i == _current
+                          ? Colors.white
+                          : Colors.white.withValues(alpha: 0.4),
+                    ),
+                  );
+                }),
+              ),
+            ),
+        ],
       ),
     );
   }
