@@ -1862,12 +1862,17 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   }
 
   void _openFullScreenImage(BuildContext context, {int photoIndex = 0}) {
-    final urls = _photoUrls.isNotEmpty ? _photoUrls : (_imageUrl != null ? [_imageUrl!] : <String>[]);
+    final urls = _photoUrls.isNotEmpty
+        ? List<String>.from(_photoUrls)
+        : (_imageUrl != null ? [_imageUrl!] : <String>[]);
     if (urls.isEmpty) return;
 
     Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => _FullScreenGallery(urls: urls, initialIndex: photoIndex),
+      PageRouteBuilder(
+        opaque: true,
+        pageBuilder: (_, __, ___) => _FullScreenGallery(urls: urls, initialIndex: photoIndex),
+        transitionsBuilder: (_, animation, __, child) =>
+            FadeTransition(opacity: animation, child: child),
       ),
     );
   }
