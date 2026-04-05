@@ -554,7 +554,7 @@ const popularPlants = <PopularPlant>[
 
   // ── 6. Sansevieria trifasciata (Snake Plant) ──────────────────
   PopularPlant(
-    id: 'sansevieria_trifasciata',
+    id: 'dracaena_trifasciata',
     scientific: 'Dracaena trifasciata',
     commonName: 'Snake Plant',
     family: 'Asparagaceae',
