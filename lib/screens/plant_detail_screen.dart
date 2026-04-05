@@ -373,7 +373,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   }
 
   /// Parse base watering days from DB water_frequency text.
-  /// "Every 7-10 days" → 8 (average). "Every 2-3 weeks" → 17 (average, weeks→days).
+  /// Parse base watering days from DB water_frequency text.
+  /// Takes UPPER bound of range — safer to underwater than overwater.
+  /// "Every 7-10 days" → 10. "Every 2-3 weeks" → 21.
   int get _baseWateringDays {
     // Priority 1: PopularPlant hardcoded summer days
     if (_lib != null && _lib!.wateringFreqSummerDays > 0) {
@@ -384,34 +386,50 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     if (freq.isNotEmpty) {
       final nums = RegExp(r'(\d+)').allMatches(freq).map((m) => int.parse(m.group(0)!)).toList();
       if (nums.isNotEmpty) {
-        final avg = nums.length >= 2 ? ((nums[0] + nums[1]) / 2).round() : nums[0];
+        // Take upper bound — better to underwater than overwater
+        final upper = nums.length >= 2 ? nums[1] : nums[0];
         // Detect "weeks" → multiply by 7
         if (freq.toLowerCase().contains('week')) {
-          return avg * 7;
+          return upper * 7;
         }
-        return avg;
+        return upper;
       }
     }
     // Priority 3: Preset fallback
     return _presetWateringDays;
   }
 
-  /// Current watering days — always adjusted for season/location
+  // Seasonal coefficients by plant type (derived from multiple references)
+  // Succulents: minimal seasonal change, very slow drying in winter
+  // Tropical: moderate seasonal change
+  // Herbs: strong seasonal change (annual/fast-growing)
+  // Standard: mild seasonal change
+  static const _seasonCoeffs = {
+    //                    Jan   Feb   Mar   Apr   May   Jun   Jul   Aug   Sep   Oct   Nov   Dec
+    'Succulents': [1.88, 1.71, 1.45, 1.25, 1.09, 1.00, 1.00, 1.09, 1.25, 1.45, 1.71, 1.88],
+    'Tropical':   [1.80, 1.60, 1.40, 1.20, 1.10, 1.00, 1.00, 1.10, 1.20, 1.40, 1.60, 1.80],
+    'Herbs':      [2.36, 2.00, 1.64, 1.44, 1.17, 1.11, 1.11, 1.17, 1.44, 1.64, 2.00, 2.36],
+    'Standard':   [1.50, 1.38, 1.25, 1.12, 1.00, 1.00, 1.00, 1.00, 1.12, 1.25, 1.38, 1.50],
+  };
+
+  /// Current watering days — adjusted for season + plant type
   int get _currentWateringDays {
     final baseDays = _baseWateringDays;
     if (baseDays <= 0) return _presetWateringDays;
-    // Apply seasonal adjustment (same as WateringChart uses)
+
+    // Apply seasonal adjustment with geolocation
     if (_locationData?.hasData == true) {
       return GeolocationService.getSeasonalWateringDays(baseDays, _locationData!.latitude);
     }
-    // Fallback: basic seasonal adjustment without geolocation
-    final month = DateTime.now().month;
-    // Winter months (Nov-Feb): multiply by 1.5-2x
-    if (month <= 2 || month >= 11) return (baseDays * 1.8).round();
-    // Spring/Fall (Mar, Apr, Sep, Oct): multiply by 1.2-1.4x
-    if (month <= 4 || month >= 9) return (baseDays * 1.3).round();
-    // Summer (May-Aug): use base
-    return baseDays;
+
+    // Fallback: type-specific seasonal adjustment without geolocation
+    final month = DateTime.now().month - 1; // 0-indexed
+    final preset = _preset;
+    final coeffs = _seasonCoeffs[preset] ?? _seasonCoeffs['Standard']!;
+
+    // Southern hemisphere: shift by 6 months
+    // (without geolocation we assume Northern hemisphere)
+    return (baseDays * coeffs[month]).round();
   }
 
   String get _plantType => _lib?.plantType ?? 'decorative';
