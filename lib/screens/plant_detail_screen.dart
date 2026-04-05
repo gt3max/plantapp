@@ -185,24 +185,21 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     super.dispose();
   }
 
-  Future<void> _loadPhotos() async {
-    try {
-      final detail = await _libraryService.getDetail(widget.plantId);
-      final images = (detail['images'] as List<dynamic>?) ?? [];
-      final urls = images.map((i) => i.toString()).where((u) => u.isNotEmpty).toList();
-      // Always include main image first if not already in list
-      final mainUrl = _imageUrl;
-      if (mainUrl != null && !urls.contains(mainUrl)) {
-        urls.insert(0, mainUrl);
-      }
-      if (urls.isEmpty && mainUrl != null) {
-        urls.add(mainUrl);
-      }
-      if (mounted && urls.length > 1) {
-        setState(() => _photoUrls = urls);
-      }
-    } catch (_) {
-      // Silently fall back to single image
+  void _loadPhotos() {
+    final detail = _dbDetail;
+    if (detail == null) return;
+    final images = (detail['images'] as List<dynamic>?) ?? [];
+    final urls = images.map((i) => i.toString()).where((u) => u.isNotEmpty).toList();
+    // Always include main image first if not already in list
+    final mainUrl = _imageUrl;
+    if (mainUrl != null && !urls.contains(mainUrl)) {
+      urls.insert(0, mainUrl);
+    }
+    if (urls.isEmpty && mainUrl != null) {
+      urls.add(mainUrl);
+    }
+    if (urls.length > 1) {
+      setState(() => _photoUrls = urls);
     }
   }
 
@@ -246,12 +243,13 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
         if (mounted) setState(() => _locationData = data);
       });
 
-      // Load photo carousel (non-blocking)
-      _loadPhotos();
     } catch (e) {
       // Silent — show what we have
     }
-    if (mounted) setState(() => _isLoading = false);
+    if (mounted) {
+      setState(() => _isLoading = false);
+      _loadPhotos();
+    }
   }
 
   // ─── Derived data ────────────────────────────────────────────
