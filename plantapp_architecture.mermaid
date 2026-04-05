@@ -1,0 +1,185 @@
+---
+config:
+  layout: elk
+  elk:
+    mergeEdges: false
+    forceNodeModelOrder: true
+    nodePlacementStrategy: BRANDES_KOEPF
+---
+flowchart TB
+    %% =============================================
+    %% PLANTAPP — Full Architecture Diagram
+    %% Data flow: Sources → Parsers → DB → App → User
+    %% =============================================
+
+    %% ========================================
+    %% USER LAYER
+    %% ========================================
+    subgraph user["<b style='font-size:22px'>📱 MOBILE APP (Flutter)</b>"]
+        U1["My Plants<br/>• Plant list + care reminders<br/>• Journal (photo diary)<br/>• Identify plant (camera)"]
+        U2["Library<br/>• 28 featured (hardcoded)<br/>• Search → API → Turso<br/>• Plant card (17 sections)"]
+        U3["AI Doctor<br/>• Coming soon<br/>• Disease diagnosis<br/>• Pest identification"]
+        U4["Fleet<br/>• Polivalka devices<br/>• Real-time sensor data<br/>• Auto-watering control"]
+    end
+
+    %% ========================================
+    %% BACKEND
+    %% ========================================
+    subgraph backend["<b style='font-size:22px'>☁️ BACKEND</b>"]
+        API["AWS API Gateway<br/>p0833p2v29.eu-central-1<br/>REST API"]
+        LAMBDA["AWS Lambda<br/>polivalka-api-handler<br/>• Auth (JWT)<br/>• Plant DB search/detail<br/>• Identify orchestration<br/>• Device commands<br/>• Warmup: 5min ping"]
+        DYNAMO["AWS DynamoDB<br/>• Users & auth<br/>• Device telemetry (TTL 7d)<br/>• Commands (TTL 24h)<br/>• Plant library per user"]
+    end
+
+    %% ========================================
+    %% DATABASES
+    %% ========================================
+    subgraph databases["<b style='font-size:22px'>🗄️ PLANT DATABASE</b>"]
+        TURSO["Turso (LibSQL)<br/>plantapp-db-gt3max<br/>AWS EU West 1<br/><br/>• plants: 20,257 (17 columns)<br/>• care: 20,257 (68 columns)<br/>• common_names: 9,194<br/>• source_data: raw parser output<br/>• reconciled: consensus decisions<br/>• plant_tags, external_ids, phases"]
+    end
+
+    %% ========================================
+    %% IMAGE STORAGE
+    %% ========================================
+    subgraph images["<b style='font-size:22px'>🖼️ IMAGE STORAGE</b>"]
+        CLOUDINARY["Cloudinary CDN<br/>cloud: dmvvh57hg<br/>• 10 GB free, 0$ egress<br/>• Auto-resize on the fly<br/>• Permanent URLs<br/>• 27 featured uploaded<br/>• plants/{id}/main.jpg"]
+        PLANTNET_IMG["PlantNet Images<br/>bs.plantnet.org<br/>• 11,579 plant photos<br/>• Permanent URLs<br/>• Migration to Cloudinary planned"]
+        WIKI_IMG["Wikipedia Commons<br/>• 274 plant photos<br/>• Permanent URLs<br/>• Free license"]
+    end
+
+    %% ========================================
+    %% DATA SOURCES (PARSERS)
+    %% ========================================
+    subgraph sources["<b style='font-size:22px'>📊 DATA SOURCES (12 parsers)</b>"]
+        direction TB
+
+        subgraph src_core["Core Data (каркас 20K)"]
+            TREFLE["Trefle API ✅ DONE<br/>20,077 plants<br/>• water, light, temp<br/>• humidity, toxicity<br/>• 120 req/min"]
+        end
+
+        subgraph src_enrich["Enrichment (детали)"]
+            PERENUAL["Perenual API<br/>100 req/day (free)<br/>• difficulty, growth_rate<br/>• soil, propagation<br/>• pests, height, photos<br/>• 179 plants done (A-F)"]
+            NCSTATE["NC State Extension ✅<br/>search API, 100% hit rate<br/>• difficulty, growth, height<br/>• soil, pH, propagation<br/>• pests, problems, origin<br/>• 7,485 enriched"]
+            POWO["POWO (Kew Gardens) ✅<br/>Free API, no key<br/>• origin, lifecycle<br/>• order, synonyms<br/>• 9,287 enriched"]
+        end
+
+        subgraph src_special["Specialized"]
+            ASPCA["ASPCA ✅<br/>Toxicity authority<br/>• toxic_to_pets (bool)<br/>• clinical signs → symptoms<br/>• severity (auto-derived)<br/>• 1,095 enriched"]
+            WIKIPEDIA["Wikipedia API ✅<br/>• descriptions (3,779)<br/>• photos (274)<br/>• No rate limit"]
+            XIAOMI["Xiaomi FlowerCare DB ✅<br/>• PPFD, DLI<br/>• humidity_min<br/>• 352 plants"]
+            GARDENERSWORLD["GardenersWorld<br/>BBC, multi-URL scrape<br/>• pests, problems<br/>• pruning, propagation<br/>• soil, watering, fertilizer<br/>• 176 enriched (server blocks)"]
+            MISSOURI["Missouri BG<br/>Playwright (JS render)<br/>• height, spread, problems<br/>• origin, soil, pruning<br/>• Not running (needs Playwright)"]
+            PERMAPEOPLE["Permapeople Web ✅<br/>181 pages scraped<br/>• good/bad companions<br/>• propagation, edible_parts<br/>• 102 enriched"]
+        end
+    end
+
+    %% ========================================
+    %% EXTERNAL APIs (for app features)
+    %% ========================================
+    subgraph external["<b style='font-size:22px'>🔌 EXTERNAL APIs (runtime)</b>"]
+        PLANTNET_API["PlantNet API<br/>Plant identification<br/>• 500 req/day<br/>• Photo → species ID<br/>• my-api.plantnet.org"]
+        SERPAPI["SerpAPI<br/>Fallback identification<br/>• Google Lens via API<br/>• 100 req/month"]
+        OPENMETEO["Open-Meteo<br/>Weather data<br/>• Geolocation → climate<br/>• Outdoor months calc<br/>• Free, no key"]
+    end
+
+    %% ========================================
+    %% QUALITY PIPELINE
+    %% ========================================
+    subgraph quality["<b style='font-size:22px'>✅ QUALITY PIPELINE</b>"]
+        VERIFY["verify.py<br/>Cross-source verification<br/>• NC State × POWO × Wikipedia × DB<br/>• Sanity checks (temp ranges)<br/>• Normalize: growth_rate, difficulty, light"]
+        RECONCILE["reconcile.py<br/>Consensus engine<br/>• confirmed: ≥2 agree<br/>• majority: >50% agree<br/>• fuzzy_match: origin keywords<br/>• conflict: manual review<br/>• single: flagged"]
+        SOURCE_DATA["source_data table<br/>Raw parser output<br/>plant_id | source | field | value"]
+        RECONCILED["reconciled table<br/>Consensus decisions<br/>confidence | sources | conflicts"]
+    end
+
+    %% ========================================
+    %% WEBSITE
+    %% ========================================
+    WEBSITE["plantapp.pro<br/>GitHub Pages<br/>• Landing page<br/>• Device instructions<br/>• Fleet dashboard<br/>• Privacy policy"]
+
+    %% ========================================
+    %% CONNECTIONS
+    %% ========================================
+
+    %% User → Backend
+    U1 -->|JWT auth| API
+    U2 -->|search, detail| API
+    U3 -.->|future| API
+    U4 -->|device commands| API
+    API --> LAMBDA
+    LAMBDA --> DYNAMO
+    LAMBDA -->|SQL queries| TURSO
+
+    %% App → Images
+    U2 -->|featured photos| CLOUDINARY
+    U2 -->|search result photos| PLANTNET_IMG
+    U2 -->|fallback photos| WIKI_IMG
+
+    %% App → External APIs
+    U1 -->|identify photo| API
+    LAMBDA -->|identify| PLANTNET_API
+    LAMBDA -->|fallback identify| SERPAPI
+    U1 -->|weather| OPENMETEO
+
+    %% Parsers → Database
+    TREFLE -->|20K plants| TURSO
+    PERENUAL -->|179 plants + photos| TURSO
+    NCSTATE -->|7,485 enriched| TURSO
+    POWO -->|9,287 enriched| TURSO
+    ASPCA -->|1,095 toxicity| TURSO
+    WIKIPEDIA -->|3,779 descriptions| TURSO
+    XIAOMI -->|352 PPFD data| TURSO
+    GARDENERSWORLD -->|176 pests/pruning| TURSO
+    PERMAPEOPLE -->|102 companions| TURSO
+
+    %% Quality pipeline
+    TURSO -.->|existing data| VERIFY
+    NCSTATE -.->|raw data| SOURCE_DATA
+    POWO -.->|raw data| SOURCE_DATA
+    PERENUAL -.->|raw data| SOURCE_DATA
+    SOURCE_DATA --> RECONCILE
+    RECONCILE --> RECONCILED
+    RECONCILED -->|verified data| TURSO
+
+    %% Photos → Cloudinary
+    PLANTNET_IMG -.->|migrate| CLOUDINARY
+    WIKI_IMG -.->|migrate| CLOUDINARY
+    PERENUAL -.->|download on fetch| CLOUDINARY
+
+    %% Website
+    LAMBDA -.->|API| WEBSITE
+
+    %% ========================================
+    %% STYLING
+    %% ========================================
+    classDef app fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    classDef backend_s fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    classDef db fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef source fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef source_done fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+    classDef external_s fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    classDef quality_s fill:#e0f7fa,stroke:#00838f,stroke-width:2px
+    classDef images_s fill:#fff9c4,stroke:#f57f17,stroke-width:2px
+    classDef website_s fill:#efebe9,stroke:#5d4037,stroke-width:2px
+
+    style user fill:#e8f5e9,stroke:#2e7d32,stroke-width:4px
+    style backend fill:#e3f2fd,stroke:#1565c0,stroke-width:4px
+    style databases fill:#fff3e0,stroke:#e65100,stroke-width:4px
+    style images fill:#fff9c4,stroke:#f57f17,stroke-width:4px
+    style sources fill:#f3e5f5,stroke:#7b1fa2,stroke-width:4px
+    style src_core fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
+    style src_enrich fill:#e1bee7,stroke:#7b1fa2,stroke-width:2px
+    style src_special fill:#d1c4e9,stroke:#512da8,stroke-width:2px
+    style external fill:#fce4ec,stroke:#c62828,stroke-width:4px
+    style quality fill:#e0f7fa,stroke:#00838f,stroke-width:4px
+
+    class U1,U2,U3,U4 app
+    class API,LAMBDA,DYNAMO backend_s
+    class TURSO db
+    class TREFLE,NCSTATE,POWO source_done
+    class PERENUAL,GARDENERSWORLD,MISSOURI source
+    class ASPCA,WIKIPEDIA,XIAOMI,PERMAPEOPLE source_done
+    class PLANTNET_API,SERPAPI,OPENMETEO external_s
+    class VERIFY,RECONCILE,SOURCE_DATA,RECONCILED quality_s
+    class CLOUDINARY,PLANTNET_IMG,WIKI_IMG images_s
+    class WEBSITE website_s
