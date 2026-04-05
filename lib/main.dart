@@ -1,7 +1,9 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:plantapp/app/theme.dart';
 import 'package:plantapp/app/router.dart';
+import 'package:plantapp/constants/featured_plants.dart';
 import 'package:plantapp/stores/auth_store.dart';
 import 'package:plantapp/services/reminder_service.dart';
 
@@ -50,11 +52,22 @@ class _PlantAppState extends ConsumerState<PlantApp> {
       ReminderService.instance.initialize().then((_) {
         ReminderService.instance.rescheduleAll();
       });
+      // Pre-cache featured plant photos (non-blocking)
+      _precacheFeaturedPhotos();
     } catch (e) {
       // Auth init failed — will show sign-in screen
     }
     if (mounted) {
       setState(() => _initialized = true);
+    }
+  }
+
+  void _precacheFeaturedPhotos() {
+    // Download featured photos in background so Library tab opens instantly
+    for (final plant in featuredPlants) {
+      if (plant.imageUrl != null && plant.imageUrl!.isNotEmpty) {
+        CachedNetworkImageProvider(plant.imageUrl!).resolve(const ImageConfiguration());
+      }
     }
   }
 
