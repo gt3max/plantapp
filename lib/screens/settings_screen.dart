@@ -217,6 +217,12 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             _sourceRow('Missouri Botanical Garden', 'Care guides & problems', 'missouribotanicalgarden.org'),
             _sourceRow('POWO (Kew Gardens)', 'Taxonomy & distribution', 'powo.science.kew.org'),
             _sourceRow('BBC Gardeners\' World', 'Pests & diseases', 'gardenersworld.com'),
+            _sourceRow('ASPCA', 'Toxicity data', 'aspca.org'),
+            _sourceRow('iNaturalist', 'Photo verification', 'inaturalist.org'),
+            _sourceRow('Pixabay', 'Plant photos', 'pixabay.com'),
+            _sourceRow('Pexels', 'Plant photos', 'pexels.com'),
+            _sourceRow('Cloudinary', 'Image hosting & CDN', 'cloudinary.com'),
+            _sourceRow('Open-Meteo', 'Weather & geolocation', 'open-meteo.com'),
             _sourceRow('Old Farmer\'s Almanac', 'Companion planting', 'almanac.com'),
             const SizedBox(height: AppSpacing.md),
             Text(
