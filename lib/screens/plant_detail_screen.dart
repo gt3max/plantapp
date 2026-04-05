@@ -372,15 +372,22 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     return days[_preset] ?? 7;
   }
 
-  /// Current watering days (from lib data or seasonal adjustment)
+  /// Current watering days — always adjusted for season/location
   int get _currentWateringDays {
-    if (_lib != null) {
-      return _lib!.wateringFreqSummerDays > 0 ? _lib!.wateringFreqSummerDays : _presetWateringDays;
-    }
+    final baseDays = _lib?.wateringFreqSummerDays ?? _presetWateringDays;
+    if (baseDays <= 0) return _presetWateringDays;
+    // Apply seasonal adjustment (same as WateringChart uses)
     if (_locationData?.hasData == true) {
-      return GeolocationService.getSeasonalWateringDays(_presetWateringDays, _locationData!.latitude);
+      return GeolocationService.getSeasonalWateringDays(baseDays, _locationData!.latitude);
     }
-    return _presetWateringDays;
+    // Fallback: basic seasonal adjustment without geolocation
+    final month = DateTime.now().month;
+    // Winter months (Nov-Feb): multiply by 1.5-2x
+    if (month <= 2 || month >= 11) return (baseDays * 1.8).round();
+    // Spring/Fall (Mar, Apr, Sep, Oct): multiply by 1.2-1.4x
+    if (month <= 4 || month >= 9) return (baseDays * 1.3).round();
+    // Summer (May-Aug): use base
+    return baseDays;
   }
 
   String get _plantType => _lib?.plantType ?? 'decorative';
