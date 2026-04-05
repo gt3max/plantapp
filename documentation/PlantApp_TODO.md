@@ -71,10 +71,19 @@
 ### Приложение — UI/UX
 - [ ] Identify результаты: кнопка save отдельно от фото
 - [ ] Identify: несколько фото в результате (API даёт 3)
-- [ ] Фото карусель на карточке растения (Perenual other_images)
-- [ ] Library: cold start Lambda 2-3 сек — показать skeleton/loader
-- [ ] Popular plants хардкод — убрать из кода (данные уже в Turso)
+- [ ] Фото карусель на карточке растения (2-3 фото как у Planta)
+- [x] Library: featured 28 растений — мгновенно из хардкода (без API)
+- [x] Library: Lambda warmup каждые 5 мин (CloudWatch Events)
+- [x] Library: cached_network_image — кеш фото на устройстве
 - [ ] Пустые секции — скрывать или показывать "No data"?
+
+### Хранилище фото (КРИТИЧНОЕ)
+- [ ] **Свой image storage** — не зависеть от PlantNet/Perenual серверов
+- [ ] Cloudflare R2: 10 GB free, 0$ egress, S3-совместимый, подключить ~10 мин
+- [ ] Таблица `plant_images`: plant_id, image_type (main/leaf/flower/pest/disease), url, source
+- [ ] Скрипт: скачать 12K фото (PlantNet+Wikipedia) → залить на R2
+- [ ] На 100K растений × 3 фото = 120 GB (~$1.65/мес на R2)
+- [ ] Perenual фото: скачивать сразу при получении (URL протухает за 24ч!)
 
 ### Android
 - [ ] Протестировать на Android устройстве
