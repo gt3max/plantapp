@@ -1823,11 +1823,14 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           itemBuilder: (context, index) {
             return GestureDetector(
               onTap: () => _openFullScreenImage(context, photoIndex: index),
-              child: CachedNetworkImage(
-                imageUrl: _photoUrls[index],
+              child: Image.network(
+                _photoUrls[index],
                 fit: BoxFit.cover,
-                placeholder: (_, __) => _heroPlaceholder(),
-                errorWidget: (_, __, ___) => _heroPlaceholder(),
+                errorBuilder: (_, __, ___) => _heroPlaceholder(),
+                loadingBuilder: (_, child, progress) {
+                  if (progress == null) return child;
+                  return _heroPlaceholder();
+                },
               ),
             );
           },
