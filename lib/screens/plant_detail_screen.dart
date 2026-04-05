@@ -2289,21 +2289,17 @@ class _FullScreenGalleryState extends State<_FullScreenGallery> {
             itemCount: widget.urls.length,
             onPageChanged: (i) => setState(() => _current = i),
             itemBuilder: (context, index) {
-              return InteractiveViewer(
-                minScale: 0.5,
-                maxScale: 4.0,
-                child: Center(
-                  child: Image.network(
-                    widget.urls[index],
-                    fit: BoxFit.contain,
-                    errorBuilder: (_, __, ___) => const Icon(
-                        Icons.broken_image, color: Colors.white54, size: 64),
-                    loadingBuilder: (_, child, progress) {
-                      if (progress == null) return child;
-                      return const Center(
-                          child: CircularProgressIndicator(color: Colors.white));
-                    },
-                  ),
+              return Center(
+                child: Image.network(
+                  widget.urls[index],
+                  fit: BoxFit.contain,
+                  errorBuilder: (_, __, ___) => const Icon(
+                      Icons.broken_image, color: Colors.white54, size: 64),
+                  loadingBuilder: (_, child, progress) {
+                    if (progress == null) return child;
+                    return const Center(
+                        child: CircularProgressIndicator(color: Colors.white));
+                  },
                 ),
               );
             },
