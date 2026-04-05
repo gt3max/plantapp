@@ -603,31 +603,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                   onPressed: () => Navigator.pop(context),
                 ),
                 flexibleSpace: FlexibleSpaceBar(
-                  background: _photoUrls.length > 1
-                      ? _buildPhotoCarousel()
-                      : Stack(
-                          fit: StackFit.expand,
-                          children: [
-                            if (_imageUrl != null)
-                              CachedNetworkImage(
-                                imageUrl: _imageUrl!,
-                                fit: BoxFit.cover,
-                                placeholder: (_, __) => _heroPlaceholder(),
-                                errorWidget: (_, __, ___) => _heroPlaceholder(),
-                              )
-                            else
-                              _heroPlaceholder(),
-                            if (_imageUrl != null)
-                              Positioned.fill(
-                                child: Material(
-                                  color: Colors.transparent,
-                                  child: InkWell(
-                                    onTap: () => _openFullScreenImage(context),
-                                  ),
-                                ),
-                              ),
-                          ],
-                        ),
+                  background: _buildPhotoCarousel(),
                 ),
               ),
 
@@ -1813,18 +1789,33 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   }
 
   Widget _buildPhotoCarousel() {
+    // If no carousel photos loaded yet, show single image
+    final urls = _photoUrls.isNotEmpty ? _photoUrls : (_imageUrl != null ? [_imageUrl!] : <String>[]);
+    if (urls.isEmpty) return _heroPlaceholder();
+
+    if (urls.length == 1) {
+      return GestureDetector(
+        onTap: () => _openFullScreenImage(context, photoIndex: 0),
+        child: Image.network(
+          urls[0],
+          fit: BoxFit.cover,
+          errorBuilder: (_, __, ___) => _heroPlaceholder(),
+        ),
+      );
+    }
+
     return Stack(
       fit: StackFit.expand,
       children: [
         PageView.builder(
           controller: _pageController,
-          itemCount: _photoUrls.length,
+          itemCount: urls.length,
           onPageChanged: (i) => setState(() => _currentPhotoIndex = i),
           itemBuilder: (context, index) {
             return GestureDetector(
               onTap: () => _openFullScreenImage(context, photoIndex: index),
               child: Image.network(
-                _photoUrls[index],
+                urls[index],
                 fit: BoxFit.cover,
                 errorBuilder: (_, __, ___) => _heroPlaceholder(),
                 loadingBuilder: (_, child, progress) {
@@ -1842,7 +1833,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           right: 0,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: List.generate(_photoUrls.length, (i) {
+            children: List.generate(urls.length, (i) {
               return Container(
                 width: 8,
                 height: 8,
