@@ -2287,14 +2287,15 @@ class _FullScreenGalleryState extends State<_FullScreenGallery> {
           PageView.builder(
             controller: _controller,
             itemCount: widget.urls.length,
+            physics: const BouncingScrollPhysics(),
             onPageChanged: (i) => setState(() => _current = i),
             itemBuilder: (context, index) {
-              return Center(
+              return SizedBox.expand(
                 child: Image.network(
                   widget.urls[index],
                   fit: BoxFit.contain,
-                  errorBuilder: (_, __, ___) => const Icon(
-                      Icons.broken_image, color: Colors.white54, size: 64),
+                  errorBuilder: (_, __, ___) => const Center(
+                      child: Icon(Icons.broken_image, color: Colors.white54, size: 64)),
                   loadingBuilder: (_, child, progress) {
                     if (progress == null) return child;
                     return const Center(
