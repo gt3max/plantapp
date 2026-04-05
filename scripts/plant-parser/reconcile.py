@@ -67,6 +67,9 @@ SANE_RANGES = {
 # ── Fields that go to care table vs plants table ──
 PLANTS_FIELDS = {'origin', 'order_name', 'synonyms', 'description', 'image_url'}
 
+# Fields that exist in source_data but NOT in care/plants tables — skip writing
+_SKIP_FIELDS = {'climate', 'lifeform', 'insects_diseases', 'soil_drainage', 'hardiness_zone', 'habit_form', 'soil_ph', 'used_for'}
+
 
 def normalize_value(field, value):
     """Normalize a value for cross-source comparison."""
@@ -246,7 +249,7 @@ def reconcile_plant(plant_id, verbose=False):
         ))
 
         # Write confirmed/majority/single to actual care/plants table
-        if value is not None and confidence in ('confirmed', 'majority', 'median', 'single'):
+        if value is not None and confidence in ('confirmed', 'majority', 'median', 'single') and field not in _SKIP_FIELDS:
             table = 'plants' if field in PLANTS_FIELDS else 'care'
             decisions.append((
                 f"UPDATE {table} SET {field} = CASE WHEN {field} IS NULL OR {field} = '' THEN ? ELSE {field} END WHERE plant_id = ?",
