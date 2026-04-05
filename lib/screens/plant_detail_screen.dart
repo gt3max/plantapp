@@ -188,12 +188,17 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   void _loadPhotos() {
     final detail = _dbDetail;
     if (detail == null) return;
+
+    // Images can be at top level or inside care
     final images = (detail['images'] as List<dynamic>?) ?? [];
     final urls = images.map((i) => i.toString()).where((u) => u.isNotEmpty).toList();
+
     // Always include main image first if not already in list
     final mainUrl = _imageUrl;
-    if (mainUrl != null && !urls.contains(mainUrl)) {
-      urls.insert(0, mainUrl);
+    if (mainUrl != null && mainUrl.isNotEmpty) {
+      if (!urls.any((u) => u.contains(mainUrl.split('/').last))) {
+        urls.insert(0, mainUrl);
+      }
     }
     if (urls.isEmpty && mainUrl != null) {
       urls.add(mainUrl);
@@ -247,8 +252,21 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
       // Silent — show what we have
     }
     if (mounted) {
-      setState(() => _isLoading = false);
-      _loadPhotos();
+      setState(() {
+        _isLoading = false;
+        // Load carousel photos from detail response
+        if (_dbDetail != null) {
+          final images = (_dbDetail!['images'] as List<dynamic>?) ?? [];
+          final urls = images.map((i) => i.toString()).where((u) => u.isNotEmpty).toList();
+          final mainUrl = _imageUrl;
+          if (mainUrl != null && mainUrl.isNotEmpty && !urls.contains(mainUrl)) {
+            urls.insert(0, mainUrl);
+          }
+          if (urls.length > 1) {
+            _photoUrls = urls;
+          }
+        }
+      });
     }
   }
 
