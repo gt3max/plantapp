@@ -1321,6 +1321,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
       // ═══ WATERING GUIDE (RN 1:1) ═══
       case 'water':
         return [
+          InfoBox(text: 'Watering recommendations are for indoor plants in pots. Outdoor watering depends on rainfall, soil type and sun exposure \u2014 adjust accordingly.', variant: 'info'),
+          if (_locationData?.hasData != true)
+            InfoBox(text: 'Enable location for more accurate watering schedule based on your climate. Currently using default Northern Hemisphere estimates.', variant: 'warning'),
           _guideSectionTitle('Watering frequency'),
           _WateringChart(
             baseDays: _lib?.wateringFreqSummerDays ?? _presetWateringDays,
