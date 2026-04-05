@@ -368,13 +368,37 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   }
 
   int get _presetWateringDays {
-    const days = {'Succulents': 10, 'Standard': 7, 'Tropical': 5, 'Herbs': 2};
+    const days = {'Succulents': 14, 'Standard': 7, 'Tropical': 7, 'Herbs': 3};
     return days[_preset] ?? 7;
+  }
+
+  /// Parse base watering days from DB water_frequency text.
+  /// "Every 7-10 days" → 8 (average). "Every 2-3 weeks" → 17 (average, weeks→days).
+  int get _baseWateringDays {
+    // Priority 1: PopularPlant hardcoded summer days
+    if (_lib != null && _lib!.wateringFreqSummerDays > 0) {
+      return _lib!.wateringFreqSummerDays;
+    }
+    // Priority 2: Parse from DB water_frequency text
+    final freq = _dbCareStr('water_frequency');
+    if (freq.isNotEmpty) {
+      final nums = RegExp(r'(\d+)').allMatches(freq).map((m) => int.parse(m.group(0)!)).toList();
+      if (nums.isNotEmpty) {
+        final avg = nums.length >= 2 ? ((nums[0] + nums[1]) / 2).round() : nums[0];
+        // Detect "weeks" → multiply by 7
+        if (freq.toLowerCase().contains('week')) {
+          return avg * 7;
+        }
+        return avg;
+      }
+    }
+    // Priority 3: Preset fallback
+    return _presetWateringDays;
   }
 
   /// Current watering days — always adjusted for season/location
   int get _currentWateringDays {
-    final baseDays = _lib?.wateringFreqSummerDays ?? _presetWateringDays;
+    final baseDays = _baseWateringDays;
     if (baseDays <= 0) return _presetWateringDays;
     // Apply seasonal adjustment (same as WateringChart uses)
     if (_locationData?.hasData == true) {
@@ -1324,7 +1348,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
             InfoBox(text: 'Enable location for more accurate watering schedule based on your climate. Currently using default Northern Hemisphere estimates.', variant: 'warning'),
           _guideSectionTitle('Watering frequency'),
           _WateringChart(
-            baseDays: _lib?.wateringFreqSummerDays ?? _presetWateringDays,
+            baseDays: _baseWateringDays,
             currentMonth: DateTime.now().month - 1,
             latitude: _locationData?.latitude,
           ),
