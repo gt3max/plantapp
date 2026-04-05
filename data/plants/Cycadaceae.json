@@ -10,12 +10,15 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/da0c9ea2852448bca8cd5435c33d52c2.jpg",
-    "description": null,
+    "description": "Female plants produce seeds on a modified leaf-type structure. Seeds are orangish in color. The male cone can be large and ornamental.",
     "wikidata_id": null,
     "sources": [
       "trefle"
     ],
     "updated_at": "2026-04-03T16:35:57.141841+00:00",
+    "origin": "AUSTRALIA, NTA, AUSTRALASIA, NTA OO",
+    "order_name": "Cycadales",
+    "synonyms": null,
     "care": {
       "plant_id": "cycas_armstrongii",
       "water_frequency": "Every 7-10 days",
@@ -34,7 +37,7 @@
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
       "humidity_action": "High humidity preferred (tropical climate)",
-      "soil_types": null,
+      "soil_types": "Clay, Good Drainage",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
@@ -44,16 +47,47 @@
       "height_min_cm": null,
       "height_max_cm": null,
       "lifecycle": "perennial",
-      "difficulty": null,
-      "growth_rate": null,
+      "difficulty": "Easy",
+      "growth_rate": "Slow",
       "watering_guide": null,
       "light_guide": "Climate: seasonally dry tropical",
-      "tips": "Native to: AUSTRALIA, NTA OO, NTA, AUSTRALASIA",
+      "tips": "Native to: AUSTRALIA, NTA OO, NTA, AUSTRALASIA | Similar plants: Alocasia",
       "toxic_to_pets": 1,
       "toxic_to_humans": 0,
       "toxicity_note": "Toxic to Dogs, Toxic to Cats, Toxic to Horses. Signs: Vomiting, melena, icterus, increased thirst, hemorrhagic gastroenteritis, bruising, coagulopathy, liver damage, liver failure, death.",
       "common_problems": null,
-      "common_pests": null
+      "common_pests": null,
+      "watering_method": null,
+      "watering_avoid": null,
+      "temp_opt_low_c": null,
+      "temp_opt_high_c": null,
+      "temp_winter_low_c": null,
+      "temp_winter_high_c": null,
+      "temp_warning": null,
+      "pot_type": null,
+      "pot_size_note": null,
+      "repot_signs": null,
+      "fertilizer_npk": null,
+      "fertilizer_warning": null,
+      "height_indoor_max_cm": null,
+      "spread_max_cm": null,
+      "difficulty_note": "Growth habit: Erect",
+      "toxic_parts": "All parts (especially seeds)",
+      "toxicity_severity": "Severe",
+      "toxicity_symptoms": "Vomiting, melena, icterus, increased thirst, hemorrhagic gastroenteritis, bruising, coagulopathy, liver damage, liver failure, death.",
+      "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
+      "used_for": null,
+      "used_for_details": null,
+      "edible_parts": "The stems are a source of sago, a food starch. Some have edible seeds.",
+      "harvest_info": null,
+      "pruning_info": null,
+      "propagation_methods": null,
+      "propagation_detail": null,
+      "germination_days": null,
+      "germination_temp_c": null,
+      "good_companions": null,
+      "bad_companions": null,
+      "companion_note": null
     },
     "common_names": {},
     "tags": [],
@@ -64,68 +98,165 @@
     "scientific": "Cycas revoluta",
     "family": "Cycadaceae",
     "genus": "Cycas",
-    "category": "decorative",
+    "category": "fruiting",
     "indoor": 1,
-    "edible": 0,
+    "edible": 1,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "https://bs.plantnet.org/image/o/8869f61568c85342bfcbb11f8099c7a577a72a2c",
-    "description": "There must be a male and female plant to produce seeds. Pollination occurs by insects or the wind. The male plant produces a pineapple-shaped cone that may grow up to 2 feet tall. The female plant produces a large golden rounded cone.  If pollination is successful, the female will produce a packed seedhead. Pollination occurs from April to June. The seeds mature from September to October.",
+    "image_url": "https://res.cloudinary.com/dmvvh57hg/image/upload/plants/cycas_revoluta/main.jpg",
+    "description": "The Sago palm (Cycas revoluta) is an amazing plant species that is known for its unique fan-shaped leaves and intricate patterns. It requires minimal maintenance and is extremely resilient to harsh weather conditions, enabling it to thrive in both hot and cold climates. This palm is known for thriving in indirect sunlight and requires minimal watering, making it an ideal choice for those who are looking for a low-maintenance plant for their garden or patio. It also looks fantastic when it is well looked after, with its bright green foliage and thick stems. The Sago palm is cleverly designed, being able to absorb large amounts of moisture from its environment even in the toughest of conditions. Overall, the Sago palm is truly an amazing plant species.",
     "wikidata_id": null,
     "sources": [
-      "trefle"
+      "perenual"
     ],
-    "updated_at": "2026-04-03T16:16:07.013204+00:00",
+    "updated_at": "2026-04-04T09:21:02.352488+00:00",
+    "origin": "Southern Japan",
+    "order_name": "Cycadales",
+    "synonyms": "[\"Cycas aurea\", \"Cycas taitungensis\", \"Cycas inermis\", \"Cycas miquelii\", \"Cycas revoluta var. pendula\"]",
     "care": {
       "plant_id": "cycas_revoluta",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "Average",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
+      "light_preferred": "full sun",
       "light_also_ok": null,
       "ppfd_min": null,
       "ppfd_max": null,
       "dli_min": null,
       "dli_max": null,
-      "temp_min_c": 10,
-      "temp_max_c": 30,
+      "temp_min_c": 9,
+      "temp_max_c": 10,
       "humidity_level": "Average (40-60%)",
       "humidity_min_pct": null,
-      "humidity_action": "High humidity preferred (tropical climate)",
-      "soil_types": "Loam (Silt), Good Drainage",
+      "humidity_action": null,
+      "soil_types": "Well-drained",
       "soil_ph_min": null,
       "soil_ph_max": null,
       "repot_frequency": null,
       "fertilizer_type": null,
       "fertilizer_freq": null,
       "fertilizer_season": null,
-      "height_min_cm": 90,
+      "height_min_cm": null,
       "height_max_cm": 300,
-      "lifecycle": "perennial",
-      "difficulty": "Easy",
-      "growth_rate": "Slow",
-      "watering_guide": "Propagation: Seed",
-      "light_guide": "NC State: Partial Shade (Direct sunlight only part of the day, 2-6 hours) | Climate: subtropical",
-      "tips": "Similar plants: Asparagus setaceus | Native to: CHS HE, AZO OO, MACARONESIA, BAN OO, JAP SH",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "lifecycle": "Perennial",
+      "difficulty": "Medium",
+      "growth_rate": "Low",
+      "watering_guide": null,
+      "light_guide": null,
+      "tips": "The Sago palm (Cycas revoluta) is an amazing plant species that is known for its unique fan-shaped leaves and intricate patterns. It requires minimal maintenance and is extremely resilient to harsh we",
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Toxic to pets and/or humans",
       "common_problems": [
-        "Root rot can occur if the plant is overwatered or poorly drained."
+        "Fungal leaf spot",
+        "Root rot",
+        "Disease resistant"
       ],
       "common_pests": [
-        "Scale insects, mealybugs, and spider mites can occur.",
-        "Cycad aulacaspis scale can cause serious damage."
-      ]
+        "Mites",
+        "Scale insects",
+        "Pest resistant",
+        "Drought resistant"
+      ],
+      "watering_method": null,
+      "watering_avoid": null,
+      "temp_opt_low_c": null,
+      "temp_opt_high_c": null,
+      "temp_winter_low_c": null,
+      "temp_winter_high_c": null,
+      "temp_warning": null,
+      "pot_type": null,
+      "pot_size_note": null,
+      "repot_signs": null,
+      "fertilizer_npk": null,
+      "fertilizer_warning": null,
+      "height_indoor_max_cm": null,
+      "spread_max_cm": null,
+      "difficulty_note": null,
+      "toxic_parts": "All parts (especially seeds)",
+      "toxicity_severity": "Moderate",
+      "toxicity_symptoms": null,
+      "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
+      "used_for": null,
+      "used_for_details": null,
+      "edible_parts": "The pith contains edible starch that can be processed for making sago. The starch has to be carefully washed to remove the toxins that are in the pith.",
+      "harvest_info": null,
+      "pruning_info": null,
+      "propagation_methods": "[\"Seed Propagation\"]",
+      "propagation_detail": null,
+      "germination_days": null,
+      "germination_temp_c": null,
+      "good_companions": null,
+      "bad_companions": null,
+      "companion_note": null
     },
     "common_names": {
+      "ar": [
+        "سيكاد ملتف",
+        "سيكاس ملتف"
+      ],
       "en": [
-        "Sago cycas"
+        "Japanese sago palm",
+        "King sago",
+        "Sago Palm",
+        "Sago cycas",
+        "Sago palm",
+        "king sago"
+      ],
+      "es": [
+        "Cica",
+        "Cicas Revoluta",
+        "Palma de Iglesia"
+      ],
+      "fr": [
+        "Cycade du japon",
+        "Cycas du Japon",
+        "Sagou du Japon"
+      ],
+      "ja": [
+        "ソテツ",
+        "蘇鉄"
+      ],
+      "ko": [
+        "소철",
+        "소철나무"
+      ],
+      "nl": [
+        "Cycaspalm",
+        "Smalbladige sagopalm",
+        "Vredespalm"
+      ],
+      "pl": [
+        "Cykas odwinięty",
+        "Sagowiec odwinięty"
+      ],
+      "pt": [
+        "Cycas miquelii"
+      ],
+      "ru": [
+        "Саговник поникающий"
+      ],
+      "tr": [
+        "Cycas revulata"
+      ],
+      "zh": [
+        "凤尾松",
+        "凤尾草",
+        "凤尾蕉",
+        "苏铁",
+        "辟火蕉",
+        "避火蕉",
+        "铁树"
       ]
     },
-    "tags": [],
-    "external_ids": {}
+    "tags": [
+      "edible",
+      "indoor"
+    ],
+    "external_ids": {
+      "perenual": "2272"
+    }
   }
 ]
