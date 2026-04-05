@@ -12,22 +12,59 @@ class GeolocationService {
   DateTime? _cacheTime;
   static const _cacheDuration = Duration(hours: 1);
 
-  // Northern hemisphere: Jan=winter(3.0) → Jun-Aug=summer(1.0) → Dec=winter(2.8)
-  static const _seasonCoeffsNorth = [3.0, 2.8, 2.1, 1.6, 1.2, 1.0, 1.0, 1.0, 1.2, 1.6, 2.1, 2.8];
-
-  /// Get season coefficients adjusted for hemisphere.
-  /// Southern hemisphere (lat < 0) shifts by 6 months.
+  /// Get generic season coefficients for WateringChart visualization.
+  /// For actual watering calculation, use getSeasonalWateringDays with monthlyTemps.
   static List<double> getSeasonCoefficients(double? latitude) {
+    const fallbackNorth = [1.80, 1.60, 1.40, 1.20, 1.10, 1.00, 1.00, 1.10, 1.20, 1.40, 1.60, 1.80];
     if (latitude != null && latitude < 0) {
-      return [..._seasonCoeffsNorth.sublist(6), ..._seasonCoeffsNorth.sublist(0, 6)];
+      return [...fallbackNorth.sublist(6), ...fallbackNorth.sublist(0, 6)];
     }
-    return List.of(_seasonCoeffsNorth);
+    return List.of(fallbackNorth);
   }
 
-  /// Get adjusted watering days for current month.
-  static int getSeasonalWateringDays(int baseDays, double? latitude) {
+  /// Get watering coefficient based on outdoor monthly temperature.
+  /// Indoor plants: external temp affects humidity & light, not directly temp.
+  /// Colder outside → shorter days, drier air (heating) → slower growth → water less.
+  /// Warmer outside → longer days, more growth → water more.
+  /// Effect is moderate since plant is indoors (coeff range: 0.85 – 1.80).
+  static double _tempToCoeff(double avgTempC) {
+    // Reference: 22°C outdoor → coeff 1.0 (summer baseline)
+    // 10°C → ~1.4 (spring/fall in temperate climate)
+    // 0°C → ~1.7 (winter in cold climate)
+    // -10°C → ~1.8 (harsh winter, capped)
+    // 30°C → ~0.90 (hot climate)
+    // 35°C → ~0.85 (very hot, capped — indoor AC keeps it moderate)
+    const idealTemp = 22.0;
+    final diff = idealTemp - avgTempC;
+    if (diff > 0) {
+      // Colder → less frequent (moderate effect, capped at 1.80)
+      return (1.0 + (diff * 0.035)).clamp(1.0, 1.80);
+    } else {
+      // Warmer → more frequent (mild effect, indoor AC limits it)
+      return (1.0 + (diff * 0.015)).clamp(0.85, 1.0);
+    }
+  }
+
+  /// Get adjusted watering days using real temperature data when available.
+  /// Falls back to hemisphere-based estimation if no temperature data.
+  static int getSeasonalWateringDays(int baseDays, double? latitude, {List<double>? monthlyTemps}) {
     final month = DateTime.now().month - 1; // 0-indexed
-    final coeffs = getSeasonCoefficients(latitude);
+
+    // Priority 1: Use real monthly temperature from user's region
+    if (monthlyTemps != null && monthlyTemps.length == 12) {
+      final coeff = _tempToCoeff(monthlyTemps[month]);
+      return (baseDays * coeff).round();
+    }
+
+    // Priority 2: Hemisphere-based fallback (Northern default)
+    // These are generic coefficients — less accurate than real temps
+    const fallbackNorth = [1.80, 1.60, 1.40, 1.20, 1.10, 1.00, 1.00, 1.10, 1.20, 1.40, 1.60, 1.80];
+    List<double> coeffs;
+    if (latitude != null && latitude < 0) {
+      coeffs = [...fallbackNorth.sublist(6), ...fallbackNorth.sublist(0, 6)];
+    } else {
+      coeffs = List.of(fallbackNorth);
+    }
     return (baseDays * coeffs[month]).round();
   }
 

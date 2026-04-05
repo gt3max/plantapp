@@ -417,9 +417,13 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     final baseDays = _baseWateringDays;
     if (baseDays <= 0) return _presetWateringDays;
 
-    // Apply seasonal adjustment with geolocation
+    // Apply seasonal adjustment with real temperature data from user's region
     if (_locationData?.hasData == true) {
-      return GeolocationService.getSeasonalWateringDays(baseDays, _locationData!.latitude);
+      return GeolocationService.getSeasonalWateringDays(
+        baseDays,
+        _locationData!.latitude,
+        monthlyTemps: _locationData!.monthlyAvgTemps,
+      );
     }
 
     // Fallback: type-specific seasonal adjustment without geolocation
