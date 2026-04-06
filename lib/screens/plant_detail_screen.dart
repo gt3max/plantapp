@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:plantapp/app/theme.dart';
 import 'package:plantapp/constants/popular_plants.dart';
+import 'package:plantapp/constants/featured_plants.dart';
 import 'package:plantapp/models/plant.dart';
 import 'package:plantapp/services/plant_service.dart';
 import 'package:plantapp/services/library_service.dart';
@@ -219,25 +220,29 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
       final lib = getPopularPlant(widget.plantId);
       if (lib != null && mounted) setState(() => _lib = lib);
 
-      // Source 1: User's plant collection
-      final plants = await _plantService.getMyPlants();
+      // Source 1 + 2: fetch in parallel
+      final futures = await Future.wait([
+        _plantService.getMyPlants(),
+        _libraryService.getDetail(widget.plantId).catchError((_) => null),
+      ]);
+
+      final plants = futures[0] as List<dynamic>;
       final userPlant = plants.where((p) => p.plantId == widget.plantId).firstOrNull;
       if (userPlant != null) {
         if (mounted) setState(() => _userPlant = userPlant);
       }
 
-      // Source 2: Turso DB detail
-      try {
-        final detail = await _libraryService.getDetail(widget.plantId);
+      final detail = futures[1] as Map<String, dynamic>?;
+      if (detail != null) {
         if (mounted) setState(() => _dbDetail = detail);
-      } catch (_) {
+      } else {
         final scientific = _userPlant?.scientific ?? lib?.scientific;
         if (scientific != null && scientific.isNotEmpty) {
           try {
             final results = await _libraryService.search(scientific);
             if (results.isNotEmpty) {
-              final detail = await _libraryService.getDetail(results.first.id.toString());
-              if (mounted) setState(() => _dbDetail = detail);
+              final d = await _libraryService.getDetail(results.first.id.toString());
+              if (mounted) setState(() => _dbDetail = d);
             }
           } catch (_) {}
         }
@@ -276,9 +281,11 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
     if (_userPlant != null) return _userPlant!.displayName;
     // Prefer our curated common name from PopularPlant
     if (_lib != null) return _lib!.commonName;
+    // Check featured plants list (single source of truth for names in Library)
+    final featured = featuredPlants.where((p) => p.plantIdStr == widget.plantId).firstOrNull;
+    if (featured?.commonName != null) return featured!.commonName!;
     final db = _dbDetail;
     if (db != null) {
-      // Use primary common name from DB
       final primaryName = db['primary_common_name'] as String?;
       if (primaryName != null && primaryName.isNotEmpty) return primaryName;
       final names = db['common_names'] as Map<String, dynamic>?;
@@ -406,10 +413,11 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   // Standard: mild seasonal change
   static const _seasonCoeffs = {
     //                    Jan   Feb   Mar   Apr   May   Jun   Jul   Aug   Sep   Oct   Nov   Dec
-    'Succulents': [1.88, 1.71, 1.45, 1.25, 1.09, 1.00, 1.00, 1.09, 1.25, 1.45, 1.71, 1.88],
-    'Tropical':   [1.80, 1.60, 1.40, 1.20, 1.10, 1.00, 1.00, 1.10, 1.20, 1.40, 1.60, 1.80],
-    'Herbs':      [2.36, 2.00, 1.64, 1.44, 1.17, 1.11, 1.11, 1.17, 1.44, 1.64, 2.00, 2.36],
-    'Standard':   [1.50, 1.38, 1.25, 1.12, 1.00, 1.00, 1.00, 1.00, 1.12, 1.25, 1.38, 1.50],
+    // Calibrated against Planta Water Charts (32 reference plants, 2026-04-06)
+    'Succulents': [1.80, 1.60, 1.40, 1.20, 1.10, 1.00, 1.00, 1.10, 1.20, 1.40, 1.60, 1.80],
+    'Tropical':   [1.80, 1.60, 1.40, 1.20, 1.05, 1.00, 1.00, 1.05, 1.20, 1.40, 1.60, 1.80],
+    'Herbs':      [1.80, 1.60, 1.30, 1.10, 1.05, 1.00, 1.00, 1.05, 1.10, 1.30, 1.60, 1.80],
+    'Standard':   [1.80, 1.60, 1.30, 1.10, 1.05, 1.00, 1.00, 1.05, 1.10, 1.30, 1.60, 1.80],
   };
 
   /// Current watering days — adjusted for season + plant type
@@ -670,7 +678,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       Row(
                         children: [
                           Expanded(
-                            child: Text(
+                            child: SelectableText(
                               _title,
                               style: TextStyle(
                                 fontSize: AppFontSize.xxl,
@@ -692,7 +700,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       if (_scientific.isNotEmpty && _scientific != _title)
                         Padding(
                           padding: const EdgeInsets.only(top: 2),
-                          child: Text(
+                          child: SelectableText(
                             _scientific,
                             style: TextStyle(
                               fontSize: AppFontSize.lg,
@@ -722,10 +730,9 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(
+                            SelectableText(
                               _description!,
                               maxLines: _descExpanded ? null : 3,
-                              overflow: _descExpanded ? null : TextOverflow.ellipsis,
                               style: const TextStyle(
                                 fontSize: AppFontSize.md,
                                 color: Color(0xFF1B5E20),
@@ -1808,7 +1815,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
             ],
           ]),
           const SizedBox(height: 4),
-          Text(description, style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4)),
+          SelectableText(description, style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4)),
         ],
       ),
     );
@@ -1829,7 +1836,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
             ),
           ),
           const SizedBox(height: AppSpacing.xs),
-          Text(
+          SelectableText(
             text,
             style: TextStyle(
               fontSize: AppFontSize.sm,
@@ -2175,7 +2182,7 @@ class _InfoRow extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
+                SelectableText(
                   text,
                   style: TextStyle(
                     fontSize: AppFontSize.md,
@@ -2183,7 +2190,7 @@ class _InfoRow extends StatelessWidget {
                   ),
                 ),
                 if (sub != null)
-                  Text(
+                  SelectableText(
                     sub!,
                     style: TextStyle(
                       fontSize: AppFontSize.sm,
@@ -2221,10 +2228,9 @@ class _ExpandableTextState extends State<_ExpandableText> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
+          SelectableText(
             widget.text,
             maxLines: _expanded ? null : widget.maxLines,
-            overflow: _expanded ? null : TextOverflow.ellipsis,
             style: TextStyle(fontSize: AppFontSize.md, color: AppColors.textSecondary, height: 1.4),
           ),
           if (needsExpansion)

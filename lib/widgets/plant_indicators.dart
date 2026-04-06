@@ -278,7 +278,7 @@ class InfoBox extends StatelessWidget {
           Icon(icon, size: 18, color: iconColor),
           const SizedBox(width: AppSpacing.sm),
           Expanded(
-            child: Text(
+            child: SelectableText(
               text,
               style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.text, height: 1.4),
             ),
