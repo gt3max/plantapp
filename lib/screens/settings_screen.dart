@@ -223,6 +223,10 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             _sourceRow('Pexels', 'Plant photos', 'pexels.com'),
             _sourceRow('Cloudinary', 'Image hosting & CDN', 'cloudinary.com'),
             _sourceRow('Open-Meteo', 'Weather & geolocation', 'open-meteo.com'),
+            _sourceRow('Wikidata', 'Multilingual plant names', 'wikidata.org'),
+            _sourceRow('Indoor Plant Dataset', 'Care data (open-source)', 'github.com/biologiste95'),
+            _sourceRow('Blossom', 'Peer-reviewed care guides', 'Berlin Botanical Garden'),
+            _sourceRow('OpenFarm', 'Growing guides (open-source)', 'openfarm.cc'),
             _sourceRow('Old Farmer\'s Almanac', 'Companion planting', 'almanac.com'),
             const SizedBox(height: AppSpacing.md),
             Text(
