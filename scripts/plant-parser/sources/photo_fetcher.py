@@ -44,10 +44,11 @@ from turso_sync import turso_query, turso_batch
 INAT_API = 'https://api.inaturalist.org/v1'
 UA = 'PlantApp/1.0 (plantapp.pro; contact@plantapp.pro)'
 
-CLOUDINARY_CLOUD = os.environ.get('CLOUDINARY_CLOUD_NAME', 'dmvvh57hg')
+# Use second Cloudinary account if available (more credits), fallback to primary
+CLOUDINARY_CLOUD = os.environ.get('CLOUDINARY2_CLOUD_NAME', os.environ.get('CLOUDINARY_CLOUD_NAME', 'dmvvh57hg'))
 CLOUDINARY_PRESET = os.environ.get('CLOUDINARY_UPLOAD_PRESET', 'plant_photos')
-CLOUDINARY_API_KEY = os.environ.get('CLOUDINARY_API_KEY', '')
-CLOUDINARY_API_SECRET = os.environ.get('CLOUDINARY_API_SECRET', '')
+CLOUDINARY_API_KEY = os.environ.get('CLOUDINARY2_API_KEY', os.environ.get('CLOUDINARY_API_KEY', ''))
+CLOUDINARY_API_SECRET = os.environ.get('CLOUDINARY2_API_SECRET', os.environ.get('CLOUDINARY_API_SECRET', ''))
 
 # Accepted licenses (free to use commercially)
 ACCEPTED_LICENSES = {'cc-by', 'cc-by-sa', 'cc0', 'cc-by-nc'}  # cc-by-nc for non-commercial photo db building
@@ -235,12 +236,34 @@ def fetch_all(limit: int = 100, single_plant: str | None = None):
             return
         plants = plant
     else:
-        # Plants with fewer than 3 photos
+        # Indoor plants first, prioritized by family importance
         plants = turso_query('''
             SELECT p.plant_id, p.scientific FROM plants p
             WHERE p.scientific IS NOT NULL AND p.scientific != ''
+            AND p.indoor = 1
             AND (SELECT COUNT(*) FROM plant_images pi WHERE pi.plant_id = p.plant_id) < ?
-            ORDER BY p.plant_id
+            ORDER BY
+                CASE p.family
+                    WHEN 'Araceae' THEN 1
+                    WHEN 'Cactaceae' THEN 2
+                    WHEN 'Crassulaceae' THEN 3
+                    WHEN 'Orchidaceae' THEN 4
+                    WHEN 'Arecaceae' THEN 5
+                    WHEN 'Marantaceae' THEN 6
+                    WHEN 'Asphodelaceae' THEN 7
+                    WHEN 'Moraceae' THEN 8
+                    WHEN 'Asparagaceae' THEN 9
+                    WHEN 'Piperaceae' THEN 10
+                    WHEN 'Bromeliaceae' THEN 11
+                    WHEN 'Begoniaceae' THEN 12
+                    WHEN 'Commelinaceae' THEN 13
+                    WHEN 'Gesneriaceae' THEN 14
+                    WHEN 'Lamiaceae' THEN 15
+                    WHEN 'Apiaceae' THEN 16
+                    WHEN 'Solanaceae' THEN 17
+                    ELSE 50
+                END,
+                p.plant_id
             LIMIT ?
         ''', [PHOTOS_PER_PLANT, limit])
 
