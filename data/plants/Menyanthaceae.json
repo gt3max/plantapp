@@ -5,7 +5,7 @@
     "family": "Menyanthaceae",
     "genus": "Liparophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Liparophyllum exaltatum"
+      ],
+      "en": [
+        "Liparophyllum exaltatum"
+      ],
+      "es": [
+        "Liparophyllum exaltatum"
+      ],
+      "fr": [
+        "Liparophyllum exaltatum"
+      ],
+      "it": [
+        "Liparophyllum exaltatum"
+      ],
+      "nl": [
+        "Liparophyllum exaltatum"
+      ],
+      "pl": [
+        "Liparophyllum exaltatum"
+      ],
+      "pt": [
+        "Liparophyllum exaltatum"
+      ],
+      "ru": [
+        "Liparophyllum exaltatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Menyanthaceae",
     "genus": "Menyanthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -115,17 +145,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "menyanthes_trifoliata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -147,8 +177,8 @@
       "light_guide": null,
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Parts: Leaf. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -166,8 +196,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Leaf",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -181,11 +211,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "أطريفل الماء"
+      ],
+      "de": [
+        "Fieberklee"
+      ],
       "en": [
-        "Bog-bean"
+        "Bog-bean",
+        "Menyanthes trifoliata"
+      ],
+      "es": [
+        "Menyanthes trifoliata"
+      ],
+      "fr": [
+        "Menyanthes trifoliata"
+      ],
+      "it": [
+        "Menyanthes trifoliata"
+      ],
+      "ja": [
+        "ミツガシワ"
+      ],
+      "ko": [
+        "조름나물"
+      ],
+      "nl": [
+        "Waterdrieblad"
+      ],
+      "pl": [
+        "Bobrek trójlistkowy"
+      ],
+      "pt": [
+        "Menyanthes trifoliata"
+      ],
+      "ru": [
+        "Вахта"
+      ],
+      "tr": [
+        "Su yoncası"
+      ],
+      "zh": [
+        "睡菜"
       ]
     },
     "tags": [],
@@ -197,12 +269,12 @@
     "family": "Menyanthaceae",
     "genus": "Nymphoides",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Nymphoides cordata, the little floatingheart, is a species of floating aquatic plant native to eastern North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -213,7 +285,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphoides_cordata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -279,9 +351,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Nymphoides cordata"
+      ],
+      "en": [
+        "Nymphoides cordata"
+      ],
+      "es": [
+        "Nymphoides cordata"
+      ],
+      "fr": [
+        "Nymphoides cordata"
+      ],
+      "it": [
+        "Nymphoides cordata"
+      ],
+      "nl": [
+        "Nymphoides cordata"
+      ],
+      "pl": [
+        "Nymphoides cordata"
+      ],
+      "pt": [
+        "Nymphoides cordata"
+      ],
+      "ru": [
+        "Nymphoides cordata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -291,12 +393,12 @@
     "family": "Menyanthaceae",
     "genus": "Nymphoides",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/8dd8a4b93e6d3470d5881df574b93d89.jpg",
-    "description": "The capsule splits open to release seeds from May to September.",
+    "description": "Nymphoides crenata, commonly known as wavy marshwort, is an aquatic perennial herb of the family Menyanthaceae endemic to Australia, found in all mainland states and the Northern Territory",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -307,7 +409,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphoides_crenata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -373,9 +475,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Nymphoides crenata"
+      ],
+      "en": [
+        "Nymphoides crenata"
+      ],
+      "es": [
+        "Nymphoides crenata"
+      ],
+      "fr": [
+        "Nymphoides crenata"
+      ],
+      "it": [
+        "Nymphoides crenata"
+      ],
+      "ja": [
+        "アメリカアサザ"
+      ],
+      "nl": [
+        "Nymphoides crenata"
+      ],
+      "pl": [
+        "Nymphoides crenata"
+      ],
+      "pt": [
+        "Nymphoides crenata"
+      ],
+      "ru": [
+        "Nymphoides crenata"
+      ],
+      "zh": [
+        "圆齿荇菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -385,12 +523,12 @@
     "family": "Menyanthaceae",
     "genus": "Nymphoides",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fcead136fc8bed1955d45660dd67892b09e7cc1a",
-    "description": "The capsule splits open to release seeds from May to September.",
+    "description": "Nymphoides indica is an aquatic plant in the Menyanthaceae, native to tropical areas around the world. It is sometimes cultivated, and has become a minor weed in Florida, where it resembles the native Nymphoides aquatica. Common names include banana plant, robust marshwort, and water snowflake;",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -401,17 +539,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphoides_indica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -467,11 +605,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Nymphoides indica"
+      ],
       "en": [
+        "Nymphoides indica",
         "Robust marshwort"
+      ],
+      "es": [
+        "Nymphoides indica"
+      ],
+      "fr": [
+        "Nymphoides indica"
+      ],
+      "it": [
+        "Nymphoides indica"
+      ],
+      "ja": [
+        "ガガブタ"
+      ],
+      "ko": [
+        "어리연꽃"
+      ],
+      "nl": [
+        "Nymphoides indica"
+      ],
+      "pl": [
+        "Nymphoides indica"
+      ],
+      "pt": [
+        "Nymphoides indica"
+      ],
+      "ru": [
+        "Nymphoides indica"
+      ],
+      "zh": [
+        "印度莕菜"
       ]
     },
     "tags": [],
@@ -483,7 +657,7 @@
     "family": "Menyanthaceae",
     "genus": "Nymphoides",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -499,17 +673,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphoides_peltata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -568,11 +742,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "زهرة الأهوار الدرعية"
+      ],
+      "de": [
+        "Europäische Seekanne"
+      ],
       "en": [
+        "Nymphoides peltata",
         "Yellow floatingheart"
+      ],
+      "es": [
+        "Nymphoides peltata"
+      ],
+      "fr": [
+        "Nymphoides peltata"
+      ],
+      "it": [
+        "Nymphoides peltata"
+      ],
+      "ja": [
+        "アサザ"
+      ],
+      "ko": [
+        "노랑어리연꽃"
+      ],
+      "nl": [
+        "watergentiaan"
+      ],
+      "pl": [
+        "Grzybieńczyk wodny"
+      ],
+      "pt": [
+        "Nymphoides peltata"
+      ],
+      "ru": [
+        "болотноцветник щитолистный"
+      ],
+      "zh": [
+        "荇菜"
       ]
     },
     "tags": [],
@@ -584,12 +797,12 @@
     "family": "Menyanthaceae",
     "genus": "Ornduffia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/83d0cec76fdfd29be8d3f61655e2e5b0.jpg",
-    "description": null,
+    "description": "Ornduffia reniformis, also known as the running marsh-flower, is a species of plant in the Menyanthaceae family of wetland plants that is endemic to Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -666,9 +879,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ornduffia reniformis"
+      ],
+      "en": [
+        "Ornduffia reniformis"
+      ],
+      "es": [
+        "Ornduffia reniformis"
+      ],
+      "fr": [
+        "Ornduffia reniformis"
+      ],
+      "it": [
+        "Ornduffia reniformis"
+      ],
+      "nl": [
+        "Ornduffia reniformis"
+      ],
+      "pl": [
+        "Ornduffia reniformis"
+      ],
+      "pt": [
+        "Ornduffia reniformis"
+      ],
+      "ru": [
+        "Ornduffia reniformis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

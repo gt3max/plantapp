@@ -5,12 +5,12 @@
     "family": "Montiniaceae",
     "genus": "Montinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/48b74d6e27080d325211d0e0f6e567e6.jpg",
-    "description": null,
+    "description": "Montinia is a monotypic genus of flowering plants belonging to the family Montiniaceae. It only contains one known species, Montinia caryophyllacea Thunb.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Montinia caryophyllacea"
+      ],
+      "en": [
+        "Montinia caryophyllacea"
+      ],
+      "es": [
+        "Montinia"
+      ],
+      "fr": [
+        "Montinia caryophyllacea"
+      ],
+      "it": [
+        "Montinia caryophyllacea"
+      ],
+      "nl": [
+        "Montinia caryophyllacea"
+      ],
+      "pl": [
+        "Montinia caryophyllacea"
+      ],
+      "pt": [
+        "Montinia"
+      ],
+      "ru": [
+        "Montinia caryophyllacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

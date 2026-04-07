@@ -5,12 +5,12 @@
     "family": "Osmundaceae",
     "genus": "Leptopteris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/028e86c8200373da478e16f80f9568a2.jpg",
-    "description": null,
+    "description": "Leptopteris hymenophylloides, which is commonly called single crepe fern is a fern in the family Osmundaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Leptopteris hymenophylloides"
+      ],
+      "en": [
+        "Leptopteris hymenophylloides"
+      ],
+      "es": [
+        "Leptopteris hymenophylloides"
+      ],
+      "fr": [
+        "Leptopteris hymenophylloides"
+      ],
+      "it": [
+        "Leptopteris hymenophylloides"
+      ],
+      "nl": [
+        "Leptopteris hymenophylloides"
+      ],
+      "pl": [
+        "Leptopteris hymenophylloides"
+      ],
+      "pt": [
+        "Leptopteris hymenophylloides"
+      ],
+      "ru": [
+        "Leptopteris hymenophylloides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Osmundaceae",
     "genus": "Leptopteris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/adbcc6fa28ffced416a7fef00f24b4dd.jpg",
-    "description": null,
+    "description": "Leptopteris superba, commonly called Prince of Wales feathers or common crape fern, is a fern in the genus Leptopteris.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Leptopteris superba"
+      ],
+      "en": [
+        "Leptopteris superba"
+      ],
+      "es": [
+        "Leptopteris superba"
+      ],
+      "fr": [
+        "Leptopteris superba"
+      ],
+      "it": [
+        "Leptopteris superba"
+      ],
+      "nl": [
+        "Leptopteris superba"
+      ],
+      "pl": [
+        "Leptopteris superba"
+      ],
+      "pt": [
+        "Leptopteris superba"
+      ],
+      "ru": [
+        "Leptopteris superba"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +253,7 @@
     "family": "Osmundaceae",
     "genus": "Osmunda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -209,17 +269,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "osmunda_japonica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -275,9 +335,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 5.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Osmunda japonica"
+      ],
+      "en": [
+        "Osmunda japonica"
+      ],
+      "es": [
+        "Osmunda japonica"
+      ],
+      "fr": [
+        "Osmunda japonica"
+      ],
+      "it": [
+        "Osmunda japonica"
+      ],
+      "ja": [
+        "ゼンマイ"
+      ],
+      "ko": [
+        "고비"
+      ],
+      "nl": [
+        "Osmunda japonica"
+      ],
+      "pl": [
+        "Osmunda japonica"
+      ],
+      "pt": [
+        "Osmunda japonica"
+      ],
+      "ru": [
+        "Osmunda japonica"
+      ],
+      "zh": [
+        "紫萁"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +386,7 @@
     "family": "Osmundaceae",
     "genus": "Osmunda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -303,17 +402,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "osmunda_regalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -369,11 +468,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "ar": [
+        "سرسخ ملكي"
+      ],
+      "de": [
+        "Königsfarn"
+      ],
       "en": [
+        "Osmunda regalis",
         "Royal fern"
+      ],
+      "es": [
+        "Osmunda regalis"
+      ],
+      "fr": [
+        "Osmunda regalis"
+      ],
+      "it": [
+        "Osmunda regalis"
+      ],
+      "ja": [
+        "レガリスゼンマイ"
+      ],
+      "nl": [
+        "koningsvaren"
+      ],
+      "pl": [
+        "Długosz królewski"
+      ],
+      "pt": [
+        "Osmunda regalis"
+      ],
+      "ru": [
+        "Чистоуст величавый"
+      ],
+      "tr": [
+        "Kral eğrelti"
       ]
     },
     "tags": [],
@@ -385,7 +520,7 @@
     "family": "Osmundaceae",
     "genus": "Osmunda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -401,17 +536,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "osmunda_spectabilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -469,9 +604,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 5.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Osmunda spectabilis"
+      ],
+      "en": [
+        "Osmunda spectabilis"
+      ],
+      "es": [
+        "Osmunda spectabilis"
+      ],
+      "fr": [
+        "Osmunda spectabilis"
+      ],
+      "it": [
+        "Osmunda spectabilis"
+      ],
+      "nl": [
+        "Osmunda spectabilis"
+      ],
+      "pl": [
+        "Osmunda spectabilis"
+      ],
+      "pt": [
+        "Osmunda spectabilis"
+      ],
+      "ru": [
+        "Osmunda spectabilis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -481,7 +646,7 @@
     "family": "Osmundaceae",
     "genus": "Osmundastrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -563,11 +728,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Osmundastrum cinnamomeum"
+      ],
       "en": [
-        "Cinnamon fern"
+        "Cinnamon fern",
+        "Osmundastrum cinnamomeum"
+      ],
+      "es": [
+        "Osmundastrum cinnamomeum"
+      ],
+      "fr": [
+        "Osmunda cinnamomea"
+      ],
+      "it": [
+        "Osmundastrum cinnamomeum"
+      ],
+      "ko": [
+        "꿩고비"
+      ],
+      "nl": [
+        "Kaneelvaren"
+      ],
+      "pl": [
+        "Osmundastrum cinnamomeum"
+      ],
+      "pt": [
+        "Osmundastrum cinnamomeum"
+      ],
+      "ru": [
+        "Osmundastrum cinnamomeum"
+      ],
+      "zh": [
+        "分株假紫萁"
       ]
     },
     "tags": [],
@@ -579,12 +777,12 @@
     "family": "Osmundaceae",
     "genus": "Todea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/c5b08fbff83432401e0b63aa659e986f.jpg",
-    "description": null,
+    "description": "Todea barbara, known as the king fern or crape fern, is a fern in the family Osmundaceae occurring in moist areas of south eastern Australia, and also indigenous to New Zealand, Australia and South Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -661,9 +859,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Todea barbara"
+      ],
+      "en": [
+        "Todea barbara"
+      ],
+      "es": [
+        "Todea barbara"
+      ],
+      "fr": [
+        "Todea barbara"
+      ],
+      "it": [
+        "Todea barbara"
+      ],
+      "nl": [
+        "Todea barbara"
+      ],
+      "pl": [
+        "Todea barbara"
+      ],
+      "pt": [
+        "Todea barbara"
+      ],
+      "ru": [
+        "Todea barbara"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

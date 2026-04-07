@@ -5,7 +5,7 @@
     "family": "Lycopodiaceae",
     "genus": "Huperzia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Huperzia lucidula"
+      ],
+      "en": [
+        "Huperzia lucidula"
+      ],
+      "es": [
+        "Huperzia lucidula"
+      ],
+      "fr": [
+        "Huperzia lucidula"
+      ],
+      "it": [
+        "Huperzia lucidula"
+      ],
+      "ja": [
+        "クラブコケ"
+      ],
+      "nl": [
+        "Huperzia lucidula"
+      ],
+      "pl": [
+        "Huperzia lucidula"
+      ],
+      "pt": [
+        "Huperzia lucidula"
+      ],
+      "ru": [
+        "Huperzia lucidula"
+      ],
+      "zh": [
+        "亮叶石杉"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +135,7 @@
     "family": "Lycopodiaceae",
     "genus": "Huperzia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -147,8 +183,8 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -166,8 +202,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -181,11 +217,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Tannenbärlapp"
+      ],
       "en": [
+        "Huperzia selago",
         "Northern fir-moss"
+      ],
+      "es": [
+        "Huperzia selago"
+      ],
+      "fr": [
+        "Huperzia selago"
+      ],
+      "it": [
+        "Huperzia selago"
+      ],
+      "ja": [
+        "コスギラン"
+      ],
+      "ko": [
+        "좀다람쥐꼬리"
+      ],
+      "nl": [
+        "Dennenwolfsklauw"
+      ],
+      "pl": [
+        "Wroniec widlasty"
+      ],
+      "pt": [
+        "Huperzia selago"
+      ],
+      "ru": [
+        "Баранец обыкновенный"
+      ],
+      "zh": [
+        "小杉兰"
       ]
     },
     "tags": [],
@@ -197,12 +269,12 @@
     "family": "Lycopodiaceae",
     "genus": "Huperzia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/57920a8c0bbdd2bb3486d416fa543dc6093cd51c",
-    "description": null,
+    "description": "Huperzia serrata, the toothed clubmoss, is a plant known as a firmoss. The species is native to eastern Asia. It is also found in the main islands of Hawaii with the exception of Maui, but is considered vulnerable by NatureServe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,11 +351,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Huperzia serrata"
+      ],
       "en": [
+        "Huperzia serrata",
         "Toothed club-moss"
+      ],
+      "es": [
+        "Huperzia serrata"
+      ],
+      "fr": [
+        "Huperzia serrata"
+      ],
+      "it": [
+        "Huperzia serrata"
+      ],
+      "ja": [
+        "トウゲシバ"
+      ],
+      "ko": [
+        "뱀톱"
+      ],
+      "nl": [
+        "Huperzia serrata"
+      ],
+      "pl": [
+        "Huperzia serrata"
+      ],
+      "pt": [
+        "Huperzia serrata"
+      ],
+      "ru": [
+        "Баранец пильчатый"
+      ],
+      "zh": [
+        "蛇足石杉"
       ]
     },
     "tags": [],
@@ -295,12 +403,12 @@
     "family": "Lycopodiaceae",
     "genus": "Lycopodiella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/cff6b417ebff543742e3440cd376ffc6.jpg",
-    "description": null,
+    "description": "Lycopodiella alopecuroides, the foxtail clubmoss, is a species of perennial vascular plant in the club-moss family, Lycopodiaceae. It is commonly found along the Atlantic seaboard and has recently been discovered in the state of Maine. The family, Lycopodiaceae contains nearly 15 genera and about 375 species",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -311,17 +419,17 @@
     "synonyms": "[\"Plananthus alopecuroides\", \"Lycopodium inundatum var. alopecuroides\", \"Lycopodium alopecuroides\", \"Lepidotis alopecuroides\"]",
     "care": {
       "plant_id": "lycopodiella_alopecuroides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -377,9 +485,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lycopodiella alopecuroides"
+      ],
+      "en": [
+        "Lycopodiella alopecuroides"
+      ],
+      "es": [
+        "Lycopodiella alopecuroides"
+      ],
+      "fr": [
+        "Lycopodiella alopecuroides"
+      ],
+      "it": [
+        "Lycopodiella alopecuroides"
+      ],
+      "nl": [
+        "Lycopodiella alopecuroides"
+      ],
+      "pl": [
+        "Lycopodiella alopecuroides"
+      ],
+      "pt": [
+        "Lycopodiella alopecuroides"
+      ],
+      "ru": [
+        "Lycopodiella alopecuroides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,12 +527,12 @@
     "family": "Lycopodiaceae",
     "genus": "Lycopodiella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fdb8d7e3c59ebe0ecba981b87e6a2826a0a5988a",
-    "description": "Spores display from July to September.",
+    "description": "Lycopodiella appressa, commonly known as southern bog clubmoss, is a species of clubmoss. It is native to\neastern North America, including Cuba and the West Indies. In the United States, it is primarily found on the Coastal Plain.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -405,7 +543,7 @@
     "synonyms": "[\"Lycopodium inundatum var. appressum\", \"Lycopodium alopecuroides f. appressum\", \"Lycopodium adpressum f. polyclavatum\", \"Lycopodium alopecuroides var. appressum\", \"Lycopodium alopecuroides f. polyclavatum\", \"Lycopodium alopecuroides subsp. appressum\", \"Lycopodium inundatum f. polyclavatum\", \"Lycopodiella bigelowii\", \"Lycopodium alopecuroides var. chapmanii\", \"Lycopodium appressum\"]",
     "care": {
       "plant_id": "lycopodiella_appressa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -471,11 +609,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lycopodiella appressa"
+      ],
       "en": [
+        "Lycopodiella appressa",
         "Southern bog clubmoss"
+      ],
+      "es": [
+        "Lycopodiella appressa"
+      ],
+      "fr": [
+        "Lycopodiella appressa"
+      ],
+      "it": [
+        "Lycopodiella appressa"
+      ],
+      "nl": [
+        "Lycopodiella appressa"
+      ],
+      "pl": [
+        "Lycopodiella appressa"
+      ],
+      "pt": [
+        "Lycopodiella appressa"
+      ],
+      "ru": [
+        "Lycopodiella appressa"
       ]
     },
     "tags": [],
@@ -487,12 +652,12 @@
     "family": "Lycopodiaceae",
     "genus": "Lycopodiella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/20d30ab27d701e8d2ecb466f6ca64141e141ecac",
-    "description": null,
+    "description": "Palhinhaea cernua, synonym Lycopodiella cernua and Lycopodium cernuum, is a plant in the family Lycopodiaceae, commonly known as the staghorn clubmoss. The Hawaiian name for the plant is wāwaeʻiole, or \"rat's foot\". It has a substantial number of scientific synonyms in several genera. The genus Palhinhaea is accepted in the Pteridophyte Phylogeny Group classification of 2016, but not in other classifications which submerge the genus in Lycopodiella.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -503,17 +668,17 @@
     "synonyms": "[\"Palhinhaea capillacea\", \"Palhinhaea polycephala\", \"Lycopodium cernuum var. watsonianum\", \"Palhinhaea cernua f. laxa\", \"Lycopodiella cernua var. sikkimensis\", \"Palhinhaea cernua f. sikkimensis\", \"Lycopodium cernuum f. macrostachyum\", \"Palhinhaea mariana\", \"Lycopodium cernuum var. laxum\", \"Lepidotis cernua\"]",
     "care": {
       "plant_id": "lycopodiella_cernua",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -569,11 +734,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Lycopodiella cernua"
+      ],
       "en": [
+        "Lycopodiella cernua",
         "Staghorn clubmoss"
+      ],
+      "es": [
+        "Lycopodiella cernua"
+      ],
+      "fr": [
+        "Lycopodiella cernua"
+      ],
+      "it": [
+        "Lycopodiella cernua"
+      ],
+      "ja": [
+        "ミズスギ"
+      ],
+      "ko": [
+        "물석송"
+      ],
+      "nl": [
+        "Lycopodiella cernua"
+      ],
+      "pl": [
+        "Lycopodiella cernua"
+      ],
+      "pt": [
+        "Lycopodiella cernua"
+      ],
+      "ru": [
+        "Lycopodiella cernua"
       ]
     },
     "tags": [],
@@ -585,7 +783,7 @@
     "family": "Lycopodiaceae",
     "genus": "Lycopodiella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -601,17 +799,17 @@
     "synonyms": "[\"Plananthus inundatus\", \"Lycopodium inundatum\", \"Lepidotis inundata\", \"Lycopodium palustre\", \"Lepidotis incurva\", \"Lycopodium inundatum var. typicum\", \"Lycopodium inundatum var. rigidium\", \"Lycopodium inundatum var. diversifolium\", \"Lycopodium inundatum f. furcatum\", \"Lycopodium inundatum f. funiforme\"]",
     "care": {
       "plant_id": "lycopodiella_inundata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -667,11 +865,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Sumpf-Bärlapp"
+      ],
       "en": [
+        "Lycopodiella inundata",
         "Marsh club-moss"
+      ],
+      "es": [
+        "Lycopodiella inundata"
+      ],
+      "fr": [
+        "Lycopodiella inundata"
+      ],
+      "it": [
+        "Lycopodiella inundata"
+      ],
+      "ja": [
+        "ヤチスギラン"
+      ],
+      "nl": [
+        "Lycopodiella inundata"
+      ],
+      "pl": [
+        "Widłaczek torfowy"
+      ],
+      "pt": [
+        "Lycopodiella inundata"
+      ],
+      "ru": [
+        "Плаунок заливаемый"
+      ],
+      "zh": [
+        "小石松"
       ]
     },
     "tags": [],
@@ -683,12 +914,12 @@
     "family": "Lycopodiaceae",
     "genus": "Lycopodium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/432f0564a51108cf762786a362b5c1530dd0798e",
-    "description": null,
+    "description": "Diphasiastrum alpinum, the alpine clubmoss, is a species of clubmoss. This plant is a glaucous scale-leaved perennial pteridophyte. In Finland, the spores are produced June to September. It was first described by Carl Linnaeus in his Flora Lapponica, 1737, from specimens obtained in Finland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -699,17 +930,17 @@
     "synonyms": "[\"Lycopodium alpinum f. umbrosum\", \"Diphasiastrum kablikianum\", \"Lycopodium alpinum var. sabinifolium\", \"Lycopodium alpinum subsp. cupressifolium\", \"Lycopodium alpinum subsp. kablikianum\", \"Stachygynandrum alpinum\", \"Diphasium alpinum\", \"Lycopodium complanatum subsp. alpinum\", \"Diphasiastrum alpinum var. ergakense\", \"Lycopodium cupressifolium\"]",
     "care": {
       "plant_id": "lycopodium_alpinum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -765,11 +996,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "رجل الذئب الألبي"
+      ],
+      "de": [
+        "Lycopodium alpinum"
+      ],
       "en": [
-        "Alpine clubmoss"
+        "Alpine clubmoss",
+        "Lycopodium alpinum"
+      ],
+      "es": [
+        "Lycopodium alpinum"
+      ],
+      "fr": [
+        "Lycopodium alpinum"
+      ],
+      "it": [
+        "Lycopodium alpinum"
+      ],
+      "ja": [
+        "チシマヒカゲノカズラ"
+      ],
+      "nl": [
+        "Lycopodium alpinum"
+      ],
+      "pl": [
+        "Lycopodium alpinum"
+      ],
+      "pt": [
+        "Lycopodium alpinum"
+      ],
+      "ru": [
+        "Lycopodium alpinum"
+      ],
+      "zh": [
+        "高山扁枝石松"
       ]
     },
     "tags": [],
@@ -781,7 +1048,7 @@
     "family": "Lycopodiaceae",
     "genus": "Lycopodium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -802,12 +1069,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -829,8 +1096,8 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -848,8 +1115,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -863,11 +1130,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.6
     },
     "common_names": {
+      "de": [
+        "Sprossender Bärlapp"
+      ],
       "en": [
+        "Lycopodium annotinum",
         "Stiff clubmoss"
+      ],
+      "es": [
+        "Lycopodium annotinum"
+      ],
+      "fr": [
+        "Lycopodium annotinum"
+      ],
+      "it": [
+        "Lycopodium annotinum"
+      ],
+      "ja": [
+        "スギカズラ"
+      ],
+      "ko": [
+        "개석송"
+      ],
+      "nl": [
+        "stekende wolfsklauw"
+      ],
+      "pl": [
+        "Widłak jałowcowaty"
+      ],
+      "pt": [
+        "Lycopodium annotinum"
+      ],
+      "ru": [
+        "Плаун годичный"
+      ],
+      "tr": [
+        "Lycopodium annotinum"
+      ],
+      "zh": [
+        "多穗石松"
       ]
     },
     "tags": [],
@@ -879,7 +1185,7 @@
     "family": "Lycopodiaceae",
     "genus": "Lycopodium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -895,17 +1201,17 @@
     "synonyms": "[\"Lepidotis clavata\"]",
     "care": {
       "plant_id": "lycopodium_clavatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -927,8 +1233,8 @@
       "light_guide": "NC State: Deep shade (Less than 2 hours to no direct sunlight) | Climate: temperate",
       "tips": "Similar plants: Thelypteris noveboracensis",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -946,8 +1252,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Arching",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Spores have been used as a powder for infants and to protect raw skin. It has been used to treat unspecified medicinal disorders\", \"as animal food\", \"an ornamental plant and a medicine.\"]",
@@ -961,11 +1267,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "ar": [
+        "مُسَكية"
+      ],
+      "de": [
+        "Keulen-Bärlapp"
+      ],
       "en": [
-        "Ground-pine"
+        "Ground-pine",
+        "Lycopodium clavatum"
+      ],
+      "es": [
+        "Lycopodium clavatum"
+      ],
+      "fr": [
+        "Lycopodium clavatum subsp. clavatum"
+      ],
+      "hi": [
+        "नागबेली"
+      ],
+      "it": [
+        "Lycopodium clavatum"
+      ],
+      "ja": [
+        "ヒカゲノカズラ"
+      ],
+      "ko": [
+        "석송"
+      ],
+      "nl": [
+        "Grote wolfsklauw"
+      ],
+      "pl": [
+        "Widłak goździsty"
+      ],
+      "pt": [
+        "Lycopodium clavatum"
+      ],
+      "ru": [
+        "плаун булавовидный"
+      ],
+      "zh": [
+        "东北石松"
       ]
     },
     "tags": [],
@@ -977,12 +1325,12 @@
     "family": "Lycopodiaceae",
     "genus": "Lycopodium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9f9cd2403aea13129f7461881ace236ab32da6a4",
-    "description": null,
+    "description": "Diphasiastrum complanatum, common names groundcedar, creeping jenny, or northern running-pine, is a species of clubmoss native to dry coniferous forests in colder northerly parts of the world. Under the original name Lycopodium complanatum, this was an inclusive superspecies that included a number of other species now known to be biologically separate. This plant is an evergreen, perennial pteridophyte. The spores are produced June to September.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -993,17 +1341,17 @@
     "synonyms": "[\"Diphasiastrum wilceae\", \"Lycopodium complanatum subvar. proliferum\", \"Lycopodium complanatum f. simplex\", \"Lycopodium complanatum f. brachypodum\", \"Lycopodium complanatum subvar. recurvatum\", \"Diphasiastrum montellii\", \"Lepidotis complanata\", \"Diphasiastrum hastulatum\", \"Lycopodium complanatum var. flabellatum\", \"Diphasiastrum complanatum f. montellii\"]",
     "care": {
       "plant_id": "lycopodium_complanatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1059,11 +1407,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 5.9
     },
     "common_names": {
+      "ar": [
+        "الصنوبر الأمريكي"
+      ],
+      "de": [
+        "Lycopodium complanatum"
+      ],
       "en": [
-        "Christmas green"
+        "Christmas green",
+        "Lycopodium complanatum"
+      ],
+      "es": [
+        "Lycopodium complanatum"
+      ],
+      "fr": [
+        "Lycopodium complanatum"
+      ],
+      "it": [
+        "Lycopodium complanatum"
+      ],
+      "nl": [
+        "Lycopodium complanatum"
+      ],
+      "pl": [
+        "Lycopodium complanatum"
+      ],
+      "pt": [
+        "Lycopodium complanatum"
+      ],
+      "ru": [
+        "Lycopodium complanatum"
+      ],
+      "zh": [
+        "扁枝石松"
       ]
     },
     "tags": [],
@@ -1075,12 +1456,12 @@
     "family": "Lycopodiaceae",
     "genus": "Lycopodium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/46315d2edf3808da9c94d36a649ce11e.jpg",
-    "description": null,
+    "description": "Lycopodium japonicum is a common species of plant in the genus Lycopodium in the clubmoss family. It is widespread in China, Japan and countries of Southern Asia. It has been used in traditional Chinese medicine for the treatment of sprains, strains and myasthenia, and research is ongoing into its efficacy. A type of alkaloid with an unusual structure, labelled lycojaponicumins A through E, were isolated from the plant in 2012.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1091,17 +1472,17 @@
     "synonyms": "[\"Lycopodium divaricatum\", \"Lycopodium japonicum var. wallichianum\", \"Lycopodium pseudoclavatum var. yunnanense\", \"Lycopodium japonicum f. yunnanense\", \"Lycopodium centrochinense\", \"Lycopodium interjectum\", \"Stachygynandrum japonicum\", \"Lycopodium pseudoclavatum\", \"Lycopodium kinabaluense\", \"Lycopodium clavatum var. nipponicum\"]",
     "care": {
       "plant_id": "lycopodium_japonicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1157,9 +1538,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.6
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lycopodium japonicum"
+      ],
+      "en": [
+        "Lycopodium japonicum"
+      ],
+      "es": [
+        "Lycopodium japonicum"
+      ],
+      "fr": [
+        "Lycopodium japonicum"
+      ],
+      "it": [
+        "Lycopodium japonicum"
+      ],
+      "nl": [
+        "Lycopodium japonicum"
+      ],
+      "pl": [
+        "Lycopodium japonicum"
+      ],
+      "pt": [
+        "Lycopodium japonicum"
+      ],
+      "ru": [
+        "Lycopodium japonicum"
+      ],
+      "zh": [
+        "日本石松"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1169,12 +1583,12 @@
     "family": "Lycopodiaceae",
     "genus": "Lycopodium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a7710f79cd0748d61d2d03e33c8e3fc688c136d9",
-    "description": null,
+    "description": "Lycopodium lagopus, commonly known as one-cone club-moss, is an arctic and subarctic species of plants in the genus Lycopodium in the clubmoss family. It is widespread in cold, northerly regions: Canada, Greenland, Russia, Scandinavia, and the northern United States including Alaska.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1185,17 +1599,17 @@
     "synonyms": "[\"Lycopodium clavatum var. brevispicatum\", \"Lycopodium clavatum var. lagopus\", \"Lycopodium clavatum subsp. megastachyon\", \"Lycopodium clavatum f. furcatum\", \"Lycopodium clavatum var. megastachyon\", \"Lycopodium integrifolium\", \"Lycopodium clavatum var. integerrimum\", \"Lycopodium clavatum var. integrifolium\", \"Lycopodium clavatum subsp. monostachyon\", \"Lycopodium clavatum var. monostachyon\"]",
     "care": {
       "plant_id": "lycopodium_lagopus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1251,11 +1665,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "ar": [
+        "رجل الذئب الأرنبي"
+      ],
+      "de": [
+        "Lycopodium lagopus"
+      ],
       "en": [
+        "Lycopodium lagopus",
         "One-cone clubmoss"
+      ],
+      "es": [
+        "Lycopodium lagopus"
+      ],
+      "fr": [
+        "Lycopodium lagopus"
+      ],
+      "it": [
+        "Lycopodium lagopus"
+      ],
+      "nl": [
+        "Lycopodium lagopus"
+      ],
+      "pl": [
+        "Lycopodium lagopus"
+      ],
+      "pt": [
+        "Lycopodium lagopus"
+      ],
+      "ru": [
+        "Lycopodium lagopus"
       ]
     },
     "tags": [],

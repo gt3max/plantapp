@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1c93b43da16bb0f08276a7872a04b1569f2fce04",
-    "description": "Oval purple drupe that ripens late summer into fall.",
+    "description": "Alangium chinense is a species of flowering plant in the family Cornaceae. It has the Chinese name.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -91,9 +91,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "علنج صيني"
+      ],
+      "de": [
+        "Alangium chinense"
+      ],
+      "en": [
+        "Alangium chinense"
+      ],
+      "es": [
+        "Alangium chinense"
+      ],
+      "fr": [
+        "Alangium chinense"
+      ],
+      "it": [
+        "Alangium chinense"
+      ],
+      "nl": [
+        "Alangium chinense"
+      ],
+      "pl": [
+        "Alangium chinense"
+      ],
+      "pt": [
+        "Alangium chinense"
+      ],
+      "ru": [
+        "Alangium chinense"
+      ],
+      "zh": [
+        "八角枫"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,9 +229,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "علنج دلبي الأوراق"
+      ],
+      "de": [
+        "Alangium platanifolium"
+      ],
+      "en": [
+        "Alangium platanifolium"
+      ],
+      "es": [
+        "Alangium platanifolium"
+      ],
+      "fr": [
+        "Alangium platanifolium"
+      ],
+      "it": [
+        "Alangium platanifolium"
+      ],
+      "ja": [
+        "ウリノキ"
+      ],
+      "ko": [
+        "단풍박쥐나무"
+      ],
+      "nl": [
+        "Alangium platanifolium"
+      ],
+      "pl": [
+        "Alangium platanolistne"
+      ],
+      "pt": [
+        "Alangium platanifolium"
+      ],
+      "ru": [
+        "Alangium platanifolium"
+      ],
+      "zh": [
+        "瓜木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -210,7 +288,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Alangium polyosmoides is a rainforest tree of eastern Australia. It occurs on a variety of different soils, generally close to the coast. Found from Minmi near Newcastle to as far north as the McIlwraith Range in far northeastern Queensland. It may be seen as a common understorey plant at Wingham Brush Nature Reserve.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -287,9 +365,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Alangium polyosmoides"
+      ],
+      "en": [
+        "Alangium polyosmoides"
+      ],
+      "es": [
+        "Alangium polyosmoides"
+      ],
+      "fr": [
+        "Alangium polyosmoides"
+      ],
+      "it": [
+        "Alangium polyosmoides"
+      ],
+      "nl": [
+        "Alangium polyosmoides"
+      ],
+      "pl": [
+        "Alangium polyosmoides"
+      ],
+      "pt": [
+        "Alangium polyosmoides"
+      ],
+      "ru": [
+        "Alangium polyosmoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -299,12 +407,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7e1f66b7e9418581732b166f7baa9b1bd839c42d",
-    "description": "The fruits appear in mid-summer. They are clusters of white drupes that are sometimes bluish-tinged. Birds are attracted to the fruits.",
+    "description": "Cornus alba, the red-barked, white or Siberian dogwood, is a species of flowering plant in the family Cornaceae, native to Siberia, northern China and Korea. It is a large deciduous surculose (suckering) shrub that can be grown as a small tree. As a popular ornamental used in landscaping its notable features include the red stems in fall (autumn) through late winter, bright winter bark; and the variegated foliage in some cultivars, such as C. alba 'Elegantissima'. C.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -315,17 +423,17 @@
     "synonyms": "[\"Cornus alba var. marginata\", \"Cornus alba var. argenteomarginata\", \"Cornus alba f. rosenthalii\", \"Cornus hessei\", \"Cornus alba f. sibirica\", \"Cornus alba var. sibirica\", \"Cornus tatarica var. sibirica\", \"Cornus sibirica var. gouchaultii\", \"Cornus alba f. gouchaultii\", \"Cornus alba var. gouchaultii\"]",
     "care": {
       "plant_id": "cornus_alba",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -391,11 +499,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "قرانيا بيضاء"
+      ],
+      "de": [
+        "Tatarischer Hartriegel"
+      ],
       "en": [
+        "Cornus alba",
         "Siberian dogwood"
+      ],
+      "es": [
+        "Cornus alba"
+      ],
+      "fr": [
+        "Cornus alba"
+      ],
+      "it": [
+        "Cornus alba"
+      ],
+      "ja": [
+        "シラタマミズキ"
+      ],
+      "ko": [
+        "흰말채나무"
+      ],
+      "nl": [
+        "witte kornoelje"
+      ],
+      "pl": [
+        "Dereń biały"
+      ],
+      "pt": [
+        "Cornus alba"
+      ],
+      "ru": [
+        "Дёрен белый"
+      ],
+      "zh": [
+        "紅瑞木"
       ]
     },
     "tags": [],
@@ -407,12 +554,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3838da0a9bdbc061be8e477ea842ca3445da234d",
-    "description": "The drupe emerges green, turns white, and then finally bluish-black by mid-summer. The stems of the fruits appear orangish-red. Each drupe contains a large seed. The fruits taste sour and bitter.",
+    "description": "Cornus alternifolia is a species of flowering plant in the dogwood family Cornaceae, native to eastern North America, from Newfoundland west to southern Manitoba and Minnesota, and south to northern Florida and Mississippi. It is rare in the southern United States. It is commonly known as green osier, alternate-leaved dogwood, and pagoda dogwood.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -428,12 +575,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -491,11 +638,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "de": [
+        "Wechselblättriger Hartriegel"
+      ],
       "en": [
-        "Alternate-leaf dogwood"
+        "Alternate-leaf dogwood",
+        "Cornus alternifolia"
+      ],
+      "es": [
+        "Cornus alternifolia"
+      ],
+      "fr": [
+        "Cornus alternifolia"
+      ],
+      "it": [
+        "Cornus alternifolia"
+      ],
+      "ja": [
+        "コルヌス・アルテルニフォニア"
+      ],
+      "nl": [
+        "Cornus alternifolia"
+      ],
+      "pl": [
+        "Cornus alternifolia"
+      ],
+      "pt": [
+        "Cornus alternifolia"
+      ],
+      "ru": [
+        "Cornus alternifolia"
+      ],
+      "tr": [
+        "Cornus alternifolia"
       ]
     },
     "tags": [],
@@ -507,12 +687,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a78e3a328fac05d66977d56a46f79b8683368e50",
-    "description": "The round drupes are 1/4 inch in diameter. They change from white to blue as they ripen. A cluster of drupes droops from greenish or reddish stalks. Displays from August to September.",
+    "description": "Cornus amomum, the silky dogwood, is a species of dogwood native to southern Ontario and the eastern United States, from Michigan and Vermont south to Alabama and Florida. Other names include red willow, silky cornel, kinnikinnick, and squawbush.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -528,12 +708,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -597,11 +777,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "de": [
+        "Seidenhaariger Hartriegel"
+      ],
       "en": [
+        "Cornus amomum",
         "Silky cornel"
+      ],
+      "es": [
+        "Cornus amomum"
+      ],
+      "fr": [
+        "Cornus amomum"
+      ],
+      "it": [
+        "Cornus amomum"
+      ],
+      "nl": [
+        "Cornus amomum"
+      ],
+      "pl": [
+        "Cornus amomum"
+      ],
+      "pt": [
+        "Cornus amomum"
+      ],
+      "ru": [
+        "Cornus amomum"
+      ],
+      "tr": [
+        "Cornus amomum"
       ]
     },
     "tags": [],
@@ -613,7 +823,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -634,12 +844,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -701,11 +911,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "ar": [
+        "قرانيا كندية"
+      ],
+      "de": [
+        "Kanadischer Hartriegel"
+      ],
       "en": [
-        "Bunchberry"
+        "Bunchberry",
+        "Cornus canadensis"
+      ],
+      "es": [
+        "Cornus canadensis"
+      ],
+      "fr": [
+        "quatre-temps"
+      ],
+      "it": [
+        "Cornus canadensis"
+      ],
+      "ja": [
+        "ゴゼンタチバナ"
+      ],
+      "ko": [
+        "풀산딸나무"
+      ],
+      "nl": [
+        "Cornus canadensis"
+      ],
+      "pl": [
+        "Cornus canadensis"
+      ],
+      "pt": [
+        "Cornus canadensis"
+      ],
+      "ru": [
+        "Дёрен канадский"
+      ],
+      "tr": [
+        "Cornus canadensis"
+      ],
+      "zh": [
+        "加拿大草茱萸"
       ]
     },
     "tags": [],
@@ -717,7 +969,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -799,11 +1051,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Benthams Hartriegel"
+      ],
       "en": [
-        "Bentham's cornel"
+        "Bentham's cornel",
+        "Cornus capitata"
+      ],
+      "es": [
+        "Cornus capitata"
+      ],
+      "fr": [
+        "Cornus capitata"
+      ],
+      "it": [
+        "Cornus capitata"
+      ],
+      "nl": [
+        "Cornus capitata"
+      ],
+      "pl": [
+        "Cornus capitata"
+      ],
+      "pt": [
+        "Cornus capitata"
+      ],
+      "ru": [
+        "Клубничное дерево"
+      ],
+      "tr": [
+        "Cornus capitata"
+      ],
+      "zh": [
+        "头状四照花"
       ]
     },
     "tags": [],
@@ -815,12 +1100,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/00833e8dfe39ea4d69010afbadef95efe78e3df0",
-    "description": "The fruits are round, fleshy, bluish-black drupes. They measure less than 0.5 inches in diameter.  Fruits are attractive to birds and small mammals.",
+    "description": "Cornus controversa, syn. Swida controversa, is a species of flowering plant in the dogwood family Cornaceae. It is native to China, Korea, the Himalayas and Japan. It is a deciduous tree growing to 50 ft (15 m), with multiple tiered branches. Flat panicles of white flowers appear in summer, followed by globose black fruit. Ovate dark green leaves are glaucous underneath and turn red-purple in autumn. It is cultivated in gardens and parks in temperate regions.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -836,12 +1121,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -904,11 +1189,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "ar": [
+        "قرانيا محيرة"
+      ],
+      "de": [
+        "Pagoden-Hartriegel"
+      ],
       "en": [
+        "Cornus controversa",
         "Giant dogwood"
+      ],
+      "es": [
+        "Bothrocaryum controversum"
+      ],
+      "fr": [
+        "Cornus controversa"
+      ],
+      "it": [
+        "Cornus controversa"
+      ],
+      "ja": [
+        "ミズキ"
+      ],
+      "ko": [
+        "층층나무"
+      ],
+      "nl": [
+        "Cornus controversa"
+      ],
+      "pl": [
+        "Dereń pagodowy"
+      ],
+      "pt": [
+        "Cornus controversa"
+      ],
+      "ru": [
+        "Кизил спорный"
+      ],
+      "tr": [
+        "Cornus controversa"
+      ],
+      "zh": [
+        "灯台树"
       ]
     },
     "tags": [],
@@ -920,7 +1247,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1002,9 +1329,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cornus disciflora"
+      ],
+      "en": [
+        "Cornus disciflora"
+      ],
+      "es": [
+        "Cornus disciflora"
+      ],
+      "fr": [
+        "Cornus disciflora"
+      ],
+      "it": [
+        "Cornus disciflora"
+      ],
+      "nl": [
+        "Cornus disciflora"
+      ],
+      "pl": [
+        "Cornus disciflora"
+      ],
+      "pt": [
+        "Cornus disciflora"
+      ],
+      "ru": [
+        "Cornus disciflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1014,12 +1371,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/2b3cfa2902edb0a8d3cb635d9265e6de.jpg",
-    "description": "The fruits are fleshy round white drupes that measure about 0.25 inches in diameter. Each drupe contains a stone. The drupes are a food source, and they attract birds, squirrels, chipmunks, and black bears.",
+    "description": "Cornus drummondii, commonly known as the roughleaf dogwood, is a small deciduous tree that is native primarily to the Great Plains and Midwestern regions of the United States. It is also found around the Mississippi River. It is uncommon in the wild, and is mostly found around forest borders. The roughleaf dogwood is used as a buffer strip around parking lots, in the median of highways and near the decks and patios of homes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1035,12 +1392,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1102,9 +1459,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cornus drummondii"
+      ],
+      "en": [
+        "Cornus drummondii"
+      ],
+      "es": [
+        "Cornus drummondii"
+      ],
+      "fr": [
+        "Cornus drummondii"
+      ],
+      "it": [
+        "Cornus drummondii"
+      ],
+      "nl": [
+        "Cornus drummondii"
+      ],
+      "pl": [
+        "Cornus drummondii"
+      ],
+      "pt": [
+        "Cornus drummondii"
+      ],
+      "ru": [
+        "Cornus drummondii"
+      ],
+      "tr": [
+        "Cornus drummondii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1114,7 +1504,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1196,9 +1586,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cornus excelsa"
+      ],
+      "en": [
+        "Cornus excelsa"
+      ],
+      "es": [
+        "Cornus excelsa"
+      ],
+      "fr": [
+        "Cornus excelsa"
+      ],
+      "it": [
+        "Cornus excelsa"
+      ],
+      "nl": [
+        "Cornus excelsa"
+      ],
+      "pl": [
+        "Cornus excelsa"
+      ],
+      "pt": [
+        "Cornus excelsa"
+      ],
+      "ru": [
+        "Cornus excelsa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1208,12 +1628,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a2577c78072bb29057310c0c7c244a5f9aea959e",
-    "description": "Fruit is a glossy bright, shiny red, oval drupes (0.5 inch) in tight clusters of 3 or 4 that are bitter and inedible to humans but loved by birds. They display from August to October.",
+    "description": "Cornus florida, the flowering dogwood or American dogwood, is a species of flowering tree in the family Cornaceae native to eastern North America and northern Mexico. An endemic population once spanned from southernmost coastal Maine south to northern Florida and west to the Mississippi River. The tree is commonly planted as an ornamental in residential and public areas because of its showy bracts and interesting bark structure.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1229,12 +1649,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1297,11 +1717,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "ar": [
+        "قرانيا فلوريدا"
+      ],
+      "de": [
+        "Blüten-Hartriegel"
+      ],
       "en": [
+        "Cornus florida",
         "Flowering dogwood"
+      ],
+      "es": [
+        "Cornus florida"
+      ],
+      "fr": [
+        "Cornouiller à fleurs"
+      ],
+      "it": [
+        "Cornus florida"
+      ],
+      "ja": [
+        "ハナミズキ"
+      ],
+      "nl": [
+        "Cornus florida"
+      ],
+      "pl": [
+        "Dereń kwiecisty"
+      ],
+      "pt": [
+        "Cornus florida"
+      ],
+      "ru": [
+        "Cornus florida"
+      ],
+      "tr": [
+        "Cornus florida"
+      ],
+      "zh": [
+        "大花四照花"
       ]
     },
     "tags": [],
@@ -1313,12 +1772,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/edd49649a44c9d6d6c60d725c7fa6e3461f7fe90",
-    "description": "A two-seeded drupe replaces the spent blooms.  The drupe is blue in color and 1/4  in diameter.",
+    "description": "Cornus foemina is a species of flowering plant in the family Cornaceae known by the common names stiff dogwood and swamp dogwood. It is native to parts of the eastern and southeastern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1334,12 +1793,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1399,11 +1858,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "de": [
+        "Cornus foemina"
+      ],
       "en": [
+        "Cornus foemina",
         "Stiff dogwood"
+      ],
+      "es": [
+        "Cornus foemina"
+      ],
+      "fr": [
+        "Cornus foemina"
+      ],
+      "it": [
+        "Cornus foemina"
+      ],
+      "nl": [
+        "Cornus foemina"
+      ],
+      "pl": [
+        "Cornus foemina"
+      ],
+      "pt": [
+        "Cornus foemina"
+      ],
+      "ru": [
+        "Cornus foemina"
+      ],
+      "tr": [
+        "Cornus foemina"
       ]
     },
     "tags": [],
@@ -1415,12 +1904,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/822bae73db64946a0bb0b165b98a486651efcec7",
-    "description": "The fruit is an edible round drupe and measures 1 to 1.5 inches in diameter. The fruit is light red to pink in color. The inside is a fleshy yellowish-orange and contains a stone. The stalk measures 1.5 to 2 inches long. The fruits ripen in late summer to early fall.",
+    "description": "Cornus kousa is a small deciduous tree 8–12 m (26–39 ft) tall, in the flowering plant family Cornaceae. Common names include kousa, kousa dogwood, Chinese dogwood, Korean dogwood, and Japanese dogwood. Synonyms are Benthamia kousa and Cynoxylon kousa. It is a plant native to East Asia including Korea, China and Japan. Widely cultivated as an ornamental, it is naturalized in the state of New York.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1436,12 +1925,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1497,11 +1986,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "ar": [
+        "قرانيا صينية"
+      ],
+      "de": [
+        "Asiatischer Blüten-Hartriegel"
+      ],
       "en": [
+        "Cornus kousa",
         "Japanese flowering dogwood"
+      ],
+      "es": [
+        "Cornus kousa"
+      ],
+      "fr": [
+        "Cornouiller du Japon"
+      ],
+      "it": [
+        "Cornus kousa"
+      ],
+      "ja": [
+        "ヤマボウシ"
+      ],
+      "ko": [
+        "산딸나무"
+      ],
+      "nl": [
+        "Kousa Dogwood"
+      ],
+      "pl": [
+        "Dereń Kousa"
+      ],
+      "pt": [
+        "Cornus kousa"
+      ],
+      "ru": [
+        "Cornus kousa"
+      ],
+      "tr": [
+        "Cornus kousa"
+      ],
+      "zh": [
+        "日本四照花"
       ]
     },
     "tags": [],
@@ -1513,7 +2044,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1534,12 +2065,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1595,11 +2126,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "ar": [
+        "قرانيا كبيرة الورق"
+      ],
+      "de": [
+        "Cornus macrophylla"
+      ],
       "en": [
+        "Cornus macrophylla",
         "Largeleaf dogwood"
+      ],
+      "es": [
+        "Cornus macrophylla"
+      ],
+      "fr": [
+        "Cornus macrophylla"
+      ],
+      "it": [
+        "Cornus macrophylla"
+      ],
+      "ja": [
+        "クマノミズキ"
+      ],
+      "ko": [
+        "곰의말채나무"
+      ],
+      "nl": [
+        "Cornus macrophylla"
+      ],
+      "pl": [
+        "Cornus macrophylla"
+      ],
+      "pt": [
+        "Cornus macrophylla"
+      ],
+      "ru": [
+        "Cornus macrophylla"
+      ],
+      "tr": [
+        "Cornus macrophylla"
+      ],
+      "zh": [
+        "梾木"
       ]
     },
     "tags": [],
@@ -1611,7 +2184,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1627,17 +2200,17 @@
     "synonyms": "[\"Cornus mas f. andrzejowskii\", \"Cornus homerica\", \"Cornus mas f. aurea\", \"Macrocarpium mas\", \"Cornus mas var. albocarpa\", \"Cornus mas f. nana\", \"Cornus mas f. alba\", \"Cornus mas f. albocarpa\", \"Cornus mas var. flava\", \"Cornus mascula\"]",
     "care": {
       "plant_id": "cornus_mas",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1699,11 +2272,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.3
     },
     "common_names": {
+      "ar": [
+        "قرانيا أوروبية"
+      ],
+      "de": [
+        "Kornelkirsche"
+      ],
       "en": [
-        "Cornelian-cherry"
+        "Cornelian-cherry",
+        "Cornus mas"
+      ],
+      "es": [
+        "Cornus mas"
+      ],
+      "fr": [
+        "Cornus mas"
+      ],
+      "it": [
+        "Cornus mas"
+      ],
+      "ja": [
+        "セイヨウサンシュユ"
+      ],
+      "ko": [
+        "서양산수유"
+      ],
+      "nl": [
+        "gele kornoelje"
+      ],
+      "pl": [
+        "dereń jadalny"
+      ],
+      "pt": [
+        "Cornus mas"
+      ],
+      "ru": [
+        "Кизил обыкновенный"
+      ],
+      "tr": [
+        "Cornus mas"
+      ],
+      "zh": [
+        "大果山茱萸"
       ]
     },
     "tags": [],
@@ -1715,7 +2330,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1736,12 +2351,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1797,11 +2412,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "de": [
+        "Nuttalls Blüten-Hartriegel"
+      ],
       "en": [
+        "Cornus nuttallii",
         "Pacific dogwood"
+      ],
+      "es": [
+        "Cornus nuttallii"
+      ],
+      "fr": [
+        "Cornus nuttallii"
+      ],
+      "it": [
+        "Cornus nuttallii"
+      ],
+      "ja": [
+        "タイヘイヨウハナミズキ"
+      ],
+      "nl": [
+        "Cornus nuttallii"
+      ],
+      "pl": [
+        "Cornus nuttallii"
+      ],
+      "pt": [
+        "Cornus nuttallii"
+      ],
+      "ru": [
+        "Бентамидия Наттолла"
       ]
     },
     "tags": [],
@@ -1813,12 +2458,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Cornus obliqua, the blue-fruited dogwood, silky dogwood, or pale dogwood, is a flowering shrub of eastern North America in the dogwood family, Cornaceae. It is sometimes considered a subspecies of Cornus amomum, which is also known as silky dogwood. It was first described in 1820 by Constantine Samuel Rafinesque. It is in the subgenus Kraniopsis.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1895,9 +2540,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cornus obliqua"
+      ],
+      "en": [
+        "Cornus obliqua"
+      ],
+      "es": [
+        "Cornus obliqua"
+      ],
+      "fr": [
+        "Cornus obliqua"
+      ],
+      "it": [
+        "Cornus obliqua"
+      ],
+      "nl": [
+        "Cornus obliqua"
+      ],
+      "pl": [
+        "Cornus obliqua"
+      ],
+      "pt": [
+        "Cornus obliqua"
+      ],
+      "ru": [
+        "Cornus obliqua"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1907,12 +2582,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ded57dd373d56bdacd146128e142f33fb5593626",
-    "description": "The fruit is a drupe that is red to purplish-red and appears in the fall. It is ellipsoid in shape and measures about 1/4 inch long and 1/8 inch wide. The fruits are edible but are very astringent. Each drupe contains an ellipsoid shaped stone.",
+    "description": "Cornus officinalis, the Japanese cornel or Japanese cornelian cherry, is a species of flowering plant in the dogwood family Cornaceae. Despite its name, it is native to China and Korea as well as Japan. It is not to be confused with C. mas, which is also known as the Cornelian cherry. It is not closely related to the true cherries of the genus Prunus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1994,11 +2669,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Asiatische Kornelkirsche"
+      ],
       "en": [
+        "Cornus officinalis",
         "Japanese cornel"
+      ],
+      "es": [
+        "Cornus officinalis"
+      ],
+      "fr": [
+        "Cornus officinalis"
+      ],
+      "it": [
+        "Cornus officinalis"
+      ],
+      "ja": [
+        "サンシュユ"
+      ],
+      "ko": [
+        "산수유"
+      ],
+      "nl": [
+        "Cornus officinalis"
+      ],
+      "pl": [
+        "Cornus officinalis"
+      ],
+      "pt": [
+        "Cornus officinalis"
+      ],
+      "ru": [
+        "Cornus officinalis"
+      ],
+      "zh": [
+        "山茱萸"
       ]
     },
     "tags": [],
@@ -2010,12 +2721,12 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dadc051b48458f3ca4a14a4703eeffbc035cc1c3",
-    "description": "The fruits are fleshy, rounded white drupes that measure about 0.25 inches in diameter.  Each drupe contains 1 or 2 stones. The fruit stalks are red during the fall and early winter.",
+    "description": "Cornus racemosa, the northern swamp dogwood, gray dogwood, or panicle dogwood, is a shrubby plant native to southeastern Canada and the northeastern United States. It is a member of the dogwood genus Cornus and the family Cornaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2031,12 +2742,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2097,11 +2808,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "ar": [
+        "قرانيا عنقودية"
+      ],
+      "de": [
+        "Cornus racemosa"
+      ],
       "en": [
+        "Cornus racemosa",
         "Panicled dogwood"
+      ],
+      "es": [
+        "Cornus racemosa"
+      ],
+      "fr": [
+        "Cornus racemosa"
+      ],
+      "it": [
+        "Cornus racemosa"
+      ],
+      "nl": [
+        "Cornus racemosa"
+      ],
+      "pl": [
+        "Cornus racemosa"
+      ],
+      "pt": [
+        "Cornus racemosa"
+      ],
+      "ru": [
+        "Cornus racemosa"
+      ],
+      "tr": [
+        "Cornus racemosa"
       ]
     },
     "tags": [],
@@ -2113,7 +2857,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2134,12 +2878,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2195,11 +2939,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "de": [
+        "Cornus rugosa"
+      ],
       "en": [
+        "Cornus rugosa",
         "Round-leaf dogwood"
+      ],
+      "es": [
+        "Cornus rugosa"
+      ],
+      "fr": [
+        "Cornus rugosa"
+      ],
+      "it": [
+        "Cornus rugosa"
+      ],
+      "nl": [
+        "Cornus rugosa"
+      ],
+      "pl": [
+        "Cornus rugosa"
+      ],
+      "pt": [
+        "Cornus rugosa"
+      ],
+      "ru": [
+        "Cornus rugosa"
+      ],
+      "tr": [
+        "Cornus rugosa"
       ]
     },
     "tags": [],
@@ -2211,7 +2985,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2232,12 +3006,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2299,11 +3073,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "قرانيا دموية"
+      ],
+      "de": [
+        "Roter Hartriegel"
+      ],
       "en": [
-        "Common dogwood"
+        "Common dogwood",
+        "Cornus sanguinea"
+      ],
+      "es": [
+        "Cornus sanguinea"
+      ],
+      "fr": [
+        "Cornouiller sanguin"
+      ],
+      "it": [
+        "Cornus sanguinea"
+      ],
+      "nl": [
+        "Cornus sanguinea"
+      ],
+      "pl": [
+        "dereń świdwa"
+      ],
+      "pt": [
+        "Cornus sanguinea"
+      ],
+      "ru": [
+        "кизил кроваво-красный"
+      ],
+      "tr": [
+        "Cornus sanguinea"
+      ],
+      "zh": [
+        "欧洲红瑞木"
       ]
     },
     "tags": [],
@@ -2315,7 +3125,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2336,12 +3146,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2362,9 +3172,9 @@
       "watering_guide": "Propagation: Root Cutting",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Cornus florida | Native to: BGM BE, ASK, IRE NI, NWY OO, MNT OO",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: very strong toxic (cat). Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": [
         "While not susceptible to dogwood anthracnose, when stressed, it is susceptible to a large number of disease problems, including powdery mildew, leaf spot, canker, root rot, and leaf and twig blight."
       ],
@@ -2386,8 +3196,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Native Americans are known to have used this plant for basketweaving and in tool making. It was also used as food.\"]",
@@ -2401,11 +3211,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "قرنوس أمريكي"
+      ],
+      "de": [
+        "Seidiger Hartriegel"
+      ],
       "en": [
+        "Cornus sericea",
         "Red-osier dogwood"
+      ],
+      "es": [
+        "Cornus sericea"
+      ],
+      "fr": [
+        "Cornus sericea"
+      ],
+      "it": [
+        "Cornus sericea"
+      ],
+      "ja": [
+        "アカクキミズキ"
+      ],
+      "nl": [
+        "Cornus sericea"
+      ],
+      "pl": [
+        "Dereń rozłogowy"
+      ],
+      "pt": [
+        "Cornus sericea"
+      ],
+      "ru": [
+        "Свидина шелковистая"
+      ],
+      "tr": [
+        "Cornus sericea"
+      ],
+      "zh": [
+        "红色山茱萸"
       ]
     },
     "tags": [],
@@ -2417,7 +3266,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2433,17 +3282,17 @@
     "synonyms": "[\"Cornus borealis\", \"Cornus suecica var. leucocarpa\", \"Arctocrania suecica\", \"Cornus suecica f. semivirescens\", \"Chloranthus integrifolius\", \"Cornus herbacea\", \"Cornus biramis\", \"Eukrania suecica\", \"Cornella suecica\", \"Chamaepericlymenum suecicum\"]",
     "care": {
       "plant_id": "cornus_suecica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2499,11 +3348,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "ar": [
+        "قرانيا السويد"
+      ],
+      "de": [
+        "Schwedischer Hartriegel"
+      ],
       "en": [
+        "Cornus suecica",
         "Dwarf cornel"
+      ],
+      "es": [
+        "Cornus suecica"
+      ],
+      "fr": [
+        "Cornouiller de Suède"
+      ],
+      "it": [
+        "Cornus suecica"
+      ],
+      "nl": [
+        "Zweedse kornoelje"
+      ],
+      "pl": [
+        "Dereń szwedzki"
+      ],
+      "pt": [
+        "Cornus suecica"
+      ],
+      "ru": [
+        "дёрен шведский"
+      ],
+      "tr": [
+        "Cornus suecica"
+      ],
+      "zh": [
+        "御膳橘"
       ]
     },
     "tags": [],
@@ -2515,7 +3400,7 @@
     "family": "Cornaceae",
     "genus": "Cornus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2597,9 +3482,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cornus walteri"
+      ],
+      "en": [
+        "Cornus walteri"
+      ],
+      "es": [
+        "Cornus walteri"
+      ],
+      "fr": [
+        "Cornus walteri"
+      ],
+      "it": [
+        "Cornus walteri"
+      ],
+      "ko": [
+        "말채나무"
+      ],
+      "nl": [
+        "Cornus walteri"
+      ],
+      "pl": [
+        "Cornus walteri"
+      ],
+      "pt": [
+        "Cornus walteri"
+      ],
+      "ru": [
+        "Cornus walteri"
+      ],
+      "zh": [
+        "毛梾"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Disceliaceae",
     "genus": "Discelium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Discelium_nudum.jpg",
+    "description": "Discelium is the only genus of moss in the family Disceliaceae, containing a single species, Discelium nudum, known as flag-moss. This species is rare but is widely distributed across cool and temperate climates of the Northern Hemisphere.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Nacktes Zweischenkelmoos"
+      ],
+      "en": [
+        "Discelium nudum"
+      ],
+      "es": [
+        "Discelium nudum"
+      ],
+      "fr": [
+        "Discelium nudum"
+      ],
+      "it": [
+        "Discelium nudum"
+      ],
+      "ko": [
+        "디스켈리움 누둠"
+      ],
+      "nl": [
+        "Discelium nudum"
+      ],
+      "pl": [
+        "Osadniczek goły"
+      ],
+      "pt": [
+        "Discelium nudum"
+      ],
+      "ru": [
+        "Discelium nudum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

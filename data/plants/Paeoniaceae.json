@@ -5,12 +5,12 @@
     "family": "Paeoniaceae",
     "genus": "Paeonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/948d93c9d7059593ff37ecdaafd0730777331acf",
-    "description": "Fruits are semi-dry follicles with a suture that split open (dehiscing) to release a few fleshy, black seeds.",
+    "description": "Paeonia anomala is a species of herbaceous perennial flowering plant in the family Paeoniaceae. This peony is ½–1 m high, with a thick irregular taproot and thin side roots. The deeply incised leaves have leaflets which are themselves divided in fine segments. It flowers in early summer, almost always with only one fully developed flower per stem, usually magenta-red or more rarely, pink or white.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,7 +21,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "paeonia_anomala",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -92,11 +92,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Paeonia anomala"
+      ],
       "en": [
-        "Anomalous peony"
+        "Anomalous peony",
+        "Paeonia anomala"
+      ],
+      "es": [
+        "Paeonia anomala"
+      ],
+      "fr": [
+        "Paeonia anomala"
+      ],
+      "it": [
+        "Paeonia anomala"
+      ],
+      "nl": [
+        "Paeonia anomala"
+      ],
+      "pl": [
+        "Paeonia anomala"
+      ],
+      "pt": [
+        "Paeonia anomala"
+      ],
+      "ru": [
+        "пион уклоняющийся"
+      ],
+      "zh": [
+        "窄叶芍药"
       ]
     },
     "tags": [],
@@ -108,12 +138,12 @@
     "family": "Paeoniaceae",
     "genus": "Paeonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dddbe9ba1cbfca23cc6ff3e993eb983f9308868d",
-    "description": "Fruits are semi-dry follicles with a suture that split open (dehiscing) to release a few fleshy, black seeds.",
+    "description": "Paeonia broteri is a perennial, herbaceous species of peony. It is an endemic species of the Iberian Peninsula. It bears rose-pink highly fragrant flowers about 12 cm wide and glossy green leaves. It reaches up to 40 centimetres (16 in) in height.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -124,17 +154,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "paeonia_broteri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -195,9 +225,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paeonia broteri"
+      ],
+      "en": [
+        "Paeonia broteri"
+      ],
+      "es": [
+        "Paeonia broteri"
+      ],
+      "fr": [
+        "Paeonia broteri"
+      ],
+      "it": [
+        "Paeonia broteri"
+      ],
+      "nl": [
+        "Paeonia broteri"
+      ],
+      "pl": [
+        "Paeonia broteri"
+      ],
+      "pt": [
+        "Paeonia broteri"
+      ],
+      "ru": [
+        "Paeonia broteri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -207,12 +267,12 @@
     "family": "Paeoniaceae",
     "genus": "Paeonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c3407d6fcf6614b611bdec4c5ab10672f12224e5",
-    "description": "Fruits are semi-dry follicles with a suture that split open (dehiscing) to release a few fleshy, black seeds.",
+    "description": "Paeonia lactiflora is a species of herbaceous perennial flowering plant in the family Paeoniaceae, native to central and eastern Asia from eastern Tibet across northern China to eastern Siberia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -223,7 +283,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "paeonia_lactiflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -294,11 +354,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Chinesische Pfingstrose"
+      ],
       "en": [
-        "Common garden peony"
+        "Common garden peony",
+        "Paeonia lactiflora"
+      ],
+      "es": [
+        "Paeonia lactiflora"
+      ],
+      "fr": [
+        "Pivoine de Chine"
+      ],
+      "it": [
+        "Paeonia lactiflora"
+      ],
+      "ja": [
+        "シャクヤク"
+      ],
+      "ko": [
+        "적작약"
+      ],
+      "nl": [
+        "Paeonia lactiflora"
+      ],
+      "pl": [
+        "piwonia chińska"
+      ],
+      "pt": [
+        "Paeonia lactiflora"
+      ],
+      "ru": [
+        "Пион молочноцветковый"
+      ],
+      "tr": [
+        "Paeonia lactiflora"
+      ],
+      "zh": [
+        "芍药"
       ]
     },
     "tags": [],
@@ -310,12 +409,12 @@
     "family": "Paeoniaceae",
     "genus": "Paeonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cead26b00e8a2f42fcf90e35bb2816108b9a1ca4",
-    "description": "Fruits are semi-dry follicles with a suture that split open (dehiscing) to release a few fleshy, black seeds.",
+    "description": "Paeonia mascula is a species of peony. It is a herbaceous perennial 0.5–1.5 m (1.6–4.9 ft) tall, with leaves that are divided into three segments, and large red flowers in late spring and early summer. Native to Syria, Spain, France, Italy, Croatia, Bosnia and Herzegovina, Serbia, Cyprus, Montenegro, Bulgaria Greece, Turkey, Iraq, Lebanon and Israel, this wild peony has become naturalised on two small islands in the UK.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -326,7 +425,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "paeonia_mascula",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -397,11 +496,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Korallen-Pfingstrose"
+      ],
       "en": [
-        "Coral peony"
+        "Coral peony",
+        "Paeonia mascula"
+      ],
+      "es": [
+        "Paeonia mascula"
+      ],
+      "fr": [
+        "Paeonia mascula"
+      ],
+      "it": [
+        "Paeonia mascula"
+      ],
+      "nl": [
+        "Paeonia mascula"
+      ],
+      "pl": [
+        "piwonia koralowa"
+      ],
+      "pt": [
+        "Paeonia mascula"
+      ],
+      "ru": [
+        "Paeonia mascula"
+      ],
+      "zh": [
+        "地中海芍药"
       ]
     },
     "tags": [],
@@ -413,12 +542,12 @@
     "family": "Paeoniaceae",
     "genus": "Paeonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9005999a25d9534fef782a7916a8fd70269e04a6",
-    "description": "Fruits are semi-dry follicles with a suture that split open (dehiscing) to release a few fleshy, black seeds.",
+    "description": "Paeonia obovata is a perennial herbaceous species of peony growing 30–70 cm high. It has white, pink or purple-red flowers and its lower leaves consist of no more than nine leaflets or segments. In English it is sometimes called woodland peony. It grows naturally in warm-temperate to cold China, including Manchuria, and in Korea, Japan, Far Eastern Russia and on Sakhalin.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -429,7 +558,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "paeonia_obovata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -500,11 +629,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Paeonia obovata"
+      ],
       "en": [
-        "Chinese peony"
+        "Chinese peony",
+        "Paeonia obovata"
+      ],
+      "es": [
+        "Paeonia obovata"
+      ],
+      "fr": [
+        "Paeonia obovata"
+      ],
+      "it": [
+        "Paeonia obovata"
+      ],
+      "ja": [
+        "ベニバナヤマシャクヤク"
+      ],
+      "nl": [
+        "Paeonia obovata"
+      ],
+      "pl": [
+        "Paeonia obovata"
+      ],
+      "pt": [
+        "Paeonia obovata"
+      ],
+      "ru": [
+        "Пион обратнояйцевидный"
+      ],
+      "zh": [
+        "草芍药"
       ]
     },
     "tags": [],
@@ -516,12 +678,12 @@
     "family": "Paeoniaceae",
     "genus": "Paeonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/998d4ec6826c9af6aa95f5f2ecfe4ec6629eee45",
-    "description": "Fruits are semi-dry follicles with a suture that split open (dehiscing) to release a few fleshy, black seeds.",
+    "description": "Paeonia officinalis, the common peony, or garden peony, is a species of flowering plant in the family Paeoniaceae, native to mainly mountainous areas of Southern Europe and introduced in Central and Western Europe and North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -532,17 +694,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "paeonia_officinalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -564,8 +726,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Chrysanthemum x morifolium",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Good air circulation discourages fungal diseases, but powdery mildew can disfigure foliage in the autumn.",
         "The plants are shunned by deer."
@@ -588,8 +750,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -603,11 +765,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 6.2
     },
     "common_names": {
+      "ar": [
+        "فاونيا أنثى"
+      ],
+      "de": [
+        "Gemeine Pfingstrose"
+      ],
       "en": [
-        "Common peony"
+        "Common peony",
+        "Paeonia officinalis"
+      ],
+      "es": [
+        "Paeonia officinalis"
+      ],
+      "fr": [
+        "Paeonia officinalis"
+      ],
+      "it": [
+        "Paeonia officinalis"
+      ],
+      "nl": [
+        "Boerenpioen"
+      ],
+      "pl": [
+        "piwonia lekarska"
+      ],
+      "pt": [
+        "Paeonia officinalis"
+      ],
+      "ru": [
+        "пион лекарственный"
+      ],
+      "tr": [
+        "Adi şakayık"
+      ],
+      "zh": [
+        "荷蘭芍藥"
       ]
     },
     "tags": [],
@@ -619,12 +817,12 @@
     "family": "Paeoniaceae",
     "genus": "Paeonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d0651d6e279ded9fbbbc76093b34a96c79cd68ec",
-    "description": "Fruits are semi-dry follicles with a suture that split open (dehiscing) to release a few fleshy, black seeds.",
+    "description": "Paeonia tenuifolia is a herbaceous species of peony that is called the steppe peony or the fern leaf peony. It is native to the Caucasus Mountains, with large fields found in Vashlivani National Park in Georgia and the Black Sea coast of Ukraine, spreading westward into Bulgaria, Romania and Serbia and eastward to northwestern Kazakhstan. It was described by Linnaeus in 1759. The leaves are finely divided into almost thread-like segments and grow close together on the stems.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -635,7 +833,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "paeonia_tenuifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -706,11 +904,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Paeonia tenuifolia"
+      ],
       "en": [
-        "Fern leaf peony"
+        "Fern leaf peony",
+        "Paeonia tenuifolia"
+      ],
+      "es": [
+        "Paeonia tenuifolia"
+      ],
+      "fr": [
+        "Paeonia tenuifolia"
+      ],
+      "it": [
+        "Paeonia tenuifolia"
+      ],
+      "nl": [
+        "Paeonia tenuifolia"
+      ],
+      "pl": [
+        "Paeonia tenuifolia"
+      ],
+      "pt": [
+        "Paeonia tenuifolia"
+      ],
+      "ru": [
+        "Пион узколистный"
+      ],
+      "zh": [
+        "丝叶芍药"
       ]
     },
     "tags": [],

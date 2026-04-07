@@ -5,7 +5,7 @@
     "family": "Phyllanthaceae",
     "genus": "Amanoa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Amanoa guianensis"
+      ],
+      "en": [
+        "Amanoa guianensis"
+      ],
+      "es": [
+        "Amanoa guianensis"
+      ],
+      "fr": [
+        "Amanoa guianensis"
+      ],
+      "it": [
+        "Amanoa guianensis"
+      ],
+      "nl": [
+        "Amanoa guianensis"
+      ],
+      "pl": [
+        "Amanoa guianensis"
+      ],
+      "pt": [
+        "Amanoa guianensis"
+      ],
+      "ru": [
+        "Amanoa guianensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Phyllanthaceae",
     "genus": "Andrachne",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e51d5cd9633b19b89a70e6d7793e4a03249b838b",
-    "description": null,
+    "description": "Andrachne telephioides is a species of shrub in the family Phyllanthaceae. They have a self-supporting growth form and simple, broad leaves. Individuals can grow to 12 cm.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -115,7 +145,7 @@
     "synonyms": "[\"Andrachne telephioides var. rotundifolia\", \"Andrachne virescens\", \"Andrachne virgatenuis\", \"Andrachne telephioides var. brevifolia\", \"Andrachne vvedenskyi\", \"Andrachne rotundifolia\", \"Telephioides procumbens\", \"Eraclissa hexagyna\", \"Andrachne nummulariifolia\", \"Andrachne pojarkoviae\"]",
     "care": {
       "plant_id": "andrachne_telephioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -181,11 +211,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "لبانه"
+      ],
+      "de": [
+        "Andrachne telephioides"
+      ],
       "en": [
-        "Andrachne"
+        "Andrachne",
+        "Andrachne telephioides"
+      ],
+      "es": [
+        "Andrachne telephioides"
+      ],
+      "fr": [
+        "Andrachne telephioides"
+      ],
+      "it": [
+        "Andrachne telephioides"
+      ],
+      "nl": [
+        "Andrachne telephioides"
+      ],
+      "pl": [
+        "Andrachne telephioides"
+      ],
+      "pt": [
+        "Andrachne telephioides"
+      ],
+      "ru": [
+        "Andrachne telephioides"
       ]
     },
     "tags": [],
@@ -197,12 +257,12 @@
     "family": "Phyllanthaceae",
     "genus": "Antidesma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/033ec76b0bb3f703e06c78e34d4276a623233f65",
-    "description": null,
+    "description": "Antidesma bunius is a species of fruit tree in the family Phyllanthaceae. It is native to South Asia, Southeast Asia, Melanesia, and northern Australia. It is commonly known as bignay, after its native name in the Philippines, where the fruits are commonly used for making bignay wine and jams. It is also known more ambiguously as Chinese laurel, Queensland cherry, salamander tree, wild cherry, and currant tree.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,11 +339,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Antidesma bunius"
+      ],
       "en": [
+        "Antidesma bunius",
         "Chinese-laurel"
+      ],
+      "es": [
+        "Antidesma bunius"
+      ],
+      "fr": [
+        "Antidesma bunius"
+      ],
+      "it": [
+        "Antidesma bunius"
+      ],
+      "ja": [
+        "ブニノキ"
+      ],
+      "nl": [
+        "Antidesma bunius"
+      ],
+      "pl": [
+        "Antydesma wawrzynolistna"
+      ],
+      "pt": [
+        "Antidesma bunius"
+      ],
+      "ru": [
+        "Бигнай"
+      ],
+      "zh": [
+        "五月茶"
       ]
     },
     "tags": [],
@@ -295,7 +388,7 @@
     "family": "Phyllanthaceae",
     "genus": "Antidesma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -377,9 +470,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Antidesma excavatum"
+      ],
+      "en": [
+        "Antidesma excavatum"
+      ],
+      "es": [
+        "Antidesma excavatum"
+      ],
+      "fr": [
+        "Antidesma excavatum"
+      ],
+      "it": [
+        "Antidesma excavatum"
+      ],
+      "nl": [
+        "Antidesma excavatum"
+      ],
+      "pl": [
+        "Antidesma excavatum"
+      ],
+      "pt": [
+        "Antidesma excavatum"
+      ],
+      "ru": [
+        "Antidesma excavatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,12 +512,12 @@
     "family": "Phyllanthaceae",
     "genus": "Antidesma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e1c98eb3fba500e91e94c2cdb34932f295e3c004",
-    "description": null,
+    "description": "Antidesma ghaesembilla is a species of plant in the Phyllanthaceae family. It is native to an area from northern Australia to the Philippines, China, and west to India. \nThe shrub or tree usually grows in moist soils in plant communities ranging from savannah to gallery forest to closed forest. It is associated with a number of species of fungus, insects and animals, including emus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -471,11 +594,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Antidesma ghaesembilla"
+      ],
       "en": [
+        "Antidesma ghaesembilla",
         "Black currant-tree"
+      ],
+      "es": [
+        "Antidesma ghaesembilla"
+      ],
+      "fr": [
+        "Antidesma ghaesembilla"
+      ],
+      "it": [
+        "Antidesma ghaesembilla"
+      ],
+      "nl": [
+        "Antidesma ghaesembilla"
+      ],
+      "pl": [
+        "Antidesma ghaesembilla"
+      ],
+      "pt": [
+        "Antidesma ghaesembilla"
+      ],
+      "ru": [
+        "Antidesma ghaesembilla"
+      ],
+      "zh": [
+        "方叶五月茶"
       ]
     },
     "tags": [],
@@ -487,12 +640,12 @@
     "family": "Phyllanthaceae",
     "genus": "Antidesma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d0da9ac69155415d34bcf96188dde970.jpg",
-    "description": null,
+    "description": "Antidesma japonicum is a shrub in the family Phyllanthaceae. It is found in Southeast Asia, China and Japan. It provides food and fuel. A. japonicum has two accepted varieties: the nominate variety, A. japonicum var. japonicum; and the robustius variety, A. japonicum var. robustius.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -569,9 +722,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Antidesma japonicum"
+      ],
+      "en": [
+        "Antidesma japonicum"
+      ],
+      "es": [
+        "Antidesma japonicum"
+      ],
+      "fr": [
+        "Antidesma japonicum"
+      ],
+      "it": [
+        "Antidesma japonicum"
+      ],
+      "nl": [
+        "Antidesma japonicum"
+      ],
+      "pl": [
+        "Antidesma japonicum"
+      ],
+      "pt": [
+        "Antidesma japonicum"
+      ],
+      "ru": [
+        "Antidesma japonicum"
+      ],
+      "tr": [
+        "Antidesma japonicum"
+      ],
+      "zh": [
+        "日本五月茶"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,7 +770,7 @@
     "family": "Phyllanthaceae",
     "genus": "Antidesma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -663,9 +852,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Antidesma laciniatum"
+      ],
+      "en": [
+        "Antidesma laciniatum"
+      ],
+      "es": [
+        "Antidesma laciniatum"
+      ],
+      "fr": [
+        "Antidesma laciniatum"
+      ],
+      "it": [
+        "Antidesma laciniatum"
+      ],
+      "nl": [
+        "Antidesma laciniatum"
+      ],
+      "pl": [
+        "Antidesma laciniatum"
+      ],
+      "pt": [
+        "Antidesma laciniatum"
+      ],
+      "ru": [
+        "Antidesma laciniatum"
+      ],
+      "zh": [
+        "条裂五月茶"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -675,7 +897,7 @@
     "family": "Phyllanthaceae",
     "genus": "Antidesma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -757,9 +979,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Antidesma madagascariense"
+      ],
+      "en": [
+        "Antidesma madagascariense"
+      ],
+      "es": [
+        "Antidesma madagascariense"
+      ],
+      "fr": [
+        "Antidesma madagascariense"
+      ],
+      "it": [
+        "Antidesma madagascariense"
+      ],
+      "nl": [
+        "Antidesma madagascariense"
+      ],
+      "pl": [
+        "Antidesma madagascariense"
+      ],
+      "pt": [
+        "Antidesma madagascariense"
+      ],
+      "ru": [
+        "Antidesma madagascariense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -769,7 +1021,7 @@
     "family": "Phyllanthaceae",
     "genus": "Antidesma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -851,9 +1103,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Antidesma membranaceum"
+      ],
+      "en": [
+        "Antidesma membranaceum"
+      ],
+      "es": [
+        "Antidesma membranaceum"
+      ],
+      "fr": [
+        "Antidesma membranaceum"
+      ],
+      "it": [
+        "Antidesma membranaceum"
+      ],
+      "nl": [
+        "Antidesma membranaceum"
+      ],
+      "pl": [
+        "Antidesma membranaceum"
+      ],
+      "pt": [
+        "Antidesma membranaceum"
+      ],
+      "ru": [
+        "Antidesma membranaceum"
+      ],
+      "zh": [
+        "膜叶五月茶"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -863,12 +1148,12 @@
     "family": "Phyllanthaceae",
     "genus": "Antidesma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f18fc1133bf171236fd1811cfaa14d03.jpg",
-    "description": null,
+    "description": "Antidesma montanum is a species of tree in the family Phyllanthaceae, native to Southeast Asia, from India to the Philippines. It can grow up to 10 m (33 ft). The fruits are edible. Four varieties have been accepted, each of which has multiple synonyms, which include Antidesma obliquinervium for A. montanum var. montanum.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -945,9 +1230,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Antidesma montanum"
+      ],
+      "en": [
+        "Antidesma montanum"
+      ],
+      "es": [
+        "Antidesma montanum"
+      ],
+      "fr": [
+        "Antidesma montanum"
+      ],
+      "it": [
+        "Antidesma montanum"
+      ],
+      "nl": [
+        "Antidesma montanum"
+      ],
+      "pl": [
+        "Antidesma montanum"
+      ],
+      "pt": [
+        "Antidesma montanum"
+      ],
+      "ru": [
+        "Antidesma montanum"
+      ],
+      "zh": [
+        "山地五月茶"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -957,12 +1275,12 @@
     "family": "Phyllanthaceae",
     "genus": "Antidesma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/94c28d5af32875721d985ea97171cee90810fd8c",
-    "description": null,
+    "description": "Antidesma venosum, commonly known as the tassel-berry, is a species of small dioecious tree in the family Phyllanthaceae. It is native to Africa, China and Indochina.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1039,11 +1357,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Antidesma venosum"
+      ],
       "en": [
+        "Antidesma venosum",
         "Tassel-berry"
+      ],
+      "es": [
+        "Antidesma venosum"
+      ],
+      "fr": [
+        "Antidesma venosum"
+      ],
+      "it": [
+        "Antidesma venosum"
+      ],
+      "nl": [
+        "Antidesma venosum"
+      ],
+      "pl": [
+        "Antidesma venosum"
+      ],
+      "pt": [
+        "Antidesma venosum"
+      ],
+      "ru": [
+        "Antidesma venosum"
+      ],
+      "tr": [
+        "Antidesma venosum"
+      ],
+      "zh": [
+        "小叶五月茶"
       ]
     },
     "tags": [],
@@ -1055,7 +1406,7 @@
     "family": "Phyllanthaceae",
     "genus": "Antidesma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1137,9 +1488,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Antidesma vogelianum"
+      ],
+      "en": [
+        "Antidesma vogelianum"
+      ],
+      "es": [
+        "Antidesma vogelianum"
+      ],
+      "fr": [
+        "Antidesma vogelianum"
+      ],
+      "it": [
+        "Antidesma vogelianum"
+      ],
+      "nl": [
+        "Antidesma vogelianum"
+      ],
+      "pl": [
+        "Antidesma vogelianum"
+      ],
+      "pt": [
+        "Antidesma vogelianum"
+      ],
+      "ru": [
+        "Antidesma vogelianum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1149,12 +1530,12 @@
     "family": "Phyllanthaceae",
     "genus": "Aporosa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1d3f11f289aaa018e4e83333de51c0ee.jpg",
-    "description": null,
+    "description": "Aporosa octandra is a species of plant in the family Phyllanthaceae found from Queensland and New Guinea to Indonesia, China and India. It is a highly variable plant with 4 named varieties. Its wood is used in construction and to make implements, its fruit is edible. The Karbi people of Assam use the plant for dyeing.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1231,9 +1612,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aporosa octandra"
+      ],
+      "en": [
+        "Aporosa octandra"
+      ],
+      "es": [
+        "Aporosa octandra"
+      ],
+      "fr": [
+        "Aporosa octandra"
+      ],
+      "it": [
+        "Aporosa octandra"
+      ],
+      "nl": [
+        "Aporosa octandra"
+      ],
+      "pl": [
+        "Aporosa octandra"
+      ],
+      "pt": [
+        "Aporosa octandra"
+      ],
+      "ru": [
+        "Aporosa octandra"
+      ],
+      "zh": [
+        "大沙木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1243,7 +1657,7 @@
     "family": "Phyllanthaceae",
     "genus": "Bischofia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1325,11 +1739,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bischofia javanica"
+      ],
       "en": [
+        "Bischofia javanica",
         "Bishopwood"
+      ],
+      "es": [
+        "Bischofia javanica"
+      ],
+      "fr": [
+        "Bischofia javanica"
+      ],
+      "it": [
+        "Bischofia javanica"
+      ],
+      "ja": [
+        "アカギ"
+      ],
+      "nl": [
+        "Gadog"
+      ],
+      "pl": [
+        "Bischofia javanica"
+      ],
+      "pt": [
+        "Bischofia javanica"
+      ],
+      "ru": [
+        "Bischofia javanica"
+      ],
+      "zh": [
+        "秋枫"
       ]
     },
     "tags": [],
@@ -1341,7 +1788,7 @@
     "family": "Phyllanthaceae",
     "genus": "Breynia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1425,9 +1872,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Breynia cernua"
+      ],
+      "en": [
+        "Breynia cernua"
+      ],
+      "es": [
+        "Breynia cernua"
+      ],
+      "fr": [
+        "Breynia cernua"
+      ],
+      "it": [
+        "Breynia cernua"
+      ],
+      "nl": [
+        "Breynia cernua"
+      ],
+      "pl": [
+        "Breynia cernua"
+      ],
+      "pt": [
+        "Breynia cernua"
+      ],
+      "ru": [
+        "Breynia cernua"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1437,12 +1914,12 @@
     "family": "Phyllanthaceae",
     "genus": "Breynia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8c9ac0ed7c96af05f92c8c90662c065ba7df393e",
-    "description": "Inconspicuous small round fruits",
+    "description": "Breynia disticha, commonly known as the snowbush, is a plant in the family Phyllanthaceae, first described in 1776. It is native to New Caledonia and Vanuatu in the western Pacific, but naturalized on a wide assortment of other islands around the world, as well as in the U.S. state of Florida.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1521,11 +1998,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شجرة الثلج"
+      ],
+      "de": [
+        "Breynia disticha"
+      ],
       "en": [
+        "Breynia disticha",
         "Snowbush"
+      ],
+      "es": [
+        "Breynia disticha"
+      ],
+      "fr": [
+        "Breynia disticha"
+      ],
+      "it": [
+        "Breynia disticha"
+      ],
+      "nl": [
+        "Breynia disticha"
+      ],
+      "pl": [
+        "Breynia disticha"
+      ],
+      "pt": [
+        "Breynia disticha"
+      ],
+      "ru": [
+        "Breynia disticha"
+      ],
+      "zh": [
+        "二列黑面神"
       ]
     },
     "tags": [],
@@ -1537,12 +2047,12 @@
     "family": "Phyllanthaceae",
     "genus": "Breynia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Breynia_oblongifolia_foliage.jpg",
+    "description": "Breynia oblongifolia, commonly known as coffee bush, grows naturally in Australia and New Guinea as shrubs up to 3 m (10 ft) in height. The species produces alternate, distichous, ovate leaves 20–30 mm (0.8–1.2 in) long by 10–20 mm (0.4–0.8 in) wide. Small, green flowers are produced in spring and summer, and these are followed by orange or pink berries about 6 mm (0.24 in) diameter that turn black when fully ripe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1619,9 +2129,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Breynia oblongifolia"
+      ],
+      "en": [
+        "Breynia oblongifolia"
+      ],
+      "es": [
+        "Breynia oblongifolia"
+      ],
+      "fr": [
+        "Breynia oblongifolia"
+      ],
+      "it": [
+        "Breynia oblongifolia"
+      ],
+      "nl": [
+        "Breynia oblongifolia"
+      ],
+      "pl": [
+        "Breynia oblongifolia"
+      ],
+      "pt": [
+        "Breynia oblongifolia"
+      ],
+      "ru": [
+        "Breynia oblongifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1631,12 +2171,12 @@
     "family": "Phyllanthaceae",
     "genus": "Bridelia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/044115a5d2a03cbfd55e00ba0086811067dbe265",
-    "description": null,
+    "description": "Bridelia is a genus of plants in the family Phyllanthaceae first described as a genus in 1806. It is widespread across Africa, Australia, southern Asia, and various islands of the Indian and Pacific Oceans.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1713,9 +2253,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bridelia ferruginea"
+      ],
+      "en": [
+        "Bridelia ferruginea"
+      ],
+      "es": [
+        "Bridelia ferruginea"
+      ],
+      "fr": [
+        "Bridelia ferruginea"
+      ],
+      "it": [
+        "Bridelia ferruginea"
+      ],
+      "nl": [
+        "Bridelia ferruginea"
+      ],
+      "pl": [
+        "Bridelia ferruginea"
+      ],
+      "pt": [
+        "Bridelia ferruginea"
+      ],
+      "ru": [
+        "Bridelia ferruginea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1725,7 +2295,7 @@
     "family": "Phyllanthaceae",
     "genus": "Bridelia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1807,11 +2377,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bridelia micrantha"
+      ],
       "en": [
-        "Bridelia"
+        "Bridelia",
+        "Bridelia micrantha"
+      ],
+      "es": [
+        "Bridelia micrantha"
+      ],
+      "fr": [
+        "Bridelia micrantha"
+      ],
+      "it": [
+        "Bridelia micrantha"
+      ],
+      "ja": [
+        "Bridelia micrantha"
+      ],
+      "nl": [
+        "Bridelia micrantha"
+      ],
+      "pl": [
+        "Bridelia micrantha"
+      ],
+      "pt": [
+        "Bridelia micrantha"
+      ],
+      "ru": [
+        "Bridelia micrantha"
       ]
     },
     "tags": [],
@@ -1823,7 +2423,7 @@
     "family": "Phyllanthaceae",
     "genus": "Bridelia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1905,9 +2505,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bridelia scleroneura"
+      ],
+      "en": [
+        "Bridelia scleroneura"
+      ],
+      "es": [
+        "Bridelia scleroneura"
+      ],
+      "fr": [
+        "Bridelia scleroneura"
+      ],
+      "it": [
+        "Bridelia scleroneura"
+      ],
+      "nl": [
+        "Bridelia scleroneura"
+      ],
+      "pl": [
+        "Bridelia scleroneura"
+      ],
+      "pt": [
+        "Bridelia scleroneura"
+      ],
+      "ru": [
+        "Bridelia scleroneura"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1917,7 +2547,7 @@
     "family": "Phyllanthaceae",
     "genus": "Bridelia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1999,9 +2629,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bridelia tomentosa"
+      ],
+      "en": [
+        "Bridelia tomentosa"
+      ],
+      "es": [
+        "Bridelia tomentosa"
+      ],
+      "fr": [
+        "Bridelia tomentosa"
+      ],
+      "it": [
+        "Bridelia tomentosa"
+      ],
+      "nl": [
+        "Bridelia tomentosa"
+      ],
+      "pl": [
+        "Bridelia tomentosa"
+      ],
+      "pt": [
+        "Bridelia tomentosa"
+      ],
+      "ru": [
+        "Bridelia tomentosa"
+      ],
+      "zh": [
+        "土蜜树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2011,7 +2674,7 @@
     "family": "Phyllanthaceae",
     "genus": "Flueggea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2093,9 +2756,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Flueggea suffruticosa"
+      ],
+      "en": [
+        "Flueggea suffruticosa"
+      ],
+      "es": [
+        "Flueggea suffruticosa"
+      ],
+      "fr": [
+        "Flueggea suffruticosa"
+      ],
+      "it": [
+        "Flueggea suffruticosa"
+      ],
+      "ja": [
+        "ヒトツバハギ"
+      ],
+      "ko": [
+        "광대싸리"
+      ],
+      "nl": [
+        "Flueggea suffruticosa"
+      ],
+      "pl": [
+        "Flueggea suffruticosa"
+      ],
+      "pt": [
+        "Flueggea suffruticosa"
+      ],
+      "ru": [
+        "Секуринега полукустарниковая"
+      ],
+      "zh": [
+        "一叶萩"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2105,12 +2807,12 @@
     "family": "Phyllanthaceae",
     "genus": "Flueggea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6d8b2301b9f9fe798411cf63424ef5cc1efaf900",
-    "description": null,
+    "description": "Flueggea tinctoria is a species of flowering shrub in the family Phyllanthaceae, endemic to the Iberian Peninsula.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2187,11 +2889,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Flueggea tinctoria"
+      ],
       "en": [
+        "Flueggea tinctoria",
         "Tamujo"
+      ],
+      "es": [
+        "Flueggea tinctoria"
+      ],
+      "fr": [
+        "Flueggea tinctoria"
+      ],
+      "it": [
+        "Flueggea tinctoria"
+      ],
+      "nl": [
+        "Flueggea tinctoria"
+      ],
+      "pl": [
+        "Flueggea tinctoria"
+      ],
+      "pt": [
+        "Flueggea tinctoria"
+      ],
+      "ru": [
+        "Flueggea tinctoria"
       ]
     },
     "tags": [],
@@ -2203,12 +2932,12 @@
     "family": "Phyllanthaceae",
     "genus": "Flueggea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/09d98bfe53056c8d738dd6f695f3bd197b1cadf8",
-    "description": null,
+    "description": "Flueggea virosa, the common bushweed, simpleleaf bushweed, white-berry bush, snowberry tree, or Chinese waterberry, is a widespread species of flowering plant in the family Phyllanthaceae. It is native to the Old World tropics and subtropics; Africa, Madagascar and other Indian Ocean islands, the Arabian Peninsula, the Indian Subcontinent, southern China, Southeast Asia, Malesia, New Guinea, and Australia. It has also been introduced to Florida and Puerto Rico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2285,11 +3014,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نهف منتن"
+      ],
+      "de": [
+        "Flueggea virosa"
+      ],
       "en": [
-        "Common bushweed"
+        "Common bushweed",
+        "Flueggea virosa"
+      ],
+      "es": [
+        "Flueggea virosa"
+      ],
+      "fr": [
+        "Flueggea virosa"
+      ],
+      "it": [
+        "Flueggea virosa"
+      ],
+      "nl": [
+        "Flueggea virosa"
+      ],
+      "pl": [
+        "Flueggea virosa"
+      ],
+      "pt": [
+        "Flueggea virosa"
+      ],
+      "ru": [
+        "Flueggea virosa"
+      ],
+      "zh": [
+        "白饭树"
       ]
     },
     "tags": [],
@@ -2301,12 +3063,12 @@
     "family": "Phyllanthaceae",
     "genus": "Glochidion",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9d2bff3289c543ef404c7a1abd562623103e6e92",
-    "description": null,
+    "description": "Glochidion ferdinandi, with common names that include cheese tree, is a species of small to medium–sized trees, constituting part of the plant family Phyllanthaceae. They grow naturally across eastern Australia, from south–eastern New South Wales northwards to northern and inland Queensland, in rainforests and humid eucalypt forests. Frugivorous birds such as pigeons, figbirds and parrots consume its fruit.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2383,9 +3145,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Glochidion ferdinandi"
+      ],
+      "en": [
+        "'Glochidion ferdinandii'",
+        "Glochidion ferdinandi",
+        "Glochidion ferdinandii (unjustified emendation)"
+      ],
+      "es": [
+        "Diasperus ferdinandii",
+        "Glochidion ferdinandi",
+        "Phyllanthus ferdinandii",
+        "Phyllanthus ferdinandii var minor",
+        "Phyllanthus ferdinandii var. minor"
+      ],
+      "fr": [
+        "Glochidion ferdinandi"
+      ],
+      "it": [
+        "Glochidion ferdinandi"
+      ],
+      "nl": [
+        "Glochidion ferdinandi"
+      ],
+      "pl": [
+        "Glochidion ferdinandi"
+      ],
+      "pt": [
+        "Glochidion ferdinandi"
+      ],
+      "ru": [
+        "Glochidion ferdinandi"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2395,7 +3193,7 @@
     "family": "Phyllanthaceae",
     "genus": "Glochidion",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2477,9 +3275,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Glochidion philippicum"
+      ],
+      "en": [
+        "Buttonwood",
+        "Glochidion philippicum"
+      ],
+      "es": [
+        "Glochidion philippicum"
+      ],
+      "fr": [
+        "Glochidion philippicum"
+      ],
+      "it": [
+        "Glochidion philippicum"
+      ],
+      "nl": [
+        "Glochidion philippicum"
+      ],
+      "pl": [
+        "Glochidion philippicum"
+      ],
+      "pt": [
+        "Glochidion philippicum"
+      ],
+      "ru": [
+        "Glochidion philippicum"
+      ],
+      "tr": [
+        "Glochidion philippicum"
+      ],
+      "zh": [
+        "甜叶木",
+        "甜叶算盘子",
+        "菲岛算盘子",
+        "菲岛馒头果",
+        "鹈鹕嘴",
+        "鹈鹕脂油"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2489,12 +3329,12 @@
     "family": "Phyllanthaceae",
     "genus": "Glochidion",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/441fef17fb1bea1072078b0db173c42b2aaa134c",
-    "description": null,
+    "description": "Glochidion zeylanicum is a species of flowering plant in the family Phyllanthaceae. It is a shrub or tree which ranges from the Indian subcontinent through Indochina, southern China, Taiwan, Japan, Malesia, and Papuasia to northern Australia and Vanuatu.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2571,9 +3411,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Glochidion zeylanicum"
+      ],
+      "en": [
+        "Glochidion zeylanicum"
+      ],
+      "es": [
+        "Glochidion zeylanicum"
+      ],
+      "fr": [
+        "Glochidion zeylanicum"
+      ],
+      "it": [
+        "Glochidion zeylanicum"
+      ],
+      "ja": [
+        "Glochidion zeylanicum (Gaertn.)",
+        "カキバカンコノキ"
+      ],
+      "nl": [
+        "Glochidion zeylanicum"
+      ],
+      "pl": [
+        "Glochidion zeylanicum"
+      ],
+      "pt": [
+        "Glochidion zeylanicum"
+      ],
+      "ru": [
+        "Glochidion zeylanicum"
+      ],
+      "zh": [
+        "大叶面豆果",
+        "山柑算盘子",
+        "金龟树",
+        "锡兰馒头果",
+        "香港算盘子"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2583,7 +3464,7 @@
     "family": "Phyllanthaceae",
     "genus": "Hieronyma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2665,9 +3546,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hieronyma alchorneoides"
+      ],
+      "en": [
+        "Hieronyma alchorneoides"
+      ],
+      "es": [
+        "Hieronyma alchorneoides"
+      ],
+      "fr": [
+        "Hieronyma alchorneoides"
+      ],
+      "it": [
+        "Hieronyma alchorneoides"
+      ],
+      "nl": [
+        "Hieronyma alchorneoides"
+      ],
+      "pl": [
+        "Hieronyma alchorneoides"
+      ],
+      "pt": [
+        "Hieronyma alchorneoides"
+      ],
+      "ru": [
+        "Hieronyma alchorneoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2677,7 +3588,7 @@
     "family": "Phyllanthaceae",
     "genus": "Hieronyma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2759,9 +3670,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hieronyma oblonga"
+      ],
+      "en": [
+        "Hieronyma oblonga"
+      ],
+      "es": [
+        "Hieronyma oblonga"
+      ],
+      "fr": [
+        "Hieronyma oblonga"
+      ],
+      "it": [
+        "Hieronyma oblonga"
+      ],
+      "nl": [
+        "Hieronyma oblonga"
+      ],
+      "pl": [
+        "Hieronyma oblonga"
+      ],
+      "pt": [
+        "Hieronyma oblonga"
+      ],
+      "ru": [
+        "Hieronyma oblonga"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2771,12 +3712,12 @@
     "family": "Phyllanthaceae",
     "genus": "Hymenocardia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/544013d0330ab32a9b760483edef84fb.jpg",
-    "description": null,
+    "description": "Hymenocardia acida is a plant of the family Phyllanthaceae native to tropical Africa. It is a small tree that grows to 10 m tall. Occurs in the Guinea and Sudanian savannah zones and deciduous woodland, from Senegal eastwards to Ethiopia and southwards reaching Zimbabwe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2853,9 +3794,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenocardia acida"
+      ],
+      "en": [
+        "Hymenocardia acida"
+      ],
+      "es": [
+        "Hymenocardia acida"
+      ],
+      "fr": [
+        "Hymenocardia acida"
+      ],
+      "it": [
+        "Hymenocardia acida"
+      ],
+      "nl": [
+        "Hymenocardia acida"
+      ],
+      "pl": [
+        "Hymenocardia acida"
+      ],
+      "pt": [
+        "Hymenocardia acida"
+      ],
+      "ru": [
+        "Hymenocardia acida"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2865,12 +3836,12 @@
     "family": "Phyllanthaceae",
     "genus": "Leptopus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/bbd57f00ede6a9b6fb8dc2bdb3dcc8a9.jpg",
-    "description": null,
+    "description": "Leptopus chinensis is a species of plant belonging to the family Phyllanthaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2947,9 +3918,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Leptopus chinensis"
+      ],
+      "en": [
+        "Leptopus chinensis"
+      ],
+      "es": [
+        "Leptopus chinensis"
+      ],
+      "fr": [
+        "Leptopus chinensis"
+      ],
+      "it": [
+        "Leptopus chinensis"
+      ],
+      "nl": [
+        "Leptopus chinensis"
+      ],
+      "pl": [
+        "Leptopus chinensis"
+      ],
+      "pt": [
+        "Leptopus chinensis"
+      ],
+      "ru": [
+        "Лептопус китайский"
+      ],
+      "zh": [
+        "雀儿舌头"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2959,7 +3963,7 @@
     "family": "Phyllanthaceae",
     "genus": "Maesobotrya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3041,9 +4045,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Maesobotrya barteri"
+      ],
+      "en": [
+        "Maesobotrya barteri"
+      ],
+      "es": [
+        "Maesobotrya barteri"
+      ],
+      "fr": [
+        "Maesobotrya barteri"
+      ],
+      "it": [
+        "Maesobotrya barteri"
+      ],
+      "nl": [
+        "Maesobotrya barteri"
+      ],
+      "pl": [
+        "Maesobotrya barteri"
+      ],
+      "pt": [
+        "Maesobotrya barteri"
+      ],
+      "ru": [
+        "Maesobotrya barteri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3053,12 +4087,12 @@
     "family": "Phyllanthaceae",
     "genus": "Margaritaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Margaritaria discoidea is a tree in the family Phyllanthaceae, commonly known as the pheasant-berry, egossa red pear or bushveld peacock-berry. These trees are native to the warmer, higher rainfall areas of Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3135,9 +4169,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Margaritaria discoidea"
+      ],
+      "en": [
+        "Margaritaria discoidea"
+      ],
+      "es": [
+        "Margaritaria discoidea"
+      ],
+      "fr": [
+        "Margaritaria discoidea"
+      ],
+      "it": [
+        "Margaritaria discoidea"
+      ],
+      "nl": [
+        "Margaritaria discoidea"
+      ],
+      "pl": [
+        "Margaritaria discoidea"
+      ],
+      "pt": [
+        "Margaritaria discoidea"
+      ],
+      "ru": [
+        "Margaritaria discoidea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3147,12 +4211,12 @@
     "family": "Phyllanthaceae",
     "genus": "Margaritaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8bcd02a6ef3e913f49fb9007f4c3df394f386799",
-    "description": null,
+    "description": "Margaritaria nobilis, also known as bastard hogberry, is a fruit-bearing plant found in Mexico, Central America, South America, and the West Indies.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3229,11 +4293,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Margaritaria nobilis"
+      ],
       "en": [
-        "Bastard hogberry"
+        "Bastard hogberry",
+        "Margaritaria nobilis"
+      ],
+      "es": [
+        "Margaritaria nobilis"
+      ],
+      "fr": [
+        "Margaritaria nobilis"
+      ],
+      "it": [
+        "Margaritaria nobilis"
+      ],
+      "nl": [
+        "Margaritaria nobilis"
+      ],
+      "pl": [
+        "Margaritaria nobilis"
+      ],
+      "pt": [
+        "Margaritaria nobilis"
+      ],
+      "ru": [
+        "Margaritaria nobilis"
       ]
     },
     "tags": [],
@@ -3245,12 +4336,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b5b058e6057d99377885a3a7ed7237328581952f",
-    "description": "Inconspicuous small round fruits",
+    "description": "Phyllanthus acuminatus, the Jamaican gooseberry tree, is a herb-like plant of the family Phyllanthaceae, found in the Caribbean, Central America and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3329,11 +4420,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phyllanthus acuminatus"
+      ],
       "en": [
-        "Jamaican gooseberry tree"
+        "Jamaican gooseberry tree",
+        "Phyllanthus acuminatus"
+      ],
+      "es": [
+        "Phyllanthus acuminatus"
+      ],
+      "fr": [
+        "Phyllanthus acuminatus"
+      ],
+      "it": [
+        "Phyllanthus acuminatus"
+      ],
+      "nl": [
+        "Phyllanthus acuminatus"
+      ],
+      "pl": [
+        "Phyllanthus acuminatus"
+      ],
+      "pt": [
+        "Phyllanthus acuminatus"
+      ],
+      "ru": [
+        "Phyllanthus acuminatus"
       ]
     },
     "tags": [],
@@ -3345,12 +4463,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ffd127b14e4d4c503ec9c25a8ddeb182ebfe4989",
-    "description": "Inconspicuous small round fruits",
+    "description": "Phyllanthus amarus is a leafy herbal plant found in tropical regions in the Americas, Africa, India, China, Sri Lanka, and Southeast Asia. Commons names for this plant include gale of the wind, carry me seed, seed on the leaf, pick-a-back, stonebreaker, and dukung anak (Malay).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3429,11 +4547,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phyllanthus amarus"
+      ],
       "en": [
-        "Carry me seed"
+        "Carry me seed",
+        "Phyllanthus amarus"
+      ],
+      "es": [
+        "Phyllanthus amarus"
+      ],
+      "fr": [
+        "Phyllanthus amarus"
+      ],
+      "it": [
+        "Phyllanthus amarus"
+      ],
+      "nl": [
+        "Phyllanthus amarus"
+      ],
+      "pl": [
+        "Phyllanthus amarus"
+      ],
+      "pt": [
+        "Phyllanthus amarus"
+      ],
+      "ru": [
+        "Phyllanthus amarus"
+      ],
+      "zh": [
+        "小返魂"
       ]
     },
     "tags": [],
@@ -3445,12 +4593,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/116ff35d385e064564489a08eb1f2c70.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3529,9 +4677,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus botryanthus"
+      ],
+      "en": [
+        "Phyllanthus botryanthus"
+      ],
+      "es": [
+        "Phyllanthus botryanthus"
+      ],
+      "fr": [
+        "Phyllanthus botryanthus"
+      ],
+      "it": [
+        "Phyllanthus botryanthus"
+      ],
+      "nl": [
+        "Phyllanthus botryanthus"
+      ],
+      "pl": [
+        "Phyllanthus botryanthus"
+      ],
+      "pt": [
+        "Phyllanthus botryanthus"
+      ],
+      "ru": [
+        "Phyllanthus botryanthus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3541,12 +4719,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/81ef682326bca83223f1a05fe292146c.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": "Phyllanthus calycinus, known as false boronia and snowdrop spurge, is a small shrub in the family Phyllanthaceae, which grows to heights from 20 cm to 1.2 m, often on sandy soils. It is found in both Western Australia and South Australia. In Western Australia its white-cream to pink flowers may be seen from June to January, and in South Australia, from May to October.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3625,9 +4803,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus calycinus"
+      ],
+      "en": [
+        "Phyllanthus calycinus"
+      ],
+      "es": [
+        "Phyllanthus calycinus"
+      ],
+      "fr": [
+        "Phyllanthus calycinus"
+      ],
+      "it": [
+        "Phyllanthus calycinus"
+      ],
+      "nl": [
+        "Phyllanthus calycinus"
+      ],
+      "pl": [
+        "Phyllanthus calycinus"
+      ],
+      "pt": [
+        "Phyllanthus calycinus"
+      ],
+      "ru": [
+        "Phyllanthus calycinus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3637,12 +4845,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ea717652fdaf6b16a833a2248f10f195e4a1d49b",
-    "description": "Inconspicuous small round fruits",
+    "description": "Phyllanthus caroliniensis, the Carolina leafflower, is a flowering plant native to the Americas, from the southeastern United States all the way to Argentina. The flowers are small and located where the leaf meets the stem.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3721,11 +4929,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phyllanthus caroliniensis"
+      ],
       "en": [
-        "Carolina leaf-flower"
+        "Carolina leaf-flower",
+        "Phyllanthus caroliniensis"
+      ],
+      "es": [
+        "Phyllanthus caroliniensis"
+      ],
+      "fr": [
+        "Phyllanthus caroliniensis"
+      ],
+      "it": [
+        "Phyllanthus caroliniensis"
+      ],
+      "nl": [
+        "Phyllanthus caroliniensis"
+      ],
+      "pl": [
+        "Phyllanthus caroliniensis"
+      ],
+      "pt": [
+        "Phyllanthus caroliniensis"
+      ],
+      "ru": [
+        "Phyllanthus caroliniensis"
       ]
     },
     "tags": [],
@@ -3737,12 +4972,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/855f423123eaeffddeab32f17f3b93a2.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3821,9 +5056,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus casticum"
+      ],
+      "en": [
+        "Phyllanthus casticum"
+      ],
+      "es": [
+        "Phyllanthus casticum"
+      ],
+      "fr": [
+        "Phyllanthus casticum"
+      ],
+      "it": [
+        "Phyllanthus casticum"
+      ],
+      "nl": [
+        "Phyllanthus casticum"
+      ],
+      "pl": [
+        "Phyllanthus casticum"
+      ],
+      "pt": [
+        "Phyllanthus casticum"
+      ],
+      "ru": [
+        "Phyllanthus casticum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3833,12 +5098,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/99d9fed9f36e567f9fa230172b4f3ff1ec92b549",
-    "description": "Inconspicuous small round fruits",
+    "description": "Phyllanthus emblica, also known as emblic, emblic myrobalan, myrobalan, nelikai, Indian gooseberry, Malacca tree, amloki or amla, is a deciduous tree of the family Phyllanthaceae. Its native range is tropical and southern Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3917,11 +5182,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أملج شائع"
+      ],
+      "de": [
+        "Phyllanthus emblica"
+      ],
       "en": [
-        "Indian-gooseberry"
+        "Indian-gooseberry",
+        "Phyllanthus emblica"
+      ],
+      "es": [
+        "Phyllanthus emblica"
+      ],
+      "fr": [
+        "Amla"
+      ],
+      "hi": [
+        "आँवला"
+      ],
+      "it": [
+        "Phyllanthus emblica"
+      ],
+      "ja": [
+        "ユカン"
+      ],
+      "ko": [
+        "암라"
+      ],
+      "nl": [
+        "Phyllanthus emblica"
+      ],
+      "pl": [
+        "Liściokwiat garbnikowy"
+      ],
+      "pt": [
+        "Sarandi"
+      ],
+      "ru": [
+        "филлантус эмблика"
+      ],
+      "zh": [
+        "餘甘子"
       ]
     },
     "tags": [],
@@ -3933,12 +5240,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/359017849d187a8bced90da41a1b2ef9.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": "Phyllanthus gunnii, the scrubby spurge, is a small plant growing in eastern and southern Australia, often on rocky forest sites near water.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4017,9 +5324,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus gunnii"
+      ],
+      "en": [
+        "Phyllanthus gunnii"
+      ],
+      "es": [
+        "Phyllanthus gunnii"
+      ],
+      "fr": [
+        "Phyllanthus gunnii"
+      ],
+      "it": [
+        "Phyllanthus gunnii"
+      ],
+      "nl": [
+        "Phyllanthus gunnii"
+      ],
+      "pl": [
+        "Phyllanthus gunnii"
+      ],
+      "pt": [
+        "Phyllanthus gunnii"
+      ],
+      "ru": [
+        "Phyllanthus gunnii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4029,12 +5366,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/91fd3dcd7886f3fdfedbe3476b6aef77.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": "Phyllanthus hirtellus is a species of flowering plant in the family Phyllanthaceae. It is a miniature heath shrub, growing in erect or sprawling form. Stems are up to 30 cm long, leaves under 8 mm long. It is commonly found in heath or dry woodland in eastern Australia. The specific epithet hirtellus is derived from Latin, meaning finely hairy.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4113,9 +5450,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus hirtellus"
+      ],
+      "en": [
+        "Phyllanthus hirtellus"
+      ],
+      "es": [
+        "Phyllanthus hirtellus"
+      ],
+      "fr": [
+        "Phyllanthus hirtellus"
+      ],
+      "it": [
+        "Phyllanthus hirtellus"
+      ],
+      "nl": [
+        "Phyllanthus hirtellus"
+      ],
+      "pl": [
+        "Phyllanthus hirtellus"
+      ],
+      "pt": [
+        "Phyllanthus hirtellus"
+      ],
+      "ru": [
+        "Phyllanthus hirtellus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4125,7 +5492,7 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4207,9 +5574,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus klotzschianus"
+      ],
+      "en": [
+        "Phyllanthus klotzschianus"
+      ],
+      "es": [
+        "Phyllanthus klotzschianus"
+      ],
+      "fr": [
+        "Phyllanthus klotzschianus"
+      ],
+      "it": [
+        "Phyllanthus klotzschianus"
+      ],
+      "nl": [
+        "Phyllanthus klotzschianus"
+      ],
+      "pl": [
+        "Phyllanthus klotzschianus"
+      ],
+      "pt": [
+        "Phyllanthus klotzschianus"
+      ],
+      "ru": [
+        "Phyllanthus klotzschianus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4219,12 +5616,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d87d4c7f488a6ce828a4212563b146099334cb38",
-    "description": "Inconspicuous small round fruits",
+    "description": "Phyllanthus maderaspatensis is a perennial herbaceous species of plant in the family Phyllanthaceae, widespread in tropical and subtropical areas of the Old World, including tropical Africa, Madagascar and the western Indian Ocean Islands, the Arabian Peninsula, the Indian subcontinent, Indochina, southeastern China, Java, New Guinea, and northern and eastern Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4303,11 +5700,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phyllanthus maderaspatensis"
+      ],
       "en": [
-        "Madras leaf-flower"
+        "Madras leaf-flower",
+        "Phyllanthus maderaspatensis"
+      ],
+      "es": [
+        "Phyllanthus maderaspatensis"
+      ],
+      "fr": [
+        "Phyllanthus maderaspatensis"
+      ],
+      "it": [
+        "Phyllanthus maderaspatensis"
+      ],
+      "nl": [
+        "Phyllanthus maderaspatensis"
+      ],
+      "pl": [
+        "Phyllanthus maderaspatensis"
+      ],
+      "pt": [
+        "Phyllanthus maderaspatensis"
+      ],
+      "ru": [
+        "Phyllanthus maderaspatensis"
+      ],
+      "tr": [
+        "Phyllanthus maderaspatensis"
+      ],
+      "zh": [
+        "麻德拉斯叶下珠"
       ]
     },
     "tags": [],
@@ -4319,12 +5749,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d59408269fa28371bb9df3174ab8f792.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4403,9 +5833,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus muellerianus"
+      ],
+      "en": [
+        "Phyllanthus muellerianus"
+      ],
+      "es": [
+        "Phyllanthus muellerianus"
+      ],
+      "fr": [
+        "Phyllanthus muellerianus"
+      ],
+      "it": [
+        "Phyllanthus muellerianus"
+      ],
+      "nl": [
+        "Phyllanthus muellerianus"
+      ],
+      "pl": [
+        "Phyllanthus muellerianus"
+      ],
+      "pt": [
+        "Phyllanthus muellerianus"
+      ],
+      "ru": [
+        "Phyllanthus muellerianus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4415,7 +5875,7 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4499,11 +5959,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "Phyllanthus niruri"
+      ],
+      "de": [
+        "Phyllanthus niruri"
+      ],
       "en": [
-        "Niruri"
+        "Niruri",
+        "Phyllanthus niruri"
+      ],
+      "es": [
+        "Phyllanthus niruri"
+      ],
+      "fr": [
+        "Phyllanthus niruri"
+      ],
+      "hi": [
+        "भुंई आमला"
+      ],
+      "it": [
+        "Phyllanthus niruri"
+      ],
+      "nl": [
+        "Phyllanthus niruri"
+      ],
+      "pl": [
+        "Phyllanthus niruri"
+      ],
+      "pt": [
+        "Quebra-pedra"
+      ],
+      "ru": [
+        "Phyllanthus niruri"
+      ],
+      "tr": [
+        "Phyllanthus niruri"
+      ],
+      "zh": [
+        "珠子草"
       ]
     },
     "tags": [],
@@ -4515,12 +6014,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a80e21d5e722a6a617f1e8578fbcb284.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4599,9 +6098,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus nummulariifolius"
+      ],
+      "en": [
+        "Phyllanthus nummulariifolius"
+      ],
+      "es": [
+        "Phyllanthus nummulariifolius"
+      ],
+      "fr": [
+        "Phyllanthus nummulariifolius"
+      ],
+      "it": [
+        "Phyllanthus nummulariifolius"
+      ],
+      "nl": [
+        "Phyllanthus nummulariifolius"
+      ],
+      "pl": [
+        "Phyllanthus nummulariifolius"
+      ],
+      "pt": [
+        "Phyllanthus nummulariifolius"
+      ],
+      "ru": [
+        "Phyllanthus nummulariifolius"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4611,12 +6140,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Phyllanthus%20orbiculatus%20L.C.%20Rich_1_fullsize.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4695,9 +6224,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus orbiculatus"
+      ],
+      "en": [
+        "Phyllanthus orbiculatus"
+      ],
+      "es": [
+        "Phyllanthus orbiculatus"
+      ],
+      "fr": [
+        "Phyllanthus orbiculatus"
+      ],
+      "it": [
+        "Phyllanthus orbiculatus"
+      ],
+      "nl": [
+        "Phyllanthus orbiculatus"
+      ],
+      "pl": [
+        "Phyllanthus orbiculatus"
+      ],
+      "pt": [
+        "Phyllanthus orbiculatus"
+      ],
+      "ru": [
+        "Phyllanthus orbiculatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4707,12 +6266,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1e3432ab0e471a742ce8b2d9cbde597ef087169d",
-    "description": "Inconspicuous small round fruits",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4791,9 +6350,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus phillyreifolius"
+      ],
+      "en": [
+        "Phyllanthus phillyreifolius"
+      ],
+      "es": [
+        "Phyllanthus phillyreifolius"
+      ],
+      "fr": [
+        "Phyllanthus phillyreifolius"
+      ],
+      "it": [
+        "Phyllanthus phillyreifolius"
+      ],
+      "nl": [
+        "Phyllanthus phillyreifolius"
+      ],
+      "pl": [
+        "Phyllanthus phillyreifolius"
+      ],
+      "pt": [
+        "Phyllanthus phillyreifolius"
+      ],
+      "ru": [
+        "Phyllanthus phillyreifolius"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4803,12 +6392,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/43eec90125b20c66329356016b71b1e8e4b4fe3d",
-    "description": "Inconspicuous small round fruits",
+    "description": "Phyllanthus polygonoides, known as smartweed leaf-flower or knotweed leafflower, is an herbaceous perennial plant in the family Phyllanthaceae. It grows from 10 to 50 centimeters in height. It is native to the United States and northern and central Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4887,11 +6476,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phyllanthus polygonoides"
+      ],
       "en": [
+        "Phyllanthus polygonoides",
         "Smartweed leaf-flower"
+      ],
+      "es": [
+        "Phyllanthus polygonoides"
+      ],
+      "fr": [
+        "Phyllanthus polygonoides"
+      ],
+      "it": [
+        "Phyllanthus polygonoides"
+      ],
+      "nl": [
+        "Phyllanthus polygonoides"
+      ],
+      "pl": [
+        "Phyllanthus polygonoides"
+      ],
+      "pt": [
+        "Phyllanthus polygonoides"
+      ],
+      "ru": [
+        "Phyllanthus polygonoides"
       ]
     },
     "tags": [],
@@ -4903,7 +6519,7 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4985,7 +6601,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {},
     "tags": [],
@@ -4997,12 +6615,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6ac7b153c253d7f7b064186a66c3b938b1d6ad6f",
-    "description": "Inconspicuous small round fruits",
+    "description": "Phyllanthus reticulatus is a plant species described Jean Louis Marie Poiret; it is included in the family Phyllanthaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5081,11 +6699,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phyllanthus reticulatus"
+      ],
       "en": [
+        "Phyllanthus reticulatus",
         "Potato-bush"
+      ],
+      "es": [
+        "Phyllanthus reticulatus"
+      ],
+      "fr": [
+        "Phyllanthus reticulatus"
+      ],
+      "it": [
+        "Phyllanthus reticulatus"
+      ],
+      "nl": [
+        "Phyllanthus reticulatus"
+      ],
+      "pl": [
+        "Phyllanthus reticulatus"
+      ],
+      "pt": [
+        "Phyllanthus reticulatus"
+      ],
+      "ru": [
+        "Phyllanthus reticulatus"
+      ],
+      "zh": [
+        "小果叶下珠"
       ]
     },
     "tags": [],
@@ -5097,12 +6745,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Phyllanthus%20stipulatus_1_fullsize.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5181,9 +6829,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus stipulatus"
+      ],
+      "en": [
+        "Phyllanthus stipulatus"
+      ],
+      "es": [
+        "Phyllanthus stipulatus"
+      ],
+      "fr": [
+        "Phyllanthus stipulatus"
+      ],
+      "it": [
+        "Phyllanthus stipulatus"
+      ],
+      "nl": [
+        "Phyllanthus stipulatus"
+      ],
+      "pl": [
+        "Phyllanthus stipulatus"
+      ],
+      "pt": [
+        "Phyllanthus stipulatus"
+      ],
+      "ru": [
+        "Phyllanthus stipulatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5193,7 +6871,7 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5275,9 +6953,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus subscandens"
+      ],
+      "en": [
+        "Phyllanthus subscandens"
+      ],
+      "es": [
+        "Phyllanthus subscandens"
+      ],
+      "fr": [
+        "Phyllanthus subscandens"
+      ],
+      "it": [
+        "Phyllanthus subscandens"
+      ],
+      "nl": [
+        "Phyllanthus subscandens"
+      ],
+      "pl": [
+        "Phyllanthus subscandens"
+      ],
+      "pt": [
+        "Phyllanthus subscandens"
+      ],
+      "ru": [
+        "Phyllanthus subscandens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5287,7 +6995,7 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5369,11 +7077,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phyllanthus tenellus"
+      ],
       "en": [
-        "Long-stalk leaf-flower"
+        "Long-stalk leaf-flower",
+        "Phyllanthus tenellus"
+      ],
+      "es": [
+        "Phyllanthus tenellus"
+      ],
+      "fr": [
+        "Phyllanthus tenellus"
+      ],
+      "it": [
+        "Phyllanthus tenellus"
+      ],
+      "ja": [
+        "ナガエコミカンソウ"
+      ],
+      "nl": [
+        "Phyllanthus tenellus"
+      ],
+      "pl": [
+        "Phyllanthus tenellus"
+      ],
+      "pt": [
+        "Phyllanthus tenellus"
+      ],
+      "ru": [
+        "Phyllanthus tenellus"
+      ],
+      "zh": [
+        "纤梗叶下珠"
       ]
     },
     "tags": [],
@@ -5385,12 +7126,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/21eb877cbd65fc2b102cbed5b765bd005968dbf2",
-    "description": "Green or greenish red .12  in diameter divided into three parts. The surface has scales that are raised and when it dries it expel seeds for dispersal.",
+    "description": "Phyllanthus urinaria is a species of annual flowering plant in the family Phyllanthaceae. It is native to Asia and has an introduced presence in tropical and subtropical areas worldwide. It has common names such as chamber bitter, gripeweed, shatterstone, stonebreaker, and leafflower.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5467,11 +7208,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phyllanthus urinaria"
+      ],
       "en": [
-        "Chamber bitter"
+        "Chamber bitter",
+        "Phyllanthus urinaria"
+      ],
+      "es": [
+        "Phyllanthus urinaria"
+      ],
+      "fr": [
+        "Phyllanthus urinaria"
+      ],
+      "it": [
+        "Phyllanthus urinaria"
+      ],
+      "ja": [
+        "コミカンソウ"
+      ],
+      "ko": [
+        "여우구슬"
+      ],
+      "nl": [
+        "Phyllanthus urinaria"
+      ],
+      "pl": [
+        "Phyllanthus urinaria"
+      ],
+      "pt": [
+        "Phyllanthus urinaria"
+      ],
+      "ru": [
+        "Phyllanthus urinaria"
+      ],
+      "zh": [
+        "叶下珠"
       ]
     },
     "tags": [],
@@ -5483,12 +7260,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4e925db1ed6ec553bcd3496fe9ebd621.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5567,9 +7344,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus ussuriensis"
+      ],
+      "en": [
+        "Phyllanthus ussuriensis"
+      ],
+      "es": [
+        "Phyllanthus ussuriensis"
+      ],
+      "fr": [
+        "Phyllanthus ussuriensis"
+      ],
+      "it": [
+        "Phyllanthus ussuriensis"
+      ],
+      "ja": [
+        "ヒメミカンソウ"
+      ],
+      "ko": [
+        "여우주머니"
+      ],
+      "nl": [
+        "Phyllanthus ussuriensis"
+      ],
+      "pl": [
+        "Phyllanthus ussuriensis"
+      ],
+      "pt": [
+        "Phyllanthus ussuriensis"
+      ],
+      "ru": [
+        "Филлантус уссурийский"
+      ],
+      "zh": [
+        "蜜甘草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5579,12 +7395,12 @@
     "family": "Phyllanthaceae",
     "genus": "Phyllanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f606bd09c60cd59a5553225ad381618e.jpg",
-    "description": "Inconspicuous small round fruits",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5663,9 +7479,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllanthus virgatus"
+      ],
+      "en": [
+        "Phyllanthus virgatus"
+      ],
+      "es": [
+        "Phyllanthus virgatus"
+      ],
+      "fr": [
+        "Phyllanthus virgatus"
+      ],
+      "it": [
+        "Phyllanthus virgatus"
+      ],
+      "nl": [
+        "Phyllanthus virgatus"
+      ],
+      "pl": [
+        "Phyllanthus virgatus"
+      ],
+      "pt": [
+        "Phyllanthus virgatus"
+      ],
+      "ru": [
+        "Phyllanthus virgatus"
+      ],
+      "zh": [
+        "黄珠子草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5675,12 +7524,12 @@
     "family": "Phyllanthaceae",
     "genus": "Poranthera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/717e0abeeb72c25ab3ae6aca8be9f21370df5191",
-    "description": null,
+    "description": "Poranthera corymbosa is a species of plant native to Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5757,9 +7606,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Poranthera corymbosa"
+      ],
+      "en": [
+        "Poranthera corymbosa"
+      ],
+      "es": [
+        "Poranthera corymbosa"
+      ],
+      "fr": [
+        "Poranthera corymbosa"
+      ],
+      "it": [
+        "Poranthera corymbosa"
+      ],
+      "nl": [
+        "Poranthera corymbosa"
+      ],
+      "pl": [
+        "Poranthera corymbosa"
+      ],
+      "pt": [
+        "Poranthera corymbosa"
+      ],
+      "ru": [
+        "Poranthera corymbosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5769,7 +7648,7 @@
     "family": "Phyllanthaceae",
     "genus": "Poranthera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5851,9 +7730,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Poranthera microphylla"
+      ],
+      "en": [
+        "Poranthera microphylla"
+      ],
+      "es": [
+        "Poranthera microphylla"
+      ],
+      "fr": [
+        "Poranthera microphylla"
+      ],
+      "it": [
+        "Poranthera microphylla"
+      ],
+      "nl": [
+        "Poranthera microphylla"
+      ],
+      "pl": [
+        "Poranthera microphylla"
+      ],
+      "pt": [
+        "Poranthera microphylla"
+      ],
+      "ru": [
+        "Poranthera microphylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5863,12 +7772,12 @@
     "family": "Phyllanthaceae",
     "genus": "Protomegabaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a47d27c85b82b7dbb7fc1afcbeb7f69f.jpg",
-    "description": null,
+    "description": "Protomegabaria stapfiana is a species of plant in the family Phyllanthaceae. It is native to western tropical Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5945,9 +7854,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Protomegabaria stapfiana"
+      ],
+      "en": [
+        "Protomegabaria stapfiana"
+      ],
+      "es": [
+        "Protomegabaria stapfiana"
+      ],
+      "fr": [
+        "Protomegabaria stapfiana"
+      ],
+      "it": [
+        "Protomegabaria stapfiana"
+      ],
+      "nl": [
+        "Protomegabaria stapfiana"
+      ],
+      "pl": [
+        "Protomegabaria stapfiana"
+      ],
+      "pt": [
+        "Protomegabaria stapfiana"
+      ],
+      "ru": [
+        "Protomegabaria stapfiana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5957,12 +7896,12 @@
     "family": "Phyllanthaceae",
     "genus": "Pseudolachnostylis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/76b60bd8b3122b0850739c13578cacb818892760",
-    "description": null,
+    "description": "Pseudolachnostylis is a genus of plants in the family Phyllanthaceae first described as a genus in 1899. It contains only one known species, Pseudolachnostylis maprouneifolia native to central and southern Africa. Its common name is kudu berry, though the term also applies for Cassine aethiopica. In Zimbabwe it is called mutsonzowa (Shona) or Umqobampunzi (Ndebele).varieties",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6039,11 +7978,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pseudolachnostylis maprouneifolia"
+      ],
       "en": [
-        "Kudu berry"
+        "Kudu berry",
+        "Pseudolachnostylis maprouneifolia"
+      ],
+      "es": [
+        "Pseudolachnostylis maprouneifolia"
+      ],
+      "fr": [
+        "Pseudolachnostylis maprouneifolia"
+      ],
+      "it": [
+        "Pseudolachnostylis maprouneifolia"
+      ],
+      "nl": [
+        "Pseudolachnostylis maprouneifolia"
+      ],
+      "pl": [
+        "Pseudolachnostylis maprouneifolia"
+      ],
+      "pt": [
+        "Pseudolachnostylis maprouneifolia"
+      ],
+      "ru": [
+        "Pseudolachnostylis maprouneifolia"
       ]
     },
     "tags": [],
@@ -6055,12 +8021,12 @@
     "family": "Phyllanthaceae",
     "genus": "Richeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/47e75bd203e466a887f2ae9e8e8363fde9c806f5",
-    "description": null,
+    "description": "Richeria grandis is a tree species in the family Phyllanthaceae which ranges from the Lesser Antilles to South America. The species is reputed to have aphrodisiac properties.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6137,9 +8103,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Richeria grandis"
+      ],
+      "en": [
+        "Richeria grandis"
+      ],
+      "es": [
+        "Richeria grandis"
+      ],
+      "fr": [
+        "bois bandé"
+      ],
+      "it": [
+        "Richeria grandis"
+      ],
+      "nl": [
+        "Richeria grandis"
+      ],
+      "pl": [
+        "Richeria grandis"
+      ],
+      "pt": [
+        "Richeria grandis"
+      ],
+      "ru": [
+        "Richeria grandis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6149,7 +8145,7 @@
     "family": "Phyllanthaceae",
     "genus": "Securinega",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6231,9 +8227,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Securinega durissima"
+      ],
+      "en": [
+        "Securinega durissima"
+      ],
+      "es": [
+        "Securinega durissima"
+      ],
+      "fr": [
+        "Securinega durissima"
+      ],
+      "it": [
+        "Securinega durissima"
+      ],
+      "nl": [
+        "Securinega durissima"
+      ],
+      "pl": [
+        "Securinega durissima"
+      ],
+      "pt": [
+        "Securinega durissima"
+      ],
+      "ru": [
+        "Securinega durissima"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6243,7 +8269,7 @@
     "family": "Phyllanthaceae",
     "genus": "Uapaca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6325,11 +8351,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Uapaca guineensis"
+      ],
       "en": [
-        "Red-cedar"
+        "Red-cedar",
+        "Uapaca guineensis"
+      ],
+      "es": [
+        "Uapaca guineensis"
+      ],
+      "fr": [
+        "Uapaca guineensis"
+      ],
+      "it": [
+        "Uapaca guineensis"
+      ],
+      "nl": [
+        "Uapaca guineensis"
+      ],
+      "pl": [
+        "Uapaca guineensis"
+      ],
+      "pt": [
+        "Uapaca guineensis"
+      ],
+      "ru": [
+        "Uapaca guineensis"
       ]
     },
     "tags": [],
@@ -6341,7 +8394,7 @@
     "family": "Phyllanthaceae",
     "genus": "Uapaca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6423,9 +8476,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Uapaca kirkiana"
+      ],
+      "en": [
+        "Uapaca kirkiana"
+      ],
+      "es": [
+        "Uapaca kirkiana"
+      ],
+      "fr": [
+        "Uapaca kirkiana"
+      ],
+      "it": [
+        "Uapaca kirkiana"
+      ],
+      "nl": [
+        "Uapaca kirkiana"
+      ],
+      "pl": [
+        "Uapaca kirkiana"
+      ],
+      "pt": [
+        "Uapaca kirkiana"
+      ],
+      "ru": [
+        "Uapaca kirkiana"
+      ],
+      "zh": [
+        "糖李"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6435,7 +8521,7 @@
     "family": "Phyllanthaceae",
     "genus": "Uapaca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6517,9 +8603,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Uapaca togoensis"
+      ],
+      "en": [
+        "Uapaca togoensis"
+      ],
+      "es": [
+        "Uapaca togoensis"
+      ],
+      "fr": [
+        "Uapaca togoensis"
+      ],
+      "it": [
+        "Uapaca togoensis"
+      ],
+      "nl": [
+        "Uapaca togoensis"
+      ],
+      "pl": [
+        "Uapaca togoensis"
+      ],
+      "pt": [
+        "Uapaca togoensis"
+      ],
+      "ru": [
+        "Uapaca togoensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

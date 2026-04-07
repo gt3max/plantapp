@@ -5,12 +5,12 @@
     "family": "Calycanthaceae",
     "genus": "Calycanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d019cffbeac6594b6000676131943560a9a0a299",
-    "description": "An urceolate (shaped like an urn) capsule, wrinkly and leathery, enclosing multiple seeds. Displays from August to September and starts soft green, fading to brown.",
+    "description": "Calycanthus floridus, or commonly known as the eastern sweetshrub, Carolina allspice, or spicebush, is a species of flowering shrub in the family Calycanthaceae. It is identifiable by its dark red flowers and fragrant scent. It is non-invasive and is found in the Southeastern United States. The Nature Conservancy considers its conservation status to be G5, globally secure, indicating it is at low risk of extinction.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -53,8 +53,8 @@
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day) | Climate: temperate",
       "tips": "Remove withered flowers, old, diseased, and dead leaves timely | Similar plants: Acer saccharum | Native to: TEN OO, VRG OO, PEN, PEN OO, ITA IT",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Parts: Bark, seed (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": [
         "No serious insect or disease problems",
         "A trouble free shrub",
@@ -78,8 +78,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Bark, seed (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -93,11 +93,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "فلفل كارولينا"
+      ],
+      "de": [
+        "Calycanthus floridus"
+      ],
       "en": [
+        "Calycanthus floridus",
         "Carolina-allspice"
+      ],
+      "es": [
+        "Calycanthus floridus"
+      ],
+      "fr": [
+        "Calycanthus floridus"
+      ],
+      "it": [
+        "Calycanthus floridus"
+      ],
+      "ja": [
+        "クロバナロウバイ"
+      ],
+      "nl": [
+        "Calycanthus floridus"
+      ],
+      "pl": [
+        "Kielichowiec wonny"
+      ],
+      "pt": [
+        "Calycanthus floridus"
+      ],
+      "ru": [
+        "Каликант цветущий"
+      ],
+      "zh": [
+        "美国蜡梅"
       ]
     },
     "tags": [],
@@ -109,12 +145,12 @@
     "family": "Calycanthaceae",
     "genus": "Calycanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/874258943b4717e1091b8d3381d64471515d71ec",
-    "description": "Urn-shaped, veiny, leathery fruits resemble wrinkled figs and persist through winter",
+    "description": "Calycanthus occidentalis, commonly called spice bush or western sweetshrub, is a species of flowering shrub in the family Calycanthaceae that is native to California. It grows along streams and moist canyons in the foothills of mountains.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -195,11 +231,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Calycanthus occidentalis"
+      ],
       "en": [
-        "California spicebush"
+        "California spicebush",
+        "Calycanthus occidentalis"
+      ],
+      "es": [
+        "Calycanthus occidentalis"
+      ],
+      "fr": [
+        "Calycanthus occidentalis"
+      ],
+      "it": [
+        "Calycanthus occidentalis"
+      ],
+      "nl": [
+        "Calycanthus occidentalis"
+      ],
+      "pl": [
+        "Kielichowiec zachodni"
+      ],
+      "pt": [
+        "Calycanthus occidentalis"
+      ],
+      "ru": [
+        "Каликант западный"
       ]
     },
     "tags": [],

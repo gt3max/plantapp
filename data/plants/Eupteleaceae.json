@@ -5,12 +5,12 @@
     "family": "Eupteleaceae",
     "genus": "Euptelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e3764feda22d6bb8f5c9d153774e1813.jpg",
-    "description": null,
+    "description": "Euptelea pleiosperma is a species of flowering plant in the family Eupteleaceae. It is found in China, India, and Myanmar.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Euptelea pleiosperma"
+      ],
+      "en": [
+        "Euptelea pleiospermum"
+      ],
+      "es": [
+        "Euptelea pleiospermum"
+      ],
+      "fr": [
+        "Euptelea pleiospermum"
+      ],
+      "it": [
+        "Euptelea pleiospermum"
+      ],
+      "nl": [
+        "Euptelea pleiospermum"
+      ],
+      "pl": [
+        "Euptelea pleiosperma"
+      ],
+      "pt": [
+        "Euptelea pleiosperma"
+      ],
+      "ru": [
+        "Эуптелея многосемянная"
+      ],
+      "zh": [
+        "领春木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Eupteleaceae",
     "genus": "Euptelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Euptelea polyandra"
+      ],
+      "en": [
+        "Euptelea polyandra"
+      ],
+      "es": [
+        "Euptelea polyandra"
+      ],
+      "fr": [
+        "Euptelea polyandra"
+      ],
+      "it": [
+        "Euptelea polyandra"
+      ],
+      "nl": [
+        "Euptelea polyandra"
+      ],
+      "pl": [
+        "Euptelea polyandra"
+      ],
+      "pt": [
+        "Euptelea polyandra"
+      ],
+      "ru": [
+        "Эуптелея многотычинковая"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

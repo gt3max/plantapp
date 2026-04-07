@@ -5,12 +5,12 @@
     "family": "Plumbaginaceae",
     "genus": "Armeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ff8b3ea38cdb8dc68a84da8c9fed79714f21b6b7",
-    "description": "Small dry capsules contain a single seed",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,7 +21,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "armeria_alliacea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -92,9 +92,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Armeria alliacea"
+      ],
+      "en": [
+        "Armeria alliacea"
+      ],
+      "es": [
+        "Armeria alliacea"
+      ],
+      "fr": [
+        "Armeria alliacea"
+      ],
+      "it": [
+        "Armeria alliacea"
+      ],
+      "nl": [
+        "Armeria alliacea"
+      ],
+      "pl": [
+        "Armeria alliacea"
+      ],
+      "pt": [
+        "Armeria alliacea"
+      ],
+      "ru": [
+        "Armeria alliacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -104,12 +134,12 @@
     "family": "Plumbaginaceae",
     "genus": "Armeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/46fc8552bd61c5d801f22ee98d81dbbffea1fbad",
-    "description": "Small dry capsules contain a single seed",
+    "description": "Armeria alpina is a flowering plant in the family Plumbaginaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -120,17 +150,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "armeria_alpina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -191,11 +221,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.7
     },
     "common_names": {
+      "de": [
+        "Alpen-Grasnelke"
+      ],
       "en": [
-        "Alpine thrift"
+        "Alpine thrift",
+        "Armeria alpina"
+      ],
+      "es": [
+        "Armeria alpina"
+      ],
+      "fr": [
+        "Armérie des Alpes"
+      ],
+      "it": [
+        "Armeria alpina"
+      ],
+      "nl": [
+        "Armeria alpina"
+      ],
+      "pl": [
+        "zawciąg alpejski"
+      ],
+      "pt": [
+        "Armeria alpina"
+      ],
+      "ru": [
+        "Армерия альпийская"
+      ],
+      "zh": [
+        "高山海石竹"
       ]
     },
     "tags": [],
@@ -207,12 +267,12 @@
     "family": "Plumbaginaceae",
     "genus": "Armeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2f2f9ecc6fab6a3843ca6f0c05fb23ffda3468c7",
-    "description": "Small dry capsules contain a single seed",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -223,17 +283,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "armeria_arenaria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -294,11 +354,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Armeria arenaria"
+      ],
       "en": [
+        "Armeria arenaria",
         "Jersey thrift"
+      ],
+      "es": [
+        "Armeria arenaria"
+      ],
+      "fr": [
+        "Armeria arenaria"
+      ],
+      "it": [
+        "Armeria arenaria"
+      ],
+      "nl": [
+        "Armeria arenaria"
+      ],
+      "pl": [
+        "Armeria arenaria"
+      ],
+      "pt": [
+        "Armeria arenaria"
+      ],
+      "ru": [
+        "Armeria arenaria"
       ]
     },
     "tags": [],
@@ -310,12 +397,12 @@
     "family": "Plumbaginaceae",
     "genus": "Armeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ee34bc33f1346369047d1fafb3ae0a3ccaf3d059",
-    "description": "Small dry capsules contain a single seed",
+    "description": "Armeria maritima, the thrift, sea thrift or sea pink, is a species of flowering plant in the family Plumbaginaceae. It is a compact evergreen perennial which grows in low clumps and sends up long stems that support globes of bright pink flowers. In some cases purple, white or red flowers also occur. It is a popular garden flower and has been distributed worldwide as a garden and cut flower. It does well in gardens designed as xeriscapes or rock gardens.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -326,17 +413,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "armeria_maritima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -396,11 +483,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "عود أحمر"
+      ],
+      "de": [
+        "Strand-Grasnelke"
+      ],
       "en": [
+        "Armeria maritima",
         "Marsh daisy"
+      ],
+      "es": [
+        "Armeria maritima"
+      ],
+      "fr": [
+        "Armérie maritime"
+      ],
+      "it": [
+        "Armeria maritima"
+      ],
+      "ja": [
+        "ハマカンザシ"
+      ],
+      "ko": [
+        "아르메리아"
+      ],
+      "nl": [
+        "Engels gras"
+      ],
+      "pl": [
+        "Zawciąg pospolity"
+      ],
+      "pt": [
+        "Armeria maritima"
+      ],
+      "ru": [
+        "Армерия приморская"
+      ],
+      "zh": [
+        "海石竹"
       ]
     },
     "tags": [],
@@ -412,12 +538,12 @@
     "family": "Plumbaginaceae",
     "genus": "Armeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/37aa202c6e9435f976870054be08bd97e85a39c4",
-    "description": "Small dry capsules contain a single seed",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -428,7 +554,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "armeria_pubinervis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -499,9 +625,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Armeria pubinervis"
+      ],
+      "en": [
+        "Armeria pubinervis"
+      ],
+      "es": [
+        "Armeria pubinervis"
+      ],
+      "fr": [
+        "Armeria pubinervis"
+      ],
+      "it": [
+        "Armeria pubinervis"
+      ],
+      "nl": [
+        "Armeria pubinervis"
+      ],
+      "pl": [
+        "Armeria pubinervis"
+      ],
+      "pt": [
+        "Armeria pubinervis"
+      ],
+      "ru": [
+        "Armeria pubinervis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -511,12 +667,12 @@
     "family": "Plumbaginaceae",
     "genus": "Armeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/46b6a73d34018cbe83d13086917ec83a2a6ba915",
-    "description": "Small dry capsules contain a single seed",
+    "description": "Armeria pungens, common name spiny thrift, is a rare plant of the genus Armeria of the family Plumbaginaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -527,7 +683,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "armeria_pungens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -598,11 +754,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Armeria pungens"
+      ],
       "en": [
+        "Armeria pungens",
         "Spiny thrift"
+      ],
+      "es": [
+        "Armeria pungens"
+      ],
+      "fr": [
+        "Armeria pungens"
+      ],
+      "it": [
+        "Armeria pungens"
+      ],
+      "nl": [
+        "Armeria pungens"
+      ],
+      "pl": [
+        "Armeria pungens"
+      ],
+      "pt": [
+        "Armeria pungens"
+      ],
+      "ru": [
+        "Armeria pungens"
       ]
     },
     "tags": [],
@@ -614,12 +797,12 @@
     "family": "Plumbaginaceae",
     "genus": "Armeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c3818b9ffba64020a5bc4290b589d5c2a54da0da",
-    "description": "Small dry capsules contain a single seed",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -630,7 +813,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "armeria_ruscinonensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -701,9 +884,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Armeria ruscinonensis"
+      ],
+      "en": [
+        "Armeria ruscinonensis"
+      ],
+      "es": [
+        "Armeria ruscinonensis"
+      ],
+      "fr": [
+        "Armeria ruscinonensis"
+      ],
+      "it": [
+        "Armeria ruscinonensis"
+      ],
+      "nl": [
+        "Armeria ruscinonensis"
+      ],
+      "pl": [
+        "Armeria ruscinonensis"
+      ],
+      "pt": [
+        "Armeria ruscinonensis"
+      ],
+      "ru": [
+        "Armeria ruscinonensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -713,12 +926,12 @@
     "family": "Plumbaginaceae",
     "genus": "Armeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a655a27f19d7a1fd3e2969c39eb368cf3d40c681",
-    "description": "Small dry capsules contain a single seed",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -729,7 +942,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "armeria_soleirolii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -800,9 +1013,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Soleirols Grasnelke"
+      ],
+      "en": [
+        "Armeria soleirolii"
+      ],
+      "es": [
+        "Armeria soleirolii"
+      ],
+      "fr": [
+        "Armeria soleirolii"
+      ],
+      "it": [
+        "Armeria soleirolii"
+      ],
+      "nl": [
+        "Armeria soleirolii"
+      ],
+      "pl": [
+        "Armeria soleirolii"
+      ],
+      "pt": [
+        "Armeria soleirolii"
+      ],
+      "ru": [
+        "Armeria soleirolii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -812,12 +1055,12 @@
     "family": "Plumbaginaceae",
     "genus": "Armeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/eaf29d0c4f014b93c2d98fc510db8a4920787dc3",
-    "description": "Small dry capsules contain a single seed",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -828,7 +1071,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "armeria_transmontana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -899,9 +1142,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Armeria transmontana"
+      ],
+      "en": [
+        "Armeria transmontana"
+      ],
+      "es": [
+        "Armeria transmontana"
+      ],
+      "fr": [
+        "Armeria transmontana"
+      ],
+      "it": [
+        "Armeria transmontana"
+      ],
+      "nl": [
+        "Armeria transmontana"
+      ],
+      "pl": [
+        "Armeria transmontana"
+      ],
+      "pt": [
+        "Armeria transmontana"
+      ],
+      "ru": [
+        "Armeria transmontana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -911,12 +1184,12 @@
     "family": "Plumbaginaceae",
     "genus": "Ceratostigma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8c9020d075ac28137bb1ffa3d542d82e37a35f0e",
-    "description": "Capsules pale yellowish brown. Seeds red-brown.",
+    "description": "Ceratostigma plumbaginoides, the hardy blue-flowered leadwort, is a species of flowering plant in the plumbago family, native to China, where it is known as 蓝雪花.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -999,11 +1272,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceratostigma plumbaginoides"
+      ],
       "en": [
-        "Blue leadwood"
+        "Blue leadwood",
+        "Ceratostigma plumbaginoides"
+      ],
+      "es": [
+        "Ceratostigma plumbaginoides"
+      ],
+      "fr": [
+        "Ceratostigma plumbaginoides"
+      ],
+      "it": [
+        "Ceratostigma plumbaginoides"
+      ],
+      "nl": [
+        "Ceratostigma plumbaginoides"
+      ],
+      "pl": [
+        "Ceratostigma plumbaginoides"
+      ],
+      "pt": [
+        "Ceratostigma plumbaginoides"
+      ],
+      "ru": [
+        "Цератостигма свинчатковая"
+      ],
+      "zh": [
+        "角柱花"
       ]
     },
     "tags": [],
@@ -1015,12 +1318,12 @@
     "family": "Plumbaginaceae",
     "genus": "Goniolimon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1a02af5bca4b2a194afd5ca543768794e6978053",
-    "description": null,
+    "description": "Goniolimon speciosum, the dwarf statice or plantain-leaved thrift, is a widespread species of flowering plant in the family Plumbaginaceae. It is native to the Eurasian steppes, southern and eastern Russia, Kazakhstan, Siberia, Mongolia, Inner Mongolia, and Xinjiang. Przewalski's horses regularly consume it.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1031,7 +1334,7 @@
     "synonyms": "[\"Goniolimon strictum\", \"Statice ochrantha\", \"Limoniastrum speciosum\", \"Taxanthema speciosum\", \"Statice speciosa var. stricta\", \"Goniolimon crispum\", \"Statice speciosa\", \"Taxanthema conspicuum\", \"Limonium speciosum\", \"Statice speciosa var. lanceolata\"]",
     "care": {
       "plant_id": "goniolimon_speciosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1097,9 +1400,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Goniolimon speciosum"
+      ],
+      "en": [
+        "Goniolimon speciosum"
+      ],
+      "es": [
+        "Goniolimon speciosum"
+      ],
+      "fr": [
+        "Goniolimon speciosum"
+      ],
+      "it": [
+        "Goniolimon speciosum"
+      ],
+      "nl": [
+        "Goniolimon speciosum"
+      ],
+      "pl": [
+        "Goniolimon speciosum"
+      ],
+      "pt": [
+        "Goniolimon speciosum"
+      ],
+      "ru": [
+        "Goniolimon speciosum"
+      ],
+      "zh": [
+        "驼舌草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1109,7 +1445,7 @@
     "family": "Plumbaginaceae",
     "genus": "Goniolimon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1125,7 +1461,7 @@
     "synonyms": "[\"Taxanthema tataricum\", \"Statice tatarica\", \"Limonium latifolium\", \"Limonium tataricum\"]",
     "care": {
       "plant_id": "goniolimon_tataricum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1194,11 +1530,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "لافندر بحري"
+      ],
+      "de": [
+        "Goniolimon tataricum"
+      ],
       "en": [
+        "Goniolimon tataricum",
         "Statice"
+      ],
+      "es": [
+        "Goniolimon tataricum"
+      ],
+      "fr": [
+        "Goniolimon tataricum"
+      ],
+      "it": [
+        "Goniolimon tataricum"
+      ],
+      "nl": [
+        "Goniolimon tataricum"
+      ],
+      "pl": [
+        "Goniolimon tataricum"
+      ],
+      "pt": [
+        "Goniolimon tataricum"
+      ],
+      "ru": [
+        "Goniolimon tataricum"
       ]
     },
     "tags": [],
@@ -1210,12 +1576,12 @@
     "family": "Plumbaginaceae",
     "genus": "Limoniastrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f9e07e0766da3a930df08dc8e00d704872a9e6f2",
-    "description": null,
+    "description": "Limoniastrum monopetalum, is a species of flowering plant in the family Plumbaginaceae that is native to between Europe, Northern Africa and Western Asia. It has been found in salt marshes, dunes and other coastal areas with high salinity levels.\nIt has silver-grey or light green leaves on multi branching stems. At the ends of the stems are the summer blooming flowers, in shades of pink, purple, lavender and violet.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1226,17 +1592,17 @@
     "synonyms": "[\"Taxanthema monopetalum\", \"Statice scabra\", \"Limoniastrum multiflorum\", \"Limoniastrum monopetalum subsp. multiflorum\", \"Limoniastrum articulatum\", \"Statice monopetala\", \"Statice denudata\", \"Bubania monopetala\", \"Limonium monopetalum\", \"Limonium siculum\"]",
     "care": {
       "plant_id": "limoniastrum_monopetalum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1292,11 +1658,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.7
     },
     "common_names": {
+      "ar": [
+        "زينة"
+      ],
+      "de": [
+        "Strauch-Strandflieder"
+      ],
       "en": [
-        "Limoniastrum"
+        "Limoniastrum",
+        "Limoniastrum monopetalum"
+      ],
+      "es": [
+        "Limoniastrum monopetalum"
+      ],
+      "fr": [
+        "Limoniastrum monopetalum"
+      ],
+      "it": [
+        "Limoniastrum monopetalum"
+      ],
+      "nl": [
+        "Limoniastrum monopetalum"
+      ],
+      "pl": [
+        "Limoniastrum monopetalum"
+      ],
+      "pt": [
+        "Limoniastrum monopetalum"
+      ],
+      "ru": [
+        "Limoniastrum monopetalum"
       ]
     },
     "tags": [],
@@ -1308,7 +1704,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1324,17 +1720,17 @@
     "synonyms": "[\"Statice willdenovii\", \"Statice auriculae-ursifolia\", \"Statice lychnidifolia\", \"Limonium binervosum subsp. lychnidifolium\", \"Limonium willdenovii\", \"Limonium lychnidifolium\"]",
     "care": {
       "plant_id": "limonium_auriculae-ursifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1390,11 +1786,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Limonium auriculae-ursifolium"
+      ],
       "en": [
-        "Broad-leaved sea-lavender"
+        "Broad-leaved sea-lavender",
+        "Limonium auriculae-ursifolium"
+      ],
+      "es": [
+        "Limonium auriculae-ursifolium"
+      ],
+      "fr": [
+        "Limonium auriculae-ursifolium",
+        "statice à feuilles de Lychnis"
+      ],
+      "it": [
+        "Limonium auriculae-ursifolium"
+      ],
+      "nl": [
+        "Limonium auriculae-ursifolium"
+      ],
+      "pl": [
+        "Limonium auriculae-ursifolium"
+      ],
+      "pt": [
+        "Limonium auriculae-ursifolium"
+      ],
+      "ru": [
+        "Limonium auriculae-ursifolium"
       ]
     },
     "tags": [],
@@ -1406,12 +1830,12 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d4c17a40e2abc00d3d1da936340d6e039a0b6ddf",
-    "description": null,
+    "description": "Limonium bellidifolium, commonly known as the matted sea-lavender, is an aggregate species in the family Plumbaginaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1422,17 +1846,17 @@
     "synonyms": "[\"Statice airoides\", \"Statice dubyeana\", \"Taxanthema bellidifolium\", \"Statice patens\", \"Statice bellidifolia var. divaricata\", \"Limonium danubiale\", \"Statice dubyi\", \"Statice limonium var. bellidifolia\", \"Limonium reticulatum\", \"Statice bellidifolia subsp. dubyi\"]",
     "care": {
       "plant_id": "limonium_bellidifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1488,11 +1912,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.9
     },
     "common_names": {
+      "de": [
+        "Gänseblümchenblättriger Strandflieder"
+      ],
       "en": [
+        "Limonium bellidifolium",
         "Matted sea-lavender"
+      ],
+      "es": [
+        "Limonium bellidifolium"
+      ],
+      "fr": [
+        "Limonium bellidifolium"
+      ],
+      "it": [
+        "Limonium bellidifolium"
+      ],
+      "nl": [
+        "Limonium bellidifolium"
+      ],
+      "pl": [
+        "Limonium bellidifolium"
+      ],
+      "pt": [
+        "Limonium bellidifolium"
+      ],
+      "ru": [
+        "Limonium bellidifolium"
       ]
     },
     "tags": [],
@@ -1504,12 +1955,12 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/eadc3a60f5277daeb1d47addddc676da8ce09099",
-    "description": null,
+    "description": "Limonium binervosum, commonly known as rock sea-lavender, is an aggregate species in the family Plumbaginaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1520,17 +1971,17 @@
     "synonyms": "[\"Taxanthema oleifolium\", \"Statice occidentalis\", \"Statice oleifolia\", \"Statice dodartii subsp. occidentalis\", \"Statice reticulata\", \"Statice scopoliana\", \"Statice lanceolata\", \"Statice binervosa\", \"Limonium oleifolium\", \"Statice bubanii\"]",
     "care": {
       "plant_id": "limonium_binervosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1586,11 +2037,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Limonium binervosum"
+      ],
       "en": [
+        "Limonium binervosum",
         "Rock sea-lavender"
+      ],
+      "es": [
+        "Limonium binervosum"
+      ],
+      "fr": [
+        "Statice de l'ouest"
+      ],
+      "it": [
+        "Limonium binervosum"
+      ],
+      "nl": [
+        "Limonium binervosum"
+      ],
+      "pl": [
+        "Limonium binervosum"
+      ],
+      "pt": [
+        "Limonium binervosum"
+      ],
+      "ru": [
+        "Limonium binervosum"
+      ],
+      "zh": [
+        "岩海薰衣草"
       ]
     },
     "tags": [],
@@ -1602,7 +2083,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1618,17 +2099,17 @@
     "synonyms": "[\"Statice nashii\", \"Statice brasiliensis var. angustata\", \"Limonium nashii\", \"Limonium angustatum\", \"Limonium trichogonum\", \"Statice limonium var. carolinianum\", \"Limonium nashii var. angustatum\", \"Statice caroliniana\", \"Statice leonis\", \"Statice lefroyi\"]",
     "care": {
       "plant_id": "limonium_carolinianum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1684,11 +2165,63 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "حصالبان الماء",
+        "عويذران كاروليني"
+      ],
+      "de": [
+        "Limonium carolinianum"
+      ],
       "en": [
-        "Carolina sea-lavender"
+        "American thrift",
+        "Carolina sea lavender",
+        "Carolina sea-lavender",
+        "Carolina sealavender",
+        "Limonium angustatum",
+        "Limonium carolinianum",
+        "Limonium nashii",
+        "Limonium obtusilobum",
+        "Limonium trichogonum",
+        "Statice caroliniana",
+        "canker root",
+        "ink root",
+        "lavender thrift",
+        "marsh root",
+        "sea-lavendar",
+        "sea-lavender",
+        "seaside thrift",
+        "statice"
+      ],
+      "es": [
+        "Limonium carolinianum"
+      ],
+      "fr": [
+        "Lavande de mer",
+        "Limonie de Nash",
+        "Limonium carolinianum",
+        "Limonium de Caroline",
+        "Limonium de Nash",
+        "Limonium nashii"
+      ],
+      "it": [
+        "Limonium carolinianum"
+      ],
+      "nl": [
+        "Limonium carolinianum"
+      ],
+      "pl": [
+        "Limonium carolinianum"
+      ],
+      "pt": [
+        "Limonium carolinianum"
+      ],
+      "ru": [
+        "Кермек каролинский"
       ]
     },
     "tags": [],
@@ -1700,7 +2233,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1716,7 +2249,7 @@
     "synonyms": "[\"Statice pubescens\", \"Statice obtusa\", \"Statice cordata\", \"Taxanthema cordatum\"]",
     "care": {
       "plant_id": "limonium_cordatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1782,9 +2315,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Limonium cordatum"
+      ],
+      "en": [
+        "Limonium cordatum"
+      ],
+      "es": [
+        "Limonium cordatum"
+      ],
+      "fr": [
+        "Limonium cordatum"
+      ],
+      "it": [
+        "Limonium cordatum"
+      ],
+      "nl": [
+        "Limonium cordatum"
+      ],
+      "pl": [
+        "Limonium cordatum"
+      ],
+      "pt": [
+        "Limonium cordatum"
+      ],
+      "ru": [
+        "Limonium cordatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1794,7 +2357,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1810,7 +2373,7 @@
     "synonyms": "[\"Statice delicatula\"]",
     "care": {
       "plant_id": "limonium_delicatulum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1876,9 +2439,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Limonium delicatulum"
+      ],
+      "en": [
+        "Limonium delicatulum"
+      ],
+      "es": [
+        "Limonium delicatulum"
+      ],
+      "fr": [
+        "Limonium delicatulum"
+      ],
+      "it": [
+        "Limonium delicatulum"
+      ],
+      "nl": [
+        "Limonium delicatulum"
+      ],
+      "pl": [
+        "Limonium delicatulum"
+      ],
+      "pt": [
+        "Limonium delicatulum"
+      ],
+      "ru": [
+        "Limonium delicatulum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1888,12 +2481,12 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f8b0c77c192e7f67a90c8ff85f66f04e59ae1056",
-    "description": null,
+    "description": "Limonium duriusculum, the European sea lavender, is a species of flowering plant in the family Plumbaginaceae, native to the western Mediterranean region of southwestern Europe. Introduced to California, it has become an invasive species in coastal salt marshes, where it threatens native vegetation and endangered species habitat.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1904,7 +2497,7 @@
     "synonyms": "[\"Statice globulariifolia subsp. cuspidatum\", \"Limonium confusum subsp. raddianum\", \"Statice duriuscula\", \"Limonium confusum subsp. duriusculum\", \"Statice willdenowiana\", \"Statice cuspidata\", \"Limonium cuspidatum\", \"Statice hieronymi\", \"Limonium confusum subsp. psilocladum\", \"Statice duriuscula var. cuspidata\"]",
     "care": {
       "plant_id": "limonium_duriusculum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1970,11 +2563,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Limonium duriusculum"
+      ],
       "en": [
-        "European sea lavendar"
+        "European sea lavendar",
+        "Limonium duriusculum"
+      ],
+      "es": [
+        "Limonium duriusculum"
+      ],
+      "fr": [
+        "Limonium dur",
+        "Limonium duriusculum"
+      ],
+      "it": [
+        "Limonium duriusculum"
+      ],
+      "nl": [
+        "Limonium duriusculum"
+      ],
+      "pl": [
+        "Limonium duriusculum"
+      ],
+      "pt": [
+        "Limonium duriusculum"
+      ],
+      "ru": [
+        "Limonium duriusculum"
       ]
     },
     "tags": [],
@@ -1986,7 +2607,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2002,17 +2623,17 @@
     "synonyms": "[\"Statice aristata\", \"Statice sibirica\", \"Statice echioides\", \"Statice aspera\", \"Taxanthema echioides\", \"Statice echioides var. segobricensis\"]",
     "care": {
       "plant_id": "limonium_echioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2068,9 +2689,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Limonium echioides"
+      ],
+      "en": [
+        "Limonium echioides"
+      ],
+      "es": [
+        "Limonium echioides"
+      ],
+      "fr": [
+        "Limonium echioides"
+      ],
+      "it": [
+        "Limonium echioides"
+      ],
+      "nl": [
+        "Limonium echioides"
+      ],
+      "pl": [
+        "Limonium echioides"
+      ],
+      "pt": [
+        "Limonium echioides"
+      ],
+      "ru": [
+        "Limonium echioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2080,7 +2731,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2096,17 +2747,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "limonium_girardianum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2162,9 +2813,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Limonium girardianum"
+      ],
+      "en": [
+        "Limonium girardianum"
+      ],
+      "es": [
+        "Limonium girardianum"
+      ],
+      "fr": [
+        "Limonium girardianum"
+      ],
+      "it": [
+        "Limonium girardianum"
+      ],
+      "nl": [
+        "Limonium girardianum"
+      ],
+      "pl": [
+        "Limonium girardianum"
+      ],
+      "pt": [
+        "Limonium girardianum"
+      ],
+      "ru": [
+        "Limonium girardianum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2174,12 +2855,12 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9e1468a025b85f7ab83d7f7cfa096d3a70b8d9f3",
-    "description": null,
+    "description": "Limonium gmelini, the Siberian statice, is a species of flowering plant in the family Plumbaginaceae, native to east-central and southeastern Europe, Russia, the north Caucasus, Turkey, Iran, Kazakhstan, Kyrgyzstan, parts of Siberia, Xinjiang, and Mongolia. A widespread halophytic species, it is found growing in seeps, meadows, steppes, roadsides, and wastelands, as long as they are saline.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2256,9 +2937,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Limonium gmelini"
+      ],
+      "en": [
+        "Limonium gmelini",
+        "Siberian statice"
+      ],
+      "es": [
+        "Limonium gmelini"
+      ],
+      "fr": [
+        "Limonium gmelini"
+      ],
+      "it": [
+        "Limonium gmelini"
+      ],
+      "nl": [
+        "Limonium gmelini"
+      ],
+      "pl": [
+        "Limonium gmelini"
+      ],
+      "pt": [
+        "Limonium gmelini"
+      ],
+      "ru": [
+        "кермек Гмелина"
+      ],
+      "zh": [
+        "克迷克",
+        "大叶矶松",
+        "大叶补血草",
+        "拜赫",
+        "拜赫曼",
+        "补血草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2268,7 +2988,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2284,17 +3004,17 @@
     "synonyms": "[\"Statice bahusiensis proles rariflora\", \"Statice bahusiensis\", \"Statice limonoides\", \"Limonium vulgare subsp. bahusiense\", \"Statice remotiflora\", \"Statice humilis\", \"Statice rariflora\", \"Statice limonium subsp. bahusiensis\", \"Limonium rariflorum\", \"Statice limonium subsp. bahusiensis\"]",
     "care": {
       "plant_id": "limonium_humile",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2350,11 +3070,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Limonium humile"
+      ],
       "en": [
-        "Lax-flowered sea-lavender"
+        "Lax-flowered sea-lavender",
+        "Limonium humile"
+      ],
+      "es": [
+        "Limonium humile"
+      ],
+      "fr": [
+        "Limonium humile"
+      ],
+      "it": [
+        "Limonium humile"
+      ],
+      "nl": [
+        "IJle lamsoor"
+      ],
+      "pl": [
+        "Limonium humile"
+      ],
+      "pt": [
+        "Limonium humile"
+      ],
+      "ru": [
+        "Limonium humile"
       ]
     },
     "tags": [],
@@ -2366,7 +3113,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2382,7 +3129,7 @@
     "synonyms": "[\"Statice ovalifolia\", \"Statice lychnidifolia subsp. ovalifolia\"]",
     "care": {
       "plant_id": "limonium_ovalifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2448,9 +3195,40 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Limonium ovalifolium"
+      ],
+      "en": [
+        "Limonium ovalifolium"
+      ],
+      "es": [
+        "Limonium ovalifolium"
+      ],
+      "fr": [
+        "Limonium ovalifolium",
+        "Statice à feuilles ovales"
+      ],
+      "it": [
+        "Limonium ovalifolium"
+      ],
+      "nl": [
+        "Limonium ovalifolium"
+      ],
+      "pl": [
+        "Limonium ovalifolium"
+      ],
+      "pt": [
+        "Limonium ovalifolium"
+      ],
+      "ru": [
+        "Limonium ovalifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2460,7 +3238,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2476,7 +3254,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "limonium_sareptanum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2542,9 +3320,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Limonium sareptanum"
+      ],
+      "en": [
+        "Limonium sareptanum"
+      ],
+      "es": [
+        "Limonium sareptanum"
+      ],
+      "fr": [
+        "Limonium sareptanum"
+      ],
+      "it": [
+        "Limonium sareptanum"
+      ],
+      "nl": [
+        "Limonium sareptanum"
+      ],
+      "pl": [
+        "Limonium sareptanum"
+      ],
+      "pt": [
+        "Limonium sareptanum"
+      ],
+      "ru": [
+        "Limonium sareptanum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2554,7 +3362,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2570,17 +3378,17 @@
     "synonyms": "[\"Linczevskia sinuata\", \"Taxanthema sinuatum\", \"Statice sinuata\"]",
     "care": {
       "plant_id": "limonium_sinuatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2636,11 +3444,35 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.7
     },
     "common_names": {
+      "ar": [
+        "خزامى بحرية متموجة"
+      ],
+      "de": [
+        "Geflügelter Strandflieder"
+      ],
       "en": [
-        "Notchleaf sea-lavender"
+        "Notchleaf sea-lavender",
+        "Statice sinuata",
+        "wavyleaf sea lavender"
+      ],
+      "ja": [
+        "ハナハマサジ"
+      ],
+      "ru": [
+        "Кермек выемчатолистный",
+        "Кермек выемчатый",
+        "Лимониум выемчатолистный",
+        "Лимониум выемчатый",
+        "Линчевския выемчатая",
+        "Линчевския выемчатолистная"
+      ],
+      "zh": [
+        "星辰花"
       ]
     },
     "tags": [],
@@ -2652,12 +3484,12 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Limonium_lobatum.jpg",
+    "description": "Limonium lobatum, the winged sea-lavender, is a species of flowering plant in the family Plumbaginaceae, native to the Canary Islands, Spain, Greece, North Africa, and the Middle East as far as Iran. It is an incipient invasive in Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2668,7 +3500,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "limonium_thouinii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2734,9 +3566,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سبساب"
+      ],
+      "de": [
+        "Limonium thouinii"
+      ],
+      "en": [
+        "Limonium thouinii"
+      ],
+      "es": [
+        "Limonium thouinii"
+      ],
+      "fr": [
+        "Limonium thouinii"
+      ],
+      "it": [
+        "Limonium thouinii"
+      ],
+      "nl": [
+        "Limonium thouinii"
+      ],
+      "pl": [
+        "Limonium thouinii"
+      ],
+      "pt": [
+        "Limonium thouinii"
+      ],
+      "ru": [
+        "Limonium thouinii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2746,7 +3611,7 @@
     "family": "Plumbaginaceae",
     "genus": "Limonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2762,17 +3627,17 @@
     "synonyms": "[\"Statice drepanensis\", \"Limonium limonium\", \"Taxanthema limonium\", \"Statice limonium subsp. behen\", \"Statice limonium var. pseudolimonium\", \"Statice limonium var. puberula\", \"Limonium commune\", \"Statice crouanii\", \"Statice pseudolimonium\", \"Statice limonia\"]",
     "care": {
       "plant_id": "limonium_vulgare",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2828,11 +3693,29 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.7
     },
     "common_names": {
+      "ar": [
+        "عويذران شائع"
+      ],
+      "de": [
+        "Gewöhnlicher Strandflieder",
+        "Violette Strandnelke"
+      ],
       "en": [
-        "Marsh-rosemary"
+        "Marsh-rosemary",
+        "common sea-lavender"
+      ],
+      "fr": [
+        "Lavande de mer",
+        "Saladelle",
+        "statice vulgaire"
+      ],
+      "nl": [
+        "lamsoor"
       ]
     },
     "tags": [],
@@ -2844,7 +3727,7 @@
     "family": "Plumbaginaceae",
     "genus": "Myriolimon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2860,7 +3743,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "myriolimon_diffusum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2926,9 +3809,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Myriolimon diffusum"
+      ],
+      "en": [
+        "Myriolimon diffusum"
+      ],
+      "es": [
+        "Myriolimon diffusum"
+      ],
+      "fr": [
+        "Myriolimon diffusum"
+      ],
+      "it": [
+        "Myriolimon diffusum"
+      ],
+      "nl": [
+        "Myriolimon diffusum"
+      ],
+      "pl": [
+        "Myriolimon diffusum"
+      ],
+      "pt": [
+        "Myriolimon diffusum"
+      ],
+      "ru": [
+        "Myriolimon diffusum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2938,7 +3851,7 @@
     "family": "Plumbaginaceae",
     "genus": "Myriolimon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2954,17 +3867,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "myriolimon_ferulaceum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3020,9 +3933,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Myriolimon ferulaceum"
+      ],
+      "en": [
+        "Myriolimon ferulaceum"
+      ],
+      "es": [
+        "Myriolimon ferulaceum"
+      ],
+      "fr": [
+        "Myriolimon ferulaceum"
+      ],
+      "it": [
+        "Myriolimon ferulaceum"
+      ],
+      "nl": [
+        "Myriolimon ferulaceum"
+      ],
+      "pl": [
+        "Myriolimon ferulaceum"
+      ],
+      "pt": [
+        "Myriolimon ferulaceum"
+      ],
+      "ru": [
+        "Myriolimon ferulaceum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3032,7 +3975,7 @@
     "family": "Plumbaginaceae",
     "genus": "Plumbago",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3048,17 +3991,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "plumbago_auriculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3114,11 +4057,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "رصاصية أذنية"
+      ],
+      "de": [
+        "Kap-Bleiwurz"
+      ],
       "en": [
-        "Plumbago"
+        "Plumbago",
+        "Plumbago auriculata"
+      ],
+      "es": [
+        "Plumbago auriculata"
+      ],
+      "fr": [
+        "Dentellaire du Cap"
+      ],
+      "it": [
+        "Plumbago auriculata"
+      ],
+      "ja": [
+        "ルリマツリ"
+      ],
+      "nl": [
+        "Mannentrouw"
+      ],
+      "pl": [
+        "Ołownik uszkowaty"
+      ],
+      "pt": [
+        "Plumbago auriculata"
+      ],
+      "ru": [
+        "Plumbago auriculata"
+      ],
+      "tr": [
+        "Plumbago auriculata"
+      ],
+      "zh": [
+        "蓝花丹"
       ]
     },
     "tags": [],
@@ -3130,7 +4112,7 @@
     "family": "Plumbaginaceae",
     "genus": "Plumbago",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3146,17 +4128,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "plumbago_europaea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3212,11 +4194,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "رصاصية أوروبية"
+      ],
+      "de": [
+        "Europäische Bleiwurz"
+      ],
       "en": [
-        "European leadwort"
+        "European leadwort",
+        "Plumbago europaea"
+      ],
+      "es": [
+        "Plumbago europaea"
+      ],
+      "fr": [
+        "Plumbago europaea"
+      ],
+      "it": [
+        "Plumbago europaea"
+      ],
+      "nl": [
+        "Plumbago europaea"
+      ],
+      "pl": [
+        "Plumbago europaea"
+      ],
+      "pt": [
+        "Plumbago europaea"
+      ],
+      "ru": [
+        "Plumbago europaea"
+      ],
+      "zh": [
+        "欧花丹"
       ]
     },
     "tags": [],
@@ -3228,7 +4243,7 @@
     "family": "Plumbaginaceae",
     "genus": "Plumbago",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3244,17 +4259,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "plumbago_zeylanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3310,11 +4325,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Plumbago zeylanica"
+      ],
       "en": [
-        "Doctorbush"
+        "Doctorbush",
+        "Plumbago zeylanica"
+      ],
+      "es": [
+        "Plumbago zeylanica"
+      ],
+      "fr": [
+        "Plumbago zeylanica"
+      ],
+      "it": [
+        "Plumbago zeylanica"
+      ],
+      "ja": [
+        "セイロンマツリ"
+      ],
+      "nl": [
+        "Plumbago zeylanica"
+      ],
+      "pl": [
+        "Plumbago zeylanica"
+      ],
+      "pt": [
+        "Plumbago zeylanica"
+      ],
+      "ru": [
+        "Plumbago zeylanica"
+      ],
+      "zh": [
+        "乌面马"
       ]
     },
     "tags": [],

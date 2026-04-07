@@ -5,12 +5,12 @@
     "family": "Ruppiaceae",
     "genus": "Ruppia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/755e09b4487fcc856241a6a3a95c44eefddd30ce",
-    "description": null,
+    "description": "Ruppia cirrhosa, spiral tasselweed, is a species of aquatic plant in the pondweed family, with a cosmopolitan distribution, that grows in brackish to saline waters. It has long, thin leaves that often form a dense layer under the surfaces of coastal ditches, lakes and lagoons. The flowers are tiny and petal-less, and produce pollen that is dispersed by the wind or floating on the water.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ruppia_cirrhosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "de": [
+        "Schraubige Salde"
+      ],
       "en": [
+        "Ruppia cirrhosa",
         "Spiral tasselweed"
+      ],
+      "es": [
+        "Ruppia cirrhosa"
+      ],
+      "fr": [
+        "Ruppia cirrhosa"
+      ],
+      "it": [
+        "Ruppia cirrhosa"
+      ],
+      "ja": [
+        "ネジリカワツルモ"
+      ],
+      "nl": [
+        "Spiraalruppia"
+      ],
+      "pl": [
+        "Ruppia cirrhosa"
+      ],
+      "pt": [
+        "Ruppia cirrhosa"
+      ],
+      "ru": [
+        "Ruppia cirrhosa"
+      ],
+      "zh": [
+        "長梗川蔓藻"
       ]
     },
     "tags": [],
@@ -103,7 +136,7 @@
     "family": "Ruppiaceae",
     "genus": "Ruppia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +152,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ruppia_maritima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,11 +218,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Meeres-Salde"
+      ],
       "en": [
-        "Beaked tasselweed"
+        "Beaked tasselweed",
+        "Ruppia maritima"
+      ],
+      "es": [
+        "Ruppia maritima"
+      ],
+      "fr": [
+        "Ruppia maritima"
+      ],
+      "it": [
+        "Ruppia maritima"
+      ],
+      "ja": [
+        "カワツルモ"
+      ],
+      "nl": [
+        "Snavelruppia"
+      ],
+      "pl": [
+        "Rupia morska"
+      ],
+      "pt": [
+        "Ruppia maritima"
+      ],
+      "ru": [
+        "Руппия морская"
+      ],
+      "zh": [
+        "川蔓藻"
       ]
     },
     "tags": [],

@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/528c62475c991fbd03d8163b005358f84634042b",
-    "description": "A green, brownish or purple fruit about the size of a grape with smooth skin. The fruit is edible.",
+    "description": "Actinidia arguta is a perennial vine native to Japan, Korea, Northern China, and the Russian Far East. The fruit is known as kiwiberry or hardy kiwi, which are small kiwifruits without the hair-like fiber covering the outside, unlike most other species of the genus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -52,9 +52,9 @@
       "watering_guide": "Propagation: Seed",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Passiflora incarnata | Native to: MIDDLE EUROPE, CHN SX, EASTERN ASIA, CHM JL, CHN SD",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: skin-irritating. Animal: weak toxic. (Source: TPPT/Agroscope)",
       "common_problems": [
         "No serious disease or insect problems",
         "Uses\n\nThis fast growing vine can be grown both for its beautiful foliage and its fruit",
@@ -79,7 +79,7 @@
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Climbing",
       "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Make an excellent cover-up.\"]",
@@ -93,11 +93,69 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "الكيوي الصغير"
+      ],
+      "de": [
+        "Honigbeere",
+        "Kiwibeere",
+        "Kleinfruchtige Kiwi",
+        "Scharfzähniger Strahlengriffel",
+        "Strahlengriffel"
+      ],
       "en": [
-        "Baby kiwi"
+        "Baby kiwi",
+        "hardy kiwi"
+      ],
+      "fr": [
+        "Kiwai",
+        "Kiwaï"
+      ],
+      "ja": [
+        "コクワ",
+        "サルナシ",
+        "シラクチカズラ",
+        "シラクチヅル",
+        "ニギョウ",
+        "猿梨"
+      ],
+      "ko": [
+        "다래",
+        "다래나무",
+        "참다래",
+        "참다래나무"
+      ],
+      "nl": [
+        "Kiwai",
+        "Kiwibes",
+        "Kokuwa",
+        "Mantsjoerijse kruisbes",
+        "Mini-kiwi"
+      ],
+      "pl": [
+        "aktinidia ostrolistna"
+      ],
+      "ru": [
+        "Актинидия аргута",
+        "Актинидия острая",
+        "Актинидия острозубчатая"
+      ],
+      "tr": [
+        "Hardy kivi",
+        "Sibirya kivisi"
+      ],
+      "zh": [
+        "小羊桃",
+        "猕猴梨叶",
+        "猕猴梨根",
+        "紫果猕猴桃",
+        "软枣子",
+        "软枣猕猴桃"
       ]
     },
     "tags": [],
@@ -114,7 +172,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/040ae00573da5f81242e257f73ea34f0.jpg",
-    "description": "A green, brownish or purple fruit about the size of a grape with smooth skin. The fruit is edible.",
+    "description": "Actinidia callosa, the Himalayan kiwi vine, is a species of flowering plant in the Chinese gooseberry family Actinidiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -191,9 +249,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Actinidia callosa"
+      ],
+      "en": [
+        "Actinidia callosa"
+      ],
+      "es": [
+        "Actinidia callosa"
+      ],
+      "fr": [
+        "Actinidia callosa"
+      ],
+      "it": [
+        "Actinidia callosa"
+      ],
+      "nl": [
+        "Actinidia callosa"
+      ],
+      "pl": [
+        "Actinidia callosa"
+      ],
+      "pt": [
+        "Actinidia callosa"
+      ],
+      "ru": [
+        "Actinidia callosa"
+      ],
+      "zh": [
+        "硬齿猕猴桃"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -250,9 +341,9 @@
       "watering_guide": "Propagation: Seed",
       "light_guide": "Climate: temperate",
       "tips": "Native to: MIDDLE EUROPE, CHN SX, EASTERN ASIA, CHN SD, TEN | Similar plants: Acer rubrum",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: skin-irritating. Animal: weak toxic. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -271,7 +362,7 @@
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Climbing",
       "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -285,11 +376,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أقطينيدية"
+      ],
+      "de": [
+        "Actinidia chinensis"
+      ],
       "en": [
+        "Actinidia chinensis",
         "Golden kiwifruit"
+      ],
+      "es": [
+        "Actinidia chinensis"
+      ],
+      "fr": [
+        "Actinidia chinensis"
+      ],
+      "it": [
+        "Actinidia chinensis"
+      ],
+      "ja": [
+        "オニマタタビ"
+      ],
+      "ko": [
+        "골드키위"
+      ],
+      "nl": [
+        "Actinidia chinensis"
+      ],
+      "pl": [
+        "aktinidia chińska"
+      ],
+      "pt": [
+        "Actinidia chinensis"
+      ],
+      "ru": [
+        "Actinidia chinensis"
+      ],
+      "zh": [
+        "中华猕猴桃"
       ]
     },
     "tags": [],
@@ -389,11 +519,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "اكتينيديا كولوميتا"
+      ],
+      "de": [
+        "Actinidia kolomikta"
+      ],
       "en": [
+        "Actinidia kolomikta",
         "Arctic beauty kiwi"
+      ],
+      "es": [
+        "Actinidia kolomikta"
+      ],
+      "fr": [
+        "Kiwi arctique"
+      ],
+      "it": [
+        "Actinidia kolomikta"
+      ],
+      "ja": [
+        "ミヤママタタビ"
+      ],
+      "ko": [
+        "쥐다래"
+      ],
+      "nl": [
+        "Actinidia kolomikta"
+      ],
+      "pl": [
+        "aktinidia pstrolistna"
+      ],
+      "pt": [
+        "Actinidia kolomikta"
+      ],
+      "ru": [
+        "актинидия коломикта"
+      ],
+      "zh": [
+        "狗棗獼猴桃"
       ]
     },
     "tags": [],
@@ -410,7 +579,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/03c0c7b29a072dbc966febde9c7d2e25a7d5cf85",
-    "description": "A green, brownish or purple fruit about the size of a grape with smooth skin. The fruit is edible.",
+    "description": "Actinidia polygama is a species of kiwifruit in the family Actinidiaceae. It grows in the mountainous areas of Korea, Japan and China at elevations between 500 and 1,900 metres.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -487,11 +656,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "اكتينيديا بوليغاما"
+      ],
+      "de": [
+        "Japanischer Strahlengriffel"
+      ],
       "en": [
+        "Actinidia polygama",
         "Cat-powder"
+      ],
+      "es": [
+        "Actinidia polygama"
+      ],
+      "fr": [
+        "Actinidia polygama"
+      ],
+      "it": [
+        "Actinidia polygama"
+      ],
+      "ja": [
+        "マタタビ"
+      ],
+      "ko": [
+        "개다래"
+      ],
+      "nl": [
+        "Actinidia polygama"
+      ],
+      "pl": [
+        "Actinidia polygama"
+      ],
+      "pt": [
+        "Actinidia polygama"
+      ],
+      "ru": [
+        "Актинидия полигамная"
+      ],
+      "tr": [
+        "Matatabi"
+      ],
+      "zh": [
+        "葛枣猕猴桃"
       ]
     },
     "tags": [],
@@ -503,7 +714,7 @@
     "family": "Actinidiaceae",
     "genus": "Saurauia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -585,9 +796,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saurauia parviflora"
+      ],
+      "en": [
+        "Saurauia parviflora"
+      ],
+      "es": [
+        "Saurauia parviflora"
+      ],
+      "fr": [
+        "Saurauia parviflora"
+      ],
+      "it": [
+        "Saurauia parviflora"
+      ],
+      "nl": [
+        "Saurauia parviflora"
+      ],
+      "pl": [
+        "Saurauia parviflora"
+      ],
+      "pt": [
+        "Saurauia parviflora"
+      ],
+      "ru": [
+        "Saurauia parviflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -597,7 +838,7 @@
     "family": "Actinidiaceae",
     "genus": "Saurauia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -679,9 +920,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saurauia tristyla"
+      ],
+      "en": [
+        "Saurauia tristyla"
+      ],
+      "es": [
+        "Saurauia tristyla"
+      ],
+      "fr": [
+        "Saurauia tristyla"
+      ],
+      "it": [
+        "Saurauia tristyla"
+      ],
+      "nl": [
+        "Saurauia tristyla"
+      ],
+      "pl": [
+        "Saurauia tristyla"
+      ],
+      "pt": [
+        "Saurauia tristyla"
+      ],
+      "ru": [
+        "Saurauia tristyla"
+      ],
+      "zh": [
+        "水东哥"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -691,7 +965,7 @@
     "family": "Actinidiaceae",
     "genus": "Saurauia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -773,9 +1047,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saurauia yasicae"
+      ],
+      "en": [
+        "Saurauia yasicae"
+      ],
+      "es": [
+        "Saurauia yasicae"
+      ],
+      "fr": [
+        "Saurauia yasicae"
+      ],
+      "it": [
+        "Saurauia yasicae"
+      ],
+      "nl": [
+        "Saurauia yasicae"
+      ],
+      "pl": [
+        "Saurauia yasicae"
+      ],
+      "pt": [
+        "Saurauia yasicae"
+      ],
+      "ru": [
+        "Saurauia yasicae"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

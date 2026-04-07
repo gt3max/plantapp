@@ -5,12 +5,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b88c9c3bd8016690d64d78a41be6fffdae26f4c9",
-    "description": null,
+    "description": "Ilex affinis is an evergreen tree in the holly family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,7 +21,7 @@
     "synonyms": "[\"Ilex rivularis\", \"Ilex affinis var. apollinis\", \"Ilex affinis var. angustifolia\", \"Ilex affinis var. genuina\", \"Ilex affinis f. brachyphylla\", \"Ilex affinis f. medica\", \"Ilex affinis var. latifolia\", \"Ilex affinis f. stenothyrsa\", \"Ilex affinis var. pachypoda\", \"Ilex affinis var. valida\"]",
     "care": {
       "plant_id": "ilex_affinis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex affinis"
+      ],
+      "en": [
+        "Ilex affinis"
+      ],
+      "es": [
+        "Ilex affinis"
+      ],
+      "fr": [
+        "Ilex affinis"
+      ],
+      "it": [
+        "Ilex affinis"
+      ],
+      "nl": [
+        "Ilex affinis"
+      ],
+      "pl": [
+        "Ilex affinis"
+      ],
+      "pt": [
+        "Ilex affinis"
+      ],
+      "ru": [
+        "Ilex affinis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c15985f32871e9872ab17c397350a0313d11bc67",
-    "description": null,
+    "description": "Ilex ambigua is a species of flowering plant in the holly family known by the common names Carolina holly and sand holly. It is native to the southeastern and south-central United States, along the coastal plain from North Carolina to Texas, inland as far as Oklahoma, Arkansas, and Tennessee.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -115,7 +145,7 @@
     "synonyms": "[\"Synstima caroliniana\", \"Ilex buswellii\", \"Cassine caroliniana\", \"Ilex caroliniana var. jejuna\", \"Prinos ambiguus\", \"Ilex ambigua var. coriacea\", \"Ilex dubia f. pseudoambigua\", \"Ilex ambigua f. channellii\", \"Ilex dubia var. monticola\", \"Synstima acuminata\"]",
     "care": {
       "plant_id": "ilex_ambigua",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -181,11 +211,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ilex ambigua"
+      ],
       "en": [
-        "Carolina holly"
+        "Carolina holly",
+        "Ilex ambigua"
+      ],
+      "es": [
+        "Ilex ambigua"
+      ],
+      "fr": [
+        "Ilex ambigua"
+      ],
+      "it": [
+        "Ilex ambigua"
+      ],
+      "nl": [
+        "Ilex ambigua"
+      ],
+      "pl": [
+        "Ilex ambigua"
+      ],
+      "pt": [
+        "Ilex ambigua"
+      ],
+      "ru": [
+        "Ilex ambigua"
       ]
     },
     "tags": [],
@@ -197,12 +254,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/51406b6d2d093be764ccb0e8a8270a2f.jpg",
-    "description": null,
+    "description": "Ilex anomala, commonly known as Hawai'i holly, kāwaʻu, or ʻaiea in Hawaii, is a species of holly. It is native to the Hawaiian Islands and the Marquesas Islands and Society Islands of French Polynesia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -213,7 +270,7 @@
     "synonyms": "[\"Byronia helleri\", \"Byronia sandwicensis\", \"Ilex hawaiensis\", \"Byronia hookeri\", \"Ilex sandwicensis\", \"Polystigma hookeri\", \"Ilex marquesensis\", \"Ilex taitensis\", \"Byronia anomala\", \"Byronia taitensis\"]",
     "care": {
       "plant_id": "ilex_anomala",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -279,9 +336,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بهشية شاذة"
+      ],
+      "de": [
+        "Ilex anomala"
+      ],
+      "en": [
+        "Ilex anomala"
+      ],
+      "es": [
+        "Ilex anomala"
+      ],
+      "fr": [
+        "Ilex anomala"
+      ],
+      "it": [
+        "Ilex anomala"
+      ],
+      "nl": [
+        "Ilex anomala"
+      ],
+      "pl": [
+        "Ilex anomala"
+      ],
+      "pt": [
+        "Ilex anomala"
+      ],
+      "ru": [
+        "Ilex anomala"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -291,7 +381,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -307,7 +397,7 @@
     "synonyms": "[\"Ilex aquifolium var. handsworthensis\", \"Ilex aquifolium var. argentea-purpurea\", \"Ilex balearica var. cordata\", \"Ilex aquifolium var. angustifolia\", \"Ilex aquifolium var. hybrida\", \"Ilex aquifolium var. longifolia-maculata\", \"Ilex aquifolium var. barcinonae\", \"Ilex aquifolium var. heterophyllum\", \"Ilex aquifolium f. arbutifolia\", \"Aquifolium lanceolatum\"]",
     "care": {
       "plant_id": "ilex_aquifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -339,7 +429,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Ilex cornuta",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs, Toxic to Cats, Toxic to Horses. Signs: Vomiting, diarrhea and depression. Leaves and berries are low toxicity.",
       "common_problems": [
         "The English holly has no serious insect pests or diseases.",
@@ -378,11 +468,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بهشية مائية الأوراق"
+      ],
+      "de": [
+        "Europäische Stechpalme"
+      ],
       "en": [
-        "English holly"
+        "English holly",
+        "Ilex aquifolium"
+      ],
+      "es": [
+        "Ilex aquifolium"
+      ],
+      "fr": [
+        "houx"
+      ],
+      "it": [
+        "Ilex aquifolium"
+      ],
+      "ja": [
+        "セイヨウヒイラギ"
+      ],
+      "nl": [
+        "Ilex aquifolium"
+      ],
+      "pl": [
+        "Ostrokrzew kolczasty"
+      ],
+      "pt": [
+        "azevinho"
+      ],
+      "ru": [
+        "Падуб остролистный"
+      ],
+      "zh": [
+        "歐洲冬青"
       ]
     },
     "tags": [],
@@ -394,12 +520,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/36f8ef43cf14cfd0e2c4a606a65e7227.jpg",
-    "description": null,
+    "description": "Ilex asprella, also known as rough-leaved holly and plum-leaved holly, is a deciduous shrub native in South East Asia. Ilex asprella is one of the few deciduous species in the family Aquifoliaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -410,7 +536,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_asprella",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -476,9 +602,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex asprella"
+      ],
+      "en": [
+        "Ilex asprella"
+      ],
+      "es": [
+        "Ilex asprella"
+      ],
+      "fr": [
+        "Ilex asprella"
+      ],
+      "it": [
+        "Ilex asprella"
+      ],
+      "nl": [
+        "Ilex asprella"
+      ],
+      "pl": [
+        "Ilex asprella"
+      ],
+      "pt": [
+        "Ilex asprella"
+      ],
+      "ru": [
+        "Ilex asprella"
+      ],
+      "zh": [
+        "梅葉冬青"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -488,7 +647,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -504,7 +663,7 @@
     "synonyms": "[\"Ilex caaguazuensis\"]",
     "care": {
       "plant_id": "ilex_brevicuspis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -570,9 +729,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex brevicuspis"
+      ],
+      "en": [
+        "Ilex brevicuspis"
+      ],
+      "es": [
+        "Ilex brevicuspis"
+      ],
+      "fr": [
+        "Ilex brevicuspis"
+      ],
+      "it": [
+        "Ilex brevicuspis"
+      ],
+      "nl": [
+        "Ilex brevicuspis"
+      ],
+      "pl": [
+        "Ilex brevicuspis"
+      ],
+      "pt": [
+        "Ilex brevicuspis"
+      ],
+      "ru": [
+        "Ilex brevicuspis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -582,12 +771,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7fba8047e018c87fcf7ba8a6d2fb4a51.jpg",
-    "description": null,
+    "description": "Ilex canariensis, the small-leaved holly, is an endemic species of holly native to Macaronesian islands. It is a species of plant in the family Aquifoliaceae. It is found in the Macaronesian islands of Madeira (Portugal) and Canary Islands (Spain).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -598,7 +787,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_canariensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -664,9 +853,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بهشية كنارية"
+      ],
+      "de": [
+        "Ilex canariensis"
+      ],
+      "en": [
+        "Ilex canariensis"
+      ],
+      "es": [
+        "Ilex canariensis"
+      ],
+      "fr": [
+        "Ilex canariensis"
+      ],
+      "it": [
+        "Ilex canariensis"
+      ],
+      "nl": [
+        "Ilex canariensis"
+      ],
+      "pl": [
+        "Ilex canariensis"
+      ],
+      "pt": [
+        "Ilex canariensis"
+      ],
+      "ru": [
+        "Ilex canariensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -676,12 +898,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/052c0ea4b655adf52b4725a76ca1750008572070",
-    "description": "Produces a fruit that has a globose berry-like drupe, is red-orange in color, and is very small in size (less than 1/10 of an inch). Occurs in clusters from fall through winter.",
+    "description": "Ilex cassine is a holly native to the southeastern coast of North America that grows from Virginia south down the East Coast to Florida, then west along the Gulf Coast to the Colorado River in Texas, with subspecies growing southward on the coast of the Gulf of Mexico as far as Veracruz, Mexico, and in Cuba, Puerto Rico, and the Bahamas. It is commonly known as dahoon holly or cassena, the latter derived from the Timucua name for I. vomitoria.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -692,7 +914,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_cassine",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -758,11 +980,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ilex cassine"
+      ],
       "en": [
-        "Dahoon"
+        "Dahoon",
+        "Ilex cassine"
+      ],
+      "es": [
+        "Ilex cassine"
+      ],
+      "fr": [
+        "Houx cassine"
+      ],
+      "it": [
+        "Ilex cassine"
+      ],
+      "nl": [
+        "Cassena"
+      ],
+      "pl": [
+        "Ilex cassine"
+      ],
+      "pt": [
+        "Ilex cassine"
+      ],
+      "ru": [
+        "Ilex cassine"
       ]
     },
     "tags": [],
@@ -774,12 +1023,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/8a0910983c679f99cc31862ddde98a80.jpg",
-    "description": "Shiny red fruit that attracts birds and other wildlife in winter.",
+    "description": "Ilex chinensis, the Kashi holly, oriental holly, or purple holly, is a species of flowering plant in the family Aquifoliaceae, native to Vietnam, southern China, Taiwan, and central and southern Japan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -790,7 +1039,7 @@
     "synonyms": "[\"Ilex purpurea var. oldhamii\", \"Ilex purpurea var. myriadenia\", \"Embelia rubroviolacea\", \"Ilex jinggangshanensis\", \"Ilex myriadenia\", \"Callicarpa cavaleriei\", \"Ilex purpurea var. nervosa\", \"Ilex chinensis f. angustifolia\", \"Symplocos courtoisii\", \"Ilex oldhamii\"]",
     "care": {
       "plant_id": "ilex_chinensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -856,9 +1105,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بهشية أرجوانية"
+      ],
+      "de": [
+        "Ilex chinensis"
+      ],
+      "en": [
+        "Ilex chinensis"
+      ],
+      "es": [
+        "Ilex chinensis"
+      ],
+      "fr": [
+        "Ilex chinensis"
+      ],
+      "it": [
+        "Ilex chinensis"
+      ],
+      "ja": [
+        "ナナミノキ"
+      ],
+      "nl": [
+        "Ilex chinensis"
+      ],
+      "pl": [
+        "Ilex chinensis"
+      ],
+      "pt": [
+        "Ilex chinensis"
+      ],
+      "ru": [
+        "Ilex chinensis"
+      ],
+      "zh": [
+        "冬青"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -868,12 +1156,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2a183d1427d4a964099550918378fbbe6106a193",
-    "description": "Small, nearly black, shiny, berry-like ⅓ inch drupe displays from September to October. Drops soon after maturing. The fruits are normally broader than they are long.",
+    "description": "Ilex coriacea, sometimes known as large gallberry or sweet gallberry, is a shrub in the holly family native to coastal areas in the United States from Virginia to Texas. It exists primarily as an understory plant in pine forests, and is sometimes managed by controlled burnings, resprouting from rhizomes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -884,7 +1172,7 @@
     "synonyms": "[\"Prinos coriaceus\", \"Ilex lucida\", \"Prinos glaber\", \"Ennepta coriacea\", \"Prinos atomarius\", \"Prinos coriaceus var. latifolius\", \"Ennepta atomaria\", \"Prinos lucidus\", \"Prinos coriaceus var. angustifolius\"]",
     "care": {
       "plant_id": "ilex_coriacea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -950,11 +1238,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ilex coriacea"
+      ],
       "en": [
+        "Ilex coriacea",
         "Large gallberry"
+      ],
+      "es": [
+        "Ilex coriacea"
+      ],
+      "fr": [
+        "Ilex coriacea"
+      ],
+      "it": [
+        "Ilex coriacea"
+      ],
+      "nl": [
+        "Ilex coriacea"
+      ],
+      "pl": [
+        "Ilex coriacea"
+      ],
+      "pt": [
+        "Ilex coriacea"
+      ],
+      "ru": [
+        "Ilex coriacea"
       ]
     },
     "tags": [],
@@ -966,7 +1281,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -982,7 +1297,7 @@
     "synonyms": "[\"Ilex cornuta f. typica\", \"Ilex cornuta var. fortunei\", \"Ilex fortunei f. aureovariegata\", \"Ilex furcata\", \"Ilex cornuta f. gaetana\", \"Ilex fortunei\"]",
     "care": {
       "plant_id": "ilex_cornuta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1056,11 +1371,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Chinesische Stechpalme"
+      ],
       "en": [
-        "Chinese holly"
+        "Chinese holly",
+        "Ilex cornuta"
+      ],
+      "es": [
+        "Ilex cornuta"
+      ],
+      "fr": [
+        "Ilex cornuta"
+      ],
+      "it": [
+        "Ilex cornuta"
+      ],
+      "ja": [
+        "ヤバネヒイラギモチ"
+      ],
+      "ko": [
+        "호랑가시나무"
+      ],
+      "nl": [
+        "Ilex cornuta"
+      ],
+      "pl": [
+        "Ilex cornuta"
+      ],
+      "pt": [
+        "Ilex cornuta"
+      ],
+      "ru": [
+        "Ilex cornuta"
+      ],
+      "zh": [
+        "枸骨"
       ]
     },
     "tags": [],
@@ -1072,7 +1423,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1088,7 +1439,7 @@
     "synonyms": "[\"Ilex crenata var. typica\", \"Ilex crenata f. genuina\"]",
     "care": {
       "plant_id": "ilex_crenata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1162,11 +1513,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بهشية مفرضة"
+      ],
+      "de": [
+        "Ilex crenata"
+      ],
       "en": [
+        "Ilex crenata",
         "Japanese holly"
+      ],
+      "es": [
+        "Ilex crenata"
+      ],
+      "fr": [
+        "Houx crénelé"
+      ],
+      "it": [
+        "Ilex crenata"
+      ],
+      "ja": [
+        "イヌツゲ"
+      ],
+      "ko": [
+        "꽝꽝나무"
+      ],
+      "nl": [
+        "Ilex crenata"
+      ],
+      "pl": [
+        "Ilex crenata"
+      ],
+      "pt": [
+        "Ilex crenata"
+      ],
+      "ru": [
+        "Падуб городчатый"
+      ],
+      "zh": [
+        "齿叶冬青"
       ]
     },
     "tags": [],
@@ -1178,12 +1568,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/340153446be3e40189f56e35d8852bec.jpg",
-    "description": null,
+    "description": "Ilex cymosa is a tree in the family Aquifoliaceae, native to Southeast Asia. The specific epithet cymosa refers to the cymous form of the inflorescence.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1194,7 +1584,7 @@
     "synonyms": "[\"Pseudehretia paniculata\", \"Ilex singapuriana\", \"Ilex fabrilis\", \"Ilex philippinensis\", \"Ilex thorelii\", \"Ilex cumingiana\", \"Prinos cymosa\", \"Leucodermis javanica\"]",
     "care": {
       "plant_id": "ilex_cymosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1260,9 +1650,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex cymosa"
+      ],
+      "en": [
+        "Ilex cymosa"
+      ],
+      "es": [
+        "Ilex cymosa"
+      ],
+      "fr": [
+        "Ilex cymosa"
+      ],
+      "it": [
+        "Ilex cymosa"
+      ],
+      "nl": [
+        "Ilex cymosa"
+      ],
+      "pl": [
+        "Ilex cymosa"
+      ],
+      "pt": [
+        "Ilex cymosa"
+      ],
+      "ru": [
+        "Ilex cymosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1272,7 +1692,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1288,7 +1708,7 @@
     "synonyms": "[\"Prinos deciduus\"]",
     "care": {
       "plant_id": "ilex_decidua",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1356,11 +1776,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ilex decidua"
+      ],
       "en": [
+        "Ilex decidua",
         "Possom-haw holly"
+      ],
+      "es": [
+        "Ilex decidua"
+      ],
+      "fr": [
+        "Ilex decidua"
+      ],
+      "it": [
+        "Ilex decidua"
+      ],
+      "nl": [
+        "Ilex decidua"
+      ],
+      "pl": [
+        "Ilex decidua"
+      ],
+      "pt": [
+        "Ilex decidua"
+      ],
+      "ru": [
+        "Ilex decidua"
+      ],
+      "zh": [
+        "落葉冬青"
       ]
     },
     "tags": [],
@@ -1372,7 +1822,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1388,7 +1838,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_dumosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1454,9 +1904,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex dumosa"
+      ],
+      "en": [
+        "Ilex dumosa"
+      ],
+      "es": [
+        "Ilex dumosa"
+      ],
+      "fr": [
+        "Ilex dumosa"
+      ],
+      "it": [
+        "Ilex dumosa"
+      ],
+      "nl": [
+        "Ilex dumosa"
+      ],
+      "pl": [
+        "Ilex dumosa"
+      ],
+      "pt": [
+        "Ilex dumosa"
+      ],
+      "ru": [
+        "Ilex dumosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1466,12 +1946,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ca69d7a02bbb8e5e8448d2b523667153df87b691",
-    "description": "Pea-sized, jet black, berry-like drupes (inkberries to 3/8  in diameter) which mature in September and last through November.",
+    "description": "Ilex glabra, also known as Appalachian tea, evergreen winterberry, Canadian winterberry, gallberry, inkberry, dye-leaves and houx galbre, is a species of evergreen holly native to the coastal plain of eastern North America, from coastal Nova Scotia to Florida and west to Louisiana where it is most commonly found in sandy woods and peripheries of swamps and bogs. Ilex glabra is often found in landscapes of the middle and lower East Coast of the United States. It typically matures to 5–8 ft (1.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1482,7 +1962,7 @@
     "synonyms": "[\"Ilex glabra f. leucocarpa\", \"Winterlia glabra\", \"Winterlia triflora\", \"Prinos glaber\", \"Ilex glabra var. austrina\", \"Ennepta myricoides\"]",
     "care": {
       "plant_id": "ilex_glabra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1550,11 +2030,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بهشية مرداء"
+      ],
+      "de": [
+        "Ilex glabra"
+      ],
       "en": [
-        "Appalachian-tea"
+        "Appalachian-tea",
+        "Ilex glabra"
+      ],
+      "es": [
+        "Ilex glabra"
+      ],
+      "fr": [
+        "Ilex glabra"
+      ],
+      "it": [
+        "Ilex glabra"
+      ],
+      "nl": [
+        "Ilex glabra"
+      ],
+      "pl": [
+        "Ilex glabra"
+      ],
+      "pt": [
+        "Ilex glabra"
+      ],
+      "ru": [
+        "Ilex glabra"
       ]
     },
     "tags": [],
@@ -1566,12 +2076,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/85838c43b7b90dd04fe8b3c59738d3d9.jpg",
-    "description": null,
+    "description": "Ilex integra, the elegance female holly, also called mochi tree, is an ornamental tree of the holly genus, which is native to parts of Asia, including Korea; Taiwan; the mid-southern regions of China; and Honshu, Shikoku and Kyushu in Japan. Its flower is light yellow. The species was botanically described in 1784.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1582,7 +2092,7 @@
     "synonyms": "[\"Othera japonica\", \"Ilex integra f. lutea\", \"Ilex cornuta var. integra\", \"Ilex integra var. brachypoda\", \"Ilex integra var. ellipsoidea\", \"Ilex ellipsoidea\", \"Ilex othera\", \"Ilex integrifolia\", \"Ilex integra f. ellipsoidea\", \"Ilex brachypoda\"]",
     "care": {
       "plant_id": "ilex_integra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1648,9 +2158,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex integra"
+      ],
+      "en": [
+        "Ilex integra"
+      ],
+      "es": [
+        "Ilex integra"
+      ],
+      "fr": [
+        "Ilex integra"
+      ],
+      "it": [
+        "Ilex integra"
+      ],
+      "ja": [
+        "モチノキ"
+      ],
+      "ko": [
+        "감탕나무"
+      ],
+      "nl": [
+        "Ilex integra"
+      ],
+      "pl": [
+        "Ilex integra"
+      ],
+      "pt": [
+        "Ilex integra"
+      ],
+      "ru": [
+        "Ilex integra"
+      ],
+      "zh": [
+        "全缘冬青"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1660,12 +2209,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Ilex laevigata (Pursh) A. Gray, commonly referred to as smooth winterberry, is a plant species in the Aquifoliaceae. It is native to the eastern United States, ranging from coastal areas of Maine to Georgia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1676,7 +2225,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_laevigata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1742,9 +2291,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex laevigata"
+      ],
+      "en": [
+        "Ilex laevigata"
+      ],
+      "es": [
+        "Ilex laevigata"
+      ],
+      "fr": [
+        "Ilex laevigata"
+      ],
+      "it": [
+        "Ilex laevigata"
+      ],
+      "nl": [
+        "Ilex laevigata"
+      ],
+      "pl": [
+        "Ilex laevigata"
+      ],
+      "pt": [
+        "Ilex laevigata"
+      ],
+      "ru": [
+        "Ilex laevigata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1754,7 +2333,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1770,7 +2349,7 @@
     "synonyms": "[\"Ilex integra var. leucoclada\", \"Ilex leucoclada f. angustifolia\", \"Ilex leucoclada var. angustifolia\"]",
     "care": {
       "plant_id": "ilex_leucoclada",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1836,9 +2415,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex leucoclada"
+      ],
+      "en": [
+        "Ilex leucoclada"
+      ],
+      "es": [
+        "Ilex leucoclada"
+      ],
+      "fr": [
+        "Ilex leucoclada"
+      ],
+      "it": [
+        "Ilex leucoclada"
+      ],
+      "ja": [
+        "ヒメモチ"
+      ],
+      "nl": [
+        "Ilex leucoclada"
+      ],
+      "pl": [
+        "Ilex leucoclada"
+      ],
+      "pt": [
+        "Ilex leucoclada"
+      ],
+      "ru": [
+        "Ilex leucoclada"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1848,12 +2460,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Ilex macropoda is a species of flowering plant in the holly family Aquifoliaceae, native to southern China, Korea, and Japan. A deciduous tree typically 13 m (43 ft) tall, it is found in mixed forests, forest edges, thickets, and roadsides, usually from 500 to 1,900 m above sea level. Local people make a tea by boiling its leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1864,7 +2476,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_macropoda",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1930,9 +2542,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex macropoda"
+      ],
+      "en": [
+        "Ilex macropoda"
+      ],
+      "es": [
+        "Ilex macropoda"
+      ],
+      "fr": [
+        "Ilex macropoda"
+      ],
+      "it": [
+        "Ilex macropoda"
+      ],
+      "ja": [
+        "アオハダ"
+      ],
+      "ko": [
+        "대팻집나무"
+      ],
+      "nl": [
+        "Ilex macropoda"
+      ],
+      "pl": [
+        "Ilex macropoda"
+      ],
+      "pt": [
+        "Ilex macropoda"
+      ],
+      "ru": [
+        "Ilex macropoda"
+      ],
+      "zh": [
+        "大柄冬青"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1942,12 +2593,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ce60416cd6a8565d2c3e509f0994fcaf.jpg",
-    "description": null,
+    "description": "Ilex micrococca, the thin-leaf holly, is a widespread species of flowering plant in the family Aquifoliaceae. It is native to Tibet, southern China, Hainan, Taiwan, northern Myanmar, Peninsular Malaysia, Vietnam, and Japan. A deciduous tree reaching 20 m (66 ft), it is found in evergreen broadleaf mountain forests from 500 to 1,900 m in elevation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1958,7 +2609,7 @@
     "synonyms": "[\"Ilex micrococca f. luteocarpa\", \"Ilex polyneura\", \"Ilex pseudogodajam\", \"Ilex micrococca f. tsangii\", \"Ilex polyneura var. glabra\", \"Ilex micrococca var. polyneura\", \"Ilex micrococca var. longifolia\", \"Ilex micrococca f. pilosa\"]",
     "care": {
       "plant_id": "ilex_micrococca",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2024,9 +2675,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex micrococca"
+      ],
+      "en": [
+        "Ilex micrococca"
+      ],
+      "es": [
+        "Ilex micrococca"
+      ],
+      "fr": [
+        "Ilex micrococca"
+      ],
+      "it": [
+        "Ilex micrococca"
+      ],
+      "ja": [
+        "タマミズキ"
+      ],
+      "nl": [
+        "Ilex micrococca"
+      ],
+      "pl": [
+        "Ilex micrococca"
+      ],
+      "pt": [
+        "Ilex micrococca"
+      ],
+      "ru": [
+        "Ilex micrococca"
+      ],
+      "zh": [
+        "小果冬青"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2036,12 +2723,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/06ec45fcf6930e6d7b987ecaf6b0aa4e4f42732d",
-    "description": null,
+    "description": "Ilex mitis is a tall, dense, evergreen tree that is indigenous to Sub-Saharan Africa and Madagascar. It makes an excellent fast-growing hedge for gardens - growing tall, straight and dense.\n",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2052,7 +2739,7 @@
     "synonyms": "[\"Scleroxylum mite\", \"Sideroxylon mite\"]",
     "care": {
       "plant_id": "ilex_mitis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2118,11 +2805,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بهشية طرية"
+      ],
+      "de": [
+        "Ilex mitis"
+      ],
       "en": [
-        "Cape holly"
+        "Cape holly",
+        "Ilex mitis"
+      ],
+      "es": [
+        "Ilex mitis"
+      ],
+      "fr": [
+        "Ilex mitis"
+      ],
+      "it": [
+        "Ilex mitis"
+      ],
+      "nl": [
+        "Ilex mitis"
+      ],
+      "pl": [
+        "Ilex mitis"
+      ],
+      "pt": [
+        "Ilex mitis"
+      ],
+      "ru": [
+        "Ilex mitis"
       ]
     },
     "tags": [],
@@ -2134,7 +2851,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2150,7 +2867,7 @@
     "synonyms": "[\"Ilex ambigua var. montana\", \"Ilex montana var. mollis\", \"Ilex ambigua f. montana\", \"Ilex montana f. rotundifolia\", \"Ilex ambigua var. monticola\", \"Ilex monticola\", \"Ilex beadlei\", \"Ilex amelanchier var. monticola\", \"Ilex dubia var. mollis\", \"Ilex ambigua f. mollis\"]",
     "care": {
       "plant_id": "ilex_montana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2216,9 +2933,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بهشية جبلية"
+      ],
+      "de": [
+        "Ilex montana"
+      ],
+      "en": [
+        "Ilex montana"
+      ],
+      "es": [
+        "Ilex montana"
+      ],
+      "fr": [
+        "Ilex montana"
+      ],
+      "it": [
+        "Ilex montana"
+      ],
+      "nl": [
+        "Ilex montana"
+      ],
+      "pl": [
+        "Ilex montana"
+      ],
+      "pt": [
+        "Ilex montana"
+      ],
+      "ru": [
+        "Ilex montana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2228,12 +2978,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Ilex mucronata, the mountain holly or catberry, is a species of holly native to eastern North America, from Newfoundland west to Minnesota, and south to Maryland and West Virginia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2244,7 +2994,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_mucronata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2310,9 +3060,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex mucronata"
+      ],
+      "en": [
+        "Ilex mucronata"
+      ],
+      "es": [
+        "Ilex mucronata"
+      ],
+      "fr": [
+        "Ilex mucronata"
+      ],
+      "it": [
+        "Ilex mucronata"
+      ],
+      "nl": [
+        "Ilex mucronata"
+      ],
+      "pl": [
+        "Ilex mucronata"
+      ],
+      "pt": [
+        "Ilex mucronata"
+      ],
+      "ru": [
+        "Ilex mucronata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2322,7 +3102,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2338,7 +3118,7 @@
     "synonyms": "[\"Ilex opaca f. xanthocarpa\", \"Ilex opaca f. subintegra\", \"Ilex opaca var. subintegra\", \"Ilex opaca var. latifolia\", \"Ilex opaca var. integra\", \"Ilex opaca var. macrodon\", \"Ilex opaca var. laxiflora\", \"Ilex opaca var. globosa\", \"Ilex americana\", \"Ilex opaca var. acuminata\"]",
     "care": {
       "plant_id": "ilex_opaca",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2409,11 +3189,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بهشية ظلامية"
+      ],
+      "de": [
+        "Ilex opaca"
+      ],
       "en": [
-        "American holly"
+        "American holly",
+        "Ilex opaca"
+      ],
+      "es": [
+        "Ilex opaca"
+      ],
+      "fr": [
+        "Ilex opaca"
+      ],
+      "it": [
+        "Ilex opaca"
+      ],
+      "ja": [
+        "アメリカヒイラギモチ"
+      ],
+      "nl": [
+        "Ilex opaca"
+      ],
+      "pl": [
+        "Ilex opaca"
+      ],
+      "pt": [
+        "Ilex opaca"
+      ],
+      "ru": [
+        "Ilex opaca"
+      ],
+      "zh": [
+        "北美齒葉冬青"
       ]
     },
     "tags": [],
@@ -2425,7 +3241,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2441,7 +3257,7 @@
     "synonyms": "[\"Ilex paraguariensis var. genuina\"]",
     "care": {
       "plant_id": "ilex_paraguariensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2507,11 +3323,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بهشية براغوانية"
+      ],
+      "de": [
+        "Mate-Strauch"
+      ],
       "en": [
-        "Brazilian-tea"
+        "Brazilian-tea",
+        "yerba mate"
+      ],
+      "es": [
+        "Ilex paraguayensis"
+      ],
+      "fr": [
+        "Ilex paraguariensis"
+      ],
+      "it": [
+        "Ilex paraguariensis"
+      ],
+      "ja": [
+        "イェルバ・マテ"
+      ],
+      "ko": [
+        "마테나무"
+      ],
+      "nl": [
+        "Ilex paraguariensis"
+      ],
+      "pl": [
+        "ostrokrzew paragwajski"
+      ],
+      "pt": [
+        "erva-mate"
+      ],
+      "ru": [
+        "Падуб парагвайский"
+      ],
+      "tr": [
+        "Yerba mate"
+      ],
+      "zh": [
+        "巴拉圭冬青"
       ]
     },
     "tags": [],
@@ -2523,12 +3381,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/18c93d78621fff98908198ea85fb1a464e208c0f",
-    "description": "Bright red 1/4 inch fruit on 1 to 2 inch stalks in fall and winter.",
+    "description": "Ilex pedunculosa, called longstalk holly, is a species of flowering plant in the genus Ilex, native to central and southern China, Taiwan, and Japan. A lanky shrub or shrubby tree typically reaching 5 m (16 ft) in the garden, it is quite cold hardy. It gets its specific epithet and common name from its long peduncle. The red berries are relished by birds. It is deer resistant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2539,7 +3397,7 @@
     "synonyms": "[\"Ilex pedunculosa var. continentalis\", \"Ilex pedunculosa var. senjoensis\", \"Ilex pedunculosa f. aurantiaca\", \"Ilex senjoensis\", \"Ilex impressivena\", \"Ilex purpurea var. leveilleana\", \"Ilex pedunculosa f. longipedunculata\", \"Ilex pedunculosa f. genuina\", \"Ilex morii\", \"Ilex pedunculosa f. continentalis\"]",
     "care": {
       "plant_id": "ilex_pedunculosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2605,9 +3463,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex pedunculosa"
+      ],
+      "en": [
+        "Ilex pedunculosa"
+      ],
+      "es": [
+        "Ilex pedunculosa"
+      ],
+      "fr": [
+        "Ilex pedunculosa"
+      ],
+      "it": [
+        "Ilex pedunculosa"
+      ],
+      "ja": [
+        "ソヨゴ"
+      ],
+      "nl": [
+        "Ilex pedunculosa"
+      ],
+      "pl": [
+        "Ilex pedunculosa"
+      ],
+      "pt": [
+        "Ilex pedunculosa"
+      ],
+      "ru": [
+        "Ilex pedunculosa"
+      ],
+      "zh": [
+        "具柄冬青"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2617,12 +3511,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cf6fc1d1477f92f8c17a9cb1b98be78fe82fb54e",
-    "description": null,
+    "description": "Ilex perado, the Macaronesian holly, is a species of holly endemic to Macaronesia, distributed throughout the Azores, Madeira and Canary islands. It is an important component of the natural high-altitude Macaronesian rainforest, known as 'laurisilva', found mostly at 500 to 1,200 m altitude but it also appears in forest formations at lower elevation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2633,7 +3527,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_perado",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2699,11 +3593,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ilex perado"
+      ],
       "en": [
-        "Azorean holly"
+        "Azorean holly",
+        "Ilex perado"
+      ],
+      "es": [
+        "Ilex perado"
+      ],
+      "fr": [
+        "Ilex perado"
+      ],
+      "it": [
+        "Ilex perado"
+      ],
+      "nl": [
+        "Ilex perado"
+      ],
+      "pl": [
+        "Ilex perado"
+      ],
+      "pt": [
+        "Ilex perado"
+      ],
+      "ru": [
+        "Ilex perado"
       ]
     },
     "tags": [],
@@ -2715,12 +3636,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/56ea29bd6e669f0a83770e9aba3c8ef9.jpg",
-    "description": null,
+    "description": "Ilex pubescens, the downy holly or pubescent holly, is a species of flowering plant in the family Aquifoliaceae, native to southern China, Hainan, and Taiwan. A shrub or small tree, it is found in a variety of habitats from sea level to about 1,000 m (3,300 ft). It is widely used in traditional Chinese medicine for a variety of ailments.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2731,7 +3652,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_pubescens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2797,9 +3718,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex pubescens"
+      ],
+      "en": [
+        "Ilex pubescens"
+      ],
+      "es": [
+        "Ilex pubescens"
+      ],
+      "fr": [
+        "Ilex pubescens"
+      ],
+      "it": [
+        "Ilex pubescens"
+      ],
+      "nl": [
+        "Ilex pubescens"
+      ],
+      "pl": [
+        "Ilex pubescens"
+      ],
+      "pt": [
+        "Ilex pubescens"
+      ],
+      "ru": [
+        "Ilex pubescens"
+      ],
+      "zh": [
+        "毛冬青"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2809,12 +3763,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7fd2082f292ac069f12e2a473a328ae6b85881a2",
-    "description": null,
+    "description": "Ilex rotunda, commonly called the Kurogane holly, is an evergreen tree in the holly family (Aquifoliaceae). It is native to east Asia, where it is found in China, Japan, Korea, Taiwan, and Vietnam. Its natural habitat is in evergreen broadleaf forests, often in sunny areas such forest edges or on mountain slopes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2825,7 +3779,7 @@
     "synonyms": "[\"Synstima rotundifolia\", \"Ilex koshunensis\", \"Ilex unicanaliculata\", \"Ilex rotunda f. xanthocarpa\", \"Ilex rotunda var. sinensis\", \"Ilex sasakii\", \"Ilex rotunda var. microcarpa\", \"Ilex rotunda f. xanthocarpa\", \"Ilex microcarpa\", \"Ilex rotunda f. xanthocarpa\"]",
     "care": {
       "plant_id": "ilex_rotunda",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2891,11 +3845,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ilex rotunda"
+      ],
       "en": [
+        "Ilex rotunda",
         "Kurogane holly"
+      ],
+      "es": [
+        "Ilex rotunda"
+      ],
+      "fr": [
+        "Ilex rotunda"
+      ],
+      "it": [
+        "Ilex rotunda"
+      ],
+      "ja": [
+        "クロガネモチ"
+      ],
+      "ko": [
+        "먼나무"
+      ],
+      "nl": [
+        "Ilex rotunda"
+      ],
+      "pl": [
+        "Ilex rotunda"
+      ],
+      "pt": [
+        "Ilex rotunda"
+      ],
+      "ru": [
+        "Ilex rotunda"
+      ],
+      "zh": [
+        "鐵冬青"
       ]
     },
     "tags": [],
@@ -2907,12 +3897,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1e9394710a34c8f8547d0591cc9aedee.jpg",
-    "description": null,
+    "description": "Ilex serrata is a species in the Ilex (holly) genus and the family Aquifoliaceae. It is an evergreen shrub or small tree up to about 4.5 m high. In Japan where it naturally occurs, it is a hardy species with ovate dark green leaves, pink flowers and red berries on the female plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2923,7 +3913,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_serrata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2989,9 +3979,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex serrata"
+      ],
+      "en": [
+        "Ilex serrata"
+      ],
+      "es": [
+        "Ilex serrata"
+      ],
+      "fr": [
+        "Ilex serrata"
+      ],
+      "it": [
+        "Ilex serrata"
+      ],
+      "ja": [
+        "ウメモドキ"
+      ],
+      "ko": [
+        "낙상홍"
+      ],
+      "nl": [
+        "Ilex serrata"
+      ],
+      "pl": [
+        "Ilex serrata"
+      ],
+      "pt": [
+        "Ilex serrata"
+      ],
+      "ru": [
+        "Ilex serrata"
+      ],
+      "zh": [
+        "落霜红"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3001,7 +4030,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3017,7 +4046,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_sugerokii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3083,9 +4112,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex sugerokii"
+      ],
+      "en": [
+        "Ilex sugerokii"
+      ],
+      "es": [
+        "Ilex sugerokii"
+      ],
+      "fr": [
+        "Ilex sugerokii"
+      ],
+      "it": [
+        "Ilex sugerokii"
+      ],
+      "nl": [
+        "Ilex sugerokii"
+      ],
+      "pl": [
+        "Ilex sugerokii"
+      ],
+      "pt": [
+        "Ilex sugerokii"
+      ],
+      "ru": [
+        "Падуб Сугероки"
+      ],
+      "zh": [
+        "太平山冬青"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3095,12 +4157,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1840051d906b339df48117db0a1eb4dce51fcde0",
-    "description": null,
+    "description": "Ilex theezans, also I. theæzans and I. theazans, is a species of the genus Ilex in the family Aquifoliaceae, native to Brazil and typically found in its Atlantic Forest. It is sometimes used as an adulterant of mate and sometimes confused with the yerba mate. In Brazil, it is sometimes called orelha-de-mico; but is more often simply known as congonha (\"holly\") or caúna (along with I. dumosa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3111,7 +4173,7 @@
     "synonyms": "[\"Ilex theezans var. typica\"]",
     "care": {
       "plant_id": "ilex_theezans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3177,11 +4239,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ilex theezans"
+      ],
       "en": [
-        "Congonha"
+        "Congonha",
+        "Ilex theezans"
+      ],
+      "es": [
+        "Ilex theezans"
+      ],
+      "fr": [
+        "Ilex theezans"
+      ],
+      "it": [
+        "Ilex theezans"
+      ],
+      "nl": [
+        "Ilex theezans"
+      ],
+      "pl": [
+        "Ilex theezans"
+      ],
+      "pt": [
+        "Ilex theezans"
+      ],
+      "ru": [
+        "Ilex theezans"
       ]
     },
     "tags": [],
@@ -3193,12 +4282,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e45a1bf13c6e9905b8a29a909c44dcb0.jpg",
-    "description": null,
+    "description": "Ilex triflora is a plant in the family Aquifoliaceae, native to tropical Asia. The specific epithet triflora means 'three-flowered'.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3209,7 +4298,7 @@
     "synonyms": "[\"Ilex triflora var. horsfieldii\", \"Ilex triflora var. lobbiana\", \"Ilex fleuryana\", \"Ilex leptophylla\", \"Ilex szechwanensis f. villosa\", \"Ilex lobbiana\", \"Ilex triflora var. javensis\", \"Ilex viridis var. brevipedicellata\", \"Ilex triflora var. longifolia\", \"Ilex horsfieldii\"]",
     "care": {
       "plant_id": "ilex_triflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3275,9 +4364,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ilex triflora"
+      ],
+      "en": [
+        "Ilex triflora"
+      ],
+      "es": [
+        "Ilex triflora"
+      ],
+      "fr": [
+        "Ilex triflora"
+      ],
+      "it": [
+        "Ilex triflora"
+      ],
+      "nl": [
+        "Ilex triflora"
+      ],
+      "pl": [
+        "Ilex triflora"
+      ],
+      "pt": [
+        "Ilex triflora"
+      ],
+      "ru": [
+        "Ilex triflora"
+      ],
+      "zh": [
+        "三花冬青"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3287,7 +4409,7 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3303,7 +4425,7 @@
     "synonyms": "[\"Prinos verticillatus\", \"Ilex verticillata var. tenuifolia\", \"Ilex bronxensis\", \"Ilex verticillata f. fructuosa\", \"Ilex verticillata f. hodgdonii\", \"Ilex verticillata f. hodgdonii\", \"Ilex verticillata var. fastigiata\", \"Ilex verticillata var. cyclophylla\", \"Ilex verticillata f. chrysocarpa\", \"Ilex verticillata var. aurantiaca\"]",
     "care": {
       "plant_id": "ilex_verticillata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3334,9 +4456,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Deep shade (Less than 2 hours to no direct sunlight) | Climate: temperate",
       "tips": "Similar plants: Cornus florida",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: toxic. Parts: Aerial part. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Leaf spots and powdery mildew occasionally occur.",
         "Neutral to alkaline soils may cause chlorosis (yellowing of leaves) and even death."
@@ -3359,8 +4481,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Hedge\", \"Rain Garden\"]",
@@ -3374,11 +4496,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sommergrüne Stechpalme"
+      ],
       "en": [
-        "Black-alder"
+        "Black-alder",
+        "Ilex verticillata"
+      ],
+      "es": [
+        "Ilex verticillata"
+      ],
+      "fr": [
+        "Ilex verticillata"
+      ],
+      "it": [
+        "Ilex verticillata"
+      ],
+      "nl": [
+        "Ilex verticillata"
+      ],
+      "pl": [
+        "Ilex verticillata"
+      ],
+      "pt": [
+        "Ilex verticillata"
+      ],
+      "ru": [
+        "Падуб мутовчатый"
+      ],
+      "zh": [
+        "北美冬青"
       ]
     },
     "tags": [],
@@ -3390,12 +4542,12 @@
     "family": "Aquifoliaceae",
     "genus": "Ilex",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6af34ee34bf5aa9829bbce00381f5306625e9339",
-    "description": "1/4 inch red drupes in clusters mature in fall and persist into winter.",
+    "description": "Ilex vomitoria, commonly known as yaupon or yaupon holly, is a species of holly that is native to southeastern North America. The word yaupon was derived from the Catawban yą́pą, from yą- tree + pą leaf. Another common name, cassina, was borrowed from Timucua. The Latin name was given by early European observers who misunderstood Indigenous purification ceremonies—where vomiting was part of the ritual—and incorrectly assumed that the plant itself was emetic.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3406,7 +4558,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ilex_vomitoria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3476,11 +4628,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ilex vomitoria"
+      ],
       "en": [
+        "Ilex vomitoria",
         "Winterberry"
+      ],
+      "es": [
+        "Ilex vomitoria"
+      ],
+      "fr": [
+        "Ilex vomitoria"
+      ],
+      "it": [
+        "Ilex vomitoria"
+      ],
+      "nl": [
+        "Ilex vomitoria"
+      ],
+      "pl": [
+        "Ilex vomitoria"
+      ],
+      "pt": [
+        "Ilex vomitoria"
+      ],
+      "ru": [
+        "Ilex vomitoria"
+      ],
+      "tr": [
+        "Ilex vomitoria"
+      ],
+      "zh": [
+        "代茶冬青"
       ]
     },
     "tags": [],

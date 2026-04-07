@@ -5,12 +5,12 @@
     "family": "Crossosomataceae",
     "genus": "Crossosoma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/9773fd716e144d620644ccbae03ac94e.jpg",
-    "description": null,
+    "description": "Crossosoma bigelovii, known by the common name ragged rockflower, is one of only a few species in the flowering plant family Crossosomataceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "متصالبة بيغلوفية"
+      ],
+      "de": [
+        "Crossosoma bigelovii"
+      ],
+      "en": [
+        "Crossosoma bigelovii"
+      ],
+      "es": [
+        "Crossosoma bigelovii"
+      ],
+      "fr": [
+        "Crossosoma bigelovii"
+      ],
+      "it": [
+        "Crossosoma bigelovii"
+      ],
+      "nl": [
+        "Crossosoma bigelovii"
+      ],
+      "pl": [
+        "Crossosoma bigelovii"
+      ],
+      "pt": [
+        "Crossosoma bigelovii"
+      ],
+      "ru": [
+        "Crossosoma bigelovii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Crossosomataceae",
     "genus": "Glossopetalon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/9a262d88e1fb11fd826575a7916269f2.jpg",
-    "description": null,
+    "description": "Glossopetalon spinescens, syn. Forsellesia spinescens, is a species of flowering shrub in the family Crossosomataceae known by the common names greasebush, spiny greasebush, Nevada greasewood and spring greasebush.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Glossopetalon spinescens"
+      ],
+      "en": [
+        "Glossopetalon spinescens"
+      ],
+      "es": [
+        "Glossopetalon spinescens"
+      ],
+      "fr": [
+        "Glossopetalon spinescens"
+      ],
+      "it": [
+        "Glossopetalon spinescens"
+      ],
+      "nl": [
+        "Glossopetalon spinescens"
+      ],
+      "pl": [
+        "Glossopetalon spinescens"
+      ],
+      "pt": [
+        "Glossopetalon spinescens"
+      ],
+      "ru": [
+        "Glossopetalon spinescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

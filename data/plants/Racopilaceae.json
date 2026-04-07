@@ -5,11 +5,11 @@
     "family": "Racopilaceae",
     "genus": "Racopilum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Racopilum_Ferndale_Park.jpg",
     "description": null,
     "wikidata_id": null,
     "sources": [
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Racopilum cuspidigerum"
+      ],
+      "en": [
+        "Racopilum cuspidigerum"
+      ],
+      "es": [
+        "Racopilum cuspidigerum"
+      ],
+      "fr": [
+        "Racopilum cuspidigerum"
+      ],
+      "it": [
+        "Racopilum cuspidigerum"
+      ],
+      "nl": [
+        "Racopilum cuspidigerum"
+      ],
+      "pl": [
+        "Racopilum cuspidigerum"
+      ],
+      "pt": [
+        "Racopilum cuspidigerum"
+      ],
+      "ru": [
+        "Racopilum cuspidigerum"
+      ],
+      "zh": [
+        "薄壁卷柏藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Racopilaceae",
     "genus": "Racopilum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Racopilum tomentosum"
+      ],
+      "en": [
+        "Racopilum tomentosum"
+      ],
+      "es": [
+        "Racopilum tomentosum"
+      ],
+      "fr": [
+        "Racopilum tomentosum"
+      ],
+      "it": [
+        "Racopilum tomentosum"
+      ],
+      "nl": [
+        "Racopilum tomentosum"
+      ],
+      "pl": [
+        "Racopilum tomentosum"
+      ],
+      "pt": [
+        "Racopilum tomentosum"
+      ],
+      "ru": [
+        "Racopilum tomentosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

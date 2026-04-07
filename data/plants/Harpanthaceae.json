@@ -5,7 +5,7 @@
     "family": "Harpanthaceae",
     "genus": "Harpanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Harpanthus flotovianus"
+      ],
+      "en": [
+        "Harpanthus flotovianus"
+      ],
+      "es": [
+        "Harpanthus flotovianus"
+      ],
+      "fr": [
+        "Harpanthus flotovianus"
+      ],
+      "it": [
+        "Harpanthus flotovianus"
+      ],
+      "nl": [
+        "Harpanthus flotovianus"
+      ],
+      "pl": [
+        "Harpanthus flotovianus"
+      ],
+      "pt": [
+        "Harpanthus flotovianus"
+      ],
+      "ru": [
+        "Harpanthus flotovianus"
+      ],
+      "zh": [
+        "镰萼苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Harpanthaceae",
     "genus": "Harpanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Harpanthus scutatus is a species of liverworts belonging to the family Geocalycaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Harpanthus scutatus"
+      ],
+      "en": [
+        "Harpanthus scutatus"
+      ],
+      "es": [
+        "Harpanthus scutatus"
+      ],
+      "fr": [
+        "Harpanthus scutatus"
+      ],
+      "it": [
+        "Harpanthus scutatus"
+      ],
+      "nl": [
+        "Harpanthus scutatus"
+      ],
+      "pl": [
+        "Harpanthus scutatus"
+      ],
+      "pt": [
+        "Harpanthus scutatus"
+      ],
+      "ru": [
+        "Harpanthus scutatus"
+      ],
+      "zh": [
+        "盾叶镰萼苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

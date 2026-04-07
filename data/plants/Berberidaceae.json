@@ -87,11 +87,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Achlys triphylla"
+      ],
       "en": [
-        "Sweet after death"
+        "Achlys triphylla",
+        "Sweet after death",
+        "achlys",
+        "deer's foot",
+        "deerfoot",
+        "deervetch vanillaleaf",
+        "sweet after death",
+        "sweet-after-death",
+        "vanilla leaf",
+        "vanilla-leaf",
+        "vanillaleaf"
+      ],
+      "es": [
+        "Achlys triphylla"
+      ],
+      "fr": [
+        "Achlys triphylla"
+      ],
+      "it": [
+        "Achlys triphylla"
+      ],
+      "nl": [
+        "Achlys triphylla"
+      ],
+      "pl": [
+        "Achlys triphylla"
+      ],
+      "pt": [
+        "Achlys triphylla"
+      ],
+      "ru": [
+        "Achlys triphylla"
       ]
     },
     "tags": [],
@@ -103,7 +139,7 @@
     "family": "Berberidaceae",
     "genus": "Berberis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,7 +155,7 @@
     "synonyms": "[\"Berberis vulgaris var. amurensis\"]",
     "care": {
       "plant_id": "berberis_amurensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -192,11 +228,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Amur-Berberitze"
+      ],
       "en": [
-        "Amur barberry"
+        "Amur barberry",
+        "Berberis amurensis"
+      ],
+      "es": [
+        "Berberis amurensis"
+      ],
+      "fr": [
+        "Berberis amurensis"
+      ],
+      "it": [
+        "Berberis amurensis"
+      ],
+      "ja": [
+        "ヒロハヘビノボラズ"
+      ],
+      "ko": [
+        "매발톱나무"
+      ],
+      "nl": [
+        "Siberische zuurbes"
+      ],
+      "pl": [
+        "Berberis amurensis"
+      ],
+      "pt": [
+        "Berberis amurensis"
+      ],
+      "ru": [
+        "Барбарис амурский"
+      ],
+      "tr": [
+        "Berberis amurensis"
+      ],
+      "zh": [
+        "黄芦木"
       ]
     },
     "tags": [],
@@ -208,12 +283,12 @@
     "family": "Berberidaceae",
     "genus": "Berberis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9a3022c174ceac49994b35de20632f6ca0078262",
-    "description": "Deep dusty blue/black edible globose berries in clusters give excellent fall interest. They are less than an inch in size.",
+    "description": "Berberis aquifolium, the Oregon grape or holly-leaved barberry, is a North American species of flowering plant in the family Berberidaceae. It is an evergreen shrub growing up to 3 metres (10 ft) tall and 1.5 m (5 ft) wide. It has pinnate leaves consisting of spiny leaflets, exhibiting dense clusters of yellow flowers in early spring, followed by dark bluish-black berries.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -224,17 +299,17 @@
     "synonyms": "[\"Berberis aquifolium var. juglandifolia\", \"Berberis aquifolium var. lyallii\", \"Berberis pinnata var. hortensis\", \"Mahonia aquifolium var. nutkana\", \"Mahonia latifolia\", \"Mahonia murrayana\", \"Berberis brevipes\", \"Mahonia aquifolium var. juglandifolia\", \"Odostemon nutkanus\", \"Mahonia pinnata var. hortensis\"]",
     "care": {
       "plant_id": "berberis_aquifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -298,11 +373,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Berberis aquifolium"
+      ],
       "en": [
+        "Berberis aquifolium",
         "Mountain-grape"
+      ],
+      "es": [
+        "Berberis aquifolium"
+      ],
+      "fr": [
+        "Berberis aquifolium"
+      ],
+      "ja": [
+        "ヒイラギメギ"
+      ],
+      "nl": [
+        "Berberis aquifolium"
+      ],
+      "pl": [
+        "Berberis aquifolium"
+      ],
+      "ru": [
+        "Berberis aquifolium"
+      ],
+      "tr": [
+        "Berberis aquifolium"
       ]
     },
     "tags": [],
@@ -314,12 +416,12 @@
     "family": "Berberidaceae",
     "genus": "Berberis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b059da8478af5bee3c54ef2fe83b452a2deb1968",
-    "description": "Dark blue berry round, waxy",
+    "description": "Berberis darwinii, Darwin's barberry, is a species of flowering plant in the family Berberidaceae. It is native to southern Chile and Argentina and naturalized elsewhere. Regional vernacular names include michay, calafate, and quelung. Growing to 3–4 m (9.8–13.1 ft) tall, it is an evergreen thorny shrub.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -330,13 +432,13 @@
     "synonyms": "[\"Mahonia knightii\", \"Berberis knightii\", \"Berberis costulata\", \"Berberis darwinii var. pendula\", \"Berberis darwinii var. magellanica\"]",
     "care": {
       "plant_id": "berberis_darwinii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
       "ppfd_min": 46,
       "ppfd_max": 92,
       "dli_min": 0.2,
@@ -402,11 +504,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "برباريس دارويني"
+      ],
+      "de": [
+        "Darwins Berberitze"
+      ],
       "en": [
+        "Berberis darwinii",
         "Darwin's barberry"
+      ],
+      "es": [
+        "Berberis darwinii"
+      ],
+      "fr": [
+        "Berberis darwinii"
+      ],
+      "it": [
+        "Berberis darwinii"
+      ],
+      "nl": [
+        "Berberis darwinii"
+      ],
+      "pl": [
+        "Berberis darwinii"
+      ],
+      "pt": [
+        "Berberis darwinii"
+      ],
+      "ru": [
+        "Барбарис Дарвина"
+      ],
+      "tr": [
+        "Berberis darwinii"
+      ],
+      "zh": [
+        "達爾文小蘗"
       ]
     },
     "tags": [],
@@ -418,12 +556,12 @@
     "family": "Berberidaceae",
     "genus": "Berberis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7c6149392e03e623d3eb4bbf6024f25a33d7bb2d",
-    "description": ".3-in., oval, bluish-black fruit that persists into fall.",
+    "description": "Berberis julianae, the wintergreen barberry or Chinese barberry, is a flowering evergreen shrub native to Central China. It is widely grown as an ornamental in other temperate regions. It is reportedly naturalized in scattered parts of the United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -434,7 +572,7 @@
     "synonyms": "[\"Berberis zanlanscianensis\", \"Berberis julianae var. patungensis\", \"Berberis julianae var. oblongifolia\"]",
     "care": {
       "plant_id": "berberis_julianae",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -507,11 +645,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Julianes Berberitze"
+      ],
       "en": [
+        "Berberis julianae",
         "Chinese barberry"
+      ],
+      "es": [
+        "Berberis julianae"
+      ],
+      "fr": [
+        "Berberis julianae"
+      ],
+      "it": [
+        "Berberis julianae"
+      ],
+      "nl": [
+        "Berberis julianae"
+      ],
+      "pl": [
+        "Berberys Julianny"
+      ],
+      "pt": [
+        "Berberis julianae"
+      ],
+      "ru": [
+        "Berberis julianae"
+      ],
+      "tr": [
+        "Berberis julianae"
+      ],
+      "zh": [
+        "豪猪刺"
       ]
     },
     "tags": [],
@@ -523,12 +694,12 @@
     "family": "Berberidaceae",
     "genus": "Berberis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9d944567b11c298fcd9b1586994c100427c7bd1e",
-    "description": "Barberry fruits are small berries, usually bluish or purple covered with a waxy bloom.",
+    "description": "Berberis microphylla, common name box-leaved barberry and Magellan barberry, in Spanish calafate and michay and other names, is an evergreen shrub, with simple, shiny box-like leaves. The calafate is native to southern Argentina and Chile and is a symbol of Patagonia.\nBerberis microphylla should not be confused with Mahonia microphylla, native to China.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -539,7 +710,7 @@
     "synonyms": "[\"Berberis buxifolia var. nuda\", \"Berberis buxifolia f. nana\", \"Berberis buxifolia f. pygmaea\", \"Berberis parodii\", \"Berberis tricuspidata\", \"Berberis buxifolia var. gracilior\", \"Berberis buxifolia var. antarctica\", \"Berberis antucoana\", \"Berberis buxifolia var. microphylla\", \"Berberis pygmaea\"]",
     "care": {
       "plant_id": "berberis_microphylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -612,9 +783,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Buchsblättrige Berberitze"
+      ],
+      "en": [
+        "Berberis microphylla"
+      ],
+      "es": [
+        "Berberis microphylla"
+      ],
+      "fr": [
+        "Berbéris à feuilles de buis"
+      ],
+      "it": [
+        "Berberis buxifolia"
+      ],
+      "nl": [
+        "Berberis microphylla"
+      ],
+      "pl": [
+        "Berberys bukszpanolistny"
+      ],
+      "pt": [
+        "Calafate-da-patagônia"
+      ],
+      "ru": [
+        "Барбарис самшитолистный"
+      ],
+      "tr": [
+        "Berberis microphylla"
+      ],
+      "zh": [
+        "麥哲倫小檗"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -624,7 +831,7 @@
     "family": "Berberidaceae",
     "genus": "Berberis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -640,13 +847,13 @@
     "synonyms": "[\"Berberis thunbergii f. minor\", \"Berberis thunbergii var. pluriflora\", \"Berberis thunbergii f. atropurpurea\", \"Berberis thunbergii var. rubrifolia\", \"Berberis thunbergii f. pluriflora\", \"Berberis thunbergii var. minor\", \"Berberis thunbergii f. grandiflora\", \"Berberis thunbergii f. microcarpa\", \"Berberis thunbergii f. obovata\", \"Berberis thunbergii f. trispinosa\"]",
     "care": {
       "plant_id": "berberis_thunbergii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
       "ppfd_min": 46,
       "ppfd_max": 92,
       "dli_min": 0.2,
@@ -713,11 +920,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Thunberg-Berberitze"
+      ],
       "en": [
+        "Berberis thunbergii",
         "Thunberg's barberry"
+      ],
+      "es": [
+        "Berberis thunbergii"
+      ],
+      "fr": [
+        "Berberis thunbergii"
+      ],
+      "it": [
+        "Berberis thunbergii"
+      ],
+      "ja": [
+        "メギ"
+      ],
+      "nl": [
+        "Japanse berberis"
+      ],
+      "pl": [
+        "Berberys Thunberga"
+      ],
+      "pt": [
+        "Berberis thunbergii"
+      ],
+      "ru": [
+        "Барбарис Тунберга"
+      ],
+      "tr": [
+        "Berberis thunbergii"
+      ],
+      "zh": [
+        "日本小檗"
       ]
     },
     "tags": [],
@@ -729,12 +972,12 @@
     "family": "Berberidaceae",
     "genus": "Berberis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9f3aa4bae32331a3e64af9a2df48c50bf5f81b71",
-    "description": "Red ellipsoids 1/3 of an inch with 1 to 3 small black seeds. Berries red or purple, juicy and solid",
+    "description": "Berberis vulgaris, also known as common barberry, European barberry or simply barberry, is a shrub in the genus Berberis native to the Old World. It produces edible but sharply acidic berries, which people in many countries eat as a tart and refreshing fruit.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -745,13 +988,13 @@
     "synonyms": "[\"Berberis racemosa\"]",
     "care": {
       "plant_id": "berberis_vulgaris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 57,
       "ppfd_max": 104,
       "dli_min": 0.2,
@@ -776,9 +1019,9 @@
       "watering_guide": "Propagation: Seed",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Berberis julianae | Native to: NCS ST, NWY OO, MNT OO, SIC MA, UKR MO",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Root (or whole plant without fruit). (Source: TPPT/Agroscope)",
       "common_problems": [
         "Check plants from April to October, and if you spot an infestation, organic and non-organic sprays are available, but tend to be more effective on young larvae",
         "\"}},{\"type\":\"highlight-box\",\"data\":{\"content\":\""
@@ -803,8 +1046,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Arching",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Root (or whole plant without fruit)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Flowers are used as a dye.\"]",
@@ -818,11 +1061,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "ar": [
+        "شجيرة البرباريس"
+      ],
+      "de": [
+        "Berberitze"
+      ],
       "en": [
+        "Berberis vulgaris",
         "European barberry"
+      ],
+      "es": [
+        "Berberis vulgaris"
+      ],
+      "fr": [
+        "Épine-vinette"
+      ],
+      "it": [
+        "Berberis vulgaris"
+      ],
+      "ja": [
+        "セイヨウメギ"
+      ],
+      "nl": [
+        "Zuurbes"
+      ],
+      "pl": [
+        "berberys pospolity"
+      ],
+      "pt": [
+        "Berberis vulgaris"
+      ],
+      "ru": [
+        "Барбарис обыкновенный"
+      ],
+      "tr": [
+        "Adi kadıntuzluğu"
+      ],
+      "zh": [
+        "刺小檗"
       ]
     },
     "tags": [],
@@ -834,12 +1116,12 @@
     "family": "Berberidaceae",
     "genus": "Caulophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Caulophyllum giganteum, the northern blue cohosh, is a species of flowering plant in the barberry family. It is native primarily to northeastern North America, where it is found in rich forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -916,9 +1198,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Caulophyllum giganteum"
+      ],
+      "en": [
+        "Caulophyllum giganteum"
+      ],
+      "es": [
+        "Caulophyllum giganteum"
+      ],
+      "fr": [
+        "Caulophyllum giganteum"
+      ],
+      "it": [
+        "Caulophyllum giganteum"
+      ],
+      "nl": [
+        "Caulophyllum giganteum"
+      ],
+      "pl": [
+        "Caulophyllum giganteum"
+      ],
+      "pt": [
+        "Caulophyllum giganteum"
+      ],
+      "ru": [
+        "Caulophyllum giganteum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -928,7 +1240,7 @@
     "family": "Berberidaceae",
     "genus": "Caulophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1010,9 +1322,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Caulophyllum robustum"
+      ],
+      "en": [
+        "Caulophyllum robustum"
+      ],
+      "es": [
+        "Caulophyllum robustum"
+      ],
+      "fr": [
+        "Caulophyllum robustum"
+      ],
+      "it": [
+        "Caulophyllum robustum"
+      ],
+      "ja": [
+        "ルイヨウボタン"
+      ],
+      "nl": [
+        "Caulophyllum robustum"
+      ],
+      "pl": [
+        "Caulophyllum robustum"
+      ],
+      "pt": [
+        "Caulophyllum robustum"
+      ],
+      "ru": [
+        "Стеблелист мощный"
+      ],
+      "zh": [
+        "红毛七"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1022,7 +1370,7 @@
     "family": "Berberidaceae",
     "genus": "Caulophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1110,11 +1458,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Caulophyllum thalictroides"
+      ],
       "en": [
+        "Caulophyllum thalictroides",
         "Papooseroot"
+      ],
+      "es": [
+        "Caulophyllum thalictroides"
+      ],
+      "fr": [
+        "Caulophyllum thalictroides"
+      ],
+      "it": [
+        "Caulophyllum thalictroides"
+      ],
+      "ja": [
+        "ブルーコーッシュ"
+      ],
+      "nl": [
+        "Caulophyllum thalictroides"
+      ],
+      "pl": [
+        "Caulophyllum thalictroides"
+      ],
+      "pt": [
+        "Caulophyllum thalictroides"
+      ],
+      "ru": [
+        "Caulophyllum thalictroides"
       ]
     },
     "tags": [],
@@ -1126,12 +1504,12 @@
     "family": "Berberidaceae",
     "genus": "Epimedium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4b092ccc3a7fbc9b31519a2cf41605663fe08c47",
-    "description": null,
+    "description": "Epimedium alpinum, the alpine barrenwort, is a species of flowering plant in the genus Epimedium, native to the mountains of Italy, Austria, the former Yugoslavia, and Albania, and introduced into central Europe. A dwarf perennial suitable for rock gardens, it was jocularly said by John Lindley to be \"known only in the gardens of botanists\". Its hybrid with E. grandiflorum, Epimedium × rubrum, has gained the Royal Horticultural Society's Award of Garden Merit.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1147,12 +1525,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1208,11 +1586,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "أبيمديون ألبي"
+      ],
+      "de": [
+        "Alpen-Sockenblume"
+      ],
       "en": [
-        "Barrenwort"
+        "Barrenwort",
+        "Epimedium alpinum"
+      ],
+      "es": [
+        "Epimedium alpinum"
+      ],
+      "fr": [
+        "Epimedium alpinum"
+      ],
+      "it": [
+        "Epimedium alpinum"
+      ],
+      "nl": [
+        "Elfenbloempje"
+      ],
+      "pl": [
+        "Epimedium alpinum"
+      ],
+      "pt": [
+        "Epimedium alpinum"
+      ],
+      "ru": [
+        "Эпимедиум альпийский"
+      ],
+      "zh": [
+        "高山淫羊藿"
       ]
     },
     "tags": [],
@@ -1224,12 +1635,12 @@
     "family": "Berberidaceae",
     "genus": "Epimedium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/916781fb718d90b6b0897ddab83c74237f3db7bb",
-    "description": null,
+    "description": "Epimedium grandiflorum, the large flowered barrenwort, or bishop's hat, is a species of flowering plant in the family Berberidaceae, native to Japan and Korea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1306,11 +1717,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أبيمديون كبير الأزهار"
+      ],
+      "de": [
+        "Epimedium grandiflorum"
+      ],
       "en": [
-        "Barrenwort"
+        "Barrenwort",
+        "Epimedium grandiflorum"
+      ],
+      "es": [
+        "Epimedium grandiflorum"
+      ],
+      "fr": [
+        "Epimedium grandiflorum"
+      ],
+      "it": [
+        "Epimedium grandiflorum"
+      ],
+      "ja": [
+        "イカリソウ"
+      ],
+      "nl": [
+        "Epimedium grandiflorum"
+      ],
+      "pl": [
+        "Epimedium wielkokwiatowe"
+      ],
+      "pt": [
+        "Epimedium grandiflorum"
+      ],
+      "ru": [
+        "Эпимедиум крупноцветковый"
+      ],
+      "tr": [
+        "Epimedium grandiflorum"
+      ],
+      "zh": [
+        "碇草"
       ]
     },
     "tags": [],
@@ -1322,7 +1772,7 @@
     "family": "Berberidaceae",
     "genus": "Gymnosporia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1404,9 +1854,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gymnosporia undata"
+      ],
+      "en": [
+        "Gymnosporia undata"
+      ],
+      "es": [
+        "Gymnosporia undata"
+      ],
+      "fr": [
+        "Gymnosporia undata"
+      ],
+      "it": [
+        "Gymnosporia undata"
+      ],
+      "nl": [
+        "Gymnosporia undata"
+      ],
+      "pl": [
+        "Gymnosporia undata"
+      ],
+      "pt": [
+        "Gymnosporia undata"
+      ],
+      "ru": [
+        "Gymnosporia undata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1416,12 +1896,12 @@
     "family": "Berberidaceae",
     "genus": "Jeffersonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4f16384b440f552217ec912ca6bce123afef01de",
-    "description": "Produces a yellow pod with brown seeds in the month of May.",
+    "description": "Jeffersonia, also known as twinleaf or rheumatism root, is a small genus of herbaceous perennial plants in the family Berberidaceae. They are uncommon spring wildflowers and grow in limestone soils of rich deciduous forests. Jeffersonia was named for United States President Thomas Jefferson by his contemporary Benjamin Smith Barton. This genus was formerly grouped in genus Podophyllum.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1498,11 +1978,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Jeffersonia diphylla"
+      ],
       "en": [
+        "Jeffersonia diphylla",
         "Rheumatism-root"
+      ],
+      "es": [
+        "Jeffersonia diphylla"
+      ],
+      "fr": [
+        "Jeffersonia diphylla"
+      ],
+      "it": [
+        "Jeffersonia diphylla"
+      ],
+      "nl": [
+        "Jeffersonia diphylla"
+      ],
+      "pl": [
+        "Jeffersonia diphylla"
+      ],
+      "pt": [
+        "Jeffersonia diphylla"
+      ],
+      "ru": [
+        "Jeffersonia diphylla"
+      ],
+      "zh": [
+        "二叶鲜黄连"
       ]
     },
     "tags": [],
@@ -1514,7 +2024,7 @@
     "family": "Berberidaceae",
     "genus": "Nandina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1602,11 +2112,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ناندين مستأنس"
+      ],
+      "de": [
+        "Himmelsbambus"
+      ],
       "en": [
-        "Chinese-bamboo"
+        "Chinese-bamboo",
+        "Nandina domestica"
+      ],
+      "es": [
+        "Nandina"
+      ],
+      "fr": [
+        "Nandina domestica"
+      ],
+      "it": [
+        "Nandina domestica"
+      ],
+      "ja": [
+        "ナンテン"
+      ],
+      "ko": [
+        "남천"
+      ],
+      "nl": [
+        "Nandina domestica"
+      ],
+      "pl": [
+        "Nandina domowa"
+      ],
+      "pt": [
+        "Nandina"
+      ],
+      "ru": [
+        "Нандина"
+      ],
+      "zh": [
+        "南天竹"
       ]
     },
     "tags": [],
@@ -1618,7 +2167,7 @@
     "family": "Berberidaceae",
     "genus": "Podophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1666,7 +2215,7 @@
       "light_guide": "NC State: Deep shade (Less than 2 hours to no direct sunlight)",
       "tips": "Similar plants: Actaea pachypoda",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs, Toxic to Cats, Toxic to Horses. Signs: Vomiting, diarrhea, lethargy, panting, coma (rare); dermal - redness, skin ulcers.",
       "common_problems": [
         "The Mayapple has no serious insect or disease problems.",
@@ -1690,7 +2239,7 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
+      "toxic_parts": "Whole plant",
       "toxicity_severity": "Moderate",
       "toxicity_symptoms": "Vomiting, diarrhea, lethargy, panting, coma (rare); dermal - redness, skin ulcers.",
       "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
@@ -1705,11 +2254,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "تفاح مايو"
+      ],
+      "de": [
+        "Schildförmiges Fußblatt"
+      ],
       "en": [
-        "Mayapple"
+        "Mayapple",
+        "Podophyllum peltatum"
+      ],
+      "es": [
+        "Podophyllum peltatum"
+      ],
+      "fr": [
+        "Podophylle pelté"
+      ],
+      "it": [
+        "Podophyllum peltatum"
+      ],
+      "ja": [
+        "ポドフィルム"
+      ],
+      "nl": [
+        "Podophyllum peltatum"
+      ],
+      "pl": [
+        "Stopkowiec tarczowaty"
+      ],
+      "pt": [
+        "Podophyllum peltatum"
+      ],
+      "ru": [
+        "Подофилл щитовидный"
+      ],
+      "tr": [
+        "Podophyllum peltatum"
+      ],
+      "zh": [
+        "北美桃儿七"
       ]
     },
     "tags": [],
@@ -1721,12 +2309,12 @@
     "family": "Berberidaceae",
     "genus": "Vancouveria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/15cf3a445db5011e85589edddd53174e8763db70",
-    "description": null,
+    "description": "Vancouveria hexandra, known as northern inside-out flower, white inside-out flower, or duckfoot, is a perennial herb in the barberry family, Berberidaceae. It has small white flowers and is found in western North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1803,11 +2391,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Vancouveria hexandra"
+      ],
       "en": [
-        "Northern inside-out-flower"
+        "Northern inside-out-flower",
+        "Vancouveria hexandra"
+      ],
+      "es": [
+        "Vancouveria hexandra"
+      ],
+      "fr": [
+        "Vancouveria hexandra"
+      ],
+      "it": [
+        "Vancouveria hexandra"
+      ],
+      "nl": [
+        "Vancouveria hexandra"
+      ],
+      "pl": [
+        "Vancouveria hexandra"
+      ],
+      "pt": [
+        "Vancouveria hexandra"
+      ],
+      "ru": [
+        "Vancouveria hexandra"
       ]
     },
     "tags": [],

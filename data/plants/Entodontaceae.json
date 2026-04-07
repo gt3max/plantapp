@@ -5,12 +5,12 @@
     "family": "Entodontaceae",
     "genus": "Entodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Entodon concinnus is a species of moss belonging to the family Entodontaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Entodon concinnus"
+      ],
+      "en": [
+        "Entodon concinnus"
+      ],
+      "es": [
+        "Entodon concinnus"
+      ],
+      "fr": [
+        "Entodon concinnus"
+      ],
+      "it": [
+        "Entodon concinnus"
+      ],
+      "nl": [
+        "Entodon concinnus"
+      ],
+      "pl": [
+        "Entodon concinnus"
+      ],
+      "pt": [
+        "Entodon concinnus"
+      ],
+      "ru": [
+        "Entodon concinnus"
+      ],
+      "zh": [
+        "厚角绢藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Entodontaceae",
     "genus": "Entodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Entodon seductrix, known as the seductive entodon moss or round-stem silk moss, is a species of Entodontaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Entodon seductrix"
+      ],
+      "en": [
+        "Entodon seductrix"
+      ],
+      "es": [
+        "Entodon seductrix"
+      ],
+      "fr": [
+        "Entodon seductrix"
+      ],
+      "it": [
+        "Entodon seductrix"
+      ],
+      "nl": [
+        "Entodon seductrix"
+      ],
+      "pl": [
+        "Entodon seductrix"
+      ],
+      "pt": [
+        "Entodon seductrix"
+      ],
+      "ru": [
+        "Entodon seductrix"
+      ],
+      "zh": [
+        "兜叶绢藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +259,7 @@
     "family": "Entodontaceae",
     "genus": "Erythrodontium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +341,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Erythrodontium longisetum"
+      ],
+      "en": [
+        "Erythrodontium longisetum"
+      ],
+      "es": [
+        "Erythrodontium longisetum"
+      ],
+      "fr": [
+        "Erythrodontium longisetum"
+      ],
+      "it": [
+        "Erythrodontium longisetum"
+      ],
+      "nl": [
+        "Erythrodontium longisetum"
+      ],
+      "pl": [
+        "Erythrodontium longisetum"
+      ],
+      "pt": [
+        "Erythrodontium longisetum"
+      ],
+      "ru": [
+        "Erythrodontium longisetum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

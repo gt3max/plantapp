@@ -5,12 +5,12 @@
     "family": "Tetrachondraceae",
     "genus": "Polypremum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d488c66d2d958a84703daa2f24518665ff9d6d3a",
-    "description": null,
+    "description": "Polypremum is a flowering plant genus in the family Tetrachondraceae. The genus contains the single species Polypremum procumbens, commonly known as juniperleaf or rustweed. Polypremum has also been placed in the various families Buddlejaceae, Loganiaceae, Rubiaceae, and most recently in its own Polypremaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Polypremum procumbens"
+      ],
       "en": [
+        "Polypremum procumbens",
         "Rustweed"
+      ],
+      "es": [
+        "Polypremum procumbens"
+      ],
+      "fr": [
+        "Polypremum procumbens"
+      ],
+      "it": [
+        "Polypremum procumbens"
+      ],
+      "nl": [
+        "Polypremum procumbens"
+      ],
+      "pl": [
+        "Polypremum procumbens"
+      ],
+      "pt": [
+        "Polypremum procumbens"
+      ],
+      "ru": [
+        "Polypremum procumbens"
       ]
     },
     "tags": [],

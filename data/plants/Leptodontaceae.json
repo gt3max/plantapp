@@ -5,7 +5,7 @@
     "family": "Leptodontaceae",
     "genus": "Forsstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Forsstroemia trichomitria"
+      ],
+      "en": [
+        "Forsstroemia trichomitria"
+      ],
+      "es": [
+        "Forsstroemia trichomitria"
+      ],
+      "fr": [
+        "Forsstroemia trichomitria"
+      ],
+      "it": [
+        "Forsstroemia trichomitria"
+      ],
+      "nl": [
+        "Forsstroemia trichomitria"
+      ],
+      "pl": [
+        "Forsstroemia trichomitria"
+      ],
+      "pt": [
+        "Forsstroemia trichomitria"
+      ],
+      "ru": [
+        "Forsstroemia trichomitria"
+      ],
+      "zh": [
+        "殘齒蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Leptodontaceae",
     "genus": "Leptodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Leptodon smithii"
+      ],
+      "en": [
+        "Leptodon smithii"
+      ],
+      "es": [
+        "Leptodon smithii"
+      ],
+      "fr": [
+        "Leptodon smithii"
+      ],
+      "it": [
+        "Leptodon smithii"
+      ],
+      "nl": [
+        "Leptodon smithii"
+      ],
+      "pl": [
+        "Leptodon smithii"
+      ],
+      "pt": [
+        "Leptodon smithii"
+      ],
+      "ru": [
+        "Leptodon smithii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

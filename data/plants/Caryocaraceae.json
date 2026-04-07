@@ -5,12 +5,12 @@
     "family": "Caryocaraceae",
     "genus": "Caryocar",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d3807e8c199352317208fc4e882c7c4e05dc6c56",
-    "description": null,
+    "description": "Caryocar glabrum is a species of tree in the family Caryocaraceae. It is native to South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كاريوكار أجرد"
+      ],
+      "de": [
+        "Caryocar glabrum"
+      ],
       "en": [
-        "Bat's souari"
+        "Bat's souari",
+        "Caryocar glabrum"
+      ],
+      "es": [
+        "Caryocar glabrum"
+      ],
+      "fr": [
+        "Caryocar glabrum"
+      ],
+      "it": [
+        "Caryocar glabrum"
+      ],
+      "ko": [
+        "카리오카르 글라브룸"
+      ],
+      "nl": [
+        "Caryocar glabrum"
+      ],
+      "pl": [
+        "Caryocar glabrum"
+      ],
+      "pt": [
+        "Caryocar glabrum"
+      ],
+      "ru": [
+        "Caryocar glabrum"
       ]
     },
     "tags": [],
@@ -103,7 +136,7 @@
     "family": "Caryocaraceae",
     "genus": "Caryocar",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,9 +218,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Caryocar microcarpum"
+      ],
+      "en": [
+        "Caryocar microcarpum"
+      ],
+      "es": [
+        "Caryocar microcarpum"
+      ],
+      "fr": [
+        "Caryocar microcarpum"
+      ],
+      "it": [
+        "Caryocar microcarpum"
+      ],
+      "nl": [
+        "Caryocar microcarpum"
+      ],
+      "pl": [
+        "Caryocar microcarpum"
+      ],
+      "pt": [
+        "Caryocar microcarpum"
+      ],
+      "ru": [
+        "Caryocar microcarpum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

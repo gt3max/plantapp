@@ -5,12 +5,12 @@
     "family": "Cannaceae",
     "genus": "Canna",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/fe63592e4d813439e591b623b966fe02dee919cc",
-    "description": "Prickly 3-parted capsule",
+    "description": "Canna glauca is a species of the Canna genus, a member of the family Cannaceae. It is commonly known as water canna or Louisiana canna. It is native to the wetlands of tropical America and was introduced to England in 1730. It is also reportedly naturalized in Sri Lanka, Thailand, Vietnam, Java and the Philippines.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -91,11 +91,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Canna glauca"
+      ],
       "en": [
+        "Canna glauca",
         "Louisiana canna"
+      ],
+      "es": [
+        "Canna glauca"
+      ],
+      "fr": [
+        "Canna glauca"
+      ],
+      "it": [
+        "Canna glauca"
+      ],
+      "nl": [
+        "Canna glauca"
+      ],
+      "pl": [
+        "Canna glauca"
+      ],
+      "pt": [
+        "Canna glauca L."
+      ],
+      "ru": [
+        "Canna glauca"
+      ],
+      "zh": [
+        "粉美人蕉"
       ]
     },
     "tags": [],
@@ -107,12 +137,12 @@
     "family": "Cannaceae",
     "genus": "Canna",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/71738762b93bb9e6e465fe11cb27ce5851b455f9",
-    "description": "The fruit is an ellipsoid or globose chestnut-colored capsule that is covered with soft spines. The fruit measures 0.5 to 1 inch in diameter. The capsules contain a large amount of hard black seeds that are 0.2 inches in diameter.",
+    "description": "Canna indica, commonly known as Indian shot, African arrowroot, edible canna, purple arrowroot, Sierra Leone arrowroot, is a plant species in the family Cannaceae. It is native to the Americas and naturalized elsewhere. The edible rhizomes are a source of starch.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -189,11 +219,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قنا هندي"
+      ],
+      "de": [
+        "Indisches Blumenrohr"
+      ],
       "en": [
-        "African arrowroot"
+        "African arrowroot",
+        "Canna indica"
+      ],
+      "es": [
+        "Canna indica"
+      ],
+      "fr": [
+        "Canna indica"
+      ],
+      "hi": [
+        "कर्दळ"
+      ],
+      "it": [
+        "Canna indica"
+      ],
+      "ja": [
+        "ダンドク"
+      ],
+      "nl": [
+        "Canna indica"
+      ],
+      "pl": [
+        "paciorecznik indyjski"
+      ],
+      "pt": [
+        "Canna indica"
+      ],
+      "ru": [
+        "Канна индийская"
+      ],
+      "zh": [
+        "美人蕉"
       ]
     },
     "tags": [],

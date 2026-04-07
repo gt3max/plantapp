@@ -5,12 +5,12 @@
     "family": "Ulmaceae",
     "genus": "Planera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f1928fbbe11a7b43f0c936301b243aee.jpg",
-    "description": "The 1/2 inch fruit is a stalked leathery drupe with fleshy burr-like projections.",
+    "description": "Planera aquatica, the planertree or water elm, is a species of flowering plant. Found in the southeastern United States, it is a small deciduous tree 10–15 m tall, closely related to the elms but with a softly, prickly nut 10–15 mm diameter, instead of a winged seed. It grows, as the name suggests, on wet sites. Despite its common English name, this species is not a true elm, although it is a close relative of the elms.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,9 +21,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "planera_aquatica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "دردار المياه"
+      ],
+      "de": [
+        "Planera aquatica"
+      ],
+      "en": [
+        "Planera aquatica"
+      ],
+      "es": [
+        "Planera aquatica"
+      ],
+      "fr": [
+        "Planera aquatica"
+      ],
+      "it": [
+        "Planera aquatica"
+      ],
+      "nl": [
+        "Planera aquatica"
+      ],
+      "pl": [
+        "Planera aquatica"
+      ],
+      "pt": [
+        "Planera aquatica"
+      ],
+      "ru": [
+        "Планера водная"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -120,12 +153,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -186,11 +219,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "دردار جناحي"
+      ],
+      "de": [
+        "Ulmus alata"
+      ],
       "en": [
+        "Ulmus alata",
         "Wahoo elm"
+      ],
+      "es": [
+        "Ulmus alata"
+      ],
+      "fr": [
+        "Ulmus alata"
+      ],
+      "it": [
+        "Ulmus alata"
+      ],
+      "nl": [
+        "Ulmus alata"
+      ],
+      "pl": [
+        "Ulmus alata"
+      ],
+      "pt": [
+        "Ulmus alata"
+      ],
+      "ru": [
+        "Ulmus alata"
+      ],
+      "tr": [
+        "Ulmus alata"
+      ],
+      "zh": [
+        "翼葉榆"
       ]
     },
     "tags": [],
@@ -202,7 +271,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -223,12 +292,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -291,11 +360,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "دردار أميركي"
+      ],
+      "de": [
+        "Amerikanische Ulme"
+      ],
       "en": [
-        "American elm"
+        "American elm",
+        "Ulmus americana"
+      ],
+      "es": [
+        "olmo americano"
+      ],
+      "fr": [
+        "Orme d'Amérique"
+      ],
+      "it": [
+        "Ulmus americana"
+      ],
+      "ja": [
+        "アメリカニレ"
+      ],
+      "nl": [
+        "Ulmus americana"
+      ],
+      "pl": [
+        "Ulmus americana"
+      ],
+      "pt": [
+        "Ulmus americana"
+      ],
+      "ru": [
+        "Вяз американский"
+      ],
+      "tr": [
+        "Amerika karaağacı"
+      ],
+      "zh": [
+        "美国榆"
       ]
     },
     "tags": [],
@@ -307,7 +415,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -328,12 +436,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -389,11 +497,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "دردار سميك الأوراق"
+      ],
+      "de": [
+        "Ulmus crassifolia"
+      ],
       "en": [
-        "Basket elm"
+        "Basket elm",
+        "Ulmus crassifolia"
+      ],
+      "es": [
+        "Ulmus crassifolia"
+      ],
+      "fr": [
+        "Ulmus crassifolia"
+      ],
+      "it": [
+        "Ulmus crassifolia"
+      ],
+      "nl": [
+        "Ulmus crassifolia"
+      ],
+      "pl": [
+        "Ulmus crassifolia"
+      ],
+      "pt": [
+        "Ulmus crassifolia"
+      ],
+      "ru": [
+        "Ulmus crassifolia"
+      ],
+      "tr": [
+        "Ulmus crassifolia"
       ]
     },
     "tags": [],
@@ -405,7 +546,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -426,12 +567,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -487,11 +628,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "دردار دوادياني"
+      ],
+      "de": [
+        "Ulmus davidiana"
+      ],
       "en": [
-        "Japanese elm"
+        "Japanese elm",
+        "Ulmus davidiana"
+      ],
+      "es": [
+        "Ulmus davidiana"
+      ],
+      "fr": [
+        "Ulmus davidiana"
+      ],
+      "it": [
+        "Ulmus davidiana"
+      ],
+      "ko": [
+        "당느릅나무"
+      ],
+      "nl": [
+        "Ulmus davidiana"
+      ],
+      "pl": [
+        "Ulmus davidiana"
+      ],
+      "pt": [
+        "Ulmus davidiana"
+      ],
+      "ru": [
+        "Ulmus davidiana"
+      ],
+      "tr": [
+        "Ulmus davidiana"
+      ],
+      "zh": [
+        "黑榆"
       ]
     },
     "tags": [],
@@ -503,7 +683,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -521,15 +701,15 @@
       "plant_id": "ulmus_glabra",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -585,11 +765,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.7
     },
     "common_names": {
+      "ar": [
+        "دردار أجرد"
+      ],
+      "de": [
+        "Bergulme"
+      ],
       "en": [
+        "Ulmus glabra",
         "Wych elm"
+      ],
+      "es": [
+        "Ulmus glabra"
+      ],
+      "fr": [
+        "Orme de montagne"
+      ],
+      "it": [
+        "Ulmus glabra"
+      ],
+      "ja": [
+        "セイヨウハルニレ"
+      ],
+      "nl": [
+        "ruwe iep"
+      ],
+      "pl": [
+        "Wiąz górski"
+      ],
+      "pt": [
+        "Ulmus glabra"
+      ],
+      "ru": [
+        "Вяз шершавый"
+      ],
+      "tr": [
+        "dağ karaağacı"
+      ],
+      "zh": [
+        "欧洲山榆"
       ]
     },
     "tags": [],
@@ -601,7 +820,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -683,9 +902,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "دردار شريطي"
+      ],
+      "de": [
+        "Ulmus laciniata"
+      ],
+      "en": [
+        "Ulmus laciniata"
+      ],
+      "es": [
+        "Ulmus laciniata"
+      ],
+      "fr": [
+        "Ulmus laciniata"
+      ],
+      "it": [
+        "Ulmus laciniata"
+      ],
+      "ja": [
+        "オヒョウ"
+      ],
+      "nl": [
+        "Ulmus laciniata"
+      ],
+      "pl": [
+        "Ulmus laciniata"
+      ],
+      "pt": [
+        "Ulmus laciniata"
+      ],
+      "ru": [
+        "Вяз разрезной"
+      ],
+      "tr": [
+        "Mançurya karaağacı"
+      ],
+      "zh": [
+        "裂叶榆"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -695,7 +956,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -711,17 +972,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ulmus_laevis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -777,11 +1038,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 4.5
     },
     "common_names": {
+      "ar": [
+        "دردار خفيف"
+      ],
+      "de": [
+        "Flatterulme"
+      ],
       "en": [
-        "Russian elm"
+        "Russian elm",
+        "Ulmus laevis"
+      ],
+      "es": [
+        "Ulmus laevis"
+      ],
+      "fr": [
+        "Ulmus laevis"
+      ],
+      "it": [
+        "Ulmus laevis"
+      ],
+      "ja": [
+        "ヨーロッパの白いニレ"
+      ],
+      "nl": [
+        "Fladderiep"
+      ],
+      "pl": [
+        "Wiąz szypułkowy"
+      ],
+      "pt": [
+        "Ulmus laevis"
+      ],
+      "ru": [
+        "вяз гладкий"
+      ],
+      "tr": [
+        "Hercai karaağaç"
+      ],
+      "zh": [
+        "欧洲白榆"
       ]
     },
     "tags": [],
@@ -793,7 +1093,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -814,12 +1114,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -875,11 +1175,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "دردار أصغر"
+      ],
+      "de": [
+        "Feldulme"
+      ],
       "en": [
-        "European field elm"
+        "European field elm",
+        "Ulmus minor"
+      ],
+      "es": [
+        "Ulmus minor"
+      ],
+      "fr": [
+        "Ulmus minor"
+      ],
+      "it": [
+        "Ulmus minor"
+      ],
+      "ja": [
+        "ヨーロッパニレ"
+      ],
+      "nl": [
+        "gladde iep"
+      ],
+      "pl": [
+        "Wiąz pospolity"
+      ],
+      "pt": [
+        "negrilho"
+      ],
+      "ru": [
+        "Вяз малый"
+      ],
+      "tr": [
+        "Ova karaağacı"
+      ],
+      "zh": [
+        "歐洲野榆"
       ]
     },
     "tags": [],
@@ -891,7 +1230,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -912,12 +1251,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -973,11 +1312,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "دردار صغير الأوراق"
+      ],
+      "de": [
+        "Chinesische Ulme"
+      ],
       "en": [
-        "Chinese elm"
+        "Chinese elm",
+        "Ulmus parvifolia"
+      ],
+      "es": [
+        "Ulmus parvifolia"
+      ],
+      "fr": [
+        "Orme de Chine"
+      ],
+      "it": [
+        "Ulmus parvifolia"
+      ],
+      "ja": [
+        "アキニレ"
+      ],
+      "ko": [
+        "참느릅나무"
+      ],
+      "nl": [
+        "Chinese iep"
+      ],
+      "pl": [
+        "Ulmus parvifolia"
+      ],
+      "pt": [
+        "Ulmus parvifolia"
+      ],
+      "ru": [
+        "Вяз мелколистный"
+      ],
+      "tr": [
+        "Çin karaağacı"
+      ],
+      "zh": [
+        "榔榆"
       ]
     },
     "tags": [],
@@ -989,7 +1370,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1010,12 +1391,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1079,11 +1460,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "دردار قزم"
+      ],
+      "de": [
+        "Sibirische Ulme"
+      ],
       "en": [
-        "Siberian elm"
+        "Siberian elm",
+        "Ulmus pumila"
+      ],
+      "es": [
+        "Ulmus pumila"
+      ],
+      "fr": [
+        "Ulmus pumila"
+      ],
+      "it": [
+        "Ulmus pumila"
+      ],
+      "ja": [
+        "ノニレ"
+      ],
+      "ko": [
+        "비술나무"
+      ],
+      "nl": [
+        "Ulmus pumila"
+      ],
+      "pl": [
+        "Ulmus pumila"
+      ],
+      "pt": [
+        "Ulmus pumila"
+      ],
+      "ru": [
+        "Вяз приземистый"
+      ],
+      "tr": [
+        "Sibirya karaağacı"
+      ],
+      "zh": [
+        "白榆"
       ]
     },
     "tags": [],
@@ -1095,7 +1518,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1116,12 +1539,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1177,11 +1600,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "دردار أحمر"
+      ],
+      "de": [
+        "Rot-Ulme"
+      ],
       "en": [
-        "Slippery elm"
+        "Slippery elm",
+        "Ulmus rubra"
+      ],
+      "es": [
+        "Ulmus rubra"
+      ],
+      "fr": [
+        "Orme rouge"
+      ],
+      "it": [
+        "Ulmus rubra"
+      ],
+      "ja": [
+        "アカニレ"
+      ],
+      "nl": [
+        "Ulmus rubra"
+      ],
+      "pl": [
+        "Wiąz czerwony"
+      ],
+      "pt": [
+        "Ulmus rubra"
+      ],
+      "ru": [
+        "Ulmus rubra"
+      ],
+      "tr": [
+        "Kırmızı karaağaç"
       ]
     },
     "tags": [],
@@ -1193,7 +1652,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1275,11 +1734,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "دردار توماسي"
+      ],
+      "de": [
+        "Felsen-Ulme"
+      ],
       "en": [
-        "Cork elm"
+        "Cork elm",
+        "Ulmus thomasii"
+      ],
+      "es": [
+        "Ulmus thomasii"
+      ],
+      "fr": [
+        "Ulmus thomasii"
+      ],
+      "it": [
+        "Ulmus thomasii"
+      ],
+      "nl": [
+        "Ulmus thomasii"
+      ],
+      "pl": [
+        "Ulmus thomasii"
+      ],
+      "pt": [
+        "Ulmus thomasii"
+      ],
+      "ru": [
+        "Ulmus thomasii"
+      ],
+      "tr": [
+        "Ulmus thomasii"
       ]
     },
     "tags": [],
@@ -1291,7 +1783,7 @@
     "family": "Ulmaceae",
     "genus": "Ulmus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1373,7 +1865,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -1389,7 +1883,7 @@
     "family": "Ulmaceae",
     "genus": "Zelkova",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1405,7 +1899,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "zelkova_serrata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1478,11 +1972,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زلكوفا منشارية"
+      ],
+      "de": [
+        "Japanische Zelkove"
+      ],
       "en": [
-        "Saw-leaf zelkova"
+        "Saw-leaf zelkova",
+        "Zelkova serrata"
+      ],
+      "es": [
+        "Zelkova serrata"
+      ],
+      "fr": [
+        "Zelkova serrata"
+      ],
+      "it": [
+        "Zelkova serrata"
+      ],
+      "ja": [
+        "ケヤキ"
+      ],
+      "ko": [
+        "느티나무"
+      ],
+      "nl": [
+        "Japanse zelkova"
+      ],
+      "pl": [
+        "Brzostownica japońska"
+      ],
+      "pt": [
+        "Zelkova serrata"
+      ],
+      "ru": [
+        "Дзельква пильчатая"
+      ],
+      "tr": [
+        "Japon Zelkovası"
+      ],
+      "zh": [
+        "榉树"
       ]
     },
     "tags": [],

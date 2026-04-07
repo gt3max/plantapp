@@ -5,12 +5,12 @@
     "family": "Moringaceae",
     "genus": "Moringa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/985388eea271c3a166f37ed3d6ddd0ec08e47af8",
-    "description": null,
+    "description": "Moringa oleifera is a short-lived, fast-growing, drought-resistant tree of the family Moringaceae, native to northern India and used extensively in South and Southeast Asia. Common names include moringa, drumstick tree, horseradish tree, or malunggay.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بان زيتي"
+      ],
+      "de": [
+        "Meerrettichbaum"
+      ],
       "en": [
+        "Drumstick tree",
         "Drumsticktree"
+      ],
+      "es": [
+        "Moringa oleifera"
+      ],
+      "fr": [
+        "Moringa oleifera"
+      ],
+      "hi": [
+        "सहजन"
+      ],
+      "it": [
+        "Moringa oleifera"
+      ],
+      "ja": [
+        "モリンガ　オレィフェラ"
+      ],
+      "ko": [
+        "모링가"
+      ],
+      "nl": [
+        "Moringa oleifera"
+      ],
+      "pl": [
+        "moringa olejodajna"
+      ],
+      "pt": [
+        "acácia-branca"
+      ],
+      "ru": [
+        "Моринга масличная"
+      ],
+      "tr": [
+        "Moringa oleifera"
+      ],
+      "zh": [
+        "辣木"
       ]
     },
     "tags": [],

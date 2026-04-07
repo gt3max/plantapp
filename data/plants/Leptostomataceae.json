@@ -5,12 +5,12 @@
     "family": "Leptostomataceae",
     "genus": "Leptostomum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Leptostomum inclinans known as the pincushion moss, is a species of moss found in southeastern Australia, New Zealand, and nearby islands. This species is commonly found as an epiphyte growing on tree trunks. However, it can also be found growing on soil or rocks.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Leptostomum inclinans"
+      ],
+      "en": [
+        "Leptostomum inclinans"
+      ],
+      "es": [
+        "Leptostomum inclinans"
+      ],
+      "fr": [
+        "Leptostomum inclinans"
+      ],
+      "it": [
+        "Leptostomum inclinans"
+      ],
+      "nl": [
+        "Leptostomum inclinans"
+      ],
+      "pl": [
+        "Leptostomum inclinans"
+      ],
+      "pt": [
+        "Leptostomum inclinans"
+      ],
+      "ru": [
+        "Leptostomum inclinans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

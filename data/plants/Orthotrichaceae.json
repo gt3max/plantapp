@@ -5,7 +5,7 @@
     "family": "Orthotrichaceae",
     "genus": "Drummondia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drummondia prorepens"
+      ],
+      "en": [
+        "Drummondia prorepens"
+      ],
+      "es": [
+        "Drummondia prorepens"
+      ],
+      "fr": [
+        "Drummondia prorepens"
+      ],
+      "it": [
+        "Drummondia prorepens"
+      ],
+      "nl": [
+        "Drummondia prorepens"
+      ],
+      "pl": [
+        "Drummondia prorepens"
+      ],
+      "pt": [
+        "Drummondia prorepens"
+      ],
+      "ru": [
+        "Drummondia prorepens"
+      ],
+      "zh": [
+        "木衣藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Orthotrichaceae",
     "genus": "Lewinskya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,7 +214,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {},
     "tags": [],
@@ -193,7 +228,7 @@
     "family": "Orthotrichaceae",
     "genus": "Macrocoma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +310,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Macrocoma tenuis"
+      ],
+      "en": [
+        "Macrocoma tenuis"
+      ],
+      "es": [
+        "Macrocoma tenuis"
+      ],
+      "fr": [
+        "Macrocoma tenuis"
+      ],
+      "it": [
+        "Macrocoma tenuis"
+      ],
+      "nl": [
+        "Macrocoma tenuis"
+      ],
+      "pl": [
+        "Macrocoma tenuis"
+      ],
+      "pt": [
+        "Macrocoma tenuis"
+      ],
+      "ru": [
+        "Macrocoma tenuis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +352,7 @@
     "family": "Orthotrichaceae",
     "genus": "Macromitrium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +434,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Macromitrium cirrosum"
+      ],
+      "en": [
+        "Macromitrium cirrosum"
+      ],
+      "es": [
+        "Macromitrium cirrosum"
+      ],
+      "fr": [
+        "Macromitrium cirrosum"
+      ],
+      "it": [
+        "Macromitrium cirrosum"
+      ],
+      "nl": [
+        "Macromitrium cirrosum"
+      ],
+      "pl": [
+        "Macromitrium cirrosum"
+      ],
+      "pt": [
+        "Macromitrium cirrosum"
+      ],
+      "ru": [
+        "Macromitrium cirrosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,7 +476,7 @@
     "family": "Orthotrichaceae",
     "genus": "Macromitrium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -463,9 +558,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Macromitrium microstomum"
+      ],
+      "en": [
+        "Macromitrium microstomum"
+      ],
+      "es": [
+        "Macromitrium microstomum"
+      ],
+      "fr": [
+        "Macromitrium microstomum"
+      ],
+      "it": [
+        "Macromitrium microstomum"
+      ],
+      "nl": [
+        "Macromitrium microstomum"
+      ],
+      "pl": [
+        "Macromitrium microstomum"
+      ],
+      "pt": [
+        "Macromitrium microstomum"
+      ],
+      "ru": [
+        "Macromitrium microstomum"
+      ],
+      "zh": [
+        "长柄蓑藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -475,7 +603,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -557,9 +685,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum affine"
+      ],
+      "en": [
+        "Orthotrichum affine"
+      ],
+      "es": [
+        "Orthotrichum affine"
+      ],
+      "fr": [
+        "Orthotrichum affine"
+      ],
+      "it": [
+        "Orthotrichum affine"
+      ],
+      "nl": [
+        "Orthotrichum affine"
+      ],
+      "pl": [
+        "Szurpek powinowaty"
+      ],
+      "pt": [
+        "Orthotrichum affine"
+      ],
+      "ru": [
+        "Orthotrichum affine"
+      ],
+      "zh": [
+        "木灵藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -569,7 +730,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -651,9 +812,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stein-Goldhaarmoos"
+      ],
+      "en": [
+        "Orthotrichum anomalum"
+      ],
+      "es": [
+        "Orthotrichum anomalum"
+      ],
+      "fr": [
+        "Orthotrichum anomalum"
+      ],
+      "it": [
+        "Orthotrichum anomalum"
+      ],
+      "nl": [
+        "gesteelde haarmuts"
+      ],
+      "pl": [
+        "Szurpek odrębny"
+      ],
+      "pt": [
+        "Orthotrichum anomalum"
+      ],
+      "ru": [
+        "Orthotrichum anomalum"
+      ],
+      "zh": [
+        "木灵藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -663,7 +857,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -745,9 +939,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum cupulatum"
+      ],
+      "en": [
+        "Orthotrichum cupulatum"
+      ],
+      "es": [
+        "Orthotrichum cupulatum"
+      ],
+      "fr": [
+        "Orthotrichum cupulatum"
+      ],
+      "it": [
+        "Orthotrichum cupulatum"
+      ],
+      "nl": [
+        "bekerhaarmuts"
+      ],
+      "pl": [
+        "Szurpek miseczkowaty"
+      ],
+      "pt": [
+        "Orthotrichum cupulatum"
+      ],
+      "ru": [
+        "Orthotrichum cupulatum"
+      ],
+      "zh": [
+        "小蒴木灵藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -757,7 +984,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -839,9 +1066,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum diaphanum"
+      ],
+      "en": [
+        "Orthotrichum diaphanum"
+      ],
+      "es": [
+        "Orthotrichum diaphanum"
+      ],
+      "fr": [
+        "Orthotrichum diaphanum"
+      ],
+      "it": [
+        "Orthotrichum diaphanum"
+      ],
+      "nl": [
+        "Orthotrichum diaphanum"
+      ],
+      "pl": [
+        "Orthotrichum diaphanum"
+      ],
+      "pt": [
+        "Orthotrichum diaphanum"
+      ],
+      "ru": [
+        "Orthotrichum diaphanum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -851,7 +1108,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -933,9 +1190,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum gymnostomum"
+      ],
+      "en": [
+        "Orthotrichum gymnostomum"
+      ],
+      "es": [
+        "Orthotrichum gymnostomum"
+      ],
+      "fr": [
+        "Orthotrichum gymnostomum"
+      ],
+      "it": [
+        "Orthotrichum gymnostomum"
+      ],
+      "nl": [
+        "Orthotrichum gymnostomum"
+      ],
+      "pl": [
+        "Szurpek bezzębny"
+      ],
+      "pt": [
+        "Orthotrichum gymnostomum"
+      ],
+      "ru": [
+        "Orthotrichum gymnostomum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -945,7 +1232,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1027,9 +1314,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum laevigatum"
+      ],
+      "en": [
+        "Orthotrichum laevigatum"
+      ],
+      "es": [
+        "Orthotrichum laevigatum"
+      ],
+      "fr": [
+        "Orthotrichum laevigatum"
+      ],
+      "it": [
+        "Orthotrichum laevigatum"
+      ],
+      "nl": [
+        "Orthotrichum laevigatum"
+      ],
+      "pl": [
+        "Orthotrichum laevigatum"
+      ],
+      "pt": [
+        "Orthotrichum laevigatum"
+      ],
+      "ru": [
+        "Orthotrichum laevigatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1039,12 +1356,12 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Orthotrichum_lyellii_3999.JPG",
+    "description": "Orthotrichum lyellii, also known as Lyell's bristle moss, is a species of acrocarpous moss belonging to the family Orthotrichaceae. O. lyellii can be found throughout western North America and Europe. It is found most commonly growing epiphytically on a variety of trees, and less commonly on rocks or boulder substrates.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1121,9 +1438,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lyells Goldhaarmoos"
+      ],
+      "en": [
+        "Orthotrichum lyellii"
+      ],
+      "es": [
+        "Orthotrichum lyellii"
+      ],
+      "fr": [
+        "Orthotrichum lyellii"
+      ],
+      "it": [
+        "Orthotrichum lyellii"
+      ],
+      "nl": [
+        "Orthotrichum lyellii"
+      ],
+      "pl": [
+        "Szurpek porosły"
+      ],
+      "pt": [
+        "Orthotrichum lyellii"
+      ],
+      "ru": [
+        "Orthotrichum lyellii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1133,7 +1480,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1215,9 +1562,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stumpfblättriges Goldhaarmoos"
+      ],
+      "en": [
+        "Orthotrichum obtusifolium"
+      ],
+      "es": [
+        "Orthotrichum obtusifolium"
+      ],
+      "fr": [
+        "Orthotrichum obtusifolium"
+      ],
+      "it": [
+        "Orthotrichum obtusifolium"
+      ],
+      "nl": [
+        "Orthotrichum obtusifolium"
+      ],
+      "pl": [
+        "Orthotrichum obtusifolium"
+      ],
+      "pt": [
+        "Orthotrichum obtusifolium"
+      ],
+      "ru": [
+        "Orthotrichum obtusifolium"
+      ],
+      "zh": [
+        "钝叶木灵藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1227,7 +1607,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1309,9 +1689,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum pallens"
+      ],
+      "en": [
+        "Orthotrichum pallens"
+      ],
+      "es": [
+        "Orthotrichum pallens"
+      ],
+      "fr": [
+        "Orthotrichum pallens"
+      ],
+      "it": [
+        "Orthotrichum pallens"
+      ],
+      "nl": [
+        "Orthotrichum pallens"
+      ],
+      "pl": [
+        "Orthotrichum pallens"
+      ],
+      "pt": [
+        "Orthotrichum pallens"
+      ],
+      "ru": [
+        "Orthotrichum pallens"
+      ],
+      "zh": [
+        "裸帽木灵藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1321,7 +1734,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1403,9 +1816,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hübsches Goldhaarmoos"
+      ],
+      "en": [
+        "Orthotrichum pulchellum"
+      ],
+      "es": [
+        "Orthotrichum pulchellum"
+      ],
+      "fr": [
+        "Orthotrichum pulchellum"
+      ],
+      "it": [
+        "Orthotrichum pulchellum"
+      ],
+      "nl": [
+        "Orthotrichum pulchellum"
+      ],
+      "pl": [
+        "Orthotrichum pulchellum"
+      ],
+      "pt": [
+        "Orthotrichum pulchellum"
+      ],
+      "ru": [
+        "Orthotrichum pulchellum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1415,7 +1858,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1497,9 +1940,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum pumilum"
+      ],
+      "en": [
+        "Orthotrichum pumilum"
+      ],
+      "es": [
+        "Orthotrichum pumilum"
+      ],
+      "fr": [
+        "Orthotrichum pumilum"
+      ],
+      "it": [
+        "Orthotrichum pumilum"
+      ],
+      "nl": [
+        "Orthotrichum pumilum"
+      ],
+      "pl": [
+        "Orthotrichum pumilum"
+      ],
+      "pt": [
+        "Orthotrichum pumilum"
+      ],
+      "ru": [
+        "Orthotrichum pumilum"
+      ],
+      "zh": [
+        "矮丛木灵藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1509,7 +1985,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1591,9 +2067,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum rivulare"
+      ],
+      "en": [
+        "Orthotrichum rivulare"
+      ],
+      "es": [
+        "Orthotrichum rivulare"
+      ],
+      "fr": [
+        "Orthotrichum rivulare"
+      ],
+      "it": [
+        "Orthotrichum rivulare"
+      ],
+      "nl": [
+        "Orthotrichum rivulare"
+      ],
+      "pl": [
+        "Orthotrichum rivulare"
+      ],
+      "pt": [
+        "Orthotrichum rivulare"
+      ],
+      "ru": [
+        "Orthotrichum rivulare"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1603,7 +2109,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1685,9 +2191,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum rogeri"
+      ],
+      "en": [
+        "Orthotrichum rogeri"
+      ],
+      "es": [
+        "Orthotrichum rogeri"
+      ],
+      "fr": [
+        "Orthotrichum rogeri"
+      ],
+      "it": [
+        "Orthotrichum rogeri"
+      ],
+      "nl": [
+        "Orthotrichum rogeri"
+      ],
+      "pl": [
+        "Orthotrichum rogeri"
+      ],
+      "pt": [
+        "Orthotrichum rogeri"
+      ],
+      "ru": [
+        "Orthotrichum rogeri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1697,7 +2233,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1779,9 +2315,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum rupestre"
+      ],
+      "en": [
+        "Orthotrichum rupestre"
+      ],
+      "es": [
+        "Orthotrichum rupestre"
+      ],
+      "fr": [
+        "Orthotrichum rupestre"
+      ],
+      "it": [
+        "Orthotrichum rupestre"
+      ],
+      "nl": [
+        "Orthotrichum rupestre"
+      ],
+      "pl": [
+        "Szurpek skalny"
+      ],
+      "pt": [
+        "Orthotrichum rupestre"
+      ],
+      "ru": [
+        "Orthotrichum rupestre"
+      ],
+      "zh": [
+        "石生木灵藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1791,7 +2360,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1873,9 +2442,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum speciosum"
+      ],
+      "en": [
+        "Orthotrichum speciosum"
+      ],
+      "es": [
+        "Orthotrichum speciosum"
+      ],
+      "fr": [
+        "Orthotrichum speciosum"
+      ],
+      "it": [
+        "Orthotrichum speciosum"
+      ],
+      "nl": [
+        "Orthotrichum speciosum"
+      ],
+      "pl": [
+        "Orthotrichum speciosum"
+      ],
+      "pt": [
+        "Orthotrichum speciosum"
+      ],
+      "ru": [
+        "Orthotrichum speciosum"
+      ],
+      "zh": [
+        "黄木灵藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1885,7 +2487,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1967,9 +2569,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum stramineum"
+      ],
+      "en": [
+        "Orthotrichum stramineum"
+      ],
+      "es": [
+        "Orthotrichum stramineum"
+      ],
+      "fr": [
+        "Orthotrichum stramineum"
+      ],
+      "it": [
+        "Orthotrichum stramineum"
+      ],
+      "nl": [
+        "Orthotrichum stramineum"
+      ],
+      "pl": [
+        "Orthotrichum stramineum"
+      ],
+      "pt": [
+        "Orthotrichum stramineum"
+      ],
+      "ru": [
+        "Orthotrichum stramineum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1979,12 +2611,12 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Orthotrichum striatum is a species of moss belonging to the family Orthotrichaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2061,9 +2693,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Glattfrüchtiges Goldhaarmoos"
+      ],
+      "en": [
+        "Orthotrichum striatum"
+      ],
+      "es": [
+        "Orthotrichum striatum"
+      ],
+      "fr": [
+        "Orthotrichum striatum"
+      ],
+      "it": [
+        "Orthotrichum striatum"
+      ],
+      "nl": [
+        "Orthotrichum striatum"
+      ],
+      "pl": [
+        "Orthotrichum striatum"
+      ],
+      "pt": [
+        "Orthotrichum striatum"
+      ],
+      "ru": [
+        "Orthotrichum striatum"
+      ],
+      "zh": [
+        "条纹木灵藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2073,7 +2738,7 @@
     "family": "Orthotrichaceae",
     "genus": "Orthotrichum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2155,9 +2820,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Orthotrichum tenellum"
+      ],
+      "en": [
+        "Orthotrichum tenellum"
+      ],
+      "es": [
+        "Orthotrichum tenellum"
+      ],
+      "fr": [
+        "Orthotrichum tenellum"
+      ],
+      "it": [
+        "Orthotrichum tenellum"
+      ],
+      "nl": [
+        "Orthotrichum tenellum"
+      ],
+      "pl": [
+        "Szurpek delikatny"
+      ],
+      "pt": [
+        "Orthotrichum tenellum"
+      ],
+      "ru": [
+        "Orthotrichum tenellum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2167,7 +2862,7 @@
     "family": "Orthotrichaceae",
     "genus": "Schlotheimia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2249,9 +2944,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schlotheimia rugifolia"
+      ],
+      "en": [
+        "Schlotheimia rugifolia"
+      ],
+      "es": [
+        "Schlotheimia rugifolia"
+      ],
+      "fr": [
+        "Schlotheimia rugifolia"
+      ],
+      "it": [
+        "Schlotheimia rugifolia"
+      ],
+      "nl": [
+        "Schlotheimia rugifolia"
+      ],
+      "pl": [
+        "Schlotheimia rugifolia"
+      ],
+      "pt": [
+        "Schlotheimia rugifolia"
+      ],
+      "ru": [
+        "Schlotheimia rugifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2261,7 +2986,7 @@
     "family": "Orthotrichaceae",
     "genus": "Ulota",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2343,9 +3068,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ulota coarctata"
+      ],
+      "en": [
+        "Ulota coarctata"
+      ],
+      "es": [
+        "Ulota coarctata"
+      ],
+      "fr": [
+        "Ulota coarctata"
+      ],
+      "it": [
+        "Ulota coarctata"
+      ],
+      "nl": [
+        "Ulota coarctata"
+      ],
+      "pl": [
+        "Ulota coarctata"
+      ],
+      "pt": [
+        "Ulota coarctata"
+      ],
+      "ru": [
+        "Ulota coarctata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2355,7 +3110,7 @@
     "family": "Orthotrichaceae",
     "genus": "Ulota",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2437,9 +3192,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gewöhnliches Krausblattmoos"
+      ],
+      "en": [
+        "Ulota crispa"
+      ],
+      "es": [
+        "Ulota crispa"
+      ],
+      "fr": [
+        "Ulota crispa"
+      ],
+      "it": [
+        "Ulota crispa"
+      ],
+      "nl": [
+        "Ulota crispa"
+      ],
+      "pl": [
+        "Nastroszek kędzierzawy"
+      ],
+      "pt": [
+        "Ulota crispa"
+      ],
+      "ru": [
+        "Ulota crispa"
+      ],
+      "zh": [
+        "北方捲葉蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2449,7 +3237,7 @@
     "family": "Orthotrichaceae",
     "genus": "Ulota",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2531,9 +3319,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ulota curvifolia"
+      ],
+      "en": [
+        "Ulota curvifolia"
+      ],
+      "es": [
+        "Ulota curvifolia"
+      ],
+      "fr": [
+        "Ulota curvifolia"
+      ],
+      "it": [
+        "Ulota curvifolia"
+      ],
+      "nl": [
+        "Ulota curvifolia"
+      ],
+      "pl": [
+        "Ulota curvifolia"
+      ],
+      "pt": [
+        "Ulota curvifolia"
+      ],
+      "ru": [
+        "Ulota curvifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2543,7 +3361,7 @@
     "family": "Orthotrichaceae",
     "genus": "Ulota",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2625,9 +3443,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ulota drummondii"
+      ],
+      "en": [
+        "Ulota drummondii"
+      ],
+      "es": [
+        "Ulota drummondii"
+      ],
+      "fr": [
+        "Ulota drummondii"
+      ],
+      "it": [
+        "Ulota drummondii"
+      ],
+      "nl": [
+        "Ulota drummondii"
+      ],
+      "pl": [
+        "Ulota drummondii"
+      ],
+      "pt": [
+        "Ulota drummondii"
+      ],
+      "ru": [
+        "Ulota drummondii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2637,7 +3485,7 @@
     "family": "Orthotrichaceae",
     "genus": "Ulota",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2719,9 +3567,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ulota hutchinsiae"
+      ],
+      "en": [
+        "Ulota hutchinsiae"
+      ],
+      "es": [
+        "Ulota hutchinsiae"
+      ],
+      "fr": [
+        "Ulota hutchinsiae"
+      ],
+      "it": [
+        "Ulota hutchinsiae"
+      ],
+      "nl": [
+        "Ulota hutchinsiae"
+      ],
+      "pl": [
+        "Ulota hutchinsiae"
+      ],
+      "pt": [
+        "Ulota hutchinsiae"
+      ],
+      "ru": [
+        "Ulota hutchinsiae"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2731,7 +3609,7 @@
     "family": "Orthotrichaceae",
     "genus": "Ulota",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2813,9 +3691,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ulota phyllantha"
+      ],
+      "en": [
+        "Ulota phyllantha"
+      ],
+      "es": [
+        "Ulota phyllantha"
+      ],
+      "fr": [
+        "Ulota phyllantha"
+      ],
+      "it": [
+        "Ulota phyllantha"
+      ],
+      "nl": [
+        "Ulota phyllantha"
+      ],
+      "pl": [
+        "Ulota phyllantha"
+      ],
+      "pt": [
+        "Ulota phyllantha"
+      ],
+      "ru": [
+        "Ulota phyllantha"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2825,7 +3733,7 @@
     "family": "Orthotrichaceae",
     "genus": "Zygodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2907,9 +3815,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zygodon conoideus"
+      ],
+      "en": [
+        "Zygodon conoideus"
+      ],
+      "es": [
+        "Zygodon conoideus"
+      ],
+      "fr": [
+        "Zygodon conoideus"
+      ],
+      "it": [
+        "Zygodon conoideus"
+      ],
+      "nl": [
+        "Zygodon conoideus"
+      ],
+      "pl": [
+        "Zygodon conoideus"
+      ],
+      "pt": [
+        "Zygodon conoideus"
+      ],
+      "ru": [
+        "Zygodon conoideus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2919,7 +3857,7 @@
     "family": "Orthotrichaceae",
     "genus": "Zygodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3001,9 +3939,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zygodon intermedius"
+      ],
+      "en": [
+        "Zygodon intermedius"
+      ],
+      "es": [
+        "Zygodon intermedius"
+      ],
+      "fr": [
+        "Zygodon intermedius"
+      ],
+      "it": [
+        "Zygodon intermedius"
+      ],
+      "nl": [
+        "Zygodon intermedius"
+      ],
+      "pl": [
+        "Zygodon intermedius"
+      ],
+      "pt": [
+        "Zygodon intermedius"
+      ],
+      "ru": [
+        "Zygodon intermedius"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3013,7 +3981,7 @@
     "family": "Orthotrichaceae",
     "genus": "Zygodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3095,9 +4063,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zygodon reinwardtii"
+      ],
+      "en": [
+        "Zygodon reinwardtii"
+      ],
+      "es": [
+        "Zygodon reinwardtii"
+      ],
+      "fr": [
+        "Zygodon reinwardtii"
+      ],
+      "it": [
+        "Zygodon reinwardtii"
+      ],
+      "nl": [
+        "Zygodon reinwardtii"
+      ],
+      "pl": [
+        "Zygodon reinwardtii"
+      ],
+      "pt": [
+        "Zygodon reinwardtii"
+      ],
+      "ru": [
+        "Zygodon reinwardtii"
+      ],
+      "zh": [
+        "南亚变齿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3107,7 +4108,7 @@
     "family": "Orthotrichaceae",
     "genus": "Zygodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3189,9 +4190,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zygodon rupestris"
+      ],
+      "en": [
+        "Zygodon rupestris"
+      ],
+      "es": [
+        "Zygodon rupestris"
+      ],
+      "fr": [
+        "Zygodon rupestris"
+      ],
+      "it": [
+        "Zygodon rupestris"
+      ],
+      "nl": [
+        "Zygodon rupestris"
+      ],
+      "pl": [
+        "Zygodon rupestris"
+      ],
+      "pt": [
+        "Zygodon rupestris"
+      ],
+      "ru": [
+        "Zygodon rupestris"
+      ],
+      "zh": [
+        "芽胞变齿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3201,12 +4235,12 @@
     "family": "Orthotrichaceae",
     "genus": "Zygodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Zygodon_viridissimus_%28a%2C_144607-481011%29_3830.JPG",
+    "description": "Zygodon viridissimus, the green yokemoss, is a species of moss belonging to the family Orthotrichaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3283,9 +4317,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zygodon viridissimus"
+      ],
+      "en": [
+        "Zygodon viridissimus"
+      ],
+      "es": [
+        "Zygodon viridissimus"
+      ],
+      "fr": [
+        "Zygodon viridissimus"
+      ],
+      "it": [
+        "Zygodon viridissimus"
+      ],
+      "nl": [
+        "Zygodon viridissimus"
+      ],
+      "pl": [
+        "Zrostniczek zielony"
+      ],
+      "pt": [
+        "Zygodon viridissimus"
+      ],
+      "ru": [
+        "Zygodon viridissimus"
+      ],
+      "zh": [
+        "綠色變齒蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/06bc1175a8e2585425425ea4ed1a9c3e94d11295",
-    "description": "Immature fruits are attractive green oval and ribbed resembling tiny watermelons. At maturity, they dry and split open to release small, disc-shaped seeds.",
+    "description": "Aristolochia baetica, the Andalusian Dutchman's pipe or pipe vine, is a poisonous perennial vine that occurs in North Africa and the southern Iberian Peninsula, from Algeria to Portugal.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_baetica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "de": [
+        "Aristolochia baetica"
+      ],
       "en": [
-        "Andalusian dutchman's pipe"
+        "Andalusian dutchman's pipe",
+        "Aristolochia baetica"
+      ],
+      "es": [
+        "Aristolochia baetica"
+      ],
+      "fr": [
+        "Aristolochia baetica"
+      ],
+      "it": [
+        "Aristolochia baetica"
+      ],
+      "nl": [
+        "Aristolochia baetica"
+      ],
+      "pl": [
+        "Aristolochia baetica"
+      ],
+      "pt": [
+        "Aristolochia baetica"
+      ],
+      "ru": [
+        "Aristolochia baetica"
+      ],
+      "tr": [
+        "Aristolochia baetica"
+      ],
+      "zh": [
+        "安达卢西亚马兜铃"
       ]
     },
     "tags": [],
@@ -103,12 +136,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/db81aa2a6948f4918b134588646fc2a2a1306f91",
-    "description": "Immature fruits are attractive green oval and ribbed resembling tiny watermelons. At maturity, they dry and split open to release small, disc-shaped seeds.",
+    "description": "Aristolochia californica, the California pipevine, California Dutchman's-pipe, or California snakeroot is a perennial woody vine of western North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -119,7 +152,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_californica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -185,11 +218,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aristolochia californica"
+      ],
       "en": [
+        "Aristolochia californica",
         "California snakeroot"
+      ],
+      "es": [
+        "Aristolochia californica"
+      ],
+      "fr": [
+        "Aristolochia californica"
+      ],
+      "it": [
+        "Aristolochia californica"
+      ],
+      "nl": [
+        "Aristolochia californica"
+      ],
+      "pl": [
+        "Aristolochia californica"
+      ],
+      "pt": [
+        "Aristolochia californica"
+      ],
+      "ru": [
+        "Aristolochia californica"
       ]
     },
     "tags": [],
@@ -201,7 +261,7 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -217,13 +277,13 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_clematitis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -249,8 +309,8 @@
       "light_guide": "Climate: temperate",
       "tips": "Remove excessively grown vines that have no flower buds | Native to: BGM BE, NCS ST, NCS KC, BAL OO, NWY OO | Similar plants: Passiflora incarnata",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Root rot, leaf spot and southern blight may occur",
         "No serious insect or disease problems",
@@ -274,8 +334,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -289,11 +349,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.1
     },
     "common_names": {
+      "ar": [
+        "زراوند ظياني"
+      ],
+      "de": [
+        "Gewöhnliche Osterluzei"
+      ],
       "en": [
+        "Aristolochia clematitis",
         "Birthwort"
+      ],
+      "es": [
+        "Aristolochia clematitis"
+      ],
+      "fr": [
+        "Aristoloche clématite"
+      ],
+      "it": [
+        "Aristolochia clematitis"
+      ],
+      "ja": [
+        "ウマノスズクサ属"
+      ],
+      "nl": [
+        "Pijpbloem"
+      ],
+      "pl": [
+        "Kokornak powojnikowy"
+      ],
+      "pt": [
+        "Aristolóquia"
+      ],
+      "ru": [
+        "кирказон ломоносовидный"
+      ],
+      "tr": [
+        "Aristolochia clematitis"
+      ],
+      "zh": [
+        "欧洲马兜铃"
       ]
     },
     "tags": [],
@@ -305,12 +404,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6a61de21b5c34402842272b36105e158f0300826",
-    "description": "Immature fruits are attractive green oval and ribbed resembling tiny watermelons. At maturity, they dry and split open to release small, disc-shaped seeds.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -321,7 +420,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_fontanesii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -387,9 +486,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aristolochia fontanesii"
+      ],
+      "en": [
+        "Aristolochia fontanesii"
+      ],
+      "es": [
+        "Aristolochia fontanesii"
+      ],
+      "fr": [
+        "Aristolochia fontanesii"
+      ],
+      "it": [
+        "Aristolochia fontanesii"
+      ],
+      "nl": [
+        "Aristolochia fontanesii"
+      ],
+      "pl": [
+        "Aristolochia fontanesii"
+      ],
+      "pt": [
+        "Aristolochia fontanesii"
+      ],
+      "ru": [
+        "Aristolochia fontanesii"
+      ],
+      "tr": [
+        "Aristolochia fontanesii"
+      ],
+      "zh": [
+        "阿尔及利亚马兜铃"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -399,12 +534,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/43d675d2a01635ff0328177bbd3510cc952475bf",
-    "description": "In late summer or early fall, a greenish six-sided capsule forms. It measures 2 inches long and 3/4 inches wide. It ripens to a gray or black capsule.",
+    "description": "Aristolochia macrophylla, Dutchman's pipe or pipevine, is a perennial vine native to the eastern United States. A. macrophylla belongs to the plant family Aristolochiaceae and is found primarily along the Cumberland Mountains and Blue Ridge Mountains in the eastern portion of the United States, as well as Ontario, Canada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -415,7 +550,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_macrophylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -481,11 +616,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مسهقورة"
+      ],
+      "de": [
+        "Pfeifenwinde"
+      ],
       "en": [
+        "Aristolochia macrophylla",
         "Dutchman's-pipe"
+      ],
+      "es": [
+        "Aristolochia macrophylla"
+      ],
+      "fr": [
+        "Aristoloche siphon"
+      ],
+      "it": [
+        "Aristolochia macrophylla"
+      ],
+      "nl": [
+        "Aristolochia macrophylla"
+      ],
+      "pl": [
+        "Kokornak wielkolistny"
+      ],
+      "pt": [
+        "Aristolochia macrophylla"
+      ],
+      "ru": [
+        "Кирказон крупнолистный"
+      ],
+      "zh": [
+        "宽叶马兜铃"
       ]
     },
     "tags": [],
@@ -497,12 +665,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a3eba502995bb6406d55db68e225872f2eb28605",
-    "description": "Immature fruits are attractive green oval and ribbed resembling tiny watermelons. At maturity, they dry and split open to release small, disc-shaped seeds.",
+    "description": "Aristolochia maxima is a plant species native to Central and South America, naturalized in southern Florida. Common names include Florida Dutchman's-pipe (US), canastilla (Guatemala), guaco, and tecolotillo (Mexico). In Florida, it grows in hammocks in the Everglades at elevations below 50 m.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -513,7 +681,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_maxima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -579,11 +747,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aristolochia maxima"
+      ],
       "en": [
+        "Aristolochia maxima",
         "Florida dutchman's pipe"
+      ],
+      "es": [
+        "Aristolochia maxima"
+      ],
+      "fr": [
+        "Aristolochia maxima"
+      ],
+      "it": [
+        "Aristolochia maxima"
+      ],
+      "nl": [
+        "Aristolochia maxima"
+      ],
+      "pl": [
+        "Aristolochia maxima"
+      ],
+      "pt": [
+        "Aristolochia maxima"
+      ],
+      "ru": [
+        "Aristolochia maxima"
+      ],
+      "tr": [
+        "Aristolochia maxima"
+      ],
+      "zh": [
+        "佛罗里达马兜铃"
       ]
     },
     "tags": [],
@@ -595,12 +796,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e22de83b7f5366c47b89d071ca7b9d6cf12cc05a",
-    "description": "Immature fruits are attractive green oval and ribbed resembling tiny watermelons. At maturity, they dry and split open to release small, disc-shaped seeds.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -611,7 +812,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_pallida",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -677,9 +878,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aristolochia fontanesi"
+      ],
+      "en": [
+        "Aristolochia pallida"
+      ],
+      "es": [
+        "Aristolochia fontanesi"
+      ],
+      "fr": [
+        "Aristolochia fontanesi"
+      ],
+      "it": [
+        "Aristolochia fontanesi"
+      ],
+      "nl": [
+        "Aristolochia pallida"
+      ],
+      "pl": [
+        "Aristolochia pallida"
+      ],
+      "pt": [
+        "Aristolochia pallida"
+      ],
+      "ru": [
+        "Aristolochia pallida"
+      ],
+      "tr": [
+        "Aristolochia pallida"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -689,12 +923,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6b95e1ab152a4e0a29014fdcafeea8627a983521",
-    "description": "Immature fruits are attractive green oval and ribbed resembling tiny watermelons. At maturity, they dry and split open to release small, disc-shaped seeds.",
+    "description": "Aristolochia paucinervis is a herbaceous plant in the family Aristolochiaceae endemic to the western Mediterranean Basin.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -705,17 +939,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_paucinervis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -771,11 +1005,37 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "زراوند قليل العروق"
+      ],
       "en": [
         "Green-flowered birthwort"
+      ],
+      "fr": [
+        "Aristolochia paucinervis"
+      ],
+      "it": [
+        "Aristolochia paucinervis"
+      ],
+      "nl": [
+        "Aristolochia paucinervis"
+      ],
+      "pl": [
+        "Aristolochia paucinervis"
+      ],
+      "pt": [
+        "junciana"
+      ],
+      "ru": [
+        "Aristolochia paucinervis"
+      ],
+      "tr": [
+        "Aristolochia paucinervis"
       ]
     },
     "tags": [],
@@ -787,12 +1047,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5029fbebf59bcb71fcc9f868bc2a891ddd6cd4a0",
-    "description": "Immature fruits are attractive green oval and ribbed resembling tiny watermelons. At maturity, they dry and split open to release small, disc-shaped seeds.",
+    "description": "Aristolochia pistolochia is a herbaceous plant in the family Aristolochiaceae endemic to Mediterranean areas across southwest Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -803,17 +1063,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_pistolochia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -869,11 +1129,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Pistolochia-Osterluzei"
+      ],
       "en": [
+        "Aristolochia pistolochia",
         "Pistolochia"
+      ],
+      "es": [
+        "Aristolochia pistolochia"
+      ],
+      "fr": [
+        "Aristolochia pistolochia"
+      ],
+      "it": [
+        "Aristolochia pistolochia"
+      ],
+      "nl": [
+        "Aristolochia pistolochia"
+      ],
+      "pl": [
+        "Aristolochia pistolochia"
+      ],
+      "pt": [
+        "Aristolochia pistolochia"
+      ],
+      "ru": [
+        "Aristolochia pistolochia"
+      ],
+      "tr": [
+        "Aristolochia pistolochia"
       ]
     },
     "tags": [],
@@ -885,12 +1175,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ee84110e3a64ca7b9e2d9438c5cdbec80c4b12ca",
-    "description": "Immature fruits are attractive green oval and ribbed resembling tiny watermelons. At maturity, they dry and split open to release small, disc-shaped seeds.",
+    "description": "Aristolochia rotunda, commonly known as smearwort or round-leaved birthwort, is a herbaceous perennial tuberous plant native to Southern Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -901,17 +1191,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_rotunda",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -933,8 +1223,8 @@
       "light_guide": "Climate: subtropical",
       "tips": "Native to: YUG MA, MIDDLE EUROPE, ALB, COR, SIC MA | Similar plants: Passiflora incarnata",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -952,8 +1242,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -967,11 +1257,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.8
     },
     "common_names": {
+      "ar": [
+        "زراوند مدحرج"
+      ],
+      "de": [
+        "Aristolochia rotunda"
+      ],
       "en": [
+        "Aristolochia rotunda",
         "Birthwort"
+      ],
+      "es": [
+        "Aristolochia rotunda"
+      ],
+      "fr": [
+        "Aristoloche à feuilles rondes"
+      ],
+      "it": [
+        "Aristolochia rotunda"
+      ],
+      "nl": [
+        "Smearwort"
+      ],
+      "pl": [
+        "Kokornak okrągłolistny"
+      ],
+      "pt": [
+        "Aristolochia rotunda"
+      ],
+      "ru": [
+        "Aristolochia rotunda"
+      ],
+      "zh": [
+        "圆叶马兜铃"
       ]
     },
     "tags": [],
@@ -983,12 +1306,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3056509ab2def18829222677a5fae9af7d929933",
-    "description": "Immature fruits are attractive green oval and ribbed resembling tiny watermelons. At maturity, they dry and split open to release small, disc-shaped seeds.",
+    "description": "Aristolochia sempervirens is a species of perennial plant in the family Aristolochiaceae. It is found in the Eastern and Southern Mediterranean Basin, notably in Crete.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -999,7 +1322,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_sempervirens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1065,11 +1388,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زراوند دائم الخضرة"
+      ],
+      "de": [
+        "Immergrüne Osterluzei"
+      ],
       "en": [
+        "Aristolochia sempervirens",
         "Long birthwort"
+      ],
+      "es": [
+        "Aristolochia sempervirens"
+      ],
+      "fr": [
+        "Aristolochia sempervirens"
+      ],
+      "it": [
+        "Aristolochia sempervirens"
+      ],
+      "nl": [
+        "Aristolochia sempervirens"
+      ],
+      "pl": [
+        "Aristolochia sempervirens"
+      ],
+      "pt": [
+        "Aristolochia sempervirens"
+      ],
+      "ru": [
+        "Aristolochia sempervirens"
+      ],
+      "tr": [
+        "Aristolochia sempervirens"
+      ],
+      "zh": [
+        "小绿马兜铃"
       ]
     },
     "tags": [],
@@ -1081,7 +1440,7 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1097,7 +1456,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_serpentaria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1163,11 +1522,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زراوند ثعباني"
+      ],
+      "de": [
+        "Aristolochia serpentaria"
+      ],
       "en": [
+        "Aristolochia serpentaria",
         "Serpentary"
+      ],
+      "es": [
+        "Aristolochia serpentaria"
+      ],
+      "fr": [
+        "Aristolochia serpentaria"
+      ],
+      "it": [
+        "Aristolochia serpentaria"
+      ],
+      "ja": [
+        "ヴェージニア・スネークルート"
+      ],
+      "nl": [
+        "Aristolochia serpentaria"
+      ],
+      "pl": [
+        "Aristolochia serpentaria"
+      ],
+      "pt": [
+        "Serpentária"
+      ],
+      "ru": [
+        "Aristolochia serpentaria"
+      ],
+      "zh": [
+        "弗吉尼亚蛇根草"
       ]
     },
     "tags": [],
@@ -1179,12 +1574,12 @@
     "family": "Aristolochiaceae",
     "genus": "Aristolochia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6340f4adf9c174edac02d77e03f25ca29745a085",
-    "description": "A grayish-brown, tubular-shaped capsule appears in September. Each capsule measures 1.5 to 3 inches long and 1-1.25 inches wide.  In the capsule, the seeds are compressed in vertical columns. The grayish-brown seeds are flat, triangular, and measure 3/8 inches long.",
+    "description": "Aristolochia tomentosa is a species of flowering plant in the family Aristolochiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1195,7 +1590,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "aristolochia_tomentosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1261,11 +1656,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مسمقار"
+      ],
+      "de": [
+        "Aristolochia tomentosa"
+      ],
       "en": [
+        "Aristolochia tomentosa",
         "Woolly dutchman's-pipe"
+      ],
+      "es": [
+        "Aristolochia tomentosa"
+      ],
+      "fr": [
+        "Aristolochia tomentosa"
+      ],
+      "it": [
+        "Aristolochia tomentosa"
+      ],
+      "nl": [
+        "Aristolochia tomentosa"
+      ],
+      "pl": [
+        "Kokornak owłosiony"
+      ],
+      "pt": [
+        "Aristolochia tomentosa"
+      ],
+      "ru": [
+        "Aristolochia tomentosa"
+      ],
+      "zh": [
+        "蓬毛马兜铃"
       ]
     },
     "tags": [],
@@ -1277,12 +1705,12 @@
     "family": "Aristolochiaceae",
     "genus": "Asarum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b5c62bc3b1617c9e2d383212fbe0a18dee41da9b",
-    "description": "Displays from May to June.",
+    "description": "Asarum canadense, commonly known as Canada wild ginger, Canadian snakeroot, Indian Ginger, Coltsfoot, and Broad-Leaved Asarabacca, is a herbaceous, perennial plant. It should not be confused for Asarum reflexum, a closely related species, or Asarum acuminatum, a variety of A. canadense.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1298,8 +1726,8 @@
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Shade",
+      "light_also_ok": "Part sun",
       "ppfd_min": 46,
       "ppfd_max": 92,
       "dli_min": 0.2,
@@ -1363,11 +1791,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.2
     },
     "common_names": {
+      "ar": [
+        "زنجبيل بري"
+      ],
+      "de": [
+        "Asarum canadense"
+      ],
       "en": [
+        "Asarum canadense",
         "Canada snakeroot"
+      ],
+      "es": [
+        "Asarum canadense"
+      ],
+      "fr": [
+        "Asaret du Canada"
+      ],
+      "it": [
+        "Asarum canadense"
+      ],
+      "nl": [
+        "Asarum canadense"
+      ],
+      "pl": [
+        "Kopytnik kanadyjski"
+      ],
+      "pt": [
+        "Asarum canadense"
+      ],
+      "ru": [
+        "Asarum canadense"
+      ],
+      "tr": [
+        "Asarum canadense"
+      ],
+      "zh": [
+        "加拿大细辛"
       ]
     },
     "tags": [],
@@ -1379,7 +1843,7 @@
     "family": "Aristolochiaceae",
     "genus": "Asarum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1397,11 +1861,11 @@
       "plant_id": "asarum_caudatum",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Shade",
+      "light_also_ok": "Part sun",
       "ppfd_min": 46,
       "ppfd_max": 92,
       "dli_min": 0.2,
@@ -1469,11 +1933,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.2
     },
     "common_names": {
+      "de": [
+        "Asarum caudatum"
+      ],
       "en": [
+        "Asarum caudatum",
         "Wild ginger"
+      ],
+      "es": [
+        "Asarum caudatum"
+      ],
+      "fr": [
+        "Asarum caudatum"
+      ],
+      "it": [
+        "Asarum caudatum"
+      ],
+      "nl": [
+        "Asarum caudatum"
+      ],
+      "pl": [
+        "Kopytnik długopłatkowy"
+      ],
+      "pt": [
+        "Asarum caudatum"
+      ],
+      "ru": [
+        "Копытень хвостатый"
+      ],
+      "tr": [
+        "Asarum caudatum"
+      ],
+      "zh": [
+        "西细辛"
       ]
     },
     "tags": [],
@@ -1485,7 +1982,7 @@
     "family": "Aristolochiaceae",
     "genus": "Asarum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1503,11 +2000,11 @@
       "plant_id": "asarum_europaeum",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Shade",
+      "light_also_ok": "Part sun",
       "ppfd_min": 46,
       "ppfd_max": 92,
       "dli_min": 0.2,
@@ -1533,8 +2030,8 @@
       "light_guide": "Climate: temperate",
       "tips": "Remove old, diseased and dead leaves timely | Native to: BGM BE, NCS ST, NCS KC, FRA FR, UKR MO | Similar plants: Erythronium americanum",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Watch for rust",
         "No serious insect or disease problems",
@@ -1560,8 +2057,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Horizontal",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1575,11 +2072,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.2
     },
     "common_names": {
+      "ar": [
+        "ناردين بري"
+      ],
+      "de": [
+        "Gewöhnliche Haselwurz"
+      ],
       "en": [
-        "Asarabacca"
+        "Asarabacca",
+        "Asarum europaeum"
+      ],
+      "es": [
+        "Asarum europaeum"
+      ],
+      "fr": [
+        "Asaret d'Europe"
+      ],
+      "it": [
+        "Asarum europaeum"
+      ],
+      "nl": [
+        "Mansoor"
+      ],
+      "pl": [
+        "Kopytnik pospolity"
+      ],
+      "pt": [
+        "Ásaro"
+      ],
+      "ru": [
+        "Копытень европейский"
+      ],
+      "tr": [
+        "Afşar otu"
+      ],
+      "zh": [
+        "欧细辛"
       ]
     },
     "tags": [],
@@ -1591,7 +2124,7 @@
     "family": "Aristolochiaceae",
     "genus": "Asarum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1612,12 +2145,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Shade",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 50,
+      "ppfd_max": 150,
+      "dli_min": 2.0,
+      "dli_max": 6.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1678,9 +2211,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Asarum sieboldii"
+      ],
+      "en": [
+        "Asarum sieboldii"
+      ],
+      "es": [
+        "Asarum sieboldii"
+      ],
+      "fr": [
+        "Asarum sieboldii"
+      ],
+      "it": [
+        "Asarum sieboldii"
+      ],
+      "ja": [
+        "ウスバサイシン"
+      ],
+      "ko": [
+        "족도리풀"
+      ],
+      "nl": [
+        "Asarum sieboldii"
+      ],
+      "pl": [
+        "Asarum sieboldii"
+      ],
+      "pt": [
+        "Asarum sieboldii"
+      ],
+      "ru": [
+        "Asarum sieboldii"
+      ],
+      "tr": [
+        "Asarum sieboldii"
+      ],
+      "zh": [
+        "汉城细辛"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

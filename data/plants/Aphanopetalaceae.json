@@ -5,12 +5,12 @@
     "family": "Aphanopetalaceae",
     "genus": "Aphanopetalum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e37a378d2cf660e2bf6ed09f3d1620557d7e1eb1",
-    "description": null,
+    "description": "Aphanopetalum resinosum, known as the gum vine, is a rambling vine growing in rainforest or eucalyptus woodland in eastern Australia. In Victoria it is listed as \"vulnerable\", being known only from a single collection near Mallacoota.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aphanopetalum resinosum"
+      ],
+      "en": [
+        "Aphanopetalum resinosum"
+      ],
+      "es": [
+        "Aphanopetalum resinosum"
+      ],
+      "fr": [
+        "Aphanopetalum resinosum"
+      ],
+      "it": [
+        "Aphanopetalum resinosum"
+      ],
+      "nl": [
+        "Aphanopetalum resinosum"
+      ],
+      "pl": [
+        "Aphanopetalum resinosum"
+      ],
+      "pt": [
+        "Aphanopetalum resinosum"
+      ],
+      "ru": [
+        "Aphanopetalum resinosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

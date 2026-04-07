@@ -5,7 +5,7 @@
     "family": "Lentibulariaceae",
     "genus": "Pinguicula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pinguicula_alpina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Alpen-Fettkraut"
+      ],
       "en": [
-        "Alpine butterwort"
+        "Alpine butterwort",
+        "Pinguicula alpina"
+      ],
+      "es": [
+        "Pinguicula alpina"
+      ],
+      "fr": [
+        "Pinguicula alpina"
+      ],
+      "it": [
+        "Pinguicula alpina"
+      ],
+      "nl": [
+        "Pinguicula alpina"
+      ],
+      "pl": [
+        "Tłustosz alpejski"
+      ],
+      "pt": [
+        "Pinguicula alpina"
+      ],
+      "ru": [
+        "Pinguicula alpina"
+      ],
+      "zh": [
+        "高山捕虫堇"
       ]
     },
     "tags": [],
@@ -103,7 +133,7 @@
     "family": "Lentibulariaceae",
     "genus": "Pinguicula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,9 +149,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pinguicula_caerulea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -185,11 +215,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pinguicula caerulea"
+      ],
       "en": [
-        "Blueflower butterwort"
+        "Blueflower butterwort",
+        "Pinguicula caerulea"
+      ],
+      "es": [
+        "Pinguicula caerulea"
+      ],
+      "fr": [
+        "Pinguicula caerulea"
+      ],
+      "it": [
+        "Pinguicula caerulea"
+      ],
+      "nl": [
+        "Pinguicula caerulea"
+      ],
+      "pl": [
+        "Pinguicula caerulea"
+      ],
+      "pt": [
+        "Pinguicula caerulea"
+      ],
+      "ru": [
+        "Pinguicula caerulea"
       ]
     },
     "tags": [],
@@ -201,7 +258,7 @@
     "family": "Lentibulariaceae",
     "genus": "Pinguicula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -217,17 +274,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pinguicula_grandiflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -283,11 +340,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "de": [
+        "Großblütiges Fettkraut"
+      ],
       "en": [
-        "Large-flowered butterwort"
+        "Large-flowered butterwort",
+        "Pinguicula grandiflora"
+      ],
+      "es": [
+        "Pinguicula grandiflora"
+      ],
+      "fr": [
+        "Grassette à grandes fleurs"
+      ],
+      "it": [
+        "Pinguicula grandiflora"
+      ],
+      "nl": [
+        "Pinguicula grandiflora"
+      ],
+      "pl": [
+        "Pinguicula grandiflora"
+      ],
+      "pt": [
+        "Pinguicula grandiflora"
+      ],
+      "ru": [
+        "Pinguicula grandiflora"
+      ],
+      "zh": [
+        "大花捕蟲堇"
       ]
     },
     "tags": [],
@@ -299,7 +386,7 @@
     "family": "Lentibulariaceae",
     "genus": "Pinguicula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -315,9 +402,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pinguicula_leptoceras",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -381,11 +468,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dünnsporn-Fettkraut"
+      ],
       "en": [
-        "Hairy-spurred butterwort"
+        "Hairy-spurred butterwort",
+        "Pinguicula leptoceras"
+      ],
+      "es": [
+        "Pinguicula leptoceras"
+      ],
+      "fr": [
+        "Pinguicula leptoceras"
+      ],
+      "it": [
+        "Pinguicula leptoceras"
+      ],
+      "nl": [
+        "Pinguicula leptoceras"
+      ],
+      "pl": [
+        "Pinguicula leptoceras"
+      ],
+      "pt": [
+        "Pinguicula leptoceras"
+      ],
+      "ru": [
+        "Pinguicula leptoceras"
       ]
     },
     "tags": [],
@@ -397,7 +511,7 @@
     "family": "Lentibulariaceae",
     "genus": "Pinguicula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -413,17 +527,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pinguicula_lusitanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -479,11 +593,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "صائد الحشرات الشاحب"
+      ],
+      "de": [
+        "Pinguicula lusitanica"
+      ],
       "en": [
-        "Pale butterwort"
+        "Pale butterwort",
+        "Pinguicula lusitanica"
+      ],
+      "es": [
+        "Pinguicula lusitanica"
+      ],
+      "fr": [
+        "Grassette du Portugal"
+      ],
+      "it": [
+        "Pinguicula lusitanica"
+      ],
+      "ja": [
+        "ヒメムシトリスミレ"
+      ],
+      "nl": [
+        "Pinguicula lusitanica"
+      ],
+      "pl": [
+        "Pinguicula lusitanica"
+      ],
+      "pt": [
+        "Pinguicula lusitanica"
+      ],
+      "ru": [
+        "Pinguicula lusitanica"
+      ],
+      "zh": [
+        "葡萄牙捕虫堇"
       ]
     },
     "tags": [],
@@ -495,12 +645,12 @@
     "family": "Lentibulariaceae",
     "genus": "Pinguicula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/11a6039fcfc3100c355b1873fc822ec37c13cfc5",
-    "description": "Fruits display from June to July.",
+    "description": "Pinguicula lutea, commonly known as the yellow butterwort, is a species of warm-temperate carnivorous plant in the family Lentibulariaceae. It grows in savannas and sandy bog areas of the Southeastern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -511,9 +661,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pinguicula_lutea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -577,11 +727,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pinguicula lutea"
+      ],
       "en": [
+        "Pinguicula lutea",
         "Yellow butterwort"
+      ],
+      "es": [
+        "Pinguicula lutea"
+      ],
+      "fr": [
+        "Pinguicula lutea"
+      ],
+      "it": [
+        "Pinguicula lutea"
+      ],
+      "nl": [
+        "Pinguicula lutea"
+      ],
+      "pl": [
+        "Pinguicula lutea"
+      ],
+      "pt": [
+        "Pinguicula lutea"
+      ],
+      "ru": [
+        "Pinguicula lutea"
       ]
     },
     "tags": [],
@@ -593,7 +770,7 @@
     "family": "Lentibulariaceae",
     "genus": "Pinguicula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -609,9 +786,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pinguicula_moranensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -675,9 +852,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geschwänztes Fettkraut"
+      ],
+      "en": [
+        "Pinguicula moranensis"
+      ],
+      "es": [
+        "Pinguicula moranensis"
+      ],
+      "fr": [
+        "Pinguicula moranensis"
+      ],
+      "it": [
+        "Pinguicula moranensis"
+      ],
+      "ja": [
+        "アシナガムシトリスミレ"
+      ],
+      "nl": [
+        "Pinguicula moranensis"
+      ],
+      "pl": [
+        "Pinguicula moranensis"
+      ],
+      "pt": [
+        "Pinguicula moranensis"
+      ],
+      "ru": [
+        "Жирянка моранская"
+      ],
+      "zh": [
+        "墨蘭捕蟲堇"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -687,7 +900,7 @@
     "family": "Lentibulariaceae",
     "genus": "Pinguicula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -703,9 +916,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pinguicula_pumila",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -769,11 +982,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pinguicula pumila"
+      ],
       "en": [
+        "Pinguicula pumila",
         "Small butterwort"
+      ],
+      "es": [
+        "Pinguicula pumila"
+      ],
+      "fr": [
+        "Pinguicula pumila"
+      ],
+      "it": [
+        "Pinguicula pumila"
+      ],
+      "nl": [
+        "Pinguicula pumila"
+      ],
+      "pl": [
+        "Pinguicula pumila"
+      ],
+      "pt": [
+        "Pinguicula pumila"
+      ],
+      "ru": [
+        "Pinguicula pumila"
       ]
     },
     "tags": [],
@@ -785,7 +1025,7 @@
     "family": "Lentibulariaceae",
     "genus": "Pinguicula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -801,17 +1041,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pinguicula_villosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -867,11 +1107,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Pinguicula villosa"
+      ],
       "en": [
-        "Hairy butterwort"
+        "Hairy butterwort",
+        "Pinguicula villosa"
+      ],
+      "es": [
+        "Pinguicula villosa"
+      ],
+      "fr": [
+        "Pinguicula villosa"
+      ],
+      "it": [
+        "Pinguicula villosa"
+      ],
+      "nl": [
+        "Pinguicula villosa"
+      ],
+      "pl": [
+        "Pinguicula villosa"
+      ],
+      "pt": [
+        "Pinguicula villosa"
+      ],
+      "ru": [
+        "Pinguicula villosa"
+      ],
+      "zh": [
+        "北捕虫堇"
       ]
     },
     "tags": [],
@@ -883,7 +1153,7 @@
     "family": "Lentibulariaceae",
     "genus": "Pinguicula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -899,17 +1169,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pinguicula_vulgaris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -965,11 +1235,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "ar": [
+        "عشبة الدهن"
+      ],
+      "de": [
+        "Gemeines Fettkraut"
+      ],
       "en": [
-        "Common butterwort"
+        "Common butterwort",
+        "Pinguicula vulgaris"
+      ],
+      "es": [
+        "Pinguicula vulgaris"
+      ],
+      "fr": [
+        "Grassette commune"
+      ],
+      "it": [
+        "Pinguicula vulgaris"
+      ],
+      "ja": [
+        "ムシトリスミレ"
+      ],
+      "ko": [
+        "벌레잡이제비꽃"
+      ],
+      "nl": [
+        "Vetblad"
+      ],
+      "pl": [
+        "Tłustosz pospolity"
+      ],
+      "pt": [
+        "Pinguicula vulgaris"
+      ],
+      "ru": [
+        "жирянка обыкновенная"
+      ],
+      "tr": [
+        "Pinguicula vulgaris"
+      ],
+      "zh": [
+        "野捕蟲堇"
       ]
     },
     "tags": [],
@@ -981,7 +1293,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -997,9 +1309,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_amethystina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1065,9 +1377,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Utricularia amethystina"
+      ],
+      "en": [
+        "Utricularia amethystina"
+      ],
+      "es": [
+        "Utricularia amethystina"
+      ],
+      "fr": [
+        "Utricularia amethystina"
+      ],
+      "it": [
+        "Utricularia amethystina"
+      ],
+      "nl": [
+        "Utricularia amethystina"
+      ],
+      "pl": [
+        "Utricularia amethystina"
+      ],
+      "pt": [
+        "Utricularia amethystina"
+      ],
+      "ru": [
+        "Utricularia amethystina"
+      ],
+      "zh": [
+        "紫水晶狸藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1077,7 +1422,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1093,9 +1438,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_aurea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1161,9 +1506,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Utricularia aurea"
+      ],
+      "en": [
+        "Utricularia aurea"
+      ],
+      "es": [
+        "Utricularia aurea"
+      ],
+      "fr": [
+        "Utricularia aurea"
+      ],
+      "it": [
+        "Utricularia aurea"
+      ],
+      "ja": [
+        "ノタヌキモ"
+      ],
+      "nl": [
+        "Utricularia aurea"
+      ],
+      "pl": [
+        "Utricularia aurea"
+      ],
+      "pt": [
+        "Utricularia aurea"
+      ],
+      "ru": [
+        "Пузырчатка золотая"
+      ],
+      "zh": [
+        "黃花狸藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1173,7 +1554,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1189,17 +1570,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_australis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1257,11 +1638,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Verkannter Wasserschlauch"
+      ],
       "en": [
-        "Bladderwort"
+        "Bladderwort",
+        "Utricularia australis"
+      ],
+      "es": [
+        "Utricularia australis"
+      ],
+      "fr": [
+        "Utricularia australis"
+      ],
+      "it": [
+        "Utricularia australis"
+      ],
+      "ja": [
+        "イヌタヌキモ"
+      ],
+      "ko": [
+        "통발"
+      ],
+      "nl": [
+        "loos blaasjeskruid"
+      ],
+      "pl": [
+        "Pływacz zachodni"
+      ],
+      "pt": [
+        "Utricularia australis"
+      ],
+      "ru": [
+        "Utricularia australis"
+      ],
+      "zh": [
+        "南方狸藻"
       ]
     },
     "tags": [],
@@ -1273,7 +1690,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1289,9 +1706,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_bifida",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1357,9 +1774,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Utricularia bifida"
+      ],
+      "en": [
+        "Utricularia bifida"
+      ],
+      "es": [
+        "Utricularia bifida"
+      ],
+      "fr": [
+        "Utricularia bifida"
+      ],
+      "it": [
+        "Utricularia bifida"
+      ],
+      "ja": [
+        "ミミカキグサ"
+      ],
+      "ko": [
+        "땅귀이개"
+      ],
+      "nl": [
+        "Utricularia bifida"
+      ],
+      "pl": [
+        "Utricularia bifida"
+      ],
+      "pt": [
+        "Utricularia bifida"
+      ],
+      "ru": [
+        "Пузырчатка двунадрезная"
+      ],
+      "zh": [
+        "兩裂狸藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1369,7 +1825,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1385,9 +1841,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_caerulea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1453,9 +1909,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "حامول الماء الأزرق"
+      ],
+      "de": [
+        "Utricularia caerulea"
+      ],
+      "en": [
+        "Utricularia caerulea"
+      ],
+      "es": [
+        "Utricularia caerulea"
+      ],
+      "fr": [
+        "Utricularia caerulea"
+      ],
+      "it": [
+        "Utricularia caerulea"
+      ],
+      "ja": [
+        "ホザキノミミカキグサ"
+      ],
+      "nl": [
+        "Utricularia caerulea"
+      ],
+      "pl": [
+        "Utricularia caerulea"
+      ],
+      "pt": [
+        "Utricularia caerulea"
+      ],
+      "ru": [
+        "Utricularia caerulea"
+      ],
+      "zh": [
+        "長距狸藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1465,7 +1960,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1481,17 +1976,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_cornuta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1549,9 +2044,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.9
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Utricularia cornuta"
+      ],
+      "en": [
+        "Utricularia cornuta"
+      ],
+      "es": [
+        "Utricularia cornuta"
+      ],
+      "fr": [
+        "Utricularia cornuta"
+      ],
+      "it": [
+        "Utricularia cornuta"
+      ],
+      "nl": [
+        "Utricularia cornuta"
+      ],
+      "pl": [
+        "Utricularia cornuta"
+      ],
+      "pt": [
+        "Utricularia cornuta"
+      ],
+      "ru": [
+        "Utricularia cornuta"
+      ],
+      "zh": [
+        "角狀狸藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1561,7 +2089,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1577,17 +2105,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_dichotoma",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1645,11 +2173,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Utricularia dichotoma"
+      ],
       "en": [
-        "Fairy aprons"
+        "Fairy aprons",
+        "Utricularia dichotoma"
+      ],
+      "es": [
+        "Utricularia dichotoma"
+      ],
+      "fr": [
+        "Utricularia dichotoma"
+      ],
+      "it": [
+        "Utricularia dichotoma"
+      ],
+      "ja": [
+        "フェアリーズエプロン"
+      ],
+      "nl": [
+        "Utricularia dichotoma"
+      ],
+      "pl": [
+        "Utricularia dichotoma"
+      ],
+      "pt": [
+        "Utricularia dichotoma"
+      ],
+      "ru": [
+        "Utricularia dichotoma"
+      ],
+      "zh": [
+        "雙岔狸藻"
       ]
     },
     "tags": [],
@@ -1661,7 +2222,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1677,17 +2238,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_foliosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1745,11 +2306,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Utricularia foliosa"
+      ],
       "en": [
-        "Leafy bladderwort"
+        "Leafy bladderwort",
+        "Utricularia foliosa"
+      ],
+      "es": [
+        "Utricularia foliosa"
+      ],
+      "fr": [
+        "Utricularia foliosa"
+      ],
+      "it": [
+        "Utricularia foliosa"
+      ],
+      "nl": [
+        "Utricularia foliosa"
+      ],
+      "pl": [
+        "Utricularia foliosa"
+      ],
+      "pt": [
+        "Utricularia foliosa"
+      ],
+      "ru": [
+        "Utricularia foliosa"
+      ],
+      "zh": [
+        "葉狀狸藻"
       ]
     },
     "tags": [],
@@ -1761,7 +2352,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1777,17 +2368,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_gibba",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1845,11 +2436,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Zwerg-Wasserschlauch"
+      ],
       "en": [
-        "Humped bladderwort"
+        "Humped bladderwort",
+        "Utricularia gibba"
+      ],
+      "es": [
+        "Utricularia gibba"
+      ],
+      "fr": [
+        "Utricularia gibba"
+      ],
+      "it": [
+        "Utricularia gibba"
+      ],
+      "nl": [
+        "Utricularia gibba"
+      ],
+      "pl": [
+        "Utricularia gibba"
+      ],
+      "pt": [
+        "Utricularia gibba"
+      ],
+      "ru": [
+        "Utricularia gibba"
+      ],
+      "zh": [
+        "絲葉狸藻"
       ]
     },
     "tags": [],
@@ -1861,7 +2482,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1877,9 +2498,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_inflata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1943,9 +2564,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Utricularia inflata"
+      ],
+      "en": [
+        "Utricularia inflata"
+      ],
+      "es": [
+        "Utricularia inflata"
+      ],
+      "fr": [
+        "Utricularia inflata"
+      ],
+      "it": [
+        "Utricularia inflata"
+      ],
+      "ja": [
+        "エフクレタヌキモ"
+      ],
+      "nl": [
+        "Utricularia inflata"
+      ],
+      "pl": [
+        "Utricularia inflata"
+      ],
+      "pt": [
+        "Utricularia inflata"
+      ],
+      "ru": [
+        "Utricularia inflata"
+      ],
+      "zh": [
+        "浮囊狸藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1955,7 +2612,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1971,17 +2628,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_intermedia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2039,11 +2696,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Mittlerer Wasserschlauch"
+      ],
       "en": [
-        "Flatleaf bladderwort"
+        "Flatleaf bladderwort",
+        "Utricularia intermedia"
+      ],
+      "es": [
+        "Utricularia intermedia"
+      ],
+      "fr": [
+        "Utricularia intermedia"
+      ],
+      "it": [
+        "Utricularia intermedia"
+      ],
+      "ja": [
+        "コタヌキモ"
+      ],
+      "ko": [
+        "개통발"
+      ],
+      "nl": [
+        "plat blaasjeskruid"
+      ],
+      "pl": [
+        "pływacz średni"
+      ],
+      "pt": [
+        "Utricularia intermedia"
+      ],
+      "ru": [
+        "Пузырчатка средняя"
+      ],
+      "zh": [
+        "异枝狸藻"
       ]
     },
     "tags": [],
@@ -2055,7 +2748,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2071,9 +2764,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_juncea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -2139,11 +2832,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Utricularia juncea"
+      ],
       "en": [
-        "Southern bladderwort"
+        "Southern bladderwort",
+        "Utricularia juncea"
+      ],
+      "es": [
+        "Utricularia juncea"
+      ],
+      "fr": [
+        "Utricularia juncea"
+      ],
+      "it": [
+        "Utricularia juncea"
+      ],
+      "nl": [
+        "Utricularia juncea"
+      ],
+      "pl": [
+        "Utricularia juncea"
+      ],
+      "pt": [
+        "Utricularia juncea"
+      ],
+      "ru": [
+        "Utricularia juncea"
+      ],
+      "zh": [
+        "灯芯草狸藻"
       ]
     },
     "tags": [],
@@ -2155,12 +2878,12 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Utricularia_macrorhiza_flower.jpg",
+    "description": "Utricularia macrorhiza, the common bladderwort, is a perennial suspended aquatic carnivorous plant that belongs to the genus Utricularia. U. macrorhiza is native to North America and eastern temperate Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2171,17 +2894,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_macrorhiza",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2237,9 +2960,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.9
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Utricularia macrorhiza"
+      ],
+      "en": [
+        "Utricularia macrorhiza"
+      ],
+      "es": [
+        "Utricularia macrorhiza"
+      ],
+      "fr": [
+        "Utricularia macrorhiza"
+      ],
+      "it": [
+        "Utricularia macrorhiza"
+      ],
+      "nl": [
+        "Utricularia macrorhiza"
+      ],
+      "pl": [
+        "Utricularia macrorhiza"
+      ],
+      "pt": [
+        "Utricularia macrorhiza"
+      ],
+      "ru": [
+        "Utricularia macrorhiza"
+      ],
+      "zh": [
+        "巨根狸藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2249,7 +3005,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2265,17 +3021,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_minor",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2333,11 +3089,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Kleiner Wasserschlauch"
+      ],
       "en": [
-        "Lesser bladderwort"
+        "Lesser bladderwort",
+        "Utricularia minor"
+      ],
+      "es": [
+        "Utricularia minor"
+      ],
+      "fr": [
+        "Utricularia minor"
+      ],
+      "it": [
+        "Utricularia minor"
+      ],
+      "ja": [
+        "ヒメタヌキモ"
+      ],
+      "nl": [
+        "klein blaasjeskruid"
+      ],
+      "pl": [
+        "Pływacz drobny"
+      ],
+      "pt": [
+        "Utricularia minor"
+      ],
+      "ru": [
+        "Пузырчатка малая"
+      ],
+      "zh": [
+        "细叶狸藻"
       ]
     },
     "tags": [],
@@ -2349,7 +3138,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2365,9 +3154,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_purpurea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -2431,11 +3220,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Utricularia purpurea"
+      ],
       "en": [
-        "Eastern purple bladderwort"
+        "Eastern purple bladderwort",
+        "Utricularia purpurea"
+      ],
+      "es": [
+        "Utricularia purpurea"
+      ],
+      "fr": [
+        "utriculaire pourpre"
+      ],
+      "it": [
+        "Utricularia purpurea"
+      ],
+      "nl": [
+        "Utricularia purpurea"
+      ],
+      "pl": [
+        "Utricularia purpurea"
+      ],
+      "pt": [
+        "Utricularia purpurea"
+      ],
+      "ru": [
+        "Utricularia purpurea"
+      ],
+      "zh": [
+        "紫狸藻"
       ]
     },
     "tags": [],
@@ -2447,7 +3266,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2463,9 +3282,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_radiata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -2531,11 +3350,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Utricularia radiata"
+      ],
       "en": [
-        "Little floating bladderwort"
+        "Little floating bladderwort",
+        "Utricularia radiata"
+      ],
+      "es": [
+        "Utricularia radiata"
+      ],
+      "fr": [
+        "Utricularia radiata"
+      ],
+      "it": [
+        "Utricularia radiata"
+      ],
+      "nl": [
+        "Utricularia radiata"
+      ],
+      "pl": [
+        "Utricularia radiata"
+      ],
+      "pt": [
+        "Utricularia radiata"
+      ],
+      "ru": [
+        "Utricularia radiata"
+      ],
+      "zh": [
+        "辐射狸藻"
       ]
     },
     "tags": [],
@@ -2547,7 +3396,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2563,9 +3412,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_resupinata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -2631,9 +3480,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Utricularia resupinata"
+      ],
+      "en": [
+        "Utricularia resupinata"
+      ],
+      "es": [
+        "Utricularia resupinata"
+      ],
+      "fr": [
+        "Utricularia resupinata"
+      ],
+      "it": [
+        "Utricularia resupinata"
+      ],
+      "nl": [
+        "Utricularia resupinata"
+      ],
+      "pl": [
+        "Utricularia resupinata"
+      ],
+      "pt": [
+        "Utricularia resupinata"
+      ],
+      "ru": [
+        "Utricularia resupinata"
+      ],
+      "zh": [
+        "颠倒狸藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2643,7 +3525,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2659,17 +3541,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_subulata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2725,11 +3607,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Utricularia subulata"
+      ],
       "en": [
+        "Utricularia subulata",
         "Zigzag bladderwort"
+      ],
+      "es": [
+        "Utricularia subulata"
+      ],
+      "fr": [
+        "Utricularia subulata"
+      ],
+      "it": [
+        "Utricularia subulata"
+      ],
+      "nl": [
+        "Utricularia subulata"
+      ],
+      "pl": [
+        "Utricularia subulata"
+      ],
+      "pt": [
+        "Utricularia subulata"
+      ],
+      "ru": [
+        "Utricularia subulata"
+      ],
+      "zh": [
+        "尖葉狸藻"
       ]
     },
     "tags": [],
@@ -2741,7 +3653,7 @@
     "family": "Lentibulariaceae",
     "genus": "Utricularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2757,17 +3669,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "utricularia_vulgaris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2825,11 +3737,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "ar": [
+        "سندب"
+      ],
+      "de": [
+        "Utricularia vulgaris"
+      ],
       "en": [
-        "Greater bladderwort"
+        "Greater bladderwort",
+        "Utricularia vulgaris"
+      ],
+      "es": [
+        "Utricularia vulgaris"
+      ],
+      "fr": [
+        "Utriculaire vulgaire"
+      ],
+      "it": [
+        "Utricularia macrorhiza"
+      ],
+      "nl": [
+        "Utricularia vulgaris"
+      ],
+      "pl": [
+        "Pływacz zwyczajny"
+      ],
+      "pt": [
+        "Utricularia vulgaris"
+      ],
+      "ru": [
+        "Пузырчатка обыкновенная"
+      ],
+      "zh": [
+        "普通狸藻"
       ]
     },
     "tags": [],

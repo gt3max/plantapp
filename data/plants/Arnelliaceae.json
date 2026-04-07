@@ -5,12 +5,12 @@
     "family": "Arnelliaceae",
     "genus": "Arnellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Arnelliaceae is a monotypic family of liverworts belonging to the order Jungermanniales. The family only contains a single genus, Arnellia, which has only one known species, Arnellia fennica (Gottsche) Lindb.. which is known as the tundra liverwort.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Arnellia fennica"
+      ],
+      "en": [
+        "Arnellia fennica"
+      ],
+      "es": [
+        "Arnellia fennica"
+      ],
+      "fr": [
+        "Arnellia fennica"
+      ],
+      "it": [
+        "Arnellia fennica"
+      ],
+      "nl": [
+        "Arnellia fennica"
+      ],
+      "pl": [
+        "Arnellia fennica"
+      ],
+      "pt": [
+        "Arnellia fennica"
+      ],
+      "ru": [
+        "Arnellia fennica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Arnelliaceae",
     "genus": "Gongylanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gongylanthus ericetorum"
+      ],
+      "en": [
+        "Gongylanthus ericetorum"
+      ],
+      "es": [
+        "Gongylanthus ericetorum"
+      ],
+      "fr": [
+        "Gongylanthus ericetorum"
+      ],
+      "it": [
+        "Gongylanthus ericetorum"
+      ],
+      "nl": [
+        "Gongylanthus ericetorum"
+      ],
+      "pl": [
+        "Gongylanthus ericetorum"
+      ],
+      "pt": [
+        "Gongylanthus ericetorum"
+      ],
+      "ru": [
+        "Gongylanthus ericetorum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

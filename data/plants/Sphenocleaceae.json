@@ -5,7 +5,7 @@
     "family": "Sphenocleaceae",
     "genus": "Sphenoclea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sphenoclea zeylanica"
+      ],
       "en": [
-        "Chickenspike"
+        "Chickenspike",
+        "Sphenoclea zeylanica"
+      ],
+      "es": [
+        "Sphenoclea zeylanica"
+      ],
+      "fr": [
+        "Sphenoclea zeylanica"
+      ],
+      "it": [
+        "Sphenoclea zeylanica"
+      ],
+      "nl": [
+        "Sphenoclea zeylanica"
+      ],
+      "pl": [
+        "Sphenoclea zeylanica"
+      ],
+      "pt": [
+        "Sphenoclea zeylanica"
+      ],
+      "ru": [
+        "Sphenoclea zeylanica"
+      ],
+      "zh": [
+        "楔瓣花"
       ]
     },
     "tags": [],

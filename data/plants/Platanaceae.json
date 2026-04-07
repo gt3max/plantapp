@@ -5,7 +5,7 @@
     "family": "Platanaceae",
     "genus": "Platanus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "platanus_acerifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,7 +87,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.7
     },
     "common_names": {
       "en": [
@@ -103,12 +105,12 @@
     "family": "Platanaceae",
     "genus": "Platanus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/48e6039ee3f313c53c03a69149170ff79225b383",
-    "description": "The fruit ball is a showy, fuzzy, long-stalked, round ball that is 0.5 to 1-inches in diameter. There are 1 to 2 fruit balls per peduncle, usually one. The stalk is 3 to 6 inches long. They ripen to brown in the fall and persist into early winter. Each ball is fibrous interiorly and contains many seed-like fruits called achenes. As fall progresses the balls break down and the seeds fly out in downy tufts on the wind. Typically the fruits fall to the ground and then split open to release their se",
+    "description": "Platanus mexicana is a species of plane tree that is native to Northeast and Central Mexico and Guatemala. It is also known as the Mexican sycamore.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -119,7 +121,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "platanus_mexicana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -185,11 +187,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "دلب مكسيكي"
+      ],
+      "de": [
+        "Platanus mexicana"
+      ],
       "en": [
-        "Mexican plane"
+        "Mexican plane",
+        "Platanus mexicana"
+      ],
+      "es": [
+        "Platanus mexicana"
+      ],
+      "fr": [
+        "Platanus mexicana"
+      ],
+      "it": [
+        "Platanus mexicana"
+      ],
+      "nl": [
+        "Platanus mexicana"
+      ],
+      "pl": [
+        "Platan meksykański"
+      ],
+      "pt": [
+        "Platanus mexicana"
+      ],
+      "ru": [
+        "Платан мексиканский"
+      ],
+      "tr": [
+        "Meksika çınarı"
       ]
     },
     "tags": [],
@@ -201,7 +236,7 @@
     "family": "Platanaceae",
     "genus": "Platanus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -217,17 +252,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "platanus_occidentalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -283,11 +318,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "دلب غربي"
+      ],
+      "de": [
+        "Amerikanische Platane"
+      ],
       "en": [
-        "Buttonball"
+        "Buttonball",
+        "Platanus occidentalis"
+      ],
+      "es": [
+        "Platanus occidentalis"
+      ],
+      "fr": [
+        "Platanus occidentalis"
+      ],
+      "it": [
+        "Platanus occidentalis"
+      ],
+      "ja": [
+        "アメリカスズカケノキ"
+      ],
+      "ko": [
+        "양버즘나무"
+      ],
+      "nl": [
+        "Westerse plataan"
+      ],
+      "pl": [
+        "Platan zachodni"
+      ],
+      "pt": [
+        "Platanus occidentalis"
+      ],
+      "ru": [
+        "Платан западный"
+      ],
+      "tr": [
+        "Batı çınarı"
+      ],
+      "zh": [
+        "美桐"
       ]
     },
     "tags": [],
@@ -299,7 +376,7 @@
     "family": "Platanaceae",
     "genus": "Platanus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -315,17 +392,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "platanus_orientalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -381,11 +458,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "دلب مشرقي"
+      ],
+      "de": [
+        "Morgenländische Platane"
+      ],
       "en": [
-        "Oriental plane"
+        "Oriental plane",
+        "Plantanus orientalis"
+      ],
+      "fr": [
+        "platane d'Orient"
+      ],
+      "it": [
+        "Platanus orientalis"
+      ],
+      "ja": [
+        "スズカケノキ"
+      ],
+      "ko": [
+        "버즘나무"
+      ],
+      "nl": [
+        "Oosterse plataan"
+      ],
+      "pl": [
+        "Platan wschodni"
+      ],
+      "pt": [
+        "Platanus orientalis"
+      ],
+      "ru": [
+        "Платан восточный"
+      ],
+      "tr": [
+        "Doğu çınarı"
+      ],
+      "zh": [
+        "法桐"
       ]
     },
     "tags": [],
@@ -397,12 +513,12 @@
     "family": "Platanaceae",
     "genus": "Platanus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ebccb840901a0de71847f8bdd2b4ab90474a46f1",
-    "description": "The fruit ball is a showy, fuzzy, long-stalked, round ball that is 0.5 to 1-inches in diameter. There are 1 to 2 fruit balls per peduncle, usually one. The stalk is 3 to 6 inches long. They ripen to brown in the fall and persist into early winter. Each ball is fibrous interiorly and contains many seed-like fruits called achenes. As fall progresses the balls break down and the seeds fly out in downy tufts on the wind. Typically the fruits fall to the ground and then split open to release their se",
+    "description": "Platanus racemosa is a species of plane tree known by several common names, including California sycamore, western sycamore, California plane tree, and in North American Spanish aliso. Platanus racemosa is native to California and Baja California, where it grows in riparian areas, canyons, floodplains, at springs and seeps, and along streams and rivers in several types of habitats. It can be found as far north as Tehama and Humboldt counties.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -413,7 +529,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "platanus_racemosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -479,11 +595,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "دلب كاليفورني"
+      ],
+      "de": [
+        "Kalifornische Platane"
+      ],
       "en": [
-        "California sycamore"
+        "California sycamore",
+        "Platanus racemosa"
+      ],
+      "es": [
+        "Platanus racemosa"
+      ],
+      "fr": [
+        "Platanus racemosa"
+      ],
+      "it": [
+        "Platanus racemosa"
+      ],
+      "nl": [
+        "Platanus racemosa"
+      ],
+      "pl": [
+        "Platan kalifornijski"
+      ],
+      "pt": [
+        "Platanus racemosa"
+      ],
+      "ru": [
+        "Платан кистистый"
+      ],
+      "tr": [
+        "Kaliforniya çınarı"
       ]
     },
     "tags": [],
@@ -495,12 +644,12 @@
     "family": "Platanaceae",
     "genus": "Platanus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dd46ba4d08680823f2897ab1b6b62bdc1684aac2",
-    "description": "The fruit ball is a showy, fuzzy, long-stalked, round ball that is 0.5 to 1-inches in diameter. There are 1 to 2 fruit balls per peduncle, usually one. The stalk is 3 to 6 inches long. They ripen to brown in the fall and persist into early winter. Each ball is fibrous interiorly and contains many seed-like fruits called achenes. As fall progresses the balls break down and the seeds fly out in downy tufts on the wind. Typically the fruits fall to the ground and then split open to release their se",
+    "description": "Platanus wrightii, the Arizona sycamore, is a sycamore tree native to Arizona and New Mexico with its range extending south into the Mexican states of Sonora, Chihuahua, and Sinaloa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -511,7 +660,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "platanus_wrightii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -577,11 +726,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "دلب أريزوني"
+      ],
+      "de": [
+        "Platanus wrightii"
+      ],
       "en": [
-        "Arizona sycamore"
+        "Arizona sycamore",
+        "Platanus wrightii"
+      ],
+      "es": [
+        "Platanus wrightii"
+      ],
+      "fr": [
+        "Platanus wrightii"
+      ],
+      "it": [
+        "Platanus wrightii"
+      ],
+      "nl": [
+        "Platanus wrightii"
+      ],
+      "pl": [
+        "Platan arizoński"
+      ],
+      "pt": [
+        "Platanus wrightii"
+      ],
+      "ru": [
+        "Платан Райта"
+      ],
+      "tr": [
+        "Platanus wrightii"
       ]
     },
     "tags": [],

@@ -5,12 +5,12 @@
     "family": "Celastraceae",
     "genus": "Celastrus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a2a79d6414ff4a67e3ae2a009e0b2174b2d1dad1",
-    "description": "Clusters of small capsules start out green but turn yellow and split to reveal a scarlet, fleshy, berry-like fruit that has three sections each with 2 white seeds, mature between August and January.",
+    "description": "Celastrus orbiculatus is a woody vine of the family Celastraceae. It is commonly called Oriental bittersweet, as well as Chinese bittersweet, Asian bittersweet, round-leaved bittersweet, and Asiatic bittersweet.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -95,11 +95,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "حرابية ملتفة"
+      ],
+      "de": [
+        "Celastrus orbiculatus"
+      ],
       "en": [
+        "Celastrus orbiculatus",
         "Oriental bittersweet"
+      ],
+      "es": [
+        "Celastrus orbiculatus"
+      ],
+      "fr": [
+        "Celastrus orbiculatus"
+      ],
+      "it": [
+        "Celastrus orbiculatus"
+      ],
+      "ja": [
+        "ツルウメモドキ"
+      ],
+      "ko": [
+        "노박덩굴"
+      ],
+      "nl": [
+        "boomwurger"
+      ],
+      "pl": [
+        "Dławisz okrągłolistny"
+      ],
+      "pt": [
+        "Celastrus orbiculatus"
+      ],
+      "ru": [
+        "Древогубец круглолистный"
+      ],
+      "zh": [
+        "南蛇藤"
       ]
     },
     "tags": [],
@@ -111,12 +150,12 @@
     "family": "Celastraceae",
     "genus": "Celastrus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/616100a5b99c44e844f51180888a8a817cd99eb2",
-    "description": "The fruit is round 1/2  diameter, dry three lobed capsule that starts out green turning the outside orange which eventuallly splits exposing red seeds.  They appear in fall and persist through winter.",
+    "description": "Celastrus scandens, commonly called American bittersweet, is a species of bittersweet that blooms mostly in June and is commonly found on rich, well-drained soils of woodlands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -201,11 +240,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "حرابية خانقة"
+      ],
+      "de": [
+        "Amerikanischer Baumwürger"
+      ],
       "en": [
-        "American bittersweet"
+        "American bittersweet",
+        "Celastrus scandens"
+      ],
+      "es": [
+        "Celastrus scandens"
+      ],
+      "fr": [
+        "Celastrus scandens"
+      ],
+      "it": [
+        "Celastrus scandens"
+      ],
+      "nl": [
+        "Celastrus scandens"
+      ],
+      "pl": [
+        "Celastrus scandens"
+      ],
+      "pt": [
+        "Celastrus scandens"
+      ],
+      "ru": [
+        "Celastrus scandens"
+      ],
+      "zh": [
+        "爬藤卫矛"
       ]
     },
     "tags": [],
@@ -217,12 +289,12 @@
     "family": "Celastraceae",
     "genus": "Celastrus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1f07c5f1b92df70725d3cd676d8eccd12ab25acf",
-    "description": "Clusters of small capsules start out green but turn yellow and split to reveal a scarlet, fleshy, berry-like fruit that has three sections each with 2 white seeds, mature between August and January.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -299,9 +371,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Celastrus subspicatus"
+      ],
+      "en": [
+        "Celastrus subspicatus"
+      ],
+      "es": [
+        "Celastrus subspicatus"
+      ],
+      "fr": [
+        "Celastrus subspicatus"
+      ],
+      "it": [
+        "Celastrus subspicatus"
+      ],
+      "nl": [
+        "Celastrus subspicatus"
+      ],
+      "pl": [
+        "Celastrus subspicatus"
+      ],
+      "pt": [
+        "Celastrus subspicatus"
+      ],
+      "ru": [
+        "Celastrus subspicatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -311,7 +413,7 @@
     "family": "Celastraceae",
     "genus": "Cheiloclinium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -393,9 +495,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cheiloclinium cognatum"
+      ],
+      "en": [
+        "Cheiloclinium cognatum"
+      ],
+      "es": [
+        "Cheiloclinium cognatum"
+      ],
+      "fr": [
+        "Cheiloclinium cognatum"
+      ],
+      "it": [
+        "Cheiloclinium cognatum"
+      ],
+      "nl": [
+        "Cheiloclinium cognatum"
+      ],
+      "pl": [
+        "Cheiloclinium cognatum"
+      ],
+      "pt": [
+        "Cheiloclinium cognatum"
+      ],
+      "ru": [
+        "Cheiloclinium cognatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -405,7 +537,7 @@
     "family": "Celastraceae",
     "genus": "Crossopetalum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -487,9 +619,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Crossopetalum parviflorum"
+      ],
+      "en": [
+        "Crossopetalum parviflorum"
+      ],
+      "es": [
+        "Crossopetalum parviflorum"
+      ],
+      "fr": [
+        "Crossopetalum parviflorum"
+      ],
+      "it": [
+        "Crossopetalum parviflorum"
+      ],
+      "nl": [
+        "Crossopetalum parviflorum"
+      ],
+      "pl": [
+        "Crossopetalum parviflorum"
+      ],
+      "pt": [
+        "Crossopetalum parviflorum"
+      ],
+      "ru": [
+        "Crossopetalum parviflorum"
+      ],
+      "zh": [
+        "小花玉女樱"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -499,7 +664,7 @@
     "family": "Celastraceae",
     "genus": "Crossopetalum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -581,11 +746,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Crossopetalum rhacoma"
+      ],
       "en": [
+        "Crossopetalum rhacoma",
         "Maidenberry"
+      ],
+      "es": [
+        "Crossopetalum rhacoma"
+      ],
+      "fr": [
+        "Crossopetalum rhacoma"
+      ],
+      "it": [
+        "Crossopetalum rhacoma"
+      ],
+      "nl": [
+        "Crossopetalum rhacoma"
+      ],
+      "pl": [
+        "Crossopetalum rhacoma"
+      ],
+      "pt": [
+        "Crossopetalum rhacoma"
+      ],
+      "ru": [
+        "Crossopetalum rhacoma"
       ]
     },
     "tags": [],
@@ -597,12 +789,12 @@
     "family": "Celastraceae",
     "genus": "Denhamia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/9fb7db9e9383cb27223b09c5f8870a71.jpg",
-    "description": null,
+    "description": "Denhamia cunninghamii is a species of shrub endemic to Australia. The natural range extends from The Kimberley and throughout The Northern Territory and Queensland. The plant grows to 6 metres in height, though it commonly flowers as a much smaller shrub. It is most commonly found in savanna and open forests, though it occasionally extends into monsoon forest.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -679,9 +871,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Denhamia cunninghamii"
+      ],
+      "en": [
+        "Denhamia cunninghamii"
+      ],
+      "es": [
+        "Denhamia cunninghamii"
+      ],
+      "fr": [
+        "Denhamia cunninghamii"
+      ],
+      "it": [
+        "Denhamia cunninghamii"
+      ],
+      "nl": [
+        "Denhamia cunninghamii"
+      ],
+      "pl": [
+        "Denhamia cunninghamii"
+      ],
+      "pt": [
+        "Denhamia cunninghamii"
+      ],
+      "ru": [
+        "Denhamia cunninghamii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -691,7 +913,7 @@
     "family": "Celastraceae",
     "genus": "Denhamia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -773,9 +995,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Denhamia obscura"
+      ],
+      "en": [
+        "Denhamia obscura"
+      ],
+      "es": [
+        "Denhamia obscura"
+      ],
+      "fr": [
+        "Denhamia obscura"
+      ],
+      "it": [
+        "Denhamia obscura"
+      ],
+      "nl": [
+        "Denhamia obscura"
+      ],
+      "pl": [
+        "Denhamia obscura"
+      ],
+      "pt": [
+        "Denhamia obscura"
+      ],
+      "ru": [
+        "Denhamia obscura"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -785,12 +1037,12 @@
     "family": "Celastraceae",
     "genus": "Denhamia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Denhamia silvestris is a shrub or small tree growing from Picton, New South Wales to Kroombit Tops, near Gladstone, Queensland. It occurs in dry rainforest, eucalyptus and rainforest ecotone areas. Common names include narrow leaved orangebark, orange bush and orange bark.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -867,9 +1119,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Denhamia silvestris"
+      ],
+      "en": [
+        "Denhamia silvestris"
+      ],
+      "es": [
+        "Denhamia silvestris"
+      ],
+      "fr": [
+        "Denhamia silvestris"
+      ],
+      "it": [
+        "Denhamia silvestris"
+      ],
+      "nl": [
+        "Denhamia silvestris"
+      ],
+      "pl": [
+        "Denhamia silvestris"
+      ],
+      "pt": [
+        "Denhamia silvestris"
+      ],
+      "ru": [
+        "Denhamia silvestris"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -879,12 +1161,12 @@
     "family": "Celastraceae",
     "genus": "Elaeodendron",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Elaeodendron australe, commonly known as red olive-berry, red-fruited olive plum, or blush boxwood, is a species of flowering plant in the family Celastraceae and is endemic to eastern Australia. It is a shrub or small tree with egg-shaped to oblong leaves with a wavy margin, yellowish green male and female flowers on separate plants and fleshy orange-red fruit.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -961,9 +1243,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Elaeodendron australe"
+      ],
+      "en": [
+        "Elaeodendron australe"
+      ],
+      "es": [
+        "Elaeodendron australe"
+      ],
+      "fr": [
+        "Elaeodendron australe"
+      ],
+      "it": [
+        "Elaeodendron australe"
+      ],
+      "nl": [
+        "Elaeodendron australe"
+      ],
+      "pl": [
+        "Elaeodendron australe"
+      ],
+      "pt": [
+        "Elaeodendron australe"
+      ],
+      "ru": [
+        "Elaeodendron australe"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -973,7 +1285,7 @@
     "family": "Celastraceae",
     "genus": "Elaeodendron",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1055,9 +1367,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Elaeodendron xylocarpum"
+      ],
+      "en": [
+        "Elaeodendron xylocarpum"
+      ],
+      "es": [
+        "Elaeodendron xylocarpum"
+      ],
+      "fr": [
+        "Elaeodendron xylocarpum"
+      ],
+      "it": [
+        "Elaeodendron xylocarpum"
+      ],
+      "nl": [
+        "Elaeodendron xylocarpum"
+      ],
+      "pl": [
+        "Elaeodendron xylocarpum"
+      ],
+      "pt": [
+        "Elaeodendron xylocarpum"
+      ],
+      "ru": [
+        "Elaeodendron xylocarpum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1067,12 +1409,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c40bd8425f2569756a22b0500f6f64153bddf914",
-    "description": "Small 1/2 inch long, red, fleshy fruit ripens in fall within a red capsule. This red, pink, ivory to yellow capsule splits to show orange-red seeds in the fall that are attractive to birds. The fall berries are eaten by birds, and the seeds are easily spread by birds. An obovoid, dehiscent capsule; single seed enclosed in orange-red aril.",
+    "description": "Euonymus alatus, known variously as burning bush, winged euonymus, winged spindle, and winged spindle-tree, is a species of flowering plant in the family Celastraceae, native to central and northern China, Japan, and Korea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1083,17 +1425,17 @@
     "synonyms": "[\"Euonymus arakianus\", \"Euonymus alatus var. verus\", \"Euonymus striatus var. pilosus\", \"Euonymus alatus subvar. pilosus\", \"Euonymus alatus subvar. subtriflorus\", \"Euonymus alatus subsp. sacrosanctus\", \"Euonymus alatus f. striatus\", \"Euonymus striatus var. cornucarpus\", \"Euonymus subtriflorus\", \"Euonymus alatus f. pilosus\"]",
     "care": {
       "plant_id": "euonymus_alatus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1149,11 +1491,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.3
     },
     "common_names": {
+      "ar": [
+        "مضاض مجنح"
+      ],
+      "de": [
+        "Flügel-Spindelstrauch"
+      ],
       "en": [
-        "Burningbush"
+        "Burningbush",
+        "Euonymus alatus"
+      ],
+      "es": [
+        "Euonymus alatus"
+      ],
+      "fr": [
+        "Euonymus alatus"
+      ],
+      "it": [
+        "Euonymus alatus"
+      ],
+      "ja": [
+        "ニシキギ"
+      ],
+      "ko": [
+        "화살나무"
+      ],
+      "nl": [
+        "Euonymus alatus"
+      ],
+      "pl": [
+        "Euonymus alatus"
+      ],
+      "pt": [
+        "Euonymus alatus"
+      ],
+      "ru": [
+        "Бересклет крылатый"
+      ],
+      "zh": [
+        "卫矛"
       ]
     },
     "tags": [],
@@ -1165,12 +1546,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/87b66b3f45707ac0d39a8e88a87f82401476b22c",
-    "description": "3/4 inch red bumpy 5-lobed capsule splits to reveal red seeds. Displays from September to October.",
+    "description": "Euonymus americanus is a species of flowering plant in the family Celastraceae. Common names include strawberry bush, American strawberry bush, bursting-heart, hearts-a-bustin, and hearts-bustin'-with-love. It is native to the eastern United States, its distribution extending as far west as Texas. It has also been recorded in Ontario.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1181,17 +1562,17 @@
     "synonyms": "[\"Euonymus americanus var. angustifolius\", \"Euonymus scandens\", \"Euonymus angustifolius\", \"Euonymus americanus var. sarmentosus\", \"Euonymus muricatus\", \"Euonymus alternifolius\", \"Euonymus sarmentosus\", \"Euonymus sempervirens\", \"Euonymus heterophylus\"]",
     "care": {
       "plant_id": "euonymus_americanus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1251,11 +1632,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.3
     },
     "common_names": {
+      "ar": [
+        "مضاض أمريكي"
+      ],
+      "de": [
+        "Euonymus americanus"
+      ],
       "en": [
-        "Bursting-heart"
+        "Bursting-heart",
+        "Euonymus americanus"
+      ],
+      "es": [
+        "Euonymus americanus"
+      ],
+      "fr": [
+        "Euonymus americanus"
+      ],
+      "it": [
+        "Euonymus americanus"
+      ],
+      "nl": [
+        "Euonymus americanus"
+      ],
+      "pl": [
+        "Euonymus americanus"
+      ],
+      "pt": [
+        "Euonymus americanus"
+      ],
+      "ru": [
+        "Euonymus americanus"
       ]
     },
     "tags": [],
@@ -1267,7 +1678,7 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1283,17 +1694,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "euonymus_atropurpureus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1349,11 +1760,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.3
     },
     "common_names": {
+      "ar": [
+        "مضاض أرجواني داكن"
+      ],
+      "de": [
+        "Euonymus atropurpureus"
+      ],
       "en": [
-        "Bitter-ash"
+        "Bitter-ash",
+        "Euonymus atropurpureus"
+      ],
+      "es": [
+        "Euonymus atropurpureus"
+      ],
+      "fr": [
+        "Euonymus atropurpureus"
+      ],
+      "it": [
+        "Euonymus atropurpureus"
+      ],
+      "nl": [
+        "Euonymus atropurpureus"
+      ],
+      "pl": [
+        "Euonymus atropurpureus"
+      ],
+      "pt": [
+        "Euonymus atropurpureus"
+      ],
+      "ru": [
+        "Euonymus atropurpureus"
       ]
     },
     "tags": [],
@@ -1365,7 +1806,7 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1381,17 +1822,17 @@
     "synonyms": "[\"Euonymus angustifolius\", \"Euonymus europaeus var. australis\", \"Euonymus suberosus\", \"Euonymus vulgaris var. microphyllus\", \"Euonymus multiflorus\", \"Euonymus latifolius\", \"Euonymus quadrigonus\", \"Euonymus flavescens\", \"Euonymus fibrillifer\", \"Euonymus europaeus var. suberosus\"]",
     "care": {
       "plant_id": "euonymus_europaeus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1412,9 +1853,9 @@
       "watering_guide": "Propagation: Seed",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Ampelopsis glandulosa var. brevipedunculata",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: strong toxic. Parts: Whole plant, highest concentrations in fruit. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1432,8 +1873,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Ascending",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in fruit",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"The whole plant yields a volatile oil that is used in soap making. A high quality charcoal is obtained from the wood\", \"it is used by artists.\"]",
@@ -1447,11 +1888,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.3
     },
     "common_names": {
+      "ar": [
+        "مضاض أوروبي"
+      ],
+      "de": [
+        "Gewöhnlicher Spindelstrauch"
+      ],
       "en": [
+        "Euonymus europaeus",
         "Spindle"
+      ],
+      "es": [
+        "Euonymus europaeus"
+      ],
+      "fr": [
+        "Fusain d'Europe"
+      ],
+      "it": [
+        "Euonymus europaeus"
+      ],
+      "nl": [
+        "Wilde kardinaalsmuts"
+      ],
+      "pl": [
+        "Trzmielina pospolita"
+      ],
+      "pt": [
+        "Euonymus europaeus"
+      ],
+      "ru": [
+        "Бересклет европейский"
+      ],
+      "zh": [
+        "欧洲卫矛"
       ]
     },
     "tags": [],
@@ -1463,7 +1937,7 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1479,17 +1953,17 @@
     "synonyms": "[\"Cassine fortunei\", \"Elaeodendron fortunei\"]",
     "care": {
       "plant_id": "euonymus_fortunei",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1545,11 +2019,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.3
     },
     "common_names": {
+      "de": [
+        "Kletter-Spindelstrauch"
+      ],
       "en": [
-        "Climbing euonymus"
+        "Climbing euonymus",
+        "Euonymus fortunei"
+      ],
+      "es": [
+        "Euonymus fortunei"
+      ],
+      "fr": [
+        "Euonymus fortunei"
+      ],
+      "it": [
+        "Euonymus fortunei"
+      ],
+      "ja": [
+        "ツルマサキ"
+      ],
+      "ko": [
+        "좀사철나무"
+      ],
+      "nl": [
+        "Euonymus fortunei"
+      ],
+      "pl": [
+        "Trzmielina Fortune'a"
+      ],
+      "pt": [
+        "Euonymus fortunei"
+      ],
+      "ru": [
+        "Euonymus fortunei"
+      ],
+      "zh": [
+        "扶芳藤"
       ]
     },
     "tags": [],
@@ -1561,12 +2071,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d3b0e23c0dd83bac3e7c1b62565cd83f36043372",
-    "description": null,
+    "description": "Euonymus hamiltonianus, known by the common names Hamilton's spindletree, Himalayan spindle, and Siebold's spindle is a species of flowering plant in the family Celastraceae. It is native to Asia, where it is distributed in Afghanistan, Russia, China, Japan, Korea, India, Nepal, Pakistan, Bhutan, Thailand, and Myanmar. This is one of the most common Euonymus species. It is cultivated in gardens and landscapes in other parts of the world.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1577,17 +2087,17 @@
     "synonyms": "[\"Euonymus yedoensis f. calocarpus\", \"Euonymus hamiltonianus var. yedoensis\", \"Euonymus hamiltonianus var. semiexsertus\", \"Euonymus juzepczukii\", \"Euonymus nikoensis\", \"Euonymus hians\", \"Euonymus semiexsertus\", \"Euonymus sieboldianus f. stenophyllus\", \"Euonymus sieboldianus f. dorsicostatus\", \"Euonymus atropurpureus\"]",
     "care": {
       "plant_id": "euonymus_hamiltonianus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1643,11 +2153,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.3
     },
     "common_names": {
+      "de": [
+        "Euonymus hamiltonianus"
+      ],
       "en": [
+        "Euonymus hamiltonianus",
         "Hamilton's spindle"
+      ],
+      "es": [
+        "Euonymus hamiltonianus"
+      ],
+      "fr": [
+        "Euonymus hamiltonianus"
+      ],
+      "it": [
+        "Euonymus hamiltonianus"
+      ],
+      "ja": [
+        "マユミ"
+      ],
+      "ko": [
+        "참빗살나무"
+      ],
+      "nl": [
+        "Euonymus hamiltonianus"
+      ],
+      "pl": [
+        "Euonymus hamiltonianus"
+      ],
+      "pt": [
+        "Euonymus hamiltonianus"
+      ],
+      "ru": [
+        "Бересклет Гамильтона"
+      ],
+      "zh": [
+        "西南卫矛"
       ]
     },
     "tags": [],
@@ -1659,12 +2205,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3576c8a844e21b973c606ad11ff9e52a181fa708",
-    "description": "Fruit is a reddish, pink, ivory to yellow capsule, splitting and showing orange-red seeds. The 4-valved capsule is globose, pink, 1/3 of an inch long with white seeds.",
+    "description": "Euonymus japonicus is a species of flowering plant in the family Celastraceae, native to Japan and Korea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1675,17 +2221,17 @@
     "synonyms": "[\"Euonymus japonicus var. pyramidatus\", \"Euonymus japonicus f. pyramidatus\", \"Euonymus japonicus var. argenteovariegatus\", \"Euonymus japonicus var. litoralis\", \"Euonymus japonicus f. aureomarginatus\", \"Euonymus japonicus f. argenteovariegatus\", \"Euonymus japonicus var. viridivariegatus\", \"Euonymus japonicus var. aureomarginatus\", \"Euonymus japonicus var. subinteger\", \"Euonymus japonicus aureus-variegatus\"]",
     "care": {
       "plant_id": "euonymus_japonicus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1706,9 +2252,9 @@
       "watering_guide": "Propagation: Seed",
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day) | Climate: subtropical",
       "tips": "Similar plants: Ilex",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: strong toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Powdery mildew can be a problem, as can mites, leaf miners, aphids, mealybugs, and crown gall.",
         "Additional diseases which may appear include witches  broom, stem dieback, and fungal leaf spots.",
@@ -1734,8 +2280,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1749,11 +2295,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.3
     },
     "common_names": {
+      "ar": [
+        "مضاض ياباني"
+      ],
+      "de": [
+        "Euonymus japonicus"
+      ],
       "en": [
+        "Euonymus japonicus",
         "Japanese spindletree"
+      ],
+      "es": [
+        "Euonymus japonicus"
+      ],
+      "fr": [
+        "Euonymus japonicus"
+      ],
+      "it": [
+        "Euonymus japonicus"
+      ],
+      "ja": [
+        "マサキ"
+      ],
+      "ko": [
+        "사철나무"
+      ],
+      "nl": [
+        "Euonymus japonicus"
+      ],
+      "pl": [
+        "Euonymus japonicus"
+      ],
+      "pt": [
+        "Euonymus japonicus"
+      ],
+      "ru": [
+        "Euonymus japonicus"
+      ],
+      "tr": [
+        "Euonymus japonicus"
+      ],
+      "zh": [
+        "冬青卫矛"
       ]
     },
     "tags": [],
@@ -1765,12 +2353,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4b34215a878a2542a1ec15c397e4acf4163dfac2",
-    "description": null,
+    "description": "Euonymus latifolius, the broad-leaved spindle tree, is a species of flowering plant in the family Celastraceae. It is native to the Mediterranean region, south-central Europe, the Caucasus, and the Middle East as far as Iran, and it has been introduced to Ireland, Great Britain, and Belgium. A shrub with a rounded growth form reaching 2.5 to 4 m, it is typically found in shrublands, and in rocky habitats such as inland cliffs and mountain peaks.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1781,17 +2369,17 @@
     "synonyms": "[\"Kalonymus latifolia\", \"Euonymus europaeus var. latifolius\", \"Euonymus europaeus subsp. latifolius\"]",
     "care": {
       "plant_id": "euonymus_latifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1812,9 +2400,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: strong toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1832,8 +2420,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1847,11 +2435,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.3
     },
     "common_names": {
+      "ar": [
+        "مضاض عريض الأوراق"
+      ],
+      "de": [
+        "Euonymus latifolius"
+      ],
       "en": [
+        "Euonymus latifolius",
         "Large-leaf spindle"
+      ],
+      "es": [
+        "Euonymus latifolius"
+      ],
+      "fr": [
+        "Euonymus latifolius"
+      ],
+      "it": [
+        "Euonymus latifolius"
+      ],
+      "nl": [
+        "Euonymus latifolius"
+      ],
+      "pl": [
+        "Euonymus latifolius"
+      ],
+      "pt": [
+        "Euonymus latifolius"
+      ],
+      "ru": [
+        "Бересклет широколистный"
       ]
     },
     "tags": [],
@@ -1863,12 +2481,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/29eb5450d2f57cfed5a0e98b93450f751115835f",
-    "description": "The capsule holding the berry is pink and seeds are 4 lobed and bright red.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1879,7 +2497,7 @@
     "synonyms": "[\"Euonymus hamiltonianus var. maackii\", \"Euonymus semipersistens\", \"Euonymus trapococcus\", \"Euonymus maackii var. trichophyllus\", \"Euonymus rugosus\", \"Euonymus quelpaertensis\", \"Euonymus hamiltonianus var. semipersistens\", \"Euonymus forbesii\", \"Euonymus bungeanus var. ovatus\", \"Euonymus bungeanus var. latifolius\"]",
     "care": {
       "plant_id": "euonymus_maackii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1947,11 +2565,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Euonymus maackii"
+      ],
       "en": [
-        "Bunge's spindle"
+        "Bunge's spindle",
+        "Euonymus maackii"
+      ],
+      "es": [
+        "Euonymus maackii"
+      ],
+      "fr": [
+        "Euonymus maackii"
+      ],
+      "it": [
+        "Euonymus maackii"
+      ],
+      "nl": [
+        "Euonymus maackii"
+      ],
+      "pl": [
+        "Euonymus maackii"
+      ],
+      "pt": [
+        "Euonymus maackii"
+      ],
+      "ru": [
+        "Бересклет Маака"
+      ],
+      "zh": [
+        "白杜"
       ]
     },
     "tags": [],
@@ -1963,12 +2611,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/415569bdaaeba8d8ad938bbe4a3eef6f85329bdf",
-    "description": null,
+    "description": "Euonymus macropterus is a species of flowering plant in the family Celastraceae. It is native to southern Russian Far East, including Sakhalin and the Kuriles, Manchuria, the Korean peninsula, and Japan. A deciduous shrub reaching 3 m (10 ft) tall and equally wide, it is typically found in mixed evergreen/deciduous forests, and in scrublands, at elevations from 300 to 2,100 m.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1979,7 +2627,7 @@
     "synonyms": "[\"Kalonymus macroptera\", \"Euonymus ussuriensis\", \"Turibana macroptera\"]",
     "care": {
       "plant_id": "euonymus_macropterus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2045,11 +2693,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Euonymus macropterus"
+      ],
       "en": [
+        "Euonymus macropterus",
         "Large-winged spindle"
+      ],
+      "es": [
+        "Euonymus macropterus"
+      ],
+      "fr": [
+        "Euonymus macropterus"
+      ],
+      "it": [
+        "Euonymus macropterus"
+      ],
+      "nl": [
+        "Euonymus macropterus"
+      ],
+      "pl": [
+        "Euonymus macropterus"
+      ],
+      "pt": [
+        "Euonymus macropterus"
+      ],
+      "ru": [
+        "Бересклет большекрылый"
+      ],
+      "zh": [
+        "黄心卫矛"
       ]
     },
     "tags": [],
@@ -2061,12 +2739,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/15a669b72caabd4bc46db9aca4e93bf4a2f3b3ed",
-    "description": null,
+    "description": "Euonymus myrianthus, the many-flowered spindle, is a species of flowering plant in the family Celastraceae. It is native to central and southern China. A variable evergreen shrub or small tree, and reaching 3 to 12 m in height, it is typically found in wooded areas and forests, from near sea level up to 1,200 m (3,900 ft).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2077,7 +2755,7 @@
     "synonyms": "[\"Euonymus myrianthus var. tenuis\", \"Euonymus sargentianus\", \"Euonymus lipoensis\", \"Euonymus rosthornii\", \"Euonymus myrianthus var. crassifolius\", \"Euonymus rosthornii var. crassifolius\", \"Euonymus myrianthus var. tenuifolius\", \"Euonymus rosthornii var. tenuifolius\"]",
     "care": {
       "plant_id": "euonymus_myrianthus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2143,9 +2821,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Euonymus myrianthus"
+      ],
+      "en": [
+        "Euonymus myrianthus"
+      ],
+      "es": [
+        "Euonymus myrianthus"
+      ],
+      "fr": [
+        "Euonymus myrianthus"
+      ],
+      "it": [
+        "Euonymus myrianthus"
+      ],
+      "nl": [
+        "Euonymus myrianthus"
+      ],
+      "pl": [
+        "Euonymus myrianthus"
+      ],
+      "pt": [
+        "Euonymus myrianthus"
+      ],
+      "ru": [
+        "Euonymus myrianthus"
+      ],
+      "zh": [
+        "大果卫矛"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2155,12 +2866,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Euonymus obovatus, the running strawberry bush, is a trailing, woodland groundcover plant of the family Celastraceae, which is native to North America in the eastern United States and south-eastern Canada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2171,7 +2882,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "euonymus_obovatus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2237,9 +2948,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Euonymus obovatus"
+      ],
+      "en": [
+        "Euonymus obovatus"
+      ],
+      "es": [
+        "Euonymus obovatus"
+      ],
+      "fr": [
+        "Euonymus obovatus"
+      ],
+      "it": [
+        "Euonymus obovatus"
+      ],
+      "nl": [
+        "Euonymus obovatus"
+      ],
+      "pl": [
+        "Euonymus obovatus"
+      ],
+      "pt": [
+        "Euonymus obovatus"
+      ],
+      "ru": [
+        "Euonymus obovatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2249,12 +2990,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2a82c1668d3681d143f297edd0856640dc060ff6",
-    "description": null,
+    "description": "Euonymus oxyphyllus, the Korean spindle tree, is a species of flowering plant in the family Celastraceae, native to central and eastern China, Manchuria, Korea, Japan and the Kurils. It is a shrub or small tree typically reaching 2.5 m (8 ft). The Royal Horticultural Society considers it to be a good tree for smaller gardens, especially for its colorful Autumn foliage and fruits.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2265,17 +3006,17 @@
     "synonyms": "[\"Turibana yesoensis\", \"Pragmotessara latifolia\", \"Euonymus oxyphyllus var. magnus\", \"Euonymus oxyphyllus f. magnus\", \"Euonymus oxyphyllus var. nipponicus\", \"Euonymus oxyphyllus var. yesoensis\", \"Euonymus latifolius\", \"Euonymus nipponicus\", \"Euonymus laxiflorus\", \"Kalonymus oxyphylla\"]",
     "care": {
       "plant_id": "euonymus_oxyphyllus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2331,9 +3072,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Euonymus oxyphyllus"
+      ],
+      "en": [
+        "Euonymus oxyphyllus"
+      ],
+      "es": [
+        "Euonymus oxyphyllus"
+      ],
+      "fr": [
+        "Euonymus oxyphyllus"
+      ],
+      "it": [
+        "Euonymus oxyphyllus"
+      ],
+      "ja": [
+        "ツリバナ"
+      ],
+      "ko": [
+        "참회나무"
+      ],
+      "nl": [
+        "Euonymus oxyphyllus"
+      ],
+      "pl": [
+        "Euonymus oxyphyllus"
+      ],
+      "pt": [
+        "Euonymus oxyphyllus"
+      ],
+      "ru": [
+        "Euonymus oxyphyllus"
+      ],
+      "zh": [
+        "垂丝卫矛"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2343,12 +3123,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/731ddf843efb1362d76c4e78d7f56df7b27586dc",
-    "description": null,
+    "description": "Euonymus sachalinensis, the flat-stalked spindle, is a species of flowering plant in the family Celastraceae, native to Japan, China, Korea, and the Island of Sakhalin. Growing to 2.5 m (8.2 ft) tall and broad, it is a deciduous shrub notable for its leaves turning red in autumn, and its red fruit which splits open to reveal orange seeds. Exceptional specimens, such as the one in the Hørsholm Arboretum, Copenhagen University, can become trees up to 4 m (13 ft) in height.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2359,7 +3139,7 @@
     "synonyms": "[\"Euonymus planipes subsp. maximowiczianus\", \"Euonymus robustus\", \"Turibana sachalinensis\", \"Turibana tricarpa\", \"Euonymus oxyphyllus var. kuenburgii\", \"Euonymus maximowiczianus\", \"Turibana planipes\", \"Euonymus latifolius var. planipes\", \"Kalonymus miniata\", \"Euonymus latifolius var. sachalinensis\"]",
     "care": {
       "plant_id": "euonymus_sachalinensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2425,9 +3205,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Euonymus sachalinensis"
+      ],
+      "en": [
+        "Euonymus sachalinensis"
+      ],
+      "es": [
+        "Euonymus sachalinensis"
+      ],
+      "fr": [
+        "Euonymus sachalinensis"
+      ],
+      "it": [
+        "Euonymus sachalinensis"
+      ],
+      "ko": [
+        "회나무"
+      ],
+      "nl": [
+        "Euonymus sachalinensis"
+      ],
+      "pl": [
+        "Euonymus sachalinensis"
+      ],
+      "pt": [
+        "Euonymus sachalinensis"
+      ],
+      "ru": [
+        "Бересклет сахалинский"
+      ],
+      "zh": [
+        "库页卫矛"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2437,12 +3253,12 @@
     "family": "Celastraceae",
     "genus": "Euonymus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4e72c0ff2cfd3272a54b88d9db01364596b6b2e4",
-    "description": null,
+    "description": "Euonymus verrucosus is a species of flowering plant belonging to the family Celastraceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2453,17 +3269,17 @@
     "synonyms": "[\"Euonymus verrucosus f. angustifolius\", \"Euonymus verrucosus f. pauciflorus\", \"Euonymus verrucosus f. cordatus\", \"Euonymus oligospermus\", \"Euonymus pauciflorus\", \"Euonymus verrucosus var. pauciflorus\", \"Euonymus integerrimus\", \"Euonymus europaeus var. leprosus\", \"Euonymus verrucosus var. angustifolius\", \"Euonymus pauciflorus subsp. oligospermus\"]",
     "care": {
       "plant_id": "euonymus_verrucosus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2519,9 +3335,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 5.1
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Warzen-Spindelstrauch"
+      ],
+      "en": [
+        "Euonymus verrucosus"
+      ],
+      "es": [
+        "Euonymus verrucosa"
+      ],
+      "fr": [
+        "Euonymus verrucosa"
+      ],
+      "it": [
+        "Euonymus verrucosa"
+      ],
+      "nl": [
+        "Euonymus verrucosus"
+      ],
+      "pl": [
+        "Trzmielina brodawkowata"
+      ],
+      "pt": [
+        "Euonymus verrucosus"
+      ],
+      "ru": [
+        "Бересклет бородавчатый"
+      ],
+      "zh": [
+        "瘤枝卫矛"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2531,7 +3380,7 @@
     "family": "Celastraceae",
     "genus": "Gymnosporia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2613,9 +3462,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gymnosporia acuminata"
+      ],
+      "en": [
+        "Gymnosporia acuminata"
+      ],
+      "es": [
+        "Gymnosporia acuminata"
+      ],
+      "fr": [
+        "Gymnosporia acuminata"
+      ],
+      "it": [
+        "Gymnosporia acuminata"
+      ],
+      "nl": [
+        "Gymnosporia acuminata"
+      ],
+      "pl": [
+        "Gymnosporia acuminata"
+      ],
+      "pt": [
+        "Gymnosporia acuminata"
+      ],
+      "ru": [
+        "Gymnosporia acuminata"
+      ],
+      "zh": [
+        "美登木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2625,12 +3507,12 @@
     "family": "Celastraceae",
     "genus": "Gymnosporia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/575e9bb9017535935e015c8b20464d545f12021d",
-    "description": null,
+    "description": "Gymnosporia buxifolia is a species of plant in the bittersweet family (Celastraceae) native to southern Africa. It is commonly known as the pioneer spike-thorn or common spike-thorn. It ranges from Angola and Mozambique to South Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2707,11 +3589,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gymnosporia buxifolia"
+      ],
       "en": [
-        "Common spike thorn"
+        "Common spike thorn",
+        "Gymnosporia buxifolia"
+      ],
+      "es": [
+        "Gymnosporia buxifolia"
+      ],
+      "fr": [
+        "Gymnosporia buxifolia"
+      ],
+      "it": [
+        "Gymnosporia buxifolia"
+      ],
+      "nl": [
+        "Gymnosporia buxifolia"
+      ],
+      "pl": [
+        "Gymnosporia buxifolia"
+      ],
+      "pt": [
+        "Gymnosporia buxifolia"
+      ],
+      "ru": [
+        "Gymnosporia buxifolia"
       ]
     },
     "tags": [],
@@ -2723,7 +3632,7 @@
     "family": "Celastraceae",
     "genus": "Gymnosporia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2805,11 +3714,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ثرار"
+      ],
+      "de": [
+        "Gymnosporia senegalensis"
+      ],
       "en": [
-        "Confetti tree"
+        "Confetti tree",
+        "Gymnosporia senegalensis"
+      ],
+      "es": [
+        "Gymnosporia senegalensis"
+      ],
+      "fr": [
+        "Gymnosporia senegalensis"
+      ],
+      "it": [
+        "Gymnosporia senegalensis"
+      ],
+      "nl": [
+        "Gymnosporia senegalensis"
+      ],
+      "pl": [
+        "Gymnosporia senegalensis"
+      ],
+      "pt": [
+        "Gymnosporia senegalensis"
+      ],
+      "ru": [
+        "Gymnosporia senegalensis"
       ]
     },
     "tags": [],
@@ -2821,7 +3760,7 @@
     "family": "Celastraceae",
     "genus": "Hippocratea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2903,11 +3842,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أبقراطية وليلية"
+      ],
+      "de": [
+        "Hippocratea volubilis"
+      ],
       "en": [
+        "Hippocratea volubilis",
         "Medicine vine"
+      ],
+      "es": [
+        "Hippocratea volubilis"
+      ],
+      "fr": [
+        "Hippocratea volubilis"
+      ],
+      "it": [
+        "Hippocratea volubilis"
+      ],
+      "nl": [
+        "Hippocratea volubilis"
+      ],
+      "pl": [
+        "Hippocratea volubilis"
+      ],
+      "pt": [
+        "Hippocratea volubilis"
+      ],
+      "ru": [
+        "Hippocratea volubilis"
       ]
     },
     "tags": [],
@@ -2919,7 +3888,7 @@
     "family": "Celastraceae",
     "genus": "Loeseneriella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3001,9 +3970,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Loeseneriella africana"
+      ],
+      "en": [
+        "Loeseneriella africana"
+      ],
+      "es": [
+        "Loeseneriella africana"
+      ],
+      "fr": [
+        "Loeseneriella africana"
+      ],
+      "it": [
+        "Loeseneriella africana"
+      ],
+      "nl": [
+        "Loeseneriella africana"
+      ],
+      "pl": [
+        "Loeseneriella africana"
+      ],
+      "pt": [
+        "Loeseneriella africana"
+      ],
+      "ru": [
+        "Loeseneriella africana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3013,12 +4012,12 @@
     "family": "Celastraceae",
     "genus": "Maytenus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ee89122144063786874fd473c826f335785aa981",
-    "description": null,
+    "description": "Maytenus boaria, commonly known as Maitén, is an evergreen tree in the family Celastraceae. It is native to southern South America. In Chile, it occurs approximately from 30 to 50°S. It can reach dimensions up to 20 m (66 ft) high and 80 cm (31 in) diameter, with a straight trunk.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3095,11 +4094,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Maytenus boaria"
+      ],
       "en": [
-        "Mayten"
+        "Mayten",
+        "Maytenus boaria"
+      ],
+      "es": [
+        "Maytenus boaria"
+      ],
+      "fr": [
+        "Maytenus boaria"
+      ],
+      "it": [
+        "Maytenus boaria"
+      ],
+      "nl": [
+        "Maytenus boaria"
+      ],
+      "pl": [
+        "Maytenus boaria"
+      ],
+      "pt": [
+        "Maytenus boaria"
+      ],
+      "ru": [
+        "Maytenus boaria"
       ]
     },
     "tags": [],
@@ -3111,7 +4137,7 @@
     "family": "Celastraceae",
     "genus": "Maytenus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3193,11 +4219,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Maytenus ilicifolia"
+      ],
       "en": [
-        "Holythorn"
+        "Holythorn",
+        "Maytenus ilicifolia"
+      ],
+      "es": [
+        "Maytenus ilicifolia"
+      ],
+      "fr": [
+        "Maytenus ilicifolia"
+      ],
+      "it": [
+        "Maytenus ilicifolia"
+      ],
+      "nl": [
+        "Maytenus ilicifolia"
+      ],
+      "pl": [
+        "Maytenus ilicifolia"
+      ],
+      "pt": [
+        "Espinheira-santa"
+      ],
+      "ru": [
+        "Maytenus ilicifolia"
       ]
     },
     "tags": [],
@@ -3209,7 +4262,7 @@
     "family": "Celastraceae",
     "genus": "Maytenus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3291,11 +4344,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Maytenus undata"
+      ],
       "en": [
-        "Iqayi emhlope"
+        "Iqayi emhlope",
+        "Maytenus undata"
+      ],
+      "es": [
+        "Maytenus undata"
+      ],
+      "fr": [
+        "Maytenus undata"
+      ],
+      "it": [
+        "Maytenus undata"
+      ],
+      "nl": [
+        "Maytenus undata"
+      ],
+      "pl": [
+        "Maytenus undata"
+      ],
+      "pt": [
+        "Maytenus undata"
+      ],
+      "ru": [
+        "Maytenus undata"
       ]
     },
     "tags": [],
@@ -3307,7 +4387,7 @@
     "family": "Celastraceae",
     "genus": "Mystroxylon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3389,9 +4469,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Mystroxylon aethiopicum"
+      ],
+      "en": [
+        "Mystroxylon aethiopicum"
+      ],
+      "es": [
+        "Mystroxylon aethiopicum"
+      ],
+      "fr": [
+        "Mystroxylon aethiopicum"
+      ],
+      "it": [
+        "Mystroxylon aethiopicum"
+      ],
+      "nl": [
+        "Mystroxylon aethiopicum"
+      ],
+      "pl": [
+        "Mystroxylon aethiopicum"
+      ],
+      "pt": [
+        "Mystroxylon aethiopicum"
+      ],
+      "ru": [
+        "Mystroxylon aethiopicum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3401,12 +4511,12 @@
     "family": "Celastraceae",
     "genus": "Parnassia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2d04fd7d3f5cc3f119c4e0bc8f8c500817cd8dce",
-    "description": "Fruits are available September-November.",
+    "description": "Parnassia fimbriata is a species of flowering plant in the family Celastraceae known by the common name fringed grass of Parnassus. It was first described by Charles Konig. It is native to western North America from Alaska and northwestern Canada to the southern Rocky Mountains, where it is a plant of alpine and subalpine environments, usually in wet areas. Despite the common name, this is not a true grass.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3417,7 +4527,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "parnassia_fimbriata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3483,11 +4593,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Parnassia fimbriata"
+      ],
       "en": [
+        "Parnassia fimbriata",
         "Rocky mountain parnassia"
+      ],
+      "es": [
+        "Parnassia fimbriata"
+      ],
+      "fr": [
+        "Parnassia fimbriata"
+      ],
+      "it": [
+        "Parnassia fimbriata"
+      ],
+      "nl": [
+        "Parnassia fimbriata"
+      ],
+      "pl": [
+        "Parnassia fimbriata"
+      ],
+      "pt": [
+        "Parnassia fimbriata"
+      ],
+      "ru": [
+        "Parnassia fimbriata"
       ]
     },
     "tags": [],
@@ -3499,12 +4636,12 @@
     "family": "Celastraceae",
     "genus": "Parnassia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1dd01f1a474555f96a07eadac6598bb17b2a2fbb",
-    "description": "Fruits are available September-November.",
+    "description": "Parnassia glauca, also known as fen grass of Parnassus, is a flowering herb of the genus Parnassia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3515,17 +4652,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "parnassia_glauca",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3581,11 +4718,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Parnassia glauca"
+      ],
       "en": [
-        "Fen grass of parnassus"
+        "Fen grass of parnassus",
+        "Parnassia glauca"
+      ],
+      "es": [
+        "Parnassia glauca"
+      ],
+      "fr": [
+        "Parnassia glauca"
+      ],
+      "it": [
+        "Parnassia glauca"
+      ],
+      "nl": [
+        "Parnassia glauca"
+      ],
+      "pl": [
+        "Parnassia glauca"
+      ],
+      "pt": [
+        "Parnassia glauca"
+      ],
+      "ru": [
+        "Parnassia glauca"
       ]
     },
     "tags": [],
@@ -3597,12 +4761,12 @@
     "family": "Celastraceae",
     "genus": "Parnassia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4a5e797d94ab8886667f6aa41aa825a9.jpg",
-    "description": "Fruits are available September-November.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3613,7 +4777,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "parnassia_kotzebuei",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3679,9 +4843,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Parnassia kotzebuei"
+      ],
+      "en": [
+        "Parnassia kotzebuei"
+      ],
+      "es": [
+        "Parnassia kotzebuei"
+      ],
+      "fr": [
+        "Parnassia kotzebuei"
+      ],
+      "it": [
+        "Parnassia kotzebuei"
+      ],
+      "nl": [
+        "Parnassia kotzebuei"
+      ],
+      "pl": [
+        "Parnassia kotzebuei"
+      ],
+      "pt": [
+        "Parnassia kotzebuei"
+      ],
+      "ru": [
+        "Parnassia kotzebuei"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3691,7 +4885,7 @@
     "family": "Celastraceae",
     "genus": "Parnassia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3707,17 +4901,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "parnassia_palustris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3773,11 +4967,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "ar": [
+        "بارناسيا"
+      ],
+      "de": [
+        "Sumpf-Herzblatt"
+      ],
       "en": [
-        "Bog star"
+        "Bog star",
+        "Grass-of-Parnassus"
+      ],
+      "es": [
+        "hepática blanca"
+      ],
+      "fr": [
+        "Parnassie des marais"
+      ],
+      "it": [
+        "Parnassia palustris"
+      ],
+      "ja": [
+        "ウメバチソウ"
+      ],
+      "nl": [
+        "Parnassia (soort)"
+      ],
+      "pl": [
+        "dziewięciornik błotny"
+      ],
+      "pt": [
+        "Parnassia palustris"
+      ],
+      "ru": [
+        "Белозор болотный"
+      ],
+      "zh": [
+        "梅花草"
       ]
     },
     "tags": [],
@@ -3789,12 +5019,12 @@
     "family": "Celastraceae",
     "genus": "Paxistima",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cc1a525edc70bc0ca2460aaa76da61f2a498d4b4",
-    "description": null,
+    "description": "Paxistima myrsinites is a species of shrub in the family Celastraceae. It is native to western North America from British Columbia south to northern Mexico and east to the Rocky Mountains, where it grows in forests, often in the understory.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3871,11 +5101,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Paxistima myrsinites"
+      ],
       "en": [
-        "Mountain-lover"
+        "Mountain-lover",
+        "Paxistima myrsinites"
+      ],
+      "es": [
+        "Paxistima myrsinites"
+      ],
+      "fr": [
+        "Paxistima myrsinites"
+      ],
+      "it": [
+        "Paxistima myrsinites"
+      ],
+      "nl": [
+        "Paxistima myrsinites"
+      ],
+      "pl": [
+        "Paxistima myrsinites"
+      ],
+      "pt": [
+        "Paxistima myrsinites"
+      ],
+      "ru": [
+        "Paxistima myrsinites"
       ]
     },
     "tags": [],
@@ -3887,7 +5144,7 @@
     "family": "Celastraceae",
     "genus": "Peritassa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3969,9 +5226,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Peritassa campestris"
+      ],
+      "en": [
+        "Peritassa campestris"
+      ],
+      "es": [
+        "Peritassa campestris"
+      ],
+      "fr": [
+        "Peritassa campestris"
+      ],
+      "it": [
+        "Peritassa campestris"
+      ],
+      "nl": [
+        "Peritassa campestris"
+      ],
+      "pl": [
+        "Peritassa campestris"
+      ],
+      "pt": [
+        "Peritassa campestris"
+      ],
+      "ru": [
+        "Peritassa campestris"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3981,7 +5268,7 @@
     "family": "Celastraceae",
     "genus": "Peritassa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4063,9 +5350,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Peritassa laevigata"
+      ],
+      "en": [
+        "Peritassa laevigata"
+      ],
+      "es": [
+        "Peritassa laevigata"
+      ],
+      "fr": [
+        "Peritassa laevigata"
+      ],
+      "it": [
+        "Peritassa laevigata"
+      ],
+      "nl": [
+        "Peritassa laevigata"
+      ],
+      "pl": [
+        "Peritassa laevigata"
+      ],
+      "pt": [
+        "Peritassa laevigata"
+      ],
+      "ru": [
+        "Peritassa laevigata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4075,7 +5392,7 @@
     "family": "Celastraceae",
     "genus": "Plenckia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4157,9 +5474,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Plenckia populnea"
+      ],
+      "en": [
+        "Plenckia populnea"
+      ],
+      "es": [
+        "Plenckia populnea"
+      ],
+      "fr": [
+        "Plenckia populnea"
+      ],
+      "it": [
+        "Plenckia populnea"
+      ],
+      "nl": [
+        "Plenckia populnea"
+      ],
+      "pl": [
+        "Plenckia populnea"
+      ],
+      "pt": [
+        "Plenckia populnea"
+      ],
+      "ru": [
+        "Plenckia populnea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4169,12 +5516,12 @@
     "family": "Celastraceae",
     "genus": "Prionostemma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/189f3eb2836f531d7eb9cb5a20863f21.jpg",
-    "description": null,
+    "description": "Prionostemma aspera is species of flowering plant in the family Celastraceae, and the sole species in genus Prionstemma. It is a scrambling shrub or tree native to the tropical Americas, native from Nayarit in western Mexico to Honduras, and from Costa Rica through northern South America to Bolivia and Northeastern Brazil. It grows in lowland tropical moist forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4251,9 +5598,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Prionostemma aspera"
+      ],
+      "en": [
+        "Prionostemma aspera"
+      ],
+      "es": [
+        "Prionostemma aspera"
+      ],
+      "fr": [
+        "Prionostemma aspera"
+      ],
+      "it": [
+        "Prionostemma aspera"
+      ],
+      "nl": [
+        "Prionostemma aspera"
+      ],
+      "pl": [
+        "Prionostemma aspera"
+      ],
+      "pt": [
+        "Prionostemma aspera"
+      ],
+      "ru": [
+        "Prionostemma aspera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4263,7 +5640,7 @@
     "family": "Celastraceae",
     "genus": "Pristimera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4345,9 +5722,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pristimera celastroides"
+      ],
+      "en": [
+        "Pristimera celastroides"
+      ],
+      "es": [
+        "Pristimera celastroides"
+      ],
+      "fr": [
+        "Pristimera celastroides"
+      ],
+      "it": [
+        "Pristimera celastroides"
+      ],
+      "nl": [
+        "Pristimera celastroides"
+      ],
+      "pl": [
+        "Pristimera celastroides"
+      ],
+      "pt": [
+        "Pristimera celastroides"
+      ],
+      "ru": [
+        "Pristimera celastroides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4357,12 +5764,12 @@
     "family": "Celastraceae",
     "genus": "Pterocelastrus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bc489f9e38761c64f929b2c125eddfec3e3841f6",
-    "description": null,
+    "description": "Pterocelastrus tricuspidatus, commonly called candlewood, cherrywood or kershout, is a medium-sized evergreen tree, indigenous to South Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4439,11 +5846,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pterocelastrus tricuspidatus"
+      ],
       "en": [
-        "Candle wood"
+        "Candle wood",
+        "Pterocelastrus tricuspidatus"
+      ],
+      "es": [
+        "Pterocelastrus tricuspidatus"
+      ],
+      "fr": [
+        "Pterocelastrus tricuspidatus"
+      ],
+      "it": [
+        "Pterocelastrus tricuspidatus"
+      ],
+      "nl": [
+        "Pterocelastrus tricuspidatus"
+      ],
+      "pl": [
+        "Pterocelastrus tricuspidatus"
+      ],
+      "pt": [
+        "Pterocelastrus tricuspidatus"
+      ],
+      "ru": [
+        "Pterocelastrus tricuspidatus"
       ]
     },
     "tags": [],
@@ -4455,7 +5889,7 @@
     "family": "Celastraceae",
     "genus": "Reissantia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4537,9 +5971,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Reissantia indica"
+      ],
+      "en": [
+        "Reissantia indica"
+      ],
+      "es": [
+        "Reissantia indica"
+      ],
+      "fr": [
+        "Reissantia indica"
+      ],
+      "it": [
+        "Reissantia indica"
+      ],
+      "nl": [
+        "Reissantia indica"
+      ],
+      "pl": [
+        "Reissantia indica"
+      ],
+      "pt": [
+        "Reissantia indica"
+      ],
+      "ru": [
+        "Reissantia indica"
+      ],
+      "zh": [
+        "扁蒴藤"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4549,7 +6016,7 @@
     "family": "Celastraceae",
     "genus": "Semialarium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4631,9 +6098,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Semialarium mexicanum"
+      ],
+      "en": [
+        "Semialarium mexicanum"
+      ],
+      "es": [
+        "Semialarium mexicanum"
+      ],
+      "fr": [
+        "Semialarium mexicanum"
+      ],
+      "it": [
+        "Semialarium mexicanum"
+      ],
+      "nl": [
+        "Semialarium mexicanum"
+      ],
+      "pl": [
+        "Semialarium mexicanum"
+      ],
+      "pt": [
+        "Semialarium mexicanum"
+      ],
+      "ru": [
+        "Semialarium mexicanum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4643,7 +6140,7 @@
     "family": "Celastraceae",
     "genus": "Stackhousia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4725,9 +6222,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stackhousia intermedia"
+      ],
+      "en": [
+        "Stackhousia intermedia"
+      ],
+      "es": [
+        "Stackhousia intermedia"
+      ],
+      "fr": [
+        "Stackhousia intermedia"
+      ],
+      "it": [
+        "Stackhousia intermedia"
+      ],
+      "nl": [
+        "Stackhousia intermedia"
+      ],
+      "pl": [
+        "Stackhousia intermedia"
+      ],
+      "pt": [
+        "Stackhousia intermedia"
+      ],
+      "ru": [
+        "Stackhousia intermedia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4737,7 +6264,7 @@
     "family": "Celastraceae",
     "genus": "Stackhousia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4819,9 +6346,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stackhousia muricata"
+      ],
+      "en": [
+        "Stackhousia muricata"
+      ],
+      "es": [
+        "Stackhousia muricata"
+      ],
+      "fr": [
+        "Stackhousia muricata"
+      ],
+      "it": [
+        "Stackhousia muricata"
+      ],
+      "nl": [
+        "Stackhousia muricata"
+      ],
+      "pl": [
+        "Stackhousia muricata"
+      ],
+      "pt": [
+        "Stackhousia muricata"
+      ],
+      "ru": [
+        "Stackhousia muricata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4831,7 +6388,7 @@
     "family": "Celastraceae",
     "genus": "Stackhousia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4913,9 +6470,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stackhousia viminea"
+      ],
+      "en": [
+        "Stackhousia viminea"
+      ],
+      "es": [
+        "Stackhousia viminea"
+      ],
+      "fr": [
+        "Stackhousia viminea"
+      ],
+      "it": [
+        "Stackhousia viminea"
+      ],
+      "nl": [
+        "Stackhousia viminea"
+      ],
+      "pl": [
+        "Stackhousia viminea"
+      ],
+      "pt": [
+        "Stackhousia viminea"
+      ],
+      "ru": [
+        "Stackhousia viminea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4925,7 +6512,7 @@
     "family": "Celastraceae",
     "genus": "Tripterygium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5007,9 +6594,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ثلاثية الجنيحات ويلفوردي"
+      ],
+      "de": [
+        "Wilfords Dreiflügelfrucht"
+      ],
+      "en": [
+        "Tripterygium wilfordii"
+      ],
+      "es": [
+        "Tripterygium wilfordii"
+      ],
+      "fr": [
+        "Tripterygium wilfordii"
+      ],
+      "it": [
+        "Tripterygium wilfordii"
+      ],
+      "ja": [
+        "クロヅル"
+      ],
+      "nl": [
+        "Tripterygium wilfordii"
+      ],
+      "pl": [
+        "Tripterygium wilfordii"
+      ],
+      "pt": [
+        "Tripterygium wilfordii"
+      ],
+      "ru": [
+        "Tripterygium wilfordii"
+      ],
+      "zh": [
+        "雷公藤"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

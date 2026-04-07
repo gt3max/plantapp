@@ -5,12 +5,12 @@
     "family": "Tamaricaceae",
     "genus": "Myricaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9b7e53e186abdf5fef869f733252243717cc3b69",
-    "description": null,
+    "description": "Myricaria germanica, the German tamarisk, is a species of flowering plant in the family Tamaricaceae. It is native to continental Europe including Scandinavia, the Black Sea region, Iran, Afghanistan, and Pakistan. An erect shrub reaching at most 8 ft (2.4 m), it is a pioneer species adapted to recently scoured riverbanks in mountainous regions. It has been cultivated in Great Britain since 1582.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "myricaria_germanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "ar": [
+        "عراثا"
+      ],
+      "de": [
+        "Deutsche Tamariske"
+      ],
       "en": [
-        "German false tamarisk"
+        "German false tamarisk",
+        "Myricaria germanica"
+      ],
+      "es": [
+        "Myricaria germanica"
+      ],
+      "fr": [
+        "Myricaria germanica"
+      ],
+      "it": [
+        "Myricaria germanica"
+      ],
+      "nl": [
+        "Myricaria germanica"
+      ],
+      "pl": [
+        "września pobrzeżna"
+      ],
+      "pt": [
+        "Myricaria germanica"
+      ],
+      "ru": [
+        "Myricaria germanica"
+      ],
+      "zh": [
+        "水柏枝"
       ]
     },
     "tags": [],
@@ -103,7 +136,7 @@
     "family": "Tamaricaceae",
     "genus": "Tamarix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -124,12 +157,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -191,11 +224,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "أثل إفريقي"
+      ],
+      "de": [
+        "Sommer-Tamariske"
+      ],
       "en": [
-        "African tamarisk"
+        "African tamarisk",
+        "Tamarix africana"
+      ],
+      "es": [
+        "Tamarix africana"
+      ],
+      "fr": [
+        "Tamarix africana"
+      ],
+      "it": [
+        "Tamarix africana"
+      ],
+      "nl": [
+        "Tamarix africana"
+      ],
+      "pl": [
+        "Tamarix africana"
+      ],
+      "pt": [
+        "Tamarix africana"
+      ],
+      "ru": [
+        "Tamarix africana"
+      ],
+      "zh": [
+        "非洲柽柳"
       ]
     },
     "tags": [],
@@ -207,7 +273,7 @@
     "family": "Tamaricaceae",
     "genus": "Tamarix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -223,17 +289,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "tamarix_aphylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -295,11 +361,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "ar": [
+        "أثل عديم الأوراق"
+      ],
+      "de": [
+        "Tamarix aphylla"
+      ],
       "en": [
-        "Athel tamarisk"
+        "Athel tamarisk",
+        "Tamarix aphylla"
+      ],
+      "es": [
+        "Tamarix aphylla"
+      ],
+      "fr": [
+        "Tamarix aphylla"
+      ],
+      "it": [
+        "Tamarix aphylla"
+      ],
+      "nl": [
+        "Tamarix aphylla"
+      ],
+      "pl": [
+        "tamaryszek bezlistny"
+      ],
+      "pt": [
+        "Tamarisco"
+      ],
+      "ru": [
+        "Tamarix aphylla"
+      ],
+      "zh": [
+        "无叶柽柳"
       ]
     },
     "tags": [],
@@ -311,7 +410,7 @@
     "family": "Tamaricaceae",
     "genus": "Tamarix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -332,12 +431,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -399,11 +498,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Tamarix canariensis"
+      ],
       "en": [
-        "Canary island tamarisk"
+        "Canary island tamarisk",
+        "Tamarix canariensis"
+      ],
+      "es": [
+        "Tamarix canariensis"
+      ],
+      "fr": [
+        "Tamarix canariensis"
+      ],
+      "it": [
+        "Tamarix canariensis"
+      ],
+      "nl": [
+        "Tamarix canariensis"
+      ],
+      "pl": [
+        "Tamarix canariensis"
+      ],
+      "pt": [
+        "Tamarix canariensis"
+      ],
+      "ru": [
+        "Tamarix canariensis"
       ]
     },
     "tags": [],
@@ -415,7 +541,7 @@
     "family": "Tamaricaceae",
     "genus": "Tamarix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -431,7 +557,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "tamarix_chinensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -503,11 +629,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Tamarix chinensis"
+      ],
       "en": [
-        "Chinese tamarisk"
+        "Chinese tamarisk",
+        "Tamarix chinensis"
+      ],
+      "es": [
+        "Tamarix chinensis"
+      ],
+      "fr": [
+        "Tamarix chinensis"
+      ],
+      "it": [
+        "Tamarix chinensis"
+      ],
+      "ja": [
+        "ギョリュウ"
+      ],
+      "ko": [
+        "위성류"
+      ],
+      "nl": [
+        "Tamarix chinensis"
+      ],
+      "pl": [
+        "Tamarix chinensis"
+      ],
+      "pt": [
+        "Tamarix chinensis"
+      ],
+      "ru": [
+        "Tamarix chinensis"
+      ],
+      "zh": [
+        "檉柳"
       ]
     },
     "tags": [],
@@ -519,7 +681,7 @@
     "family": "Tamaricaceae",
     "genus": "Tamarix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -540,12 +702,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -607,11 +769,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "أثل فرنسي"
+      ],
+      "de": [
+        "Französische Tamariske"
+      ],
       "en": [
-        "Tamarisk"
+        "Tamarisk",
+        "Tamarix gallica"
+      ],
+      "es": [
+        "Tamarix gallica"
+      ],
+      "fr": [
+        "Tamarix gallica"
+      ],
+      "it": [
+        "Tamarix gallica"
+      ],
+      "nl": [
+        "Tamarix gallica"
+      ],
+      "pl": [
+        "Tamarix gallica"
+      ],
+      "pt": [
+        "Tamarix gallica"
+      ],
+      "ru": [
+        "Tamarix gallica"
+      ],
+      "tr": [
+        "Tamarix gallica"
       ]
     },
     "tags": [],
@@ -623,7 +818,7 @@
     "family": "Tamaricaceae",
     "genus": "Tamarix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -639,7 +834,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "tamarix_parviflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -711,11 +906,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Kleinblütige Tamariske"
+      ],
       "en": [
-        "Salt-cedar"
+        "Salt-cedar",
+        "Tamarix parviflora"
+      ],
+      "es": [
+        "Tamarix parviflora"
+      ],
+      "fr": [
+        "Tamarix parviflora"
+      ],
+      "it": [
+        "Tamarix parviflora"
+      ],
+      "nl": [
+        "Tamarix parviflora"
+      ],
+      "pl": [
+        "Tamarix parviflora"
+      ],
+      "pt": [
+        "Tamarix parviflora"
+      ],
+      "ru": [
+        "Tamarix parviflora"
+      ],
+      "zh": [
+        "小花柽柳"
       ]
     },
     "tags": [],
@@ -727,7 +952,7 @@
     "family": "Tamaricaceae",
     "genus": "Tamarix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -743,17 +968,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "tamarix_ramosissima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -815,11 +1040,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Tamarix ramosissima"
+      ],
       "en": [
-        "Salt-cedar"
+        "Salt-cedar",
+        "Tamarix ramosissima"
+      ],
+      "es": [
+        "Tamarix ramosissima"
+      ],
+      "fr": [
+        "Tamarix ramosissima"
+      ],
+      "it": [
+        "Tamarix ramosissima"
+      ],
+      "ja": [
+        "タマリクス・ラモシッシマ"
+      ],
+      "nl": [
+        "Tamarix ramosissima"
+      ],
+      "pl": [
+        "Tamaryszek rozgałęziony"
+      ],
+      "pt": [
+        "Tamarix ramosissima"
+      ],
+      "ru": [
+        "гребенщик ветвистый"
+      ],
+      "zh": [
+        "多枝柽柳"
       ]
     },
     "tags": [],

@@ -5,12 +5,12 @@
     "family": "Zosteraceae",
     "genus": "Phyllospadix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Phyllospadix iwatensis is a species of flowering plant in the family Zosteraceae. It is found along the seacoasts of Japan, Korea, China, and the Russian Far East. It was first discovered in 1929 near on the Miyako Peninsula in Iwate Prefecture in Japan, in northeastern Honshu. It occurs in the intertidal zone along the shore.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllospadix iwatensis"
+      ],
+      "en": [
+        "Phyllospadix iwatensis"
+      ],
+      "es": [
+        "Phyllospadix iwatensis"
+      ],
+      "fr": [
+        "Phyllospadix iwatensis"
+      ],
+      "it": [
+        "Phyllospadix iwatensis"
+      ],
+      "ja": [
+        "スガモ"
+      ],
+      "ko": [
+        "새우말"
+      ],
+      "nl": [
+        "Phyllospadix iwatensis"
+      ],
+      "pl": [
+        "Phyllospadix iwatensis"
+      ],
+      "pt": [
+        "Phyllospadix iwatensis"
+      ],
+      "ru": [
+        "Phyllospadix iwatensis"
+      ],
+      "zh": [
+        "红纤维虾海藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +138,12 @@
     "family": "Zosteraceae",
     "genus": "Phyllospadix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7164763e00cfb2dfa46d0e0da550ab43bbded692",
-    "description": null,
+    "description": "Phyllospadix scouleri, or Scouler's surfgrass, is a flowering marine plant in the family Zosteraceae. It is native to the coastline of western North America from the Alaskan panhandle to Baja California.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,11 +220,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phyllospadix scouleri"
+      ],
       "en": [
+        "Phyllospadix scouleri",
         "Scouler's surfgrass"
+      ],
+      "es": [
+        "Phyllospadix scouleri"
+      ],
+      "fr": [
+        "Phyllospadix scouleri"
+      ],
+      "it": [
+        "Phyllospadix scouleri"
+      ],
+      "nl": [
+        "Phyllospadix scouleri"
+      ],
+      "pl": [
+        "Phyllospadix scouleri"
+      ],
+      "pt": [
+        "Phyllospadix scouleri"
+      ],
+      "ru": [
+        "Phyllospadix scouleri"
+      ],
+      "zh": [
+        "斯考勒虾形草"
       ]
     },
     "tags": [],
@@ -197,12 +266,12 @@
     "family": "Zosteraceae",
     "genus": "Phyllospadix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/353b55a5f930509e512cadc41551d68a.jpg",
-    "description": null,
+    "description": "Phyllospadix torreyi, Torrey's surfgrass, is a plant species found along the Pacific Coasts of British Columbia, Washington, Oregon, California and Baja California. It grows in salt marshes in the intertidal zones.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -213,9 +282,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "phyllospadix_torreyi",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -279,9 +348,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllospadix torreyi"
+      ],
+      "en": [
+        "Phyllospadix torreyi"
+      ],
+      "es": [
+        "Phyllospadix torreyi"
+      ],
+      "fr": [
+        "Phyllospadix torreyi"
+      ],
+      "it": [
+        "Phyllospadix torreyi"
+      ],
+      "nl": [
+        "Phyllospadix torreyi"
+      ],
+      "pl": [
+        "Phyllospadix torreyi"
+      ],
+      "pt": [
+        "Phyllospadix torreyi"
+      ],
+      "ru": [
+        "Phyllospadix torreyi"
+      ],
+      "zh": [
+        "托利虾形草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -291,7 +393,7 @@
     "family": "Zosteraceae",
     "genus": "Zostera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -307,17 +409,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "zostera_asiatica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -373,9 +475,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "حزامية آسيوية"
+      ],
+      "de": [
+        "Zostera asiatica"
+      ],
+      "en": [
+        "Zostera asiatica"
+      ],
+      "es": [
+        "Zostera asiatica"
+      ],
+      "fr": [
+        "Zostera asiatica"
+      ],
+      "it": [
+        "Zostera asiatica"
+      ],
+      "nl": [
+        "Zostera asiatica"
+      ],
+      "pl": [
+        "Zostera asiatica"
+      ],
+      "pt": [
+        "Zostera asiatica"
+      ],
+      "ru": [
+        "Zostera asiatica"
+      ],
+      "tr": [
+        "Zostera asiatica"
+      ],
+      "zh": [
+        "宽叶大叶藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -385,7 +526,7 @@
     "family": "Zosteraceae",
     "genus": "Zostera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -401,17 +542,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "zostera_caespitosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -467,9 +608,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "حزامية أجمية"
+      ],
+      "de": [
+        "Zostera caespitosa"
+      ],
+      "en": [
+        "Zostera caespitosa"
+      ],
+      "es": [
+        "Zostera caespitosa"
+      ],
+      "fr": [
+        "Zostera caespitosa"
+      ],
+      "it": [
+        "Zostera caespitosa"
+      ],
+      "nl": [
+        "Zostera caespitosa"
+      ],
+      "pl": [
+        "Zostera caespitosa"
+      ],
+      "pt": [
+        "Zostera caespitosa"
+      ],
+      "ru": [
+        "Zostera caespitosa"
+      ],
+      "tr": [
+        "Zostera caespitosa"
+      ],
+      "zh": [
+        "丛生大叶藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -479,7 +659,7 @@
     "family": "Zosteraceae",
     "genus": "Zostera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -495,17 +675,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "zostera_capricorni",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -561,9 +741,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "حزامية كابريكورنية"
+      ],
+      "de": [
+        "Zostera capricorni"
+      ],
+      "en": [
+        "Zostera capricorni"
+      ],
+      "es": [
+        "Zostera capricorni"
+      ],
+      "fr": [
+        "Zostera capricorni"
+      ],
+      "it": [
+        "Zostera capricorni"
+      ],
+      "nl": [
+        "Zostera capricorni"
+      ],
+      "pl": [
+        "Zostera capricorni"
+      ],
+      "pt": [
+        "Zostera capricorni"
+      ],
+      "ru": [
+        "Zostera capricorni"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -573,7 +786,7 @@
     "family": "Zosteraceae",
     "genus": "Zostera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -589,17 +802,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "zostera_caulescens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -655,9 +868,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "حزامية مسوقة"
+      ],
+      "de": [
+        "Zostera caulescens"
+      ],
+      "en": [
+        "Zostera caulescens"
+      ],
+      "es": [
+        "Zostera caulescens"
+      ],
+      "fr": [
+        "Zostera caulescens"
+      ],
+      "it": [
+        "Zostera caulescens"
+      ],
+      "nl": [
+        "Zostera caulescens"
+      ],
+      "pl": [
+        "Zostera caulescens"
+      ],
+      "pt": [
+        "Zostera caulescens"
+      ],
+      "ru": [
+        "Zostera caulescens"
+      ],
+      "zh": [
+        "具茎大叶藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -667,7 +916,7 @@
     "family": "Zosteraceae",
     "genus": "Zostera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -683,17 +932,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "zostera_japonica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -749,9 +998,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "حزامية يابانية"
+      ],
+      "de": [
+        "Zostera japonica"
+      ],
+      "en": [
+        "Zostera japonica"
+      ],
+      "es": [
+        "Zostera japonica"
+      ],
+      "fr": [
+        "Zostera japonica"
+      ],
+      "it": [
+        "Zostera japonica"
+      ],
+      "ja": [
+        "コアマモ"
+      ],
+      "nl": [
+        "Zostera japonica"
+      ],
+      "pl": [
+        "Zostera japonica"
+      ],
+      "pt": [
+        "Zostera japonica"
+      ],
+      "ru": [
+        "Zostera japonica"
+      ],
+      "zh": [
+        "矮大叶藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -761,7 +1049,7 @@
     "family": "Zosteraceae",
     "genus": "Zostera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -777,17 +1065,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "zostera_marina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -843,11 +1131,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.3
     },
     "common_names": {
+      "ar": [
+        "حزامية بحرية"
+      ],
+      "de": [
+        "Gewöhnliches Seegras"
+      ],
       "en": [
-        "Eelgrass"
+        "Eelgrass",
+        "Zostera marina"
+      ],
+      "es": [
+        "Zostera marina"
+      ],
+      "fr": [
+        "zostère marine"
+      ],
+      "it": [
+        "Zostera marina"
+      ],
+      "ja": [
+        "アマモ"
+      ],
+      "ko": [
+        "거머리말"
+      ],
+      "nl": [
+        "Groot zeegras"
+      ],
+      "pl": [
+        "Zostera morska"
+      ],
+      "pt": [
+        "Zostera marina"
+      ],
+      "ru": [
+        "взморник морской"
+      ],
+      "zh": [
+        "大叶藻"
       ]
     },
     "tags": [],
@@ -859,7 +1186,7 @@
     "family": "Zosteraceae",
     "genus": "Zostera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -875,17 +1202,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "zostera_noltii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -941,9 +1268,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.1
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "زوستيرا نولتي"
+      ],
+      "de": [
+        "Zostera noltei"
+      ],
+      "en": [
+        "Zostera noltii"
+      ],
+      "es": [
+        "Zostera noltii"
+      ],
+      "fr": [
+        "Zostera noltii"
+      ],
+      "it": [
+        "Nanozostera noltii"
+      ],
+      "nl": [
+        "Zostera noltei"
+      ],
+      "pl": [
+        "Zostera noltei"
+      ],
+      "pt": [
+        "Zostera noltii"
+      ],
+      "ru": [
+        "Zostera noltei"
+      ],
+      "zh": [
+        "諾氏大葉藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Elaeagnaceae",
     "genus": "Elaeagnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c080682578011a018766f67fd22ea99fb86d1869",
-    "description": "Achene but appears drupe-like because of a fleshy outer hypanthium.  They resemble olives are 1/2  silver in late summer turning red in the fall from August-October.",
+    "description": "Elaeagnus angustifolia, commonly called Russian olive, silver berry, oleaster, or wild olive, is a species of Elaeagnus, native to Asia and limited areas of eastern Europe. It is widely established in North America as an introduced species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": "[\"Elaeagnus spinosa\", \"Elaeagnus longipes var. hortensis\", \"Elaeagnus hortensis subsp. continentalis\", \"Elaeagnus hortensis var. igda\", \"Elaeagnus hortensis subsp. littoralis\", \"Elaeagnus hortensis var. microcarpa\", \"Elaeagnus hortensis subsp. moorcroftii\", \"Elaeagnus angustifolia subsp. orientalis\", \"Elaeagnus hortensis subsp. songarica\", \"Elaeagnus inermis\"]",
     "care": {
       "plant_id": "elaeagnus_angustifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "ar": [
+        "خلاف ضيق الأوراق"
+      ],
+      "de": [
+        "Schmalblättrige Ölweide"
+      ],
       "en": [
+        "Elaeagnus angustifolia",
         "Russian-olive"
+      ],
+      "es": [
+        "Elaeagnus angustifolia"
+      ],
+      "fr": [
+        "Elaeagnus angustifolia"
+      ],
+      "it": [
+        "Elaeagnus angustifolia"
+      ],
+      "ja": [
+        "ヤナギバグミ"
+      ],
+      "nl": [
+        "Elaeagnus angustifolia"
+      ],
+      "pl": [
+        "Oliwnik wąskolistny"
+      ],
+      "pt": [
+        "Elaeagnus angustifolia"
+      ],
+      "ru": [
+        "лох узколистный"
+      ],
+      "tr": [
+        "Kuş iğdesi"
+      ],
+      "zh": [
+        "沙枣"
       ]
     },
     "tags": [],
@@ -103,7 +142,7 @@
     "family": "Elaeagnaceae",
     "genus": "Elaeagnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +158,17 @@
     "synonyms": "[\"Elaeagnus veteris-castelli\", \"Elaeagnus argentea\", \"Elaeagnus argentea subsp. euargentea\", \"Shepherdia argentea\", \"Elaeagnus argentea subsp. pauciflora\", \"Elaeagnus argentea subsp. rotundifolia\", \"Elaeagnus argentea subsp. sinuosa\", \"Elaeagnus argentea var. maxima\", \"Elaeagnus argentea\", \"Elaeagnus argentea var. elongata\"]",
     "care": {
       "plant_id": "elaeagnus_commutata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,11 +224,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "ar": [
+        "خلاف فضي"
+      ],
+      "de": [
+        "Silber-Ölweide"
+      ],
       "en": [
+        "Elaeagnus commutata",
         "Silverberry"
+      ],
+      "es": [
+        "Elaeagnus commutata"
+      ],
+      "fr": [
+        "chalef argenté"
+      ],
+      "it": [
+        "Elaeagnus commutata"
+      ],
+      "nl": [
+        "Elaeagnus commutata"
+      ],
+      "pl": [
+        "Elaeagnus commutata"
+      ],
+      "pt": [
+        "Elaeagnus commutata"
+      ],
+      "ru": [
+        "Лох серебристый"
+      ],
+      "tr": [
+        "Elaeagnus commutata"
+      ],
+      "zh": [
+        "蔓胡颓子"
       ]
     },
     "tags": [],
@@ -201,7 +276,7 @@
     "family": "Elaeagnaceae",
     "genus": "Elaeagnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -217,7 +292,7 @@
     "synonyms": "[\"Elaeagnus glabra f. oxyphylla\", \"Elaeagnus glabra subsp. oxyphylla\", \"Elaeagnus glabra var. cupressa\", \"Elaeagnus longidrupa\", \"Elaeagnus erosifolia\", \"Elaeagnus buisanensis\", \"Elaeagnus glabra subsp. tenuiflora\", \"Elaeagnus glabra var. ovalifolia\", \"Elaeagnus tenuiflora\", \"Elaeagnus paucilepidota\"]",
     "care": {
       "plant_id": "elaeagnus_glabra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -283,9 +358,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Elaeagnus glabra"
+      ],
+      "en": [
+        "Elaeagnus glabra"
+      ],
+      "es": [
+        "Elaeagnus glabra"
+      ],
+      "fr": [
+        "Elaeagnus glabra"
+      ],
+      "it": [
+        "Elaeagnus glabra"
+      ],
+      "ja": [
+        "ツルグミ"
+      ],
+      "ko": [
+        "보리장나무"
+      ],
+      "nl": [
+        "Elaeagnus glabra"
+      ],
+      "pl": [
+        "Elaeagnus glabra"
+      ],
+      "pt": [
+        "Elaeagnus glabra"
+      ],
+      "ru": [
+        "Elaeagnus glabra"
+      ],
+      "zh": [
+        "藤胡颓子"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -295,12 +409,12 @@
     "family": "Elaeagnaceae",
     "genus": "Elaeagnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/45c756f66a38b5dc5b071b31879113f3e6ddec88",
-    "description": null,
+    "description": "Elaeagnus macrophylla, the broad-leaved oleaster, is a species of flowering plant native to eastern Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -311,7 +425,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "elaeagnus_macrophylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -377,11 +491,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Elaeagnus macrophylla"
+      ],
       "en": [
-        "Broadleaf oleaster"
+        "Broadleaf oleaster",
+        "Elaeagnus macrophylla"
+      ],
+      "es": [
+        "Elaeagnus macrophylla"
+      ],
+      "fr": [
+        "Elaeagnus macrophylla"
+      ],
+      "it": [
+        "Elaeagnus macrophylla"
+      ],
+      "ko": [
+        "보리밥나무"
+      ],
+      "nl": [
+        "Elaeagnus macrophylla"
+      ],
+      "pl": [
+        "Elaeagnus macrophylla"
+      ],
+      "pt": [
+        "Elaeagnus macrophylla"
+      ],
+      "ru": [
+        "Elaeagnus macrophylla"
+      ],
+      "zh": [
+        "大叶胡颓子"
       ]
     },
     "tags": [],
@@ -393,12 +540,12 @@
     "family": "Elaeagnaceae",
     "genus": "Elaeagnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/610566c57a36a21d2ede61a31be1c8d5e5821c2e",
-    "description": null,
+    "description": "Elaeagnus multiflora, the cherry elaeagnus, cherry silverberry, goumi, gumi, or natsugumi, is a species of Elaeagnus native to China, Korea, Japan and the Russian Far east (Sakhalin).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -409,7 +556,7 @@
     "synonyms": "[\"Elaeagnus longipes var. angustifolia\", \"Elaeagnus multiflora var. tenuipes\", \"Elaeagnus longipes var. multflora\", \"Elaeagnus rotundifolia\", \"Elaeagnus jucundicocca\", \"Elaeagnus longipes\", \"Elaeagnus isensis\", \"Elaeagnus multiflora f. orbiculata\", \"Elaeagnus longipes var. sulcata\", \"Elaeagnus multiflora var. orbiculata\"]",
     "care": {
       "plant_id": "elaeagnus_multiflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -475,11 +622,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "خلاف كثير الزهر"
+      ],
+      "de": [
+        "Reichblütige Ölweide"
+      ],
       "en": [
-        "Cherry elaeagnus"
+        "Cherry elaeagnus",
+        "cherry silverberry"
+      ],
+      "es": [
+        "Elaeagnus multiflora"
+      ],
+      "fr": [
+        "Goumi du Japon"
+      ],
+      "it": [
+        "Elaeagnus multiflora"
+      ],
+      "ja": [
+        "ナツグミ"
+      ],
+      "nl": [
+        "Langstelige olijfwilg"
+      ],
+      "pl": [
+        "Elaeagnus multiflora"
+      ],
+      "pt": [
+        "Elaeagnus multiflora"
+      ],
+      "ru": [
+        "Лох многоцветковый"
+      ],
+      "tr": [
+        "Elaeagnus multiflora"
+      ],
+      "zh": [
+        "木半夏"
       ]
     },
     "tags": [],
@@ -491,12 +677,12 @@
     "family": "Elaeagnaceae",
     "genus": "Elaeagnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b8660943443eac284d64a0790051905b437a4935",
-    "description": "1/2 inch drupes are one-seeded, reddish-brown and ripen in spring (late March-May).  Initially densely scaley and green maturing to a silvery-red oval drupe.",
+    "description": "Elaeagnus pungens is a species of flowering plant in the family Elaeagnaceae, known by the common names thorny olive, spiny oleaster and silverthorn; also by the family name \"oleaster\". It is native to Asia, including China and Japan. It is present in the southeastern United States as an introduced species, a common landscaping and ornamental plant, and sometimes an invasive species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -507,17 +693,17 @@
     "synonyms": "[\"Elaeagnus pungens var. aurea\", \"Elaeagnus pungens f. aurea\", \"Elaeagnus pungens var. latifolia\", \"Elaeagnus pungens var. frederici-variegata\", \"Elaeagnus obtusa\", \"Elaeagnus frederici-variegata\", \"Elaeagnus pungens subsp. simonii\", \"Elaeagnus variegata\", \"Elaeagnus pungens var. simonii\", \"Elaeagnus pungens f. maculata\"]",
     "care": {
       "plant_id": "elaeagnus_pungens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -573,11 +759,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Dornige Ölweide"
+      ],
       "en": [
+        "Elaeagnus pungens",
         "Spiny oleaster"
+      ],
+      "es": [
+        "Elaeagnus pungens"
+      ],
+      "fr": [
+        "Elaeagnus pungens"
+      ],
+      "it": [
+        "Elaeagnus pungens"
+      ],
+      "ja": [
+        "ナワシログミ"
+      ],
+      "nl": [
+        "Elaeagnus pungens"
+      ],
+      "pl": [
+        "Elaeagnus pungens"
+      ],
+      "pt": [
+        "Elaeagnus pungens"
+      ],
+      "ru": [
+        "Лох колючий"
+      ],
+      "zh": [
+        "胡頹子"
       ]
     },
     "tags": [],
@@ -589,12 +808,12 @@
     "family": "Elaeagnaceae",
     "genus": "Elaeagnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8a1f30a2ddac10165f5d24df154702bf12c4a6de",
-    "description": "The unripe berry is silvery yellow. It ripens to red, dotted with silver or brown scales and is edible.  The 1/3-1/4 inch long fruits can be eaten raw, or dried or cooked.  They are often used for jams and preserves.",
+    "description": "Elaeagnus umbellata is a species of flowering plant known as Japanese silverberry, umbellata oleaster, autumn olive, autumn elaeagnus, spreading oleaster, autumnberry, or autumn berry. The species is indigenous to eastern Asia and ranges from the Himalayas eastwards to Japan. It is a hardy, aggressive invasive species able to readily colonize barren land, becoming invasive in the central and northeastern United States and parts of Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -605,17 +824,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "elaeagnus_umbellata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -677,11 +896,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Korallen-Ölweide"
+      ],
       "en": [
+        "Elaeagnus umbellata",
         "Spreading oleaster"
+      ],
+      "es": [
+        "Elaeagnus umbellata"
+      ],
+      "fr": [
+        "Elaeagnus umbellata"
+      ],
+      "it": [
+        "Korallen-Ölweide"
+      ],
+      "ja": [
+        "アキグミ"
+      ],
+      "ko": [
+        "보리수나무"
+      ],
+      "nl": [
+        "Elaeagnus umbellata"
+      ],
+      "pl": [
+        "Elaeagnus umbellata"
+      ],
+      "pt": [
+        "Elaeagnus umbellata"
+      ],
+      "ru": [
+        "Лох зонтичный"
+      ],
+      "tr": [
+        "Japon iğdesi"
+      ],
+      "zh": [
+        "牛奶子"
       ]
     },
     "tags": [],
@@ -693,7 +951,7 @@
     "family": "Elaeagnaceae",
     "genus": "Hippophae",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -709,17 +967,17 @@
     "synonyms": "[\"Hippophaes rhamnoideum\", \"Hippophae littoralis\", \"Rhamnoides hippophae\", \"Argussiera rhamnoides\", \"Elaeagnus rhamnoides\", \"Osyris rhamnoides\"]",
     "care": {
       "plant_id": "hippophae_rhamnoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -775,9 +1033,54 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.6
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "أبو فايس"
+      ],
+      "de": [
+        "Sanddorn"
+      ],
+      "en": [
+        "Hippophae rhamnoides"
+      ],
+      "es": [
+        "Hippophae rhamnoides"
+      ],
+      "fr": [
+        "Argousier"
+      ],
+      "it": [
+        "olivello spinoso"
+      ],
+      "ja": [
+        "サジー"
+      ],
+      "ko": [
+        "산자나무"
+      ],
+      "nl": [
+        "duindoorn"
+      ],
+      "pl": [
+        "rokitnik zwyczajny"
+      ],
+      "pt": [
+        "Hippophae"
+      ],
+      "ru": [
+        "Облепиха крушиновидная"
+      ],
+      "tr": [
+        "Yalancı iğde"
+      ],
+      "zh": [
+        "沙棘"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -787,7 +1090,7 @@
     "family": "Elaeagnaceae",
     "genus": "Shepherdia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -869,11 +1172,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Shepherdia argentea"
+      ],
       "en": [
-        "Buffalo-berry"
+        "Buffalo-berry",
+        "Shepherdia argentea"
+      ],
+      "es": [
+        "Shepherdia argentea"
+      ],
+      "fr": [
+        "Shepherdia argentea"
+      ],
+      "it": [
+        "Shepherdia argentea"
+      ],
+      "nl": [
+        "Shepherdia argentea"
+      ],
+      "pl": [
+        "Shepherdia argentea"
+      ],
+      "pt": [
+        "Shepherdia argentea"
+      ],
+      "ru": [
+        "Шефердия серебристая"
+      ],
+      "zh": [
+        "野牛果"
       ]
     },
     "tags": [],
@@ -885,7 +1218,7 @@
     "family": "Elaeagnaceae",
     "genus": "Shepherdia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -967,11 +1300,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Kanadische Büffelbeere"
+      ],
       "en": [
-        "Canadian buffalo-berry"
+        "Canadian buffalo-berry",
+        "Shepherdia canadensis"
+      ],
+      "es": [
+        "Shepherdia canadensis"
+      ],
+      "fr": [
+        "Shepherdia canadensis"
+      ],
+      "it": [
+        "Shepherdia canadensis"
+      ],
+      "ja": [
+        "カナダバッファローベリー"
+      ],
+      "nl": [
+        "Shepherdia canadensis"
+      ],
+      "pl": [
+        "Shepherdia canadensis"
+      ],
+      "pt": [
+        "Shepherdia canadensis"
+      ],
+      "ru": [
+        "Шефердия канадская"
+      ],
+      "tr": [
+        "Shepherdia canadensis"
+      ],
+      "zh": [
+        "加拿大水牛莓"
       ]
     },
     "tags": [],

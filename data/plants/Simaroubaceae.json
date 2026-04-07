@@ -21,13 +21,13 @@
     "synonyms": "[\"Toxicodendron altissimum\"]",
     "care": {
       "plant_id": "ailanthus_altissima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 92,
       "ppfd_max": 138,
       "dli_min": 0.3,
@@ -53,8 +53,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Celastrus orbiculatus | Native to: CLC MA, AGW SJ, HAW JI, NWY OO, GEO",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": [
         "No serious insect or disease problems",
         "Invasive and difficult to eradicate",
@@ -78,8 +78,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -93,11 +93,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "ar": [
+        "أيلنط باسق"
+      ],
+      "de": [
+        "Götterbaum"
+      ],
       "en": [
+        "Ailanthus altissima",
         "Varnishtree"
+      ],
+      "es": [
+        "Ailanthus altissima"
+      ],
+      "fr": [
+        "Ailanthus altissima"
+      ],
+      "it": [
+        "Ailanthus altissima"
+      ],
+      "ja": [
+        "ニワウルシ"
+      ],
+      "ko": [
+        "가죽나무"
+      ],
+      "nl": [
+        "hemelboom"
+      ],
+      "pl": [
+        "Bożodrzew gruczołowaty"
+      ],
+      "pt": [
+        "Árvore-do-céu"
+      ],
+      "ru": [
+        "Айлант высочайший"
+      ],
+      "tr": [
+        "Kokar ağaç"
+      ],
+      "zh": [
+        "臭椿"
       ]
     },
     "tags": [],
@@ -109,7 +151,7 @@
     "family": "Simaroubaceae",
     "genus": "Brucea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -191,11 +233,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Brucea javanica"
+      ],
       "en": [
+        "Brucea javanica",
         "Macassar kernels"
+      ],
+      "es": [
+        "Brucea javanica"
+      ],
+      "fr": [
+        "Brucea javanica"
+      ],
+      "it": [
+        "Brucea javanica"
+      ],
+      "ja": [
+        "アタンシ"
+      ],
+      "nl": [
+        "Brucea javanica"
+      ],
+      "pl": [
+        "Brucea javanica"
+      ],
+      "pt": [
+        "Brucea javanica"
+      ],
+      "ru": [
+        "Brucea javanica"
+      ],
+      "zh": [
+        "鸦胆子"
       ]
     },
     "tags": [],
@@ -207,7 +282,7 @@
     "family": "Simaroubaceae",
     "genus": "Castela",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -289,9 +364,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Castela erecta"
+      ],
+      "en": [
+        "Castela erecta"
+      ],
+      "es": [
+        "Castela erecta"
+      ],
+      "fr": [
+        "Castela erecta"
+      ],
+      "it": [
+        "Castela erecta"
+      ],
+      "nl": [
+        "Castela erecta"
+      ],
+      "pl": [
+        "Castela erecta"
+      ],
+      "pt": [
+        "Castela erecta"
+      ],
+      "ru": [
+        "Castela erecta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -301,7 +406,7 @@
     "family": "Simaroubaceae",
     "genus": "Homalolepis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -383,9 +488,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Homalolepis cedron"
+      ],
+      "en": [
+        "Homalolepis cedron"
+      ],
+      "es": [
+        "Homalolepis cedron"
+      ],
+      "fr": [
+        "Homalolepis cedron"
+      ],
+      "it": [
+        "Homalolepis cedron"
+      ],
+      "nl": [
+        "Homalolepis cedron"
+      ],
+      "pl": [
+        "Homalolepis cedron"
+      ],
+      "pt": [
+        "Homalolepis cedron"
+      ],
+      "ru": [
+        "Homalolepis cedron"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -395,12 +530,12 @@
     "family": "Simaroubaceae",
     "genus": "Picrasma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/73448985563989ad5874842aa49e6908d3ecdc43",
-    "description": "Red pea shaped fruit",
+    "description": "Picrasma quassioides is a species of Picrasma native to temperate regions of southern Asia, from the northeast of Pakistan east along the Himalaya and through East Asia from southern, central and eastern China to Taiwan, Japan and Korea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -477,11 +612,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Picrasma quassioides"
+      ],
       "en": [
-        "Nigaki"
+        "Nigaki",
+        "Picrasma quassioides"
+      ],
+      "es": [
+        "Picrasma quassioides"
+      ],
+      "fr": [
+        "Picrasma quassioides"
+      ],
+      "it": [
+        "Picrasma quassioides"
+      ],
+      "ja": [
+        "ニガキ"
+      ],
+      "ko": [
+        "소태나무"
+      ],
+      "nl": [
+        "Picrasma quassioides"
+      ],
+      "pl": [
+        "Picrasma quassioides"
+      ],
+      "pt": [
+        "Picrasma quassioides"
+      ],
+      "ru": [
+        "Picrasma quassioides"
+      ],
+      "tr": [
+        "Picrasma quassioides"
+      ],
+      "zh": [
+        "苦木"
       ]
     },
     "tags": [],
@@ -493,12 +667,12 @@
     "family": "Simaroubaceae",
     "genus": "Quassia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0eb93cc06e6d3a6f155c4a98044ae74eeb80d279",
-    "description": null,
+    "description": "Quassia amara, also known as amargo, bitter-ash, bitterwood, or hombre grande is a species in the genus Quassia, with some botanists treating it as the sole species in the genus. The genus was named by Carl Linnaeus who named it after the first botanist to describe it: the Surinamese freedman Graman Quassi.\nQ. amara is used as insecticide, in traditional medicine and as additive in the food industry.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -575,11 +749,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "خشب مر"
+      ],
+      "de": [
+        "Quassia amara"
+      ],
       "en": [
-        "Quassia"
+        "Quassia",
+        "Quassia amara"
+      ],
+      "es": [
+        "Quassia amara"
+      ],
+      "fr": [
+        "Quassia amara"
+      ],
+      "it": [
+        "Quassia amara"
+      ],
+      "nl": [
+        "Bitterhout"
+      ],
+      "pl": [
+        "Gorzkla właściwa"
+      ],
+      "pt": [
+        "Quassia amara"
+      ],
+      "ru": [
+        "Квассия горькая"
+      ],
+      "tr": [
+        "Acıağaç"
       ]
     },
     "tags": [],
@@ -591,7 +798,7 @@
     "family": "Simaroubaceae",
     "genus": "Simarouba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -673,11 +880,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قصب مر/ سماروبه"
+      ],
+      "de": [
+        "Simarouba amara"
+      ],
       "en": [
-        "Bitterwood"
+        "Bitterwood",
+        "Simarouba amara"
+      ],
+      "es": [
+        "Simarouba amara"
+      ],
+      "fr": [
+        "Simarouba amara"
+      ],
+      "hi": [
+        "लक्ष्मी तरु"
+      ],
+      "it": [
+        "Simarouba amara"
+      ],
+      "nl": [
+        "Simarouba glauca"
+      ],
+      "pl": [
+        "Simarouba amara"
+      ],
+      "pt": [
+        "Simarouba amara"
+      ],
+      "ru": [
+        "Simarouba amara"
       ]
     },
     "tags": [],
@@ -689,7 +929,7 @@
     "family": "Simaroubaceae",
     "genus": "Simarouba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -771,9 +1011,36 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Simarouba glauca"
+      ],
+      "en": [
+        "Simarouba glauca"
+      ],
+      "es": [
+        "Simarouba glauca"
+      ],
+      "fr": [
+        "Simarouba glauca"
+      ],
+      "it": [
+        "Simarouba glauca"
+      ],
+      "pl": [
+        "Simarouba glauca"
+      ],
+      "pt": [
+        "Simarouba glauca"
+      ],
+      "ru": [
+        "Simarouba glauca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -783,7 +1050,7 @@
     "family": "Simaroubaceae",
     "genus": "Simarouba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -865,9 +1132,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Simarouba versicolor"
+      ],
+      "en": [
+        "Simarouba versicolor"
+      ],
+      "es": [
+        "Simarouba versicolor"
+      ],
+      "fr": [
+        "Simarouba versicolor"
+      ],
+      "it": [
+        "Simarouba versicolor"
+      ],
+      "nl": [
+        "Simarouba versicolor"
+      ],
+      "pl": [
+        "Simarouba versicolor"
+      ],
+      "pt": [
+        "Simarouba versicolor"
+      ],
+      "ru": [
+        "Simarouba versicolor"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

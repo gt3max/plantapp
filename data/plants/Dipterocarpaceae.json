@@ -5,7 +5,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Monotes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Monotes kerstingii"
+      ],
+      "en": [
+        "Monotes kerstingii"
+      ],
+      "es": [
+        "Monotes kerstingii"
+      ],
+      "fr": [
+        "Monotes kerstingii"
+      ],
+      "it": [
+        "Monotes kerstingii"
+      ],
+      "nl": [
+        "Monotes kerstingii"
+      ],
+      "pl": [
+        "Monotes kerstingii"
+      ],
+      "pt": [
+        "Monotes kerstingii"
+      ],
+      "ru": [
+        "Monotes kerstingii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Dipterocarpaceae",
     "genus": "Shorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Shorea parvifolia"
+      ],
+      "en": [
+        "Shorea parvifolia"
+      ],
+      "es": [
+        "Shorea parvifolia"
+      ],
+      "fr": [
+        "Shorea parvifolia"
+      ],
+      "it": [
+        "Shorea parvifolia"
+      ],
+      "nl": [
+        "Shorea parvifolia"
+      ],
+      "pl": [
+        "Shorea parvifolia"
+      ],
+      "pt": [
+        "Shorea parvifolia"
+      ],
+      "ru": [
+        "Shorea parvifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

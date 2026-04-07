@@ -5,7 +5,7 @@
     "family": "Dumortieraceae",
     "genus": "Dumortiera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dumortiera hirsuta"
+      ],
+      "en": [
+        "Dumortiera hirsuta"
+      ],
+      "es": [
+        "Dumortiera hirsuta"
+      ],
+      "fr": [
+        "Dumortiera hirsuta"
+      ],
+      "it": [
+        "Dumortiera hirsuta"
+      ],
+      "ko": [
+        "두모르티에라 히르수타"
+      ],
+      "nl": [
+        "Dumortiera hirsuta"
+      ],
+      "pl": [
+        "Dumortiera hirsuta"
+      ],
+      "pt": [
+        "Dumortiera hirsuta"
+      ],
+      "ru": [
+        "Dumortiera hirsuta"
+      ],
+      "zh": [
+        "毛地钱"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Anthocerotaceae",
     "genus": "Anthoceros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Anthoceros_agrestis_060910a.jpg",
+    "description": "Anthoceros agrestis, commonly called field hornwort, is a bryophyte of the family Anthocerotaceae. A. agrestis is considered the model species for hornwort biology and is used to study some of the unique traits that hornworts possess, such as their symbiotic relationship with nostoc and their use of pyrenoids to enhance photosynthesis.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Acker-Hornmoos"
+      ],
+      "en": [
+        "Anthoceros agrestis"
+      ],
+      "es": [
+        "Anthoceros agrestis"
+      ],
+      "fr": [
+        "Anthoceros agrestis"
+      ],
+      "it": [
+        "Anthoceros agrestis"
+      ],
+      "nl": [
+        "gewoon hauwmos"
+      ],
+      "pl": [
+        "Anthoceros agrestis"
+      ],
+      "pt": [
+        "Anthoceros agrestis"
+      ],
+      "ru": [
+        "Anthoceros agrestis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Anthocerotaceae",
     "genus": "Anthoceros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Anthoceros punctatus"
+      ],
+      "en": [
+        "Anthoceros punctatus"
+      ],
+      "es": [
+        "Anthoceros punctatus"
+      ],
+      "fr": [
+        "Anthoceros punctatus"
+      ],
+      "it": [
+        "Anthoceros punctatus"
+      ],
+      "ja": [
+        "ナガサキツノゴケ"
+      ],
+      "nl": [
+        "Anthoceros punctatus"
+      ],
+      "pl": [
+        "Anthoceros punctatus"
+      ],
+      "pt": [
+        "Anthoceros punctatus"
+      ],
+      "ru": [
+        "Anthoceros punctatus"
+      ],
+      "zh": [
+        "卷叶角苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

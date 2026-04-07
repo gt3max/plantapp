@@ -5,12 +5,12 @@
     "family": "Araliaceae",
     "genus": "Aralia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Aralia_californica_leaf.jpg",
+    "description": "Aralia californica, known by the common name elk clover though not actually a clover, is a large herb in the family Araliaceae, the only member of the ginseng family native to California and southwestern Oregon. It is also called California aralia and California spikenard.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "أراليا كاليفورنية"
+      ],
+      "de": [
+        "Kalifornische Aralie"
+      ],
+      "en": [
+        "Aralia californica"
+      ],
+      "es": [
+        "Aralia californica"
+      ],
+      "fr": [
+        "Aralia californica"
+      ],
+      "it": [
+        "Aralia californica"
+      ],
+      "nl": [
+        "Aralia californica"
+      ],
+      "pl": [
+        "Aralia californica"
+      ],
+      "pt": [
+        "Aralia californica"
+      ],
+      "ru": [
+        "Aralia californica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Araliaceae",
     "genus": "Aralia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/426e90628bf99cba046770642373a4f2708905f5",
-    "description": "Purple to blackround drupes appear in summer and ripen into fall.",
+    "description": "Aralia cordata is an upright herbaceous perennial plant growing up to 2 to 3 metres in height, native to Japan, Korea, Russian Far East, and eastern China. Its common names include spikenard, herbal aralia, udo, Japanese spikenard, and mountain asparagus. It is commonly found on the slopes of wooded embankments. Aralia cordata is a species of Aralia in the family Araliaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,11 +214,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aralia cordata"
+      ],
       "en": [
+        "Aralia cordata",
         "Udo"
+      ],
+      "es": [
+        "Aralia cordata"
+      ],
+      "fr": [
+        "Aralia cordata"
+      ],
+      "it": [
+        "Aralia cordata"
+      ],
+      "ja": [
+        "ウド"
+      ],
+      "ko": [
+        "땅두릅"
+      ],
+      "nl": [
+        "Aralia cordata"
+      ],
+      "pl": [
+        "aralia sercowata"
+      ],
+      "pt": [
+        "Aralia cordata"
+      ],
+      "ru": [
+        "Аралия сердцевидная"
+      ],
+      "zh": [
+        "食用土当归"
       ]
     },
     "tags": [],
@@ -197,12 +266,12 @@
     "family": "Araliaceae",
     "genus": "Aralia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7f4bfd72e7422805f068bd696d7cd14db0298717",
-    "description": "Purple to blackround drupes appear in summer and ripen into fall.",
+    "description": "Aralia elata, also known as the Japanese angelica tree, Chinese angelica-tree, or Korean angelica-tree, is a species of woody plant in the family Araliaceae native to eastern Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -245,8 +314,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Amelanchier laevis | Native to: CHN SX, EASTERN ASIA, CHM JL, JAP HK, NWY OO",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: allergenic. Parts: Whole plant, highest concentration in bark, fruit. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Susceptible to leaf spots",
         "Handling bark and roots may cause allergic skin reactions",
@@ -272,8 +341,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Multi-stemmed",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentration in bark, fruit",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -287,11 +356,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أراليا عالية"
+      ],
+      "de": [
+        "Japanische Aralie"
+      ],
       "en": [
+        "Aralia elata",
         "Japanese angelica tree"
+      ],
+      "es": [
+        "Aralia elata"
+      ],
+      "fr": [
+        "Aralia elata"
+      ],
+      "it": [
+        "Aralia elata"
+      ],
+      "ja": [
+        "タラノキ"
+      ],
+      "ko": [
+        "두릅나무"
+      ],
+      "nl": [
+        "Aralia elata"
+      ],
+      "pl": [
+        "Aralia japońska"
+      ],
+      "pt": [
+        "Aralia elata"
+      ],
+      "ru": [
+        "Аралия высокая"
+      ],
+      "zh": [
+        "辽东楤木"
       ]
     },
     "tags": [],
@@ -303,12 +411,12 @@
     "family": "Araliaceae",
     "genus": "Aralia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0f54f91cfc3acaa8dc8cdc57d6306b745b6c7892",
-    "description": "Purple to blackround drupes appear in summer and ripen into fall.",
+    "description": "Aralia excelsa is a species of flowering plant in the family Araliaceae. It is native to Mexico, Central America, northern South America and parts of the Caribbean.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -385,9 +493,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aralia excelsa"
+      ],
+      "en": [
+        "Sciadodendron excelsum"
+      ],
+      "es": [
+        "Aralia excelsa"
+      ],
+      "fr": [
+        "Aralia excelsa"
+      ],
+      "it": [
+        "Aralia excelsa"
+      ],
+      "nl": [
+        "Sciadodendron excelsum"
+      ],
+      "pl": [
+        "Aralia excelsa"
+      ],
+      "pt": [
+        "Aralia excelsa"
+      ],
+      "ru": [
+        "Aralia excelsa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -397,7 +535,7 @@
     "family": "Araliaceae",
     "genus": "Aralia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -479,11 +617,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aralia hispida"
+      ],
       "en": [
+        "Aralia hispida",
         "Dwarf-elder"
+      ],
+      "es": [
+        "Aralia hispida"
+      ],
+      "fr": [
+        "Aralia hispida"
+      ],
+      "it": [
+        "Aralia hispida"
+      ],
+      "nl": [
+        "Aralia hispida"
+      ],
+      "pl": [
+        "Aralia hispida"
+      ],
+      "pt": [
+        "Aralia hispida"
+      ],
+      "ru": [
+        "Аралия щетинистоволосистая"
+      ],
+      "zh": [
+        "毛楤木"
       ]
     },
     "tags": [],
@@ -495,7 +663,7 @@
     "family": "Araliaceae",
     "genus": "Aralia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -577,11 +745,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "فشاغ کاذب"
+      ],
+      "de": [
+        "Aralia nudicaulis"
+      ],
       "en": [
+        "Aralia nudicaulis",
         "Virginia-sarsaparilla"
+      ],
+      "es": [
+        "Aralia nudicaulis"
+      ],
+      "fr": [
+        "Aralie à tige nue"
+      ],
+      "it": [
+        "Aralia nudicaulis"
+      ],
+      "nl": [
+        "Aralia nudicaulis"
+      ],
+      "pl": [
+        "Aralia nudicaulis"
+      ],
+      "pt": [
+        "Aralia nudicaulis"
+      ],
+      "ru": [
+        "Aralia nudicaulis"
       ]
     },
     "tags": [],
@@ -593,7 +791,7 @@
     "family": "Araliaceae",
     "genus": "Aralia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -684,11 +882,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ناردين أمريكي"
+      ],
+      "de": [
+        "Aralia racemosa"
+      ],
       "en": [
+        "Aralia racemosa",
         "Indianroot"
+      ],
+      "es": [
+        "Aralia racemosa"
+      ],
+      "fr": [
+        "Aralia racemosa"
+      ],
+      "it": [
+        "Aralia racemosa"
+      ],
+      "nl": [
+        "Aralia racemosa"
+      ],
+      "pl": [
+        "Aralia racemosa"
+      ],
+      "pt": [
+        "Aralia racemosa"
+      ],
+      "ru": [
+        "Aralia racemosa"
+      ],
+      "zh": [
+        "美洲楤木"
       ]
     },
     "tags": [],
@@ -700,7 +931,7 @@
     "family": "Araliaceae",
     "genus": "Aralia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -790,11 +1021,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أراليا شوكية"
+      ],
+      "de": [
+        "Aralia spinosa"
+      ],
       "en": [
-        "American angelica-tree"
+        "American angelica-tree",
+        "Aralia spinosa"
+      ],
+      "es": [
+        "Aralia spinosa"
+      ],
+      "fr": [
+        "Aralia spinosa"
+      ],
+      "it": [
+        "Aralia spinosa"
+      ],
+      "nl": [
+        "Aralia spinosa"
+      ],
+      "pl": [
+        "Aralia spinosa"
+      ],
+      "pt": [
+        "Aralia spinosa"
+      ],
+      "ru": [
+        "Аралия колючая"
       ]
     },
     "tags": [],
@@ -806,12 +1067,12 @@
     "family": "Araliaceae",
     "genus": "Astrotricha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Unknown_plant_Elvina_Bay.jpg",
+    "description": "Astrotricha latifolia, known as the broad-leaf star-hair, is a species of flowering plant in the Family Araliaceae and is endemic to eastern Australia. It is a large shrub with oblong to egg-shaped or elliptic leaves, and yellowish-green flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -888,9 +1149,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astrotricha latifolia"
+      ],
+      "en": [
+        "Astrotricha latifolia"
+      ],
+      "es": [
+        "Astrotricha latifolia"
+      ],
+      "fr": [
+        "Astrotricha latifolia"
+      ],
+      "it": [
+        "Astrotricha latifolia"
+      ],
+      "nl": [
+        "Astrotricha latifolia"
+      ],
+      "pl": [
+        "Astrotricha latifolia"
+      ],
+      "pt": [
+        "Astrotricha latifolia"
+      ],
+      "ru": [
+        "Astrotricha latifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -900,7 +1191,7 @@
     "family": "Araliaceae",
     "genus": "Astrotricha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -982,9 +1273,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astrotricha longifolia"
+      ],
+      "en": [
+        "Astrotricha longifolia"
+      ],
+      "es": [
+        "Astrotricha longifolia"
+      ],
+      "fr": [
+        "Astrotricha longifolia"
+      ],
+      "it": [
+        "Astrotricha longifolia"
+      ],
+      "nl": [
+        "Astrotricha longifolia"
+      ],
+      "pl": [
+        "Astrotricha longifolia"
+      ],
+      "pt": [
+        "Astrotricha longifolia"
+      ],
+      "ru": [
+        "Astrotricha longifolia"
+      ],
+      "tr": [
+        "Astrotricha longifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -994,12 +1318,12 @@
     "family": "Araliaceae",
     "genus": "Cephalaralia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6079f5a848d3b624b81154f05482265e.jpg",
-    "description": null,
+    "description": "Cephalaralia is a genus of epiphytic vines of the family Araliaceae, endemic to Australia. It is monotypic, being represented by the single species Cephalaralia cephalobotrys.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1076,9 +1400,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cephalaralia cephalobotrys"
+      ],
+      "en": [
+        "Cephalaralia cephalobotrys"
+      ],
+      "es": [
+        "Cephalaralia cephalobotrys"
+      ],
+      "fr": [
+        "Cephalaralia cephalobotrys"
+      ],
+      "it": [
+        "Cephalaralia cephalobotrys"
+      ],
+      "nl": [
+        "Cephalaralia cephalobotrys"
+      ],
+      "pl": [
+        "Cephalaralia cephalobotrys"
+      ],
+      "pt": [
+        "Cephalaralia"
+      ],
+      "ru": [
+        "Cephalaralia cephalobotrys"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1088,12 +1442,12 @@
     "family": "Araliaceae",
     "genus": "Chengiopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Chengiopanax sciadophylloides is a flowering tree in the family Araliaceae native to Japan. Previously included in the genus Eleutherococcus, it is distinguished from other members of that genus by not having spines or prickles and ITS sequence data confirmed the separation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1170,9 +1524,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chengiopanax sciadophylloides"
+      ],
+      "en": [
+        "Chengiopanax sciadophylloides"
+      ],
+      "es": [
+        "Chengiopanax sciadophylloides"
+      ],
+      "fr": [
+        "Chengiopanax sciadophylloides"
+      ],
+      "it": [
+        "Chengiopanax sciadophylloides"
+      ],
+      "ja": [
+        "コシアブラ"
+      ],
+      "nl": [
+        "Chengiopanax sciadophylloides"
+      ],
+      "pl": [
+        "Chengiopanax sciadophylloides"
+      ],
+      "pt": [
+        "Chengiopanax sciadophylloides"
+      ],
+      "ru": [
+        "Chengiopanax sciadophylloides"
+      ],
+      "zh": [
+        "漉油"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1182,12 +1572,12 @@
     "family": "Araliaceae",
     "genus": "Cussonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8383b428ef4f9d02d6901ff33b32035c7f89319f",
-    "description": null,
+    "description": "Cussonia arborea is a deciduous small to medium sized tree within the family Araliaceae. Extracts of the species are widely used in traditional medicine to treat a variety of ailments.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1264,9 +1654,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cussonia arborea"
+      ],
+      "en": [
+        "Cussonia arborea"
+      ],
+      "es": [
+        "Cussonia arborea"
+      ],
+      "fr": [
+        "Cussonia arborea"
+      ],
+      "it": [
+        "Cussonia arborea"
+      ],
+      "nl": [
+        "Cussonia arborea"
+      ],
+      "pl": [
+        "Cussonia arborea"
+      ],
+      "pt": [
+        "Cussonia arborea"
+      ],
+      "ru": [
+        "Cussonia arborea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1276,12 +1696,12 @@
     "family": "Araliaceae",
     "genus": "Cussonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fb9f0dad176295a16ddf92c26044d82274f9f510",
-    "description": null,
+    "description": "Cussonia spicata, commonly known as the spiked cabbage tree or common cabbage tree, is species of tree in the family Araliaceae. Native to East Africa, this species is widely distributed from South Africa in the south to South Sudan in the north.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1358,11 +1778,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cussonia spicata"
+      ],
       "en": [
-        "Common cabbagetree"
+        "Common cabbagetree",
+        "Cussonia spicata"
+      ],
+      "es": [
+        "Cussonia spicata"
+      ],
+      "fr": [
+        "Cussonia spicata"
+      ],
+      "it": [
+        "Cussonia spicata"
+      ],
+      "nl": [
+        "Cussonia spicata"
+      ],
+      "pl": [
+        "Cussonia spicata"
+      ],
+      "pt": [
+        "Cussonia spicata"
+      ],
+      "ru": [
+        "Cussonia spicata"
       ]
     },
     "tags": [],
@@ -1374,12 +1821,12 @@
     "family": "Araliaceae",
     "genus": "Dendropanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/826fd6559edab922a24855cf7f91b96615ba9501",
-    "description": "White berries turning black in the fall.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1456,11 +1903,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dendropanax arboreus"
+      ],
       "en": [
+        "Dendropanax arboreus",
         "Potato-wood"
+      ],
+      "es": [
+        "Dendropanax arboreus"
+      ],
+      "fr": [
+        "Dendropanax arboreus"
+      ],
+      "it": [
+        "Dendropanax arboreus"
+      ],
+      "nl": [
+        "Dendropanax arboreus"
+      ],
+      "pl": [
+        "Dendropanax arboreus"
+      ],
+      "pt": [
+        "Dendropanax arboreus"
+      ],
+      "ru": [
+        "Dendropanax arboreus"
       ]
     },
     "tags": [],
@@ -1472,12 +1946,12 @@
     "family": "Araliaceae",
     "genus": "Dendropanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7be260b86d95f4430fb7eaf9c71caaa091221c0b",
-    "description": "White berries turning black in the fall.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1554,9 +2028,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dendropanax cuneatus"
+      ],
+      "en": [
+        "Dendropanax cuneatus"
+      ],
+      "es": [
+        "Dendropanax cuneatus"
+      ],
+      "fr": [
+        "Dendropanax cuneatus"
+      ],
+      "it": [
+        "Dendropanax cuneatus"
+      ],
+      "nl": [
+        "Dendropanax cuneatus"
+      ],
+      "pl": [
+        "Dendropanax cuneatus"
+      ],
+      "pt": [
+        "Dendropanax cuneatus"
+      ],
+      "ru": [
+        "Dendropanax cuneatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1566,12 +2070,12 @@
     "family": "Araliaceae",
     "genus": "Dendropanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6f3af0a678ebb716f295ef2050d512db757f50a1",
-    "description": "White berries turning black in the fall.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1648,9 +2152,54 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dendropanax trifidus"
+      ],
+      "en": [
+        "Dendropanax trifidus",
+        "Dendropanax trifidus ex"
+      ],
+      "es": [
+        "Dendropanax trifidus"
+      ],
+      "fr": [
+        "Dendropanax trifidus"
+      ],
+      "it": [
+        "Dendropanax trifidus"
+      ],
+      "ja": [
+        "カクレミノ",
+        "カラミツデ",
+        "テングノウチワ",
+        "ミソブタ",
+        "ミゾブタカラミツデ",
+        "ミツデ",
+        "ミツナガシワ",
+        "隠蓑"
+      ],
+      "nl": [
+        "Dendropanax trifidus"
+      ],
+      "pl": [
+        "Dendropanax trifidus"
+      ],
+      "pt": [
+        "Dendropanax trifidus"
+      ],
+      "ru": [
+        "Дендропанакс трёхнадрезанный"
+      ],
+      "zh": [
+        "三菱果树参",
+        "三裂树参"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1660,12 +2209,12 @@
     "family": "Araliaceae",
     "genus": "Didymopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5ce14230ed70b20f8d169890f8326220e72a8574",
-    "description": "Round drupe",
+    "description": "Didymopanax macrocarpus is a tree and grows primarily in the seasonally dry tropical biome. It is native to the central and eastern Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1742,9 +2291,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Didymopanax macrocarpus"
+      ],
+      "en": [
+        "Didymopanax macrocarpus"
+      ],
+      "es": [
+        "Didymopanax macrocarpus"
+      ],
+      "fr": [
+        "Didymopanax macrocarpus"
+      ],
+      "it": [
+        "Didymopanax macrocarpus"
+      ],
+      "nl": [
+        "Didymopanax macrocarpus"
+      ],
+      "pl": [
+        "Didymopanax macrocarpus"
+      ],
+      "pt": [
+        "Didymopanax macrocarpus"
+      ],
+      "ru": [
+        "Didymopanax macrocarpus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1754,12 +2333,12 @@
     "family": "Araliaceae",
     "genus": "Didymopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0be67dafc25ba0bf193ad108db88f5ddd1e8dab0",
-    "description": "Round drupe",
+    "description": "Didymopanax morototoni is a timber tree native to southern Mexico, the Greater Antilles, Central America, and South America. It grows in a variety of habitats, such as the Caatinga, Cerrado, and Amazon rainforest of Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1836,11 +2415,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Didymopanax morototoni"
+      ],
       "en": [
+        "Didymopanax morototoni",
         "Yagrumo macho"
+      ],
+      "es": [
+        "Didymopanax morototoni"
+      ],
+      "fr": [
+        "Didymopanax morototoni"
+      ],
+      "it": [
+        "Didymopanax morototoni"
+      ],
+      "nl": [
+        "Didymopanax morototoni"
+      ],
+      "pl": [
+        "Didymopanax morototoni"
+      ],
+      "pt": [
+        "Didymopanax morototoni"
+      ],
+      "ru": [
+        "Didymopanax morototoni"
       ]
     },
     "tags": [],
@@ -1852,12 +2458,12 @@
     "family": "Araliaceae",
     "genus": "Eleutherococcus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/959e86b750268ddeb2837d8e54bbe3932adb50fd",
-    "description": null,
+    "description": "Eleutherococcus senticosus is a species of small, woody shrub in the family Araliaceae. It is native to Northeastern Asia. It may be colloquially called devil's bush, Siberian ginseng, taiga root, eleuthero, ciwujia, Devil's shrub, shigoka, touch-me-not, wild pepper, or kan jang. E. senticosus has a history of use in folklore and traditional Chinese medicine. Root extracts of E. senticosus are sold as a dietary supplement or cosmetic, usually under the name Siberian ginseng.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1934,11 +2540,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بناقنثة لاسعة"
+      ],
+      "de": [
+        "Borstige Taigawurzel"
+      ],
       "en": [
+        "Eleutherococcus senticosus",
         "Siberian-ginseng"
+      ],
+      "es": [
+        "Eleutherococcus senticosus"
+      ],
+      "fr": [
+        "Eleutherococcus senticosus"
+      ],
+      "it": [
+        "Eleutherococcus senticosus"
+      ],
+      "ja": [
+        "エゾウコギ"
+      ],
+      "ko": [
+        "가시오갈피"
+      ],
+      "nl": [
+        "Eleutherococcus senticosus"
+      ],
+      "pl": [
+        "Eleuterokok kolczasty"
+      ],
+      "pt": [
+        "Eleutherococcus senticosus"
+      ],
+      "ru": [
+        "Элеутерококк колючий"
+      ],
+      "tr": [
+        "Sibirya ginsengi"
+      ],
+      "zh": [
+        "刺五加"
       ]
     },
     "tags": [],
@@ -1950,7 +2598,7 @@
     "family": "Araliaceae",
     "genus": "Eleutherococcus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2032,9 +2680,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eleutherococcus sessiliflorus"
+      ],
+      "en": [
+        "Eleutherococcus sessiliflorus"
+      ],
+      "es": [
+        "Eleutherococcus sessiliflorus"
+      ],
+      "fr": [
+        "Eleutherococcus sessiliflorus"
+      ],
+      "it": [
+        "Eleutherococcus sessiliflorus"
+      ],
+      "ko": [
+        "오갈피나무"
+      ],
+      "nl": [
+        "Eleutherococcus sessiliflorus"
+      ],
+      "pl": [
+        "Eleutherococcus sessiliflorus"
+      ],
+      "pt": [
+        "Eleutherococcus sessiliflorus"
+      ],
+      "ru": [
+        "Элеутерококк сидячецветковый"
+      ],
+      "zh": [
+        "无梗五加"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2044,12 +2728,12 @@
     "family": "Araliaceae",
     "genus": "Eleutherococcus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Eleutherococcus spinosus is a species of flowering shrub in the ginseng family (Araliaceae). It native to Japan, where it is common species found on the island of Honshu south of Iwate Prefecture. Its natural habitat is in areas of forest edges.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2126,9 +2810,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eleutherococcus spinosus"
+      ],
+      "en": [
+        "Eleutherococcus spinosus"
+      ],
+      "es": [
+        "Eleutherococcus spinosus"
+      ],
+      "fr": [
+        "Eleutherococcus spinosus"
+      ],
+      "it": [
+        "Eleutherococcus spinosus"
+      ],
+      "ja": [
+        "ヤマウコギ"
+      ],
+      "nl": [
+        "Eleutherococcus spinosus"
+      ],
+      "pl": [
+        "Eleutherococcus spinosus"
+      ],
+      "pt": [
+        "Eleutherococcus spinosus"
+      ],
+      "ru": [
+        "Eleutherococcus spinosus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2138,7 +2855,7 @@
     "family": "Araliaceae",
     "genus": "Eleutherococcus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2220,9 +2937,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eleutherococcus trifoliatus"
+      ],
+      "en": [
+        "Eleutherococcus trifoliatus"
+      ],
+      "es": [
+        "Eleutherococcus trifoliatus"
+      ],
+      "fr": [
+        "Eleutherococcus trifoliatus"
+      ],
+      "it": [
+        "Eleutherococcus trifoliatus"
+      ],
+      "nl": [
+        "Eleutherococcus trifoliatus"
+      ],
+      "pl": [
+        "Eleutherococcus trifoliatus"
+      ],
+      "pt": [
+        "Eleutherococcus trifoliatus"
+      ],
+      "ru": [
+        "Eleutherococcus trifoliatus"
+      ],
+      "zh": [
+        "白簕"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2232,12 +2982,12 @@
     "family": "Araliaceae",
     "genus": "Fatsia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4f0b509a4c0950aba5f831653c25a93d9220d570",
-    "description": "Fleshly black drupes rarely occur indoors. A globose drupe, green turning to black, ¼ inch in diameter.",
+    "description": "Fatsia japonica, also fatsi, paperplant, false castor oil plant, or Japanese aralia, is a species of flowering plant in the family Araliaceae, native to southern Japan and southern Korea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2314,11 +3064,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Zimmeraralie"
+      ],
       "en": [
+        "Fatsia japonica",
+        "Japanese Aralia",
         "Japanese fatsia"
+      ],
+      "es": [
+        "Fatsia japonica"
+      ],
+      "fr": [
+        "Fatsia japonica"
+      ],
+      "it": [
+        "Fatsia japonica"
+      ],
+      "ja": [
+        "ヤツデ"
+      ],
+      "ko": [
+        "팔손이"
+      ],
+      "nl": [
+        "Vingerplant"
+      ],
+      "pl": [
+        "Fatsia japonica"
+      ],
+      "pt": [
+        "Fatsia japonica"
+      ],
+      "ru": [
+        "Фатсия японская"
+      ],
+      "tr": [
+        "Fatsiya"
+      ],
+      "zh": [
+        "八角金盤"
       ]
     },
     "tags": [],
@@ -2330,7 +3120,7 @@
     "family": "Araliaceae",
     "genus": "Gamblea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2412,9 +3202,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gamblea innovans"
+      ],
+      "en": [
+        "Gamblea innovans"
+      ],
+      "es": [
+        "Gamblea innovans"
+      ],
+      "fr": [
+        "Gamblea innovans"
+      ],
+      "it": [
+        "Gamblea innovans"
+      ],
+      "ja": [
+        "タカノツメ (ウコギ科)"
+      ],
+      "nl": [
+        "Gamblea innovans"
+      ],
+      "pl": [
+        "Gamblea innovans"
+      ],
+      "pt": [
+        "Gamblea innovans"
+      ],
+      "ru": [
+        "Gamblea innovans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2424,12 +3247,12 @@
     "family": "Araliaceae",
     "genus": "Hedera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8c18656ce8873abec94bd89ac7c0de3c08f17f56",
-    "description": null,
+    "description": "Hedera azorica, the Azores ivy, is a species of ivy which is endemic to the Azores Islands. It is an evergreen climbing plant, growing to 20–30 m high where suitable surfaces are available, and grows as ground cover where there are no vertical surfaces. It climbs by means of aerial rootlets which cling to the substrate.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2445,12 +3268,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2506,9 +3329,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hedera azorica"
+      ],
+      "en": [
+        "Hedera azorica"
+      ],
+      "es": [
+        "Hedera azorica"
+      ],
+      "fr": [
+        "Hedera azorica"
+      ],
+      "it": [
+        "Hedera azorica"
+      ],
+      "nl": [
+        "Hedera azorica"
+      ],
+      "pl": [
+        "Hedera azorica"
+      ],
+      "pt": [
+        "Hedera azorica"
+      ],
+      "ru": [
+        "Hedera azorica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2518,12 +3371,12 @@
     "family": "Araliaceae",
     "genus": "Hedera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/08a4378f07dba0b62d676afe7e13b9c5e1f25ce1",
-    "description": "Fleshy. Berry-like black drupe.",
+    "description": "Hedera canariensis, the Canary Island ivy, Canary ivy or Madeira ivy, is a species of ivy, native to the Canary Islands and possibly the Atlantic coast of northern Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2600,11 +3453,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "عشقة كنارية"
+      ],
+      "de": [
+        "Hedera canariensis"
+      ],
       "en": [
+        "Algerian Ivy",
+        "Hedera canariensis",
         "Madeira ivy"
+      ],
+      "es": [
+        "Hedera canariensis"
+      ],
+      "fr": [
+        "Lierre des Canaries"
+      ],
+      "it": [
+        "Hedera canariensis"
+      ],
+      "ja": [
+        "オカメヅタ"
+      ],
+      "nl": [
+        "Hedera canariensis"
+      ],
+      "pl": [
+        "bluszcz kanaryjski"
+      ],
+      "pt": [
+        "Hedera canariensis"
+      ],
+      "ru": [
+        "Hedera canariensis"
+      ],
+      "zh": [
+        "加拿利常春藤"
       ]
     },
     "tags": [],
@@ -2616,12 +3506,12 @@
     "family": "Araliaceae",
     "genus": "Hedera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fe19ef9c59ecb444c0c019b03b1dea400dd95df2",
-    "description": "Round black berries when ripe in winter. Birds disperse the seeds.",
+    "description": "Hedera colchica is a species of flowering plant in the family Araliaceae . It is native to the Middle East and commonly called Persian ivy or colchis ivy. It is an evergreen climbing plant, growing to 30 m high where suitable surfaces are available, and also growing as ground cover where there are no vertical surfaces. It climbs by means of aerial rootlets which cling to the substrate. In warm climates, it grows more rapidly and becomes established faster than other Hedera species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2698,11 +3588,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "عشقة كلشيد"
+      ],
+      "de": [
+        "Hedera colchica"
+      ],
       "en": [
-        "Colchis ivy"
+        "Colchis ivy",
+        "Hedera colchica"
+      ],
+      "es": [
+        "Hedera colchica"
+      ],
+      "fr": [
+        "Hedera colchica"
+      ],
+      "it": [
+        "Hedera colchica"
+      ],
+      "nl": [
+        "Hedera colchica"
+      ],
+      "pl": [
+        "bluszcz kolchidzki"
+      ],
+      "pt": [
+        "Hedera colchica"
+      ],
+      "ru": [
+        "Hedera colchica"
+      ],
+      "tr": [
+        "Hedera colchica"
       ]
     },
     "tags": [],
@@ -2714,7 +3637,7 @@
     "family": "Araliaceae",
     "genus": "Hedera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2735,12 +3658,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 100,
+      "ppfd_max": 400,
+      "dli_min": 4.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2762,7 +3685,7 @@
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day) | Climate: temperate",
       "tips": "Similar plants: Gardenia jasminoides",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs, Toxic to Cats, Toxic to Horses. Signs: Vomiting, abdominal pain, hypersalivation, diarrhea. Foliage is more toxic than berries",
       "common_problems": null,
       "common_pests": null,
@@ -2796,11 +3719,54 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.5
     },
     "common_names": {
+      "ar": [
+        "عشقة متسلقة"
+      ],
+      "de": [
+        "Gemeiner Efeu"
+      ],
       "en": [
+        "English Ivy",
+        "Hedera helix",
         "Ivy"
+      ],
+      "es": [
+        "Hedera helix"
+      ],
+      "fr": [
+        "lierre grimpant"
+      ],
+      "it": [
+        "Hedera helix"
+      ],
+      "ja": [
+        "セイヨウキヅタ"
+      ],
+      "ko": [
+        "아이비"
+      ],
+      "nl": [
+        "klimop"
+      ],
+      "pl": [
+        "bluszcz pospolity"
+      ],
+      "pt": [
+        "hera"
+      ],
+      "ru": [
+        "Плющ обыкновенный"
+      ],
+      "tr": [
+        "Duvar sarmaşığı"
+      ],
+      "zh": [
+        "常春藤"
       ]
     },
     "tags": [],
@@ -2812,12 +3778,12 @@
     "family": "Araliaceae",
     "genus": "Hedera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0f85cebefe3dabea9cd5472f3feda20d82e6436b",
-    "description": null,
+    "description": "Hedera maroccana, the Moroccan ivy, is a species of ivy which is native to the Atlantic coast in northern Africa. It is an evergreen climbing plant, growing to 20–30 m high where suitable surfaces are available, and also growing as ground cover where there are no vertical surfaces. It climbs by means of aerial rootlets which cling to the substrate. In warm climates, it grows more rapidly and becomes established a good bit faster than the related Hedera hibernica and Hedera helix.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2833,12 +3799,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2894,9 +3860,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hedera maroccana"
+      ],
+      "en": [
+        "Hedera maroccana"
+      ],
+      "es": [
+        "Hedera maroccana"
+      ],
+      "fr": [
+        "Hedera maroccana"
+      ],
+      "it": [
+        "Hedera maroccana"
+      ],
+      "nl": [
+        "Hedera maroccana"
+      ],
+      "pl": [
+        "Hedera maroccana"
+      ],
+      "pt": [
+        "Hedera maroccana"
+      ],
+      "ru": [
+        "Hedera maroccana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2906,12 +3902,12 @@
     "family": "Araliaceae",
     "genus": "Hedera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2f992851f83c04b41bcd7987f40437598eb3bd1c",
-    "description": "small, greenish-yellow, gathered in large numbers in erect umbel",
+    "description": "Hedera rhombea, the Japanese ivy or songak, is a species of ivy in the Araliaceae family native to East Asia. It is native to Japan, the Korean Peninsula, the Ryukyu Islands, and Taiwan, where it is common on rocky slopes and growing up the trunks of trees, especially in laurel forest, a type of cloud forest.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2988,11 +3984,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hedera rhombea"
+      ],
       "en": [
+        "Hedera rhombea",
         "Japanese ivy"
+      ],
+      "es": [
+        "Hedera rhombea"
+      ],
+      "fr": [
+        "Hedera rhombea"
+      ],
+      "it": [
+        "Hedera rhombea"
+      ],
+      "ja": [
+        "キヅタ"
+      ],
+      "ko": [
+        "송악"
+      ],
+      "nl": [
+        "Hedera rhombea"
+      ],
+      "pl": [
+        "Hedera rhombea"
+      ],
+      "pt": [
+        "Hedera rhombea"
+      ],
+      "ru": [
+        "Hedera rhombea"
+      ],
+      "zh": [
+        "菱叶常春藤"
       ]
     },
     "tags": [],
@@ -3004,7 +4036,7 @@
     "family": "Araliaceae",
     "genus": "Hedera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3086,9 +4118,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hedera sinensis"
+      ],
+      "en": [
+        "Hedera sinensis"
+      ],
+      "es": [
+        "Hedera sinensis"
+      ],
+      "fr": [
+        "Hedera sinensis"
+      ],
+      "it": [
+        "Hedera sinensis"
+      ],
+      "nl": [
+        "Hedera sinensis"
+      ],
+      "pl": [
+        "Hedera sinensis"
+      ],
+      "pt": [
+        "Hedera sinensis"
+      ],
+      "ru": [
+        "Hedera sinensis"
+      ],
+      "zh": [
+        "常春藤"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3098,7 +4163,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3114,7 +4179,7 @@
     "synonyms": "[\"Hydrocotyle hirta var. acutiloba\"]",
     "care": {
       "plant_id": "hydrocotyle_acutiloba",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3180,9 +4245,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle acutiloba"
+      ],
+      "en": [
+        "Hydrocotyle acutiloba"
+      ],
+      "es": [
+        "Hydrocotyle acutiloba"
+      ],
+      "fr": [
+        "Hydrocotyle acutiloba"
+      ],
+      "it": [
+        "Hydrocotyle acutiloba"
+      ],
+      "nl": [
+        "Hydrocotyle acutiloba"
+      ],
+      "pl": [
+        "Hydrocotyle acutiloba"
+      ],
+      "pt": [
+        "Hydrocotyle acutiloba"
+      ],
+      "ru": [
+        "Hydrocotyle acutiloba"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3192,12 +4287,12 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/36f1ea70516509c0c4b8a01332510f6320f4b448",
-    "description": "Fruit is tiny, dry, flattened, and circular, containing two seeds that split apart.",
+    "description": "Hydrocotyle americana is a small plant native to the Northeastern United States. It is commonly referred to as American marshpennywort or navelwort and American water-pennywort. H. americana grows from Ontario to Newfoundland south through the Appalachian Mountains to South Carolina. H. americana has been introduced to South Africa as well as New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3208,7 +4303,7 @@
     "synonyms": "[\"Hydrocotyle americana var. gracilis\", \"Hydrocotyle nitens\", \"Hydrocotyle americana var. flexicaulis\"]",
     "care": {
       "plant_id": "hydrocotyle_americana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3274,11 +4369,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hydrocotyle americana"
+      ],
       "en": [
-        "American marshpennywort"
+        "American marshpennywort",
+        "Hydrocotyle americana"
+      ],
+      "es": [
+        "Hydrocotyle americana"
+      ],
+      "fr": [
+        "Hydrocotyle americana"
+      ],
+      "it": [
+        "Hydrocotyle americana"
+      ],
+      "nl": [
+        "Hydrocotyle americana"
+      ],
+      "pl": [
+        "Hydrocotyle americana"
+      ],
+      "pt": [
+        "Hydrocotyle americana"
+      ],
+      "ru": [
+        "Hydrocotyle americana"
       ]
     },
     "tags": [],
@@ -3290,12 +4412,12 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/37a64b76dfcc967d302d49f1a336348bd47e1549",
-    "description": null,
+    "description": "Hydrocotyle bonariensis, the largeleaf pennywort, once a member of the family Apiaceae, now in the family Araliaceae and of the genus Hydrocotyle, is a hairless and creeping perennial.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3306,17 +4428,17 @@
     "synonyms": "[\"Hydrocotyle bonariensis var. texana\", \"Hydrocotyle bonariensis var. multiflora\", \"Hydrocotyle petiolaris\", \"Hydrocotyle polystachya var. quinqueradiata\", \"Hydrocotyle tribotrys\", \"Hydrocotyle umbellata subsp. bonariensis\", \"Hydrocotyle verticillata var. bonariensis\", \"Hydrocotyle pelviformis\", \"Hydrocotyle bonariensis var. tribotrys\", \"Hydrocotyle polystachya var. triradiata\"]",
     "care": {
       "plant_id": "hydrocotyle_bonariensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3372,11 +4494,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "de": [
+        "Hydrocotyle bonariensis"
+      ],
       "en": [
+        "Hydrocotyle bonariensis",
         "Largeleaf pennywort"
+      ],
+      "es": [
+        "Hydrocotyle bonariensis"
+      ],
+      "fr": [
+        "Hydrocotyle bonariensis"
+      ],
+      "it": [
+        "Hydrocotyle bonariensis"
+      ],
+      "nl": [
+        "Hydrocotyle bonariensis"
+      ],
+      "pl": [
+        "Hydrocotyle bonariensis"
+      ],
+      "pt": [
+        "Hydrocotyle bonariensis"
+      ],
+      "ru": [
+        "Hydrocotyle bonariensis"
       ]
     },
     "tags": [],
@@ -3388,7 +4537,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3404,17 +4553,17 @@
     "synonyms": "[\"Hydrocotyle tripartita\"]",
     "care": {
       "plant_id": "hydrocotyle_callicarpa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3470,9 +4619,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle callicarpa"
+      ],
+      "en": [
+        "Hydrocotyle callicarpa"
+      ],
+      "es": [
+        "Hydrocotyle callicarpa"
+      ],
+      "fr": [
+        "Hydrocotyle callicarpa"
+      ],
+      "it": [
+        "Hydrocotyle callicarpa"
+      ],
+      "nl": [
+        "Hydrocotyle callicarpa"
+      ],
+      "pl": [
+        "Hydrocotyle callicarpa"
+      ],
+      "pt": [
+        "Hydrocotyle callicarpa"
+      ],
+      "ru": [
+        "Hydrocotyle callicarpa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3482,7 +4661,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3498,7 +4677,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hydrocotyle_foveolata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3564,9 +4743,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle foveolata"
+      ],
+      "en": [
+        "Hydrocotyle foveolata"
+      ],
+      "es": [
+        "Hydrocotyle foveolata"
+      ],
+      "fr": [
+        "Hydrocotyle foveolata"
+      ],
+      "it": [
+        "Hydrocotyle foveolata"
+      ],
+      "nl": [
+        "Hydrocotyle foveolata"
+      ],
+      "pl": [
+        "Hydrocotyle foveolata"
+      ],
+      "pt": [
+        "Hydrocotyle foveolata"
+      ],
+      "ru": [
+        "Hydrocotyle foveolata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3576,12 +4785,12 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/fc1645db8f27144af202d4dd621a96b6.jpg",
-    "description": null,
+    "description": "Hydrocotyle geraniifolia, commonly known as the forest pennywort, is a species of Hydrocotyle found in Australia. The habitat is moist forest floors often on the sides of hills.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3592,7 +4801,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hydrocotyle_geraniifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3658,9 +4867,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle geraniifolia"
+      ],
+      "en": [
+        "Hydrocotyle geraniifolia"
+      ],
+      "es": [
+        "Hydrocotyle geraniifolia"
+      ],
+      "fr": [
+        "Hydrocotyle geraniifolia"
+      ],
+      "it": [
+        "Hydrocotyle geraniifolia"
+      ],
+      "nl": [
+        "Hydrocotyle geraniifolia"
+      ],
+      "pl": [
+        "Hydrocotyle geraniifolia"
+      ],
+      "pt": [
+        "Hydrocotyle geraniifolia"
+      ],
+      "ru": [
+        "Hydrocotyle geraniifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3670,12 +4909,12 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/fa5db9b34604c7ccec1e689df30ac1c6.jpg",
-    "description": null,
+    "description": "Hydrocotyle hirta, commonly known as the hairy pennywort, is a species of flowering plant in the family Araliaceae native to Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3686,17 +4925,17 @@
     "synonyms": "[\"Hydrocotyle hirta var. partita\", \"Hydrocotyle hirta var. sessilis\", \"Hydrocotyle vagans\", \"Hydrocotyle intertexta\", \"Hydrocotyle tasmanica\", \"Hydrocotyle gaudichaudiana\", \"Hydrocotyle pulchella\"]",
     "care": {
       "plant_id": "hydrocotyle_hirta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3752,9 +4991,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle hirta"
+      ],
+      "en": [
+        "Hydrocotyle hirta"
+      ],
+      "es": [
+        "Hydrocotyle hirta"
+      ],
+      "fr": [
+        "Hydrocotyle hirta"
+      ],
+      "it": [
+        "Hydrocotyle hirta"
+      ],
+      "nl": [
+        "Hydrocotyle hirta"
+      ],
+      "pl": [
+        "Hydrocotyle hirta"
+      ],
+      "pt": [
+        "Hydrocotyle hirta"
+      ],
+      "ru": [
+        "Hydrocotyle hirta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3764,12 +5033,12 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/57b44333d28cee5e7b2e9609ce08a127.jpg",
-    "description": null,
+    "description": "Hydrocotyle javanica, commonly known as Java pennywort, is a species of Hydrocotyle. It is a prostrate herb found in NE India and SE Asia. Leaves are simple, circular-heart-shaped, with seven triangular shallow lobes. Leaves are 2.5-5 x 3–5.5 cm in size, and the margin has rounded teeth. Java pennywort is closely related to Indian pennywort. Tiny white flowers arise in 20 flowered umbels. Java pennywort is seen in shady, moist places at altitudes greater than 1300 m.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3780,7 +5049,7 @@
     "synonyms": "[\"Hydrocotyle javanica\", \"Hydrocotyle strigosa\", \"Hydrocotyle javanica var. laxa\", \"Hydrocotyle sundaica\", \"Hydrocotyle polycephala\", \"Hydrocotyle novoguineensis\", \"Hydrocotyle javanica var. podantha\", \"Hydrocotyle nepalensis\", \"Hydrocotyle podantha\", \"Hydrocotyle hirsuta\"]",
     "care": {
       "plant_id": "hydrocotyle_javanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3846,9 +5115,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle javanica"
+      ],
+      "en": [
+        "Hydrocotyle javanica"
+      ],
+      "es": [
+        "Hydrocotyle javanica"
+      ],
+      "fr": [
+        "Hydrocotyle javanica"
+      ],
+      "it": [
+        "Hydrocotyle javanica"
+      ],
+      "ja": [
+        "オオバチドメ"
+      ],
+      "nl": [
+        "Hydrocotyle javanica"
+      ],
+      "pl": [
+        "Hydrocotyle javanica"
+      ],
+      "pt": [
+        "Hydrocotyle javanica"
+      ],
+      "ru": [
+        "Hydrocotyle javanica"
+      ],
+      "zh": [
+        "爪哇天胡荽"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3858,7 +5163,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3874,17 +5179,17 @@
     "synonyms": "[\"Hydrocotyle candollei\", \"Hydrocotyle densiflora\", \"Hydrocotyle laxiflora var. minor\"]",
     "care": {
       "plant_id": "hydrocotyle_laxiflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3940,9 +5245,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle laxiflora"
+      ],
+      "en": [
+        "Hydrocotyle laxiflora"
+      ],
+      "es": [
+        "Hydrocotyle laxiflora"
+      ],
+      "fr": [
+        "Hydrocotyle laxiflora"
+      ],
+      "it": [
+        "Hydrocotyle laxiflora"
+      ],
+      "nl": [
+        "Hydrocotyle laxiflora"
+      ],
+      "pl": [
+        "Hydrocotyle laxiflora"
+      ],
+      "pt": [
+        "Hydrocotyle laxiflora"
+      ],
+      "ru": [
+        "Hydrocotyle laxiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3952,7 +5287,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3968,7 +5303,7 @@
     "synonyms": "[\"Hydrocotyle dux\", \"Hydrocotyle polyrhiza\", \"Hydrocotyle emarginata\", \"Hydrocotyle leucocephala var. villosa\", \"Hydrocotyle multicaulis\", \"Hydrocotyle leucocephala var. obtusiloba\", \"Hydrocotyle leucocephala var. truncatiloba\", \"Hydrocotyle leucocephala f. peltata\", \"Hydrocotyle minuta\", \"Hydrocotyle leucocephala var. intermedia\"]",
     "care": {
       "plant_id": "hydrocotyle_leucocephala",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4034,11 +5369,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hydrocotyle leucocephala"
+      ],
       "en": [
-        "Brazilian pennywort"
+        "Brazilian pennywort",
+        "Hydrocotyle leucocephala"
+      ],
+      "es": [
+        "Hydrocotyle leucocephala"
+      ],
+      "fr": [
+        "Hydrocotyle leucocephala"
+      ],
+      "it": [
+        "Hydrocotyle leucocephala"
+      ],
+      "ja": [
+        "アマゾンチドメグサ"
+      ],
+      "nl": [
+        "Hydrocotyle leucocephala"
+      ],
+      "pl": [
+        "Hydrocotyle leucocephala"
+      ],
+      "pt": [
+        "Hydrocotyle leucocephala"
+      ],
+      "ru": [
+        "Hydrocotyle leucocephala"
+      ],
+      "zh": [
+        "白花天胡荽"
       ]
     },
     "tags": [],
@@ -4050,7 +5418,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4066,7 +5434,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hydrocotyle_mexicana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4132,9 +5500,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle mexicana"
+      ],
+      "en": [
+        "Hydrocotyle mexicana"
+      ],
+      "es": [
+        "Hydrocotyle mexicana"
+      ],
+      "fr": [
+        "Hydrocotyle mexicana"
+      ],
+      "it": [
+        "Hydrocotyle mexicana"
+      ],
+      "nl": [
+        "Hydrocotyle mexicana"
+      ],
+      "pl": [
+        "Hydrocotyle mexicana"
+      ],
+      "pt": [
+        "Hydrocotyle mexicana"
+      ],
+      "ru": [
+        "Hydrocotyle mexicana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4144,12 +5542,12 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a0c25453b8f12430b97cbe9a061049b3.jpg",
-    "description": null,
+    "description": "Hydrocotyle moschata, also known as hairy pennywort or musky-marsh pennywort, is a species of water pennywort. Hairy pennywort is native to New Zealand, but has been introduced and naturalized elsewhere including California and Mozambique.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4160,7 +5558,7 @@
     "synonyms": "[\"Hydrocotyle compacta\", \"Hydrocotyle hirsuta var. moschata\", \"Hydrocotyle moschata var. parvifolia\", \"Hydrocotyle sibthorpioides var. laciniata\", \"Hydrocotyle sibthorpioides\", \"Hydrocotyle capitata\", \"Hydrocotyle colorata\"]",
     "care": {
       "plant_id": "hydrocotyle_moschata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4226,9 +5624,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle moschata"
+      ],
+      "en": [
+        "Hydrocotyle moschata"
+      ],
+      "es": [
+        "Hydrocotyle moschata"
+      ],
+      "fr": [
+        "Hydrocotyle moschata"
+      ],
+      "it": [
+        "Hydrocotyle moschata"
+      ],
+      "nl": [
+        "Hydrocotyle moschata"
+      ],
+      "pl": [
+        "Hydrocotyle moschata"
+      ],
+      "pt": [
+        "Hydrocotyle moschata"
+      ],
+      "ru": [
+        "Hydrocotyle moschata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4238,7 +5666,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4254,7 +5682,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hydrocotyle_novae-zeelandiae",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4320,9 +5748,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle novae-zeelandiae"
+      ],
+      "en": [
+        "Hydrocotyle novae-zeelandiae"
+      ],
+      "es": [
+        "Hydrocotyle novae-zeelandiae"
+      ],
+      "fr": [
+        "Hydrocotyle novae-zeelandiae"
+      ],
+      "it": [
+        "Hydrocotyle novae-zeelandiae"
+      ],
+      "nl": [
+        "Hydrocotyle novae-zeelandiae"
+      ],
+      "pl": [
+        "Hydrocotyle novae-zeelandiae"
+      ],
+      "pt": [
+        "Hydrocotyle novae-zeelandiae"
+      ],
+      "ru": [
+        "Hydrocotyle novae-zeelandiae"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4332,7 +5790,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4348,7 +5806,7 @@
     "synonyms": "[\"Hydrocotyle varians\", \"Hydrocotyle stella\", \"Hydrocotyle asterias\", \"Hydrocotyle stellata\", \"Hydrocotyle fluminensis\", \"Hydrocotyle quinqueloba var. angulata\", \"Hydrocotyle quinqueloba var. quadrata\", \"Hydrocotyle quinqueloba var. quadriloba\", \"Hydrocotyle quinqueloba var. macrophylla\", \"Hydrocotyle quinqueloba var. glabra\"]",
     "care": {
       "plant_id": "hydrocotyle_quinqueloba",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4414,9 +5872,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle quinqueloba"
+      ],
+      "en": [
+        "Hydrocotyle quinqueloba"
+      ],
+      "es": [
+        "Hydrocotyle quinqueloba"
+      ],
+      "fr": [
+        "Hydrocotyle quinqueloba"
+      ],
+      "it": [
+        "Hydrocotyle quinqueloba"
+      ],
+      "nl": [
+        "Hydrocotyle quinqueloba"
+      ],
+      "pl": [
+        "Hydrocotyle quinqueloba"
+      ],
+      "pt": [
+        "Hydrocotyle quinqueloba"
+      ],
+      "ru": [
+        "Hydrocotyle quinqueloba"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4426,7 +5914,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4442,7 +5930,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hydrocotyle_ramiflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4508,9 +5996,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle ramiflora"
+      ],
+      "en": [
+        "Hydrocotyle ramiflora"
+      ],
+      "es": [
+        "Hydrocotyle ramiflora"
+      ],
+      "fr": [
+        "Hydrocotyle ramiflora"
+      ],
+      "it": [
+        "Hydrocotyle ramiflora"
+      ],
+      "ko": [
+        "큰피막이"
+      ],
+      "nl": [
+        "Hydrocotyle ramiflora"
+      ],
+      "pl": [
+        "Hydrocotyle ramiflora"
+      ],
+      "pt": [
+        "Hydrocotyle ramiflora"
+      ],
+      "ru": [
+        "щитолистник ветвецветковый"
+      ],
+      "zh": [
+        "长梗天胡荽"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4520,7 +6044,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4536,17 +6060,17 @@
     "synonyms": "[\"Hydrocotyle ranunculoides var. brasiliensis\", \"Hydrocotyle ranunculoides var. genuina\", \"Hydrocotyle ranunculoides var. lobata\", \"Hydrocotyle ranunculoides var. incisocrenata\", \"Hydrocotyle ranunculoides f. minima\", \"Hydrocotyle prolifera\", \"Hydrocotyle batrachioides\", \"Hydrocotyle cymbalariifolia\", \"Hydrocotyle natans\", \"Hydrocotyle ranunculoides var. adoensis\"]",
     "care": {
       "plant_id": "hydrocotyle_ranunculoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4602,11 +6126,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "de": [
+        "Hydrocotyle ranunculoides"
+      ],
       "en": [
-        "Floating pennywort"
+        "Floating pennywort",
+        "Hydrocotyle ranunculoides"
+      ],
+      "es": [
+        "Hydrocotyle ranunculoides"
+      ],
+      "fr": [
+        "Hydrocotyle ranunculoides"
+      ],
+      "it": [
+        "Hydrocotyle ranunculoides"
+      ],
+      "ja": [
+        "ブラジルチドメグサ"
+      ],
+      "nl": [
+        "Grote waternavel"
+      ],
+      "pl": [
+        "Wąkrota jaskrowata"
+      ],
+      "pt": [
+        "Hydrocotyle ranunculoides"
+      ],
+      "ru": [
+        "Hydrocotyle ranunculoides"
       ]
     },
     "tags": [],
@@ -4618,12 +6172,12 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bbb31d7b1daeaf6f234ba0b1deae77379cd6086d",
-    "description": null,
+    "description": "Hydrocotyle sibthorpioides is a small species of flowering plant native to southeastern Asia. It is also referred to as lawn marshpennywort. It is a dicot, formerly placed in the family Apiaceae, but more recently shown to belong in the Araliaceae. It grows in abundance when the conditions are right. Hydrocotyle sibthorpioides originated in southeastern Asia, but is slowly spreading in the United States, along with other places around the world. It can grow in a wide variety of habitats.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4634,17 +6188,17 @@
     "synonyms": "[\"Hydrocotyle ranunculoides var. sibthorpioides\", \"Chondrocarpus sibthorpioides\"]",
     "care": {
       "plant_id": "hydrocotyle_sibthorpioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4700,11 +6254,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "de": [
+        "Hydrocotyle sibthorpioides"
+      ],
       "en": [
+        "Hydrocotyle sibthorpioides",
         "Lawn pennywort"
+      ],
+      "es": [
+        "Hydrocotyle sibthorpioides"
+      ],
+      "fr": [
+        "Hydrocotyle sibthorpioides"
+      ],
+      "it": [
+        "Hydrocotyle sibthorpioides"
+      ],
+      "ja": [
+        "チドメグサ"
+      ],
+      "ko": [
+        "피막이"
+      ],
+      "nl": [
+        "Hydrocotyle sibthorpioides"
+      ],
+      "pl": [
+        "Hydrocotyle sibthorpioides"
+      ],
+      "pt": [
+        "Hydrocotyle sibthorpioides"
+      ],
+      "ru": [
+        "Hydrocotyle sibthorpioides"
+      ],
+      "zh": [
+        "天胡荽"
       ]
     },
     "tags": [],
@@ -4716,12 +6306,12 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a5b8bd285a170528787e62d4e5029b5d13ac5035",
-    "description": null,
+    "description": "Hydrocotyle tripartita is a perennial herb flowering with small white flowers that comes from New Zealand and the Australian states of Queensland, New South Wales and Victoria. It has small and vivid green creeping leaves on vertical stems.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4732,7 +6322,7 @@
     "synonyms": "[\"Hydrocotyle tripartita var. typica\"]",
     "care": {
       "plant_id": "hydrocotyle_tripartita",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4798,9 +6388,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocotyle tripartita"
+      ],
+      "en": [
+        "Hydrocotyle tripartita"
+      ],
+      "es": [
+        "Hydrocotyle tripartita"
+      ],
+      "fr": [
+        "Hydrocotyle tripartita"
+      ],
+      "it": [
+        "Hydrocotyle tripartita"
+      ],
+      "nl": [
+        "Hydrocotyle tripartita"
+      ],
+      "pl": [
+        "Hydrocotyle tripartita"
+      ],
+      "pt": [
+        "Hydrocotyle tripartita"
+      ],
+      "ru": [
+        "Hydrocotyle tripartita"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4810,12 +6430,12 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1b529758ccb4af014e9ad89ab8e6021d0c62af6b",
-    "description": "Rounded, flat capsule.",
+    "description": "Hydrocotyle umbellata is an aquatic plant that thrives in wet, sandy habitat. It is known by several common names, including manyflower marshpennywort, dollarweed, water pennywort, and as acariçoba. It is native to North America and parts of South America. At the north of its range, in Canada, the species is only known from three lakes located in southwestern Nova Scotia. Most of the Canadian population is found within Kejimkujik National Park.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4826,17 +6446,17 @@
     "synonyms": "[\"Hydrocotyle umbellata var. microphylla\", \"Hydrocotyle umbellata var. intermedia\", \"Hydrocotyle polystachya\", \"Hydrocotyle fluitans\", \"Hydrocotyle umbellata var. umbellulata\", \"Hydrocotyle umbellata var. scaposa\", \"Hydrocotyle scaposa\", \"Hydrocotyle quinqueradiata\", \"Hydrocotyle umbellulata\", \"Hydrocotyle incrassata\"]",
     "care": {
       "plant_id": "hydrocotyle_umbellata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4892,11 +6512,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "de": [
+        "Hydrocotyle umbellata"
+      ],
       "en": [
+        "Hydrocotyle umbellata",
         "Water pennywort"
+      ],
+      "es": [
+        "Hydrocotyle umbellata"
+      ],
+      "fr": [
+        "Hydrocotyle à ombelle"
+      ],
+      "it": [
+        "Hydrocotyle umbellata"
+      ],
+      "nl": [
+        "Hydrocotyle umbellata"
+      ],
+      "pl": [
+        "Hydrocotyle umbellata"
+      ],
+      "pt": [
+        "Acariçoba"
+      ],
+      "ru": [
+        "Hydrocotyle umbellata"
+      ],
+      "zh": [
+        "伞形天胡荽"
       ]
     },
     "tags": [],
@@ -4908,7 +6558,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4924,17 +6574,17 @@
     "synonyms": "[\"Hydrocotyle superposita\", \"Hydrocotyle australis\", \"Hydrocotyle prolifera\", \"Hydrocotyle natans\", \"Hydrocotyle verticillata var. tenella\", \"Hydrocotyle verticillata var. racemosa\", \"Hydrocotyle vulgaris var. verticillata\", \"Hydrocotyle vulgaris var. communis\", \"Hydrocotyle cuneata\", \"Hydrocotyle verticillata var. verticillata\"]",
     "care": {
       "plant_id": "hydrocotyle_verticillata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4990,11 +6640,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "de": [
+        "Amerikanischer Wassernabel"
+      ],
       "en": [
+        "Hydrocotyle verticillata",
         "Whorled marsh pennywort"
+      ],
+      "es": [
+        "Hydrocotyle verticillata"
+      ],
+      "fr": [
+        "Hydrocotyle verticillata"
+      ],
+      "it": [
+        "Hydrocotyle verticillata"
+      ],
+      "nl": [
+        "Hydrocotyle verticillata"
+      ],
+      "pl": [
+        "Hydrocotyle verticillata"
+      ],
+      "pt": [
+        "Hydrocotyle verticillata"
+      ],
+      "ru": [
+        "Hydrocotyle verticillata"
+      ],
+      "zh": [
+        "南美天胡荽"
       ]
     },
     "tags": [],
@@ -5006,7 +6686,7 @@
     "family": "Araliaceae",
     "genus": "Hydrocotyle",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5022,17 +6702,17 @@
     "synonyms": "[\"Hydrocotyle vulgaris var. umbrosa\", \"Hydrocotyle vulgaris var. microphylla\", \"Hydrocotyle schkuhriana\", \"Hydrocotyle peltata\", \"Hydrocotyle vulgaris subsp. pleiantha\", \"Hydrocotyle pleiantha\", \"Hydrocotyle vulgaris var. vulgaris\"]",
     "care": {
       "plant_id": "hydrocotyle_vulgaris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5088,11 +6768,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "قصعة الماء"
+      ],
+      "de": [
+        "Gewöhnlicher Wassernabel"
+      ],
       "en": [
+        "Hydrocotyle vulgaris",
         "Marsh pennywort"
+      ],
+      "es": [
+        "Hydrocotyle vulgaris"
+      ],
+      "fr": [
+        "Hydrocotyle vulgaris"
+      ],
+      "it": [
+        "Hydrocotyle vulgaris"
+      ],
+      "ja": [
+        "ウチワゼニクサ"
+      ],
+      "nl": [
+        "Gewone waternavel"
+      ],
+      "pl": [
+        "Wąkrota zwyczajna"
+      ],
+      "pt": [
+        "Hydrocotyle vulgaris"
+      ],
+      "ru": [
+        "Щитолистник обыкновенный"
+      ],
+      "zh": [
+        "野天胡荽"
       ]
     },
     "tags": [],
@@ -5104,12 +6820,12 @@
     "family": "Araliaceae",
     "genus": "Kalopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3b28957dcb1d358787d85aa27cb84b72cdf5782c",
-    "description": "Tiny black fruits in compound clusters ripen in fall.",
+    "description": "Kalopanax septemlobus, common names castor aralia, tree aralia, and prickly castor oil tree, is a deciduous tree in the family Araliaceae, the sole species in the genus Kalopanax. It is native to northeastern Asia, from Sakhalin and Japan west to southwestern China. It is called cìqiū (刺楸) in Chinese, eumnamu (음나무) in Korean, and harigiri in Japanese.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5186,11 +6902,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Baumaralie"
+      ],
       "en": [
+        "Kalopanax septemlobus",
         "Tree-aralia"
+      ],
+      "es": [
+        "Kalopanax septemlobus"
+      ],
+      "fr": [
+        "Kalopanax septemlobus"
+      ],
+      "it": [
+        "Kalopanax septemlobus"
+      ],
+      "ja": [
+        "ハリギリ"
+      ],
+      "ko": [
+        "음나무"
+      ],
+      "nl": [
+        "Kalopanax septemlobus"
+      ],
+      "pl": [
+        "Kolcosił drzewiasty"
+      ],
+      "pt": [
+        "Kalopanax septemlobus"
+      ],
+      "ru": [
+        "Калопанакс семилопастный"
+      ],
+      "zh": [
+        "刺楸"
       ]
     },
     "tags": [],
@@ -5202,12 +6954,12 @@
     "family": "Araliaceae",
     "genus": "Neopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8787fa0383d41c38a9e7807cd472bcf654f79725",
-    "description": null,
+    "description": "Pseudopanax arboreus, commonly known as five finger, five-finger or fivefinger, is a New Zealand native tree belonging to the family Araliaceae. It is one of New Zealand's more common native trees, being found widely in bush, scrub and gardens throughout both islands. The compound leaves with five to seven leaflets, hence the name \"five finger\", are very characteristic of the tree and easily recognized.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5284,11 +7036,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Neopanax arboreus"
+      ],
       "en": [
-        "Five-fingers"
+        "Five-fingers",
+        "Neopanax arboreus"
+      ],
+      "es": [
+        "Neopanax arboreus"
+      ],
+      "fr": [
+        "Neopanax arboreus"
+      ],
+      "it": [
+        "Neopanax arboreus"
+      ],
+      "nl": [
+        "Neopanax arboreus"
+      ],
+      "pl": [
+        "Neopanax arboreus"
+      ],
+      "pt": [
+        "Neopanax arboreus"
+      ],
+      "ru": [
+        "Neopanax arboreus"
       ]
     },
     "tags": [],
@@ -5300,12 +7079,12 @@
     "family": "Araliaceae",
     "genus": "Neopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/be256940f6ab7708f8d3f2ee0b1191641d1e8cfe",
-    "description": null,
+    "description": "Pseudopanax colensoi, commonly known as the mountain fivefinger in English and orihou in Māori, is an endemic species to New Zealand. It is a shrub that can often grow into a small canopy tree, and is found in high altitude environments in its preferred areas around New Zealand. It is a member of the Neopanax clade, and is referred to by some sources as Neopanax colensoi.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5382,9 +7161,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Neopanax colensoi"
+      ],
+      "en": [
+        "Neopanax colensoi"
+      ],
+      "es": [
+        "Neopanax colensoi"
+      ],
+      "fr": [
+        "Neopanax colensoi"
+      ],
+      "it": [
+        "Neopanax colensoi"
+      ],
+      "nl": [
+        "Neopanax colensoi"
+      ],
+      "pl": [
+        "Neopanax colensoi"
+      ],
+      "pt": [
+        "Neopanax colensoi"
+      ],
+      "ru": [
+        "Neopanax colensoi"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5394,12 +7203,12 @@
     "family": "Araliaceae",
     "genus": "Oplopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/241862a851ad838f9daa881abc32c5907a6dc31e",
-    "description": null,
+    "description": "Devil's club or Devil's walking stick is a large understory shrub native to the rainforests of the Pacific Northwest, but also disjunct on islands in Lake Superior. It is noted for its large palmate leaves and erect, woody stems covered in noxious and irritating spines. It is also known as Alaskan ginseng and similar names, although it is not a true ginseng. In Tlingit it is known as S’áxt’.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5476,11 +7285,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Igelkraftwurz"
+      ],
       "en": [
-        "Devil's walking-stick"
+        "Devil's walking-stick",
+        "Oplopanax horridus"
+      ],
+      "es": [
+        "Oplopanax horridus"
+      ],
+      "fr": [
+        "bois piquant"
+      ],
+      "it": [
+        "Oplopanax horridus"
+      ],
+      "ja": [
+        "デビルス・クラブ"
+      ],
+      "nl": [
+        "Oplopanax horridus"
+      ],
+      "pl": [
+        "Kolcosił straszliwy"
+      ],
+      "pt": [
+        "Oplopanax horridus"
+      ],
+      "ru": [
+        "Заманиха ощетиненная"
       ]
     },
     "tags": [],
@@ -5492,7 +7331,7 @@
     "family": "Araliaceae",
     "genus": "Oreopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5574,9 +7413,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oreopanax capitatus"
+      ],
+      "en": [
+        "Oreopanax capitatus"
+      ],
+      "es": [
+        "Oreopanax capitatus"
+      ],
+      "fr": [
+        "Oreopanax capitatus"
+      ],
+      "it": [
+        "Oreopanax capitatus"
+      ],
+      "nl": [
+        "Oreopanax capitatus"
+      ],
+      "pl": [
+        "Oreopanax capitatus"
+      ],
+      "pt": [
+        "Oreopanax capitatus"
+      ],
+      "ru": [
+        "Oreopanax capitatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5586,7 +7455,7 @@
     "family": "Araliaceae",
     "genus": "Oreopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5668,9 +7537,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oreopanax incisus"
+      ],
+      "en": [
+        "Oreopanax incisus"
+      ],
+      "es": [
+        "Oreopanax incisus"
+      ],
+      "fr": [
+        "Oreopanax incisus"
+      ],
+      "it": [
+        "Oreopanax incisus"
+      ],
+      "nl": [
+        "Oreopanax incisus"
+      ],
+      "pl": [
+        "Oreopanax incisus"
+      ],
+      "pt": [
+        "Oreopanax incisus"
+      ],
+      "ru": [
+        "Oreopanax incisus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5680,7 +7579,7 @@
     "family": "Araliaceae",
     "genus": "Oreopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5762,9 +7661,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oreopanax xalapensis"
+      ],
+      "en": [
+        "Oreopanax xalapensis"
+      ],
+      "es": [
+        "Oreopanax xalapensis"
+      ],
+      "fr": [
+        "Oreopanax xalapensis"
+      ],
+      "it": [
+        "Oreopanax xalapensis"
+      ],
+      "nl": [
+        "Oreopanax xalapensis"
+      ],
+      "pl": [
+        "Oreopanax xalapensis"
+      ],
+      "pt": [
+        "Oreopanax xalapensis"
+      ],
+      "ru": [
+        "Oreopanax xalapensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5774,12 +7703,12 @@
     "family": "Araliaceae",
     "genus": "Panax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/290998ed2aa1803c104e3d4a85aaa7a0.jpg",
-    "description": "3/4 inch bright red berries in clusters with 2-3 white seeds. Displays from August to October.",
+    "description": "Panax japonicus is a species of ginseng known for its bamboo-shaped, uneven-sized roots. It is found throughout Japan and Korea, and is also said to be endangered in China.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5856,9 +7785,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "جنسنغ ياباني"
+      ],
+      "de": [
+        "Panax japonicus"
+      ],
+      "en": [
+        "Panax japonicus"
+      ],
+      "es": [
+        "Panax japonicus"
+      ],
+      "fr": [
+        "Panax japonicus"
+      ],
+      "it": [
+        "Panax japonicus"
+      ],
+      "ja": [
+        "トチバニンジン"
+      ],
+      "nl": [
+        "Panax japonicus"
+      ],
+      "pl": [
+        "Panax japonicus"
+      ],
+      "pt": [
+        "Panax japonicus"
+      ],
+      "ru": [
+        "Panax japonicus"
+      ],
+      "zh": [
+        "竹节人参"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5868,12 +7836,12 @@
     "family": "Araliaceae",
     "genus": "Panax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f71b2dd9b1cd9482ad64dfb3ad93f336b8abfa8c",
-    "description": "3/4 inch bright red berries in clusters with 2-3 white seeds. Displays from August to October.",
+    "description": "American ginseng is a species of flowering plant in the ivy family Araliaceae. It is native to eastern North America although its cultivation was successfully introduced to China in 1975. The specific epithet quinquefolius means \"five-leaved\", which refers to the typical number of leaflets per leaf. It is one of a group of taxa known as \"ginseng\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5950,11 +7918,52 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جنسنغ خماسي الأوراق"
+      ],
+      "de": [
+        "Panax quinquefolius"
+      ],
       "en": [
         "American ginseng"
+      ],
+      "es": [
+        "Panax quinquefolius"
+      ],
+      "fr": [
+        "Ginseng américain"
+      ],
+      "it": [
+        "Panax quinquefolius"
+      ],
+      "ja": [
+        "アメリカニンジン"
+      ],
+      "ko": [
+        "아메리카인삼"
+      ],
+      "nl": [
+        "Panax quinquefolius"
+      ],
+      "pl": [
+        "Panax quinquefolius"
+      ],
+      "pt": [
+        "Panax quinquefolius"
+      ],
+      "ru": [
+        "Panax quinquefolius"
+      ],
+      "tr": [
+        "Panax quinquefolius"
+      ],
+      "zh": [
+        "花旗参"
       ]
     },
     "tags": [],
@@ -5966,12 +7975,12 @@
     "family": "Araliaceae",
     "genus": "Panax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/52443b3b73be9d15edc338facc69e9b4a007eb4e",
-    "description": "3/4 inch bright red berries in clusters with 2-3 white seeds. Displays from August to October.",
+    "description": "Panax trifolius, commonly called dwarf ginseng, is a plant native to the Northeastern and Appalachian regions of North America. It is found in low mesic woods with acidic soils.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6048,11 +8057,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جنسنغ ثلاثي الأوراق"
+      ],
+      "de": [
+        "Panax trifolius"
+      ],
       "en": [
-        "Groundnut"
+        "Groundnut",
+        "Panax trifolius"
+      ],
+      "es": [
+        "Panax trifolius"
+      ],
+      "fr": [
+        "Panax trifolius"
+      ],
+      "it": [
+        "Panax trifolius"
+      ],
+      "nl": [
+        "Panax trifolius"
+      ],
+      "pl": [
+        "Panax trifolius"
+      ],
+      "pt": [
+        "Panax trifolius"
+      ],
+      "ru": [
+        "Panax trifolius"
       ]
     },
     "tags": [],
@@ -6064,12 +8103,12 @@
     "family": "Araliaceae",
     "genus": "Polyscias",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3a160485778df9f4e09e13f43db4a6decceb5f58",
-    "description": "The fruits are globose drupes.",
+    "description": "Polyscias elegans, known as the celery wood, is a rainforest tree of eastern Australia. It occurs in a variety of different rainforest types, from fertile basaltic soils, to sand dunes and less fertile sedimentary soils. The range of natural distribution is from Jervis Bay in southern New South Wales to Thursday Island, north of the Australian continent. Other common names include black pencil cedar and silver basswood.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6152,11 +8191,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Polyscias elegans"
+      ],
       "en": [
-        "Mowbulan whitewood"
+        "Mowbulan whitewood",
+        "Polyscias elegans"
+      ],
+      "es": [
+        "Polyscias elegans"
+      ],
+      "fr": [
+        "Polyscias elegans"
+      ],
+      "it": [
+        "Polyscias elegans"
+      ],
+      "nl": [
+        "Polyscias elegans"
+      ],
+      "pl": [
+        "Polyscias elegans"
+      ],
+      "pt": [
+        "Polyscias elegans"
+      ],
+      "ru": [
+        "Polyscias elegans"
       ]
     },
     "tags": [],
@@ -6168,12 +8234,12 @@
     "family": "Araliaceae",
     "genus": "Polyscias",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b2e72d4d6461d3d862d5533914e4e1205dc4a974",
-    "description": "The fruits are globose drupes.",
+    "description": "Polyscias sambucifolia, commonly known as elderberry panax or small basswood, is a species of plant native to eastern Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6256,11 +8322,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Polyscias sambucifolia"
+      ],
       "en": [
-        "Elderberry-ash"
+        "Elderberry-ash",
+        "Polyscias sambucifolia"
+      ],
+      "es": [
+        "Polyscias sambucifolia"
+      ],
+      "fr": [
+        "Polyscias sambucifolia"
+      ],
+      "it": [
+        "Polyscias sambucifolia"
+      ],
+      "nl": [
+        "Polyscias sambucifolia"
+      ],
+      "pl": [
+        "Polyscias sambucifolia"
+      ],
+      "pt": [
+        "Polyscias sambucifolia"
+      ],
+      "ru": [
+        "Polyscias sambucifolia"
       ]
     },
     "tags": [],
@@ -6272,12 +8365,12 @@
     "family": "Araliaceae",
     "genus": "Pseudopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/06767f4bc42a08a0bda81616bf3f6236ca282dbc",
-    "description": null,
+    "description": "Pseudopanax crassifolius, also known as horoeka or lancewood, is a heteroblastic tree belonging to the family Araliaceae. It is endemic to New Zealand and found throughout the country from sea level up to about 750 metres in lowland to montane shrublands and forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6354,9 +8447,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pseudopanax crassifolius"
+      ],
+      "en": [
+        "Pseudopanax crassifolius"
+      ],
+      "es": [
+        "Pseudopanax crassifolius"
+      ],
+      "fr": [
+        "Pseudopanax crassifolius"
+      ],
+      "it": [
+        "Pseudopanax crassifolius"
+      ],
+      "nl": [
+        "Pseudopanax crassifolius"
+      ],
+      "pl": [
+        "Pseudopanax crassifolius"
+      ],
+      "pt": [
+        "Pseudopanax crassifolius"
+      ],
+      "ru": [
+        "Pseudopanax crassifolius"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6366,12 +8489,12 @@
     "family": "Araliaceae",
     "genus": "Pseudopanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f9062bba9be82905b002fba2c0be16a0.jpg",
-    "description": null,
+    "description": "Pseudopanax linearis, also known as mountain lancewood, is a species of heteroblastic shrub or small tree from the family Araliaceae, endemic to the South Island of New Zealand. Within the South Island, it is found in subalpine scrub and high-altitude forest environments relatively west of the Southern Alps.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6448,9 +8571,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pseudopanax linearis"
+      ],
+      "en": [
+        "Pseudopanax linearis"
+      ],
+      "es": [
+        "Pseudopanax linearis"
+      ],
+      "fr": [
+        "Pseudopanax linearis"
+      ],
+      "it": [
+        "Pseudopanax linearis"
+      ],
+      "nl": [
+        "Pseudopanax linearis"
+      ],
+      "pl": [
+        "Pseudopanax linearis"
+      ],
+      "pt": [
+        "Pseudopanax linearis"
+      ],
+      "ru": [
+        "Pseudopanax linearis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6460,12 +8613,12 @@
     "family": "Araliaceae",
     "genus": "Raukaua",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a36b0a58a3d33f60549dcc4da64bf5e10f164eef",
-    "description": null,
+    "description": "Raukaua anomalus is a species of shrub native to New Zealand. It is found throughout the country from lowland to montane shrub and forest areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6542,9 +8695,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Raukaua anomalus"
+      ],
+      "en": [
+        "Raukaua anomalus"
+      ],
+      "es": [
+        "Raukaua anomalus"
+      ],
+      "fr": [
+        "Raukaua anomalus"
+      ],
+      "it": [
+        "Raukaua anomalus"
+      ],
+      "nl": [
+        "Raukaua anomalus"
+      ],
+      "pl": [
+        "Raukaua anomalus"
+      ],
+      "pt": [
+        "Raukaua anomalus"
+      ],
+      "ru": [
+        "Raukaua anomalus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6554,12 +8737,12 @@
     "family": "Araliaceae",
     "genus": "Raukaua",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6740d2a74f54d2930d805e3630824a4f.jpg",
-    "description": null,
+    "description": "Raukaua edgerleyi is a species of plant which is native to New Zealand. An example occurrence in Westland District podocarp/broadleaf forests includes flora associates such as Cyathea smithii, Dicksonia squarrosa and Blechnum discolor.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6636,9 +8819,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Raukaua edgerleyi"
+      ],
+      "en": [
+        "Raukaua edgerleyi"
+      ],
+      "es": [
+        "Raukaua edgerleyi"
+      ],
+      "fr": [
+        "Raukaua edgerleyi"
+      ],
+      "it": [
+        "Raukaua edgerleyi"
+      ],
+      "nl": [
+        "Raukaua edgerleyi"
+      ],
+      "pl": [
+        "Raukaua edgerleyi"
+      ],
+      "pt": [
+        "Raukaua edgerleyi"
+      ],
+      "ru": [
+        "Raukaua edgerleyi"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6648,12 +8861,12 @@
     "family": "Araliaceae",
     "genus": "Raukaua",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e75a619e993a664136c6fcdedde1b345b1a6ff6b",
-    "description": null,
+    "description": "Raukaua simplex, commonly known as haumakāroa, is a species of evergreen plant in the Araliaceae family. This species is native to New Zealand. The species occurs in certain lowland, montane and subalpine forests from the Waihou River southward to Stewart Island and the Auckland Islands. An example occurrence in Westland forests includes associates such as Cyathea smithii and Dicksonia squarrosa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6730,9 +8943,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Raukaua simplex"
+      ],
+      "en": [
+        "Raukaua simplex"
+      ],
+      "es": [
+        "Raukaua simplex"
+      ],
+      "fr": [
+        "Raukaua simplex"
+      ],
+      "it": [
+        "Raukaua simplex"
+      ],
+      "nl": [
+        "Raukaua simplex"
+      ],
+      "pl": [
+        "Raukaua simplex"
+      ],
+      "pt": [
+        "Raukaua simplex"
+      ],
+      "ru": [
+        "Raukaua simplex"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6794,7 +9037,7 @@
       "toxicity_note": "Toxic to Dogs, Toxic to Cats. Signs: Mild vomiting, diarrhea.",
       "common_problems": null,
       "common_pests": null,
-      "watering_method": null,
+      "watering_method": "Top layer should be dry",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -6824,11 +9067,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Brassia actinophylla",
+        "Grossblättrige Schefflera",
+        "Großblättrige Schefflera",
+        "Queensland-Strahlenaralie",
+        "Regenschirmbaum"
+      ],
       "en": [
-        "Australian cabbagetree"
+        "Australian cabbagetree",
+        "Umbrella Tree",
+        "amate",
+        "octopus tree",
+        "umbrella tree"
+      ],
+      "es": [
+        "Aralia longipes",
+        "Brassaia actinophylla",
+        "Brassaia singaporensis",
+        "Árbol pulpo australiano"
+      ],
+      "fr": [
+        "arbre ombrelle"
+      ],
+      "ja": [
+        "ブラッサイア"
+      ],
+      "pl": [
+        "Szeflera parasolowata"
+      ],
+      "pt": [
+        "Árvore-Guarda-Chuva"
+      ],
+      "ru": [
+        "Гептаплеурум лучелистный"
+      ],
+      "zh": [
+        "傘樹",
+        "辐叶鹅掌柴",
+        "鴨腳木"
       ]
     },
     "tags": [],
@@ -6840,7 +9122,7 @@
     "family": "Araliaceae",
     "genus": "Schefflera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6922,11 +9204,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شفلرية إصبعية"
+      ],
+      "de": [
+        "Schefflera digitata"
+      ],
       "en": [
-        "Pate"
+        "Pate",
+        "Schefflera digitata"
+      ],
+      "es": [
+        "Schefflera digitata"
+      ],
+      "fr": [
+        "Schefflera digitata"
+      ],
+      "it": [
+        "Schefflera digitata"
+      ],
+      "nl": [
+        "Schefflera digitata"
+      ],
+      "pl": [
+        "Schefflera digitata"
+      ],
+      "pt": [
+        "Schefflera digitata"
+      ],
+      "ru": [
+        "Schefflera digitata"
+      ],
+      "tr": [
+        "Schefflera digitata"
+      ],
+      "zh": [
+        "掌叶鹅掌柴"
       ]
     },
     "tags": [],
@@ -6938,7 +9256,7 @@
     "family": "Araliaceae",
     "genus": "Schefflera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7020,9 +9338,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schefflera lasiogyne"
+      ],
+      "en": [
+        "Schefflera lasiogyne"
+      ],
+      "es": [
+        "Schefflera lasiogyne"
+      ],
+      "fr": [
+        "Schefflera lasiogyne"
+      ],
+      "it": [
+        "Schefflera lasiogyne"
+      ],
+      "nl": [
+        "Schefflera lasiogyne"
+      ],
+      "pl": [
+        "Schefflera lasiogyne"
+      ],
+      "pt": [
+        "Schefflera lasiogyne"
+      ],
+      "ru": [
+        "Schefflera lasiogyne"
+      ],
+      "tr": [
+        "Schefflera lasiogyne"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7032,7 +9383,7 @@
     "family": "Araliaceae",
     "genus": "Schefflera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7114,9 +9465,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schefflera vinosa"
+      ],
+      "en": [
+        "Schefflera vinosa"
+      ],
+      "es": [
+        "Schefflera vinosa"
+      ],
+      "fr": [
+        "Schefflera vinosa"
+      ],
+      "it": [
+        "Schefflera vinosa"
+      ],
+      "nl": [
+        "Schefflera vinosa"
+      ],
+      "pl": [
+        "Schefflera vinosa"
+      ],
+      "pt": [
+        "Schefflera vinosa"
+      ],
+      "ru": [
+        "Schefflera vinosa"
+      ],
+      "tr": [
+        "Schefflera vinosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7126,7 +9510,7 @@
     "family": "Araliaceae",
     "genus": "Tetrapanax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7208,11 +9592,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Reispapierbaum"
+      ],
       "en": [
-        "Chinese rice-paper plant"
+        "Chinese rice-paper plant",
+        "Tetrapanax papyrifer"
+      ],
+      "es": [
+        "Tetrapanax papyrifer"
+      ],
+      "fr": [
+        "Tetrapanax papyrifer"
+      ],
+      "it": [
+        "Tetrapanax papyrifer"
+      ],
+      "ja": [
+        "カミヤツデ"
+      ],
+      "nl": [
+        "Tetrapanax papyrifer"
+      ],
+      "pl": [
+        "Tetrapanax papyrifer"
+      ],
+      "pt": [
+        "Tetrapanax papyrifer"
+      ],
+      "ru": [
+        "Tetrapanax papyrifer"
+      ],
+      "zh": [
+        "蓪草"
       ]
     },
     "tags": [],
@@ -7224,7 +9641,7 @@
     "family": "Araliaceae",
     "genus": "Trachymene",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7306,9 +9723,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trachymene composita"
+      ],
+      "en": [
+        "Trachymene composita"
+      ],
+      "es": [
+        "Trachymene composita"
+      ],
+      "fr": [
+        "Trachymene composita"
+      ],
+      "it": [
+        "Trachymene composita"
+      ],
+      "nl": [
+        "Trachymene composita"
+      ],
+      "pl": [
+        "Trachymene composita"
+      ],
+      "pt": [
+        "Trachymene composita"
+      ],
+      "ru": [
+        "Trachymene composita"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7318,7 +9765,7 @@
     "family": "Araliaceae",
     "genus": "Trachymene",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7400,9 +9847,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trachymene cyanopetala"
+      ],
+      "en": [
+        "Trachymene cyanopetala"
+      ],
+      "es": [
+        "Trachymene cyanopetala"
+      ],
+      "fr": [
+        "Trachymene cyanopetala"
+      ],
+      "it": [
+        "Trachymene cyanopetala"
+      ],
+      "nl": [
+        "Trachymene cyanopetala"
+      ],
+      "pl": [
+        "Trachymene cyanopetala"
+      ],
+      "pt": [
+        "Trachymene cyanopetala"
+      ],
+      "ru": [
+        "Trachymene cyanopetala"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7412,7 +9889,7 @@
     "family": "Araliaceae",
     "genus": "Trachymene",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7494,9 +9971,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trachymene glaucifolia"
+      ],
+      "en": [
+        "Trachymene glaucifolia"
+      ],
+      "es": [
+        "Trachymene glaucifolia"
+      ],
+      "fr": [
+        "Trachymene glaucifolia"
+      ],
+      "it": [
+        "Trachymene glaucifolia"
+      ],
+      "nl": [
+        "Trachymene glaucifolia"
+      ],
+      "pl": [
+        "Trachymene glaucifolia"
+      ],
+      "pt": [
+        "Trachymene glaucifolia"
+      ],
+      "ru": [
+        "Trachymene glaucifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7506,7 +10013,7 @@
     "family": "Araliaceae",
     "genus": "Trachymene",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7588,9 +10095,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trachymene incisa"
+      ],
+      "en": [
+        "Trachymene incisa"
+      ],
+      "es": [
+        "Trachymene incisa"
+      ],
+      "fr": [
+        "Trachymene incisa"
+      ],
+      "it": [
+        "Trachymene incisa"
+      ],
+      "nl": [
+        "Trachymene incisa"
+      ],
+      "pl": [
+        "Trachymene incisa"
+      ],
+      "pt": [
+        "Trachymene incisa"
+      ],
+      "ru": [
+        "Trachymene incisa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7600,7 +10137,7 @@
     "family": "Araliaceae",
     "genus": "Trachymene",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7682,9 +10219,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trachymene ornata"
+      ],
+      "en": [
+        "Trachymene ornata"
+      ],
+      "es": [
+        "Trachymene ornata"
+      ],
+      "fr": [
+        "Trachymene ornata"
+      ],
+      "it": [
+        "Trachymene ornata"
+      ],
+      "nl": [
+        "Trachymene ornata"
+      ],
+      "pl": [
+        "Trachymene ornata"
+      ],
+      "pt": [
+        "Trachymene ornata"
+      ],
+      "ru": [
+        "Trachymene ornata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7694,7 +10261,7 @@
     "family": "Araliaceae",
     "genus": "Trachymene",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7776,9 +10343,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trachymene pilosa"
+      ],
+      "en": [
+        "Trachymene pilosa"
+      ],
+      "es": [
+        "Trachymene pilosa"
+      ],
+      "fr": [
+        "Trachymene pilosa"
+      ],
+      "it": [
+        "Trachymene pilosa"
+      ],
+      "nl": [
+        "Trachymene pilosa"
+      ],
+      "pl": [
+        "Trachymene pilosa"
+      ],
+      "pt": [
+        "Trachymene pilosa"
+      ],
+      "ru": [
+        "Trachymene pilosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

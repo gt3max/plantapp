@@ -5,12 +5,12 @@
     "family": "Distichiaceae",
     "genus": "Distichium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Distichium_capillaceum_%28b%2C_144346-474700%29_3624.JPG",
+    "description": "Distichium capillaceum is a species of moss belonging to the family Ditrichaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Distichium capillaceum"
+      ],
+      "en": [
+        "Distichium capillaceum"
+      ],
+      "es": [
+        "Distichium capillaceum"
+      ],
+      "fr": [
+        "Distichium capillaceum"
+      ],
+      "it": [
+        "Distichium capillaceum"
+      ],
+      "nl": [
+        "Distichium capillaceum"
+      ],
+      "pl": [
+        "Distichium capillaceum"
+      ],
+      "pt": [
+        "Distichium capillaceum"
+      ],
+      "ru": [
+        "Distichium capillaceum"
+      ],
+      "zh": [
+        "對葉蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Distichiaceae",
     "genus": "Distichium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Distichium inclinatum"
+      ],
+      "en": [
+        "Distichium inclinatum"
+      ],
+      "es": [
+        "Distichium inclinatum"
+      ],
+      "fr": [
+        "Distichium inclinatum"
+      ],
+      "it": [
+        "Distichium inclinatum"
+      ],
+      "nl": [
+        "Distichium inclinatum"
+      ],
+      "pl": [
+        "Distichium inclinatum"
+      ],
+      "pt": [
+        "Distichium inclinatum"
+      ],
+      "ru": [
+        "Distichium inclinatum"
+      ],
+      "zh": [
+        "斜蒴对叶藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,7 +5,7 @@
     "family": "Nepenthaceae",
     "genus": "Nepenthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Nepenthes gracilis"
+      ],
+      "en": [
+        "Nepenthes gracilis"
+      ],
+      "es": [
+        "Nepenthes gracilis"
+      ],
+      "fr": [
+        "Nepenthes gracilis"
+      ],
+      "it": [
+        "Nepenthes gracilis"
+      ],
+      "nl": [
+        "Nepenthes gracilis"
+      ],
+      "pl": [
+        "Nepenthes gracilis"
+      ],
+      "pt": [
+        "Nepenthes gracilis"
+      ],
+      "ru": [
+        "Nepenthes gracilis"
+      ],
+      "zh": [
+        "小猪笼草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Nepenthaceae",
     "genus": "Nepenthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -181,11 +214,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Nepenthes mira"
+      ],
       "en": [
+        "Nepenthes mira",
         "Tropical pitcherplant"
+      ],
+      "es": [
+        "Nepenthes mira"
+      ],
+      "fr": [
+        "Nepenthes mira"
+      ],
+      "it": [
+        "Nepenthes mira"
+      ],
+      "nl": [
+        "Nepenthes mira"
+      ],
+      "pl": [
+        "Nepenthes mira"
+      ],
+      "pt": [
+        "Nepenthes mira"
+      ],
+      "ru": [
+        "Nepenthes mira"
+      ],
+      "zh": [
+        "惊奇猪笼草"
       ]
     },
     "tags": [],
@@ -197,7 +260,7 @@
     "family": "Nepenthaceae",
     "genus": "Nepenthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -279,11 +342,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نابنط بديع"
+      ],
+      "de": [
+        "Nepenthes mirabilis"
+      ],
       "en": [
+        "Nepenthes mirabilis",
         "Tropical pitcherplant"
+      ],
+      "es": [
+        "Nepenthes mirabilis"
+      ],
+      "fr": [
+        "Nepenthes mirabilis"
+      ],
+      "it": [
+        "Nepenthes mirabilis"
+      ],
+      "nl": [
+        "Nepenthes mirabilis"
+      ],
+      "pl": [
+        "Nepenthes mirabilis"
+      ],
+      "pt": [
+        "Nepenthes mirabilis"
+      ],
+      "ru": [
+        "Nepenthes mirabilis"
+      ],
+      "zh": [
+        "奇異豬籠草"
       ]
     },
     "tags": [],

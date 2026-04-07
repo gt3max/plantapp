@@ -5,12 +5,12 @@
     "family": "Zygophyllaceae",
     "genus": "Balanites",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dff770022a2154be6dfe36d9437465024f5746e2",
-    "description": null,
+    "description": "Balanites aegyptiaca is a species of tree, classified as a member of either the Zygophyllaceae or the Balanitaceae. This tree is native to much of Africa and parts of the Middle East. It can be found in many kinds of habitat, tolerating a wide variety of soil types, from sand to heavy clay, and climatic moisture levels, from arid to subhumid. It is relatively tolerant of flooding, livestock activity, and wildfire.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شجرة الثمر الصحراوي"
+      ],
+      "de": [
+        "Wüstendattel"
+      ],
       "en": [
+        "Balanites aegyptiaca",
         "Desert date"
+      ],
+      "es": [
+        "Balanites aegyptiaca"
+      ],
+      "fr": [
+        "Balanites aegyptiaca"
+      ],
+      "it": [
+        "Balanites aegyptiaca"
+      ],
+      "ja": [
+        "エジプトバルサム"
+      ],
+      "ko": [
+        "여리고발삼"
+      ],
+      "nl": [
+        "Balanites aegyptiaca"
+      ],
+      "pl": [
+        "Balanites aegyptiaca"
+      ],
+      "pt": [
+        "Balanites aegyptiaca"
+      ],
+      "ru": [
+        "Баланитес египетский"
+      ],
+      "zh": [
+        "埃及香脂樹"
       ]
     },
     "tags": [],
@@ -103,12 +142,12 @@
     "family": "Zygophyllaceae",
     "genus": "Guaiacum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Guaiacum coulteri is a species of flowering plant in the family Zygophyllaceae, that is native to western Mexico and Guatemala.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,9 +224,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "جياك كولتيري"
+      ],
+      "de": [
+        "Guaiacum coulteri"
+      ],
+      "en": [
+        "Guaiacum coulteri"
+      ],
+      "es": [
+        "Guaiacum coulteri"
+      ],
+      "fr": [
+        "Guaiacum coulteri"
+      ],
+      "it": [
+        "Guaiacum coulteri"
+      ],
+      "nl": [
+        "Guaiacum coulteri"
+      ],
+      "pl": [
+        "Guaiacum coulteri"
+      ],
+      "pt": [
+        "Guaiacum coulteri"
+      ],
+      "ru": [
+        "Guaiacum coulteri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,12 +269,12 @@
     "family": "Zygophyllaceae",
     "genus": "Guaiacum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0c585807ac86fba81eef2508c55748b3132541d8",
-    "description": null,
+    "description": "Guaiacum officinale, commonly known as roughbark lignum-vitae, guaiacwood or gaïacwood, is a species of tree in the caltrop family, Zygophyllaceae, that is native to the Caribbean and the northern coast of South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,11 +351,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جياك طبي"
+      ],
+      "de": [
+        "Guaiacum officinale"
+      ],
       "en": [
-        "Guaiacum"
+        "Guaiacum",
+        "Guaiacum officinale"
+      ],
+      "es": [
+        "Guaiacum officinale"
+      ],
+      "fr": [
+        "Guaiacum officinale"
+      ],
+      "it": [
+        "Guaiacum officinale"
+      ],
+      "ja": [
+        "ユソウボク"
+      ],
+      "ko": [
+        "유창목"
+      ],
+      "nl": [
+        "Guaiacum officinale"
+      ],
+      "pl": [
+        "Gwajakowiec lekarski"
+      ],
+      "pt": [
+        "Guaiacum officinale"
+      ],
+      "ru": [
+        "Гваяковое дерево"
       ]
     },
     "tags": [],
@@ -295,12 +403,12 @@
     "family": "Zygophyllaceae",
     "genus": "Guaiacum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/04b2fcc8cbf42089c671c6658ba5d223a19499c3",
-    "description": null,
+    "description": "Guaiacum sanctum, commonly known as holywood, lignum vitae or holywood lignum-vitae, is a species of flowering plant in the creosote bush family, Zygophyllaceae. It is native to the Neotropical realm, from Mexico through Central America, Florida in the United States, the Caribbean, and northern South America. It has been introduced to other tropical areas of the world.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -377,11 +485,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جياك مقدس"
+      ],
+      "de": [
+        "Guaiacum sanctum"
+      ],
       "en": [
-        "Guaiacum"
+        "Guaiacum",
+        "Guaiacum sanctum"
+      ],
+      "es": [
+        "Guaiacum sanctum"
+      ],
+      "fr": [
+        "Guaiacum sanctum"
+      ],
+      "it": [
+        "Guaiacum sanctum"
+      ],
+      "nl": [
+        "Guaiacum sanctum"
+      ],
+      "pl": [
+        "Guaiacum sanctum"
+      ],
+      "pt": [
+        "Guaiacum sanctum"
+      ],
+      "ru": [
+        "Гваякум священный"
       ]
     },
     "tags": [],
@@ -393,12 +531,12 @@
     "family": "Zygophyllaceae",
     "genus": "Kallstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d1f8cbdffa958df7badc0d56c33df7ae18d9a54d",
-    "description": null,
+    "description": "Kallstroemia grandiflora, the Arizona poppy, is a species of summer annual herb inhabiting the deserts of the Southwestern United States, California, and northern Mexico. It is not related to true poppies.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -475,11 +613,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Kallstroemia grandiflora"
+      ],
       "en": [
-        "Arizona-poppy"
+        "Arizona-poppy",
+        "Kallstroemia grandiflora"
+      ],
+      "es": [
+        "Kallstroemia grandiflora"
+      ],
+      "fr": [
+        "Kallstroemia grandiflora"
+      ],
+      "it": [
+        "Kallstroemia grandiflora"
+      ],
+      "nl": [
+        "Kallstroemia grandiflora"
+      ],
+      "pl": [
+        "Kallstroemia grandiflora"
+      ],
+      "pt": [
+        "Kallstroemia grandiflora"
+      ],
+      "ru": [
+        "Kallstroemia grandiflora"
       ]
     },
     "tags": [],
@@ -491,7 +656,7 @@
     "family": "Zygophyllaceae",
     "genus": "Kallstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -573,11 +738,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Kallstroemia maxima"
+      ],
       "en": [
-        "Big caltrop"
+        "Big caltrop",
+        "Kallstroemia maxima"
+      ],
+      "es": [
+        "Kallstroemia maxima"
+      ],
+      "fr": [
+        "Kallstroemia maxima"
+      ],
+      "it": [
+        "Kallstroemia maxima"
+      ],
+      "nl": [
+        "Kallstroemia maxima"
+      ],
+      "pl": [
+        "Kallstroemia maxima"
+      ],
+      "pt": [
+        "Kallstroemia maxima"
+      ],
+      "ru": [
+        "Kallstroemia maxima"
       ]
     },
     "tags": [],
@@ -589,12 +781,12 @@
     "family": "Zygophyllaceae",
     "genus": "Kallstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f0f320123843adba9793d5f5d657bfc89b444d41",
-    "description": null,
+    "description": "Kallstroemia parviflora, also called small-flowered carpetweed or warty caltrop, is a species of flowering plant. It is found in the United States, and extends as far south as Central America. From east to west, it can be found from Illinois to Arizona. It is an orange or yellow small-flowered annual, with zygomorphic flowers consistent with the Zygophyllaceae, or creosote-bush family, to which it belongs. Leaves are compound and are 3–6 cm, with 4 pairs leaflets.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -671,11 +863,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Kallstroemia parviflora"
+      ],
       "en": [
+        "Kallstroemia parviflora",
         "Warty caltrop"
+      ],
+      "es": [
+        "Kallstroemia parviflora"
+      ],
+      "fr": [
+        "Kallstroemia parviflora"
+      ],
+      "it": [
+        "Kallstroemia parviflora"
+      ],
+      "nl": [
+        "Kallstroemia parviflora"
+      ],
+      "pl": [
+        "Kallstroemia parviflora"
+      ],
+      "pt": [
+        "Kallstroemia parviflora"
+      ],
+      "ru": [
+        "Kallstroemia parviflora"
       ]
     },
     "tags": [],
@@ -687,12 +906,12 @@
     "family": "Zygophyllaceae",
     "genus": "Larrea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7cadb78dc645e4f75a365d5d2d6cdeeb5d25f729",
-    "description": null,
+    "description": "Larrea divaricata, commonly known as chaparral, is a small evergreen bush in the family Zygophyllaceae. It is native to arid regions of South America, where it is known as jarilla or jarillo. It was first described in 1800 by the Spanish botanist Antonio José Cavanilles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -703,9 +922,9 @@
     "synonyms": "[\"Larrea divaricata f. viscosa\", \"Neoschroetera divaricata\", \"Larrea divaricata f. subsericea\", \"Schroeterella divaricata\", \"Larrea monticellii\", \"Covillea divaricata\"]",
     "care": {
       "plant_id": "larrea_divaricata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -769,9 +988,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Larrea divaricata"
+      ],
+      "en": [
+        "Larrea divaricata"
+      ],
+      "es": [
+        "Larrea divaricata"
+      ],
+      "fr": [
+        "Larrea divaricata"
+      ],
+      "it": [
+        "Larrea divaricata"
+      ],
+      "nl": [
+        "Larrea divaricata"
+      ],
+      "pl": [
+        "Larrea divaricata"
+      ],
+      "pt": [
+        "Larrea divaricata"
+      ],
+      "ru": [
+        "Larrea divaricata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -781,12 +1030,12 @@
     "family": "Zygophyllaceae",
     "genus": "Larrea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/381493a96eeeee1955ada2eb542df81900b449ea",
-    "description": "Fruit is brown-burgundy spherical, fuzzy capsule, which separates into 5 individual carpels each containing one seed.",
+    "description": "Larrea tridentata, also called creosote bush, greasewood, and chaparral is a medicinal herb. In Sonora, it is more commonly called hediondilla; Spanish hediondo = \"smelly\". It is a flowering plant in the family Zygophyllaceae. The specific name tridentata refers to its three-toothed leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -863,11 +1112,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "حشيشة الشحم"
+      ],
+      "de": [
+        "Kreosotbusch"
+      ],
       "en": [
-        "Creosote bush"
+        "Creosote bush",
+        "Larrea tridentata"
+      ],
+      "es": [
+        "Larrea tridentata"
+      ],
+      "fr": [
+        "Larrea tridentata"
+      ],
+      "it": [
+        "Larrea tridentata"
+      ],
+      "ja": [
+        "クレオソートブッシュ"
+      ],
+      "nl": [
+        "Creosootstruik"
+      ],
+      "pl": [
+        "Larrea tridentata"
+      ],
+      "pt": [
+        "Larrea tridentata"
+      ],
+      "ru": [
+        "Ларрея трёхзубчатая"
+      ],
+      "zh": [
+        "墨西哥三齿拉瑞阿"
       ]
     },
     "tags": [],
@@ -879,12 +1164,12 @@
     "family": "Zygophyllaceae",
     "genus": "Porlieria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/44c53589a963c296e3e3c0572231cd5a.jpg",
-    "description": null,
+    "description": "Guaiacum angustifolium is a species of flowering plant in the caltrop family, Zygophyllaceae. Common names include Texas guaiacum, Texas lignum-vitae, soapbush and huayacán. It is native to southern and western Texas in the United States and northern Mexico. The specific name is derived from the Latin angustus, meaning \"narrow,\" and -folius, meaning \"-leaved\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -961,9 +1246,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Porlieria angustifolia"
+      ],
+      "en": [
+        "Porlieria angustifolia"
+      ],
+      "es": [
+        "Porlieria angustifolia"
+      ],
+      "fr": [
+        "Porlieria angustifolia"
+      ],
+      "it": [
+        "Porlieria angustifolia"
+      ],
+      "nl": [
+        "Porlieria angustifolia"
+      ],
+      "pl": [
+        "Porlieria angustifolia"
+      ],
+      "pt": [
+        "Porlieria angustifolia"
+      ],
+      "ru": [
+        "Porlieria angustifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -973,7 +1288,7 @@
     "family": "Zygophyllaceae",
     "genus": "Roepera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1055,9 +1370,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Roepera ammophila"
+      ],
+      "en": [
+        "Roepera ammophila"
+      ],
+      "es": [
+        "Roepera ammophila"
+      ],
+      "fr": [
+        "Roepera ammophila"
+      ],
+      "it": [
+        "Roepera ammophila"
+      ],
+      "nl": [
+        "Roepera ammophila"
+      ],
+      "pl": [
+        "Roepera ammophila"
+      ],
+      "pt": [
+        "Roepera ammophila"
+      ],
+      "ru": [
+        "Roepera ammophila"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1067,7 +1412,7 @@
     "family": "Zygophyllaceae",
     "genus": "Roepera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1149,9 +1494,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Roepera apiculata"
+      ],
+      "en": [
+        "Roepera apiculata"
+      ],
+      "es": [
+        "Roepera apiculata"
+      ],
+      "fr": [
+        "Roepera apiculata"
+      ],
+      "it": [
+        "Roepera apiculata"
+      ],
+      "nl": [
+        "Roepera apiculata"
+      ],
+      "pl": [
+        "Roepera apiculata"
+      ],
+      "pt": [
+        "Roepera apiculata"
+      ],
+      "ru": [
+        "Roepera apiculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1161,7 +1536,7 @@
     "family": "Zygophyllaceae",
     "genus": "Roepera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1243,9 +1618,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Roepera aurantiaca"
+      ],
+      "en": [
+        "Roepera aurantiaca"
+      ],
+      "es": [
+        "Roepera aurantiaca"
+      ],
+      "fr": [
+        "Roepera aurantiaca"
+      ],
+      "it": [
+        "Roepera aurantiaca"
+      ],
+      "nl": [
+        "Roepera aurantiaca"
+      ],
+      "pl": [
+        "Roepera aurantiaca"
+      ],
+      "pt": [
+        "Roepera aurantiaca"
+      ],
+      "ru": [
+        "Roepera aurantiaca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1255,7 +1660,7 @@
     "family": "Zygophyllaceae",
     "genus": "Roepera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1337,9 +1742,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Roepera eremaea"
+      ],
+      "en": [
+        "Roepera eremaea"
+      ],
+      "es": [
+        "Roepera eremaea"
+      ],
+      "fr": [
+        "Roepera eremaea"
+      ],
+      "it": [
+        "Roepera eremaea"
+      ],
+      "nl": [
+        "Roepera eremaea"
+      ],
+      "pl": [
+        "Roepera eremaea"
+      ],
+      "pt": [
+        "Roepera eremaea"
+      ],
+      "ru": [
+        "Roepera eremaea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1349,7 +1784,7 @@
     "family": "Zygophyllaceae",
     "genus": "Roepera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1431,9 +1866,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Roepera glauca"
+      ],
+      "en": [
+        "Roepera glauca"
+      ],
+      "es": [
+        "Roepera glauca"
+      ],
+      "fr": [
+        "Roepera glauca"
+      ],
+      "it": [
+        "Roepera glauca"
+      ],
+      "nl": [
+        "Roepera glauca"
+      ],
+      "pl": [
+        "Roepera glauca"
+      ],
+      "pt": [
+        "Roepera glauca"
+      ],
+      "ru": [
+        "Roepera glauca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1443,7 +1908,7 @@
     "family": "Zygophyllaceae",
     "genus": "Roepera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1525,9 +1990,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Roepera iodocarpa"
+      ],
+      "en": [
+        "Roepera iodocarpa"
+      ],
+      "es": [
+        "Roepera iodocarpa"
+      ],
+      "fr": [
+        "Roepera iodocarpa"
+      ],
+      "it": [
+        "Roepera iodocarpa"
+      ],
+      "nl": [
+        "Roepera iodocarpa"
+      ],
+      "pl": [
+        "Roepera iodocarpa"
+      ],
+      "pt": [
+        "Roepera iodocarpa"
+      ],
+      "ru": [
+        "Roepera iodocarpa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1537,7 +2032,7 @@
     "family": "Zygophyllaceae",
     "genus": "Roepera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1619,9 +2114,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Roepera ovata"
+      ],
+      "en": [
+        "Roepera ovata"
+      ],
+      "es": [
+        "Roepera ovata"
+      ],
+      "fr": [
+        "Roepera ovata"
+      ],
+      "it": [
+        "Roepera ovata"
+      ],
+      "nl": [
+        "Roepera ovata"
+      ],
+      "pl": [
+        "Roepera ovata"
+      ],
+      "pt": [
+        "Roepera ovata"
+      ],
+      "ru": [
+        "Roepera ovata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1631,12 +2156,12 @@
     "family": "Zygophyllaceae",
     "genus": "Roepera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/18555ce460713d7d8452fdc3b09e468d.jpg",
-    "description": null,
+    "description": "Roepera similis is a succulent annual herb native to Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1713,9 +2238,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Roepera similis"
+      ],
+      "en": [
+        "Roepera similis"
+      ],
+      "es": [
+        "Roepera similis"
+      ],
+      "fr": [
+        "Roepera similis"
+      ],
+      "it": [
+        "Roepera similis"
+      ],
+      "nl": [
+        "Roepera similis"
+      ],
+      "pl": [
+        "Roepera similis"
+      ],
+      "pt": [
+        "Roepera similis"
+      ],
+      "ru": [
+        "Roepera similis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1725,7 +2280,7 @@
     "family": "Zygophyllaceae",
     "genus": "Tribulus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1741,17 +2296,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "tribulus_cistoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1807,11 +2362,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.4
     },
     "common_names": {
+      "de": [
+        "Tribulus cistoides"
+      ],
       "en": [
-        "Kingston-buttercup"
+        "Kingston-buttercup",
+        "Tribulus cistoides"
+      ],
+      "es": [
+        "Tribulus cistoides"
+      ],
+      "fr": [
+        "Tribulus cistoides"
+      ],
+      "it": [
+        "Tribulus cistoides"
+      ],
+      "nl": [
+        "Tribulus alacranensis"
+      ],
+      "pl": [
+        "Tribulus cistoides"
+      ],
+      "pt": [
+        "Tribulus cistoides"
+      ],
+      "ru": [
+        "Tribulus cistoides"
+      ],
+      "zh": [
+        "大花蒺藜"
       ]
     },
     "tags": [],
@@ -1823,7 +2408,7 @@
     "family": "Zygophyllaceae",
     "genus": "Tribulus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1839,7 +2424,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "tribulus_eichlerianus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1905,9 +2490,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tribulus eichlerianus"
+      ],
+      "en": [
+        "Tribulus eichlerianus"
+      ],
+      "es": [
+        "Tribulus eichlerianus"
+      ],
+      "fr": [
+        "Tribulus eichlerianus"
+      ],
+      "it": [
+        "Tribulus eichlerianus"
+      ],
+      "nl": [
+        "Tribulus eichlerianus"
+      ],
+      "pl": [
+        "Tribulus eichlerianus"
+      ],
+      "pt": [
+        "Tribulus eichlerianus"
+      ],
+      "ru": [
+        "Tribulus eichlerianus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1917,7 +2532,7 @@
     "family": "Zygophyllaceae",
     "genus": "Tribulus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1933,17 +2548,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "tribulus_terrestris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1999,11 +2614,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.4
     },
     "common_names": {
+      "ar": [
+        "حسك أرضي"
+      ],
+      "de": [
+        "Erd-Burzeldorn"
+      ],
       "en": [
-        "Caltrop"
+        "Caltrop",
+        "Tribulus terrestris"
+      ],
+      "es": [
+        "Tribulus terrestris"
+      ],
+      "fr": [
+        "Tribule terrestre"
+      ],
+      "hi": [
+        "गोखरू"
+      ],
+      "it": [
+        "Tribulus terrestris"
+      ],
+      "ja": [
+        "ハマビシ"
+      ],
+      "ko": [
+        "남가새"
+      ],
+      "nl": [
+        "Tribulus terrestris"
+      ],
+      "pl": [
+        "Buzdyganek naziemny"
+      ],
+      "pt": [
+        "Tribulus terrestris"
+      ],
+      "ru": [
+        "Якорцы стелющиеся"
+      ],
+      "tr": [
+        "Tribulus terrestris"
+      ],
+      "zh": [
+        "蒺藜"
       ]
     },
     "tags": [],
@@ -2015,7 +2675,7 @@
     "family": "Zygophyllaceae",
     "genus": "Zygophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2036,12 +2696,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2097,11 +2757,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "ar": [
+        "عذبه"
+      ],
+      "de": [
+        "Bohnenähnliches Jochblatt"
+      ],
       "en": [
-        "Syrian bean-caper"
+        "Syrian bean-caper",
+        "Zygophyllum fabago"
+      ],
+      "es": [
+        "Zygophyllum fabago"
+      ],
+      "fr": [
+        "Zygophyllum fabago"
+      ],
+      "it": [
+        "Zygophyllum fabago"
+      ],
+      "nl": [
+        "Zygophyllum fabago"
+      ],
+      "pl": [
+        "Zygophyllum fabago"
+      ],
+      "pt": [
+        "Zygophyllum fabago"
+      ],
+      "ru": [
+        "Парнолистник обыкновенный"
+      ],
+      "zh": [
+        "驼蹄瓣"
       ]
     },
     "tags": [],

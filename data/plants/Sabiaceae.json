@@ -5,7 +5,7 @@
     "family": "Sabiaceae",
     "genus": "Meliosma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Meliosma myriantha"
+      ],
+      "en": [
+        "Meliosma myriantha"
+      ],
+      "es": [
+        "Meliosma myriantha"
+      ],
+      "fr": [
+        "Meliosma myriantha"
+      ],
+      "it": [
+        "Meliosma myriantha"
+      ],
+      "ja": [
+        "アワブキ"
+      ],
+      "ko": [
+        "나도밤나무"
+      ],
+      "nl": [
+        "Meliosma myriantha"
+      ],
+      "pl": [
+        "Meliosma myriantha"
+      ],
+      "pt": [
+        "Meliosma myriantha"
+      ],
+      "ru": [
+        "Meliosma myriantha"
+      ],
+      "zh": [
+        "多花泡花树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +138,7 @@
     "family": "Sabiaceae",
     "genus": "Meliosma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +220,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Meliosma tenuis"
+      ],
+      "en": [
+        "Meliosma tenuis"
+      ],
+      "es": [
+        "Meliosma tenuis"
+      ],
+      "fr": [
+        "Meliosma tenuis"
+      ],
+      "it": [
+        "Meliosma tenuis"
+      ],
+      "nl": [
+        "Meliosma tenuis"
+      ],
+      "pl": [
+        "Meliosma tenuis"
+      ],
+      "pt": [
+        "Meliosma tenuis"
+      ],
+      "ru": [
+        "Meliosma tenuis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

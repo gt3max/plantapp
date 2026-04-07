@@ -5,12 +5,12 @@
     "family": "Eriocaulaceae",
     "genus": "Eriocaulon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bba509ac4fa4d457a9242f69b236828459994a6a",
-    "description": null,
+    "description": "Eriocaulon aquaticum is a species of flowering plant within the genus Eriocaulon and family Eriocaulaceae. It is known by many common names such as the common pipewort, northern pipewort, seven-angled pipewort and hatpins.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "eriocaulon_aquaticum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Eriocaulon aquaticum"
+      ],
       "en": [
+        "Eriocaulon aquaticum",
         "Pipewort"
+      ],
+      "es": [
+        "Eriocaulon aquaticum"
+      ],
+      "fr": [
+        "Eriocaulon septangulaire"
+      ],
+      "it": [
+        "Eriocaulon aquaticum"
+      ],
+      "nl": [
+        "Eriocaulon aquaticum"
+      ],
+      "pl": [
+        "Eriocaulon aquaticum"
+      ],
+      "pt": [
+        "Eriocaulon aquaticum"
+      ],
+      "ru": [
+        "Eriocaulon aquaticum"
       ]
     },
     "tags": [],
@@ -103,7 +130,7 @@
     "family": "Eriocaulaceae",
     "genus": "Eriocaulon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,7 +146,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "eriocaulon_cinereum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -185,9 +212,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eriocaulon cinereum"
+      ],
+      "en": [
+        "Eriocaulon cinereum"
+      ],
+      "es": [
+        "Eriocaulon cinereum"
+      ],
+      "fr": [
+        "Eriocaulon cinereum"
+      ],
+      "it": [
+        "Eriocaulon cinereum"
+      ],
+      "ja": [
+        "ホシクサ"
+      ],
+      "ko": [
+        "곡정초"
+      ],
+      "nl": [
+        "Eriocaulon cinereum"
+      ],
+      "pl": [
+        "Eriocaulon cinereum"
+      ],
+      "pt": [
+        "Eriocaulon cinereum"
+      ],
+      "ru": [
+        "Eriocaulon cinereum"
+      ],
+      "zh": [
+        "白药谷精草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,7 +263,7 @@
     "family": "Eriocaulaceae",
     "genus": "Eriocaulon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -213,7 +279,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "eriocaulon_compressum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -279,9 +345,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eriocaulon compressum"
+      ],
+      "en": [
+        "Eriocaulon compressum"
+      ],
+      "es": [
+        "Eriocaulon compressum"
+      ],
+      "fr": [
+        "Eriocaulon compressum"
+      ],
+      "it": [
+        "Eriocaulon compressum"
+      ],
+      "nl": [
+        "Eriocaulon compressum"
+      ],
+      "pl": [
+        "Eriocaulon compressum"
+      ],
+      "pt": [
+        "Eriocaulon compressum"
+      ],
+      "ru": [
+        "Eriocaulon compressum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -291,12 +387,12 @@
     "family": "Eriocaulaceae",
     "genus": "Eriocaulon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/90cec3754f3e4dc08ec56f79f285bfc96010535c",
-    "description": "Displays from July to November.",
+    "description": "Eriocaulon decangulare, commonly known as ten-angled pipewort, hat pin and bog button, is a monocotyledonous plant native to the eastern United States, Mexico and Nicaragua. The plant's distribution is quite irregular, with several disjunct populations and a discontinuous primary range. Most of its habitat in the United States is found on the Atlantic Coastal Plain. It is found in areas of relatively low elevation and does not occur higher than 300 metres above sea level.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -307,17 +403,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "eriocaulon_decangulare",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -373,11 +469,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Eriocaulon decangulare"
+      ],
       "en": [
+        "Eriocaulon decangulare",
         "Tenangle pipewort"
+      ],
+      "es": [
+        "Eriocaulon decangulare"
+      ],
+      "fr": [
+        "Eriocaulon decangulare"
+      ],
+      "it": [
+        "Eriocaulon decangulare"
+      ],
+      "nl": [
+        "Eriocaulon decangulare"
+      ],
+      "pl": [
+        "Eriocaulon decangulare"
+      ],
+      "pt": [
+        "Eriocaulon decangulare"
+      ],
+      "ru": [
+        "Eriocaulon decangulare"
       ]
     },
     "tags": [],
@@ -389,7 +512,7 @@
     "family": "Eriocaulaceae",
     "genus": "Eriocaulon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -405,7 +528,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "eriocaulon_setaceum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -471,9 +594,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eriocaulon setaceum"
+      ],
+      "en": [
+        "Eriocaulon setaceum"
+      ],
+      "es": [
+        "Eriocaulon setaceum"
+      ],
+      "fr": [
+        "Eriocaulon setaceum"
+      ],
+      "it": [
+        "Eriocaulon setaceum"
+      ],
+      "ko": [
+        "가지곡정초"
+      ],
+      "nl": [
+        "Eriocaulon setaceum"
+      ],
+      "pl": [
+        "Eriocaulon setaceum"
+      ],
+      "pt": [
+        "Eriocaulon setaceum"
+      ],
+      "ru": [
+        "Eriocaulon setaceum"
+      ],
+      "zh": [
+        "丝叶谷精草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -483,7 +642,7 @@
     "family": "Eriocaulaceae",
     "genus": "Leiothrix",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -565,9 +724,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Leiothrix flavescens"
+      ],
+      "en": [
+        "Leiothrix flavescens"
+      ],
+      "es": [
+        "Leiothrix flavescens"
+      ],
+      "fr": [
+        "Leiothrix flavescens"
+      ],
+      "it": [
+        "Leiothrix flavescens"
+      ],
+      "nl": [
+        "Leiothrix flavescens"
+      ],
+      "pl": [
+        "Leiothrix flavescens"
+      ],
+      "pt": [
+        "Leiothrix flavescens"
+      ],
+      "ru": [
+        "Leiothrix flavescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -577,7 +766,7 @@
     "family": "Eriocaulaceae",
     "genus": "Paepalanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -659,9 +848,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paepalanthus alpinus"
+      ],
+      "en": [
+        "Paepalanthus alpinus"
+      ],
+      "es": [
+        "Paepalanthus alpinus"
+      ],
+      "fr": [
+        "Paepalanthus alpinus"
+      ],
+      "it": [
+        "Paepalanthus alpinus"
+      ],
+      "nl": [
+        "Paepalanthus alpinus"
+      ],
+      "pl": [
+        "Paepalanthus alpinus"
+      ],
+      "pt": [
+        "Paepalanthus alpinus"
+      ],
+      "ru": [
+        "Paepalanthus alpinus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -671,7 +890,7 @@
     "family": "Eriocaulaceae",
     "genus": "Paepalanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -753,9 +972,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paepalanthus anceps"
+      ],
+      "en": [
+        "Paepalanthus anceps"
+      ],
+      "es": [
+        "Paepalanthus anceps"
+      ],
+      "fr": [
+        "Paepalanthus anceps"
+      ],
+      "it": [
+        "Paepalanthus anceps"
+      ],
+      "nl": [
+        "Paepalanthus anceps"
+      ],
+      "pl": [
+        "Paepalanthus anceps"
+      ],
+      "pt": [
+        "Paepalanthus anceps"
+      ],
+      "ru": [
+        "Paepalanthus anceps"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -765,7 +1014,7 @@
     "family": "Eriocaulaceae",
     "genus": "Paepalanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -847,9 +1096,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paepalanthus bifidus"
+      ],
+      "en": [
+        "Paepalanthus bifidus"
+      ],
+      "es": [
+        "Paepalanthus bifidus"
+      ],
+      "fr": [
+        "Paepalanthus bifidus"
+      ],
+      "it": [
+        "Paepalanthus bifidus"
+      ],
+      "nl": [
+        "Paepalanthus bifidus"
+      ],
+      "pl": [
+        "Paepalanthus bifidus"
+      ],
+      "pt": [
+        "Paepalanthus bifidus"
+      ],
+      "ru": [
+        "Paepalanthus bifidus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -859,7 +1138,7 @@
     "family": "Eriocaulaceae",
     "genus": "Paepalanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -941,9 +1220,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paepalanthus chiquitensis"
+      ],
+      "en": [
+        "Paepalanthus chiquitensis"
+      ],
+      "es": [
+        "Paepalanthus chiquitensis"
+      ],
+      "fr": [
+        "Paepalanthus chiquitensis"
+      ],
+      "it": [
+        "Paepalanthus chiquitensis"
+      ],
+      "nl": [
+        "Paepalanthus chiquitensis"
+      ],
+      "pl": [
+        "Paepalanthus chiquitensis"
+      ],
+      "pt": [
+        "Paepalanthus chiquitensis"
+      ],
+      "ru": [
+        "Paepalanthus chiquitensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -953,7 +1262,7 @@
     "family": "Eriocaulaceae",
     "genus": "Paepalanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1035,9 +1344,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paepalanthus elongatus"
+      ],
+      "en": [
+        "Paepalanthus elongatus"
+      ],
+      "es": [
+        "Paepalanthus elongatus"
+      ],
+      "fr": [
+        "Paepalanthus elongatus"
+      ],
+      "it": [
+        "Paepalanthus elongatus"
+      ],
+      "nl": [
+        "Paepalanthus elongatus"
+      ],
+      "pl": [
+        "Paepalanthus elongatus"
+      ],
+      "pt": [
+        "Paepalanthus elongatus"
+      ],
+      "ru": [
+        "Paepalanthus elongatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1047,7 +1386,7 @@
     "family": "Eriocaulaceae",
     "genus": "Paepalanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1129,9 +1468,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paepalanthus fluviatilis"
+      ],
+      "en": [
+        "Paepalanthus fluviatilis"
+      ],
+      "es": [
+        "Paepalanthus fluviatilis"
+      ],
+      "fr": [
+        "Paepalanthus fluviatilis"
+      ],
+      "it": [
+        "Paepalanthus fluviatilis"
+      ],
+      "nl": [
+        "Paepalanthus fluviatilis"
+      ],
+      "pl": [
+        "Paepalanthus fluviatilis"
+      ],
+      "pt": [
+        "Paepalanthus fluviatilis"
+      ],
+      "ru": [
+        "Paepalanthus fluviatilis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1141,7 +1510,7 @@
     "family": "Eriocaulaceae",
     "genus": "Paepalanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1223,9 +1592,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paepalanthus tortilis"
+      ],
+      "en": [
+        "Paepalanthus tortilis"
+      ],
+      "es": [
+        "Paepalanthus tortilis"
+      ],
+      "fr": [
+        "Paepalanthus tortilis"
+      ],
+      "it": [
+        "Paepalanthus tortilis"
+      ],
+      "ja": [
+        "パエパランツス属"
+      ],
+      "nl": [
+        "Paepalanthus tortilis"
+      ],
+      "pl": [
+        "Paepalanthus tortilis"
+      ],
+      "pt": [
+        "Paepalanthus tortilis"
+      ],
+      "ru": [
+        "Paepalanthus tortilis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1235,7 +1637,7 @@
     "family": "Eriocaulaceae",
     "genus": "Syngonanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1317,9 +1719,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Syngonanthus caulescens"
+      ],
+      "en": [
+        "Syngonanthus caulescens"
+      ],
+      "es": [
+        "Syngonanthus caulescens"
+      ],
+      "fr": [
+        "Syngonanthus caulescens"
+      ],
+      "it": [
+        "Syngonanthus caulescens"
+      ],
+      "nl": [
+        "Syngonanthus caulescens"
+      ],
+      "pl": [
+        "Syngonanthus caulescens"
+      ],
+      "pt": [
+        "Syngonanthus caulescens"
+      ],
+      "ru": [
+        "Syngonanthus caulescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1329,7 +1761,7 @@
     "family": "Eriocaulaceae",
     "genus": "Syngonanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1411,11 +1843,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Syngonanthus flavidulus"
+      ],
       "en": [
-        "Bantam buttons"
+        "Bantam buttons",
+        "Syngonanthus flavidulus"
+      ],
+      "es": [
+        "Syngonanthus flavidulus"
+      ],
+      "fr": [
+        "Syngonanthus flavidulus"
+      ],
+      "it": [
+        "Syngonanthus flavidulus"
+      ],
+      "nl": [
+        "Syngonanthus flavidulus"
+      ],
+      "pl": [
+        "Syngonanthus flavidulus"
+      ],
+      "pt": [
+        "Syngonanthus flavidulus"
+      ],
+      "ru": [
+        "Syngonanthus flavidulus"
       ]
     },
     "tags": [],
@@ -1427,7 +1886,7 @@
     "family": "Eriocaulaceae",
     "genus": "Syngonanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1509,9 +1968,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Syngonanthus gracilis"
+      ],
+      "en": [
+        "Syngonanthus gracilis"
+      ],
+      "es": [
+        "Syngonanthus gracilis"
+      ],
+      "fr": [
+        "Syngonanthus gracilis"
+      ],
+      "it": [
+        "Syngonanthus gracilis"
+      ],
+      "nl": [
+        "Syngonanthus gracilis"
+      ],
+      "pl": [
+        "Syngonanthus gracilis"
+      ],
+      "pt": [
+        "Syngonanthus gracilis"
+      ],
+      "ru": [
+        "Syngonanthus gracilis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1521,7 +2010,7 @@
     "family": "Eriocaulaceae",
     "genus": "Syngonanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1603,9 +2092,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Syngonanthus nitens"
+      ],
+      "en": [
+        "Syngonanthus nitens"
+      ],
+      "es": [
+        "Syngonanthus nitens"
+      ],
+      "fr": [
+        "Syngonanthus nitens"
+      ],
+      "it": [
+        "Syngonanthus nitens"
+      ],
+      "ja": [
+        "カッピンドウラード"
+      ],
+      "nl": [
+        "Syngonanthus nitens"
+      ],
+      "pl": [
+        "Syngonanthus nitens"
+      ],
+      "pt": [
+        "Capim dourado"
+      ],
+      "ru": [
+        "Syngonanthus nitens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

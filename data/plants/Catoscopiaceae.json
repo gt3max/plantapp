@@ -5,7 +5,7 @@
     "family": "Catoscopiaceae",
     "genus": "Catoscopium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Catoscopium nigritum"
+      ],
+      "en": [
+        "Catoscopium nigritum"
+      ],
+      "es": [
+        "Catoscopium nigritum"
+      ],
+      "fr": [
+        "Catoscopium nigritum"
+      ],
+      "it": [
+        "Catoscopium nigritum"
+      ],
+      "ko": [
+        "카토스코피움 니그리툼"
+      ],
+      "nl": [
+        "pijpenkopmos"
+      ],
+      "pl": [
+        "Catoscopium nigritum"
+      ],
+      "pt": [
+        "Catoscopiales"
+      ],
+      "ru": [
+        "Катоскопиум чернеющий"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Tetrameristaceae",
     "genus": "Pelliciera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dd70ef4f4758caf484e86adbad8dbb77134e4c91",
-    "description": null,
+    "description": "Pelliciera rhizophorae, known as the tea mangrove, is a less-common species of mangroves found along the Pacific coast from the Gulf of Nicoya in Costa Rica to the Esmeraldas River in Ecuador, as well as within stands located in Nicaragua, Panama, and Colombia. During eras such as the Cenozoic, the species was prevalent. The mangrove hummingbirds of Costa Rica live off the relatively large quantity of nectar produced by its prolific blooms.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pelliciera rhizophorae"
+      ],
       "en": [
+        "Pelliciera rhizophorae",
         "Tea mangrove"
+      ],
+      "es": [
+        "Pellicieraceae"
+      ],
+      "fr": [
+        "Pellicieraceae"
+      ],
+      "it": [
+        "Pelliciera rhizophorae"
+      ],
+      "nl": [
+        "Pellicieraceae"
+      ],
+      "pl": [
+        "Pelliciera rhizophorae"
+      ],
+      "pt": [
+        "Pelliciera rhizophorae"
+      ],
+      "ru": [
+        "Pelliciera rhizophorae"
+      ],
+      "zh": [
+        "假红树科"
       ]
     },
     "tags": [],

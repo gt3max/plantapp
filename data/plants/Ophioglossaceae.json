@@ -5,7 +5,7 @@
     "family": "Ophioglossaceae",
     "genus": "Botrychium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -26,12 +26,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.1
     },
     "common_names": {
+      "de": [
+        "Botrychium boreale"
+      ],
       "en": [
+        "Botrychium boreale",
         "Northern moonwort"
+      ],
+      "es": [
+        "Botrychium boreale"
+      ],
+      "fr": [
+        "Botrychium boreale"
+      ],
+      "it": [
+        "Botrychium boreale"
+      ],
+      "ja": [
+        "タカネハナワラビ"
+      ],
+      "nl": [
+        "Botrychium boreale"
+      ],
+      "pl": [
+        "Botrychium boreale"
+      ],
+      "pt": [
+        "Botrychium boreale"
+      ],
+      "ru": [
+        "Гроздовник северный"
+      ],
+      "zh": [
+        "北方小阴地蕨"
       ]
     },
     "tags": [],
@@ -103,7 +136,7 @@
     "family": "Ophioglossaceae",
     "genus": "Botrychium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -124,12 +157,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,11 +218,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.1
     },
     "common_names": {
+      "de": [
+        "Botrychium dissectum"
+      ],
       "en": [
+        "Botrychium dissectum",
         "Cutleaf grapefern"
+      ],
+      "es": [
+        "Botrychium dissectum"
+      ],
+      "fr": [
+        "Botrychium dissectum"
+      ],
+      "it": [
+        "Botrychium dissectum"
+      ],
+      "nl": [
+        "Botrychium dissectum"
+      ],
+      "pl": [
+        "Botrychium dissectum"
+      ],
+      "pt": [
+        "Botrychium dissectum"
+      ],
+      "ru": [
+        "Botrychium dissectum"
       ]
     },
     "tags": [],
@@ -201,7 +261,7 @@
     "family": "Ophioglossaceae",
     "genus": "Botrychium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -222,12 +282,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -283,9 +343,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Botrychium lanceolatum"
+      ],
+      "en": [
+        "Botrychium lanceolatum"
+      ],
+      "es": [
+        "Botrychium lanceolatum"
+      ],
+      "fr": [
+        "Botrychium lanceolatum"
+      ],
+      "it": [
+        "Botrychium lanceolatum"
+      ],
+      "nl": [
+        "Botrychium lanceolatum"
+      ],
+      "pl": [
+        "Podejźrzon lancetowaty"
+      ],
+      "pt": [
+        "Botrychium lanceolatum"
+      ],
+      "ru": [
+        "Гроздовник ланцетный"
+      ],
+      "zh": [
+        "长白山小阴地蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -295,7 +388,7 @@
     "family": "Ophioglossaceae",
     "genus": "Botrychium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -316,12 +409,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -377,11 +470,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "لسان الغزال القمري"
+      ],
+      "de": [
+        "Echte Mondraute"
+      ],
       "en": [
+        "Botrychium lunaria",
         "Common moonwort"
+      ],
+      "es": [
+        "Botrychium lunaria"
+      ],
+      "fr": [
+        "Botrychium lunaria"
+      ],
+      "it": [
+        "Botrychium lunaria"
+      ],
+      "ja": [
+        "ヒメハナワラビ"
+      ],
+      "nl": [
+        "gelobde maanvaren"
+      ],
+      "pl": [
+        "Podejźrzon księżycowy"
+      ],
+      "pt": [
+        "Botrychium lunaria"
+      ],
+      "ru": [
+        "Гроздовник полулунный"
+      ],
+      "zh": [
+        "小阴地蕨"
       ]
     },
     "tags": [],
@@ -393,7 +522,7 @@
     "family": "Ophioglossaceae",
     "genus": "Botrychium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -409,17 +538,17 @@
     "synonyms": "[\"Botrychium ramosum\", \"Botrychium lunaria var. matricariifolium\", \"Botrychium matricariifolium subsp. typicum\", \"Osmunda lunaria var. matricariifolia\", \"Botrychium matricariifolium f. gracile\", \"Botrychium rutaceum\", \"Osmunda rutacea\", \"Botrychium matricariifolium f. rhombeum\", \"Osmunda ramosa\", \"Botrychium matricariifolium var. rhombeum\"]",
     "care": {
       "plant_id": "botrychium_matricariifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -475,9 +604,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Botrychium matricariifolium"
+      ],
+      "en": [
+        "Botrychium matricariifolium"
+      ],
+      "es": [
+        "Botrychium matricariifolium"
+      ],
+      "fr": [
+        "Botrychium matricariifolium"
+      ],
+      "it": [
+        "Botrychium matricariifolium"
+      ],
+      "nl": [
+        "vertakte maanvaren"
+      ],
+      "pl": [
+        "Podejźrzon marunowy"
+      ],
+      "pt": [
+        "Botrychium matricariifolium"
+      ],
+      "ru": [
+        "Гроздовник ромашколистный"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -487,7 +646,7 @@
     "family": "Ophioglossaceae",
     "genus": "Botrychium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -569,9 +728,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Botrychium minganense"
+      ],
+      "en": [
+        "Botrychium minganense"
+      ],
+      "es": [
+        "Botrychium minganense"
+      ],
+      "fr": [
+        "Botrychium minganense"
+      ],
+      "it": [
+        "Botrychium minganense"
+      ],
+      "nl": [
+        "Botrychium minganense"
+      ],
+      "pl": [
+        "Botrychium minganense"
+      ],
+      "pt": [
+        "Botrychium minganense"
+      ],
+      "ru": [
+        "Botrychium minganense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,7 +770,7 @@
     "family": "Ophioglossaceae",
     "genus": "Botrychium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -602,12 +791,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -663,11 +852,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.8
     },
     "common_names": {
+      "de": [
+        "Botrychium simplex"
+      ],
       "en": [
+        "Botrychium simplex",
         "Little grapefern"
+      ],
+      "es": [
+        "Botrychium simplex"
+      ],
+      "fr": [
+        "Botrychium simplex"
+      ],
+      "it": [
+        "Botrychium simplex"
+      ],
+      "nl": [
+        "Kleine maanvaren"
+      ],
+      "pl": [
+        "Podejźrzon pojedynczy"
+      ],
+      "pt": [
+        "Botrychium simplex"
+      ],
+      "ru": [
+        "гроздовник простой"
       ]
     },
     "tags": [],
@@ -679,7 +895,7 @@
     "family": "Ophioglossaceae",
     "genus": "Botrychium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -700,12 +916,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -761,11 +977,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.6
     },
     "common_names": {
+      "de": [
+        "Botrychium virginianum"
+      ],
       "en": [
+        "Botrychium virginianum",
         "Common grape fern"
+      ],
+      "es": [
+        "Botrychium virginianum"
+      ],
+      "fr": [
+        "Botrychium virginianum"
+      ],
+      "it": [
+        "Botrychium virginianum"
+      ],
+      "ja": [
+        "ナツノハナワラビ"
+      ],
+      "nl": [
+        "Botrychium virginianum"
+      ],
+      "pl": [
+        "Botrychium virginianum"
+      ],
+      "pt": [
+        "Botrychium virginianum"
+      ],
+      "ru": [
+        "Botrychium virginianum"
+      ],
+      "zh": [
+        "蕨萁"
       ]
     },
     "tags": [],
@@ -777,12 +1026,12 @@
     "family": "Ophioglossaceae",
     "genus": "Helminthostachys",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5766ba246cd5865c42c4882437fcc1cb50b0b11e",
-    "description": null,
+    "description": "Helminthostachys zeylanica is a terrestrial, herbaceous fern of southeastern Asia and Australia, commonly known as kamraj and tunjuk-langit. The species is like the other members of its family, it has clusters of sporangia on stems of fertile, spike-like fronds.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -859,11 +1108,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Helminthostachys zeylanica"
+      ],
       "en": [
-        "Flowering fern"
+        "Flowering fern",
+        "Helminthostachys zeylanica"
+      ],
+      "es": [
+        "Helminthostachys zeylanica"
+      ],
+      "fr": [
+        "Helminthostachys zeylanica"
+      ],
+      "it": [
+        "Helminthostachys zeylanica"
+      ],
+      "ja": [
+        "ミヤコジマハナワラビ"
+      ],
+      "ko": [
+        "칠지궐"
+      ],
+      "nl": [
+        "Helminthostachys zeylanica"
+      ],
+      "pl": [
+        "Helminthostachys zeylanica"
+      ],
+      "pt": [
+        "Helminthostachys zeylanica"
+      ],
+      "ru": [
+        "Helminthostachys zeylanica"
+      ],
+      "zh": [
+        "七指蕨"
       ]
     },
     "tags": [],
@@ -875,12 +1160,12 @@
     "family": "Ophioglossaceae",
     "genus": "Ophioglossum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1910038ee2b94e545c9395c8e240b666.jpg",
-    "description": null,
+    "description": "Ophioglossum azoricum, the small adder's-tongue fern or lesser adder's-tongue fern, is a small fern of the family Ophioglossaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -891,7 +1176,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ophioglossum_azoricum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -957,9 +1242,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ophioglossum azoricum"
+      ],
+      "en": [
+        "Ophioglossum azoricum"
+      ],
+      "es": [
+        "Ophioglossum azoricum"
+      ],
+      "fr": [
+        "Ophioglossum azoricum"
+      ],
+      "it": [
+        "Ophioglossum azoricum"
+      ],
+      "nl": [
+        "Azorenaddertong"
+      ],
+      "pl": [
+        "Nasięźrzał wielolistny"
+      ],
+      "pt": [
+        "Ophioglossum azoricum"
+      ],
+      "ru": [
+        "Ophioglossum azoricum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -969,7 +1284,7 @@
     "family": "Ophioglossaceae",
     "genus": "Ophioglossum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -985,7 +1300,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ophioglossum_crotalophoroides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1051,11 +1366,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ophioglossum crotalophoroides"
+      ],
       "en": [
-        "Bulbous adderstongue"
+        "Bulbous adderstongue",
+        "Ophioglossum crotalophoroides"
+      ],
+      "es": [
+        "Ophioglossum crotalophoroides"
+      ],
+      "fr": [
+        "Ophioglossum crotalophoroides"
+      ],
+      "it": [
+        "Ophioglossum crotalophoroides"
+      ],
+      "nl": [
+        "Ophioglossum crotalophoroides"
+      ],
+      "pl": [
+        "Ophioglossum crotalophoroides"
+      ],
+      "pt": [
+        "Ophioglossum crotalophoroides"
+      ],
+      "ru": [
+        "Ophioglossum crotalophoroides"
       ]
     },
     "tags": [],
@@ -1067,12 +1409,12 @@
     "family": "Ophioglossaceae",
     "genus": "Ophioglossum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1099023be99a6d6683817e1c227528c0206bb17a",
-    "description": null,
+    "description": "Ophioglossum engelmannii, commonly known as the limestone adder's-tongue, is a species of fern native to the Western Hemisphere. It is widespread and native to the United States, Mexico, and Central America. Its primary natural habitat is dry barrens and glades in calcareous areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1083,7 +1425,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ophioglossum_engelmannii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1149,11 +1491,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ophioglossum engelmannii"
+      ],
       "en": [
-        "Limestone adder's-tongue"
+        "Limestone adder's-tongue",
+        "Ophioglossum engelmannii"
+      ],
+      "es": [
+        "Ophioglossum engelmannii"
+      ],
+      "fr": [
+        "Ophioglossum engelmannii"
+      ],
+      "it": [
+        "Ophioglossum engelmannii"
+      ],
+      "nl": [
+        "Ophioglossum engelmannii"
+      ],
+      "pl": [
+        "Ophioglossum engelmannii"
+      ],
+      "pt": [
+        "Ophioglossum engelmannii"
+      ],
+      "ru": [
+        "Ophioglossum engelmannii"
       ]
     },
     "tags": [],
@@ -1165,12 +1534,12 @@
     "family": "Ophioglossaceae",
     "genus": "Ophioglossum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5ea25514c02cddebda9b98c7bc1507aaeb2d8663",
-    "description": null,
+    "description": "Ophioglossum lusitanicum, the least adder's-tongue, is a small fern of the family Ophioglossaceae. It is a temperate species categorised as least concern by the IUCN (2001).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1181,17 +1550,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ophioglossum_lusitanicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1247,11 +1616,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "لسان الحية البرتغالية"
+      ],
+      "de": [
+        "Ophioglossum lusitanicum"
+      ],
       "en": [
-        "Least adder's-tongue"
+        "Least adder's-tongue",
+        "Ophioglossum lusitanicum"
+      ],
+      "es": [
+        "Ophioglossum lusitanicum"
+      ],
+      "fr": [
+        "Ophioglossum lusitanicum"
+      ],
+      "it": [
+        "Ophioglossum lusitanicum"
+      ],
+      "nl": [
+        "Ophioglossum lusitanicum"
+      ],
+      "pl": [
+        "Ophioglossum lusitanicum"
+      ],
+      "pt": [
+        "Ophioglossum lusitanicum"
+      ],
+      "ru": [
+        "Ophioglossum lusitanicum"
       ]
     },
     "tags": [],
@@ -1263,7 +1662,7 @@
     "family": "Ophioglossaceae",
     "genus": "Ophioglossum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1279,7 +1678,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ophioglossum_nudicaule",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1345,11 +1744,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ophioglossum nudicaule"
+      ],
       "en": [
-        "Least adderstongue"
+        "Least adderstongue",
+        "Ophioglossum nudicaule"
+      ],
+      "es": [
+        "Ophioglossum nudicaule"
+      ],
+      "fr": [
+        "Ophioglossum nudicaule"
+      ],
+      "it": [
+        "Ophioglossum nudicaule"
+      ],
+      "nl": [
+        "Ophioglossum nudicaule"
+      ],
+      "pl": [
+        "Ophioglossum nudicaule"
+      ],
+      "pt": [
+        "Ophioglossum nudicaule"
+      ],
+      "ru": [
+        "Ophioglossum nudicaule"
+      ],
+      "zh": [
+        "小叶瓶尔小草"
       ]
     },
     "tags": [],
@@ -1361,12 +1790,12 @@
     "family": "Ophioglossaceae",
     "genus": "Ophioglossum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/aeafcd49cab4ff49cd0fab02ffe0f3603cf57079",
-    "description": null,
+    "description": "Ophioglossum petiolatum is a species of fern in the family Ophioglossaceae. William Jackson Hooker named this species in 1823.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1377,7 +1806,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ophioglossum_petiolatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1443,11 +1872,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ophioglossum petiolatum"
+      ],
       "en": [
-        "Longstem adderstongue"
+        "Longstem adderstongue",
+        "Ophioglossum petiolatum"
+      ],
+      "es": [
+        "Ophioglossum petiolatum"
+      ],
+      "fr": [
+        "Ophioglossum petiolatum"
+      ],
+      "it": [
+        "Ophioglossum petiolatum"
+      ],
+      "ja": [
+        "コヒロハハナヤスリ"
+      ],
+      "nl": [
+        "Ophioglossum petiolatum"
+      ],
+      "pl": [
+        "Ophioglossum petiolatum"
+      ],
+      "pt": [
+        "Ophioglossum petiolatum"
+      ],
+      "ru": [
+        "Ophioglossum petiolatum"
+      ],
+      "zh": [
+        "锐头瓶尔小草"
       ]
     },
     "tags": [],
@@ -1459,12 +1921,12 @@
     "family": "Ophioglossaceae",
     "genus": "Ophioglossum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b17cc928c951940746a024e1c86f1000fc70fff6",
-    "description": null,
+    "description": "Ophioglossum pusillum is a species of fern in the family Ophioglossaceae known by the common name northern adder's tongue.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1475,7 +1937,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ophioglossum_pusillum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1541,11 +2003,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ophioglossum pusillum"
+      ],
       "en": [
-        "Northern adderstongue"
+        "Northern adderstongue",
+        "Ophioglossum pusillum"
+      ],
+      "es": [
+        "Ophioglossum pusillum"
+      ],
+      "fr": [
+        "Ophioglossum pusillum"
+      ],
+      "it": [
+        "Ophioglossum pusillum"
+      ],
+      "nl": [
+        "Ophioglossum pusillum"
+      ],
+      "pl": [
+        "Ophioglossum pusillum"
+      ],
+      "pt": [
+        "Ophioglossum pusillum"
+      ],
+      "ru": [
+        "Ophioglossum pusillum"
       ]
     },
     "tags": [],
@@ -1557,12 +2046,12 @@
     "family": "Ophioglossaceae",
     "genus": "Ophioglossum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/612c6c875e8cd01fade5b62a3692efb92c744c5b",
-    "description": null,
+    "description": "Ophioglossum reticulatum, the netted adder's-tongue, is a species of fern in the family Ophioglossaceae. It has a pantropical/pansubtropical distribution; Latin America, the Caribbean, Sub-Saharan Africa, Madagascar, Yemen, the Indian Subcontinent, Southeast Asia, warmer parts of China, Malesia, Korea, Japan, and many tropical islands. It is a hexaploid and has the highest known number of chromosomes of any plant, 720.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1573,7 +2062,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ophioglossum_reticulatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1639,11 +2128,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ophioglossum reticulatum"
+      ],
       "en": [
-        "Netted adderstongue"
+        "Netted adderstongue",
+        "Ophioglossum reticulatum"
+      ],
+      "es": [
+        "Ophioglossum reticulatum"
+      ],
+      "fr": [
+        "Ophioglossum reticulatum"
+      ],
+      "it": [
+        "Ophioglossum reticulatum"
+      ],
+      "nl": [
+        "Ophioglossum reticulatum"
+      ],
+      "pl": [
+        "Ophioglossum reticulatum"
+      ],
+      "pt": [
+        "Ophioglossum reticulatum"
+      ],
+      "ru": [
+        "Ophioglossum reticulatum"
+      ],
+      "zh": [
+        "心脏叶瓶尔小草"
       ]
     },
     "tags": [],
@@ -1655,12 +2174,12 @@
     "family": "Ophioglossaceae",
     "genus": "Ophioglossum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/22e0388b0cdd694b52d92d833f629ed645d002c2",
-    "description": "Adder's tongue is a common name for several plants and may refer to:Ophioglossum, a genus of ferns in the family Ophioglossaceae\nErythronium, a genus of lilies",
+    "description": "Ophioglossum vulgatum, commonly known as adder's-tongue, southern adder's-tongue or adder's-tongue fern, is a species of fern in the family Ophioglossaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1671,17 +2190,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ophioglossum_vulgatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1737,11 +2256,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "ar": [
+        "لسان الحية"
+      ],
+      "de": [
+        "Gewöhnliche Natternzunge"
+      ],
       "en": [
-        "Adder's-tongue"
+        "Adder's-tongue",
+        "Ophioglossum vulgatum"
+      ],
+      "es": [
+        "Ophioglossum vulgatum"
+      ],
+      "fr": [
+        "Ophioglossum vulgatum"
+      ],
+      "it": [
+        "Ophioglossum vulgatum"
+      ],
+      "ja": [
+        "ヒロハハナヤスリ"
+      ],
+      "nl": [
+        "gewone addertong"
+      ],
+      "pl": [
+        "nasięźrzał pospolity"
+      ],
+      "pt": [
+        "Ophioglossum vulgatum"
+      ],
+      "ru": [
+        "Ужовник обыкновенный"
+      ],
+      "zh": [
+        "瓶尔小草"
       ]
     },
     "tags": [],

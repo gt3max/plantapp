@@ -5,7 +5,7 @@
     "family": "Hypericaceae",
     "genus": "Harungana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Harungana madagascariensis"
+      ],
       "en": [
+        "Harungana madagascariensis",
         "Orange milktree"
+      ],
+      "es": [
+        "Harungana madagascariensis"
+      ],
+      "fr": [
+        "Harungana madagascariensis"
+      ],
+      "it": [
+        "Harungana madagascariensis"
+      ],
+      "nl": [
+        "Harungana madagascariensis"
+      ],
+      "pl": [
+        "Harungana madagascariensis"
+      ],
+      "pt": [
+        "Harungana madagascariensis"
+      ],
+      "ru": [
+        "Harungana madagascariensis"
+      ],
+      "zh": [
+        "马达加斯加合掌树"
       ]
     },
     "tags": [],
@@ -103,12 +133,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Hypericum anagalloides is a species of flowering plant in the St. John's wort family Hypericaceae. It is known by the common names creeping St. John's-wort, tinker's penny and bog St. John's-wort.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -119,7 +149,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypericum_anagalloides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -185,9 +215,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum anagalloides"
+      ],
+      "en": [
+        "Hypericum anagalloides"
+      ],
+      "es": [
+        "Hypericum anagalloides"
+      ],
+      "fr": [
+        "Hypericum anagalloides"
+      ],
+      "it": [
+        "Hypericum anagalloides"
+      ],
+      "nl": [
+        "Hypericum anagalloides"
+      ],
+      "pl": [
+        "Hypericum anagalloides"
+      ],
+      "pt": [
+        "Hypericum anagalloides"
+      ],
+      "ru": [
+        "Hypericum anagalloides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,7 +257,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -213,17 +273,17 @@
     "synonyms": "[\"Hypericum androsaemum f. variegatum\", \"Hypericum webbianum\", \"Hypericum floridum\", \"Androsaemum vulgare\", \"Hypericum bacciforme\", \"Hypericum bacciferum\", \"Hypericum androsaemum var. dilatatum\", \"Androsaemum floridum\", \"Androsaemum officinale\", \"Androsaemum androsaemum\"]",
     "care": {
       "plant_id": "hypericum_androsaemum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -279,11 +339,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "ar": [
+        "داذي مخزني"
+      ],
+      "de": [
+        "Blut-Johanniskraut"
+      ],
       "en": [
+        "Hypericum androsaemum",
         "Tutsan"
+      ],
+      "es": [
+        "Hypericum androsaemum"
+      ],
+      "fr": [
+        "Millepertuis androsème"
+      ],
+      "it": [
+        "Hypericum androsaemum"
+      ],
+      "nl": [
+        "Hypericum androsaemum"
+      ],
+      "pl": [
+        "dziurawiec barwierski"
+      ],
+      "pt": [
+        "Hypericum androsaemum"
+      ],
+      "ru": [
+        "Зверобой красильный"
       ]
     },
     "tags": [],
@@ -295,7 +385,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -311,17 +401,17 @@
     "synonyms": "[\"Hypericum ascyron var. genuinum\", \"Ascyrum tetragonum\", \"Roscyna gmelinii\", \"Ascyrum sibiricum\"]",
     "care": {
       "plant_id": "hypericum_ascyron",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -377,11 +467,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Hypericum ascyron"
+      ],
       "en": [
-        "Great st. johnswort"
+        "Great st. johnswort",
+        "Hypericum ascyron"
+      ],
+      "es": [
+        "Hypericum ascyron"
+      ],
+      "fr": [
+        "Hypericum ascyron"
+      ],
+      "it": [
+        "Hypericum ascyron"
+      ],
+      "ja": [
+        "トモエソウ"
+      ],
+      "ko": [
+        "물레나물"
+      ],
+      "nl": [
+        "Hypericum ascyron"
+      ],
+      "pl": [
+        "Hypericum ascyron"
+      ],
+      "pt": [
+        "Hypericum ascyron"
+      ],
+      "ru": [
+        "Зверобой большой"
+      ],
+      "zh": [
+        "黄海棠"
       ]
     },
     "tags": [],
@@ -393,12 +519,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c3976178169203406ad348d415d0540b04516f3a",
-    "description": null,
+    "description": "Hypericum australe is a species of plant in the family Hypericaceae. Individuals can grow to 24 cm tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -409,7 +535,7 @@
     "synonyms": "[\"Hypericum repens\", \"Hypericum humifusum var. angustifolium\", \"Hypericum linariifolium\", \"Hypericum repens var. majus\", \"Hypericum humifusum subsp. australe\", \"Hypericum humifusum var. minus\", \"Hypericum dubium\", \"Hypericum humifusum subsp. australe\", \"Hypericum repens var. intermedium\", \"Hypericum humifusum var. australe\"]",
     "care": {
       "plant_id": "hypericum_australe",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -475,9 +601,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum australe"
+      ],
+      "en": [
+        "Hypericum australe"
+      ],
+      "es": [
+        "Hypericum australe"
+      ],
+      "fr": [
+        "Hypericum australe"
+      ],
+      "it": [
+        "Hypericum australe"
+      ],
+      "nl": [
+        "Hypericum australe"
+      ],
+      "pl": [
+        "Hypericum australe"
+      ],
+      "pt": [
+        "Hypericum australe"
+      ],
+      "ru": [
+        "Hypericum australe"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -487,12 +643,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/USFWS_hypericum_boreale_%2823831276045%29.jpg",
+    "description": "Hypericum boreale, also known as northern St. John's-wort, is a short-lived perennial species of flowering plant in the family Hypericaceae, section Trigynobrathys.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -503,7 +659,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypericum_boreale",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -569,9 +725,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum boreale"
+      ],
+      "en": [
+        "Hypericum boreale"
+      ],
+      "es": [
+        "Hypericum boreale"
+      ],
+      "fr": [
+        "Hypericum boreale"
+      ],
+      "it": [
+        "Hypericum boreale"
+      ],
+      "nl": [
+        "Hypericum boreale"
+      ],
+      "pl": [
+        "Hypericum boreale"
+      ],
+      "pt": [
+        "Hypericum boreale"
+      ],
+      "ru": [
+        "Hypericum boreale"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,7 +767,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -597,7 +783,7 @@
     "synonyms": "[\"Hypericum punctulatum\", \"Hypericum brasiliense var. punctulatum\", \"Hypericum laxiusculum\", \"Hypericum brasiliense var. latifolium\", \"Hypericum stylosum\", \"Hypericum campestre subsp. pauciflorum\", \"Hypericum campestre subsp. tenue\", \"Hypericum brasiliense var. angustifolium\", \"Hypericum anceps\", \"Hypericum linoides\"]",
     "care": {
       "plant_id": "hypericum_brasiliense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -663,9 +849,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum brasiliense"
+      ],
+      "en": [
+        "Hypericum brasiliense"
+      ],
+      "es": [
+        "Hypericum brasiliense"
+      ],
+      "fr": [
+        "Hypericum brasiliense"
+      ],
+      "it": [
+        "Hypericum brasiliense"
+      ],
+      "nl": [
+        "Hypericum brasiliense"
+      ],
+      "pl": [
+        "Hypericum brasiliense"
+      ],
+      "pt": [
+        "Hypericum brasiliense"
+      ],
+      "ru": [
+        "Hypericum brasiliense"
+      ],
+      "zh": [
+        "巴西金丝桃"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -675,12 +894,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0c6f209a98cdfd6b0465567d98345da48a9de9e1",
-    "description": "Three to five celled capsule, sometimes fleshy.",
+    "description": "Hypericum calycinum is a species of prostrate or low-growing shrub in the flowering plant family Hypericaceae. It is native to the Strandzha Mountains along the Bulgarian and Turkish Black Sea coast. Widely cultivated for its large yellow flowers, its names as a garden plant include rose-of-Sharon in Britain and Australia, and Aaron's beard, great St-John's wort, creeping St. John's wort and Jerusalem star.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -691,17 +910,17 @@
     "synonyms": "[\"Hypericum grandiflorum\", \"Hypericum calycinum var. acutifolium\", \"Hypericum calycinum f. luteum\", \"Hypericum ascyron\", \"Eremanthe venosa\", \"Norysca venosa\", \"Eremanthe calycina\", \"Norysca calycina\", \"Androsaemum calycinum\", \"Hypericum venosum\"]",
     "care": {
       "plant_id": "hypericum_calycinum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -757,11 +976,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "de": [
+        "Großkelchiges Johanniskraut"
+      ],
       "en": [
+        "Hypericum calycinum",
         "Rose-of-sharon"
+      ],
+      "es": [
+        "Hypericum calycinum"
+      ],
+      "fr": [
+        "Millepertuis à grandes fleurs"
+      ],
+      "it": [
+        "Hypericum calycinum"
+      ],
+      "ja": [
+        "セイヨウキンシバイ"
+      ],
+      "nl": [
+        "Hypericum calycinum"
+      ],
+      "pl": [
+        "Dziurawiec kielichowaty"
+      ],
+      "pt": [
+        "Hypericum calycinum"
+      ],
+      "ru": [
+        "Зверобой чашечковидный"
       ]
     },
     "tags": [],
@@ -773,12 +1022,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f63e91b1f0485040b2b7e732b2aa0ff22f724f05",
-    "description": null,
+    "description": "Hypericum canadense, known as Canadian St. Johns-wort, lesser St. John's wort, and lesser Canadian St. Johnswort, is a flowering plant in the genus Hypericum. It is a yellow-flowering annual or perennial herb native to North America and introduced to Ireland and The Netherlands. The specific epithet canadense means \"Canadian\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -789,17 +1038,17 @@
     "synonyms": "[\"Hypericum canadense f. minimum\", \"Hypericum canadense var. minimum\", \"Hypericum canadense var. magninsulare\", \"Brathys canadensis\", \"Sarothra canadensis\", \"Hypericum canadense var. galiiforme\", \"Hypericum hedyotifolium\"]",
     "care": {
       "plant_id": "hypericum_canadense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -855,11 +1104,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Hypericum canadense"
+      ],
       "en": [
+        "Hypericum canadense",
         "Irish st. john's-wort"
+      ],
+      "es": [
+        "Hypericum canadense"
+      ],
+      "fr": [
+        "Hypericum canadense"
+      ],
+      "it": [
+        "Hypericum canadense"
+      ],
+      "nl": [
+        "Hypericum canadense"
+      ],
+      "pl": [
+        "Hypericum canadense"
+      ],
+      "pt": [
+        "Hypericum canadense"
+      ],
+      "ru": [
+        "Hypericum canadense"
       ]
     },
     "tags": [],
@@ -871,12 +1147,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cbf69e83753a4b45a9991014ae6cc5cdb1bedbf9",
-    "description": null,
+    "description": "Hypericum canariense is a species of flowering plant in the family Hypericaceae known by the common name Canary Islands St. John's wort. It is the sole member of Hypericum sect. Webbia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -887,7 +1163,7 @@
     "synonyms": "[\"Webbia canariensis\", \"Webbia floribunda\", \"Hypericum canariense var. platysepalum\", \"Webbia canariensis var. floribunda\", \"Hypericum canariense var. salicifolium\", \"Hypericum debile\", \"Hypericum corymbosum\", \"Hypericum canariense var. triphyllum\", \"Webbia heterophylla\", \"Hypericum platysepalum\"]",
     "care": {
       "plant_id": "hypericum_canariense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -953,11 +1229,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum canariense"
+      ],
       "en": [
-        "Canary island st. john's-wort"
+        "Canary island st. john's-wort",
+        "Hypericum canariense"
+      ],
+      "es": [
+        "Hypericum canariense"
+      ],
+      "fr": [
+        "Hypericum canariense"
+      ],
+      "it": [
+        "Hypericum canariense"
+      ],
+      "nl": [
+        "Hypericum canariense"
+      ],
+      "pl": [
+        "Hypericum canariense"
+      ],
+      "pt": [
+        "Hipericão"
+      ],
+      "ru": [
+        "Hypericum canariense"
       ]
     },
     "tags": [],
@@ -969,12 +1272,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/668608fe2f5558f5d884316b6aac5a752834c10b",
-    "description": null,
+    "description": "Hypericum cistifolium is a shrub in the family Hypericaceae native in the southeastern United States. Plants in the genus Hypericum are referred to as St. John's wort.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -985,7 +1288,7 @@
     "synonyms": "[\"Hypericum punctulosum\", \"Myriandra rosmarinifolia\", \"Hypericum opacum\", \"Brathydium hyssopifolium\", \"Hypericum nudiflorum\", \"Hypericum rosmarinifolium\"]",
     "care": {
       "plant_id": "hypericum_cistifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1051,11 +1354,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum cistifolium"
+      ],
       "en": [
+        "Hypericum cistifolium",
         "Round-pod st. john's-wort"
+      ],
+      "es": [
+        "Hypericum cistifolium"
+      ],
+      "fr": [
+        "Hypericum cistifolium"
+      ],
+      "it": [
+        "Hypericum cistifolium"
+      ],
+      "nl": [
+        "Hypericum cistifolium"
+      ],
+      "pl": [
+        "Hypericum cistifolium"
+      ],
+      "pt": [
+        "Hypericum cistifolium"
+      ],
+      "ru": [
+        "Hypericum cistifolium"
       ]
     },
     "tags": [],
@@ -1067,12 +1397,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/143986c0e25c56867095211dd3024a6718880ff8",
-    "description": null,
+    "description": "Hypericum coris, the heath-leaved St. John's wort, also called yellow coris, is a species of flowering plant in the family Hypericaceae, and is the type species of sect. Coridium. It is a low shrub, and it is found in Switzerland and northwestern Italy. The species has been a popular garden plant since the 18th century, valued for its long flowering period and for how well it adapts to cultivation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1083,17 +1413,17 @@
     "synonyms": "[\"Hypericum corifolium\", \"Hypericum verticillatum\", \"Hypericum multicaule\"]",
     "care": {
       "plant_id": "hypericum_coris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1114,9 +1444,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: phototoxic. Animal: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1134,8 +1464,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1149,9 +1479,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Quirlblättriges Johanniskraut"
+      ],
+      "en": [
+        "Hypericum coris"
+      ],
+      "es": [
+        "Hypericum coris"
+      ],
+      "fr": [
+        "Hypericum coris"
+      ],
+      "it": [
+        "Hypericum coris"
+      ],
+      "nl": [
+        "Hypericum coris"
+      ],
+      "pl": [
+        "Hypericum coris"
+      ],
+      "pt": [
+        "Hypericum coris"
+      ],
+      "ru": [
+        "Hypericum coris"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1161,12 +1521,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Hypericum crux-andreae, commonly called St. Peter's-wort, is a small shrubby flowering plant in the St. John's wort family Hypericaceae. It is native to Eastern North America, where it is primarily found in the sandy soils of the Coastal Plain with extensions into the Piedmont and Cumberland Plateau.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1177,7 +1537,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypericum_crux-andreae",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1243,9 +1603,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum crux-andreae"
+      ],
+      "en": [
+        "Hypericum crux-andreae"
+      ],
+      "es": [
+        "Hypericum crux-andreae"
+      ],
+      "fr": [
+        "Hypericum crux-andreae"
+      ],
+      "it": [
+        "Hypericum crux-andreae"
+      ],
+      "nl": [
+        "Hypericum crux-andreae"
+      ],
+      "pl": [
+        "Hypericum crux-andreae"
+      ],
+      "pt": [
+        "Hypericum crux-andreae"
+      ],
+      "ru": [
+        "Hypericum crux-andreae"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1255,12 +1645,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8392039b87e50706304e2b78cd26de12af67d14f",
-    "description": "Cone-shaped seed capsules split to release seeds",
+    "description": "Hypericum densiflorum, also known as bushy St. John's wort or dense St. John's wort, is a perennial herb in the flowering plant family Hypericaceae native to North America. The specific epithet densiflorum is Latin, meaning \"densely flowered\", referring to the many-flowered cymes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1271,7 +1661,7 @@
     "synonyms": "[\"Hypericum prolificum var. densiflorum\"]",
     "care": {
       "plant_id": "hypericum_densiflorum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1337,11 +1727,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum densiflorum"
+      ],
       "en": [
-        "Bushy st. johnswort"
+        "Bushy st. johnswort",
+        "Hypericum densiflorum"
+      ],
+      "es": [
+        "Hypericum densiflorum"
+      ],
+      "fr": [
+        "Hypericum densiflorum"
+      ],
+      "it": [
+        "Hypericum densiflorum"
+      ],
+      "nl": [
+        "Hypericum densiflorum"
+      ],
+      "pl": [
+        "Hypericum densiflorum"
+      ],
+      "pt": [
+        "Hypericum densiflorum"
+      ],
+      "ru": [
+        "Hypericum densiflorum"
+      ],
+      "zh": [
+        "密花金丝桃"
       ]
     },
     "tags": [],
@@ -1353,7 +1773,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1369,7 +1789,7 @@
     "synonyms": "[\"Sarothra drummondii\", \"Brathys drummondii\"]",
     "care": {
       "plant_id": "hypericum_drummondii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1435,9 +1855,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum drummondii"
+      ],
+      "en": [
+        "Hypericum drummondii"
+      ],
+      "es": [
+        "Hypericum drummondii"
+      ],
+      "fr": [
+        "Hypericum drummondii"
+      ],
+      "it": [
+        "Hypericum drummondii"
+      ],
+      "nl": [
+        "Hypericum drummondii"
+      ],
+      "pl": [
+        "Hypericum drummondii"
+      ],
+      "pt": [
+        "Hypericum drummondii"
+      ],
+      "ru": [
+        "Hypericum drummondii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1447,12 +1897,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/16f481d6289926ba0c2518e9cbc79e7761d9425c",
-    "description": null,
+    "description": "Hypericum elegans is a species of flowering plant in the St. John's wort family Hypericaceae. It is native to Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1463,7 +1913,7 @@
     "synonyms": "[\"Hypericum kotoliani\", \"Hypericopsis elegans\", \"Hypericum hyssopifolium var. pauciglandulosum\", \"Hypericum elegans var. pectinatum\", \"Hypericum kohlianum\", \"Hypericum elegans var. stepposum\", \"Hypericum anagallidifolium\"]",
     "care": {
       "plant_id": "hypericum_elegans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1529,9 +1979,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zierliches Johanniskraut"
+      ],
+      "en": [
+        "Hypericum elegans"
+      ],
+      "es": [
+        "Hypericum elegans"
+      ],
+      "fr": [
+        "Hypericum elegans"
+      ],
+      "it": [
+        "Hypericum elegans"
+      ],
+      "nl": [
+        "Hypericum elegans"
+      ],
+      "pl": [
+        "Dziurawiec wytworny"
+      ],
+      "pt": [
+        "Hypericum elegans"
+      ],
+      "ru": [
+        "Hypericum elegans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1541,7 +2021,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1557,7 +2037,7 @@
     "synonyms": "[\"Brathydium canadense\", \"Hypericum brathydium\", \"Hypericum ellipticum f. foliosum\", \"Hypericum ellipticum f. submersum\", \"Hypericum sphaerocarpum\", \"Hypericum canadense var. oviforme\"]",
     "care": {
       "plant_id": "hypericum_ellipticum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1623,11 +2103,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum ellipticum"
+      ],
       "en": [
+        "Hypericum ellipticum",
         "Pale st. johnswort"
+      ],
+      "es": [
+        "Hypericum ellipticum"
+      ],
+      "fr": [
+        "Hypericum ellipticum"
+      ],
+      "it": [
+        "Hypericum ellipticum"
+      ],
+      "nl": [
+        "Hypericum ellipticum"
+      ],
+      "pl": [
+        "Hypericum ellipticum"
+      ],
+      "pt": [
+        "Hypericum ellipticum"
+      ],
+      "ru": [
+        "Hypericum ellipticum"
       ]
     },
     "tags": [],
@@ -1639,7 +2146,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1655,17 +2162,17 @@
     "synonyms": "[\"Elodes palustris\", \"Tripentas elodes\", \"Hypericum palustre\", \"Spachelodes elodes\", \"Hypericum enodes\", \"Hypericum elodes f. terrestre\", \"Elodes palustris f. submersa\", \"Hypericum elodes f. glabratum\", \"Elodes glandulosum\", \"Hypericum helodeum\"]",
     "care": {
       "plant_id": "hypericum_elodes",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1721,9 +2228,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sumpf-Johanniskraut"
+      ],
+      "en": [
+        "Hypericum elodes"
+      ],
+      "es": [
+        "Hypericum elodes"
+      ],
+      "fr": [
+        "Millepertuis des marais"
+      ],
+      "it": [
+        "Hypericum elodes"
+      ],
+      "nl": [
+        "Moerashertshooi"
+      ],
+      "pl": [
+        "Hypericum elodes"
+      ],
+      "pt": [
+        "Hypericum elodes"
+      ],
+      "ru": [
+        "Hypericum elodes"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1733,7 +2270,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1749,17 +2286,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypericum_erectum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1815,9 +2352,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum erectum"
+      ],
+      "en": [
+        "Hypericum erectum"
+      ],
+      "es": [
+        "Hypericum erectum"
+      ],
+      "fr": [
+        "Hypericum erectum"
+      ],
+      "it": [
+        "Hypericum erectum"
+      ],
+      "ja": [
+        "オトギリソウ"
+      ],
+      "ko": [
+        "고추나물"
+      ],
+      "nl": [
+        "Hypericum erectum"
+      ],
+      "pl": [
+        "Hypericum erectum"
+      ],
+      "pt": [
+        "Hypericum erectum"
+      ],
+      "ru": [
+        "Зверобой прямостоящий"
+      ],
+      "zh": [
+        "小连翘"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1827,12 +2403,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/056f911f7c1a3128d9a3e2152011da3e05a3839b",
-    "description": null,
+    "description": "Hypericum ericoides is a dwarf shrub in the flowering plant family Hypericaceae, section Coridium. It is found in eastern and southeastern Spain, Morocco, and Tunisia. Its preferred habitat is fissures in calcareous rocks in warm, sunny places, from 200 to 2,000 meters above sea level (MASL).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1843,17 +2419,17 @@
     "synonyms": "[\"Hypericum ericoides subsp. euericoides\"]",
     "care": {
       "plant_id": "hypericum_ericoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1909,9 +2485,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "عرنية إيريكوديس"
+      ],
+      "de": [
+        "Hypericum ericoides"
+      ],
+      "en": [
+        "Hypericum ericoides"
+      ],
+      "es": [
+        "Hypericum ericoides"
+      ],
+      "fr": [
+        "Hypericum ericoides"
+      ],
+      "it": [
+        "Hypericum ericoides"
+      ],
+      "nl": [
+        "Hypericum ericoides"
+      ],
+      "pl": [
+        "Hypericum ericoides"
+      ],
+      "pt": [
+        "Hypericum ericoides"
+      ],
+      "ru": [
+        "Hypericum ericoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1921,12 +2530,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d87caf2c924d3d59816056ee347bdc1b3140667f",
-    "description": null,
+    "description": "Hypericum fasciculatum, known as peelbark St. Johnswort or sandweed, is a species of flowering plant in the St. Johnswort family, Hypericaceae, native to the southeastern United States. It is found from eastern North Carolina, south to southern Florida, west to eastern Louisiana. Kew's Plants of the World Online database also notes that it occurs in Cuba, though Cuba is not listed in several other sources. It was first described in 1797 by Jean-Baptiste Lamarck.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1937,7 +2546,7 @@
     "synonyms": "[\"Myriandra brathydis\", \"Hypericum fulgidum\", \"Brathydium fulgidum\", \"Hypericum fasciculatum var. abbreviatum\", \"Hypericum fasciculatum var. aspalathoides\", \"Hypericum galioides var. fasciculatum\", \"Hypericum aspalathoides\", \"Hypericum galioides var. aspalathoides\"]",
     "care": {
       "plant_id": "hypericum_fasciculatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2003,11 +2612,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum fasciculatum"
+      ],
       "en": [
+        "Hypericum fasciculatum",
         "Peelbark st. johnswort"
+      ],
+      "es": [
+        "Hypericum fasciculatum"
+      ],
+      "fr": [
+        "Hypericum fasciculatum"
+      ],
+      "it": [
+        "Hypericum fasciculatum"
+      ],
+      "nl": [
+        "Hypericum fasciculatum"
+      ],
+      "pl": [
+        "Hypericum fasciculatum"
+      ],
+      "pt": [
+        "Hypericum fasciculatum"
+      ],
+      "ru": [
+        "Hypericum fasciculatum"
       ]
     },
     "tags": [],
@@ -2019,12 +2655,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Hypericum foliosum, the shining St John's wort, is a species of flowering plant in the family Hypericaceae. It is a bushy shrub endemic to the Portuguese Azores Islands with golden yellow petals and many stems. The species was described by William Aiton in 1789 and was later placed into section Androsaemum of the genus Hypericum by Norman Robson in 1984.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2035,17 +2671,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypericum_foliosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2101,9 +2737,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum foliosum"
+      ],
+      "en": [
+        "Hypericum foliosum"
+      ],
+      "es": [
+        "Hypericum foliosum"
+      ],
+      "fr": [
+        "Hypericum foliosum"
+      ],
+      "it": [
+        "Hypericum foliosum"
+      ],
+      "nl": [
+        "Hypericum foliosum"
+      ],
+      "pl": [
+        "Hypericum foliosum"
+      ],
+      "pt": [
+        "Hypericum foliosum"
+      ],
+      "ru": [
+        "Hypericum foliosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2113,12 +2779,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Hypericum galioides, the bedstraw St. Johnswort, is a species of flowering plant in the St. John's wort family, Hypericaceae. It is endemic to the Southeastern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2129,7 +2795,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypericum_galioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2195,9 +2861,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum galioides"
+      ],
+      "en": [
+        "Hypericum galioides"
+      ],
+      "es": [
+        "Hypericum galioides"
+      ],
+      "fr": [
+        "Hypericum galioides"
+      ],
+      "it": [
+        "Hypericum galioides"
+      ],
+      "ko": [
+        "갈퀴망종화"
+      ],
+      "nl": [
+        "Hypericum galioides"
+      ],
+      "pl": [
+        "Hypericum galioides"
+      ],
+      "pt": [
+        "Hypericum galioides"
+      ],
+      "ru": [
+        "Hypericum galioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2207,12 +2906,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5e85e3e61e489e4ee9ac0a0ad84ed177b91caaf3",
-    "description": null,
+    "description": "Hypericum gentianoides is a species of flowering plant in the St. John's wort family Hypericaceae. Its common names include orangegrass and pineweed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2223,17 +2922,17 @@
     "synonyms": "[\"Sarothra cuneifolia\", \"Hypericum sarothra\", \"Sarothra gentianoides\", \"Brathys gentianoides\", \"Sarothra hypericoides\", \"Hypericum nudicaule\"]",
     "care": {
       "plant_id": "hypericum_gentianoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2289,11 +2988,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Hypericum gentianoides"
+      ],
       "en": [
+        "Hypericum gentianoides",
         "Orangegrass"
+      ],
+      "es": [
+        "Hypericum gentianoides"
+      ],
+      "fr": [
+        "Hypericum gentianoides"
+      ],
+      "it": [
+        "Hypericum gentianoides"
+      ],
+      "nl": [
+        "Hypericum gentianoides"
+      ],
+      "pl": [
+        "Hypericum gentianoides"
+      ],
+      "pt": [
+        "Hypericum gentianoides"
+      ],
+      "ru": [
+        "Hypericum gentianoides"
       ]
     },
     "tags": [],
@@ -2305,7 +3031,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2321,17 +3047,17 @@
     "synonyms": "[\"Hypericum gramineum var. genuinum\", \"Hypericum japonicum var. kainantense\", \"Ascyrum involutum\", \"Brathys billardierei\", \"Hypericum japonicum var. lanceolatum\", \"Brathys forsteri\", \"Hypericum gramineum var. ericifolium\", \"Hypericum involutum\", \"Hypericum gramineum var. pedicellare\", \"Sarothra graminea\"]",
     "care": {
       "plant_id": "hypericum_gramineum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2387,9 +3113,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum gramineum"
+      ],
+      "en": [
+        "Hypericum gramineum"
+      ],
+      "es": [
+        "Hypericum gramineum"
+      ],
+      "fr": [
+        "Millepertuis à feuilles de gramen"
+      ],
+      "it": [
+        "Hypericum gramineum"
+      ],
+      "nl": [
+        "Hypericum gramineum"
+      ],
+      "pl": [
+        "Hypericum gramineum"
+      ],
+      "pt": [
+        "Hypericum gramineum"
+      ],
+      "ru": [
+        "Hypericum gramineum"
+      ],
+      "zh": [
+        "细叶金丝桃"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2399,12 +3158,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9bfa3b8d50e10548b1ca2c95a7c45b3465e5ea2c",
-    "description": null,
+    "description": "Hypericum hircinum is a species of perennial flowering plant in the St John's wort family, Hypericaceae. It is known as goat St John's wort and stinking tutsan; both names refer to the plant's distinctive odor. The species is a bushy shrub that can grow up to 1.5 meters tall, is many-stemmed, and has golden yellow flowers with conspicuous stamens. The plant has been well-documented in botanical literature, with mentions dating back to at least 1627. Carl Linnaeus described H.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2415,17 +3174,17 @@
     "synonyms": "[\"Androsaemum hircinum\"]",
     "care": {
       "plant_id": "hypericum_hircinum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2481,11 +3240,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "ar": [
+        "عرن ماعزي"
+      ],
+      "de": [
+        "Bocks-Johanniskraut"
+      ],
       "en": [
+        "Hypericum hircinum",
         "Stinking tutsan"
+      ],
+      "es": [
+        "Hypericum hircinum"
+      ],
+      "fr": [
+        "Hypericum hircinum"
+      ],
+      "it": [
+        "Hypericum hircinum"
+      ],
+      "nl": [
+        "Hypericum hircinum"
+      ],
+      "pl": [
+        "Hypericum hircinum"
+      ],
+      "pt": [
+        "Hypericum hircinum"
+      ],
+      "ru": [
+        "Зверобой козлиный"
       ]
     },
     "tags": [],
@@ -2497,7 +3286,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2513,17 +3302,17 @@
     "synonyms": "[\"Hypericum montanum var. pilosum\", \"Hypericum hirsutum f. calvescens\", \"Adenosepalum hirsutum\", \"Hypericum hirsutum var. congestum\", \"Hypericum villosum\", \"Hypericum ferrugineum\", \"Hypericum montanum f. congestum\", \"Hypericum hirsutum var. fimbriatum\", \"Hypericopsis hirsuta\", \"Hypericum montanum f. minus\"]",
     "care": {
       "plant_id": "hypericum_hirsutum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2544,9 +3333,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: phototoxic. Animal: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2564,8 +3353,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -2579,11 +3368,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Behaartes Johanniskraut"
+      ],
       "en": [
-        "Hairy st. john's-wort"
+        "Hairy st. john's-wort",
+        "Hypericum hirsutum"
+      ],
+      "es": [
+        "Hypericum hirsutum"
+      ],
+      "fr": [
+        "Millepertuis hérissé"
+      ],
+      "it": [
+        "Hypericum hirsutum"
+      ],
+      "nl": [
+        "Ruig hertshooi"
+      ],
+      "pl": [
+        "dziurawiec kosmaty"
+      ],
+      "pt": [
+        "Hypericum hirsutum"
+      ],
+      "ru": [
+        "Зверобой жестковолосый"
+      ],
+      "zh": [
+        "毛金丝桃"
       ]
     },
     "tags": [],
@@ -2595,7 +3414,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2611,17 +3430,17 @@
     "synonyms": "[\"Hypericum humifusum var. australe\", \"Hypericum humifusum var. decumbens\", \"Hypericum humifusum var. nanum\", \"Hypericum decumbens\", \"Hypericum humifusum var. pumilum\", \"Hypericum humifusum subsp. liottardii\", \"Hypericum liottardii\", \"Hypericum losae\", \"Hypericum humifusum var. losae\", \"Hypericum humifusum f. laxum\"]",
     "care": {
       "plant_id": "hypericum_humifusum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2642,9 +3461,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: phototoxic. Animal: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2662,8 +3481,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -2677,11 +3496,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Niederliegendes Johanniskraut"
+      ],
       "en": [
+        "Hypericum humifusum",
         "Trailing st. john's-wort"
+      ],
+      "es": [
+        "Hypericum humifusum"
+      ],
+      "fr": [
+        "Hypericum humifusum"
+      ],
+      "it": [
+        "Hypericum humifusum"
+      ],
+      "nl": [
+        "Liggend hertshooi"
+      ],
+      "pl": [
+        "dziurawiec rozesłany"
+      ],
+      "pt": [
+        "Hypericum humifusum"
+      ],
+      "ru": [
+        "Зверобой распростёртый"
       ]
     },
     "tags": [],
@@ -2693,12 +3539,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/908a0357bd6c69b7ea7e3fa9a30095e94a725f92",
-    "description": "Oval capsules contain several seeds",
+    "description": "Hypericum hypericoides, commonly called St. Andrew's cross, is a species of flowering plant in the St. John's wort family, Hypericaceae. It is native to the Southeastern United States, Mexico, Central America, and the Caribbean. Its preferred habitat is dry woods on acidic soil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2709,17 +3555,17 @@
     "synonyms": "[\"Ascyrum hypericoides var. typicum\", \"Ascyrum hypericoides\"]",
     "care": {
       "plant_id": "hypericum_hypericoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2778,11 +3624,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Hypericum hypericoides"
+      ],
       "en": [
+        "Hypericum hypericoides",
         "St. andrew's-cross"
+      ],
+      "es": [
+        "Hypericum hypericoides"
+      ],
+      "fr": [
+        "Hypericum hypericoides"
+      ],
+      "it": [
+        "Hypericum hypericoides"
+      ],
+      "nl": [
+        "Hypericum hypericoides"
+      ],
+      "pl": [
+        "Hypericum hypericoides"
+      ],
+      "pt": [
+        "Hypericum hypericoides"
+      ],
+      "ru": [
+        "Hypericum hypericoides"
       ]
     },
     "tags": [],
@@ -2794,12 +3667,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f26f96feba7e07364bba499c97ea6724e999a56e",
-    "description": null,
+    "description": "Hypericum hyssopifolium, the hyssop-leaved St. John's wort, is a species of flowering plant of the St. John's wort family (Hypericaceae) which is native to the Mediterranean and Black Sea regions. It grows on chalky or limestone soil in open woods or scrub at elevations of 500–1,800 m (1,600–5,900 ft) in Spain, France, Italy, Bulgaria, Crimea, and the Caucasus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2810,7 +3683,7 @@
     "synonyms": "[\"Hypericum fasciculatum\", \"Hypericum diversifolium\"]",
     "care": {
       "plant_id": "hypericum_hyssopifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2876,9 +3749,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum hyssopifolium"
+      ],
+      "en": [
+        "Hypericum hyssopifolium"
+      ],
+      "es": [
+        "Hypericum hyssopifolium"
+      ],
+      "fr": [
+        "Hypericum hyssopifolium"
+      ],
+      "it": [
+        "Hypericum hyssopifolium"
+      ],
+      "nl": [
+        "Hypericum hyssopifolium"
+      ],
+      "pl": [
+        "Hypericum hyssopifolium"
+      ],
+      "pt": [
+        "Hypericum hyssopifolium"
+      ],
+      "ru": [
+        "Hypericum hyssopifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2888,12 +3791,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/85af990be176b13b6c42e1fa1c2b97f2023efc2e",
-    "description": null,
+    "description": "Hypericum japonicum, known as matted St. John's-wort, is an annual herbaceous flowering plant in the St. John's wort family Hypericaceae, in Hypericum sect. Trigynobrathys.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2904,17 +3807,17 @@
     "synonyms": "[\"Hypericum japonicum var. typicum\", \"Hypericum japonicum var. humifusum\", \"Reseda cochinchinensis\", \"Brathys humifusa\", \"Hypericum calycatum\", \"Hypericum japonicum var. ramosum\", \"Hypericum japonicum var. robustum\", \"Sarothra laxa f. erecta\", \"Hypericum thunbergii\", \"Hypericum japonicum f. yabei\"]",
     "care": {
       "plant_id": "hypericum_japonicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2970,11 +3873,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Hypericum japonicum"
+      ],
       "en": [
+        "Hypericum japonicum",
         "Matted st. john's-wort"
+      ],
+      "es": [
+        "Hypericum japonicum"
+      ],
+      "fr": [
+        "Hypericum japonicum"
+      ],
+      "it": [
+        "Hypericum japonicum"
+      ],
+      "nl": [
+        "Hypericum japonicum"
+      ],
+      "pl": [
+        "Hypericum japonicum"
+      ],
+      "pt": [
+        "Hypericum japonicum"
+      ],
+      "ru": [
+        "Hypericum japonicum"
+      ],
+      "zh": [
+        "地耳草"
       ]
     },
     "tags": [],
@@ -2986,7 +3919,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3002,7 +3935,7 @@
     "synonyms": "[\"Hypericum brathys\", \"Brathys juniperina\", \"Hypericum brathys var. juniperinum\", \"Sarothra juniperina\", \"Brathys juniperina\", \"Hypericum strictum var. reductum\", \"Hypericum holtonii\", \"Hypericum jahnii\", \"Hypericum pseudobrathys\"]",
     "care": {
       "plant_id": "hypericum_juniperinum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3068,9 +4001,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum juniperinum"
+      ],
+      "en": [
+        "Hypericum juniperinum"
+      ],
+      "es": [
+        "Hypericum juniperinum"
+      ],
+      "fr": [
+        "Hypericum juniperinum"
+      ],
+      "it": [
+        "Hypericum juniperinum"
+      ],
+      "nl": [
+        "Hypericum juniperinum"
+      ],
+      "pl": [
+        "Hypericum juniperinum"
+      ],
+      "pt": [
+        "Hypericum juniperinum"
+      ],
+      "ru": [
+        "Hypericum juniperinum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3080,7 +4043,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3096,7 +4059,7 @@
     "synonyms": "[\"Hypericum lanatum\", \"Norysca kalmiana\", \"Hypericum kalmianum var. elongatum\"]",
     "care": {
       "plant_id": "hypericum_kalmianum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3162,11 +4125,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum kalmianum"
+      ],
       "en": [
+        "Hypericum kalmianum",
         "Kalm's st. john's-wort"
+      ],
+      "es": [
+        "Hypericum kalmianum"
+      ],
+      "fr": [
+        "Hypericum kalmianum"
+      ],
+      "it": [
+        "Hypericum kalmianum"
+      ],
+      "nl": [
+        "Hypericum kalmianum"
+      ],
+      "pl": [
+        "Hypericum kalmianum"
+      ],
+      "pt": [
+        "Hypericum kalmianum"
+      ],
+      "ru": [
+        "Hypericum kalmianum"
       ]
     },
     "tags": [],
@@ -3178,7 +4168,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3194,17 +4184,17 @@
     "synonyms": "[\"Norysca lanceolata\", \"Campylosporus reticulatus\"]",
     "care": {
       "plant_id": "hypericum_lanceolatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3260,9 +4250,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ضرار"
+      ],
+      "de": [
+        "Hypericum lanceolatum"
+      ],
+      "en": [
+        "Hypericum lanceolatum"
+      ],
+      "es": [
+        "Hypericum lanceolatum"
+      ],
+      "fr": [
+        "Fleur jaune"
+      ],
+      "it": [
+        "Hypericum lanceolatum"
+      ],
+      "ja": [
+        "ヒペリクム・ランケオラトゥム"
+      ],
+      "nl": [
+        "Hypericum lanceolatum"
+      ],
+      "pl": [
+        "Hypericum lanceolatum"
+      ],
+      "pt": [
+        "Hypericum lanceolatum"
+      ],
+      "ru": [
+        "Hypericum lanceolatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3272,12 +4298,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/42e3cd88bef3c83c4e63ceb42deebeffc1461c1e",
-    "description": null,
+    "description": "Hypericum laricifolium is a shrub plant in the family Hypericaceae which is native to Venezuela and Peru.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3288,7 +4314,7 @@
     "synonyms": "[\"Brathys laricifolia\", \"Hypericum tinctorum\", \"Hypericum laricifolium var. acerosum\", \"Hypericum acerosum\", \"Hypericum platypetalum\", \"Hypericum laricoides\", \"Hypericum racemulosum\", \"Brathys acerosa\"]",
     "care": {
       "plant_id": "hypericum_laricifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3354,9 +4380,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum laricifolium"
+      ],
+      "en": [
+        "Hypericum laricifolium"
+      ],
+      "es": [
+        "Hypericum laricifolium"
+      ],
+      "fr": [
+        "Hypericum laricifolium"
+      ],
+      "it": [
+        "Hypericum laricifolium"
+      ],
+      "nl": [
+        "Hypericum laricifolium"
+      ],
+      "pl": [
+        "Hypericum laricifolium"
+      ],
+      "pt": [
+        "Hypericum laricifolium"
+      ],
+      "ru": [
+        "Hypericum laricifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3366,7 +4422,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3382,17 +4438,17 @@
     "synonyms": "[\"Hypericum pulchrum\", \"Hypericum linearifolium\", \"Hypericum linariifolium proles obtusisepalum\", \"Hypericum linariifolium var. radicans\", \"Hypericum angustifolium\", \"Hypericum linariifolium var. parviflorum\", \"Hypericum karsianum\", \"Hypericum humifusum subsp. linariifolium\", \"Hypericum linariifolium var. approximatum\", \"Hypericum linariifolium var. montanum\"]",
     "care": {
       "plant_id": "hypericum_linariifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3448,11 +4504,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Hypericum linariifolium"
+      ],
       "en": [
+        "Hypericum linariifolium",
         "Toadflax-leaf st. john's-wort"
+      ],
+      "es": [
+        "Hypericum linariifolium"
+      ],
+      "fr": [
+        "Hypericum linariifolium"
+      ],
+      "it": [
+        "Hypericum linariifolium"
+      ],
+      "nl": [
+        "Hypericum linariifolium"
+      ],
+      "pl": [
+        "Hypericum linariifolium"
+      ],
+      "pt": [
+        "Hypericum linariifolium"
+      ],
+      "ru": [
+        "Hypericum linariifolium"
       ]
     },
     "tags": [],
@@ -3464,7 +4547,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3480,17 +4563,17 @@
     "synonyms": "[\"Hypericum quadrangulum var. maculatum\", \"Hypericum quadrangulum subsp. maculatum\"]",
     "care": {
       "plant_id": "hypericum_maculatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3511,9 +4594,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: phototoxic. Animal: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3531,8 +4614,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -3546,11 +4629,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "ar": [
+        "نبتة سانت جون"
+      ],
+      "de": [
+        "Geflecktes Johanniskraut"
+      ],
       "en": [
+        "Hypericum maculatum",
         "Spotted st. john's-wort"
+      ],
+      "es": [
+        "Hypericum maculatum"
+      ],
+      "fr": [
+        "Millepertuis taché"
+      ],
+      "it": [
+        "Hypericum maculatum"
+      ],
+      "nl": [
+        "gevlekt hertshooi"
+      ],
+      "pl": [
+        "dziurawiec czteroboczny"
+      ],
+      "pt": [
+        "Hypericum maculatum"
+      ],
+      "ru": [
+        "Hypericum maculatum"
       ]
     },
     "tags": [],
@@ -3562,12 +4675,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f231b9082cd3531de03d9f11e70497cdc2b906a7",
-    "description": null,
+    "description": "Hypericum majus, the greater Canadian St. John's wort, is a perennial herb native to North America. The specific epithet majus means \"larger\". The plant has a diploid number of 16.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3578,7 +4691,7 @@
     "synonyms": "[\"Sarothra major\", \"Hypericum canadense var. majus\", \"Hypericum mutilum var. longifolium\"]",
     "care": {
       "plant_id": "hypericum_majus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3644,11 +4757,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum majus"
+      ],
       "en": [
+        "Hypericum majus",
         "Large st. johnswort"
+      ],
+      "es": [
+        "Hypericum majus"
+      ],
+      "fr": [
+        "Hypericum majus"
+      ],
+      "it": [
+        "Hypericum majus"
+      ],
+      "nl": [
+        "Hypericum majus"
+      ],
+      "pl": [
+        "Hypericum majus"
+      ],
+      "pt": [
+        "Hypericum majus"
+      ],
+      "ru": [
+        "Hypericum majus"
       ]
     },
     "tags": [],
@@ -3660,7 +4800,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3676,17 +4816,17 @@
     "synonyms": "[\"Hypericum montanum subsp. elegantissimum\", \"Hypericum montanum f. verticillatum\", \"Hypericum montanum var. triphyllum\", \"Hypericum confertum\", \"Hypericum montanum f. humifusoides\", \"Hypericum elegantissimum\", \"Hypericum montanum var. scabrum\", \"Hypericum montanum f. ternatum\", \"Hypericum glandulosum\", \"Hypericum montanum f. abbreviatum\"]",
     "care": {
       "plant_id": "hypericum_montanum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3707,9 +4847,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: phototoxic. Animal: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3727,8 +4867,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -3742,11 +4882,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "de": [
+        "Berg-Johanniskraut"
+      ],
       "en": [
+        "Hypericum montanum",
         "Pale st. john's-wort"
+      ],
+      "es": [
+        "Hypericum montanum"
+      ],
+      "fr": [
+        "Millepertuis des montagnes"
+      ],
+      "it": [
+        "Hypericum montanum"
+      ],
+      "nl": [
+        "Berghertshooi"
+      ],
+      "pl": [
+        "dziurawiec skąpolistny"
+      ],
+      "pt": [
+        "Hypericum montanum"
+      ],
+      "ru": [
+        "Зверобой горный"
       ]
     },
     "tags": [],
@@ -3758,12 +4925,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d89b175187f1e3c8327206f5bd0bd3cd77483052",
-    "description": null,
+    "description": "Hypericum mutilum is a species of St. John's wort known by the common name dwarf St. John's wort. It is native to parts of North America and is present in other parts as an introduced species. It is an annual or perennial herb taking a multibranched erect form up to about 60 centimeters tall. The oval green leaves are one or two centimeters long and are covered in tiny glands. The inflorescence is a compound cyme of tiny flowers. H. mutilum subsp. mutilum and subsp.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3774,17 +4941,17 @@
     "synonyms": "[\"Sarothra mutila\"]",
     "care": {
       "plant_id": "hypericum_mutilum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3840,11 +5007,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Hypericum mutilum"
+      ],
       "en": [
-        "Dwarf st. johnswort"
+        "Dwarf st. johnswort",
+        "Hypericum mutilum"
+      ],
+      "es": [
+        "Hypericum mutilum"
+      ],
+      "fr": [
+        "Hypericum mutilum"
+      ],
+      "it": [
+        "Hypericum mutilum"
+      ],
+      "nl": [
+        "Hypericum mutilum"
+      ],
+      "pl": [
+        "Hypericum mutilum"
+      ],
+      "pt": [
+        "Hypericum mutilum"
+      ],
+      "ru": [
+        "Зверобой недоразвитый"
       ]
     },
     "tags": [],
@@ -3856,7 +5050,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3872,17 +5066,17 @@
     "synonyms": "[\"Hypericum nummulariifolium\", \"Adenosepalum nummularium\", \"Elodes nummularia\"]",
     "care": {
       "plant_id": "hypericum_nummularium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3938,11 +5132,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Pfennigblättriges Johanniskraut"
+      ],
       "en": [
+        "Hypericum nummularium",
         "Round-leaved st john's-wort"
+      ],
+      "es": [
+        "Hypericum nummularium"
+      ],
+      "fr": [
+        "Millepertuis à sous"
+      ],
+      "it": [
+        "Hypericum nummularium"
+      ],
+      "nl": [
+        "Hypericum nummularium"
+      ],
+      "pl": [
+        "Hypericum nummularium"
+      ],
+      "pt": [
+        "Hypericum nummularium"
+      ],
+      "ru": [
+        "Hypericum nummularium"
       ]
     },
     "tags": [],
@@ -3954,7 +5175,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3970,17 +5191,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypericum_perfoliatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4036,9 +5257,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum perfoliatum"
+      ],
+      "en": [
+        "Hypericum perfoliatum"
+      ],
+      "es": [
+        "Hypericum perfoliatum"
+      ],
+      "fr": [
+        "Hypericum perfoliatum"
+      ],
+      "it": [
+        "Hypericum perfoliatum"
+      ],
+      "nl": [
+        "Hypericum perfoliatum"
+      ],
+      "pl": [
+        "Hypericum perfoliatum"
+      ],
+      "pt": [
+        "Hypericum perfoliatum"
+      ],
+      "ru": [
+        "Hypericum perfoliatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4048,7 +5299,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4064,17 +5315,17 @@
     "synonyms": "[\"Hypericum vulgare\", \"Hypericum perforatum var. vulgare\", \"Hypericum officinale\", \"Hypericum officinarum\", \"Hypericum perforatum subsp. vulgare\"]",
     "care": {
       "plant_id": "hypericum_perforatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4096,7 +5347,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Achillea millefolium",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Horses. Signs: Photosensitization (sunburn, dermatitis)",
       "common_problems": null,
       "common_pests": null,
@@ -4115,7 +5366,7 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
+      "toxic_parts": "Whole plant",
       "toxicity_severity": "Mild",
       "toxicity_symptoms": "Photosensitization (sunburn, dermatitis)",
       "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
@@ -4130,11 +5381,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "عرن مثقوب"
+      ],
+      "de": [
+        "Echtes Johanniskraut"
+      ],
       "en": [
+        "Hypericum perforatum",
         "Klamathweed"
+      ],
+      "es": [
+        "Hypericum perforatum"
+      ],
+      "fr": [
+        "Hypericum perforatum"
+      ],
+      "it": [
+        "Hypericum perforatum"
+      ],
+      "ja": [
+        "セント・ジョーンズ・ワート"
+      ],
+      "ko": [
+        "서양고추나물"
+      ],
+      "nl": [
+        "sint-Janskruid"
+      ],
+      "pl": [
+        "dziurawiec zwyczajny"
+      ],
+      "pt": [
+        "Hipericão"
+      ],
+      "ru": [
+        "Зверобой продырявленный"
+      ],
+      "tr": [
+        "Kantaron"
+      ],
+      "zh": [
+        "貫葉連翹"
       ]
     },
     "tags": [],
@@ -4146,12 +5439,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a339ab16740ae038270fb988a3b979ba589eb7d6",
-    "description": "A (2)3-5 celled ovoid 1/2 inch capsule, sometimes fleshy. Displays from July to November.",
+    "description": "Hypericum prolificum, known as shrubby St. John's wort, is a deciduous shrub in the genus Hypericum. It was named for its \"prolific\" number of stamens.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4162,17 +5455,17 @@
     "synonyms": "[\"Hypericum kalmianum var. majus\", \"Hypericum foliosum\", \"Brathys prolifica\", \"Hypericum spathulatum\", \"Myriandra prolifica var. spathulata\", \"Myriandra ledifolia\", \"Hypericum proliferum\", \"Myriandra spathulata\", \"Hypericum cryptopetalum\", \"Myriandra prolifica\"]",
     "care": {
       "plant_id": "hypericum_prolificum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4228,11 +5521,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Hypericum prolificum"
+      ],
       "en": [
-        "Broombush"
+        "Broombush",
+        "Hypericum prolificum"
+      ],
+      "es": [
+        "Hypericum prolificum"
+      ],
+      "fr": [
+        "Hypericum prolificum"
+      ],
+      "it": [
+        "Hypericum prolificum"
+      ],
+      "nl": [
+        "Hypericum prolificum"
+      ],
+      "pl": [
+        "Hypericum prolificum"
+      ],
+      "pt": [
+        "Hypericum prolificum"
+      ],
+      "ru": [
+        "Hypericum prolificum"
       ]
     },
     "tags": [],
@@ -4244,7 +5564,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4260,7 +5580,7 @@
     "synonyms": "[\"Hypericum pseudopetiolatum f. suberectum\", \"Hypericum oliganthum f. elatum\", \"Hypericum penthorodes f. lucidum\", \"Hypericum koshiense\", \"Hypericum oliganthum f. montanum\", \"Hypericum pseudopetiolatum f. montanum\", \"Hypericum lygophyllum\", \"Hypericum pseudopetiolatum f. elatum\", \"Hypericum fukudae\", \"Hypericum oliganthum f. suberectum\"]",
     "care": {
       "plant_id": "hypericum_pseudopetiolatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4326,9 +5646,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum pseudopetiolatum"
+      ],
+      "en": [
+        "Hypericum pseudopetiolatum"
+      ],
+      "es": [
+        "Hypericum pseudopetiolatum"
+      ],
+      "fr": [
+        "Hypericum pseudopetiolatum"
+      ],
+      "it": [
+        "Hypericum pseudopetiolatum"
+      ],
+      "nl": [
+        "Hypericum pseudopetiolatum"
+      ],
+      "pl": [
+        "Hypericum pseudopetiolatum"
+      ],
+      "pt": [
+        "Hypericum pseudopetiolatum"
+      ],
+      "ru": [
+        "Hypericum pseudopetiolatum"
+      ],
+      "zh": [
+        "短柄金丝桃"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4338,7 +5691,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4354,17 +5707,17 @@
     "synonyms": "[\"Hypericum pulchrum var. filicaule\", \"Hypericopsis pulchra\", \"Hypericum amplexicaule\", \"Hypericum pulchrum var. gillotii\", \"Adenosepalum pulchrum\", \"Hypericum pulchrum var. pallidum\", \"Hypericum pulchrum var. procumbens\", \"Hypericum pulchrum f. procumbens\", \"Hypericum pulchrum var. pallidum\"]",
     "care": {
       "plant_id": "hypericum_pulchrum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4385,9 +5738,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: phototoxic. Animal: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -4405,8 +5758,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -4420,11 +5773,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Schönes Johanniskraut"
+      ],
       "en": [
+        "Hypericum pulchrum",
         "Slender st. john's-wort"
+      ],
+      "es": [
+        "Hypericum pulchrum"
+      ],
+      "fr": [
+        "Millepertuis élégant"
+      ],
+      "it": [
+        "Hypericum pulchrum"
+      ],
+      "nl": [
+        "Fraai hertshooi"
+      ],
+      "pl": [
+        "dziurawiec nadobny"
+      ],
+      "pt": [
+        "Hypericum pulchrum"
+      ],
+      "ru": [
+        "Hypericum pulchrum"
       ]
     },
     "tags": [],
@@ -4436,12 +5816,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e0b10b59d2f7db71f3d7c2eedc67724a27fbcb14",
-    "description": null,
+    "description": "Hypericum punctatum, the spotted St. John's wort, is a perennial herb native to North America. The yellow-flowered herb occurs throughout eastern North America into southern Canada. The process of microsporogenesis carried out by this plant is prone to errors in chromosomal segregation. It has a diploid number of 14 or 16. Insects are attracted to the plant's pollen and the hypericin in the plant's leaves is toxic to mammals.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4452,17 +5832,17 @@
     "synonyms": "[\"Hypericum corymbosum\", \"Hypericum maculatum var. heterophyllum\", \"Hypericum maculatum var. subcordifolium\", \"Hypericum maculatum var. subpetiolatum\", \"Hypericum micranthum\", \"Hypericum subpetiolatum\", \"Hypericum maculatum var. corymbosum\", \"Hypericum maculatum\", \"Hypericum punctatum f. subpetiolatum\"]",
     "care": {
       "plant_id": "hypericum_punctatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4518,11 +5898,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Hypericum punctatum"
+      ],
       "en": [
-        "Dotted st. john's-wort"
+        "Dotted st. john's-wort",
+        "Hypericum punctatum"
+      ],
+      "es": [
+        "Hypericum punctatum"
+      ],
+      "fr": [
+        "Hypericum punctatum"
+      ],
+      "it": [
+        "Hypericum punctatum"
+      ],
+      "nl": [
+        "Hypericum punctatum"
+      ],
+      "pl": [
+        "Hypericum punctatum"
+      ],
+      "pt": [
+        "Hypericum punctatum"
+      ],
+      "ru": [
+        "Hypericum punctatum"
       ]
     },
     "tags": [],
@@ -4534,12 +5941,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4b6317c7fb16189e0846cadb26958f7c49094f16",
-    "description": null,
+    "description": "Hypericum revolutum is a shrub or small tree in the genus Hypericum native to Arabia and Africa. It is evergreen, with leaves opposite, closely spaced and crowded at the ends of branches, c. 20 × 5 mm, green to slightly glaucous, sessile, clasping at the base. Single bright yellow flowers form at the ends of branches, up to 5 cm in diameter, blooming from June to November. Fruit is a reddish-brown capsule, up to 13 × 10 mm.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4550,7 +5957,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypericum_revolutum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4616,11 +6023,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum revolutum"
+      ],
       "en": [
-        "Currybush"
+        "Currybush",
+        "Hypericum revolutum"
+      ],
+      "es": [
+        "Hypericum revolutum"
+      ],
+      "fr": [
+        "Hypericum revolutum"
+      ],
+      "it": [
+        "Hypericum revolutum"
+      ],
+      "ja": [
+        "ヒペリクム・レウォルツム"
+      ],
+      "nl": [
+        "Hypericum revolutum"
+      ],
+      "pl": [
+        "Hypericum revolutum"
+      ],
+      "pt": [
+        "Hypericum revolutum"
+      ],
+      "ru": [
+        "Hypericum revolutum"
       ]
     },
     "tags": [],
@@ -4632,7 +6069,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4648,17 +6085,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypericum_richeri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4714,11 +6151,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "de": [
+        "Richers Johanniskraut"
+      ],
       "en": [
-        "Alpine st john's-wort"
+        "Alpine st john's-wort",
+        "Hypericum richeri"
+      ],
+      "es": [
+        "Hypericum richeri"
+      ],
+      "fr": [
+        "Hypericum richeri"
+      ],
+      "it": [
+        "Hypericum richeri"
+      ],
+      "nl": [
+        "Hypericum richeri"
+      ],
+      "pl": [
+        "Hypericum richeri"
+      ],
+      "pt": [
+        "Hypericum richeri"
+      ],
+      "ru": [
+        "Hypericum richeri"
       ]
     },
     "tags": [],
@@ -4730,12 +6194,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5f09ef389435fedf50e302b1f6deae165b83066c",
-    "description": null,
+    "description": "Hypericum scouleri, known by the common name Scouler's St. John's wort in English, is a flowering species of plant from western North America. It grows in areas around streams and wetlands from Canada to the highlands of Mexico. It is sometimes mistaken for the invasive Perforate St John's wort from Eurasia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4746,7 +6210,7 @@
     "synonyms": "[\"Hypericum nortoniae\", \"Hypericum formosum\", \"Hypericum scouleri subsp. nortoniae\", \"Hypericum formosum var. nortoniae\", \"Hypericum simulans\", \"Hypericum formosum subsp. scouleri\", \"Hypericum formosum var. scouleri\", \"Hypericum collinum var. schmitzii\"]",
     "care": {
       "plant_id": "hypericum_scouleri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4812,11 +6276,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum scouleri"
+      ],
       "en": [
+        "Hypericum scouleri",
         "Scouler's st. johnswort"
+      ],
+      "es": [
+        "Hypericum scouleri"
+      ],
+      "fr": [
+        "Hypericum scouleri"
+      ],
+      "it": [
+        "Hypericum scouleri"
+      ],
+      "nl": [
+        "Hypericum scouleri"
+      ],
+      "pl": [
+        "Hypericum scouleri"
+      ],
+      "pt": [
+        "Hypericum scouleri"
+      ],
+      "ru": [
+        "Hypericum scouleri"
       ]
     },
     "tags": [],
@@ -4828,7 +6319,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4844,7 +6335,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypericum_silenoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4910,9 +6401,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum silenoides"
+      ],
+      "en": [
+        "Hypericum silenoides"
+      ],
+      "es": [
+        "Hypericum silenoides"
+      ],
+      "fr": [
+        "Hypericum silenoides"
+      ],
+      "it": [
+        "Hypericum silenoides"
+      ],
+      "nl": [
+        "Hypericum silenoides"
+      ],
+      "pl": [
+        "Hypericum silenoides"
+      ],
+      "pt": [
+        "Hypericum silenoides"
+      ],
+      "ru": [
+        "Hypericum silenoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4922,12 +6443,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9fed94949dca3902fd98c43c999c79ae919f327a",
-    "description": null,
+    "description": "Hypericum sphaerocarpum, the roundseed St. Johnswort or barrens St. John's wort, is a species of flowering plant in the St. John's wort family. It is native to the Eastern United States where it is primarily found in the Midwest and Mid-South as well as Ontario, Canada. Its preferred habitat is dry, calcareous glades and prairies.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4938,7 +6459,7 @@
     "synonyms": "[\"Brathydium chamaenerium\", \"Hypericum chamaenerium\", \"Hypericum sphaerocarpum var. turgidum\", \"Hypericum turgidum\", \"Hypericum dolabriforme\", \"Brathydium sphaerocarpum\"]",
     "care": {
       "plant_id": "hypericum_sphaerocarpum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5004,11 +6525,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum sphaerocarpum"
+      ],
       "en": [
+        "Hypericum sphaerocarpum",
         "Roundseed st. johnswort"
+      ],
+      "es": [
+        "Hypericum sphaerocarpum"
+      ],
+      "fr": [
+        "Hypericum sphaerocarpum"
+      ],
+      "it": [
+        "Hypericum sphaerocarpum"
+      ],
+      "nl": [
+        "Hypericum sphaerocarpum"
+      ],
+      "pl": [
+        "Hypericum sphaerocarpum"
+      ],
+      "pt": [
+        "Hypericum sphaerocarpum"
+      ],
+      "ru": [
+        "Hypericum sphaerocarpum"
       ]
     },
     "tags": [],
@@ -5020,12 +6568,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/5827ea225051414b53c3c35c6428b4b9.jpg",
-    "description": "A (2)3-5 celled capsule, sometimes fleshy. Displays from July to October.",
+    "description": "Hypericum tenuifolium, known as Atlantic St. John's-wort and sandhill St. John's-wort, is a species of flowering plant in the St. John's wort family, Hypericaceae. It is endemic to the Southeastern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5036,7 +6584,7 @@
     "synonyms": "[\"Hypericum coris\", \"Hypericum reductum\", \"Hypericum fasciculatum var. laxifolium\", \"Hypericum galioides var. reductum\"]",
     "care": {
       "plant_id": "hypericum_tenuifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5102,9 +6650,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum tenuifolium"
+      ],
+      "en": [
+        "Hypericum tenuifolium"
+      ],
+      "es": [
+        "Hypericum tenuifolium"
+      ],
+      "fr": [
+        "Hypericum tenuifolium"
+      ],
+      "it": [
+        "Hypericum tenuifolium"
+      ],
+      "nl": [
+        "Hypericum tenuifolium"
+      ],
+      "pl": [
+        "Hypericum tenuifolium"
+      ],
+      "pt": [
+        "Hypericum tenuifolium"
+      ],
+      "ru": [
+        "Hypericum tenuifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5114,12 +6692,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5f73dde5cef7405bfc18c7da1888436389174db1",
-    "description": null,
+    "description": "Hypericum tetrapetalum, the fourpetal St. Johnswort, is a species of flowering plant in the St. John's wort family, Hypericaceae. It is found in the Southeastern United States and Cuba. It was first described by Jean-Baptiste Lamarck in 1797.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5130,7 +6708,7 @@
     "synonyms": "[\"Ascyrum tetrapetalum\", \"Ascyrum cubense\", \"Hypericum cubense\", \"Ascyrum amplexicaule\"]",
     "care": {
       "plant_id": "hypericum_tetrapetalum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5196,11 +6774,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypericum tetrapetalum"
+      ],
       "en": [
-        "Fourpetal st. johnswort"
+        "Fourpetal st. johnswort",
+        "Hypericum tetrapetalum"
+      ],
+      "es": [
+        "Hypericum tetrapetalum"
+      ],
+      "fr": [
+        "Hypericum tetrapetalum"
+      ],
+      "it": [
+        "Hypericum tetrapetalum"
+      ],
+      "nl": [
+        "Hypericum tetrapetalum"
+      ],
+      "pl": [
+        "Hypericum tetrapetalum"
+      ],
+      "pt": [
+        "Hypericum tetrapetalum"
+      ],
+      "ru": [
+        "Hypericum tetrapetalum"
       ]
     },
     "tags": [],
@@ -5212,7 +6817,7 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5228,17 +6833,17 @@
     "synonyms": "[\"Hypericum acutum subsp. tetrapterum\", \"Hypericum quadrialatum\", \"Hypericum tetrapterum var. genuinum\", \"Hypericum quadrangulum subsp. tetrapterum\", \"Hypericum quadrangulum var. tetrapterum\"]",
     "care": {
       "plant_id": "hypericum_tetrapterum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5259,9 +6864,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: phototoxic. Animal: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5279,8 +6884,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -5294,11 +6899,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.4
     },
     "common_names": {
+      "de": [
+        "Geflügeltes Johanniskraut"
+      ],
       "en": [
+        "Hypericum tetrapterum",
         "St. peter's-wort"
+      ],
+      "es": [
+        "Hypericum tetrapterum"
+      ],
+      "fr": [
+        "Hypericum tetrapterum"
+      ],
+      "it": [
+        "Hypericum tetrapterum"
+      ],
+      "nl": [
+        "gevleugeld hertshooi"
+      ],
+      "pl": [
+        "dziurawiec skrzydełkowaty"
+      ],
+      "pt": [
+        "Hypericum tetrapterum"
+      ],
+      "ru": [
+        "Зверобой четырёхкрылый"
       ]
     },
     "tags": [],
@@ -5310,12 +6942,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2c30acb749644d8f98a1a02a902e3c826a752ffe",
-    "description": null,
+    "description": "Hypericum tomentosum is a species of flowering plant of the St. John's wort family (Hypericaceae) that is found in the western Mediterranean.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5326,17 +6958,17 @@
     "synonyms": "[\"Hypericum tomentosum subsp. wallianum\", \"Hypericum tomentosum proles lusitanicum\", \"Hypericum tomentosum var. glabrescens\", \"Hypericum tomentosum var. genuinum\", \"Hypericum tomentosum var. densifolium\", \"Hypericum supinum\", \"Hypericum canescens\", \"Hypericum tomentosum var. lusitanicum\", \"Hypericum tomentosum var. intermedium\", \"Hypericum tomentosum var. racemosum\"]",
     "care": {
       "plant_id": "hypericum_tomentosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5392,9 +7024,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypericum tomentosum"
+      ],
+      "en": [
+        "Hypericum tomentosum"
+      ],
+      "es": [
+        "Hypericum tomentosum"
+      ],
+      "fr": [
+        "Hypericum tomentosum"
+      ],
+      "it": [
+        "Hypericum tomentosum"
+      ],
+      "nl": [
+        "Hypericum tomentosum"
+      ],
+      "pl": [
+        "Hypericum tomentosum"
+      ],
+      "pt": [
+        "Hypericum tomentosum"
+      ],
+      "ru": [
+        "Hypericum tomentosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5404,12 +7066,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7810ddab02b836da105e354e0fbe53e299de9d6b",
-    "description": null,
+    "description": "Hypericum triquetrifolium, commonly called curled-leaved St. John's-wort, is a species of plant of the family Hypericaceae. It is native to the Mediterranean Basin.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5420,7 +7082,7 @@
     "synonyms": "[\"Hypericum crispum\", \"Hypericum patentissimum\"]",
     "care": {
       "plant_id": "hypericum_triquetrifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5486,11 +7148,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "عرن مثلث الأوراق"
+      ],
+      "de": [
+        "Hypericum triquetrifolium"
+      ],
       "en": [
+        "Hypericum triquetrifolium",
         "Tangled hypericum"
+      ],
+      "es": [
+        "Hypericum triquetrifolium"
+      ],
+      "fr": [
+        "Hypericum triquetrifolium"
+      ],
+      "it": [
+        "Hypericum triquetrifolium"
+      ],
+      "nl": [
+        "Hypericum triquetrifolium"
+      ],
+      "pl": [
+        "Hypericum triquetrifolium"
+      ],
+      "pt": [
+        "Hypericum triquetrifolium"
+      ],
+      "ru": [
+        "Зверобой трёхграннолистный"
       ]
     },
     "tags": [],
@@ -5502,12 +7194,12 @@
     "family": "Hypericaceae",
     "genus": "Hypericum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cf9b7f6fe705fb4bd31efb3228026b5dfc40567e",
-    "description": null,
+    "description": "Hypericum undulatum, the wavy St Johns Wort, is a herbaceous perennial flowering plant native to western Europe and northern Africa. The specific name undulatum is Latin, meaning \"wavy\" or \"undulated\", referring, just as the common name, to the wavy leaf margins of the herb. The plant has a diploid number of 16 or 32.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5518,17 +7210,17 @@
     "synonyms": "[\"Hypericum quadrangulum var. undulatum\", \"Hypericum tetrapterum var. undulatum\", \"Hypericum acutum proles undulatum\", \"Hypericum tetrapterum subsp. undulatum\", \"Hypericum acutum subsp. undulatum\", \"Hypericum quadrangulum subsp. undulatum\", \"Hypericum maculatum subsp. undulatum\", \"Hypericum acutum var. undulatum\", \"Hypericum quadrangulum subsp. undulatum\", \"Hypericum quadrangulum f. undulatum\"]",
     "care": {
       "plant_id": "hypericum_undulatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5584,11 +7276,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Hypericum undulatum"
+      ],
       "en": [
+        "Hypericum undulatum",
         "Wavy st. john's-wort"
+      ],
+      "es": [
+        "Hypericum undulatum"
+      ],
+      "fr": [
+        "Hypericum undulatum"
+      ],
+      "it": [
+        "Hypericum undulatum"
+      ],
+      "nl": [
+        "Hypericum undulatum"
+      ],
+      "pl": [
+        "Hypericum undulatum"
+      ],
+      "pt": [
+        "Hypericum undulatum"
+      ],
+      "ru": [
+        "Hypericum undulatum"
       ]
     },
     "tags": [],
@@ -5600,12 +7319,12 @@
     "family": "Hypericaceae",
     "genus": "Psorospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/3d0a4792a4cc34586c62678b8d22be8f.jpg",
-    "description": null,
+    "description": "Psorospermum febrifugum is a species of flowering plant in the family Hypericaceae. It is found across tropical Africa in seasonally dry tropical biomes. French botanist Édouard Spach described Psorospermum febrifugum in 1836.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5682,9 +7401,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Psorospermum febrifugum"
+      ],
+      "en": [
+        "Psorospermum febrifugum"
+      ],
+      "es": [
+        "Psorospermum febrifugum"
+      ],
+      "fr": [
+        "Psorospermum febrifugum"
+      ],
+      "it": [
+        "Psorospermum febrifugum"
+      ],
+      "nl": [
+        "Psorospermum febrifugum"
+      ],
+      "pl": [
+        "Psorospermum febrifugum"
+      ],
+      "pt": [
+        "Psorospermum febrifugum"
+      ],
+      "ru": [
+        "Psorospermum febrifugum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5694,12 +7443,12 @@
     "family": "Hypericaceae",
     "genus": "Vismia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cc959f094afd23aa381283413733a028cea70cef",
-    "description": null,
+    "description": "Vismia baccifera is a species of flowering plant in the family Hypericaceae. The species is a shrub or small tree that is native to Latin America that is found in wet tropical areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5776,9 +7525,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vismia baccifera"
+      ],
+      "en": [
+        "Vismia baccifera"
+      ],
+      "es": [
+        "Vismia baccifera"
+      ],
+      "fr": [
+        "Vismia baccifera"
+      ],
+      "it": [
+        "Vismia baccifera"
+      ],
+      "nl": [
+        "Vismia baccifera"
+      ],
+      "pl": [
+        "Vismia baccifera"
+      ],
+      "pt": [
+        "Vismia baccifera"
+      ],
+      "ru": [
+        "Vismia baccifera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5788,7 +7567,7 @@
     "family": "Hypericaceae",
     "genus": "Vismia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5870,9 +7649,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vismia cayennensis"
+      ],
+      "en": [
+        "Vismia cayennensis"
+      ],
+      "es": [
+        "Vismia cayennensis"
+      ],
+      "fr": [
+        "Vismia cayennensis"
+      ],
+      "it": [
+        "Vismia cayennensis"
+      ],
+      "nl": [
+        "Vismia cayennensis"
+      ],
+      "pl": [
+        "Vismia cayennensis"
+      ],
+      "pt": [
+        "Vismia cayennensis"
+      ],
+      "ru": [
+        "Vismia cayennensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5882,7 +7691,7 @@
     "family": "Hypericaceae",
     "genus": "Vismia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5964,9 +7773,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vismia gracilis"
+      ],
+      "en": [
+        "Vismia gracilis"
+      ],
+      "es": [
+        "Vismia gracilis"
+      ],
+      "fr": [
+        "Vismia gracilis"
+      ],
+      "it": [
+        "Vismia gracilis"
+      ],
+      "nl": [
+        "Vismia gracilis"
+      ],
+      "pl": [
+        "Vismia gracilis"
+      ],
+      "pt": [
+        "Vismia gracilis"
+      ],
+      "ru": [
+        "Vismia gracilis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5976,7 +7815,7 @@
     "family": "Hypericaceae",
     "genus": "Vismia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6058,9 +7897,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vismia macrophylla"
+      ],
+      "en": [
+        "Vismia macrophylla"
+      ],
+      "es": [
+        "Vismia macrophylla"
+      ],
+      "fr": [
+        "Vismia macrophylla"
+      ],
+      "it": [
+        "Vismia macrophylla"
+      ],
+      "nl": [
+        "Vismia macrophylla"
+      ],
+      "pl": [
+        "Vismia macrophylla"
+      ],
+      "pt": [
+        "Vismia macrophylla"
+      ],
+      "ru": [
+        "Vismia macrophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

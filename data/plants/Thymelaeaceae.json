@@ -5,7 +5,7 @@
     "family": "Thymelaeaceae",
     "genus": "Daphne",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": "[\"Thymelaea alpina\"]",
     "care": {
       "plant_id": "daphne_alpina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -53,8 +53,8 @@
       "light_guide": "Climate: temperate",
       "tips": "Native to: MIDDLE EUROPE, YUG MA, FRA FR, SPA GI, SPA AN | Similar plants: Clematis integrifolia",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: very strong toxic. Parts: Whole plant, highest concentrations in fruit, bark. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -72,8 +72,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in fruit, bark",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "دفنة ألبية"
+      ],
+      "de": [
+        "Alpen-Seidelbast"
+      ],
       "en": [
-        "Alpine daphne"
+        "Alpine daphne",
+        "Daphne alpina"
+      ],
+      "es": [
+        "Daphne alpina"
+      ],
+      "fr": [
+        "Daphne alpina"
+      ],
+      "it": [
+        "Daphne alpina"
+      ],
+      "nl": [
+        "Daphne alpina"
+      ],
+      "pl": [
+        "Wawrzynek alpejski"
+      ],
+      "pt": [
+        "Daphne alpina"
+      ],
+      "ru": [
+        "Daphne alpina"
       ]
     },
     "tags": [],
@@ -103,7 +133,7 @@
     "family": "Thymelaeaceae",
     "genus": "Daphne",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +149,17 @@
     "synonyms": "[\"Thymelaea cneorum\", \"Daphne cneorum subsp. canescens\", \"Laureola cneorum\"]",
     "care": {
       "plant_id": "daphne_cneorum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -151,8 +181,8 @@
       "light_guide": "Climate: temperate",
       "tips": "Native to: YUG CR, BUL OO, SOUTHWESTERN EUROPE, ALB, FRA FR | Similar plants: Clematis integrifolia",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: very strong toxic. Parts: Whole plant, highest concentrations in fruit, bark. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -170,8 +200,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in fruit, bark",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -185,11 +215,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "ar": [
+        "خاماليا"
+      ],
+      "de": [
+        "Rosmarin-Seidelbast"
+      ],
       "en": [
+        "Daphne cneorum",
         "Garland-flower"
+      ],
+      "es": [
+        "Daphne cneorum"
+      ],
+      "fr": [
+        "daphné camélée"
+      ],
+      "it": [
+        "Daphne cneorum"
+      ],
+      "nl": [
+        "Daphne cneorum"
+      ],
+      "pl": [
+        "wawrzynek główkowy"
+      ],
+      "pt": [
+        "Daphne cneorum"
+      ],
+      "ru": [
+        "волчеягодник боровой"
       ]
     },
     "tags": [],
@@ -201,7 +261,7 @@
     "family": "Thymelaeaceae",
     "genus": "Daphne",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -217,17 +277,17 @@
     "synonyms": "[\"Thymelaea gnidium\", \"Mistralia gnidium\", \"Laureola gnidium\"]",
     "care": {
       "plant_id": "daphne_gnidium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -283,11 +343,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "ar": [
+        "متنان"
+      ],
+      "de": [
+        "Herbst-Seidelbast"
+      ],
       "en": [
+        "Daphne gnidium",
         "Flax-leaved daphne"
+      ],
+      "es": [
+        "Daphne gnidium"
+      ],
+      "fr": [
+        "Daphné garou"
+      ],
+      "it": [
+        "Daphne gnidium"
+      ],
+      "ja": [
+        "一種"
+      ],
+      "nl": [
+        "Daphne gnidium"
+      ],
+      "pl": [
+        "Daphne gnidium"
+      ],
+      "pt": [
+        "Daphne gnidium"
+      ],
+      "ru": [
+        "Daphne gnidium"
+      ],
+      "zh": [
+        "亞麻葉瑞香"
       ]
     },
     "tags": [],
@@ -299,7 +395,7 @@
     "family": "Thymelaeaceae",
     "genus": "Daphne",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -315,17 +411,17 @@
     "synonyms": "[\"Thymelaea laureola\"]",
     "care": {
       "plant_id": "daphne_laureola",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -347,8 +443,8 @@
       "light_guide": "Climate: temperate",
       "tips": "Native to: MIDDLE EUROPE, KRY, BGM BE, AZO OO, ALG | Similar plants: Clematis integrifolia",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: very strong toxic. Parts: Whole plant, highest concentrations in fruit, bark. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -366,8 +462,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in fruit, bark",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -381,11 +477,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Lorbeer-Seidelbast"
+      ],
       "en": [
+        "Daphne laureola",
         "Spurge-laurel"
+      ],
+      "es": [
+        "Daphne laureola"
+      ],
+      "fr": [
+        "Daphne laureola"
+      ],
+      "it": [
+        "Daphne laureola"
+      ],
+      "ja": [
+        "ローレルジンチョウゲ"
+      ],
+      "nl": [
+        "Zwart peperboompje"
+      ],
+      "pl": [
+        "Daphne laureola"
+      ],
+      "pt": [
+        "Daphne laureola"
+      ],
+      "ru": [
+        "Daphne laureola"
+      ],
+      "zh": [
+        "洋瑞香"
       ]
     },
     "tags": [],
@@ -397,7 +526,7 @@
     "family": "Thymelaeaceae",
     "genus": "Daphne",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -413,17 +542,17 @@
     "synonyms": "[\"Thymelaea mezereum\"]",
     "care": {
       "plant_id": "daphne_mezereum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -444,9 +573,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Deep shade (Less than 2 hours to no direct sunlight) | Climate: temperate",
       "tips": "Similar plants: Hydrangea quercifolia | Native to: BGM BE, BUL OO, BGM, NORTHERN EUROPE, RHO OO",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: very strong toxic. Animal: very strong toxic. Parts: Whole plant, highest concentrations in fruit, bark. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -464,8 +593,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Rounded",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in fruit, bark",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -479,11 +608,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.1
     },
     "common_names": {
+      "ar": [
+        "مازريون"
+      ],
+      "de": [
+        "Echter Seidelbast"
+      ],
       "en": [
+        "Daphne mezereum",
         "Mezereon"
+      ],
+      "es": [
+        "Daphne mezereum"
+      ],
+      "fr": [
+        "bois-joli"
+      ],
+      "it": [
+        "Daphne mezereum"
+      ],
+      "ja": [
+        "セイヨウオニシバリ"
+      ],
+      "nl": [
+        "Rood peperboompje"
+      ],
+      "pl": [
+        "Wawrzynek wilczełyko"
+      ],
+      "pt": [
+        "Daphne mezereum"
+      ],
+      "ru": [
+        "Волчеягодник обыкновенный"
+      ],
+      "tr": [
+        "Mezeryon"
+      ],
+      "zh": [
+        "歐洲瑞香"
       ]
     },
     "tags": [],
@@ -495,7 +663,7 @@
     "family": "Thymelaeaceae",
     "genus": "Daphne",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -511,7 +679,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "daphne_oleoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -577,11 +745,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "دفنة زيتونية"
+      ],
+      "de": [
+        "Ölbaumähnlicher Seidelbast"
+      ],
       "en": [
+        "Daphne oleoides",
         "Spurge-olive"
+      ],
+      "es": [
+        "Daphne oleoides"
+      ],
+      "fr": [
+        "Daphne oleoides"
+      ],
+      "it": [
+        "Daphne oleoides"
+      ],
+      "nl": [
+        "Daphne oleoides"
+      ],
+      "pl": [
+        "Daphne oleoides"
+      ],
+      "pt": [
+        "Daphne oleoides"
+      ],
+      "ru": [
+        "Daphne oleoides"
       ]
     },
     "tags": [],
@@ -593,7 +791,7 @@
     "family": "Thymelaeaceae",
     "genus": "Daphne",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -609,17 +807,17 @@
     "synonyms": "[\"Daphne cneorum var. striata\", \"Daphne cneorum subsp. striata\"]",
     "care": {
       "plant_id": "daphne_striata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -641,8 +839,8 @@
       "light_guide": "Climate: temperate",
       "tips": "Native to: YUG CR, ITA IT, SOUTHWESTERN EUROPE, AUT AU, AUT | Similar plants: Clematis integrifolia",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: very strong toxic. Parts: Whole plant, highest concentrations in fruit, bark. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -660,8 +858,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in fruit, bark",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -675,11 +873,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "دفنة مخططة"
+      ],
+      "de": [
+        "Gestreifter Seidelbast"
+      ],
       "en": [
+        "Daphne striata",
         "Striated daphne"
+      ],
+      "es": [
+        "Daphne striata"
+      ],
+      "fr": [
+        "Daphné strié"
+      ],
+      "it": [
+        "Daphne striata"
+      ],
+      "nl": [
+        "Daphne striata"
+      ],
+      "pl": [
+        "Wawrzynek kreskowany"
+      ],
+      "pt": [
+        "Daphne striata"
+      ],
+      "ru": [
+        "Daphne striata"
       ]
     },
     "tags": [],
@@ -691,7 +919,7 @@
     "family": "Thymelaeaceae",
     "genus": "Daphnopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -773,11 +1001,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Daphnopsis americana"
+      ],
       "en": [
-        "Burn nose"
+        "Burn nose",
+        "Daphnopsis americana"
+      ],
+      "es": [
+        "Daphnopsis americana"
+      ],
+      "fr": [
+        "Daphnopsis americana"
+      ],
+      "it": [
+        "Daphnopsis americana"
+      ],
+      "nl": [
+        "Daphnopsis americana"
+      ],
+      "pl": [
+        "Daphnopsis americana"
+      ],
+      "pt": [
+        "Daphnopsis americana"
+      ],
+      "ru": [
+        "Daphnopsis americana"
       ]
     },
     "tags": [],
@@ -789,7 +1044,7 @@
     "family": "Thymelaeaceae",
     "genus": "Daphnopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -871,9 +1126,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Daphnopsis fasciculata"
+      ],
+      "en": [
+        "Daphnopsis fasciculata"
+      ],
+      "es": [
+        "Daphnopsis fasciculata"
+      ],
+      "fr": [
+        "Daphnopsis fasciculata"
+      ],
+      "it": [
+        "Daphnopsis fasciculata"
+      ],
+      "nl": [
+        "Daphnopsis fasciculata"
+      ],
+      "pl": [
+        "Daphnopsis fasciculata"
+      ],
+      "pt": [
+        "Daphnopsis fasciculata"
+      ],
+      "ru": [
+        "Daphnopsis fasciculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -883,7 +1168,7 @@
     "family": "Thymelaeaceae",
     "genus": "Daphnopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -965,9 +1250,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "دفنية عنقودية"
+      ],
+      "de": [
+        "Daphnopsis racemosa"
+      ],
+      "en": [
+        "Daphnopsis racemosa"
+      ],
+      "es": [
+        "Daphnopsis racemosa"
+      ],
+      "fr": [
+        "Daphnopsis racemosa"
+      ],
+      "it": [
+        "Daphnopsis racemosa"
+      ],
+      "nl": [
+        "Daphnopsis racemosa"
+      ],
+      "pl": [
+        "Daphnopsis racemosa"
+      ],
+      "pt": [
+        "Daphnopsis racemosa"
+      ],
+      "ru": [
+        "Daphnopsis racemosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -977,12 +1295,12 @@
     "family": "Thymelaeaceae",
     "genus": "Dirca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/68ff214ade9cdc644a1d72477ffb04a00895454e",
-    "description": "Green to red drupe. In North Carolina, the yellow-green fruits are available from June to July.",
+    "description": "Dirca palustris, or eastern leatherwood, is a flowering shrub in the family Thymelaeceae native to eastern North America. The name leatherwood refers to the toughness of its elastic and fibrous bark, which was used to make cordage by Native American tribes, and later, European settlers. Other common names include leatherbark, wicopee, rope-bark, moosewood, and bois de plomb in Canada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1059,11 +1377,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dirca palustris"
+      ],
       "en": [
+        "Dirca palustris",
         "Leatherwood"
+      ],
+      "es": [
+        "Dirca palustris"
+      ],
+      "fr": [
+        "Dirca palustris"
+      ],
+      "it": [
+        "Dirca palustris"
+      ],
+      "nl": [
+        "Dirca palustris"
+      ],
+      "pl": [
+        "Dirca palustris"
+      ],
+      "pt": [
+        "Dirca palustris"
+      ],
+      "ru": [
+        "Dirca palustris"
       ]
     },
     "tags": [],
@@ -1075,12 +1420,12 @@
     "family": "Thymelaeaceae",
     "genus": "Kelleria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ac3a706d6d796d639aaf074ea63992b5.jpg",
-    "description": null,
+    "description": "Kelleria dieffenbachii, or alpine Kelleria, is a species of small, spreading, alpine subshrub with tiny, white flowers. It is known from New Zealand, southwest Australia including Tasmania, and the highlands of New Guinea. Described in 1839 by William Jackson Hooker, it is the type species for Kelleria.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1157,9 +1502,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Kelleria dieffenbachii"
+      ],
+      "en": [
+        "Kelleria dieffenbachii"
+      ],
+      "es": [
+        "Kelleria dieffenbachii"
+      ],
+      "fr": [
+        "Kelleria dieffenbachii"
+      ],
+      "it": [
+        "Kelleria dieffenbachii"
+      ],
+      "nl": [
+        "Kelleria dieffenbachii"
+      ],
+      "pl": [
+        "Kelleria dieffenbachii"
+      ],
+      "pt": [
+        "Kelleria dieffenbachii"
+      ],
+      "ru": [
+        "Kelleria dieffenbachii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1169,12 +1544,12 @@
     "family": "Thymelaeaceae",
     "genus": "Passerina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e5babae1be264167c245f80b47d5a787806344b2",
-    "description": null,
+    "description": "Passerina corymbosa, the common cluster-flower gonna, is a shrub belonging to the genus Passerina. The species is endemic to South Africa and occurs in KwaZulu-Natal, the Eastern Cape and the Western Cape.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1251,9 +1626,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Passerina corymbosa"
+      ],
+      "en": [
+        "Passerina corymbosa"
+      ],
+      "es": [
+        "Passerina corymbosa"
+      ],
+      "fr": [
+        "Passerina corymbosa"
+      ],
+      "it": [
+        "Passerina corymbosa"
+      ],
+      "nl": [
+        "Passerina corymbosa"
+      ],
+      "pl": [
+        "Passerina corymbosa"
+      ],
+      "pt": [
+        "Passerina corymbosa"
+      ],
+      "ru": [
+        "Passerina corymbosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1263,12 +1668,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8cdda89dc75f2370d6e8b070a56768ae83292cec",
-    "description": null,
+    "description": "Pimelea alpina, the alpine rice-flower, is a species of flowering plant in the family Thymelaeaceae and is endemic to south-eastern continental Australia. It is an erect, prostrate or spreading shrub or undershrub with narrowly elliptic leaves crowded at the ends of branches and heads of pinkish red or white flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1345,9 +1750,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea alpina"
+      ],
+      "en": [
+        "Pimelea alpina"
+      ],
+      "es": [
+        "Pimelea alpina"
+      ],
+      "fr": [
+        "Pimelea alpina"
+      ],
+      "it": [
+        "Pimelea alpina"
+      ],
+      "nl": [
+        "Pimelea alpina"
+      ],
+      "pl": [
+        "Pimelea alpina"
+      ],
+      "pt": [
+        "Pimelea alpina"
+      ],
+      "ru": [
+        "Pimelea alpina"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1357,12 +1792,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/5591bbf6b5919a54a0afa2fa7ecb5082.jpg",
-    "description": null,
+    "description": "Pimelea axiflora, commonly known as bootlace bush, is a small shrub in the family Thymelaeaceae and is endemic to Australia. It is a small shrub with whitish flowers on mostly smooth stems.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1439,9 +1874,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea axiflora"
+      ],
+      "en": [
+        "Pimelea axiflora"
+      ],
+      "es": [
+        "Pimelea axiflora"
+      ],
+      "fr": [
+        "Pimelea axiflora"
+      ],
+      "it": [
+        "Pimelea axiflora"
+      ],
+      "nl": [
+        "Pimelea axiflora"
+      ],
+      "pl": [
+        "Pimelea axiflora"
+      ],
+      "pt": [
+        "Pimelea axiflora"
+      ],
+      "ru": [
+        "Pimelea axiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1451,12 +1916,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/3cfcef432b851f8a2edd5202e2277df9.jpg",
-    "description": null,
+    "description": "Pimelea curviflora, also known as curved rice-flower, is a shrub in the family Thymelaeaceae and is endemic to Australia. It is a small, hairy shrub with greenish-yellow or red tubular flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1533,9 +1998,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea curviflora"
+      ],
+      "en": [
+        "Pimelea curviflora"
+      ],
+      "es": [
+        "Pimelea curviflora"
+      ],
+      "fr": [
+        "Pimelea curviflora"
+      ],
+      "it": [
+        "Pimelea curviflora"
+      ],
+      "nl": [
+        "Pimelea curviflora"
+      ],
+      "pl": [
+        "Pimelea curviflora"
+      ],
+      "pt": [
+        "Pimelea curviflora"
+      ],
+      "ru": [
+        "Pimelea curviflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1545,12 +2040,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e3d9f3f7074765de1de305b768e643a7.jpg",
-    "description": null,
+    "description": "Pimelea drupacea, commonly known as cherry rice-flower, is a species of flowering plant in the family Thymelaeaceae and is endemic to south-eastern Australia. It is a shrub with elliptic leaves arranged in opposite pairs, and head-like clusters of white, tube-shaped flowers surrounded by two or four leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1627,9 +2122,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea drupacea"
+      ],
+      "en": [
+        "Pimelea drupacea"
+      ],
+      "es": [
+        "Pimelea drupacea"
+      ],
+      "fr": [
+        "Pimelea drupacea"
+      ],
+      "it": [
+        "Pimelea drupacea"
+      ],
+      "nl": [
+        "Pimelea drupacea"
+      ],
+      "pl": [
+        "Pimelea drupacea"
+      ],
+      "pt": [
+        "Pimelea drupacea"
+      ],
+      "ru": [
+        "Pimelea drupacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1639,12 +2164,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ceb49abe2a28b5bfbc3f8ac83a5fc767.jpg",
-    "description": null,
+    "description": "Pimelea flava is a species of flowering plant in the family Thymelaeaceae and is endemic to south-eastern Australia. It is a shrub with narrowly elliptic to egg-shaped leaves arranged in opposite pairs, and compact clusters of 9 or more flowers with 2 or 4 elliptic to circular involucral bracts at the base. The flowers and bracts are white or yellow, depending on subspecies.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1721,9 +2246,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بنكسية صفراء"
+      ],
+      "de": [
+        "Pimelea flava"
+      ],
+      "en": [
+        "Pimelea flava"
+      ],
+      "es": [
+        "Pimelea flava"
+      ],
+      "fr": [
+        "Pimelea flava"
+      ],
+      "it": [
+        "Pimelea flava"
+      ],
+      "nl": [
+        "Pimelea flava"
+      ],
+      "pl": [
+        "Pimelea flava"
+      ],
+      "pt": [
+        "Pimelea flava"
+      ],
+      "ru": [
+        "Pimelea flava"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1733,7 +2291,7 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1815,9 +2373,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea glauca"
+      ],
+      "en": [
+        "Pimelea glauca"
+      ],
+      "es": [
+        "Pimelea glauca"
+      ],
+      "fr": [
+        "Pimelea glauca"
+      ],
+      "it": [
+        "Pimelea glauca"
+      ],
+      "nl": [
+        "Pimelea glauca"
+      ],
+      "pl": [
+        "Pimelea glauca"
+      ],
+      "pt": [
+        "Pimelea glauca"
+      ],
+      "ru": [
+        "Pimelea glauca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1827,12 +2415,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e4317e83bf725f9ed9066c5c37542bd28c19aa8a",
-    "description": null,
+    "description": "Pimelea humilis, also known as common riceflower or dwarf riceflower, is a species of flowering plant in the family Thymelaeaceae and is endemic to south-eastern Australia. It is an erect or scrambling shrub with hairy stems, elliptic to lance-shaped leaves and heads of 12 to 52 of creamy-white, bisexual or female flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1909,9 +2497,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea humilis"
+      ],
+      "en": [
+        "Pimelea humilis"
+      ],
+      "es": [
+        "Pimelea humilis"
+      ],
+      "fr": [
+        "Pimelea humilis"
+      ],
+      "it": [
+        "Pimelea humilis"
+      ],
+      "nl": [
+        "Pimelea humilis"
+      ],
+      "pl": [
+        "Pimelea humilis"
+      ],
+      "pt": [
+        "Pimelea humilis"
+      ],
+      "ru": [
+        "Pimelea humilis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1921,12 +2539,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e66f08038f3d893c4e5b19fec665074e83c1bd2e",
-    "description": null,
+    "description": "Pimelea ligustrina is a species of flowering plant in the family Thymelaeaceae, and is endemic to south-eastern Australia. It is a shrub with lance-shaped or narrowly elliptic leaves arranged in opposite pairs, and clusters of creamy-white, white or pinkish flowers usually surrounded by 4 or 8, greenish to reddish brown involucral bracts.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2003,11 +2621,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pimelea ligustrina"
+      ],
       "en": [
+        "Pimelea ligustrina",
         "Tall riceflower"
+      ],
+      "es": [
+        "Pimelea ligustrina"
+      ],
+      "fr": [
+        "Pimelea ligustrina"
+      ],
+      "it": [
+        "Pimelea ligustrina"
+      ],
+      "nl": [
+        "Pimelea ligustrina"
+      ],
+      "pl": [
+        "Pimelea ligustrina"
+      ],
+      "pt": [
+        "Pimelea ligustrina"
+      ],
+      "ru": [
+        "Pimelea ligustrina"
       ]
     },
     "tags": [],
@@ -2019,7 +2664,7 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2101,11 +2746,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pimelea linifolia"
+      ],
       "en": [
+        "Pimelea linifolia",
         "Queen-of-the-bush"
+      ],
+      "es": [
+        "Pimelea linifolia"
+      ],
+      "fr": [
+        "Pimelea linifolia"
+      ],
+      "it": [
+        "Pimelea linifolia"
+      ],
+      "nl": [
+        "Pimelea linifolia"
+      ],
+      "pl": [
+        "Pimelea linifolia"
+      ],
+      "pt": [
+        "Pimelea linifolia"
+      ],
+      "ru": [
+        "Pimelea linifolia"
       ]
     },
     "tags": [],
@@ -2117,12 +2789,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/85aa094a5149e80accf6819ab80feb1c.jpg",
-    "description": null,
+    "description": "Pimelea microcephala, commonly known as mallee rice-flower or shrubby rice-flower is a species of flowering plant in the family Thymelaeaceae and is endemic to mainland Australia. It is an erect shrub with compact heads of male or female, white to yellow or greenish flowers on separate plants, the heads surrounded by 2 or 4 leaf-like involucral bracts.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2199,9 +2871,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea microcephala"
+      ],
+      "en": [
+        "Pimelea microcephala"
+      ],
+      "es": [
+        "Pimelea microcephala"
+      ],
+      "fr": [
+        "Pimelea microcephala"
+      ],
+      "it": [
+        "Pimelea microcephala"
+      ],
+      "nl": [
+        "Pimelea microcephala"
+      ],
+      "pl": [
+        "Pimelea microcephala"
+      ],
+      "pt": [
+        "Pimelea microcephala"
+      ],
+      "ru": [
+        "Pimelea microcephala"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2211,12 +2913,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Pimelea_neoanglica.jpg",
+    "description": "Pimelea neoanglica, commonly known as poison pimelea or scanty riceflower, is a species of flowering plant in the family Thymelaeaceae and is endemic to inland areas of eastern Australia. It is an erect, dioecious shrub with narrowly elliptic leaves and heads of greenish-yellow flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2293,9 +2995,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea neoanglica"
+      ],
+      "en": [
+        "Pimelea neoanglica"
+      ],
+      "es": [
+        "Pimelea neoanglica"
+      ],
+      "fr": [
+        "Pimelea neoanglica"
+      ],
+      "it": [
+        "Pimelea neoanglica"
+      ],
+      "nl": [
+        "Pimelea neoanglica"
+      ],
+      "pl": [
+        "Pimelea neoanglica"
+      ],
+      "pt": [
+        "Pimelea neoanglica"
+      ],
+      "ru": [
+        "Pimelea neoanglica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2305,12 +3037,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/72d7b89c566736089bad9694eb84c63d.jpg",
-    "description": null,
+    "description": "Pimelea nivea is a species of flowering plant in the family Thymelaeaceae and is endemic to Tasmania. It is an erect shrub with densely hairy young stems, elliptic to round leaves arranged in opposite pairs, and compact clusters of white or cream-coloured flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2387,9 +3119,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea nivea"
+      ],
+      "en": [
+        "Pimelea nivea"
+      ],
+      "es": [
+        "Pimelea nivea"
+      ],
+      "fr": [
+        "Pimelea nivea"
+      ],
+      "it": [
+        "Pimelea nivea"
+      ],
+      "ja": [
+        "タスマニアライスフラワー"
+      ],
+      "nl": [
+        "Pimelea nivea"
+      ],
+      "pl": [
+        "Pimelea nivea"
+      ],
+      "pt": [
+        "Pimelea nivea"
+      ],
+      "ru": [
+        "Pimelea nivea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2399,12 +3164,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6303f7ca58f3f43682475c13c7878389.jpg",
-    "description": null,
+    "description": "Pimelea octophylla, commonly known as woolly riceflower or downy riceflower, is a species of flowering plant in the family Thymelaeaceae and is endemic to south-eastern continental Australia. It is an erect shrub with densely hairy young stems, narrowly elliptic leaves and heads of 22 to 45 densely hairy, cream-coloured to pale yellow flowers surrounded by 6 to 12 leaf-like involucral bracts.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2481,9 +3246,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea octophylla"
+      ],
+      "en": [
+        "Pimelea octophylla"
+      ],
+      "es": [
+        "Pimelea octophylla"
+      ],
+      "fr": [
+        "Pimelea octophylla"
+      ],
+      "it": [
+        "Pimelea octophylla"
+      ],
+      "nl": [
+        "Pimelea octophylla"
+      ],
+      "pl": [
+        "Pimelea octophylla"
+      ],
+      "pt": [
+        "Pimelea octophylla"
+      ],
+      "ru": [
+        "Pimelea octophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2493,12 +3288,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/99b42b4fb41559dc2e4cd4c7ff2046b7.jpg",
-    "description": null,
+    "description": "Pimelea oreophila, commonly known as the mountain loving daphne, is a species of small shrub of the family Thymelaeaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2575,9 +3370,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea oreophila"
+      ],
+      "en": [
+        "Pimelea oreophila"
+      ],
+      "es": [
+        "Pimelea oreophila"
+      ],
+      "fr": [
+        "Pimelea oreophila"
+      ],
+      "it": [
+        "Pimelea oreophila"
+      ],
+      "nl": [
+        "Pimelea oreophila"
+      ],
+      "pl": [
+        "Pimelea oreophila"
+      ],
+      "pt": [
+        "Pimelea oreophila"
+      ],
+      "ru": [
+        "Pimelea oreophila"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2587,12 +3412,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/133c1899688b273ecc85667af7d09990.jpg",
-    "description": null,
+    "description": "Pimelea prostrata, commonly known as Strathmore weed, New Zealand Daphne, and Pinātoro (Māori) is a species of small shrub, of the family Thymelaeaceae. It is endemic to New Zealand and has small white flowers and blue green leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2669,9 +3494,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea prostrata"
+      ],
+      "en": [
+        "Pimelea prostrata"
+      ],
+      "es": [
+        "Pimelea prostrata"
+      ],
+      "fr": [
+        "Pimelea prostrata"
+      ],
+      "it": [
+        "Pimelea prostrata"
+      ],
+      "nl": [
+        "Pimelea prostrata"
+      ],
+      "pl": [
+        "Pimelea prostrata"
+      ],
+      "pt": [
+        "Pimelea prostrata"
+      ],
+      "ru": [
+        "Pimelea prostrata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2681,12 +3536,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e208f4e2e5c1332e65845a3d592dfc9c.jpg",
-    "description": null,
+    "description": "\n\nPimelea serpyllifolia, commonly known as thyme riceflower, is a species of flowering plant in the family Thymelaeaceae and is endemic to southern Australia. It is an erect shrub with narrowly elliptic to spatula-shaped leaves, and compact heads of 4 to 12 yellow, yellowish-green or white flowers surrounded by 2 or 4 leaf-like involucral bracts. Male and female flowers are borne on separate plants.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2763,9 +3618,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea serpyllifolia"
+      ],
+      "en": [
+        "Pimelea serpyllifolia"
+      ],
+      "es": [
+        "Pimelea serpyllifolia"
+      ],
+      "fr": [
+        "Pimelea serpyllifolia"
+      ],
+      "it": [
+        "Pimelea serpyllifolia"
+      ],
+      "nl": [
+        "Pimelea serpyllifolia"
+      ],
+      "pl": [
+        "Pimelea serpyllifolia"
+      ],
+      "pt": [
+        "Pimelea serpyllifolia"
+      ],
+      "ru": [
+        "Pimelea serpyllifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2775,12 +3660,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/465925f39c5def4b662d10acf84091b0.jpg",
-    "description": null,
+    "description": "Pimelea simplex, commonly known as desert rice-flower, is a species of flowering plant in the family Thymelaeaceae and is endemic to inland Australia. It is a herb or semi-woody annual with narrowly elliptic to linear leaves, and compact heads of densely hairy white to yellowish-green flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2857,9 +3742,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea simplex"
+      ],
+      "en": [
+        "Pimelea simplex"
+      ],
+      "es": [
+        "Pimelea simplex"
+      ],
+      "fr": [
+        "Pimelea simplex"
+      ],
+      "it": [
+        "Pimelea simplex"
+      ],
+      "nl": [
+        "Pimelea simplex"
+      ],
+      "pl": [
+        "Pimelea simplex"
+      ],
+      "pt": [
+        "Pimelea simplex"
+      ],
+      "ru": [
+        "Pimelea simplex"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2869,12 +3784,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1b9f7e74331b65d84b341f30a7b1c381.jpg",
-    "description": null,
+    "description": "Pimelea spicata, commonly known as the spiked rice flower, is a flowering plant in the family Thymelaeaceae and is endemic to New South Wales. It is a slender plant with white flowers and elliptic leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2951,9 +3866,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea spicata"
+      ],
+      "en": [
+        "Pimelea spicata"
+      ],
+      "es": [
+        "Pimelea spicata"
+      ],
+      "fr": [
+        "Pimelea spicata"
+      ],
+      "it": [
+        "Pimelea spicata"
+      ],
+      "nl": [
+        "Pimelea spicata"
+      ],
+      "pl": [
+        "Pimelea spicata"
+      ],
+      "pt": [
+        "Pimelea spicata"
+      ],
+      "ru": [
+        "Pimelea spicata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2963,7 +3908,7 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3045,9 +3990,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea spinescens"
+      ],
+      "en": [
+        "Pimelea spinescens"
+      ],
+      "es": [
+        "Pimelea spinescens"
+      ],
+      "fr": [
+        "Pimelea spinescens"
+      ],
+      "it": [
+        "Pimelea spinescens"
+      ],
+      "nl": [
+        "Pimelea spinescens"
+      ],
+      "pl": [
+        "Pimelea spinescens"
+      ],
+      "pt": [
+        "Pimelea spinescens"
+      ],
+      "ru": [
+        "Pimelea spinescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3057,12 +4032,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Pimelea stricta, commonly known as gaunt rice-flower, is a species of flowering plant in the family Thymelaeaceae and is endemic to south-eastern continental Australia. It is an erect shrub with narrowly elliptic or linear leaves, and compact heads of densely hairy, creamy-white to yellow flowers surrounded by 4 egg-shaped involucral bracts.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3139,9 +4114,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea stricta"
+      ],
+      "en": [
+        "Pimelea stricta"
+      ],
+      "es": [
+        "Pimelea stricta"
+      ],
+      "fr": [
+        "Pimelea stricta"
+      ],
+      "it": [
+        "Pimelea stricta"
+      ],
+      "nl": [
+        "Pimelea stricta"
+      ],
+      "pl": [
+        "Pimelea stricta"
+      ],
+      "pt": [
+        "Pimelea stricta"
+      ],
+      "ru": [
+        "Pimelea stricta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3151,12 +4156,12 @@
     "family": "Thymelaeaceae",
     "genus": "Pimelea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Pimelea trichostachya, commonly known as annual riceflower, spiked riceflower or flax weed, is a species of flowering plant in the family Thymelaeaceae and is endemic to continental Australia. It is a slender, semi-woody, annual shrub with narrowly elliptic or linear leaves and densely hairy, white or yellow flowers and green, purple-tinged fruit. It is toxic to livestock.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3233,9 +4238,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pimelea trichostachya"
+      ],
+      "en": [
+        "Pimelea trichostachya"
+      ],
+      "es": [
+        "Pimelea trichostachya"
+      ],
+      "fr": [
+        "Pimelea trichostachya"
+      ],
+      "it": [
+        "Pimelea trichostachya"
+      ],
+      "nl": [
+        "Pimelea trichostachya"
+      ],
+      "pl": [
+        "Pimelea trichostachya"
+      ],
+      "pt": [
+        "Pimelea trichostachya"
+      ],
+      "ru": [
+        "Pimelea trichostachya"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3245,7 +4280,7 @@
     "family": "Thymelaeaceae",
     "genus": "Stellera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3327,9 +4362,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stellera chamaejasme"
+      ],
+      "en": [
+        "Stellera chamaejasme"
+      ],
+      "es": [
+        "Stellera chamaejasme"
+      ],
+      "fr": [
+        "Stellera chamaejasme"
+      ],
+      "it": [
+        "Stellera chamaejasme"
+      ],
+      "ko": [
+        "피뿌리풀"
+      ],
+      "nl": [
+        "Stellera chamaejasme"
+      ],
+      "pl": [
+        "Stellera chamaejasme"
+      ],
+      "pt": [
+        "Stellera chamaejasme"
+      ],
+      "ru": [
+        "Stellera chamaejasme"
+      ],
+      "zh": [
+        "狼毒"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3339,7 +4410,7 @@
     "family": "Thymelaeaceae",
     "genus": "Struthiola",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3421,9 +4492,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Struthiola ciliata"
+      ],
+      "en": [
+        "Struthiola ciliata"
+      ],
+      "es": [
+        "Struthiola ciliata"
+      ],
+      "fr": [
+        "Struthiola ciliata"
+      ],
+      "it": [
+        "Struthiola ciliata"
+      ],
+      "nl": [
+        "Struthiola ciliata"
+      ],
+      "pl": [
+        "Struthiola ciliata"
+      ],
+      "pt": [
+        "Struthiola ciliata"
+      ],
+      "ru": [
+        "Struthiola ciliata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3433,7 +4534,7 @@
     "family": "Thymelaeaceae",
     "genus": "Thymelaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3449,7 +4550,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "thymelaea_dioica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3515,9 +4616,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thymelaea dioica"
+      ],
+      "en": [
+        "Thymelaea dioica"
+      ],
+      "es": [
+        "Thymelaea dioica"
+      ],
+      "fr": [
+        "Thymelaea dioica"
+      ],
+      "it": [
+        "Thymelaea dioica"
+      ],
+      "nl": [
+        "Thymelaea dioica"
+      ],
+      "pl": [
+        "Thymelaea dioica"
+      ],
+      "pt": [
+        "Thymelaea dioica"
+      ],
+      "ru": [
+        "Thymelaea dioica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3527,12 +4658,12 @@
     "family": "Thymelaeaceae",
     "genus": "Thymelaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c0ad4e4a49bf46327a50fbad065559785df4c1b8",
-    "description": null,
+    "description": "Thymelaea hirsuta, boalaga (Spanish), bufalaga, mitnan (Arabic) or shaggy sparrow-wort, is a xerophytic shrub which can grow to 2 metres in height and has a root system reaching depths of up to 3.5m. Some noteworthy characteristics of this species are the tiny size of its leaves and flowers and that both are also fleshy.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3543,17 +4674,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "thymelaea_hirsuta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3609,11 +4740,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "ar": [
+        "مثنان أهلب"
+      ],
+      "de": [
+        "Behaarte Spatzenzunge"
+      ],
       "en": [
-        "Hairy spurge flax"
+        "Hairy spurge flax",
+        "Thymelaea hirsuta"
+      ],
+      "es": [
+        "Thymelaea hirsuta"
+      ],
+      "fr": [
+        "Passerine hérissée"
+      ],
+      "it": [
+        "Thymelaea hirsuta"
+      ],
+      "nl": [
+        "Thymelaea hirsuta"
+      ],
+      "pl": [
+        "Thymelaea hirsuta"
+      ],
+      "pt": [
+        "Thymelaea hirsuta"
+      ],
+      "ru": [
+        "Thymelaea hirsuta"
       ]
     },
     "tags": [],
@@ -3625,12 +4786,12 @@
     "family": "Thymelaeaceae",
     "genus": "Thymelaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/04af56fa26c6bbadd6e9eddad0bb7d398a87aa62",
-    "description": null,
+    "description": "Thymelaea passerina, the spurge flax, sparrow weed, mezereon, or annual thymelaea, is a species of flowering plant in the family Thymelaeaceae. It is native to central and southern Europe, the Middle East, Central Asia, the western Himalayas, and Xinjiang in China, and it has been introduced to central North America, and to South Australia. An erect annual from 6 to 61 cm tall, it is typically found in steppes, disturbed areas, and old fields.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3641,17 +4802,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "thymelaea_passerina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3673,8 +4834,8 @@
       "light_guide": null,
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3693,7 +4854,7 @@
       "spread_max_cm": null,
       "difficulty_note": null,
       "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -3707,11 +4868,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "مثنان الدواري"
+      ],
+      "de": [
+        "Spatzenzunge"
+      ],
       "en": [
-        "Annual thymelaea"
+        "Annual thymelaea",
+        "Thymelaea passerina"
+      ],
+      "es": [
+        "Thymelaea passerina"
+      ],
+      "fr": [
+        "Passerine"
+      ],
+      "it": [
+        "Thymelaea passerina"
+      ],
+      "nl": [
+        "Thymelaea passerina"
+      ],
+      "pl": [
+        "Wilczypieprz roczny"
+      ],
+      "pt": [
+        "Thymelaea passerina"
+      ],
+      "ru": [
+        "Тимелея обыкновенная"
+      ],
+      "zh": [
+        "欧瑞香"
       ]
     },
     "tags": [],
@@ -3723,7 +4917,7 @@
     "family": "Thymelaeaceae",
     "genus": "Thymelaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3739,7 +4933,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "thymelaea_pubescens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3805,9 +4999,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مثنان أزغب"
+      ],
+      "de": [
+        "Thymelaea pubescens"
+      ],
+      "en": [
+        "Thymelaea pubescens"
+      ],
+      "es": [
+        "Thymelaea pubescens"
+      ],
+      "fr": [
+        "Thymelaea pubescens"
+      ],
+      "it": [
+        "Thymelaea pubescens"
+      ],
+      "nl": [
+        "Thymelaea pubescens"
+      ],
+      "pl": [
+        "Thymelaea pubescens"
+      ],
+      "pt": [
+        "Thymelaea pubescens"
+      ],
+      "ru": [
+        "Thymelaea pubescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3817,7 +5044,7 @@
     "family": "Thymelaeaceae",
     "genus": "Thymelaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3833,7 +5060,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "thymelaea_sanamunda",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3899,9 +5126,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thymelaea sanamunda"
+      ],
+      "en": [
+        "Thymelaea sanamunda"
+      ],
+      "es": [
+        "Thymelaea sanamunda"
+      ],
+      "fr": [
+        "Thymelaea sanamunda"
+      ],
+      "it": [
+        "Thymelaea sanamunda"
+      ],
+      "nl": [
+        "Thymelaea sanamunda"
+      ],
+      "pl": [
+        "Thymelaea sanamunda"
+      ],
+      "pt": [
+        "Thymelaea sanamunda"
+      ],
+      "ru": [
+        "Thymelaea sanamunda"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3911,7 +5168,7 @@
     "family": "Thymelaeaceae",
     "genus": "Thymelaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3927,17 +5184,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "thymelaea_tinctoria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3993,9 +5250,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مثنان صبغي"
+      ],
+      "de": [
+        "Thymelaea tinctoria"
+      ],
+      "en": [
+        "Thymelaea tinctoria"
+      ],
+      "es": [
+        "Thymelaea tinctoria"
+      ],
+      "fr": [
+        "Thymelaea tinctoria"
+      ],
+      "it": [
+        "Thymelaea tinctoria"
+      ],
+      "nl": [
+        "Thymelaea tinctoria"
+      ],
+      "pl": [
+        "Thymelaea tinctoria"
+      ],
+      "pt": [
+        "Thymelaea tinctoria"
+      ],
+      "ru": [
+        "Thymelaea tinctoria"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4005,7 +5295,7 @@
     "family": "Thymelaeaceae",
     "genus": "Wikstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4087,9 +5377,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Wikstroemia indica"
+      ],
+      "en": [
+        "Wikstroemia indica"
+      ],
+      "es": [
+        "Wikstroemia indica"
+      ],
+      "fr": [
+        "Wikstroemia indica"
+      ],
+      "it": [
+        "Wikstroemia indica"
+      ],
+      "nl": [
+        "Wikstroemia indica"
+      ],
+      "pl": [
+        "Wikstroemia indica"
+      ],
+      "pt": [
+        "Wikstroemia indica"
+      ],
+      "ru": [
+        "Wikstroemia indica"
+      ],
+      "zh": [
+        "南嶺蕘花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4099,7 +5422,7 @@
     "family": "Thymelaeaceae",
     "genus": "Wikstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4181,7 +5504,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {},
     "tags": [],

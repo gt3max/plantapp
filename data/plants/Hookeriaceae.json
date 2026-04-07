@@ -5,7 +5,7 @@
     "family": "Hookeriaceae",
     "genus": "Hookeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hookeria acutifolia"
+      ],
+      "en": [
+        "Hookeria acutifolia"
+      ],
+      "es": [
+        "Hookeria acutifolia"
+      ],
+      "fr": [
+        "Hookeria acutifolia"
+      ],
+      "it": [
+        "Hookeria acutifolia"
+      ],
+      "nl": [
+        "Hookeria acutifolia"
+      ],
+      "pl": [
+        "Hookeria acutifolia"
+      ],
+      "pt": [
+        "Hookeria acutifolia"
+      ],
+      "ru": [
+        "Hookeria acutifolia"
+      ],
+      "zh": [
+        "尖葉油蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Hookeriaceae",
     "genus": "Hookeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Hookeria lucens, the shining hookeria, is a species of moss in the family Hookeriaceae. It is native to Europe, east to the Caucasus, Turkey and China, as well as Scandinavia and the Faeroe Islands and western North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Glänzendes Flügelblattmoos"
+      ],
+      "en": [
+        "Hookeria lucens"
+      ],
+      "es": [
+        "Hookeria lucens"
+      ],
+      "fr": [
+        "Hookeria lucens"
+      ],
+      "it": [
+        "Hookeria lucens"
+      ],
+      "nl": [
+        "Hookeria lucens"
+      ],
+      "pl": [
+        "Hookeria lucens"
+      ],
+      "pt": [
+        "Hookeria lucens"
+      ],
+      "ru": [
+        "Hookeria lucens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

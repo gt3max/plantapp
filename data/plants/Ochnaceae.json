@@ -5,7 +5,7 @@
     "family": "Ochnaceae",
     "genus": "Campylospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Campylospermum reticulatum"
+      ],
+      "en": [
+        "Campylospermum reticulatum"
+      ],
+      "es": [
+        "Campylospermum reticulatum"
+      ],
+      "fr": [
+        "Campylospermum reticulatum"
+      ],
+      "it": [
+        "Campylospermum reticulatum"
+      ],
+      "nl": [
+        "Campylospermum reticulatum"
+      ],
+      "pl": [
+        "Campylospermum reticulatum"
+      ],
+      "pt": [
+        "Campylospermum reticulatum"
+      ],
+      "ru": [
+        "Campylospermum reticulatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Ochnaceae",
     "genus": "Cespedesia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4373b4884dfa6c851f982cda09d9ecd96e16627a",
-    "description": null,
+    "description": "Cespedesia is a genus of flowering plants belonging to the family Ochnaceae. It contains a single species, Cespedesia spathulata. The common name is Membrillo de Montana. At the top of the trunk and any vertical reiterations is a rosette of 1 m long spatulate leaves which are held in a near-vertical posture.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cespedesia spathulata"
+      ],
+      "en": [
+        "Cespedesia spathulata"
+      ],
+      "es": [
+        "Cespedesia spathulata"
+      ],
+      "fr": [
+        "Cespedesia spathulata"
+      ],
+      "it": [
+        "Cespedesia spathulata"
+      ],
+      "nl": [
+        "Cespedesia spathulata"
+      ],
+      "pl": [
+        "Cespedesia spathulata"
+      ],
+      "pt": [
+        "Cespedesia spathulata"
+      ],
+      "ru": [
+        "Cespedesia spathulata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +253,12 @@
     "family": "Ochnaceae",
     "genus": "Lophira",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a2cf9ed8737698cacaecad28c582b0c1bffb10ac",
-    "description": null,
+    "description": "Lophira lanceolata, commonly known as the dwarf red ironwood, is a species of tree in the family Ochnaceae which is native to tropical West and Central Africa. The timber is used for heavy construction, an edible oil can be extracted from the seeds and various parts of the plant are used in traditional medicine.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,11 +335,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lophira lanceolata"
+      ],
       "en": [
-        "Dwarf red ironwood"
+        "Dwarf red ironwood",
+        "Lophira lanceolata"
+      ],
+      "es": [
+        "Lophira lanceolata"
+      ],
+      "fr": [
+        "Lophira lanceolata"
+      ],
+      "it": [
+        "Lophira lanceolata"
+      ],
+      "nl": [
+        "Lophira lanceolata"
+      ],
+      "pl": [
+        "Lophira lanceolata"
+      ],
+      "pt": [
+        "Lophira lanceolata"
+      ],
+      "ru": [
+        "Lophira lanceolata"
       ]
     },
     "tags": [],
@@ -291,12 +378,12 @@
     "family": "Ochnaceae",
     "genus": "Ochna",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4257843c3a6caf05b1ddd5728eb71f0e966c77fe",
-    "description": null,
+    "description": "Ochna serrulata is an ornamental garden plant in the family Ochnaceae which is indigenous to South Africa. It is planted in southern African gardens and is an invasive species in Australia and New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -373,11 +460,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sägeblättrige Nagelbeere"
+      ],
       "en": [
-        "Mickey mouse plant"
+        "Mickey mouse plant",
+        "Ochna serrulata"
+      ],
+      "es": [
+        "Ochna serrulata"
+      ],
+      "fr": [
+        "Ochna serrulata"
+      ],
+      "it": [
+        "Ochna serrulata"
+      ],
+      "ja": [
+        "オクナ・セルラタ"
+      ],
+      "nl": [
+        "Ochna serrulata"
+      ],
+      "pl": [
+        "Ochna serrulata"
+      ],
+      "pt": [
+        "Ochna serrulata"
+      ],
+      "ru": [
+        "Ochna serrulata"
+      ],
+      "zh": [
+        "桂葉黃梅"
       ]
     },
     "tags": [],
@@ -389,7 +509,7 @@
     "family": "Ochnaceae",
     "genus": "Ouratea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -471,9 +591,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ouratea castaneifolia"
+      ],
+      "en": [
+        "Ouratea castaneifolia"
+      ],
+      "es": [
+        "Ouratea castaneifolia"
+      ],
+      "fr": [
+        "Ouratea castaneifolia"
+      ],
+      "it": [
+        "Ouratea castaneifolia"
+      ],
+      "nl": [
+        "Ouratea castaneifolia"
+      ],
+      "pl": [
+        "Ouratea castaneifolia"
+      ],
+      "pt": [
+        "Ouratea castaneifolia"
+      ],
+      "ru": [
+        "Ouratea castaneifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -483,7 +633,7 @@
     "family": "Ochnaceae",
     "genus": "Ouratea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -565,9 +715,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ouratea floribunda"
+      ],
+      "en": [
+        "Ouratea floribunda"
+      ],
+      "es": [
+        "Ouratea floribunda"
+      ],
+      "fr": [
+        "Ouratea floribunda"
+      ],
+      "it": [
+        "Ouratea floribunda"
+      ],
+      "nl": [
+        "Ouratea floribunda"
+      ],
+      "pl": [
+        "Ouratea floribunda"
+      ],
+      "pt": [
+        "Ouratea floribunda"
+      ],
+      "ru": [
+        "Ouratea floribunda"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -577,7 +757,7 @@
     "family": "Ochnaceae",
     "genus": "Ouratea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -659,9 +839,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ouratea hexasperma"
+      ],
+      "en": [
+        "Ouratea hexasperma"
+      ],
+      "es": [
+        "Ouratea hexasperma"
+      ],
+      "fr": [
+        "Ouratea hexasperma"
+      ],
+      "it": [
+        "Ouratea hexasperma"
+      ],
+      "nl": [
+        "Ouratea hexasperma"
+      ],
+      "pl": [
+        "Ouratea hexasperma"
+      ],
+      "pt": [
+        "Ouratea hexasperma"
+      ],
+      "ru": [
+        "Ouratea hexasperma"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -671,7 +881,7 @@
     "family": "Ochnaceae",
     "genus": "Ouratea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -753,9 +963,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ouratea lucens"
+      ],
+      "en": [
+        "Ouratea lucens"
+      ],
+      "es": [
+        "Ouratea lucens"
+      ],
+      "fr": [
+        "Ouratea lucens"
+      ],
+      "it": [
+        "Ouratea lucens"
+      ],
+      "nl": [
+        "Ouratea lucens"
+      ],
+      "pl": [
+        "Ouratea lucens"
+      ],
+      "pt": [
+        "Ouratea lucens"
+      ],
+      "ru": [
+        "Ouratea lucens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -765,7 +1005,7 @@
     "family": "Ochnaceae",
     "genus": "Ouratea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -847,9 +1087,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ouratea parviflora"
+      ],
+      "en": [
+        "Ouratea parviflora"
+      ],
+      "es": [
+        "Ouratea parviflora"
+      ],
+      "fr": [
+        "Ouratea parviflora"
+      ],
+      "it": [
+        "Ouratea parviflora"
+      ],
+      "nl": [
+        "Ouratea parviflora"
+      ],
+      "pl": [
+        "Ouratea parviflora"
+      ],
+      "pt": [
+        "Ouratea parviflora"
+      ],
+      "ru": [
+        "Ouratea parviflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -859,7 +1129,7 @@
     "family": "Ochnaceae",
     "genus": "Ouratea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -941,9 +1211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ouratea spectabilis"
+      ],
+      "en": [
+        "Ouratea spectabilis"
+      ],
+      "es": [
+        "Ouratea spectabilis"
+      ],
+      "fr": [
+        "Ouratea spectabilis"
+      ],
+      "it": [
+        "Ouratea spectabilis"
+      ],
+      "nl": [
+        "Ouratea spectabilis"
+      ],
+      "pl": [
+        "Ouratea spectabilis"
+      ],
+      "pt": [
+        "Ouratea spectabilis"
+      ],
+      "ru": [
+        "Ouratea spectabilis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -953,7 +1253,7 @@
     "family": "Ochnaceae",
     "genus": "Sauvagesia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1035,11 +1335,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "حشيشة الرمد"
+      ],
+      "de": [
+        "Sauvagesia erecta"
+      ],
       "en": [
-        "Creole tea"
+        "Creole tea",
+        "Sauvagesia erecta"
+      ],
+      "es": [
+        "Sauvagesia erecta"
+      ],
+      "fr": [
+        "Sauvagesia erecta"
+      ],
+      "it": [
+        "Sauvagesia erecta"
+      ],
+      "nl": [
+        "Sauvagesia erecta"
+      ],
+      "pl": [
+        "Sauvagesia erecta"
+      ],
+      "pt": [
+        "Sauvagesia erecta"
+      ],
+      "ru": [
+        "Sauvagesia erecta"
       ]
     },
     "tags": [],
@@ -1051,7 +1381,7 @@
     "family": "Ochnaceae",
     "genus": "Sauvagesia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1133,9 +1463,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sauvagesia racemosa"
+      ],
+      "en": [
+        "Sauvagesia racemosa"
+      ],
+      "es": [
+        "Sauvagesia racemosa"
+      ],
+      "fr": [
+        "Sauvagesia racemosa"
+      ],
+      "it": [
+        "Sauvagesia racemosa"
+      ],
+      "nl": [
+        "Sauvagesia racemosa"
+      ],
+      "pl": [
+        "Sauvagesia racemosa"
+      ],
+      "pt": [
+        "Sauvagesia racemosa"
+      ],
+      "ru": [
+        "Sauvagesia racemosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

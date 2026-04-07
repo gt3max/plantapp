@@ -5,7 +5,7 @@
     "family": "Vochysiaceae",
     "genus": "Callisthene",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Callisthene fasciculata"
+      ],
+      "en": [
+        "Callisthene fasciculata"
+      ],
+      "es": [
+        "Callisthene fasciculata"
+      ],
+      "fr": [
+        "Callisthene fasciculata"
+      ],
+      "it": [
+        "Callisthene fasciculata"
+      ],
+      "nl": [
+        "Callisthene fasciculata"
+      ],
+      "pl": [
+        "Callisthene fasciculata"
+      ],
+      "pt": [
+        "Callisthene fasciculata"
+      ],
+      "ru": [
+        "Callisthene fasciculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Vochysiaceae",
     "genus": "Callisthene",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Callisthene major"
+      ],
+      "en": [
+        "Callisthene major"
+      ],
+      "es": [
+        "Callisthene major"
+      ],
+      "fr": [
+        "Callisthene major"
+      ],
+      "it": [
+        "Callisthene major"
+      ],
+      "nl": [
+        "Callisthene major"
+      ],
+      "pl": [
+        "Callisthene major"
+      ],
+      "pt": [
+        "Callisthene major"
+      ],
+      "ru": [
+        "Callisthene major"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +253,12 @@
     "family": "Vochysiaceae",
     "genus": "Qualea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Qualea_cordataDZ4048_fullsize.jpg",
-    "description": null,
+    "description": "Qualea cordata is a species of flowering plant in the family Vochysiaceae. It is a shrub or tree native to eastern, central, and southern Brazil, eastern Bolivia, Paraguay, and Misiones Province of northeastern Argentina. Five varieties are accepted. Var. dichotoma is known as jacaré and is popular street and garden tree in Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Qualea cordata"
+      ],
+      "en": [
+        "Qualea cordata"
+      ],
+      "es": [
+        "Qualea cordata"
+      ],
+      "fr": [
+        "Qualea cordata"
+      ],
+      "it": [
+        "Qualea cordata"
+      ],
+      "nl": [
+        "Qualea cordata"
+      ],
+      "pl": [
+        "Qualea cordata"
+      ],
+      "pt": [
+        "Qualea cordata"
+      ],
+      "ru": [
+        "Qualea cordata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +377,7 @@
     "family": "Vochysiaceae",
     "genus": "Qualea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +459,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Qualea grandiflora"
+      ],
+      "en": [
+        "Qualea grandiflora"
+      ],
+      "es": [
+        "Qualea grandiflora"
+      ],
+      "fr": [
+        "Qualea grandiflora"
+      ],
+      "it": [
+        "Qualea grandiflora"
+      ],
+      "nl": [
+        "Qualea grandiflora"
+      ],
+      "pl": [
+        "Qualea grandiflora"
+      ],
+      "pt": [
+        "Qualea grandiflora"
+      ],
+      "ru": [
+        "Qualea grandiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,12 +501,12 @@
     "family": "Vochysiaceae",
     "genus": "Qualea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Qualea_multiflora_1_fullsize.jpg",
-    "description": null,
+    "description": "Qualea multiflora is a species of tree in the family Vochysiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -463,9 +583,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Qualea multiflora"
+      ],
+      "en": [
+        "Qualea multiflora"
+      ],
+      "es": [
+        "Qualea multiflora"
+      ],
+      "fr": [
+        "Qualea multiflora"
+      ],
+      "it": [
+        "Qualea multiflora"
+      ],
+      "nl": [
+        "Qualea multiflora"
+      ],
+      "pl": [
+        "Qualea multiflora"
+      ],
+      "pt": [
+        "Qualea multiflora"
+      ],
+      "ru": [
+        "Qualea multiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -475,7 +625,7 @@
     "family": "Vochysiaceae",
     "genus": "Qualea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -557,9 +707,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Qualea parviflora"
+      ],
+      "en": [
+        "Qualea parviflora"
+      ],
+      "es": [
+        "Qualea parviflora"
+      ],
+      "fr": [
+        "Qualea parviflora"
+      ],
+      "it": [
+        "Qualea parviflora"
+      ],
+      "nl": [
+        "Qualea parviflora"
+      ],
+      "pl": [
+        "Qualea parviflora"
+      ],
+      "pt": [
+        "Pau Terra"
+      ],
+      "ru": [
+        "Qualea parviflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -569,7 +749,7 @@
     "family": "Vochysiaceae",
     "genus": "Salvertia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -651,9 +831,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Salvertia convallariodora"
+      ],
+      "en": [
+        "Salvertia convallariodora"
+      ],
+      "es": [
+        "Salvertia convallariodora"
+      ],
+      "fr": [
+        "Salvertia convallariodora"
+      ],
+      "it": [
+        "Salvertia convallariodora"
+      ],
+      "nl": [
+        "Salvertia convallariodora"
+      ],
+      "pl": [
+        "Salvertia convallariodora"
+      ],
+      "pt": [
+        "Salvertia convallariodora"
+      ],
+      "ru": [
+        "Salvertia convallariodora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -663,7 +873,7 @@
     "family": "Vochysiaceae",
     "genus": "Vochysia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -745,9 +955,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "فوتشي إهليلجية"
+      ],
+      "de": [
+        "Vochysia elliptica"
+      ],
+      "en": [
+        "Vochysia elliptica"
+      ],
+      "es": [
+        "Vochysia elliptica"
+      ],
+      "fr": [
+        "Vochysia elliptica"
+      ],
+      "it": [
+        "Vochysia elliptica"
+      ],
+      "nl": [
+        "Vochysia elliptica"
+      ],
+      "pl": [
+        "Vochysia elliptica"
+      ],
+      "pt": [
+        "Vochysia elliptica"
+      ],
+      "ru": [
+        "Vochysia elliptica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -757,7 +1000,7 @@
     "family": "Vochysiaceae",
     "genus": "Vochysia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -839,9 +1082,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vochysia ferruginea"
+      ],
+      "en": [
+        "Vochysia ferruginea"
+      ],
+      "es": [
+        "Vochysia ferruginea"
+      ],
+      "fr": [
+        "Vochysia ferruginea"
+      ],
+      "it": [
+        "Vochysia ferruginea"
+      ],
+      "nl": [
+        "Vochysia ferruginea"
+      ],
+      "pl": [
+        "Vochysia ferruginea"
+      ],
+      "pt": [
+        "Vochysia ferruginea"
+      ],
+      "ru": [
+        "Vochysia ferruginea"
+      ],
+      "zh": [
+        "獨蕊木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -851,7 +1127,7 @@
     "family": "Vochysiaceae",
     "genus": "Vochysia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -933,9 +1209,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vochysia pyramidalis"
+      ],
+      "en": [
+        "Vochysia pyramidalis"
+      ],
+      "es": [
+        "Vochysia pyramidalis"
+      ],
+      "fr": [
+        "Vochysia pyramidalis"
+      ],
+      "it": [
+        "Vochysia pyramidalis"
+      ],
+      "nl": [
+        "Vochysia pyramidalis"
+      ],
+      "pl": [
+        "Vochysia pyramidalis"
+      ],
+      "pt": [
+        "Vochysia pyramidalis"
+      ],
+      "ru": [
+        "Vochysia pyramidalis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -945,7 +1251,7 @@
     "family": "Vochysiaceae",
     "genus": "Vochysia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1027,9 +1333,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vochysia rufa"
+      ],
+      "en": [
+        "Vochysia rufa"
+      ],
+      "es": [
+        "Vochysia rufa"
+      ],
+      "fr": [
+        "Vochysia rufa"
+      ],
+      "it": [
+        "Vochysia rufa"
+      ],
+      "nl": [
+        "Vochysia rufa"
+      ],
+      "pl": [
+        "Vochysia rufa"
+      ],
+      "pt": [
+        "Vochysia rufa"
+      ],
+      "ru": [
+        "Vochysia rufa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1039,7 +1375,7 @@
     "family": "Vochysiaceae",
     "genus": "Vochysia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1121,9 +1457,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vochysia thyrsoidea"
+      ],
+      "en": [
+        "Vochysia thyrsoidea"
+      ],
+      "es": [
+        "Vochysia thyrsoidea"
+      ],
+      "fr": [
+        "Vochysia thyrsoidea"
+      ],
+      "it": [
+        "Vochysia thyrsoidea"
+      ],
+      "nl": [
+        "Vochysia thyrsoidea"
+      ],
+      "pl": [
+        "Vochysia thyrsoidea"
+      ],
+      "pt": [
+        "Vochysia thyrsoidea"
+      ],
+      "ru": [
+        "Vochysia thyrsoidea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1133,7 +1499,7 @@
     "family": "Vochysiaceae",
     "genus": "Vochysia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1215,9 +1581,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vochysia tucanorum"
+      ],
+      "en": [
+        "Vochysia tucanorum"
+      ],
+      "es": [
+        "Vochysia tucanorum"
+      ],
+      "fr": [
+        "Vochysia tucanorum"
+      ],
+      "it": [
+        "Vochysia tucanorum"
+      ],
+      "nl": [
+        "Vochysia tucanorum"
+      ],
+      "pl": [
+        "Vochysia tucanorum"
+      ],
+      "pt": [
+        "Vochysia tucanorum"
+      ],
+      "ru": [
+        "Vochysia tucanorum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

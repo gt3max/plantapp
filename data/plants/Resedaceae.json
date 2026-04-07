@@ -5,7 +5,7 @@
     "family": "Resedaceae",
     "genus": "Caylusea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Caylusea hexagyna"
+      ],
+      "en": [
+        "Caylusea hexagyna"
+      ],
+      "es": [
+        "Caylusea hexagyna"
+      ],
+      "fr": [
+        "Caylusea hexagyna"
+      ],
+      "it": [
+        "Caylusea hexagyna"
+      ],
+      "nl": [
+        "Caylusea hexagyna"
+      ],
+      "pl": [
+        "Caylusea hexagyna"
+      ],
+      "pt": [
+        "Caylusea hexagyna"
+      ],
+      "ru": [
+        "Caylusea hexagyna"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Resedaceae",
     "genus": "Ochradenus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/32a3fc6b80b31fdaf343a139cbbe36e9c1d38ff2",
-    "description": null,
+    "description": "Ochradenus baccatus is a perennial shrub of the family Resedaceae, native to arid and semi-arid regions of the Middle East, North Africa, and into Iran and Pakistan. It is characterized by its green, leafless branches and distinctive yellow flowers and white berries. It is widespread in disturbed habitats and desert depressions, including roadsides and semi-natural areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +211,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "جردى توتية"
+      ],
+      "de": [
+        "Ochradenus baccatus"
+      ],
+      "en": [
+        "Ochradenus baccatus"
+      ],
+      "es": [
+        "Ochradenus baccatus"
+      ],
+      "fr": [
+        "Ochradenus baccatus"
+      ],
+      "it": [
+        "Ochradenus baccatus"
+      ],
+      "nl": [
+        "Ochradenus baccatus"
+      ],
+      "pl": [
+        "Ochradenus baccatus"
+      ],
+      "pt": [
+        "Ochradenus baccatus"
+      ],
+      "ru": [
+        "Ochradenus baccatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +256,12 @@
     "family": "Resedaceae",
     "genus": "Oligomeris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/2b5a6bb480f214389fb1459d48873d42.jpg",
-    "description": null,
+    "description": "Oligomeris linifolia is a species of flowering plant in the small family Resedaceae known by the common name lineleaf whitepuff. It is native to parts of the Middle East and the Indian subcontinent, as well as southern Europe and North Africa, and the southwestern United States and northern Mexico. It grows in many types of habitat, including disturbed areas and saline soils, in deserts, plains, coastline, and other places.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +338,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ذنباب خطي الورق"
+      ],
+      "de": [
+        "Oligomeris linifolia"
+      ],
+      "en": [
+        "Oligomeris linifolia"
+      ],
+      "es": [
+        "Oligomeris linifolia"
+      ],
+      "fr": [
+        "Oligomeris linifolia"
+      ],
+      "it": [
+        "Oligomeris linifolia"
+      ],
+      "nl": [
+        "Oligomeris linifolia"
+      ],
+      "pl": [
+        "Oligomeris linifolia"
+      ],
+      "pt": [
+        "Oligomeris linifolia"
+      ],
+      "ru": [
+        "Oligomeris linifolia"
+      ],
+      "tr": [
+        "Oligomeris linifolia"
+      ],
+      "zh": [
+        "川犀草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +389,7 @@
     "family": "Resedaceae",
     "genus": "Reseda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -303,17 +405,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "reseda_alba",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -369,11 +471,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "بليحاء بيضاء"
+      ],
+      "de": [
+        "Weißer Wau"
+      ],
       "en": [
+        "Reseda alba",
         "White upright mignonette"
+      ],
+      "es": [
+        "Reseda alba"
+      ],
+      "fr": [
+        "Reseda alba"
+      ],
+      "it": [
+        "Reseda alba"
+      ],
+      "nl": [
+        "Reseda alba"
+      ],
+      "pl": [
+        "Reseda alba"
+      ],
+      "pt": [
+        "Reseda alba"
+      ],
+      "ru": [
+        "Reseda alba"
+      ],
+      "zh": [
+        "白木犀草"
       ]
     },
     "tags": [],
@@ -385,7 +520,7 @@
     "family": "Resedaceae",
     "genus": "Reseda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -401,7 +536,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "reseda_glauca",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -467,11 +602,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بليحاء رمادية"
+      ],
+      "de": [
+        "Reseda glauca"
+      ],
       "en": [
-        "Pyrenean mignonette"
+        "Pyrenean mignonette",
+        "Reseda glauca"
+      ],
+      "es": [
+        "Reseda glauca"
+      ],
+      "fr": [
+        "Reseda glauca"
+      ],
+      "it": [
+        "Reseda glauca"
+      ],
+      "nl": [
+        "Reseda glauca"
+      ],
+      "pl": [
+        "Reseda glauca"
+      ],
+      "pt": [
+        "Reseda glauca"
+      ],
+      "ru": [
+        "Reseda glauca"
       ]
     },
     "tags": [],
@@ -483,7 +648,7 @@
     "family": "Resedaceae",
     "genus": "Reseda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -499,7 +664,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "reseda_jacquinii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -565,9 +730,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Reseda jacquinii"
+      ],
+      "en": [
+        "Reseda jacquinii"
+      ],
+      "es": [
+        "Reseda jacquinii"
+      ],
+      "fr": [
+        "Reseda jacquinii"
+      ],
+      "it": [
+        "Reseda jacquinii"
+      ],
+      "nl": [
+        "Reseda jacquinii"
+      ],
+      "pl": [
+        "Reseda jacquinii"
+      ],
+      "pt": [
+        "Reseda jacquinii"
+      ],
+      "ru": [
+        "Reseda jacquinii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -577,7 +772,7 @@
     "family": "Resedaceae",
     "genus": "Reseda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -593,17 +788,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "reseda_lutea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -659,11 +854,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "ar": [
+        "بليحاء صفراء"
+      ],
+      "de": [
+        "Reseda lutea"
+      ],
       "en": [
+        "Reseda lutea",
         "Yellow mignonette"
+      ],
+      "es": [
+        "Reseda lutea"
+      ],
+      "fr": [
+        "Reseda lutea"
+      ],
+      "it": [
+        "Reseda lutea"
+      ],
+      "nl": [
+        "wilde reseda"
+      ],
+      "pl": [
+        "Rezeda żółta"
+      ],
+      "pt": [
+        "Reseda lutea"
+      ],
+      "ru": [
+        "Резеда жёлтая"
+      ],
+      "zh": [
+        "黄木樨草"
       ]
     },
     "tags": [],
@@ -675,7 +903,7 @@
     "family": "Resedaceae",
     "genus": "Reseda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -691,17 +919,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "reseda_luteola",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -757,11 +985,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "ar": [
+        "بليحاء مصفرة"
+      ],
+      "de": [
+        "Färber-Wau"
+      ],
       "en": [
-        "Dyer's rocket"
+        "Dyer's rocket",
+        "Reseda luteola"
+      ],
+      "es": [
+        "Reseda luteola"
+      ],
+      "fr": [
+        "Reseda luteola"
+      ],
+      "it": [
+        "Reseda luteola"
+      ],
+      "nl": [
+        "Wouw"
+      ],
+      "pl": [
+        "Rezeda żółtawa"
+      ],
+      "pt": [
+        "Reseda luteola"
+      ],
+      "ru": [
+        "Резеда жёлтенькая"
+      ],
+      "zh": [
+        "黄木犀草"
       ]
     },
     "tags": [],
@@ -773,7 +1034,7 @@
     "family": "Resedaceae",
     "genus": "Reseda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -789,7 +1050,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "reseda_media",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -855,11 +1116,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بليحاء وسطية"
+      ],
+      "de": [
+        "Reseda media"
+      ],
       "en": [
-        "Mignonette"
+        "Mignonette",
+        "Reseda media"
+      ],
+      "es": [
+        "Reseda media"
+      ],
+      "fr": [
+        "Reseda media"
+      ],
+      "it": [
+        "Reseda media"
+      ],
+      "nl": [
+        "Reseda media"
+      ],
+      "pl": [
+        "Reseda media"
+      ],
+      "pt": [
+        "Reseda media"
+      ],
+      "ru": [
+        "Reseda media"
       ]
     },
     "tags": [],
@@ -871,7 +1162,7 @@
     "family": "Resedaceae",
     "genus": "Reseda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -887,17 +1178,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "reseda_phyteuma",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -953,11 +1244,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "de": [
+        "Klein-Resede"
+      ],
       "en": [
-        "Rampion mignonette"
+        "Rampion mignonette",
+        "Reseda phyteuma"
+      ],
+      "es": [
+        "Reseda phyteuma"
+      ],
+      "fr": [
+        "Réséda raiponce"
+      ],
+      "it": [
+        "Reseda phyteuma"
+      ],
+      "nl": [
+        "Reseda phyteuma"
+      ],
+      "pl": [
+        "Rezeda mała"
+      ],
+      "pt": [
+        "Reseda phyteuma"
+      ],
+      "ru": [
+        "Reseda phyteuma"
       ]
     },
     "tags": [],
@@ -969,7 +1287,7 @@
     "family": "Resedaceae",
     "genus": "Reseda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -985,7 +1303,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "reseda_stricta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1051,9 +1369,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بليحاء ضيقة"
+      ],
+      "de": [
+        "Reseda stricta"
+      ],
+      "en": [
+        "Reseda stricta"
+      ],
+      "es": [
+        "Reseda stricta"
+      ],
+      "fr": [
+        "Reseda stricta"
+      ],
+      "it": [
+        "Reseda stricta"
+      ],
+      "nl": [
+        "Reseda stricta"
+      ],
+      "pl": [
+        "Reseda stricta"
+      ],
+      "pt": [
+        "Reseda stricta"
+      ],
+      "ru": [
+        "Reseda stricta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1063,7 +1414,7 @@
     "family": "Resedaceae",
     "genus": "Reseda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1079,7 +1430,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "reseda_undata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1145,9 +1496,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بليحاء فيضية"
+      ],
+      "de": [
+        "Reseda undata"
+      ],
+      "en": [
+        "Reseda undata"
+      ],
+      "es": [
+        "Reseda undata"
+      ],
+      "fr": [
+        "Reseda undata"
+      ],
+      "it": [
+        "Reseda undata"
+      ],
+      "nl": [
+        "Reseda undata"
+      ],
+      "pl": [
+        "Reseda undata"
+      ],
+      "pt": [
+        "Reseda undata"
+      ],
+      "ru": [
+        "Reseda undata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1157,7 +1541,7 @@
     "family": "Resedaceae",
     "genus": "Reseda",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1173,7 +1557,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "reseda_virgata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1239,9 +1623,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Reseda virgata"
+      ],
+      "en": [
+        "Reseda virgata"
+      ],
+      "es": [
+        "Reseda virgata"
+      ],
+      "fr": [
+        "Reseda virgata"
+      ],
+      "it": [
+        "Reseda virgata"
+      ],
+      "nl": [
+        "Reseda virgata"
+      ],
+      "pl": [
+        "Reseda virgata"
+      ],
+      "pt": [
+        "Reseda virgata"
+      ],
+      "ru": [
+        "Reseda virgata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1251,7 +1665,7 @@
     "family": "Resedaceae",
     "genus": "Sesamoides",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1267,17 +1681,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sesamoides_purpurascens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1333,9 +1747,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sesamoides purpurascens"
+      ],
+      "en": [
+        "Sesamoides purpurascens"
+      ],
+      "es": [
+        "Sesamoides purpurascens"
+      ],
+      "fr": [
+        "Sesamoides purpurascens"
+      ],
+      "it": [
+        "Sesamoides purpurascens"
+      ],
+      "nl": [
+        "Sesamoides purpurascens"
+      ],
+      "pl": [
+        "Sesamoides purpurascens"
+      ],
+      "pt": [
+        "Sesamoides purpurascens"
+      ],
+      "ru": [
+        "Sesamoides purpurascens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

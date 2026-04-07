@@ -5,12 +5,12 @@
     "family": "Pandanaceae",
     "genus": "Freycinetia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/0568c88b4ac6fff1e19554c0520ae18f15a2f5f6",
-    "description": null,
+    "description": "Freycinetia banksii, commonly known as kiekie, is a densely branched, brittle, woody climber native to New Zealand. It is a member of the screwpalm family Pandanaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Freycinetia banksii"
+      ],
+      "en": [
+        "Freycinetia banksii"
+      ],
+      "es": [
+        "Freycinetia banksii"
+      ],
+      "fr": [
+        "Freycinetia banksii"
+      ],
+      "it": [
+        "Freycinetia banksii"
+      ],
+      "ja": [
+        "キエキエ"
+      ],
+      "nl": [
+        "Freycinetia banksii"
+      ],
+      "pl": [
+        "Freycinetia banksii"
+      ],
+      "pt": [
+        "Freycinetia banksii"
+      ],
+      "ru": [
+        "Freycinetia banksii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Pandanaceae",
     "genus": "Pandanus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -181,9 +214,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pandanus odorifer"
+      ],
+      "en": [
+        "Pandanus odorifer"
+      ],
+      "es": [
+        "Pandanus odorifer"
+      ],
+      "fr": [
+        "Pandanus odorifer"
+      ],
+      "it": [
+        "Pandanus odorifer"
+      ],
+      "ja": [
+        "アダン"
+      ],
+      "nl": [
+        "Pandanus odorifer"
+      ],
+      "pl": [
+        "Pandan wonny"
+      ],
+      "pt": [
+        "Pandanus odorifer"
+      ],
+      "ru": [
+        "пандан ароматнейший"
+      ],
+      "zh": [
+        "林投露兜树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +262,7 @@
     "family": "Pandanaceae",
     "genus": "Pandanus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -275,11 +344,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كاذي حلزوني"
+      ],
+      "de": [
+        "Pandanus spiralis"
+      ],
       "en": [
+        "Pandanus spiralis",
         "Screw-pine"
+      ],
+      "es": [
+        "Pandanus spiralis"
+      ],
+      "fr": [
+        "Pandanus spiralis"
+      ],
+      "it": [
+        "Pandanus spiralis"
+      ],
+      "nl": [
+        "Pandanus spiralis"
+      ],
+      "pl": [
+        "Pandanus spiralis"
+      ],
+      "pt": [
+        "Pandanus spiralis"
+      ],
+      "ru": [
+        "Pandanus spiralis"
       ]
     },
     "tags": [],
@@ -291,7 +390,7 @@
     "family": "Pandanaceae",
     "genus": "Pandanus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -373,11 +472,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كاذي سقفي"
+      ],
+      "de": [
+        "Pandanus tectorius"
+      ],
       "en": [
+        "Pandanus tectorius",
         "Tahitian screwpine"
+      ],
+      "es": [
+        "Pandanus tectorius"
+      ],
+      "fr": [
+        "Pandanus Tectorius"
+      ],
+      "hi": [
+        "केवड़ा"
+      ],
+      "it": [
+        "Pandanus tectorius"
+      ],
+      "ja": [
+        "アダン"
+      ],
+      "nl": [
+        "Geurende schroefpalm"
+      ],
+      "pl": [
+        "pandan połaciowy"
+      ],
+      "pt": [
+        "Pandanus tectorius"
+      ],
+      "ru": [
+        "Pandanus tectorius"
+      ],
+      "tr": [
+        "Pandanus tectorius"
+      ],
+      "zh": [
+        "露兜树"
       ]
     },
     "tags": [],
@@ -389,7 +530,7 @@
     "family": "Pandanaceae",
     "genus": "Pandanus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -471,11 +612,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كاذي نافع"
+      ],
+      "de": [
+        "Pandanus utilis"
+      ],
       "en": [
-        "Common screwpine"
+        "Common screwpine",
+        "Pandanus utilis"
+      ],
+      "es": [
+        "Pandanus utilis"
+      ],
+      "fr": [
+        "Vacoa"
+      ],
+      "it": [
+        "Pandanus utilis"
+      ],
+      "ja": [
+        "アカタコノキ"
+      ],
+      "nl": [
+        "Pandanus utilis"
+      ],
+      "pl": [
+        "Pandan trwały"
+      ],
+      "pt": [
+        "Pandanus utilis"
+      ],
+      "ru": [
+        "Пандан полезный"
+      ],
+      "tr": [
+        "Pandanus utilis"
+      ],
+      "zh": [
+        "紅刺露兜樹"
       ]
     },
     "tags": [],

@@ -5,7 +5,7 @@
     "family": "Lunulariaceae",
     "genus": "Lunularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Mondbechermoos"
+      ],
+      "en": [
+        "Lunularia cruciata"
+      ],
+      "es": [
+        "Lunularia cruciata"
+      ],
+      "fr": [
+        "Lunulaire"
+      ],
+      "it": [
+        "Lunularia cruciata"
+      ],
+      "ja": [
+        "ミカヅキゼニゴケ"
+      ],
+      "ko": [
+        "초승달우산이끼"
+      ],
+      "nl": [
+        "Lunularia cruciata"
+      ],
+      "pl": [
+        "Lunularia cruciata"
+      ],
+      "pt": [
+        "Lunularia cruciata"
+      ],
+      "ru": [
+        "Lunularia cruciata"
+      ],
+      "zh": [
+        "半月苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

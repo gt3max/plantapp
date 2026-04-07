@@ -5,12 +5,12 @@
     "family": "Podostemaceae",
     "genus": "Podostemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7b027193110a19d993253f85a37b60694e1cf454",
-    "description": null,
+    "description": "Podostemum ceratophyllum, commonly known as the hornleaf riverweed, is a species of submerged aquatic plant in the family Podostemaceae. It is native to eastern North America where it grows on hard bottoms in swiftly flowing rivers and streams and is considered a foundation species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بدوستمون قرني الأوراق"
+      ],
+      "de": [
+        "Podostemum ceratophyllum"
+      ],
       "en": [
-        "Hornleaf riverweed"
+        "Hornleaf riverweed",
+        "Podostemum ceratophyllum"
+      ],
+      "es": [
+        "Podostemum ceratophyllum"
+      ],
+      "fr": [
+        "Podostemum ceratophyllum"
+      ],
+      "it": [
+        "Podostemum ceratophyllum"
+      ],
+      "nl": [
+        "Podostemum ceratophyllum"
+      ],
+      "pl": [
+        "Podostemum ceratophyllum"
+      ],
+      "pt": [
+        "Podostemum ceratophyllum"
+      ],
+      "ru": [
+        "Podostemum ceratophyllum"
       ]
     },
     "tags": [],
@@ -103,7 +133,7 @@
     "family": "Podostemaceae",
     "genus": "Tristicha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,9 +215,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tristicha trifaria"
+      ],
+      "en": [
+        "Tristicha trifaria"
+      ],
+      "es": [
+        "Tristicha trifaria"
+      ],
+      "fr": [
+        "Tristicha trifaria"
+      ],
+      "it": [
+        "Tristicha trifaria"
+      ],
+      "nl": [
+        "Tristicha trifaria"
+      ],
+      "pl": [
+        "Tristicha trifaria"
+      ],
+      "pt": [
+        "Tristicha trifaria"
+      ],
+      "ru": [
+        "Tristicha trifaria"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

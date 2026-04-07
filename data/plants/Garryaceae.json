@@ -5,12 +5,12 @@
     "family": "Garryaceae",
     "genus": "Aucuba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5d9ec97c2e0b22b34805e28ff9b7a8df278eb98a",
-    "description": "Red, ellipsoid, one-seeded, berry-like drupes (to ½ inch) which ripen in fall, and provide interest through spring.",
+    "description": "Aucuba japonica, commonly called spotted laurel, Japanese laurel, Japanese aucuba or gold dust plant (U.S.), is a shrub native to rich forest soils of moist valleys, thickets, by streams and near shaded moist rocks in China, Korea, and Japan. This is the species of Aucuba commonly seen in gardens - often in variegated form. The leaves are opposite, broad lanceolate, 5–8 cm (2.0–3.1 in) long and 2–5 cm (0.79–1.97 in) wide. Aucuba japonica are dioecious. The flowers are small, 4–8 mm (0.16–0.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -53,8 +53,8 @@
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day) | Climate: temperate",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Gardenia jasminoides | Native to: POR OO, IRE NI, JAP, NORTHERN EUROPE, SOUTHWESTERN EUROPE",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Fruit (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": [
         "Plants occasionally suffer from scale, root rot, nematodes, and mealybugs. Fungal leaf spot and southern blight sometimes occur."
       ],
@@ -76,8 +76,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Arching",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -91,11 +91,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أوكوبة يابانية"
+      ],
+      "de": [
+        "Japanische Aukube"
+      ],
       "en": [
+        "Aucuba japonica",
         "Spotted-laurel"
+      ],
+      "es": [
+        "Aucuba japonica"
+      ],
+      "fr": [
+        "Aucuba japonica"
+      ],
+      "it": [
+        "Aucuba japonica"
+      ],
+      "ja": [
+        "アオキ"
+      ],
+      "ko": [
+        "식나무"
+      ],
+      "nl": [
+        "Aucuba japonica"
+      ],
+      "pl": [
+        "Aukuba japońska"
+      ],
+      "pt": [
+        "Aucuba japonica"
+      ],
+      "ru": [
+        "Аукуба японская"
+      ],
+      "zh": [
+        "青木"
       ]
     },
     "tags": [],
@@ -107,7 +146,7 @@
     "family": "Garryaceae",
     "genus": "Aucuba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -123,7 +162,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "aucuba_japonica_mr._goldstrike",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Frequent",
       "start_pct": null,
@@ -198,7 +237,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -219,7 +260,7 @@
     "family": "Garryaceae",
     "genus": "Aucuba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -235,9 +276,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "aucuba_japonica_suruga_benten",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part sun/part shade",
@@ -310,7 +351,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -331,7 +374,7 @@
     "family": "Garryaceae",
     "genus": "Aucuba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -349,7 +392,7 @@
       "plant_id": "aucuba_japonica_variegata",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part shade",
@@ -422,11 +465,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aucuba japonica 'Variegata'"
+      ],
       "en": [
+        "Aucuba japonica 'Variegata'",
         "spotted laurel"
+      ],
+      "es": [
+        "Aucuba japonica 'Variegata'"
+      ],
+      "fr": [
+        "Aucuba japonica 'Variegata'"
+      ],
+      "it": [
+        "Aucuba japonica 'Variegata'"
+      ],
+      "nl": [
+        "Aucuba japonica 'Variegata'"
+      ],
+      "pl": [
+        "Aucuba japonica 'Variegata'"
+      ],
+      "pt": [
+        "Aucuba japonica 'Variegata'"
+      ],
+      "ru": [
+        "Aucuba japonica 'Variegata'"
+      ],
+      "tr": [
+        "Aucuba japonica 'Variegata'"
+      ],
+      "zh": [
+        "花叶青木"
       ]
     },
     "tags": [
@@ -443,12 +519,12 @@
     "family": "Garryaceae",
     "genus": "Garrya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c486e034e22d2111e45deb22433ead9aa4fc2beb",
-    "description": "Grape-like clusters of fruits. Individuals are 1/4 inch wide, starting out green and then turning pubescent with purple-gray hairs.",
+    "description": "Garrya elliptica, the coast silk-tassel, silk tassel bush or wavyleaf silktassel, is a species of flowering plant in the family Garryaceae, native to the coastal ranges of California and southern Oregon. It is an erect, bushy, evergreen shrub reaching a height of 2–5 m (7–16 ft).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -527,11 +603,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شرابة الحرير الإهليلجية"
+      ],
+      "de": [
+        "Garrya elliptica"
+      ],
       "en": [
+        "Garrya elliptica",
         "Silk-tassel"
+      ],
+      "es": [
+        "Garrya elliptica"
+      ],
+      "fr": [
+        "Garrya elliptica"
+      ],
+      "it": [
+        "Garrya elliptica"
+      ],
+      "nl": [
+        "Garrya elliptica"
+      ],
+      "pl": [
+        "Garrya elliptica"
+      ],
+      "pt": [
+        "Garrya elliptica"
+      ],
+      "ru": [
+        "Garrya elliptica"
       ]
     },
     "tags": [],
@@ -543,12 +649,12 @@
     "family": "Garryaceae",
     "genus": "Garrya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/afffbd0e2d345682bda898d4d841597403dc1c99",
-    "description": null,
+    "description": "Garrya flavescens is a species of flowering shrub, known by the common name ashy silktassel.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -625,11 +731,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شرابة الحرير الصفراء"
+      ],
+      "de": [
+        "Garrya flavescens"
+      ],
       "en": [
-        "Ashy silk-tassel"
+        "Ashy silk-tassel",
+        "Garrya flavescens"
+      ],
+      "es": [
+        "Garrya flavescens"
+      ],
+      "fr": [
+        "Garrya flavescens"
+      ],
+      "it": [
+        "Garrya flavescens"
+      ],
+      "nl": [
+        "Garrya flavescens"
+      ],
+      "pl": [
+        "Garrya flavescens"
+      ],
+      "pt": [
+        "Garrya flavescens"
+      ],
+      "ru": [
+        "Garrya flavescens"
       ]
     },
     "tags": [],
@@ -641,12 +777,12 @@
     "family": "Garryaceae",
     "genus": "Garrya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6e630697bd25070eff23f3de560cc7db43a9f9b3",
-    "description": null,
+    "description": "Garrya fremontii is a species of flowering shrub known by several common names, including California fever bush, bearbrush, and Frémont's silktassel. Both the latter name, and the plant's specific epithet are derived from John C. Frémont.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -723,11 +859,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شرابة الحرير الفريمونتية"
+      ],
+      "de": [
+        "Garrya fremontii"
+      ],
       "en": [
-        "Bearbrush"
+        "Bearbrush",
+        "Garrya fremontii"
+      ],
+      "es": [
+        "Garrya fremontii"
+      ],
+      "fr": [
+        "Garrya fremontii"
+      ],
+      "it": [
+        "Garrya fremontii"
+      ],
+      "nl": [
+        "Garrya fremontii"
+      ],
+      "pl": [
+        "Garrya fremontii"
+      ],
+      "pt": [
+        "Garrya fremontii"
+      ],
+      "ru": [
+        "Garrya fremontii"
       ]
     },
     "tags": [],
@@ -739,7 +905,7 @@
     "family": "Garryaceae",
     "genus": "Garrya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -821,11 +987,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شرابة الحرير غارية الأوراق"
+      ],
+      "de": [
+        "Garrya laurifolia"
+      ],
       "en": [
-        "Cuachichic"
+        "Cuachichic",
+        "Garrya laurifolia"
+      ],
+      "es": [
+        "Garrya laurifolia"
+      ],
+      "fr": [
+        "Garrya laurifolia"
+      ],
+      "it": [
+        "Garrya laurifolia"
+      ],
+      "nl": [
+        "Garrya laurifolia"
+      ],
+      "pl": [
+        "Garrya laurifolia"
+      ],
+      "pt": [
+        "Garrya laurifolia"
+      ],
+      "ru": [
+        "Garrya laurifolia"
       ]
     },
     "tags": [],
@@ -837,12 +1033,12 @@
     "family": "Garryaceae",
     "genus": "Garrya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1755dfe72911ea8561bd453fe90c98d53593dd06",
-    "description": null,
+    "description": "Garrya veatchii is a species of flowering shrub known by the common names canyon silktassel and Veatch silktassel.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -919,11 +1115,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شرابة الحرير الفيتشية"
+      ],
+      "de": [
+        "Garrya veatchii"
+      ],
       "en": [
-        "Canyon silktassel"
+        "Canyon silktassel",
+        "Garrya veatchii"
+      ],
+      "es": [
+        "Garrya veatchii"
+      ],
+      "fr": [
+        "Garrya veatchii"
+      ],
+      "it": [
+        "Garrya veatchii"
+      ],
+      "nl": [
+        "Garrya veatchii"
+      ],
+      "pl": [
+        "Garrya veatchii"
+      ],
+      "pt": [
+        "Garrya veatchii"
+      ],
+      "ru": [
+        "Garrya veatchii"
       ]
     },
     "tags": [],

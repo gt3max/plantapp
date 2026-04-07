@@ -5,7 +5,7 @@
     "family": "Petiveriaceae",
     "genus": "Gallesia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gallesia integrifolia"
+      ],
       "en": [
-        "Ajo-ajo"
+        "Ajo-ajo",
+        "Gallesia integrifolia"
+      ],
+      "es": [
+        "Gallesia integrifolia"
+      ],
+      "fr": [
+        "Gallesia integrifolia"
+      ],
+      "it": [
+        "Gallesia integrifolia"
+      ],
+      "nl": [
+        "Gallesia integrifolia"
+      ],
+      "pl": [
+        "Gallesia integrifolia"
+      ],
+      "pt": [
+        "Pau-d'alho"
+      ],
+      "ru": [
+        "Gallesia integrifolia"
       ]
     },
     "tags": [],
@@ -103,7 +130,7 @@
     "family": "Petiveriaceae",
     "genus": "Hilleria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,9 +212,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hilleria latifolia"
+      ],
+      "en": [
+        "Hilleria latifolia"
+      ],
+      "es": [
+        "Hilleria latifolia"
+      ],
+      "fr": [
+        "Hilleria latifolia"
+      ],
+      "it": [
+        "Hilleria latifolia"
+      ],
+      "ja": [
+        "ヒッレリア・ラティフォーリア"
+      ],
+      "nl": [
+        "Hilleria latifolia"
+      ],
+      "pl": [
+        "Hilleria latifolia"
+      ],
+      "pt": [
+        "Hilleria latifolia"
+      ],
+      "ru": [
+        "Hilleria latifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,12 +257,12 @@
     "family": "Petiveriaceae",
     "genus": "Petiveria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f3a2a10989aa1921006fbfde1d8e5df409d21c61",
-    "description": null,
+    "description": "Petiveria is a genus of flowering plants in the pigeonberry family, Petiveriaceae. The sole species it contains, Petiveria alliacea, is native to Florida and the lower Rio Grande Valley of Texas in the United States, Mexico, Central America, the Caribbean, and tropical South America. Introduced populations occur in Benin and Nigeria. It is a deeply rooted herbaceous perennial shrub growing up to 1 m (3.3 ft) in height and has small greenish piccate flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,11 +339,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Petiveria alliacea"
+      ],
       "en": [
-        "Garlicweed"
+        "Garlicweed",
+        "Petiveria alliacea"
+      ],
+      "es": [
+        "anamu"
+      ],
+      "fr": [
+        "Petiveria alliacea"
+      ],
+      "it": [
+        "Petiveria alliacea"
+      ],
+      "nl": [
+        "Petiveria alliacea"
+      ],
+      "pl": [
+        "Petiveria alliacea"
+      ],
+      "pt": [
+        "Petiveria tetrandra"
+      ],
+      "ru": [
+        "Petiveria alliacea"
+      ],
+      "zh": [
+        "蒜味草"
       ]
     },
     "tags": [],
@@ -295,12 +385,12 @@
     "family": "Petiveriaceae",
     "genus": "Rivina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/947914222f56fe5e4e4e22c60eb899ea2d057120",
-    "description": null,
+    "description": "Rivina humilis is a species of flowering plant in the family Petiveriaceae. It was formerly placed in the pokeweed family, Phytolaccaceae. It can be found in the southern United States, the Caribbean, Central America, and tropical South America. Common names include dogblood, pigeonberry, rougeplant, baby peppers, bloodberry, and coralito. The specific epithet means \"dwarfish\" or \"lowly\" in Latin, referring to the plant's short stature.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -377,11 +467,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Blutbeere"
+      ],
       "en": [
-        "Coralberry"
+        "Coralberry",
+        "Rivina humilis"
+      ],
+      "es": [
+        "Rivina humilis"
+      ],
+      "fr": [
+        "Rivina humilis"
+      ],
+      "it": [
+        "Rivina humilis"
+      ],
+      "ja": [
+        "ジュズサンゴ"
+      ],
+      "nl": [
+        "Rivina humilis"
+      ],
+      "pl": [
+        "Rivina humilis"
+      ],
+      "pt": [
+        "Rivina humilis"
+      ],
+      "ru": [
+        "Rivina humilis"
+      ],
+      "zh": [
+        "蕾芬"
       ]
     },
     "tags": [],
@@ -393,7 +516,7 @@
     "family": "Petiveriaceae",
     "genus": "Trichostigma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -475,11 +598,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زهرة الميسم الشعرية"
+      ],
+      "de": [
+        "Trichostigma octandrum"
+      ],
       "en": [
-        "Basket wiss"
+        "Basket wiss",
+        "Trichostigma octandrum"
+      ],
+      "es": [
+        "Trichostigma octandrum"
+      ],
+      "fr": [
+        "Trichostigma octandrum"
+      ],
+      "it": [
+        "Trichostigma octandrum"
+      ],
+      "nl": [
+        "Trichostigma octandrum"
+      ],
+      "pl": [
+        "Trichostigma octandrum"
+      ],
+      "pt": [
+        "Trichostigma octandrum"
+      ],
+      "ru": [
+        "Trichostigma octandrum"
       ]
     },
     "tags": [],

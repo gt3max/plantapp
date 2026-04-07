@@ -5,7 +5,7 @@
     "family": "Potamogetonaceae",
     "genus": "Althenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "althenia_filiformis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,37 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 8.0
     },
     "common_names": {
       "ar": [
         "ألتينية خيطية"
+      ],
+      "de": [
+        "Althenia filiformis"
+      ],
+      "en": [
+        "Althenia filiformis"
+      ],
+      "es": [
+        "Althenia filiformis"
+      ],
+      "fr": [
+        "Althenia filiformis"
+      ],
+      "it": [
+        "Althenia filiformis"
+      ],
+      "nl": [
+        "Althenia filiformis"
+      ],
+      "pl": [
+        "Althenia filiformis"
+      ],
+      "pt": [
+        "Althenia filiformis"
       ],
       "ru": [
         "Альтения нителистная"
@@ -106,12 +132,12 @@
     "family": "Potamogetonaceae",
     "genus": "Groenlandia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/be688e68de1615874953944a78a3896ef7abe895",
-    "description": null,
+    "description": "Groenlandia is a monotypic genus of aquatic plants (pondweed) of the family Potamogetonaceae. The only species in the genus is Groenlandia densa. Opposite-leaved pondweed is a common name for this plant. It is native to much of Europe, western Asia and Maghreb in Africa; despite its name it is not found in Greenland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -122,17 +148,17 @@
     "synonyms": "[\"Potamogeton densus subsp. serratus\", \"Potamogeton oppositifolius var. densus\", \"Potamogeton densus subsp. setaceus\", \"Potamogeton densus var. latifolius\", \"Potamogeton densus var. laxus\", \"Potamogeton exstipulatus\", \"Buccaferrea densa\", \"Potamogeton oppositifolius var. laxifolius\", \"Potamogeton oppositifolius\", \"Potamogeton densus var. serratus\"]",
     "care": {
       "plant_id": "groenlandia_densa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -188,11 +214,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Groenlandia densa"
+      ],
       "en": [
-        "Frog's lettuce"
+        "Frog's lettuce",
+        "Groenlandia densa"
+      ],
+      "es": [
+        "Groenlandia densa"
+      ],
+      "fr": [
+        "Groenlandia densa"
+      ],
+      "it": [
+        "Groenlandia densa"
+      ],
+      "nl": [
+        "Groenlandia densa"
+      ],
+      "pl": [
+        "Rdestniczka gęsta"
+      ],
+      "pt": [
+        "Groenlandia densa"
+      ],
+      "ru": [
+        "Гренландия густая"
       ]
     },
     "tags": [],
@@ -204,12 +257,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/acfeb08c2aa26356d98df9404fc26e6f.jpg",
-    "description": null,
+    "description": "Potamogeton acutifolius is a European species of aquatic plant in the family Potamogetonaceae, known by the common name sharp-leaved pondweed. It is threatened and declining in at least part of its range.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -220,7 +273,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_acutifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -286,9 +339,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton acutifolius"
+      ],
+      "en": [
+        "Potamogeton acutifolius"
+      ],
+      "es": [
+        "Potamogeton acutifolius"
+      ],
+      "fr": [
+        "Potamogeton acutifolius"
+      ],
+      "it": [
+        "Potamogeton acutifolius"
+      ],
+      "nl": [
+        "Spits fonteinkruid"
+      ],
+      "pl": [
+        "Rdestnica ostrolistna"
+      ],
+      "pt": [
+        "Potamogeton acutifolius"
+      ],
+      "ru": [
+        "рдест остролистный"
+      ],
+      "zh": [
+        "单果眼子菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -298,7 +384,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -314,17 +400,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_alpinus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -380,11 +466,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Potamogeton alpinus"
+      ],
       "en": [
-        "Alpine pondweed"
+        "Alpine pondweed",
+        "Potamogeton alpinus"
+      ],
+      "es": [
+        "Potamogeton alpinus"
+      ],
+      "fr": [
+        "Potamogeton alpinus"
+      ],
+      "it": [
+        "Potamogeton alpinus"
+      ],
+      "nl": [
+        "Rossig fonteinkruid"
+      ],
+      "pl": [
+        "Rdestnica alpejska"
+      ],
+      "pt": [
+        "Potamogeton alpinus"
+      ],
+      "ru": [
+        "Рдест альпийский"
+      ],
+      "zh": [
+        "高山眼子菜"
       ]
     },
     "tags": [],
@@ -396,12 +512,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d6ddfa2bfdc36ba89799da547e9e999d484e2923",
-    "description": null,
+    "description": "Potamogeton amplifolius, commonly known as largeleaf pondweed or broad-leaved pondweed, is an aquatic plant of North America. It grows in water bodies such as lakes, ponds, and rivers, often in deep water.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -412,17 +528,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_amplifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -478,11 +594,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
     "common_names": {
+      "de": [
+        "Potamogeton amplifolius"
+      ],
       "en": [
-        "Largeleaf pondweed"
+        "Largeleaf pondweed",
+        "Potamogeton amplifolius"
+      ],
+      "es": [
+        "Potamogeton amplifolius"
+      ],
+      "fr": [
+        "Potamogeton amplifolius"
+      ],
+      "it": [
+        "Potamogeton amplifolius"
+      ],
+      "nl": [
+        "Potamogeton amplifolius"
+      ],
+      "pl": [
+        "Potamogeton amplifolius"
+      ],
+      "pt": [
+        "Potamogeton amplifolius"
+      ],
+      "ru": [
+        "Potamogeton amplifolius"
       ]
     },
     "tags": [],
@@ -494,7 +637,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -510,17 +653,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_berchtoldii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -576,11 +719,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Potamogeton berchtoldii"
+      ],
       "en": [
-        "Little aguja pondweed"
+        "Little aguja pondweed",
+        "Potamogeton berchtoldii"
+      ],
+      "es": [
+        "Potamogeton berchtoldii"
+      ],
+      "fr": [
+        "Potamogeton berchtoldii"
+      ],
+      "it": [
+        "Potamogeton berchtoldii"
+      ],
+      "nl": [
+        "Potamogeton berchtoldii"
+      ],
+      "pl": [
+        "Rdestnica Berchtolda"
+      ],
+      "pt": [
+        "Potamogeton berchtoldii"
+      ],
+      "ru": [
+        "Potamogeton berchtoldii"
+      ],
+      "zh": [
+        "纤细眼子菜"
       ]
     },
     "tags": [],
@@ -592,12 +765,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/8939aca198edb7a0a4fad6c0a14e5fa3.jpg",
-    "description": null,
+    "description": "Potamogeton cheesemanii or red pondweed is a species of plant, indigenous to New Zealand and Australia. It is a vascular monocot.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -608,7 +781,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_cheesemanii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -674,9 +847,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton cheesemanii"
+      ],
+      "en": [
+        "Potamogeton cheesemanii"
+      ],
+      "es": [
+        "Potamogeton cheesemanii"
+      ],
+      "fr": [
+        "Potamogeton cheesemanii"
+      ],
+      "it": [
+        "Potamogeton cheesemanii"
+      ],
+      "nl": [
+        "Potamogeton cheesemanii"
+      ],
+      "pl": [
+        "Potamogeton cheesemanii"
+      ],
+      "pt": [
+        "Potamogeton cheesemanii"
+      ],
+      "ru": [
+        "Potamogeton cheesemanii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -686,12 +889,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/29146afe8ac8d9b6e9b6739eaa499d30a9c9dc43",
-    "description": null,
+    "description": "Potamogeton coloratus, the fen pondweed, is an aquatic plant in the genus Potamogeton. It is found in shallow peaty calcareous lakes, ponds and ditches, commonly associated with lowland fens.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -702,17 +905,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_coloratus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -768,11 +971,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Potamogeton coloratus"
+      ],
       "en": [
-        "Fen pondweed"
+        "Fen pondweed",
+        "Potamogeton coloratus"
+      ],
+      "es": [
+        "Potamogeton coloratus"
+      ],
+      "fr": [
+        "Potamogeton coloratus"
+      ],
+      "it": [
+        "Potamogeton coloratus"
+      ],
+      "nl": [
+        "Potamogeton coloratus"
+      ],
+      "pl": [
+        "Rdestnica zabarwiona"
+      ],
+      "pt": [
+        "Potamogeton coloratus"
+      ],
+      "ru": [
+        "Potamogeton coloratus"
       ]
     },
     "tags": [],
@@ -784,12 +1014,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fa31dd15cd55d76b022081b6ce4d21d0565150b2",
-    "description": null,
+    "description": "Potamogeton compressus is a species of aquatic plant known by the common names grass-wrack pondweed, flatstem pondweed and eel-grass pondweed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -800,17 +1030,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_compressus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -866,11 +1096,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
     "common_names": {
+      "de": [
+        "Flachstängeliges Laichkraut"
+      ],
       "en": [
-        "Grass-wrack pondweed"
+        "Grass-wrack pondweed",
+        "Potamogeton compressus"
+      ],
+      "es": [
+        "Potamogeton compressus"
+      ],
+      "fr": [
+        "Potamogeton compressus"
+      ],
+      "it": [
+        "Potamogeton compressus"
+      ],
+      "nl": [
+        "Plat fonteinkruid"
+      ],
+      "pl": [
+        "Rdestnica ściśniona"
+      ],
+      "pt": [
+        "Potamogeton compressus"
+      ],
+      "ru": [
+        "Potamogeton compressus"
+      ],
+      "zh": [
+        "扁茎眼子菜"
       ]
     },
     "tags": [],
@@ -882,7 +1142,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -898,17 +1158,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_crispus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -964,11 +1224,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 5.9
     },
     "common_names": {
+      "ar": [
+        "لسان النهر مُجعد الأوراق"
+      ],
+      "de": [
+        "Krauses Laichkraut"
+      ],
       "en": [
-        "Curled pondweed"
+        "Curled pondweed",
+        "Potamogeton crispus"
+      ],
+      "es": [
+        "Potamogeton crispus"
+      ],
+      "fr": [
+        "Potamot crépu"
+      ],
+      "it": [
+        "Potamogeton crispus"
+      ],
+      "ja": [
+        "エビモ"
+      ],
+      "ko": [
+        "말즘"
+      ],
+      "nl": [
+        "Gekroesd fonteinkruid"
+      ],
+      "pl": [
+        "Rdestnica kędzierzawa"
+      ],
+      "pt": [
+        "Potamogeton crispus"
+      ],
+      "ru": [
+        "рдест курчавый"
+      ],
+      "zh": [
+        "菹草"
       ]
     },
     "tags": [],
@@ -980,12 +1279,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/b654844754aa4a3266ed1d06561571fd.jpg",
-    "description": null,
+    "description": "Potamogeton distinctus, the pondweed, is an aquatic plant species in the genus Potamogeton. It is found in slow moving fresh water. It is widely distributed in the east of temperate Asia, tropical Asia and also grows in the Southwestern Pacific.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -996,7 +1295,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_distinctus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1062,9 +1361,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton distinctus"
+      ],
+      "en": [
+        "Potamogeton distinctus"
+      ],
+      "es": [
+        "Potamogeton distinctus"
+      ],
+      "fr": [
+        "Potamogeton distinctus"
+      ],
+      "it": [
+        "Potamogeton distinctus"
+      ],
+      "ja": [
+        "ヒルムシロ"
+      ],
+      "ko": [
+        "가래"
+      ],
+      "nl": [
+        "Potamogeton distinctus"
+      ],
+      "pl": [
+        "Potamogeton distinctus"
+      ],
+      "pt": [
+        "Potamogeton distinctus"
+      ],
+      "ru": [
+        "Potamogeton distinctus"
+      ],
+      "zh": [
+        "异匙叶藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1074,12 +1412,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cbbfe29e89d64b24d2fe9a46586033ba825f9cc8",
-    "description": null,
+    "description": "Potamogeton diversifolius is a species of aquatic plant known by the common names waterthread pondweed and diverse-leaved pondweed. It is native to most of the United States, as well as sections of southwestern Canada, and northern Mexico, where it grows in water bodies such as ponds, lakes, ditches, and slow-moving streams. This is a perennial herb producing a very narrow, compressed stem branching to a maximum length around 35 centimeters.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1090,17 +1428,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_diversifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1156,11 +1494,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
     "common_names": {
+      "de": [
+        "Potamogeton diversifolius"
+      ],
       "en": [
+        "Potamogeton diversifolius",
         "Waterthread pondweed"
+      ],
+      "es": [
+        "Potamogeton diversifolius"
+      ],
+      "fr": [
+        "Potamogeton diversifolius"
+      ],
+      "it": [
+        "Potamogeton diversifolius"
+      ],
+      "nl": [
+        "Potamogeton diversifolius"
+      ],
+      "pl": [
+        "Potamogeton diversifolius"
+      ],
+      "pt": [
+        "Potamogeton diversifolius"
+      ],
+      "ru": [
+        "Potamogeton diversifolius"
       ]
     },
     "tags": [],
@@ -1172,12 +1537,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fed1780d50af8e7cef6fc070910000b1dbe0c053",
-    "description": null,
+    "description": "Potamogeton epihydrus is a perennial aquatic plant known by the common names ribbonleaf pondweed and Nuttall's pondweed, and American pondweed in the United Kingdom. It is native to much of North America, where it grows in water bodies such as ponds, lakes, ditches, and slow-moving streams.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1188,17 +1553,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_epihydrus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1254,11 +1619,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Potamogeton epihydrus"
+      ],
       "en": [
-        "American pondweed"
+        "American pondweed",
+        "Potamogeton epihydrus"
+      ],
+      "es": [
+        "Potamogeton epihydrus"
+      ],
+      "fr": [
+        "Potamogeton epihydrus"
+      ],
+      "it": [
+        "Potamogeton epihydrus"
+      ],
+      "nl": [
+        "Potamogeton epihydrus"
+      ],
+      "pl": [
+        "Potamogeton epihydrus"
+      ],
+      "pt": [
+        "Potamogeton epihydrus"
+      ],
+      "ru": [
+        "Potamogeton epihydrus"
       ]
     },
     "tags": [],
@@ -1270,12 +1662,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/238904c7988f91eeaa11169d849d033018bc1344",
-    "description": null,
+    "description": "Potamogeton foliosus is a species of aquatic plant known by the common name leafy pondweed. It is native to nearly all of North America and parts of Central America, where it grows in water bodies such as ponds, lakes, ditches, and slow-moving streams. It has been reported from every state in the United States except Hawaii as well as from every Canadian province and territory except Newfoundland and Nunavut.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1286,17 +1678,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_foliosus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1352,11 +1744,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
     "common_names": {
+      "de": [
+        "Potamogeton foliosus"
+      ],
       "en": [
-        "Leafy pondweed"
+        "Leafy pondweed",
+        "Potamogeton foliosus"
+      ],
+      "es": [
+        "Potamogeton foliosus"
+      ],
+      "fr": [
+        "Potamogeton foliosus"
+      ],
+      "it": [
+        "Potamogeton foliosus"
+      ],
+      "nl": [
+        "Potamogeton foliosus"
+      ],
+      "pl": [
+        "Potamogeton foliosus"
+      ],
+      "pt": [
+        "Potamogeton foliosus"
+      ],
+      "ru": [
+        "Potamogeton foliosus"
       ]
     },
     "tags": [],
@@ -1368,12 +1787,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/79bc6bfce90c7da7c174fbef3ce9f640e586cac4",
-    "description": null,
+    "description": "Potamogeton friesii, known as flat-stalked pondweed, or Fries' pondweed, is an aquatic plant in the genus Potamogeton. It grows mainly in mesotrophic to eutrophic rivers, lakes, ponds and ditches, rarely in brackish water. It occurs in North America, Europe, western Asia and a few scattered locations elsewhere in Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1384,17 +1803,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_friesii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1450,11 +1869,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Stachelspitziges Laichkraut"
+      ],
       "en": [
-        "Fries' pondweed"
+        "Fries' pondweed",
+        "Potamogeton friesii"
+      ],
+      "es": [
+        "Potamogeton friesii"
+      ],
+      "fr": [
+        "Potamogeton friesii"
+      ],
+      "it": [
+        "Potamogeton friesii"
+      ],
+      "nl": [
+        "Puntig fonteinkruid"
+      ],
+      "pl": [
+        "Rdestnica szczeciolistna"
+      ],
+      "pt": [
+        "Potamogeton friesii"
+      ],
+      "ru": [
+        "рдест Фриса"
+      ],
+      "zh": [
+        "弗里斯眼子菜"
       ]
     },
     "tags": [],
@@ -1466,7 +1915,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1482,17 +1931,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_gramineus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1548,11 +1997,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "de": [
+        "Potamogeton gramineus"
+      ],
       "en": [
+        "Potamogeton gramineus",
         "Various-leaf pondweed"
+      ],
+      "es": [
+        "Potamogeton gramineus"
+      ],
+      "fr": [
+        "Potamogeton gramineus"
+      ],
+      "it": [
+        "Potamogeton gramineus"
+      ],
+      "nl": [
+        "Potamogeton gramineus"
+      ],
+      "pl": [
+        "Rdestnica trawiasta"
+      ],
+      "pt": [
+        "Potamogeton gramineus"
+      ],
+      "ru": [
+        "Potamogeton gramineus"
+      ],
+      "tr": [
+        "Potamogeton gramineus"
+      ],
+      "zh": [
+        "禾叶眼子菜"
       ]
     },
     "tags": [],
@@ -1564,12 +2046,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1318acd77eeb8448f4de9da096b3022e.jpg",
-    "description": null,
+    "description": "Potamogeton illinoensis, commonly known as Illinois pondweed or shining pondweed, is an aquatic plant. It provides food and cover for aquatic animals.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1580,17 +2062,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_illinoensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1646,9 +2128,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton illinoensis"
+      ],
+      "en": [
+        "Potamogeton illinoensis"
+      ],
+      "es": [
+        "Potamogeton illinoensis"
+      ],
+      "fr": [
+        "Potamogeton illinoensis"
+      ],
+      "it": [
+        "Potamogeton illinoensis"
+      ],
+      "nl": [
+        "Potamogeton illinoensis"
+      ],
+      "pl": [
+        "Potamogeton illinoensis"
+      ],
+      "pt": [
+        "Potamogeton illinoensis"
+      ],
+      "ru": [
+        "Potamogeton illinoensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1658,7 +2170,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1674,17 +2186,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_lucens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1740,11 +2252,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.1
     },
     "common_names": {
+      "ar": [
+        "لسان النهر لامع"
+      ],
+      "de": [
+        "Spiegelndes Laichkraut"
+      ],
       "en": [
+        "Potamogeton lucens",
         "Shining pondweed"
+      ],
+      "es": [
+        "Potamogeton lucens"
+      ],
+      "fr": [
+        "Potamogeton lucens"
+      ],
+      "it": [
+        "Potamogeton lucens"
+      ],
+      "nl": [
+        "Potamogeton lucens"
+      ],
+      "pl": [
+        "Rdestnica połyskująca"
+      ],
+      "pt": [
+        "Potamogeton lucens"
+      ],
+      "ru": [
+        "Рдест блестящий"
+      ],
+      "zh": [
+        "光叶眼子菜"
       ]
     },
     "tags": [],
@@ -1756,7 +2301,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1772,17 +2317,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_natans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1838,11 +2383,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "ar": [
+        "سلق الماء"
+      ],
+      "de": [
+        "Schwimmendes Laichkraut"
+      ],
       "en": [
-        "Floating-leaf pondweed"
+        "Floating-leaf pondweed",
+        "Potamogeton natans"
+      ],
+      "es": [
+        "Potamogeton natans"
+      ],
+      "fr": [
+        "Potamot nageant"
+      ],
+      "it": [
+        "Potamogeton natans"
+      ],
+      "ja": [
+        "オヒルムシロ"
+      ],
+      "ko": [
+        "큰가래"
+      ],
+      "nl": [
+        "Drijvend fonteinkruid"
+      ],
+      "pl": [
+        "Rdestnica pływająca"
+      ],
+      "pt": [
+        "Potamogeton natans"
+      ],
+      "ru": [
+        "рдест плавающий"
+      ],
+      "zh": [
+        "浮叶眼子菜"
       ]
     },
     "tags": [],
@@ -1854,7 +2438,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1870,17 +2454,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_nodosus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1936,11 +2520,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "ar": [
+        "عقدة بوتاموجيتون"
+      ],
+      "de": [
+        "Potamogeton nodosus"
+      ],
       "en": [
-        "Longleaf pondweed"
+        "Longleaf pondweed",
+        "Potamogeton nodosus"
+      ],
+      "es": [
+        "Potamogeton nodosus"
+      ],
+      "fr": [
+        "Potamogeton nodosus"
+      ],
+      "it": [
+        "Potamogeton nodosus"
+      ],
+      "nl": [
+        "Potamogeton nodosus"
+      ],
+      "pl": [
+        "Rdestnica nawodna"
+      ],
+      "pt": [
+        "Potamogeton nodosus"
+      ],
+      "ru": [
+        "Potamogeton nodosus"
+      ],
+      "zh": [
+        "小节眼子菜"
       ]
     },
     "tags": [],
@@ -1952,7 +2569,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1968,17 +2585,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_obtusifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2034,11 +2651,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "de": [
+        "Potamogeton obtusifolius"
+      ],
       "en": [
-        "Blunt-leaved pondweed"
+        "Blunt-leaved pondweed",
+        "Potamogeton obtusifolius"
+      ],
+      "es": [
+        "Potamogeton obtusifolius"
+      ],
+      "fr": [
+        "Potamogeton obtusifolius"
+      ],
+      "it": [
+        "Potamogeton obtusifolius"
+      ],
+      "ja": [
+        "イヌイトモ"
+      ],
+      "nl": [
+        "Potamogeton obtusifolius"
+      ],
+      "pl": [
+        "Rdestnica stępiona"
+      ],
+      "pt": [
+        "Potamogeton obtusifolius"
+      ],
+      "ru": [
+        "рдест туполистный"
+      ],
+      "zh": [
+        "钝叶眼子菜"
       ]
     },
     "tags": [],
@@ -2050,12 +2700,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Potamogeton ochreatus, common name blunt pondweed, is a species of freshwater plant found in fast moving or still water in Australia and New Zealand. Stems are round in cross section, up to four metres long. The specific epithet ochreatus is derived from Latin, meaning \"greave\" a piece of leg armour, alluding to the shape of the sheath at the leaf base.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2066,7 +2716,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_ochreatus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2132,9 +2782,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton ochreatus"
+      ],
+      "en": [
+        "Potamogeton ochreatus"
+      ],
+      "es": [
+        "Potamogeton ochreatus"
+      ],
+      "fr": [
+        "Potamogeton ochreatus"
+      ],
+      "it": [
+        "Potamogeton ochreatus"
+      ],
+      "nl": [
+        "Potamogeton ochreatus"
+      ],
+      "pl": [
+        "Potamogeton ochreatus"
+      ],
+      "pt": [
+        "Potamogeton ochreatus"
+      ],
+      "ru": [
+        "Potamogeton ochreatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2144,12 +2824,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7e9c3e35b960d92aae744dc1677fea5c.jpg",
-    "description": null,
+    "description": "Potamogeton octandrus is an aquatic plant species in the genus Potamogeton. It is found in slow-moving fresh water. The specific epithet means 'eight-stamened'.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2160,7 +2840,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_octandrus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2226,9 +2906,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton octandrus"
+      ],
+      "en": [
+        "Potamogeton octandrus"
+      ],
+      "es": [
+        "Potamogeton octandrus"
+      ],
+      "fr": [
+        "Potamogeton octandrus"
+      ],
+      "it": [
+        "Potamogeton octandrus"
+      ],
+      "nl": [
+        "Potamogeton octandrus"
+      ],
+      "pl": [
+        "Potamogeton octandrus"
+      ],
+      "pt": [
+        "Potamogeton octandrus"
+      ],
+      "ru": [
+        "Potamogeton octandrus"
+      ],
+      "zh": [
+        "南方眼子菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2238,7 +2951,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2254,17 +2967,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_perfoliatus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2320,11 +3033,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "لسان النهر ذو أوراق تُحيط بالساق"
+      ],
+      "de": [
+        "Durchwachsenes Laichkraut"
+      ],
       "en": [
-        "Perfoliate pondweed"
+        "Perfoliate pondweed",
+        "Potamogeton perfoliatus"
+      ],
+      "es": [
+        "Potamogeton perfoliatus"
+      ],
+      "fr": [
+        "Potamot perfolié"
+      ],
+      "it": [
+        "Potamogeton perfoliatus"
+      ],
+      "ja": [
+        "ヒロハノエビモ"
+      ],
+      "nl": [
+        "Doorgroeid fonteinkruid"
+      ],
+      "pl": [
+        "Rdestnica przeszyta"
+      ],
+      "pt": [
+        "Potamogeton perfoliatus"
+      ],
+      "ru": [
+        "Potamogeton perfoliatus"
+      ],
+      "zh": [
+        "穿叶眼子菜"
       ]
     },
     "tags": [],
@@ -2336,7 +3085,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2352,17 +3101,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_polygonifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2418,11 +3167,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Knöterich-Laichkraut"
+      ],
       "en": [
-        "Bog pondweed"
+        "Bog pondweed",
+        "Potamogeton polygonifolius"
+      ],
+      "es": [
+        "Potamogeton polygonifolius"
+      ],
+      "fr": [
+        "Potamot à feuilles de Renouée"
+      ],
+      "it": [
+        "Potamogeton polygonifolius"
+      ],
+      "nl": [
+        "Duizendknoopfonteinkruid"
+      ],
+      "pl": [
+        "Rdestnica podługowata"
+      ],
+      "pt": [
+        "Potamogeton polygonifolius"
+      ],
+      "ru": [
+        "Potamogeton polygonifolius"
+      ],
+      "tr": [
+        "Potamogeton polygonifolius"
+      ],
+      "zh": [
+        "蓼叶眼子菜"
       ]
     },
     "tags": [],
@@ -2434,12 +3216,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a4c98c6cb5fde0fae1f819e344bf642ca6b0ed71",
-    "description": null,
+    "description": "Potamogeton praelongus, commonly known as whitestem pondweed in North America and long-stalked pondweed in Britain, is a large, perennial aquatic plant in the family Potamogetonaceae. It is widely distributed in lakes and rivers in the northern hemisphere, but is sensitive to poor water quality.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2450,17 +3232,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_praelongus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2516,11 +3298,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "de": [
+        "Langblättriges Laichkraut"
+      ],
       "en": [
+        "Potamogeton praelongus",
         "Whitestem pondweed"
+      ],
+      "es": [
+        "Potamogeton praelongus"
+      ],
+      "fr": [
+        "Potamogeton praelongus"
+      ],
+      "it": [
+        "Potamogeton praelongus"
+      ],
+      "ja": [
+        "ナガバエビモ"
+      ],
+      "nl": [
+        "Langstengelig fonteinkruid"
+      ],
+      "pl": [
+        "Rdestnica wydłużona"
+      ],
+      "pt": [
+        "Potamogeton praelongus"
+      ],
+      "ru": [
+        "Potamogeton praelongus"
+      ],
+      "tr": [
+        "Potamogeton praelongus"
+      ],
+      "zh": [
+        "白茎眼子菜"
       ]
     },
     "tags": [],
@@ -2532,7 +3350,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2548,7 +3366,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_pulcher",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2614,9 +3432,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton pulcher"
+      ],
+      "en": [
+        "Potamogeton pulcher"
+      ],
+      "es": [
+        "Potamogeton pulcher"
+      ],
+      "fr": [
+        "Potamogeton pulcher"
+      ],
+      "it": [
+        "Potamogeton pulcher"
+      ],
+      "nl": [
+        "Potamogeton pulcher"
+      ],
+      "pl": [
+        "Potamogeton pulcher"
+      ],
+      "pt": [
+        "Potamogeton pulcher"
+      ],
+      "ru": [
+        "Potamogeton pulcher"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2626,7 +3474,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2642,17 +3490,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_pusillus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2708,11 +3556,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "de": [
+        "Gewöhnliches Zwerg-Laichkraut"
+      ],
       "en": [
-        "Lesser pondweed"
+        "Lesser pondweed",
+        "Potamogeton pusillus"
+      ],
+      "es": [
+        "Potamogeton pusillus"
+      ],
+      "fr": [
+        "Potamogeton pusillus"
+      ],
+      "it": [
+        "Potamogeton pusillus"
+      ],
+      "nl": [
+        "Potamogeton pusillus"
+      ],
+      "pl": [
+        "Rdestnica drobna"
+      ],
+      "pt": [
+        "Potamogeton pusillus"
+      ],
+      "ru": [
+        "Potamogeton pusillus"
+      ],
+      "zh": [
+        "小眼子菜"
       ]
     },
     "tags": [],
@@ -2724,7 +3602,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2740,17 +3618,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_richardsonii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2806,9 +3684,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton richardsonii"
+      ],
+      "en": [
+        "Potamogeton richardsonii"
+      ],
+      "es": [
+        "Potamogeton richardsonii"
+      ],
+      "fr": [
+        "Potamogeton richardsonii"
+      ],
+      "it": [
+        "Potamogeton richardsonii"
+      ],
+      "nl": [
+        "Potamogeton richardsonii"
+      ],
+      "pl": [
+        "Potamogeton richardsonii"
+      ],
+      "pt": [
+        "Potamogeton richardsonii"
+      ],
+      "ru": [
+        "Potamogeton richardsonii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2818,12 +3726,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d040ff2be988c83f9eb9ca2ea11d5ad4.jpg",
-    "description": null,
+    "description": "Potamogeton robbinsii, commonly known as Robbins' pondweed, is a North American perennial herb. The specific epithet robbinsii is named in honor of James Watson Robbins, the pioneer student of the genus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2834,7 +3742,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_robbinsii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2900,9 +3808,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton robbinsii"
+      ],
+      "en": [
+        "Potamogeton robbinsii"
+      ],
+      "es": [
+        "Potamogeton robbinsii"
+      ],
+      "fr": [
+        "Potamogeton robbinsii"
+      ],
+      "it": [
+        "Potamogeton robbinsii"
+      ],
+      "nl": [
+        "Potamogeton robbinsii"
+      ],
+      "pl": [
+        "Potamogeton robbinsii"
+      ],
+      "pt": [
+        "Potamogeton robbinsii"
+      ],
+      "ru": [
+        "Potamogeton robbinsii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2912,12 +3850,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d9d05e07ebd7f11346591131d9cbcbae0e37219a",
-    "description": null,
+    "description": "Potamogeton rutilus is a species of flowering plant belonging to the family Potamogetonaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2928,7 +3866,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_rutilus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2994,11 +3932,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Potamogeton rutilus"
+      ],
       "en": [
+        "Potamogeton rutilus",
         "Shetland pondweed"
+      ],
+      "es": [
+        "Potamogeton rutilus"
+      ],
+      "fr": [
+        "Potamogeton rutilus"
+      ],
+      "it": [
+        "Potamogeton rutilus"
+      ],
+      "nl": [
+        "Potamogeton rutilus"
+      ],
+      "pl": [
+        "rdestnica błyszcząca"
+      ],
+      "pt": [
+        "Potamogeton rutilus"
+      ],
+      "ru": [
+        "Potamogeton rutilus"
       ]
     },
     "tags": [],
@@ -3010,7 +3975,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3026,7 +3991,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_spirillus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3092,9 +4057,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton spirillus"
+      ],
+      "en": [
+        "Potamogeton spirillus"
+      ],
+      "es": [
+        "Potamogeton spirillus"
+      ],
+      "fr": [
+        "Potamogeton spirillus"
+      ],
+      "it": [
+        "Potamogeton spirillus"
+      ],
+      "nl": [
+        "Potamogeton spirillus"
+      ],
+      "pl": [
+        "Potamogeton spirillus"
+      ],
+      "pt": [
+        "Potamogeton spirillus"
+      ],
+      "ru": [
+        "Potamogeton spirillus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3104,7 +4099,7 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3120,7 +4115,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_tricarinatus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3186,9 +4181,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton tricarinatus"
+      ],
+      "en": [
+        "Potamogeton tricarinatus"
+      ],
+      "es": [
+        "Potamogeton tricarinatus"
+      ],
+      "fr": [
+        "Potamogeton tricarinatus"
+      ],
+      "it": [
+        "Potamogeton tricarinatus"
+      ],
+      "nl": [
+        "Potamogeton tricarinatus"
+      ],
+      "pl": [
+        "Potamogeton tricarinatus"
+      ],
+      "pt": [
+        "Potamogeton tricarinatus"
+      ],
+      "ru": [
+        "Potamogeton tricarinatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3198,12 +4223,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1e9802018b1d24438fe6ffc0d024f7a22bd0160e",
-    "description": null,
+    "description": "Potamogeton trichoides is a species of aquatic plant known by the common name hairlike pondweed, native to Europe and western Asia where it grows in calcareous, usually nutrient-rich standing or slow-flowing water.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3214,17 +4239,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_trichoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3280,11 +4305,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "لسان النهر شبيهه الشعر"
+      ],
+      "de": [
+        "Potamogeton trichoides"
+      ],
       "en": [
-        "Hairlike pondweed"
+        "Hairlike pondweed",
+        "Potamogeton trichoides"
+      ],
+      "es": [
+        "Potamogeton trichoides"
+      ],
+      "fr": [
+        "Potamogeton trichoides"
+      ],
+      "it": [
+        "Potamogeton trichoides"
+      ],
+      "nl": [
+        "Potamogeton trichoides"
+      ],
+      "pl": [
+        "Rdestnica włosowata"
+      ],
+      "pt": [
+        "Potamogeton trichoides"
+      ],
+      "ru": [
+        "Potamogeton trichoides"
       ]
     },
     "tags": [],
@@ -3296,12 +4351,12 @@
     "family": "Potamogetonaceae",
     "genus": "Potamogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7fbe33ce391d9338bf0f8f0391f2aa2e.jpg",
-    "description": null,
+    "description": "Potamogeton compressus is a species of aquatic plant known by the common names grass-wrack pondweed, flatstem pondweed and eel-grass pondweed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3312,7 +4367,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "potamogeton_zosteriformis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3378,9 +4433,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Potamogeton zosteriformis"
+      ],
+      "en": [
+        "Potamogeton zosteriformis"
+      ],
+      "es": [
+        "Potamogeton zosteriformis"
+      ],
+      "fr": [
+        "Potamogeton zosteriformis"
+      ],
+      "it": [
+        "Potamogeton zosteriformis"
+      ],
+      "nl": [
+        "Potamogeton zosteriformis"
+      ],
+      "pl": [
+        "Potamogeton zosteriformis"
+      ],
+      "pt": [
+        "Potamogeton zosteriformis"
+      ],
+      "ru": [
+        "Potamogeton zosteriformis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3390,12 +4475,12 @@
     "family": "Potamogetonaceae",
     "genus": "Stuckenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bbcd3c253883668972f18312892fc32bc6e4e180",
-    "description": null,
+    "description": "Stuckenia filiformis is a species of flowering plant belonging to the family Potamogetonaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3406,17 +4491,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "stuckenia_filiformis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3472,11 +4557,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "de": [
+        "Stuckenia filiformis"
+      ],
       "en": [
-        "Fineleaf pondweed"
+        "Fineleaf pondweed",
+        "Stuckenia filiformis"
+      ],
+      "es": [
+        "Stuckenia filiformis"
+      ],
+      "fr": [
+        "Stuckenia filiformis"
+      ],
+      "it": [
+        "Stuckenia filiformis"
+      ],
+      "nl": [
+        "draadfonteinkruid"
+      ],
+      "pl": [
+        "Stuckenia filiformis"
+      ],
+      "pt": [
+        "Stuckenia filiformis"
+      ],
+      "ru": [
+        "Stuckenia filiformis"
+      ],
+      "zh": [
+        "丝叶眼子菜"
       ]
     },
     "tags": [],
@@ -3488,7 +4603,7 @@
     "family": "Potamogetonaceae",
     "genus": "Stuckenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3504,17 +4619,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "stuckenia_pectinata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3570,11 +4685,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.2
     },
     "common_names": {
+      "de": [
+        "Kamm-Laichkraut"
+      ],
       "en": [
-        "Sago pondweed"
+        "Sago pondweed",
+        "Stuckenia pectinata"
+      ],
+      "es": [
+        "Stuckenia pectinata"
+      ],
+      "fr": [
+        "Stuckenia pectinata"
+      ],
+      "it": [
+        "Stuckenia pectinata"
+      ],
+      "nl": [
+        "schedefonteinkruid"
+      ],
+      "pl": [
+        "Stuckenia pectinata"
+      ],
+      "pt": [
+        "Stuckenia pectinata"
+      ],
+      "ru": [
+        "Stuckenia pectinata"
+      ],
+      "zh": [
+        "篦齿眼子菜"
       ]
     },
     "tags": [],
@@ -3586,12 +4731,12 @@
     "family": "Potamogetonaceae",
     "genus": "Stuckenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/8f56f5b2aa2d530518c4dc421fa10024.jpg",
-    "description": null,
+    "description": "Stuckenia vaginata, commonly called sheathed pondweed, big sheathed pondweed or large-sheathed pondweed is a water plant species that grows in fresh and brackish water in Europe, Northern Asia and North America. Sheathed pondweed is rare, but is not in the 2012 IUCN Red List.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3602,7 +4747,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "stuckenia_vaginata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3668,9 +4813,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stuckenia vaginata"
+      ],
+      "en": [
+        "Stuckenia vaginata"
+      ],
+      "es": [
+        "Stuckenia vaginata"
+      ],
+      "fr": [
+        "Stuckenia vaginata"
+      ],
+      "it": [
+        "Stuckenia vaginata"
+      ],
+      "nl": [
+        "Stuckenia vaginata"
+      ],
+      "pl": [
+        "Stuckenia vaginata"
+      ],
+      "pt": [
+        "Stuckenia vaginata"
+      ],
+      "ru": [
+        "Stuckenia vaginata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3680,7 +4855,7 @@
     "family": "Potamogetonaceae",
     "genus": "Zannichellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3696,17 +4871,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "zannichellia_palustris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3762,11 +4937,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.3
     },
     "common_names": {
+      "ar": [
+        "زانيكلية سبخية"
+      ],
+      "de": [
+        "Sumpf-Teichfaden"
+      ],
       "en": [
-        "Horned-pondweed"
+        "Horned-pondweed",
+        "Zannichellia palustris"
+      ],
+      "es": [
+        "Zannichellia palustris"
+      ],
+      "fr": [
+        "Zannichellie des marais"
+      ],
+      "it": [
+        "Zannichellia palustris"
+      ],
+      "ja": [
+        "イトクズモ"
+      ],
+      "ko": [
+        "뿔말"
+      ],
+      "nl": [
+        "Zannichellia palustris"
+      ],
+      "pl": [
+        "Zamętnica błotna"
+      ],
+      "pt": [
+        "Zannichellia palustris"
+      ],
+      "ru": [
+        "Занникеллия болотная"
+      ],
+      "zh": [
+        "角果藻"
       ]
     },
     "tags": [],

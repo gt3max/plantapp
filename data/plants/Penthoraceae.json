@@ -5,12 +5,12 @@
     "family": "Penthoraceae",
     "genus": "Penthorum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dffcad5f6fac3586fbac261e5b1e34469dca8480",
-    "description": null,
+    "description": "Penthorum sedoides, known by the common name ditch stonecrop, is a perennial forb native to the eastern United States and Canada which produces small white flowers in summer.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Penthorum sedoides"
+      ],
       "en": [
-        "Ditch-stonecrop"
+        "Ditch-stonecrop",
+        "Penthorum sedoides"
+      ],
+      "es": [
+        "Penthorum sedoides"
+      ],
+      "fr": [
+        "Penthorum sedoides"
+      ],
+      "it": [
+        "Penthorum sedoides"
+      ],
+      "nl": [
+        "Penthorum sedoides"
+      ],
+      "pl": [
+        "Penthorum sedoides"
+      ],
+      "pt": [
+        "Penthorum sedoides"
+      ],
+      "ru": [
+        "Penthorum sedoides"
       ]
     },
     "tags": [],

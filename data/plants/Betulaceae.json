@@ -21,17 +21,17 @@
     "synonyms": "[\"Alnus acuminata var. genuina\", \"Alnus jorullensis var. acuminata\"]",
     "care": {
       "plant_id": "alnus_acuminata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,19 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "de": [
+        "Alnus acuminata"
+      ],
       "en": [
+        "Alnus acuminata",
         "Andean alder"
       ],
       "es": [
+        "Alnus acuminata",
         "Alnus acuminata var spachii",
         "Alnus acuminata var. spachii",
         "Alnus ferruginea",
         "Alnus mirbelii",
         "Alnus spachii",
         "Betula arguta"
+      ],
+      "fr": [
+        "Alnus acuminata"
+      ],
+      "it": [
+        "Alnus acuminata"
+      ],
+      "nl": [
+        "Alnus acuminata"
+      ],
+      "pl": [
+        "Alnus acuminata"
+      ],
+      "pt": [
+        "Alnus acuminata"
+      ],
+      "ru": [
+        "Alnus acuminata"
       ],
       "zh": [
         "安第斯赤杨"
@@ -130,17 +155,17 @@
     "synonyms": "[\"Betula alnobetula\", \"Duschekia alnobetula\", \"Alnus alnobetula var. genuina\"]",
     "care": {
       "plant_id": "alnus_alnobetula",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -196,7 +221,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.6
     },
     "common_names": {
       "ar": [
@@ -260,12 +287,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -329,7 +356,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 7.5
     },
     "common_names": {
       "de": [
@@ -411,17 +440,17 @@
     "synonyms": "[\"Duschekia firma\", \"Alnus yasha\", \"Alnus hirtella\", \"Alnus yasha var. microcarpa\", \"Alnus yasha var. macrocarpa\", \"Alnus firma f. hirtella\", \"Alnus firma var. yasha\", \"Alnus firma var. hirtella\", \"Alnus firma subsp. hirtella\", \"Alnaster firmus\"]",
     "care": {
       "plant_id": "alnus_firma",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -477,15 +506,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "de": [
+        "Alnus firma"
+      ],
+      "en": [
+        "Alnus firma"
+      ],
+      "es": [
+        "Alnus firma"
+      ],
+      "fr": [
+        "Alnus firma"
+      ],
+      "it": [
+        "Alnus firma"
+      ],
       "ja": [
         "ヤシャブシ",
         "夜叉五倍子"
       ],
+      "nl": [
+        "Alnus firma"
+      ],
       "pl": [
         "Olsza twarda"
+      ],
+      "pt": [
+        "Alnus firma"
       ],
       "ru": [
         "Ольха твёрдая"
@@ -520,13 +572,13 @@
     "synonyms": "[\"Betula alnus var. glutinosa\", \"Betula glutinosa\", \"Betula alnus subsp. glutinosa\", \"Alnus vulgaris\", \"Alnus glutinosa var. vulgaris\"]",
     "care": {
       "plant_id": "alnus_glutinosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -594,7 +646,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 5.7
     },
     "common_names": {
       "ar": [
@@ -704,17 +758,17 @@
     "synonyms": "[\"Alnus tinctoria var. obtusiloba\", \"Alnus sibirica var. oxyloba\", \"Alnus incana subsp. tchangbokii\", \"Alnus tinctoria var. mandschurica\", \"Alnus sibirica var. hirsuta\", \"Alnus viridis var. sibirica\", \"Alnus sibirica var. tinctoria\", \"Alnus sibirica f. hirsutoides\", \"Alnus hirsuta f. macrophylla\", \"Alnus tinctoria f. hirsutoides\"]",
     "care": {
       "plant_id": "alnus_hirsuta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -770,7 +824,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.6
     },
     "common_names": {
       "en": [
@@ -823,13 +879,13 @@
     "synonyms": "[\"Betula incana\", \"Betula alnus var. incana\", \"Alnus glutinosa var. incana\", \"Alnus februaria var. incana\"]",
     "care": {
       "plant_id": "alnus_incana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -897,7 +953,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.1
     },
     "common_names": {
       "ar": [
@@ -972,7 +1030,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1c65cf2cc9187154ec3a0557151247e5b8267330",
-    "description": "ellipsoidal fruiting cones 3/4 -1  long",
+    "description": "Alnus japonica, known as Japanese alder, is a species of Alnus from Japan, Korea, Taiwan, eastern China, and Russia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -983,17 +1041,17 @@
     "synonyms": "[\"Alnus harinoki\", \"Alnus \\u00d7 borealis var. koreana\", \"Betula japonica\", \"Alnus japonica var. reginosa\", \"Alnus japonica var. rufinervis\", \"Alnus japonica var. villosa\", \"Alnus japonica\", \"Alnus japonica var. genuina\", \"Alnus japonica var. serrata\", \"Alnus japonica f. serrata\"]",
     "care": {
       "plant_id": "alnus_japonica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1051,7 +1109,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.6
     },
     "common_names": {
       "de": [
@@ -1117,7 +1177,7 @@
     "synonyms": "[\"Alnus acuminata var. jorullensis\", \"Alnus jorullensis var. typica\"]",
     "care": {
       "plant_id": "alnus_jorullensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1183,10 +1243,16 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Alnus jorullensis"
+      ],
       "en": [
+        "Alnus jorullensis",
         "Evergreen alder",
         "Mexican alder"
       ],
@@ -1195,8 +1261,30 @@
         "Aliso",
         "Alnus acuminata var jorullensis",
         "Alnus acuminata var. jorullensis",
+        "Alnus jorullensis",
         "Cerezo",
         "Chaquiro"
+      ],
+      "fr": [
+        "Alnus jorullensis"
+      ],
+      "it": [
+        "Alnus jorullensis"
+      ],
+      "nl": [
+        "Alnus jorullensis"
+      ],
+      "pl": [
+        "Alnus jorullensis"
+      ],
+      "pt": [
+        "Alnus jorullensis"
+      ],
+      "ru": [
+        "Alnus jorullensis"
+      ],
+      "tr": [
+        "Alnus jorullensis"
       ]
     },
     "tags": [],
@@ -1224,7 +1312,7 @@
     "synonyms": "[\"Alnaster maximowiczii\", \"Alnus alnobetula subsp. maximowiczii\", \"Alnus maximowiczii var. sachalinensis\", \"Alnus alnobetula subvar. sachalinensis\", \"Alnus fruticosa var. sachalinensis\", \"Alnus crispa var. sachalinensis\", \"Alnaster crispus var. maximowiczii\", \"Alnus viridis subsp. maximowiczii\", \"Alnaster crispus var. sachalinensis\", \"Duschekia maximowiczii\"]",
     "care": {
       "plant_id": "alnus_maximowiczii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1290,11 +1378,35 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Alnus maximowiczii"
+      ],
       "en": [
+        "Alnus maximowiczii",
         "montane alder"
+      ],
+      "es": [
+        "Alnus maximowiczii"
+      ],
+      "fr": [
+        "Alnus maximowiczii"
+      ],
+      "it": [
+        "Alnus maximowiczii"
+      ],
+      "nl": [
+        "Alnus maximowiczii"
+      ],
+      "pl": [
+        "Alnus maximowiczii"
+      ],
+      "pt": [
+        "Alnus maximowiczii"
       ],
       "ru": [
         "Ольха Максимовича"
@@ -1325,7 +1437,7 @@
     "synonyms": "[\"Alnus multinervis var. nikkoensis\", \"Alnaster pendulus\", \"Duschekia pendula\", \"Alnus multinervis\", \"Alnus firma var. multinervis\"]",
     "care": {
       "plant_id": "alnus_pendula",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1391,12 +1503,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Alnus pendula"
+      ],
+      "en": [
+        "Alnus pendula"
+      ],
+      "es": [
+        "Alnus pendula"
+      ],
+      "fr": [
+        "Alnus pendula"
+      ],
+      "it": [
+        "Alnus pendula"
+      ],
       "ja": [
         "ハゲシバリ",
         "ヒメヤシャブシ"
+      ],
+      "nl": [
+        "Alnus pendula"
+      ],
+      "pl": [
+        "Alnus pendula"
+      ],
+      "pt": [
+        "Alnus pendula"
       ],
       "ru": [
         "Ольха повислая"
@@ -1430,13 +1568,13 @@
     "synonyms": "[\"Alnus rhombifolia var. typica\", \"Alnus rhombifolia var. ovalis\", \"Alnus rhombifolia var. bernardina\", \"Alnus californica\", \"Alnus glutinosa lusus californica\"]",
     "care": {
       "plant_id": "alnus_rhombifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -1496,7 +1634,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.6
     },
     "common_names": {
       "en": [
@@ -1551,17 +1691,17 @@
     "synonyms": "[\"Alnus incana var. rubra\", \"Alnus oregana\", \"Alnus rubra f. pinnatisecta\", \"Alnus rubra var. pinnatisecta\"]",
     "care": {
       "plant_id": "alnus_rubra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1623,7 +1763,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.6
     },
     "common_names": {
       "ar": [
@@ -1686,7 +1828,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1c011079f3990d93dd2866ca557debd6d2962bb0",
-    "description": "Female catkins develop into 1-inch long fruiting cones (strobiles) to 3/4” long containing winged nutlets (seeds). Fruiting cones mature to dark brown in fall, with persistence into winter. Cones have woody scales and resemble small pine cones. The fruit attracts butterfly larvae, mammals, and birds which feed on the seeds.",
+    "description": "Alnus serrulata, the hazel alder or smooth alder, is a thicket-forming shrub in the family Betulaceae. It is native to eastern North America and can be found from western Nova Scotia and southern New Brunswick south to Florida and Texas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1697,17 +1839,17 @@
     "synonyms": "[\"Alnus incana var. serrulata\", \"Alnus glutinosa proles oblongata\", \"Alnus noveboracensis\", \"Alnus glutinosa var. oblongata\", \"Alnus latifolia\", \"Betula alnus var. serrulata\", \"Alnus serrulata var. vulgaris\", \"Alnus oblongata\", \"Betula serrulata\", \"Alnus americana\"]",
     "care": {
       "plant_id": "alnus_serrulata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1763,19 +1905,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.6
     },
     "common_names": {
       "ar": [
         "نغت منشاري"
       ],
+      "de": [
+        "Alnus serrulata"
+      ],
       "en": [
+        "Alnus serrulata",
         "Hazel alder"
       ],
+      "es": [
+        "Alnus serrulata"
+      ],
       "fr": [
+        "Alnus serrulata",
         "Aulne blanc",
         "Aulne serrute",
         "Aulne tendre"
+      ],
+      "it": [
+        "Alnus serrulata"
+      ],
+      "nl": [
+        "Alnus serrulata"
+      ],
+      "pl": [
+        "Alnus serrulata"
+      ],
+      "pt": [
+        "Alnus serrulata"
+      ],
+      "ru": [
+        "Alnus serrulata"
       ],
       "zh": [
         "北美灌木杨",
@@ -1796,7 +1963,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Alnus sieboldiana is an alder species found on the islands of Honshu, Shikoku, and Suwanosejima in Japan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1807,7 +1974,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "alnus_sieboldiana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1873,11 +2040,40 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Alnus sieboldiana"
+      ],
+      "en": [
+        "Alnus sieboldiana"
+      ],
+      "es": [
+        "Alnus sieboldiana"
+      ],
+      "fr": [
+        "Alnus sieboldiana"
+      ],
+      "it": [
+        "Alnus sieboldiana"
+      ],
       "ja": [
         "オオバヤシャブシ"
+      ],
+      "nl": [
+        "Alnus sieboldiana"
+      ],
+      "pl": [
+        "Alnus sieboldiana"
+      ],
+      "pt": [
+        "Alnus sieboldiana"
+      ],
+      "ru": [
+        "Alnus sieboldiana"
       ],
       "zh": [
         "旅顺桤木"
@@ -1892,12 +2088,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9bfa351bb6ceae425d17dc6106e9f619d9f59749",
-    "description": "A plump, upright, 1 1/2 inch hairy cone with 2-winged 1/8 inch nutlets inside. Matures in late summer. Attracts birds, butterfly and moth larvae, other insects, and mammals.",
+    "description": "Betula alleghaniensis, the yellow birch, golden birch, or swamp birch, is a large species of birch native to northeastern North America. Its vernacular names refer to the golden color of the tree's bark. In the past its scientific name was Betula lutea, the yellow birch.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1908,13 +2104,13 @@
     "synonyms": "[\"Betula lutea var. macrolepis\", \"Betula lenta var. lutea\", \"Betula lutea var. persicifolia\", \"Betula lutea f. fallax\", \"Betula alleghaniensis var. fallax\", \"Betula alleghaniensis f. macrolepis\", \"Betula alleghaniensis var. macrolepis\", \"Betula lutea\", \"Betula lutea var. genuina\", \"Betula persicifolia\"]",
     "care": {
       "plant_id": "betula_alleghaniensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 92,
       "ppfd_max": 138,
       "dli_min": 0.3,
@@ -1981,11 +2177,50 @@
       "germination_temp_c": null,
       "good_companions": "[\"Canadian Hemlock\"]",
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "ar": [
+        "قضبان أصفر"
+      ],
+      "de": [
+        "Gelb-Birke"
+      ],
       "en": [
+        "Betula alleghaniensis",
         "Yellow birch"
+      ],
+      "es": [
+        "Betula alleghaniensis"
+      ],
+      "fr": [
+        "bouleau jaune"
+      ],
+      "it": [
+        "Betula alleghaniensis"
+      ],
+      "ja": [
+        "キハダカンバ"
+      ],
+      "nl": [
+        "Betula alleghaniensis"
+      ],
+      "pl": [
+        "Brzoza żółta"
+      ],
+      "pt": [
+        "Betula alleghaniensis"
+      ],
+      "ru": [
+        "Берёза аллеганская"
+      ],
+      "tr": [
+        "Sarı huş"
+      ],
+      "zh": [
+        "黃樺"
       ]
     },
     "tags": [],
@@ -1997,12 +2232,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Betula cordifolia, the mountain paper birch or heartleaf birch is a birch species native to Eastern Canada and the Northeastern United States. Until recently it was considered a variety of Betula papyrifera, with which it shares many characteristics, and it was classified as B. papyrifera var. cordifolia (Regel) Fern.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2013,7 +2248,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "betula_cordifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2079,9 +2314,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Betula cordifolia"
+      ],
+      "en": [
+        "Betula cordifolia"
+      ],
+      "es": [
+        "Betula cordifolia"
+      ],
+      "fr": [
+        "Betula cordifolia"
+      ],
+      "it": [
+        "Betula cordifolia"
+      ],
+      "nl": [
+        "Betula cordifolia"
+      ],
+      "pl": [
+        "Betula cordifolia"
+      ],
+      "pt": [
+        "Betula cordifolia"
+      ],
+      "ru": [
+        "Betula cordifolia"
+      ],
+      "tr": [
+        "Betula cordifolia"
+      ],
+      "zh": [
+        "山紙皮樺"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2091,12 +2362,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/22a12ce68087170fb5c5f6a6ed63c780de4401cd",
-    "description": "A plump, upright, 1 1/2 inch hairy cone with 2-winged 1/8 inch nutlets inside. Matures in late summer. Attracts birds, butterfly and moth larvae, other insects, and mammals.",
+    "description": "Betula dahurica, Dahurian birch, or Asian black birch, is a species of birch which is native to China, Japan, Korea, eastern Mongolia, and Russian Far East. It was introduced to the United Kingdom and also grows at the Arnold Arboretum in Boston. In Japan, it usually grows in Nobeyama in Nagano Prefecture in the island of Honshu where it is considered to be endangered. Small population of them can also be found on Hokkaido and Kuril Islands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2107,7 +2378,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "betula_dahurica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2173,11 +2444,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Betula dahurica"
+      ],
       "en": [
-        "Asian black birch"
+        "Asian black birch",
+        "Betula davurica"
+      ],
+      "es": [
+        "Betula dahurica"
+      ],
+      "fr": [
+        "Betula dahurica"
+      ],
+      "it": [
+        "Betula dahurica"
+      ],
+      "ja": [
+        "ヤエガワカンバ"
+      ],
+      "nl": [
+        "Betula dahurica"
+      ],
+      "pl": [
+        "Brzoza dahurska"
+      ],
+      "pt": [
+        "Betula dahurica"
+      ],
+      "ru": [
+        "Берёза даурская"
+      ],
+      "tr": [
+        "Betula davurica"
+      ],
+      "zh": [
+        "黑桦"
       ]
     },
     "tags": [],
@@ -2189,7 +2496,7 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2205,17 +2512,17 @@
     "synonyms": "[\"Betula ermanii var. genuina\"]",
     "care": {
       "plant_id": "betula_ermanii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2271,11 +2578,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "de": [
+        "Ermans Birke"
+      ],
       "en": [
+        "Betula ermanii",
         "Russian rock birch"
+      ],
+      "es": [
+        "Betula ermanii"
+      ],
+      "fr": [
+        "Betula ermanii"
+      ],
+      "it": [
+        "Betula ermanii"
+      ],
+      "ja": [
+        "ダケカンバ"
+      ],
+      "ko": [
+        "사스래나무"
+      ],
+      "nl": [
+        "Goudberk"
+      ],
+      "pl": [
+        "Brzoza Ermana"
+      ],
+      "pt": [
+        "Betula ermanii"
+      ],
+      "ru": [
+        "Берёза Эрмана"
+      ],
+      "tr": [
+        "Betula ermanii"
+      ],
+      "zh": [
+        "岳桦"
       ]
     },
     "tags": [],
@@ -2287,12 +2633,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/9cddb6a71b10882e49d4152cb56bf6a9.jpg",
-    "description": "A plump, upright, 1 1/2 inch hairy cone with 2-winged 1/8 inch nutlets inside. Matures in late summer. Attracts birds, butterfly and moth larvae, other insects, and mammals.",
+    "description": "Betula fruticosa, commonly known as dwarf bog birch, is a species of dwarf birch that grows in central and eastern Europe and Siberia and Mongolia on elevation of 600–1,100 metres (2,000–3,600 ft) in forests, streambanks, and swamps.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2303,17 +2649,17 @@
     "synonyms": "[\"Betula cyclophylla\", \"Betula zyzyphifolia\", \"Betula fruticosa subsp. fusca\", \"Betula evenkiensis\", \"Betula baicalensis\", \"Betula middendorffii var. globosa\", \"Betula fusenensis\", \"Betula middendorffii var. communis\", \"Betula middendorffii var. nitida\", \"Betula fruticosa var. fusenensis\"]",
     "care": {
       "plant_id": "betula_fruticosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2369,9 +2715,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Betula fruticosa"
+      ],
+      "en": [
+        "Betula fruticosa"
+      ],
+      "es": [
+        "Betula fruticosa"
+      ],
+      "fr": [
+        "Betula fruticosa"
+      ],
+      "it": [
+        "Betula fruticosa"
+      ],
+      "nl": [
+        "Betula fruticosa"
+      ],
+      "pl": [
+        "Betula fruticosa"
+      ],
+      "pt": [
+        "Betula fruticosa"
+      ],
+      "ru": [
+        "Берёза кустарниковая"
+      ],
+      "tr": [
+        "Betula fruticosa"
+      ],
+      "zh": [
+        "柴桦"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2381,7 +2763,7 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2397,17 +2779,17 @@
     "synonyms": "[\"Betula glandulosa var. pseudoalpestris\", \"Betula glandulosa var. eucycla\", \"Betula glandulosa f. typica\", \"Betula glandulosa var. flabellifolia\", \"Betula glandulosa var. sibirica\", \"Chamaebetula rotundifolia\", \"Betula perfiljevii\", \"Betula abolinii\", \"Betula nana subsp. perfiljevii\", \"Chamaebetula hookeri\"]",
     "care": {
       "plant_id": "betula_glandulosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2469,11 +2851,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "de": [
+        "Betula glandulosa"
+      ],
       "en": [
+        "Betula glandulosa",
         "Resin birch"
+      ],
+      "es": [
+        "Betula glandulosa"
+      ],
+      "fr": [
+        "Betula glandulosa"
+      ],
+      "it": [
+        "Betula glandulosa"
+      ],
+      "nl": [
+        "Betula glandulosa"
+      ],
+      "pl": [
+        "Betula glandulosa"
+      ],
+      "pt": [
+        "Betula glandulosa"
+      ],
+      "ru": [
+        "Betula glandulosa"
+      ],
+      "tr": [
+        "Amerika bodur huşu"
       ]
     },
     "tags": [],
@@ -2485,7 +2897,7 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2501,7 +2913,7 @@
     "synonyms": "[\"Betula alba var. communis\", \"Betula carpinifolia\", \"Betula ulmifolia var. sericea\", \"Betula ermanii var. subcordata\", \"Betula lenta var. grossa\", \"Betula lenta var. carpinifolia\", \"Betula acuminatifolia\", \"Betula bhojpattra var. subcordata\", \"Betula sollennis\", \"Betula ulmifolia\"]",
     "care": {
       "plant_id": "betula_grossa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2567,11 +2979,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شجرة قان كبيرة جداً"
+      ],
+      "de": [
+        "Zierkirschen-Birke"
+      ],
       "en": [
+        "Betula grossa",
         "Japanese cherry birch"
+      ],
+      "es": [
+        "Betula grossa"
+      ],
+      "fr": [
+        "Betula grossa"
+      ],
+      "it": [
+        "Betula grossa"
+      ],
+      "ja": [
+        "アズサ"
+      ],
+      "nl": [
+        "Betula grossa"
+      ],
+      "pl": [
+        "Betula grossa"
+      ],
+      "pt": [
+        "Betula grossa"
+      ],
+      "ru": [
+        "Берёза граболистная"
+      ],
+      "tr": [
+        "Japon kiraz huşu"
       ]
     },
     "tags": [],
@@ -2583,12 +3031,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2c943455c09d3bdb66b729becc50f9bd8ef9f38c",
-    "description": "A plump, upright, 1 1/2 inch hairy cone with 2-winged 1/8 inch nutlets inside. Matures in late summer. Attracts birds, butterfly and moth larvae, other insects, and mammals.",
+    "description": "Betula humilis, known in English as the shrubby birch, is a species of birch that can be found in Europe and Asia. The species has ovate leaves that are 1.2–3.5 centimetres (0.47–1.38 in) long and is related to Betula fruticosa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2599,17 +3047,17 @@
     "synonyms": "[\"Betula humilis f. elliptica\", \"Betula humilis f. ovata\", \"Betula humilis var. cuneata\", \"Betula humilis f. crispa\", \"Betula humilis f. calcarata\", \"Betula kamtschatica\", \"Betula humilis f. obovata\", \"Betula humilis f. elliptica\", \"Betula fruticosa subsp. extremiorientalis\", \"Betula palustris\"]",
     "care": {
       "plant_id": "betula_humilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2665,11 +3113,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Strauch-Birke"
+      ],
       "en": [
+        "Betula humilis",
         "Shrubby birch"
+      ],
+      "es": [
+        "Betula humilis"
+      ],
+      "fr": [
+        "Betula humilis"
+      ],
+      "it": [
+        "Betula humilis"
+      ],
+      "nl": [
+        "Berk"
+      ],
+      "pl": [
+        "Brzoza niska"
+      ],
+      "pt": [
+        "Betula humilis"
+      ],
+      "ru": [
+        "Берёза низкая"
+      ],
+      "tr": [
+        "Betula humilis"
+      ],
+      "zh": [
+        "甸生桦"
       ]
     },
     "tags": [],
@@ -2681,7 +3162,7 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2697,13 +3178,13 @@
     "synonyms": "[\"Betula lenta var. genuina\"]",
     "care": {
       "plant_id": "betula_lenta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 92,
       "ppfd_max": 138,
       "dli_min": 0.3,
@@ -2771,11 +3252,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "ar": [
+        "بتولا حلوة"
+      ],
+      "de": [
+        "Zucker-Birke"
+      ],
       "en": [
+        "Betula lenta",
         "Cherry birch"
+      ],
+      "es": [
+        "Betula lenta"
+      ],
+      "fr": [
+        "bouleau flexible"
+      ],
+      "it": [
+        "Betula lenta"
+      ],
+      "nl": [
+        "suikerberk"
+      ],
+      "pl": [
+        "Brzoza cukrowa"
+      ],
+      "pt": [
+        "Betula lenta"
+      ],
+      "ru": [
+        "Берёза вишнёвая"
+      ],
+      "tr": [
+        "Betula lenta"
+      ],
+      "zh": [
+        "山樺"
       ]
     },
     "tags": [],
@@ -2787,12 +3304,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/b79102dbe0e4a705b8cdcd03ea130bf5.jpg",
-    "description": "A plump, upright, 1 1/2 inch hairy cone with 2-winged 1/8 inch nutlets inside. Matures in late summer. Attracts birds, butterfly and moth larvae, other insects, and mammals.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2803,7 +3320,7 @@
     "synonyms": "[\"Betula baeumkeri\", \"Betula acuminata var. pyrifolia\", \"Betula riparia\", \"Betula alnoides var. pyrifolia\", \"Betula luminifera f. pachystachya\", \"Betula hupehensis\", \"Betula luminifera var. baeumkeri\", \"Betula wilsoniana\", \"Betula cylindrostachya var. resinosa\"]",
     "care": {
       "plant_id": "betula_luminifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2869,9 +3386,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Betula luminifera"
+      ],
+      "en": [
+        "Betula luminifera"
+      ],
+      "es": [
+        "Betula luminifera"
+      ],
+      "fr": [
+        "Betula luminifera"
+      ],
+      "it": [
+        "Betula luminifera"
+      ],
+      "nl": [
+        "Betula luminifera"
+      ],
+      "pl": [
+        "Betula luminifera"
+      ],
+      "pt": [
+        "Betula luminifera"
+      ],
+      "ru": [
+        "Берёза блестящая"
+      ],
+      "tr": [
+        "Betula luminifera"
+      ],
+      "zh": [
+        "亮叶桦"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2881,7 +3434,7 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2897,17 +3450,17 @@
     "synonyms": "[\"Betula nana var. reducta\", \"Betula viminea var. serrulata\", \"Betula nana f. magnifolia\", \"Betula nana var. europaea\", \"Betula nana var. intermedia\", \"Betula nana f. reducta\", \"Betula nana var. macrophylla\", \"Betula alba subsp. nana\", \"Chamaebetula nana\", \"Betula tundrarum\"]",
     "care": {
       "plant_id": "betula_nana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2963,11 +3516,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "بتولا قزمة"
+      ],
+      "de": [
+        "Zwerg-Birke"
+      ],
       "en": [
-        "Arctic dwarf birch"
+        "Arctic dwarf birch",
+        "Betula nana"
+      ],
+      "es": [
+        "Betula nana"
+      ],
+      "fr": [
+        "Bouleau nain"
+      ],
+      "it": [
+        "Betula nana"
+      ],
+      "ja": [
+        "ヒメカンバ"
+      ],
+      "nl": [
+        "Dwergberk"
+      ],
+      "pl": [
+        "Brzoza karłowata"
+      ],
+      "pt": [
+        "Betula nana"
+      ],
+      "ru": [
+        "берёза карликовая"
+      ],
+      "tr": [
+        "Betula nana"
+      ],
+      "zh": [
+        "圆叶桦"
       ]
     },
     "tags": [],
@@ -2979,7 +3571,7 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2995,13 +3587,13 @@
     "synonyms": "[\"Betula lanulosa\", \"Betula rubra\", \"Betula americana\", \"Betula nigra var. parvifolia\", \"Betula nigra pendula\", \"Betula rupestris\"]",
     "care": {
       "plant_id": "betula_nigra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 92,
       "ppfd_max": 138,
       "dli_min": 0.3,
@@ -3065,11 +3657,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "de": [
+        "Schwarz-Birke"
+      ],
       "en": [
+        "Betula nigra",
         "Red birch"
+      ],
+      "es": [
+        "Betula nigra"
+      ],
+      "fr": [
+        "Betula nigra"
+      ],
+      "it": [
+        "Betula nigra"
+      ],
+      "nl": [
+        "rode berk"
+      ],
+      "pl": [
+        "Brzoza nadrzeczna"
+      ],
+      "pt": [
+        "Betula nigra"
+      ],
+      "ru": [
+        "Берёза чёрная"
+      ],
+      "tr": [
+        "Kara huş"
+      ],
+      "zh": [
+        "水樺"
       ]
     },
     "tags": [],
@@ -3081,12 +3706,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bbdf5c76e08addce399f4736a14ac7ef60e790ea",
-    "description": "A plump, upright, 1 1/2 inch hairy cone with 2-winged 1/8 inch nutlets inside. Matures in late summer. Attracts birds, butterfly and moth larvae, other insects, and mammals.",
+    "description": "Betula occidentalis, the water birch or red birch, is a species of birch native to western North America, in Canada from Yukon east to Northwestern Ontario and southwards, and in the United States from eastern Washington east to western North Dakota, and south to eastern California, northern Arizona and northern New Mexico, and southwestern Alaska. It typically occurs along streams in mountainous regions, sometimes at elevations of 2,100 metres and in drier areas than paper birch.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3097,17 +3722,17 @@
     "synonyms": "[\"Betula fontinalis var. inopina\", \"Betula occidentalis var. inopina\", \"Betula occidentalis f. inopina\", \"Betula fontinalis\", \"Betula papyrifera var. occidentalis\", \"Betula microphylla var. fontinalis\", \"Betula papyrifera subsp. occidentalis\", \"Betula microphylla var. occidentalis\", \"Betula elrodiana\", \"Betula beeniana\"]",
     "care": {
       "plant_id": "betula_occidentalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3163,11 +3788,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "de": [
+        "Betula occidentalis"
+      ],
       "en": [
+        "Betula occidentalis",
         "Water birch"
+      ],
+      "es": [
+        "Betula occidentalis"
+      ],
+      "fr": [
+        "Betula occidentalis"
+      ],
+      "it": [
+        "Betula occidentalis"
+      ],
+      "nl": [
+        "Betula occidentalis"
+      ],
+      "pl": [
+        "Betula occidentalis"
+      ],
+      "pt": [
+        "Betula occidentalis"
+      ],
+      "ru": [
+        "Берёза западная"
+      ],
+      "tr": [
+        "Betula occidentalis"
       ]
     },
     "tags": [],
@@ -3179,7 +3834,7 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3195,13 +3850,13 @@
     "synonyms": "[\"Betula lenta var. papyrifera\", \"Betula papyrifera var. andrewsii\", \"Betula papyrifera var. pensilis\", \"Betula papyrifera var. communis\", \"Betula papyracea\", \"Betula papyrifera f. nana\", \"Betula papyracea var. grandis\", \"Betula alba var. elobata\", \"Betula papyrifera var. montanensis\", \"Betula papyrifera var. kenaica\"]",
     "care": {
       "plant_id": "betula_papyrifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 92,
       "ppfd_max": 138,
       "dli_min": 0.3,
@@ -3261,11 +3916,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "ar": [
+        "سندر"
+      ],
+      "de": [
+        "Papier-Birke"
+      ],
       "en": [
+        "Betula papyrifera",
         "Canoe birch"
+      ],
+      "es": [
+        "Betula papyrifera"
+      ],
+      "fr": [
+        "Bouleau à papier"
+      ],
+      "it": [
+        "Betula papyrifera"
+      ],
+      "ja": [
+        "アメリカシラカンバ"
+      ],
+      "nl": [
+        "papierberk"
+      ],
+      "pl": [
+        "Brzoza papierowa"
+      ],
+      "pt": [
+        "Betula papyrifera"
+      ],
+      "ru": [
+        "Берёза бумажная"
+      ],
+      "tr": [
+        "Kâğıt huşu"
+      ],
+      "zh": [
+        "北美白樺"
       ]
     },
     "tags": [],
@@ -3277,7 +3971,7 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3293,13 +3987,13 @@
     "synonyms": "[\"Betula alba var. pendula\", \"Betula alba lusus pendula\", \"Betula alba var. pendula\"]",
     "care": {
       "plant_id": "betula_pendula",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 92,
       "ppfd_max": 138,
       "dli_min": 0.3,
@@ -3359,11 +4053,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "بتول متدلية"
+      ],
+      "de": [
+        "Hänge-Birke"
+      ],
       "en": [
+        "Betula pendula",
         "European white birch"
+      ],
+      "es": [
+        "Betula pendula"
+      ],
+      "fr": [
+        "Bouleau verruqueux"
+      ],
+      "it": [
+        "Betula pendula"
+      ],
+      "ja": [
+        "オウシュウシラカバ"
+      ],
+      "ko": [
+        "은자작나무"
+      ],
+      "nl": [
+        "ruwe berk"
+      ],
+      "pl": [
+        "brzoza brodawkowata"
+      ],
+      "pt": [
+        "vidoeiro-branco"
+      ],
+      "ru": [
+        "берёза повислая"
+      ],
+      "tr": [
+        "Adi huş"
+      ],
+      "zh": [
+        "垂枝桦"
       ]
     },
     "tags": [],
@@ -3375,12 +4111,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f53228192cd0553ed7a8c057019fd1621fc42a79",
-    "description": "Ovate nuts, 1.2-2.2 mm long, puberulous, wings 1.5-2 times wider, ripen fall-spring. Drooping cone-like fruits contain numerous small winged seeds that typically mature in late summer.",
+    "description": "Betula populifolia, known as the gray birch, is a deciduous tree in the family Betulaceae. It is native to eastern North America and is most commonly found in the northeast United States as well as southern Quebec, New Brunswick, and Nova Scotia. The tree is a pioneer species that is commonly found in sites following disturbance, such as fire or logging. Gray birches don't have as much economic value as other birch species but are still commonly used as ornamental trees.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3391,13 +4127,13 @@
     "synonyms": "[\"Betula populifolia f. incisifolia\", \"Betula acuminata\", \"Betula alba var. populifolia\", \"Betula lenta var. populifolia\", \"Betula alba subsp. populifolia\", \"Betula populifolia f. pendula\", \"Betula populifolia f. purpurea\", \"Betula excelsa var. canadensis\", \"Betula populifolia f. laciniata\", \"Betula populifolia purpurea\"]",
     "care": {
       "plant_id": "betula_populifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 92,
       "ppfd_max": 138,
       "dli_min": 0.3,
@@ -3457,11 +4193,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "de": [
+        "Grau-Birke"
+      ],
       "en": [
+        "Betula populifolia",
         "White birch"
+      ],
+      "es": [
+        "Betula populifolia"
+      ],
+      "fr": [
+        "Betula populifolia"
+      ],
+      "it": [
+        "Betula populifolia"
+      ],
+      "ja": [
+        "ハイイロカンバ"
+      ],
+      "nl": [
+        "grijze berk"
+      ],
+      "pl": [
+        "Betula populifolia"
+      ],
+      "pt": [
+        "Betula populifolia"
+      ],
+      "ru": [
+        "Берёза тополелистная"
+      ],
+      "tr": [
+        "kavak yapraklı huş"
+      ],
+      "zh": [
+        "灰樺"
       ]
     },
     "tags": [],
@@ -3473,7 +4245,7 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3489,17 +4261,17 @@
     "synonyms": "[\"Betula alba lusus macrophylla\", \"Betula alba f. pubescens\", \"Betula pubescens var. typica\", \"Betula alba subsp. pubescens\", \"Betula alba var. pubescens\"]",
     "care": {
       "plant_id": "betula_pubescens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3555,11 +4327,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "قضبان زغبي"
+      ],
+      "de": [
+        "Moor-Birke"
+      ],
       "en": [
+        "Betula pubescens",
         "White birch"
+      ],
+      "es": [
+        "Betula pubescens"
+      ],
+      "fr": [
+        "Betula pubescens"
+      ],
+      "it": [
+        "Betula pubescens"
+      ],
+      "ja": [
+        "ヨーロッパダケカンバ"
+      ],
+      "nl": [
+        "zachte berk"
+      ],
+      "pl": [
+        "Brzoza omszona"
+      ],
+      "pt": [
+        "Betula pubescens"
+      ],
+      "ru": [
+        "Берёза пушистая"
+      ],
+      "tr": [
+        "Tüylü huş"
+      ],
+      "zh": [
+        "毛樺"
       ]
     },
     "tags": [],
@@ -3571,12 +4382,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/70b2a5f9a1b1849fcff9fbff954daf7421448420",
-    "description": "A plump, upright, 1 1/2 inch hairy cone with 2-winged 1/8 inch nutlets inside. Matures in late summer. Attracts birds, butterfly and moth larvae, other insects, and mammals.",
+    "description": "Betula pumila is a deciduous shrub native to North America. Bog birch occurs over a vast area of northern North America, from Yukon in the west to New England in the east and all the way to Washington and Oregon, inhabiting swamps and riparian zones in the boreal forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3587,17 +4398,17 @@
     "synonyms": "[\"Betula pumila var. typica\", \"Betula nana var. glandulifera\", \"Betula glandulifera\", \"Betula glandulosa var. glandulifera\", \"Betula pumila var. glabra\", \"Betula pumila subsp. glandulifera\", \"Betula glandulosa var. hallii\", \"Chamaebetula pumila\", \"Betula pumila var. glandulifera\", \"Betula pumila var. glabrescens\"]",
     "care": {
       "plant_id": "betula_pumila",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3653,11 +4464,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "de": [
+        "Amerikanische Strauch-Birke"
+      ],
       "en": [
-        "American dwarf birch"
+        "American dwarf birch",
+        "Betula pumila"
+      ],
+      "es": [
+        "Betula pumila"
+      ],
+      "fr": [
+        "Betula pumila"
+      ],
+      "it": [
+        "Betula pumila"
+      ],
+      "nl": [
+        "Betula pumila"
+      ],
+      "pl": [
+        "Betula pumila"
+      ],
+      "pt": [
+        "Betula pumila"
+      ],
+      "ru": [
+        "Берёза болотная"
+      ],
+      "tr": [
+        "Betula pumila"
       ]
     },
     "tags": [],
@@ -3669,12 +4510,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3df82e01d5cb32677e9d9a03c534bb46aa12cbc8",
-    "description": "A plump, upright, 1 1/2 inch hairy cone with 2-winged 1/8 inch nutlets inside. Matures in late summer. Attracts birds, butterfly and moth larvae, other insects, and mammals.",
+    "description": "Betula schmidtii, the iron birch or Schmidt's birch, is a species of flowering plant in the family Betulaceae. It is native to Manchuria, Korea, Primorsky Krai of the Russian Far East, and Japan. A tree reaching 30 m (100 ft) with nearly black bark, its wood is so dense that it does not float, and is used where a tough, durable material is desired.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3685,7 +4526,7 @@
     "synonyms": "[\"Betula punctata\", \"Betula schmidtii f. angustifolia\", \"Betula schmidtii var. angustifolia\", \"Betula schmidtii var. lancea\", \"Betula schmidtii f. lancea\"]",
     "care": {
       "plant_id": "betula_schmidtii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3751,9 +4592,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eisen-Birke"
+      ],
+      "en": [
+        "Betula schmidtii"
+      ],
+      "es": [
+        "Betula schmidtii"
+      ],
+      "fr": [
+        "Betula schmidtii"
+      ],
+      "it": [
+        "Betula schmidtii"
+      ],
+      "ko": [
+        "박달나무"
+      ],
+      "nl": [
+        "Betula schmidtii"
+      ],
+      "pl": [
+        "Betula schmidtii"
+      ],
+      "pt": [
+        "Betula schmidtii"
+      ],
+      "ru": [
+        "берёза Шмидта"
+      ],
+      "tr": [
+        "Betula schmidtii"
+      ],
+      "zh": [
+        "赛黑桦"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3763,12 +4643,12 @@
     "family": "Betulaceae",
     "genus": "Betula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bb2a1323af48a3f8a838f3f41e73b7a1b4350cc6",
-    "description": "A plump, upright, 1 1/2 inch hairy cone with 2-winged 1/8 inch nutlets inside. Matures in late summer. Attracts birds, butterfly and moth larvae, other insects, and mammals.",
+    "description": "Betula utilis, the Himalayan birch or bhojpatra, is a deciduous tree native to the Western Himalayas, growing at elevations up to 4,500 m (14,800 ft). The Latin specific epithet utilis means \"useful\", and refers to the many uses of the different parts of the tree. The white, paper-like bark was used in ancient times as a writing surface for manuscripts of Sanskrit literature. It is still used as paper for the writing of mantras, with the bark placed in an amulet and worn for protection.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3779,7 +4659,7 @@
     "synonyms": "[\"Betula utilis var. typica\"]",
     "care": {
       "plant_id": "betula_utilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3845,11 +4725,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شجرة قان نافعة"
+      ],
+      "de": [
+        "Himalaya-Birke"
+      ],
       "en": [
+        "Betula utilis",
         "Himalayan birch"
+      ],
+      "es": [
+        "Betula utilis"
+      ],
+      "fr": [
+        "Betula utilis"
+      ],
+      "hi": [
+        "भोजपत्र"
+      ],
+      "it": [
+        "Betula utilis"
+      ],
+      "nl": [
+        "Witte Himalayaberk"
+      ],
+      "pl": [
+        "Brzoza pożyteczna"
+      ],
+      "pt": [
+        "Betula utilis"
+      ],
+      "ru": [
+        "Берёза полезная"
+      ],
+      "tr": [
+        "Himalaya huşu"
+      ],
+      "zh": [
+        "糙皮桦"
       ]
     },
     "tags": [],
@@ -3861,7 +4780,7 @@
     "family": "Betulaceae",
     "genus": "Carpinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3877,13 +4796,13 @@
     "synonyms": "[\"Carpinus betulus var. provincialis\", \"Carpinus ulmifolia\", \"Carpinus betulus f. fastigiata\", \"Carpinus ulmoides\", \"Carpinus betulus f. albovariegata\", \"Carpinus intermedia\", \"Carpinus betulus var. serrata\", \"Carpinus betulus f. columnaris\", \"Carpinus betulus f. horizontalis\", \"Carpinus betulus f. cucullata\"]",
     "care": {
       "plant_id": "carpinus_betulus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -3947,11 +4866,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.4
     },
     "common_names": {
+      "ar": [
+        "شرد قضباني"
+      ],
+      "de": [
+        "Hainbuche"
+      ],
       "en": [
+        "Carpinus betulus",
         "European hornbeam"
+      ],
+      "es": [
+        "Carpinus betulus"
+      ],
+      "fr": [
+        "charme commun"
+      ],
+      "it": [
+        "Carpinus betulus"
+      ],
+      "ja": [
+        "セイヨウシデ"
+      ],
+      "nl": [
+        "haagbeuk"
+      ],
+      "pl": [
+        "Grab pospolity"
+      ],
+      "pt": [
+        "Carpinus betulus"
+      ],
+      "ru": [
+        "Граб обыкновенный"
+      ],
+      "tr": [
+        "Adi gürgen"
+      ],
+      "zh": [
+        "歐洲角樹"
       ]
     },
     "tags": [],
@@ -3963,7 +4921,7 @@
     "family": "Betulaceae",
     "genus": "Carpinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3979,17 +4937,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "carpinus_caroliniana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4050,11 +5008,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 4.6
     },
     "common_names": {
+      "de": [
+        "Amerikanische Hainbuche"
+      ],
       "en": [
+        "Carpinus caroliniana",
         "Musclewood"
+      ],
+      "es": [
+        "Carpinus caroliniana"
+      ],
+      "fr": [
+        "Carpinus caroliniana"
+      ],
+      "it": [
+        "Carpinus caroliniana"
+      ],
+      "nl": [
+        "Carpinus caroliniana"
+      ],
+      "pl": [
+        "Grab amerykański"
+      ],
+      "pt": [
+        "Carpinus caroliniana"
+      ],
+      "ru": [
+        "Граб каролинский"
+      ],
+      "tr": [
+        "Amerika gürgeni"
       ]
     },
     "tags": [],
@@ -4066,12 +5054,12 @@
     "family": "Betulaceae",
     "genus": "Carpinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/00f99eb550e5c65692262c52aa3f315879256e34",
-    "description": "The female catkin produces an oblong nutlet. The fruit is a showy 3-5 inch long, cigar-shaped seedpod. The fruits are displayed from July to August.",
+    "description": "Carpinus cordata is a species of flowering plant belonging to the family Betulaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4082,17 +5070,17 @@
     "synonyms": "[\"Distegocarpus cordatus\"]",
     "care": {
       "plant_id": "carpinus_cordata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4150,11 +5138,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 4.6
     },
     "common_names": {
+      "de": [
+        "Herzblättrige Hainbuche"
+      ],
       "en": [
+        "Carpinus cordata",
         "Sawa hornbeam"
+      ],
+      "es": [
+        "Carpinus cordata"
+      ],
+      "fr": [
+        "Carpinus cordata"
+      ],
+      "it": [
+        "Carpinus cordata"
+      ],
+      "ja": [
+        "サワシバ"
+      ],
+      "ko": [
+        "까치박달"
+      ],
+      "nl": [
+        "hartbladige haagbeuk"
+      ],
+      "pl": [
+        "Carpinus cordata"
+      ],
+      "pt": [
+        "Carpinus cordata"
+      ],
+      "ru": [
+        "Граб сердцелистный"
+      ],
+      "tr": [
+        "Carpinus cordata"
+      ],
+      "zh": [
+        "千金榆"
       ]
     },
     "tags": [],
@@ -4166,12 +5193,12 @@
     "family": "Betulaceae",
     "genus": "Carpinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d489c3ecc3344bb7cce80218dd032c3fb4daf59c",
-    "description": "The fruit is a small ribbed nutlet that is attached to a serrated and folded bract. The bracts are on a sausage-shaped, 2 to 3 inch long hanging cluster. The fruits ripen in early fall and are dispersed during the winter.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4182,13 +5209,13 @@
     "synonyms": "[\"Carpinus japonica var. cordifolia\", \"Carpinus carpinus\", \"Distegocarpus carpinus\", \"Carpinus carpinoides\", \"Distegocarpus carpinoides\", \"Carpinus carpinoides var. cordifolia\", \"Carpinus distegocarpus\", \"Carpinus japonica var. caudata\"]",
     "care": {
       "plant_id": "carpinus_japonica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -4253,11 +5280,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 4.6
     },
     "common_names": {
+      "ar": [
+        "شرد ياباني"
+      ],
+      "de": [
+        "Japanische Hainbuche"
+      ],
       "en": [
+        "Carpinus japonica",
         "Japanese hornbeam"
+      ],
+      "es": [
+        "Carpinus japonica"
+      ],
+      "fr": [
+        "Carpinus japonica"
+      ],
+      "it": [
+        "Carpinus japonica"
+      ],
+      "ja": [
+        "クマシデ"
+      ],
+      "nl": [
+        "Carpinus japonica"
+      ],
+      "pl": [
+        "Carpinus japonica"
+      ],
+      "pt": [
+        "Carpinus japonica"
+      ],
+      "ru": [
+        "Граб японский"
+      ],
+      "tr": [
+        "Japon gürgeni"
       ]
     },
     "tags": [],
@@ -4269,7 +5332,7 @@
     "family": "Betulaceae",
     "genus": "Carpinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4285,17 +5348,17 @@
     "synonyms": "[\"Carpinus laxiflora f. lacera\", \"Carpinus laxiflora var. chartacea\", \"Carpinus laxiflora f. pendula\", \"Carpinus laxiflora var. pendula\", \"Carpinus laxiflora var. longispica\", \"Carpinus laxiflora var. macrophylla\", \"Distegocarpus laxiflora\", \"Carpinus laxiflora f. macrophylla\", \"Carpinus laxiflora var. macrothyrsa\"]",
     "care": {
       "plant_id": "carpinus_laxiflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4357,9 +5420,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 4.6
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Carpinus laxiflora"
+      ],
+      "en": [
+        "Carpinus laxiflora"
+      ],
+      "es": [
+        "Carpinus laxiflora"
+      ],
+      "fr": [
+        "Carpinus laxiflora"
+      ],
+      "it": [
+        "Carpinus laxiflora"
+      ],
+      "ja": [
+        "アカシデ"
+      ],
+      "ko": [
+        "서어나무"
+      ],
+      "nl": [
+        "Carpinus laxiflora"
+      ],
+      "pl": [
+        "Carpinus laxiflora"
+      ],
+      "pt": [
+        "Carpinus laxiflora"
+      ],
+      "ru": [
+        "Граб редкоцветковый"
+      ],
+      "tr": [
+        "Carpinus laxiflora"
+      ],
+      "zh": [
+        "疏花鹅耳枥"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4369,12 +5474,12 @@
     "family": "Betulaceae",
     "genus": "Carpinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e0d1b97217d9739eacf46b607cb8e96d8ecb5cba",
-    "description": "The female catkin produces a nutlet with unlobed bracts on the fruit cluster. The nutlet measures 1/16 inches long.",
+    "description": "Carpinus orientalis, known as the Oriental hornbeam, is a species of hornbeam in the birch family Betulaceae, subfamily Coryloideae, native to southeastern Europe and Western Asia. It is quite tolerant of dry conditions, and usually occurs on hot dry sites at lower elevations in comparison to Carpinus betulus. Together with C. betulus and Carpinus austrobalcanica, it is one of the three hornbeams native to Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4385,7 +5490,7 @@
     "synonyms": "[\"Carpinus nigra\"]",
     "care": {
       "plant_id": "carpinus_orientalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4457,11 +5562,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شرد مشرقي"
+      ],
+      "de": [
+        "Orientalische Hainbuche"
+      ],
       "en": [
+        "Carpinus orientalis",
         "Eastern hornbeam"
+      ],
+      "es": [
+        "Carpinus orientalis"
+      ],
+      "fr": [
+        "Carpinus orientalis"
+      ],
+      "it": [
+        "Carpinus orientalis"
+      ],
+      "ja": [
+        "オリエンタルシデ"
+      ],
+      "nl": [
+        "Carpinus orientalis"
+      ],
+      "pl": [
+        "Carpinus orientalis"
+      ],
+      "pt": [
+        "Carpinus orientalis"
+      ],
+      "ru": [
+        "Граб восточный"
+      ],
+      "tr": [
+        "Doğu gürgeni"
+      ],
+      "zh": [
+        "东方鹅耳枥"
       ]
     },
     "tags": [],
@@ -4473,12 +5617,12 @@
     "family": "Betulaceae",
     "genus": "Carpinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e4e961ad78414b2f8073482315008f730dce7973",
-    "description": "The fruit is an oval, dry, hard, brown nutlet, measuring less than 0.5 inches in diameter. The nutlet is on a serrated and folded bract. The bracts are clustered on a 3-inch stalk. The fruit is displayed in the fall, from September to October. They are not showy, but they attract small birds and mammals.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4489,17 +5633,17 @@
     "synonyms": "[\"Carpinus yedoensis var. serratiauriculata\", \"Carpinus yedoensis\", \"Carpinus tschonoskii f. pendula\", \"Carpinus tschonoskii f. brevicalycina\", \"Carpinus tschonoskii var. brevicalycina\", \"Carpinus tschonoskii var. eximia\", \"Carpinus tschonoskii var. sunintegra\", \"Carpinus tschonoskii f. eximia\", \"Carpinus mianningensis\", \"Carpinus coreensis\"]",
     "care": {
       "plant_id": "carpinus_tschonoskii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4561,11 +5705,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 4.6
     },
     "common_names": {
+      "de": [
+        "Tschonoskis Hainbuche"
+      ],
       "en": [
-        "Asian hornbeam"
+        "Asian hornbeam",
+        "Carpinus tschonoskii"
+      ],
+      "es": [
+        "Carpinus tschonoskii"
+      ],
+      "fr": [
+        "Carpinus tschonoskii"
+      ],
+      "it": [
+        "Carpinus tschonoskii"
+      ],
+      "ja": [
+        "イヌシデ"
+      ],
+      "ko": [
+        "개서어나무"
+      ],
+      "nl": [
+        "Carpinus tschonoskii"
+      ],
+      "pl": [
+        "Carpinus tschonoskii"
+      ],
+      "pt": [
+        "Carpinus tschonoskii"
+      ],
+      "ru": [
+        "Граб Чоноски"
+      ],
+      "zh": [
+        "昌化鹅耳枥"
       ]
     },
     "tags": [],
@@ -4577,12 +5757,12 @@
     "family": "Betulaceae",
     "genus": "Carpinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a4116b4c4c1d166083f0b474cc920c9078167b0c",
-    "description": "The fruit is an oval, dry, hard, brown nutlet, measuring less than 0.5 inches in diameter. The nutlet is on a serrated and folded bract. The bracts are clustered on a 3-inch stalk. The fruit is displayed in the fall, from September to October. They are not showy, but they attract small birds and mammals.",
+    "description": "Carpinus turczaninovii, the Turczaninow hornbeam or Korean hornbeam, is a species of flowering plant in the family Betulaceae, native to central China, the Korean Peninsula, and central and southern Japan. It is a large shrub or small tree typically 15 to 20 ft tall and about 75% as wide, and is hardy to USDA zone 5b. It is available from commercial suppliers, and can handle very hard pruning.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4593,7 +5773,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "carpinus_turczaninowii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4665,11 +5845,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Turczaninows Hainbuche"
+      ],
       "en": [
+        "Carpinus turczaninowii",
         "Turczaninow's hornbeam"
+      ],
+      "es": [
+        "Carpinus turczaninowii"
+      ],
+      "fr": [
+        "Carpinus turczaninowii"
+      ],
+      "it": [
+        "Carpinus turczaninowii"
+      ],
+      "ko": [
+        "소사나무"
+      ],
+      "nl": [
+        "Carpinus turczaninowii"
+      ],
+      "pl": [
+        "Carpinus turczaninowii"
+      ],
+      "pt": [
+        "Carpinus turczaninowii"
+      ],
+      "ru": [
+        "Граб Турчанинова"
+      ],
+      "tr": [
+        "Carpinus turczaninowii"
+      ],
+      "zh": [
+        "鹅耳枥"
       ]
     },
     "tags": [],
@@ -4681,7 +5897,7 @@
     "family": "Betulaceae",
     "genus": "Corylus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4702,12 +5918,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4767,11 +5983,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.6
     },
     "common_names": {
+      "ar": [
+        "بندق أمريكي"
+      ],
+      "de": [
+        "Amerikanische Hasel"
+      ],
       "en": [
-        "American hazelnut"
+        "American hazelnut",
+        "Corylus americana"
+      ],
+      "es": [
+        "Corylus americana"
+      ],
+      "fr": [
+        "Noisetier d'Amérique"
+      ],
+      "it": [
+        "Corylus americana"
+      ],
+      "ja": [
+        "アメリカハシバミ"
+      ],
+      "nl": [
+        "Corylus americana"
+      ],
+      "pl": [
+        "Corylus americana"
+      ],
+      "pt": [
+        "Corylus americana"
+      ],
+      "ru": [
+        "Лещина американская"
+      ],
+      "tr": [
+        "Amerika fındığı"
       ]
     },
     "tags": [],
@@ -4783,7 +6035,7 @@
     "family": "Betulaceae",
     "genus": "Corylus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4804,12 +6056,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4865,11 +6117,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.6
     },
     "common_names": {
+      "ar": [
+        "بندق شائع"
+      ],
+      "de": [
+        "Gemeine Hasel"
+      ],
       "en": [
+        "Corylus avellana",
         "European filbert"
+      ],
+      "es": [
+        "avellano común"
+      ],
+      "fr": [
+        "Corylus avellana"
+      ],
+      "it": [
+        "Corylus avellana"
+      ],
+      "ja": [
+        "セイヨウハシバミ"
+      ],
+      "ko": [
+        "유럽개암나무"
+      ],
+      "nl": [
+        "hazelaar"
+      ],
+      "pl": [
+        "leszczyna pospolita"
+      ],
+      "pt": [
+        "avelã"
+      ],
+      "ru": [
+        "Лещина обыкновенная"
+      ],
+      "tr": [
+        "Adi fındık"
+      ],
+      "zh": [
+        "歐榛"
       ]
     },
     "tags": [],
@@ -4881,12 +6175,12 @@
     "family": "Betulaceae",
     "genus": "Corylus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6c937987dd03c0c129dd738371268630713a0cda",
-    "description": "Edible nuts have spiny hairy husks and appear in clusters of 3-6. \r\n Litter can be a problem in hardscape areas.",
+    "description": "Corylus colurna, the Turkish hazel, is a deciduous tree native to Eurasia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4897,7 +6191,7 @@
     "synonyms": "[\"Corylus colurna var. bachycarpa\", \"Corylus colurna var. avellanoides\", \"Corylus iberica var. glandulosa\", \"Corylus glomerata\", \"Corylus avellana var. macrochlamys\", \"Corylus arborescens\", \"Corylus iberica\", \"Corylus colurna var. trichochlamys\", \"Corylus kachetuca\", \"Corylus eggrissiensis\"]",
     "care": {
       "plant_id": "corylus_colurna",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4963,11 +6257,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بندق تركي"
+      ],
+      "de": [
+        "Baum-Hasel"
+      ],
       "en": [
+        "Corylus colurna",
         "Turkish filbert"
+      ],
+      "es": [
+        "Corylus colurna"
+      ],
+      "fr": [
+        "Noisetier de Byzance"
+      ],
+      "it": [
+        "Corylus colurna"
+      ],
+      "nl": [
+        "Corylus colurna"
+      ],
+      "pl": [
+        "Leszczyna turecka"
+      ],
+      "pt": [
+        "Corylus colurna"
+      ],
+      "ru": [
+        "лещина древовидная"
+      ],
+      "tr": [
+        "Türk fındığı"
       ]
     },
     "tags": [],
@@ -4979,7 +6306,7 @@
     "family": "Betulaceae",
     "genus": "Corylus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5000,12 +6327,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5061,11 +6388,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.6
     },
     "common_names": {
+      "de": [
+        "Schnabel-Hasel"
+      ],
       "en": [
-        "Beaked filbert"
+        "Beaked filbert",
+        "Corylus cornuta"
+      ],
+      "es": [
+        "Corylus cornuta"
+      ],
+      "fr": [
+        "Noisetier à long bec"
+      ],
+      "it": [
+        "Corylus cornuta"
+      ],
+      "ja": [
+        "カナダハシバミ"
+      ],
+      "nl": [
+        "Corylus cornuta"
+      ],
+      "pl": [
+        "Corylus cornuta"
+      ],
+      "pt": [
+        "Corylus cornuta"
+      ],
+      "ru": [
+        "Лещина рогатая"
+      ],
+      "tr": [
+        "Gagalı fındık"
       ]
     },
     "tags": [],
@@ -5077,7 +6437,7 @@
     "family": "Betulaceae",
     "genus": "Corylus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5098,12 +6458,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5163,11 +6523,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.6
     },
     "common_names": {
+      "de": [
+        "Mongolische Hasel"
+      ],
       "en": [
+        "Corylus heterophylla",
         "Siberian filbert"
+      ],
+      "es": [
+        "Corylus heterophylla"
+      ],
+      "fr": [
+        "Corylus heterophylla"
+      ],
+      "it": [
+        "Corylus heterophylla"
+      ],
+      "ja": [
+        "ハシバミ"
+      ],
+      "ko": [
+        "개암나무"
+      ],
+      "nl": [
+        "Corylus heterophylla"
+      ],
+      "pl": [
+        "Corylus heterophylla"
+      ],
+      "pt": [
+        "Corylus heterophylla"
+      ],
+      "ru": [
+        "Лещина разнолистная"
+      ],
+      "tr": [
+        "Corylus heterophylla"
+      ],
+      "zh": [
+        "榛"
       ]
     },
     "tags": [],
@@ -5179,7 +6578,7 @@
     "family": "Betulaceae",
     "genus": "Corylus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5265,11 +6664,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lambertshasel"
+      ],
       "en": [
+        "Corylus maxima",
         "Giant filbert"
+      ],
+      "es": [
+        "Corylus maxima"
+      ],
+      "fr": [
+        "Corylus maxima"
+      ],
+      "it": [
+        "Corylus maxima"
+      ],
+      "nl": [
+        "Corylus maxima"
+      ],
+      "pl": [
+        "Leszczyna południowa"
+      ],
+      "pt": [
+        "Corylus maxima"
+      ],
+      "ru": [
+        "Лещина крупная"
+      ],
+      "tr": [
+        "Lambert fındığı"
+      ],
+      "zh": [
+        "大榛"
       ]
     },
     "tags": [],
@@ -5281,7 +6713,7 @@
     "family": "Betulaceae",
     "genus": "Corylus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5302,12 +6734,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5367,9 +6799,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.6
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Japanische Hasel"
+      ],
+      "en": [
+        "Corylus sieboldiana"
+      ],
+      "es": [
+        "Corylus sieboldiana"
+      ],
+      "fr": [
+        "Corylus sieboldiana"
+      ],
+      "it": [
+        "Corylus sieboldiana"
+      ],
+      "ja": [
+        "ツノハシバミ"
+      ],
+      "ko": [
+        "참개암나무"
+      ],
+      "nl": [
+        "Corylus sieboldiana"
+      ],
+      "pl": [
+        "Corylus sieboldiana"
+      ],
+      "pt": [
+        "Corylus sieboldiana"
+      ],
+      "ru": [
+        "Лещина Зибольда"
+      ],
+      "tr": [
+        "Corylus sieboldiana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5379,7 +6850,7 @@
     "family": "Betulaceae",
     "genus": "Ostrya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5395,7 +6866,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ostrya_carpinifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5465,11 +6936,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أوستريا شردية الأوراق"
+      ],
+      "de": [
+        "Europäische Hopfenbuche"
+      ],
       "en": [
-        "European hop-hornbeam"
+        "European hop-hornbeam",
+        "Ostrya carpinifolia"
+      ],
+      "es": [
+        "Ostrya carpinifolia"
+      ],
+      "fr": [
+        "Charme-houblon"
+      ],
+      "it": [
+        "Ostrya carpinifolia"
+      ],
+      "nl": [
+        "Europese hopbeuk"
+      ],
+      "pl": [
+        "Chmielograb europejski"
+      ],
+      "pt": [
+        "Ostrya carpinifolia"
+      ],
+      "ru": [
+        "Хмелеграб обыкновенный"
+      ],
+      "tr": [
+        "Gürgen yapraklı kayacık"
+      ],
+      "zh": [
+        "歐洲霍布葉鐵木"
       ]
     },
     "tags": [],
@@ -5481,7 +6988,7 @@
     "family": "Betulaceae",
     "genus": "Ostrya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5497,7 +7004,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ostrya_virginiana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5567,11 +7074,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Virginische Hopfenbuche"
+      ],
       "en": [
-        "American hop-hornbeam"
+        "American hop-hornbeam",
+        "Ostrya virginiana"
+      ],
+      "es": [
+        "Ostrya virginiana"
+      ],
+      "fr": [
+        "Ostryer de Virginie"
+      ],
+      "it": [
+        "Ostrya virginiana"
+      ],
+      "nl": [
+        "Amerikaanse hopbeuk"
+      ],
+      "pl": [
+        "Chmielograb wirginijski"
+      ],
+      "pt": [
+        "Ostrya virginiana"
+      ],
+      "ru": [
+        "Хмелеграб виргинский"
+      ],
+      "tr": [
+        "Amerika kayacığı"
       ]
     },
     "tags": [],

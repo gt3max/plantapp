@@ -5,12 +5,12 @@
     "family": "Alseuosmiaceae",
     "genus": "Alseuosmia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/bc41262f408f94d3e7311c62f3dc6c20.jpg",
-    "description": null,
+    "description": "Alseuosmia macrophylla, the toropapa or karapapa, is a plant species in the family Alseuosmiaceae. This is a small evergreen shrub which is endemic to New Zealand, along with two closely related species. An example occurrence of A. macrophylla is in the North Island habitat of the Hamilton Ecological District, where Blechnum discolor and Blechnum filiforme are understory elements with Nothofagus truncata and rimu overstory.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Alseuosmia macrophylla"
+      ],
+      "en": [
+        "Alseuosmia macrophylla"
+      ],
+      "es": [
+        "Alseuosmia macrophylla"
+      ],
+      "fr": [
+        "Alseuosmia macrophylla"
+      ],
+      "it": [
+        "Alseuosmia macrophylla"
+      ],
+      "nl": [
+        "Alseuosmia macrophylla"
+      ],
+      "pl": [
+        "Alseuosmia macrophylla"
+      ],
+      "pt": [
+        "Alseuosmia macrophylla"
+      ],
+      "ru": [
+        "Alseuosmia macrophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

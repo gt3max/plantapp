@@ -5,7 +5,7 @@
     "family": "Hamamelidaceae",
     "genus": "Corylopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corylopsis gotoana"
+      ],
+      "en": [
+        "Corylopsis gotoana"
+      ],
+      "es": [
+        "Corylopsis gotoana"
+      ],
+      "fr": [
+        "Corylopsis gotoana"
+      ],
+      "it": [
+        "Corylopsis gotoana"
+      ],
+      "nl": [
+        "Corylopsis gotoana"
+      ],
+      "pl": [
+        "Corylopsis gotoana"
+      ],
+      "pt": [
+        "Corylopsis gotoana"
+      ],
+      "ru": [
+        "Corylopsis gotoana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Hamamelidaceae",
     "genus": "Distylium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ديستيليام ريسموسام"
+      ],
+      "de": [
+        "Distylium racemosum"
+      ],
+      "en": [
+        "Distylium racemosum"
+      ],
+      "es": [
+        "Distylium racemosum"
+      ],
+      "fr": [
+        "Distylium racemosum"
+      ],
+      "it": [
+        "Distylium racemosum"
+      ],
+      "ja": [
+        "イスノキ"
+      ],
+      "ko": [
+        "조록나무"
+      ],
+      "nl": [
+        "Distylium racemosum"
+      ],
+      "pl": [
+        "Distylium racemosum"
+      ],
+      "pt": [
+        "Distylium racemosum"
+      ],
+      "ru": [
+        "Distylium racemosum"
+      ],
+      "zh": [
+        "蚊母树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +265,7 @@
     "family": "Hamamelidaceae",
     "genus": "Hamamelis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +347,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مشتركة يابانية"
+      ],
+      "de": [
+        "Hamamelis japonica"
+      ],
+      "en": [
+        "Hamamelis japonica"
+      ],
+      "es": [
+        "Hamamelis japonica"
+      ],
+      "fr": [
+        "Hamamelis japonica"
+      ],
+      "it": [
+        "Hamamelis japonica"
+      ],
+      "ja": [
+        "マンサク"
+      ],
+      "ko": [
+        "풍년화"
+      ],
+      "nl": [
+        "Japanse toverhazelaar"
+      ],
+      "pl": [
+        "Hamamelis japonica"
+      ],
+      "pt": [
+        "Hamamelis japonica"
+      ],
+      "ru": [
+        "Hamamelis japonica"
+      ],
+      "zh": [
+        "日本金縷梅"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,12 +401,12 @@
     "family": "Hamamelidaceae",
     "genus": "Hamamelis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1259f0bc1d9c6c48f2f83824a17c16269ca03493",
-    "description": "Seed capsules initially green, mature to light brown and become woody with age. Capsule contain two black seeds. A two-valved dehiscent capsule. Displays from October to November.",
+    "description": "Hamamelis virginiana, known as witch-hazel, common witch-hazel, American witch-hazel and beadwood, is a species of flowering shrub native to eastern North America, from Nova Scotia west to Minnesota, and south to central Florida to eastern Texas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -375,11 +489,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مشتركة فرجينية"
+      ],
+      "de": [
+        "Virginische Zaubernuss"
+      ],
       "en": [
+        "Hamamelis virginiana",
         "Witch-hazel"
+      ],
+      "es": [
+        "Hamamelis virginiana"
+      ],
+      "fr": [
+        "Hamamelis virginiana"
+      ],
+      "it": [
+        "Hamamelis virginiana"
+      ],
+      "nl": [
+        "Amerikaanse toverhazelaar"
+      ],
+      "pl": [
+        "Oczar wirginijski"
+      ],
+      "pt": [
+        "Hamamelis virginiana"
+      ],
+      "ru": [
+        "Гамамелис вирджинский"
+      ],
+      "zh": [
+        "北美金縷梅"
       ]
     },
     "tags": [],
@@ -391,12 +538,12 @@
     "family": "Hamamelidaceae",
     "genus": "Loropetalum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7291da6340ce60bd016268337ea08744f05f3b60",
-    "description": "Ovoid, nut-like, woody capsule with brown hairs. These capsules are 2-valved, uncommon, and less than an inch long. The seeds are ovoid, globose, or ellipsoid and are 4 to 7 mm long and 3.5 to 4 mm wide.",
+    "description": "Loropetalum chinense, commonly known as loropetalum, Chinese fringe flower and strap flower is a shrub or small tree in the witch-hazel family, Hamamelidaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -482,11 +629,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Loropetalum chinense"
+      ],
       "en": [
-        "Chinese fringe-flower"
+        "Chinese fringe-flower",
+        "Loropetalum chinense"
+      ],
+      "es": [
+        "Loropetalum chinense"
+      ],
+      "fr": [
+        "Loropetalum chinense"
+      ],
+      "it": [
+        "Loropetalum chinense"
+      ],
+      "ja": [
+        "トキワマンサク"
+      ],
+      "nl": [
+        "Loropetalum chinense"
+      ],
+      "pl": [
+        "Loropetalum chinense"
+      ],
+      "pt": [
+        "Loropetalum chinense"
+      ],
+      "ru": [
+        "Loropetalum chinense"
+      ],
+      "zh": [
+        "檵木"
       ]
     },
     "tags": [],

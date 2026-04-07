@@ -5,7 +5,7 @@
     "family": "Amblystegiaceae",
     "genus": "Amblystegium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Amblystegium confervoides"
+      ],
+      "en": [
+        "Amblystegium confervoides"
+      ],
+      "es": [
+        "Amblystegium confervoides"
+      ],
+      "fr": [
+        "Amblystegium confervoides"
+      ],
+      "it": [
+        "Amblystegium confervoides"
+      ],
+      "nl": [
+        "Amblystegium confervoides"
+      ],
+      "pl": [
+        "Amblystegium confervoides"
+      ],
+      "pt": [
+        "Amblystegium confervoides"
+      ],
+      "ru": [
+        "Amblystegium confervoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Amblystegiaceae",
     "genus": "Amblystegium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Amblystegium_serpens_resize.jpg",
+    "description": "Amblystegium serpens, also known as the creeping feathermoss or nano moss, is a species of moss. It is a common species in Britain.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,19 +211,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "de": [
+        "Amblystegium serpens",
         "Kriechendes Stumpfdeckelmoos"
       ],
       "en": [
+        "Amblystegium serpens",
         "Jurkatzka's feather moss",
         "amblystegium moss",
         "creeping feather moss"
       ],
+      "es": [
+        "Amblystegium serpens"
+      ],
+      "fr": [
+        "Amblystegium serpens"
+      ],
+      "it": [
+        "Amblystegium serpens"
+      ],
       "nl": [
         "gewoon pluisdraadmos"
+      ],
+      "pl": [
+        "Amblystegium serpens"
+      ],
+      "pt": [
+        "Amblystegium serpens"
+      ],
+      "ru": [
+        "Amblystegium serpens"
       ],
       "zh": [
         "柳葉蘚"
@@ -208,7 +260,7 @@
     "family": "Amblystegiaceae",
     "genus": "Amblystegium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -290,9 +342,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Amblystegium subtile"
+      ],
+      "en": [
+        "Amblystegium subtile"
+      ],
+      "es": [
+        "Amblystegium subtile"
+      ],
+      "fr": [
+        "Amblystegium subtile"
+      ],
+      "it": [
+        "Amblystegium subtile"
+      ],
+      "nl": [
+        "Amblystegium subtile"
+      ],
+      "pl": [
+        "Amblystegium subtile"
+      ],
+      "pt": [
+        "Amblystegium subtile"
+      ],
+      "ru": [
+        "Amblystegium subtile"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -302,7 +384,7 @@
     "family": "Amblystegiaceae",
     "genus": "Campyliadelphus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -384,9 +466,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Campyliadelphus chrysophyllus"
+      ],
+      "en": [
+        "Campyliadelphus chrysophyllus"
+      ],
+      "es": [
+        "Campyliadelphus chrysophyllus"
+      ],
+      "fr": [
+        "Campyliadelphus chrysophyllus"
+      ],
+      "it": [
+        "Campyliadelphus chrysophyllus"
+      ],
+      "nl": [
+        "Campyliadelphus chrysophyllus"
+      ],
+      "pl": [
+        "Campyliadelphus chrysophyllus"
+      ],
+      "pt": [
+        "Campyliadelphus chrysophyllus"
+      ],
+      "ru": [
+        "Campyliadelphus chrysophyllus"
+      ],
+      "zh": [
+        "拟细湿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -396,7 +511,7 @@
     "family": "Amblystegiaceae",
     "genus": "Campyliadelphus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -478,9 +593,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Campyliadelphus elodes"
+      ],
+      "en": [
+        "Campyliadelphus elodes"
+      ],
+      "es": [
+        "Campyliadelphus elodes"
+      ],
+      "fr": [
+        "Campyliadelphus elodes"
+      ],
+      "it": [
+        "Campyliadelphus elodes"
+      ],
+      "nl": [
+        "Campyliadelphus elodes"
+      ],
+      "pl": [
+        "Campyliadelphus elodes"
+      ],
+      "pt": [
+        "Campyliadelphus elodes"
+      ],
+      "ru": [
+        "Campyliadelphus elodes"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -490,7 +635,7 @@
     "family": "Amblystegiaceae",
     "genus": "Campylium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -572,9 +717,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Campylium calcareum"
+      ],
+      "en": [
+        "Campylium calcareum"
+      ],
+      "es": [
+        "Campylium calcareum"
+      ],
+      "fr": [
+        "Campylium calcareum"
+      ],
+      "it": [
+        "Campylium calcareum"
+      ],
+      "nl": [
+        "Campylium calcareum"
+      ],
+      "pl": [
+        "Campylium calcareum"
+      ],
+      "pt": [
+        "Campylium calcareum"
+      ],
+      "ru": [
+        "Campylium calcareum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -584,12 +759,12 @@
     "family": "Amblystegiaceae",
     "genus": "Campylium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Campylium chrysophyllum is a species of moss in the Amblystegiaceae family. It has a cosmopolitan distribution.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -666,9 +841,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Campylium chrysophyllum"
+      ],
+      "en": [
+        "Campylium chrysophyllum"
+      ],
+      "es": [
+        "Campylium chrysophyllum"
+      ],
+      "fr": [
+        "Campylium chrysophyllum"
+      ],
+      "it": [
+        "Campylium chrysophyllum"
+      ],
+      "nl": [
+        "Campylium chrysophyllum"
+      ],
+      "pl": [
+        "Campylium chrysophyllum"
+      ],
+      "pt": [
+        "Campylium chrysophyllum"
+      ],
+      "ru": [
+        "Campylium chrysophyllum"
+      ],
+      "zh": [
+        "黄叶细湿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -678,7 +886,7 @@
     "family": "Amblystegiaceae",
     "genus": "Campylium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -760,9 +968,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Campylium hispidulum"
+      ],
+      "en": [
+        "Campylium hispidulum"
+      ],
+      "es": [
+        "Campylium hispidulum"
+      ],
+      "fr": [
+        "Campylium hispidulum"
+      ],
+      "it": [
+        "Campylium hispidulum"
+      ],
+      "nl": [
+        "Campylium hispidulum"
+      ],
+      "pl": [
+        "Campylium hispidulum"
+      ],
+      "pt": [
+        "Campylium hispidulum"
+      ],
+      "ru": [
+        "Campylium hispidulum"
+      ],
+      "zh": [
+        "细湿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -772,12 +1013,12 @@
     "family": "Amblystegiaceae",
     "genus": "Campylium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Campylium protensum is a species of moss belonging to the family Amblystegiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -854,9 +1095,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Campylium protensum"
+      ],
+      "en": [
+        "Campylium protensum"
+      ],
+      "es": [
+        "Campylium protensum"
+      ],
+      "fr": [
+        "Campylium protensum"
+      ],
+      "it": [
+        "Campylium protensum"
+      ],
+      "nl": [
+        "Campylium protensum"
+      ],
+      "pl": [
+        "Campylium protensum"
+      ],
+      "pt": [
+        "Campylium protensum"
+      ],
+      "ru": [
+        "Campylium protensum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -866,7 +1137,7 @@
     "family": "Amblystegiaceae",
     "genus": "Campylium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -948,9 +1219,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Campylium stellatum"
+      ],
+      "en": [
+        "Campylium stellatum"
+      ],
+      "es": [
+        "Campylium stellatum"
+      ],
+      "fr": [
+        "Campylium stellatum"
+      ],
+      "it": [
+        "Campylium stellatum"
+      ],
+      "nl": [
+        "Campylium stellatum"
+      ],
+      "pl": [
+        "Campylium stellatum"
+      ],
+      "pt": [
+        "Campylium stellatum"
+      ],
+      "ru": [
+        "Campylium stellatum"
+      ],
+      "zh": [
+        "仰叶细湿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -960,7 +1264,7 @@
     "family": "Amblystegiaceae",
     "genus": "Conardia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1042,9 +1346,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Conardia compacta"
+      ],
+      "en": [
+        "Conardia compacta"
+      ],
+      "es": [
+        "Conardia compacta"
+      ],
+      "fr": [
+        "Conardia compacta"
+      ],
+      "it": [
+        "Conardia compacta"
+      ],
+      "nl": [
+        "Conardia compacta"
+      ],
+      "pl": [
+        "Conardia compacta"
+      ],
+      "pt": [
+        "Conardia compacta"
+      ],
+      "ru": [
+        "Conardia compacta"
+      ],
+      "zh": [
+        "列胞藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1054,7 +1391,7 @@
     "family": "Amblystegiaceae",
     "genus": "Cratoneuron",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1136,9 +1473,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cratoneuron filicinum"
+      ],
+      "en": [
+        "Cratoneuron filicinum"
+      ],
+      "es": [
+        "Cratoneuron filicinum"
+      ],
+      "fr": [
+        "Cratoneuron filicinum"
+      ],
+      "it": [
+        "Cratoneuron filicinum"
+      ],
+      "ja": [
+        "ミズシダゴケ"
+      ],
+      "nl": [
+        "Cratoneuron filicinum"
+      ],
+      "pl": [
+        "Cratoneuron filicinum"
+      ],
+      "pt": [
+        "Cratoneuron filicinum"
+      ],
+      "ru": [
+        "Cratoneuron filicinum"
+      ],
+      "zh": [
+        "牛角蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1148,7 +1521,7 @@
     "family": "Amblystegiaceae",
     "genus": "Drepanocladus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1230,9 +1603,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drepanocladus aduncus"
+      ],
+      "en": [
+        "Drepanocladus aduncus"
+      ],
+      "es": [
+        "Drepanocladus aduncus"
+      ],
+      "fr": [
+        "Drepanocladus aduncus"
+      ],
+      "it": [
+        "Drepanocladus aduncus"
+      ],
+      "nl": [
+        "moerassikkelmos"
+      ],
+      "pl": [
+        "Sierpowiec zakrzywiony"
+      ],
+      "pt": [
+        "Drepanocladus aduncus"
+      ],
+      "ru": [
+        "Drepanocladus aduncus"
+      ],
+      "zh": [
+        "镰刀藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1242,7 +1648,7 @@
     "family": "Amblystegiaceae",
     "genus": "Drepanocladus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1324,9 +1730,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drepanocladus longifolius"
+      ],
+      "en": [
+        "Drepanocladus longifolius"
+      ],
+      "es": [
+        "Drepanocladus longifolius"
+      ],
+      "fr": [
+        "Drepanocladus longifolius"
+      ],
+      "it": [
+        "Drepanocladus longifolius"
+      ],
+      "nl": [
+        "Drepanocladus longifolius"
+      ],
+      "pl": [
+        "Drepanocladus longifolius"
+      ],
+      "pt": [
+        "Drepanocladus longifolius"
+      ],
+      "ru": [
+        "Drepanocladus longifolius"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1336,12 +1772,12 @@
     "family": "Amblystegiaceae",
     "genus": "Drepanocladus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Pseudocalliergon lycopodioides is a species of moss belonging to the family Amblystegiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1418,9 +1854,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bärlapp-Sichelmoos"
+      ],
+      "en": [
+        "Drepanocladus lycopodioides"
+      ],
+      "es": [
+        "Drepanocladus lycopodioides"
+      ],
+      "fr": [
+        "Drepanocladus lycopodioides"
+      ],
+      "it": [
+        "Drepanocladus lycopodioides"
+      ],
+      "nl": [
+        "Drepanocladus lycopodioides"
+      ],
+      "pl": [
+        "Bagiennik widłakowaty"
+      ],
+      "pt": [
+        "Drepanocladus lycopodioides"
+      ],
+      "ru": [
+        "Drepanocladus lycopodioides"
+      ],
+      "zh": [
+        "褶叶镰刀藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1430,7 +1899,7 @@
     "family": "Amblystegiaceae",
     "genus": "Drepanocladus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1512,9 +1981,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drepanocladus polygamus"
+      ],
+      "en": [
+        "Drepanocladus polygamus"
+      ],
+      "es": [
+        "Drepanocladus polygamus"
+      ],
+      "fr": [
+        "Drepanocladus polygamus"
+      ],
+      "it": [
+        "Drepanocladus polygamus"
+      ],
+      "nl": [
+        "Drepanocladus polygamus"
+      ],
+      "pl": [
+        "Drepanocladus polygamus"
+      ],
+      "pt": [
+        "Drepanocladus polygamus"
+      ],
+      "ru": [
+        "Drepanocladus polygamus"
+      ],
+      "zh": [
+        "长肋镰刀藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1524,7 +2026,7 @@
     "family": "Amblystegiaceae",
     "genus": "Drepanocladus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1606,9 +2108,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drepanocladus sendtneri"
+      ],
+      "en": [
+        "Drepanocladus sendtneri"
+      ],
+      "es": [
+        "Drepanocladus sendtneri"
+      ],
+      "fr": [
+        "Drepanocladus sendtneri"
+      ],
+      "it": [
+        "Drepanocladus sendtneri"
+      ],
+      "nl": [
+        "Drepanocladus sendtneri"
+      ],
+      "pl": [
+        "Drepanocladus sendtneri"
+      ],
+      "pt": [
+        "Drepanocladus sendtneri"
+      ],
+      "ru": [
+        "Drepanocladus sendtneri"
+      ],
+      "zh": [
+        "粗肋镰刀藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1618,7 +2153,7 @@
     "family": "Amblystegiaceae",
     "genus": "Hygroamblystegium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1700,9 +2235,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygroamblystegium fluviatile"
+      ],
+      "en": [
+        "Hygroamblystegium fluviatile"
+      ],
+      "es": [
+        "Hygroamblystegium fluviatile"
+      ],
+      "fr": [
+        "Hygroamblystegium fluviatile"
+      ],
+      "it": [
+        "Hygroamblystegium fluviatile"
+      ],
+      "nl": [
+        "Hygroamblystegium fluviatile"
+      ],
+      "pl": [
+        "Hygroamblystegium fluviatile"
+      ],
+      "pt": [
+        "Hygroamblystegium fluviatile"
+      ],
+      "ru": [
+        "Hygroamblystegium fluviatile"
+      ],
+      "zh": [
+        "湿柳藓属"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1712,7 +2280,7 @@
     "family": "Amblystegiaceae",
     "genus": "Hygroamblystegium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1794,9 +2362,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygroamblystegium humile"
+      ],
+      "en": [
+        "Hygroamblystegium humile"
+      ],
+      "es": [
+        "Hygroamblystegium humile"
+      ],
+      "fr": [
+        "Hygroamblystegium humile"
+      ],
+      "it": [
+        "Hygroamblystegium humile"
+      ],
+      "nl": [
+        "Hygroamblystegium humile"
+      ],
+      "pl": [
+        "Hygroamblystegium humile"
+      ],
+      "pt": [
+        "Hygroamblystegium humile"
+      ],
+      "ru": [
+        "Hygroamblystegium humile"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1806,12 +2404,12 @@
     "family": "Amblystegiaceae",
     "genus": "Hygroamblystegium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Hygroamblystegium tenax is a species of moss belonging to the family Amblystegiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1888,9 +2486,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygroamblystegium tenax"
+      ],
+      "en": [
+        "Hygroamblystegium tenax"
+      ],
+      "es": [
+        "Hygroamblystegium tenax"
+      ],
+      "fr": [
+        "Hygroamblystegium tenax"
+      ],
+      "it": [
+        "Hygroamblystegium tenax"
+      ],
+      "nl": [
+        "Hygroamblystegium tenax"
+      ],
+      "pl": [
+        "Hygroamblystegium tenax"
+      ],
+      "pt": [
+        "Hygroamblystegium tenax"
+      ],
+      "ru": [
+        "Hygroamblystegium tenax"
+      ],
+      "zh": [
+        "湿柳藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1900,12 +2531,12 @@
     "family": "Amblystegiaceae",
     "genus": "Hygroamblystegium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Hygroamblystegium varium is a species of moss in the Amblystegiaceae family. It has a cosmopolitan distribution.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1982,9 +2613,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygroamblystegium varium"
+      ],
+      "en": [
+        "Hygroamblystegium varium"
+      ],
+      "es": [
+        "Hygroamblystegium varium"
+      ],
+      "fr": [
+        "Hygroamblystegium varium"
+      ],
+      "it": [
+        "Hygroamblystegium varium"
+      ],
+      "nl": [
+        "Hygroamblystegium varium"
+      ],
+      "pl": [
+        "Hygroamblystegium varium"
+      ],
+      "pt": [
+        "Hygroamblystegium varium"
+      ],
+      "ru": [
+        "Hygroamblystegium varium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1994,7 +2655,7 @@
     "family": "Amblystegiaceae",
     "genus": "Hygrohypnella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2076,9 +2737,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygrohypnella ochracea"
+      ],
+      "en": [
+        "Hygrohypnella ochracea"
+      ],
+      "es": [
+        "Hygrohypnella ochracea"
+      ],
+      "fr": [
+        "Hygrohypnella ochracea"
+      ],
+      "it": [
+        "Hygrohypnella ochracea"
+      ],
+      "nl": [
+        "Hygrohypnella ochracea"
+      ],
+      "pl": [
+        "Hygrohypnella ochracea"
+      ],
+      "pt": [
+        "Hygrohypnella ochracea"
+      ],
+      "ru": [
+        "Hygrohypnella ochracea"
+      ],
+      "zh": [
+        "金溪藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2088,7 +2782,7 @@
     "family": "Amblystegiaceae",
     "genus": "Hygrohypnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2170,9 +2864,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygrohypnum duriusculum"
+      ],
+      "en": [
+        "Hygrohypnum duriusculum"
+      ],
+      "es": [
+        "Hygrohypnum duriusculum"
+      ],
+      "fr": [
+        "Hygrohypnum duriusculum"
+      ],
+      "it": [
+        "Hygrohypnum duriusculum"
+      ],
+      "nl": [
+        "Hygrohypnum duriusculum"
+      ],
+      "pl": [
+        "Hygrohypnum duriusculum"
+      ],
+      "pt": [
+        "Hygrohypnum duriusculum"
+      ],
+      "ru": [
+        "Hygrohypnum duriusculum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2182,7 +2906,7 @@
     "family": "Amblystegiaceae",
     "genus": "Hygrohypnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2264,9 +2988,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygrohypnum luridum"
+      ],
+      "en": [
+        "Hygrohypnum luridum"
+      ],
+      "es": [
+        "Hygrohypnum luridum"
+      ],
+      "fr": [
+        "Hygrohypnum luridum"
+      ],
+      "it": [
+        "Hygrohypnum luridum"
+      ],
+      "nl": [
+        "Hygrohypnum luridum"
+      ],
+      "pl": [
+        "Hygrohypnum luridum"
+      ],
+      "pt": [
+        "Hygrohypnum luridum"
+      ],
+      "ru": [
+        "Hygrohypnum luridum"
+      ],
+      "zh": [
+        "水灰藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2276,12 +3033,12 @@
     "family": "Amblystegiaceae",
     "genus": "Hygrohypnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Platyhypnum molle, the soft brook-moss, is a species of moss belonging to the family Amblystegiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2358,9 +3115,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygrohypnum molle"
+      ],
+      "en": [
+        "Hygrohypnum molle"
+      ],
+      "es": [
+        "Hygrohypnum molle"
+      ],
+      "fr": [
+        "Hygrohypnum molle"
+      ],
+      "it": [
+        "Hygrohypnum molle"
+      ],
+      "nl": [
+        "Hygrohypnum molle"
+      ],
+      "pl": [
+        "Hygrohypnum molle"
+      ],
+      "pt": [
+        "Hygrohypnum molle"
+      ],
+      "ru": [
+        "Hygrohypnum molle"
+      ],
+      "zh": [
+        "圆叶水灰藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2370,7 +3160,7 @@
     "family": "Amblystegiaceae",
     "genus": "Hygrohypnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2452,9 +3242,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygrohypnum ochraceum"
+      ],
+      "en": [
+        "Hygrohypnum ochraceum"
+      ],
+      "es": [
+        "Hygrohypnum ochraceum"
+      ],
+      "fr": [
+        "Hygrohypnum ochraceum"
+      ],
+      "it": [
+        "Hygrohypnum ochraceum"
+      ],
+      "nl": [
+        "Hygrohypnum ochraceum"
+      ],
+      "pl": [
+        "Hygrohypnum ochraceum"
+      ],
+      "pt": [
+        "Hygrohypnum ochraceum"
+      ],
+      "ru": [
+        "Hygrohypnum ochraceum"
+      ],
+      "zh": [
+        "褐黄水灰藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2464,7 +3287,7 @@
     "family": "Amblystegiaceae",
     "genus": "Hygrohypnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2546,9 +3369,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygrohypnum smithii"
+      ],
+      "en": [
+        "Hygrohypnum smithii"
+      ],
+      "es": [
+        "Hygrohypnum smithii"
+      ],
+      "fr": [
+        "Hygrohypnum smithii"
+      ],
+      "it": [
+        "Hygrohypnum smithii"
+      ],
+      "nl": [
+        "Hygrohypnum smithii"
+      ],
+      "pl": [
+        "Hygrohypnum smithii"
+      ],
+      "pt": [
+        "Hygrohypnum smithii"
+      ],
+      "ru": [
+        "Hygrohypnum smithii"
+      ],
+      "zh": [
+        "钝叶水灰藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2558,12 +3414,12 @@
     "family": "Amblystegiaceae",
     "genus": "Leptodictyum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Leptodictyum riparium, commonly known as Kneiff's feathermoss, streamside leptodictyum moss, or knapwort, is a species of moss of cosmopolitan distribution. The only places it is not found are the Pacific Islands and Australia. It is commonly found growing in the lakes and rivers of Minnesota and is also present in Mexico, Guatemala, the Bahamas, Cuba, Jamaica, Haiti, the Dominican Republic, Venezuela, Peru and Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2640,9 +3496,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Leptodictyum riparium"
+      ],
+      "en": [
+        "Leptodictyum riparium"
+      ],
+      "es": [
+        "Leptodictyum riparium"
+      ],
+      "fr": [
+        "Leptodictyum riparium"
+      ],
+      "it": [
+        "Leptodictyum riparium"
+      ],
+      "nl": [
+        "Leptodictyum riparium"
+      ],
+      "pl": [
+        "Leptodictyum riparium"
+      ],
+      "pt": [
+        "Leptodictyum riparium"
+      ],
+      "ru": [
+        "Leptodictyum riparium"
+      ],
+      "zh": [
+        "薄網蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2652,12 +3541,12 @@
     "family": "Amblystegiaceae",
     "genus": "Palustriella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cratoneuron_commutatum_2006.06.27_15.42.54-p6270273.jpg",
+    "description": "Palustriella commutata, commonly known as curled hookmoss, is a plant that also goes by the binomial names Cratoneuron commutatum, Cratoneuron falcatum, Hypnum commutatum, and Hypnum falcatum.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2734,9 +3623,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Palustriella commutata"
+      ],
+      "en": [
+        "Palustriella commutata"
+      ],
+      "es": [
+        "Palustriella commutata"
+      ],
+      "fr": [
+        "Palustriella commutata"
+      ],
+      "it": [
+        "Palustriella commutata"
+      ],
+      "nl": [
+        "Palustriella commutata"
+      ],
+      "pl": [
+        "Palustriella commutata"
+      ],
+      "pt": [
+        "Palustriella commutata"
+      ],
+      "ru": [
+        "Palustriella commutata"
+      ],
+      "zh": [
+        "沼地藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2746,7 +3668,7 @@
     "family": "Amblystegiaceae",
     "genus": "Palustriella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2828,9 +3750,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Palustriella decipiens"
+      ],
+      "en": [
+        "Palustriella decipiens"
+      ],
+      "es": [
+        "Palustriella decipiens"
+      ],
+      "fr": [
+        "Palustriella decipiens"
+      ],
+      "it": [
+        "Palustriella decipiens"
+      ],
+      "nl": [
+        "Palustriella decipiens"
+      ],
+      "pl": [
+        "Palustriella decipiens"
+      ],
+      "pt": [
+        "Palustriella decipiens"
+      ],
+      "ru": [
+        "Palustriella decipiens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2840,7 +3792,7 @@
     "family": "Amblystegiaceae",
     "genus": "Palustriella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2922,9 +3874,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Palustriella falcata"
+      ],
+      "en": [
+        "Palustriella falcata"
+      ],
+      "es": [
+        "Palustriella falcata"
+      ],
+      "fr": [
+        "Palustriella falcata"
+      ],
+      "it": [
+        "Palustriella falcata"
+      ],
+      "nl": [
+        "Palustriella falcata"
+      ],
+      "pl": [
+        "Palustriella falcata"
+      ],
+      "pt": [
+        "Palustriella falcata"
+      ],
+      "ru": [
+        "Palustriella falcata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2934,12 +3916,12 @@
     "family": "Amblystegiaceae",
     "genus": "Pseudocalliergon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Pseudocalliergon lycopodioides is a species of moss belonging to the family Amblystegiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3016,9 +3998,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pseudocalliergon lycopodioides"
+      ],
+      "en": [
+        "Pseudocalliergon lycopodioides"
+      ],
+      "es": [
+        "Pseudocalliergon lycopodioides"
+      ],
+      "fr": [
+        "Pseudocalliergon lycopodioides"
+      ],
+      "it": [
+        "Pseudocalliergon lycopodioides"
+      ],
+      "nl": [
+        "Pseudocalliergon lycopodioides"
+      ],
+      "pl": [
+        "Pseudocalliergon lycopodioides"
+      ],
+      "pt": [
+        "Pseudocalliergon lycopodioides"
+      ],
+      "ru": [
+        "Pseudocalliergon lycopodioides"
+      ],
+      "zh": [
+        "褶叶拟湿原藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3028,12 +4043,12 @@
     "family": "Amblystegiaceae",
     "genus": "Pseudocalliergon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Drepanocladus trifarius, the three-ranked spear-moss, is a species of moss belonging to the family Amblystegiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3110,9 +4125,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pseudocalliergon trifarium"
+      ],
+      "en": [
+        "Pseudocalliergon trifarium"
+      ],
+      "es": [
+        "Pseudocalliergon trifarium"
+      ],
+      "fr": [
+        "Pseudocalliergon trifarium"
+      ],
+      "it": [
+        "Pseudocalliergon trifarium"
+      ],
+      "nl": [
+        "Pseudocalliergon trifarium"
+      ],
+      "pl": [
+        "Bagiennik żmijowaty"
+      ],
+      "pt": [
+        "Pseudocalliergon trifarium"
+      ],
+      "ru": [
+        "Pseudocalliergon trifarium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3122,7 +4167,7 @@
     "family": "Amblystegiaceae",
     "genus": "Pseudocalliergon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3204,9 +4249,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pseudocalliergon turgescens"
+      ],
+      "en": [
+        "Pseudocalliergon turgescens"
+      ],
+      "es": [
+        "Pseudocalliergon turgescens"
+      ],
+      "fr": [
+        "Pseudocalliergon turgescens"
+      ],
+      "it": [
+        "Pseudocalliergon turgescens"
+      ],
+      "nl": [
+        "Pseudocalliergon turgescens"
+      ],
+      "pl": [
+        "Pseudocalliergon turgescens"
+      ],
+      "pt": [
+        "Pseudocalliergon turgescens"
+      ],
+      "ru": [
+        "Pseudocalliergon turgescens"
+      ],
+      "zh": [
+        "大拟湿原藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3216,7 +4294,7 @@
     "family": "Amblystegiaceae",
     "genus": "Sanionia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3298,9 +4376,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sanionia orthothecioides"
+      ],
+      "en": [
+        "Sanionia orthothecioides"
+      ],
+      "es": [
+        "Sanionia orthothecioides"
+      ],
+      "fr": [
+        "Sanionia orthothecioides"
+      ],
+      "it": [
+        "Sanionia orthothecioides"
+      ],
+      "nl": [
+        "Sanionia orthothecioides"
+      ],
+      "pl": [
+        "Sanionia orthothecioides"
+      ],
+      "pt": [
+        "Sanionia orthothecioides"
+      ],
+      "ru": [
+        "Sanionia orthothecioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3310,7 +4418,7 @@
     "family": "Amblystegiaceae",
     "genus": "Sanionia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3392,9 +4500,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sanionia uncinata"
+      ],
+      "en": [
+        "Sanionia uncinata"
+      ],
+      "es": [
+        "Sanionia uncinata"
+      ],
+      "fr": [
+        "Sanionia uncinata"
+      ],
+      "it": [
+        "Sanionia uncinata"
+      ],
+      "nl": [
+        "Sanionia uncinata"
+      ],
+      "pl": [
+        "Sanionia uncinata"
+      ],
+      "pt": [
+        "Sanionia uncinata"
+      ],
+      "ru": [
+        "Sanionia uncinata"
+      ],
+      "zh": [
+        "鈎枝蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3404,12 +4545,12 @@
     "family": "Amblystegiaceae",
     "genus": "Sarmentypnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sarmentypnum_exannulatum.jpg",
+    "description": "Sarmentypnum exannulatum, also known as ringless hook-moss, is a species of medium-sized wetland moss belonging to the family Amblystegiaceae. It was first described by Wilhelm Philipp Schimper in collaboration with his brother Wilhelm Philippe Schimper in 1854.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3420,9 +4561,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "sarmentypnum_exannulatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -3486,9 +4627,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sarmentypnum exannulatum"
+      ],
+      "en": [
+        "Sarmentypnum exannulatum"
+      ],
+      "es": [
+        "Sarmentypnum exannulatum"
+      ],
+      "fr": [
+        "Sarmentypnum exannulatum"
+      ],
+      "it": [
+        "Sarmentypnum exannulatum"
+      ],
+      "nl": [
+        "Sarmentypnum exannulatum"
+      ],
+      "pl": [
+        "Sarmentypnum exannulatum"
+      ],
+      "pt": [
+        "Sarmentypnum exannulatum"
+      ],
+      "ru": [
+        "Sarmentypnum exannulatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3498,7 +4669,7 @@
     "family": "Amblystegiaceae",
     "genus": "Sarmentypnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3580,9 +4751,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sarmentypnum sarmentosum"
+      ],
+      "en": [
+        "Sarmentypnum sarmentosum"
+      ],
+      "es": [
+        "Sarmentypnum sarmentosum"
+      ],
+      "fr": [
+        "Sarmentypnum sarmentosum"
+      ],
+      "it": [
+        "Sarmentypnum sarmentosum"
+      ],
+      "nl": [
+        "Sarmentypnum sarmentosum"
+      ],
+      "pl": [
+        "Sarmentypnum sarmentosum"
+      ],
+      "pt": [
+        "Sarmentypnum sarmentosum"
+      ],
+      "ru": [
+        "Sarmentypnum sarmentosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3592,7 +4793,7 @@
     "family": "Amblystegiaceae",
     "genus": "Scorpidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3674,9 +4875,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Scorpidium cossonii"
+      ],
+      "en": [
+        "Scorpidium cossonii"
+      ],
+      "es": [
+        "Scorpidium cossonii"
+      ],
+      "fr": [
+        "Scorpidium cossonii"
+      ],
+      "it": [
+        "Scorpidium cossonii"
+      ],
+      "nl": [
+        "Scorpidium cossonii"
+      ],
+      "pl": [
+        "Scorpidium cossonii"
+      ],
+      "pt": [
+        "Scorpidium cossonii"
+      ],
+      "ru": [
+        "Scorpidium cossonii"
+      ],
+      "zh": [
+        "大叶蝎尾藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3686,7 +4920,7 @@
     "family": "Amblystegiaceae",
     "genus": "Scorpidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3768,9 +5002,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Scorpidium revolvens"
+      ],
+      "en": [
+        "Scorpidium revolvens"
+      ],
+      "es": [
+        "Scorpidium revolvens"
+      ],
+      "fr": [
+        "Scorpidium revolvens"
+      ],
+      "it": [
+        "Scorpidium revolvens"
+      ],
+      "nl": [
+        "Scorpidium revolvens"
+      ],
+      "pl": [
+        "Scorpidium revolvens"
+      ],
+      "pt": [
+        "Scorpidium revolvens"
+      ],
+      "ru": [
+        "Scorpidium revolvens"
+      ],
+      "zh": [
+        "扭叶蝎尾藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3780,7 +5047,7 @@
     "family": "Amblystegiaceae",
     "genus": "Scorpidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3862,9 +5129,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Scorpidium scorpioides"
+      ],
+      "en": [
+        "Scorpidium scorpioides"
+      ],
+      "es": [
+        "Scorpidium scorpioides"
+      ],
+      "fr": [
+        "Scorpidium scorpioides"
+      ],
+      "it": [
+        "Scorpidium scorpioides"
+      ],
+      "nl": [
+        "Scorpidium scorpioides"
+      ],
+      "pl": [
+        "Scorpidium scorpioides"
+      ],
+      "pt": [
+        "Scorpidium scorpioides"
+      ],
+      "ru": [
+        "Скорпидиум скорпионоподобный"
+      ],
+      "zh": [
+        "蝎尾藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

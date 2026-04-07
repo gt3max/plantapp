@@ -21,13 +21,13 @@
     "synonyms": "[\"Sempervivum arboreum\"]",
     "care": {
       "plant_id": "aeonium_arboreum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": 7,
       "stop_pct": 50,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
       "ppfd_min": 104,
       "ppfd_max": 199,
       "dli_min": 0.4,
@@ -52,9 +52,9 @@
       "watering_guide": null,
       "light_guide": "Climate: subtropical",
       "tips": "Remove dead and rotten part timely | Native to: BAL OO, ALG, CNY OO, FRA FR, SIC MA | Similar plants: Curio rowleyanus",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": [
         "Typically, these plants have no serious insect or disease problems.",
         "Overwatering can cause root rot.",
@@ -79,10 +79,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Cascading",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -94,11 +94,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "de": [
+        "Aeonium arboreum"
+      ],
       "en": [
+        "Aeonium arboreum",
         "Tree aenium"
+      ],
+      "es": [
+        "Aeonium arboreum"
+      ],
+      "fr": [
+        "Aeonium arboreum"
+      ],
+      "it": [
+        "Aeonium arboreum"
+      ],
+      "ko": [
+        "흑법사"
+      ],
+      "nl": [
+        "Aeonium arboreum"
+      ],
+      "pl": [
+        "Eonium drzewiaste"
+      ],
+      "pt": [
+        "Aeonium arboreum"
+      ],
+      "ru": [
+        "Aeonium arboreum"
+      ],
+      "zh": [
+        "莲花掌"
       ]
     },
     "tags": [],
@@ -126,9 +159,9 @@
     "synonyms": "[\"Sempervivum youngianum\", \"Sempervivum undulatum\", \"Aeonium webbii\", \"Aeonium youngianum\"]",
     "care": {
       "plant_id": "aeonium_undulatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "full sun",
@@ -157,9 +190,9 @@
       "watering_guide": "Missouri BG: Easily grown in sandy, dry to medium moisture, well-drained soils in full sun to light shade. Tolerates brief periods of minor frost (to 28-30°F). Plants may be grown in pots that are overwintered indoors in a sunny window. Propagate by seed or rosette cuttings.",
       "light_guide": "Climate: subtropical",
       "tips": "Stalked Aeonium, or Aeonium undulatum, is an amazing succulent species with its showy yellow blooms and striking foliage. Its bright purple-green foliage has stout stems that produce a neat rosette pa | Native to: AFRICA, CNY, MACARONESIA, NZN, NEW ZEALAND | Similar plants: Curio rowleyanus",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": [
         "Root rot may develop in overly moist soils",
         "Uses\n\nCactus or succulent garden where they can be effectively mixed with aloes, jade plants and/or agave",
@@ -185,10 +218,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Cascading",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -200,11 +233,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aeonium undulatum"
+      ],
       "en": [
+        "Aeonium undulatum",
         "stalked aeonium"
+      ],
+      "es": [
+        "Aeonium undulatum"
+      ],
+      "fr": [
+        "Aeonium undulatum"
+      ],
+      "it": [
+        "Aeonium undulatum"
+      ],
+      "nl": [
+        "Aeonium undulatum"
+      ],
+      "pl": [
+        "Aeonium undulatum"
+      ],
+      "pt": [
+        "Aeonium undulatum"
+      ],
+      "ru": [
+        "Aeonium undulatum"
+      ],
+      "zh": [
+        "艳姿"
       ]
     },
     "tags": [
@@ -226,7 +289,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/79f76b30017fdd65399b49622c10685f8f7e5b8d",
-    "description": null,
+    "description": "Cotyledon orbiculata, commonly known as pig's ear or round-leafed navel-wort, is a South African succulent plant belonging to the genus Cotyledon.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -268,9 +331,9 @@
       "watering_guide": null,
       "light_guide": "Climate: desert or dry shrubland",
       "tips": "Native to: CARIBBEAN, STH OO, BAL OO, CNY OO, DOM",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -288,10 +351,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -303,11 +366,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أشران"
+      ],
+      "de": [
+        "Cotyledon orbiculata"
+      ],
       "en": [
+        "Cotyledon orbiculata",
         "Pig's-ears"
+      ],
+      "es": [
+        "Cotyledon orbiculata"
+      ],
+      "fr": [
+        "Cotyledon orbiculata"
+      ],
+      "it": [
+        "Cotyledon orbiculata"
+      ],
+      "nl": [
+        "Cotyledon orbiculata"
+      ],
+      "pl": [
+        "Cotyledon orbiculata"
+      ],
+      "pt": [
+        "Cotyledon orbiculata"
+      ],
+      "ru": [
+        "Cotyledon orbiculata"
       ]
     },
     "tags": [],
@@ -335,17 +428,17 @@
     "synonyms": "[\"Tillaea bolanderi\", \"Tillaeastrum aquaticum\", \"Tillaea simplex\", \"Tillaeastrum pringlei\", \"Hydrophila aquatica\", \"Tillaea pringlei\", \"Tillaea likiangensis\", \"Bulliarda aquatica\", \"Tillaea aquatica var. prostrata\", \"Crassula schkuhrii\"]",
     "care": {
       "plant_id": "crassula_aquatica",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -401,11 +494,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "كرسول مائي"
+      ],
+      "de": [
+        "Wasser-Dickblatt"
+      ],
       "en": [
+        "Crassula aquatica",
         "Water pygmyweed"
+      ],
+      "es": [
+        "Crassula aquatica"
+      ],
+      "fr": [
+        "Crassula aquatica"
+      ],
+      "it": [
+        "Crassula aquatica"
+      ],
+      "nl": [
+        "Crassula aquatica"
+      ],
+      "pl": [
+        "Uwroć wodna"
+      ],
+      "pt": [
+        "Crassula aquatica"
+      ],
+      "ru": [
+        "Тиллея водная"
+      ],
+      "tr": [
+        "Crassula aquatica"
+      ],
+      "zh": [
+        "东爪草"
       ]
     },
     "tags": [],
@@ -422,7 +551,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Crassula colligata is a herb in the family Crassulaceae that is native to southern Australia and New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -433,17 +562,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "crassula_colligata",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -464,9 +593,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -484,10 +613,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -499,9 +628,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Crassula colligata"
+      ],
+      "en": [
+        "Crassula colligata"
+      ],
+      "es": [
+        "Crassula colligata"
+      ],
+      "fr": [
+        "Crassula colligata"
+      ],
+      "it": [
+        "Crassula colligata"
+      ],
+      "nl": [
+        "Crassula colligata"
+      ],
+      "pl": [
+        "Crassula colligata"
+      ],
+      "pt": [
+        "Crassula colligata"
+      ],
+      "ru": [
+        "Crassula colligata"
+      ],
+      "tr": [
+        "Crassula colligata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -516,7 +678,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Crassula colorata, the dense pigmyweed or dense stonecrop, is an annual plant in the family Crassulaceae. The species is endemic to Australia, occurring in Western Australia, South Australia, New South Wales and Victoria.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -527,17 +689,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "crassula_colorata",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -558,9 +720,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -578,10 +740,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -593,9 +755,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كرسول ملون"
+      ],
+      "de": [
+        "Crassula colorata"
+      ],
+      "en": [
+        "Crassula colorata"
+      ],
+      "es": [
+        "Crassula colorata"
+      ],
+      "fr": [
+        "Crassula colorata"
+      ],
+      "it": [
+        "Crassula colorata"
+      ],
+      "nl": [
+        "Crassula colorata"
+      ],
+      "pl": [
+        "Crassula colorata"
+      ],
+      "pt": [
+        "Crassula colorata"
+      ],
+      "ru": [
+        "Crassula colorata"
+      ],
+      "tr": [
+        "Crassula colorata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -610,7 +808,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Crassula connata is a succulent plant in the family Crassulaceae. It is known by the common names sand pygmyweed and pygmy stonecrop. It is a very small plant which grows in patches on the ground, especially in rocky areas. It is also sometimes associated with vernal pool plant communities. The stems are a few centimeters in length and are covered with tiny fleshy pointed leaves. Each leaf is only millimeters long. The plant is green when new and it matures to shades of pink and red.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -621,17 +819,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "crassula_connata",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -652,9 +850,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -672,10 +870,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -687,9 +885,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كرسول ملازم"
+      ],
+      "de": [
+        "Crassula connata"
+      ],
+      "en": [
+        "Crassula connata"
+      ],
+      "es": [
+        "Crassula connata"
+      ],
+      "fr": [
+        "Crassula connata"
+      ],
+      "it": [
+        "Crassula connata"
+      ],
+      "nl": [
+        "Crassula connata"
+      ],
+      "pl": [
+        "Crassula connata"
+      ],
+      "pt": [
+        "Crassula connata"
+      ],
+      "ru": [
+        "Crassula connata"
+      ],
+      "tr": [
+        "Crassula connata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -715,17 +949,17 @@
     "synonyms": "[\"Thisantha decumbens\", \"Gomara decumbens\"]",
     "care": {
       "plant_id": "crassula_decumbens",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -746,9 +980,9 @@
       "watering_guide": null,
       "light_guide": "Climate: subtropical",
       "tips": "Native to: NSW, CLC MA, CHN SX, CHN SD, WAU | Similar plants: Curio rowleyanus",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -766,10 +1000,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -781,9 +1015,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كرسول منتشر"
+      ],
+      "de": [
+        "Crassula decumbens"
+      ],
+      "en": [
+        "Crassula decumbens"
+      ],
+      "es": [
+        "Crassula decumbens"
+      ],
+      "fr": [
+        "Crassula decumbens"
+      ],
+      "it": [
+        "Crassula decumbens"
+      ],
+      "nl": [
+        "Crassula decumbens"
+      ],
+      "pl": [
+        "Crassula decumbens"
+      ],
+      "pt": [
+        "Crassula decumbens"
+      ],
+      "ru": [
+        "Crassula decumbens"
+      ],
+      "tr": [
+        "Crassula decumbens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -809,17 +1079,17 @@
     "synonyms": "[\"Tillaea verticillaris\", \"Tillaea recurva\", \"Tillaea helmsii\", \"Crassula recurva\", \"Bulliarda recurva\"]",
     "care": {
       "plant_id": "crassula_helmsii",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -842,7 +1112,7 @@
       "tips": "Native to: MIDDLE EUROPE, NSW, NSW CT, BGM BE, NET OO | Similar plants: Curio rowleyanus",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Non-toxic (confirmed by TPPT database)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -875,11 +1145,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Nadelkraut"
+      ],
       "en": [
+        "Crassula helmsii",
         "New zealand pigmyweed"
+      ],
+      "es": [
+        "Crassula helmsii"
+      ],
+      "fr": [
+        "Crassula helmsii"
+      ],
+      "it": [
+        "Crassula helmsii"
+      ],
+      "nl": [
+        "Watercrassula"
+      ],
+      "pl": [
+        "Crassula helmsii"
+      ],
+      "pt": [
+        "Crassula helmsii"
+      ],
+      "ru": [
+        "Crassula helmsii"
+      ],
+      "tr": [
+        "Crassula helmsii"
       ]
     },
     "tags": [],
@@ -907,7 +1207,7 @@
     "synonyms": "[\"Crassula quadrifida\", \"Septimia multicava\"]",
     "care": {
       "plant_id": "crassula_multicava",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -973,11 +1273,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Crassula multicava"
+      ],
       "en": [
-        "Cape province pygmyweed"
+        "Cape province pygmyweed",
+        "Crassula multicava"
+      ],
+      "es": [
+        "Crassula multicava"
+      ],
+      "fr": [
+        "Crassula multicava"
+      ],
+      "it": [
+        "Crassula multicava"
+      ],
+      "nl": [
+        "Crassula multicava"
+      ],
+      "pl": [
+        "Crassula multicava"
+      ],
+      "pt": [
+        "Crassula multicava"
+      ],
+      "ru": [
+        "Crassula multicava"
+      ],
+      "tr": [
+        "Crassula multicava"
       ]
     },
     "tags": [],
@@ -1005,7 +1335,7 @@
     "synonyms": "[\"Combesia muscosa\", \"Sedum muscosum\"]",
     "care": {
       "plant_id": "crassula_muscosa",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -1071,11 +1401,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كرسول طحلبي"
+      ],
+      "de": [
+        "Crassula muscosa"
+      ],
       "en": [
+        "Crassula muscosa",
         "Toy-cypress"
+      ],
+      "es": [
+        "Crassula muscosa"
+      ],
+      "fr": [
+        "Crassula muscosa"
+      ],
+      "it": [
+        "Crassula muscosa"
+      ],
+      "nl": [
+        "Crassula muscosa"
+      ],
+      "pl": [
+        "Grubosz widłakowaty"
+      ],
+      "pt": [
+        "Crassula muscosa"
+      ],
+      "ru": [
+        "Crassula muscosa"
+      ],
+      "tr": [
+        "Crassula muscosa"
+      ],
+      "zh": [
+        "青锁龙"
       ]
     },
     "tags": [],
@@ -1104,13 +1470,13 @@
     "synonyms": "[\"Toelkenia ovata\", \"Cotyledon ovata\", \"Cotyledon lutea\", \"Crassula nitida\", \"Crassula lucens\"]",
     "care": {
       "plant_id": "crassula_ovata",
-      "water_frequency": "Every 2-3 weeks, let soil dry completely between waterings",
+      "water_frequency": "Every 11-14 days",
       "water_winter": "Once a month",
       "water_demand": "Low",
       "start_pct": 15,
       "stop_pct": 25,
-      "light_preferred": "Bright indirect to direct sun (south or west window)",
-      "light_also_ok": "Medium light (survives but grows leggy and slow)",
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
       "ppfd_min": 200,
       "ppfd_max": 600,
       "dli_min": 8.0,
@@ -1148,7 +1514,7 @@
         "Scale",
         "Spider mites"
       ],
-      "watering_method": null,
+      "watering_method": "Let soil dry up",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -1178,7 +1544,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -1274,7 +1642,7 @@
     "synonyms": "[\"Bulliarda bonariensis\", \"Tillaea peduncularis\", \"Tillaea simplex\", \"Tillaea caudiculata\", \"Crassula purpurata\", \"Tillaea purpurata\", \"Crassula bonariensis\", \"Tillaea paludosa\", \"Crassula caudiculata\", \"Crassula paludosa\"]",
     "care": {
       "plant_id": "crassula_peduncularis",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -1340,9 +1708,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كرسول سويقي"
+      ],
+      "de": [
+        "Crassula peduncularis"
+      ],
+      "en": [
+        "Crassula peduncularis"
+      ],
+      "es": [
+        "Crassula peduncularis"
+      ],
+      "fr": [
+        "Crassula peduncularis"
+      ],
+      "it": [
+        "Crassula peduncularis"
+      ],
+      "nl": [
+        "Crassula peduncularis"
+      ],
+      "pl": [
+        "Crassula peduncularis"
+      ],
+      "pt": [
+        "Crassula peduncularis"
+      ],
+      "ru": [
+        "Crassula peduncularis"
+      ],
+      "tr": [
+        "Crassula peduncularis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1368,7 +1772,7 @@
     "synonyms": "[\"Gomara pellucida\"]",
     "care": {
       "plant_id": "crassula_pellucida",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -1434,9 +1838,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Crassula pellucida"
+      ],
+      "en": [
+        "Crassula pellucida"
+      ],
+      "es": [
+        "Crassula pellucida"
+      ],
+      "fr": [
+        "Crassula pellucida"
+      ],
+      "it": [
+        "Crassula pellucida"
+      ],
+      "nl": [
+        "Crassula pellucida"
+      ],
+      "pl": [
+        "Crassula pellucida"
+      ],
+      "pt": [
+        "Crassula pellucida"
+      ],
+      "ru": [
+        "Crassula pellucida"
+      ],
+      "tr": [
+        "Crassula pellucida"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1462,17 +1899,17 @@
     "synonyms": "[\"Tillaea sieberiana\"]",
     "care": {
       "plant_id": "crassula_sieberiana",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -1493,9 +1930,9 @@
       "watering_guide": null,
       "light_guide": "Climate: subtropical",
       "tips": "Native to: SOA OO, NZN OO, HAW MI, WAU, NTA | Similar plants: Curio rowleyanus",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1513,10 +1950,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -1528,11 +1965,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Crassula sieberiana"
+      ],
       "en": [
+        "Crassula sieberiana",
         "Siberian pygmyweed"
+      ],
+      "es": [
+        "Crassula sieberiana"
+      ],
+      "fr": [
+        "Crassula sieberiana"
+      ],
+      "it": [
+        "Crassula sieberiana"
+      ],
+      "nl": [
+        "Crassula sieberiana"
+      ],
+      "pl": [
+        "Crassula sieberiana"
+      ],
+      "pt": [
+        "Crassula sieberiana"
+      ],
+      "ru": [
+        "Crassula sieberiana"
+      ],
+      "tr": [
+        "Crassula sieberiana"
       ]
     },
     "tags": [],
@@ -1560,17 +2027,17 @@
     "synonyms": "[\"Tillaea procumbens\", \"Mesanchum connatum\", \"Crassula muscosa\", \"Sedum tillaei\", \"Tillaea muscosa\"]",
     "care": {
       "plant_id": "crassula_tillaea",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -1591,9 +2058,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": "Native to: BGM BE, MOR SP, IRE NI, BUL OO, NORTHERN EUROPE | Similar plants: Curio rowleyanus",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1611,10 +2078,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -1626,11 +2093,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Moos-Dickblatt"
+      ],
       "en": [
+        "Crassula tillaea",
         "Mossy-stonecrop"
+      ],
+      "es": [
+        "Crassula tillaea"
+      ],
+      "fr": [
+        "Crassula tillaea"
+      ],
+      "it": [
+        "Crassula tillaea"
+      ],
+      "nl": [
+        "Mosbloempje"
+      ],
+      "pl": [
+        "Crassula tillaea"
+      ],
+      "pt": [
+        "Crassula tillaea"
+      ],
+      "ru": [
+        "Crassula tillaea"
+      ],
+      "tr": [
+        "Crassula tillaea"
       ]
     },
     "tags": [],
@@ -1658,7 +2155,7 @@
     "synonyms": "[\"Elatine aetolica\", \"Bulliarda vaillantii var. subulata\", \"Tillaea vaillantii\", \"Bulliarda pedunculata\", \"Tillaea pedunculata\", \"Hydrophila vaillantii\", \"Tillaeastrum vaillantii\", \"Bulliarda rosea\", \"Bulliarda vaillantii\"]",
     "care": {
       "plant_id": "crassula_vaillantii",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -1724,11 +2221,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كرسول فايان"
+      ],
+      "de": [
+        "Crassula vaillantii"
+      ],
       "en": [
+        "Crassula vaillantii",
         "Southern water-stonecrop"
+      ],
+      "es": [
+        "Crassula vaillantii"
+      ],
+      "fr": [
+        "Crassula vaillantii"
+      ],
+      "it": [
+        "Crassula vaillantii"
+      ],
+      "nl": [
+        "Crassula vaillantii"
+      ],
+      "pl": [
+        "Crassula vaillantii"
+      ],
+      "pt": [
+        "Crassula vaillantii"
+      ],
+      "ru": [
+        "Crassula vaillantii"
+      ],
+      "tr": [
+        "Crassula vaillantii"
       ]
     },
     "tags": [],
@@ -1745,7 +2275,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/6e1e52822ffad5f405a70d740a15a67538e6ec0e",
-    "description": null,
+    "description": "Dudleya abramsii is a species complex of succulent plants native to California and parts of Baja California. There are numerous subspecies, some critically endangered, with varying habits and lifestyles, but most often characterized by a smaller size, yellow flowers, and an affinity for rocky habitats. The subspecies may be polyphyletic.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1822,11 +2352,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dudleya abramsii"
+      ],
       "en": [
-        "Abrams' liveforever"
+        "Abrams' liveforever",
+        "Dudleya abramsii"
+      ],
+      "es": [
+        "Dudleya abramsii"
+      ],
+      "fr": [
+        "Dudleya abramsii"
+      ],
+      "it": [
+        "Dudleya abramsii"
+      ],
+      "nl": [
+        "Dudleya abramsii"
+      ],
+      "pl": [
+        "Dudleya abramsii"
+      ],
+      "pt": [
+        "Dudleya abramsii"
+      ],
+      "ru": [
+        "Dudleya abramsii"
       ]
     },
     "tags": [],
@@ -1843,7 +2400,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Dudleya cymosa is a species complex of evergreen and deciduous succulent plants in the family Crassulaceae known by the common name: canyon liveforever. It is a loosely defined polyphyletic species with a diverse number of subspecies, varying highly in morphology, distribution, and habitat.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1885,9 +2442,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1905,10 +2462,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -1920,9 +2477,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dudleya cymosa"
+      ],
+      "en": [
+        "Dudleya cymosa"
+      ],
+      "es": [
+        "Dudleya cymosa"
+      ],
+      "fr": [
+        "Dudleya cymosa"
+      ],
+      "it": [
+        "Dudleya cymosa"
+      ],
+      "nl": [
+        "Dudleya cymosa"
+      ],
+      "pl": [
+        "Dudleya cymosa"
+      ],
+      "pt": [
+        "Dudleya cymosa"
+      ],
+      "ru": [
+        "Dudleya cymosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1937,7 +2524,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/2c878167e9d4a3440a4971b10a477111123b3513",
-    "description": null,
+    "description": "Dudleya edulis is a species of perennial, succulent flowering plant of the Crassulaceae, known by the common names fingertips, lady-fingers, mission lettuce, or simply the San Diego dudleya. The common name \"fingertips\" denotes the finger-like shape of the leaves; the specific epithet edulis refers to the Kumeyaay people's traditional foraging and consumption of the plant's young scapes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2014,11 +2601,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dudleya edulis"
+      ],
       "en": [
+        "Dudleya edulis",
         "Fingertips"
+      ],
+      "es": [
+        "Dudleya edulis"
+      ],
+      "fr": [
+        "Dudleya edulis"
+      ],
+      "it": [
+        "Dudleya edulis"
+      ],
+      "nl": [
+        "Dudleya edulis"
+      ],
+      "pl": [
+        "Dudleya edulis"
+      ],
+      "pt": [
+        "Dudleya edulis"
+      ],
+      "ru": [
+        "Dudleya edulis"
       ]
     },
     "tags": [],
@@ -2035,7 +2649,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/6c872199ab2ddcae9f480f374d9a4e746b2c1d37",
-    "description": null,
+    "description": "Dudleya farinosa is a species of succulent plant in the family Crassulaceae known by several common names, including bluff lettuce, powdery liveforever, and powdery dudleya. A coastal plant of northern California and southern Oregon, it is typically found on ocean bluffs just directly above the reach of the waves, and sometimes inland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2112,11 +2726,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dudleya farinosa"
+      ],
       "en": [
+        "Dudleya farinosa",
         "Powdery liveforever"
+      ],
+      "es": [
+        "Dudleya farinosa"
+      ],
+      "fr": [
+        "Dudleya farinosa"
+      ],
+      "it": [
+        "Dudleya farinosa"
+      ],
+      "nl": [
+        "Dudleya farinosa"
+      ],
+      "pl": [
+        "Dudleya farinosa"
+      ],
+      "pt": [
+        "Dudleya farinosa"
+      ],
+      "ru": [
+        "Dudleya farinosa"
       ]
     },
     "tags": [],
@@ -2133,7 +2774,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/a06b9a1073bdc3ace1a243603ca58f7f54914bd4",
-    "description": null,
+    "description": "Dudleya lanceolata is a succulent plant known by the common name lanceleaf liveforever or lance-leaved dudleya. It is an extremely variable and widely ranging species that occurs from Monterey County and Kern County in California south through Ensenada in Baja California. It is characterized by green to purple lanceolate leaves, red, orange, or less commonly yellow petals, and is typically tetraploid.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2175,9 +2816,9 @@
       "watering_guide": null,
       "light_guide": "Climate: subtropical",
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2195,10 +2836,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -2210,11 +2851,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dudleya lanceolata"
+      ],
       "en": [
+        "Dudleya lanceolata",
         "Lanceleaf liveforever"
+      ],
+      "es": [
+        "Dudleya lanceolata"
+      ],
+      "fr": [
+        "Dudleya lanceolata"
+      ],
+      "it": [
+        "Dudleya lanceolata"
+      ],
+      "nl": [
+        "Dudleya lanceolata"
+      ],
+      "pl": [
+        "Dudleya lanceolata"
+      ],
+      "pt": [
+        "Dudleya lanceolata"
+      ],
+      "ru": [
+        "Dudleya lanceolata"
       ]
     },
     "tags": [],
@@ -2231,7 +2899,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/a6945b66b15577ae3affa9417b78a01128144f10",
-    "description": null,
+    "description": "Dudleya pulverulenta is a species of perennial succulent plant known by the common names chalk lettuce, chalk dudleya, and chalk liveforever. It is one of the largest Dudleya, with a silvery, waxy rosette that may greatly contrast with its habitat.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2273,9 +2941,9 @@
       "watering_guide": null,
       "light_guide": "Climate: desert or dry shrubland",
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2293,10 +2961,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -2308,11 +2976,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dudleya pulverulenta"
+      ],
       "en": [
-        "Chalk dudleya"
+        "Chalk dudleya",
+        "Dudleya pulverulenta"
+      ],
+      "es": [
+        "Dudleya pulverulenta"
+      ],
+      "fr": [
+        "Dudleya pulverulenta"
+      ],
+      "it": [
+        "Dudleya pulverulenta"
+      ],
+      "nl": [
+        "Dudleya pulverulenta"
+      ],
+      "pl": [
+        "Dudleya pulverulenta"
+      ],
+      "pt": [
+        "Dudleya pulverulenta"
+      ],
+      "ru": [
+        "Dudleya pulverulenta"
+      ],
+      "zh": [
+        "雪山仙女杯"
       ]
     },
     "tags": [],
@@ -2329,7 +3027,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Dudleya saxosa is a perennial succulent plant species in the family Crassulaceae, within the genus Dudleya, which are commonly known as liveforevers. This species is a complex of 3 subspecies of plants, isolated and disjunct in distribution from one another, each with varying levels of ploidy and morphology. One plant is native throughout the deserts and mountains of Southern California, another is found in the Panamint Mountains, and one is found throughout central Arizona.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2406,9 +3104,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dudleya saxosa"
+      ],
+      "en": [
+        "Dudleya saxosa"
+      ],
+      "es": [
+        "Dudleya saxosa"
+      ],
+      "fr": [
+        "Dudleya saxosa"
+      ],
+      "it": [
+        "Dudleya saxosa"
+      ],
+      "nl": [
+        "Dudleya saxosa"
+      ],
+      "pl": [
+        "Dudleya saxosa"
+      ],
+      "pt": [
+        "Dudleya saxosa"
+      ],
+      "ru": [
+        "Dudleya saxosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2434,17 +3162,17 @@
     "synonyms": "[\"Echeveria perelegans\"]",
     "care": {
       "plant_id": "echeveria_elegans",
-      "water_frequency": "Every 10-14 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": "Once a month or less",
       "water_demand": "",
       "start_pct": 0,
       "stop_pct": 0,
-      "light_preferred": "Bright direct to indirect light",
-      "light_also_ok": "Part shade (stretches)",
-      "ppfd_min": 250,
-      "ppfd_max": 700,
-      "dli_min": 8.0,
-      "dli_max": 22.0,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 800,
+      "dli_min": 12.0,
+      "dli_max": 25.0,
       "temp_min_c": 15,
       "temp_max_c": 27,
       "humidity_level": "Low (30-40%)",
@@ -2478,7 +3206,7 @@
         "Vine weevil",
         "Aphids (on flower stalks)"
       ],
-      "watering_method": null,
+      "watering_method": "Top layer should be dry",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -2508,17 +3236,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
         "إشفيرية أنيقة",
         "ساق العروس"
       ],
+      "de": [
+        "Echeveria elegans"
+      ],
       "en": [
         "Echeveria",
+        "Echeveria elegans",
         "Mexican Snowball",
         "Mexican snow ball"
+      ],
+      "es": [
+        "Echeveria elegans"
+      ],
+      "fr": [
+        "Echeveria elegans"
+      ],
+      "it": [
+        "Echeveria elegans"
+      ],
+      "nl": [
+        "Echeveria elegans"
+      ],
+      "pl": [
+        "Echeveria elegans"
+      ],
+      "pt": [
+        "Echeveria elegans"
       ],
       "ru": [
         "Эхеверия изящная"
@@ -2545,8 +3297,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Hylotelephium_anacampseros_iNaturalist_photo_416186083.jpg",
+    "description": "Hylotelephium anacampseros, the love-restoring stonecrop, is a species of flowering plants in the family Crassulaceae. This perennial plant grows on sunny rocky terrains, in mountains of southwestern Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2557,17 +3309,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "hylotelephium_anacampseros",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -2588,9 +3340,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2608,10 +3360,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -2623,9 +3375,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hylotelephium anacampseros"
+      ],
+      "en": [
+        "Hylotelephium anacampseros"
+      ],
+      "es": [
+        "Hylotelephium anacampseros"
+      ],
+      "fr": [
+        "Hylotelephium anacampseros"
+      ],
+      "it": [
+        "Hylotelephium anacampseros"
+      ],
+      "nl": [
+        "Hylotelephium anacampseros"
+      ],
+      "pl": [
+        "Hylotelephium anacampseros"
+      ],
+      "pt": [
+        "Hylotelephium anacampseros"
+      ],
+      "ru": [
+        "Hylotelephium anacampseros"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2640,7 +3422,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/55443e66e43fa6f0e49cc9059694b1c6.jpg",
-    "description": null,
+    "description": "Hylotelephium ewersii, the pink Mongolian stonecrop or pink sedum, is a species of flowering plant in the family Crassulaceae. It is native to the high mountains of Asia, including the Altai, Tian Shan, and western Himalayas, and it has been introduced elsewhere, particularly to Scandinavia. A deciduous perennial reaching 15 cm (6 in), it is typically found in forests or in rocky crevices in ravines at elevations from 1,800 to 2,500 m.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2717,9 +3499,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ewers-Fetthenne"
+      ],
+      "en": [
+        "Hylotelephium ewersii"
+      ],
+      "es": [
+        "Hylotelephium ewersii"
+      ],
+      "fr": [
+        "Hylotelephium ewersii"
+      ],
+      "it": [
+        "Hylotelephium ewersii"
+      ],
+      "nl": [
+        "Hylotelephium ewersii"
+      ],
+      "pl": [
+        "Rozchodnikowiec Ewersa"
+      ],
+      "pt": [
+        "Hylotelephium ewersii"
+      ],
+      "ru": [
+        "Hylotelephium ewersii"
+      ],
+      "zh": [
+        "圆叶八宝"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2750,12 +3565,12 @@
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -2776,9 +3591,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2796,10 +3611,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -2811,9 +3626,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hylotelephium maximum"
+      ],
+      "en": [
+        "Hylotelephium maximum"
+      ],
+      "es": [
+        "Hylotelephium maximum"
+      ],
+      "fr": [
+        "Hylotelephium maximum"
+      ],
+      "it": [
+        "Hylotelephium maximum"
+      ],
+      "nl": [
+        "Hylotelephium maximum"
+      ],
+      "pl": [
+        "Hylotelephium maximum"
+      ],
+      "pt": [
+        "Hylotelephium maximum"
+      ],
+      "ru": [
+        "Hylotelephium maximum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2909,11 +3754,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "حي العالم الجليل"
+      ],
+      "de": [
+        "Prächtige Fetthenne"
+      ],
       "en": [
+        "Hylotelephium spectabile",
         "Iceplant"
+      ],
+      "es": [
+        "Hylotelephium spectabile"
+      ],
+      "fr": [
+        "Sédum remarquable"
+      ],
+      "it": [
+        "Hylotelephium spectabile"
+      ],
+      "ja": [
+        "オオベンケイソウ"
+      ],
+      "ko": [
+        "큰꿩의비름"
+      ],
+      "nl": [
+        "roze hemelsleutel"
+      ],
+      "pl": [
+        "Rozchodnikowiec okazały"
+      ],
+      "pt": [
+        "Hylotelephium spectabile"
+      ],
+      "ru": [
+        "Очитник видный"
+      ],
+      "zh": [
+        "长药八宝"
       ]
     },
     "tags": [],
@@ -2946,12 +3830,12 @@
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -2972,9 +3856,9 @@
       "watering_guide": "Propagation: Division",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Achillea tomentosa",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": [
         "May develop fungal and bacterial crown rot and root rot.",
         "Deer sometimes browse the foliage."
@@ -2997,10 +3881,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Ascending",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": "[\"During the Roman Empire\", \"a naturalist known as Pliny prescribed Purple Orpine for treating wounds.\"]",
       "used_for_details": "During the Roman Empire, a naturalist known as Pliny prescribed Purple Orpine for treating wounds.",
       "edible_parts": null,
@@ -3012,9 +3896,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.6
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سرغينة"
+      ],
+      "de": [
+        "Große Fetthenne"
+      ],
+      "en": [
+        "Hylotelephium telephium"
+      ],
+      "es": [
+        "Sedum telephium"
+      ],
+      "fr": [
+        "Hylotelephium telephium"
+      ],
+      "it": [
+        "Sedum telephium"
+      ],
+      "nl": [
+        "Hemelsleutel"
+      ],
+      "pl": [
+        "Rozchodnik karpacki"
+      ],
+      "pt": [
+        "Hylotelephium telephium"
+      ],
+      "ru": [
+        "Очитник обыкновенный"
+      ],
+      "zh": [
+        "紫八宝"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3106,11 +4026,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أذن"
+      ],
+      "de": [
+        "Kalanchoe crenata"
+      ],
       "en": [
+        "Kalanchoe crenata",
         "Neverdie"
+      ],
+      "es": [
+        "Kalanchoe crenata"
+      ],
+      "fr": [
+        "Kalanchoe crenata"
+      ],
+      "it": [
+        "Kalanchoe crenata"
+      ],
+      "nl": [
+        "Kalanchoe crenata"
+      ],
+      "pl": [
+        "Kalanchoe crenata"
+      ],
+      "pt": [
+        "Kalanchoe crenata"
+      ],
+      "ru": [
+        "Kalanchoe crenata"
+      ],
+      "zh": [
+        "圆齿伽蓝菜"
       ]
     },
     "tags": [],
@@ -3127,7 +4080,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/9ca8df7cbb370d7b07052ec07695814a.jpg",
-    "description": "Fruits dry, indehiscent, papery follicles with numerous seeds.",
+    "description": "Kalanchoe delagoensis, formerly known as Bryophyllum delagoense and commonly called mother of millions or chandelier plant, is a succulent plant native to Madagascar. Like other members of Bryophyllum, it is able to propagate vegetatively from plantlets that develop on its leaf margins.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3169,9 +4122,9 @@
       "watering_guide": "Propagation: Leaf Cutting",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: desert or dry shrubland",
       "tips": "Similar plants: Euphorbia",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3189,10 +4142,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -3204,9 +4157,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بريوفيليوم ديلاغوينس"
+      ],
+      "de": [
+        "Kalanchoe delagoensis"
+      ],
+      "en": [
+        "Kalanchoe delagoensis"
+      ],
+      "es": [
+        "Kalanchoe delagoensis"
+      ],
+      "fr": [
+        "Kalanchoe delagoensis"
+      ],
+      "it": [
+        "Kalanchoe delagoensis"
+      ],
+      "ja": [
+        "キンチョウ"
+      ],
+      "nl": [
+        "Kalanchoe delagoensis"
+      ],
+      "pl": [
+        "Kalanchoe delagoensis"
+      ],
+      "pt": [
+        "Kalanchoe delagoensis"
+      ],
+      "ru": [
+        "Kalanchoe delagoensis"
+      ],
+      "zh": [
+        "洋吊钟"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3263,9 +4255,9 @@
       "watering_guide": null,
       "light_guide": "Climate: seasonally dry tropical",
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3283,10 +4275,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -3298,9 +4290,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كالانشو بيناتا"
+      ],
+      "de": [
+        "Kalanchoe pinnata"
+      ],
+      "en": [
+        "Kalanchoe pinnata"
+      ],
+      "es": [
+        "Kalanchoe pinnata"
+      ],
+      "fr": [
+        "Kalanchoe pinnata"
+      ],
+      "hi": [
+        "पथरचटा"
+      ],
+      "it": [
+        "Kalanchoe pinnata"
+      ],
+      "ja": [
+        "セイロンベンケイ"
+      ],
+      "nl": [
+        "Kalanchoe pinnata"
+      ],
+      "pl": [
+        "Żyworódka pierzasta"
+      ],
+      "pt": [
+        "Kalanchoe pinnata"
+      ],
+      "ru": [
+        "Каланхоэ перистое"
+      ],
+      "zh": [
+        "落地生根"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3357,9 +4391,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3377,10 +4411,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Cascading",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "Stems and leaves can be eaten, but when ingested in large quantities, can cause stomach upset.",
@@ -3392,9 +4426,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Petrosedum amplexicaule"
+      ],
+      "en": [
+        "Petrosedum amplexicaule"
+      ],
+      "es": [
+        "Petrosedum amplexicaule"
+      ],
+      "fr": [
+        "Petrosedum amplexicaule"
+      ],
+      "it": [
+        "Petrosedum amplexicaule"
+      ],
+      "nl": [
+        "Petrosedum amplexicaule"
+      ],
+      "pl": [
+        "Petrosedum amplexicaule"
+      ],
+      "pt": [
+        "Petrosedum amplexicaule"
+      ],
+      "ru": [
+        "Petrosedum amplexicaule"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3451,9 +4515,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3471,10 +4535,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Cascading",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "Stems and leaves can be eaten, but when ingested in large quantities, can cause stomach upset.",
@@ -3486,9 +4550,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Petrosedum forsterianum"
+      ],
+      "en": [
+        "Petrosedum forsterianum"
+      ],
+      "es": [
+        "Petrosedum forsterianum"
+      ],
+      "fr": [
+        "Petrosedum forsterianum"
+      ],
+      "it": [
+        "Petrosedum forsterianum"
+      ],
+      "nl": [
+        "Petrosedum forsterianum"
+      ],
+      "pl": [
+        "Petrosedum forsterianum"
+      ],
+      "pt": [
+        "Petrosedum forsterianum"
+      ],
+      "ru": [
+        "Petrosedum forsterianum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3545,9 +4639,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3565,10 +4659,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -3580,9 +4674,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Petrosedum montanum"
+      ],
+      "en": [
+        "Petrosedum montanum"
+      ],
+      "es": [
+        "Petrosedum montanum"
+      ],
+      "fr": [
+        "Petrosedum montanum"
+      ],
+      "it": [
+        "Petrosedum montanum"
+      ],
+      "nl": [
+        "Petrosedum montanum"
+      ],
+      "pl": [
+        "Petrosedum montanum"
+      ],
+      "pt": [
+        "Petrosedum montanum"
+      ],
+      "ru": [
+        "Petrosedum montanum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3596,8 +4720,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sedum_ochroleucum.JPG",
+    "description": "Petrosedum ochroleucum, the European stonecrop, is a species of plant in the family Crassulaceae native to Europe and Turkey.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3639,9 +4763,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3659,10 +4783,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -3674,9 +4798,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Petrosedum ochroleucum"
+      ],
+      "en": [
+        "Petrosedum ochroleucum"
+      ],
+      "es": [
+        "Petrosedum ochroleucum"
+      ],
+      "fr": [
+        "Petrosedum ochroleucum"
+      ],
+      "it": [
+        "Petrosedum ochroleucum"
+      ],
+      "nl": [
+        "Petrosedum ochroleucum"
+      ],
+      "pl": [
+        "Petrosedum ochroleucum"
+      ],
+      "pt": [
+        "Petrosedum ochroleucum"
+      ],
+      "ru": [
+        "Petrosedum ochroleucum"
+      ],
+      "tr": [
+        "Petrosedum ochroleucum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3702,7 +4859,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "petrosedum_rupestre",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -3733,9 +4890,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3753,10 +4910,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Cascading",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "Stems and leaves can be eaten, but when ingested in large quantities, can cause stomach upset.",
@@ -3768,9 +4925,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Felsen-Fetthenne"
+      ],
+      "en": [
+        "Petrosedum rupestre"
+      ],
+      "es": [
+        "Petrosedum rupestre"
+      ],
+      "fr": [
+        "Petrosedum rupestre"
+      ],
+      "it": [
+        "Petrosedum rupestre"
+      ],
+      "nl": [
+        "Petrosedum rupestre"
+      ],
+      "pl": [
+        "Petrosedum rupestre"
+      ],
+      "pt": [
+        "Petrosedum rupestre"
+      ],
+      "ru": [
+        "Petrosedum rupestre"
+      ],
+      "zh": [
+        "反曲景天"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3827,9 +5017,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3847,10 +5037,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Cascading",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "Stems and leaves can be eaten, but when ingested in large quantities, can cause stomach upset.",
@@ -3862,9 +5052,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Petrosedum sediforme"
+      ],
+      "en": [
+        "Petrosedum sediforme"
+      ],
+      "es": [
+        "Petrosedum sediforme"
+      ],
+      "fr": [
+        "Petrosedum sediforme"
+      ],
+      "it": [
+        "Petrosedum sediforme"
+      ],
+      "nl": [
+        "Petrosedum sediforme"
+      ],
+      "pl": [
+        "Petrosedum sediforme"
+      ],
+      "pt": [
+        "Petrosedum sediforme"
+      ],
+      "ru": [
+        "Petrosedum sediforme"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3879,7 +5099,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/66ac18d808376c27b6d861730e1355c5.jpg",
-    "description": "Russet red friut",
+    "description": "Phedimus aizoon is a species of succulent herbaceous perennial plant in the family Crassulaceae. It is native to China, the Russian Far East, Korea, Japan, Mongolia, and Kazakhstan, where it grows on rugged terrain. It is commonly used as an ornamental plant, but is also edible.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3921,9 +5141,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium sieboldii",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3941,10 +5161,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -3956,9 +5176,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phedimus aizoon"
+      ],
+      "en": [
+        "Phedimus aizoon"
+      ],
+      "es": [
+        "Phedimus aizoon"
+      ],
+      "fr": [
+        "Phedimus aizoon"
+      ],
+      "it": [
+        "Phedimus aizoon"
+      ],
+      "ja": [
+        "ホソバノキリンソウ"
+      ],
+      "nl": [
+        "Phedimus aizoon"
+      ],
+      "pl": [
+        "Phedimus aizoon"
+      ],
+      "pt": [
+        "Phedimus aizoon"
+      ],
+      "ru": [
+        "Phedimus aizoon"
+      ],
+      "zh": [
+        "费菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4015,9 +5271,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -4035,10 +5291,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -4050,9 +5306,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phedimus hybridus"
+      ],
+      "en": [
+        "Phedimus hybridus"
+      ],
+      "es": [
+        "Phedimus hybridus"
+      ],
+      "fr": [
+        "Phedimus hybridus"
+      ],
+      "it": [
+        "Phedimus hybridus"
+      ],
+      "nl": [
+        "kruipend vetkruid"
+      ],
+      "pl": [
+        "Phedimus hybridus"
+      ],
+      "pt": [
+        "Phedimus hybridus"
+      ],
+      "ru": [
+        "Phedimus hybridus"
+      ],
+      "zh": [
+        "杂交费菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4109,9 +5398,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium sieboldii",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -4129,10 +5418,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -4144,9 +5433,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phedimus kamtschaticus"
+      ],
+      "en": [
+        "Phedimus kamtschaticus"
+      ],
+      "es": [
+        "Phedimus kamtschaticus"
+      ],
+      "fr": [
+        "Phedimus kamtschaticus"
+      ],
+      "it": [
+        "Phedimus kamtschaticus"
+      ],
+      "ko": [
+        "기린초"
+      ],
+      "nl": [
+        "Kamtsjatka-vetkruid"
+      ],
+      "pl": [
+        "Phedimus kamtschaticus"
+      ],
+      "pt": [
+        "Phedimus kamtschaticus"
+      ],
+      "ru": [
+        "Phedimus kamtschaticus"
+      ],
+      "zh": [
+        "堪察加费菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4172,7 +5497,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "phedimus_spurius",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -4203,9 +5528,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Partial Shade (Direct sunlight only part of the day, 2-6 hours)",
       "tips": "Similar plants: Hylotelephium cauticola",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -4223,10 +5548,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "Stems and leaves, when very young and tender, may be eaten raw. Later, until they flower, they may be briefly cooked.",
@@ -4238,9 +5563,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Kaukasus-Asienfetthenne"
+      ],
+      "en": [
+        "Phedimus spurius"
+      ],
+      "es": [
+        "Sedum spurium"
+      ],
+      "fr": [
+        "Phedimus spurius"
+      ],
+      "it": [
+        "Sedum spurium"
+      ],
+      "nl": [
+        "roze vetkruid"
+      ],
+      "pl": [
+        "Rozchodnik kaukaski"
+      ],
+      "pt": [
+        "Phedimus spurius"
+      ],
+      "ru": [
+        "Федимус ложный"
+      ],
+      "tr": [
+        "Al pisikulağı"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4255,7 +5613,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/58e9b8002994dcb8ff7f0d3a31ed48ec.jpg",
-    "description": "Russet red friut",
+    "description": "Phedimus stellatus is a species of plant in the family Crassulaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4332,9 +5690,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phedimus stellatus"
+      ],
+      "en": [
+        "Phedimus stellatus"
+      ],
+      "es": [
+        "Phedimus stellatus"
+      ],
+      "fr": [
+        "Phedimus stellatus"
+      ],
+      "it": [
+        "Phedimus stellatus"
+      ],
+      "nl": [
+        "Phedimus stellatus"
+      ],
+      "pl": [
+        "Phedimus stellatus"
+      ],
+      "pt": [
+        "Phedimus stellatus"
+      ],
+      "ru": [
+        "Phedimus stellatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4360,7 +5748,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pistorinia_hispanica",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -4426,9 +5814,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pistorinia hispanica"
+      ],
+      "en": [
+        "Pistorinia hispanica"
+      ],
+      "es": [
+        "Pistorinia hispanica"
+      ],
+      "fr": [
+        "Pistorinia hispanica"
+      ],
+      "it": [
+        "Pistorinia hispanica"
+      ],
+      "nl": [
+        "Pistorinia hispanica"
+      ],
+      "pl": [
+        "Pistorinia hispanica"
+      ],
+      "pt": [
+        "Pistorinia hispanica"
+      ],
+      "ru": [
+        "Pistorinia hispanica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4454,17 +5872,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhodiola_integrifolia",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -4485,9 +5903,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -4505,10 +5923,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -4520,11 +5938,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "de": [
+        "Rhodiola integrifolia"
+      ],
       "en": [
-        "King's-crown"
+        "King's-crown",
+        "Rhodiola integrifolia"
+      ],
+      "es": [
+        "Rhodiola integrifolia"
+      ],
+      "fr": [
+        "Rhodiola integrifolia"
+      ],
+      "it": [
+        "Rhodiola integrifolia"
+      ],
+      "nl": [
+        "Rhodiola integrifolia"
+      ],
+      "pl": [
+        "Rhodiola integrifolia"
+      ],
+      "pt": [
+        "Rhodiola integrifolia"
+      ],
+      "ru": [
+        "Rhodiola integrifolia"
       ]
     },
     "tags": [],
@@ -4541,7 +5986,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/357e44ca4bd038438cc8fd601e9f541a8bc7cfb0",
-    "description": null,
+    "description": "Rhodiola rhodantha, common name redpod stonecrop or queen's crown, is a perennial flowering plant in the family Crassulaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4552,7 +5997,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhodiola_rhodantha",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -4618,11 +6063,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Rhodiola rhodantha"
+      ],
       "en": [
-        "Red orpine"
+        "Red orpine",
+        "Rhodiola rhodantha"
+      ],
+      "es": [
+        "Rhodiola rhodantha"
+      ],
+      "fr": [
+        "Rhodiola rhodantha"
+      ],
+      "it": [
+        "Rhodiola rhodantha"
+      ],
+      "nl": [
+        "Rhodiola rhodantha"
+      ],
+      "pl": [
+        "Rhodiola rhodantha"
+      ],
+      "pt": [
+        "Rhodiola rhodantha"
+      ],
+      "ru": [
+        "Rhodiola rhodantha"
       ]
     },
     "tags": [],
@@ -4650,17 +6122,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhodiola_rosea",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -4681,9 +6153,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -4701,10 +6173,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -4716,9 +6188,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rosenwurz"
+      ],
+      "en": [
+        "Rhodiola rosea"
+      ],
+      "es": [
+        "Rhodiola rosea"
+      ],
+      "fr": [
+        "Rhodiola rosea"
+      ],
+      "hi": [
+        "रोडियोला रोजिया"
+      ],
+      "it": [
+        "Rhodiola rosea"
+      ],
+      "ja": [
+        "イワベンケイ"
+      ],
+      "ko": [
+        "돌꽃"
+      ],
+      "nl": [
+        "rozewortel"
+      ],
+      "pl": [
+        "różeniec górski"
+      ],
+      "pt": [
+        "Rhodiola rosea"
+      ],
+      "ru": [
+        "Родиола розовая"
+      ],
+      "zh": [
+        "蔷薇红景天"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4744,17 +6258,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_acre",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -4775,8 +6289,8 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium sieboldii",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
       "toxicity_note": "Non-toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses.",
       "common_problems": [
         "No serious diseases or insect problems, except for occasional slugs and snails.",
@@ -4801,8 +6315,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -4816,11 +6330,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "ar": [
+        "سدم لاذع"
+      ],
+      "de": [
+        "Scharfer Mauerpfeffer"
+      ],
       "en": [
-        "Biting stonecrop"
+        "Biting stonecrop",
+        "Sedum acre"
+      ],
+      "es": [
+        "Sedum acre"
+      ],
+      "fr": [
+        "Orpin âcre"
+      ],
+      "it": [
+        "Sedum acre"
+      ],
+      "ja": [
+        "オウシュウマンネングサ"
+      ],
+      "nl": [
+        "muurpeper"
+      ],
+      "pl": [
+        "Rozchodnik ostry"
+      ],
+      "pt": [
+        "Sedum acre"
+      ],
+      "ru": [
+        "Очиток едкий"
+      ],
+      "tr": [
+        "Acı damkoruğu"
+      ],
+      "zh": [
+        "苔景天"
       ]
     },
     "tags": [],
@@ -4848,17 +6401,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_album",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -4879,8 +6432,8 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Sedum acre",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
       "toxicity_note": "Non-toxic to Dogs, Non-Toxic to Cats.",
       "common_problems": null,
       "common_pests": null,
@@ -4899,8 +6452,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -4914,11 +6467,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.6
     },
     "common_names": {
+      "ar": [
+        "سدم أبيض"
+      ],
+      "de": [
+        "Weiße Fetthenne"
+      ],
       "en": [
+        "Sedum album",
         "White stonecrop"
+      ],
+      "es": [
+        "Sedum album"
+      ],
+      "fr": [
+        "Orpin blanc"
+      ],
+      "it": [
+        "Sedum album"
+      ],
+      "nl": [
+        "Sedum album"
+      ],
+      "pl": [
+        "Rozchodnik biały"
+      ],
+      "pt": [
+        "Sedum album"
+      ],
+      "ru": [
+        "Очиток белый"
+      ],
+      "tr": [
+        "Sedum album"
+      ],
+      "zh": [
+        "白景天"
       ]
     },
     "tags": [],
@@ -4946,17 +6535,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_alpestre",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -4977,9 +6566,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Fruit, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -4997,8 +6586,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -5012,11 +6601,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Alpen-Mauerpfeffer"
+      ],
       "en": [
-        "Alpine stonecrop"
+        "Alpine stonecrop",
+        "Sedum alpestre"
+      ],
+      "es": [
+        "Sedum alpestre"
+      ],
+      "fr": [
+        "Sedum alpestre"
+      ],
+      "it": [
+        "Sedum alpestre"
+      ],
+      "nl": [
+        "Sedum alpestre"
+      ],
+      "pl": [
+        "Rozchodnik alpejski"
+      ],
+      "pt": [
+        "Sedum alpestre"
+      ],
+      "ru": [
+        "Sedum alpestre"
+      ],
+      "tr": [
+        "Sedum alpestre"
       ]
     },
     "tags": [],
@@ -5044,7 +6663,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_andegavense",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -5110,9 +6729,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sedum andegavense"
+      ],
+      "en": [
+        "Sedum andegavense"
+      ],
+      "es": [
+        "Sedum andegavense"
+      ],
+      "fr": [
+        "Sedum andegavense"
+      ],
+      "it": [
+        "Sedum andegavense"
+      ],
+      "nl": [
+        "Sedum andegavense"
+      ],
+      "pl": [
+        "Sedum andegavense"
+      ],
+      "pt": [
+        "Sedum andegavense"
+      ],
+      "ru": [
+        "Sedum andegavense"
+      ],
+      "tr": [
+        "Sedum andegavense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5138,17 +6790,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_anglicum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -5169,9 +6821,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5189,10 +6841,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "The stems and leaves can be eaten raw when very young and tender.  Later, until they flower, they may be eaten after briefly cooking. Not poisonous, but when eaten in quantity, can cause stomach upset.",
@@ -5204,11 +6856,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "ar": [
+        "سدم إنكليزي"
+      ],
+      "de": [
+        "Englische Fetthenne"
+      ],
       "en": [
-        "English stonecrop"
+        "English stonecrop",
+        "Sedum anglicum"
+      ],
+      "es": [
+        "Sedum anglicum"
+      ],
+      "fr": [
+        "Sedum anglicum"
+      ],
+      "it": [
+        "Sedum anglicum"
+      ],
+      "nl": [
+        "Sedum anglicum"
+      ],
+      "pl": [
+        "Sedum anglicum"
+      ],
+      "pt": [
+        "Sedum anglicum"
+      ],
+      "ru": [
+        "Sedum anglicum"
+      ],
+      "tr": [
+        "Sedum anglicum"
       ]
     },
     "tags": [],
@@ -5241,12 +6926,12 @@
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -5267,9 +6952,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Fruit, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5287,8 +6972,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -5302,11 +6987,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.9
     },
     "common_names": {
+      "de": [
+        "Einjährige Fetthenne"
+      ],
       "en": [
-        "Annual stonecrop"
+        "Annual stonecrop",
+        "Sedum annuum"
+      ],
+      "es": [
+        "Sedum annuum"
+      ],
+      "fr": [
+        "Sedum annuum"
+      ],
+      "it": [
+        "Sedum annuum"
+      ],
+      "nl": [
+        "Sedum annuum"
+      ],
+      "pl": [
+        "Sedum annuum"
+      ],
+      "pt": [
+        "Sedum annuum"
+      ],
+      "ru": [
+        "Sedum annuum"
+      ],
+      "tr": [
+        "Sedum annuum"
       ]
     },
     "tags": [],
@@ -5334,7 +7049,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_arenarium",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -5365,9 +7080,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5385,10 +7100,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -5400,9 +7115,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sedum arenarium"
+      ],
+      "en": [
+        "Sedum arenarium"
+      ],
+      "es": [
+        "Sedum arenarium"
+      ],
+      "fr": [
+        "Sedum arenarium"
+      ],
+      "it": [
+        "Sedum arenarium"
+      ],
+      "nl": [
+        "Sedum arenarium"
+      ],
+      "pl": [
+        "Sedum arenarium"
+      ],
+      "pt": [
+        "Sedum arenarium"
+      ],
+      "ru": [
+        "Sedum arenarium"
+      ],
+      "tr": [
+        "Sedum arenarium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5428,17 +7176,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_atratum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -5459,9 +7207,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Fruit, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5479,8 +7227,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -5494,11 +7242,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.9
     },
     "common_names": {
+      "de": [
+        "Dunkler Mauerpfeffer"
+      ],
       "en": [
-        "Dunkler mauerpfeffer"
+        "Dunkler mauerpfeffer",
+        "Sedum atratum"
+      ],
+      "es": [
+        "Sedum atratum"
+      ],
+      "fr": [
+        "Sedum atratum"
+      ],
+      "it": [
+        "Sedum atratum"
+      ],
+      "nl": [
+        "Sedum atratum"
+      ],
+      "pl": [
+        "Rozchodnik czarniawy"
+      ],
+      "pt": [
+        "Sedum atratum"
+      ],
+      "ru": [
+        "Sedum atratum"
+      ],
+      "tr": [
+        "Sedum atratum"
       ]
     },
     "tags": [],
@@ -5526,17 +7304,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_brevifolium",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -5557,9 +7335,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5577,10 +7355,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "The stems and leaves can be eaten raw when very young and tender.  Later, until they flower, they may be eaten after briefly cooking. Not poisonous, but when eaten in quantity, can cause stomach upset.",
@@ -5592,9 +7370,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sedum brevifolium"
+      ],
+      "en": [
+        "Sedum brevifolium"
+      ],
+      "es": [
+        "Sedum brevifolium"
+      ],
+      "fr": [
+        "Sedum brevifolium"
+      ],
+      "it": [
+        "Sedum brevifolium"
+      ],
+      "nl": [
+        "Sedum brevifolium"
+      ],
+      "pl": [
+        "Sedum brevifolium"
+      ],
+      "pt": [
+        "Sedum brevifolium"
+      ],
+      "ru": [
+        "Sedum brevifolium"
+      ],
+      "tr": [
+        "Sedum brevifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5620,7 +7431,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_bulbiferum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -5686,9 +7497,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sedum bulbiferum"
+      ],
+      "en": [
+        "Sedum bulbiferum"
+      ],
+      "es": [
+        "Sedum bulbiferum"
+      ],
+      "fr": [
+        "Sedum bulbiferum"
+      ],
+      "it": [
+        "Sedum bulbiferum"
+      ],
+      "ja": [
+        "コモチマンネングサ"
+      ],
+      "nl": [
+        "Sedum bulbiferum"
+      ],
+      "pl": [
+        "Sedum bulbiferum"
+      ],
+      "pt": [
+        "Sedum bulbiferum"
+      ],
+      "ru": [
+        "Sedum bulbiferum"
+      ],
+      "tr": [
+        "Sedum bulbiferum"
+      ],
+      "zh": [
+        "珠芽景天"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5714,7 +7564,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_caeruleum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -5745,9 +7595,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5765,10 +7615,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "The stems and leaves can be eaten raw when very young and tender.  Later, until they flower, they may be eaten after briefly cooking. Not poisonous, but when eaten in quantity, can cause stomach upset.",
@@ -5780,11 +7630,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سدم أزرق"
+      ],
+      "de": [
+        "Sedum caeruleum"
+      ],
       "en": [
-        "Azure stonecrop"
+        "Azure stonecrop",
+        "Sedum caeruleum"
+      ],
+      "es": [
+        "Sedum caeruleum"
+      ],
+      "fr": [
+        "Sedum caeruleum"
+      ],
+      "it": [
+        "Sedum caeruleum"
+      ],
+      "nl": [
+        "Sedum caeruleum"
+      ],
+      "pl": [
+        "Rozchodnik błękitny"
+      ],
+      "pt": [
+        "Sedum caeruleum"
+      ],
+      "ru": [
+        "Sedum caeruleum"
+      ],
+      "tr": [
+        "Sedum caeruleum"
       ]
     },
     "tags": [],
@@ -5812,17 +7695,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_caespitosum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -5843,9 +7726,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5863,10 +7746,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "The stems and leaves can be eaten raw when very young and tender.  Later, until they flower, they may be eaten after briefly cooking. Not poisonous, but when eaten in quantity, can cause stomach upset.",
@@ -5878,9 +7761,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.7
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سدم رؤيسي"
+      ],
+      "de": [
+        "Sedum caespitosum"
+      ],
+      "en": [
+        "Sedum caespitosum"
+      ],
+      "es": [
+        "Sedum caespitosum"
+      ],
+      "fr": [
+        "Sedum caespitosum"
+      ],
+      "it": [
+        "Sedum caespitosum"
+      ],
+      "nl": [
+        "Sedum caespitosum"
+      ],
+      "pl": [
+        "Sedum caespitosum"
+      ],
+      "pt": [
+        "Sedum caespitosum"
+      ],
+      "ru": [
+        "Sedum caespitosum"
+      ],
+      "tr": [
+        "Sedum caespitosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5911,12 +7830,12 @@
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -5937,9 +7856,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Fruit, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5957,8 +7876,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -5972,11 +7891,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 4.3
     },
     "common_names": {
+      "ar": [
+        "سدم بصلي"
+      ],
+      "de": [
+        "Rispen-Fetthenne"
+      ],
       "en": [
-        "Pink stonecrop"
+        "Pink stonecrop",
+        "Sedum cepaea"
+      ],
+      "es": [
+        "Sedum cepaea"
+      ],
+      "fr": [
+        "Orpin pourpier"
+      ],
+      "it": [
+        "Sedum cepaea"
+      ],
+      "nl": [
+        "Sedum cepaea"
+      ],
+      "pl": [
+        "Sedum cepaea"
+      ],
+      "pt": [
+        "Sedum cepaea"
+      ],
+      "ru": [
+        "Sedum cepaea"
+      ],
+      "tr": [
+        "Sedum cepaea"
       ]
     },
     "tags": [],
@@ -6004,17 +7956,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_dasyphyllum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -6035,9 +7987,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Fruit, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6055,8 +8007,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -6070,11 +8022,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "de": [
+        "Buckel-Fetthenne"
+      ],
       "en": [
+        "Sedum dasyphyllum",
         "Thick-leaf stonecrop"
+      ],
+      "es": [
+        "Sedum dasyphyllum"
+      ],
+      "fr": [
+        "Sedum dasyphyllum"
+      ],
+      "it": [
+        "Sedum dasyphyllum"
+      ],
+      "nl": [
+        "Sedum dasyphyllum"
+      ],
+      "pl": [
+        "Sedum dasyphyllum"
+      ],
+      "pt": [
+        "Sedum dasyphyllum"
+      ],
+      "ru": [
+        "Sedum dasyphyllum"
+      ],
+      "tr": [
+        "Sedum dasyphyllum"
+      ],
+      "zh": [
+        "姬星美人"
       ]
     },
     "tags": [],
@@ -6102,7 +8087,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_divergens",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -6168,11 +8153,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sedum divergens"
+      ],
       "en": [
-        "Pacific stonecrop"
+        "Pacific stonecrop",
+        "Sedum divergens"
+      ],
+      "es": [
+        "Sedum divergens"
+      ],
+      "fr": [
+        "Sedum divergens"
+      ],
+      "it": [
+        "Sedum divergens"
+      ],
+      "nl": [
+        "Sedum divergens"
+      ],
+      "pl": [
+        "Sedum divergens"
+      ],
+      "pt": [
+        "Sedum divergens"
+      ],
+      "ru": [
+        "Sedum divergens"
+      ],
+      "tr": [
+        "Sedum divergens"
       ]
     },
     "tags": [],
@@ -6200,17 +8215,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_hirsutum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -6231,9 +8246,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6251,10 +8266,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "The stems and leaves can be eaten raw when very young and tender.  Later, until they flower, they may be eaten after briefly cooking. Not poisonous, but when eaten in quantity, can cause stomach upset.",
@@ -6266,9 +8281,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 7.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sedum hirsutum"
+      ],
+      "en": [
+        "Sedum hirsutum"
+      ],
+      "es": [
+        "Sedum hirsutum"
+      ],
+      "fr": [
+        "Sedum hirsutum"
+      ],
+      "it": [
+        "Sedum hirsutum"
+      ],
+      "nl": [
+        "Sedum hirsutum"
+      ],
+      "pl": [
+        "Sedum hirsutum"
+      ],
+      "pt": [
+        "Sedum hirsutum"
+      ],
+      "ru": [
+        "Sedum hirsutum"
+      ],
+      "tr": [
+        "Sedum hirsutum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6294,17 +8342,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_hispanicum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -6325,9 +8373,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Fruit, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6345,8 +8393,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -6360,11 +8408,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.6
     },
     "common_names": {
+      "ar": [
+        "سدم إسباني"
+      ],
+      "de": [
+        "Spanischer Mauerpfeffer"
+      ],
       "en": [
+        "Sedum hispanicum",
         "Spanish stonecrop"
+      ],
+      "es": [
+        "Sedum hispanicum"
+      ],
+      "fr": [
+        "Sedum hispanicum"
+      ],
+      "it": [
+        "Sedum hispanicum"
+      ],
+      "nl": [
+        "Sedum hispanicum"
+      ],
+      "pl": [
+        "Rozchodnik siny"
+      ],
+      "pt": [
+        "Sedum hispanicum"
+      ],
+      "ru": [
+        "Sedum hispanicum"
+      ],
+      "tr": [
+        "Sedum hispanicum"
+      ],
+      "zh": [
+        "薄雪万年草"
       ]
     },
     "tags": [],
@@ -6392,7 +8476,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_japonicum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -6458,9 +8542,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sedum japonicum"
+      ],
+      "en": [
+        "Sedum japonicum"
+      ],
+      "es": [
+        "Sedum japonicum"
+      ],
+      "fr": [
+        "Sedum japonicum"
+      ],
+      "it": [
+        "Sedum japonicum"
+      ],
+      "nl": [
+        "Sedum japonicum"
+      ],
+      "pl": [
+        "Sedum japonicum"
+      ],
+      "pt": [
+        "Sedum japonicum"
+      ],
+      "ru": [
+        "Sedum japonicum"
+      ],
+      "tr": [
+        "Sedum japonicum"
+      ],
+      "zh": [
+        "日本景天"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6486,17 +8606,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_lanceolatum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -6517,9 +8637,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6537,10 +8657,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "The stems and leaves can be eaten raw when very young and tender.  Later, until they flower, they may be eaten after briefly cooking. Not poisonous, but when eaten in quantity, can cause stomach upset.",
@@ -6552,11 +8672,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Sedum lanceolatum"
+      ],
       "en": [
+        "Sedum lanceolatum",
         "Spearleaf stonecrop"
+      ],
+      "es": [
+        "Sedum lanceolatum"
+      ],
+      "fr": [
+        "Sedum lanceolatum"
+      ],
+      "it": [
+        "Sedum lanceolatum"
+      ],
+      "nl": [
+        "Sedum lanceolatum"
+      ],
+      "pl": [
+        "Sedum lanceolatum"
+      ],
+      "pt": [
+        "Sedum lanceolatum"
+      ],
+      "ru": [
+        "Sedum lanceolatum"
+      ],
+      "tr": [
+        "Sedum lanceolatum"
       ]
     },
     "tags": [],
@@ -6584,7 +8734,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_litoreum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -6650,11 +8800,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سدم ساحلي"
+      ],
+      "de": [
+        "Sedum litoreum"
+      ],
       "en": [
+        "Sedum litoreum",
         "Shore stonecrop"
+      ],
+      "es": [
+        "Sedum litoreum"
+      ],
+      "fr": [
+        "Sedum litoreum"
+      ],
+      "it": [
+        "Sedum litoreum"
+      ],
+      "nl": [
+        "Sedum litoreum"
+      ],
+      "pl": [
+        "Sedum litoreum"
+      ],
+      "pt": [
+        "Sedum litoreum"
+      ],
+      "ru": [
+        "Sedum litoreum"
+      ],
+      "tr": [
+        "Sedum litoreum"
       ]
     },
     "tags": [],
@@ -6682,7 +8865,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_morganianum",
-      "water_frequency": "Every 2-3 weeks, let dry between waterings",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": "Once a month",
       "water_demand": "",
       "start_pct": 0,
@@ -6725,7 +8908,7 @@
         "Mealybugs",
         "Aphids"
       ],
-      "watering_method": null,
+      "watering_method": "Top layer should be dry",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -6755,11 +8938,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Schlangen-Fetthenne"
+      ],
       "en": [
-        "Burro's Tail"
+        "Burro Tail",
+        "Burro's Tail",
+        "Donkey Tail",
+        "burro's tail"
+      ],
+      "es": [
+        "Borrego"
+      ],
+      "fr": [
+        "Orpin de Morgan"
+      ],
+      "ja": [
+        "タマツヅリ"
+      ],
+      "ko": [
+        "옥주염"
+      ],
+      "pl": [
+        "Rozchodnik Morgana"
+      ],
+      "pt": [
+        "Arroz-de-Rato"
+      ],
+      "ru": [
+        "Очиток Моргана"
+      ],
+      "zh": [
+        "玉串",
+        "玉珠帘"
       ]
     },
     "tags": [
@@ -6790,7 +9006,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_mucizonia",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -6856,9 +9072,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sedum mucizonia"
+      ],
+      "en": [
+        "Sedum mucizonia"
+      ],
+      "es": [
+        "Sedum mucizonia"
+      ],
+      "fr": [
+        "Sedum mucizonia"
+      ],
+      "it": [
+        "Sedum mucizonia"
+      ],
+      "nl": [
+        "Sedum mucizonia"
+      ],
+      "pl": [
+        "Sedum mucizonia"
+      ],
+      "pt": [
+        "Sedum mucizonia"
+      ],
+      "ru": [
+        "Sedum mucizonia"
+      ],
+      "tr": [
+        "Sedum mucizonia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6884,7 +9133,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_obtusatum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -6950,11 +9199,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sedum obtusatum"
+      ],
       "en": [
+        "Sedum obtusatum",
         "Sierra stonecrop"
+      ],
+      "es": [
+        "Sedum obtusatum"
+      ],
+      "fr": [
+        "Sedum obtusatum"
+      ],
+      "it": [
+        "Sedum obtusatum"
+      ],
+      "nl": [
+        "Sedum obtusatum"
+      ],
+      "pl": [
+        "Sedum obtusatum"
+      ],
+      "pt": [
+        "Sedum obtusatum"
+      ],
+      "ru": [
+        "Sedum obtusatum"
+      ],
+      "tr": [
+        "Sedum obtusatum"
       ]
     },
     "tags": [],
@@ -6982,7 +9261,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_polytrichoides",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -7048,9 +9327,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sedum polytrichoides"
+      ],
+      "en": [
+        "Sedum polytrichoides"
+      ],
+      "es": [
+        "Sedum polytrichoides"
+      ],
+      "fr": [
+        "Sedum polytrichoides"
+      ],
+      "it": [
+        "Sedum polytrichoides"
+      ],
+      "nl": [
+        "Sedum polytrichoides"
+      ],
+      "pl": [
+        "Sedum polytrichoides"
+      ],
+      "pt": [
+        "Sedum polytrichoides"
+      ],
+      "ru": [
+        "Sedum polytrichoides"
+      ],
+      "tr": [
+        "Sedum polytrichoides"
+      ],
+      "zh": [
+        "藓状景天"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7076,7 +9391,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_pulchellum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -7142,11 +9457,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sedum pulchellum"
+      ],
       "en": [
+        "Sedum pulchellum",
         "Widowscross"
+      ],
+      "es": [
+        "Sedum pulchellum"
+      ],
+      "fr": [
+        "Sedum pulchellum"
+      ],
+      "it": [
+        "Sedum pulchellum"
+      ],
+      "nl": [
+        "Sedum pulchellum"
+      ],
+      "pl": [
+        "Sedum pulchellum"
+      ],
+      "pt": [
+        "Sedum pulchellum"
+      ],
+      "ru": [
+        "Sedum pulchellum"
+      ],
+      "tr": [
+        "Sedum pulchellum"
       ]
     },
     "tags": [],
@@ -7174,17 +9519,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_rubens",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -7205,9 +9550,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Fruit, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -7225,8 +9570,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -7240,11 +9585,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "سدم أحمر"
+      ],
+      "de": [
+        "Rötliche Fetthenne"
+      ],
       "en": [
-        "Red stonecrop"
+        "Red stonecrop",
+        "Sedum rubens"
+      ],
+      "es": [
+        "Sedum rubens"
+      ],
+      "fr": [
+        "Sedum rubens"
+      ],
+      "it": [
+        "Sedum rubens"
+      ],
+      "nl": [
+        "Sedum rubens"
+      ],
+      "pl": [
+        "Sedum rubens"
+      ],
+      "pt": [
+        "Sedum rubens"
+      ],
+      "ru": [
+        "Sedum rubens"
+      ],
+      "tr": [
+        "Sedum rubens"
       ]
     },
     "tags": [],
@@ -7272,17 +9650,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_sarmentosum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -7303,9 +9681,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Heuchera americana",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Fruit, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -7323,8 +9701,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Cascading",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -7338,11 +9716,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Ausläufer-Fetthenne"
+      ],
       "en": [
+        "Sedum sarmentosum",
         "Stringy stonecrop"
+      ],
+      "es": [
+        "Sedum sarmentosum"
+      ],
+      "fr": [
+        "Sedum sarmentosum"
+      ],
+      "it": [
+        "Sedum sarmentosum"
+      ],
+      "ja": [
+        "ツルマンネングサ"
+      ],
+      "ko": [
+        "돌나물"
+      ],
+      "nl": [
+        "Sedum sarmentosum"
+      ],
+      "pl": [
+        "Sedum sarmentosum"
+      ],
+      "pt": [
+        "Sedum sarmentosum"
+      ],
+      "ru": [
+        "Sedum sarmentosum"
+      ],
+      "tr": [
+        "Sedum sarmentosum"
+      ],
+      "zh": [
+        "垂盆草"
       ]
     },
     "tags": [],
@@ -7370,17 +9787,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_sexangulare",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -7401,9 +9818,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Fruit, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -7421,8 +9838,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -7436,11 +9853,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "de": [
+        "Milder Mauerpfeffer"
+      ],
       "en": [
+        "Sedum sexangulare",
         "Tasteless stonecrop"
+      ],
+      "es": [
+        "Sedum sexangulare"
+      ],
+      "fr": [
+        "Sedum sexangulare"
+      ],
+      "it": [
+        "Sedum sexangulare"
+      ],
+      "nl": [
+        "zacht vetkruid"
+      ],
+      "pl": [
+        "Rozchodnik sześciorzędowy"
+      ],
+      "pt": [
+        "Sedum sexangulare"
+      ],
+      "ru": [
+        "Sedum sexangulare"
+      ],
+      "tr": [
+        "Sedum sexangulare"
       ]
     },
     "tags": [],
@@ -7468,17 +9915,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_spathulifolium",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -7499,9 +9946,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -7519,10 +9966,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "The stems and leaves can be eaten raw when very young and tender.  Later, until they flower, they may be eaten after briefly cooking. Not poisonous, but when eaten in quantity, can cause stomach upset.",
@@ -7534,11 +9981,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Sedum spathulifolium"
+      ],
       "en": [
-        "Colorado stonecrop"
+        "Colorado stonecrop",
+        "Sedum spathulifolium"
+      ],
+      "es": [
+        "Sedum spathulifolium"
+      ],
+      "fr": [
+        "Sedum spathulifolium"
+      ],
+      "it": [
+        "Sedum spathulifolium"
+      ],
+      "nl": [
+        "Sedum spathulifolium"
+      ],
+      "pl": [
+        "Sedum spathulifolium"
+      ],
+      "pt": [
+        "Sedum spathulifolium"
+      ],
+      "ru": [
+        "Sedum spathulifolium"
+      ],
+      "tr": [
+        "Sedum spathulifolium"
       ]
     },
     "tags": [],
@@ -7566,7 +10043,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_stenopetalum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -7632,11 +10109,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sedum stenopetalum"
+      ],
       "en": [
+        "Sedum stenopetalum",
         "Wormleaf stonecrop"
+      ],
+      "es": [
+        "Sedum stenopetalum"
+      ],
+      "fr": [
+        "Sedum stenopetalum"
+      ],
+      "it": [
+        "Sedum stenopetalum"
+      ],
+      "nl": [
+        "Sedum stenopetalum"
+      ],
+      "pl": [
+        "Sedum stenopetalum"
+      ],
+      "pt": [
+        "Sedum stenopetalum"
+      ],
+      "ru": [
+        "Sedum stenopetalum"
+      ],
+      "tr": [
+        "Sedum stenopetalum"
       ]
     },
     "tags": [],
@@ -7664,17 +10171,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_ternatum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -7695,9 +10202,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Deep shade (Less than 2 hours to no direct sunlight)",
       "tips": "Similar plants: Itea virginica",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -7715,10 +10222,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": "The stems and leaves, when very young and tender, may be eaten raw. Later, until they flower, they may be briefly cooked. When ingested in large quantities, can cause stomach upset.",
@@ -7730,11 +10237,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Sedum ternatum"
+      ],
       "en": [
+        "Sedum ternatum",
         "Wild stonecrop"
+      ],
+      "es": [
+        "Sedum ternatum"
+      ],
+      "fr": [
+        "Sedum ternatum"
+      ],
+      "it": [
+        "Sedum ternatum"
+      ],
+      "nl": [
+        "Sedum ternatum"
+      ],
+      "pl": [
+        "Sedum ternatum"
+      ],
+      "pt": [
+        "Sedum ternatum"
+      ],
+      "ru": [
+        "Sedum ternatum"
+      ],
+      "tr": [
+        "Sedum ternatum"
+      ],
+      "zh": [
+        "林地景天"
       ]
     },
     "tags": [],
@@ -7762,17 +10302,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sedum_villosum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -7793,9 +10333,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Hylotelephium",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: weak toxic. Parts: Fruit, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -7813,8 +10353,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -7828,11 +10368,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Sumpf-Fetthenne"
+      ],
       "en": [
-        "Hairy stonecrop"
+        "Hairy stonecrop",
+        "Sedum villosum"
+      ],
+      "es": [
+        "Sedum villosum"
+      ],
+      "fr": [
+        "Sedum villosum"
+      ],
+      "it": [
+        "Sedum villosum"
+      ],
+      "nl": [
+        "Sedum villosum"
+      ],
+      "pl": [
+        "Rozchodnik owłosiony"
+      ],
+      "pt": [
+        "Sedum villosum"
+      ],
+      "ru": [
+        "Sedum villosum"
+      ],
+      "tr": [
+        "Sedum villosum"
       ]
     },
     "tags": [],
@@ -7860,17 +10430,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sempervivum_arachnoideum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -7891,9 +10461,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Echinocactus",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -7911,10 +10481,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -7926,11 +10496,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "خلود عنكبوتي"
+      ],
+      "de": [
+        "Spinnweb-Hauswurz"
+      ],
       "en": [
-        "Cobweb house-leek"
+        "Cobweb house-leek",
+        "Sempervivum arachnoideum"
+      ],
+      "es": [
+        "Sempervivum arachnoideum"
+      ],
+      "fr": [
+        "Joubarbe à toile d'araignée"
+      ],
+      "it": [
+        "Sempervivum arachnoideum"
+      ],
+      "nl": [
+        "Spinnenwebhuislook"
+      ],
+      "pl": [
+        "Rojnik pajęczynowaty"
+      ],
+      "pt": [
+        "Sempervivum arachnoideum"
+      ],
+      "ru": [
+        "Молодило паутинистое"
+      ],
+      "zh": [
+        "蛛网长生草"
       ]
     },
     "tags": [],
@@ -7958,17 +10561,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sempervivum_calcareum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -7989,9 +10592,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Echinocactus",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -8009,10 +10612,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -8024,9 +10627,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "خلود جصاص"
+      ],
+      "de": [
+        "Kalk-Hauswurz"
+      ],
+      "en": [
+        "Sempervivum calcareum"
+      ],
+      "es": [
+        "Sempervivum calcareum"
+      ],
+      "fr": [
+        "Joubarbe du calcaire"
+      ],
+      "it": [
+        "Sempervivum calcareum"
+      ],
+      "nl": [
+        "Sempervivum calcareum"
+      ],
+      "pl": [
+        "Sempervivum calcareum"
+      ],
+      "pt": [
+        "Sempervivum calcareum"
+      ],
+      "ru": [
+        "Sempervivum calcareum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8052,17 +10688,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sempervivum_globiferum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -8083,9 +10719,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Echinocactus",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -8103,10 +10739,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -8118,11 +10754,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "ar": [
+        "خلود كبير الزهر"
+      ],
+      "de": [
+        "Sempervivum globiferum"
+      ],
       "en": [
-        "Rolling hen-and-chicks"
+        "Rolling hen-and-chicks",
+        "Sempervivum globiferum"
+      ],
+      "es": [
+        "Sempervivum globiferum"
+      ],
+      "fr": [
+        "Sempervivum globiferum"
+      ],
+      "it": [
+        "Sempervivum globiferum"
+      ],
+      "nl": [
+        "Sempervivum globiferum"
+      ],
+      "pl": [
+        "Rojownik pospolity"
+      ],
+      "pt": [
+        "Sempervivum globiferum"
+      ],
+      "ru": [
+        "Молодило шароносное"
       ]
     },
     "tags": [],
@@ -8150,17 +10816,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sempervivum_montanum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -8181,9 +10847,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Echinocactus",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -8201,10 +10867,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -8216,11 +10882,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Berg-Hauswurz"
+      ],
       "en": [
-        "Mountain house-leek"
+        "Mountain house-leek",
+        "Sempervivum montanum"
+      ],
+      "es": [
+        "Sempervivum montanum"
+      ],
+      "fr": [
+        "Joubarbe des montagnes"
+      ],
+      "it": [
+        "Sempervivum montanum"
+      ],
+      "nl": [
+        "berghuislook"
+      ],
+      "pl": [
+        "Rojnik górski"
+      ],
+      "pt": [
+        "Sempervivum montanum"
+      ],
+      "ru": [
+        "Sempervivum montanum"
       ]
     },
     "tags": [],
@@ -8248,17 +10941,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sempervivum_tectorum",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -8279,9 +10972,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Dianthus deltoides",
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -8299,10 +10992,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Horizontal",
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -8314,11 +11007,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.4
     },
     "common_names": {
+      "ar": [
+        "خلود السطوح"
+      ],
+      "de": [
+        "Dach-Hauswurz"
+      ],
       "en": [
-        "Houseleek"
+        "Houseleek",
+        "Sempervivum tectorum"
+      ],
+      "es": [
+        "Sempervivum tectorum"
+      ],
+      "fr": [
+        "Joubarbe des toits"
+      ],
+      "it": [
+        "Sempervivum tectorum"
+      ],
+      "nl": [
+        "Gewone huislook"
+      ],
+      "pl": [
+        "Rojnik murowy"
+      ],
+      "pt": [
+        "cardo-santo"
+      ],
+      "ru": [
+        "Молодило кровельное"
       ]
     },
     "tags": [],
@@ -8346,7 +11069,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "umbilicus_heylandianus",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -8412,9 +11135,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سرة هيلندية"
+      ],
+      "de": [
+        "Umbilicus heylandianus"
+      ],
+      "en": [
+        "Umbilicus heylandianus"
+      ],
+      "es": [
+        "Umbilicus heylandianus"
+      ],
+      "fr": [
+        "Umbilicus heylandianus"
+      ],
+      "it": [
+        "Umbilicus heylandianus"
+      ],
+      "nl": [
+        "Umbilicus heylandianus"
+      ],
+      "pl": [
+        "Umbilicus heylandianus"
+      ],
+      "pt": [
+        "Umbilicus heylandianus"
+      ],
+      "ru": [
+        "Umbilicus heylandianus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8429,7 +11185,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/52bea8eee760d9ee964f84fe34ff817fbb8fbe2d",
-    "description": null,
+    "description": "Umbilicus horizontalis, the horizontal navelwort, is a fleshy perennial flowering plant in the family Crassulaceae native to the Mediterranean Basin and Middle East, from the Azores in the west to Oman in the east in rocky habitats.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8440,17 +11196,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "umbilicus_horizontalis",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -8471,9 +11227,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -8491,10 +11247,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -8506,11 +11262,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "سرة أفقية"
+      ],
+      "de": [
+        "Waagrechter Venusnabel"
+      ],
       "en": [
-        "Horizontal navelwort"
+        "Horizontal navelwort",
+        "Umbilicus horizontalis"
+      ],
+      "es": [
+        "Umbilicus horizontalis"
+      ],
+      "fr": [
+        "Umbilicus horizontalis"
+      ],
+      "it": [
+        "Umbilicus horizontalis"
+      ],
+      "nl": [
+        "Umbilicus horizontalis"
+      ],
+      "pl": [
+        "Umbilicus horizontalis"
+      ],
+      "pt": [
+        "Umbilicus horizontalis"
+      ],
+      "ru": [
+        "Umbilicus horizontalis"
       ]
     },
     "tags": [],
@@ -8538,7 +11324,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "umbilicus_intermedius",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -8604,9 +11390,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سرة متوسطة"
+      ],
+      "de": [
+        "Umbilicus intermedius"
+      ],
+      "en": [
+        "Umbilicus intermedius"
+      ],
+      "es": [
+        "Umbilicus intermedius"
+      ],
+      "fr": [
+        "Umbilicus intermedius"
+      ],
+      "it": [
+        "Umbilicus intermedius"
+      ],
+      "nl": [
+        "Umbilicus intermedius"
+      ],
+      "pl": [
+        "Umbilicus intermedius"
+      ],
+      "pt": [
+        "Umbilicus intermedius"
+      ],
+      "ru": [
+        "Umbilicus intermedius"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8637,12 +11456,12 @@
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -8663,9 +11482,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": null,
-      "toxic_to_pets": 0,
+      "toxic_to_pets": 1,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Based on Crassulaceae family characteristics. bufadienolides. Verify with species-specific data.",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -8683,10 +11502,10 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
-      "toxicity_symptoms": null,
-      "toxicity_first_aid": null,
+      "toxic_parts": "Leaves",
+      "toxicity_severity": "Mild",
+      "toxicity_symptoms": "Vomiting, diarrhea in pets if ingested",
+      "toxicity_first_aid": "Monitor pet. If symptoms persist >24h, consult vet.",
       "used_for": null,
       "used_for_details": null,
       "edible_parts": null,
@@ -8698,11 +11517,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "سرة صخرية"
+      ],
+      "de": [
+        "Echter Venusnabel"
+      ],
       "en": [
-        "Pennywort"
+        "Pennywort",
+        "Umbilicus rupestris"
+      ],
+      "es": [
+        "Umbilicus rupestris"
+      ],
+      "fr": [
+        "Umbilicus rupestris"
+      ],
+      "it": [
+        "Umbilicus rupestris"
+      ],
+      "nl": [
+        "Umbilicus rupestris"
+      ],
+      "pl": [
+        "Umbilicus rupestris"
+      ],
+      "pt": [
+        "bacelos"
+      ],
+      "ru": [
+        "Umbilicus rupestris"
+      ],
+      "zh": [
+        "脐景天"
       ]
     },
     "tags": [],

@@ -5,7 +5,7 @@
     "family": "Myristicaceae",
     "genus": "Coelocaryon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coelocaryon preussii"
+      ],
+      "en": [
+        "Coelocaryon preussii"
+      ],
+      "es": [
+        "Coelocaryon preussii"
+      ],
+      "fr": [
+        "Coelocaryon preussii"
+      ],
+      "it": [
+        "Coelocaryon preussii"
+      ],
+      "nl": [
+        "Coelocaryon preussii"
+      ],
+      "pl": [
+        "Coelocaryon preussii"
+      ],
+      "pt": [
+        "Coelocaryon preussii"
+      ],
+      "ru": [
+        "Coelocaryon preussii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Myristicaceae",
     "genus": "Gymnacranthera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gymnacranthera farquhariana"
+      ],
+      "en": [
+        "Gymnacranthera farquhariana"
+      ],
+      "es": [
+        "Gymnacranthera farquhariana"
+      ],
+      "fr": [
+        "Gymnacranthera farquhariana"
+      ],
+      "it": [
+        "Gymnacranthera farquhariana"
+      ],
+      "nl": [
+        "Gymnacranthera farquhariana"
+      ],
+      "pl": [
+        "Gymnacranthera farquhariana"
+      ],
+      "pt": [
+        "Gymnacranthera farquhariana"
+      ],
+      "ru": [
+        "Gymnacranthera farquhariana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +253,12 @@
     "family": "Myristicaceae",
     "genus": "Iryanthera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Iryanthera%20juruensis%201330_fullsize.jpg",
-    "description": null,
+    "description": "Iryanthera juruensis is a species of tree in the Myristaceae family. It is native to Panama and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Iryanthera juruensis"
+      ],
+      "en": [
+        "Iryanthera juruensis"
+      ],
+      "es": [
+        "Iryanthera juruensis"
+      ],
+      "fr": [
+        "Iryanthera juruensis"
+      ],
+      "it": [
+        "Iryanthera juruensis"
+      ],
+      "nl": [
+        "Iryanthera juruensis"
+      ],
+      "pl": [
+        "Iryanthera juruensis"
+      ],
+      "pt": [
+        "Iryanthera juruensis"
+      ],
+      "ru": [
+        "Iryanthera juruensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +377,7 @@
     "family": "Myristicaceae",
     "genus": "Iryanthera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +459,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Iryanthera laevis"
+      ],
+      "en": [
+        "Iryanthera laevis"
+      ],
+      "es": [
+        "Iryanthera laevis"
+      ],
+      "fr": [
+        "Iryanthera laevis"
+      ],
+      "it": [
+        "Iryanthera laevis"
+      ],
+      "nl": [
+        "Iryanthera laevis"
+      ],
+      "pl": [
+        "Iryanthera laevis"
+      ],
+      "pt": [
+        "Iryanthera laevis"
+      ],
+      "ru": [
+        "Iryanthera laevis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,7 +501,7 @@
     "family": "Myristicaceae",
     "genus": "Iryanthera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -463,9 +583,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Iryanthera paraensis"
+      ],
+      "en": [
+        "Iryanthera paraensis"
+      ],
+      "es": [
+        "Iryanthera paraensis"
+      ],
+      "fr": [
+        "Iryanthera paraensis"
+      ],
+      "it": [
+        "Iryanthera paraensis"
+      ],
+      "nl": [
+        "Iryanthera paraensis"
+      ],
+      "pl": [
+        "Iryanthera paraensis"
+      ],
+      "pt": [
+        "Iryanthera paraensis"
+      ],
+      "ru": [
+        "Iryanthera paraensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -475,12 +625,12 @@
     "family": "Myristicaceae",
     "genus": "Myristica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/c555c966bc6ab650b744b37df78df106.jpg",
-    "description": null,
+    "description": "Myristica insipida, commonly known in Australia as Australian nutmeg, Queensland nutmeg or native nutmeg, is a small rainforest tree in the family Myristicaceae native to parts of Malesia, Papuasia and Australia. It is closely related to the commercially-important species of nutmeg, M. fragrans.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -557,9 +707,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Myristica insipida"
+      ],
+      "en": [
+        "Myristica insipida"
+      ],
+      "es": [
+        "Myristica insipida"
+      ],
+      "fr": [
+        "Myristica insipida"
+      ],
+      "it": [
+        "Myristica insipida"
+      ],
+      "nl": [
+        "Myristica insipida"
+      ],
+      "pl": [
+        "Myristica insipida"
+      ],
+      "pt": [
+        "Myristica insipida"
+      ],
+      "ru": [
+        "Myristica insipida"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -569,12 +749,12 @@
     "family": "Myristicaceae",
     "genus": "Osteophloeum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/740e7932d74bf6f825b95947e0d52e6c09f7b327",
-    "description": null,
+    "description": "Osteophloeum is a genus of plant in the family Myristicaceae. It contains a single tree species, Osteophloeum platyspermum, native to Panama and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -651,9 +831,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Osteophloeum platyspermum"
+      ],
+      "en": [
+        "Osteophloeum platyspermum"
+      ],
+      "es": [
+        "Osteophloeum platyspermum"
+      ],
+      "fr": [
+        "Osteophloeum platyspermum"
+      ],
+      "it": [
+        "Osteophloeum platyspermum"
+      ],
+      "nl": [
+        "Osteophloeum platyspermum"
+      ],
+      "pl": [
+        "Osteophloeum platyspermum"
+      ],
+      "pt": [
+        "Osteophloeum"
+      ],
+      "ru": [
+        "Osteophloeum platyspermum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -663,7 +873,7 @@
     "family": "Myristicaceae",
     "genus": "Otoba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -745,9 +955,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Otoba lehmannii"
+      ],
+      "en": [
+        "Otoba lehmannii"
+      ],
+      "es": [
+        "Otoba lehmannii"
+      ],
+      "fr": [
+        "Otoba lehmannii"
+      ],
+      "it": [
+        "Otoba lehmannii"
+      ],
+      "nl": [
+        "Otoba lehmannii"
+      ],
+      "pl": [
+        "Otoba lehmannii"
+      ],
+      "pt": [
+        "Otoba lehmannii"
+      ],
+      "ru": [
+        "Otoba lehmannii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -757,7 +997,7 @@
     "family": "Myristicaceae",
     "genus": "Otoba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -839,9 +1079,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Otoba parvifolia"
+      ],
+      "en": [
+        "Otoba parvifolia"
+      ],
+      "es": [
+        "Otoba parvifolia"
+      ],
+      "fr": [
+        "Otoba parvifolia"
+      ],
+      "it": [
+        "Otoba parvifolia"
+      ],
+      "nl": [
+        "Otoba parvifolia"
+      ],
+      "pl": [
+        "Otoba parvifolia"
+      ],
+      "pt": [
+        "Otoba parvifolia"
+      ],
+      "ru": [
+        "Otoba parvifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -851,12 +1121,12 @@
     "family": "Myristicaceae",
     "genus": "Pycnanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2db5d20e415c0e1bfaf2c8154c9073d4879567d4",
-    "description": null,
+    "description": "Pycnanthus angolensis is a species of tree in the nutmeg family, Myristicaceae. It is native to tropical Africa. Its English language common names include African nutmeg, false nutmeg, boxboard, and cardboard. In Africa it is widely known as ilomba.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -933,11 +1203,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pycnanthus angolensis"
+      ],
       "en": [
-        "Boxboard"
+        "Boxboard",
+        "Pycnanthus angolensis"
+      ],
+      "es": [
+        "Pycnanthus angolensis"
+      ],
+      "fr": [
+        "Pycnanthus angolensis"
+      ],
+      "it": [
+        "Pycnanthus angolensis"
+      ],
+      "ja": [
+        "イロンバ"
+      ],
+      "nl": [
+        "Pycnanthus angolensis"
+      ],
+      "pl": [
+        "Pycnanthus angolensis"
+      ],
+      "pt": [
+        "Pycnanthus angolensis"
+      ],
+      "ru": [
+        "Pycnanthus angolensis"
+      ],
+      "zh": [
+        "安哥拉密花楠"
       ]
     },
     "tags": [],
@@ -949,7 +1252,7 @@
     "family": "Myristicaceae",
     "genus": "Staudtia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1031,9 +1334,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Staudtia kamerunensis"
+      ],
+      "en": [
+        "Staudtia kamerunensis"
+      ],
+      "es": [
+        "Staudtia kamerunensis"
+      ],
+      "fr": [
+        "Staudtia kamerunensis"
+      ],
+      "it": [
+        "Staudtia kamerunensis"
+      ],
+      "nl": [
+        "Staudtia kamerunensis"
+      ],
+      "pl": [
+        "Staudtia kamerunensis"
+      ],
+      "pt": [
+        "Staudtia kamerunensis"
+      ],
+      "ru": [
+        "Staudtia kamerunensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1043,7 +1376,7 @@
     "family": "Myristicaceae",
     "genus": "Virola",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1125,9 +1458,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Virola calophylla"
+      ],
+      "en": [
+        "Virola calophylla"
+      ],
+      "es": [
+        "Virola calophylla"
+      ],
+      "fr": [
+        "Virola calophylla"
+      ],
+      "it": [
+        "Virola calophylla"
+      ],
+      "ja": [
+        "ビロラ・カリフィラ"
+      ],
+      "nl": [
+        "Virola calophylla"
+      ],
+      "pl": [
+        "Virola calophylla"
+      ],
+      "pt": [
+        "Virola calophylla"
+      ],
+      "ru": [
+        "Virola calophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1137,7 +1503,7 @@
     "family": "Myristicaceae",
     "genus": "Virola",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1219,9 +1585,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Virola elongata"
+      ],
+      "en": [
+        "Virola elongata"
+      ],
+      "es": [
+        "Virola elongata"
+      ],
+      "fr": [
+        "Virola elongata"
+      ],
+      "it": [
+        "Virola elongata"
+      ],
+      "nl": [
+        "Virola elongata"
+      ],
+      "pl": [
+        "Virola elongata"
+      ],
+      "pt": [
+        "Virola elongata"
+      ],
+      "ru": [
+        "Virola elongata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1231,7 +1627,7 @@
     "family": "Myristicaceae",
     "genus": "Virola",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1313,9 +1709,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Virola pavonis"
+      ],
+      "en": [
+        "Virola pavonis"
+      ],
+      "es": [
+        "Virola pavonis"
+      ],
+      "fr": [
+        "Virola pavonis"
+      ],
+      "it": [
+        "Virola pavonis"
+      ],
+      "nl": [
+        "Virola pavonis"
+      ],
+      "pl": [
+        "Virola pavonis"
+      ],
+      "pt": [
+        "Virola pavonis"
+      ],
+      "ru": [
+        "Virola pavonis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1325,12 +1751,12 @@
     "family": "Myristicaceae",
     "genus": "Virola",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5579fa1d3f24da6707eb56309cbb74a19055d3f6",
-    "description": null,
+    "description": "Virola sebifera is a species of tree in the family Myristicaceae, from North and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1407,11 +1833,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Talgmuskatnussbaum"
+      ],
       "en": [
-        "Red ucuuba"
+        "Red ucuuba",
+        "Virola sebifera"
+      ],
+      "es": [
+        "Virola sebifera"
+      ],
+      "fr": [
+        "Virola sebifera"
+      ],
+      "it": [
+        "Virola sebifera"
+      ],
+      "nl": [
+        "Virola sebifera"
+      ],
+      "pl": [
+        "Virola sebifera"
+      ],
+      "pt": [
+        "Virola sebifera"
+      ],
+      "ru": [
+        "Virola sebifera"
       ]
     },
     "tags": [],
@@ -1423,12 +1876,12 @@
     "family": "Myristicaceae",
     "genus": "Virola",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9f337c6d1f6ed62b68c3059d7a5bc10d153bb4ae",
-    "description": null,
+    "description": "Virola surinamensis, known commonly as baboonwood, ucuuba, ucuhuba and chalviande, is a species of flowering plant in the family Myristicaceae. It is found in Brazil, Costa Rica, Ecuador, French Guiana, Guyana, Panama, Peru, Suriname, and Venezuela. It has also been naturalized in the Caribbean. Its natural habitats are subtropical or tropical moist lowland forests, subtropical or tropical swamps, and heavily degraded former forest.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1439,9 +1892,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "virola_surinamensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1505,11 +1958,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Virola surinamensis"
+      ],
       "en": [
-        "Ucahuba-nut"
+        "Ucahuba-nut",
+        "Virola surinamensis"
+      ],
+      "es": [
+        "Virola surinamensis"
+      ],
+      "fr": [
+        "Virola surinamensis"
+      ],
+      "it": [
+        "Virola surinamensis"
+      ],
+      "nl": [
+        "Baboen"
+      ],
+      "pl": [
+        "Virola surinamensis"
+      ],
+      "pt": [
+        "Virola surinamensis"
+      ],
+      "ru": [
+        "Virola surinamensis"
+      ],
+      "zh": [
+        "刺莖肉荳蔻"
       ]
     },
     "tags": [],

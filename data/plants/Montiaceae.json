@@ -5,12 +5,12 @@
     "family": "Montiaceae",
     "genus": "Calandrinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bf97128d76674c6b81a17fbbf4fafc3903a3f1bb",
-    "description": null,
+    "description": "Calandrinia ciliata is a species of flowering plant known as fringed redmaids and red-maids. While formerly included in the Purslane family, it is now treated as a member of the family Montiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Calandrinia ciliata"
+      ],
       "en": [
+        "Calandrinia ciliata",
         "Red-maids"
+      ],
+      "es": [
+        "Calandrinia ciliata"
+      ],
+      "fr": [
+        "Calandrinia ciliata"
+      ],
+      "it": [
+        "Calandrinia ciliata"
+      ],
+      "nl": [
+        "Calandrinia ciliata"
+      ],
+      "pl": [
+        "Calandrinia ciliata"
+      ],
+      "pt": [
+        "Calandrinia ciliata"
+      ],
+      "ru": [
+        "Calandrinia ciliata"
       ]
     },
     "tags": [],
@@ -103,12 +130,12 @@
     "family": "Montiaceae",
     "genus": "Claytonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/aa4009b463ffc6e67857a126330024c4b86412d9",
-    "description": "Fruit displays from April to June.",
+    "description": "Claytonia caroliniana, the Carolina springbeauty, is an herbaceous perennial in the family Montiaceae. It was formerly placed in the Portulacaceae. Its native range is eastern and central North America. It is most commonly found in the New England area of the United States but its habitat extends from Ontario and a northern limit in the Cape Anguille Mountains of Newfoundland and south to Alabama. It grows approximately 6 inches tall in forests of the Appalachian Mountains and piedmont",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -119,17 +146,17 @@
     "synonyms": "[\"Claytonia latifolia\", \"Claytonia virginica var. latifolia\", \"Claytonia caroliniana var. spatulifolia\", \"Claytonia spatulata\", \"Claytonia virginica var. spatulifolia\", \"Claytonia dilatata\", \"Claytonia caroliniana var. lewisii\", \"Claytonia caroliniana f. latifolia\", \"Claytonia caroliniana f. ovata\", \"Claytonia spatulifolia\"]",
     "care": {
       "plant_id": "claytonia_caroliniana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,11 +212,37 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "de": [
+        "Claytonia caroliniana"
+      ],
       "en": [
         "Carolina springbeauty"
+      ],
+      "es": [
+        "Claytonia caroliniana"
+      ],
+      "fr": [
+        "Claytonie de Caroline"
+      ],
+      "it": [
+        "Claytonia caroliniana"
+      ],
+      "nl": [
+        "Carolina springbeauty"
+      ],
+      "pl": [
+        "Claytonia caroliniana"
+      ],
+      "pt": [
+        "Claytonia caroliniana"
+      ],
+      "ru": [
+        "Claytonia caroliniana"
       ]
     },
     "tags": [],
@@ -201,12 +254,12 @@
     "family": "Montiaceae",
     "genus": "Claytonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/50f8e0b434007c57e7f5b4020fe549f6.jpg",
-    "description": "Fruit displays from April to June.",
+    "description": "Claytonia exigua is a species of wildflower known by the common names serpentine springbeauty and pale claytonia, in the family Montiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -217,7 +270,7 @@
     "synonyms": "[\"Claytonia perfoliata var. exigua\", \"Limnia exigua\", \"Montia gypsophiloides var. exigua\", \"Montia spathulata var. exigua\", \"Claytonia spathulata var. exigua\", \"Montia exigua\", \"Claytonia spathulata subsp. exigua\"]",
     "care": {
       "plant_id": "claytonia_exigua",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -283,9 +336,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Claytonia exigua"
+      ],
+      "en": [
+        "Claytonia exigua"
+      ],
+      "es": [
+        "Claytonia exigua"
+      ],
+      "fr": [
+        "Claytonia exigua"
+      ],
+      "it": [
+        "Claytonia exigua"
+      ],
+      "nl": [
+        "Claytonia exigua"
+      ],
+      "pl": [
+        "Claytonia exigua"
+      ],
+      "pt": [
+        "Claytonia exigua"
+      ],
+      "ru": [
+        "Claytonia exigua"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -295,12 +378,12 @@
     "family": "Montiaceae",
     "genus": "Claytonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/48f1bbeb69eea14413751b70e56d1152773645f8",
-    "description": "Fruit displays from April to June.",
+    "description": "Claytonia lanceolata is a species of wildflower in the family Montiaceae, known by the common names lanceleaf springbeauty and western springbeauty.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -311,17 +394,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "claytonia_lanceolata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -377,11 +460,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "de": [
+        "Claytonia lanceolata"
+      ],
       "en": [
+        "Claytonia lanceolata",
         "Lanceleaf springbeauty"
+      ],
+      "es": [
+        "Claytonia lanceolata"
+      ],
+      "fr": [
+        "Claytonia lanceolata"
+      ],
+      "it": [
+        "Claytonia lanceolata"
+      ],
+      "nl": [
+        "Claytonia lanceolata"
+      ],
+      "pl": [
+        "Claytonia lanceolata"
+      ],
+      "pt": [
+        "Claytonia lanceolata"
+      ],
+      "ru": [
+        "Claytonia lanceolata"
       ]
     },
     "tags": [],
@@ -393,12 +503,12 @@
     "family": "Montiaceae",
     "genus": "Claytonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/5c73424bcb590b21beb357f967fa7fe2.jpg",
-    "description": "Fruit displays from April to June.",
+    "description": "Claytonia megarhiza is a species of wildflower in the family Montiaceae known by the common names fell-fields claytonia and alpine springbeauty. The specific epithet megarhiza is Greek for \"large roots\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -409,7 +519,7 @@
     "synonyms": "[\"Claytonia arctica var. megarhiza\", \"Claytonia megarhiza var. bellidifolia\", \"Claytonia megarhiza var. nivalis\", \"Claytonia bellidifolia\", \"Claytonia nivalis\"]",
     "care": {
       "plant_id": "claytonia_megarhiza",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -475,9 +585,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Claytonia megarhiza"
+      ],
+      "en": [
+        "Claytonia megarhiza"
+      ],
+      "es": [
+        "Claytonia megarhiza"
+      ],
+      "fr": [
+        "Claytonia megarhiza"
+      ],
+      "it": [
+        "Claytonia megarhiza"
+      ],
+      "nl": [
+        "Claytonia megarhiza"
+      ],
+      "pl": [
+        "Claytonia megarhiza"
+      ],
+      "pt": [
+        "Claytonia megarhiza"
+      ],
+      "ru": [
+        "Claytonia megarhiza"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -487,7 +627,7 @@
     "family": "Montiaceae",
     "genus": "Claytonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -503,17 +643,17 @@
     "synonyms": "[\"Claytonia perfoliata var. parviflora\", \"Montia parviflora\", \"Limnia parviflora\", \"Montia perfoliata var. parviflora\", \"Montia perfoliata f. parviflora\"]",
     "care": {
       "plant_id": "claytonia_parviflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -569,11 +709,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "de": [
+        "Claytonia parviflora"
+      ],
       "en": [
+        "Claytonia parviflora",
         "Streambank springbeauty"
+      ],
+      "es": [
+        "Claytonia parviflora"
+      ],
+      "fr": [
+        "Claytonia parviflora"
+      ],
+      "it": [
+        "Claytonia parviflora"
+      ],
+      "nl": [
+        "Claytonia parviflora"
+      ],
+      "pl": [
+        "Claytonia parviflora"
+      ],
+      "pt": [
+        "Claytonia parviflora"
+      ],
+      "ru": [
+        "Claytonia parviflora"
       ]
     },
     "tags": [],
@@ -585,7 +752,7 @@
     "family": "Montiaceae",
     "genus": "Claytonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -601,17 +768,17 @@
     "synonyms": "[\"Limnia perfoliata\", \"Montia perfoliata\"]",
     "care": {
       "plant_id": "claytonia_perfoliata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -667,11 +834,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "de": [
+        "Gewöhnliches Tellerkraut"
+      ],
       "en": [
+        "Claytonia perfoliata",
         "Cuban-spinach"
+      ],
+      "es": [
+        "Claytonia perfoliata"
+      ],
+      "fr": [
+        "Claytone de Cuba"
+      ],
+      "it": [
+        "Claytonia perfoliata"
+      ],
+      "nl": [
+        "Winterpostelein"
+      ],
+      "pl": [
+        "Claytonia perfoliata"
+      ],
+      "pt": [
+        "Montia perfoliata"
+      ],
+      "ru": [
+        "Claytonia perfoliata"
       ]
     },
     "tags": [],
@@ -683,12 +877,12 @@
     "family": "Montiaceae",
     "genus": "Claytonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fe6806fcb2f768bfd23337014bc75058c37753b3",
-    "description": "Fruit displays from April to June.",
+    "description": "Claytonia rubra is a species of wildflower in the springbeauty family known by the common names redstem springbeauty and red miner's lettuce. It is native to western North America from southwestern Canada to the United States of America extending from The Black Hills and western slopes of the Rocky Mountains to the Cascade and Coast Range, Ochoco and Wallowa Mountains south to the Warner Mountains, Yolla Bolly Mountains, and Sierra Nevada and Transverse Ranges [Mt. Pinos and Mt.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -699,7 +893,7 @@
     "synonyms": "[\"Montia rubra\", \"Claytonia perfoliata var. rubra\", \"Limnia rubra\"]",
     "care": {
       "plant_id": "claytonia_rubra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -765,11 +959,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Claytonia rubra"
+      ],
       "en": [
+        "Claytonia rubra",
         "Redstem springbeauty"
+      ],
+      "es": [
+        "Claytonia rubra"
+      ],
+      "fr": [
+        "Claytonia rubra"
+      ],
+      "it": [
+        "Claytonia rubra"
+      ],
+      "nl": [
+        "Claytonia rubra"
+      ],
+      "pl": [
+        "Claytonia rubra"
+      ],
+      "pt": [
+        "Claytonia rubra"
+      ],
+      "ru": [
+        "Claytonia rubra"
       ]
     },
     "tags": [],
@@ -781,7 +1002,7 @@
     "family": "Montiaceae",
     "genus": "Claytonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -797,17 +1018,17 @@
     "synonyms": "[\"Limnia sibirica\", \"Montia sibirica\", \"Claytonia bulbifera\", \"Montia heterophylla\", \"Claytonia alsinoides\", \"Montia bracteosa\", \"Claytonia sibirica var. rhombifolia\", \"Montia bulbifera\", \"Claytonia asarifolia\", \"Limnia asarifolia\"]",
     "care": {
       "plant_id": "claytonia_sibirica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -863,11 +1084,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "de": [
+        "Claytonia sibirica"
+      ],
       "en": [
-        "Candy-flower"
+        "Candy-flower",
+        "Claytonia sibirica"
+      ],
+      "es": [
+        "Claytonia sibirica"
+      ],
+      "fr": [
+        "Claytonia sibirica"
+      ],
+      "it": [
+        "Claytonia sibirica"
+      ],
+      "nl": [
+        "roze winterpostelein"
+      ],
+      "pl": [
+        "Claytonia sibirica"
+      ],
+      "pt": [
+        "Claytonia sibirica"
+      ],
+      "ru": [
+        "Клейтония сибирская"
+      ],
+      "zh": [
+        "西伯利亚春美草"
       ]
     },
     "tags": [],
@@ -879,12 +1130,12 @@
     "family": "Montiaceae",
     "genus": "Claytonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/23a612d240a8dc9be2c489fcf480b50755681830",
-    "description": "Oval capsule with seeds is enclosed by the 2 persistent sepals. Occurs March to May.",
+    "description": "Claytonia virginica, the Virginia springbeauty, eastern spring beauty, grass-flower narrowleaf springbeauty or fairy spud, is an herbaceous perennial plant in the family Montiaceae. Its native range is eastern North America. Its scientific name honors Colonial Virginian botanist John Clayton (1694–1773).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -895,17 +1146,17 @@
     "synonyms": "[\"Claytonia virginica f. lutea\", \"Claytonia virginica f. micropetala\", \"Claytonia virginica var. media\", \"Claytonia virginica var. simsii\", \"Claytonia virginica var. hammondiae\", \"Claytonia virginica f. robusta\", \"Claytonia bodinii\", \"Claytonia acutiflora\", \"Claytonia ozarkensis\", \"Claytonia cautiflora\"]",
     "care": {
       "plant_id": "claytonia_virginica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -961,11 +1212,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "de": [
+        "Claytonia virginica"
+      ],
       "en": [
+        "Claytonia virginica",
         "Springbeauty"
+      ],
+      "es": [
+        "Claytonia virginica"
+      ],
+      "fr": [
+        "Claytonia virginica"
+      ],
+      "it": [
+        "Claytonia virginica"
+      ],
+      "nl": [
+        "Claytonia virginica"
+      ],
+      "pl": [
+        "Claytonia virginica"
+      ],
+      "pt": [
+        "Claytonia virginica"
+      ],
+      "ru": [
+        "Клейтония виргинская"
       ]
     },
     "tags": [],
@@ -977,12 +1255,12 @@
     "family": "Montiaceae",
     "genus": "Lewisia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/00cb801ee4e1ed564630bcb2aa322e26bf00e9d3",
-    "description": null,
+    "description": "Lewisia pygmaea is a species of flowering plant in the family Montiaceae known by the common name alpine lewisia and pygmy bitterroot. It is native to western North America from Alaska and Alberta to California and New Mexico, where it grows in many types of moist, rocky mountain habitat, such as gravel beds and sandy meadows.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1059,11 +1337,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lewisia pygmaea"
+      ],
       "en": [
-        "Alpine bitterroot"
+        "Alpine bitterroot",
+        "Lewisia pygmaea"
+      ],
+      "es": [
+        "Lewisia pygmaea"
+      ],
+      "fr": [
+        "Lewisia pygmaea"
+      ],
+      "it": [
+        "Lewisia pygmaea"
+      ],
+      "nl": [
+        "Lewisia pygmaea"
+      ],
+      "pl": [
+        "Lewisia pygmaea"
+      ],
+      "pt": [
+        "Lewisia pygmaea"
+      ],
+      "ru": [
+        "Lewisia pygmaea"
       ]
     },
     "tags": [],
@@ -1075,12 +1380,12 @@
     "family": "Montiaceae",
     "genus": "Lewisia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9b5b2edcafc1ec03176ba4a0d444d6fe229c5adc",
-    "description": null,
+    "description": "Bitterroot is a small perennial herb in the family Montiaceae. Its specific epithet rediviva refers to its ability to regenerate from dry and seemingly dead roots.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1157,11 +1462,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lewisia rediviva"
+      ],
       "en": [
-        "Bitter-root"
+        "Bitter-root",
+        "bitterroot"
+      ],
+      "es": [
+        "Lewisia rediviva"
+      ],
+      "fr": [
+        "Lewisia rediviva"
+      ],
+      "it": [
+        "Lewisia rediviva"
+      ],
+      "nl": [
+        "Bitterroot"
+      ],
+      "pl": [
+        "Lewisia rediviva"
+      ],
+      "pt": [
+        "Lewisia rediviva"
+      ],
+      "ru": [
+        "Lewisia rediviva"
+      ],
+      "zh": [
+        "苦根"
       ]
     },
     "tags": [],
@@ -1173,12 +1508,12 @@
     "family": "Montiaceae",
     "genus": "Montia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/89d326a7f816aa9379031e8dd792cc21.jpg",
-    "description": null,
+    "description": "Montia australasica is a species of flowering plant in the genus Montia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1189,7 +1524,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "montia_australasica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1255,9 +1590,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Montia australasica"
+      ],
+      "en": [
+        "Montia australasica"
+      ],
+      "es": [
+        "Montia australasica"
+      ],
+      "fr": [
+        "Montia australasica"
+      ],
+      "it": [
+        "Montia australasica"
+      ],
+      "nl": [
+        "Montia australasica"
+      ],
+      "pl": [
+        "Montia australasica"
+      ],
+      "pt": [
+        "Montia australasica"
+      ],
+      "ru": [
+        "Montia australasica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1267,12 +1632,12 @@
     "family": "Montiaceae",
     "genus": "Montia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bba6d35cf3567dc4f7df3c0a237d38f17f2bbe8a",
-    "description": null,
+    "description": "Montia chamissoi is a species of flowering plant in the family Montiaceae known by the common names of water minerslettuce, water montia, Indian lettuce, and toad lily. It is native to much of western North America from Alaska to the southwestern and central United States and also in British Columbia. It grows in moist to wet soils in a variety of habitat types, such as meadows, wetlands, plains, and montanes. It is sometimes aquatic, anchoring in mud and floating in water.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1283,7 +1648,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "montia_chamissoi",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1349,11 +1714,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Montia chamissoi"
+      ],
       "en": [
+        "Montia chamissoi",
         "Water minerslettuce"
+      ],
+      "es": [
+        "Montia chamissoi"
+      ],
+      "fr": [
+        "Montia chamissoi"
+      ],
+      "it": [
+        "Montia chamissoi"
+      ],
+      "nl": [
+        "Montia chamissoi"
+      ],
+      "pl": [
+        "Montia chamissoi"
+      ],
+      "pt": [
+        "Montia chamissoi"
+      ],
+      "ru": [
+        "Montia chamissoi"
       ]
     },
     "tags": [],
@@ -1365,7 +1757,7 @@
     "family": "Montiaceae",
     "genus": "Montia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1381,17 +1773,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "montia_fontana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1447,11 +1839,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Montia fontana"
+      ],
       "en": [
+        "Montia fontana",
         "Water-blinks"
+      ],
+      "es": [
+        "Montia fontana"
+      ],
+      "fr": [
+        "Montia fontana"
+      ],
+      "it": [
+        "Montia fontana"
+      ],
+      "ja": [
+        "ヌマハコベ"
+      ],
+      "nl": [
+        "Groot bronkruid"
+      ],
+      "pl": [
+        "Zdrojek błyszczący"
+      ],
+      "pt": [
+        "merujas"
+      ],
+      "ru": [
+        "Монтия ключевая"
       ]
     },
     "tags": [],
@@ -1463,12 +1885,12 @@
     "family": "Montiaceae",
     "genus": "Montia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/25d257b2509a09e747c3f9372549cafa10a2fbd8",
-    "description": null,
+    "description": "Montia linearis is a species of flowering plant in the family Montiaceae known by the common names narrowleaf miner's lettuce and narrow-leafed montia. It is native to western North America from British Columbia to California to Utah, where it grows in moist to wet areas in a number of habitat types, including forests and meadows, woodlands and grassland. The plant is also known from some areas of the southeastern United States, including Mississippi.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1479,7 +1901,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "montia_linearis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1545,11 +1967,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Montia linearis"
+      ],
       "en": [
+        "Montia linearis",
         "Narrow-leaf montia"
+      ],
+      "es": [
+        "Montia linearis"
+      ],
+      "fr": [
+        "Montia linearis"
+      ],
+      "it": [
+        "Montia linearis"
+      ],
+      "nl": [
+        "Montia linearis"
+      ],
+      "pl": [
+        "Montia linearis"
+      ],
+      "pt": [
+        "Montia linearis"
+      ],
+      "ru": [
+        "Montia linearis"
       ]
     },
     "tags": [],
@@ -1561,12 +2010,12 @@
     "family": "Montiaceae",
     "genus": "Montia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2b02ed00c7c2756401a00170d690fa8785cd1a83",
-    "description": null,
+    "description": "Montia parvifolia is a species of flowering plant in the family Montiaceae known by the common names little-leaf miner's lettuce, small-leaved blinks and small-leaved montia. It is native to western North America from Alaska to California to Montana, where it grows in moist to wet areas in several types of mountain habitat.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1577,7 +2026,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "montia_parvifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1643,11 +2092,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Montia parvifolia"
+      ],
       "en": [
-        "Littleleaf minerslettuce"
+        "Littleleaf minerslettuce",
+        "Montia parvifolia"
+      ],
+      "es": [
+        "Montia parvifolia"
+      ],
+      "fr": [
+        "Montia parvifolia"
+      ],
+      "it": [
+        "Montia parvifolia"
+      ],
+      "nl": [
+        "Montia parvifolia"
+      ],
+      "pl": [
+        "Montia parvifolia"
+      ],
+      "pt": [
+        "Montia parvifolia"
+      ],
+      "ru": [
+        "Montia parvifolia"
       ]
     },
     "tags": [],
@@ -1659,12 +2135,12 @@
     "family": "Montiaceae",
     "genus": "Phemeranthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/653fe35bda356438aa00de3b88d750a4268956be",
-    "description": null,
+    "description": "Phemeranthus parviflorus, commonly called sunbright or prairie fame flower, is a species of flowering plant in the montia family (Montiaceae). It is native to North America, where it is found in the central and eastern United States and northern Mexico. Its natural habitat is in dry, sandy or rocky areas, typically on acidic substrates. Over its extensive range, it is found various communities such as grasslands, open woodlands, glades, mountain slopes, and bluffs.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1741,11 +2217,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phemeranthus parviflorus"
+      ],
       "en": [
+        "Phemeranthus parviflorus",
         "Sunbright"
+      ],
+      "es": [
+        "Phemeranthus parviflorus"
+      ],
+      "fr": [
+        "Phemeranthus parviflorus"
+      ],
+      "it": [
+        "Phemeranthus parviflorus"
+      ],
+      "nl": [
+        "Phemeranthus parviflorus"
+      ],
+      "pl": [
+        "Phemeranthus parviflorus"
+      ],
+      "pt": [
+        "Phemeranthus parviflorus"
+      ],
+      "ru": [
+        "Phemeranthus parviflorus"
+      ],
+      "zh": [
+        "小花玉栌兰"
       ]
     },
     "tags": [],
@@ -1757,12 +2263,12 @@
     "family": "Montiaceae",
     "genus": "Rumicastrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Rumicastrum calyptratum, the pink purslane or small-leaved parakeelya, is an annual plant in the family Montiaceae. It is endemic to Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1839,9 +2345,36 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rumicastrum calyptratum"
+      ],
+      "en": [
+        "Rumicastrum calyptratum"
+      ],
+      "es": [
+        "Rumicastrum calyptratum"
+      ],
+      "fr": [
+        "Rumicastrum calyptratum"
+      ],
+      "it": [
+        "Rumicastrum calyptratum"
+      ],
+      "nl": [
+        "Rumicastrum calyptratum"
+      ],
+      "pl": [
+        "Rumicastrum calyptratum"
+      ],
+      "pt": [
+        "Rumicastrum calyptratum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1851,7 +2384,7 @@
     "family": "Montiaceae",
     "genus": "Rumicastrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1933,9 +2466,36 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rumicastrum eremaeum"
+      ],
+      "en": [
+        "Rumicastrum eremaeum"
+      ],
+      "es": [
+        "Rumicastrum eremaeum"
+      ],
+      "fr": [
+        "Rumicastrum eremaeum"
+      ],
+      "it": [
+        "Rumicastrum eremaeum"
+      ],
+      "nl": [
+        "Rumicastrum eremaeum"
+      ],
+      "pl": [
+        "Rumicastrum eremaeum"
+      ],
+      "pt": [
+        "Rumicastrum eremaeum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1945,12 +2505,12 @@
     "family": "Montiaceae",
     "genus": "Rumicastrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Rumicastrum granuliferum is an annual herb in the family Montiaceae, and is native to New South Wales, Tasmania, Western Australia, South Australia, and Victoria.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2027,9 +2587,36 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rumicastrum granuliferum"
+      ],
+      "en": [
+        "Rumicastrum granuliferum"
+      ],
+      "es": [
+        "Rumicastrum granuliferum"
+      ],
+      "fr": [
+        "Rumicastrum granuliferum"
+      ],
+      "it": [
+        "Rumicastrum granuliferum"
+      ],
+      "nl": [
+        "Rumicastrum granuliferum"
+      ],
+      "pl": [
+        "Rumicastrum granuliferum"
+      ],
+      "pt": [
+        "Rumicastrum granuliferum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

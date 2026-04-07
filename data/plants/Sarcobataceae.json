@@ -5,7 +5,7 @@
     "family": "Sarcobataceae",
     "genus": "Sarcobatus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sarcobatus vermiculatus"
+      ],
       "en": [
-        "Greasewood"
+        "Greasewood",
+        "Sarcobatus vermiculatus"
+      ],
+      "es": [
+        "Sarcobatus vermiculatus"
+      ],
+      "fr": [
+        "Sarcobatus vermiculatus"
+      ],
+      "it": [
+        "Sarcobatus vermiculatus"
+      ],
+      "nl": [
+        "Sarcobatus vermiculatus"
+      ],
+      "pl": [
+        "Sarcobatus vermiculatus"
+      ],
+      "pt": [
+        "Sarcobatus vermiculatus"
+      ],
+      "ru": [
+        "Sarcobatus vermiculatus"
       ]
     },
     "tags": [],

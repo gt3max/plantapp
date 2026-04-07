@@ -5,7 +5,7 @@
     "family": "Climaciaceae",
     "genus": "Climacium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Climacium americanum"
+      ],
+      "en": [
+        "Climacium americanum"
+      ],
+      "es": [
+        "Climacium americanum"
+      ],
+      "fr": [
+        "Climacium americanum"
+      ],
+      "it": [
+        "Climacium americanum"
+      ],
+      "nl": [
+        "Climacium americanum"
+      ],
+      "pl": [
+        "Climacium americanum"
+      ],
+      "pt": [
+        "Climacium americanum"
+      ],
+      "ru": [
+        "Climacium americanum"
+      ],
+      "zh": [
+        "美国万年藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Climaciaceae",
     "genus": "Climacium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bäumchen-Leitermoos"
+      ],
+      "en": [
+        "Climacium dendroides"
+      ],
+      "es": [
+        "Climacium dendroides"
+      ],
+      "fr": [
+        "Climacium dendroides"
+      ],
+      "it": [
+        "Climacium dendroides"
+      ],
+      "ja": [
+        "フロウソウ"
+      ],
+      "nl": [
+        "Boompjesmos"
+      ],
+      "pl": [
+        "Drabik drzewkowaty"
+      ],
+      "pt": [
+        "Climacium dendroides"
+      ],
+      "ru": [
+        "Климациум древовидный"
+      ],
+      "zh": [
+        "万年藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

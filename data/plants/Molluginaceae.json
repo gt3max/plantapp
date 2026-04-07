@@ -5,12 +5,12 @@
     "family": "Molluginaceae",
     "genus": "Glinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/03eca55f3f00218094f378a267e766cc7a7ff7ce",
-    "description": null,
+    "description": "Glinus lotoides is a species of flowering plant in the family Molluginaceae known by the common names damascisa and lotus sweetjuice. It is native to Eurasia and Africa and it is known in many other places as an introduced species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -26,12 +26,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "ar": [
+        "حشيشة البساط",
+        "خبيزة",
+        "غبيرة",
+        "مغيرة"
+      ],
+      "de": [
+        "Glinus lotoides"
+      ],
       "en": [
-        "Damascisa"
+        "Damascisa",
+        "Glinus lotoides"
+      ],
+      "es": [
+        "Glinus lotoides"
+      ],
+      "fr": [
+        "Glinus lotoides"
+      ],
+      "it": [
+        "Glinus lotoides"
+      ],
+      "nl": [
+        "Glinus lotoides"
+      ],
+      "pl": [
+        "Glinus lotoides"
+      ],
+      "pt": [
+        "Glinus lotoides"
+      ],
+      "ru": [
+        "Glinus lotoides"
+      ],
+      "zh": [
+        "星粟草",
+        "虎咬瘸"
       ]
     },
     "tags": [],
@@ -103,7 +140,7 @@
     "family": "Molluginaceae",
     "genus": "Glinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,11 +222,49 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Glinus oppositifolius"
+      ],
       "en": [
+        "Bitter Cumin",
+        "Gima",
+        "Glinus oppositifolius",
+        "Indian Chickweed",
+        "Jima",
         "Slender carpetweed"
+      ],
+      "es": [
+        "Glinus oppositifolius"
+      ],
+      "fr": [
+        "Glinus oppositifolius"
+      ],
+      "it": [
+        "Glinus oppositifolius"
+      ],
+      "nl": [
+        "Glinus oppositifolius"
+      ],
+      "pl": [
+        "Glinus oppositifolius"
+      ],
+      "pt": [
+        "Glinus oppositifolius"
+      ],
+      "ru": [
+        "Glinus oppositifolius"
+      ],
+      "zh": [
+        "假繁缕",
+        "簇花栗米草",
+        "簇花粟米草",
+        "粟米草",
+        "长梗星粟草"
       ]
     },
     "tags": [],
@@ -201,7 +276,7 @@
     "family": "Molluginaceae",
     "genus": "Hypertelis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -283,11 +358,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypertelis cerviana"
+      ],
       "en": [
+        "Hypertelis cerviana",
         "Threadstem carpetweed"
+      ],
+      "es": [
+        "Hypertelis cerviana"
+      ],
+      "fr": [
+        "Hypertelis cerviana"
+      ],
+      "it": [
+        "Hypertelis cerviana"
+      ],
+      "nl": [
+        "Hypertelis cerviana"
+      ],
+      "pl": [
+        "Hypertelis cerviana"
+      ],
+      "pt": [
+        "Hypertelis cerviana"
+      ],
+      "ru": [
+        "Hypertelis cerviana"
+      ],
+      "zh": [
+        "线叶漆姑粟草"
       ]
     },
     "tags": [],
@@ -299,12 +404,12 @@
     "family": "Molluginaceae",
     "genus": "Mollugo",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ff527cbbd0e1c65c86cd7ffa032d1faca0f49107",
-    "description": null,
+    "description": "Mollugo verticillata, the green carpetweed, is a rapidly spreading annual plant from tropical America. In eastern North America, it is a common weed growing in disturbed areas. It forms a prostrate circular mat that can quickly climb over nearby plants and obstacles. The species has been reported from every state in the United States except Alaska, Hawaii, and Utah, as well as from British Columbia, Manitoba. Ontario, Quebec, New Brunswick and Nova Scotia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -320,12 +425,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -381,11 +486,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Mollugo verticillata"
+      ],
       "en": [
-        "Green carpetweed"
+        "Green carpetweed",
+        "Mollugo verticillata"
+      ],
+      "es": [
+        "Mollugo verticillata"
+      ],
+      "fr": [
+        "Mollugo verticillata"
+      ],
+      "it": [
+        "Mollugo verticillata"
+      ],
+      "nl": [
+        "Mollugo verticillata"
+      ],
+      "pl": [
+        "Mollugo verticillata"
+      ],
+      "pt": [
+        "Mollugo verticillata"
+      ],
+      "ru": [
+        "Mollugo verticillata"
+      ],
+      "zh": [
+        "光葉栗米草"
       ]
     },
     "tags": [],
@@ -397,12 +532,12 @@
     "family": "Molluginaceae",
     "genus": "Paramollugo",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f586e37818c78d4c6fc8199f952cd68492149a77",
-    "description": null,
+    "description": "Paramollugo nudicaulis is a species of plant in the genus Paramollugo. Originally native to Madagascar and surrounding islands, it has become widely dispersed as a weed across tropical Africa, southern Arabia, and South and Southeast Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -479,11 +614,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Paramollugo nudicaulis"
+      ],
       "en": [
-        "Nakedstem carpetweed"
+        "Nakedstem carpetweed",
+        "Paramollugo nudicaulis"
+      ],
+      "es": [
+        "Paramollugo nudicaulis"
+      ],
+      "fr": [
+        "Paramollugo nudicaulis"
+      ],
+      "it": [
+        "Paramollugo nudicaulis"
+      ],
+      "nl": [
+        "Paramollugo nudicaulis"
+      ],
+      "pl": [
+        "Paramollugo nudicaulis"
+      ],
+      "pt": [
+        "Paramollugo nudicaulis"
+      ],
+      "ru": [
+        "Paramollugo nudicaulis"
+      ],
+      "zh": [
+        "无茎粟草"
       ]
     },
     "tags": [],
@@ -495,7 +660,7 @@
     "family": "Molluginaceae",
     "genus": "Trigastrotheca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -577,9 +742,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trigastrotheca pentaphylla"
+      ],
+      "en": [
+        "Trigastrotheca pentaphylla"
+      ],
+      "es": [
+        "Trigastrotheca pentaphylla"
+      ],
+      "fr": [
+        "Trigastrotheca pentaphylla"
+      ],
+      "it": [
+        "Trigastrotheca pentaphylla"
+      ],
+      "nl": [
+        "Trigastrotheca pentaphylla"
+      ],
+      "pl": [
+        "Trigastrotheca pentaphylla"
+      ],
+      "pt": [
+        "Trigastrotheca pentaphylla"
+      ],
+      "ru": [
+        "Trigastrotheca pentaphylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

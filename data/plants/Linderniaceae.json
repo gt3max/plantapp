@@ -5,12 +5,12 @@
     "family": "Linderniaceae",
     "genus": "Bonnaya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/88dbd80f5a7549e7cb9f69247c5a0141.jpg",
-    "description": null,
+    "description": "Bonnaya antipoda is a herbaceous perennial plant belonging to Linderniaceae family. It is native to tropical and sub-tropical Asia and Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bonnaya antipoda"
+      ],
+      "en": [
+        "Bonnaya antipoda"
+      ],
+      "es": [
+        "Bonnaya antipoda"
+      ],
+      "fr": [
+        "Bonnaya antipoda"
+      ],
+      "it": [
+        "Bonnaya antipoda"
+      ],
+      "nl": [
+        "Bonnaya antipoda"
+      ],
+      "pl": [
+        "Bonnaya antipoda"
+      ],
+      "pt": [
+        "Bonnaya antipoda"
+      ],
+      "ru": [
+        "Bonnaya antipoda"
+      ],
+      "zh": [
+        "泥花母草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Linderniaceae",
     "genus": "Lindernia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e6d40f5199052145b8302d1843bf7b4ca76d12a0",
-    "description": null,
+    "description": "Lindernia dubia is a species of flowering plant known by the common names yellowseed false pimpernel and moist bank pimpernel. It is a member of the \"new\" plant family Linderniaceae, and it is sometimes treated as a member of the families Scrophulariaceae and Plantaginaceae. It is native to much of the Americas from Canada to Chile, and it can be found on other continents as an introduced species. It grows in wet habitat, such as riverbanks, pond margins, and meadows.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -115,17 +148,17 @@
     "synonyms": "[\"Gratiola dubia\", \"Ilysanthes dubia\", \"Ilysanthes gratioloides\", \"Limnophila dubia\", \"Capraria gratioloides\"]",
     "care": {
       "plant_id": "lindernia_dubia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -181,11 +214,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "de": [
+        "Großes Büchsenkraut",
+        "Lindernia dubia"
+      ],
       "en": [
+        "Lindernia dubia",
         "Moist-bank-pimpernel"
+      ],
+      "es": [
+        "Lindernia dubia"
+      ],
+      "fr": [
+        "Lindernia dubia"
+      ],
+      "it": [
+        "Lindernia dubia"
+      ],
+      "nl": [
+        "Lindernia dubia"
+      ],
+      "pl": [
+        "Lindernia dubia"
+      ],
+      "pt": [
+        "Lindernia dubia"
+      ],
+      "ru": [
+        "Lindernia dubia"
+      ],
+      "zh": [
+        "北美母草",
+        "美洲母草"
       ]
     },
     "tags": [],
@@ -197,7 +262,7 @@
     "family": "Linderniaceae",
     "genus": "Lindernia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -213,17 +278,17 @@
     "synonyms": "[\"Tittmannia erecta\", \"Vandellia nervosa\", \"Pyxidaria procumbens f. erecta\", \"Lindernia palustris\", \"Lindernia pyxidaria\", \"Anagalloides procumbens\", \"Lindernia kitaibelii\", \"Torenia trichotoma\", \"Torenia quinquenervis\", \"Lindernia gratioloides\"]",
     "care": {
       "plant_id": "lindernia_procumbens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -279,11 +344,40 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.9
     },
     "common_names": {
+      "de": [
+        "Gewöhnliches Büchsenkraut",
+        "Niederliegendes Büchsenkraut"
+      ],
       "en": [
         "Prostrate false pimpernel"
+      ],
+      "fr": [
+        "Lindernie couchée",
+        "Lindernie des marais",
+        "Lindernie pyxidaire",
+        "Lindernie rampante"
+      ],
+      "ja": [
+        "アゼナ"
+      ],
+      "ko": [
+        "밭둑외풀",
+        "밭뚝외풀"
+      ],
+      "pl": [
+        "Lindernia mułowa"
+      ],
+      "zh": [
+        "棱萼母草",
+        "母草",
+        "白猪母菜",
+        "陌上草",
+        "陌上菜"
       ]
     },
     "tags": [],
@@ -295,7 +389,7 @@
     "family": "Linderniaceae",
     "genus": "Micranthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -377,11 +471,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthemum umbrosum"
+      ],
       "en": [
+        "Micranthemum umbrosum",
         "Shade mudflower"
+      ],
+      "es": [
+        "Micranthemum umbrosum"
+      ],
+      "fr": [
+        "Micranthemum umbrosum"
+      ],
+      "it": [
+        "Micranthemum umbrosum"
+      ],
+      "nl": [
+        "Micranthemum umbrosum"
+      ],
+      "pl": [
+        "Mikrantemum okrągłolistne"
+      ],
+      "pt": [
+        "Micranthemum umbrosum"
+      ],
+      "ru": [
+        "Micranthemum umbrosum"
+      ],
+      "zh": [
+        "微花草"
       ]
     },
     "tags": [],
@@ -393,7 +517,7 @@
     "family": "Linderniaceae",
     "genus": "Torenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -475,9 +599,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Torenia concolor"
+      ],
+      "en": [
+        "Torenia concolor"
+      ],
+      "es": [
+        "Torenia concolor"
+      ],
+      "fr": [
+        "Torenia concolor"
+      ],
+      "it": [
+        "Torenia concolor"
+      ],
+      "ja": [
+        "ツルウリクサ"
+      ],
+      "nl": [
+        "Torenia concolor"
+      ],
+      "pl": [
+        "Torenia concolor"
+      ],
+      "pt": [
+        "Torenia concolor"
+      ],
+      "ru": [
+        "Torenia concolor"
+      ],
+      "zh": [
+        "单色蝴蝶草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -487,12 +647,12 @@
     "family": "Linderniaceae",
     "genus": "Torenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a35d8e15c6e266594b616109194db9c5.jpg",
-    "description": null,
+    "description": "Torenia crustacea, commonly known as the Malaysian false pimpernel or brittle false pimpernel, is a species of annual or short-lived perennial flowering plant in the family Linderniaceae. Native to Asia, it has become widely distributed throughout tropical and subtropical regions worldwide and is considered a minor weed in rice paddies and other agricultural areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -569,9 +729,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Torenia crustacea"
+      ],
+      "en": [
+        "Torenia crustacea"
+      ],
+      "es": [
+        "Torenia crustacea"
+      ],
+      "fr": [
+        "Torenia crustacea"
+      ],
+      "it": [
+        "Torenia crustacea"
+      ],
+      "ja": [
+        "ウリクサ"
+      ],
+      "ko": [
+        "외풀"
+      ],
+      "nl": [
+        "Torenia crustacea"
+      ],
+      "pl": [
+        "Torenia crustacea"
+      ],
+      "pt": [
+        "Torenia crustacea"
+      ],
+      "ru": [
+        "Torenia crustacea"
+      ],
+      "zh": [
+        "母草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,7 +780,7 @@
     "family": "Linderniaceae",
     "genus": "Torenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -663,11 +862,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Fournier-Torenie"
+      ],
       "en": [
+        "Torenia fournieri",
         "Wishbone-flower"
+      ],
+      "es": [
+        "Torenia fournieri"
+      ],
+      "fr": [
+        "Torenia fournieri"
+      ],
+      "it": [
+        "Torenia fournieri"
+      ],
+      "ja": [
+        "ハナウリクサ"
+      ],
+      "nl": [
+        "Torenia fournieri"
+      ],
+      "pl": [
+        "Torenia fournieri"
+      ],
+      "pt": [
+        "Torenia fournieri"
+      ],
+      "ru": [
+        "Torenia fournieri"
+      ],
+      "zh": [
+        "夏堇"
       ]
     },
     "tags": [],
@@ -679,7 +911,7 @@
     "family": "Linderniaceae",
     "genus": "Torenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -761,9 +993,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Torenia thouarsii"
+      ],
+      "en": [
+        "Torenia thouarsii"
+      ],
+      "es": [
+        "Torenia thouarsii"
+      ],
+      "fr": [
+        "Torenia thouarsii"
+      ],
+      "it": [
+        "Torenia thouarsii"
+      ],
+      "nl": [
+        "Torenia thouarsii"
+      ],
+      "pl": [
+        "Torenia thouarsii"
+      ],
+      "pt": [
+        "Torenia thouarsii"
+      ],
+      "ru": [
+        "Torenia thouarsii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -773,12 +1035,12 @@
     "family": "Linderniaceae",
     "genus": "Vandellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d7dd51276567c57f3d6bdb0c3377bc25.jpg",
-    "description": null,
+    "description": "Vandellia diffusa is a flowering plant belonging to the family Linderniaceae. The genus Vandellia comprised about 52 species in the world. In India, it represents about 7 species. Vandellia diffusa is native to parts of Central Africa, Madagascar and Turkey and has been introduced into Central America, South America, India and other parts of Asia. This small annual herb spreads up to 30 cm, with 4-sided, slightly hairy stems and oval or round, tooth-edged leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -855,9 +1117,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vandellia diffusa"
+      ],
+      "en": [
+        "Vandellia diffusa"
+      ],
+      "es": [
+        "Vandellia diffusa"
+      ],
+      "fr": [
+        "Vandellia diffusa"
+      ],
+      "it": [
+        "Vandellia diffusa"
+      ],
+      "nl": [
+        "Vandellia diffusa"
+      ],
+      "pl": [
+        "Vandellia diffusa"
+      ],
+      "pt": [
+        "Vandellia diffusa"
+      ],
+      "ru": [
+        "Vandellia diffusa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -867,7 +1159,7 @@
     "family": "Linderniaceae",
     "genus": "Vandellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -949,9 +1241,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vandellia micrantha"
+      ],
+      "en": [
+        "Vandellia micrantha"
+      ],
+      "es": [
+        "Vandellia micrantha"
+      ],
+      "fr": [
+        "Vandellia micrantha"
+      ],
+      "it": [
+        "Vandellia micrantha"
+      ],
+      "nl": [
+        "Vandellia micrantha"
+      ],
+      "pl": [
+        "Vandellia micrantha"
+      ],
+      "pt": [
+        "Vandellia micrantha"
+      ],
+      "ru": [
+        "Vandellia micrantha"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

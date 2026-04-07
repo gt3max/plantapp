@@ -5,12 +5,12 @@
     "family": "Buxaceae",
     "genus": "Buxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c77c865937308bfdd548e52f36252c16724cfb00",
-    "description": "A dehiscent 3-celled capsule that matures to brown",
+    "description": "Buxus microphylla, the Japanese box or littleleaf box, is a species of flowering plant in the box family \nfound in Japan and Taiwan. It is a dwarf evergreen shrub or small tree growing to 1 m (3.3 ft) tall and wide.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,7 +21,7 @@
     "synonyms": "[\"Buxus sempervirens var. microphylla\", \"Buxus japonica var. microphylla\"]",
     "care": {
       "plant_id": "buxus_microphylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -93,11 +93,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شمشاد صغير الأوراق"
+      ],
+      "de": [
+        "Kleinblättriger Buchsbaum"
+      ],
       "en": [
+        "Buxus microphylla",
         "Littleleaf boxwood"
+      ],
+      "es": [
+        "Buxus microphylla"
+      ],
+      "fr": [
+        "Buxus microphylla"
+      ],
+      "it": [
+        "Buxus microphylla"
+      ],
+      "ja": [
+        "ツゲ"
+      ],
+      "nl": [
+        "Buxus microphylla"
+      ],
+      "pl": [
+        "Bukszpan drobnolistny"
+      ],
+      "pt": [
+        "Buxus microphylla"
+      ],
+      "ru": [
+        "Самшит мелколистный"
+      ],
+      "zh": [
+        "黃楊"
       ]
     },
     "tags": [],
@@ -109,7 +145,7 @@
     "family": "Buxaceae",
     "genus": "Buxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -125,9 +161,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "buxus_microphylla_peergold_golden_dream",
-      "water_frequency": null,
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "filtered shade",
@@ -197,7 +233,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -219,7 +257,7 @@
     "family": "Buxaceae",
     "genus": "Buxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -235,13 +273,13 @@
     "synonyms": "[\"Buxus handsworthii\", \"Buxus sempervirens var. prostrata\", \"Buxus sempervirens var. arborescens\", \"Buxus sempervirens f. rotundifolia\", \"Buxus sempervirens f. handsworthiensis\", \"Buxus sempervirens var. grandifolia\", \"Buxus sempervirens var. glauca\", \"Buxus sempervirens var. angustifolia\", \"Buxus sempervirens f. bullata\", \"Buxus sempervirens var. pendula\"]",
     "care": {
       "plant_id": "buxus_sempervirens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -266,9 +304,9 @@
       "watering_guide": "Propagation: Stem Cutting",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Remove dead leaves timely | Similar plants: Buxus microphylla | Native to: BGM BE, NCS ST, NCS KC, ALG, NWY OO",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: strong toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -286,8 +324,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -301,11 +339,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 4.8
     },
     "common_names": {
+      "ar": [
+        "شمشاد دائم الخضرة"
+      ],
+      "de": [
+        "Gewöhnlicher Buchsbaum"
+      ],
       "en": [
+        "Buxus sempervirens",
         "Caucasian boxwood"
+      ],
+      "es": [
+        "Buxus sempervirens"
+      ],
+      "fr": [
+        "Buxus sempervirens"
+      ],
+      "it": [
+        "Buxus sempervirens"
+      ],
+      "ja": [
+        "セイヨウツゲ"
+      ],
+      "nl": [
+        "Buxus"
+      ],
+      "pl": [
+        "bukszpan zwyczajny"
+      ],
+      "pt": [
+        "Buxo"
+      ],
+      "ru": [
+        "Самшит вечнозелёный"
+      ],
+      "tr": [
+        "Adi şimşir"
+      ],
+      "zh": [
+        "锦熟黄杨"
       ]
     },
     "tags": [],
@@ -317,7 +394,7 @@
     "family": "Buxaceae",
     "genus": "Buxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -333,7 +410,7 @@
     "synonyms": "[\"Buxus microphylla var. sinica\", \"Buxus microphylla subsp. sinica\"]",
     "care": {
       "plant_id": "buxus_sinica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -402,11 +479,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Buxus sinica"
+      ],
       "en": [
+        "Buxus sinica",
         "Chinese boxwood"
+      ],
+      "es": [
+        "Buxus sinica"
+      ],
+      "fr": [
+        "Buxus sinica"
+      ],
+      "it": [
+        "Buxus sinica"
+      ],
+      "nl": [
+        "Buxus sinica"
+      ],
+      "pl": [
+        "Buxus sinica"
+      ],
+      "pt": [
+        "Buxus sinica"
+      ],
+      "ru": [
+        "Buxus sinica"
+      ],
+      "zh": [
+        "黄杨"
       ]
     },
     "tags": [],
@@ -418,12 +525,12 @@
     "family": "Buxaceae",
     "genus": "Pachysandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c8afece848c610ffe64567231b4eb2f683ffca6c",
-    "description": "The fruit is small dry capsules, seldom produced in any quantity.  Not ornamentally important.",
+    "description": "Pachysandra procumbens, the Allegheny pachysandra or Allegheny spurge, is a flowering plant in the family Buxaceae, native to the southeast United States from West Virginia and Kentucky south to Florida, and west to Louisiana. The name Allegheny is sometimes spelled Alleghany.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -500,11 +607,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pachysandra procumbens"
+      ],
       "en": [
-        "Mountain-spurge"
+        "Mountain-spurge",
+        "Pachysandra procumbens"
+      ],
+      "es": [
+        "Pachysandra procumbens"
+      ],
+      "fr": [
+        "Pachysandra procumbens"
+      ],
+      "it": [
+        "Pachysandra procumbens"
+      ],
+      "nl": [
+        "Pachysandra procumbens"
+      ],
+      "pl": [
+        "Pachysandra procumbens"
+      ],
+      "pt": [
+        "Pachysandra procumbens"
+      ],
+      "ru": [
+        "Pachysandra procumbens"
       ]
     },
     "tags": [],
@@ -516,12 +650,12 @@
     "family": "Buxaceae",
     "genus": "Pachysandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7f522b065357286f1f8aefd71744af48dcca3a97",
-    "description": "Fruits are a berry-like drupe, whitish in color, and less than an inch in size. Fruits are rarely seen.",
+    "description": "Pachysandra terminalis, the Japanese pachysandra, carpet box or Japanese spurge, is a species of flowering plant in the boxwood family Buxaceae, native to Japan, Korea and China and introduced to eastern North America. It is a slow-growing, spreading evergreen perennial growing to 10 cm (4 in) tall by 60 cm (24 in) broad, with alternate, simple, glossy leaves, and creeping stems. The leaves may yellow in direct sunlight or in winter.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -564,8 +698,8 @@
       "light_guide": "NC State: Deep shade (Less than 2 hours to no direct sunlight)",
       "tips": "Similar plants: Ajuga reptans",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -583,8 +717,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -598,11 +732,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dickmännchen"
+      ],
       "en": [
-        "Japanese pachysandra"
+        "Japanese pachysandra",
+        "Pachysandra terminalis"
+      ],
+      "es": [
+        "Pachysandra terminalis"
+      ],
+      "fr": [
+        "Pachysandra terminalis"
+      ],
+      "it": [
+        "Pachysandra terminalis"
+      ],
+      "ja": [
+        "フッキソウ"
+      ],
+      "ko": [
+        "수호초"
+      ],
+      "nl": [
+        "Dikkemanskruid"
+      ],
+      "pl": [
+        "Runianka japońska"
+      ],
+      "pt": [
+        "Pachysandra terminalis"
+      ],
+      "ru": [
+        "Pachysandra terminalis"
+      ],
+      "zh": [
+        "顶花板凳果"
       ]
     },
     "tags": [],

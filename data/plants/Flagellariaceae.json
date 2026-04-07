@@ -5,12 +5,12 @@
     "family": "Flagellariaceae",
     "genus": "Flagellaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/438b8544eb7d7dca86c8d9b384610f9ba0e4785f",
-    "description": null,
+    "description": "Flagellaria indica is a climbing plant found in many of the tropical and subtropical regions of the Old World, in India, Bangladesh, Southeast Asia, Polynesia, and Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Flagellaria indica"
+      ],
       "en": [
+        "Flagellaria indica",
         "Supplejack vine"
+      ],
+      "es": [
+        "Flagellaria indica"
+      ],
+      "fr": [
+        "Flagellaria indica"
+      ],
+      "it": [
+        "Flagellaria indica"
+      ],
+      "ja": [
+        "トウツルモドキ"
+      ],
+      "nl": [
+        "Flagellaria indica"
+      ],
+      "pl": [
+        "Flagellaria indica"
+      ],
+      "pt": [
+        "Flagellaria indica"
+      ],
+      "ru": [
+        "Flagellaria indica"
+      ],
+      "zh": [
+        "须叶藤"
       ]
     },
     "tags": [],

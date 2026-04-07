@@ -5,12 +5,12 @@
     "family": "Scrophulariaceae",
     "genus": "Alonsoa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/735c623b7952b7596999fe043f6ed1cd06bc6b49",
-    "description": null,
+    "description": "Alonsoa meridionalis, is an ornamental plant in the family Scrophulariaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,7 +87,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -125,12 +127,12 @@
     "family": "Scrophulariaceae",
     "genus": "Buddleja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1231405b3ce935f68760000c413643833380c7e0",
-    "description": "The fruit is a small, narrow capsule that contains winged seeds",
+    "description": "Buddleja americana is the most widespread of all the Buddleja species native to the Americas, its range extending south from Tamaulipas, Mexico, through Central America and much of the West Indies into South America, reaching eastward to Venezuela, westward as far as the Galapagos, and south to Bolivia. It occurs at elevations from sea level to 2500 m, in a variety of habitats, including cloud forest, mountain savanna, pine–oak forest, and rocky slopes near rivers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -141,7 +143,7 @@
     "synonyms": "[\"Buddleja floribunda\", \"Buddleja cana\", \"Buddleja americana\", \"Buddleja spicata\", \"Buddleja americana var. albiflora\", \"Buddleja americana var. rothschuhii\", \"Buddleja callicarpoides\", \"Buddleja dentata\", \"Buddleja verbasci\", \"Buddleja verbascifolia\"]",
     "care": {
       "plant_id": "buddleja_americana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -207,9 +209,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Buddleja americana"
+      ],
+      "en": [
+        "Buddleja americana"
+      ],
+      "es": [
+        "Buddleja americana"
+      ],
+      "fr": [
+        "Buddleja americana"
+      ],
+      "it": [
+        "Buddleja americana"
+      ],
+      "nl": [
+        "Buddleja americana"
+      ],
+      "pl": [
+        "Buddleja americana"
+      ],
+      "pt": [
+        "Buddleja americana"
+      ],
+      "ru": [
+        "Buddleja americana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -219,12 +251,12 @@
     "family": "Scrophulariaceae",
     "genus": "Buddleja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ac99368acf3090aa982938fa7b73308901a81e2c",
-    "description": "The fruit is a dry capsule that splits open and contains many tiny seeds",
+    "description": "Buddleja asiatica, also known as dogtail, is a species of flowering plant in the figwort family, Scrophulariaceae. It grows in open woodland at elevations < 2,800 m either as understorey scrub, or as a small tree. First described by Loureiro in 1790, B. asiatica was introduced to the UK in 1874, and accorded the RHS Award of Garden Merit in 1993. It is highly invasive in Hawaii, Guam, and the Northern Mariana Islands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -235,7 +267,7 @@
     "synonyms": "[\"Buddleja virgata\", \"Buddleja serrulata\", \"Buddleja amentacea\", \"Vitex esquirolii\", \"Buddleja acuminatissima\", \"Buddleja salicina\", \"Buddleja sundaica\", \"Buddleja neemda\", \"Buddleja subserrata\", \"Buddleja discolor\"]",
     "care": {
       "plant_id": "buddleja_asiatica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
@@ -301,11 +333,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Buddleja asiatica"
+      ],
       "en": [
+        "Buddleja asiatica",
         "Dogtail"
+      ],
+      "es": [
+        "Buddleja asiatica"
+      ],
+      "fr": [
+        "Buddleja asiatica"
+      ],
+      "it": [
+        "Buddleja asiatica"
+      ],
+      "nl": [
+        "Buddleja asiatica"
+      ],
+      "pl": [
+        "Buddleja asiatica"
+      ],
+      "pt": [
+        "Buddleja asiatica"
+      ],
+      "ru": [
+        "Buddleja asiatica"
+      ],
+      "zh": [
+        "白背枫"
       ]
     },
     "tags": [],
@@ -317,12 +379,12 @@
     "family": "Scrophulariaceae",
     "genus": "Buddleja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/835d0c25537d748bf583025d8d40d16a56654557",
-    "description": "The fruit is a dry capsule that splits open and contains many tiny seeds",
+    "description": "Buddleja cordata is endemic to Mexico, growing along forest edges and water courses at elevations of 1500–3000 m; it has also naturalized in parts of Ethiopia. The species was first described and named by Kunth in 1818.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -333,17 +395,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "buddleja_cordata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -399,9 +461,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.4
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Buddleja cordata"
+      ],
+      "en": [
+        "Buddleja cordata"
+      ],
+      "es": [
+        "Buddleja cordata"
+      ],
+      "fr": [
+        "Buddleja cordata"
+      ],
+      "it": [
+        "Buddleja cordata"
+      ],
+      "nl": [
+        "Buddleja cordata"
+      ],
+      "pl": [
+        "Buddleja cordata"
+      ],
+      "pt": [
+        "Buddleja cordata"
+      ],
+      "ru": [
+        "Buddleja cordata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -411,7 +503,7 @@
     "family": "Scrophulariaceae",
     "genus": "Buddleja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -427,13 +519,13 @@
     "synonyms": "[\"Buddleja variabilis\", \"Buddleja davidii var. glabrescens\", \"Buddleja davidii var. alba\", \"Buddleja variabilis var. wilsonii\", \"Buddleja davidii var. superba\", \"Buddleja davidii var. magnifera\", \"Buddleja striata var. zhouquensis\", \"Buddleja delavayi var. tomentosa\", \"Buddleja davidii var. nanhoensis\", \"Buddleja heliophila var. adenophora\"]",
     "care": {
       "plant_id": "buddleja_davidii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 57,
       "ppfd_max": 150,
       "dli_min": 0.2,
@@ -459,8 +551,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Remove aged tissues, dead, rotten, diseased leaves timely | Similar plants: Hemerocallis | Native to: BGM BE, IRE NI, NORTHERN SOUTH AMERICA, AUSTRALASIA, RHO OO",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic (unknown strength). Parts: Whole plant, highest concentrations in leaf, seed. (Source: TPPT/Agroscope)",
       "common_problems": [
         "No serious insect or disease problems",
         "Nematodes can be troublesome in the South",
@@ -487,8 +579,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Arching",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in leaf, seed",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -502,11 +594,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.4
     },
     "common_names": {
+      "ar": [
+        "بودليا دافيدي"
+      ],
+      "de": [
+        "Schmetterlingsflieder"
+      ],
       "en": [
+        "Buddleja davidii",
         "Orange-eye"
+      ],
+      "es": [
+        "Buddleja davidii"
+      ],
+      "fr": [
+        "Buddleia de David"
+      ],
+      "it": [
+        "Buddleja davidii"
+      ],
+      "ja": [
+        "フサフジウツギ"
+      ],
+      "ko": [
+        "부들레야"
+      ],
+      "nl": [
+        "vlinderstruik"
+      ],
+      "pl": [
+        "Budleja Dawida"
+      ],
+      "pt": [
+        "Buddleja davidii"
+      ],
+      "ru": [
+        "Буддлея Давида"
+      ],
+      "tr": [
+        "Kelebek çalısı"
+      ],
+      "zh": [
+        "大叶醉鱼草"
       ]
     },
     "tags": [],
@@ -518,12 +652,12 @@
     "family": "Scrophulariaceae",
     "genus": "Buddleja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d6b0661f412f3b6f7d42316686ad9ef25ccb0d8e",
-    "description": "The fruits are very small, elliptical, yellowish-tan capsules that appear in spherical clusters. The seeds are sub-globular and wingless.",
+    "description": "Buddleja globosa, also known as the orange-ball-tree, orange ball buddleja, and matico, is a species of flowering plant native to Chile and Argentina, where it grows in dry and moist forest, from sea level to 2,000 m. The species was first described and named by Hope in 1782.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -534,7 +668,7 @@
     "synonyms": "[\"Buddleja globifera\", \"Buddleja capitata\", \"Buddleja connata\"]",
     "care": {
       "plant_id": "buddleja_globosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -604,11 +738,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Buddleja globosa"
+      ],
       "en": [
+        "Buddleja globosa",
         "Orange-ball-tree"
+      ],
+      "es": [
+        "Buddleja globosa"
+      ],
+      "fr": [
+        "Buddleja globosa"
+      ],
+      "it": [
+        "Buddleja globosa"
+      ],
+      "nl": [
+        "Buddleja globosa"
+      ],
+      "pl": [
+        "Buddleja globosa"
+      ],
+      "pt": [
+        "Buddleja globosa"
+      ],
+      "ru": [
+        "Buddleja globosa"
+      ],
+      "zh": [
+        "球花醉鱼草"
       ]
     },
     "tags": [],
@@ -620,12 +784,12 @@
     "family": "Scrophulariaceae",
     "genus": "Buddleja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ba950a8641b7142c2374082027d9e23d4907b784",
-    "description": "The fruit is a dry capsule that splits open and contains many tiny seeds",
+    "description": "Buddleja japonica is a deciduous shrub in the family Scrophulariaceae. It is native to Honshu and Shikoku, Japan, where it grows on mountain slopes amid scrub. The shrub was named and described by Hemsley in 1889, and introduced to Western cultivation in 1896.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -636,7 +800,7 @@
     "synonyms": "[\"Buddleja japonica f. albiflora\"]",
     "care": {
       "plant_id": "buddleja_japonica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -702,9 +866,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Buddleja japonica"
+      ],
+      "en": [
+        "Buddleja japonica"
+      ],
+      "es": [
+        "Buddleja japonica"
+      ],
+      "fr": [
+        "Buddleja japonica"
+      ],
+      "it": [
+        "Buddleja japonica"
+      ],
+      "nl": [
+        "Buddleja japonica"
+      ],
+      "pl": [
+        "Buddleja japonica"
+      ],
+      "pt": [
+        "Buddleja japonica"
+      ],
+      "ru": [
+        "Buddleja japonica"
+      ],
+      "zh": [
+        "日本醉鱼草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -714,12 +911,12 @@
     "family": "Scrophulariaceae",
     "genus": "Buddleja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/8397a5e4687cb3105a477da85afead0a.jpg",
-    "description": "The fruit is a dry capsule that splits open and contains many tiny seeds",
+    "description": "Buddleja parviflora is large dioecious shrub or small tree endemic to much of upland Mexico north of the Isthmus of Tehuantepec, in forests at elevations of 750 – 3500 m. The species was first named and described by Kunth in 1818.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -730,7 +927,7 @@
     "synonyms": "[\"Buddleja abbreviata\", \"Buddleja intermedia\", \"Buddleja microphylla\", \"Buddleja integrifolia\", \"Buddleja venusta\", \"Buddleja obtusifolia\", \"Buddleja monticola\", \"Buddleja gracilis\", \"Buddleja parvifolia\", \"Buddleja ligustrina\"]",
     "care": {
       "plant_id": "buddleja_parviflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -796,9 +993,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Buddleja parviflora"
+      ],
+      "en": [
+        "Buddleja parviflora"
+      ],
+      "es": [
+        "Buddleja parviflora"
+      ],
+      "fr": [
+        "Buddleja parviflora"
+      ],
+      "it": [
+        "Buddleja parviflora"
+      ],
+      "nl": [
+        "Buddleja parviflora"
+      ],
+      "pl": [
+        "Buddleja parviflora"
+      ],
+      "pt": [
+        "Buddleja parviflora"
+      ],
+      "ru": [
+        "Buddleja parviflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -808,12 +1035,12 @@
     "family": "Scrophulariaceae",
     "genus": "Buddleja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/abb27a6b821a81a1c4cc57ffde87e6d8b97bc9c3",
-    "description": "The fruit is a small, ellipsoid, hairy capsule with a persistent calyx. The tiny seeds are medium brown and winged at the edges.",
+    "description": "Buddleja salviifolia, common names sage bush and sagewood, is endemic to much of southern and eastern Africa, from Kenya and Angola south, where it grows on rocky hillsides, along forest margins and watercourses. The species was described and named by Lamarck in 1792.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -824,7 +1051,7 @@
     "synonyms": "[\"Buddleja aurantiacomaculata\", \"Lantana salviifolia\"]",
     "care": {
       "plant_id": "buddleja_salviifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -894,11 +1121,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Buddleja salviifolia"
+      ],
       "en": [
+        "Buddleja salviifolia",
         "Wild sagewood"
+      ],
+      "es": [
+        "Buddleja salviifolia"
+      ],
+      "fr": [
+        "Buddleja salviifolia"
+      ],
+      "it": [
+        "Buddleja salviifolia"
+      ],
+      "nl": [
+        "Buddleja salviifolia"
+      ],
+      "pl": [
+        "Buddleja salviifolia"
+      ],
+      "pt": [
+        "Buddleja salviifolia"
+      ],
+      "ru": [
+        "Buddleja salviifolia"
       ]
     },
     "tags": [],
@@ -910,12 +1164,12 @@
     "family": "Scrophulariaceae",
     "genus": "Buddleja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/632d1c7221cfc0e7e6397fee40200548f7eea611",
-    "description": "The fruit is a dry capsule that splits open and contains many tiny seeds",
+    "description": "Buddleja sessiliflora, commonly known as Rio Grande butterfly-bush or tepozán, native to southern Arizona and the lower Rio Grande Valley of Texas in the United States as well as much of central and northern Mexico excluding the Chihuahua Desert and Baja California Sur. The shrub grows in thorn savannah, forests, riparian zones, along roadsides and in disturbed areas from sea level to 2,800 m. The species was first named and described by Kunth in 1818.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -926,9 +1180,9 @@
     "synonyms": "[\"Buddleja melliodora\", \"Buddleja wrightii\", \"Buddleja pringlei\", \"Buddleja barbata\", \"Buddleja pseudoverticillata\", \"Buddleja verticillata\", \"Citharexylum caudatum\", \"Buddleja verticillata\"]",
     "care": {
       "plant_id": "buddleja_sessiliflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -992,11 +1246,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Buddleja sessiliflora"
+      ],
       "en": [
+        "Buddleja sessiliflora",
         "Rio grande butterfly-bush"
+      ],
+      "es": [
+        "Buddleja sessiliflora"
+      ],
+      "fr": [
+        "Buddleja sessiliflora"
+      ],
+      "it": [
+        "Buddleja sessiliflora"
+      ],
+      "nl": [
+        "Buddleja sessiliflora"
+      ],
+      "pl": [
+        "Buddleja sessiliflora"
+      ],
+      "pt": [
+        "Buddleja sessiliflora"
+      ],
+      "ru": [
+        "Buddleja sessiliflora"
       ]
     },
     "tags": [],
@@ -1008,12 +1289,12 @@
     "family": "Scrophulariaceae",
     "genus": "Buddleja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1c97afc9b99a46e6586d0fb56d1be2431d03bf3a",
-    "description": "The fruit is a dry capsule that splits open and contains many tiny seeds",
+    "description": "Buddleja stachyoides is the most widespread member of the genus in South America, endemic to woodland edges, roadsides and riversides in Argentina, Brazil, Bolivia, Paraguay, and Uruguay. Introduced to the UK as B. australis in 1822, when the Royal Botanic Garden Edinburgh grew it from seed received from a Russian source, the plant was described and renamed B. stachyoides by Chamisso and von Schlechtendal in 1827.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1024,7 +1305,7 @@
     "synonyms": "[\"Buddleja thapsoides\", \"Buddleja australis\", \"Buddleja alata\", \"Buddleja albotomentosa\", \"Buddleja otophylla\", \"Buddleja brasiliensis var. glazioviana\", \"Buddleja connata\", \"Buddleja brasiliensis subsp. stachyoides\", \"Buddleja neemda\"]",
     "care": {
       "plant_id": "buddleja_stachyoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1090,9 +1371,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Buddleja stachyoides"
+      ],
+      "en": [
+        "Buddleja stachyoides"
+      ],
+      "es": [
+        "Buddleja stachyoides"
+      ],
+      "fr": [
+        "Buddleja stachyoides"
+      ],
+      "it": [
+        "Buddleja stachyoides"
+      ],
+      "nl": [
+        "Buddleja stachyoides"
+      ],
+      "pl": [
+        "Buddleja stachyoides"
+      ],
+      "pt": [
+        "Buddleja stachyoides"
+      ],
+      "ru": [
+        "Buddleja stachyoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1102,7 +1413,7 @@
     "family": "Scrophulariaceae",
     "genus": "Capraria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1184,11 +1495,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Capraria biflora"
+      ],
       "en": [
+        "Capraria biflora",
         "Goatweed"
+      ],
+      "es": [
+        "Capraria biflora"
+      ],
+      "fr": [
+        "Capraria biflora"
+      ],
+      "it": [
+        "Capraria biflora"
+      ],
+      "nl": [
+        "Capraria biflora"
+      ],
+      "pl": [
+        "Capraria biflora"
+      ],
+      "pt": [
+        "Capraria biflora"
+      ],
+      "ru": [
+        "Capraria biflora"
+      ],
+      "zh": [
+        "双花羊芙蓉"
       ]
     },
     "tags": [],
@@ -1200,12 +1541,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/738a109a1ebe38cb67a95ee91e9d5ef6.jpg",
-    "description": null,
+    "description": "Eremophila alternifolia, commonly known as the narrow-leaved emu bush or narrow-leaved poverty bush, is a plant in the figwort family, Scrophulariaceae, and is endemic to areas between the far west of New South Wales, the far south of the Northern Territory and the southern half of Western Australia. It is a variable shrub, with respect to its growth form, leaf shape and flower colour.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1282,9 +1623,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila alternifolia"
+      ],
+      "en": [
+        "Eremophila alternifolia"
+      ],
+      "es": [
+        "Eremophila alternifolia"
+      ],
+      "fr": [
+        "Eremophila alternifolia"
+      ],
+      "it": [
+        "Eremophila alternifolia"
+      ],
+      "nl": [
+        "Eremophila alternifolia"
+      ],
+      "pl": [
+        "Eremophila alternifolia"
+      ],
+      "pt": [
+        "Eremophila alternifolia"
+      ],
+      "ru": [
+        "Eremophila alternifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1294,7 +1665,7 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1376,11 +1747,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Eremophila bignoniflora"
+      ],
       "en": [
-        "Bignonia emu-bush"
+        "Bignonia emu-bush",
+        "Eremophila bignoniflora"
+      ],
+      "es": [
+        "Eremophila bignoniflora"
+      ],
+      "fr": [
+        "Eremophila bignoniflora"
+      ],
+      "it": [
+        "Eremophila bignoniflora"
+      ],
+      "nl": [
+        "Eremophila bignoniflora"
+      ],
+      "pl": [
+        "Eremophila bignoniflora"
+      ],
+      "pt": [
+        "Eremophila bignoniflora"
+      ],
+      "ru": [
+        "Eremophila bignoniflora"
+      ],
+      "tr": [
+        "Eremophila bignoniflora"
       ]
     },
     "tags": [],
@@ -1392,12 +1793,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/9c41dac89710bd8fd5bcd95409f95583.jpg",
-    "description": null,
+    "description": "Eremophila bignoniiflora, commonly known as Bignonia emu bush, creek wilga, dogwood, and river argee is a plant in the figwort family Scrophulariaceae and is endemic to the Northern Territory and all mainland states of Australia. It is also used by various Aboriginal Australian groups as bush medicine, and known as eurah or eura (Kamilaroi), gooramurra (Jingulu), and kurumbimi (Mudburra).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1474,9 +1875,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila bignoniiflora"
+      ],
+      "en": [
+        "Eremophila bignoniiflora"
+      ],
+      "es": [
+        "Eremophila bignoniiflora"
+      ],
+      "fr": [
+        "Eremophila bignoniiflora"
+      ],
+      "it": [
+        "Eremophila bignoniiflora"
+      ],
+      "nl": [
+        "Eremophila bignoniiflora"
+      ],
+      "pl": [
+        "Eremophila bignoniiflora"
+      ],
+      "pt": [
+        "Eremophila bignoniiflora"
+      ],
+      "ru": [
+        "Eremophila bignoniiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1486,12 +1917,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/20096309425410fb9917595179623c18802fe814",
-    "description": null,
+    "description": "Eremophila debilis, the winter apple or amulla, is a flowering plant in the figwort family Scrophulariaceae, and is endemic to an area extending from north Queensland to near the border between New South Wales and Victoria in Australia. It is a prostrate shrub with elliptic to lance-shaped or egg-shaped leaves and white, rarely deep mauve flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1568,11 +1999,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Eremophila debilis"
+      ],
       "en": [
-        "Amulla"
+        "Amulla",
+        "Eremophila debilis"
+      ],
+      "es": [
+        "Eremophila debilis"
+      ],
+      "fr": [
+        "Eremophila debilis"
+      ],
+      "it": [
+        "Eremophila debilis"
+      ],
+      "nl": [
+        "Eremophila debilis"
+      ],
+      "pl": [
+        "Eremophila debilis"
+      ],
+      "pt": [
+        "Eremophila debilis"
+      ],
+      "ru": [
+        "Eremophila debilis"
       ]
     },
     "tags": [],
@@ -1584,12 +2042,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d9e58bc6ac955665f68b25216d7c5bc7.jpg",
-    "description": null,
+    "description": "Eremophila deserti is a shrub which is endemic to Australia. Common names for this species include turkey bush, dogwood, poison bush Ellangowan poison bush, pencil bush and carrot bush. It is common and widespread in all mainland states, although not the Northern Territory. Some forms are poisonous to stock.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1666,9 +2124,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila deserti"
+      ],
+      "en": [
+        "Eremophila deserti"
+      ],
+      "es": [
+        "Eremophila deserti"
+      ],
+      "fr": [
+        "Eremophila deserti"
+      ],
+      "it": [
+        "Eremophila deserti"
+      ],
+      "nl": [
+        "Eremophila deserti"
+      ],
+      "pl": [
+        "Eremophila deserti"
+      ],
+      "pt": [
+        "Eremophila deserti"
+      ],
+      "ru": [
+        "Eremophila deserti"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1678,12 +2166,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f27f002fd196a47ebba6132cb7bcb60e.jpg",
-    "description": null,
+    "description": "Eremophila duttonii, commonly known as budda or harlequin fuchsia bush, is a flowering plant in the figwort family, Scrophulariaceae and is endemic to mainland Australia where it occurs in all the mainland states except Victoria. It is a shrub or small tree with dark green, sticky leaves and flowers that are red on top fading to yellow-green below. Extracts from this plant have been shown to have significant antimicrobial activity.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1760,9 +2248,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila duttonii"
+      ],
+      "en": [
+        "Eremophila duttonii"
+      ],
+      "es": [
+        "Eremophila duttonii"
+      ],
+      "fr": [
+        "Eremophila duttonii"
+      ],
+      "it": [
+        "Eremophila duttonii"
+      ],
+      "nl": [
+        "Eremophila duttonii"
+      ],
+      "pl": [
+        "Eremophila duttonii"
+      ],
+      "pt": [
+        "Eremophila duttonii"
+      ],
+      "ru": [
+        "Eremophila duttonii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1772,12 +2290,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4a584ad1f30b7cd6c3b77e3ec725a642.jpg",
-    "description": null,
+    "description": "Eremophila forrestii, commonly known as Wilcox bush is a flowering plant in the figwort family, Scrophulariaceae and is endemic to Australia. It is a many-branched shrub with its branches, leaves and sepals densely-covered with a thick layer of greyish or yellowish hairs giving the plant a felty appearance. Its flowers are cream-coloured to pink and are spotted or streaked dark red. It occurs mostly in Western Australia but also in the far west of South Australia and the Northern Territory.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1854,9 +2372,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila forrestii"
+      ],
+      "en": [
+        "Eremophila forrestii"
+      ],
+      "es": [
+        "Eremophila forrestii"
+      ],
+      "fr": [
+        "Eremophila forrestii"
+      ],
+      "it": [
+        "Eremophila forrestii"
+      ],
+      "nl": [
+        "Eremophila forrestii"
+      ],
+      "pl": [
+        "Eremophila forrestii"
+      ],
+      "pt": [
+        "Eremophila forrestii"
+      ],
+      "ru": [
+        "Eremophila forrestii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1866,12 +2414,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Eremophila freelingii, commonly known as limestone fuchsia or rock fuchsia bush, is a flowering plant in the figwort family, Scrophulariaceae and is endemic to Australia. It is a shrub with sticky, hairy, lance-shaped leaves and flowers a shade of light to dark lilac and which occurs in Queensland, New South Wales and South Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1948,9 +2496,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila freelingii"
+      ],
+      "en": [
+        "Eremophila freelingii"
+      ],
+      "es": [
+        "Eremophila freelingii"
+      ],
+      "fr": [
+        "Eremophila freelingii"
+      ],
+      "it": [
+        "Eremophila freelingii"
+      ],
+      "nl": [
+        "Eremophila freelingii"
+      ],
+      "pl": [
+        "Eremophila freelingii"
+      ],
+      "pt": [
+        "Eremophila freelingii"
+      ],
+      "ru": [
+        "Eremophila freelingii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1960,12 +2538,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/79a26c508c2833e2c89f9b17b57a03ee.jpg",
-    "description": null,
+    "description": "Eremophila gilesii, commonly known Charleville turkey bush, green turkey bush, desert fuchsia and Giles emu bush is a flowering plant in the figwort family, Scrophulariaceae, and is endemic to Australia. It is usually a low, spreading shrub with pinkish-lilac to purple flowers and is widespread in the Northern Territory and all mainland states except Victoria. It is considered a difficult agricultural weed in some parts of Queensland but is often used as a bush medicine by Aboriginal people.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2042,9 +2620,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila gilesii"
+      ],
+      "en": [
+        "Eremophila gilesii"
+      ],
+      "es": [
+        "Eremophila gilesii"
+      ],
+      "fr": [
+        "Eremophila gilesii"
+      ],
+      "it": [
+        "Eremophila gilesii"
+      ],
+      "nl": [
+        "Eremophila gilesii"
+      ],
+      "pl": [
+        "Eremophila gilesii"
+      ],
+      "pt": [
+        "Eremophila gilesii"
+      ],
+      "ru": [
+        "Eremophila gilesii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2054,12 +2662,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ad44f79335c56b8c3e4e3f3b47443c72cb87a5b9",
-    "description": null,
+    "description": "Eremophila glabra, commonly known as tar bush, is a plant in the figwort family, Scrophulariaceae and is endemic to Australia. It is sometimes a low, ground-hugging and sometimes an erect shrub. The leaves are variable in size and shape and there is a range of flower colours. In spite of its scientific name, not all forms of the plant are glabrous but most have many small, raised glands on the stems, flowers and leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2136,11 +2744,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Eremophila glabra"
+      ],
       "en": [
-        "Black-fuchsia"
+        "Black-fuchsia",
+        "Eremophila glabra"
+      ],
+      "es": [
+        "Eremophila glabra"
+      ],
+      "fr": [
+        "Eremophila glabra"
+      ],
+      "it": [
+        "Eremophila glabra"
+      ],
+      "nl": [
+        "Eremophila glabra"
+      ],
+      "pl": [
+        "Eremophila glabra"
+      ],
+      "pt": [
+        "Eremophila glabra"
+      ],
+      "ru": [
+        "Eremophila glabra"
       ]
     },
     "tags": [],
@@ -2152,12 +2787,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2ea1b0c9eb2852ffe32fb7da28ffe275c56d6fcc",
-    "description": null,
+    "description": "Eremophila latrobei, commonly known as crimson turkey bush, native fuchsia, Latrobe's emu bush, grey fuchsia bush, warty fuchsia bush and Georgina poison bush is a flowering plant in the figwort family, Scrophulariaceae and is endemic to Australia. It is an erect, highly branched shrub with usually linear leaves and red to purple-red flowers and which occurs in all mainland states, including the Northern Territory but excluding Victoria.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2234,11 +2869,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Eremophila latrobei"
+      ],
       "en": [
-        "Crimson turkeybush"
+        "Crimson turkeybush",
+        "Eremophila latrobei"
+      ],
+      "es": [
+        "Eremophila latrobei"
+      ],
+      "fr": [
+        "Eremophila latrobei"
+      ],
+      "it": [
+        "Eremophila latrobei"
+      ],
+      "nl": [
+        "Eremophila latrobei"
+      ],
+      "pl": [
+        "Eremophila latrobei"
+      ],
+      "pt": [
+        "Eremophila latrobei"
+      ],
+      "ru": [
+        "Eremophila latrobei"
       ]
     },
     "tags": [],
@@ -2250,12 +2912,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/78315926490625a9c2dfc2427eef4478110db314",
-    "description": null,
+    "description": "Eremophila longifolia, known by a range of common names including berrigan, is a flowering plant in the figwort family, Scrophulariaceae and is endemic to Australia. It is a shrub or small tree with weeping branches, long, narrow leaves and brick-red or pink flowers and is found in all Australian mainland states and the Northern Territory.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2332,11 +2994,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Eremophila longifolia"
+      ],
       "en": [
-        "Emubush"
+        "Emubush",
+        "Eremophila longifolia"
+      ],
+      "es": [
+        "Eremophila longifolia"
+      ],
+      "fr": [
+        "Eremophila longifolia"
+      ],
+      "it": [
+        "Eremophila longifolia"
+      ],
+      "nl": [
+        "Eremophila longifolia"
+      ],
+      "pl": [
+        "Eremophila longifolia"
+      ],
+      "pt": [
+        "Eremophila longifolia"
+      ],
+      "ru": [
+        "Eremophila longifolia"
       ]
     },
     "tags": [],
@@ -2348,7 +3037,7 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2430,9 +3119,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila mitchellii"
+      ],
+      "en": [
+        "Eremophila mitchellii"
+      ],
+      "es": [
+        "Eremophila mitchellii"
+      ],
+      "fr": [
+        "Eremophila mitchellii"
+      ],
+      "it": [
+        "Eremophila mitchellii"
+      ],
+      "nl": [
+        "Eremophila mitchellii"
+      ],
+      "pl": [
+        "Eremophila mitchellii"
+      ],
+      "pt": [
+        "Eremophila mitchellii"
+      ],
+      "ru": [
+        "Eremophila mitchellii"
+      ],
+      "zh": [
+        "Eremophila mitchellii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2442,12 +3164,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9c3eac70fe43cf3773957f7d15ad1b2295d6d387",
-    "description": null,
+    "description": "Eremophila oppositifolia, commonly known as weeooka, twin-leaf emu bush and mountain sandalwood, is a plant in the figwort family, Scrophulariaceae, and is endemic to Australia. It is a shrub or small tree with its leaves arranged in opposite pairs and has cream to red or sometimes maroon coloured flowers. It occurs in all mainland states, but not the Northern Territory.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2524,11 +3246,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Eremophila oppositifolia"
+      ],
       "en": [
-        "Emubush"
+        "Emubush",
+        "Eremophila oppositifolia"
+      ],
+      "es": [
+        "Eremophila oppositifolia"
+      ],
+      "fr": [
+        "Eremophila oppositifolia"
+      ],
+      "it": [
+        "Eremophila oppositifolia"
+      ],
+      "nl": [
+        "Eremophila oppositifolia"
+      ],
+      "pl": [
+        "Eremophila oppositifolia"
+      ],
+      "pt": [
+        "Eremophila oppositifolia"
+      ],
+      "ru": [
+        "Eremophila oppositifolia"
       ]
     },
     "tags": [],
@@ -2540,12 +3289,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/eeab19911b5d6677c0a11f01f5dcb723.jpg",
-    "description": null,
+    "description": "Eremophila scoparia, commonly known as silver emubush, is a flowering plant in the figwort family, Scrophulariaceae and is endemic to Australia. It is a broom-like shrub with narrow, hooked leaves, small sepals and deep lilac-coloured to white petals and is common and widespread in southern parts of the continent.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2622,9 +3371,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila scoparia"
+      ],
+      "en": [
+        "Eremophila scoparia"
+      ],
+      "es": [
+        "Eremophila scoparia"
+      ],
+      "fr": [
+        "Eremophila scoparia"
+      ],
+      "it": [
+        "Eremophila scoparia"
+      ],
+      "nl": [
+        "Eremophila scoparia"
+      ],
+      "pl": [
+        "Eremophila scoparia"
+      ],
+      "pt": [
+        "Eremophila scoparia"
+      ],
+      "ru": [
+        "Eremophila scoparia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2634,12 +3413,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/10f46a67fd6fbfe9b8ac4a8e6abda571.jpg",
-    "description": null,
+    "description": "Eremophila serrulata, commonly known as serrate-leaved eremophila, is a flowering plant in the figwort family, Scrophulariaceae and is endemic to Australia. It is an erect or spreading shrub whose leaves are sticky and have small serrations, and flowers that have green, yellowish-green or yellowish-brown petals.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2716,9 +3495,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila serrulata"
+      ],
+      "en": [
+        "Eremophila serrulata"
+      ],
+      "es": [
+        "Eremophila serrulata"
+      ],
+      "fr": [
+        "Eremophila serrulata"
+      ],
+      "it": [
+        "Eremophila serrulata"
+      ],
+      "nl": [
+        "Eremophila serrulata"
+      ],
+      "pl": [
+        "Eremophila serrulata"
+      ],
+      "pt": [
+        "Eremophila serrulata"
+      ],
+      "ru": [
+        "Eremophila serrulata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2728,12 +3537,12 @@
     "family": "Scrophulariaceae",
     "genus": "Eremophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d7c0f37614550e1b4b7b214f3e48309f.jpg",
-    "description": null,
+    "description": "Eremophila sturtii, commonly known as turpentine bush, is a shrub endemic to Australia. Aboriginal people give it names including munyunpa and watara. A medium to large shrub, it is often multi-stemmed and has narrow leaves and lilac-coloured to pale mauve flowers. It is widespread and common in the drier parts of Australia and occurs in all mainland states, although it is endangered in Victoria. It is sometimes regarded as a weed, partly because of its ability to reproduce vegetatively.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2810,9 +3619,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eremophila sturtii"
+      ],
+      "en": [
+        "Eremophila sturtii"
+      ],
+      "es": [
+        "Eremophila sturtii"
+      ],
+      "fr": [
+        "Eremophila sturtii"
+      ],
+      "it": [
+        "Eremophila sturtii"
+      ],
+      "nl": [
+        "Eremophila sturtii"
+      ],
+      "pl": [
+        "Eremophila sturtii"
+      ],
+      "pt": [
+        "Eremophila sturtii"
+      ],
+      "ru": [
+        "Eremophila sturtii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2822,7 +3661,7 @@
     "family": "Scrophulariaceae",
     "genus": "Leucophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2904,11 +3743,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مرامية فضية"
+      ],
+      "de": [
+        "Leucophyllum frutescens"
+      ],
       "en": [
+        "Leucophyllum frutescens",
         "Texas barometer bush"
+      ],
+      "es": [
+        "Leucophyllum frutescens"
+      ],
+      "fr": [
+        "Leucophyllum frutescens"
+      ],
+      "it": [
+        "Leucophyllum frutescens"
+      ],
+      "nl": [
+        "Leucophyllum frutescens"
+      ],
+      "pl": [
+        "Leucophyllum frutescens"
+      ],
+      "pt": [
+        "Leucophyllum frutescens"
+      ],
+      "ru": [
+        "Леукофиллум кустарниковый"
+      ],
+      "zh": [
+        "紅花玉芙蓉"
       ]
     },
     "tags": [],
@@ -2920,7 +3792,7 @@
     "family": "Scrophulariaceae",
     "genus": "Myoporum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3002,9 +3874,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Myoporum insulare"
+      ],
+      "en": [
+        "Myoporum insulare"
+      ],
+      "es": [
+        "Myoporum insulare"
+      ],
+      "fr": [
+        "Myoporum insulare"
+      ],
+      "it": [
+        "Myoporum insulare"
+      ],
+      "nl": [
+        "Myoporum insulare"
+      ],
+      "pl": [
+        "Myoporum insulare"
+      ],
+      "pt": [
+        "Myoporum insulare"
+      ],
+      "ru": [
+        "Myoporum insulare"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3014,12 +3916,12 @@
     "family": "Scrophulariaceae",
     "genus": "Myoporum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8d96bf88df2d97fde5174e4bf6c38b2c6cb29fde",
-    "description": null,
+    "description": "Myoporum laetum, commonly known as ngaio or mousehole tree, is a species of flowering plant in the family Scrophulariaceae and is endemic to New Zealand. It is a fast growing shrub or small tree with lance-shaped leaves, the edges with small serrations, and white flowers with small purple spots and 4 stamens.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3096,11 +3998,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Myoporum laetum"
+      ],
       "en": [
+        "Myoporum laetum",
         "New zealand manatoka"
+      ],
+      "es": [
+        "Myoporum laetum"
+      ],
+      "fr": [
+        "Myoporum laetum"
+      ],
+      "it": [
+        "Myoporum laetum"
+      ],
+      "nl": [
+        "Myoporum laetum"
+      ],
+      "pl": [
+        "Myoporum laetum"
+      ],
+      "pt": [
+        "Myoporum laetum"
+      ],
+      "ru": [
+        "Миопорум яркий"
       ]
     },
     "tags": [],
@@ -3112,12 +4041,12 @@
     "family": "Scrophulariaceae",
     "genus": "Myoporum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Myoporum_platycarpum.jpg",
+    "description": "Myoporum platycarpum, known by several common names including sugarwood, false sandalwood and ngural is a plant in the figwort family, Scrophulariaceae. It is rounded with bright green foliage as a young shrub and roughly fissured, dark grey bark when mature. Sugarwood is endemic to the southern half of continental Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3194,9 +4123,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Myoporum platycarpum"
+      ],
+      "en": [
+        "Myoporum platycarpum"
+      ],
+      "es": [
+        "Myoporum platycarpum"
+      ],
+      "fr": [
+        "Myoporum platycarpum"
+      ],
+      "it": [
+        "Myoporum platycarpum"
+      ],
+      "nl": [
+        "Myoporum platycarpum"
+      ],
+      "pl": [
+        "Myoporum platycarpum"
+      ],
+      "pt": [
+        "Myoporum platycarpum"
+      ],
+      "ru": [
+        "Myoporum platycarpum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3206,12 +4165,12 @@
     "family": "Scrophulariaceae",
     "genus": "Myoporum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3538011a6c6857527e2b57d80e4c7cd4a843bac5",
-    "description": null,
+    "description": "Myoporum sandwicense, commonly known as naio, bastard sandalwood or false sandalwood is a species of flowering plant in the figwort family, Scrophulariaceae. It is a tree or shrub highly variable in its form, the size and shape of its leaves, in the number of flowers in a group and in the shape of its fruit. It is native to the Hawaiian Islands and the island of ʻEua in Tonga.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3288,11 +4247,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Myoporum sandwicense"
+      ],
       "en": [
-        "Bastard-sandalwood"
+        "Bastard-sandalwood",
+        "Myoporum sandwicense"
+      ],
+      "es": [
+        "Myoporum sandwicense"
+      ],
+      "fr": [
+        "Myoporum sandwicense"
+      ],
+      "it": [
+        "Myoporum sandwicense"
+      ],
+      "nl": [
+        "Myoporum sandwicense"
+      ],
+      "pl": [
+        "Myoporum sandwicense"
+      ],
+      "pt": [
+        "Myoporum sandwicense"
+      ],
+      "ru": [
+        "Myoporum sandwicense"
       ]
     },
     "tags": [],
@@ -3304,12 +4290,12 @@
     "family": "Scrophulariaceae",
     "genus": "Myoporum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a1d1949949d12a2d4540566e5d8d1bffaa10a3de",
-    "description": null,
+    "description": "Myoporum tenuifolium is a plant in the figwort family, Scrophulariaceae and it is endemic to New Caledonia and the Loyalty Islands. It can be distinguished from Myoporum crassifolium, by its very thin leaves and its glabrous flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3386,11 +4372,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Myoporum tenuifolium"
+      ],
       "en": [
-        "Manatoka"
+        "Manatoka",
+        "Myoporum tenuifolium"
+      ],
+      "es": [
+        "Myoporum tenuifolium"
+      ],
+      "fr": [
+        "Myoporum tenuifolium"
+      ],
+      "it": [
+        "Myoporum tenuifolium"
+      ],
+      "nl": [
+        "Myoporum tenuifolium"
+      ],
+      "pl": [
+        "Myoporum tenuifolium"
+      ],
+      "pt": [
+        "Myoporum tenuifolium"
+      ],
+      "ru": [
+        "Myoporum tenuifolium"
       ]
     },
     "tags": [],
@@ -3402,7 +4415,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3418,17 +4431,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_alpestris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3490,11 +4503,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "de": [
+        "Scrophularia alpestris"
+      ],
       "en": [
-        "Italian figwort"
+        "Italian figwort",
+        "Scrophularia alpestris"
+      ],
+      "es": [
+        "Scrophularia alpestris"
+      ],
+      "fr": [
+        "Scrophularia alpestris"
+      ],
+      "it": [
+        "Scrophularia alpestris"
+      ],
+      "nl": [
+        "Scrophularia alpestris"
+      ],
+      "pl": [
+        "Scrophularia alpestris"
+      ],
+      "pt": [
+        "Scrophularia alpestris"
+      ],
+      "ru": [
+        "Scrophularia alpestris"
+      ],
+      "tr": [
+        "Scrophularia alpestris"
       ]
     },
     "tags": [],
@@ -3506,7 +4549,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3522,17 +4565,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_auriculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3594,11 +4637,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "غدب أذني"
+      ],
+      "de": [
+        "Scrophularia auriculata"
+      ],
       "en": [
+        "Scrophularia auriculata",
         "Water betony"
+      ],
+      "es": [
+        "Scrophularia auriculata"
+      ],
+      "fr": [
+        "Scrophulaire à oreillettes"
+      ],
+      "it": [
+        "Scrophularia auriculata"
+      ],
+      "nl": [
+        "geoord helmkruid"
+      ],
+      "pl": [
+        "Scrophularia auriculata"
+      ],
+      "pt": [
+        "Scrophularia auriculata"
+      ],
+      "ru": [
+        "Scrophularia auriculata"
+      ],
+      "zh": [
+        "水玄参"
       ]
     },
     "tags": [],
@@ -3610,7 +4686,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3626,17 +4702,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_californica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3698,11 +4774,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "غدب كاليفورني"
+      ],
+      "de": [
+        "Scrophularia californica"
+      ],
       "en": [
-        "California figwort"
+        "California figwort",
+        "Scrophularia californica"
+      ],
+      "es": [
+        "Scrophularia californica"
+      ],
+      "fr": [
+        "Scrophularia californica"
+      ],
+      "it": [
+        "Scrophularia californica"
+      ],
+      "nl": [
+        "Scrophularia californica"
+      ],
+      "pl": [
+        "Scrophularia californica"
+      ],
+      "pt": [
+        "Scrophularia californica"
+      ],
+      "ru": [
+        "Scrophularia californica"
+      ],
+      "zh": [
+        "加州玄参"
       ]
     },
     "tags": [],
@@ -3714,7 +4823,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3730,17 +4839,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_canina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3802,11 +4911,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Scrophularia canina"
+      ],
       "en": [
-        "French figwort"
+        "French figwort",
+        "Scrophularia canina"
+      ],
+      "es": [
+        "Scrophularia canina"
+      ],
+      "fr": [
+        "Scrophulaire des chiens"
+      ],
+      "it": [
+        "Scrophularia canina"
+      ],
+      "nl": [
+        "hondshelmkruid"
+      ],
+      "pl": [
+        "Scrophularia canina"
+      ],
+      "pt": [
+        "Scrophularia canina"
+      ],
+      "ru": [
+        "Scrophularia canina"
+      ],
+      "zh": [
+        "法国玄参"
       ]
     },
     "tags": [],
@@ -3818,7 +4957,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3834,7 +4973,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_kakudensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3900,9 +5039,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Scrophularia kakudensis"
+      ],
+      "en": [
+        "Scrophularia kakudensis"
+      ],
+      "es": [
+        "Scrophularia kakudensis"
+      ],
+      "fr": [
+        "Scrophularia kakudensis"
+      ],
+      "it": [
+        "Scrophularia kakudensis"
+      ],
+      "ja": [
+        "オオヒナノウスツボ"
+      ],
+      "nl": [
+        "Scrophularia kakudensis"
+      ],
+      "pl": [
+        "Scrophularia kakudensis"
+      ],
+      "pt": [
+        "Scrophularia kakudensis"
+      ],
+      "ru": [
+        "Scrophularia kakudensis"
+      ],
+      "zh": [
+        "丹东玄参"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3912,7 +5087,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3928,17 +5103,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_lanceolata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4000,11 +5175,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "غدب سناني"
+      ],
+      "de": [
+        "Scrophularia lanceolata"
+      ],
       "en": [
-        "American figwort"
+        "American figwort",
+        "Scrophularia lanceolata"
+      ],
+      "es": [
+        "Scrophularia lanceolata"
+      ],
+      "fr": [
+        "Scrophularia lanceolata"
+      ],
+      "it": [
+        "Scrophularia lanceolata"
+      ],
+      "nl": [
+        "Scrophularia lanceolata"
+      ],
+      "pl": [
+        "Scrophularia lanceolata"
+      ],
+      "pt": [
+        "Scrophularia lanceolata"
+      ],
+      "ru": [
+        "Scrophularia lanceolata"
+      ],
+      "zh": [
+        "披针叶玄参"
       ]
     },
     "tags": [],
@@ -4016,7 +5224,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4032,17 +5240,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_lucida",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4104,11 +5312,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "غدب صافي"
+      ],
+      "de": [
+        "Scrophularia lucida"
+      ],
       "en": [
-        "Pale figwort"
+        "Pale figwort",
+        "Scrophularia lucida"
+      ],
+      "es": [
+        "Scrophularia lucida"
+      ],
+      "fr": [
+        "Scrophularia lucida"
+      ],
+      "it": [
+        "Scrophularia lucida"
+      ],
+      "nl": [
+        "Scrophularia lucida"
+      ],
+      "pl": [
+        "Scrophularia lucida"
+      ],
+      "pt": [
+        "Scrophularia lucida"
+      ],
+      "ru": [
+        "Scrophularia lucida"
       ]
     },
     "tags": [],
@@ -4120,7 +5358,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4136,17 +5374,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_marilandica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4208,11 +5446,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Scrophularia marilandica"
+      ],
       "en": [
-        "Figwort"
+        "Figwort",
+        "Scrophularia marilandica"
+      ],
+      "es": [
+        "Scrophularia marilandica"
+      ],
+      "fr": [
+        "Scrophularia marilandica"
+      ],
+      "it": [
+        "Scrophularia marilandica"
+      ],
+      "nl": [
+        "Scrophularia marilandica"
+      ],
+      "pl": [
+        "Scrophularia marilandica"
+      ],
+      "pt": [
+        "Scrophularia marilandica"
+      ],
+      "ru": [
+        "Scrophularia marilandica"
+      ],
+      "zh": [
+        "北美玄参"
       ]
     },
     "tags": [],
@@ -4224,7 +5492,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4245,12 +5513,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4312,11 +5580,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.8
     },
     "common_names": {
+      "ar": [
+        "غدب عقدي"
+      ],
+      "de": [
+        "Knotige Braunwurz"
+      ],
       "en": [
-        "Figwort"
+        "Figwort",
+        "Scrophularia nodosa"
+      ],
+      "es": [
+        "Scrophularia nodosa"
+      ],
+      "fr": [
+        "Scrophulaire noueuse"
+      ],
+      "it": [
+        "Scrophularia nodosa"
+      ],
+      "nl": [
+        "knopig helmkruid"
+      ],
+      "pl": [
+        "Trędownik bulwiasty"
+      ],
+      "pt": [
+        "Scrophularia nodosa"
+      ],
+      "ru": [
+        "норичник узловатый"
+      ],
+      "tr": [
+        "Adi sıraca otu"
+      ],
+      "zh": [
+        "林地玄参"
       ]
     },
     "tags": [],
@@ -4328,7 +5632,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4344,17 +5648,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_peregrina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4416,11 +5720,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.7
     },
     "common_names": {
+      "de": [
+        "Scrophularia peregrina"
+      ],
       "en": [
-        "Mediterranean figwort"
+        "Mediterranean figwort",
+        "Scrophularia peregrina"
+      ],
+      "es": [
+        "Scrophularia peregrina"
+      ],
+      "fr": [
+        "Scrophularia peregrina"
+      ],
+      "it": [
+        "Scrophularia peregrina"
+      ],
+      "nl": [
+        "Scrophularia peregrina"
+      ],
+      "pl": [
+        "Scrophularia peregrina"
+      ],
+      "pt": [
+        "Scrophularia peregrina"
+      ],
+      "ru": [
+        "Scrophularia peregrina"
+      ],
+      "zh": [
+        "地中海玄參"
       ]
     },
     "tags": [],
@@ -4432,7 +5766,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4448,7 +5782,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_sambucifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4520,9 +5854,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Scrophularia sambucifolia"
+      ],
+      "en": [
+        "Scrophularia sambucifolia"
+      ],
+      "es": [
+        "Scrophularia sambucifolia"
+      ],
+      "fr": [
+        "Scrophularia sambucifolia"
+      ],
+      "it": [
+        "Scrophularia sambucifolia"
+      ],
+      "nl": [
+        "Scrophularia sambucifolia"
+      ],
+      "pl": [
+        "Scrophularia sambucifolia"
+      ],
+      "pt": [
+        "Scrophularia sambucifolia"
+      ],
+      "ru": [
+        "Scrophularia sambucifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4532,7 +5896,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4548,7 +5912,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_scopolii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4620,9 +5984,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Scrophularia scopolii"
+      ],
+      "en": [
+        "Scrophularia scopolii"
+      ],
+      "es": [
+        "Scrophularia scopolii"
+      ],
+      "fr": [
+        "Scrophularia scopolii"
+      ],
+      "it": [
+        "Scrophularia scopolii"
+      ],
+      "nl": [
+        "Scrophularia scopolii"
+      ],
+      "pl": [
+        "Trędownik omszony"
+      ],
+      "pt": [
+        "Scrophularia scopolii"
+      ],
+      "ru": [
+        "Норичник Скополи"
+      ],
+      "tr": [
+        "Scrophularia scopolii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4632,7 +6029,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4648,17 +6045,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_scorodonia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4720,11 +6117,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Scrophularia scorodonia"
+      ],
       "en": [
-        "Balm-leaved figwort"
+        "Balm-leaved figwort",
+        "Scrophularia scorodonia"
+      ],
+      "es": [
+        "Scrophularia scorodonia"
+      ],
+      "fr": [
+        "Scrophularia scorodonia"
+      ],
+      "it": [
+        "Scrophularia scorodonia"
+      ],
+      "nl": [
+        "Scrophularia scorodonia"
+      ],
+      "pl": [
+        "Scrophularia scorodonia"
+      ],
+      "pt": [
+        "Scrophularia scorodonia"
+      ],
+      "ru": [
+        "Scrophularia scorodonia"
+      ],
+      "zh": [
+        "香叶玄参"
       ]
     },
     "tags": [],
@@ -4736,7 +6163,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4752,7 +6179,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_sublyrata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4824,9 +6251,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Scrophularia sublyrata"
+      ],
+      "en": [
+        "Scrophularia sublyrata"
+      ],
+      "es": [
+        "Scrophularia sublyrata"
+      ],
+      "fr": [
+        "Scrophularia sublyrata"
+      ],
+      "it": [
+        "Scrophularia sublyrata"
+      ],
+      "nl": [
+        "Scrophularia sublyrata"
+      ],
+      "pl": [
+        "Scrophularia sublyrata"
+      ],
+      "pt": [
+        "Scrophularia sublyrata"
+      ],
+      "ru": [
+        "Scrophularia sublyrata"
+      ],
+      "tr": [
+        "Scrophularia sublyrata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4836,7 +6296,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4852,7 +6312,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_tanacetifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4918,9 +6378,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Scrophularia tanacetifolia"
+      ],
+      "en": [
+        "Scrophularia tanacetifolia"
+      ],
+      "es": [
+        "Scrophularia tanacetifolia"
+      ],
+      "fr": [
+        "Scrophularia tanacetifolia"
+      ],
+      "it": [
+        "Scrophularia tanacetifolia"
+      ],
+      "nl": [
+        "Scrophularia tanacetifolia"
+      ],
+      "pl": [
+        "Scrophularia tanacetifolia"
+      ],
+      "pt": [
+        "Scrophularia tanacetifolia"
+      ],
+      "ru": [
+        "Scrophularia tanacetifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4930,7 +6420,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4946,7 +6436,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_valdesii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5012,9 +6502,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Scrophularia valdesii"
+      ],
+      "en": [
+        "Scrophularia valdesii"
+      ],
+      "es": [
+        "Scrophularia valdesii"
+      ],
+      "fr": [
+        "Scrophularia valdesii"
+      ],
+      "it": [
+        "Scrophularia valdesii"
+      ],
+      "nl": [
+        "Scrophularia valdesii"
+      ],
+      "pl": [
+        "Scrophularia valdesii"
+      ],
+      "pt": [
+        "Scrophularia valdesii"
+      ],
+      "ru": [
+        "Scrophularia valdesii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5024,7 +6544,7 @@
     "family": "Scrophulariaceae",
     "genus": "Scrophularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5040,17 +6560,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scrophularia_vernalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5112,11 +6632,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.9
     },
     "common_names": {
+      "de": [
+        "Frühlings-Braunwurz"
+      ],
       "en": [
+        "Scrophularia vernalis",
         "Yellow figwort"
+      ],
+      "es": [
+        "Scrophularia vernalis"
+      ],
+      "fr": [
+        "Scrophularia vernalis"
+      ],
+      "it": [
+        "Scrophularia vernalis"
+      ],
+      "nl": [
+        "voorjaarshelmkruid"
+      ],
+      "pl": [
+        "Scrophularia vernalis"
+      ],
+      "pt": [
+        "Scrophularia vernalis"
+      ],
+      "ru": [
+        "Scrophularia vernalis"
       ]
     },
     "tags": [],
@@ -5128,7 +6675,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5144,17 +6691,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_blattaria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5214,11 +6761,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "بوصير قاتم"
+      ],
+      "de": [
+        "Schaben-Königskerze"
+      ],
       "en": [
-        "Moth mullein"
+        "Moth mullein",
+        "Verbascum blattaria"
+      ],
+      "es": [
+        "Verbascum blattaria"
+      ],
+      "fr": [
+        "Verbascum blattaria"
+      ],
+      "it": [
+        "Verbascum blattaria"
+      ],
+      "nl": [
+        "mottenkruid"
+      ],
+      "pl": [
+        "Dziewanna rdzawa"
+      ],
+      "pt": [
+        "Verbascum blattaria"
+      ],
+      "ru": [
+        "Коровяк тараканий"
+      ],
+      "zh": [
+        "毛瓣毛蕊花"
       ]
     },
     "tags": [],
@@ -5230,7 +6810,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5246,17 +6826,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_chaixii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5316,11 +6896,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "de": [
+        "Verbascum chaixii"
+      ],
       "en": [
-        "Nettle-leaf mullein"
+        "Nettle-leaf mullein",
+        "Verbascum chaixii"
+      ],
+      "es": [
+        "Verbascum chaixii"
+      ],
+      "fr": [
+        "Verbascum chaixii"
+      ],
+      "it": [
+        "Verbascum chaixii"
+      ],
+      "nl": [
+        "Verbascum chaixii"
+      ],
+      "pl": [
+        "Verbascum chaixii"
+      ],
+      "pt": [
+        "Verbascum chaixii"
+      ],
+      "ru": [
+        "Коровяк Шэ"
+      ],
+      "zh": [
+        "疏毛毛蕊花"
       ]
     },
     "tags": [],
@@ -5332,7 +6942,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5348,17 +6958,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_densiflorum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5418,11 +7028,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Großblütige Königskerze"
+      ],
       "en": [
-        "Dense-flower mullein"
+        "Dense-flower mullein",
+        "denseflower mullein"
+      ],
+      "es": [
+        "Verbascum densiflorum"
+      ],
+      "fr": [
+        "Molène à fleurs denses"
+      ],
+      "it": [
+        "Verbascum densiflorum"
+      ],
+      "nl": [
+        "stalkaars"
+      ],
+      "pl": [
+        "Dziewanna wielkokwiatowa"
+      ],
+      "pt": [
+        "Verbascum densiflorum"
+      ],
+      "ru": [
+        "Коровяк высокий"
       ]
     },
     "tags": [],
@@ -5434,7 +7071,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5450,17 +7087,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_lychnitis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5520,11 +7157,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "ar": [
+        "بوصير لزج"
+      ],
+      "de": [
+        "Mehlige Königskerze"
+      ],
       "en": [
+        "Verbascum lychnitis",
         "White mullein"
+      ],
+      "es": [
+        "Verbascum lychnitis"
+      ],
+      "fr": [
+        "Molène lychnite"
+      ],
+      "it": [
+        "Verbascum lychnitis"
+      ],
+      "nl": [
+        "melige toorts"
+      ],
+      "pl": [
+        "Dziewanna firletkowa"
+      ],
+      "pt": [
+        "Verbascum lychnitis"
+      ],
+      "ru": [
+        "Коровяк мучнистый"
       ]
     },
     "tags": [],
@@ -5536,7 +7203,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5552,17 +7219,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_nigrum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5622,11 +7289,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "ar": [
+        "سيكران الحوت"
+      ],
+      "de": [
+        "Schwarze Königskerze"
+      ],
       "en": [
+        "Dark Mullein",
         "Dark mullein"
+      ],
+      "es": [
+        "Verbascum nigrum"
+      ],
+      "fr": [
+        "Molène noire"
+      ],
+      "it": [
+        "Verbascum nigrum"
+      ],
+      "nl": [
+        "Zwarte toorts"
+      ],
+      "pl": [
+        "Dziewanna pospolita"
+      ],
+      "pt": [
+        "Verbascum nigrum"
+      ],
+      "ru": [
+        "Коровяк чёрный"
       ]
     },
     "tags": [],
@@ -5638,7 +7335,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5654,17 +7351,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_phlomoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5724,11 +7421,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Windblumen-Königskerze"
+      ],
       "en": [
-        "Orange mullein"
+        "Orange mullein",
+        "Verbascum phlomoides"
+      ],
+      "es": [
+        "Verbascum phlomoides"
+      ],
+      "fr": [
+        "Molène faux Phlomis"
+      ],
+      "it": [
+        "Verbascum phlomoides"
+      ],
+      "nl": [
+        "keizerskaars"
+      ],
+      "pl": [
+        "Dziewanna kutnerowata"
+      ],
+      "pt": [
+        "Verbascum phlomoides"
+      ],
+      "ru": [
+        "коровяк лекарственный"
       ]
     },
     "tags": [],
@@ -5740,7 +7464,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5756,17 +7480,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_phoeniceum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5826,11 +7550,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "de": [
+        "Violette Königskerze"
+      ],
       "en": [
         "Purple mullein"
+      ],
+      "es": [
+        "Verbascum phoeniceum"
+      ],
+      "fr": [
+        "Molène de Phénicie"
+      ],
+      "it": [
+        "Verbascum phoeniceum"
+      ],
+      "nl": [
+        "paarse toorts"
+      ],
+      "pl": [
+        "Dziewanna fioletowa"
+      ],
+      "pt": [
+        "Verbascum phoeniceum"
+      ],
+      "ru": [
+        "Коровяк фиолетовый"
+      ],
+      "tr": [
+        "Mor sığırkuyruğu"
+      ],
+      "zh": [
+        "紫毛蕊花"
       ]
     },
     "tags": [],
@@ -5842,7 +7598,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5858,17 +7614,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_pulverulentum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5928,11 +7684,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Verbascum pulverulentum"
+      ],
       "en": [
-        "Broad-leaf mullein"
+        "Broad-leaf mullein",
+        "Verbascum pulverulentum"
+      ],
+      "es": [
+        "Verbascum pulverulentum"
+      ],
+      "fr": [
+        "Verbascum pulverulentum"
+      ],
+      "it": [
+        "Verbascum pulverulentum"
+      ],
+      "nl": [
+        "Verbascum pulverulentum"
+      ],
+      "pl": [
+        "Verbascum pulverulentum"
+      ],
+      "pt": [
+        "Verbascum pulverulentum"
+      ],
+      "ru": [
+        "Verbascum pulverulentum"
       ]
     },
     "tags": [],
@@ -5944,7 +7727,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5960,7 +7743,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_rotundifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6030,11 +7813,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بوصير دائري الأوراق"
+      ],
+      "de": [
+        "Verbascum rotundifolium"
+      ],
       "en": [
-        "Round-leaved mullein"
+        "Round-leaved mullein",
+        "Verbascum rotundifolium"
+      ],
+      "es": [
+        "Verbascum rotundifolium"
+      ],
+      "fr": [
+        "Verbascum rotundifolium"
+      ],
+      "it": [
+        "Verbascum rotundifolium"
+      ],
+      "nl": [
+        "Verbascum rotundifolium"
+      ],
+      "pl": [
+        "Verbascum rotundifolium"
+      ],
+      "pt": [
+        "Verbascum rotundifolium"
+      ],
+      "ru": [
+        "Verbascum rotundifolium"
       ]
     },
     "tags": [],
@@ -6046,7 +7859,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6062,17 +7875,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_sinuatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6132,11 +7945,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "بوصير مموج"
+      ],
+      "de": [
+        "Buchten-Königskerze"
+      ],
       "en": [
+        "Verbascum sinuatum",
         "Wavyleaf mullein"
+      ],
+      "es": [
+        "Verbascum sinuatum"
+      ],
+      "fr": [
+        "Molène à feuilles sinuées"
+      ],
+      "it": [
+        "Verbascum sinuatum"
+      ],
+      "nl": [
+        "Verbascum sinuatum"
+      ],
+      "pl": [
+        "Verbascum sinuatum"
+      ],
+      "pt": [
+        "Verbascum sinuatum"
+      ],
+      "ru": [
+        "Verbascum sinuatum"
       ]
     },
     "tags": [],
@@ -6148,7 +7991,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6164,17 +8007,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_speciosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6234,11 +8077,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Pracht-Königskerze"
+      ],
       "en": [
-        "Hungarian mullein"
+        "Hungarian mullein",
+        "Verbascum speciosum"
+      ],
+      "es": [
+        "Verbascum speciosum"
+      ],
+      "fr": [
+        "Verbascum speciosum"
+      ],
+      "it": [
+        "Verbascum speciosum"
+      ],
+      "nl": [
+        "Kandelaartoorts"
+      ],
+      "pl": [
+        "Verbascum speciosum"
+      ],
+      "pt": [
+        "Verbascum speciosum"
+      ],
+      "ru": [
+        "Коровяк великолепный"
       ]
     },
     "tags": [],
@@ -6250,7 +8120,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6266,17 +8136,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_thapsus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6332,11 +8202,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "ar": [
+        "بوصير شائع"
+      ],
+      "de": [
+        "Kleinblütige Königskerze"
+      ],
       "en": [
-        "Common mullein"
+        "Common mullein",
+        "Verbascum thapsus"
+      ],
+      "es": [
+        "Verbascum thapsus"
+      ],
+      "fr": [
+        "Verbascum thapsus"
+      ],
+      "it": [
+        "Verbascum thapsus"
+      ],
+      "ja": [
+        "ビロードモウズイカ"
+      ],
+      "ko": [
+        "우단담배풀"
+      ],
+      "nl": [
+        "koningskaars"
+      ],
+      "pl": [
+        "dziewanna drobnokwiatowa"
+      ],
+      "pt": [
+        "cássimo"
+      ],
+      "ru": [
+        "Коровяк обыкновенный"
+      ],
+      "zh": [
+        "毛蕊花"
       ]
     },
     "tags": [],
@@ -6348,7 +8257,7 @@
     "family": "Scrophulariaceae",
     "genus": "Verbascum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6364,17 +8273,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "verbascum_virgatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6434,11 +8343,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Verbascum virgatum"
+      ],
       "en": [
-        "Green mullein"
+        "Green mullein",
+        "Verbascum virgatum"
+      ],
+      "es": [
+        "Verbascum virgatum"
+      ],
+      "fr": [
+        "Verbascum virgatum"
+      ],
+      "it": [
+        "Verbascum virgatum"
+      ],
+      "nl": [
+        "Verbascum virgatum"
+      ],
+      "pl": [
+        "Dziewanna rózgowata"
+      ],
+      "pt": [
+        "Verbascum virgatum"
+      ],
+      "ru": [
+        "Verbascum virgatum"
       ]
     },
     "tags": [],

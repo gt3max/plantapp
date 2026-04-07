@@ -5,12 +5,12 @@
     "family": "Rousseaceae",
     "genus": "Carpodetus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9aff57212aa4725da2d62cca72024a92c4354233",
-    "description": null,
+    "description": "Carpodetus serratus, commonly known as marbleleaf and putaputawētā, is a species of tree in the family Rousseaceae. It is endemic to New Zealand; its range mainly covers the North, South, and Stewart Islands. The species is commonly found on river banks and the margins of forests. It is a monoecious tree reaching up to 10 metres in height. Its young stage resembles a divaricating tangled shrub with branchlets arranged in a zig-zag pattern.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Carpodetus serratus"
+      ],
       "en": [
+        "Carpodetus serratus",
         "White mapau"
+      ],
+      "es": [
+        "Carpodetus serratus"
+      ],
+      "fr": [
+        "Carpodetus serratus"
+      ],
+      "it": [
+        "Carpodetus serratus"
+      ],
+      "nl": [
+        "Carpodetus serratus"
+      ],
+      "pl": [
+        "Carpodetus serratus"
+      ],
+      "pt": [
+        "Carpodetus serratus"
+      ],
+      "ru": [
+        "Carpodetus serratus"
       ]
     },
     "tags": [],

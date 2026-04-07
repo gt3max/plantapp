@@ -5,7 +5,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Elodea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": "[\"Anacharis linearis\", \"Serpicula verticillata var. angustifolia\", \"Anacharis canadensis var. planchonii\", \"Philotria canadensis\", \"Elodea oblongifolia\", \"Udora canadensis\", \"Elodea brandegeeae\", \"Elodea planchonii\", \"Elodea occidentalis\", \"Philotria iowensis\"]",
     "care": {
       "plant_id": "elodea_canadensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -54,7 +54,7 @@
       "tips": null,
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Non-toxic (confirmed by TPPT database)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "أيلود كندي"
+      ],
+      "de": [
+        "Kanadische Wasserpest"
+      ],
       "en": [
+        "Elodea canadensis",
         "Water-thyme"
+      ],
+      "es": [
+        "Elodea canadensis"
+      ],
+      "fr": [
+        "Élodée du Canada"
+      ],
+      "it": [
+        "Elodea canadensis"
+      ],
+      "ja": [
+        "カナダモ"
+      ],
+      "nl": [
+        "Elodea canadensis"
+      ],
+      "pl": [
+        "Moczarka kanadyjska"
+      ],
+      "pt": [
+        "Elódea-comum"
+      ],
+      "ru": [
+        "Элодея канадская"
       ]
     },
     "tags": [],
@@ -103,7 +136,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Elodea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +152,17 @@
     "synonyms": "[\"Anacharis densa\", \"Egeria densa\", \"Udora densa\", \"Elodea canadensis var. gigantea\", \"Elodea densa var. longifolia\", \"Philotria densa\"]",
     "care": {
       "plant_id": "elodea_densa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,9 +218,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Elodea densa"
+      ],
+      "en": [
+        "Elodea densa"
+      ],
+      "es": [
+        "Elodea densa"
+      ],
+      "fr": [
+        "Elodea densa"
+      ],
+      "it": [
+        "Elodea densa"
+      ],
+      "nl": [
+        "Elodea densa"
+      ],
+      "pl": [
+        "Elodea densa"
+      ],
+      "pt": [
+        "Elodea densa"
+      ],
+      "ru": [
+        "Elodea densa"
+      ],
+      "zh": [
+        "水蕴草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,7 +263,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Elodea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -213,17 +279,17 @@
     "synonyms": "[\"Udora verticillata var. minor\", \"Philotria minor\", \"Philotria nuttallii\", \"Anacharis nuttallii\", \"Elodea minor\", \"Elodea columbiana\"]",
     "care": {
       "plant_id": "elodea_nuttallii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -246,7 +312,7 @@
       "tips": null,
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Non-toxic (confirmed by TPPT database)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -279,11 +345,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.8
     },
     "common_names": {
+      "ar": [
+        "أيلود نوتالي"
+      ],
+      "de": [
+        "Schmalblättrige Wasserpest"
+      ],
       "en": [
+        "Elodea nuttallii",
         "Nutall waterweed"
+      ],
+      "es": [
+        "Elodea nuttallii"
+      ],
+      "fr": [
+        "Élodée de Nuttall"
+      ],
+      "it": [
+        "Elodea nuttallii"
+      ],
+      "ja": [
+        "コカナダモ"
+      ],
+      "nl": [
+        "Elodea nuttallii"
+      ],
+      "pl": [
+        "Moczarka delikatna"
+      ],
+      "pt": [
+        "Elodea nuttallii"
+      ],
+      "ru": [
+        "Elodea nuttallii"
+      ],
+      "zh": [
+        "伊乐藻"
       ]
     },
     "tags": [],
@@ -295,7 +397,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Enhalus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -311,9 +413,9 @@
     "synonyms": "[\"Vallisneria sphaerocarpa\", \"Stratiotes acoroides\", \"Enhalus koenigii\", \"Enhalus marinus\"]",
     "care": {
       "plant_id": "enhalus_acoroides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -377,9 +479,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Enhalus acoroides"
+      ],
+      "en": [
+        "Enhalus acoroides"
+      ],
+      "es": [
+        "Enhalus"
+      ],
+      "fr": [
+        "Enhalus acoroides"
+      ],
+      "it": [
+        "Enhalus acoroides"
+      ],
+      "ja": [
+        "ウミショウブ"
+      ],
+      "nl": [
+        "Enhalus"
+      ],
+      "pl": [
+        "Enhalus acoroides"
+      ],
+      "pt": [
+        "Enhalus"
+      ],
+      "ru": [
+        "Enhalus acoroides"
+      ],
+      "zh": [
+        "海菖蒲"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,7 +527,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Halophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -405,9 +543,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "halophila_capricorni",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -471,9 +609,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halophila capricorni"
+      ],
+      "en": [
+        "Halophila capricorni"
+      ],
+      "es": [
+        "Halophila capricorni"
+      ],
+      "fr": [
+        "Halophila capricorni"
+      ],
+      "it": [
+        "Halophila capricorni"
+      ],
+      "nl": [
+        "Halophila capricorni"
+      ],
+      "pl": [
+        "Halophila capricorni"
+      ],
+      "pt": [
+        "Halophila capricorni"
+      ],
+      "ru": [
+        "Halophila capricorni"
+      ],
+      "zh": [
+        "摩羯喜盐草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -483,7 +654,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Halophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -499,9 +670,9 @@
     "synonyms": "[\"Halophila decipiens var. pubescens\"]",
     "care": {
       "plant_id": "halophila_decipiens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -565,11 +736,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Halophila decipiens"
+      ],
       "en": [
-        "Caribbean seagrass"
+        "Caribbean seagrass",
+        "Halophila decipiens"
+      ],
+      "es": [
+        "Halophila decipiens"
+      ],
+      "fr": [
+        "Halophila decipiens"
+      ],
+      "it": [
+        "Halophila decipiens"
+      ],
+      "nl": [
+        "Halophila decipiens"
+      ],
+      "pl": [
+        "Halophila decipiens"
+      ],
+      "pt": [
+        "Halophila decipiens"
+      ],
+      "ru": [
+        "Halophila decipiens"
+      ],
+      "zh": [
+        "毛叶喜盐草"
       ]
     },
     "tags": [],
@@ -581,12 +782,12 @@
     "family": "Hydrocharitaceae",
     "genus": "Halophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/646e8f9927a7bbc5dada723f7e42d7aa.jpg",
-    "description": null,
+    "description": "Halophila engelmannii is a species of seagrass in the Hydrocharitaceae family. It is referred to by the common names star grass and Engelmann's seagrass and grows underwater on shallow sandy or muddy sea floors. It is native to the Bahamas, the Cayman Islands, Costa Rica, Cuba, the Gulf Coast of the United States, the Gulf Coast of Mexico, Puerto Rico, and Trinidad and Tobago.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -597,9 +798,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "halophila_engelmannii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -663,9 +864,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halophila engelmannii"
+      ],
+      "en": [
+        "Halophila engelmannii"
+      ],
+      "es": [
+        "Halophila engelmannii"
+      ],
+      "fr": [
+        "Halophila engelmannii"
+      ],
+      "it": [
+        "Halophila engelmannii"
+      ],
+      "nl": [
+        "Halophila engelmannii"
+      ],
+      "pl": [
+        "Halophila engelmannii"
+      ],
+      "pt": [
+        "Halophila engelmannii"
+      ],
+      "ru": [
+        "Halophila engelmannii"
+      ],
+      "zh": [
+        "恩氏喜盐草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -675,7 +909,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Halophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -691,9 +925,9 @@
     "synonyms": "[\"Caulinia ovalis\", \"Kernera ovalis\"]",
     "care": {
       "plant_id": "halophila_ovalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -757,9 +991,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "محب ملح بيضوي"
+      ],
+      "de": [
+        "Halophila ovalis"
+      ],
+      "en": [
+        "Halophila ovalis"
+      ],
+      "es": [
+        "Halophila ovalis"
+      ],
+      "fr": [
+        "Halophila ovalis"
+      ],
+      "it": [
+        "Halophila ovalis"
+      ],
+      "ja": [
+        "ウミヒルモ"
+      ],
+      "nl": [
+        "Halophila ovalis"
+      ],
+      "pl": [
+        "Halophila ovalis"
+      ],
+      "pt": [
+        "Halophila ovalis"
+      ],
+      "ru": [
+        "Halophila ovalis"
+      ],
+      "zh": [
+        "卵葉鹽藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -769,7 +1042,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Halophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -785,9 +1058,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "halophila_spinulosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -851,9 +1124,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halophila spinulosa"
+      ],
+      "en": [
+        "Halophila spinulosa"
+      ],
+      "es": [
+        "Halophila spinulosa"
+      ],
+      "fr": [
+        "Halophila spinulosa"
+      ],
+      "it": [
+        "Halophila spinulosa"
+      ],
+      "nl": [
+        "Halophila spinulosa"
+      ],
+      "pl": [
+        "Halophila spinulosa"
+      ],
+      "pt": [
+        "Halophila spinulosa"
+      ],
+      "ru": [
+        "Halophila spinulosa"
+      ],
+      "zh": [
+        "棘状喜盐草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -863,7 +1169,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Halophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -879,9 +1185,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "halophila_tricostata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -945,9 +1251,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halophila tricostata"
+      ],
+      "en": [
+        "Halophila tricostata"
+      ],
+      "es": [
+        "Halophila tricostata"
+      ],
+      "fr": [
+        "Halophila tricostata"
+      ],
+      "it": [
+        "Halophila tricostata"
+      ],
+      "nl": [
+        "Halophila tricostata"
+      ],
+      "pl": [
+        "Halophila tricostata"
+      ],
+      "pt": [
+        "Halophila tricostata"
+      ],
+      "ru": [
+        "Halophila tricostata"
+      ],
+      "zh": [
+        "三脉喜盐草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -957,7 +1296,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Hydrilla",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -973,17 +1312,17 @@
     "synonyms": "[\"Elodea verticillata\", \"Hydrilla dentata\", \"Hydrilla roxburghii\", \"Serpicula verticillata\", \"Udora verticillata\", \"Vallisneria verticillata\", \"Hydrilla ovalifolia\", \"Hydrilla verticillata var. roxburghii\"]",
     "care": {
       "plant_id": "hydrilla_verticillata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1039,11 +1378,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.3
     },
     "common_names": {
+      "de": [
+        "Grundnessel"
+      ],
       "en": [
-        "Florida elodea"
+        "Florida elodea",
+        "Hydrilla verticillata"
+      ],
+      "es": [
+        "Hydrilla"
+      ],
+      "fr": [
+        "Hydrilla verticillata"
+      ],
+      "hi": [
+        "हाइड्रिल्ला"
+      ],
+      "it": [
+        "Hydrilla verticillata"
+      ],
+      "ja": [
+        "クロモ"
+      ],
+      "ko": [
+        "검정말"
+      ],
+      "nl": [
+        "Hydrilla verticillata"
+      ],
+      "pl": [
+        "przesiąkra okółkowa"
+      ],
+      "pt": [
+        "Hydrilla"
+      ],
+      "ru": [
+        "Hydrilla verticillata"
+      ],
+      "zh": [
+        "黑藻"
       ]
     },
     "tags": [],
@@ -1055,12 +1433,12 @@
     "family": "Hydrocharitaceae",
     "genus": "Hydrocharis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/87cf30a35b9a984603e647ad4c2240e8.jpg",
-    "description": null,
+    "description": "Hydrocharis laevigata is a floating aquatic plant, and is a member of the family Hydrocharitaceae. Common names include West Indian spongeplant, South American spongeplant and Amazon or smooth frogbit. This plant was introduced to North American waterways through use in aquariums and aquascapes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1071,9 +1449,9 @@
     "synonyms": "[\"Limnobium stoloniferum\", \"Hydromystria laevigata\", \"Trianea neovisae\", \"Limnobium bogotense\", \"Hydromystria stolonifera\", \"Hydromystria sinclairii\", \"Salvinia laevigata\", \"Trianea bogotensis\", \"Hydrocharella echinospora\", \"Limnobium spongia subsp. laevigatum\"]",
     "care": {
       "plant_id": "hydrocharis_laevigata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1137,9 +1515,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocharis laevigata"
+      ],
+      "en": [
+        "Hydrocharis laevigata"
+      ],
+      "es": [
+        "Hydrocharis laevigata"
+      ],
+      "fr": [
+        "Hydrocharis laevigata"
+      ],
+      "it": [
+        "Hydrocharis laevigata"
+      ],
+      "nl": [
+        "Hydrocharis laevigata"
+      ],
+      "pl": [
+        "Hydrocharis laevigata"
+      ],
+      "pt": [
+        "Hydrocharis laevigata"
+      ],
+      "ru": [
+        "Hydrocharis laevigata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1149,7 +1557,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Hydrocharis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1165,17 +1573,17 @@
     "synonyms": "[\"Hydrocharis asarifolia\", \"Hydrocharis morsus-ranae var. vivipara\", \"Hydrocharis rotundifolia\", \"Hydrocharis cordifolia\", \"Sagittaria triflora\", \"Hydrocharis morsus-ranae f. terrestris\", \"Hydrocharis morsus-ranae subsp. vivipara\", \"Hydrocharis batrachyodegma\", \"Hydrocharis asarifolia var. odoratissima\"]",
     "care": {
       "plant_id": "hydrocharis_morsus-ranae",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1231,11 +1639,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "de": [
+        "Froschbiss"
+      ],
       "en": [
-        "European frog's-bit"
+        "European frog's-bit",
+        "Hydrocharis morsus-ranae"
+      ],
+      "es": [
+        "Hydrocharis morsus-ranae"
+      ],
+      "fr": [
+        "Morène"
+      ],
+      "it": [
+        "Hydrocharis morsus-ranae"
+      ],
+      "nl": [
+        "Kikkerbeet"
+      ],
+      "pl": [
+        "żabiściek pływający"
+      ],
+      "pt": [
+        "Hydrocharis morsus-ranae"
+      ],
+      "ru": [
+        "водокрас лягушачий"
       ]
     },
     "tags": [],
@@ -1247,12 +1682,12 @@
     "family": "Hydrocharitaceae",
     "genus": "Hydrocharis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Hydrocharis spongia, commonly known as the American frogbit or the American spongeplant, is a species of flowering plant in the family Hydrocharitaceae. It is native to the central and southeastern United States, where it grows in the Lower Mississippi Valley as far north as Illinois, and on the Southern Coastal Plain from Texas to Delaware. It is occasionally found elsewhere as a waif. It grows in the slow-moving water of streams, bayous, and lakes from sea level up to 100 meters elevation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1263,9 +1698,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "hydrocharis_spongia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1329,9 +1764,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hydrocharis spongia"
+      ],
+      "en": [
+        "Hydrocharis spongia"
+      ],
+      "es": [
+        "Hydrocharis spongia"
+      ],
+      "fr": [
+        "Hydrocharis spongia"
+      ],
+      "it": [
+        "Hydrocharis spongia"
+      ],
+      "nl": [
+        "Hydrocharis spongia"
+      ],
+      "pl": [
+        "Hydrocharis spongia"
+      ],
+      "pt": [
+        "Hydrocharis spongia"
+      ],
+      "ru": [
+        "Hydrocharis spongia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1341,7 +1806,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Lagarosiphon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1357,9 +1822,9 @@
     "synonyms": "[\"Lagarosiphon muscoides var. major\"]",
     "care": {
       "plant_id": "lagarosiphon_major",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1390,7 +1855,7 @@
       "tips": null,
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Non-toxic (confirmed by TPPT database)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1423,11 +1888,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lagarosiphon major"
+      ],
       "en": [
+        "Lagarosiphon major",
         "South african oxygen-weed"
+      ],
+      "es": [
+        "Lagarosiphon major"
+      ],
+      "fr": [
+        "Lagarosiphon major"
+      ],
+      "it": [
+        "Lagarosiphon major"
+      ],
+      "ja": [
+        "クロモモドキ"
+      ],
+      "nl": [
+        "Lagarosiphon major"
+      ],
+      "pl": [
+        "Lagarosiphon major"
+      ],
+      "pt": [
+        "Lagarosiphon major"
+      ],
+      "ru": [
+        "Lagarosiphon major"
+      ],
+      "zh": [
+        "大卷蕴藻"
       ]
     },
     "tags": [],
@@ -1439,12 +1937,12 @@
     "family": "Hydrocharitaceae",
     "genus": "Najas",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Najas flexilis is an aquatic annual plant native to parts of North America and Europe. It is native to northern and central Europe from Norway to Ireland to Switzerland, and from there across Russia. It is also considered native throughout most of Canada, and the northern United States in disjunct populations in southern California, Arizona, Missouri, South Carolina and Utah. Its common names include slender naiad and nodding waternymph.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1455,17 +1953,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "najas_flexilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1521,9 +2019,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 5.3
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "نجا مرنة"
+      ],
+      "de": [
+        "Najas flexilis"
+      ],
+      "en": [
+        "Najas flexilis"
+      ],
+      "es": [
+        "Najas flexilis"
+      ],
+      "fr": [
+        "Najas flexilis"
+      ],
+      "it": [
+        "Najas flexilis"
+      ],
+      "nl": [
+        "Najas flexilis"
+      ],
+      "pl": [
+        "Jezierza giętka"
+      ],
+      "pt": [
+        "Najas flexilis"
+      ],
+      "ru": [
+        "Наяда гибкая"
+      ],
+      "zh": [
+        "纤稚虫"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1533,12 +2067,12 @@
     "family": "Hydrocharitaceae",
     "genus": "Najas",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b36fb0ad89fa91d9f95bdbfd4c22b7db16463931",
-    "description": null,
+    "description": "Najas gracillima, the slender waternymph, is a submerged species of aquatic plant in the Hydrocharitaceae family. found in lakes and streams. It is native to China, Russian Far East, Japan, Korea, Taiwan, Iran, Alberta, Ontario, Newfoundland, Nova Scotia, New Brunswick, the eastern United States. It is also considered introduced and naturalized in France, Spain, Italy and California.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1549,9 +2083,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "najas_gracillima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1615,11 +2149,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نجا هزيلة"
+      ],
+      "de": [
+        "Najas gracillima"
+      ],
       "en": [
+        "Najas gracillima",
         "Slender waternymph"
+      ],
+      "es": [
+        "Najas gracillima"
+      ],
+      "fr": [
+        "Najas gracillima"
+      ],
+      "it": [
+        "Najas gracillima"
+      ],
+      "ja": [
+        "イトトリゲモ"
+      ],
+      "nl": [
+        "Najas gracillima"
+      ],
+      "pl": [
+        "Najas gracillima"
+      ],
+      "pt": [
+        "Najas gracillima"
+      ],
+      "ru": [
+        "Najas gracillima"
+      ],
+      "zh": [
+        "日本茨藻"
       ]
     },
     "tags": [],
@@ -1631,12 +2201,12 @@
     "family": "Hydrocharitaceae",
     "genus": "Najas",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Najas graminea, also known as ricefield water-nymph is a species of aquatic plant found in freshwater habitats, especially still or slow-moving waters, like ponds and rice fields. It grows to a maximum length of 30 cm. The flowers are monoecious. The flowering season is from July to September.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1647,9 +2217,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "najas_graminea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1713,9 +2283,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "نجا عشبية"
+      ],
+      "de": [
+        "Najas graminea"
+      ],
+      "en": [
+        "Najas graminea"
+      ],
+      "es": [
+        "Najas graminea"
+      ],
+      "fr": [
+        "Najas graminea"
+      ],
+      "it": [
+        "Najas graminea"
+      ],
+      "ja": [
+        "ホッスモ"
+      ],
+      "ko": [
+        "나자스말"
+      ],
+      "nl": [
+        "Najas graminea"
+      ],
+      "pl": [
+        "Najas graminea"
+      ],
+      "pt": [
+        "Najas graminea"
+      ],
+      "ru": [
+        "Najas graminea"
+      ],
+      "zh": [
+        "草茨藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1725,12 +2337,12 @@
     "family": "Hydrocharitaceae",
     "genus": "Najas",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1a103833561ae6e6f9c65b585e2a2ceb79288245",
-    "description": null,
+    "description": "Najas guadalupensis is a species of aquatic plant known by the common names southern waternymph, guppy grass, najas grass, and common water nymph. It is native to the Americas, where it is widespread. It is considered native to Canada, and most of the contiguous United States, Mexico, Central America, the West Indies and South America. It has been introduced in Japan, and Palestine and Israel.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1741,17 +2353,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "najas_guadalupensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1807,11 +2419,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 5.6
     },
     "common_names": {
+      "ar": [
+        "نجا غوادالوبية"
+      ],
+      "de": [
+        "Najas guadalupensis"
+      ],
       "en": [
+        "Najas guadalupensis",
         "Southern naiad"
+      ],
+      "es": [
+        "Najas guadalupensis"
+      ],
+      "fr": [
+        "Najas guadalupensis"
+      ],
+      "it": [
+        "Najas guadalupensis"
+      ],
+      "nl": [
+        "Najas guadalupensis"
+      ],
+      "pl": [
+        "Najas guadalupensis"
+      ],
+      "pt": [
+        "Najas guadalupensis"
+      ],
+      "ru": [
+        "Najas guadalupensis"
       ]
     },
     "tags": [],
@@ -1823,7 +2465,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Najas",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1839,17 +2481,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "najas_marina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1905,11 +2547,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "ar": [
+        "نجا بحرية"
+      ],
+      "de": [
+        "Großes Nixenkraut"
+      ],
       "en": [
-        "Marine naiad"
+        "Marine naiad",
+        "Najas marina"
+      ],
+      "es": [
+        "Najas marina"
+      ],
+      "fr": [
+        "Najas marina"
+      ],
+      "it": [
+        "Najas marina"
+      ],
+      "ja": [
+        "イバラモ"
+      ],
+      "ko": [
+        "민나자스말"
+      ],
+      "nl": [
+        "Groot nimfkruid"
+      ],
+      "pl": [
+        "Jezierza morska"
+      ],
+      "pt": [
+        "Najas marina"
+      ],
+      "ru": [
+        "Наяда морская"
+      ],
+      "zh": [
+        "大茨藻"
       ]
     },
     "tags": [],
@@ -1921,12 +2602,12 @@
     "family": "Hydrocharitaceae",
     "genus": "Najas",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a689df73d6946c89e935bf47dd08344392703efc",
-    "description": null,
+    "description": "Najas minor, known as brittle naiad or brittle waternymph, is an annual aquatic plant, a submersed herb. It is native to Europe, Asia and North Africa from the Netherlands to Morocco east to Japan and the Philippines, including China, Siberia, Central Asia, Iran, Turkey, Ukraine, Germany, France Italy and a host of other countries.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1937,17 +2618,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "najas_minor",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2003,11 +2684,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 5.9
     },
     "common_names": {
+      "ar": [
+        "نجا صغيرة"
+      ],
+      "de": [
+        "Kleines Nixenkraut"
+      ],
       "en": [
+        "Najas minor",
         "Slender-leaf naiad"
+      ],
+      "es": [
+        "Najas minor"
+      ],
+      "fr": [
+        "Najas minor"
+      ],
+      "it": [
+        "Najas minor"
+      ],
+      "ja": [
+        "トリゲモ"
+      ],
+      "nl": [
+        "Klein nimfkruid"
+      ],
+      "pl": [
+        "Jezierza mniejsza"
+      ],
+      "pt": [
+        "Najas minor"
+      ],
+      "ru": [
+        "Наяда малая"
+      ],
+      "zh": [
+        "小茨藻"
       ]
     },
     "tags": [],
@@ -2019,12 +2736,12 @@
     "family": "Hydrocharitaceae",
     "genus": "Ottelia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ea2c2c7f9031e54dbcf6b39c68e0138e0de03409",
-    "description": null,
+    "description": "Ottelia alismoides, commonly known as duck lettuce, is a species of aquatic plant native to Asia and northern Australia. Due to habitat loss and deterioration, it is endangered in China and Japan, although it is an invasive weed in America. Its genome has also been sequenced, resulting in a 6.45 Gb assembly to help study its unusual carbon metabolism mechanisms and aid in genetic conservation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2035,9 +2752,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "ottelia_alismoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -2101,11 +2818,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أوتليا مزمارية"
+      ],
+      "de": [
+        "Ottelia alismoides"
+      ],
       "en": [
-        "Duck-lettuce"
+        "Duck-lettuce",
+        "Ottelia alismoides"
+      ],
+      "es": [
+        "Ottelia alismoides"
+      ],
+      "fr": [
+        "Ottelia alismoides"
+      ],
+      "it": [
+        "Ottelia alismoides"
+      ],
+      "ja": [
+        "ミズオオバコ"
+      ],
+      "ko": [
+        "물질경이"
+      ],
+      "nl": [
+        "Ottelia alismoides"
+      ],
+      "pl": [
+        "Ottelia alismoides"
+      ],
+      "pt": [
+        "Ottelia alismoides"
+      ],
+      "ru": [
+        "Ottelia alismoides"
+      ],
+      "zh": [
+        "水车前草"
       ]
     },
     "tags": [],
@@ -2117,12 +2873,12 @@
     "family": "Hydrocharitaceae",
     "genus": "Ottelia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/40ae9c75e15b5a924c27e8feb075067e.jpg",
-    "description": null,
+    "description": "Ottelia ovalifolia, commonly known as swamp lily, is a species of aquatic plant belonging to the Hydrocharitaceae family and native to the Australian mainland. Ottelia ovalifolia has been introduced into New Zealand, Vanuatu and the Solomon Islands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2133,9 +2889,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "ottelia_ovalifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -2199,9 +2955,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ottelia ovalifolia"
+      ],
+      "en": [
+        "Ottelia ovalifolia"
+      ],
+      "es": [
+        "Ottelia ovalifolia"
+      ],
+      "fr": [
+        "Ottelia ovalifolia"
+      ],
+      "it": [
+        "Ottelia ovalifolia"
+      ],
+      "nl": [
+        "Ottelia ovalifolia"
+      ],
+      "pl": [
+        "Ottelia ovalifolia"
+      ],
+      "pt": [
+        "Ottelia ovalifolia"
+      ],
+      "ru": [
+        "Ottelia ovalifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2211,7 +2997,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Stratiotes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2227,17 +3013,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "stratiotes_aloides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2295,11 +3081,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Krebsschere"
+      ],
       "en": [
+        "Stratiotes aloides",
         "Water-aloe"
+      ],
+      "es": [
+        "Stratiotes aloides"
+      ],
+      "fr": [
+        "Stratiotes aloides"
+      ],
+      "it": [
+        "Stratiotes aloides"
+      ],
+      "nl": [
+        "Krabbenscheer"
+      ],
+      "pl": [
+        "Osoka aloesowata"
+      ],
+      "pt": [
+        "Stratiotes aloides"
+      ],
+      "ru": [
+        "Телорез"
       ]
     },
     "tags": [],
@@ -2311,7 +3124,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Thalassia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2327,9 +3140,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "thalassia_hemprichii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -2393,9 +3206,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thalassia hemprichii"
+      ],
+      "en": [
+        "Thalassia hemprichii"
+      ],
+      "es": [
+        "Thalassia hemprichii"
+      ],
+      "fr": [
+        "Thalassia hemprichii"
+      ],
+      "it": [
+        "Thalassia hemprichii"
+      ],
+      "ja": [
+        "リュウキュウスガモ"
+      ],
+      "nl": [
+        "Thalassia hemprichii"
+      ],
+      "pl": [
+        "Thalassia hemprichii"
+      ],
+      "pt": [
+        "Thalassia hemprichii"
+      ],
+      "ru": [
+        "Thalassia hemprichii"
+      ],
+      "zh": [
+        "泰来藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2405,7 +3254,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Thalassia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2421,9 +3270,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "thalassia_testudinum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -2487,9 +3336,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thalassia testudinum"
+      ],
+      "en": [
+        "Thalassia testudinum"
+      ],
+      "es": [
+        "Thalassia testudinum"
+      ],
+      "fr": [
+        "Thalassia testudinum"
+      ],
+      "it": [
+        "Thalassia testudinum"
+      ],
+      "ja": [
+        "タートルグラス"
+      ],
+      "nl": [
+        "Thalassia testudinum"
+      ],
+      "pl": [
+        "Thalassia testudinum"
+      ],
+      "pt": [
+        "Thalassia testudinum"
+      ],
+      "ru": [
+        "Thalassia testudinum"
+      ],
+      "zh": [
+        "龟裂泰来草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2499,7 +3384,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Vallisneria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2515,17 +3400,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "vallisneria_americana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2581,11 +3466,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "de": [
+        "Vallisneria americana"
+      ],
       "en": [
-        "Eelgrass"
+        "Eelgrass",
+        "Vallisneria americana"
+      ],
+      "es": [
+        "Vallisneria americana"
+      ],
+      "fr": [
+        "Vallisnérie d'Amérique"
+      ],
+      "it": [
+        "Vallisneria americana"
+      ],
+      "nl": [
+        "Vallisneria americana"
+      ],
+      "pl": [
+        "Nurzaniec amerykański"
+      ],
+      "pt": [
+        "Vallisneria americana"
+      ],
+      "ru": [
+        "Валлиснерия американская"
+      ],
+      "tr": [
+        "Vallisneria americana"
+      ],
+      "zh": [
+        "美洲苦草"
       ]
     },
     "tags": [],
@@ -2597,7 +3515,7 @@
     "family": "Hydrocharitaceae",
     "genus": "Vallisneria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2613,17 +3531,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "vallisneria_spiralis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2679,11 +3597,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "ar": [
+        "فاليسناريا سبيراليس"
+      ],
+      "de": [
+        "Vallisneria spiralis"
+      ],
       "en": [
-        "Coiled vallisneria"
+        "Coiled vallisneria",
+        "Vallisneria spiralis"
+      ],
+      "es": [
+        "Vallisneria spiralis"
+      ],
+      "fr": [
+        "Vallisneria spiralis"
+      ],
+      "it": [
+        "Vallisneria spiralis"
+      ],
+      "nl": [
+        "Vallisneria spiralis"
+      ],
+      "pl": [
+        "Nurzaniec śrubowy"
+      ],
+      "pt": [
+        "Vallisneria spiralis"
+      ],
+      "ru": [
+        "Валлиснерия спиральная"
+      ],
+      "zh": [
+        "苦草"
       ]
     },
     "tags": [],

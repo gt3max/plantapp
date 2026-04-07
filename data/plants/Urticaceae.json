@@ -5,7 +5,7 @@
     "family": "Urticaceae",
     "genus": "Australina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Australina pusilla"
+      ],
+      "en": [
+        "Australina pusilla"
+      ],
+      "es": [
+        "Australina pusilla"
+      ],
+      "fr": [
+        "Australina pusilla"
+      ],
+      "it": [
+        "Australina pusilla"
+      ],
+      "nl": [
+        "Australina pusilla"
+      ],
+      "pl": [
+        "Australina pusilla"
+      ],
+      "pt": [
+        "Australina pusilla"
+      ],
+      "ru": [
+        "Australina pusilla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Urticaceae",
     "genus": "Boehmeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f81931d78781a745ea078de2f8ead3be7e7de916",
-    "description": "Small, oval-shaped seeds are covered in small, hook-like hairs. Once mature, the seeds are dark brown.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Boehmeria caudata"
+      ],
+      "en": [
+        "Boehmeria caudata"
+      ],
+      "es": [
+        "Boehmeria caudata"
+      ],
+      "fr": [
+        "Boehmeria caudata"
+      ],
+      "it": [
+        "Boehmeria caudata"
+      ],
+      "nl": [
+        "Boehmeria caudata"
+      ],
+      "pl": [
+        "Boehmeria caudata"
+      ],
+      "pt": [
+        "Boehmeria caudata"
+      ],
+      "ru": [
+        "Boehmeria caudata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +253,12 @@
     "family": "Urticaceae",
     "genus": "Boehmeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/81f76ab8d4ddd60ed1e947721dfdee60171b8d74",
-    "description": "Small, oval-shaped seeds are covered in small, hook-like hairs. Once mature, the seeds are dark brown.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +335,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Boehmeria clidemioides"
+      ],
+      "en": [
+        "Boehmeria clidemioides"
+      ],
+      "es": [
+        "Boehmeria clidemioides"
+      ],
+      "fr": [
+        "Boehmeria clidemioides"
+      ],
+      "it": [
+        "Boehmeria clidemioides"
+      ],
+      "nl": [
+        "Boehmeria clidemioides"
+      ],
+      "pl": [
+        "Boehmeria clidemioides"
+      ],
+      "pt": [
+        "Boehmeria clidemioides"
+      ],
+      "ru": [
+        "Boehmeria clidemioides"
+      ],
+      "zh": [
+        "白面苎麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,12 +380,12 @@
     "family": "Urticaceae",
     "genus": "Boehmeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/41888df45855a8197f5d31f4a96e3a237ff44011",
-    "description": "Small, oval-shaped seeds are covered in small, hook-like hairs. Once mature, the seeds are dark brown.",
+    "description": "Boehmeria cylindrica, with common names false nettle and bog hemp, is an herb in the family Urticaceae. It is widespread in eastern North America and the Great Plains from New Brunswick to Florida to Texas to Nebraska, with scattered reports of isolated populations in New Mexico, Arizona, and Utah, as well as in Bermuda, Mexico, Central America, the West Indies, and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -369,11 +462,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Boehmeria cylindrica"
+      ],
       "en": [
+        "Boehmeria cylindrica",
         "Bog-hemp"
+      ],
+      "es": [
+        "Boehmeria cylindrica"
+      ],
+      "fr": [
+        "Boehmeria cylindrica"
+      ],
+      "it": [
+        "Boehmeria cylindrica"
+      ],
+      "nl": [
+        "Boehmeria cylindrica"
+      ],
+      "pl": [
+        "Boehmeria cylindrica"
+      ],
+      "pt": [
+        "Boehmeria cylindrica"
+      ],
+      "ru": [
+        "Boehmeria cylindrica"
       ]
     },
     "tags": [],
@@ -385,12 +505,12 @@
     "family": "Urticaceae",
     "genus": "Boehmeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a5961271ea281c2ff1b6a6ec446e7ea8.jpg",
-    "description": "Small, oval-shaped seeds are covered in small, hook-like hairs. Once mature, the seeds are dark brown.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -467,9 +587,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Boehmeria densiflora"
+      ],
+      "en": [
+        "Boehmeria densiflora"
+      ],
+      "es": [
+        "Boehmeria densiflora"
+      ],
+      "fr": [
+        "Boehmeria densiflora"
+      ],
+      "it": [
+        "Boehmeria densiflora"
+      ],
+      "ja": [
+        "ヤナギバモクマオ"
+      ],
+      "nl": [
+        "Boehmeria densiflora"
+      ],
+      "pl": [
+        "Boehmeria densiflora"
+      ],
+      "pt": [
+        "Boehmeria densiflora"
+      ],
+      "ru": [
+        "Boehmeria densiflora"
+      ],
+      "zh": [
+        "密花苎麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -479,12 +635,12 @@
     "family": "Urticaceae",
     "genus": "Boehmeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9290b135499aaf318a9569b79b6cbe86b2e37201",
-    "description": "Small, oval-shaped seeds are covered in small, hook-like hairs. Once mature, the seeds are dark brown.",
+    "description": "Boehmeria japonica is a species of flowering plant in the nettle family (Urticaceae). It native to eastern Asia, where it is found in China, Japan, South Korea, and Taiwan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -561,9 +717,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Boehmeria japonica"
+      ],
+      "en": [
+        "Boehmeria japonica"
+      ],
+      "es": [
+        "Boehmeria japonica"
+      ],
+      "fr": [
+        "Boehmeria japonica"
+      ],
+      "it": [
+        "Boehmeria japonica"
+      ],
+      "nl": [
+        "Boehmeria japonica"
+      ],
+      "pl": [
+        "Boehmeria japonica"
+      ],
+      "pt": [
+        "Boehmeria japonica"
+      ],
+      "ru": [
+        "Boehmeria japonica"
+      ],
+      "zh": [
+        "大叶苎麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -573,7 +762,7 @@
     "family": "Urticaceae",
     "genus": "Boehmeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -661,11 +850,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
-      "en": [
+      "ar": [
+        "رامي"
+      ],
+      "de": [
         "Ramie"
+      ],
+      "en": [
+        "Boehmeria nivea",
+        "Ramie"
+      ],
+      "es": [
+        "Boehmeria nivea"
+      ],
+      "fr": [
+        "ramie"
+      ],
+      "hi": [
+        "रैमी"
+      ],
+      "it": [
+        "Boehmeria nivea"
+      ],
+      "ja": [
+        "カラムシ"
+      ],
+      "ko": [
+        "모시풀"
+      ],
+      "nl": [
+        "Ramie"
+      ],
+      "pl": [
+        "szczmiel biały"
+      ],
+      "pt": [
+        "Rami"
+      ],
+      "ru": [
+        "рами белое"
+      ],
+      "tr": [
+        "Rami"
+      ],
+      "zh": [
+        "苎麻"
       ]
     },
     "tags": [],
@@ -677,12 +911,12 @@
     "family": "Urticaceae",
     "genus": "Boehmeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0e87ca6d62df51499f652b6dc97284310a22c496",
-    "description": "Small, oval-shaped seeds are covered in small, hook-like hairs. Once mature, the seeds are dark brown.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -759,9 +993,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Boehmeria penduliflora"
+      ],
+      "en": [
+        "Boehmeria penduliflora"
+      ],
+      "es": [
+        "Boehmeria penduliflora"
+      ],
+      "fr": [
+        "Bœhmère à fleurs pendantes"
+      ],
+      "it": [
+        "Boehmeria penduliflora"
+      ],
+      "nl": [
+        "Boehmeria penduliflora"
+      ],
+      "pl": [
+        "Boehmeria penduliflora"
+      ],
+      "pt": [
+        "Boehmeria penduliflora"
+      ],
+      "ru": [
+        "Boehmeria penduliflora"
+      ],
+      "zh": [
+        "长叶苎麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -771,12 +1038,12 @@
     "family": "Urticaceae",
     "genus": "Boehmeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0b38bc337003a47a9a8f2a8b47122998d9e44209",
-    "description": "Small, oval-shaped seeds are covered in small, hook-like hairs. Once mature, the seeds are dark brown.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -853,9 +1120,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Boehmeria sieboldiana"
+      ],
+      "en": [
+        "Boehmeria sieboldiana"
+      ],
+      "es": [
+        "Boehmeria sieboldiana"
+      ],
+      "fr": [
+        "Boehmeria sieboldiana"
+      ],
+      "it": [
+        "Boehmeria sieboldiana"
+      ],
+      "nl": [
+        "Boehmeria sieboldiana"
+      ],
+      "pl": [
+        "Boehmeria sieboldiana"
+      ],
+      "pt": [
+        "Boehmeria sieboldiana"
+      ],
+      "ru": [
+        "Boehmeria sieboldiana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -865,12 +1162,12 @@
     "family": "Urticaceae",
     "genus": "Boehmeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/80894e81dc48884c24a7776f08c6ea31.jpg",
-    "description": "Small, oval-shaped seeds are covered in small, hook-like hairs. Once mature, the seeds are dark brown.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -947,9 +1244,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Boehmeria splitgerbera"
+      ],
+      "en": [
+        "Boehmeria splitgerbera"
+      ],
+      "es": [
+        "Boehmeria splitgerbera"
+      ],
+      "fr": [
+        "Boehmeria splitgerbera"
+      ],
+      "it": [
+        "Boehmeria splitgerbera"
+      ],
+      "nl": [
+        "Boehmeria splitgerbera"
+      ],
+      "pl": [
+        "Boehmeria splitgerbera"
+      ],
+      "pt": [
+        "Boehmeria splitgerbera"
+      ],
+      "ru": [
+        "Boehmeria splitgerbera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -959,12 +1286,12 @@
     "family": "Urticaceae",
     "genus": "Boehmeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/15273d7113d84cfc95f1521c6d2c1ee46fccbcda",
-    "description": "Small, oval-shaped seeds are covered in small, hook-like hairs. Once mature, the seeds are dark brown.",
+    "description": "Boehmeria virgata is a species of flowering plant in the family Urticaceae, native to a wide area, from tropical Africa, the western Indian Ocean, tropical and subtropical Asia to Australia and the Pacific. It was first described by Georg Forster in 1786 as Urtica virgata.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1041,9 +1368,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Boehmeria virgata"
+      ],
+      "en": [
+        "Boehmeria virgata"
+      ],
+      "es": [
+        "Boehmeria virgata"
+      ],
+      "fr": [
+        "Boehmeria virgata"
+      ],
+      "it": [
+        "Boehmeria virgata"
+      ],
+      "nl": [
+        "Boehmeria virgata"
+      ],
+      "pl": [
+        "Boehmeria virgata"
+      ],
+      "pt": [
+        "Boehmeria virgata"
+      ],
+      "ru": [
+        "Boehmeria virgata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1053,12 +1410,12 @@
     "family": "Urticaceae",
     "genus": "Cecropia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/cecropia%20angustifolia%204424-1_fullsize.jpg",
-    "description": null,
+    "description": "Cecropia angustifolia is a species of flowering plant in the family Urticaceae. It is a tree which ranges from Puebla and Oaxaca in southern Mexico through Central America to Venezuela and Bolivia in South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1135,9 +1492,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cecropia angustifolia"
+      ],
+      "en": [
+        "Cecropia angustifolia"
+      ],
+      "es": [
+        "Cecropia angustifolia"
+      ],
+      "fr": [
+        "Cecropia angustifolia"
+      ],
+      "it": [
+        "Cecropia angustifolia"
+      ],
+      "nl": [
+        "Cecropia angustifolia"
+      ],
+      "pl": [
+        "Cecropia angustifolia"
+      ],
+      "pt": [
+        "Cecropia angustifolia"
+      ],
+      "ru": [
+        "Cecropia angustifolia"
+      ],
+      "tr": [
+        "Cecropia angustifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1147,7 +1537,7 @@
     "family": "Urticaceae",
     "genus": "Cecropia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1229,9 +1619,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cecropia gabrielis"
+      ],
+      "en": [
+        "Cecropia gabrielis"
+      ],
+      "es": [
+        "Cecropia gabrielis"
+      ],
+      "fr": [
+        "Cecropia gabrielis"
+      ],
+      "it": [
+        "Cecropia gabrielis"
+      ],
+      "nl": [
+        "Cecropia gabrielis"
+      ],
+      "pl": [
+        "Cecropia gabrielis"
+      ],
+      "pt": [
+        "Cecropia gabrielis"
+      ],
+      "ru": [
+        "Cecropia gabrielis"
+      ],
+      "tr": [
+        "Cecropia gabrielis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1241,12 +1664,12 @@
     "family": "Urticaceae",
     "genus": "Cecropia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6c8b3821bf2fcdf454589e79852c2825e84f029d",
-    "description": null,
+    "description": "The trumpet is a brass instrument commonly used in classical and jazz ensembles. The trumpet group ranges from the piccolo trumpet—with the highest register in the brass family—to the bass trumpet, pitched one octave below the standard B♭ or C trumpet.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1323,11 +1746,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cecropia obtusifolia"
+      ],
       "en": [
+        "Cecropia obtusifolia",
         "Trumpet"
+      ],
+      "es": [
+        "Cecropia obtusifolia"
+      ],
+      "fr": [
+        "Cecropia obtusifolia"
+      ],
+      "it": [
+        "Cecropia obtusifolia"
+      ],
+      "nl": [
+        "Cecropia obtusifolia"
+      ],
+      "pl": [
+        "Cecropia obtusifolia"
+      ],
+      "pt": [
+        "Cecropia obtusifolia"
+      ],
+      "ru": [
+        "Cecropia obtusifolia"
+      ],
+      "tr": [
+        "Cecropia obtusifolia"
       ]
     },
     "tags": [],
@@ -1339,12 +1792,12 @@
     "family": "Urticaceae",
     "genus": "Cecropia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6c84fd04cffd0a6d2b4aa6bb5d8084f684f2e184",
-    "description": null,
+    "description": "Cecropia pachystachya, commonly known as Ambay pumpwood, is a species of tree in the family Urticaceae. It is native to Argentina, Paraguay, Bolivia and Brazil where it grows near the edges of moist forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1421,11 +1874,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cecropia pachystachya"
+      ],
       "en": [
-        "Ambay pumpwood"
+        "Ambay pumpwood",
+        "Cecropia pachystachya"
+      ],
+      "es": [
+        "Cecropia pachystachya"
+      ],
+      "fr": [
+        "Cecropia pachystachya"
+      ],
+      "it": [
+        "Cecropia pachystachya"
+      ],
+      "nl": [
+        "Cecropia pachystachya"
+      ],
+      "pl": [
+        "Cecropia pachystachya"
+      ],
+      "pt": [
+        "Cecropia pachystachya"
+      ],
+      "ru": [
+        "Cecropia pachystachya"
+      ],
+      "tr": [
+        "Cecropia pachystachya"
+      ],
+      "zh": [
+        "深裂号角树"
       ]
     },
     "tags": [],
@@ -1437,7 +1923,7 @@
     "family": "Urticaceae",
     "genus": "Cecropia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1519,11 +2005,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cecropia peltata"
+      ],
       "en": [
+        "Cecropia peltata",
         "Trumpet-tree"
+      ],
+      "es": [
+        "Cecropia peltata"
+      ],
+      "fr": [
+        "Coulequin"
+      ],
+      "it": [
+        "Cecropia peltata"
+      ],
+      "ja": [
+        "ヤツデグワ"
+      ],
+      "nl": [
+        "Cecropia peltata"
+      ],
+      "pl": [
+        "Cecropia peltata"
+      ],
+      "pt": [
+        "Cecropia peltata"
+      ],
+      "ru": [
+        "Цекропия щитовидная"
+      ],
+      "tr": [
+        "Cecropia peltata"
+      ],
+      "zh": [
+        "號角樹"
       ]
     },
     "tags": [],
@@ -1535,12 +2057,12 @@
     "family": "Urticaceae",
     "genus": "Cecropia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1ae706c0b8fec1ca9e98ed4a82cfe95270de95e1",
-    "description": null,
+    "description": "Cecropia sciadophylla is a plant species from the genus Cecropia. The species was originally described by Carl Friedrich Philipp von Martius in 1841.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1617,9 +2139,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cecropia sciadophylla"
+      ],
+      "en": [
+        "Cecropia sciadophylla"
+      ],
+      "es": [
+        "Cecropia sciadophylla"
+      ],
+      "fr": [
+        "Cecropia sciadophylla"
+      ],
+      "it": [
+        "Cecropia sciadophylla"
+      ],
+      "nl": [
+        "Cecropia sciadophylla"
+      ],
+      "pl": [
+        "Cecropia sciadophylla"
+      ],
+      "pt": [
+        "Cecropia sciadophylla"
+      ],
+      "ru": [
+        "Cecropia sciadophylla"
+      ],
+      "tr": [
+        "Cecropia sciadophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1629,7 +2184,7 @@
     "family": "Urticaceae",
     "genus": "Coussapoa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1711,9 +2266,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coussapoa microcarpa"
+      ],
+      "en": [
+        "Coussapoa microcarpa"
+      ],
+      "es": [
+        "Coussapoa microcarpa"
+      ],
+      "fr": [
+        "Coussapoa microcarpa"
+      ],
+      "it": [
+        "Coussapoa microcarpa"
+      ],
+      "nl": [
+        "Coussapoa microcarpa"
+      ],
+      "pl": [
+        "Coussapoa microcarpa"
+      ],
+      "pt": [
+        "Coussapoa microcarpa"
+      ],
+      "ru": [
+        "Coussapoa microcarpa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1723,7 +2308,7 @@
     "family": "Urticaceae",
     "genus": "Coussapoa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1805,9 +2390,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coussapoa villosa"
+      ],
+      "en": [
+        "Coussapoa villosa"
+      ],
+      "es": [
+        "Coussapoa villosa"
+      ],
+      "fr": [
+        "Coussapoa villosa"
+      ],
+      "it": [
+        "Coussapoa villosa"
+      ],
+      "nl": [
+        "Coussapoa villosa"
+      ],
+      "pl": [
+        "Coussapoa villosa"
+      ],
+      "pt": [
+        "Coussapoa villosa"
+      ],
+      "ru": [
+        "Coussapoa villosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1817,12 +2432,12 @@
     "family": "Urticaceae",
     "genus": "Debregeasia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/89236be3885425602436c06373b52f2cee7b287d",
-    "description": null,
+    "description": "Debregeasia longifolia also known as Orange Wild Rhea, is a large shrub growing up to a height of 5 meters seen in wet areas from plains to 1500m. Commonly found in India, Sri Lanka, Myanmar, Indo-China, west China and Malesia. In Matupi Township, Chin, Debregeasia longifolia is also known as Haikaeng Thing. Its wood is used for making charcoal and fiber used for fishing-lines. The fiber extracted from bark is used for house construction.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1899,9 +2514,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Debregeasia longifolia"
+      ],
+      "en": [
+        "Debregeasia longifolia"
+      ],
+      "es": [
+        "Debregeasia longifolia"
+      ],
+      "fr": [
+        "Debregeasia longifolia"
+      ],
+      "it": [
+        "Debregeasia longifolia"
+      ],
+      "nl": [
+        "Debregeasia longifolia"
+      ],
+      "pl": [
+        "Debregeasia longifolia"
+      ],
+      "pt": [
+        "Debregeasia longifolia"
+      ],
+      "ru": [
+        "Debregeasia longifolia"
+      ],
+      "zh": [
+        "水珠麻",
+        "水麻",
+        "蛇地钱",
+        "长叶水麻",
+        "长叶麻",
+        "麻叶树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1911,12 +2564,12 @@
     "family": "Urticaceae",
     "genus": "Debregeasia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Debregeasia orientalis, common name yanagi ichigo, is a large shrub belonging to the family Urticaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1993,9 +2646,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Debregeasia orientalis"
+      ],
+      "en": [
+        "Debregeasia orientalis"
+      ],
+      "es": [
+        "Debregeasia orientalis"
+      ],
+      "fr": [
+        "Debregeasia orientalis"
+      ],
+      "it": [
+        "Debregeasia orientalis"
+      ],
+      "ja": [
+        "ヤナギイチゴ"
+      ],
+      "nl": [
+        "Debregeasia orientalis"
+      ],
+      "pl": [
+        "Debregeasia orientalis"
+      ],
+      "pt": [
+        "Debregeasia orientalis"
+      ],
+      "ru": [
+        "Debregeasia orientalis"
+      ],
+      "zh": [
+        "冬里麻",
+        "柳莓",
+        "比满",
+        "水冬瓜",
+        "水麻",
+        "水麻叶",
+        "水麻桑",
+        "沙连泡",
+        "赤麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2005,12 +2702,12 @@
     "family": "Urticaceae",
     "genus": "Dendrocnide",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bc2572de5cc9b8ed7893c85a249eb9a690ea879e",
-    "description": null,
+    "description": "Dendrocnide excelsa, commonly known as the giant stinging tree or fibrewood, is a rainforest tree in the nettle family Urticaceae, which is endemic to eastern Australia. It occurs from Tathra, New South Wales to Imbil in southeastern Queensland, and is very common at Dorrigo National Park and other rainforest walks in eastern Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2087,9 +2784,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dendrocnide excelsa"
+      ],
+      "en": [
+        "Dendrocnide excelsa"
+      ],
+      "es": [
+        "Dendrocnide excelsa"
+      ],
+      "fr": [
+        "Dendrocnide excelsa"
+      ],
+      "it": [
+        "Dendrocnide excelsa"
+      ],
+      "nl": [
+        "Dendrocnide excelsa"
+      ],
+      "pl": [
+        "Dendrocnide excelsa"
+      ],
+      "pt": [
+        "Dendrocnide excelsa"
+      ],
+      "ru": [
+        "Dendrocnide excelsa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2099,7 +2826,7 @@
     "family": "Urticaceae",
     "genus": "Elatostema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2181,9 +2908,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Elatostema involucratum"
+      ],
+      "en": [
+        "Elatostema involucratum"
+      ],
+      "es": [
+        "Elatostema involucratum"
+      ],
+      "fr": [
+        "Elatostema involucratum"
+      ],
+      "it": [
+        "Elatostema involucratum"
+      ],
+      "nl": [
+        "Elatostema involucratum"
+      ],
+      "pl": [
+        "Elatostema involucratum"
+      ],
+      "pt": [
+        "Elatostema involucratum"
+      ],
+      "ru": [
+        "Elatostema involucratum"
+      ],
+      "zh": [
+        "楼梯草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2193,7 +2953,7 @@
     "family": "Urticaceae",
     "genus": "Elatostema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2275,9 +3035,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Elatostema lineolatum"
+      ],
+      "en": [
+        "Elatostema lineolatum"
+      ],
+      "es": [
+        "Elatostema lineolatum"
+      ],
+      "fr": [
+        "Elatostema lineolatum"
+      ],
+      "it": [
+        "Elatostema lineolatum"
+      ],
+      "nl": [
+        "Elatostema lineolatum"
+      ],
+      "pl": [
+        "Elatostema lineolatum"
+      ],
+      "pt": [
+        "Elatostema lineolatum"
+      ],
+      "ru": [
+        "Elatostema lineolatum"
+      ],
+      "zh": [
+        "狭叶楼梯草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2287,12 +3080,12 @@
     "family": "Urticaceae",
     "genus": "Girardinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a6b3ba9a8669cd21dc8d72b17c87e081f0bcc262",
-    "description": null,
+    "description": "Girardinia diversifolia, commonly known as the Himalayan nettle or Nilghiri nettle, is a plant species with a wide native range across southern and eastern Asia and across most of tropical Africa and Madagascar. It grows naturally at elevations between 100 and 2,800 metres.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2369,11 +3162,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Girardinia diversifolia"
+      ],
       "en": [
+        "Girardinia diversifolia",
         "Himalayan-nettle"
+      ],
+      "es": [
+        "Girardinia diversifolia"
+      ],
+      "fr": [
+        "Girardinia diversifolia"
+      ],
+      "it": [
+        "Girardinia diversifolia"
+      ],
+      "nl": [
+        "Girardinia diversifolia"
+      ],
+      "pl": [
+        "Girardinia diversifolia"
+      ],
+      "pt": [
+        "Girardinia diversifolia"
+      ],
+      "ru": [
+        "Girardinia diversifolia"
+      ],
+      "zh": [
+        "大荨麻",
+        "大蝎子草",
+        "大钱麻",
+        "带刺马鞭",
+        "掌叶蝎子草",
+        "红大麻根",
+        "虎掌荨麻"
       ]
     },
     "tags": [],
@@ -2385,7 +3214,7 @@
     "family": "Urticaceae",
     "genus": "Gonostegia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2467,9 +3296,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gonostegia hirta"
+      ],
+      "en": [
+        "Gonostegia hirta"
+      ],
+      "es": [
+        "Gonostegia hirta"
+      ],
+      "fr": [
+        "Gonostegia hirta"
+      ],
+      "it": [
+        "Gonostegia hirta"
+      ],
+      "nl": [
+        "Gonostegia hirta"
+      ],
+      "pl": [
+        "Gonostegia hirta"
+      ],
+      "pt": [
+        "Gonostegia hirta"
+      ],
+      "ru": [
+        "Gonostegia hirta"
+      ],
+      "zh": [
+        "糯米团"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2479,12 +3341,12 @@
     "family": "Urticaceae",
     "genus": "Laportea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1013b32c0c9a23b54d2be7b7ae65b267c679bb82",
-    "description": null,
+    "description": "Laportea aestuans, the West Indian woodnettle, is an annual herb of the Urticaceae or nettle family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2561,11 +3423,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Laportea aestuans"
+      ],
       "en": [
+        "Laportea aestuans",
         "West indian-nettle"
+      ],
+      "es": [
+        "Laportea aestuans"
+      ],
+      "fr": [
+        "Laportea aestuans"
+      ],
+      "it": [
+        "Laportea aestuans"
+      ],
+      "nl": [
+        "Laportea aestuans"
+      ],
+      "pl": [
+        "Laportea aestuans"
+      ],
+      "pt": [
+        "Laportea aestuans"
+      ],
+      "ru": [
+        "Laportea aestuans"
+      ],
+      "zh": [
+        "火焰桑叶麻"
       ]
     },
     "tags": [],
@@ -2577,7 +3469,7 @@
     "family": "Urticaceae",
     "genus": "Laportea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2659,9 +3551,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Laportea bulbifera"
+      ],
+      "en": [
+        "Laportea bulbifera"
+      ],
+      "es": [
+        "Laportea bulbifera"
+      ],
+      "fr": [
+        "Laportea bulbifera"
+      ],
+      "it": [
+        "Laportea bulbifera"
+      ],
+      "ja": [
+        "ムカゴイラクサ"
+      ],
+      "nl": [
+        "Laportea bulbifera"
+      ],
+      "pl": [
+        "Laportea bulbifera"
+      ],
+      "pt": [
+        "Laportea bulbifera"
+      ],
+      "ru": [
+        "Laportea bulbifera"
+      ],
+      "zh": [
+        "珠芽艾麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2671,12 +3599,12 @@
     "family": "Urticaceae",
     "genus": "Laportea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e27e4f24b51bac5b137f724ca57d44394e57256c",
-    "description": "Black, dry shiny seed.",
+    "description": "Laportea canadensis, commonly called Canada nettle or wood-nettle, is an annual or perennial herbaceous plant of the nettle family Urticaceae, native to eastern and central North America. It is found growing in open woods with moist rich soils and along streams and in drainages.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2753,11 +3681,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Laportea canadensis"
+      ],
       "en": [
+        "Laportea canadensis",
         "Wood-nettle"
+      ],
+      "es": [
+        "Laportea canadensis"
+      ],
+      "fr": [
+        "Laportea canadensis"
+      ],
+      "it": [
+        "Laportea canadensis"
+      ],
+      "nl": [
+        "Laportea canadensis"
+      ],
+      "pl": [
+        "Laportea canadensis"
+      ],
+      "pt": [
+        "Laportea canadensis"
+      ],
+      "ru": [
+        "Laportea canadensis"
       ]
     },
     "tags": [],
@@ -2769,12 +3724,12 @@
     "family": "Urticaceae",
     "genus": "Musanga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/47dfb3bc86b9ad53c576987abeec6cba847cba94",
-    "description": null,
+    "description": "Musanga cecropioides, the African corkwood tree or umbrella tree, is found in tropical Africa from Sierra Leone south to Angola and east to Uganda. It is typical in secondary forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2851,11 +3806,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Musanga cecropioides"
+      ],
       "en": [
-        "Aga umbrella-tree"
+        "Aga umbrella-tree",
+        "Musanga cecropioides"
+      ],
+      "es": [
+        "Musanga cecropioides"
+      ],
+      "fr": [
+        "Parasolier"
+      ],
+      "it": [
+        "Musanga cecropioides"
+      ],
+      "nl": [
+        "Musanga cecropioides"
+      ],
+      "pl": [
+        "Musanga cecropioides"
+      ],
+      "pt": [
+        "Musanga cecropioides"
+      ],
+      "ru": [
+        "Musanga cecropioides"
+      ],
+      "zh": [
+        "伞树"
       ]
     },
     "tags": [],
@@ -2867,12 +3852,12 @@
     "family": "Urticaceae",
     "genus": "Myrianthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5fba198075bf6edd8d0458ddd0f47ad9917e0ca4",
-    "description": null,
+    "description": "Myrianthus arboreus, commonly known as the giant yellow mulberry or monkey fruit, is a dioecious tropical tree in the genus Myrianthus. It lives in the tropical Central African countries of Central African Republic, Gabon, Cameroon, Nigeria, and Tanzania, and also Ghana in the West African countries. Its chromosome count is 2n = 28.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2949,9 +3934,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Myrianthus arboreus"
+      ],
+      "en": [
+        "Myrianthus arboreus"
+      ],
+      "es": [
+        "Myrianthus arboreus"
+      ],
+      "fr": [
+        "Myrianthus arboreus"
+      ],
+      "it": [
+        "Myrianthus arboreus"
+      ],
+      "nl": [
+        "Myrianthus arboreus"
+      ],
+      "pl": [
+        "Myrianthus arboreus"
+      ],
+      "pt": [
+        "Myrianthus arboreus"
+      ],
+      "ru": [
+        "Myrianthus arboreus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2961,7 +3976,7 @@
     "family": "Urticaceae",
     "genus": "Myriocarpa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3043,9 +4058,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Myriocarpa longipes"
+      ],
+      "en": [
+        "Myriocarpa longipes"
+      ],
+      "es": [
+        "Myriocarpa longipes"
+      ],
+      "fr": [
+        "Myriocarpa longipes"
+      ],
+      "it": [
+        "Myriocarpa longipes"
+      ],
+      "nl": [
+        "Myriocarpa longipes"
+      ],
+      "pl": [
+        "Myriocarpa longipes"
+      ],
+      "pt": [
+        "Myriocarpa longipes"
+      ],
+      "ru": [
+        "Myriocarpa longipes"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3055,7 +4100,7 @@
     "family": "Urticaceae",
     "genus": "Myriocarpa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3137,9 +4182,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Myriocarpa stipitata"
+      ],
+      "en": [
+        "Myriocarpa stipitata"
+      ],
+      "es": [
+        "Myriocarpa stipitata"
+      ],
+      "fr": [
+        "Myriocarpa stipitata"
+      ],
+      "it": [
+        "Myriocarpa stipitata"
+      ],
+      "nl": [
+        "Myriocarpa stipitata"
+      ],
+      "pl": [
+        "Myriocarpa stipitata"
+      ],
+      "pt": [
+        "Myriocarpa stipitata"
+      ],
+      "ru": [
+        "Myriocarpa stipitata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3149,7 +4224,7 @@
     "family": "Urticaceae",
     "genus": "Nanocnide",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3231,9 +4306,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Nanocnide japonica"
+      ],
+      "en": [
+        "Nanocnide japonica"
+      ],
+      "es": [
+        "Nanocnide japonica"
+      ],
+      "fr": [
+        "Nanocnide japonica"
+      ],
+      "it": [
+        "Nanocnide japonica"
+      ],
+      "ja": [
+        "カテンソウ"
+      ],
+      "nl": [
+        "Nanocnide japonica"
+      ],
+      "pl": [
+        "Nanocnide japonica"
+      ],
+      "pt": [
+        "Nanocnide japonica"
+      ],
+      "ru": [
+        "Nanocnide japonica"
+      ],
+      "zh": [
+        "花点草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3243,7 +4354,7 @@
     "family": "Urticaceae",
     "genus": "Oreocnide",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3325,9 +4436,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oreocnide frutescens"
+      ],
+      "en": [
+        "Oreocnide frutescens"
+      ],
+      "es": [
+        "Oreocnide frutescens"
+      ],
+      "fr": [
+        "Oreocnide frutescens"
+      ],
+      "it": [
+        "Oreocnide frutescens"
+      ],
+      "nl": [
+        "Oreocnide frutescens"
+      ],
+      "pl": [
+        "Oreocnide frutescens"
+      ],
+      "pt": [
+        "Oreocnide frutescens"
+      ],
+      "ru": [
+        "Oreocnide frutescens"
+      ],
+      "zh": [
+        "紫麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3337,12 +4481,12 @@
     "family": "Urticaceae",
     "genus": "Oreocnide",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Oreocnide pedunculata, the purple woodnettle or longpedicel woodnettle, is a species of flowering plant in the family Urticaceae, native to south-central and southern Japan, the Ryukyu Islands, and Taiwan. A shrub or small tree 2 to 5 m tall, it is found growing in valleys and forest edges at elevations ranging from 100 to 1,200 m. Its leaves are an important food source for Formosan rock macaques and Japanese macaques.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3419,9 +4563,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oreocnide pedunculata"
+      ],
+      "en": [
+        "Oreocnide pedunculata"
+      ],
+      "es": [
+        "Oreocnide pedunculata"
+      ],
+      "fr": [
+        "Oreocnide pedunculata"
+      ],
+      "it": [
+        "Oreocnide pedunculata"
+      ],
+      "ja": [
+        "ハドノキ"
+      ],
+      "nl": [
+        "Oreocnide pedunculata"
+      ],
+      "pl": [
+        "Oreocnide pedunculata"
+      ],
+      "pt": [
+        "Oreocnide pedunculata"
+      ],
+      "ru": [
+        "Oreocnide pedunculata"
+      ],
+      "zh": [
+        "长梗紫麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3431,12 +4611,12 @@
     "family": "Urticaceae",
     "genus": "Parietaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4b556fb8c42abeb0a258186beddc7f3da9eec5d7",
-    "description": null,
+    "description": "Parietaria debilis, commonly known as pellitory, small-flower pellitory, or native pellitory, is a herb native to Australia and New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3447,17 +4627,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "parietaria_debilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3513,11 +4693,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "ar": [
+        "حشيشة الزجاج الضعيفة"
+      ],
+      "de": [
+        "Parietaria debilis"
+      ],
       "en": [
-        "Mediterranean pellitory-of-the-wall"
+        "Mediterranean pellitory-of-the-wall",
+        "Parietaria debilis"
+      ],
+      "es": [
+        "Parietaria debilis"
+      ],
+      "fr": [
+        "Parietaria debilis"
+      ],
+      "it": [
+        "Parietaria debilis"
+      ],
+      "ko": [
+        "개물통이"
+      ],
+      "nl": [
+        "Parietaria debilis"
+      ],
+      "pl": [
+        "Parietaria debilis"
+      ],
+      "pt": [
+        "Parietaria debilis"
+      ],
+      "ru": [
+        "Parietaria debilis"
+      ],
+      "zh": [
+        "墙草"
       ]
     },
     "tags": [],
@@ -3529,12 +4745,12 @@
     "family": "Urticaceae",
     "genus": "Parietaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Parietaria hespera is a species of flowering plant in the nettle family known by the common name rillita pellitory. It is native to the southwestern United States and northwestern Mexico, where it grows in many types of habitat, from coast to desert, dry to moist, and sometimes in disturbed areas. It is an annual herb taking an erect or spreading form up to half a meter long or forming a mat or dense tangle. The stems may branch or not.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3545,7 +4761,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "parietaria_hespera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3611,9 +4827,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "حشيشة الزجاج الغربية"
+      ],
+      "de": [
+        "Parietaria hespera"
+      ],
+      "en": [
+        "Parietaria hespera"
+      ],
+      "es": [
+        "Parietaria hespera"
+      ],
+      "fr": [
+        "Parietaria hespera"
+      ],
+      "it": [
+        "Parietaria hespera"
+      ],
+      "nl": [
+        "Parietaria hespera"
+      ],
+      "pl": [
+        "Parietaria hespera"
+      ],
+      "pt": [
+        "Parietaria hespera"
+      ],
+      "ru": [
+        "Parietaria hespera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3623,12 +4872,12 @@
     "family": "Urticaceae",
     "genus": "Parietaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a42b12c34c4813f6a6dbd2694309a0ea25db0bff",
-    "description": null,
+    "description": "Parietaria judaica, spreading pellitory, is a species of herbaceous perennial flowering plant in the family Urticaceae. It is native to the eastern Mediterranean and Middle East, and is widely established worldwide as an urban weed. Its pollen is a significant cause of asthma and other allergies in warmer countries, but it is also valued as a contributor to biodiversity in polluted cities and it has been used as a medicinal herb.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3639,17 +4888,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "parietaria_judaica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3705,11 +4954,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.8
     },
     "common_names": {
+      "ar": [
+        "حشيشة الزجاج اليهودية"
+      ],
+      "de": [
+        "Ausgebreitetes Glaskraut"
+      ],
       "en": [
+        "Parietaria judaica",
         "Rusty-back"
+      ],
+      "es": [
+        "Parietaria judaica"
+      ],
+      "fr": [
+        "Parietaria judaica"
+      ],
+      "it": [
+        "Parietaria judaica"
+      ],
+      "nl": [
+        "Parietaria judaica"
+      ],
+      "pl": [
+        "Parietaria judaica"
+      ],
+      "pt": [
+        "alfavaca-da-cobra"
+      ],
+      "ru": [
+        "Parietaria judaica"
       ]
     },
     "tags": [],
@@ -3721,12 +5000,12 @@
     "family": "Urticaceae",
     "genus": "Parietaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6bd8b257fbd35527201c00955ee80f56825bfa54",
-    "description": null,
+    "description": "Parietaria lusitanica is a species of plant in the family Urticaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3737,17 +5016,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "parietaria_lusitanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3803,11 +5082,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Parietaria lusitanica"
+      ],
       "en": [
-        "Mediterranean pellitory-of-the-wall"
+        "Mediterranean pellitory-of-the-wall",
+        "Parietaria lusitanica"
+      ],
+      "es": [
+        "Parietaria lusitanica"
+      ],
+      "fr": [
+        "Parietaria lusitanica"
+      ],
+      "it": [
+        "Parietaria lusitanica"
+      ],
+      "nl": [
+        "Parietaria lusitanica"
+      ],
+      "pl": [
+        "Parietaria lusitanica"
+      ],
+      "pt": [
+        "Parietaria lusitanica"
+      ],
+      "ru": [
+        "Parietaria lusitanica"
       ]
     },
     "tags": [],
@@ -3819,7 +5125,7 @@
     "family": "Urticaceae",
     "genus": "Parietaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3835,7 +5141,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "parietaria_mauritanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3901,9 +5207,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Parietaria mauritanica"
+      ],
+      "en": [
+        "Parietaria mauritanica"
+      ],
+      "es": [
+        "Parietaria mauritanica"
+      ],
+      "fr": [
+        "Parietaria mauritanica"
+      ],
+      "it": [
+        "Parietaria mauritanica"
+      ],
+      "nl": [
+        "Parietaria mauritanica"
+      ],
+      "pl": [
+        "Parietaria mauritanica"
+      ],
+      "pt": [
+        "Parietaria mauritanica"
+      ],
+      "ru": [
+        "Parietaria mauritanica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3913,7 +5249,7 @@
     "family": "Urticaceae",
     "genus": "Parietaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3934,12 +5270,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3995,11 +5331,32 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.8
     },
     "common_names": {
+      "ar": [
+        "حشيشة الزجاج المخزنية"
+      ],
+      "de": [
+        "Aufrechtes Glaskraut"
+      ],
       "en": [
-        "Pellitory-of-the-wall"
+        "Pellitory-of-the-wall",
+        "eastern pellitory-of-the-wall"
+      ],
+      "fr": [
+        "Pariétaire officinale"
+      ],
+      "it": [
+        "Parietaria officinalis"
+      ],
+      "nl": [
+        "Parietaria officinalis"
+      ],
+      "pl": [
+        "parietaria lekarska"
       ]
     },
     "tags": [],
@@ -4011,7 +5368,7 @@
     "family": "Urticaceae",
     "genus": "Parietaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4027,17 +5384,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "parietaria_pensylvanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4093,11 +5450,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "ar": [
+        "حشيشة الزجاج البنسلفانية"
+      ],
+      "de": [
+        "Parietaria pensylvanica"
+      ],
       "en": [
+        "Parietaria pensylvanica",
         "Pennsylvania pellitory"
+      ],
+      "es": [
+        "Parietaria pensylvanica"
+      ],
+      "fr": [
+        "Parietaria pensylvanica"
+      ],
+      "it": [
+        "Parietaria pensylvanica"
+      ],
+      "nl": [
+        "Parietaria pensylvanica"
+      ],
+      "pl": [
+        "Parietaria pensylvanica"
+      ],
+      "pt": [
+        "Parietaria pensylvanica"
+      ],
+      "ru": [
+        "Parietaria pensylvanica"
       ]
     },
     "tags": [],
@@ -4109,7 +5496,7 @@
     "family": "Urticaceae",
     "genus": "Phenax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4191,9 +5578,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phenax hirtus"
+      ],
+      "en": [
+        "Phenax hirtus"
+      ],
+      "es": [
+        "Phenax hirtus"
+      ],
+      "fr": [
+        "Phenax hirtus"
+      ],
+      "it": [
+        "Phenax hirtus"
+      ],
+      "nl": [
+        "Phenax hirtus"
+      ],
+      "pl": [
+        "Phenax hirtus"
+      ],
+      "pt": [
+        "Phenax hirtus"
+      ],
+      "ru": [
+        "Phenax hirtus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4203,7 +5620,7 @@
     "family": "Urticaceae",
     "genus": "Pilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4221,7 +5638,7 @@
       "plant_id": "pilea_microphylla",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -4290,11 +5707,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pilea microphylla"
+      ],
       "en": [
-        "Artillery-plant"
+        "Artillery-plant",
+        "Pilea microphylla"
+      ],
+      "es": [
+        "Pilea microphylla"
+      ],
+      "fr": [
+        "Pilea microphylla"
+      ],
+      "it": [
+        "Pilea microphylla"
+      ],
+      "ja": [
+        "コゴメミズ"
+      ],
+      "nl": [
+        "Pilea microphylla"
+      ],
+      "pl": [
+        "Pilea microphylla"
+      ],
+      "pt": [
+        "Pilea microphylla"
+      ],
+      "ru": [
+        "Pilea microphylla"
+      ],
+      "zh": [
+        "小叶冷水花"
       ]
     },
     "tags": [],
@@ -4306,12 +5756,12 @@
     "family": "Urticaceae",
     "genus": "Pilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/5f69d9e0bab87af81520da7ce6873bfb.jpg",
-    "description": "Non-showy/Insignificant",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4393,9 +5843,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pilea peploides"
+      ],
+      "en": [
+        "Pilea peploides"
+      ],
+      "es": [
+        "Pilea peploides"
+      ],
+      "fr": [
+        "Pilea peploides"
+      ],
+      "it": [
+        "Pilea peploides"
+      ],
+      "ko": [
+        "물통이"
+      ],
+      "nl": [
+        "Pilea peploides"
+      ],
+      "pl": [
+        "Pilea peploides"
+      ],
+      "pt": [
+        "Pilea peploides"
+      ],
+      "ru": [
+        "Pilea peploides"
+      ],
+      "zh": [
+        "矮冷水花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4405,7 +5891,7 @@
     "family": "Urticaceae",
     "genus": "Pilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4487,9 +5973,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pilea pubescens"
+      ],
+      "en": [
+        "Pilea pubescens"
+      ],
+      "es": [
+        "Pilea pubescens"
+      ],
+      "fr": [
+        "Pilea pubescens"
+      ],
+      "it": [
+        "Pilea pubescens"
+      ],
+      "nl": [
+        "Pilea pubescens"
+      ],
+      "pl": [
+        "Pilea pubescens"
+      ],
+      "pt": [
+        "Pilea pubescens"
+      ],
+      "ru": [
+        "Pilea pubescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4499,12 +6015,12 @@
     "family": "Urticaceae",
     "genus": "Pilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c50292b7231dffeff81527fca590448051fabd71",
-    "description": "Tiny green with black stripes achenes spread by wind.",
+    "description": "Pilea pumila, commonly known as clearweed, Canadian clearweed, coolwort or richweed, is an herbaceous plant in the nettle family (Urticaceae). It is native to Asia and eastern North America, where it is broadly distributed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4581,11 +6097,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pilea pumila"
+      ],
       "en": [
-        "Clearweed"
+        "Clearweed",
+        "Pilea pumila"
+      ],
+      "es": [
+        "Pilea pumila"
+      ],
+      "fr": [
+        "Pilea pumila"
+      ],
+      "it": [
+        "Pilea pumila"
+      ],
+      "ja": [
+        "アオミズ"
+      ],
+      "nl": [
+        "Pilea pumila"
+      ],
+      "pl": [
+        "Pilea pumila"
+      ],
+      "pt": [
+        "Pilea pumila"
+      ],
+      "ru": [
+        "Pilea pumila"
+      ],
+      "zh": [
+        "透茎冷水花"
       ]
     },
     "tags": [],
@@ -4597,12 +6146,12 @@
     "family": "Urticaceae",
     "genus": "Pipturus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/08b028381adaa182f209cfb64b98570dd586394a",
-    "description": null,
+    "description": "Pipturus albidus, known as māmaki in Hawaiian and known as Waimea pipturus in English, is a species of flowering plant in the nettle family, Urticaceae, that is endemic to Hawaiʻi. It inhabits coastal mesic, mixed mesic, and wet forests at elevations of 60–1,830 m (200–6,000 ft). Māmaki is a small tree that reaches a height of 9 m (30 ft) and a trunk diameter of 0.3 m (0.98 ft).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4679,11 +6228,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pipturus albidus"
+      ],
       "en": [
+        "Pipturus albidus",
         "Waimea pipturus"
+      ],
+      "es": [
+        "Pipturus albidus"
+      ],
+      "fr": [
+        "Pipturus albidus"
+      ],
+      "it": [
+        "Pipturus albidus"
+      ],
+      "ja": [
+        "ママキ"
+      ],
+      "nl": [
+        "Pipturus albidus"
+      ],
+      "pl": [
+        "Pipturus albidus"
+      ],
+      "pt": [
+        "Pipturus albidus"
+      ],
+      "ru": [
+        "Pipturus albidus"
       ]
     },
     "tags": [],
@@ -4695,12 +6274,12 @@
     "family": "Urticaceae",
     "genus": "Pipturus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/93cf9a846d8b26a13549e7bdc708eb57.jpg",
-    "description": null,
+    "description": "Pipturus argenteus, known as false stinger, native mulberry, white mulberry, white nettle, amahatyan (Chamorro), and ghasooso (Carolinian), is a small tree native to tropical Asia, northern and eastern Australia and the Pacific.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4777,9 +6356,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pipturus argenteus"
+      ],
+      "en": [
+        "Pipturus argenteus"
+      ],
+      "es": [
+        "Pipturus argenteus"
+      ],
+      "fr": [
+        "Pipturus argenteus"
+      ],
+      "it": [
+        "Pipturus argenteus"
+      ],
+      "nl": [
+        "Pipturus argenteus"
+      ],
+      "pl": [
+        "Pipturus argenteus"
+      ],
+      "pt": [
+        "Pipturus argenteus"
+      ],
+      "ru": [
+        "Pipturus argenteus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4789,7 +6398,7 @@
     "family": "Urticaceae",
     "genus": "Pourouma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4871,9 +6480,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pourouma bicolor"
+      ],
+      "en": [
+        "Pourouma bicolor"
+      ],
+      "es": [
+        "Pourouma bicolor"
+      ],
+      "fr": [
+        "Pourouma bicolor"
+      ],
+      "it": [
+        "Pourouma bicolor"
+      ],
+      "nl": [
+        "Pourouma bicolor"
+      ],
+      "pl": [
+        "Pourouma bicolor"
+      ],
+      "pt": [
+        "Pourouma bicolor"
+      ],
+      "ru": [
+        "Pourouma bicolor"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4883,7 +6522,7 @@
     "family": "Urticaceae",
     "genus": "Pourouma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4965,9 +6604,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pourouma guianensis"
+      ],
+      "en": [
+        "Pourouma guianensis"
+      ],
+      "es": [
+        "Pourouma guianensis"
+      ],
+      "fr": [
+        "Pourouma guianensis"
+      ],
+      "it": [
+        "Pourouma guianensis"
+      ],
+      "nl": [
+        "Pourouma guianensis"
+      ],
+      "pl": [
+        "Pourouma guianensis"
+      ],
+      "pt": [
+        "Pourouma guianensis"
+      ],
+      "ru": [
+        "Pourouma guianensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4977,7 +6646,7 @@
     "family": "Urticaceae",
     "genus": "Pourouma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5059,9 +6728,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pourouma minor"
+      ],
+      "en": [
+        "Pourouma minor"
+      ],
+      "es": [
+        "Pourouma minor"
+      ],
+      "fr": [
+        "Pourouma minor"
+      ],
+      "it": [
+        "Pourouma minor"
+      ],
+      "nl": [
+        "Pourouma minor"
+      ],
+      "pl": [
+        "Pourouma minor"
+      ],
+      "pt": [
+        "Pourouma minor"
+      ],
+      "ru": [
+        "Pourouma minor"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5071,7 +6770,7 @@
     "family": "Urticaceae",
     "genus": "Pouzolzia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5153,9 +6852,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pouzolzia sanguinea"
+      ],
+      "en": [
+        "Pouzolzia sanguinea"
+      ],
+      "es": [
+        "Pouzolzia sanguinea"
+      ],
+      "fr": [
+        "Pouzolzia sanguinea"
+      ],
+      "it": [
+        "Pouzolzia sanguinea"
+      ],
+      "nl": [
+        "Pouzolzia sanguinea"
+      ],
+      "pl": [
+        "Pouzolzia sanguinea"
+      ],
+      "pt": [
+        "Pouzolzia sanguinea"
+      ],
+      "ru": [
+        "Pouzolzia sanguinea"
+      ],
+      "zh": [
+        "红雾水葛"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5165,12 +6897,12 @@
     "family": "Urticaceae",
     "genus": "Pouzolzia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/33680ec5a96720309eac1cbc371cd5aad0982781",
-    "description": null,
+    "description": "Pouzolzia zeylanica, commonly known as graceful Pouzolz's bush or Ceylon pouzolzia, is a perennial herb native to Tropical and Subtropical Asia and Northern Australia. This species, which grows primarily in seasonally dry tropical biomes, reaches a height of 12–40 cm and is characterized by its pale green flowers arranged in loose, hairy clusters in the leaf axils.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5247,11 +6979,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pouzolzia zeylanica"
+      ],
       "en": [
-        "Graceful pouzolzsbush"
+        "Graceful pouzolzsbush",
+        "Pouzolzia zeylanica"
+      ],
+      "es": [
+        "Pouzolzia zeylanica"
+      ],
+      "fr": [
+        "Pouzolzia zeylanica"
+      ],
+      "it": [
+        "Pouzolzia zeylanica"
+      ],
+      "ja": [
+        "ヤンバルツルマオ"
+      ],
+      "nl": [
+        "Pouzolzia zeylanica"
+      ],
+      "pl": [
+        "Pouzolzia zeylanica"
+      ],
+      "pt": [
+        "Pouzolzia zeylanica"
+      ],
+      "ru": [
+        "Pouzolzia zeylanica"
+      ],
+      "zh": [
+        "雾水葛"
       ]
     },
     "tags": [],
@@ -5263,7 +7028,7 @@
     "family": "Urticaceae",
     "genus": "Procris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5345,9 +7110,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Procris pedunculata"
+      ],
+      "en": [
+        "Procris pedunculata"
+      ],
+      "es": [
+        "Procris pedunculata"
+      ],
+      "fr": [
+        "Procris pedunculata"
+      ],
+      "it": [
+        "Procris pedunculata"
+      ],
+      "nl": [
+        "Procris pedunculata"
+      ],
+      "pl": [
+        "Procris pedunculata"
+      ],
+      "pt": [
+        "Procris pedunculata"
+      ],
+      "ru": [
+        "Procris pedunculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5357,7 +7152,7 @@
     "family": "Urticaceae",
     "genus": "Soleirolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5375,15 +7170,15 @@
       "plant_id": "soleirolia_soleirolii",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5439,11 +7234,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.7
     },
     "common_names": {
+      "de": [
+        "Bubikopf"
+      ],
       "en": [
-        "Corsican carpet"
+        "Corsican carpet",
+        "Soleirolia soleirolii"
+      ],
+      "es": [
+        "Soleirolia soleirolii"
+      ],
+      "fr": [
+        "Soleirolia soleirolii"
+      ],
+      "it": [
+        "Soleirolia soleirolii"
+      ],
+      "nl": [
+        "Slaapkamergeluk"
+      ],
+      "pl": [
+        "Soleirolia soleirolii"
+      ],
+      "pt": [
+        "Soleirolia soleirolii"
+      ],
+      "ru": [
+        "Soleirolia soleirolii"
+      ],
+      "tr": [
+        "Arapsaçı"
       ]
     },
     "tags": [],
@@ -5455,7 +7280,7 @@
     "family": "Urticaceae",
     "genus": "Urera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5537,11 +7362,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Urera baccifera"
+      ],
       "en": [
-        "Scratchbush"
+        "Scratchbush",
+        "Urera baccifera"
+      ],
+      "es": [
+        "Urera baccifera"
+      ],
+      "fr": [
+        "Urera baccifera"
+      ],
+      "it": [
+        "Urera baccifera"
+      ],
+      "nl": [
+        "Urera baccifera"
+      ],
+      "pl": [
+        "Urera baccifera"
+      ],
+      "pt": [
+        "Urera baccifera"
+      ],
+      "ru": [
+        "Urera baccifera"
       ]
     },
     "tags": [],
@@ -5553,7 +7405,7 @@
     "family": "Urticaceae",
     "genus": "Urera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5635,11 +7487,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Urera caracasana"
+      ],
       "en": [
-        "Flameberry"
+        "Flameberry",
+        "Urera caracasana"
+      ],
+      "es": [
+        "Urera caracasana"
+      ],
+      "fr": [
+        "Urera caracasana"
+      ],
+      "it": [
+        "Urera caracasana"
+      ],
+      "nl": [
+        "Urera caracasana"
+      ],
+      "pl": [
+        "Urera caracasana"
+      ],
+      "pt": [
+        "Urera caracasana"
+      ],
+      "ru": [
+        "Urera caracasana"
       ]
     },
     "tags": [],
@@ -5651,7 +7530,7 @@
     "family": "Urticaceae",
     "genus": "Urera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5733,9 +7612,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Urera simplex"
+      ],
+      "en": [
+        "Urera simplex"
+      ],
+      "es": [
+        "Urera simplex"
+      ],
+      "fr": [
+        "Urera simplex"
+      ],
+      "it": [
+        "Urera simplex"
+      ],
+      "nl": [
+        "Urera simplex"
+      ],
+      "pl": [
+        "Urera simplex"
+      ],
+      "pt": [
+        "Urera simplex"
+      ],
+      "ru": [
+        "Urera simplex"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5745,7 +7654,7 @@
     "family": "Urticaceae",
     "genus": "Urtica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5827,9 +7736,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "قراص قنبي"
+      ],
+      "de": [
+        "Urtica cannabina"
+      ],
+      "en": [
+        "Urtica cannabina"
+      ],
+      "es": [
+        "Urtica cannabina"
+      ],
+      "fr": [
+        "Urtica cannabina"
+      ],
+      "it": [
+        "Urtica cannabina"
+      ],
+      "nl": [
+        "Urtica cannabina"
+      ],
+      "pl": [
+        "Urtica cannabina"
+      ],
+      "pt": [
+        "Urtica cannabina"
+      ],
+      "ru": [
+        "Крапива коноплёвая"
+      ],
+      "zh": [
+        "麻叶荨麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5839,7 +7784,7 @@
     "family": "Urticaceae",
     "genus": "Urtica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5921,11 +7866,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Urtica chamaedryoides"
+      ],
       "en": [
-        "Heart-leaf nettle"
+        "Heart-leaf nettle",
+        "Urtica chamaedryoides"
+      ],
+      "es": [
+        "Urtica chamaedryoides"
+      ],
+      "fr": [
+        "Urtica chamaedryoides"
+      ],
+      "it": [
+        "Urtica chamaedryoides"
+      ],
+      "nl": [
+        "Urtica chamaedryoides"
+      ],
+      "pl": [
+        "Urtica chamaedryoides"
+      ],
+      "pt": [
+        "Urtica chamaedryoides"
+      ],
+      "ru": [
+        "Urtica chamaedryoides"
       ]
     },
     "tags": [],
@@ -5937,7 +7909,7 @@
     "family": "Urticaceae",
     "genus": "Urtica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5958,12 +7930,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5985,8 +7957,8 @@
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
       "tips": "Good companions: Apricot, Black walnut, Horseradish, Nectarine, Peach, Sour cherry, Sweet cherry, Tomato | Similar plants: Laportea canadensis",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: allergenic, skin-irritating. Parts: Leaf. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6004,8 +7976,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Leaf",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Biomass\", \"Compost\", \"Dye\", \"Fiber\", \"Hair\", \"Animal feed\", \"oil\", \"Waterproofing\", \"Dynamic accumulator\"]",
@@ -6019,11 +7991,53 @@
       "germination_temp_c": null,
       "good_companions": "[\"Apricot\", \"Black walnut\", \"Horseradish\", \"Nectarine\", \"Peach\", \"Sour cherry\", \"Sweet cherry\", \"Tomato\"]",
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.2
     },
     "common_names": {
+      "ar": [
+        "قراص كبير"
+      ],
+      "de": [
+        "Große Brennnessel"
+      ],
       "en": [
-        "Common nettle"
+        "Common nettle",
+        "Urtica dioica"
+      ],
+      "es": [
+        "Urtica dioica"
+      ],
+      "fr": [
+        "Urtica dioica"
+      ],
+      "hi": [
+        "कंडाली"
+      ],
+      "it": [
+        "Urtica dioica"
+      ],
+      "ja": [
+        "イラクサ"
+      ],
+      "ko": [
+        "쐐기풀"
+      ],
+      "nl": [
+        "grote brandnetel"
+      ],
+      "pl": [
+        "Pokrzywa zwyczajna"
+      ],
+      "pt": [
+        "Urtica dioica"
+      ],
+      "ru": [
+        "крапива двудомная"
+      ],
+      "zh": [
+        "异株荨麻"
       ]
     },
     "tags": [],
@@ -6035,7 +8049,7 @@
     "family": "Urticaceae",
     "genus": "Urtica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6117,9 +8131,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ongaonga"
+      ],
+      "en": [
+        "Urtica ferox"
+      ],
+      "es": [
+        "Urtica ferox"
+      ],
+      "fr": [
+        "Ongaonga"
+      ],
+      "it": [
+        "Urtica ferox"
+      ],
+      "nl": [
+        "Urtica ferox"
+      ],
+      "pl": [
+        "Urtica ferox"
+      ],
+      "pt": [
+        "Urtica ferox"
+      ],
+      "ru": [
+        "Онгаонга"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6129,7 +8173,7 @@
     "family": "Urticaceae",
     "genus": "Urtica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6150,12 +8194,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6211,9 +8255,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Urtica gracilis"
+      ],
+      "en": [
+        "Urtica gracilis"
+      ],
+      "es": [
+        "Urtica gracilis"
+      ],
+      "fr": [
+        "Urtica gracilis"
+      ],
+      "it": [
+        "Urtica gracilis"
+      ],
+      "nl": [
+        "Urtica gracilis"
+      ],
+      "pl": [
+        "Urtica gracilis"
+      ],
+      "pt": [
+        "Urtica gracilis"
+      ],
+      "ru": [
+        "Urtica gracilis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6223,7 +8297,7 @@
     "family": "Urticaceae",
     "genus": "Urtica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6244,12 +8318,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6305,9 +8379,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Urtica incisa"
+      ],
+      "en": [
+        "Urtica incisa"
+      ],
+      "es": [
+        "Urtica incisa"
+      ],
+      "fr": [
+        "Urtica incisa"
+      ],
+      "it": [
+        "Urtica incisa"
+      ],
+      "nl": [
+        "Urtica incisa"
+      ],
+      "pl": [
+        "Urtica incisa"
+      ],
+      "pt": [
+        "Urtica incisa"
+      ],
+      "ru": [
+        "Urtica incisa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6317,7 +8421,7 @@
     "family": "Urticaceae",
     "genus": "Urtica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6333,7 +8437,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "urtica_membranacea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6399,9 +8503,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "قراص غشائي"
+      ],
+      "de": [
+        "Geschwänzte Brennnessel"
+      ],
+      "en": [
+        "Urtica membranacea"
+      ],
+      "es": [
+        "Urtica membranacea"
+      ],
+      "fr": [
+        "Urtica membranacea"
+      ],
+      "it": [
+        "Urtica membranacea"
+      ],
+      "nl": [
+        "Urtica membranacea"
+      ],
+      "pl": [
+        "Urtica membranacea"
+      ],
+      "pt": [
+        "Urtica membranacea"
+      ],
+      "ru": [
+        "Urtica membranacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6411,7 +8548,7 @@
     "family": "Urticaceae",
     "genus": "Urtica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6427,17 +8564,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "urtica_pilulifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6493,11 +8630,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "ar": [
+        "عقار كبير"
+      ],
+      "de": [
+        "Pillen-Brennnessel"
+      ],
       "en": [
-        "Roman nettle"
+        "Roman nettle",
+        "Urtica pilulifera"
+      ],
+      "es": [
+        "Urtica pilulifera"
+      ],
+      "fr": [
+        "Ortie à pilules"
+      ],
+      "it": [
+        "Urtica pilulifera"
+      ],
+      "nl": [
+        "Urtica pilulifera"
+      ],
+      "pl": [
+        "Pokrzywa kuleczkowata"
+      ],
+      "pt": [
+        "Urtica pilulifera"
+      ],
+      "ru": [
+        "Urtica pilulifera"
+      ],
+      "tr": [
+        "Dalağan"
       ]
     },
     "tags": [],
@@ -6509,7 +8679,7 @@
     "family": "Urticaceae",
     "genus": "Urtica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6591,9 +8761,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Urtica thunbergiana"
+      ],
+      "en": [
+        "Urtica thunbergiana"
+      ],
+      "es": [
+        "Urtica thunbergiana"
+      ],
+      "fr": [
+        "Urtica thunbergiana"
+      ],
+      "it": [
+        "Urtica thunbergiana"
+      ],
+      "ja": [
+        "イラクサ"
+      ],
+      "ko": [
+        "쐐기풀"
+      ],
+      "nl": [
+        "Urtica thunbergiana"
+      ],
+      "pl": [
+        "Urtica thunbergiana"
+      ],
+      "pt": [
+        "Urtica thunbergiana"
+      ],
+      "ru": [
+        "Крапива Тунберга"
+      ],
+      "zh": [
+        "咬人猫"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6603,7 +8812,7 @@
     "family": "Urticaceae",
     "genus": "Urtica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6624,12 +8833,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6651,8 +8860,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Laportea canadensis",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: allergenic. Parts: Leaf. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6670,8 +8879,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Leaf",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -6685,11 +8894,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "ar": [
+        "قراص حارق"
+      ],
+      "de": [
+        "Kleine Brennnessel"
+      ],
       "en": [
-        "Burning nettle"
+        "Burning nettle",
+        "Urtica urens"
+      ],
+      "es": [
+        "Urtica urens"
+      ],
+      "fr": [
+        "Urtica urens"
+      ],
+      "it": [
+        "Urtica urens"
+      ],
+      "ja": [
+        "ヒメイラクサ"
+      ],
+      "nl": [
+        "kleine brandnetel"
+      ],
+      "pl": [
+        "Pokrzywa żegawka"
+      ],
+      "pt": [
+        "Urtica urens"
+      ],
+      "ru": [
+        "Крапива жгучая"
+      ],
+      "zh": [
+        "欧荨麻"
       ]
     },
     "tags": [],

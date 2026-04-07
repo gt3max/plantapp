@@ -5,7 +5,7 @@
     "family": "Oxalidaceae",
     "genus": "Averrhoa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,9 +21,9 @@
     "synonyms": "[\"Averrhoa carambola var. dulcis\", \"Averrhoa pentandra\", \"Averrhoa acutangula\", \"Sarcotheca philippica\", \"Connaropsis philippica\"]",
     "care": {
       "plant_id": "averrhoa_carambola",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "Bright indirect light",
@@ -95,11 +95,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "فاكهة النجمة"
+      ],
+      "de": [
+        "Sternfrucht"
+      ],
       "en": [
+        "Carambola",
+        "star fruit"
+      ],
+      "es": [
+        "Averrhoa carambola"
+      ],
+      "fr": [
+        "Carambolier"
+      ],
+      "hi": [
+        "कमरख"
+      ],
+      "it": [
+        "Averrhoa carambola"
+      ],
+      "ja": [
+        "スターフルーツ"
+      ],
+      "ko": [
+        "카람볼라"
+      ],
+      "nl": [
         "Carambola"
+      ],
+      "pl": [
+        "oskomian pospolity"
+      ],
+      "pt": [
+        "Carambola"
+      ],
+      "ru": [
+        "карамбола"
+      ],
+      "tr": [
+        "Averrhoa carambola"
+      ],
+      "zh": [
+        "阳桃"
       ]
     },
     "tags": [],
@@ -111,12 +156,12 @@
     "family": "Oxalidaceae",
     "genus": "Biophytum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fe9926044e3201cac1ddbc610c2fe1237035031b",
-    "description": null,
+    "description": "Biophytum umbraculum is a plant species in the family Oxalidaceae. It is reported from India, China, Indonesia, Malaysia, Burma (Myanmar), New Guinea, Philippines, Thailand, Vietnam, tropical Africa, and Madagascar. The species is an annual herb up to 15 cm tall, bearing sessile umbels.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -193,11 +238,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Biophytum umbraculum"
+      ],
       "en": [
+        "Biophytum umbraculum",
         "South pacific palm"
+      ],
+      "es": [
+        "Biophytum umbraculum"
+      ],
+      "fr": [
+        "Biophytum umbraculum"
+      ],
+      "it": [
+        "Biophytum umbraculum"
+      ],
+      "nl": [
+        "Biophytum umbraculum"
+      ],
+      "pl": [
+        "Biophytum umbraculum"
+      ],
+      "pt": [
+        "Biophytum umbraculum"
+      ],
+      "ru": [
+        "Biophytum umbraculum"
+      ],
+      "zh": [
+        "罗伞草"
       ]
     },
     "tags": [],
@@ -209,7 +284,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -225,17 +300,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_acetosella",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -257,7 +332,7 @@
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
       "tips": "Similar plants: Asparagus setaceus",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs, Toxic to Cats, Toxic to Horses. Signs: All parts of the plant have toxic potential, although the possibility of serious effects is usually limited to ingestions of large quantities. Consuming Oxalis species can produce colic in horses, and kidney failure is possible if significant amo",
       "common_problems": null,
       "common_pests": null,
@@ -291,11 +366,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "ar": [
+        "أقصليس حامض"
+      ],
+      "de": [
+        "Waldsauerklee"
+      ],
       "en": [
-        "Irish shamrock"
+        "Irish shamrock",
+        "Oxalis acetosella"
+      ],
+      "es": [
+        "Oxalis acetosella"
+      ],
+      "fr": [
+        "Oxalis acetosella"
+      ],
+      "hi": [
+        "खट्टी मीठी घास"
+      ],
+      "it": [
+        "Oxalis acetosella"
+      ],
+      "ja": [
+        "コミヤマカタバミ"
+      ],
+      "nl": [
+        "witte klaverzuring"
+      ],
+      "pl": [
+        "Szczawik zajęczy"
+      ],
+      "pt": [
+        "Oxalis acetosella"
+      ],
+      "ru": [
+        "Кислица обыкновенная"
+      ],
+      "zh": [
+        "白花酢浆草"
       ]
     },
     "tags": [],
@@ -307,12 +421,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/148053cf051e261c835e69db48b0d5d8526b8c89",
-    "description": "Fruits are a dehiscent capsule that is fleshy and ejects seeds when ripe.",
+    "description": "Oxalis articulata, known as pink-sorrel, pink wood sorrel, windowbox wood-sorrel, chari amilo (Nepal), sourgrass, netho (khatta) saag (India), is a perennial species of flowering plant in the genus Oxalis native to Northern Argentina, Southern Brazil and Uruguay. It has been introduced in Europe in gardens and is now naturalized in these areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -323,17 +437,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_articulata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -389,11 +503,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "de": [
+        "Oxalis articulata"
+      ],
       "en": [
+        "Oxalis articulata",
         "Shamrock oxalis"
+      ],
+      "es": [
+        "Oxalis articulata"
+      ],
+      "fr": [
+        "Oxalis articulata"
+      ],
+      "it": [
+        "Oxalis articulata"
+      ],
+      "ja": [
+        "イモカタバミ"
+      ],
+      "nl": [
+        "Oxalis articulata"
+      ],
+      "pl": [
+        "Oxalis articulata"
+      ],
+      "pt": [
+        "Oxalis articulata"
+      ],
+      "ru": [
+        "Oxalis articulata"
+      ],
+      "tr": [
+        "Oxalis articulata"
+      ],
+      "zh": [
+        "关节酢浆草"
       ]
     },
     "tags": [],
@@ -405,12 +555,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ac144faa2de838fcfa66a7a14124381380be112e",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis barrelieri, the Barrelier's woodsorrel, or lavender sorrel, also commonly called in French trèfle, oseille-marron, or oseille-savane, is a plant from the genus Oxalis.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -421,7 +571,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_barrelieri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -487,11 +637,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Oxalis barrelieri"
+      ],
       "en": [
-        "Barrelier's woodsorrel"
+        "Barrelier's woodsorrel",
+        "Oxalis barrelieri"
+      ],
+      "es": [
+        "Oxalis barrelieri"
+      ],
+      "fr": [
+        "Oxalis barrelieri"
+      ],
+      "it": [
+        "Oxalis barrelieri"
+      ],
+      "nl": [
+        "Oxalis barrelieri"
+      ],
+      "pl": [
+        "Oxalis barrelieri"
+      ],
+      "pt": [
+        "Oxalis barrelieri"
+      ],
+      "ru": [
+        "Oxalis barrelieri"
+      ],
+      "tr": [
+        "Oxalis barrelieri"
+      ],
+      "zh": [
+        "硬枝酢浆草"
       ]
     },
     "tags": [],
@@ -503,7 +686,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -519,17 +702,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_chnoodes",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -585,9 +768,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oxalis chnoodes"
+      ],
+      "en": [
+        "Oxalis chnoodes"
+      ],
+      "es": [
+        "Oxalis chnoodes"
+      ],
+      "fr": [
+        "Oxalis chnoodes"
+      ],
+      "it": [
+        "Oxalis chnoodes"
+      ],
+      "nl": [
+        "Oxalis chnoodes"
+      ],
+      "pl": [
+        "Oxalis chnoodes"
+      ],
+      "pt": [
+        "Oxalis chnoodes"
+      ],
+      "ru": [
+        "Oxalis chnoodes"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -597,12 +810,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/17b1b60a03d75c3411eedfc65e623ff0052c09b4",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -613,7 +826,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_conorrhiza",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -679,9 +892,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oxalis conorrhiza"
+      ],
+      "en": [
+        "Oxalis conorrhiza"
+      ],
+      "es": [
+        "Oxalis conorrhiza"
+      ],
+      "fr": [
+        "Oxalis conorrhiza"
+      ],
+      "it": [
+        "Oxalis conorrhiza"
+      ],
+      "nl": [
+        "Oxalis conorrhiza"
+      ],
+      "pl": [
+        "Oxalis conorrhiza"
+      ],
+      "pt": [
+        "Oxalis conorrhiza"
+      ],
+      "ru": [
+        "Oxalis conorrhiza"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -691,7 +934,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -707,17 +950,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_corniculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -738,9 +981,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Asclepias tuberosa",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -758,8 +1001,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -773,11 +1016,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "ar": [
+        "أقصليس قريني"
+      ],
+      "de": [
+        "Horn-Sauerklee"
+      ],
       "en": [
-        "Creeping wood-sorrel"
+        "Creeping wood-sorrel",
+        "Oxalis corniculata"
+      ],
+      "es": [
+        "Oxalis corniculata"
+      ],
+      "fr": [
+        "Oxalis corniculata"
+      ],
+      "hi": [
+        "चांगेरी"
+      ],
+      "it": [
+        "Oxalis corniculata"
+      ],
+      "ja": [
+        "カタバミ"
+      ],
+      "ko": [
+        "괭이밥"
+      ],
+      "nl": [
+        "gehoornde klaverzuring"
+      ],
+      "pl": [
+        "Szczawik rożkowaty"
+      ],
+      "pt": [
+        "Oxalis corniculata"
+      ],
+      "ru": [
+        "Oxalis corniculata"
+      ],
+      "tr": [
+        "Oxalis corniculata"
+      ],
+      "zh": [
+        "酢浆草"
       ]
     },
     "tags": [],
@@ -789,12 +1077,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b4b7c886733195ef0b118743e94c5a3df11b6477",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis debilis, the large-flowered pink-sorrel or pink woodsorrel, is a perennial plant and herb in the family Oxalidaceae. Its original distribution is South America but it has become a cosmopolitan species, occurring in all continents except Antarctica. It can be found in both temperate and tropical areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -805,17 +1093,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_debilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -871,11 +1159,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "de": [
+        "Oxalis debilis"
+      ],
       "en": [
-        "Large-flower pink-sorrel"
+        "Large-flower pink-sorrel",
+        "Oxalis debilis"
+      ],
+      "es": [
+        "Oxalis debilis"
+      ],
+      "fr": [
+        "Oxalis debilis"
+      ],
+      "it": [
+        "Oxalis debilis"
+      ],
+      "nl": [
+        "Oxalis debilis"
+      ],
+      "pl": [
+        "Oxalis debilis"
+      ],
+      "pt": [
+        "Oxalis debilis"
+      ],
+      "ru": [
+        "Oxalis debilis"
+      ],
+      "tr": [
+        "Oxalis debilis"
+      ],
+      "zh": [
+        "红花酢浆草"
       ]
     },
     "tags": [],
@@ -887,12 +1208,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4b811c7c1e1f9e84f0aefae863155ac22ce50bcf",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis dillenii, the southern wood-sorrel, slender yellow woodsorrel, or Dillen's oxalis, is a species in the woodsorrel family. Like other Oxalis species, the leaves of this plant resemble clover leaves, with three leaflets. Oxalis dillenii can be confused with other small yellow flowered species in North America, such as Oxalis florida. The flowers have five yellow petals that are 4 to 10 mm in length. The leaflets are 1 to 2 cm wide with pointed hairs. The fruits are rather brown and are 1.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -903,17 +1224,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_dillenii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -969,11 +1290,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "أقصليس ديليني"
+      ],
+      "de": [
+        "Oxalis dillenii"
+      ],
       "en": [
+        "Oxalis dillenii",
         "Slender yellow wood-sorrel"
+      ],
+      "es": [
+        "Oxalis dillenii"
+      ],
+      "fr": [
+        "Oxalis dillenii"
+      ],
+      "it": [
+        "Oxalis dillenii"
+      ],
+      "nl": [
+        "Oxalis dillenii"
+      ],
+      "pl": [
+        "Oxalis dillenii"
+      ],
+      "pt": [
+        "Oxalis dillenii"
+      ],
+      "ru": [
+        "Oxalis dillenii"
+      ],
+      "tr": [
+        "Oxalis dillenii"
       ]
     },
     "tags": [],
@@ -985,12 +1339,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/O_divaricata_fullsize.jpg",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1001,7 +1355,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_divaricata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1067,9 +1421,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oxalis divaricata"
+      ],
+      "en": [
+        "Oxalis divaricata"
+      ],
+      "es": [
+        "Oxalis divaricata"
+      ],
+      "fr": [
+        "Oxalis divaricata"
+      ],
+      "it": [
+        "Oxalis divaricata"
+      ],
+      "nl": [
+        "Oxalis divaricata"
+      ],
+      "pl": [
+        "Oxalis divaricata"
+      ],
+      "pt": [
+        "Oxalis divaricata"
+      ],
+      "ru": [
+        "Oxalis divaricata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1079,12 +1463,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a416709ba5a512cfe4a639a217ac1996ef06665e",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis drummondii, the large-leaf woodsorrel or Drummond's wood-sorrel, is a species of flowering plant in the family Oxalidaceae. It is native to central and southern Texas, and northern Mexico. A tuberous geophyte reaching 8 in (20 cm), it is typically found growing in calcareous or sandy soils, in open woods, shrublands, and grasslands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1095,7 +1479,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_drummondii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1161,11 +1545,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Oxalis drummondii"
+      ],
       "en": [
-        "Drummond's woodsorrel"
+        "Drummond's woodsorrel",
+        "Oxalis drummondii"
+      ],
+      "es": [
+        "Oxalis drummondii"
+      ],
+      "fr": [
+        "Oxalis drummondii"
+      ],
+      "it": [
+        "Oxalis drummondii"
+      ],
+      "nl": [
+        "Oxalis drummondii"
+      ],
+      "pl": [
+        "Oxalis drummondii"
+      ],
+      "pt": [
+        "Oxalis drummondii"
+      ],
+      "ru": [
+        "Oxalis drummondii"
+      ],
+      "tr": [
+        "Oxalis drummondii"
       ]
     },
     "tags": [],
@@ -1177,12 +1591,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9d468e86367c34dae1136e216cf230c9ede1f76a",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis exilis, the least yellow sorrel or shady woodsorrel, is a small herbaceous plant found in Australia and New Zealand. It is mainly found in hillsides and weedy areas. It is the smallest species of Oxalis in New Zealand. The colors of the leaves range from green to purple. The capsule and style length vary from 4–6.5 mm.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1193,17 +1607,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_exilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1259,11 +1673,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Oxalis exilis"
+      ],
       "en": [
-        "Least yellow-sorrel"
+        "Least yellow-sorrel",
+        "Oxalis exilis"
+      ],
+      "es": [
+        "Oxalis exilis"
+      ],
+      "fr": [
+        "Oxalis exilis"
+      ],
+      "it": [
+        "Oxalis exilis"
+      ],
+      "nl": [
+        "Oxalis exilis"
+      ],
+      "pl": [
+        "Oxalis exilis"
+      ],
+      "pt": [
+        "Oxalis exilis"
+      ],
+      "ru": [
+        "Oxalis exilis"
       ]
     },
     "tags": [],
@@ -1275,7 +1716,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1291,7 +1732,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_florida",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1357,9 +1798,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oxalis florida"
+      ],
+      "en": [
+        "Oxalis florida"
+      ],
+      "es": [
+        "Oxalis florida"
+      ],
+      "fr": [
+        "Oxalis florida"
+      ],
+      "it": [
+        "Oxalis florida"
+      ],
+      "nl": [
+        "Oxalis florida"
+      ],
+      "pl": [
+        "Oxalis florida"
+      ],
+      "pt": [
+        "Oxalis florida"
+      ],
+      "ru": [
+        "Oxalis florida"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1369,7 +1840,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1385,17 +1856,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_frutescens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1451,11 +1922,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "de": [
+        "Oxalis frutescens"
+      ],
       "en": [
+        "Oxalis frutescens",
         "Shrubby woodsorrel"
+      ],
+      "es": [
+        "Oxalis frutescens"
+      ],
+      "fr": [
+        "Oxalis frutescens"
+      ],
+      "it": [
+        "Oxalis frutescens"
+      ],
+      "nl": [
+        "Oxalis frutescens"
+      ],
+      "pl": [
+        "Oxalis frutescens"
+      ],
+      "pt": [
+        "Oxalis frutescens"
+      ],
+      "ru": [
+        "Oxalis frutescens"
+      ],
+      "tr": [
+        "Oxalis frutescens"
       ]
     },
     "tags": [],
@@ -1467,7 +1968,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1483,17 +1984,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_griffithii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1549,9 +2050,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oxalis griffithii"
+      ],
+      "en": [
+        "Oxalis griffithii"
+      ],
+      "es": [
+        "Oxalis griffithii"
+      ],
+      "fr": [
+        "Oxalis griffithii"
+      ],
+      "it": [
+        "Oxalis griffithii"
+      ],
+      "ja": [
+        "ミヤマカタバミ"
+      ],
+      "nl": [
+        "Oxalis griffithii"
+      ],
+      "pl": [
+        "Oxalis griffithii"
+      ],
+      "pt": [
+        "Oxalis griffithii"
+      ],
+      "ru": [
+        "Oxalis griffithii"
+      ],
+      "zh": [
+        "山酢漿草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1561,12 +2098,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b366ff03296f90d1bee9a66be8ce60810ccbd2a5",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis incarnata is a species of flowering plant in the woodsorrel family known by the common names pale pink-sorrel and crimson woodsorrel. It is native to southern Africa, but it can be found on other continents where it is an introduced species, often the descendant of garden escapees. It is grown and kept as an ornamental plant. This is a perennial herb growing from a system of rhizomes and bulbs. The branching, hairless stem grows to nearly 30 centimeters in maximum length.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1577,17 +2114,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_incarnata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1643,11 +2180,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "de": [
+        "Oxalis incarnata"
+      ],
       "en": [
-        "Lilac oxalis"
+        "Lilac oxalis",
+        "Oxalis incarnata"
+      ],
+      "es": [
+        "Oxalis incarnata"
+      ],
+      "fr": [
+        "Oxalis incarnata"
+      ],
+      "it": [
+        "Oxalis incarnata"
+      ],
+      "nl": [
+        "Oxalis incarnata"
+      ],
+      "pl": [
+        "Oxalis incarnata"
+      ],
+      "pt": [
+        "Oxalis incarnata"
+      ],
+      "ru": [
+        "Oxalis incarnata"
+      ],
+      "tr": [
+        "Oxalis incarnata"
       ]
     },
     "tags": [],
@@ -1659,12 +2226,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2e61a7b73ee12fee11d94e9d7eb44606a0f1cbe2",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis latifolia is a species of flowering plant in the woodsorrel family known by the common names garden pink-sorrel and broadleaf woodsorrel. It is native to Mexico and parts of Central and South America. However, it has propagated to other parts of the world.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1675,17 +2242,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_latifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1741,11 +2308,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "de": [
+        "Oxalis latifolia"
+      ],
       "en": [
-        "Broadleaf wood-sorrel"
+        "Broadleaf wood-sorrel",
+        "Oxalis latifolia"
+      ],
+      "es": [
+        "Oxalis latifolia"
+      ],
+      "fr": [
+        "Oxalis latifolia"
+      ],
+      "it": [
+        "Oxalis latifolia"
+      ],
+      "nl": [
+        "Oxalis latifolia"
+      ],
+      "pl": [
+        "Oxalis latifolia"
+      ],
+      "pt": [
+        "Oxalis latifolia"
+      ],
+      "ru": [
+        "Oxalis latifolia"
+      ],
+      "tr": [
+        "Oxalis latifolia"
+      ],
+      "zh": [
+        "宽叶酢浆草"
       ]
     },
     "tags": [],
@@ -1757,12 +2357,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/165843943d6844c109bdb2196fe8e019.jpg",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis magellanica or snowdrop wood-sorrel is an Oxalis species found in Chile, Argentina, New Zealand, and Tasmania. It was first described in 1789. It blooms from fall to spring with white flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1773,7 +2373,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_magellanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1839,9 +2439,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oxalis magellanica"
+      ],
+      "en": [
+        "Oxalis magellanica"
+      ],
+      "es": [
+        "Oxalis magellanica"
+      ],
+      "fr": [
+        "Oxalis magellanica"
+      ],
+      "it": [
+        "Oxalis magellanica"
+      ],
+      "nl": [
+        "Oxalis magellanica"
+      ],
+      "pl": [
+        "Oxalis magellanica"
+      ],
+      "pt": [
+        "Oxalis magellanica"
+      ],
+      "ru": [
+        "Oxalis magellanica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1851,12 +2481,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Oxalis montana is a species of flowering plant in the family Oxalidaceae known by the common names mountain woodsorrel, wood shamrock, sours and white woodsorrel. It may also be called common woodsorrel, though this name also applies to its close relative, Oxalis acetosella.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1867,17 +2497,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_montana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1933,9 +2563,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oxalis montana"
+      ],
+      "en": [
+        "Oxalis montana"
+      ],
+      "es": [
+        "Oxalis montana"
+      ],
+      "fr": [
+        "Oxalide de montagne"
+      ],
+      "it": [
+        "Oxalis montana"
+      ],
+      "nl": [
+        "Oxalis montana"
+      ],
+      "pl": [
+        "Oxalis montana"
+      ],
+      "pt": [
+        "Oxalis montana"
+      ],
+      "ru": [
+        "Oxalis montana"
+      ],
+      "tr": [
+        "Oxalis montana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1945,12 +2608,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/624406612126702c4678e3c537ae0e0f4226f4c4",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis obtusa is a species of flowering plant in the genus Oxalis. It is native to the Cape Provinces, and KwaZulu-Natal in South Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1961,7 +2624,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_obtusa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2027,9 +2690,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oxalis obtusa"
+      ],
+      "en": [
+        "Oxalis obtusa"
+      ],
+      "es": [
+        "Oxalis obtusa"
+      ],
+      "fr": [
+        "Oxalis obtusa"
+      ],
+      "it": [
+        "Oxalis obtusa"
+      ],
+      "nl": [
+        "Oxalis obtusa"
+      ],
+      "pl": [
+        "Oxalis obtusa"
+      ],
+      "pt": [
+        "Oxalis obtusa"
+      ],
+      "ru": [
+        "Oxalis obtusa"
+      ],
+      "zh": [
+        "棱茎酢浆草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2039,12 +2735,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/8e5aeeaf388eaf58138cda3da982732b.jpg",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2055,17 +2751,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_perennans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2121,9 +2817,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oxalis perennans"
+      ],
+      "en": [
+        "Oxalis perennans"
+      ],
+      "es": [
+        "Oxalis perennans"
+      ],
+      "fr": [
+        "Oxalis perennans"
+      ],
+      "it": [
+        "Oxalis perennans"
+      ],
+      "nl": [
+        "Oxalis perennans"
+      ],
+      "pl": [
+        "Oxalis perennans"
+      ],
+      "pt": [
+        "Oxalis perennans"
+      ],
+      "ru": [
+        "Oxalis perennans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2133,7 +2859,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2149,17 +2875,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_pes-caprae",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2215,11 +2941,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "أقصليس ماعزي"
+      ],
+      "de": [
+        "Nickender Sauerklee"
+      ],
       "en": [
-        "Bermuda-buttercup"
+        "Bermuda-buttercup",
+        "Oxalis pes-caprae"
+      ],
+      "es": [
+        "Oxalis pes-caprae"
+      ],
+      "fr": [
+        "Oxalis pes-caprae"
+      ],
+      "it": [
+        "Oxalis pes-caprae"
+      ],
+      "ja": [
+        "オオキバナカタバミ"
+      ],
+      "nl": [
+        "knikkende klaverzuring"
+      ],
+      "pl": [
+        "Oxalis pes-caprae"
+      ],
+      "pt": [
+        "Oxalis pes-caprae"
+      ],
+      "ru": [
+        "Oxalis pes-caprae"
+      ],
+      "tr": [
+        "Oxalis pes-caprae"
+      ],
+      "zh": [
+        "黄花酢浆草"
       ]
     },
     "tags": [],
@@ -2231,7 +2996,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2247,17 +3012,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_purpurea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2313,11 +3078,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "de": [
+        "Oxalis purpurea"
+      ],
       "en": [
+        "Oxalis purpurea",
         "Round-leaf wood-sorrel"
+      ],
+      "es": [
+        "Oxalis purpurea"
+      ],
+      "fr": [
+        "Oxalis purpurea"
+      ],
+      "it": [
+        "Oxalis purpurea"
+      ],
+      "ja": [
+        "フヨウカタバミ"
+      ],
+      "nl": [
+        "Oxalis purpurea"
+      ],
+      "pl": [
+        "Oxalis purpurea"
+      ],
+      "pt": [
+        "Oxalis purpurea"
+      ],
+      "ru": [
+        "Oxalis purpurea"
+      ],
+      "tr": [
+        "Oxalis purpurea"
       ]
     },
     "tags": [],
@@ -2329,7 +3127,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2345,17 +3143,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_stricta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2376,9 +3174,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Celastrus scandens",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2396,8 +3194,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -2411,11 +3209,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "de": [
+        "Aufrechter Sauerklee"
+      ],
       "en": [
+        "Oxalis stricta",
         "Yellow sheep-sorrel"
+      ],
+      "es": [
+        "Oxalis stricta"
+      ],
+      "fr": [
+        "Oxalis stricta"
+      ],
+      "it": [
+        "Oxalis stricta"
+      ],
+      "ja": [
+        "オッタチカタバミ"
+      ],
+      "ko": [
+        "선괭이밥"
+      ],
+      "nl": [
+        "Stijve klaverzuring"
+      ],
+      "pl": [
+        "Szczawik żółty"
+      ],
+      "pt": [
+        "Oxalis stricta"
+      ],
+      "ru": [
+        "Кислица прямая"
+      ],
+      "tr": [
+        "Oxalis stricta"
+      ],
+      "zh": [
+        "直酢浆草"
       ]
     },
     "tags": [],
@@ -2427,12 +3264,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e7c1a847abf79467ff7d9dae091bc6de53563805",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis tetraphylla is a bulbous herbaceous perennial plant from Mexico. It is sometimes sold as lucky clover or shamrock. In the wild or feral state it is often called four-leaved wood-sorrel after its family, Oxalidaceae. Other English common names for this plant include Lucky Clover, Four-Leaf Sorrel, Four-Leaf Pink-Sorrel and others.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2443,7 +3280,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_tetraphylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2509,11 +3346,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Oxalis tetraphylla"
+      ],
       "en": [
-        "Four-leaf pink-sorrel"
+        "Four-leaf pink-sorrel",
+        "Oxalis tetraphylla"
+      ],
+      "es": [
+        "Oxalis tetraphylla"
+      ],
+      "fr": [
+        "Oxalis tetraphylla"
+      ],
+      "it": [
+        "Oxalis tetraphylla"
+      ],
+      "ja": [
+        "モンカタバミ"
+      ],
+      "nl": [
+        "Oxalis tetraphylla"
+      ],
+      "pl": [
+        "Oxalis tetraphylla"
+      ],
+      "pt": [
+        "Oxalis tetraphylla"
+      ],
+      "ru": [
+        "Кислица четырёхлистная"
       ]
     },
     "tags": [],
@@ -2525,7 +3392,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2541,7 +3408,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_triangularis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2611,11 +3478,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Oxalis triangularis"
+      ],
       "en": [
+        "Oxalis triangularis",
         "Wood sorrel"
+      ],
+      "es": [
+        "Oxalis triangularis"
+      ],
+      "fr": [
+        "Oxalis triangularis"
+      ],
+      "it": [
+        "Oxalis triangularis"
+      ],
+      "ja": [
+        "インカノカタバミ"
+      ],
+      "nl": [
+        "Oxalis triangularis"
+      ],
+      "pl": [
+        "Szczawik trójkątny"
+      ],
+      "pt": [
+        "Oxalis triangularis"
+      ],
+      "ru": [
+        "Oxalis triangularis"
+      ],
+      "tr": [
+        "Oxalis triangularis"
+      ],
+      "zh": [
+        "南美三角酢浆草"
       ]
     },
     "tags": [],
@@ -2627,12 +3530,12 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/72e4bf3a5cebdb07c90000890307ffff14276ebc",
-    "description": "A capsule that bursts open when ripe, scattering the seeds.",
+    "description": "Oxalis tuberosa is a perennial herbaceous plant that overwinters as underground stem tubers. These tubers are known as uqa in Quechua, oca in Spanish, yams in New Zealand and several other alternative names. The plant was brought into cultivation in the central and southern Andes for its tubers, which are used as a root vegetable. The plant is not known in the wild, but populations of wild Oxalis species that bear smaller tubers are known from four areas of the central Andean region.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2643,7 +3546,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_tuberosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2709,11 +3612,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أقصليس درني"
+      ],
+      "de": [
+        "Knolliger Sauerklee"
+      ],
       "en": [
-        "New zealand-yam"
+        "New zealand-yam",
+        "Oxalis tuberosa"
+      ],
+      "es": [
+        "Oxalis tuberosa"
+      ],
+      "fr": [
+        "Oca du Pérou"
+      ],
+      "it": [
+        "Oxalis tuberosa"
+      ],
+      "ja": [
+        "オカ"
+      ],
+      "nl": [
+        "Oca"
+      ],
+      "pl": [
+        "Szczawik bulwiasty"
+      ],
+      "pt": [
+        "Oxalis tuberosa"
+      ],
+      "ru": [
+        "Кислица клубненосная"
+      ],
+      "tr": [
+        "Oxalis tuberosa"
+      ],
+      "zh": [
+        "酢漿薯"
       ]
     },
     "tags": [],
@@ -2725,7 +3667,7 @@
     "family": "Oxalidaceae",
     "genus": "Oxalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2741,17 +3683,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "oxalis_violacea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2807,11 +3749,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "de": [
+        "Westindischer Sauerklee"
+      ],
       "en": [
-        "Violet wood-sorrel"
+        "Violet wood-sorrel",
+        "violet wood-sorrel"
+      ],
+      "es": [
+        "Oxalis violacea"
+      ],
+      "fr": [
+        "Oxalis violacea"
+      ],
+      "it": [
+        "Oxalis violacea"
+      ],
+      "nl": [
+        "Oxalis violacea"
+      ],
+      "pl": [
+        "Oxalis violacea"
+      ],
+      "pt": [
+        "Oxalis violacea"
+      ],
+      "ru": [
+        "Oxalis violacea"
+      ],
+      "tr": [
+        "Oxalis violacea"
+      ],
+      "zh": [
+        "堇色酢浆草"
       ]
     },
     "tags": [],

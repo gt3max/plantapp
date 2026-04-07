@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/64427dbd698e480becf3774eca045b6a544eaa41",
-    "description": null,
+    "description": "Acanthocereus tetragonus is a species of cactus that is native to Florida and the Lower Rio Grande Valley of Texas in the United States, Mexico, Central America, the Caribbean, and northern South America. The species is invasive in New Caledonia. Common names include night-blooming cereus, barbed-wire cactus, sword-pear, dildo cactus, triangle cactus, and Órgano-alado de pitaya (Spanish). The miniature cultivar is known as fairy castle cactus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,13 +87,17 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "de": [
+        "Acanthocereus tetragonus",
         "Cactus tetragonus"
       ],
       "en": [
+        "Acanthocereus tetragonus",
         "Barbed-wire cactus"
       ],
       "es": [
@@ -101,6 +105,7 @@
         "Acanthocereus floridanus",
         "Acanthocereus pentagonus",
         "Acanthocereus princeps",
+        "Acanthocereus tetragonus",
         "Bejunco",
         "Cactus pentagonus",
         "Cactus tetragonus",
@@ -115,6 +120,24 @@
         "Nopal de tres lomos",
         "Pitahaya anaranjada",
         "Órgano-alado de Pitaya"
+      ],
+      "fr": [
+        "Acanthocereus tetragonus"
+      ],
+      "it": [
+        "Acanthocereus tetragonus"
+      ],
+      "nl": [
+        "Acanthocereus tetragonus"
+      ],
+      "pl": [
+        "Acanthocereus tetragonus"
+      ],
+      "pt": [
+        "Acanthocereus tetragonus"
+      ],
+      "ru": [
+        "Acanthocereus tetragonus"
       ],
       "zh": [
         "五棱角",
@@ -142,7 +165,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Ariocarpus trigonus or better known as Landmine Flowers is a species of flowering plant in the family Cactaceae, native to Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -219,9 +242,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ariocarpus trigonus"
+      ],
+      "en": [
+        "Ariocarpus trigonus"
+      ],
+      "es": [
+        "Ariocarpus trigonus"
+      ],
+      "fr": [
+        "Ariocarpus trigonus"
+      ],
+      "it": [
+        "Ariocarpus trigonus"
+      ],
+      "nl": [
+        "Ariocarpus trigonus"
+      ],
+      "pl": [
+        "Ariocarpus trigonus"
+      ],
+      "pt": [
+        "Ariocarpus trigonus"
+      ],
+      "ru": [
+        "Ариокарпус треугольный"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -236,7 +289,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/fe4a48de65d88d269e46d29010cc446f536f32b6",
-    "description": "The fruits are dark green to red, 5 inches long, egg-shaped, and have fine irritating hairs (glochids).",
+    "description": "Austrocylindropuntia subulata is a species of cactus native to the Peruvian Andes. The Latin specific epithet subulata means \"awl-like\", referring to the shape of the rudimentary leaves. It is also known by its common names as Eve's pin and Eve's needle.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -321,11 +374,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Austrocylindropuntia subulata"
+      ],
       "en": [
+        "Austrocylindropuntia subulata",
         "Long-spine cactus"
+      ],
+      "es": [
+        "Austrocylindropuntia subulata"
+      ],
+      "fr": [
+        "Austrocylindropuntia subulata"
+      ],
+      "it": [
+        "Austrocylindropuntia subulata"
+      ],
+      "nl": [
+        "Austrocylindropuntia subulata"
+      ],
+      "pl": [
+        "Austrocylindropuntia subulata"
+      ],
+      "pt": [
+        "Austrocylindropuntia subulata"
+      ],
+      "ru": [
+        "Austrocylindropuntia subulata"
+      ],
+      "zh": [
+        "将军柱"
       ]
     },
     "tags": [],
@@ -342,7 +425,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/555b524bb88db32856f1a76b9930c4671cfd71e7",
-    "description": null,
+    "description": "Bergerocactus emoryi is a species of cactus, known commonly as the golden-spined cereus, golden snake cactus, velvet cactus or golden club cactus. It is a relatively small cactus, but it can form dense thickets or colonies, with the dense yellow spines giving off a velvety appearance when backlit by the sun. From April to May, yellow, green-tinged flowers emerge, which transform into reddish, globular fruit.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -419,11 +502,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bergerocactus emoryi"
+      ],
       "en": [
+        "Bergerocactus emoryi",
         "Golden snake cactus"
+      ],
+      "es": [
+        "Bergerocactus emoryi"
+      ],
+      "fr": [
+        "Bergerocactus emoryi"
+      ],
+      "it": [
+        "Bergerocactus emoryi"
+      ],
+      "ko": [
+        "벽채주"
+      ],
+      "nl": [
+        "Bergerocactus emoryi"
+      ],
+      "pl": [
+        "Bergerocactus emoryi"
+      ],
+      "pt": [
+        "Bergerocactus"
+      ],
+      "ru": [
+        "Bergerocactus emoryi"
       ]
     },
     "tags": [],
@@ -517,11 +630,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سجوار"
+      ],
+      "de": [
+        "Carnegiea gigantea"
+      ],
       "en": [
+        "Carnegiea gigantea",
         "Sage-of-the-desert"
+      ],
+      "es": [
+        "Carnegiea gigantea"
+      ],
+      "fr": [
+        "saguaro"
+      ],
+      "it": [
+        "Carnegiea gigantea"
+      ],
+      "ja": [
+        "ベンケイチュウ"
+      ],
+      "ko": [
+        "변경주선인장"
+      ],
+      "nl": [
+        "saguaro"
+      ],
+      "pl": [
+        "Karnegia olbrzymia"
+      ],
+      "pt": [
+        "saguaro"
+      ],
+      "ru": [
+        "Карнегия"
+      ],
+      "tr": [
+        "saguaro"
+      ],
+      "zh": [
+        "巨人柱"
       ]
     },
     "tags": [],
@@ -623,11 +778,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cereus jamacaru"
+      ],
       "en": [
+        "Cereus jamacaru",
         "Queen-of-the-night"
+      ],
+      "es": [
+        "Cereus jamacaru"
+      ],
+      "fr": [
+        "Cereus jamacaru"
+      ],
+      "it": [
+        "Cereus jamacaru"
+      ],
+      "ja": [
+        "マンダカル"
+      ],
+      "nl": [
+        "Cereus jamacaru"
+      ],
+      "pl": [
+        "Cereus jamacaru"
+      ],
+      "pt": [
+        "Mandacaru"
+      ],
+      "ru": [
+        "Cereus jamacaru"
+      ],
+      "zh": [
+        "曼達卡魯"
       ]
     },
     "tags": [],
@@ -644,7 +832,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Neolloydia conoidea, common name Texas cone cactus or Chihuahuan beehive, is a species of cactus native to southern United States to central Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -721,9 +909,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cochemiea conoidea"
+      ],
+      "en": [
+        "Cochemiea conoidea"
+      ],
+      "es": [
+        "Cochemiea conoidea"
+      ],
+      "fr": [
+        "Cochemiea conoidea"
+      ],
+      "it": [
+        "Cochemiea conoidea"
+      ],
+      "nl": [
+        "Cochemiea conoidea"
+      ],
+      "pl": [
+        "Cochemiea conoidea"
+      ],
+      "pt": [
+        "Cochemiea conoidea"
+      ],
+      "ru": [
+        "Cochemiea conoidea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -738,7 +956,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/b6b1323667976d90d2d42034b1fa25b6.jpg",
-    "description": null,
+    "description": "Cochemiea dioica, also called the strawberry cactus, California fishhook cactus, strawberry pincushion or fishhook cactus, is a cactus species of the genus Cochemiea. Its common name in Spanish is biznaga llavina.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -815,9 +1033,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ضرعاء ثنائية المسكن"
+      ],
+      "de": [
+        "Cochemiea dioica"
+      ],
+      "en": [
+        "Cochemiea dioica"
+      ],
+      "es": [
+        "Cochemiea dioica"
+      ],
+      "fr": [
+        "Cochemiea dioica"
+      ],
+      "it": [
+        "Cochemiea dioica"
+      ],
+      "nl": [
+        "Cochemiea dioica"
+      ],
+      "pl": [
+        "Cochemiea dioica"
+      ],
+      "pt": [
+        "Cochemiea dioica"
+      ],
+      "ru": [
+        "Cochemiea dioica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -909,9 +1160,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cochemiea grahamii"
+      ],
+      "en": [
+        "Cochemiea grahamii"
+      ],
+      "es": [
+        "Cochemiea grahamii"
+      ],
+      "fr": [
+        "Cochemiea grahamii"
+      ],
+      "it": [
+        "Cochemiea grahamii"
+      ],
+      "nl": [
+        "Cochemiea grahamii"
+      ],
+      "pl": [
+        "Cochemiea grahamii"
+      ],
+      "pt": [
+        "Cochemiea grahamii"
+      ],
+      "ru": [
+        "Cochemiea grahamii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -926,7 +1207,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Cochemiea tetrancistra is a species of fishhook cactus known by the common name common fishhook cactus. It is native to the Mojave and Sonoran Deserts of northern Mexico and the southwestern United States, where it grows in a variety of desert habitat types.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1003,9 +1284,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cochemiea tetrancistra"
+      ],
+      "en": [
+        "Cochemiea tetrancistra"
+      ],
+      "es": [
+        "Cochemiea tetrancistra"
+      ],
+      "fr": [
+        "Cochemiea tetrancistra"
+      ],
+      "it": [
+        "Cochemiea tetrancistra"
+      ],
+      "nl": [
+        "Cochemiea tetrancistra"
+      ],
+      "pl": [
+        "Cochemiea tetrancistra"
+      ],
+      "pt": [
+        "Cochemiea tetrancistra"
+      ],
+      "ru": [
+        "Cochemiea tetrancistra"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1020,7 +1331,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/476d5d7f42dea21d78ffd738085ba9a1b5774ec3",
-    "description": null,
+    "description": "Copiapoa cinerea is a species of plant in the genus Copiapoa in the family Cactaceae. The epithet cinerea comes from the Latin word for ash, by reference to the color of the epidermis.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1097,11 +1408,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Copiapoa cinerea"
+      ],
       "en": [
+        "Copiapoa cinerea",
         "Copiapoa de philippi"
+      ],
+      "es": [
+        "Copiapoa cinerea"
+      ],
+      "fr": [
+        "Copiapoa cinerea"
+      ],
+      "it": [
+        "Copiapoa cinerea"
+      ],
+      "nl": [
+        "Copiapoa cinerea"
+      ],
+      "pl": [
+        "Copiapoa cinerea"
+      ],
+      "pt": [
+        "Copiapoa cinerea"
+      ],
+      "ru": [
+        "Copiapoa cinerea"
       ]
     },
     "tags": [],
@@ -1118,7 +1456,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/7101c1e587a781ae39e9edd158cadd144150814a",
-    "description": "The fruits are dark green to red, 5 inches long, egg-shaped, and have fine irritating hairs (glochids).",
+    "description": "Cylindropuntia acanthocarpa, commonly referred to as buckhorn cholla, is a cholla native to the Mojave, Sonoran, and Colorado Deserts of North America. Along with Cylindropuntia bigelovii, it is the most common cholla found in these deserts.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1203,11 +1541,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cylindropuntia acanthocarpa"
+      ],
       "en": [
-        "Buckhorn cholla"
+        "Buckhorn cholla",
+        "Cylindropuntia acanthocarpa"
+      ],
+      "es": [
+        "Cylindropuntia acanthocarpa"
+      ],
+      "fr": [
+        "Cylindropuntia acanthocarpa"
+      ],
+      "it": [
+        "Cylindropuntia acanthocarpa"
+      ],
+      "nl": [
+        "Cylindropuntia acanthocarpa"
+      ],
+      "pl": [
+        "Cylindropuntia acanthocarpa"
+      ],
+      "pt": [
+        "Cylindropuntia acanthocarpa"
+      ],
+      "ru": [
+        "Cylindropuntia acanthocarpa"
       ]
     },
     "tags": [],
@@ -1301,9 +1666,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cylindropuntia alcahes"
+      ],
+      "en": [
+        "Cylindropuntia alcahes"
+      ],
+      "es": [
+        "Cylindropuntia alcahes"
+      ],
+      "fr": [
+        "Cylindropuntia alcahes"
+      ],
+      "it": [
+        "Cylindropuntia alcahes"
+      ],
+      "nl": [
+        "Cylindropuntia alcahes"
+      ],
+      "pl": [
+        "Cylindropuntia alcahes"
+      ],
+      "pt": [
+        "Cylindropuntia alcahes"
+      ],
+      "ru": [
+        "Cylindropuntia alcahes"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1403,11 +1798,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Teddybärkaktus"
+      ],
       "en": [
+        "Cylindropuntia bigelovii",
         "Teddy-bear cholla"
+      ],
+      "es": [
+        "Cylindropuntia bigelovii"
+      ],
+      "fr": [
+        "Cylindropuntia bigelovii"
+      ],
+      "it": [
+        "Cylindropuntia bigelovii"
+      ],
+      "nl": [
+        "Cylindropuntia bigelovii"
+      ],
+      "pl": [
+        "Cylindropuntia bigelovii"
+      ],
+      "pt": [
+        "Cylindropuntia bigelovii"
+      ],
+      "ru": [
+        "Цилиндропунция Бигелоу"
       ]
     },
     "tags": [],
@@ -1424,7 +1846,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Cylindropuntia californica is a species of cholla cactus known by the common name snake cholla. It is primarily found in Baja California, Mexico and the southernmost part of California in the United States. It is characterized by a short, decumbent habit, yellow-green flowers, elongated stems, and short spines. It is mostly found in coastal sage scrub and coastal chaparral habitats, but two varieties in Baja California can be found in foothills and deserts.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1501,9 +1923,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cylindropuntia californica"
+      ],
+      "en": [
+        "Cylindropuntia californica"
+      ],
+      "es": [
+        "Cylindropuntia californica"
+      ],
+      "fr": [
+        "Cylindropuntia californica"
+      ],
+      "it": [
+        "Cylindropuntia californica"
+      ],
+      "nl": [
+        "Cylindropuntia californica"
+      ],
+      "pl": [
+        "Cylindropuntia californica"
+      ],
+      "pt": [
+        "Cylindropuntia californica"
+      ],
+      "ru": [
+        "Cylindropuntia californica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1595,9 +2047,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cylindropuntia cholla"
+      ],
+      "en": [
+        "Cylindropuntia cholla"
+      ],
+      "es": [
+        "Cylindropuntia cholla"
+      ],
+      "fr": [
+        "Cylindropuntia cholla"
+      ],
+      "it": [
+        "Cylindropuntia cholla"
+      ],
+      "nl": [
+        "Cylindropuntia cholla"
+      ],
+      "pl": [
+        "Cylindropuntia cholla"
+      ],
+      "pt": [
+        "Cylindropuntia cholla"
+      ],
+      "ru": [
+        "Cylindropuntia cholla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1612,7 +2094,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/54a386c6e15df7d35d4dbc7d9224abf181e6f958",
-    "description": "The fruits are dark green to red, 5 inches long, egg-shaped, and have fine irritating hairs (glochids).",
+    "description": "Cylindropuntia echinocarpa is a species of cactus known by the common names silver cholla, golden cholla, and Wiggins' cholla. It was formerly named Opuntia echinocarpa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1697,11 +2179,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cylindropuntia echinocarpa"
+      ],
       "en": [
+        "Cylindropuntia echinocarpa",
         "Wiggins's cholla"
+      ],
+      "es": [
+        "Cylindropuntia echinocarpa"
+      ],
+      "fr": [
+        "Cylindropuntia echinocarpa"
+      ],
+      "it": [
+        "Cylindropuntia echinocarpa"
+      ],
+      "nl": [
+        "Cylindropuntia echinocarpa"
+      ],
+      "pl": [
+        "Cylindropuntia echinocarpa"
+      ],
+      "pt": [
+        "Cylindropuntia echinocarpa"
+      ],
+      "ru": [
+        "Cylindropuntia echinocarpa"
       ]
     },
     "tags": [],
@@ -1803,11 +2312,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cylindropuntia fulgida"
+      ],
       "en": [
+        "Cylindropuntia fulgida",
         "Jumping cholla"
+      ],
+      "es": [
+        "Cylindropuntia fulgida"
+      ],
+      "fr": [
+        "Cylindropuntia fulgida"
+      ],
+      "it": [
+        "Cylindropuntia fulgida"
+      ],
+      "ja": [
+        "チョヤッ"
+      ],
+      "nl": [
+        "Cylindropuntia fulgida"
+      ],
+      "pl": [
+        "Cylindropuntia fulgida"
+      ],
+      "pt": [
+        "Cylindropuntia fulgida"
+      ],
+      "ru": [
+        "Cylindropuntia fulgida"
       ]
     },
     "tags": [],
@@ -1824,7 +2363,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/72638842fa4975a9921e2df819571c80836c2a65",
-    "description": "The fruits are dark green to red, 5 inches long, egg-shaped, and have fine irritating hairs (glochids).",
+    "description": "Cylindropuntia ganderi, also known as Gander cholla and Gander's buckhorn cholla, is a cholla native to the Sonoran Desert of Baja California, Mexico, and the adjacent border area of southern California, US where it intergrades with Cylindropuntia californica.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1909,9 +2448,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cylindropuntia ganderi"
+      ],
+      "en": [
+        "Cylindropuntia ganderi"
+      ],
+      "es": [
+        "Cylindropuntia ganderi"
+      ],
+      "fr": [
+        "Cylindropuntia ganderi"
+      ],
+      "it": [
+        "Cylindropuntia ganderi"
+      ],
+      "nl": [
+        "Cylindropuntia ganderi"
+      ],
+      "pl": [
+        "Cylindropuntia ganderi"
+      ],
+      "pt": [
+        "Cylindropuntia ganderi"
+      ],
+      "ru": [
+        "Cylindropuntia ganderi"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1926,7 +2495,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/a106e0b8f659e61f1370534d8aeb724bbbb23ab1",
-    "description": "The fruits are dark green to red, 5 inches long, egg-shaped, and have fine irritating hairs (glochids).",
+    "description": "Cylindropuntia imbricata, the cane cholla, is a cactus found in the Southwestern United States and northern Mexico, including some cooler regions in comparison to many other cacti. It occurs primarily in the arid regions of the Southwestern United States in the states of Kansas, Oklahoma, Texas, New Mexico, Arizona, Colorado, and Nevada. It is often conspicuous because of its shrubby or even tree-like size, its silhouette, and its long-lasting yellowish fruits.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2011,11 +2580,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cylindropuntia imbricata"
+      ],
       "en": [
-        "Candelabrum cactus"
+        "Candelabrum cactus",
+        "Cylindropuntia imbricata"
+      ],
+      "es": [
+        "Cylindropuntia imbricata"
+      ],
+      "fr": [
+        "Cylindropuntia imbricata"
+      ],
+      "it": [
+        "Cylindropuntia imbricata"
+      ],
+      "ja": [
+        "キシカク"
+      ],
+      "nl": [
+        "Cylindropuntia imbricata"
+      ],
+      "pl": [
+        "Cylindropuntia imbricata"
+      ],
+      "pt": [
+        "Cylindropuntia imbricata"
+      ],
+      "ru": [
+        "Cylindropuntia imbricata"
+      ],
+      "zh": [
+        "鬼角子"
       ]
     },
     "tags": [],
@@ -2032,7 +2634,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/e1cd35911e6cec4a500529967caa3a026c0503e9",
-    "description": "The fruits are dark green to red, 5 inches long, egg-shaped, and have fine irritating hairs (glochids).",
+    "description": "Cylindropuntia leptocaulis, the desert Christmas cactus, desert Christmas cholla, pencil cactus, or tasajillo, is a species of cholla cactus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2121,11 +2723,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cylindropuntia leptocaulis"
+      ],
       "en": [
-        "Christmas cactus"
+        "Christmas cactus",
+        "Cylindropuntia leptocaulis"
+      ],
+      "es": [
+        "Cylindropuntia leptocaulis"
+      ],
+      "fr": [
+        "Cylindropuntia leptocaulis"
+      ],
+      "it": [
+        "Opuntia leptocaulis"
+      ],
+      "nl": [
+        "Cylindropuntia leptocaulis"
+      ],
+      "pl": [
+        "Cylindropuncja cienkołodygowa"
+      ],
+      "pt": [
+        "Cylindropuntia leptocaulis"
+      ],
+      "ru": [
+        "Cylindropuntia leptocaulis"
       ]
     },
     "tags": [],
@@ -2142,7 +2771,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Cylindropuntia prolifera, known by the common name Coastal cholla, is a species of cactus. In Australia it is called 'Jumping Cholla' because of it seeming to jump from outbreak to outbreak.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2219,9 +2848,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cylindropuntia prolifera"
+      ],
+      "en": [
+        "Cylindropuntia prolifera"
+      ],
+      "es": [
+        "Cylindropuntia prolifera"
+      ],
+      "fr": [
+        "Cylindropuntia prolifera"
+      ],
+      "it": [
+        "Cylindropuntia prolifera"
+      ],
+      "nl": [
+        "Cylindropuntia prolifera"
+      ],
+      "pl": [
+        "Cylindropuntia prolifera"
+      ],
+      "pt": [
+        "Cylindropuntia prolifera"
+      ],
+      "ru": [
+        "Cylindropuntia prolifera"
+      ],
+      "zh": [
+        "增生圆柱仙人掌"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2236,7 +2898,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/c5d366bd358550aa896bb157bd7510d1b336ae52",
-    "description": "The fruits are dark green to red, 5 inches long, egg-shaped, and have fine irritating hairs (glochids).",
+    "description": "Cylindropuntia ramosissima is a species of cactus known by the common names Diamond cholla and Branched pencil cholla.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2321,9 +2983,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cylindropuntia ramosissima"
+      ],
+      "en": [
+        "Cylindropuntia ramosissima"
+      ],
+      "es": [
+        "Cylindropuntia ramosissima"
+      ],
+      "fr": [
+        "Cylindropuntia ramosissima"
+      ],
+      "it": [
+        "Cylindropuntia ramosissima"
+      ],
+      "nl": [
+        "Cylindropuntia ramosissima"
+      ],
+      "pl": [
+        "Cylindropuntia ramosissima"
+      ],
+      "pt": [
+        "Cylindropuntia ramosissima"
+      ],
+      "ru": [
+        "Cylindropuntia ramosissima"
+      ],
+      "zh": [
+        "多枝圆柱仙人掌"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2338,7 +3033,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Cylindropuntia rosea, the Hudson pear, is a cactus native to the Sonoran Desert in Arizona and Northwestern Mexico. The plant is an invasive species in Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2415,9 +3110,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cylindropuntia rosea"
+      ],
+      "en": [
+        "Cylindropuntia rosea"
+      ],
+      "es": [
+        "Cylindropuntia rosea"
+      ],
+      "fr": [
+        "Cylindropuntia rosea"
+      ],
+      "it": [
+        "Cylindropuntia rosea"
+      ],
+      "nl": [
+        "Cylindropuntia rosea"
+      ],
+      "pl": [
+        "Cylindropuntia rosea"
+      ],
+      "pt": [
+        "Cylindropuntia rosea"
+      ],
+      "ru": [
+        "Cylindropuntia rosea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2432,7 +3157,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/058f96b890d698889c7ea6591e7c64a482210842",
-    "description": "The fruits are dark green to red, 5 inches long, egg-shaped, and have fine irritating hairs (glochids).",
+    "description": "Cylindropuntia tunicata, commonly referred to as sheathed cholla, is a species of flowering plant in the family Cactaceae. This cholla species is native to the Chihuahuan Desert of North America and parts of South America. Is also known as Brown-spined Hudson pear.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2517,11 +3242,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cylindropuntia tunicata"
+      ],
       "en": [
+        "Cylindropuntia tunicata",
         "Sheathed cholla"
+      ],
+      "es": [
+        "Cylindropuntia tunicata"
+      ],
+      "fr": [
+        "Cylindropuntia tunicata"
+      ],
+      "it": [
+        "Cylindropuntia tunicata"
+      ],
+      "nl": [
+        "Cylindropuntia tunicata"
+      ],
+      "pl": [
+        "Cylindropuncja okryta"
+      ],
+      "pt": [
+        "Cylindropuntia tunicata"
+      ],
+      "ru": [
+        "Cylindropuntia tunicata"
       ]
     },
     "tags": [],
@@ -2538,7 +3290,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/c7461189790506c6bf87d508fb69b2c7973dc409",
-    "description": "The fruits are dark green to red, 5 inches long, egg-shaped, and have fine irritating hairs (glochids).",
+    "description": "Cylindropuntia whipplei is a member of the cactus family, Cactaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2623,11 +3375,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cylindropuntia whipplei"
+      ],
       "en": [
+        "Cylindropuntia whipplei",
         "Whipple cholla"
+      ],
+      "es": [
+        "Cylindropuntia whipplei"
+      ],
+      "fr": [
+        "Cylindropuntia whipplei"
+      ],
+      "it": [
+        "Cylindropuntia whipplei"
+      ],
+      "nl": [
+        "Cylindropuntia whipplei"
+      ],
+      "pl": [
+        "Cylindropuntia whipplei"
+      ],
+      "pt": [
+        "Cylindropuntia whipplei"
+      ],
+      "ru": [
+        "Cylindropuntia whipplei"
       ]
     },
     "tags": [],
@@ -2644,7 +3423,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/8d7fbbd2ae0d348d7ae41653c9d93eb099f057d1",
-    "description": null,
+    "description": "Echinocactus horizonthalonius is a species of cactus known by several common names, including devilshead, turk's head cactus, blue barrel cactus, eagle's claw, horse maimer, horse crippler, and visnaga meloncillo. It is native to the southwestern United States and northern Mexico, where it occurs in Chihuahuan Desert and Sonoran Desert habitats, particularly on limestone substrates. One of its varieties is a federally listed endangered species of the United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2721,11 +3500,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Echinocactus horizonthalonius"
+      ],
       "en": [
-        "Eagle-claw cactus"
+        "Eagle-claw cactus",
+        "Echinocactus horizonthalonius"
+      ],
+      "es": [
+        "Echinocactus horizonthalonius"
+      ],
+      "fr": [
+        "Echinocactus horizonthalonius"
+      ],
+      "it": [
+        "Echinocactus horizonthalonius"
+      ],
+      "nl": [
+        "Echinocactus horizonthalonius"
+      ],
+      "pl": [
+        "Echinocactus horizonthalonius"
+      ],
+      "pt": [
+        "Echinocactus horizonthalonius"
+      ],
+      "ru": [
+        "Echinocactus horizonthalonius"
+      ],
+      "zh": [
+        "太平丸"
       ]
     },
     "tags": [],
@@ -2742,7 +3551,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/5456312e8479d30d264a245a3721f3bbe450b660",
-    "description": null,
+    "description": "Echinocactus platyacanthus is a member of the cactus family Cactaceae. It is also known as the giant barrel cactus, golden barrel cactus, giant viznaga, or biznaga de dulce, and its Nahuatl (Aztec) name is huitzli nahual.. It is native to central Mexico in the Chihuahuan Desert. This species is the largest of the barrel cacti. In Mexico, its hairs are often used for weaving; and acitrón, a traditional Mexican candy, is produced by boiling the cactus pith.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2819,11 +3628,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Echinocactus platyacanthus"
+      ],
       "en": [
-        "Biznaga gigante"
+        "Biznaga gigante",
+        "Echinocactus platyacanthus"
+      ],
+      "es": [
+        "Echinocactus platyacanthus"
+      ],
+      "fr": [
+        "Echinocactus platyacanthus"
+      ],
+      "it": [
+        "Echinocactus platyacanthus"
+      ],
+      "nl": [
+        "Echinocactus platyacanthus"
+      ],
+      "pl": [
+        "Echinocactus platyacanthus"
+      ],
+      "pt": [
+        "Echinocactus platyacanthus"
+      ],
+      "ru": [
+        "Echinocactus platyacanthus"
+      ],
+      "tr": [
+        "Echinocactus platyacanthus"
       ]
     },
     "tags": [],
@@ -2840,7 +3679,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/3b69d6e76c45133944c22524c3036c1c41d2b485",
-    "description": null,
+    "description": "Echinocereus coccineus is a species of hedgehog cactus. Its native to Northern and Central America. It grows on full sun, in sandy or rocky well-drained soil. It can survive in hardiness zones 5-9.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2917,11 +3756,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Echinocereus coccineus"
+      ],
       "en": [
-        "California hedgehog"
+        "California hedgehog",
+        "Echinocereus coccineus"
+      ],
+      "es": [
+        "Echinocereus coccineus"
+      ],
+      "fr": [
+        "Echinocereus coccineus"
+      ],
+      "it": [
+        "Echinocereus coccineus"
+      ],
+      "nl": [
+        "Echinocereus coccineus"
+      ],
+      "pl": [
+        "Echinocereus coccineus"
+      ],
+      "pt": [
+        "Echinocereus coccineus"
+      ],
+      "ru": [
+        "Echinocereus coccineus"
       ]
     },
     "tags": [],
@@ -2938,7 +3804,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/c2f76310d4774463f4906bfb77b2060a019343ab",
-    "description": null,
+    "description": "Echinocereus dasyacanthus is a member of the cactus family, Cactaceae. It is one of about 2000 total species belonging to this family. The cactus is commonly known as Texas rainbow cactus because of the subtle rings or bands of contrasting colors along the stem of the plant. Not all Texas rainbow cacti have the \"rainbow\" coloration on their stems. Another common name is spiny hedgehog cactus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3015,11 +3881,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Echinocereus dasyacanthus"
+      ],
       "en": [
+        "Echinocereus dasyacanthus",
         "Texas rainbow cactus"
+      ],
+      "es": [
+        "Echinocereus dasyacanthus"
+      ],
+      "fr": [
+        "Echinocereus dasyacanthus"
+      ],
+      "it": [
+        "Echinocereus dasyacanthus"
+      ],
+      "nl": [
+        "Echinocereus dasyacanthus"
+      ],
+      "pl": [
+        "Echinocereus dasyacanthus"
+      ],
+      "pt": [
+        "Echinocereus dasyacanthus"
+      ],
+      "ru": [
+        "Echinocereus dasyacanthus"
       ]
     },
     "tags": [],
@@ -3036,7 +3929,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/0b86c8ea603139af78355a96200ab1cfde28c288",
-    "description": null,
+    "description": "Echinocereus enneacanthus is a species of flowering plant first described by George Engelmann.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3113,11 +4006,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Echinocereus enneacanthus"
+      ],
       "en": [
-        "Banana cactus"
+        "Banana cactus",
+        "Echinocereus enneacanthus"
+      ],
+      "es": [
+        "Echinocereus enneacanthus"
+      ],
+      "fr": [
+        "Echinocereus enneacanthus"
+      ],
+      "it": [
+        "Echinocereus enneacanthus"
+      ],
+      "nl": [
+        "Echinocereus enneacanthus"
+      ],
+      "pl": [
+        "Echinocereus enneacanthus"
+      ],
+      "pt": [
+        "Echinocereus enneacanthus"
+      ],
+      "ru": [
+        "Echinocereus enneacanthus"
       ]
     },
     "tags": [],
@@ -3134,7 +4054,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/dc1af32f5d807b7375267c92a52a8c2982892cc2",
-    "description": null,
+    "description": "Echinocereus pectinatus is a species of hedgehog cactus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3211,11 +4131,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Echinocereus pectinatus"
+      ],
       "en": [
+        "Echinocereus pectinatus",
         "Rainbow cactus"
+      ],
+      "es": [
+        "Echinocereus pectinatus"
+      ],
+      "fr": [
+        "Echinocereus pectinatus"
+      ],
+      "it": [
+        "Echinocereus pectinatus"
+      ],
+      "nl": [
+        "Echinocereus pectinatus"
+      ],
+      "pl": [
+        "Echinocereus pectinatus"
+      ],
+      "pt": [
+        "Echinocereus pectinatus"
+      ],
+      "ru": [
+        "Echinocereus pectinatus"
       ]
     },
     "tags": [],
@@ -3309,11 +4256,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Echinocereus triglochidiatus"
+      ],
       "en": [
+        "Echinocereus triglochidiatus",
         "Rose's claret-cup cactus"
+      ],
+      "es": [
+        "Echinocereus triglochidiatus"
+      ],
+      "fr": [
+        "Echinocereus triglochidiatus"
+      ],
+      "it": [
+        "Echinocereus triglochidiatus"
+      ],
+      "nl": [
+        "Echinocereus triglochidiatus"
+      ],
+      "pl": [
+        "Echinocereus triglochidiatus"
+      ],
+      "pt": [
+        "Echinocereus triglochidiatus"
+      ],
+      "ru": [
+        "Echinocereus triglochidiatus"
       ]
     },
     "tags": [],
@@ -3330,7 +4304,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/b0b811543e793e04cb41a68d2d9afdb0fad0367f",
-    "description": null,
+    "description": "Echinocereus viridiflorus is a species of cactus known by the common names nylon hedgehog cactus, green pitaya, and small-flowered hedgehog cactus. It is native to the central and south-central United States and northern Mexico, where it can be found in varied habitat types, including desert scrub, woodlands, dry grasslands, and short-grass prairie.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3407,11 +4381,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Echinocereus viridiflorus"
+      ],
       "en": [
+        "Echinocereus viridiflorus",
         "Nylon hedgehog cactus"
+      ],
+      "es": [
+        "Echinocereus viridiflorus"
+      ],
+      "fr": [
+        "Echinocereus viridiflorus"
+      ],
+      "it": [
+        "Echinocereus viridiflorus"
+      ],
+      "nl": [
+        "Echinocereus viridiflorus"
+      ],
+      "pl": [
+        "Echinocereus viridiflorus"
+      ],
+      "pt": [
+        "Echinocereus viridiflorus"
+      ],
+      "ru": [
+        "Echinocereus viridiflorus"
       ]
     },
     "tags": [],
@@ -3428,7 +4429,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/1b4fce87e858a55bfb4529ccb506e0131f4bc0ab",
-    "description": null,
+    "description": "Epiphyllum phyllanthus, commonly known as the climbing cactus, is a species of epiphytic cacti. It has no leaves, instead having stems that photosynthesise. It is thought to be pollinated by hawkmoths, as the flowers only open at night and produce a strong fragrance.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3505,11 +4506,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Epiphyllum phyllanthus"
+      ],
       "en": [
-        "Climbing cactus"
+        "Climbing cactus",
+        "Epiphyllum phyllanthus"
+      ],
+      "es": [
+        "Epiphyllum phyllanthus"
+      ],
+      "fr": [
+        "Epiphyllum phyllanthus"
+      ],
+      "it": [
+        "Epiphyllum phyllanthus"
+      ],
+      "nl": [
+        "Epiphyllum phyllanthus"
+      ],
+      "pl": [
+        "Epiphyllum phyllanthus"
+      ],
+      "pt": [
+        "Epiphyllum Phyllanthus"
+      ],
+      "ru": [
+        "Epiphyllum phyllanthus"
+      ],
+      "zh": [
+        "廣佈曇花"
       ]
     },
     "tags": [],
@@ -3526,7 +4557,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/9a8d3e4fb98651e4ed69df7d29b91a703c5a0464",
-    "description": null,
+    "description": "Pelecyphora tuberculosa, the corncob cactus, is a species of flowering plant in the family Cactaceae, native to the south-central United States, and northern Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3603,11 +4634,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Escobaria tuberculosa"
+      ],
       "en": [
+        "Escobaria tuberculosa",
         "Whitecolumn foxtail cactus"
+      ],
+      "es": [
+        "Escobaria tuberculosa"
+      ],
+      "fr": [
+        "Escobaria tuberculosa"
+      ],
+      "it": [
+        "Escobaria tuberculosa"
+      ],
+      "nl": [
+        "Escobaria tuberculosa"
+      ],
+      "pl": [
+        "Escobaria tuberculosa"
+      ],
+      "pt": [
+        "Escobaria tuberculosa"
+      ],
+      "ru": [
+        "Escobaria tuberculosa"
       ]
     },
     "tags": [],
@@ -3701,11 +4759,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "إسكوبارية ولودة"
+      ],
+      "de": [
+        "Escobaria vivipara"
+      ],
       "en": [
-        "Beehive cactus"
+        "Beehive cactus",
+        "Escobaria vivipara"
+      ],
+      "es": [
+        "Escobaria vivipara"
+      ],
+      "fr": [
+        "Escobaria vivipara"
+      ],
+      "it": [
+        "Escobaria vivipara"
+      ],
+      "nl": [
+        "Escobaria vivipara"
+      ],
+      "pl": [
+        "Escobaria vivipara"
+      ],
+      "pt": [
+        "Escobaria vivipara"
+      ],
+      "ru": [
+        "Escobaria vivipara"
       ]
     },
     "tags": [],
@@ -3722,7 +4810,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/e5daa60eb0aa1da15302dd6700bb758dc6563c29",
-    "description": null,
+    "description": "Ferocactus cylindraceus is a species of barrel cactus which is known by several common names, including California barrel cactus, Desert barrel cactus, compass barrel cactus, and miner's compass. It was first described by George Engelmann in 1853.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3799,11 +4887,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ferocactus cylindraceus"
+      ],
       "en": [
+        "Ferocactus cylindraceus",
         "Le conte barrel cactus"
+      ],
+      "es": [
+        "Ferocactus cylindraceus"
+      ],
+      "fr": [
+        "Ferocactus cylindraceus"
+      ],
+      "it": [
+        "Ferocactus cylindraceus"
+      ],
+      "nl": [
+        "Ferocactus cylindraceus"
+      ],
+      "pl": [
+        "Ferocactus cylindraceus"
+      ],
+      "pt": [
+        "Ferocactus cylindraceus"
+      ],
+      "ru": [
+        "Ferocactus cylindraceus"
       ]
     },
     "tags": [],
@@ -3820,7 +4935,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/61e535165c56fc5c54a8fd8c27cdf84927ee48d6",
-    "description": null,
+    "description": "Ferocactus hamatacanthus, commonly named Turk's head, is a barrel cactus in the tribe Cacteae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3897,11 +5012,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ferocactus hamatacanthus"
+      ],
       "en": [
+        "Ferocactus hamatacanthus",
         "Texas barrel cactus"
+      ],
+      "es": [
+        "Ferocactus hamatacanthus"
+      ],
+      "fr": [
+        "Ferocactus hamatacanthus"
+      ],
+      "it": [
+        "Ferocactus hamatacanthus"
+      ],
+      "nl": [
+        "Ferocactus hamatacanthus"
+      ],
+      "pl": [
+        "Ferocactus hamatacanthus"
+      ],
+      "pt": [
+        "Ferocactus hamatacanthus"
+      ],
+      "ru": [
+        "Ferocactus hamatacanthus"
       ]
     },
     "tags": [],
@@ -3918,7 +5060,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Ferocactus latispinus is a species of barrel cactus native to Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3995,9 +5137,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ferocactus latispinus"
+      ],
+      "en": [
+        "Ferocactus latispinus"
+      ],
+      "es": [
+        "Ferocactus latispinus"
+      ],
+      "fr": [
+        "Ferocactus latispinus"
+      ],
+      "it": [
+        "Ferocactus latispinus"
+      ],
+      "nl": [
+        "Ferocactus latispinus"
+      ],
+      "pl": [
+        "Ferocactus latispinus"
+      ],
+      "pt": [
+        "Ferocactus latispinus"
+      ],
+      "ru": [
+        "Ferocactus latispinus"
+      ],
+      "tr": [
+        "Ferocactus latispinus"
+      ],
+      "zh": [
+        "日出"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4012,7 +5190,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/600d8a7b0fd153a3495408ad2650da65cb0d11a3",
-    "description": null,
+    "description": "Ferocactus peninsulae is a barrel cactus in the genus Ferocactus of the family Cactaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4089,9 +5267,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ferocactus peninsulae"
+      ],
+      "en": [
+        "Ferocactus peninsulae"
+      ],
+      "es": [
+        "Ferocactus peninsulae"
+      ],
+      "fr": [
+        "Ferocactus peninsulae"
+      ],
+      "it": [
+        "Ferocactus peninsulae"
+      ],
+      "nl": [
+        "Ferocactus peninsulae"
+      ],
+      "pl": [
+        "Ferocactus peninsulae"
+      ],
+      "pt": [
+        "Ferocactus peninsulae"
+      ],
+      "ru": [
+        "Ferocactus peninsulae"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4106,7 +5314,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/13a4cc4eabbf5da4ea755908939381ab0482156b",
-    "description": null,
+    "description": "Ferocactus viridescens is a species of flowering plant in the cactus family Cactaceae. This barrel cactus is known by several common names, including coast barrel cactus, keg cactus and San Diego barrel cactus. Most of its native range in the United States is in San Diego County, California, where it is threatened by development, agriculture, and other alterations in its habitat. It is also found in northern Baja California, Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4183,11 +5391,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ferocactus viridescens"
+      ],
       "en": [
+        "Ferocactus viridescens",
         "San diego barrelcactus"
+      ],
+      "es": [
+        "Ferocactus viridescens"
+      ],
+      "fr": [
+        "Ferocactus viridescens"
+      ],
+      "it": [
+        "Ferocactus viridescens"
+      ],
+      "nl": [
+        "Ferocactus viridescens"
+      ],
+      "pl": [
+        "Ferocactus viridescens"
+      ],
+      "pt": [
+        "Ferocactus viridescens"
+      ],
+      "ru": [
+        "Ferocactus viridescens"
       ]
     },
     "tags": [],
@@ -4204,7 +5439,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/630c76c47d2766e29e306918265f0ea8aa2920a5",
-    "description": null,
+    "description": "Ferocactus wislizeni, the fishhook barrel cactus, also called Arizona barrel cactus, candy barrel cactus, and Southwestern barrel cactus, is a species of flowering plant in the cactus family Cactaceae, native to northern Mexico and the southern United States. It is a ball-shaped cactus eventually growing to a cylindrical shape, with spiny ribs and red or yellow flowers in summer.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4281,11 +5516,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صبار ضاري"
+      ],
+      "de": [
+        "Ferocactus wislizeni"
+      ],
       "en": [
-        "Arizona barrel cactus"
+        "Arizona barrel cactus",
+        "Ferocactus wislizeni"
+      ],
+      "es": [
+        "Ferocactus wislizeni"
+      ],
+      "fr": [
+        "Ferocactus wislizeni"
+      ],
+      "it": [
+        "Ferocactus wislizeni"
+      ],
+      "nl": [
+        "Ferocactus wislizeni"
+      ],
+      "pl": [
+        "Ferocactus wislizeni"
+      ],
+      "pt": [
+        "Ferocactus wislizeni"
+      ],
+      "ru": [
+        "Ferocactus wislizeni"
       ]
     },
     "tags": [],
@@ -4302,7 +5567,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/8697491cd96d6d1c260a8fa3073f90d8535a7a62",
-    "description": null,
+    "description": "Lepismium cruciforme is a species of plant in the family Cactaceae. It is found in Argentina, Brazil, and Paraguay. Its natural habitat is subtropical or tropical moist lowland forests. It is threatened by habitat loss.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4379,9 +5644,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lepismium cruciforme"
+      ],
+      "en": [
+        "Lepismium cruciforme"
+      ],
+      "es": [
+        "Lepismium cruciforme"
+      ],
+      "fr": [
+        "Lepismium cruciforme"
+      ],
+      "it": [
+        "Lepismium cruciforme"
+      ],
+      "nl": [
+        "Lepismium cruciforme"
+      ],
+      "pl": [
+        "Lepismium cruciforme"
+      ],
+      "pt": [
+        "Lepismium cruciforme"
+      ],
+      "ru": [
+        "Lepismium cruciforme"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4396,7 +5691,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/0d34b475f421ac6a0f993bac4434c18f9b5e621c",
-    "description": null,
+    "description": "Lophocereus schottii, the senita cactus, is a species of cactus from southern Arizona and north-western Mexico, particularly Baja California and Sonora.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4473,11 +5768,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lophocereus schottii"
+      ],
       "en": [
+        "Lophocereus schottii",
         "Senita cactus"
+      ],
+      "es": [
+        "Lophocereus schottii"
+      ],
+      "fr": [
+        "Lophocereus schottii"
+      ],
+      "it": [
+        "Lophocereus schottii"
+      ],
+      "nl": [
+        "Lophocereus schottii"
+      ],
+      "pl": [
+        "Lophocereus schottii"
+      ],
+      "pt": [
+        "Lophocereus schottii"
+      ],
+      "ru": [
+        "Lophocereus schottii"
       ]
     },
     "tags": [],
@@ -4494,7 +5816,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/f849535d1536b3ca363887fb0d5c1466cb35cd21",
-    "description": null,
+    "description": "Mammillaria heyderi  is a species of pincushion cactus in the tribe Cacteae. It is endemic to Sonora and Chihuahua in Mexico and New Mexico, Arizona, Texas, and Oklahoma in the United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4571,11 +5893,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Mammillaria heyderi"
+      ],
       "en": [
-        "Ball cactus"
+        "Ball cactus",
+        "Mammillaria heyderi"
+      ],
+      "es": [
+        "Mammillaria heyderi"
+      ],
+      "fr": [
+        "Mammillaria heyderi"
+      ],
+      "it": [
+        "Mammillaria heyderi"
+      ],
+      "nl": [
+        "Mammillaria heyderi"
+      ],
+      "pl": [
+        "Mammillaria heyderi"
+      ],
+      "pt": [
+        "Mammillaria heyderi"
+      ],
+      "ru": [
+        "Mammillaria heyderi"
       ]
     },
     "tags": [],
@@ -4592,7 +5941,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/7406b4ac2a87b907ad05685911e8d232543c0c9b",
-    "description": null,
+    "description": "Mammillaria magnimamma, common name Mexican pincushion, is a species of flowering plant in the cactus family Cactaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4669,11 +6018,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Mammillaria magnimamma"
+      ],
       "en": [
+        "Mammillaria magnimamma",
         "Mexican pincushion"
+      ],
+      "es": [
+        "Mammillaria magnimamma"
+      ],
+      "fr": [
+        "Mammillaria magnimamma"
+      ],
+      "it": [
+        "Mammillaria magnimamma"
+      ],
+      "nl": [
+        "Mammillaria magnimamma"
+      ],
+      "pl": [
+        "Mammillaria magnimamma"
+      ],
+      "pt": [
+        "Mammillaria magnimamma"
+      ],
+      "ru": [
+        "Маммиллярия крупнососочковая"
+      ],
+      "zh": [
+        "梦幻城"
       ]
     },
     "tags": [],
@@ -4690,7 +6069,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/9739ddaf230190f26b6bb0d24ed3dbc2e41e9472",
-    "description": null,
+    "description": "Myrtillocactus geometrizans is a species of cactus in the genus Myrtillocactus, native to central and northern Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4767,11 +6146,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Myrtillocactus geometrizans"
+      ],
       "en": [
-        "Blue myrtle-cactus"
+        "Blue myrtle-cactus",
+        "Myrtillocactus geometrizans"
+      ],
+      "es": [
+        "Myrtillocactus geometrizans"
+      ],
+      "fr": [
+        "Myrtillocactus geometrizans"
+      ],
+      "it": [
+        "Myrtillocactus geometrizans"
+      ],
+      "nl": [
+        "Myrtillocactus geometrizans"
+      ],
+      "pl": [
+        "Myrtillocactus geometrizans"
+      ],
+      "pt": [
+        "Myrtillocactus geometrizans"
+      ],
+      "ru": [
+        "Миртиллокактус геометрический"
+      ],
+      "zh": [
+        "龍神木"
       ]
     },
     "tags": [],
@@ -4788,7 +6197,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Opuntia auberi is a flower plant species belonging to the family Cactaceae. It is native to Central America in Cuba and the Antilles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4865,9 +6274,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Opuntia auberi"
+      ],
+      "en": [
+        "Opuntia auberi"
+      ],
+      "es": [
+        "Opuntia auberi"
+      ],
+      "fr": [
+        "Opuntia auberi"
+      ],
+      "it": [
+        "Opuntia auberi"
+      ],
+      "nl": [
+        "Opuntia auberi"
+      ],
+      "pl": [
+        "Opuntia auberi"
+      ],
+      "pt": [
+        "Opuntia auberi"
+      ],
+      "ru": [
+        "Opuntia auberi"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4882,7 +6321,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/6d79cbbaab824a219a8c2323539a8323e46692e2",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia aurantiaca, commonly known as tiger-pear, jointed cactus or jointed prickly-pear, is a species of cactus from South America. The species occurs naturally in Argentina, Paraguay and Uruguay and is considered an invasive species in Africa and Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4959,11 +6398,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صبير برتقالي"
+      ],
+      "de": [
+        "Opuntia aurantiaca"
+      ],
       "en": [
+        "Opuntia aurantiaca",
         "Tiger-pear"
+      ],
+      "es": [
+        "Opuntia aurantiaca"
+      ],
+      "fr": [
+        "Opuntia aurantiaca"
+      ],
+      "it": [
+        "Opuntia aurantiaca"
+      ],
+      "nl": [
+        "Opuntia aurantiaca"
+      ],
+      "pl": [
+        "Opuntia aurantiaca"
+      ],
+      "pt": [
+        "Opuntia aurantiaca"
+      ],
+      "ru": [
+        "Opuntia aurantiaca"
       ]
     },
     "tags": [],
@@ -4980,7 +6449,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/6d9efe19ec441f012ebe53326400f373e2b6c1cf",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia basilaris, the beavertail cactus or beavertail pricklypear, is a cactus species found in the southwest United States. It occurs mostly in the Mojave, Anza-Borrego, and Colorado Deserts, as well as in the Colorado Plateau and northwest Mexico. It is also found throughout the Grand Canyon and Colorado River region as well as into southern Utah and Nevada, and in the western Arizona regions along the Lower Colorado River Valley.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5057,11 +6526,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Opuntia basilaris"
+      ],
       "en": [
-        "Bakersfield beaver-tail cactus"
+        "Bakersfield beaver-tail cactus",
+        "Opuntia basilaris"
+      ],
+      "es": [
+        "Opuntia basilaris"
+      ],
+      "fr": [
+        "Opuntia basilaris"
+      ],
+      "it": [
+        "Opuntia basilaris"
+      ],
+      "nl": [
+        "Opuntia basilaris"
+      ],
+      "pl": [
+        "Opuntia basilaris"
+      ],
+      "pt": [
+        "Opuntia basilaris"
+      ],
+      "ru": [
+        "Opuntia basilaris"
       ]
     },
     "tags": [],
@@ -5078,7 +6574,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/479a25498529b57a17cf26070fe44823.jpg",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia caracassana is a species from the genus Opuntia. The species was originally described by Joseph zu Salm-Reifferscheidt-Dyck in 1850.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5155,9 +6651,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Opuntia caracassana"
+      ],
+      "en": [
+        "Opuntia caracassana"
+      ],
+      "es": [
+        "Opuntia caracassana"
+      ],
+      "fr": [
+        "Opuntia caracassana"
+      ],
+      "it": [
+        "Opuntia caracassana"
+      ],
+      "nl": [
+        "Opuntia caracassana"
+      ],
+      "pl": [
+        "Opuntia caracassana"
+      ],
+      "pt": [
+        "Opuntia caracassana"
+      ],
+      "ru": [
+        "Opuntia caracassana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5172,7 +6698,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d5420327a33602cc052f4a8a4ee79912.jpg",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia chlorotica is a species of prickly pear in the family Cactaceae. Its common names include pancake prickly pear, flapjack prickly pear and dollarjoint prickly pear.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5249,9 +6775,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Opuntia chlorotica"
+      ],
+      "en": [
+        "Opuntia chlorotica"
+      ],
+      "es": [
+        "Opuntia chlorotica"
+      ],
+      "fr": [
+        "Opuntia chlorotica"
+      ],
+      "it": [
+        "Opuntia chlorotica"
+      ],
+      "nl": [
+        "Opuntia chlorotica"
+      ],
+      "pl": [
+        "Opuntia chlorotica"
+      ],
+      "pt": [
+        "Opuntia chlorotica"
+      ],
+      "ru": [
+        "Opuntia chlorotica"
+      ],
+      "zh": [
+        "黄绿仙人掌"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5266,7 +6825,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/06338e6b3f3d86e06672eac93d69bf1a.jpg",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia cochenillifera is a species of cactus in the subfamily Opuntioideae. It may have been endemic to Mexico, but has been widely introduced. The first description was in 1753 by Carl Linnaeus as Cactus cochenillifer. Philip Miller renamed it as Opuntia cochenillifera in 1768.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5343,9 +6902,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Opuntia cochenillifera"
+      ],
+      "en": [
+        "Opuntia cochenillifera"
+      ],
+      "es": [
+        "Opuntia cochenillifera"
+      ],
+      "fr": [
+        "Opuntia cochenillifera"
+      ],
+      "it": [
+        "Opuntia cochenillifera"
+      ],
+      "ja": [
+        "コチニールサボテン"
+      ],
+      "nl": [
+        "Opuntia cochenillifera"
+      ],
+      "pl": [
+        "Opuntia cochenillifera"
+      ],
+      "pt": [
+        "Opuntia cochenillifera"
+      ],
+      "ru": [
+        "Opuntia cochenillifera"
+      ],
+      "zh": [
+        "胭脂掌"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5360,7 +6955,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/0f960ce63c68597b2f17d805543ebb22.jpg",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5437,9 +7032,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Opuntia decumbens"
+      ],
+      "en": [
+        "Opuntia decumbens"
+      ],
+      "es": [
+        "Opuntia decumbens"
+      ],
+      "fr": [
+        "Opuntia decumbens"
+      ],
+      "it": [
+        "Opuntia decumbens"
+      ],
+      "nl": [
+        "Opuntia decumbens"
+      ],
+      "pl": [
+        "Opuntia decumbens"
+      ],
+      "pt": [
+        "Opuntia decumbens"
+      ],
+      "ru": [
+        "Opuntia decumbens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5454,7 +7079,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/06fe3d1ca15590245165965361ef0128e5862801",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5531,11 +7156,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صبير أنغلماني"
+      ],
+      "de": [
+        "Opuntia engelmannii"
+      ],
       "en": [
-        "Cowtongue cactus"
+        "Cowtongue cactus",
+        "Opuntia engelmannii"
+      ],
+      "es": [
+        "Opuntia engelmannii"
+      ],
+      "fr": [
+        "Opuntia engelmannii"
+      ],
+      "it": [
+        "Opuntia engelmannii"
+      ],
+      "ja": [
+        "天人団扇"
+      ],
+      "nl": [
+        "Opuntia engelmannii"
+      ],
+      "pl": [
+        "Opuntia engelmannii"
+      ],
+      "pt": [
+        "Opuntia engelmannii"
+      ],
+      "ru": [
+        "Opuntia engelmannii"
+      ],
+      "zh": [
+        "天人掌"
       ]
     },
     "tags": [],
@@ -5629,11 +7290,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صبير التين الهندي"
+      ],
+      "de": [
+        "Opuntia ficus-indica"
+      ],
       "en": [
-        "Indian-fig"
+        "Indian-fig",
+        "Opuntia ficus-indica"
+      ],
+      "es": [
+        "Opuntia ficus-indica"
+      ],
+      "fr": [
+        "figuier de Barbarie"
+      ],
+      "it": [
+        "Opuntia ficus-indica"
+      ],
+      "ja": [
+        "オオガタホウケン"
+      ],
+      "ko": [
+        "보검선인장"
+      ],
+      "nl": [
+        "Opuntia ficus-indica"
+      ],
+      "pl": [
+        "opuncja figowa"
+      ],
+      "pt": [
+        "Opuntia ficus-indica"
+      ],
+      "ru": [
+        "Опунция индийская"
+      ],
+      "tr": [
+        "Hint inciri"
+      ],
+      "zh": [
+        "梨果仙人掌"
       ]
     },
     "tags": [],
@@ -5650,7 +7353,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/ca3b385ce3cb8b25fba0269507feafcce7d25016",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia fragilis, known by the common names brittle pricklypear and little prickly pear, is a prickly pear cactus native to much of western North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5727,11 +7430,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Opuntia fragilis"
+      ],
       "en": [
-        "Loose prickly-pear"
+        "Loose prickly-pear",
+        "Opuntia fragilis"
+      ],
+      "es": [
+        "Opuntia fragilis"
+      ],
+      "fr": [
+        "Opuntia fragilis"
+      ],
+      "it": [
+        "Opuntia fragilis"
+      ],
+      "nl": [
+        "Opuntia fragilis"
+      ],
+      "pl": [
+        "Opuntia fragilis"
+      ],
+      "pt": [
+        "Opuntia fragilis"
+      ],
+      "ru": [
+        "Opuntia fragilis"
+      ],
+      "zh": [
+        "脆節仙人掌"
       ]
     },
     "tags": [],
@@ -5748,7 +7481,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/364d6d31ae4843926ea41034b006d9e013e20d15",
-    "description": "Oblong sessile fleshy fruits with concave apices mature from green to red or purple in late summer. They are edible and either bland, sour or sweet and may persist on the stem through winter.",
+    "description": "Opuntia humifusa, commonly known as the devil's-tongue, eastern prickly pear or Indian fig, is a cactus of the genus Opuntia present in parts of the eastern United States, southeastern Canada, and northeastern Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5759,7 +7492,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "opuntia_humifusa",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -5791,8 +7524,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Opuntia",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. (Source: TPPT/Agroscope)",
       "common_problems": [
         "This plant has no serious insect or disease problems."
       ],
@@ -5815,7 +7548,7 @@
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
       "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -5829,11 +7562,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صبير كمثري شرقي"
+      ],
+      "de": [
+        "Opuntia humifusa"
+      ],
       "en": [
-        "Creeping prickly-pear"
+        "Creeping prickly-pear",
+        "Opuntia humifusa"
+      ],
+      "es": [
+        "Opuntia humifusa"
+      ],
+      "fr": [
+        "Opuntia humifusa"
+      ],
+      "it": [
+        "Opuntia humifusa"
+      ],
+      "ko": [
+        "자단선선인장"
+      ],
+      "nl": [
+        "Opuntia humifusa"
+      ],
+      "pl": [
+        "Opuntia humifusa"
+      ],
+      "pt": [
+        "Opuntia humifusa"
+      ],
+      "ru": [
+        "Опунция стелющаяся"
+      ],
+      "zh": [
+        "匍地仙人掌"
       ]
     },
     "tags": [],
@@ -5850,7 +7619,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/de94c398be4a780ccdaec912f4dc6880689e28b7",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia littoralis is a species of prickly pear cactus known by the common name satious fruit. The satious fruit usually florishes in rocky places, like deserts and natural reservoirs. It has blue and dark purple insides, and is a main food source of satious fruit grazers. It is sometimes called the sprawling prickly pear due to its short stems and habit of growing close to the ground. \"Littoral\" means \"pertaining to the seashore\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5927,11 +7696,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صبير شاطئي"
+      ],
+      "de": [
+        "Opuntia littoralis"
+      ],
       "en": [
-        "Coastal pricklypear"
+        "Coastal pricklypear",
+        "Opuntia littoralis"
+      ],
+      "es": [
+        "Opuntia littoralis"
+      ],
+      "fr": [
+        "Opuntia littoralis"
+      ],
+      "it": [
+        "Opuntia littoralis"
+      ],
+      "nl": [
+        "Opuntia littoralis"
+      ],
+      "pl": [
+        "Opuntia littoralis"
+      ],
+      "pt": [
+        "Opuntia littoralis"
+      ],
+      "ru": [
+        "Opuntia littoralis"
+      ],
+      "zh": [
+        "海滨仙人掌"
       ]
     },
     "tags": [],
@@ -5948,7 +7750,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/fd678cdb3a8c2ac0d602b36b11b08fc0d3dea126",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia macrocentra, the long-spined purplish prickly pear or purple pricklypear, is a cactus found in the lower Southwestern United States and Northwestern Mexico. A member of the prickly pear genus, this species of Opuntia is most notable as one of a few cacti that produce a purple pigmentation in the stem. Other common names for this plant include black-spined pricklypear, long-spine prickly pear, purple pricklypear, and redeye prickly pear.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6025,11 +7827,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Opuntia macrocentra"
+      ],
       "en": [
-        "Martin's blunt-spine prickly-pear"
+        "Martin's blunt-spine prickly-pear",
+        "Opuntia Macrocentra"
+      ],
+      "es": [
+        "Opuntia macrocentra"
+      ],
+      "fr": [
+        "Opuntia macrocentra"
+      ],
+      "it": [
+        "Opuntia macrocentra"
+      ],
+      "nl": [
+        "Opuntia Macrocentra"
+      ],
+      "pl": [
+        "Opuntia macrocentra"
+      ],
+      "pt": [
+        "Opuntia macrocentra"
+      ],
+      "ru": [
+        "Opuntia macrocentra"
+      ],
+      "zh": [
+        "大刺仙人掌"
       ]
     },
     "tags": [],
@@ -6046,7 +7878,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/34564f44a764d7d4725617fbb4a3fb61e1f8c646",
-    "description": "The fruit is an elongated reddish oval that measures 1 to 1.5 inches long and  1-inch wide. It is fleshy and good to eat. The areoles have glochid bristles, but there are no spines. The Rampah Navajo dried it and used it during the winter when fruits were hard to find.",
+    "description": "Opuntia macrorhiza, also called plains pricklypear or prairie pricklypear or western pricklypear, is a common and widespread species of cactus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6123,11 +7955,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Opuntia macrorhiza"
+      ],
       "en": [
+        "Opuntia macrorhiza",
         "Western prickly-pear"
+      ],
+      "es": [
+        "Opuntia macrorhiza"
+      ],
+      "fr": [
+        "Opuntia macrorhiza"
+      ],
+      "it": [
+        "Opuntia macrorhiza"
+      ],
+      "nl": [
+        "Opuntia macrorhiza"
+      ],
+      "pl": [
+        "Opuntia macrorhiza"
+      ],
+      "pt": [
+        "Opuntia macrorhiza"
+      ],
+      "ru": [
+        "Opuntia macrorhiza"
       ]
     },
     "tags": [],
@@ -6144,7 +8003,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://res.cloudinary.com/dmvvh57hg/image/upload/plants/opuntia_microdasys/inat_1.jpg",
-    "description": "Red to reddish-purple berry fruit is produced in the summer from June to August. The fruit is green when immature, and red when ripens. It is juicy. globular, and 1-inch in diameter. It has many areoles and dense glochids. The seeds are small, tan, and flat.",
+    "description": "Opuntia microdasys is a species of flowering plant in the cactus family, Cactaceae. It is native and endemic to central and northern Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6195,7 +8054,7 @@
       "common_pests": [
         "Monitor for mealybugs and scale insects."
       ],
-      "watering_method": null,
+      "watering_method": "Let soil dry up",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -6225,11 +8084,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
-        "Bunny-ears prickly-pear"
+        "Bunny Ears Cactus",
+        "Bunny-ears prickly-pear",
+        "crested bunny ears",
+        "wavy bunny ears"
+      ],
+      "es": [
+        "Nopal cegador",
+        "Nopalillo cegador",
+        "Orejas de conejo"
+      ],
+      "ja": [
+        "キンエボシ（金烏帽子）"
+      ],
+      "nl": [
+        "borstelschijfcactus"
+      ],
+      "pl": [
+        "Opuncja drobnokolczasta",
+        "opuncja drobnokolczasta"
+      ],
+      "pt": [
+        "Orelha-de-coelho"
+      ],
+      "ru": [
+        "Опунция мелковолосистая"
+      ],
+      "zh": [
+        "金乌帽子",
+        "黄毛掌"
       ]
     },
     "tags": [],
@@ -6246,7 +8135,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/25babdb0f89b5844c3effe97539a8dba88916810",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia monacantha, commonly known as drooping prickly pear, cochineal prickly pear, or Barbary fig, is a species of plant in the family Cactaceae native to South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6323,11 +8212,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Opuntia monacantha"
+      ],
       "en": [
-        "Common pricklypear"
+        "Common pricklypear",
+        "Opuntia monacantha"
+      ],
+      "es": [
+        "Opuntia monacantha"
+      ],
+      "fr": [
+        "Opuntia monacantha"
+      ],
+      "it": [
+        "Opuntia monacantha"
+      ],
+      "nl": [
+        "Opuntia monacantha"
+      ],
+      "pl": [
+        "Opuntia monacantha"
+      ],
+      "pt": [
+        "Opuntia monacantha"
+      ],
+      "ru": [
+        "Opuntia monacantha"
+      ],
+      "zh": [
+        "单刺仙人掌"
       ]
     },
     "tags": [],
@@ -6344,7 +8263,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/78968817cef35c0694dd5507223b5a9b5fc7be6d",
-    "description": "The fruit is red to purple in color with a greenish juicy flesh. They are edible and ripen during the summer. The seeds can  be ground into flour.",
+    "description": "Opuntia phaeacantha is a species of prickly pear cactus known by the common names brown-spine prickly pear, tulip prickly pear, and desert prickly pear, which is found across the southwestern United States, lower Great Plains, and northern Mexico. The plant forms dense but localized thickets. Several varieties of this particular species occur, and it may hybridize with other prickly pears, making identification sometimes tricky.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6423,11 +8342,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Opuntia phaeacantha"
+      ],
       "en": [
-        "New mexico prickly-pear"
+        "New mexico prickly-pear",
+        "Opuntia phaeacantha"
+      ],
+      "es": [
+        "Opuntia phaeacantha"
+      ],
+      "fr": [
+        "Opuntia phaeacantha"
+      ],
+      "it": [
+        "Opuntia phaeacantha"
+      ],
+      "nl": [
+        "Opuntia phaeacantha"
+      ],
+      "pl": [
+        "Opuntia phaeacantha"
+      ],
+      "pt": [
+        "Opuntia phaeacantha"
+      ],
+      "ru": [
+        "Opuntia phaeacantha"
+      ],
+      "zh": [
+        "褐刺仙人掌"
       ]
     },
     "tags": [],
@@ -6444,7 +8393,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/a4f4709925b4897e04702df7a4b9b3f7999ab725",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia polyacantha is a common species of cactus known by the common names plains pricklypear, starvation pricklypear, hairspine cactus, and panhandle pricklypear.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6521,11 +8470,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Opuntia polyacantha"
+      ],
       "en": [
-        "Cliff prickly-pear"
+        "Cliff prickly-pear",
+        "Opuntia polyacantha"
+      ],
+      "es": [
+        "Opuntia polyacantha"
+      ],
+      "fr": [
+        "Opuntia polyacantha"
+      ],
+      "it": [
+        "Opuntia polyacantha"
+      ],
+      "nl": [
+        "Opuntia polyacantha"
+      ],
+      "pl": [
+        "Opuntia polyacantha"
+      ],
+      "pt": [
+        "Opuntia polyacantha"
+      ],
+      "ru": [
+        "Opuntia polyacantha"
+      ],
+      "zh": [
+        "多刺仙人掌"
       ]
     },
     "tags": [],
@@ -6542,7 +8521,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1173bd3ba2a3fab5f6978cad7041deea.jpg",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6619,9 +8598,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Opuntia streptacantha"
+      ],
+      "en": [
+        "Opuntia streptacantha"
+      ],
+      "es": [
+        "Opuntia streptacantha"
+      ],
+      "fr": [
+        "Opuntia streptacantha"
+      ],
+      "it": [
+        "Opuntia streptacantha"
+      ],
+      "nl": [
+        "Opuntia streptacantha"
+      ],
+      "pl": [
+        "Opuntia streptacantha"
+      ],
+      "pt": [
+        "Opuntia streptacantha"
+      ],
+      "ru": [
+        "Opuntia streptacantha"
+      ],
+      "zh": [
+        "旋刺仙人掌"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6713,11 +8725,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صبير لامع"
+      ],
+      "de": [
+        "Opuntia stricta"
+      ],
       "en": [
-        "Erect prickly-pear"
+        "Erect prickly-pear",
+        "Opuntia stricta"
+      ],
+      "es": [
+        "Opuntia stricta"
+      ],
+      "fr": [
+        "Opuntia stricta"
+      ],
+      "it": [
+        "Opuntia stricta"
+      ],
+      "ja": [
+        "センニンサボテン"
+      ],
+      "nl": [
+        "Opuntia stricta"
+      ],
+      "pl": [
+        "Opuntia stricta"
+      ],
+      "pt": [
+        "Opuntia stricta"
+      ],
+      "ru": [
+        "Opuntia stricta"
+      ],
+      "zh": [
+        "缩刺仙人掌"
       ]
     },
     "tags": [],
@@ -6734,7 +8782,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/4cbfbe11655dee17f2dd91b6670a02bcdb183138",
-    "description": "The fruits are oval-shaped, fleshy berries that become red to purple at maturity in the mid and late summer. They measure 2 to 3 inches long and are edible once the spines and glochids have been removed.",
+    "description": "Opuntia tomentosa, commonly called woollyjoint pricklypear or velvety tree pear, is a species of Opuntia found in Mexico",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6811,11 +8859,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Opuntia tomentosa"
+      ],
       "en": [
+        "Opuntia tomentosa",
         "Velvet opuntia"
+      ],
+      "es": [
+        "Opuntia tomentosa"
+      ],
+      "fr": [
+        "Opuntia tomentosa"
+      ],
+      "it": [
+        "Opuntia tomentosa"
+      ],
+      "nl": [
+        "Opuntia tomentosa"
+      ],
+      "pl": [
+        "Opuntia tomentosa"
+      ],
+      "pt": [
+        "Opuntia tomentosa"
+      ],
+      "ru": [
+        "Opuntia tomentosa"
       ]
     },
     "tags": [],
@@ -6832,7 +8907,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/120087c4a0313b152b34ffa9d3520415824f8a60",
-    "description": null,
+    "description": "Pachycereus pecten-aboriginum is a columnar cactus plant native to Mexico. They can grow up to 15 m (49 ft) high. The trunk of this species is 1.2 to 5.0 m tall and the fruits are large and burr-like. The specific name, pecten-aboriginum, is from the Latin, and means \"native combs\". It was inspired by the use of the fruits as hair combs.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6909,9 +8984,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pachycereus pecten-aboriginum"
+      ],
+      "en": [
+        "Pachycereus pecten-aboriginum"
+      ],
+      "es": [
+        "Pachycereus pecten-aboriginum"
+      ],
+      "fr": [
+        "Pachycereus pecten-aboriginum"
+      ],
+      "it": [
+        "Pachycereus pecten-aboriginum"
+      ],
+      "nl": [
+        "Pachycereus pecten-aboriginum"
+      ],
+      "pl": [
+        "Pachycereus pecten-aboriginum"
+      ],
+      "pt": [
+        "Pachycereus pecten-aboriginum"
+      ],
+      "ru": [
+        "Pachycereus pecten-aboriginum"
+      ],
+      "zh": [
+        "土人之櫛柱"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6926,7 +9034,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/d3365ab865218e6382022820dc782968873a17d9",
-    "description": null,
+    "description": "Pachycereus pringlei is a species of large cactus native to northwestern Mexico, in the states of Baja California, Baja California Sur, and Sonora. It is commonly known as cardón, a name derived from the Spanish word cardo, meaning \"thistle\"; additionally, it is often referred to as sabueso, which is possibly an early Spanish interpretation of the native Seri term for the plant, xaasj.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7003,9 +9111,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pachycereus pringlei"
+      ],
+      "en": [
+        "Pachycereus pringlei"
+      ],
+      "es": [
+        "Pachycereus pringlei"
+      ],
+      "fr": [
+        "Pachycereus pringlei"
+      ],
+      "hi": [
+        "पैकिसेरियस प्रिंगलेइ"
+      ],
+      "it": [
+        "Pachycereus pringlei"
+      ],
+      "ja": [
+        "ブリンチュウ"
+      ],
+      "nl": [
+        "Pachycereus pringlei"
+      ],
+      "pl": [
+        "Pachycereus pringlei"
+      ],
+      "pt": [
+        "Pachycereus pringlei"
+      ],
+      "ru": [
+        "Pachycereus pringlei"
+      ],
+      "tr": [
+        "Pachycereus pringlei"
+      ],
+      "zh": [
+        "武伦柱"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7020,7 +9170,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Lophocereus schottii, the senita cactus, is a species of cactus from southern Arizona and north-western Mexico, particularly Baja California and Sonora.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7097,9 +9247,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pachycereus schottii"
+      ],
+      "en": [
+        "Pachycereus Schottii"
+      ],
+      "es": [
+        "Pachycereus schottii"
+      ],
+      "fr": [
+        "Pachycereus schottii"
+      ],
+      "it": [
+        "Pachycereus schottii"
+      ],
+      "nl": [
+        "Pachycereus Schottii"
+      ],
+      "pl": [
+        "Pachycereus schottii"
+      ],
+      "pt": [
+        "Pachycereus schottii"
+      ],
+      "ru": [
+        "Pachycereus schottii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7114,7 +9294,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/2a317c104d7d03198375ebb27e88234b4e8b8a36",
-    "description": null,
+    "description": "Pediocactus simpsonii, known by the common names mountain cactus, snowball cactus, and mountain ball cactus, is a relatively common cactus that has adapted to survive in cold and dry environments in high elevation areas of the western United States. It can be found at higher elevations than any other cactus in North America. While not a landscape dominating plant, it is a relatively common species and the most common member of the genus Pediocactus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7191,11 +9371,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pediocactus simpsonii"
+      ],
       "en": [
+        "Pediocactus simpsonii",
         "Plains cactus"
+      ],
+      "es": [
+        "Pediocactus nigrispinus"
+      ],
+      "fr": [
+        "Pediocactus simpsonii"
+      ],
+      "it": [
+        "Pediocactus simpsonii"
+      ],
+      "nl": [
+        "Pediocactus simpsonii"
+      ],
+      "pl": [
+        "Pediocactus simpsonii"
+      ],
+      "pt": [
+        "Pediocactus simpsonii"
+      ],
+      "ru": [
+        "Pediocactus simpsonii"
       ]
     },
     "tags": [],
@@ -7212,7 +9419,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Pelecyphora tuberculosa, the corncob cactus, is a species of flowering plant in the family Cactaceae, native to the south-central United States, and northern Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7289,9 +9496,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pelecyphora tuberculosa"
+      ],
+      "en": [
+        "Pelecyphora tuberculosa"
+      ],
+      "es": [
+        "Pelecyphora tuberculosa"
+      ],
+      "fr": [
+        "Pelecyphora tuberculosa"
+      ],
+      "it": [
+        "Pelecyphora tuberculosa"
+      ],
+      "nl": [
+        "Pelecyphora tuberculosa"
+      ],
+      "pl": [
+        "Pelecyphora tuberculosa"
+      ],
+      "pt": [
+        "Pelecyphora tuberculosa"
+      ],
+      "ru": [
+        "Pelecyphora tuberculosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7383,9 +9620,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pelecyphora vivipara"
+      ],
+      "en": [
+        "Pelecyphora vivipara"
+      ],
+      "es": [
+        "Pelecyphora vivipara"
+      ],
+      "fr": [
+        "Pelecyphora vivipara"
+      ],
+      "it": [
+        "Pelecyphora vivipara"
+      ],
+      "nl": [
+        "Pelecyphora vivipara"
+      ],
+      "pl": [
+        "Pelecyphora vivipara"
+      ],
+      "pt": [
+        "Pelecyphora vivipara"
+      ],
+      "ru": [
+        "Pelecyphora vivipara"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7483,11 +9750,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pereskia aculeata"
+      ],
       "en": [
-        "Leaf cactus"
+        "Leaf cactus",
+        "Pereskia aculeata"
+      ],
+      "es": [
+        "Pereskia aculeata"
+      ],
+      "fr": [
+        "Groseillier des Barbades"
+      ],
+      "it": [
+        "Pereskia aculeata"
+      ],
+      "ja": [
+        "モクキリン"
+      ],
+      "ko": [
+        "목기린선인장"
+      ],
+      "nl": [
+        "Pereskia aculeata"
+      ],
+      "pl": [
+        "Pereskia aculeata"
+      ],
+      "pt": [
+        "Ora-pro-nobis"
+      ],
+      "ru": [
+        "Переския шиповатая"
+      ],
+      "tr": [
+        "Pereskia aculeata"
+      ],
+      "zh": [
+        "叶仙人掌"
       ]
     },
     "tags": [],
@@ -7504,7 +9810,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/21d1640558595094eddcc13e52b48bf6fc5768c8",
-    "description": "The fruits are white or pale pink, round berries that measure about 0.3 inches in diameter.",
+    "description": "Rhipsalis baccifera, commonly known as the mistletoe cactus, is an epiphytic cactus which originates in Central and South America, the Caribbean, and Florida. It is also found throughout the tropics of Africa and into Sri Lanka where it is known in Sinhala as nawahandi (නවහන්දි). This is the only cactus species naturally occurring outside the Americas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7588,11 +9894,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Rhipsalis baccifera"
+      ],
       "en": [
-        "Mistletoe cactus"
+        "Mistletoe cactus",
+        "Rhipsalis baccifera"
+      ],
+      "es": [
+        "Rhipsalis baccifera"
+      ],
+      "fr": [
+        "Rhipsalis baccifera"
+      ],
+      "it": [
+        "Rhipsalis baccifera"
+      ],
+      "ja": [
+        "リプサリス・バッキフェラ"
+      ],
+      "nl": [
+        "Rhipsalis baccifera"
+      ],
+      "pl": [
+        "Rhipsalis baccifera"
+      ],
+      "pt": [
+        "Rhipsalis baccifera"
+      ],
+      "ru": [
+        "Rhipsalis baccifera"
+      ],
+      "tr": [
+        "Rhipsalis baccifera"
+      ],
+      "zh": [
+        "絲葦"
       ]
     },
     "tags": [],
@@ -7609,7 +9951,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/54609052bdb17f624bd1ea69511e2006e2f3aaaf",
-    "description": "The fruits are white or pale pink, round berries that measure about 0.3 inches in diameter.",
+    "description": "Rhipsalis floccosa is a species of plant in the family Cactaceae. It is found in Argentina, Bolivia, Brazil, Paraguay, Peru, and Venezuela. Its natural habitat is subtropical or tropical moist lowland forest. It is threatened by habitat loss.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7693,9 +10035,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "أملودية ندفية"
+      ],
+      "de": [
+        "Rhipsalis floccosa"
+      ],
+      "en": [
+        "Rhipsalis floccosa"
+      ],
+      "es": [
+        "Rhipsalis floccosa"
+      ],
+      "fr": [
+        "Rhipsalis floccosa"
+      ],
+      "it": [
+        "Rhipsalis floccosa"
+      ],
+      "nl": [
+        "Rhipsalis floccosa"
+      ],
+      "pl": [
+        "Rhipsalis floccosa"
+      ],
+      "pt": [
+        "Rhipsalis floccosa"
+      ],
+      "ru": [
+        "Rhipsalis floccosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7710,7 +10085,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/669dec36b1dc2309c2a264b3a17ff3ddcba6ef7c",
-    "description": "The fruits are white or pale pink, round berries that measure about 0.3 inches in diameter.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7794,9 +10169,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhipsalis teres"
+      ],
+      "en": [
+        "Rhipsalis teres"
+      ],
+      "es": [
+        "Rhipsalis teres"
+      ],
+      "fr": [
+        "Rhipsalis teres"
+      ],
+      "it": [
+        "Rhipsalis teres"
+      ],
+      "nl": [
+        "Rhipsalis teres"
+      ],
+      "pl": [
+        "Rhipsalis teres"
+      ],
+      "pt": [
+        "Rhipsalis teres"
+      ],
+      "ru": [
+        "Рипсалис вальковатый"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7888,9 +10293,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "شمعية خشبية مموجة الجوانب"
+      ],
+      "de": [
+        "Selenicereus undatus"
+      ],
+      "en": [
+        "Selenicereus undatus"
+      ],
+      "es": [
+        "Selenicereus undatus"
+      ],
+      "fr": [
+        "Selenicereus undatus"
+      ],
+      "it": [
+        "Selenicereus undatus"
+      ],
+      "ko": [
+        "흰용과"
+      ],
+      "nl": [
+        "Selenicereus undatus"
+      ],
+      "pl": [
+        "Selenicereus undatus"
+      ],
+      "pt": [
+        "Selenicereus undatus"
+      ],
+      "ru": [
+        "Selenicereus undatus"
+      ],
+      "tr": [
+        "Hylocereus undatus"
+      ],
+      "zh": [
+        "量天尺"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7982,11 +10429,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Stenocereus gummosus"
+      ],
       "en": [
-        "Pitaya agria"
+        "Pitaya agria",
+        "Stenocereus gummosus"
+      ],
+      "es": [
+        "Stenocereus gummosus"
+      ],
+      "fr": [
+        "Stenocereus gummosus"
+      ],
+      "it": [
+        "Stenocereus gummosus"
+      ],
+      "nl": [
+        "Stenocereus gummosus"
+      ],
+      "pl": [
+        "Stenocereus gummosus"
+      ],
+      "pt": [
+        "Stenocereus gummosus"
+      ],
+      "ru": [
+        "Stenocereus gummosus"
+      ],
+      "tr": [
+        "Stenocereus gummosus"
       ]
     },
     "tags": [],
@@ -8080,11 +10557,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Stenocereus thurberi"
+      ],
       "en": [
-        "Organ-pipe cactus"
+        "Organ-pipe cactus",
+        "Stenocereus thurberi"
+      ],
+      "es": [
+        "Stenocereus thurberi"
+      ],
+      "fr": [
+        "Stenocereus thurberi"
+      ],
+      "it": [
+        "Stenocereus thurberi"
+      ],
+      "ja": [
+        "オルガンパイプサボテン"
+      ],
+      "ko": [
+        "오르간파이프선인장"
+      ],
+      "nl": [
+        "Orgelpijpcactus"
+      ],
+      "pl": [
+        "Stenocereus thurberi"
+      ],
+      "pt": [
+        "Stenocereus thurberi"
+      ],
+      "ru": [
+        "Stenocereus thurberi"
+      ],
+      "tr": [
+        "Stenocereus thurberi"
+      ],
+      "zh": [
+        "管風琴仙人掌果"
       ]
     },
     "tags": [],

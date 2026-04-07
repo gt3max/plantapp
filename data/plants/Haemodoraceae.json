@@ -5,7 +5,7 @@
     "family": "Haemodoraceae",
     "genus": "Anigozanthos",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Anigozanthos humilis"
+      ],
       "en": [
+        "Anigozanthos humilis",
         "Cat's-paw"
+      ],
+      "es": [
+        "Anigozanthos humilis"
+      ],
+      "fr": [
+        "Anigozanthos humilis"
+      ],
+      "it": [
+        "Anigozanthos humilis"
+      ],
+      "nl": [
+        "Anigozanthos humilis"
+      ],
+      "pl": [
+        "Anigozanthos humilis"
+      ],
+      "pt": [
+        "Anigozanthos humilis"
+      ],
+      "ru": [
+        "Anigozanthos humilis"
+      ],
+      "zh": [
+        "矮生袋鼠爪"
       ]
     },
     "tags": [],
@@ -103,12 +133,12 @@
     "family": "Haemodoraceae",
     "genus": "Conostylis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c3360c52048cb14971e69b6f435b7208479360bb",
-    "description": null,
+    "description": "Conostylis aculeata, commonly known as prickly conostylis, is a flowering, tufted perennial plant in the family Haemodoraceae. It has flat leaves and yellow, hairy, tubular flowers. It is endemic to the south-west of Western Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,9 +215,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Conostylis aculeata"
+      ],
+      "en": [
+        "Conostylis aculeata"
+      ],
+      "es": [
+        "Conostylis aculeata"
+      ],
+      "fr": [
+        "Conostylis aculeata"
+      ],
+      "it": [
+        "Conostylis aculeata"
+      ],
+      "nl": [
+        "Conostylis aculeata"
+      ],
+      "pl": [
+        "Conostylis aculeata"
+      ],
+      "pt": [
+        "Conostylis aculeata"
+      ],
+      "ru": [
+        "Conostylis aculeata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,12 +257,12 @@
     "family": "Haemodoraceae",
     "genus": "Conostylis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/2cdfad4ec4bb67f0a6af29ac8de58405.jpg",
-    "description": null,
+    "description": "Conostylis setigera, commonly known as bristly cottonhead, is a rhizomatous, tufted perennial, grass-like plant or herb in the family Haemodoraceae and is endemic to the south-west of Western Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,9 +339,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Conostylis setigera"
+      ],
+      "en": [
+        "Conostylis setigera"
+      ],
+      "es": [
+        "Conostylis setigera"
+      ],
+      "fr": [
+        "Conostylis setigera"
+      ],
+      "it": [
+        "Conostylis setigera"
+      ],
+      "nl": [
+        "Conostylis setigera"
+      ],
+      "pl": [
+        "Conostylis setigera"
+      ],
+      "pt": [
+        "Conostylis setigera"
+      ],
+      "ru": [
+        "Conostylis setigera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -291,12 +381,12 @@
     "family": "Haemodoraceae",
     "genus": "Haemodorum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f242112b65a1c842e61b0a2fbfbc54946d647f39",
-    "description": null,
+    "description": "Haemodorum planifolium is a shrub native to southeastern Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -373,9 +463,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Haemodorum planifolium"
+      ],
+      "en": [
+        "Haemodorum planifolium"
+      ],
+      "es": [
+        "Haemodorum planifolium"
+      ],
+      "fr": [
+        "Haemodorum planifolium"
+      ],
+      "it": [
+        "Haemodorum planifolium"
+      ],
+      "nl": [
+        "Haemodorum planifolium"
+      ],
+      "pl": [
+        "Haemodorum planifolium"
+      ],
+      "pt": [
+        "Haemodorum planifolium"
+      ],
+      "ru": [
+        "Haemodorum planifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -385,12 +505,12 @@
     "family": "Haemodoraceae",
     "genus": "Lachnanthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/23ff9147cc8681deabad01e499eeac5fb7aaa486",
-    "description": null,
+    "description": "Lachnanthes is a genus of monocotyledonous plants in the bloodwort family containing only one species, i.e., Lachnanthes caroliana (caroliniana), commonly known as Carolina redroot or bloodroot. The plant is native to eastern North America, from southeastern Nova Scotia and Massachusetts in the north, south to Florida and Cuba, and west along the Gulf of Mexico to Louisiana. It has also been reported from an island in the western Caribbean off the coast of Honduras.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -467,11 +587,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lachnanthes caroliniana"
+      ],
       "en": [
-        "Carolina redroot"
+        "Carolina redroot",
+        "Lachnanthes caroliniana"
+      ],
+      "es": [
+        "Lachnanthes caroliniana"
+      ],
+      "fr": [
+        "Lachnanthes caroliniana"
+      ],
+      "it": [
+        "Lachnanthes caroliniana"
+      ],
+      "nl": [
+        "Lachnanthes caroliniana"
+      ],
+      "pl": [
+        "Lachnanthes caroliniana"
+      ],
+      "pt": [
+        "Lachnanthes caroliniana"
+      ],
+      "ru": [
+        "Lachnanthes caroliniana"
       ]
     },
     "tags": [],
@@ -483,7 +630,7 @@
     "family": "Haemodoraceae",
     "genus": "Wachendorfia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -565,9 +712,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Wachendorfia paniculata"
+      ],
+      "en": [
+        "Wachendorfia paniculata"
+      ],
+      "es": [
+        "Wachendorfia paniculata"
+      ],
+      "fr": [
+        "Wachendorfia paniculata"
+      ],
+      "it": [
+        "Wachendorfia paniculata"
+      ],
+      "nl": [
+        "Wachendorfia paniculata"
+      ],
+      "pl": [
+        "Wachendorfia paniculata"
+      ],
+      "pt": [
+        "Wachendorfia paniculata"
+      ],
+      "ru": [
+        "Wachendorfia paniculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -577,7 +754,7 @@
     "family": "Haemodoraceae",
     "genus": "Xiphidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -659,11 +836,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Xiphidium caeruleum"
+      ],
       "en": [
-        "Cola de paloma"
+        "Cola de paloma",
+        "Xiphidium caeruleum"
+      ],
+      "es": [
+        "Xiphidium caeruleum"
+      ],
+      "fr": [
+        "Xiphidium caeruleum"
+      ],
+      "it": [
+        "Xiphidium caeruleum"
+      ],
+      "nl": [
+        "Xiphidium caeruleum"
+      ],
+      "pl": [
+        "Xiphidium caeruleum"
+      ],
+      "pt": [
+        "Xiphidium caeruleum"
+      ],
+      "ru": [
+        "Xiphidium caeruleum"
       ]
     },
     "tags": [],

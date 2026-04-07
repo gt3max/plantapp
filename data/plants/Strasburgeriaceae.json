@@ -5,12 +5,12 @@
     "family": "Strasburgeriaceae",
     "genus": "Ixerba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fdbda435f0b1c2f3766fdc57cb2faa7405979ea7",
-    "description": null,
+    "description": "Ixerba brexioides, the sole species in the genus Ixerba, is a bushy tree with thick, narrow, serrated, dark green leaves and panicles of white flowers with a green heart. The fruit is a green capsule that splits open to reveal the black seeds partly covered with a fleshy scarlet aril against the white inside of the fruit. Ixerba is endemic to the northern half of the North Island of New Zealand. Common names used in New Zealand are tawari for the tree and whakou when in flower.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ixerba brexioides"
+      ],
+      "en": [
+        "Ixerba brexioides"
+      ],
+      "es": [
+        "Ixerba brexioides"
+      ],
+      "fr": [
+        "Ixerba brexioides"
+      ],
+      "it": [
+        "Ixerba brexioides"
+      ],
+      "ko": [
+        "익서바"
+      ],
+      "nl": [
+        "Ixerbaceae"
+      ],
+      "pl": [
+        "Ixerba brexioides"
+      ],
+      "pt": [
+        "Ixerba"
+      ],
+      "ru": [
+        "Ixerba"
+      ],
+      "zh": [
+        "西兰木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

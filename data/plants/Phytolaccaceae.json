@@ -5,12 +5,12 @@
     "family": "Phytolaccaceae",
     "genus": "Phytolacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c5069f18b6f593b2b6f514a61080a05606e31247",
-    "description": "Drooping cluster of green fruit ripens to glossy dark purple-black that attract birds and small mammals. Displays from June to November.",
+    "description": "Phytolacca acinosa, the Indian pokeweed, is a species of flowering plant in the family Phytolaccaceae. It is native to temperate eastern Asia; the Himalayas, most of China, Vietnam to Japan, and has been widely introduced to Europe. The species was originally described by William Roxburgh in 1814.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -26,12 +26,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -90,11 +90,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "ar": [
+        "صبغة توتية"
+      ],
+      "de": [
+        "Indische Kermesbeere"
+      ],
       "en": [
-        "Indian poke"
+        "Indian poke",
+        "Phytolacca acinosa"
+      ],
+      "es": [
+        "Phytolacca acinosa"
+      ],
+      "fr": [
+        "Phytolacca acinosa"
+      ],
+      "it": [
+        "Phytolacca acinosa"
+      ],
+      "ja": [
+        "砂仁"
+      ],
+      "ko": [
+        "자리공"
+      ],
+      "nl": [
+        "Oosterse karmozijnbes"
+      ],
+      "pl": [
+        "Phytolacca acinosa"
+      ],
+      "pt": [
+        "Phytolacca acinosa"
+      ],
+      "ru": [
+        "Лаконос ягодный"
+      ],
+      "zh": [
+        "商陸"
       ]
     },
     "tags": [],
@@ -106,7 +145,7 @@
     "family": "Phytolaccaceae",
     "genus": "Phytolacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -127,12 +166,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -154,8 +193,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Monarda didyma",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant, highest concentrations in root, seed. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Susceptible to mosaic virus.",
         "All parts of this plant are poisonous to humans and pets."
@@ -176,8 +215,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in root, seed",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -191,11 +230,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "ar": [
+        "صبغة أمريكية"
+      ],
+      "de": [
+        "Amerikanische Kermesbeere"
+      ],
       "en": [
+        "Phytolacca americana",
         "Pigeonberry"
+      ],
+      "es": [
+        "Phytolacca americana"
+      ],
+      "fr": [
+        "Phytolacca americana"
+      ],
+      "it": [
+        "Phytolacca americana"
+      ],
+      "ja": [
+        "ヨウシュヤマゴボウ"
+      ],
+      "ko": [
+        "미국자리공"
+      ],
+      "nl": [
+        "westerse karmozijnbes"
+      ],
+      "pl": [
+        "Szkarłatka amerykańska"
+      ],
+      "pt": [
+        "Phytolacca americana"
+      ],
+      "ru": [
+        "Лаконос американский"
+      ],
+      "tr": [
+        "Phytolacca americana"
+      ],
+      "zh": [
+        "垂序商陆"
       ]
     },
     "tags": [],
@@ -207,12 +288,12 @@
     "family": "Phytolaccaceae",
     "genus": "Phytolacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/945c3d1f38edf8d6250fd1633719aba0e937027b",
-    "description": "Drooping cluster of green fruit ripens to glossy dark purple-black that attract birds and small mammals. Displays from June to November.",
+    "description": "Phytolacca dioica, commonly known as ombú in Spanish and umbu in Portuguese, is a massive evergreen tree in the pokeweed family Phytolaccaceae, native to the Pampas of South America. As its specific epithet suggests, it is dioecious, with male and female flowers on separate plants. The flowers are pollinated by the butterfly Doxocopa laurentia. It has an umbrella-like canopy that spreads to a diameter of 12 to 15 m and can attain a height of 12 to 18 m.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -228,12 +309,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -292,11 +373,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "de": [
+        "Phytolacca dioica"
+      ],
       "en": [
+        "Phytolacca dioica",
         "Umbratree"
+      ],
+      "es": [
+        "Phytolacca dioica"
+      ],
+      "fr": [
+        "Phytolacca dioica"
+      ],
+      "it": [
+        "Phytolacca dioica"
+      ],
+      "ko": [
+        "옴부나무"
+      ],
+      "nl": [
+        "Phytolacca dioica"
+      ],
+      "pl": [
+        "Phytolacca dioica"
+      ],
+      "pt": [
+        "bela-sombra"
+      ],
+      "ru": [
+        "Лаконос двудомный"
       ]
     },
     "tags": [],
@@ -308,12 +419,12 @@
     "family": "Phytolaccaceae",
     "genus": "Phytolacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5096d6919a98c63e092372804956161366b648ea",
-    "description": "Drooping cluster of green fruit ripens to glossy dark purple-black that attract birds and small mammals. Displays from June to November.",
+    "description": "Phytolacca dodecandra, commonly known as endod, gopo berry, or African soapberry, is a trailing shrub or climber native to Tropical Africa, Southern Africa, and Madagascar. It is dioecious, with male and female flowers on separate plants. Morphologically, it is highly variable.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -393,11 +504,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صبغة ذات اثنتي عشرة سداة"
+      ],
+      "de": [
+        "Phytolacca dodecandra"
+      ],
       "en": [
+        "Phytolacca dodecandra",
         "Pokeweed"
+      ],
+      "es": [
+        "Phytolacca dodecandra"
+      ],
+      "fr": [
+        "Phytolacca dodecandra"
+      ],
+      "it": [
+        "Phytolacca dodecandra"
+      ],
+      "nl": [
+        "Phytolacca dodecandra"
+      ],
+      "pl": [
+        "Phytolacca dodecandra"
+      ],
+      "pt": [
+        "Phytolacca dodecandra"
+      ],
+      "ru": [
+        "Phytolacca dodecandra"
       ]
     },
     "tags": [],
@@ -409,12 +550,12 @@
     "family": "Phytolaccaceae",
     "genus": "Phytolacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/888806661621c347479268dd39c63f517cd53dee",
-    "description": "Drooping cluster of green fruit ripens to glossy dark purple-black that attract birds and small mammals. Displays from June to November.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -457,8 +598,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Monarda didyma",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic (unknown strength). Parts: Whole plant, highest concentrations in root, seed. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Susceptible to mosaic virus.",
         "All parts of this plant are poisonous to humans and pets."
@@ -479,8 +620,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in root, seed",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -494,11 +635,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phytolacca esculenta"
+      ],
       "en": [
-        "Indian pokeweed"
+        "Indian pokeweed",
+        "Phytolacca esculenta"
+      ],
+      "es": [
+        "Phytolacca esculenta"
+      ],
+      "fr": [
+        "Phytolacca esculenta"
+      ],
+      "it": [
+        "Phytolacca esculenta"
+      ],
+      "nl": [
+        "Phytolacca esculenta"
+      ],
+      "pl": [
+        "Phytolacca esculenta"
+      ],
+      "pt": [
+        "Phytolacca esculenta"
+      ],
+      "ru": [
+        "Phytolacca esculenta"
       ]
     },
     "tags": [],
@@ -510,12 +678,12 @@
     "family": "Phytolaccaceae",
     "genus": "Phytolacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/307866174f03c719e40bd3539bb54e7a1ba6cb93",
-    "description": "Drooping cluster of green fruit ripens to glossy dark purple-black that attract birds and small mammals. Displays from June to November.",
+    "description": "Phytolacca icosandra, sometimes known as button pokeweed or tropical pokeweed, is a species of flowering plant found in the neotropics and introduced into the warmer areas of the western USA.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -531,12 +699,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -595,11 +763,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "ar": [
+        "صبغة علمية الأسدية"
+      ],
+      "de": [
+        "Phytolacca icosandra"
+      ],
       "en": [
+        "Phytolacca icosandra",
         "Red inkplant"
+      ],
+      "es": [
+        "Phytolacca icosandra"
+      ],
+      "fr": [
+        "Phytolacca icosandra"
+      ],
+      "it": [
+        "Phytolacca icosandra"
+      ],
+      "nl": [
+        "Phytolacca icosandra"
+      ],
+      "pl": [
+        "Phytolacca icosandra"
+      ],
+      "pt": [
+        "Phytolacca icosandra"
+      ],
+      "ru": [
+        "Phytolacca icosandra"
+      ],
+      "zh": [
+        "二十蕊商陆"
       ]
     },
     "tags": [],
@@ -611,12 +812,12 @@
     "family": "Phytolaccaceae",
     "genus": "Phytolacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2c920e6f3d31be000e316e24d4329f22cdc5b98c",
-    "description": "Drooping cluster of green fruit ripens to glossy dark purple-black that attract birds and small mammals. Displays from June to November.",
+    "description": "Phytolacca octandra, also known as inkweed or red inkplant, is a herbaceous perennial plant in the pokeweed family Phytolaccaceae, originating from the Neotropical realm of the Americas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -632,12 +833,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -696,11 +897,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "ar": [
+        "صبغة عشارية الأسدية"
+      ],
+      "de": [
+        "Phytolacca octandra"
+      ],
       "en": [
+        "Phytolacca octandra",
         "Red inkplant"
+      ],
+      "es": [
+        "Phytolacca octandra"
+      ],
+      "fr": [
+        "Phytolacca octandra"
+      ],
+      "it": [
+        "Phytolacca octandra"
+      ],
+      "nl": [
+        "Phytolacca octandra"
+      ],
+      "pl": [
+        "Phytolacca octandra"
+      ],
+      "pt": [
+        "Phytolacca octandra"
+      ],
+      "ru": [
+        "Phytolacca octandra"
       ]
     },
     "tags": [],
@@ -712,7 +943,7 @@
     "family": "Phytolaccaceae",
     "genus": "Phytolacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -733,12 +964,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -797,11 +1028,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "ar": [
+        "صبغة نهرية"
+      ],
+      "de": [
+        "Phytolacca rivinoides"
+      ],
       "en": [
+        "Phytolacca rivinoides",
         "Venezuelan pokeweed"
+      ],
+      "es": [
+        "Phytolacca rivinoides"
+      ],
+      "fr": [
+        "Phytolacca rivinoides"
+      ],
+      "it": [
+        "Phytolacca rivinoides"
+      ],
+      "nl": [
+        "Phytolacca rivinoides"
+      ],
+      "pl": [
+        "Phytolacca rivinoides"
+      ],
+      "pt": [
+        "Phytolacca rivinoides"
+      ],
+      "ru": [
+        "Phytolacca rivinoides"
       ]
     },
     "tags": [],
@@ -813,12 +1074,12 @@
     "family": "Phytolaccaceae",
     "genus": "Phytolacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/phytollaca_rugosa_1_fullsize.jpg",
-    "description": "Drooping cluster of green fruit ripens to glossy dark purple-black that attract birds and small mammals. Displays from June to November.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -898,9 +1159,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phytolacca rugosa"
+      ],
+      "en": [
+        "Phytolacca rugosa"
+      ],
+      "es": [
+        "Phytolacca rugosa"
+      ],
+      "fr": [
+        "Phytolacca rugosa"
+      ],
+      "it": [
+        "Phytolacca rugosa"
+      ],
+      "nl": [
+        "Phytolacca rugosa"
+      ],
+      "pl": [
+        "Phytolacca rugosa"
+      ],
+      "pt": [
+        "Phytolacca rugosa"
+      ],
+      "ru": [
+        "Phytolacca rugosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -910,7 +1201,7 @@
     "family": "Phytolaccaceae",
     "genus": "Phytolacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -992,9 +1283,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phytolacca thyrsiflora"
+      ],
+      "en": [
+        "Phytolacca thyrsiflora"
+      ],
+      "es": [
+        "Phytolacca thyrsiflora"
+      ],
+      "fr": [
+        "Phytolacca thyrsiflora"
+      ],
+      "it": [
+        "Phytolacca thyrsiflora"
+      ],
+      "nl": [
+        "Phytolacca thyrsiflora"
+      ],
+      "pl": [
+        "Phytolacca thyrsiflora"
+      ],
+      "pt": [
+        "Phytolacca thyrsiflora"
+      ],
+      "ru": [
+        "Phytolacca thyrsiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

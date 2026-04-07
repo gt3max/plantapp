@@ -5,12 +5,12 @@
     "family": "Aphloiaceae",
     "genus": "Aphloia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4705e993e657b3d36debee6e353083ed830e5098",
-    "description": null,
+    "description": "Aphloia is a genus of flowering plants that contains a single species, Aphloia theiformis, the sole species of the monogeneric family Aphloiaceae. It is a species of evergreen shrubs or small trees occurring in East Africa, Madagascar, the Mascarene Islands and the Seychelles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aphloia theiformis"
+      ],
       "en": [
-        "Albino-berry"
+        "Albino-berry",
+        "Aphloia theiformis"
+      ],
+      "es": [
+        "Aphloiaceae"
+      ],
+      "fr": [
+        "Aphloia theiformis"
+      ],
+      "it": [
+        "Aphloia theiformis"
+      ],
+      "ko": [
+        "아플로이아"
+      ],
+      "nl": [
+        "Aphloia theiformis"
+      ],
+      "pl": [
+        "Aphloia theiformis"
+      ],
+      "pt": [
+        "Aphloia theiformis"
+      ],
+      "ru": [
+        "Афлойя"
+      ],
+      "zh": [
+        "茶红木"
       ]
     },
     "tags": [],

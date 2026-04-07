@@ -5,12 +5,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nuphar",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b7a6af915ebdc796f426eb352e782703ab7b37c1",
-    "description": "Ridge capsule 1 to 1.5 inches long.",
+    "description": "Nuphar advena is a species of Nuphar native throughout the eastern United States and in some parts of Canada, as well as Mexico and Cuba. It is locally naturalized in Britain.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nuphar_advena",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "نينوفر أجنبي"
+      ],
+      "de": [
+        "Amerikanische Teichrose"
+      ],
       "en": [
+        "Nuphar advena",
         "Spatter-dock"
+      ],
+      "es": [
+        "Nuphar advena"
+      ],
+      "fr": [
+        "Nuphar advena"
+      ],
+      "it": [
+        "Nuphar advena"
+      ],
+      "nl": [
+        "Nuphar advena"
+      ],
+      "pl": [
+        "Nuphar advena"
+      ],
+      "pt": [
+        "Nuphar advena"
+      ],
+      "ru": [
+        "Nuphar advena"
       ]
     },
     "tags": [],
@@ -103,7 +133,7 @@
     "family": "Nymphaeaceae",
     "genus": "Nuphar",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +149,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nuphar_lutea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -150,9 +180,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Canna",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Whole plant, highest concentrations in root. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -170,8 +200,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Spreading",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in root",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -185,11 +215,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "نينوفر أصفر"
+      ],
+      "de": [
+        "Gelbe Teichrose"
+      ],
       "en": [
+        "Nuphar lutea",
         "Yellow-water-lily"
+      ],
+      "es": [
+        "Nuphar lutea"
+      ],
+      "fr": [
+        "Nénuphar jaune"
+      ],
+      "it": [
+        "Nuphar lutea"
+      ],
+      "ja": [
+        "セイヨウコウホネ"
+      ],
+      "nl": [
+        "gele plomp"
+      ],
+      "pl": [
+        "grążel żółty"
+      ],
+      "pt": [
+        "Nuphar lutea"
+      ],
+      "ru": [
+        "кубышка жёлтая"
+      ],
+      "zh": [
+        "欧亚萍蓬草"
       ]
     },
     "tags": [],
@@ -201,12 +267,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nuphar",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/13eca1932e9c0bbe66acb8953ed7e6edd1dc23f3",
-    "description": "Ridge capsule 1 to 1.5 inches long.",
+    "description": "Nuphar polysepala, also known as the great yellow pond-lily, wokas, or wocus, is a perennial, rhizomatous, aquatic herb in the genus Nuphar. It has floating green leaves and yellow flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -217,17 +283,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nuphar_polysepala",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -283,11 +349,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Indianer-Teichrose"
+      ],
       "en": [
+        "Nuphar polysepala",
         "Rocky mountain cowlily"
+      ],
+      "es": [
+        "Nuphar polysepala"
+      ],
+      "fr": [
+        "Nuphar polysepala"
+      ],
+      "it": [
+        "Nuphar polysepala"
+      ],
+      "nl": [
+        "Nuphar polysepala"
+      ],
+      "pl": [
+        "Nuphar polysepala"
+      ],
+      "pt": [
+        "Nuphar polysepala"
+      ],
+      "ru": [
+        "Nuphar polysepala"
       ]
     },
     "tags": [],
@@ -299,12 +392,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nuphar",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/722f3fcdab58676fec71ddfa04d97bf5e3335f3b",
-    "description": "Ridge capsule 1 to 1.5 inches long.",
+    "description": "Nuphar pumila, the least water-lily, is a perennial, rhizomatous, aquatic herb in the family Nymphaeaceae native to subarctic and temperate Eurasia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -315,17 +408,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nuphar_pumila",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -346,9 +439,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Canna",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: weak toxic. Parts: Whole plant, highest concentrations in root. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -366,8 +459,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Spreading",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in root",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -381,11 +474,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Kleine Teichrose"
+      ],
       "en": [
-        "Least-water-lily"
+        "Least-water-lily",
+        "Nuphar pumila"
+      ],
+      "es": [
+        "Nuphar pumila"
+      ],
+      "fr": [
+        "Nuphar pumila"
+      ],
+      "it": [
+        "Nuphar pumila"
+      ],
+      "ja": [
+        "ネムロコウホネ"
+      ],
+      "nl": [
+        "Nuphar pumila"
+      ],
+      "pl": [
+        "grążel drobny"
+      ],
+      "pt": [
+        "Nuphar pumila"
+      ],
+      "ru": [
+        "Кубышка малая"
+      ],
+      "zh": [
+        "萍蓬草"
       ]
     },
     "tags": [],
@@ -397,7 +523,7 @@
     "family": "Nymphaeaceae",
     "genus": "Nuphar",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -413,17 +539,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nuphar_variegata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -479,9 +605,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stierkopf-Teichrose"
+      ],
+      "en": [
+        "Nuphar variegata"
+      ],
+      "es": [
+        "Nuphar variegata"
+      ],
+      "fr": [
+        "Nuphar variegata"
+      ],
+      "it": [
+        "Nuphar variegata"
+      ],
+      "nl": [
+        "Nuphar variegata"
+      ],
+      "pl": [
+        "Nuphar variegata"
+      ],
+      "pt": [
+        "Nuphar variegata"
+      ],
+      "ru": [
+        "Nuphar variegata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -491,7 +647,7 @@
     "family": "Nymphaeaceae",
     "genus": "Nymphaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -507,17 +663,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphaea_alba",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -538,9 +694,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Cyperus papyrus",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Flower, rhizome (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -558,8 +714,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Spreading",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Flower, rhizome (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -573,11 +729,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "نيلوفر أبيض"
+      ],
+      "de": [
+        "Weiße Seerose"
+      ],
       "en": [
+        "Nymphaea alba",
         "White water-lily"
+      ],
+      "es": [
+        "Nymphaea alba"
+      ],
+      "fr": [
+        "Nénuphar blanc"
+      ],
+      "it": [
+        "Nymphaea alba"
+      ],
+      "ja": [
+        "セイヨウスイレン"
+      ],
+      "nl": [
+        "Witte waterlelie"
+      ],
+      "pl": [
+        "grzybienie białe"
+      ],
+      "pt": [
+        "Nymphaea alba"
+      ],
+      "ru": [
+        "кувшинка белая"
+      ],
+      "tr": [
+        "Beyaz nilüfer"
+      ],
+      "zh": [
+        "白睡莲"
       ]
     },
     "tags": [],
@@ -589,12 +784,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nymphaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f755677e25d3a08d68d5dca24aff70ab3e81a5ff",
-    "description": "The capsule starts out green and dries to brown when the three chambers split open to release seeds",
+    "description": "Nymphaea ampla, also known as the dotleaf waterlily, is a species of flowering plant in the family Nymphaeaceae. It is native to Texas, Florida, Mexico, Central America, the Caribbean, and northern and western South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -605,9 +800,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphaea_ampla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -671,11 +866,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Nymphaea ampla"
+      ],
       "en": [
-        "Dotleaf waterlily"
+        "Dotleaf waterlily",
+        "Nymphaea ampla"
+      ],
+      "es": [
+        "Nymphaea ampla"
+      ],
+      "fr": [
+        "Nymphaea ampla"
+      ],
+      "it": [
+        "Nymphaea ampla"
+      ],
+      "nl": [
+        "Nymphaea ampla"
+      ],
+      "pl": [
+        "Nymphaea ampla"
+      ],
+      "pt": [
+        "Nymphaea ampla"
+      ],
+      "ru": [
+        "Nymphaea ampla"
+      ],
+      "zh": [
+        "美洲白睡莲"
       ]
     },
     "tags": [],
@@ -687,12 +912,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nymphaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/16deff2a1b2d563a307afbe12284f4623892725f",
-    "description": "The capsule starts out green and dries to brown when the three chambers split open to release seeds",
+    "description": "Nymphaea candida is a species of perennial, aquatic, rhizomatous herb in the family Nymphaeaceae native to the region spanning from Europe to Siberia and Western Himalaya.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -703,17 +928,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphaea_candida",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -769,11 +994,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Kleine Seerose"
+      ],
       "en": [
-        "Atlantic waterlily"
+        "Atlantic waterlily",
+        "Nymphaea candida"
+      ],
+      "es": [
+        "Nymphaea candida"
+      ],
+      "fr": [
+        "Nymphaea candida"
+      ],
+      "it": [
+        "Nymphaea candida"
+      ],
+      "nl": [
+        "Nymphaea candida"
+      ],
+      "pl": [
+        "Grzybienie północne"
+      ],
+      "pt": [
+        "Nymphaea candida"
+      ],
+      "ru": [
+        "Кувшинка снежно-белая"
+      ],
+      "zh": [
+        "雪白睡莲"
       ]
     },
     "tags": [],
@@ -785,12 +1040,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nymphaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5ef8769795b0dfa82554d5778cfee8f9c8779110",
-    "description": "The capsule starts out green and dries to brown when the three chambers split open to release seeds",
+    "description": "Nymphaea lotus, the white Egyptian lotus, tiger lotus, white lotus, or Egyptian water-lily, is a flowering plant of the family Nymphaeaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -801,9 +1056,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphaea_lotus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -867,11 +1122,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نيلوفر اللوتس"
+      ],
+      "de": [
+        "Tigerlotus"
+      ],
       "en": [
-        "Egyptian lotus"
+        "Egyptian lotus",
+        "Nymphaea lotus"
+      ],
+      "es": [
+        "Nymphaea lotus"
+      ],
+      "fr": [
+        "Nymphaea lotus"
+      ],
+      "it": [
+        "Nymphaea lotus"
+      ],
+      "ja": [
+        "ヨザキスイレン"
+      ],
+      "nl": [
+        "Nymphaea lotus"
+      ],
+      "pl": [
+        "grzybienie egipskie"
+      ],
+      "pt": [
+        "Nymphaea lotus"
+      ],
+      "ru": [
+        "Nymphaea lotus"
+      ],
+      "zh": [
+        "齿叶睡莲"
       ]
     },
     "tags": [],
@@ -883,12 +1174,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nymphaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Nymphaea maculata is a species of waterlily native to tropical Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -899,9 +1190,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphaea_maculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -965,9 +1256,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Nymphaea maculata"
+      ],
+      "en": [
+        "Nymphaea maculata"
+      ],
+      "es": [
+        "Nymphaea maculata"
+      ],
+      "fr": [
+        "Nymphaea maculata"
+      ],
+      "it": [
+        "Nymphaea maculata"
+      ],
+      "nl": [
+        "Nymphaea maculata"
+      ],
+      "pl": [
+        "Nymphaea maculata"
+      ],
+      "pt": [
+        "Nymphaea maculata"
+      ],
+      "ru": [
+        "Nymphaea maculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -977,12 +1298,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nymphaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/36e44dc4f75f8bf90d8286af85200504ee6d1165",
-    "description": "The capsule starts out green and dries to brown when the three chambers split open to release seeds",
+    "description": "Nymphaea nouchali, often known by its synonym Nymphaea stellata, or by common names blue lotus, star lotus, red water lily, dwarf aquarium lily, blue water lily, blue star water lily or manel flower, is a water lily of genus Nymphaea. It is native to southern and eastern parts of Asia, and is the national flower of Bangladesh and Sri Lanka.This species is usually considered to include the blue Egyptian lotus N. nouchali var. caerulea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -993,9 +1314,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphaea_nouchali",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1059,11 +1380,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نيلوفر نوشالي"
+      ],
+      "de": [
+        "Stern-Seerose"
+      ],
       "en": [
+        "Nymphaea nouchali",
         "Red and blue water-lily"
+      ],
+      "es": [
+        "Nymphaea stellata"
+      ],
+      "fr": [
+        "Nymphaea nouchali"
+      ],
+      "hi": [
+        "नीलकमल"
+      ],
+      "it": [
+        "Nymphaea nouchali"
+      ],
+      "nl": [
+        "Nymphaea nouchali"
+      ],
+      "pl": [
+        "Nymphaea nouchali"
+      ],
+      "pt": [
+        "Nymphaea nouchali"
+      ],
+      "ru": [
+        "Звёздный лотос"
+      ],
+      "zh": [
+        "延药睡莲"
       ]
     },
     "tags": [],
@@ -1075,12 +1432,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nymphaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/354cc80bef8038c1745ad915559a4c577213b023",
-    "description": "The capsule starts out green and dries to brown when the three chambers split open to release seeds",
+    "description": "Nymphaea odorata, also known as the American white waterlily, fragrant water-lily, beaver root, fragrant white water lily, white water lily, sweet-scented white water lily, and sweet-scented water lily, is an aquatic plant belonging to the genus Nymphaea. It can commonly be found in shallow lakes, ponds, and permanent slow moving waters throughout North America where it ranges from Central America to northern Canada. It is also reported from Brazil and Guyana.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1091,17 +1448,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphaea_odorata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1157,11 +1514,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "الزنبق الأمريكي الأبيض"
+      ],
+      "de": [
+        "Wohlriechende Seerose"
+      ],
       "en": [
-        "Fragrant water-lily"
+        "Fragrant water-lily",
+        "Nymphaea odorata"
+      ],
+      "es": [
+        "Nymphaea odorata"
+      ],
+      "fr": [
+        "Nymphée odorante"
+      ],
+      "it": [
+        "Nymphaea odorata"
+      ],
+      "nl": [
+        "Nymphaea odorata"
+      ],
+      "pl": [
+        "Nymphaea odorata"
+      ],
+      "pt": [
+        "Nymphaea odorata"
+      ],
+      "ru": [
+        "Кувшинка душистая"
+      ],
+      "zh": [
+        "香睡蓮"
       ]
     },
     "tags": [],
@@ -1173,12 +1563,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nymphaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/32aa8bbcdfd0e331cfc109b18f33259e94c698e5",
-    "description": null,
+    "description": "Nymphaea tetragona is an aquatic perennial, species of flowering plant commonly called pygmy waterlily and small white water lily, belonging to the family Nymphaeaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1189,17 +1579,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphaea_tetragona",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1255,11 +1645,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Zwerg-Seerose"
+      ],
       "en": [
+        "Nymphaea tetragona",
         "Pygmy water-lily"
+      ],
+      "es": [
+        "Nymphaea tetragona"
+      ],
+      "fr": [
+        "Nymphaea tetragona"
+      ],
+      "it": [
+        "Nymphaea tetragona"
+      ],
+      "ja": [
+        "ヒツジグサ"
+      ],
+      "ko": [
+        "수련"
+      ],
+      "nl": [
+        "Nymphaea tetragona"
+      ],
+      "pl": [
+        "Grzybienie czterokątne"
+      ],
+      "pt": [
+        "Nymphaea tetragona"
+      ],
+      "ru": [
+        "Кувшинка четырёхгранная"
+      ],
+      "zh": [
+        "睡蓮"
       ]
     },
     "tags": [],
@@ -1271,12 +1697,12 @@
     "family": "Nymphaeaceae",
     "genus": "Nymphaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/423eba8f66f4b06d95880e0b8a9d43f5.jpg",
-    "description": "The capsule starts out green and dries to brown when the three chambers split open to release seeds",
+    "description": "Nymphaea violacea, also known as blue lily, is a species of flowering plant in the family Nymphaeaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1287,9 +1713,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "nymphaea_violacea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1353,9 +1779,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Nymphaea violacea"
+      ],
+      "en": [
+        "Nymphaea violacea"
+      ],
+      "es": [
+        "Nymphaea violacea"
+      ],
+      "fr": [
+        "Nymphaea violacea"
+      ],
+      "it": [
+        "Nymphaea violacea"
+      ],
+      "nl": [
+        "Nymphaea violacea"
+      ],
+      "pl": [
+        "Nymphaea violacea"
+      ],
+      "pt": [
+        "Nymphaea violacea"
+      ],
+      "ru": [
+        "Nymphaea violacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

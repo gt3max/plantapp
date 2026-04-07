@@ -5,12 +5,12 @@
     "family": "Marattiaceae",
     "genus": "Angiopteris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8b8de06aeb961111c52286e50764e57b53e1192f",
-    "description": null,
+    "description": "Angiopteris evecta, commonly known as the king fern, giant fern, elephant fern, oriental vessel fern, Madagascar tree fern, or mule's foot fern, is a very large rainforest fern in the family Marattiaceae native to most parts of Southeast Asia and Oceania. It has a history dating back about 300 million years, and is believed to have the longest fronds of any fern in the world.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Angiopteris evecta"
+      ],
       "en": [
+        "Angiopteris evecta",
         "King fern"
+      ],
+      "es": [
+        "Angiopteris evecta"
+      ],
+      "fr": [
+        "Angiopteris evecta"
+      ],
+      "it": [
+        "Angiopteris evecta"
+      ],
+      "ko": [
+        "대왕고사리"
+      ],
+      "nl": [
+        "Angiopteris evecta"
+      ],
+      "pl": [
+        "Angiopteris evecta"
+      ],
+      "pt": [
+        "Angiopteris evecta"
+      ],
+      "ru": [
+        "Angiopteris evecta"
+      ],
+      "zh": [
+        "蓮座蕨"
       ]
     },
     "tags": [],
@@ -103,7 +136,7 @@
     "family": "Marattiaceae",
     "genus": "Danaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,9 +218,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Danaea nodosa"
+      ],
+      "en": [
+        "Danaea nodosa"
+      ],
+      "es": [
+        "Danaea nodosa"
+      ],
+      "fr": [
+        "Danaea nodosa"
+      ],
+      "it": [
+        "Danaea nodosa"
+      ],
+      "nl": [
+        "Danaea nodosa"
+      ],
+      "pl": [
+        "Danaea nodosa"
+      ],
+      "pt": [
+        "Danaea nodosa"
+      ],
+      "ru": [
+        "Danaea nodosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,7 +260,7 @@
     "family": "Marattiaceae",
     "genus": "Ptisana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -279,9 +342,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ptisana fraxinea"
+      ],
+      "en": [
+        "Ptisana fraxinea"
+      ],
+      "es": [
+        "Ptisana fraxinea"
+      ],
+      "fr": [
+        "Ptisana fraxinea"
+      ],
+      "it": [
+        "Ptisana fraxinea"
+      ],
+      "nl": [
+        "Ptisana fraxinea"
+      ],
+      "pl": [
+        "Ptisana fraxinea"
+      ],
+      "pt": [
+        "Ptisana fraxinea"
+      ],
+      "ru": [
+        "Ptisana fraxinea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

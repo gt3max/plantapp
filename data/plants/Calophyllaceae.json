@@ -5,7 +5,7 @@
     "family": "Calophyllaceae",
     "genus": "Caraipa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Caraipa densifolia"
+      ],
+      "en": [
+        "Caraipa densifolia"
+      ],
+      "es": [
+        "Caraipa densifolia"
+      ],
+      "fr": [
+        "Caraipa densifolia"
+      ],
+      "it": [
+        "Caraipa densifolia"
+      ],
+      "nl": [
+        "Caraipa densifolia"
+      ],
+      "pl": [
+        "Caraipa densifolia"
+      ],
+      "pt": [
+        "Caraipa densifolia"
+      ],
+      "ru": [
+        "Caraipa densifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Calophyllaceae",
     "genus": "Kielmeyera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/kielmeyera_coriacea_fullsize.jpg",
-    "description": null,
+    "description": "Kielmeyera coriacea is a medicinal plant native to Cerrado and Pantanal vegetation in Brazil. It is also used as a honey plant and is one of the most characteristic and peculiar species of the Brazilian Cerrado. The species is notable for its conspicuous cork bark and has been suggested as a potential commercial substitute for traditional cork.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Kielmeyera coriacea"
+      ],
+      "en": [
+        "Kielmeyera coriacea"
+      ],
+      "es": [
+        "Kielmeyera coriacea"
+      ],
+      "fr": [
+        "Kielmeyera coriacea"
+      ],
+      "it": [
+        "Kielmeyera coriacea"
+      ],
+      "nl": [
+        "Kielmeyera coriacea"
+      ],
+      "pl": [
+        "Kielmeyera coriacea"
+      ],
+      "pt": [
+        "Kielmeyera coriacea"
+      ],
+      "ru": [
+        "Kielmeyera coriacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +253,12 @@
     "family": "Calophyllaceae",
     "genus": "Kielmeyera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/fcce592577a3021c12c0d30dda89d523.jpg",
-    "description": null,
+    "description": "Kielmeyera rubriflora is a species of Kielmeyera from Bolivia to Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Kielmeyera rubriflora"
+      ],
+      "en": [
+        "Kielmeyera rubriflora"
+      ],
+      "es": [
+        "Kielmeyera rubriflora"
+      ],
+      "fr": [
+        "Kielmeyera rubriflora"
+      ],
+      "it": [
+        "Kielmeyera rubriflora"
+      ],
+      "nl": [
+        "Kielmeyera rubriflora"
+      ],
+      "pl": [
+        "Kielmeyera rubriflora"
+      ],
+      "pt": [
+        "Kielmeyera rubriflora"
+      ],
+      "ru": [
+        "Kielmeyera rubriflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

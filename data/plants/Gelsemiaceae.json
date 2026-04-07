@@ -5,12 +5,12 @@
     "family": "Gelsemiaceae",
     "genus": "Gelsemium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/11e1408e09bf721616f60039209b1e752afdb5ad",
-    "description": "Thin, flattened capsule fruit.  A dry, green to brown, laterally compressed or flattened capsule, dehiscent, persistent, up to 1 inch long.  Splits open to appear as four lobes. Displays from September to November.",
+    "description": "Gelsemium sempervirens is a twining vine in the family Gelsemiaceae, native to subtropical and tropical America: Honduras, Guatemala, Belize, Mexico, and southeastern and south-central United States. It has a number of common names including yellow jessamine or confederate jessamine or jasmine, Carolina jasmine or jessamine, evening trumpetflower, gelsemium and woodbine.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -53,8 +53,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: subtropical",
       "tips": "Similar plants: Ilex opaca",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: very strong toxic. Parts: Rhizome, root. (Source: TPPT/Agroscope)",
       "common_problems": [
         "No significant pests or diseases.",
         "Toxic pollen from this plant is detrimental to honeybee colonies.",
@@ -78,8 +78,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Rhizome, root",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -93,11 +93,34 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أرطاة صفراء",
+        "الياسمين الأصفر"
+      ],
+      "de": [
+        "Carolina-Jasmin"
+      ],
       "en": [
-        "Carolina-jasmine"
+        "Carolina-jasmine",
+        "evening trumpetflower",
+        "false jessamine",
+        "yellow jessamine"
+      ],
+      "ja": [
+        "カロライナジャスミン"
+      ],
+      "ru": [
+        "Гельземий вечнозелёный"
+      ],
+      "zh": [
+        "北美钩吻",
+        "常绿钩吻藤",
+        "金钩吻"
       ]
     },
     "tags": [],
@@ -109,7 +132,7 @@
     "family": "Gelsemiaceae",
     "genus": "Mostuea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -191,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Mostuea brunonis"
+      ],
+      "en": [
+        "Mostuea brunonis"
+      ],
+      "es": [
+        "Mostuea brunonis"
+      ],
+      "fr": [
+        "Mostuea brunonis"
+      ],
+      "it": [
+        "Mostuea brunonis"
+      ],
+      "nl": [
+        "Mostuea brunonis"
+      ],
+      "pl": [
+        "Mostuea brunonis"
+      ],
+      "pt": [
+        "Mostuea brunonis"
+      ],
+      "ru": [
+        "Mostuea brunonis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

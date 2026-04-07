@@ -8,9 +8,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_2153_2_fullsize.jpg",
-    "description": null,
+    "description": "Acoelorraphe is a genus of palms with a single species Acoelorraphe wrightii, known as the Paurotis palm, Everglades palm or Madeira palm in English and cubas, tique, and papta in Spanish. The genus name is sometimes spelt as Acoelorrhaphe or Acoelorhaphe, which are treated as orthographical variants by the International Plant Names Index.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Acoelorrhaphe wrightii",
+        "paurotis"
+      ],
+      "en": [
+        "Acoelorraphe",
+        "Everglades palm",
+        "Paurotis palm",
+        "Saw cabbage palm",
+        "Silver saw palm"
+      ],
+      "es": [
+        "Acanthosabal",
+        "Acanthosabal caespitosa",
+        "Acoelorraphe arborescens",
+        "Acoelorrhaphe pinetorum",
+        "Brahea psilocalyx",
+        "Copernicia wrightii",
+        "Paurotis",
+        "Paurotis androsana",
+        "Paurotis arborescens",
+        "Paurotis psilocalyx",
+        "Paurotis schippii",
+        "Paurotis wrightii",
+        "Serenoa arborescens"
+      ],
+      "fr": [
+        "Acoelorrhaphe",
+        "Acoelorrhaphe wrightii",
+        "Paurotis",
+        "palmier des Everglades"
+      ],
+      "ja": [
+        "ライトヤシ"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -102,7 +140,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_5101_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -181,9 +219,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aiphanes erinacea"
+      ],
+      "en": [
+        "Aiphanes erinacea"
+      ],
+      "es": [
+        "Aiphanes erinacea"
+      ],
+      "fr": [
+        "Aiphanes erinacea"
+      ],
+      "it": [
+        "Aiphanes erinacea"
+      ],
+      "nl": [
+        "Aiphanes erinacea"
+      ],
+      "pl": [
+        "Aiphanes erinacea"
+      ],
+      "pt": [
+        "Aiphanes erinacea"
+      ],
+      "ru": [
+        "Aiphanes erinacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -196,9 +264,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_8018_4_fullsize.jpg",
-    "description": null,
+    "description": "Ammandra is a monotypic genus of flowering plants in the palm family found in Colombia and Ecuador, where it is endangered. The sole species is Ammandra decasperma, although another species name has been proposed. It is a pinnate-leaved, dioecious palm whose seeds and petioles are used in button and basket making, respectively. It is commonly called ivory palm or cabecita.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,17 +343,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
         "نخل رجل الرمل"
       ],
+      "de": [
+        "Ammandra decasperma"
+      ],
+      "en": [
+        "Ammandra decasperma"
+      ],
       "es": [
+        "Ammandra decasperma",
         "Tagua"
+      ],
+      "fr": [
+        "Ammandra decasperma"
+      ],
+      "it": [
+        "Ammandra decasperma"
+      ],
+      "nl": [
+        "Ammandra decasperma"
+      ],
+      "pl": [
+        "Ammandra decasperma"
       ],
       "pt": [
         "Ammandra"
+      ],
+      "ru": [
+        "Ammandra decasperma"
       ],
       "zh": [
         "砂蕊象牙椰属"
@@ -303,9 +395,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Aphandra_natalia_1_fullsize.jpg",
-    "description": null,
+    "description": "Aphandra is a monotypic genus of flowering plants in the palm family native to the Amazon rainforest vegetation in South America. Its only species is Aphandra natalia, sometimes called mastodon palm or fiber palm, and is used by indigenous peoples in the construction of brooms and other products. This plant is commercially exploited for its edible fruits, and for its leaf sheath and petiole fibers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -382,9 +474,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aphandra natalia"
+      ],
+      "en": [
+        "Aphandra natalia"
+      ],
+      "es": [
+        "Aphandra"
+      ],
+      "fr": [
+        "Aphandra"
+      ],
+      "it": [
+        "Aphandra natalia"
+      ],
+      "nl": [
+        "Aphandra"
+      ],
+      "pl": [
+        "Aphandra natalia"
+      ],
+      "pt": [
+        "Aphandra"
+      ],
+      "ru": [
+        "Aphandra natalia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -397,9 +519,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/d10ce7a726f5a336049821027842af19e3e00838",
-    "description": null,
+    "description": "Archontophoenix cunninghamiana – commonly known as Bangalow palm, king palm, Illawarra palm or piccabeen palm – is a tree in the palm family Arecaceae, which is endemic to the east coast of New South Wales and Queensland, Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -476,11 +598,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Archontophoenix cunninghamiana"
+      ],
       "en": [
+        "Archontophoenix cunninghamiana",
         "Picabeen palm"
+      ],
+      "es": [
+        "Archontophoenix cunninghamiana"
+      ],
+      "fr": [
+        "Archontophoenix cunninghamiana"
+      ],
+      "it": [
+        "Archontophoenix cunninghamiana"
+      ],
+      "nl": [
+        "Archontophoenix cunninghamiana"
+      ],
+      "pl": [
+        "Archontophoenix cunninghamiana"
+      ],
+      "pt": [
+        "Archontophoenix cunninghamiana"
+      ],
+      "ru": [
+        "Archontophoenix cunninghamiana"
       ]
     },
     "tags": [],
@@ -495,9 +644,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/5a779cb7e6d04a73d2afe3fb89e1099e4b9f18cb",
-    "description": null,
+    "description": "Arenga engleri, or the Formosa palm, Taiwan sugar palm, dwarf sugar palm, or Taiwan arenga palm, is a species of flowering plant in the family Arecaceae. The plant rarely grows more than 10 ft. tall, with a stem diameter of 6in. and a spread of 16 ft. The palm is native to Taiwan as well as Japan's Ryukyu Islands. The fruit of the palm is known to cause a severe allergic reaction.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -574,11 +723,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Arenga engleri"
+      ],
       "en": [
+        "Arenga engleri",
         "Formosan sugar palm"
+      ],
+      "es": [
+        "Arenga engleri"
+      ],
+      "fr": [
+        "Arenga engleri"
+      ],
+      "it": [
+        "Arenga engleri"
+      ],
+      "ja": [
+        "クロツグ"
+      ],
+      "nl": [
+        "Arenga engleri"
+      ],
+      "pl": [
+        "Arenga engleri"
+      ],
+      "pt": [
+        "Arenga engleri"
+      ],
+      "ru": [
+        "Arenga engleri"
+      ],
+      "tr": [
+        "Arenga engleri"
+      ],
+      "zh": [
+        "山棕"
       ]
     },
     "tags": [],
@@ -593,9 +778,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/75d96840b22a0d6dc7a8b7629ba1cd7d.jpg",
-    "description": null,
+    "description": "Astrocaryum aculeatum is a palm native to tropical South America and Trinidad. It grows up to 15 m (49 ft) tall and is usually solitary. It has ascending leaves, erect inflorescence, and yellow fruit.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -672,9 +857,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astrocaryum aculeatum"
+      ],
+      "en": [
+        "Astrocaryum aculeatum"
+      ],
+      "es": [
+        "Astrocaryum aculeatum"
+      ],
+      "fr": [
+        "Astrocaryum aculeatum"
+      ],
+      "it": [
+        "Astrocaryum aculeatum"
+      ],
+      "ko": [
+        "투쿠망야자"
+      ],
+      "nl": [
+        "Astrocaryum aculeatum"
+      ],
+      "pl": [
+        "Astrocaryum aculeatum"
+      ],
+      "pt": [
+        "Tucumã"
+      ],
+      "ru": [
+        "Астрокариум колючий"
+      ],
+      "zh": [
+        "星果椰"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -687,9 +908,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Astrocaryum_chambira_1_fullsize.jpg",
-    "description": null,
+    "description": "Astrocaryum chambira, the chambira palm or chambira, is a large and spiny palm native to the Amazon rainforest in Colombia, Ecuador, Peru, and Venezuela that is mostly known for its commercial value as a fiber crop. It can reach over 25 meters in height, and it is not uncommon for climbing trees to be planted nearby to make harvesting the fruit and leaves both easier and safer.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -766,9 +987,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astrocaryum chambira"
+      ],
+      "en": [
+        "Astrocaryum chambira"
+      ],
+      "es": [
+        "Astrocaryum chambira"
+      ],
+      "fr": [
+        "Astrocaryum chambira"
+      ],
+      "it": [
+        "Astrocaryum chambira"
+      ],
+      "nl": [
+        "Astrocaryum chambira"
+      ],
+      "pl": [
+        "Astrocaryum chambira"
+      ],
+      "pt": [
+        "Astrocaryum chambira"
+      ],
+      "ru": [
+        "Astrocaryum chambira"
+      ],
+      "zh": [
+        "钱比拉椰"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -781,7 +1035,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "",
     "description": null,
     "wikidata_id": null,
@@ -860,9 +1114,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astrocaryum chonta"
+      ],
+      "en": [
+        "Astrocaryum chonta"
+      ],
+      "es": [
+        "Astrocaryum chonta"
+      ],
+      "fr": [
+        "Astrocaryum chonta"
+      ],
+      "it": [
+        "Astrocaryum chonta"
+      ],
+      "nl": [
+        "Astrocaryum chonta"
+      ],
+      "pl": [
+        "Astrocaryum chonta"
+      ],
+      "pt": [
+        "Astrocaryum chonta"
+      ],
+      "ru": [
+        "Astrocaryum chonta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -875,9 +1159,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Astrocaryum faranae is a palm native to Amazon rainforest vegetation in Brazil and Peru. This plant has a commercial value because it has oil seeds which may be used to make cosmetics.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -954,9 +1238,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astrocaryum faranae"
+      ],
+      "en": [
+        "Astrocaryum faranae"
+      ],
+      "es": [
+        "Astrocaryum faranae"
+      ],
+      "fr": [
+        "Astrocaryum faranae"
+      ],
+      "it": [
+        "Astrocaryum faranae"
+      ],
+      "nl": [
+        "Astrocaryum faranae"
+      ],
+      "pl": [
+        "Astrocaryum faranae"
+      ],
+      "pt": [
+        "Astrocaryum faranae"
+      ],
+      "ru": [
+        "Astrocaryum faranae"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -969,7 +1283,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "",
     "description": null,
     "wikidata_id": null,
@@ -1048,9 +1362,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astrocaryum gratum"
+      ],
+      "en": [
+        "Astrocaryum gratum"
+      ],
+      "es": [
+        "Astrocaryum gratum"
+      ],
+      "fr": [
+        "Astrocaryum gratum"
+      ],
+      "it": [
+        "Astrocaryum gratum"
+      ],
+      "nl": [
+        "Astrocaryum gratum"
+      ],
+      "pl": [
+        "Astrocaryum gratum"
+      ],
+      "pt": [
+        "Astrocaryum gratum"
+      ],
+      "ru": [
+        "Astrocaryum gratum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1063,7 +1407,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "",
     "description": null,
     "wikidata_id": null,
@@ -1142,9 +1486,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astrocaryum javarense"
+      ],
+      "en": [
+        "Astrocaryum javarense"
+      ],
+      "es": [
+        "Astrocaryum javarense"
+      ],
+      "fr": [
+        "Astrocaryum javarense"
+      ],
+      "it": [
+        "Astrocaryum javarense"
+      ],
+      "nl": [
+        "Astrocaryum javarense"
+      ],
+      "pl": [
+        "Astrocaryum javarense"
+      ],
+      "pt": [
+        "Astrocaryum javarense"
+      ],
+      "ru": [
+        "Astrocaryum javarense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1157,7 +1531,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/66a67629f419843e98709d112b336ace.jpg",
     "description": null,
     "wikidata_id": null,
@@ -1236,9 +1610,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astrocaryum macrocalyx"
+      ],
+      "en": [
+        "Astrocaryum macrocalyx"
+      ],
+      "es": [
+        "Astrocaryum macrocalyx"
+      ],
+      "fr": [
+        "Astrocaryum macrocalyx"
+      ],
+      "it": [
+        "Astrocaryum macrocalyx"
+      ],
+      "nl": [
+        "Astrocaryum macrocalyx"
+      ],
+      "pl": [
+        "Astrocaryum macrocalyx"
+      ],
+      "pt": [
+        "Astrocaryum macrocalyx"
+      ],
+      "ru": [
+        "Astrocaryum macrocalyx"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1251,9 +1655,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/87b93f3464b0dfd645d5d1ef75b5df21.jpg",
-    "description": null,
+    "description": "Astrocaryum urostachys is a species of flowering plant in the family Arecaceae. It is found only in Ecuador. Its natural habitat is subtropical or tropical moist lowland forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1330,9 +1734,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astrocaryum urostachys"
+      ],
+      "en": [
+        "Astrocaryum urostachys"
+      ],
+      "es": [
+        "Astrocaryum urostachys"
+      ],
+      "fr": [
+        "Astrocaryum urostachys"
+      ],
+      "it": [
+        "Astrocaryum urostachys"
+      ],
+      "nl": [
+        "Astrocaryum urostachys"
+      ],
+      "pl": [
+        "Astrocaryum urostachys"
+      ],
+      "pt": [
+        "Astrocaryum urostachys"
+      ],
+      "ru": [
+        "Astrocaryum urostachys"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1345,9 +1779,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/ae61dc6f8049af97cda232e679cf5cd93543e520",
-    "description": null,
+    "description": "Attalea butyracea is a species of palm tree native from Mexico to northern South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1424,11 +1858,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Attalea butyracea"
+      ],
       "en": [
+        "Attalea butyracea",
         "Kuakish"
+      ],
+      "es": [
+        "Attalea butyracea"
+      ],
+      "fr": [
+        "Attalea butyracea"
+      ],
+      "it": [
+        "Scheelea butyracea"
+      ],
+      "nl": [
+        "Attalea butyracea"
+      ],
+      "pl": [
+        "Attalea butyracea"
+      ],
+      "pt": [
+        "Attalea butyracea"
+      ],
+      "ru": [
+        "Attalea butyracea"
+      ],
+      "zh": [
+        "酒棕櫚"
       ]
     },
     "tags": [],
@@ -1443,9 +1907,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6f93725da764f8e8d8c9be8a28c2c037.jpg",
-    "description": null,
+    "description": "Attalea maripa, commonly called maripa palm is a palm native to tropical South America and Trinidad and Tobago. It grows up 35 m (115 ft) tall and can have leaves or fronds 10–12 m (33–39 ft) long, bearing up to 636 leaflets. This plant has a yellow edible fruit which is oblong ovoid and cream. An edible oil can be extracted from the pulp of the fruit and from the kernel of the seed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1522,9 +1986,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Attalea maripa"
+      ],
+      "en": [
+        "Attalea maripa"
+      ],
+      "es": [
+        "Attalea maripa"
+      ],
+      "fr": [
+        "Attalea maripa"
+      ],
+      "it": [
+        "Attalea maripa"
+      ],
+      "nl": [
+        "Attalea maripa"
+      ],
+      "pl": [
+        "Attalea maripa"
+      ],
+      "pt": [
+        "Inajá"
+      ],
+      "ru": [
+        "Attalea maripa"
+      ],
+      "zh": [
+        "马里帕棕榈"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1537,7 +2034,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_17816_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -1616,9 +2113,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Attalea microcarpa"
+      ],
+      "en": [
+        "Attalea microcarpa"
+      ],
+      "es": [
+        "Attalea microcarpa"
+      ],
+      "fr": [
+        "Attalea microcarpa"
+      ],
+      "it": [
+        "Attalea microcarpa"
+      ],
+      "nl": [
+        "Attalea microcarpa"
+      ],
+      "pl": [
+        "Attalea microcarpa"
+      ],
+      "pt": [
+        "Attalea microcarpa"
+      ],
+      "ru": [
+        "Attalea microcarpa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1631,9 +2158,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f18f6a3733590c8e13b02d2f2a1c1d6a9b630e10",
-    "description": null,
+    "description": "Attalea phalerata is a species of palm tree known by the English common name urucuri palm, the Portuguese common name urucurizeiro, and the Spanish common name shapaja. Other common names include motacu and bacuri. It is native to Brazil, Bolivia, Paraguay, and Peru, where it grows along southern and western Amazonia. It is the most common palm tree on the Pantanal.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1710,11 +2237,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Attalea phalerata"
+      ],
       "en": [
+        "Attalea phalerata",
         "Urucuri palm"
+      ],
+      "es": [
+        "Attalea phalerata"
+      ],
+      "fr": [
+        "Attalea phalerata"
+      ],
+      "it": [
+        "Attalea phalerata"
+      ],
+      "nl": [
+        "Attalea phalerata"
+      ],
+      "pl": [
+        "Attalea phalerata"
+      ],
+      "pt": [
+        "Attalea phalerata"
+      ],
+      "ru": [
+        "Attalea phalerata"
+      ],
+      "zh": [
+        "尤鲁库里棕榈"
       ]
     },
     "tags": [],
@@ -1729,7 +2286,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/933f5d1d8ed62105b44de77844cb864b.jpg",
     "description": null,
     "wikidata_id": null,
@@ -1808,9 +2365,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Attalea racemosa"
+      ],
+      "en": [
+        "Attalea racemosa"
+      ],
+      "es": [
+        "Attalea racemosa"
+      ],
+      "fr": [
+        "Attalea racemosa"
+      ],
+      "it": [
+        "Attalea racemosa"
+      ],
+      "nl": [
+        "Attalea racemosa"
+      ],
+      "pl": [
+        "Attalea racemosa"
+      ],
+      "pt": [
+        "Attalea racemosa"
+      ],
+      "ru": [
+        "Attalea racemosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1823,9 +2410,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Attalea tessmannii is a species of flowering plant in the family Arecaceae. It is found in Brazil and Peru. It is threatened by habitat loss.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1902,9 +2489,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Attalea tessmannii"
+      ],
+      "en": [
+        "Attalea tessmannii"
+      ],
+      "es": [
+        "Attalea tessmannii"
+      ],
+      "fr": [
+        "Attalea tessmannii"
+      ],
+      "it": [
+        "Attalea tessmannii"
+      ],
+      "nl": [
+        "Attalea tessmannii"
+      ],
+      "pl": [
+        "Attalea tessmannii"
+      ],
+      "pt": [
+        "Attalea tessmannii"
+      ],
+      "ru": [
+        "Attalea tessmannii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1917,7 +2534,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4cf7e79bdc308f0284d18d4d03e59985.jpg",
     "description": null,
     "wikidata_id": null,
@@ -1996,9 +2613,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bactris acanthocarpa"
+      ],
+      "en": [
+        "Bactris acanthocarpa"
+      ],
+      "es": [
+        "Bactris acanthocarpa"
+      ],
+      "fr": [
+        "Bactris acanthocarpa"
+      ],
+      "it": [
+        "Bactris acanthocarpa"
+      ],
+      "nl": [
+        "Bactris acanthocarpa"
+      ],
+      "pl": [
+        "Bactris acanthocarpa"
+      ],
+      "pt": [
+        "Bactris acanthocarpa"
+      ],
+      "ru": [
+        "Bactris acanthocarpa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2011,7 +2658,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_18768_2_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -2090,9 +2737,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bactris bifida"
+      ],
+      "en": [
+        "Bactris bifida"
+      ],
+      "es": [
+        "Bactris bifida"
+      ],
+      "fr": [
+        "Bactris bifida"
+      ],
+      "it": [
+        "Bactris bifida"
+      ],
+      "nl": [
+        "Bactris bifida"
+      ],
+      "pl": [
+        "Bactris bifida"
+      ],
+      "pt": [
+        "Bactris bifida"
+      ],
+      "ru": [
+        "Bactris bifida"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2105,7 +2782,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/90e81c0ace5fdf26c858778d4ad21f3e60181c3e",
     "description": null,
     "wikidata_id": null,
@@ -2184,9 +2861,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bactris brongniartii"
+      ],
+      "en": [
+        "Bactris brongniartii"
+      ],
+      "es": [
+        "Bactris brongniartii"
+      ],
+      "fr": [
+        "Bactris brongniartii"
+      ],
+      "it": [
+        "Bactris brongniartii"
+      ],
+      "nl": [
+        "Bactris brongniartii"
+      ],
+      "pl": [
+        "Bactris brongniartii"
+      ],
+      "pt": [
+        "Bactris brongniartii"
+      ],
+      "ru": [
+        "Bactris brongniartii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2199,7 +2906,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_18800_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -2278,9 +2985,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bactris concinna"
+      ],
+      "en": [
+        "Bactris concinna"
+      ],
+      "es": [
+        "Bactris concinna"
+      ],
+      "fr": [
+        "Bactris concinna"
+      ],
+      "it": [
+        "Bactris concinna"
+      ],
+      "nl": [
+        "Bactris concinna"
+      ],
+      "pl": [
+        "Bactris concinna"
+      ],
+      "pt": [
+        "Bactris concinna"
+      ],
+      "ru": [
+        "Bactris concinna"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2293,7 +3030,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_18808_2_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -2372,9 +3109,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bactris corossilla"
+      ],
+      "en": [
+        "Bactris corossilla"
+      ],
+      "es": [
+        "Bactris corossilla"
+      ],
+      "fr": [
+        "Bactris corossilla"
+      ],
+      "it": [
+        "Bactris corossilla"
+      ],
+      "nl": [
+        "Bactris corossilla"
+      ],
+      "pl": [
+        "Bactris corossilla"
+      ],
+      "pt": [
+        "Bactris corossilla"
+      ],
+      "ru": [
+        "Bactris corossilla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2387,9 +3154,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/e9844944b1c4d5391ea427a35c30c87517e9345d",
-    "description": null,
+    "description": "Bactris gasipaes is a species of palm native to the tropical forests of Central and South America. It is well spread in these regions, where it is often cultivated by smallholders in agroforestry systems or more rarely, in monoculture. Common names include peach palm in English, among others used in South American countries. It is a long-lived perennial plant that is productive for 50 to 75 years on average.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2466,11 +3233,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pfirsichpalme"
+      ],
       "en": [
+        "Bactris gasipaes",
         "Peach palm"
+      ],
+      "es": [
+        "Bactris gasipaes"
+      ],
+      "fr": [
+        "Bactris gasipaes"
+      ],
+      "it": [
+        "Bactris gasipaes"
+      ],
+      "ja": [
+        "チョンタドゥーロ"
+      ],
+      "nl": [
+        "Perzikpalm"
+      ],
+      "pl": [
+        "Wilhelmka wytworna"
+      ],
+      "pt": [
+        "Pupunha"
+      ],
+      "ru": [
+        "Персиковая пальма"
+      ],
+      "zh": [
+        "桃椰子"
       ]
     },
     "tags": [],
@@ -2485,7 +3285,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_18882_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -2564,9 +3364,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bactris hirta"
+      ],
+      "en": [
+        "Bactris hirta"
+      ],
+      "es": [
+        "Bactris hirta"
+      ],
+      "fr": [
+        "Bactris hirta"
+      ],
+      "it": [
+        "Bactris hirta"
+      ],
+      "nl": [
+        "Bactris hirta"
+      ],
+      "pl": [
+        "Bactris hirta"
+      ],
+      "pt": [
+        "Bactris hirta"
+      ],
+      "ru": [
+        "Bactris hirta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2579,9 +3409,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/1b1e42c1df015dd9029dff235e7f978e04de105d",
-    "description": null,
+    "description": "Bactris major is a small to medium-sized spiny palm which ranges from Mexico, through Central America into northern South America and Trinidad. The species is divided into three or four varieties, although the boundaries between varieties is not always clearly defined.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2658,11 +3488,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bactris major"
+      ],
       "en": [
+        "Bactris major",
         "Beach palm"
+      ],
+      "es": [
+        "Bactris major"
+      ],
+      "fr": [
+        "Bactris major"
+      ],
+      "it": [
+        "Bactris major"
+      ],
+      "nl": [
+        "Bactris major"
+      ],
+      "pl": [
+        "Bactris major"
+      ],
+      "pt": [
+        "Bactris major"
+      ],
+      "ru": [
+        "Bactris major"
       ]
     },
     "tags": [],
@@ -2677,7 +3534,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Bactris_maraja_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -2756,9 +3613,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bactris maraja"
+      ],
+      "en": [
+        "Bactris maraja"
+      ],
+      "es": [
+        "Bactris maraja"
+      ],
+      "fr": [
+        "Bactris maraja"
+      ],
+      "it": [
+        "Bactris maraja"
+      ],
+      "nl": [
+        "Bactris maraja"
+      ],
+      "pl": [
+        "Bactris maraja"
+      ],
+      "pt": [
+        "Bactris maraja"
+      ],
+      "ru": [
+        "Bactris maraja"
+      ],
+      "zh": [
+        "古巴羅"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2771,7 +3661,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_19056_1_fullsize.jpg",
     "description": "Bactris simplicifrons is a small palm which is found in Trinidad and Tobago, Guyana, Suriname, French Guiana, Brazil, Colombia, Ecuador, Peru and Bolivia.",
     "wikidata_id": null,
@@ -2850,9 +3740,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bactris simplicifrons"
+      ],
+      "en": [
+        "Bactris simplicifrons"
+      ],
+      "es": [
+        "Bactris simplicifrons"
+      ],
+      "fr": [
+        "Bactris simplicifrons"
+      ],
+      "it": [
+        "Bactris simplicifrons"
+      ],
+      "nl": [
+        "Bactris simplicifrons"
+      ],
+      "pl": [
+        "Bactris simplicifrons"
+      ],
+      "pt": [
+        "Bactris simplicifrons"
+      ],
+      "ru": [
+        "Bactris simplicifrons"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2865,9 +3785,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/5be3c7f9d9ea78b32b70db37ce243ad31ecaf57f",
-    "description": null,
+    "description": "Borassus aethiopum is a species of Borassus palm from Africa. In English, it is variously referred to as African fan palm, African palmyra palm, deleb palm, ron palm, toddy palm, black rhun palm, rônier palm. It is widespread across much of tropical Africa from Senegal to Ethiopia and south to northern South Africa, though it is largely absent from the forested areas of Central Africa and desert regions such as the Sahara and Namib. This palm also grows in northwest Madagascar and the Comoros.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2944,11 +3864,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بوراس أثيوبي"
+      ],
+      "de": [
+        "Äthiopische Palmyrapalme"
+      ],
       "en": [
-        "African fan palm"
+        "African fan palm",
+        "Borassus aethiopum"
+      ],
+      "es": [
+        "Borassus aethiopum"
+      ],
+      "fr": [
+        "Borassus aethiopum"
+      ],
+      "it": [
+        "Borassus aethiopum"
+      ],
+      "ja": [
+        "ボラッスス・アエチオプム"
+      ],
+      "nl": [
+        "Borassus aethiopum"
+      ],
+      "pl": [
+        "Borassus aethiopum"
+      ],
+      "pt": [
+        "Borassus aethiopum"
+      ],
+      "ru": [
+        "Borassus aethiopum"
+      ],
+      "zh": [
+        "非洲扇棕"
       ]
     },
     "tags": [],
@@ -2963,9 +3919,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/864263e1941567a8dce85cf3d52efd6a2e05665e",
-    "description": null,
+    "description": "Brahea dulcis, the sweet hesper palm or apak palm, is a species of flowering plant in the family Arecaceae. It is native to dry woodlands of Mexico, Guatemala, Belize, El Salvador, and Honduras. A single-trunked palm reaching 7.5 m (25 ft) with edible fruit and green to blue-green leaves, it is occasionally available from commercial suppliers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3042,11 +3998,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Brahea dulcis"
+      ],
       "en": [
-        "Apak palm"
+        "Apak palm",
+        "Brahea dulcis"
+      ],
+      "es": [
+        "Brahea dulcis"
+      ],
+      "fr": [
+        "Brahea dulcis"
+      ],
+      "it": [
+        "Brahea dulcis"
+      ],
+      "nl": [
+        "Brahea dulcis"
+      ],
+      "pl": [
+        "Brahea dulcis"
+      ],
+      "pt": [
+        "Brahea dulcis"
+      ],
+      "ru": [
+        "Brahea dulcis"
       ]
     },
     "tags": [],
@@ -3061,9 +4044,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Calamus muelleri, commonly known as southern lawyer cane or wait-a-while, is a climbing palm with a vine-like habit, endemic to the subtropical coastal rainforests of northern New South Wales and southern Queensland. Sharp hooks on the plant can snag the clothing of walkers in these forests, giving rise to the name \"wait-a-while\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3140,9 +4123,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Calamus muelleri"
+      ],
+      "en": [
+        "Calamus muelleri"
+      ],
+      "es": [
+        "Calamus muelleri"
+      ],
+      "fr": [
+        "Calamus muelleri"
+      ],
+      "it": [
+        "Calamus muelleri"
+      ],
+      "nl": [
+        "Calamus muelleri"
+      ],
+      "pl": [
+        "Calamus muelleri"
+      ],
+      "pt": [
+        "Calamus muelleri"
+      ],
+      "ru": [
+        "Calamus muelleri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3155,9 +4168,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/64d8d82def1f1eb02044935ba8d9ef40879aa775",
-    "description": null,
+    "description": "Ceroxylon quindiuense, often called Quindío wax palm, is a palm native to the humid montane forests of the Andes in Colombia and Peru.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3234,9 +4247,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "نخل شمعي كويندي"
+      ],
+      "de": [
+        "Quindio-Wachspalme"
+      ],
+      "en": [
+        "Ceroxylon quindiuense"
+      ],
+      "es": [
+        "Ceroxylon quindiuense"
+      ],
+      "fr": [
+        "Ceroxylon quindiuense"
+      ],
+      "it": [
+        "Ceroxylon quindiuense"
+      ],
+      "ja": [
+        "ケロクシロン・クインディウエンセ"
+      ],
+      "nl": [
+        "Ceroxylon quindiuense"
+      ],
+      "pl": [
+        "Ceroxylon quindiuense"
+      ],
+      "pt": [
+        "Ceroxylon quindiuense"
+      ],
+      "ru": [
+        "Ceroxylon quindiuense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3249,7 +4298,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://res.cloudinary.com/dmvvh57hg/image/upload/plants/chamaedorea_elegans/inat_1.jpg",
     "description": "The Parlor Palm (Chamaedorea elegans) is an amazing house plant with several incredible attributes. It is a very slow growing species, requiring minimal maintenance. It is also quite small, so it fits perfectly in spaces such as desks, tabletops or counters. This species thrives in medium to low light conditions and requires little water, making it an easy addition to even the most neglectful caretakers. Additionally, this tropical species has beautiful, deep green leaves and graceful fronds that add a lush, exotic texture to any home. Its air purifying quality and affordability make it a great choice for anyone looking to add a bit of nature and beauty to their home.",
     "wikidata_id": null,
@@ -3264,15 +4313,15 @@
       "plant_id": "chamaedorea_elegans",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "part shade",
-      "light_also_ok": null,
-      "ppfd_min": 23,
-      "ppfd_max": 62,
-      "dli_min": 0.1,
-      "dli_max": 0.2,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 50,
+      "ppfd_max": 200,
+      "dli_min": 2.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 12,
       "humidity_level": "Low (30-85%)",
@@ -3306,7 +4355,7 @@
         "Root rot",
         "Scale insects"
       ],
-      "watering_method": null,
+      "watering_method": "Top layer should be dry",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -3336,12 +4385,55 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "النخيل الريشي(شاميدوريا)"
+      ],
       "en": [
+        "Good luck palm",
+        "Parlor palm",
+        "Parlour palm",
         "neanthe bella palm",
         "parlor palm"
+      ],
+      "es": [
+        "Camedor de cambray"
+      ],
+      "it": [
+        "camadorea"
+      ],
+      "ja": [
+        "テーブルヤシ"
+      ],
+      "ko": [
+        "테이블야자"
+      ],
+      "nl": [
+        "Bergpalm"
+      ],
+      "pl": [
+        "Chamedora wytworna"
+      ],
+      "pt": [
+        "Camedórea-elegante"
+      ],
+      "ru": [
+        "Хамедорея изящная"
+      ],
+      "zh": [
+        "客厅棕",
+        "客室棕",
+        "矮棕",
+        "矮生椰子",
+        "秀丽竹节椰",
+        "袖珍棕",
+        "袖珍椰",
+        "袖珍椰子",
+        "袖珍竹节椰"
       ]
     },
     "tags": [
@@ -3361,7 +4453,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/489ef843e3ce9553d26301bfa8fddf09.jpg",
     "description": "Round, fleshy black fruit may occasionally appear, though rarely when grown indoors. The rachis will turn red-orange.",
     "wikidata_id": null,
@@ -3444,9 +4536,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chamaedorea linearis"
+      ],
+      "en": [
+        "Chamaedorea linearis"
+      ],
+      "es": [
+        "Chamaedorea linearis"
+      ],
+      "fr": [
+        "Chamaedorea linearis"
+      ],
+      "it": [
+        "Chamaedorea linearis"
+      ],
+      "nl": [
+        "Chamaedorea linearis"
+      ],
+      "pl": [
+        "Chamaedorea linearis"
+      ],
+      "pt": [
+        "Chamaedorea linearis"
+      ],
+      "ru": [
+        "Chamaedorea linearis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3459,7 +4581,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Chamaedorea_microspadix_%2826748516151%29.jpg",
     "description": "Chamaedorea microspadix is an incredible plant species! With its slender, deep green leaves and delicate white stripes near the midrib of each leaf, it adds a unique touch to any space. It is a very low-maintenance plant, requiring little more than a misting from a spray bottle. Additionally, it is tolerant to low light, though it thrives in bright, indirect light. With fuss-free care and striking foliage, this plant makes a perfect addition to any home.",
     "wikidata_id": null,
@@ -3472,7 +4594,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "chamaedorea_microspadix",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Frequent",
       "start_pct": null,
@@ -3547,11 +4669,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Chamaedorea microspadix"
+      ],
       "en": [
+        "Chamaedorea microspadix",
         "chamaedorea"
+      ],
+      "es": [
+        "Chamaedorea microspadix"
+      ],
+      "fr": [
+        "Chamaedorea microspadix"
+      ],
+      "it": [
+        "Chamaedorea microspadix"
+      ],
+      "nl": [
+        "Chamaedorea microspadix"
+      ],
+      "pl": [
+        "Chamaedorea microspadix"
+      ],
+      "pt": [
+        "Chamaedorea microspadix"
+      ],
+      "ru": [
+        "Chamaedorea microspadix"
       ]
     },
     "tags": [
@@ -3571,7 +4720,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/e8c1faa525906e7c2b36f7778380b4199c112dcf",
     "description": "Round, fleshy black fruit may occasionally appear, though rarely when grown indoors. The rachis will turn red-orange.",
     "wikidata_id": null,
@@ -3654,9 +4803,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chamaedorea oblongata"
+      ],
+      "en": [
+        "Chamaedorea oblongata"
+      ],
+      "es": [
+        "Chamaedorea oblongata"
+      ],
+      "fr": [
+        "Chamaedorea oblongata"
+      ],
+      "it": [
+        "Chamaedorea oblongata"
+      ],
+      "nl": [
+        "Chamaedorea oblongata"
+      ],
+      "pl": [
+        "Chamaedorea oblongata"
+      ],
+      "pt": [
+        "Chamaedorea oblongata"
+      ],
+      "ru": [
+        "Chamaedorea oblongata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3669,7 +4848,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Chamaedorea_pauciflora_1_fullsize.jpg",
     "description": "Round, fleshy black fruit may occasionally appear, though rarely when grown indoors. The rachis will turn red-orange.",
     "wikidata_id": null,
@@ -3752,9 +4931,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chamaedorea pauciflora"
+      ],
+      "en": [
+        "Chamaedorea pauciflora"
+      ],
+      "es": [
+        "Chamaedorea pauciflora"
+      ],
+      "fr": [
+        "Chamaedorea pauciflora"
+      ],
+      "it": [
+        "Chamaedorea pauciflora"
+      ],
+      "nl": [
+        "Chamaedorea pauciflora"
+      ],
+      "pl": [
+        "Chamaedorea pauciflora"
+      ],
+      "pt": [
+        "Chamaedorea pauciflora"
+      ],
+      "ru": [
+        "Chamaedorea pauciflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3767,7 +4976,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/14dda01ba271596d1aae8067e1d21448645762d6",
     "description": "Round, fleshy black fruit may occasionally appear, though rarely when grown indoors. The rachis will turn red-orange.",
     "wikidata_id": null,
@@ -3850,9 +5059,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chamaedorea pinnatifrons"
+      ],
+      "en": [
+        "Chamaedorea pinnatifrons"
+      ],
+      "es": [
+        "Chamaedorea pinnatifrons"
+      ],
+      "fr": [
+        "Chamaedorea pinnatifrons"
+      ],
+      "it": [
+        "Chamaedorea pinnatifrons"
+      ],
+      "nl": [
+        "Chamaedorea pinnatifrons"
+      ],
+      "pl": [
+        "Chamaedorea pinnatifrons"
+      ],
+      "pt": [
+        "Chamaedorea pinnatifrons"
+      ],
+      "ru": [
+        "Chamaedorea pinnatifrons"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3865,7 +5104,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://res.cloudinary.com/dmvvh57hg/image/upload/plants/chamaedorea_seifrizii/inat_1.jpg",
     "description": "The Bamboo Palm (Chamaedorea seifrizii) is an amazing plant that can add life and color to any room in your home. Its growth habits are easy to maintain and can be included in low light situations. Its bamboo-like stalks, fronds, and deep green leaves spread out gracefully to create a soothing atmosphere. The plant tolerates low humidity and is drought-tolerant. Its classic tropical look, combined with its durability, makes this a great choice for indoor-outdoor living. It produces fragrant, yellow-orange flowers in clusters from late summer to early winter. The Bamboo Palm is an excellent source of natural air purification and can help reduce air pollutants in enclosed spaces. It’s an enviable houseplant that is sure to bring a touch of the tropics to any space.",
     "wikidata_id": null,
@@ -3878,9 +5117,9 @@
     "synonyms": "[\"Chamaedorea erumpens\", \"Chamaedorea donnell-smithii\", \"Meiota campechana\"]",
     "care": {
       "plant_id": "chamaedorea_seifrizii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part shade",
@@ -3922,7 +5161,7 @@
       "common_pests": [
         "Mealy bugs, scale, and spider mites can be problematic, particularly on specimens grown indoors"
       ],
-      "watering_method": null,
+      "watering_method": "Let soil dry up",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -3952,12 +5191,35 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
         "Bamboo palm",
+        "Reed palm",
+        "Seifriz's bamboo palm",
         "bamboo palm"
+      ],
+      "es": [
+        "Palma bambú"
+      ],
+      "nl": [
+        "bamboepalm"
+      ],
+      "pt": [
+        "Palmeira-Chamaedorea-bambu"
+      ],
+      "ru": [
+        "Хамедорея Зейфрица"
+      ],
+      "zh": [
+        "尤卡坦竹节椰",
+        "玲珑竹节椰",
+        "雪佛里椰",
+        "雪佛里椰子",
+        "雪佛里竹节椰"
       ]
     },
     "tags": [
@@ -3977,7 +5239,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/0db4279ec75a99a02e8a53ca74b1ac69486927a3",
     "description": "Round, fleshy black fruit may occasionally appear, though rarely when grown indoors. The rachis will turn red-orange.",
     "wikidata_id": null,
@@ -4060,9 +5322,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chamaedorea tepejilote"
+      ],
+      "en": [
+        "Chamaedorea tepejilote"
+      ],
+      "es": [
+        "Chamaedorea tepejilote"
+      ],
+      "fr": [
+        "Chamaedorea tepejilote"
+      ],
+      "it": [
+        "Chamaedorea tepejilote"
+      ],
+      "nl": [
+        "Chamaedorea tepejilote"
+      ],
+      "pl": [
+        "Chamaedorea tepejilote"
+      ],
+      "pt": [
+        "Chamaedorea tepejilote"
+      ],
+      "ru": [
+        "Chamaedorea tepejilote"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4075,9 +5367,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/de1951d63b4d9c72172fb5088092522f53d0ad4b",
-    "description": "Fruit is red, purple, or green and look berry-like but a little larger than berries.",
+    "description": "Chamaerops is a genus of flowering plants in the family Arecaceae. It contains only one species, Chamaerops humilis, variously called European fan palm or the Mediterranean dwarf palm. It is one of the most cold-hardy palms and is used in landscaping in temperate climates.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4088,17 +5380,17 @@
     "synonyms": "[\"Phoenix humilis\", \"Corypha humilis\"]",
     "care": {
       "plant_id": "chamaerops_humilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4158,11 +5450,49 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "الدوم المتوسطي",
+        "النخيل المروحي"
+      ],
+      "de": [
+        "Zwergpalme"
+      ],
       "en": [
+        "Chamaerops humilis",
+        "European Fan Palm",
         "European fan palm"
+      ],
+      "es": [
+        "Chamaerops humilis"
+      ],
+      "fr": [
+        "Chamaerops humilis"
+      ],
+      "it": [
+        "Chamaerops humilis"
+      ],
+      "ja": [
+        "チャボトウジュロ"
+      ],
+      "nl": [
+        "Europese dwergpalm"
+      ],
+      "pl": [
+        "karłatka niska"
+      ],
+      "pt": [
+        "Chamaerops"
+      ],
+      "ru": [
+        "Хамеропс"
+      ],
+      "zh": [
+        "叢櫚"
       ]
     },
     "tags": [],
@@ -4177,9 +5507,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Coccothrinax readii, the Mexican silver palm, is a palm which is native to southeastern Mexico and northeastern Belize.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4256,9 +5586,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coccothrinax readii"
+      ],
+      "en": [
+        "Coccothrinax readii"
+      ],
+      "es": [
+        "Coccothrinax readii"
+      ],
+      "fr": [
+        "Coccothrinax readii"
+      ],
+      "it": [
+        "Coccothrinax readii"
+      ],
+      "nl": [
+        "Coccothrinax readii"
+      ],
+      "pl": [
+        "Coccothrinax readii"
+      ],
+      "pt": [
+        "Coccothrinax readii"
+      ],
+      "ru": [
+        "Coccothrinax readii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4271,7 +5631,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/a0c4045351cd7e31ed6c4a338c4fd7f0be5c1a2f",
     "description": "The coconut is a member of the palm family (Arecaceae) and the only living species of the genus Cocos. The term \"coconut\" can denote the whole coconut palm tree or the large hard fruit. Originally native to Central Indo-Pacific, they are ubiquitous in coastal tropical regions.",
     "wikidata_id": null,
@@ -4350,11 +5710,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جوز الهند"
+      ],
+      "de": [
+        "Kokospalme"
+      ],
       "en": [
-        "Coconut"
+        "Coconut",
+        "Cocos nucifera"
+      ],
+      "es": [
+        "Cocos nucifera"
+      ],
+      "fr": [
+        "cocotier"
+      ],
+      "hi": [
+        "नारियल"
+      ],
+      "it": [
+        "Cocos nucifera"
+      ],
+      "ja": [
+        "ココヤシ"
+      ],
+      "ko": [
+        "코코야자"
+      ],
+      "nl": [
+        "kokospalm"
+      ],
+      "pl": [
+        "kokos właściwy"
+      ],
+      "pt": [
+        "coqueiro"
+      ],
+      "ru": [
+        "кокосовая пальма"
+      ],
+      "tr": [
+        "Hindistan Cevizi"
+      ],
+      "zh": [
+        "椰子"
       ]
     },
     "tags": [],
@@ -4369,7 +5774,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_51866_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -4448,9 +5853,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cryosophila stauracantha"
+      ],
+      "en": [
+        "Cryosophila stauracantha"
+      ],
+      "es": [
+        "Cryosophila stauracantha"
+      ],
+      "fr": [
+        "Cryosophila stauracantha"
+      ],
+      "it": [
+        "Cryosophila stauracantha"
+      ],
+      "nl": [
+        "Cryosophila stauracantha"
+      ],
+      "pl": [
+        "Cryosophila stauracantha"
+      ],
+      "pt": [
+        "Cryosophila stauracantha"
+      ],
+      "ru": [
+        "Cryosophila stauracantha"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4463,7 +5898,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Desmoncus_mitis_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -4542,9 +5977,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Desmoncus mitis"
+      ],
+      "en": [
+        "Desmoncus mitis"
+      ],
+      "es": [
+        "Desmoncus mitis"
+      ],
+      "fr": [
+        "Desmoncus mitis"
+      ],
+      "it": [
+        "Desmoncus mitis"
+      ],
+      "nl": [
+        "Desmoncus mitis"
+      ],
+      "pl": [
+        "Desmoncus mitis"
+      ],
+      "pt": [
+        "Desmoncus mitis"
+      ],
+      "ru": [
+        "Desmoncus mitis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4557,9 +6022,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e273aa3537e31f6c0acae2c7509bcdd4.jpg",
-    "description": null,
+    "description": "Desmoncus orthacanthos is a spiny, climbing palm native to tropical South America. Stems grow clustered together, and are 2–12 m long and 1.5–2 cm in diameter. Stems, leaf sheaths and often leaves are covered with black spines up to 6 cm long.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4636,9 +6101,60 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Desmoncus orthacanthos"
+      ],
+      "en": [
+        "Climbing palm",
+        "Desmoncus orthacanthos"
+      ],
+      "es": [
+        "Atitara chinantlensis",
+        "Atitara drudeana",
+        "Atitara horrida",
+        "Atitara macrocarpa",
+        "Atitara major",
+        "Atitara palustris",
+        "Atitara rudenta",
+        "Desmoncus apureanus",
+        "Desmoncus hartii",
+        "Desmoncus leptochaete",
+        "Desmoncus lophacanthos",
+        "Desmoncus luetzelburgii",
+        "Desmoncus major",
+        "Desmoncus myriacanthos",
+        "Desmoncus orthacanthos",
+        "Desmoncus tobagonis",
+        "Desmoncus werdermannii"
+      ],
+      "fr": [
+        "Desmoncus orthacanthos"
+      ],
+      "it": [
+        "Desmoncus orthacanthos"
+      ],
+      "nl": [
+        "Desmoncus orthacanthos"
+      ],
+      "pl": [
+        "Desmoncus orthacanthos"
+      ],
+      "pt": [
+        "Desmoncus orthacanthos"
+      ],
+      "ru": [
+        "Desmoncus orthacanthos"
+      ],
+      "zh": [
+        "直刺椰藤",
+        "直刺美洲藤"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4651,9 +6167,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/05b5cb62c40b4fbc7d9edbf642ebe13aff3484a3",
-    "description": null,
+    "description": "Desmoncus polyacanthos, the jacitara palm, is a spiny, climbing palm native to the southern Caribbean and tropical South America. Stems grow clustered together, and are 2–12 m long and 0.5–2 cm in diameter. Petioles, rachis, cirrus and peduncular bracts are covered with short, curved spines. Two varieties are recognised: D. polyacanthos var. polyacanthos and D. polyacanthos var. prunifer A.J.Hend.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4730,11 +6246,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Desmoncus polyacanthos"
+      ],
       "en": [
+        "Desmoncus polyacanthos",
         "Suriname bramble palm"
+      ],
+      "es": [
+        "Atitara polyacantha",
+        "Desmoncus polyacanthos"
+      ],
+      "fr": [
+        "Desmoncus polyacanthos"
+      ],
+      "it": [
+        "Desmoncus polyacanthos"
+      ],
+      "nl": [
+        "Desmoncus polyacanthos"
+      ],
+      "pl": [
+        "Desmoncus polyacanthos"
+      ],
+      "pt": [
+        "Desmoncus polyacanthos"
+      ],
+      "ru": [
+        "Desmoncus polyacanthos"
       ]
     },
     "tags": [],
@@ -4749,9 +6293,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_61475_1_fullsize.jpg",
-    "description": null,
+    "description": "Dictyocaryum lamarckianum is a species of flowering plant in the family Arecaceae. It is found in Panama and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4828,9 +6372,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dictyocaryum lamarckianum"
+      ],
+      "en": [
+        "Dictyocaryum lamarckianum"
+      ],
+      "es": [
+        "Dictyocaryum lamarckianum"
+      ],
+      "fr": [
+        "Dictyocaryum lamarckianum"
+      ],
+      "it": [
+        "Dictyocaryum lamarckianum"
+      ],
+      "nl": [
+        "Dictyocaryum lamarckianum"
+      ],
+      "pl": [
+        "Dictyocaryum lamarckianum"
+      ],
+      "pt": [
+        "Dictyocaryum lamarckianum"
+      ],
+      "ru": [
+        "Dictyocaryum lamarckianum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4843,7 +6417,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://res.cloudinary.com/dmvvh57hg/image/upload/plants/dypsis_lutescens/main.jpg",
     "description": "The bamboo palm (Dypsis lutescens) is an amazing plant species for its versatility in brightening up any home or office. This bamboo-like palm is easy to care for, requiring minimal care once established. Not only does it look great, but it also offers many other benefits. It is an air-cleaning plant, removing toxins from the air, and it also produces humidity, helping to improve the air quality and freshness in your home. Additionally, it can be used indoors or outdoors, making it a very easy-to-maintain indoor or outdoor houseplant. Bamboo palms are a great addition to any home or office, offering beauty, improved air quality and easy care.",
     "wikidata_id": null,
@@ -4858,7 +6432,7 @@
       "plant_id": "dypsis_lutescens",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part sun/part shade",
@@ -4897,7 +6471,7 @@
         "Mites",
         "Scale insects"
       ],
-      "watering_method": null,
+      "watering_method": "Top layer should be dry",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -4927,7 +6501,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -4990,9 +6566,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/08da1010fcc444437936f35ced14412584b172a6",
-    "description": null,
+    "description": "Elaeis guineensis is a species of palm commonly just called oil palm but also sometimes African oil palm or macaw-fat. The first Western person to describe it and bring back seeds was the French naturalist Michel Adanson.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5069,11 +6645,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نخيل الزيت"
+      ],
+      "de": [
+        "Elaeis guineensis"
+      ],
       "en": [
-        "African oil palm"
+        "African oil palm",
+        "Elaeis guineensis"
+      ],
+      "es": [
+        "Elaeis guineensis"
+      ],
+      "fr": [
+        "palmier à huile"
+      ],
+      "it": [
+        "Elaeis guineensis"
+      ],
+      "ja": [
+        "アブラヤシ"
+      ],
+      "ko": [
+        "기름야자"
+      ],
+      "nl": [
+        "Oliepalm"
+      ],
+      "pl": [
+        "Olejowiec gwinejski"
+      ],
+      "pt": [
+        "Dendezeiro"
+      ],
+      "ru": [
+        "Масличная пальма"
+      ],
+      "zh": [
+        "油棕"
       ]
     },
     "tags": [],
@@ -5088,9 +6703,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f251371486981f0826571d57eeb4a9be7a875858",
-    "description": null,
+    "description": "Elaeis oleifera is a species of palm commonly called the American oil palm. It is native to South and Central America from Honduras to northern Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5167,11 +6782,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نخيل الزيت الأمريكي"
+      ],
+      "de": [
+        "Elaeis oleifera"
+      ],
       "en": [
-        "American oil palm"
+        "American oil palm",
+        "Elaeis oleifera"
+      ],
+      "es": [
+        "Elaeis oleifera"
+      ],
+      "fr": [
+        "Elaeis oleifera"
+      ],
+      "it": [
+        "Elaeis oleifera"
+      ],
+      "ja": [
+        "アメリカアブラヤシ"
+      ],
+      "nl": [
+        "Elaeis oleifera"
+      ],
+      "pl": [
+        "Elaeis oleifera"
+      ],
+      "pt": [
+        "Elaeis oleifera"
+      ],
+      "ru": [
+        "Американская масличная пальма"
+      ],
+      "zh": [
+        "美洲油棕"
       ]
     },
     "tags": [],
@@ -5186,9 +6837,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_83051_1_fullsize.jpg",
-    "description": null,
+    "description": "Euterpe catinga is a palm species in the genus Euterpe. It is found in forests of a dry, sandy soil and very peculiar vegetation, known as catinga forests or Campinarana in northern South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5265,9 +6916,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Euterpe catinga"
+      ],
+      "en": [
+        "Euterpe catinga"
+      ],
+      "es": [
+        "Euterpe catinga"
+      ],
+      "fr": [
+        "Euterpe catinga"
+      ],
+      "it": [
+        "Euterpe catinga"
+      ],
+      "nl": [
+        "Euterpe catinga"
+      ],
+      "pl": [
+        "Euterpe catinga"
+      ],
+      "pt": [
+        "Euterpe catinga"
+      ],
+      "ru": [
+        "Euterpe catinga"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5280,9 +6961,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/bea35e18c1bb17748aaff28cc08ce4f5d8b7457d",
-    "description": null,
+    "description": "Euterpe edulis, commonly known as juçara, jussara, açaí-do-sul or palmiteiro, is a palm species in the genus Euterpe. It is now predominantly used for hearts of palm. It is closely related to the açaí palm, a species cultivated for its fruit and superior hearts of palm. The larvae of Caligo brasiliensis are reported to feed on E. edulis.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5359,11 +7040,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Euterpe edulis"
+      ],
       "en": [
-        "Assai palm"
+        "Assai palm",
+        "Euterpe edulis"
+      ],
+      "es": [
+        "Euterpe edulis"
+      ],
+      "fr": [
+        "Euterpe edulis"
+      ],
+      "it": [
+        "Euterpe edulis"
+      ],
+      "ja": [
+        "アッサイヤシ"
+      ],
+      "nl": [
+        "Euterpe edulis"
+      ],
+      "pl": [
+        "Euterpa jadalna"
+      ],
+      "pt": [
+        "Içara"
+      ],
+      "ru": [
+        "Euterpe edulis"
       ]
     },
     "tags": [],
@@ -5378,9 +7089,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/772e73cf4fc1f103975cdb63da6af3ab92fa8744",
-    "description": null,
+    "description": "The açaí palm, Euterpe oleracea, is a species of palm tree (Arecaceae) cultivated for its fruit, hearts of palm, leaves, and trunk wood. Global demand for the fruit has expanded rapidly in the 21st century, and the tree is cultivated for that purpose primarily.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5457,11 +7168,54 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نخل الآساي"
+      ],
+      "de": [
+        "Euterpe oleracea"
+      ],
       "en": [
-        "Assai palm"
+        "Assai palm",
+        "Açaí palm",
+        "Euterpe oleracea"
+      ],
+      "es": [
+        "Euterpe oleracea"
+      ],
+      "fr": [
+        "Euterpe oleracea"
+      ],
+      "it": [
+        "Euterpe oleracea"
+      ],
+      "ja": [
+        "アサイー"
+      ],
+      "ko": [
+        "아사이야자"
+      ],
+      "nl": [
+        "Açaí"
+      ],
+      "pl": [
+        "Euterpa warzywna"
+      ],
+      "pt": [
+        "açaizeiro"
+      ],
+      "ru": [
+        "Асаи"
+      ],
+      "tr": [
+        "Acai üzümü"
+      ],
+      "zh": [
+        "巴西苺"
       ]
     },
     "tags": [],
@@ -5476,7 +7230,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/ce094e5b6a67758be50aded9366dd83761b235be",
     "description": "Euterpe precatoria is a tall, slender-stemmed, pinnate-leaved palm native to Central and South America and Trinidad and Tobago. E. precatoria is used commercially to produce fruits, although Euterpe oleracea is more commonly cultivated due to its larger fruits.",
     "wikidata_id": null,
@@ -5555,11 +7309,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Euterpe precatoria"
+      ],
       "en": [
+        "Euterpe precatoria",
         "Mountain-cabbage"
+      ],
+      "es": [
+        "Euterpe precatoria"
+      ],
+      "fr": [
+        "Euterpe precatoria"
+      ],
+      "it": [
+        "Euterpe precatoria"
+      ],
+      "nl": [
+        "Euterpe precatoria"
+      ],
+      "pl": [
+        "Euterpe precatoria"
+      ],
+      "pt": [
+        "Euterpe precatoria"
+      ],
+      "ru": [
+        "Euterpe precatoria"
       ]
     },
     "tags": [],
@@ -5574,7 +7355,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1c3dfd7d9ef63a582c7644acae7f3a67.jpg",
     "description": null,
     "wikidata_id": null,
@@ -5653,9 +7434,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma brongniartii"
+      ],
+      "en": [
+        "Geonoma brongniartii"
+      ],
+      "es": [
+        "Geonoma brongniartii"
+      ],
+      "fr": [
+        "Geonoma brongniartii"
+      ],
+      "it": [
+        "Geonoma brongniartii"
+      ],
+      "nl": [
+        "Geonoma brongniartii"
+      ],
+      "pl": [
+        "Geonoma brongniartii"
+      ],
+      "pt": [
+        "Geonoma brongniartii"
+      ],
+      "ru": [
+        "Geonoma brongniartii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5668,7 +7479,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/4fd91000e53821c3a9ae6e9c3a0c528832e38bbe",
     "description": null,
     "wikidata_id": null,
@@ -5747,9 +7558,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma cuneata"
+      ],
+      "en": [
+        "Geonoma cuneata"
+      ],
+      "es": [
+        "Geonoma cuneata"
+      ],
+      "fr": [
+        "Geonoma cuneata"
+      ],
+      "it": [
+        "Geonoma cuneata"
+      ],
+      "nl": [
+        "Geonoma cuneata"
+      ],
+      "pl": [
+        "Geonoma cuneata"
+      ],
+      "pt": [
+        "Geonoma cuneata"
+      ],
+      "ru": [
+        "Geonoma cuneata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5762,7 +7603,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/17cba5a87bf15f1d3d50525cf63e97687057dc50",
     "description": null,
     "wikidata_id": null,
@@ -5841,9 +7682,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma deversa"
+      ],
+      "en": [
+        "Geonoma deversa"
+      ],
+      "es": [
+        "Geonoma deversa"
+      ],
+      "fr": [
+        "Geonoma deversa"
+      ],
+      "it": [
+        "Geonoma deversa"
+      ],
+      "nl": [
+        "Geonoma deversa"
+      ],
+      "pl": [
+        "Geonoma deversa"
+      ],
+      "pt": [
+        "Geonoma deversa"
+      ],
+      "ru": [
+        "Geonoma deversa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5856,7 +7727,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/c1bcc784ed37f6419ecb1f3ba3450fb9067bc45e",
     "description": null,
     "wikidata_id": null,
@@ -5935,9 +7806,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma elegans"
+      ],
+      "en": [
+        "Geonoma elegans"
+      ],
+      "es": [
+        "Geonoma elegans"
+      ],
+      "fr": [
+        "Geonoma elegans"
+      ],
+      "it": [
+        "Geonoma elegans"
+      ],
+      "nl": [
+        "Geonoma elegans"
+      ],
+      "pl": [
+        "Geonoma elegans"
+      ],
+      "pt": [
+        "Geonoma elegans"
+      ],
+      "ru": [
+        "Geonoma elegans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5950,7 +7851,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/62a70d492b1b762aec2421805acf0ddedf3d4807",
     "description": null,
     "wikidata_id": null,
@@ -6029,9 +7930,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma interrupta"
+      ],
+      "en": [
+        "Chontilla",
+        "Geonoma interrupta"
+      ],
+      "es": [
+        "Geonoma interrupta"
+      ],
+      "fr": [
+        "Geonoma interrupta"
+      ],
+      "it": [
+        "Geonoma interrupta"
+      ],
+      "nl": [
+        "Geonoma interrupta"
+      ],
+      "pl": [
+        "Geonoma interrupta"
+      ],
+      "pt": [
+        "Geonoma interrupta"
+      ],
+      "ru": [
+        "Geonoma interrupta"
+      ],
+      "zh": [
+        "交叉苇椰"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6044,7 +7979,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/Geonoma_macrostachys_var_macrostachys_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -6123,9 +8058,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma macrostachys"
+      ],
+      "en": [
+        "Geonoma macrostachys"
+      ],
+      "es": [
+        "Geonoma macrostachys"
+      ],
+      "fr": [
+        "Geonoma macrostachys"
+      ],
+      "it": [
+        "Geonoma macrostachys"
+      ],
+      "nl": [
+        "Geonoma macrostachys"
+      ],
+      "pl": [
+        "Geonoma macrostachys"
+      ],
+      "pt": [
+        "Geonoma macrostachys"
+      ],
+      "ru": [
+        "Geonoma macrostachys"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6138,9 +8103,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/21014b4902b9839a288e580ea553735d.jpg",
-    "description": null,
+    "description": "Geonoma maxima is a species of palm tree native to South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6217,9 +8182,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma maxima"
+      ],
+      "en": [
+        "Geonoma maxima"
+      ],
+      "es": [
+        "Geonoma maxima"
+      ],
+      "fr": [
+        "Geonoma maxima"
+      ],
+      "it": [
+        "Geonoma maxima"
+      ],
+      "nl": [
+        "Geonoma maxima"
+      ],
+      "pl": [
+        "Geonoma maxima"
+      ],
+      "pt": [
+        "Geonoma maxima"
+      ],
+      "ru": [
+        "Geonoma maxima"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6232,7 +8227,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/3cc0376520a4fb3a06dea94dee207593.jpg",
     "description": null,
     "wikidata_id": null,
@@ -6311,9 +8306,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma orbigniana"
+      ],
+      "en": [
+        "Geonoma orbigniana"
+      ],
+      "es": [
+        "Geonoma orbigniana"
+      ],
+      "fr": [
+        "Geonoma orbigniana"
+      ],
+      "it": [
+        "Geonoma orbigniana"
+      ],
+      "nl": [
+        "Geonoma orbigniana"
+      ],
+      "pl": [
+        "Geonoma orbigniana"
+      ],
+      "pt": [
+        "Geonoma orbigniana"
+      ],
+      "ru": [
+        "Geonoma orbigniana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6326,7 +8351,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d79bae7490f297d516599e527316e7a3.jpg",
     "description": null,
     "wikidata_id": null,
@@ -6405,9 +8430,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma poeppigiana"
+      ],
+      "en": [
+        "Geonoma poeppigiana"
+      ],
+      "es": [
+        "Geonoma poeppigiana"
+      ],
+      "fr": [
+        "Geonoma poeppigiana"
+      ],
+      "it": [
+        "Geonoma poeppigiana"
+      ],
+      "nl": [
+        "Geonoma poeppigiana"
+      ],
+      "pl": [
+        "Geonoma poeppigiana"
+      ],
+      "pt": [
+        "Geonoma poeppigiana"
+      ],
+      "ru": [
+        "Geonoma poeppigiana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6420,7 +8475,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/16b90748fcc9ae89490c38d7c9e3267b.jpg",
     "description": null,
     "wikidata_id": null,
@@ -6499,9 +8554,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma pohliana"
+      ],
+      "en": [
+        "Geonoma pohliana"
+      ],
+      "es": [
+        "Geonoma pohliana"
+      ],
+      "fr": [
+        "Geonoma pohliana"
+      ],
+      "it": [
+        "Geonoma pohliana"
+      ],
+      "nl": [
+        "Geonoma pohliana"
+      ],
+      "pl": [
+        "Geonoma pohliana"
+      ],
+      "pt": [
+        "Geonoma pohliana"
+      ],
+      "ru": [
+        "Geonoma pohliana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6514,7 +8599,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/d2045c349f902ea208ceaa6d9d1430c4e4eadedd",
     "description": null,
     "wikidata_id": null,
@@ -6593,9 +8678,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma schottiana"
+      ],
+      "en": [
+        "Geonoma schottiana",
+        "Guarika palm"
+      ],
+      "es": [
+        "Geonoma schottiana"
+      ],
+      "fr": [
+        "Geonoma schottiana"
+      ],
+      "it": [
+        "Geonoma schottiana"
+      ],
+      "nl": [
+        "Geonoma schottiana"
+      ],
+      "pl": [
+        "Geonoma schottiana"
+      ],
+      "pt": [
+        "Geonoma schottiana"
+      ],
+      "ru": [
+        "Geonoma schottiana"
+      ],
+      "zh": [
+        "史氏苇椰",
+        "史考特氏影棕"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6608,7 +8728,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/3e6499f394faface4c9f8ef96bac744acd0e4d43",
     "description": null,
     "wikidata_id": null,
@@ -6687,9 +8807,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma stricta"
+      ],
+      "en": [
+        "Geonoma stricta"
+      ],
+      "es": [
+        "Geonoma stricta"
+      ],
+      "fr": [
+        "Geonoma stricta"
+      ],
+      "it": [
+        "Geonoma stricta"
+      ],
+      "nl": [
+        "Geonoma stricta"
+      ],
+      "pl": [
+        "Geonoma stricta"
+      ],
+      "pt": [
+        "Geonoma stricta"
+      ],
+      "ru": [
+        "Geonoma stricta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6702,9 +8852,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/a92f3ee3956cf83ee00fb43614628c23d7aca0f0",
-    "description": null,
+    "description": "Geonoma undata is a species of medium-sized palm tree native to North and South America. It grows in the understory of tropical forests at high altitudes. This species has highly variable traits depending on its geographic location and several subspecies exist as a result.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6781,9 +8931,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geonoma undata"
+      ],
+      "en": [
+        "Geonoma undata",
+        "Red crownshaft palm"
+      ],
+      "es": [
+        "Geonoma undata"
+      ],
+      "fr": [
+        "Geonoma undata"
+      ],
+      "it": [
+        "Geonoma undata"
+      ],
+      "nl": [
+        "Geonoma undata"
+      ],
+      "pl": [
+        "Geonoma undata"
+      ],
+      "pt": [
+        "Geonoma undata"
+      ],
+      "ru": [
+        "Geonoma undata"
+      ],
+      "zh": [
+        "波状苇椰"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6796,7 +8980,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/82608ddf23a3f54fb7fa853322d2f2097e89caab",
     "description": null,
     "wikidata_id": null,
@@ -6875,9 +9059,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hyospathe elegans"
+      ],
+      "en": [
+        "Hyospathe elegans"
+      ],
+      "es": [
+        "Hyospathe elegans"
+      ],
+      "fr": [
+        "Hyospathe elegans"
+      ],
+      "it": [
+        "Hyospathe elegans"
+      ],
+      "nl": [
+        "Hyospathe elegans"
+      ],
+      "pl": [
+        "Hyospathe elegans"
+      ],
+      "pt": [
+        "Hyospathe elegans"
+      ],
+      "ru": [
+        "Hyospathe elegans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6890,7 +9104,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/38a87c1df91e3727fa134c70d52cca5f1365e001",
     "description": "Iriartea is a genus in the palm family Arecaceae. It is native to Central and northern and central South America. The genus includes only the one species, Iriartea deltoidea, which is found from Nicaragua, south into Bolivia and a great portion of the western Amazon basin. It is a common tree in many forests in which it occurs. This species is sometimes referred to as \"the devil's penis tree\" due to the resemblance of the tree's young prop roots to large, erect, black penises.",
     "wikidata_id": null,
@@ -6969,9 +9183,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Iriartea deltoidea"
+      ],
+      "en": [
+        "Iriartea deltoidea"
+      ],
+      "es": [
+        "Iriartea deltoidea"
+      ],
+      "fr": [
+        "Iriartea deltoidea"
+      ],
+      "it": [
+        "Iriartea deltoidea"
+      ],
+      "nl": [
+        "Iriartea deltoidea"
+      ],
+      "pl": [
+        "Iriartea deltoidea"
+      ],
+      "pt": [
+        "Iriartea"
+      ],
+      "ru": [
+        "Iriartea deltoidea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6984,9 +9228,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/fb9904ce7a61b89c157eb03ffd852c29.jpg",
-    "description": null,
+    "description": "Iriartella setigera is a species of palm found in northern South America. The Nukak people of Colombia use Iriartella setigera to fashion blowguns.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7063,9 +9307,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Iriartella setigera"
+      ],
+      "en": [
+        "Iriartella setigera"
+      ],
+      "es": [
+        "Iriartella setigera"
+      ],
+      "fr": [
+        "Iriartella setigera"
+      ],
+      "it": [
+        "Iriartella setigera"
+      ],
+      "nl": [
+        "Iriartella setigera"
+      ],
+      "pl": [
+        "Iriartella setigera"
+      ],
+      "pt": [
+        "Iriartella setigera"
+      ],
+      "ru": [
+        "Iriartella setigera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7078,9 +9352,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_102679_1_fullsize.jpg",
-    "description": null,
+    "description": "Iriartella stenocarpa is a species of palm found in northern South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7157,9 +9431,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Iriartella stenocarpa"
+      ],
+      "en": [
+        "Iriartella stenocarpa"
+      ],
+      "es": [
+        "Iriartella stenocarpa"
+      ],
+      "fr": [
+        "Iriartella stenocarpa"
+      ],
+      "it": [
+        "Iriartella stenocarpa"
+      ],
+      "nl": [
+        "Iriartella stenocarpa"
+      ],
+      "pl": [
+        "Iriartella stenocarpa"
+      ],
+      "pt": [
+        "Iriartella stenocarpa"
+      ],
+      "ru": [
+        "Iriartella stenocarpa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7172,7 +9476,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_110826_1_fullsize.jpg",
     "description": "Lepidocaryum is a monotypic genus of flowering plant in the palm family from South America where the lone species, Lepidocaryum tenue, is commonly called poktamui. Nine species names have been published, but palm taxonomists currently agree that just one variable species includes them all. The most reduced member of the Lepidocaryeae, it is similar in appearance to two closely related genera, Mauritia and Mauritiella, as well as to the former genus Lytocaryum.",
     "wikidata_id": null,
@@ -7251,9 +9555,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lepidocaryum tenue"
+      ],
+      "en": [
+        "Lepidocaryum tenue"
+      ],
+      "es": [
+        "Lepidocaryum tenue"
+      ],
+      "fr": [
+        "Lepidocaryum tenue"
+      ],
+      "it": [
+        "Lepidocaryum tenue"
+      ],
+      "nl": [
+        "Lepidocaryum"
+      ],
+      "pl": [
+        "Lepidocaryum tenue"
+      ],
+      "pt": [
+        "Lepidocaryum"
+      ],
+      "ru": [
+        "Lepidocaryum tenue"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7266,9 +9600,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/014971a3397458935a8b1ca222ecea035b3de39d",
-    "description": null,
+    "description": "Linospadix monostachyos known as the walking stick palm is a small palm growing in rainforest understorey in Queensland and New South Wales.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7345,11 +9679,20 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
+        "Linospadix monostachya",
+        "Walking stick palm",
         "Walking-stick palm"
+      ],
+      "zh": [
+        "单穗棕",
+        "密花轴榈",
+        "手杖椰"
       ]
     },
     "tags": [],
@@ -7364,9 +9707,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://res.cloudinary.com/dmvvh57hg/image/upload/plants/livistona_australis/inat_1.jpg",
-    "description": null,
+    "description": "Livistona australis, the cabbage-tree palm, is an Australian plant species in the family Arecaceae. It is a tall, slender palm growing up to about 25 m in height and 0.35 m diameter. It is crowned with dark, glossy green leaves on petioles 2 m long. It has leaves plaited like a fan; the terminal bud of these is small but sweet. In summer it bears flower spikes with sprigs of cream-white flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7413,7 +9756,7 @@
       "toxicity_note": null,
       "common_problems": null,
       "common_pests": null,
-      "watering_method": null,
+      "watering_method": "Top layer should be dry",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -7443,11 +9786,35 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "لخبة جنوبية"
+      ],
+      "de": [
+        "Australische Livingstonpalme"
+      ],
       "en": [
-        "Australian cabbage palm"
+        "Australian cabbage palm",
+        "Australian fan palm",
+        "Cabbage Tree Palm",
+        "Cabbage tree palm",
+        "Gippsland palm",
+        "Southern fan palm",
+        "cabbage-tree palm"
+      ],
+      "fr": [
+        "Palmier éventail australien"
+      ],
+      "pl": [
+        "Liwistona australijska"
+      ],
+      "zh": [
+        "南方蒲葵",
+        "澳洲蒲葵"
       ]
     },
     "tags": [],
@@ -7462,9 +9829,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/6d97349183c7e10c01df84ddd2c641fa63eee5e3",
-    "description": null,
+    "description": "Livistona humilis, the sand palm, is an Australian plant species of the family Arecaceae. It is a small, slender palm, growing to about 7 m tall and 5–8 cm dbh. It has 8 to 15 fan-shaped leaves, 30–50 cm long with petioles 40–70 cm long. It is endemic to the Top End of the Northern Territory in Australia. Genetic investigation suggests that its closest relative is Livistona inermis. This palm is fire tolerant and usually grows in environments where it is exposed to frequent fires.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7541,11 +9908,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Livistona humilis"
+      ],
       "en": [
-        "Cabbage palm"
+        "Cabbage palm",
+        "Livistona humilis"
+      ],
+      "es": [
+        "Livistona humilis"
+      ],
+      "fr": [
+        "Livistona humilis"
+      ],
+      "it": [
+        "Livistona humilis"
+      ],
+      "nl": [
+        "Livistona humilis"
+      ],
+      "pl": [
+        "Livistona humilis"
+      ],
+      "pt": [
+        "Livistona humilis"
+      ],
+      "ru": [
+        "Livistona humilis"
+      ],
+      "zh": [
+        "矮蒲葵"
       ]
     },
     "tags": [],
@@ -7560,9 +9957,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/2413575a25cb42726984ab6d079f7010dc3afcd2",
-    "description": null,
+    "description": "Manicaria is a palm genus which is found in Trinidad, Central and South America. It contains two accepted species:Manicaria martiana Burret – Colombia, northwestern Brazil\nManicaria saccifera Gaertn. – Central America, Trinidad, Venezuela, Colombia, Ecuador, Peru, northwestern Brazil",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7639,11 +10036,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Manicaria saccifera"
+      ],
       "en": [
+        "Manicaria saccifera",
         "Sea coconut"
+      ],
+      "es": [
+        "Manicaria saccifera"
+      ],
+      "fr": [
+        "Manicaria saccifera"
+      ],
+      "it": [
+        "Manicaria saccifera"
+      ],
+      "nl": [
+        "Manicaria saccifera"
+      ],
+      "pl": [
+        "Manicaria saccifera"
+      ],
+      "pt": [
+        "Ubuçu"
+      ],
+      "ru": [
+        "Manicaria saccifera"
       ]
     },
     "tags": [],
@@ -7658,9 +10082,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/988956e103bdc9b17eef17c4fdcfde4cca769628",
-    "description": null,
+    "description": "Mauritia flexuosa, known as the moriche palm, ité palm, ita, buriti, muriti, miriti (Brazil), canangucho (Colombia), morete or acho (Ecuador), palma real (Bolivia), or aguaje (Peru), is a palm tree. It grows in and near swamps and other wet areas in tropical South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7671,9 +10095,9 @@
     "synonyms": "[\"Mauritia setigera\", \"Mauritia minor\", \"Mauritia sagus\", \"Saguerus americanus\", \"Mauritia vinifera\", \"Mauritia flexuosa var. venezuelana\", \"Mauritia sphaerocarpa\"]",
     "care": {
       "plant_id": "mauritia_flexuosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -7737,11 +10161,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Buriti-Palme"
+      ],
       "en": [
+        "Mauritia flexuosa",
         "Tree-of-life"
+      ],
+      "es": [
+        "Mauritia flexuosa"
+      ],
+      "fr": [
+        "Mauritia flexuosa"
+      ],
+      "it": [
+        "Mauritia flexuosa"
+      ],
+      "ja": [
+        "オオミテングヤシ"
+      ],
+      "nl": [
+        "Mauritiuspalm"
+      ],
+      "pl": [
+        "Mauritia flexuosa"
+      ],
+      "pt": [
+        "Buriti"
+      ],
+      "ru": [
+        "Mauritia flexuosa"
+      ],
+      "zh": [
+        "曲叶矛榈"
       ]
     },
     "tags": [],
@@ -7756,9 +10213,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/18054ca7f643b2efe89ff54898b606c5611f647a",
-    "description": null,
+    "description": "Oenocarpus bacaba is an economically important monoecious fruiting palm native to South America and the Amazon rainforest, which has edible fruits. This plant is cited in Flora Brasiliensis by Carl Friedrich Philipp von Martius. It can reach up to 20–25 metres tall and 15–25 cm in diameter. It grows in well-drained sandy soils of the Amazon basin.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7835,11 +10292,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Oenocarpus bacaba"
+      ],
       "en": [
-        "Bacaba palm"
+        "Bacaba palm",
+        "Oenocarpus bacaba"
+      ],
+      "es": [
+        "Oenocarpus bacaba"
+      ],
+      "fr": [
+        "Oenocarpus bacaba"
+      ],
+      "it": [
+        "Oenocarpus bacaba"
+      ],
+      "nl": [
+        "Oenocarpus bacaba"
+      ],
+      "pl": [
+        "Oenocarpus bacaba"
+      ],
+      "pt": [
+        "Bacaba"
+      ],
+      "ru": [
+        "Oenocarpus bacaba"
+      ],
+      "zh": [
+        "酒果椰"
       ]
     },
     "tags": [],
@@ -7854,7 +10341,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/ccf5be9236fba61ebf6dbf05cc35e91a5e4430a0",
     "description": "Oenocarpus bataua, the patawa, sehe, hungurahua (Ecuador) or mingucha, is a palm tree native to the Amazon rainforest. The tree produces edible fruits rich in high-quality oil.",
     "wikidata_id": null,
@@ -7933,11 +10420,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Oenocarpus bataua"
+      ],
       "en": [
-        "Bataua palm"
+        "Bataua palm",
+        "Oenocarpus bataua"
+      ],
+      "es": [
+        "Oenocarpus bataua var. bataua"
+      ],
+      "fr": [
+        "Oenocarpus bataua"
+      ],
+      "it": [
+        "Oenocarpus bataua"
+      ],
+      "ja": [
+        "アマゾンココヤシ"
+      ],
+      "nl": [
+        "Oenocarpus bataua"
+      ],
+      "pl": [
+        "Oenocarpus bataua"
+      ],
+      "pt": [
+        "Patauá"
+      ],
+      "ru": [
+        "Oenocarpus bataua"
+      ],
+      "zh": [
+        "巴套阿酒实棕"
       ]
     },
     "tags": [],
@@ -7952,7 +10472,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/dbbf70515b6e2049bcd92f3a1c60a23572e4fe27",
     "description": null,
     "wikidata_id": null,
@@ -8031,9 +10551,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oenocarpus mapora"
+      ],
+      "en": [
+        "Oenocarpus mapora"
+      ],
+      "es": [
+        "Oenocarpus mapora"
+      ],
+      "fr": [
+        "Oenocarpus mapora"
+      ],
+      "it": [
+        "Oenocarpus mapora"
+      ],
+      "nl": [
+        "Oenocarpus mapora"
+      ],
+      "pl": [
+        "Oenocarpus mapora"
+      ],
+      "pt": [
+        "Oenocarpus mapora"
+      ],
+      "ru": [
+        "Oenocarpus mapora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8046,7 +10596,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1d9bfcfe32aee592ababde554310d619.jpg",
     "description": null,
     "wikidata_id": null,
@@ -8125,9 +10675,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oenocarpus minor"
+      ],
+      "en": [
+        "Oenocarpus minor"
+      ],
+      "es": [
+        "Oenocarpus minor"
+      ],
+      "fr": [
+        "Oenocarpus minor"
+      ],
+      "it": [
+        "Oenocarpus minor"
+      ],
+      "nl": [
+        "Oenocarpus minor"
+      ],
+      "pl": [
+        "Oenocarpus minor"
+      ],
+      "pt": [
+        "Oenocarpus minor"
+      ],
+      "ru": [
+        "Oenocarpus minor"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8140,7 +10720,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/ef4c8d5ad2165859246aeb4f5d1c72c19b6449c6",
     "description": "Phoenix dactylifera, commonly known as the date palm, is a flowering-plant species in the palm family Arecaceae, native to the region from the Gulf States to Pakistan. It is cultivated for its edible sweet fruit called dates. The species is widely cultivated across northern Africa, the Middle East, Australia, South and Southeast Asia, Portugal, Spain, coastal Mediterranean basin, and the desert regions of Southern California. It is naturalised in many tropical and subtropical regions worldwide.",
     "wikidata_id": null,
@@ -8153,17 +10733,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "phoenix_dactylifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8226,11 +10806,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "نخلة التمر"
+      ],
+      "de": [
+        "Echte Dattelpalme"
+      ],
       "en": [
-        "Date"
+        "Date",
+        "Phoenix dactylifera"
+      ],
+      "es": [
+        "Phoenix dactylifera"
+      ],
+      "fr": [
+        "Phoenix dactylifera"
+      ],
+      "hi": [
+        "खजूर"
+      ],
+      "it": [
+        "Phoenix dactylifera"
+      ],
+      "ja": [
+        "ナツメヤシ"
+      ],
+      "ko": [
+        "대추야자"
+      ],
+      "nl": [
+        "dadelpalm"
+      ],
+      "pl": [
+        "daktylowiec właściwy"
+      ],
+      "pt": [
+        "Tamareira"
+      ],
+      "ru": [
+        "финик пальчатый"
+      ],
+      "tr": [
+        "Phoenix Dactylifera (Arap Hurması)"
+      ],
+      "zh": [
+        "椰枣"
       ]
     },
     "tags": [],
@@ -8245,9 +10870,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/e58b71ae8319c769ead6548a70c86ae154f29564",
-    "description": "The fruits are drupes, but the endocarp (stone) is thin and papery. The flesh is thin but edible, although not very sweet or tasty.",
+    "description": "Phoenix reclinata, the wild date palm or Senegal date palm, is a species of flowering plant in the palm family native to tropical Africa, the Arabian Peninsula and Madagascar. It is introduced in Florida, Puerto Rico, Bermuda, Trinidad and Tobago, the Leeward Islands, Tunisia and Vietnam. The plants are found from sea level to 3000 m, in rain forest clearings, monsoonal forests and rocky mountainsides.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8258,17 +10883,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "phoenix_reclinata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8324,11 +10949,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "نخلة متدلية"
+      ],
+      "de": [
+        "Senegalesische Dattelpalme"
+      ],
       "en": [
+        "Phoenix reclinata",
         "Senegal date palm"
+      ],
+      "es": [
+        "Phoenix reclinata"
+      ],
+      "fr": [
+        "Phoenix reclinata"
+      ],
+      "it": [
+        "Phoenix reclinata"
+      ],
+      "ja": [
+        "カブダチソテツジュロ"
+      ],
+      "nl": [
+        "Phoenix reclinata"
+      ],
+      "pl": [
+        "Daktylowiec nagięty"
+      ],
+      "pt": [
+        "Tamareira-do-senegal"
+      ],
+      "ru": [
+        "Phoenix reclinata"
+      ],
+      "zh": [
+        "折叶海枣"
       ]
     },
     "tags": [],
@@ -8343,7 +11004,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_152727_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -8422,9 +11083,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pholidostachys synanthera"
+      ],
+      "en": [
+        "Pholidostachys synanthera"
+      ],
+      "es": [
+        "Pholidostachys synanthera"
+      ],
+      "fr": [
+        "Pholidostachys synanthera"
+      ],
+      "it": [
+        "Pholidostachys synanthera"
+      ],
+      "nl": [
+        "Pholidostachys synanthera"
+      ],
+      "pl": [
+        "Pholidostachys synanthera"
+      ],
+      "pt": [
+        "Pholidostachys synanthera"
+      ],
+      "ru": [
+        "Pholidostachys synanthera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8437,9 +11128,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/0042700ae28ef93ce4a195a524ebb43f28e19857",
-    "description": null,
+    "description": "Phytelephas macrocarpa is a single-stemmed, unarmed, reclining or erect palm from the extreme northern coastal regions of South America, growing to some 12 m tall. It has been introduced and cultivated in tropical regions all over the world. The trunk is about 30 cm across, with prominent leaf scars. The crown is made up of about 30 plume-like leaves or fronds, each about 8 m long, dead leaves being persistent.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8516,11 +11207,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phytelephas macrocarpa"
+      ],
       "en": [
-        "Ivory palm"
+        "Ivory palm",
+        "Phytelephas macrocarpa"
+      ],
+      "es": [
+        "Phytelephas macrocarpa"
+      ],
+      "fr": [
+        "Phytelephas macrocarpa"
+      ],
+      "it": [
+        "Phytelephas macrocarpa"
+      ],
+      "nl": [
+        "Phytelephas macrocarpa"
+      ],
+      "pl": [
+        "słoniak wielkoowocowy"
+      ],
+      "pt": [
+        "Phytelephas macrocarpa"
+      ],
+      "ru": [
+        "Phytelephas macrocarpa"
       ]
     },
     "tags": [],
@@ -8535,9 +11253,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_155987_1_fullsize.jpg",
-    "description": null,
+    "description": "Phytelephas tenuicaulis is a species of palm in the genus Phytelephas.\nThe compound leaves are around 7 meters in length, with stem diameters of 10 cm. Brown, ovulate fruits of about 6 cm are produced. Palms of the Phytelephas genus are also referred to as vegetable ivory palms.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8614,9 +11332,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phytelephas tenuicaulis"
+      ],
+      "en": [
+        "Phytelephas tenuicaulis"
+      ],
+      "es": [
+        "Phytelephas tenuicaulis"
+      ],
+      "fr": [
+        "Phytelephas tenuicaulis"
+      ],
+      "it": [
+        "Phytelephas tenuicaulis"
+      ],
+      "nl": [
+        "Phytelephas tenuicaulis"
+      ],
+      "pl": [
+        "Phytelephas tenuicaulis"
+      ],
+      "pt": [
+        "Phytelephas tenuicaulis"
+      ],
+      "ru": [
+        "Phytelephas tenuicaulis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8629,9 +11377,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/459155d25eebc1f1d3765f1c72594e2d1d3f25a2",
-    "description": null,
+    "description": "Prestoea acuminata is a species of palm tree native to Central America, the West Indies and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8708,11 +11456,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Prestoea acuminata"
+      ],
       "en": [
+        "Prestoea acuminata",
         "Sierran palm"
+      ],
+      "es": [
+        "Prestoea acuminata"
+      ],
+      "fr": [
+        "Prestoea acuminata"
+      ],
+      "it": [
+        "Prestoea acuminata"
+      ],
+      "nl": [
+        "Prestoea acuminata"
+      ],
+      "pl": [
+        "Prestoea acuminata"
+      ],
+      "pt": [
+        "Prestoea acuminata"
+      ],
+      "ru": [
+        "Prestoea acuminata"
       ]
     },
     "tags": [],
@@ -8727,7 +11502,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_165298_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -8806,9 +11581,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Prestoea schultzeana"
+      ],
+      "en": [
+        "Prestoea schultzeana"
+      ],
+      "es": [
+        "Prestoea schultzeana"
+      ],
+      "fr": [
+        "Prestoea schultzeana"
+      ],
+      "it": [
+        "Prestoea schultzeana"
+      ],
+      "nl": [
+        "Prestoea schultzeana"
+      ],
+      "pl": [
+        "Prestoea schultzeana"
+      ],
+      "pt": [
+        "Prestoea schultzeana"
+      ],
+      "ru": [
+        "Prestoea schultzeana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8821,9 +11626,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/4823403c19c060837bb42136eff9f0a5e83dc210",
-    "description": null,
+    "description": "Rhopalostylis sapida, commonly known as nīkau, is a palm tree endemic to New Zealand, and the only palm native to mainland New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8900,11 +11705,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Nikau-Palme"
+      ],
       "en": [
-        "Nikau palm"
+        "Nikau palm",
+        "Rhopalostylis sapida"
+      ],
+      "es": [
+        "Rhopalostylis sapida"
+      ],
+      "fr": [
+        "Rhopalostylis sapida"
+      ],
+      "it": [
+        "Rhopalostylis sapida"
+      ],
+      "ja": [
+        "ニカウ"
+      ],
+      "nl": [
+        "Rhopalostylis sapida"
+      ],
+      "pl": [
+        "Rhopalostylis sapida"
+      ],
+      "pt": [
+        "Rhopalostylis sapida"
+      ],
+      "ru": [
+        "Ропалостилис вкусный"
       ]
     },
     "tags": [],
@@ -8919,9 +11754,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/27d440bf8cd14502003b04e96b5475f2a90b4896",
-    "description": "Round  .5 inch fleshy shiny drupe with one seed. Green maturing to purple/black. Displays from August to November",
+    "description": "Sabal mauritiiformis, commonly known as the Savannah palm, is a species of flowering plant in the family Arecaceae. It grows in Mexico, Central America, Colombia, Venezuela and Trinidad.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9000,11 +11835,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sabal mauritiiformis"
+      ],
       "en": [
+        "Sabal mauritiiformis",
         "Trinidad palm"
+      ],
+      "es": [
+        "Sabal mauritiiformis"
+      ],
+      "fr": [
+        "Sabal mauritiiformis"
+      ],
+      "it": [
+        "Sabal mauritiiformis"
+      ],
+      "nl": [
+        "Sabal mauritiiformis"
+      ],
+      "pl": [
+        "Sabal mauritiiformis"
+      ],
+      "pt": [
+        "Sabal mauritiiformis"
+      ],
+      "ru": [
+        "Sabal mauritiiformis"
       ]
     },
     "tags": [],
@@ -9019,9 +11881,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/efbba0840532cbe2ea36faba0294898abf7b4a45",
-    "description": "Round  .5 inch fleshy shiny drupe with one seed. Green maturing to purple/black. Displays from August to November",
+    "description": "Sabal mexicana is a species of palm tree that is native to far southern North America. Common names include Rio Grande palmetto, Mexican palmetto, Texas palmetto, Texas sabal palm, palmetto cabbage and palma de mícharos. The specific epithet, \"mexicana\", is Latin for \"of Mexico.\"",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9100,11 +11962,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سبال مكسيكي"
+      ],
+      "de": [
+        "Sabal mexicana"
+      ],
       "en": [
+        "Sabal mexicana",
         "Texas palmetto"
+      ],
+      "es": [
+        "Sabal mexicana"
+      ],
+      "fr": [
+        "Sabal mexicana"
+      ],
+      "it": [
+        "Sabal mexicana"
+      ],
+      "ja": [
+        "メキシコサバル"
+      ],
+      "nl": [
+        "Sabal mexicana"
+      ],
+      "pl": [
+        "Sabal mexicana"
+      ],
+      "pt": [
+        "Sabal mexicana"
+      ],
+      "ru": [
+        "Sabal mexicana"
       ]
     },
     "tags": [],
@@ -9119,9 +12014,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/827cd84c96908478a04319b69ab78e739ffee504",
-    "description": "Round  .5 inch fleshy shiny drupe with one seed. Green maturing to purple/black. Displays from August to November",
+    "description": "Sabal minor, commonly known as the dwarf palmetto, is a small species of palm. It is native to the deep southeastern and south-central United States and northeastern Mexico. It is naturally found in a diversity of habitats, including maritime forests, swamps, floodplains, and occasionally on drier sites. It is often found growing in calcareous marl soil. Sabal minor is one of the most frost and cold tolerant among North American palms.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9200,11 +12095,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سبال صغير"
+      ],
+      "de": [
+        "Zwergpalmettopalme"
+      ],
       "en": [
-        "Bush palmetto"
+        "Bush palmetto",
+        "Sabal minor"
+      ],
+      "es": [
+        "Sabal minor"
+      ],
+      "fr": [
+        "Sabal minor"
+      ],
+      "it": [
+        "Sabal minor"
+      ],
+      "nl": [
+        "Sabal minor"
+      ],
+      "pl": [
+        "Palma sabalowa"
+      ],
+      "pt": [
+        "Sabal minor"
+      ],
+      "ru": [
+        "Sabal minor"
+      ],
+      "tr": [
+        "Cüce Sabal palmiyesi"
+      ],
+      "zh": [
+        "矮菜棕"
       ]
     },
     "tags": [],
@@ -9219,7 +12150,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/8c8918b2937a15014dfe930e75b37ad2d8e974ef",
     "description": "Sabal palmetto, also known as cabbage palm, cabbage palmetto, sabal palm, palmetto palm, blue palmetto, Carolina palmetto, common palmetto, and swamp cabbage, is one of 15 species of palmetto palm.\nIt is native to the Southeast United States, the Yucatán Peninsula in Mexico, and the West Indies.",
     "wikidata_id": null,
@@ -9232,9 +12163,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "sabal_palmetto",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -9303,11 +12234,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سبال نخيلي"
+      ],
+      "de": [
+        "Palmettopalme"
+      ],
       "en": [
-        "Blue palmetto"
+        "Blue palmetto",
+        "Sabal palmetto"
+      ],
+      "es": [
+        "Sabal palmetto"
+      ],
+      "fr": [
+        "Sabal palmetto"
+      ],
+      "it": [
+        "Sabal palmetto"
+      ],
+      "ja": [
+        "キューバサバル"
+      ],
+      "nl": [
+        "Sabal palmetto"
+      ],
+      "pl": [
+        "Sabal palmetto"
+      ],
+      "pt": [
+        "Sabal palmetto"
+      ],
+      "ru": [
+        "Sabal palmetto"
+      ],
+      "tr": [
+        "Lahana palmiyesi"
+      ],
+      "zh": [
+        "菜棕"
       ]
     },
     "tags": [],
@@ -9322,9 +12292,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/fe92f6b30bbc6711980385ab4a8950a6fc0a1e24",
-    "description": "Round  .5 inch fleshy shiny drupe with one seed. Green maturing to purple/black. Displays from August to November",
+    "description": "Sabal yapa is a species of palm that grows in Belize, Guatemala, western Cuba, and the Yucatan Peninsula region of Mexico. It prefers limestone-based calcareous soils. It is often described as a palmetto palm as it has costapalmate fronds, which are a transition phase between fan palms and feather-leaved palms.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9403,11 +12373,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سبال اليابا"
+      ],
+      "de": [
+        "Sabal yapa"
+      ],
       "en": [
+        "Sabal yapa",
         "Thatch palm"
+      ],
+      "es": [
+        "Sabal yapa"
+      ],
+      "fr": [
+        "Sabal yapa"
+      ],
+      "it": [
+        "Sabal yapa"
+      ],
+      "nl": [
+        "Sabal yapa"
+      ],
+      "pl": [
+        "Sabal yapa"
+      ],
+      "pt": [
+        "Sabal yapa"
+      ],
+      "ru": [
+        "Sabal yapa"
       ]
     },
     "tags": [],
@@ -9422,7 +12422,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/ed808d6e02c1840acd31dc5c641f67651d17a290",
     "description": "The fruit is a yellowish drupe that matures to black in Aug through Oct. It is 0.5 to 1 inch across and longer than it is wide.",
     "wikidata_id": null,
@@ -9503,11 +12503,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بلميط منشاري"
+      ],
+      "de": [
+        "Sägepalme"
+      ],
       "en": [
-        "Saw palmetto"
+        "Saw palmetto",
+        "Serenoa repens"
+      ],
+      "es": [
+        "Serenoa"
+      ],
+      "fr": [
+        "Serenoa repens"
+      ],
+      "it": [
+        "Serenoa repens"
+      ],
+      "ja": [
+        "ノコギリヤシ"
+      ],
+      "nl": [
+        "Serenoa repens"
+      ],
+      "pl": [
+        "Serenoa repens"
+      ],
+      "pt": [
+        "Serenoa repens"
+      ],
+      "ru": [
+        "Сереноя"
+      ],
+      "tr": [
+        "Cüce Palmiye"
+      ],
+      "zh": [
+        "鋸棕櫚"
       ]
     },
     "tags": [],
@@ -9522,7 +12561,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/6b8d407c4b7847fd9fc867677527e4b2b79353f5",
     "description": "Socratea exorrhiza, the walking palm or cashapona, is a palm native to rainforests in tropical Central and South America. It can grow to 25 metres in height, with a stem diameter of up to 16 cm, but is more typically 15–20 m tall and 12 cm in diameter. It has unusual stilt roots, the function of which has been debated. Many species of epiphyte have been found growing on the palms. The palm is pollinated by beetles, and various organisms eat its seeds or seedlings.",
     "wikidata_id": null,
@@ -9601,9 +12640,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سوقراطيا إيكزورهيزا"
+      ],
+      "de": [
+        "Socratea exorrhiza"
+      ],
+      "en": [
+        "Socratea exorrhiza"
+      ],
+      "es": [
+        "Socratea exorrhiza"
+      ],
+      "fr": [
+        "Socratea exorrhiza"
+      ],
+      "it": [
+        "Socratea exorrhiza"
+      ],
+      "nl": [
+        "Socratea exorrhiza"
+      ],
+      "pl": [
+        "Socratea exorrhiza"
+      ],
+      "pt": [
+        "Socratea exorrhiza"
+      ],
+      "ru": [
+        "Socratea exorrhiza"
+      ],
+      "tr": [
+        "Yürüyen palmiye"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9616,9 +12691,9 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/8e50a0d3ed7afd7096da44d738dd2149609813e9",
-    "description": null,
+    "description": "Syagrus romanzoffiana, the queen palm, cocos palm or Jerivá, is a palm native to South America, introduced throughout the world as a popular ornamental garden tree. S. romanzoffiana is a medium-sized palm, quickly reaching maturity at a height of up to 15 m (49 ft) tall, with pinnate leaves having as many as 494 pinnae (leaflets), although more typically around 300, each pinna being around 50 centimetres (18 in) in length and 3–5 centimetres (1–2 in) in width.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9695,11 +12770,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Syagrus romanzoffiana"
+      ],
       "en": [
-        "Giriba palm"
+        "Giriba palm",
+        "Syagrus romanzoffiana"
+      ],
+      "es": [
+        "Syagrus romanzoffiana"
+      ],
+      "fr": [
+        "Syagrus romanzoffiana"
+      ],
+      "it": [
+        "Syagrus romanzoffiana"
+      ],
+      "nl": [
+        "Syagrus romanzoffiana"
+      ],
+      "pl": [
+        "Syagrus romanzoffiana"
+      ],
+      "pt": [
+        "Jerivá"
+      ],
+      "ru": [
+        "Сиагрус Романцова"
+      ],
+      "tr": [
+        "Kraliçe palmiye"
+      ],
+      "zh": [
+        "金山葵"
       ]
     },
     "tags": [],
@@ -9714,7 +12822,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/e06f17a38e9bc6026599268121411ea26fe2c6a5",
     "description": null,
     "wikidata_id": null,
@@ -9793,9 +12901,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Synechanthus warscewiczianus"
+      ],
+      "en": [
+        "Synechanthus warscewiczianus"
+      ],
+      "es": [
+        "Synechanthus warscewiczianus"
+      ],
+      "fr": [
+        "Synechanthus warscewiczianus"
+      ],
+      "it": [
+        "Synechanthus warscewiczianus"
+      ],
+      "nl": [
+        "Synechanthus warscewiczianus"
+      ],
+      "pl": [
+        "Synechanthus warscewiczianus"
+      ],
+      "pt": [
+        "Synechanthus warscewiczianus"
+      ],
+      "ru": [
+        "Synechanthus warscewiczianus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9808,7 +12946,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/82b8c409d2c357a7dad0cf48eda3ebba27c30018",
     "description": null,
     "wikidata_id": null,
@@ -9887,11 +13025,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Thrinax radiata"
+      ],
       "en": [
-        "Florida thatch"
+        "Florida thatch",
+        "Thrinax radiata"
+      ],
+      "es": [
+        "Thrinax radiata"
+      ],
+      "fr": [
+        "Thrinax radiata"
+      ],
+      "it": [
+        "Thrinax radiata"
+      ],
+      "ja": [
+        "フロリダサッチパーム"
+      ],
+      "nl": [
+        "Thrinax radiata"
+      ],
+      "pl": [
+        "Thrinax radiata"
+      ],
+      "pt": [
+        "Thrinax radiata"
+      ],
+      "ru": [
+        "Thrinax radiata"
       ]
     },
     "tags": [],
@@ -9906,7 +13074,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/ca9293b6e5fba4a6731160ea72dfa176ba89d35f",
     "description": "Dark blue to almost black fleshy fruits appear in the form of drupes.  Each contain 1 seed.",
     "wikidata_id": null,
@@ -9985,11 +13153,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نغبول"
+      ],
+      "de": [
+        "Chinesische Hanfpalme"
+      ],
       "en": [
-        "Chinese windmill palm"
+        "Chinese windmill palm",
+        "Trachycarpus fortunei"
+      ],
+      "es": [
+        "Trachycarpus fortunei"
+      ],
+      "fr": [
+        "Trachycarpus fortunei"
+      ],
+      "it": [
+        "Trachycarpus fortunei"
+      ],
+      "ja": [
+        "シュロ"
+      ],
+      "ko": [
+        "당종려"
+      ],
+      "nl": [
+        "Trachycarpus fortunei"
+      ],
+      "pl": [
+        "szorstkowiec Fortunego"
+      ],
+      "pt": [
+        "Trachycarpus fortunei"
+      ],
+      "ru": [
+        "Trachycarpus fortunei"
+      ],
+      "tr": [
+        "Telli Palmiye"
+      ],
+      "zh": [
+        "棕榈"
       ]
     },
     "tags": [],
@@ -10004,7 +13214,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/60456cba058eee72b81b3dc5113beeb617c85906",
     "description": "Many black pea-sized fruits are produced. Birds will eat the fruits and disperse the seeds (which is how the palm has naturalized outside its native habitat).",
     "wikidata_id": null,
@@ -10083,11 +13293,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "واشنطونية خيطية"
+      ],
+      "de": [
+        "Kalifornische Washingtonpalme"
+      ],
       "en": [
-        "California fan palm"
+        "California fan palm",
+        "Washingtonia filifera"
+      ],
+      "es": [
+        "Washingtonia filifera"
+      ],
+      "fr": [
+        "Washingtonia filifera"
+      ],
+      "it": [
+        "Washingtonia filifera"
+      ],
+      "ja": [
+        "ワシントンヤシ"
+      ],
+      "ko": [
+        "워싱턴야자"
+      ],
+      "nl": [
+        "Washingtonia filifera"
+      ],
+      "pl": [
+        "Waszyngtonia nitkowata"
+      ],
+      "pt": [
+        "Washingtonia filifera"
+      ],
+      "ru": [
+        "Washingtonia filifera"
+      ],
+      "tr": [
+        "Çöl yelpaze palmiyesi"
+      ],
+      "zh": [
+        "华盛顿棕榈"
       ]
     },
     "tags": [],
@@ -10102,7 +13354,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/9108fe96ccf3abf01dcdc76478792dcf1ee6f745",
     "description": "Many black pea-sized fruits are produced. Birds will eat the fruits and disperse the seeds (which is how the palm has naturalized outside its native habitat).",
     "wikidata_id": null,
@@ -10181,11 +13433,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "واشنطونية متينة"
+      ],
+      "de": [
+        "Mexikanische Washingtonpalme"
+      ],
       "en": [
-        "Mexican washington palm"
+        "Mexican washington palm",
+        "Washingtonia robusta"
+      ],
+      "es": [
+        "Washingtonia robusta"
+      ],
+      "fr": [
+        "Washingtonia robusta"
+      ],
+      "it": [
+        "Washingtonia robusta"
+      ],
+      "ja": [
+        "ワシントンヤシモドキ"
+      ],
+      "nl": [
+        "Washingtonia robusta"
+      ],
+      "pl": [
+        "Washingtonia robusta"
+      ],
+      "pt": [
+        "Washingtonia robusta"
+      ],
+      "ru": [
+        "Washingtonia robusta"
+      ],
+      "tr": [
+        "Washingtonia Robusta"
+      ],
+      "zh": [
+        "大丝葵"
       ]
     },
     "tags": [],
@@ -10200,7 +13491,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/9fbf0ef5eea2ac1688c318dd9ff493c6.jpg",
     "description": null,
     "wikidata_id": null,
@@ -10279,9 +13570,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Welfia regia"
+      ],
+      "en": [
+        "Welfia regia"
+      ],
+      "es": [
+        "Welfia regia"
+      ],
+      "fr": [
+        "Welfia regia"
+      ],
+      "it": [
+        "Welfia regia"
+      ],
+      "nl": [
+        "Welfia regia"
+      ],
+      "pl": [
+        "Welfia regia"
+      ],
+      "pt": [
+        "Welfia"
+      ],
+      "ru": [
+        "Welfia regia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10294,7 +13615,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_214631_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -10373,9 +13694,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Wettinia augusta"
+      ],
+      "en": [
+        "Wettinia augusta"
+      ],
+      "es": [
+        "Wettinia augusta"
+      ],
+      "fr": [
+        "Wettinia augusta"
+      ],
+      "it": [
+        "Wettinia augusta"
+      ],
+      "nl": [
+        "Wettinia augusta"
+      ],
+      "pl": [
+        "Wettinia augusta"
+      ],
+      "pt": [
+        "Wettinia augusta"
+      ],
+      "ru": [
+        "Wettinia augusta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10388,7 +13739,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_214635_1_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -10467,9 +13818,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Wettinia drudei"
+      ],
+      "en": [
+        "Wettinia drudei"
+      ],
+      "es": [
+        "Wettinia drudei"
+      ],
+      "fr": [
+        "Wettinia drudei"
+      ],
+      "it": [
+        "Wettinia drudei"
+      ],
+      "nl": [
+        "Wettinia drudei"
+      ],
+      "pl": [
+        "Wettinia drudei"
+      ],
+      "pt": [
+        "Wettinia drudei"
+      ],
+      "ru": [
+        "Wettinia drudei"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10482,7 +13863,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://storage.googleapis.com/powop-assets/palmweb/palm_tc_214650_2_fullsize.jpg",
     "description": null,
     "wikidata_id": null,
@@ -10561,9 +13942,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Wettinia quinaria"
+      ],
+      "en": [
+        "Wettinia quinaria"
+      ],
+      "es": [
+        "Wettinia quinaria"
+      ],
+      "fr": [
+        "Wettinia quinaria"
+      ],
+      "it": [
+        "Wettinia quinaria"
+      ],
+      "nl": [
+        "Wettinia quinaria"
+      ],
+      "pl": [
+        "Wettinia quinaria"
+      ],
+      "pt": [
+        "Wettinia quinaria"
+      ],
+      "ru": [
+        "Wettinia quinaria"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

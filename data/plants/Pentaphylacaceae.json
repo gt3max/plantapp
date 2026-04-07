@@ -5,12 +5,12 @@
     "family": "Pentaphylacaceae",
     "genus": "Cleyera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e1f3612fd1c7f8dbb684c091a312e072666d38cb",
-    "description": "Pea-sized berry, red ripening to black.",
+    "description": "Cleyera japonica (sakaki) is a flowering evergreen tree native to warm areas of Japan, Taiwan, China, Myanmar, Nepal, and northern India. It can reach a height of 10 m (33 ft). The leaves are 6–10 cm (2.4–3.9 in) long, smooth, oval, leathery, shiny and dark green above, yellowish-green below, with deep furrows for the leaf stem. The bark is dark reddish brown and smooth.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كلييرا جابونيكا (ساكاكي)"
+      ],
+      "de": [
+        "Sperrstrauch"
+      ],
       "en": [
+        "Cleyera japonica",
         "Sakaki"
+      ],
+      "es": [
+        "Cleyera japonica"
+      ],
+      "fr": [
+        "Sakaki"
+      ],
+      "it": [
+        "Cleyera japonica"
+      ],
+      "ja": [
+        "サカキ"
+      ],
+      "ko": [
+        "비쭈기나무"
+      ],
+      "nl": [
+        "Cleyera japonica"
+      ],
+      "pl": [
+        "Cleyera japonica"
+      ],
+      "pt": [
+        "Cleyera japonica"
+      ],
+      "ru": [
+        "Сакаки"
+      ],
+      "zh": [
+        "紅淡比"
       ]
     },
     "tags": [],
@@ -103,7 +142,7 @@
     "family": "Pentaphylacaceae",
     "genus": "Eurya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,9 +224,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eurya acuminata"
+      ],
+      "en": [
+        "Eurya acuminata"
+      ],
+      "es": [
+        "Eurya acuminata"
+      ],
+      "fr": [
+        "Eurya acuminata"
+      ],
+      "it": [
+        "Eurya acuminata"
+      ],
+      "nl": [
+        "Eurya acuminata"
+      ],
+      "pl": [
+        "Eurya acuminata"
+      ],
+      "pt": [
+        "Eurya acuminata"
+      ],
+      "ru": [
+        "Eurya acuminata"
+      ],
+      "zh": [
+        "尾尖叶柃"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,7 +269,7 @@
     "family": "Pentaphylacaceae",
     "genus": "Eurya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -279,9 +351,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eurya chinensis"
+      ],
+      "en": [
+        "Eurya chinensis"
+      ],
+      "es": [
+        "Eurya chinensis"
+      ],
+      "fr": [
+        "Eurya chinensis"
+      ],
+      "it": [
+        "Eurya chinensis"
+      ],
+      "nl": [
+        "Eurya chinensis"
+      ],
+      "pl": [
+        "Eurya chinensis"
+      ],
+      "pt": [
+        "Eurya chinensis"
+      ],
+      "ru": [
+        "Eurya chinensis"
+      ],
+      "zh": [
+        "米碎柃木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -291,7 +396,7 @@
     "family": "Pentaphylacaceae",
     "genus": "Eurya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -373,9 +478,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eurya emarginata"
+      ],
+      "en": [
+        "Eurya emarginata"
+      ],
+      "es": [
+        "Eurya emarginata"
+      ],
+      "fr": [
+        "Eurya emarginata"
+      ],
+      "it": [
+        "Eurya emarginata"
+      ],
+      "ja": [
+        "ハマヒサカキ"
+      ],
+      "ko": [
+        "우묵사스레피"
+      ],
+      "nl": [
+        "Eurya emarginata"
+      ],
+      "pl": [
+        "Eurya emarginata"
+      ],
+      "pt": [
+        "Eurya emarginata"
+      ],
+      "ru": [
+        "Eurya emarginata"
+      ],
+      "zh": [
+        "凹葉柃木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -385,7 +529,7 @@
     "family": "Pentaphylacaceae",
     "genus": "Eurya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -467,9 +611,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eurya japonica"
+      ],
+      "en": [
+        "Eurya japonica"
+      ],
+      "es": [
+        "Eurya japonica"
+      ],
+      "fr": [
+        "Eurya japonica"
+      ],
+      "it": [
+        "Eurya japonica"
+      ],
+      "ja": [
+        "ヒサカキ"
+      ],
+      "ko": [
+        "사스레피나무"
+      ],
+      "nl": [
+        "Eurya japonica"
+      ],
+      "pl": [
+        "Eurya japonica"
+      ],
+      "pt": [
+        "Eurya japonica"
+      ],
+      "ru": [
+        "Eurya japonica"
+      ],
+      "zh": [
+        "柃木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -479,7 +662,7 @@
     "family": "Pentaphylacaceae",
     "genus": "Eurya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -561,9 +744,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eurya loquaiana"
+      ],
+      "en": [
+        "Eurya loquaiana"
+      ],
+      "es": [
+        "Eurya loquaiana"
+      ],
+      "fr": [
+        "Eurya loquaiana"
+      ],
+      "it": [
+        "Eurya loquaiana"
+      ],
+      "nl": [
+        "Eurya loquaiana"
+      ],
+      "pl": [
+        "Eurya loquaiana"
+      ],
+      "pt": [
+        "Eurya loquaiana"
+      ],
+      "ru": [
+        "Eurya loquaiana"
+      ],
+      "zh": [
+        "细枝柃"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -573,7 +789,7 @@
     "family": "Pentaphylacaceae",
     "genus": "Eurya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -655,9 +871,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eurya nitida"
+      ],
+      "en": [
+        "Eurya nitida"
+      ],
+      "es": [
+        "Eurya nitida"
+      ],
+      "fr": [
+        "Eurya nitida"
+      ],
+      "it": [
+        "Eurya nitida"
+      ],
+      "nl": [
+        "Eurya nitida"
+      ],
+      "pl": [
+        "Eurya nitida"
+      ],
+      "pt": [
+        "Eurya nitida"
+      ],
+      "ru": [
+        "Eurya nitida"
+      ],
+      "zh": [
+        "光葉柃木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -667,7 +916,7 @@
     "family": "Pentaphylacaceae",
     "genus": "Ternstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -749,9 +998,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ternstroemia brasiliensis"
+      ],
+      "en": [
+        "Ternstroemia brasiliensis"
+      ],
+      "es": [
+        "Ternstroemia brasiliensis"
+      ],
+      "fr": [
+        "Ternstroemia brasiliensis"
+      ],
+      "it": [
+        "Ternstroemia brasiliensis"
+      ],
+      "nl": [
+        "Ternstroemia brasiliensis"
+      ],
+      "pl": [
+        "Ternstroemia brasiliensis"
+      ],
+      "pt": [
+        "Ternstroemia brasiliensis"
+      ],
+      "ru": [
+        "Ternstroemia brasiliensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -761,7 +1040,7 @@
     "family": "Pentaphylacaceae",
     "genus": "Ternstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -848,11 +1127,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ternstroemia gymnanthera"
+      ],
       "en": [
-        "Japanese ternstroemia"
+        "Japanese ternstroemia",
+        "Ternstroemia gymnanthera"
+      ],
+      "es": [
+        "Ternstroemia gymnanthera"
+      ],
+      "fr": [
+        "Ternstroemia gymnanthera"
+      ],
+      "it": [
+        "Ternstroemia gymnanthera"
+      ],
+      "ja": [
+        "モッコク"
+      ],
+      "ko": [
+        "후피향나무"
+      ],
+      "nl": [
+        "Ternstroemia gymnanthera"
+      ],
+      "pl": [
+        "Ternstroemia gymnanthera"
+      ],
+      "pt": [
+        "Ternstroemia gymnanthera"
+      ],
+      "ru": [
+        "Ternstroemia gymnanthera"
+      ],
+      "zh": [
+        "厚皮香"
       ]
     },
     "tags": [],
@@ -864,7 +1179,7 @@
     "family": "Pentaphylacaceae",
     "genus": "Ternstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -946,9 +1261,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ternstroemia lineata"
+      ],
+      "en": [
+        "Ternstroemia lineata"
+      ],
+      "es": [
+        "Ternstroemia lineata"
+      ],
+      "fr": [
+        "Ternstroemia lineata"
+      ],
+      "it": [
+        "Ternstroemia lineata"
+      ],
+      "nl": [
+        "Ternstroemia lineata"
+      ],
+      "pl": [
+        "Ternstroemia lineata"
+      ],
+      "pt": [
+        "Ternstroemia lineata"
+      ],
+      "ru": [
+        "Ternstroemia lineata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -958,7 +1303,7 @@
     "family": "Pentaphylacaceae",
     "genus": "Ternstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1045,9 +1390,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ternstroemia tepezapote"
+      ],
+      "en": [
+        "Ternstroemia tepezapote"
+      ],
+      "es": [
+        "Ternstroemia tepezapote"
+      ],
+      "fr": [
+        "Ternstroemia tepezapote"
+      ],
+      "it": [
+        "Ternstroemia tepezapote"
+      ],
+      "nl": [
+        "Ternstroemia tepezapote"
+      ],
+      "pl": [
+        "Ternstroemia tepezapote"
+      ],
+      "pt": [
+        "Ternstroemia tepezapote"
+      ],
+      "ru": [
+        "Ternstroemia tepezapote"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

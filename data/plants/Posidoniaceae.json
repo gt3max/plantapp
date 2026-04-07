@@ -5,12 +5,12 @@
     "family": "Posidoniaceae",
     "genus": "Posidonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2bffadd39f45a0e74186661cd0333a51f24866d7",
-    "description": null,
+    "description": "Posidonia oceanica, commonly known as Neptune grass or Mediterranean tapeweed, is a seagrass species that is endemic to the Mediterranean Sea. It forms large underwater meadows that are an important part of the ecosystem. The fruit is free floating and known in Italy as \"the olive of the sea\". Balls of fibrous material from its foliage, known as egagropili or Neptune balls, wash up to nearby shorelines.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "posidonia_oceanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,7 +87,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 5.7
     },
     "common_names": {
       "en": [

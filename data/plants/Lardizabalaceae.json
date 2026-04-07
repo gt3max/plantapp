@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/55aee05fd637b574a024404b19e296059c7a904c",
-    "description": "4 inch long fleshy ovoid cucumber-shaped purple fruit which split open in the fall to reveal edible white flesh, similar to dragon fruit, and tiny black seeds.",
+    "description": "Akebia quinata –commonly known as akebi (木通), chocolate vine, five-leaf chocolate vine, or five-leaf akebia– is a vine that is native to Japan, China and Korea, commonly used as an ornamental or edible plant in the United States and Europe. In its native habitat, it is often found on hills, in hedges, on trees, along forest edges and streams, and on mountainous slopes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -93,11 +93,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أكيبيا كويناتا"
+      ],
+      "de": [
+        "Fingerblättrige Akebie"
+      ],
       "en": [
+        "Akebia quinata",
         "Chocolate vine"
+      ],
+      "es": [
+        "Akebia quinata"
+      ],
+      "fr": [
+        "Akebia quinata"
+      ],
+      "it": [
+        "Akebia quinata"
+      ],
+      "ja": [
+        "アケビ"
+      ],
+      "ko": [
+        "으름덩굴"
+      ],
+      "nl": [
+        "Akebia quinata"
+      ],
+      "pl": [
+        "Akebia pięciolistkowa"
+      ],
+      "pt": [
+        "Akebia quinata"
+      ],
+      "ru": [
+        "Акебия пятерная"
+      ],
+      "zh": [
+        "五葉木通"
       ]
     },
     "tags": [],
@@ -114,7 +153,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/04d45e58cc8cda7c58fa5c8bcd0d1de9247146b7",
-    "description": "4 inch long fleshy ovoid cucumber-shaped purple fruit which split open in the fall to reveal edible white flesh, similar to dragon fruit, and tiny black seeds.",
+    "description": "Akebia trifoliata also known as chocolate vine, three leaf chocolate vine or three leaf akebia, is a species of flowering plant. It is a close relative of the more commonly known Akebia quinata.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -191,11 +230,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Kleeblättrige Akebie"
+      ],
       "en": [
+        "Akebia trifoliata",
         "Chocolate-vine"
+      ],
+      "es": [
+        "Akebia trifoliata"
+      ],
+      "fr": [
+        "Akebia trifoliata"
+      ],
+      "it": [
+        "Akebia trifoliata"
+      ],
+      "ja": [
+        "ミツバアケビ"
+      ],
+      "nl": [
+        "Akebia trifoliata"
+      ],
+      "pl": [
+        "Akebia trifoliata"
+      ],
+      "pt": [
+        "Akebia trifoliata"
+      ],
+      "ru": [
+        "Akebia trifoliata"
+      ],
+      "zh": [
+        "三叶木通"
       ]
     },
     "tags": [],
@@ -207,7 +279,7 @@
     "family": "Lardizabalaceae",
     "genus": "Stauntonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -289,9 +361,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rosenbecher"
+      ],
+      "en": [
+        "Stauntonia hexaphylla"
+      ],
+      "es": [
+        "Stauntonia hexaphylla"
+      ],
+      "fr": [
+        "Stauntonia hexaphylla"
+      ],
+      "it": [
+        "Stauntonia hexaphylla"
+      ],
+      "ja": [
+        "ムベ"
+      ],
+      "ko": [
+        "멀꿀"
+      ],
+      "nl": [
+        "Stauntonia hexaphylla"
+      ],
+      "pl": [
+        "Stauntonia hexaphylla"
+      ],
+      "pt": [
+        "Stauntonia hexaphylla"
+      ],
+      "ru": [
+        "Стаунтония шестилистная"
+      ],
+      "zh": [
+        "日本野木瓜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

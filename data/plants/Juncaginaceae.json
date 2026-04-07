@@ -5,12 +5,12 @@
     "family": "Juncaginaceae",
     "genus": "Cycnogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/cd2602e415b96a62bf960ddf88974ffa.jpg",
-    "description": null,
+    "description": "Cycnogeton procerum, is an aquatic plant species in the family Juncaginaceae. It is commonly referred to as 'water ribbons', but has many other names in Indigenous Australian languages, including Po-lan-go and Gabirr.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cycnogeton procerum"
+      ],
+      "en": [
+        "Cycnogeton procerum"
+      ],
+      "es": [
+        "Cycnogeton procerum"
+      ],
+      "fr": [
+        "Cycnogeton procerum"
+      ],
+      "it": [
+        "Cycnogeton procerum"
+      ],
+      "nl": [
+        "Cycnogeton procerum"
+      ],
+      "pl": [
+        "Cycnogeton procerum"
+      ],
+      "pt": [
+        "Cycnogeton procerum"
+      ],
+      "ru": [
+        "Cycnogeton procerum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Juncaginaceae",
     "genus": "Triglochin",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -115,7 +145,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "triglochin_barrelieri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Triglochin barrelieri"
+      ],
+      "en": [
+        "Triglochin barrelieri"
+      ],
+      "es": [
+        "Triglochin barrelieri"
+      ],
+      "fr": [
+        "Triglochin barrelieri"
+      ],
+      "it": [
+        "Triglochin barrelieri"
+      ],
+      "nl": [
+        "Triglochin barrelieri"
+      ],
+      "pl": [
+        "Triglochin barrelieri"
+      ],
+      "pt": [
+        "Triglochin barrelieri"
+      ],
+      "ru": [
+        "Triglochin barrelieri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +253,7 @@
     "family": "Juncaginaceae",
     "genus": "Triglochin",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -209,17 +269,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "triglochin_maritima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -275,11 +335,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Strand-Dreizack"
+      ],
       "en": [
-        "Sea arrow-grass"
+        "Sea arrow-grass",
+        "Triglochin maritima"
+      ],
+      "es": [
+        "Triglochin maritima"
+      ],
+      "fr": [
+        "Troscart maritime"
+      ],
+      "it": [
+        "Triglochin maritima"
+      ],
+      "ja": [
+        "マルミノシバナ"
+      ],
+      "ko": [
+        "지채"
+      ],
+      "nl": [
+        "Schorrenzoutgras"
+      ],
+      "pl": [
+        "świbka morska"
+      ],
+      "pt": [
+        "Triglochin maritimum"
+      ],
+      "ru": [
+        "Триостренник приморский"
+      ],
+      "zh": [
+        "海韭菜"
       ]
     },
     "tags": [],
@@ -291,7 +387,7 @@
     "family": "Juncaginaceae",
     "genus": "Triglochin",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -307,17 +403,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "triglochin_palustris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -373,11 +469,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Sumpf-Dreizack"
+      ],
       "en": [
-        "Marsh arrow-grass"
+        "Marsh arrow-grass",
+        "Triglochin palustris"
+      ],
+      "es": [
+        "Triglochin palustris"
+      ],
+      "fr": [
+        "Triglochin palustris"
+      ],
+      "it": [
+        "Triglochin palustris"
+      ],
+      "ja": [
+        "ホソバノシバナ"
+      ],
+      "nl": [
+        "moeraszoutgras"
+      ],
+      "pl": [
+        "Świbka błotna"
+      ],
+      "pt": [
+        "Triglochin palustre"
+      ],
+      "ru": [
+        "Триостренник болотный"
+      ],
+      "zh": [
+        "水麦冬"
       ]
     },
     "tags": [],
@@ -389,7 +518,7 @@
     "family": "Juncaginaceae",
     "genus": "Triglochin",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -405,7 +534,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "triglochin_scilloides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -471,9 +600,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Triglochin scilloides"
+      ],
+      "en": [
+        "Triglochin scilloides"
+      ],
+      "es": [
+        "Triglochin scilloides"
+      ],
+      "fr": [
+        "Triglochin scilloides"
+      ],
+      "it": [
+        "Triglochin scilloides"
+      ],
+      "nl": [
+        "Triglochin scilloides"
+      ],
+      "pl": [
+        "Triglochin scilloides"
+      ],
+      "pt": [
+        "Triglochin scilloides"
+      ],
+      "ru": [
+        "Triglochin scilloides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -483,12 +642,12 @@
     "family": "Juncaginaceae",
     "genus": "Triglochin",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/beefcd1d07c3f69760a560d3c7e46367.jpg",
-    "description": null,
+    "description": "Triglochin striata is a species of flowering plant in the family Juncaginaceae. It is native to New Zealand, South America, America, Africa, Australia and Southern Portugal.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -499,17 +658,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "triglochin_striata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -565,9 +724,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Triglochin striata"
+      ],
+      "en": [
+        "Triglochin striata"
+      ],
+      "es": [
+        "Triglochin striata"
+      ],
+      "fr": [
+        "Triglochin striata"
+      ],
+      "it": [
+        "Triglochin striata"
+      ],
+      "nl": [
+        "Triglochin striata"
+      ],
+      "pl": [
+        "Triglochin striata"
+      ],
+      "pt": [
+        "Triglochin striatum"
+      ],
+      "ru": [
+        "Triglochin striata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

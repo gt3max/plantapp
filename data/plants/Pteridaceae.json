@@ -91,11 +91,49 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سرخس المستنقعات الذهبي"
+      ],
+      "de": [
+        "Acrostichum aureum"
+      ],
       "en": [
+        "Acrostichum aureum",
+        "Golden leather fern",
         "Leather fern"
+      ],
+      "es": [
+        "Acrostichum aureum"
+      ],
+      "fr": [
+        "Acrostichum aureum"
+      ],
+      "it": [
+        "Acrostichum aureum"
+      ],
+      "ja": [
+        "ミミモチシダ"
+      ],
+      "nl": [
+        "Acrostichum aureum"
+      ],
+      "pl": [
+        "Acrostichum aureum"
+      ],
+      "pt": [
+        "Acrostichum aureum"
+      ],
+      "ru": [
+        "Acrostichum aureum"
+      ],
+      "zh": [
+        "卤蕨",
+        "金蕨"
       ]
     },
     "tags": [],
@@ -193,11 +231,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Acrostichum danaeifolium"
+      ],
       "en": [
+        "Acrostichum danaeifolium",
         "Inland leatherfern"
+      ],
+      "es": [
+        "Acrostichum danaeifolium"
+      ],
+      "fr": [
+        "Acrostichum danaeifolium"
+      ],
+      "it": [
+        "Acrostichum danaeifolium"
+      ],
+      "nl": [
+        "Acrostichum danaeifolium"
+      ],
+      "pl": [
+        "Acrostichum danaeifolium"
+      ],
+      "pt": [
+        "Acrostichum danaeifolium"
+      ],
+      "ru": [
+        "Acrostichum danaeifolium"
       ]
     },
     "tags": [],
@@ -295,9 +360,46 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Acrostichum speciosum"
+      ],
+      "en": [
+        "Acrostichum speciosum",
+        "Mangrove fern"
+      ],
+      "es": [
+        "Acrostichum speciosum"
+      ],
+      "fr": [
+        "Acrostichum speciosum"
+      ],
+      "it": [
+        "Acrostichum speciosum"
+      ],
+      "nl": [
+        "Acrostichum speciosum"
+      ],
+      "pl": [
+        "Acrostichum speciosum"
+      ],
+      "pt": [
+        "Acrostichum speciosum"
+      ],
+      "ru": [
+        "Acrostichum speciosum"
+      ],
+      "tr": [
+        "Acrostichum speciosum"
+      ],
+      "zh": [
+        "尖叶卤蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -312,7 +414,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6678cd5661e7cf19d151f755eef9953e.jpg",
-    "description": "No fruits produced, but spores are produced.",
+    "description": "Adiantum aethiopicum, also known as the common maidenhair fern, is a small fern of widespread distribution, occurring in Africa, Australia, Norfolk Island and New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -323,7 +425,7 @@
     "synonyms": "[\"Adiantum aethiopicum f. assimile\", \"Adiantum subtrapezoideum\", \"Adiantum aubertii\", \"Adiantum assimile\", \"Adiantum trigonum\"]",
     "care": {
       "plant_id": "adiantum_aethiopicum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -394,9 +496,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سرخس البكر الشائع"
+      ],
+      "de": [
+        "Adiantum aethiopicum"
+      ],
+      "en": [
+        "Adiantum aethiopicum"
+      ],
+      "es": [
+        "Adiantum aethiopicum"
+      ],
+      "fr": [
+        "Adiantum aethiopicum"
+      ],
+      "it": [
+        "Adiantum aethiopicum"
+      ],
+      "nl": [
+        "Adiantum aethiopicum"
+      ],
+      "pl": [
+        "Adiantum aethiopicum"
+      ],
+      "pt": [
+        "Adiantum aethiopicum"
+      ],
+      "ru": [
+        "Adiantum aethiopicum"
+      ],
+      "zh": [
+        "普通铁线蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -411,7 +549,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/b428292d835d0e58e7629456a9ef116c.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": "Adiantum aleuticum, the western maidenhair fern or Aleutian maidenhair, is a species of deciduous fern in the genus Adiantum.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -422,7 +560,7 @@
     "synonyms": "[\"Adiantum aleuticum var. subpumilum\", \"Adiantum pedatum var. subpumilum\", \"Adiantum pedatum var. aleuticum\", \"Adiantum pedatum subsp. aleuticum\", \"Adiantum pedatum f. aleuticum\", \"Adiantum pedatum subsp. subpumilum\", \"Adiantum pedatum subsp. calderi\"]",
     "care": {
       "plant_id": "adiantum_aleuticum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": 15,
@@ -492,9 +630,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Adiantum aleuticum"
+      ],
+      "en": [
+        "Adiantum aleuticum"
+      ],
+      "es": [
+        "Adiantum aleuticum"
+      ],
+      "fr": [
+        "Adiantum aleuticum"
+      ],
+      "it": [
+        "Adiantum aleuticum"
+      ],
+      "nl": [
+        "Adiantum aleuticum"
+      ],
+      "pl": [
+        "Adiantum aleuticum"
+      ],
+      "pt": [
+        "Adiantum aleuticum"
+      ],
+      "ru": [
+        "Adiantum aleuticum"
+      ],
+      "zh": [
+        "阿留申铁线蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -509,7 +680,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1724804597bb2ce1776c760e7a8c05d3.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -520,7 +691,7 @@
     "synonyms": "[\"Adiantum capillus-veneris var. dissectum\", \"Adiantum cooperi\", \"Adiantum glaucophyllum\", \"Adiantum palmense\", \"Adiantum amabile\", \"Adiantum cuneatum var. angustifolium\", \"Adiantum tenerum var. dissectum\", \"Adiantum capillus-veneris f. dissectum\", \"Adiantum amplum var. concolor\"]",
     "care": {
       "plant_id": "adiantum_andicola",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -590,9 +761,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "برشاوشان أنديزي"
+      ],
+      "de": [
+        "Adiantum andicola"
+      ],
+      "en": [
+        "Adiantum andicola"
+      ],
+      "es": [
+        "Adiantum andicola"
+      ],
+      "fr": [
+        "Adiantum andicola"
+      ],
+      "it": [
+        "Adiantum andicola"
+      ],
+      "nl": [
+        "Adiantum andicola"
+      ],
+      "pl": [
+        "Adiantum andicola"
+      ],
+      "pt": [
+        "Adiantum andicola"
+      ],
+      "ru": [
+        "Adiantum andicola"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -618,9 +822,9 @@
     "synonyms": "[\"Adiantum modestum\", \"Adiantum pseudocapillus\", \"Adiantum capillaceum\", \"Adiantum schaffneri\", \"Adiantum capillus-veneris var. fissum\", \"Adiantum capillus-veneris var. trifidum\", \"Adiantum maderense\", \"Adiantum subemarginatum\", \"Adiantum capillus-veneris var. magnificum\", \"Adiantum visianii\"]",
     "care": {
       "plant_id": "adiantum_capillus-veneris",
-      "water_frequency": "Every 2-3 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part shade",
@@ -688,14 +892,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كزبرة البئر"
+      ],
+      "de": [
+        "Frauenhaarfarn"
+      ],
       "en": [
+        "Adiantum capillus-veneris",
         "Maidenhair fern",
         "Southern Maidenhair",
         "Venus' Hair Fern",
         "maidenhair fern"
+      ],
+      "es": [
+        "Adiantum capillus-veneris"
+      ],
+      "fr": [
+        "Capillaire de Montpellier"
+      ],
+      "it": [
+        "Adiantum capillus-veneris"
+      ],
+      "ja": [
+        "ホウライシダ"
+      ],
+      "ko": [
+        "봉작고사리"
+      ],
+      "nl": [
+        "Adiantum capillus-veneris"
+      ],
+      "pl": [
+        "niekropień właściwy"
+      ],
+      "pt": [
+        "Adiantum capillus-veneris"
+      ],
+      "ru": [
+        "Адиантум венерин волос"
+      ],
+      "tr": [
+        "Adiantum capillus-veneris"
+      ],
+      "zh": [
+        "南方鐵線蕨"
       ]
     },
     "tags": [
@@ -717,7 +963,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/750f353329293f47cf37d4455d9320b44f8b7a6c",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": "Adiantum caudatum, commonly walking maidenhair, tailed maidenhair, trailing maidenhair is a fern in the genus Adiantum and the family Pteridaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -728,7 +974,7 @@
     "synonyms": "[\"Adiantum assamicum\", \"Adiantum lyratum\", \"Adiantum flagelliferum\", \"Adiantum borneense\", \"Adiantum lomesam\", \"Adiantum caudatum var. angustilobatum\"]",
     "care": {
       "plant_id": "adiantum_caudatum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -798,11 +1044,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان مذيل"
+      ],
+      "de": [
+        "Adiantum caudatum"
+      ],
       "en": [
+        "Adiantum caudatum",
         "Tailed maidenhair"
+      ],
+      "es": [
+        "Adiantum caudatum"
+      ],
+      "fr": [
+        "Adiantum caudatum"
+      ],
+      "it": [
+        "Adiantum caudatum"
+      ],
+      "nl": [
+        "Adiantum caudatum"
+      ],
+      "pl": [
+        "Adiantum caudatum"
+      ],
+      "pt": [
+        "Adiantum caudatum"
+      ],
+      "ru": [
+        "Adiantum caudatum"
+      ],
+      "zh": [
+        "鞭叶铁线蕨"
       ]
     },
     "tags": [],
@@ -819,7 +1098,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/67bf6bb1d94614a4a93cb9716b8be44d35ab037c",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": " Adiantum chilense is a species of fern in the family Pteridaceae. It is native to South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -830,7 +1109,7 @@
     "synonyms": "[\"Adiantum rotundatum\", \"Adiantum mochaenum\", \"Adiantum chilense var. glabrum\", \"Adiantum chilense f. glabrum\", \"Adiantum chilense var. glabrum\", \"Adiantum aethiopicum var. pohlii\", \"Adiantum aethiopicum var. glabrum\", \"Adiantum chilense f. typica\"]",
     "care": {
       "plant_id": "adiantum_chilense",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -900,9 +1179,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "برشاوشان تشيلي"
+      ],
+      "de": [
+        "Adiantum chilense"
+      ],
+      "en": [
+        "Adiantum chilense"
+      ],
+      "es": [
+        "Adiantum chilense"
+      ],
+      "fr": [
+        "Adiantum chilense"
+      ],
+      "it": [
+        "Adiantum chilense"
+      ],
+      "nl": [
+        "Adiantum chilense"
+      ],
+      "pl": [
+        "Adiantum chilense"
+      ],
+      "pt": [
+        "Adiantum chilense"
+      ],
+      "ru": [
+        "Adiantum chilense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -917,7 +1229,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/8712a2c8436251aa702cbf472661abdd58043b65",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": "Adiantum concinnum, locally known as cilantrillo, culantrillo, or the maidenhair fern is a rhizomatous geophyte used as a local herbal medicine in many South and Central American cultures.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -928,7 +1240,7 @@
     "synonyms": "[\"Adiantum concinnum var. subscandens\", \"Adiantum tenerum\", \"Adiantum lutescens\", \"Adiantum concinnum var. flemingii\", \"Adiantum concinnum var. pendens\", \"Adiantum affine\", \"Adiantum ramyam\", \"Adiantum concinnum var. latum\"]",
     "care": {
       "plant_id": "adiantum_concinnum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -998,11 +1310,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان متناسق"
+      ],
+      "de": [
+        "Adiantum concinnum"
+      ],
       "en": [
+        "Adiantum concinnum",
         "Polished maidenhair"
+      ],
+      "es": [
+        "Adiantum concinnum"
+      ],
+      "fr": [
+        "Adiantum concinnum"
+      ],
+      "it": [
+        "Adiantum concinnum"
+      ],
+      "nl": [
+        "Adiantum concinnum"
+      ],
+      "pl": [
+        "Adiantum concinnum"
+      ],
+      "pt": [
+        "Adiantum concinnum"
+      ],
+      "ru": [
+        "Adiantum concinnum"
       ]
     },
     "tags": [],
@@ -1019,7 +1361,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e44ff95cb9eaa04d6228fd3ffa01a19b.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": "Adiantum cunninghamii is a maidenhair fern found in New Zealand. The sori are found under the curved leaf margins.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1030,7 +1372,7 @@
     "synonyms": "[\"Adiantum formosum\", \"Adiantum affine\", \"Adiantum affine var. cunninghamii\", \"Adiantum pullum\", \"Adiantum heterophyllum\", \"Adiantum trapeziforme\"]",
     "care": {
       "plant_id": "adiantum_cunninghamii",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1100,9 +1442,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Adiantum cunninghamii"
+      ],
+      "en": [
+        "Adiantum cunninghamii"
+      ],
+      "es": [
+        "Adiantum cunninghamii"
+      ],
+      "fr": [
+        "Adiantum cunninghamii"
+      ],
+      "it": [
+        "Adiantum cunninghamii"
+      ],
+      "nl": [
+        "Adiantum cunninghamii"
+      ],
+      "pl": [
+        "Adiantum cunninghamii"
+      ],
+      "pt": [
+        "Adiantum cunninghamii"
+      ],
+      "ru": [
+        "Adiantum cunninghamii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1117,7 +1489,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/89ad946ebcffe951a42c6d4ab0a6d259.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1128,7 +1500,7 @@
     "synonyms": "[\"Adiantum lunulatum\", \"Adiantum persimile\", \"Adiantum lunulatum var. tremulum\", \"Adiantum flagellum var. schizaeoides\", \"Adiantum tremulum var. deflectens\", \"Adiantum deflectens var. tremulum\", \"Adiantum deflectens var. subaristatum\", \"Adiantum dolabriforme\", \"Adiantum tremulum\", \"Adiantum discretodenticulatum\"]",
     "care": {
       "plant_id": "adiantum_deflectens",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1198,9 +1570,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "برشاوشان منثني"
+      ],
+      "de": [
+        "Adiantum deflectens"
+      ],
+      "en": [
+        "Adiantum deflectens"
+      ],
+      "es": [
+        "Adiantum deflectens"
+      ],
+      "fr": [
+        "Adiantum deflectens"
+      ],
+      "it": [
+        "Adiantum deflectens"
+      ],
+      "nl": [
+        "Adiantum deflectens"
+      ],
+      "pl": [
+        "Adiantum deflectens"
+      ],
+      "pt": [
+        "Adiantum deflectens"
+      ],
+      "ru": [
+        "Adiantum deflectens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1215,7 +1620,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/22e21f8bd61f0f66684ae19f9ca04ceb6f02f276",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": "Adiantum diaphanum, the filmy maidenhair fern, is a species of fern in the genus Adiantum, native to East Asia and Australasia, from southern Japan south to New Zealand. It grows to 20 cm long at the most, with very dark green fronds covered with bristles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1226,7 +1631,7 @@
     "synonyms": "[\"Adiantum setulosum\", \"Adiantum tenue var. commutatum\", \"Adiantum affine\", \"Adiantum filicaule\", \"Adiantum muelleri\", \"Adiantum erectum\", \"Adiantum hispidulum var. fitzalanii\", \"Adiantum polymorphum\", \"Adiantum heteromorphum\", \"Adiantum tuberosum\"]",
     "care": {
       "plant_id": "adiantum_diaphanum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1296,9 +1701,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "برشاوشان شفاني"
+      ],
+      "de": [
+        "Adiantum diaphanum"
+      ],
+      "en": [
+        "Adiantum diaphanum"
+      ],
+      "es": [
+        "Adiantum diaphanum"
+      ],
+      "fr": [
+        "Adiantum diaphanum"
+      ],
+      "it": [
+        "Adiantum diaphanum"
+      ],
+      "nl": [
+        "Adiantum diaphanum"
+      ],
+      "pl": [
+        "Adiantum diaphanum"
+      ],
+      "pt": [
+        "Adiantum diaphanum"
+      ],
+      "ru": [
+        "Adiantum diaphanum"
+      ],
+      "zh": [
+        "长尾铁线蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1313,7 +1754,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/8b094a8812a6378bd00a448d6778ff51.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1324,7 +1765,7 @@
     "synonyms": "[\"Adiantum flabellifolium\", \"Adiantum doctersii\", \"Adiantum fuscum\", \"Lindsaea sectorifolia\", \"Adiantum amoenum\", \"Adiantum bonii\"]",
     "care": {
       "plant_id": "adiantum_flabellulatum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1394,9 +1835,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Adiantum flabellulatum"
+      ],
+      "en": [
+        "Adiantum flabellulatum"
+      ],
+      "es": [
+        "Adiantum flabellulatum"
+      ],
+      "fr": [
+        "Adiantum flabellulatum"
+      ],
+      "it": [
+        "Adiantum flabellulatum"
+      ],
+      "ja": [
+        "オキナワクジャクシダ"
+      ],
+      "nl": [
+        "Adiantum flabellulatum"
+      ],
+      "pl": [
+        "Adiantum flabellulatum"
+      ],
+      "pt": [
+        "Adiantum flabellulatum"
+      ],
+      "ru": [
+        "Adiantum flabellulatum"
+      ],
+      "zh": [
+        "扇叶铁线蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1411,7 +1888,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/fea72f477fa3be36dccd57ba53d4aada.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": "Adiantum formosum, known as the giant maidenhair or black stem maidenhair is a fern found in Australia and New Zealand. It was one of the many species authored by Scottish botanist Robert Brown, appearing in his 1810 work Prodromus Florae Novae Hollandiae et Insulae Van Diemen. Its species name is the Latin adjective formosus \"handsome\" or \"beautiful\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1422,7 +1899,7 @@
     "synonyms": "[\"Adiantum formosum var. leptophyllum\"]",
     "care": {
       "plant_id": "adiantum_formosum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1492,9 +1969,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Adiantum formosum"
+      ],
+      "en": [
+        "Adiantum formosum"
+      ],
+      "es": [
+        "Adiantum formosum"
+      ],
+      "fr": [
+        "Adiantum formosum"
+      ],
+      "it": [
+        "Adiantum formosum"
+      ],
+      "nl": [
+        "Adiantum formosum"
+      ],
+      "pl": [
+        "Adiantum formosum"
+      ],
+      "pt": [
+        "Adiantum formosum"
+      ],
+      "ru": [
+        "Adiantum formosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1520,7 +2027,7 @@
     "synonyms": "[\"Adiantum hispidulum var. normale\"]",
     "care": {
       "plant_id": "adiantum_hispidulum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": 15,
@@ -1594,11 +2101,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان شائك"
+      ],
+      "de": [
+        "Adiantum hispidulum"
+      ],
       "en": [
+        "Adiantum hispidulum",
         "Rough maidenhair fern"
+      ],
+      "es": [
+        "Cheilanthes microphylla"
+      ],
+      "fr": [
+        "Adiantum hispidulum"
+      ],
+      "it": [
+        "Adiantum hispidulum"
+      ],
+      "ja": [
+        "アラゲクジャク"
+      ],
+      "nl": [
+        "Adiantum hispidulum"
+      ],
+      "pl": [
+        "Adiantum hispidulum"
+      ],
+      "pt": [
+        "Adiantum hispidulum"
+      ],
+      "ru": [
+        "Adiantum hispidulum"
+      ],
+      "zh": [
+        "毛叶铁线蕨"
       ]
     },
     "tags": [],
@@ -1615,7 +2158,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/7fbe01f1e63322af5f27544865900514351f5d51",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": "Adiantum jordanii is a perennial species of maidenhair fern, in the Vittarioideae subfamily of the Pteridaceae. The species is known by the common name California maidenhair.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1626,7 +2169,7 @@
     "synonyms": "[\"Adiantum emarginatum\"]",
     "care": {
       "plant_id": "adiantum_jordanii",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1696,11 +2239,32 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Adiantum jordanii"
+      ],
       "en": [
+        "Adiantum jordanii",
         "California maidenhair fern"
+      ],
+      "es": [
+        "Adiantum jordanii"
+      ],
+      "nl": [
+        "Adiantum jordanii"
+      ],
+      "pl": [
+        "Adiantum jordanii"
+      ],
+      "pt": [
+        "Adiantum jordanii"
+      ],
+      "ru": [
+        "Adiantum jordanii"
       ]
     },
     "tags": [],
@@ -1728,7 +2292,7 @@
     "synonyms": "[\"Adiantum triangulatum\", \"Adiantum denticulatum\", \"Adiantum triangulatum var. acuminatum\", \"Adiantum fovearum\", \"Adiantum glaziovii\", \"Adiantum lucidum var. bipinnatum\", \"Adiantum denticulatum var. obtusum\", \"Adiantum fovearum var. reductum\", \"Adiantum brasiliense\", \"Adiantum denticulatum var. humile\"]",
     "care": {
       "plant_id": "adiantum_latifolium",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1798,11 +2362,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان عريض الأوراق"
+      ],
+      "de": [
+        "Adiantum latifolium"
+      ],
       "en": [
+        "Adiantum latifolium",
         "Broadleaf maidenhair"
+      ],
+      "es": [
+        "Adiantum latifolium"
+      ],
+      "fr": [
+        "Adiantum latifolium"
+      ],
+      "it": [
+        "Adiantum latifolium"
+      ],
+      "nl": [
+        "Adiantum latifolium"
+      ],
+      "pl": [
+        "Adiantum latifolium"
+      ],
+      "pt": [
+        "Adiantum latifolium"
+      ],
+      "ru": [
+        "Adiantum latifolium"
       ]
     },
     "tags": [],
@@ -1819,7 +2413,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/09c08d8993bcd962722772f7b685196898de1461",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1830,7 +2424,7 @@
     "synonyms": "[\"Adiantum macrophyllum f. albostriatum\", \"Adiantum claesianum\", \"Adiantum lineatum\", \"Adiantum lancea\", \"Adiantum macrophyllum var. glaucum\", \"Adiantum claesii\"]",
     "care": {
       "plant_id": "adiantum_macrophyllum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1900,11 +2494,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان كبير الأوراق"
+      ],
+      "de": [
+        "Adiantum macrophyllum"
+      ],
       "en": [
+        "Adiantum macrophyllum",
         "Largeleaf maidenhair"
+      ],
+      "es": [
+        "Adiantum macrophyllum"
+      ],
+      "fr": [
+        "Adiantum macrophyllum"
+      ],
+      "it": [
+        "Adiantum macrophyllum"
+      ],
+      "nl": [
+        "Adiantum macrophyllum"
+      ],
+      "pl": [
+        "Adiantum macrophyllum"
+      ],
+      "pt": [
+        "Adiantum macrophyllum"
+      ],
+      "ru": [
+        "Adiantum macrophyllum"
+      ],
+      "zh": [
+        "大葉鐵線蕨"
       ]
     },
     "tags": [],
@@ -1921,7 +2548,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/5c0943f46ec170230dd5681d98407326.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1932,7 +2559,7 @@
     "synonyms": "[\"Adiantum coreanum\", \"Adiantum venustum var. monochlamys\", \"Adiantum monochlamys var. plurisorum\", \"Adiantum veitchii\"]",
     "care": {
       "plant_id": "adiantum_monochlamys",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2002,9 +2629,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Adiantum monochlamys"
+      ],
+      "en": [
+        "Adiantum monochlamys"
+      ],
+      "es": [
+        "Adiantum monochlamys"
+      ],
+      "fr": [
+        "Adiantum monochlamys"
+      ],
+      "it": [
+        "Adiantum monochlamys"
+      ],
+      "ja": [
+        "ハコネシダ"
+      ],
+      "nl": [
+        "Adiantum monochlamys"
+      ],
+      "pl": [
+        "Adiantum monochlamys"
+      ],
+      "pt": [
+        "Adiantum monochlamys"
+      ],
+      "ru": [
+        "Adiantum monochlamys"
+      ],
+      "zh": [
+        "石长生"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2019,7 +2682,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/754ed7ae56033f716a6b808b962aa2a7f647a170",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2030,7 +2693,7 @@
     "synonyms": "[\"Adiantum platyphyllum\", \"Adiantum platyphyllum var. aubletii\", \"Adiantum macropus\", \"Adiantum platyphyllum var. obliquum\", \"Adiantum macrodus\", \"Adiantum obliquum var. majus\", \"Adiantum obliquum var. macrodon\", \"Adiantum obliquum var. bipinnatum\", \"Adiantum kaulfussii var. platyphyllum\"]",
     "care": {
       "plant_id": "adiantum_obliquum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2100,11 +2763,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان مائل"
+      ],
+      "de": [
+        "Adiantum obliquum"
+      ],
       "en": [
+        "Adiantum obliquum",
         "Oblique maidenhair"
+      ],
+      "es": [
+        "Adiantum obliquum"
+      ],
+      "fr": [
+        "Adiantum obliquum"
+      ],
+      "it": [
+        "Adiantum obliquum"
+      ],
+      "nl": [
+        "Adiantum obliquum"
+      ],
+      "pl": [
+        "Adiantum obliquum"
+      ],
+      "pt": [
+        "Adiantum obliquum"
+      ],
+      "ru": [
+        "Adiantum obliquum"
       ]
     },
     "tags": [],
@@ -2121,7 +2814,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/dd036de9c8dfef25dc252680ccbbda17.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2132,7 +2825,7 @@
     "synonyms": "[\"Adiantum lobatum\", \"Adiantum hippocrepis\", \"Adiantum parvulum\"]",
     "care": {
       "plant_id": "adiantum_patens",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2202,9 +2895,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "برشاوشان منفتح"
+      ],
+      "de": [
+        "Adiantum patens"
+      ],
+      "en": [
+        "Adiantum patens"
+      ],
+      "es": [
+        "Adiantum patens"
+      ],
+      "fr": [
+        "Adiantum patens"
+      ],
+      "it": [
+        "Adiantum patens"
+      ],
+      "nl": [
+        "Adiantum patens"
+      ],
+      "pl": [
+        "Adiantum patens"
+      ],
+      "pt": [
+        "Adiantum patens"
+      ],
+      "ru": [
+        "Adiantum patens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2219,7 +2945,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/b68b5a3fdbd9f9cc554a44aa894890dd42d9a789",
-    "description": "No fruit; reproduces via spores (which are a light brown) can be at times seen on the edges of each fan-shaped frond.",
+    "description": "Adiantum pedatum, the northern maidenhair fern, is a species of fern in the family Pteridaceae, native to moist forests in eastern North America. Like other ferns in the genus, the name maidenhair refers to the slender, shining black stipes. Taxonomy classification disputes occur due to the distribution of A. Pedatum in both North America and East Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2230,7 +2956,7 @@
     "synonyms": "[\"Adiantum pedatum var. glaucinum\", \"Adiantum americanum\", \"Adiantum pedatum var. lacinatum\", \"Adiantum pedatum f. laciniatum\", \"Adiantum grandifolium\", \"Adiantum boreale\", \"Adiantum pedatum var. praeflexum\", \"Adiantum pedatum var. originarium\", \"Adiantum pedatum var. rangiferinum\", \"Adiantum pedatum var. triangulare\"]",
     "care": {
       "plant_id": "adiantum_pedatum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": 15,
@@ -2300,11 +3026,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pfauenrad-Frauenhaarfarn"
+      ],
       "en": [
+        "Adiantum pedatum",
         "Northern maidenhair"
+      ],
+      "es": [
+        "Adiantum pedatum"
+      ],
+      "fr": [
+        "Adiantum pedatum"
+      ],
+      "it": [
+        "Adiantum pedatum"
+      ],
+      "ja": [
+        "クジャクシダ"
+      ],
+      "ko": [
+        "공작고사리"
+      ],
+      "nl": [
+        "Adiantum pedatum"
+      ],
+      "pl": [
+        "adiantum stopowate"
+      ],
+      "pt": [
+        "Adiantum pedatum"
+      ],
+      "ru": [
+        "Адиантум стоповидный"
+      ],
+      "zh": [
+        "掌叶铁线蕨"
       ]
     },
     "tags": [],
@@ -2321,7 +3083,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/b10f06aa0f721ed5c729c301c556195ec8c77cbb",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2332,7 +3094,7 @@
     "synonyms": "[\"Adiantum oblongatum\", \"Adiantum platyphyllum var. kaulfussii\", \"Adiantum obliquum\", \"Adiantum lucidum var. pinnatum\", \"Adiantum platyphyllum\", \"Adiantum kaulfussii\"]",
     "care": {
       "plant_id": "adiantum_petiolatum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2402,11 +3164,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان مسوق"
+      ],
+      "de": [
+        "Adiantum petiolatum"
+      ],
       "en": [
+        "Adiantum petiolatum",
         "Stalked maidenhair"
+      ],
+      "es": [
+        "Adiantum petiolatum"
+      ],
+      "fr": [
+        "Adiantum petiolatum"
+      ],
+      "it": [
+        "Adiantum petiolatum"
+      ],
+      "nl": [
+        "Adiantum petiolatum"
+      ],
+      "pl": [
+        "Adiantum petiolatum"
+      ],
+      "pt": [
+        "Adiantum petiolatum"
+      ],
+      "ru": [
+        "Adiantum petiolatum"
       ]
     },
     "tags": [],
@@ -2423,7 +3215,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/643350505716c24d53ab5b63df0419fd.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": "Adiantum philippense, also known as walking maidenhair fern, or black maidenhair, is a species of maidenhair fern (Adiantum) that is widely distributed through the southern hemisphere, notably Asia, Africa, and Madagascar.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2434,7 +3226,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "adiantum_philippense",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2504,9 +3296,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "برشاوشان هلالي"
+      ],
+      "de": [
+        "Adiantum philippense"
+      ],
+      "en": [
+        "Adiantum philippense"
+      ],
+      "es": [
+        "Adiantum philippense"
+      ],
+      "fr": [
+        "Adiantum philippense"
+      ],
+      "it": [
+        "Adiantum philippense"
+      ],
+      "nl": [
+        "Adiantum philippense"
+      ],
+      "pl": [
+        "Adiantum philippense"
+      ],
+      "pt": [
+        "Adiantum philippense"
+      ],
+      "ru": [
+        "Adiantum philippense"
+      ],
+      "tr": [
+        "Adiantum philippense"
+      ],
+      "zh": [
+        "半月形铁线蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2521,7 +3352,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/8dd7495b16fbf3f17d458e83398ee63cf5eaaf50",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2532,7 +3363,7 @@
     "synonyms": "[\"Adiantum crenatum\"]",
     "care": {
       "plant_id": "adiantum_poiretii",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2602,11 +3433,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Adiantum poiretii"
+      ],
       "en": [
+        "Adiantum poiretii",
         "Mexican maidenhair"
+      ],
+      "es": [
+        "Adiantum poiretii"
+      ],
+      "fr": [
+        "Adiantum poiretii"
+      ],
+      "it": [
+        "Adiantum poiretii"
+      ],
+      "nl": [
+        "Adiantum poiretii"
+      ],
+      "pl": [
+        "Adiantum poiretii"
+      ],
+      "pt": [
+        "Adiantum poiretii"
+      ],
+      "ru": [
+        "Adiantum poiretii"
+      ],
+      "zh": [
+        "波氏铁线蕨"
       ]
     },
     "tags": [],
@@ -2623,7 +3484,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/3f9cf0277e0557c1e0b843dac832d226f33ca303",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2634,7 +3495,7 @@
     "synonyms": "[\"Adiantum pulverulentum f. genuinum\"]",
     "care": {
       "plant_id": "adiantum_pulverulentum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2704,11 +3565,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان مغبر"
+      ],
+      "de": [
+        "Adiantum pulverulentum"
+      ],
       "en": [
+        "Adiantum pulverulentum",
         "Glossy maidenhair"
+      ],
+      "es": [
+        "Adiantum pulverulentum"
+      ],
+      "fr": [
+        "Adiantum pulverulentum"
+      ],
+      "it": [
+        "Adiantum pulverulentum"
+      ],
+      "nl": [
+        "Adiantum pulverulentum"
+      ],
+      "pl": [
+        "adiantum przyprószone"
+      ],
+      "pt": [
+        "Adiantum pulverulentum"
+      ],
+      "ru": [
+        "Adiantum pulverulentum"
       ]
     },
     "tags": [],
@@ -2725,7 +3616,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/d84fac162dceecb8a5eb7bfdce19edfd8c6bc446",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2736,7 +3627,7 @@
     "synonyms": "[\"Adiantum quadriternatum\", \"Adiantum cristatum var. nigrescens\", \"Polypodium pyramidale\", \"Adiantum microphyllum\", \"Adiantum asperum\", \"Adiantum nigrescens\", \"Adiantum cristatum\", \"Adiantum crenatum\"]",
     "care": {
       "plant_id": "adiantum_pyramidale",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2806,11 +3697,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان هرمي"
+      ],
+      "de": [
+        "Adiantum pyramidale"
+      ],
       "en": [
+        "Adiantum pyramidale",
         "Pyramid maidenhair"
+      ],
+      "es": [
+        "Adiantum pyramidale"
+      ],
+      "fr": [
+        "Adiantum pyramidale"
+      ],
+      "it": [
+        "Adiantum pyramidale"
+      ],
+      "nl": [
+        "Adiantum pyramidale"
+      ],
+      "pl": [
+        "Adiantum pyramidale"
+      ],
+      "pt": [
+        "Adiantum pyramidale"
+      ],
+      "ru": [
+        "Adiantum pyramidale"
       ]
     },
     "tags": [],
@@ -2838,9 +3759,9 @@
     "synonyms": "[\"Adiantum werckleanum\", \"Adiantum cuneatum f. typicum\", \"Adiantum weigandii\", \"Adiantum decorum\", \"Adiantum cuneatum var. subintegrum\", \"Adiantum mexicanum\", \"Adiantum cuneipinnulum\", \"Adiantum cuneatum var. vastum\", \"Adiantum elegantissimum\", \"Adiantum cuneatum foliis-variegatis\"]",
     "care": {
       "plant_id": "adiantum_raddianum",
-      "water_frequency": "Every 2-3 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "part shade",
@@ -2882,7 +3803,7 @@
       "common_pests": [
         "Watch for scale and mealybugs"
       ],
-      "watering_method": null,
+      "watering_method": "Top layer should be dry",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -2912,12 +3833,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان لولبي"
+      ],
       "en": [
         "Delta maidenhair fern",
+        "Maidenhair Fern",
         "delta maidenhair fern"
+      ],
+      "es": [
+        "Culandrillo"
+      ],
+      "fr": [
+        "Adiante de Raddi"
+      ],
+      "ja": [
+        "コバホウライシダ"
+      ],
+      "nl": [
+        "Fijn venushaar"
+      ],
+      "pl": [
+        "Adiantum klinowate",
+        "adiantum klinowate",
+        "niekropień klinowaty"
+      ],
+      "pt": [
+        "Avenca"
+      ],
+      "ru": [
+        "Адиантум Радди"
+      ],
+      "zh": [
+        "楔叶铁线蕨",
+        "細葉美葉鐵線蕨"
       ]
     },
     "tags": [
@@ -2939,7 +3893,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/0f764d00f11a947a56ec3265dbdbd130035a0402",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": "Adiantum reniforme is a species of fern in the genus Adiantum (maidenhairs), family Pteridaceae. It grows in sheltered rock crevices and on walls. It is native to Madeira, Canary Islands and Cape Verde islands, and patchily in East Africa, Madagascar, the Mascarene Islands, Comoros, as well as a few relictual sites in the Tibesti in Chad. The leaves are large, round, dichotomously veined and have a very narrow red edge, marking the presence of the marginal indusium on the underside.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2950,7 +3904,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "adiantum_reniforme",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -3020,11 +3974,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Talerfarn"
+      ],
       "en": [
+        "Adiantum reniforme",
         "Lotus-leaved maidenhair fern"
+      ],
+      "es": [
+        "Adiantum reniforme"
+      ],
+      "fr": [
+        "Adiantum reniforme"
+      ],
+      "it": [
+        "Adiantum reniforme"
+      ],
+      "nl": [
+        "Adiantum reniforme"
+      ],
+      "pl": [
+        "Adiantum reniforme"
+      ],
+      "pt": [
+        "Adiantum reniforme"
+      ],
+      "ru": [
+        "Adiantum reniforme"
+      ],
+      "zh": [
+        "肾叶铁线蕨"
       ]
     },
     "tags": [],
@@ -3041,7 +4025,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/800c462ac722c169fe8fe2beb52a9699.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3052,7 +4036,7 @@
     "synonyms": "[\"Adiantum obtusum\", \"Adiantum proximum\", \"Adiantum cassioides\", \"Adiantum obtusum var. kunzei\", \"Adiantum rhomboideum\", \"Adiantum bonplandii\", \"Adiantum jacobinae\", \"Adiantum kunzei\", \"Adiantum nervosum\", \"Adiantum rigidum\"]",
     "care": {
       "plant_id": "adiantum_serratodentatum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -3122,9 +4106,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Adiantum serratodentatum"
+      ],
+      "en": [
+        "Adiantum serratodentatum"
+      ],
+      "es": [
+        "Adiantum serratodentatum"
+      ],
+      "fr": [
+        "Adiantum serratodentatum"
+      ],
+      "it": [
+        "Adiantum serratodentatum"
+      ],
+      "nl": [
+        "Adiantum serratodentatum"
+      ],
+      "pl": [
+        "Adiantum serratodentatum"
+      ],
+      "pt": [
+        "Adiantum serratodentatum"
+      ],
+      "ru": [
+        "Adiantum serratodentatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3139,7 +4153,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/15ba61a43a8dcaed1bc2cc3966e8959fb27b4511",
-    "description": "No fruits. Produces spores.",
+    "description": "Adiantum tenerum, common name brittle maidenhair fern, is a species of maidenhair fern belonging to the family Pteridaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3150,7 +4164,7 @@
     "synonyms": "[\"Adiantum tenerum var. minus\", \"Adiantum tenerum var. obtusissimum\", \"Adiantum tenerum var. rotundatum\", \"Adiantum assimile\", \"Adiantum extensum\", \"Adiantum farleyense\", \"Adiantum glaucophyllum\", \"Adiantum trapezoides\", \"Adiantum trapeziforme var. trapezoides\", \"Adiantum littorale\"]",
     "care": {
       "plant_id": "adiantum_tenerum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -3216,11 +4230,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان دقيق"
+      ],
+      "de": [
+        "Adiantum tenerum"
+      ],
       "en": [
+        "Adiantum tenerum",
         "Brittle maidenhair"
+      ],
+      "es": [
+        "Adiantum tenerum"
+      ],
+      "fr": [
+        "Adiantum tenerum"
+      ],
+      "it": [
+        "Adiantum tenerum"
+      ],
+      "nl": [
+        "Adiantum tenerum"
+      ],
+      "pl": [
+        "niekropień delikatny"
+      ],
+      "pt": [
+        "Adiantum tenerum"
+      ],
+      "ru": [
+        "Adiantum tenerum"
+      ],
+      "zh": [
+        "脆铁线蕨"
       ]
     },
     "tags": [],
@@ -3237,7 +4284,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6d7ef7dd4caef1e26d503b759252fb61.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3248,7 +4295,7 @@
     "synonyms": "[\"Adiantum hirtum\"]",
     "care": {
       "plant_id": "adiantum_terminatum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -3318,9 +4365,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Adiantum terminatum"
+      ],
+      "en": [
+        "Adiantum terminatum"
+      ],
+      "es": [
+        "Adiantum terminatum"
+      ],
+      "fr": [
+        "Adiantum terminatum"
+      ],
+      "it": [
+        "Adiantum terminatum"
+      ],
+      "nl": [
+        "Adiantum terminatum"
+      ],
+      "pl": [
+        "Adiantum terminatum"
+      ],
+      "pt": [
+        "Adiantum terminatum"
+      ],
+      "ru": [
+        "Adiantum terminatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3335,7 +4412,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/885d426b2d020bd459f29fe8767b72dfd9476a48",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3346,7 +4423,7 @@
     "synonyms": "[\"Adiantum tetraphyllum var. microphyllum\", \"Adiantum laxum\", \"Adiantum tetraphyllum var. obtusum\", \"Adiantum tetraphyllum f. obtusum\", \"Adiantum macrocarpum\", \"Adiantum falcatum\", \"Adiantum lancea\", \"Adiantum pachysorum\", \"Adiantum hendersonii\", \"Adiantum prionophyllum var. curtum\"]",
     "care": {
       "plant_id": "adiantum_tetraphyllum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -3416,11 +4493,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان رباعي الأوراق"
+      ],
+      "de": [
+        "Adiantum tetraphyllum"
+      ],
       "en": [
+        "Adiantum tetraphyllum",
         "Fourleaf maidenhair"
+      ],
+      "es": [
+        "Adiantum tetraphyllum"
+      ],
+      "fr": [
+        "Adiantum tetraphyllum"
+      ],
+      "it": [
+        "Adiantum tetraphyllum"
+      ],
+      "nl": [
+        "Adiantum tetraphyllum"
+      ],
+      "pl": [
+        "Adiantum tetraphyllum"
+      ],
+      "pt": [
+        "Adiantum tetraphyllum"
+      ],
+      "ru": [
+        "Adiantum tetraphyllum"
       ]
     },
     "tags": [],
@@ -3437,7 +4544,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/2b4cb2e0e96224d092af3ff4a1804d48359cd1d1",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": "Adiantum trapeziforme, the giant maidenhair or diamond maidenhair, is a species of fern in the genus Adiantum, native to the tropical rainforests of Central and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3448,7 +4555,7 @@
     "synonyms": "[\"Adiantum trapeziforme var. oblongatum\", \"Adiantum schmalzii\", \"Adiantum eminens\", \"Adiantum formosissimum\", \"Adiantum trapeziforme var. cultratum\", \"Adiantum rhomboideum\", \"Adiantum trapeziforme var. plumieri\", \"Adiantum cultratum\"]",
     "care": {
       "plant_id": "adiantum_trapeziforme",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -3518,11 +4625,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برشاوشان مربعي الشكل"
+      ],
+      "de": [
+        "Adiantum trapeziforme"
+      ],
       "en": [
+        "Adiantum trapeziforme",
         "Giant maidenhair"
+      ],
+      "es": [
+        "Adiantum trapeziforme"
+      ],
+      "fr": [
+        "Adiantum trapeziforme"
+      ],
+      "it": [
+        "Adiantum trapeziforme"
+      ],
+      "ja": [
+        "アジアンタム・トラペジフォルメ"
+      ],
+      "nl": [
+        "Adiantum trapeziforme"
+      ],
+      "pl": [
+        "Adiantum trapeziforme"
+      ],
+      "pt": [
+        "Adiantum trapeziforme"
+      ],
+      "ru": [
+        "Adiantum trapeziforme"
       ]
     },
     "tags": [],
@@ -3539,7 +4679,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/aa21484868d4fe251f0475e3326951f3.jpg",
-    "description": "pinnae   pinnules can be unipinnate (1-pinnate), bipinnate (2-pinnate), tripinnate, (3-pinnate) or tetrapinnate",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3550,7 +4690,7 @@
     "synonyms": "[\"Adiantum acuminatum\", \"Adiantum lanceolatum\", \"Adiantum oblique-truncatum\", \"Adiantum falcatum\", \"Adiantum villosum var. macrosorum\", \"Adiantum villosum var. falcatum\"]",
     "care": {
       "plant_id": "adiantum_villosum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -3620,9 +4760,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Adiantum villosum"
+      ],
+      "en": [
+        "Adiantum villosum"
+      ],
+      "es": [
+        "Adiantum villosum"
+      ],
+      "fr": [
+        "Adiantum villosum"
+      ],
+      "it": [
+        "Adiantum villosum"
+      ],
+      "nl": [
+        "Adiantum villosum"
+      ],
+      "pl": [
+        "Adiantum villosum"
+      ],
+      "pt": [
+        "Adiantum villosum"
+      ],
+      "ru": [
+        "Adiantum villosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3714,9 +4884,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aleuritopteris argentea"
+      ],
+      "en": [
+        "Aleuritopteris argentea"
+      ],
+      "es": [
+        "Aleuritopteris argentea"
+      ],
+      "fr": [
+        "Aleuritopteris argentea"
+      ],
+      "it": [
+        "Aleuritopteris argentea"
+      ],
+      "nl": [
+        "Aleuritopteris argentea"
+      ],
+      "pl": [
+        "Aleuritopteris argentea"
+      ],
+      "pt": [
+        "Aleuritopteris argentea"
+      ],
+      "ru": [
+        "Aleuritopteris argentea"
+      ],
+      "zh": [
+        "银粉背蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3808,9 +5011,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aleuritopteris farinosa"
+      ],
+      "en": [
+        "Aleuritopteris farinosa"
+      ],
+      "es": [
+        "Aleuritopteris farinosa"
+      ],
+      "fr": [
+        "Aleuritopteris farinosa"
+      ],
+      "it": [
+        "Aleuritopteris farinosa"
+      ],
+      "nl": [
+        "Aleuritopteris farinosa"
+      ],
+      "pl": [
+        "Aleuritopteris farinosa"
+      ],
+      "pt": [
+        "Aleuritopteris farinosa"
+      ],
+      "ru": [
+        "Aleuritopteris farinosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3825,7 +5058,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/8ddcf8322117aa3eaecffd1d72e93cbb8b088073",
-    "description": null,
+    "description": "Ananthacorus is a genus of ferns in the subfamily Vittarioideae of the family Pteridaceae with a single species Ananthacorus angustifolius. Its native distribution ranges from Mexico through Central America to northern South America. It has been introduced into parts of Malesia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3902,11 +5135,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ananthacorus angustifolius"
+      ],
       "en": [
+        "Ananthacorus angustifolius",
         "Redscale shoestring fern"
+      ],
+      "es": [
+        "Ananthacorus angustifolius"
+      ],
+      "fr": [
+        "Ananthacorus angustifolius"
+      ],
+      "it": [
+        "Ananthacorus angustifolius"
+      ],
+      "nl": [
+        "Ananthacorus angustifolius"
+      ],
+      "pl": [
+        "Ananthacorus angustifolius"
+      ],
+      "pt": [
+        "Ananthacorus angustifolius"
+      ],
+      "ru": [
+        "Ananthacorus angustifolius"
       ]
     },
     "tags": [],
@@ -3934,7 +5194,7 @@
     "synonyms": "[\"Gymnogramma chaerophylla var. cryptogrammoides\", \"Osmunda leptophylla\", \"Pityrogramma guatemalensis\", \"Grammitis leptophylla\", \"Anogramma guatemalensis\", \"Asplenium geminaria\", \"Gymnogramma leptophylla\", \"Polypodium leptophyllum\", \"Tarachia geminaria\", \"Gymnogramma novae-zealandiae\"]",
     "care": {
       "plant_id": "anogramma_leptophylla",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -4000,11 +5260,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dünnblättriger Nacktfarn"
+      ],
       "en": [
+        "Anogramma leptophylla",
         "Jersey fern"
+      ],
+      "es": [
+        "Anogramma leptophylla"
+      ],
+      "fr": [
+        "Anogramma leptophylla"
+      ],
+      "it": [
+        "Anogramma leptophylla"
+      ],
+      "nl": [
+        "Anogramma leptophylla"
+      ],
+      "pl": [
+        "Anogramma leptophylla"
+      ],
+      "pt": [
+        "Anogramma leptophylla"
+      ],
+      "ru": [
+        "Anogramma leptophylla"
+      ],
+      "zh": [
+        "广布薄叶翠蕨"
       ]
     },
     "tags": [],
@@ -4098,9 +5388,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Antrophyum callifolium"
+      ],
+      "en": [
+        "Antrophyum callifolium"
+      ],
+      "es": [
+        "Antrophyum callifolium"
+      ],
+      "fr": [
+        "Antrophyum callifolium"
+      ],
+      "it": [
+        "Antrophyum callifolium"
+      ],
+      "nl": [
+        "Antrophyum callifolium"
+      ],
+      "pl": [
+        "Antrophyum callifolium"
+      ],
+      "pt": [
+        "Antrophyum callifolium"
+      ],
+      "ru": [
+        "Antrophyum callifolium"
+      ],
+      "zh": [
+        "美叶车前蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4192,9 +5515,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ceratopteris pteridioides"
+      ],
+      "en": [
+        "Ceratopteris pteridioides"
+      ],
+      "es": [
+        "Ceratopteris pteridioides"
+      ],
+      "fr": [
+        "Ceratopteris pteridioides"
+      ],
+      "it": [
+        "Ceratopteris pteridioides"
+      ],
+      "nl": [
+        "Ceratopteris pteridioides"
+      ],
+      "pl": [
+        "Ceratopteris pteridioides"
+      ],
+      "pt": [
+        "Ceratopteris pteridioides"
+      ],
+      "ru": [
+        "Ceratopteris pteridioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4209,7 +5562,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f0004828fb0140ac34bb0524b257968ef1a6fabc",
-    "description": null,
+    "description": "Ceratopteris thalictroides is a fern species belonging to the genus Ceratopteris, one of only two genera of the subfamily Parkerioideae of the family Pteridaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4286,11 +5639,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceratopteris thalictroides"
+      ],
       "en": [
+        "Ceratopteris thalictroides",
         "Water fern"
+      ],
+      "es": [
+        "Ceratopteris thalictroides"
+      ],
+      "fr": [
+        "Ceratopteris thalictroides"
+      ],
+      "it": [
+        "Ceratopteris thalictroides"
+      ],
+      "ja": [
+        "ミズワラビ"
+      ],
+      "nl": [
+        "Ceratopteris thalictroides"
+      ],
+      "pl": [
+        "Różdżyca rutewkowata"
+      ],
+      "pt": [
+        "Ceratopteris thalictroides"
+      ],
+      "ru": [
+        "Ceratopteris thalictroides"
+      ],
+      "zh": [
+        "水蕨"
       ]
     },
     "tags": [],
@@ -4384,9 +5770,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coniogramme fraxinea"
+      ],
+      "en": [
+        "Coniogramme fraxinea"
+      ],
+      "es": [
+        "Coniogramme fraxinea"
+      ],
+      "fr": [
+        "Coniogramme fraxinea"
+      ],
+      "it": [
+        "Coniogramme fraxinea"
+      ],
+      "nl": [
+        "Coniogramme fraxinea"
+      ],
+      "pl": [
+        "Coniogramme fraxinea"
+      ],
+      "pt": [
+        "Coniogramme fraxinea"
+      ],
+      "ru": [
+        "Coniogramme fraxinea"
+      ],
+      "zh": [
+        "全缘凤丫蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4478,9 +5897,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coniogramme intermedia"
+      ],
+      "en": [
+        "Coniogramme intermedia"
+      ],
+      "es": [
+        "Coniogramme intermedia"
+      ],
+      "fr": [
+        "Coniogramme intermedia"
+      ],
+      "it": [
+        "Coniogramme intermedia"
+      ],
+      "ja": [
+        "イワガネゼンマイ"
+      ],
+      "nl": [
+        "Coniogramme intermedia"
+      ],
+      "pl": [
+        "Coniogramme intermedia"
+      ],
+      "pt": [
+        "Coniogramme intermedia"
+      ],
+      "ru": [
+        "Coniogramme intermedia"
+      ],
+      "zh": [
+        "华凤丫蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4572,9 +6027,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coniogramme japonica"
+      ],
+      "en": [
+        "Coniogramme japonica"
+      ],
+      "es": [
+        "Coniogramme japonica"
+      ],
+      "fr": [
+        "Coniogramme japonica"
+      ],
+      "it": [
+        "Coniogramme japonica"
+      ],
+      "ja": [
+        "イワガネソウ"
+      ],
+      "ko": [
+        "가지고비고사리"
+      ],
+      "nl": [
+        "Coniogramme japonica"
+      ],
+      "pl": [
+        "Coniogramme japonica"
+      ],
+      "pt": [
+        "Coniogramme japonica"
+      ],
+      "ru": [
+        "Coniogramme japonica"
+      ],
+      "zh": [
+        "凤丫蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4589,7 +6083,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/2d71fe86dad84a4a38618281f0b3da63.jpg",
-    "description": null,
+    "description": "Cosentinia is a genus of ferns in the subfamily Pteridoideae of the family Pteridaceae with a single species Cosentinia vellea. Its native distribution ranges from the Canary Islands through Europe, northern Africa and Western Asia to the west Himalayas in the Indian subcontinent.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4600,17 +6094,17 @@
     "synonyms": "[\"Cheilanthes vellea\", \"Gymnogramma vellea\", \"Notholaena vellea\", \"Cincinalis vellea\", \"Acrostichum velleum\"]",
     "care": {
       "plant_id": "cosentinia_vellea",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -4666,9 +6160,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 7.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cosentinia vellea"
+      ],
+      "en": [
+        "Cosentinia vellea"
+      ],
+      "es": [
+        "Cosentinia vellea"
+      ],
+      "fr": [
+        "Cosentinia vellea"
+      ],
+      "it": [
+        "Cosentinia vellea"
+      ],
+      "nl": [
+        "Cosentinia vellea"
+      ],
+      "pl": [
+        "Cosentinia vellea"
+      ],
+      "pt": [
+        "Cosentinia vellea"
+      ],
+      "ru": [
+        "Cosentinia vellea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4683,7 +6207,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/ba961f8f0e9c6be29bdaac4db87aff65dfb1d329",
-    "description": null,
+    "description": "Cryptogramma acrostichoides is a fern species in the Cryptogrammoideae subfamily of the Pteridaceae. It is known by the common names American parsley fern and American rockbrake and is native to most of western North America, where it grows in the cracks of rocks in many types of sunny mountainous habitat.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4694,17 +6218,17 @@
     "synonyms": "[\"Cryptogramma crispa var. acrostichoides\", \"Phorolobus acrostichoides\", \"Gymnogramma acrostichoides\", \"Cryptogramma stelleri var. foveolata\", \"Allosorus crispus var. acrostichoides\", \"Allosorus acrostichoides\", \"Cryptogramma crispa subsp. acrostichoides\", \"Allosorus foveolatus\"]",
     "care": {
       "plant_id": "cryptogramma_acrostichoides",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -4760,11 +6284,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Cryptogramma acrostichoides"
+      ],
       "en": [
-        "American parsley fern"
+        "American parsley fern",
+        "Cryptogramma acrostichoides"
+      ],
+      "es": [
+        "Cryptogramma acrostichoides"
+      ],
+      "fr": [
+        "Cryptogramma acrostichoides"
+      ],
+      "it": [
+        "Cryptogramma acrostichoides"
+      ],
+      "nl": [
+        "Cryptogramma acrostichoides"
+      ],
+      "pl": [
+        "Cryptogramma acrostichoides"
+      ],
+      "pt": [
+        "Cryptogramma acrostichoides"
+      ],
+      "ru": [
+        "Cryptogramma acrostichoides"
       ]
     },
     "tags": [],
@@ -4781,7 +6332,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/ac4b4b3e7964609584eea029ff3addaa150098ca",
-    "description": null,
+    "description": "Cryptogramma crispa, the parsley fern, is an Arctic–alpine species of fern. It produces separate sterile and fertile fronds, up to 30 cm (12 in) tall, and is a pioneer species on acidic screes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4792,17 +6343,17 @@
     "synonyms": "[\"Cryptogramma crispa subsp. crispa\", \"Stegania onocleoides var. crispa\", \"Cryptogramma bithynica\", \"Pteris tenuifolia\", \"Acrostichum crispum\", \"Cryptogramma crispa var. japonica\", \"Osmunda rupestris\", \"Polypodium crispum\", \"Osmunda crispa\", \"Cryptogramma crispa f. americana\"]",
     "care": {
       "plant_id": "cryptogramma_crispa",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -4858,11 +6409,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Krauser Rollfarn"
+      ],
       "en": [
+        "Cryptogramma crispa",
         "Parsley fern"
+      ],
+      "es": [
+        "Cryptogramma crispa"
+      ],
+      "fr": [
+        "Cryptogramma crispa"
+      ],
+      "it": [
+        "Cryptogramma crispa"
+      ],
+      "nl": [
+        "Cryptogramma crispa"
+      ],
+      "pl": [
+        "Zmienka górska"
+      ],
+      "pt": [
+        "Cryptogramma crispa"
+      ],
+      "ru": [
+        "Криптограмма курчавая"
       ]
     },
     "tags": [],
@@ -4879,7 +6457,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f82460a22f555015d6fdf850b7143c8e.jpg",
-    "description": null,
+    "description": "Cryptogramma stelleri, common names slender cliff-brake, fragile rock-brake, slender rock-brake, and Steller's rockbrake, is a plant found in North America. It is listed as endangered in Connecticut, Massachusetts, New Jersey, and Pennsylvania. It is listed as threatened in Maine and New Hampshire, as exploitably vulnerable in New York (state) and as sensitive in Washington (state).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4890,17 +6468,17 @@
     "synonyms": "[\"Allosorus gracilis\", \"Allosorus minutus\", \"Pteris gracilis\", \"Cryptogramma gracilis\", \"Pellaea gracilis\", \"Allosorus stelleri\", \"Pteris minuta\", \"Cheilanthes gracilis\", \"Pteris stelleri\", \"Pellaea stelleri\"]",
     "care": {
       "plant_id": "cryptogramma_stelleri",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -4956,9 +6534,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cryptogramma stelleri"
+      ],
+      "en": [
+        "Cryptogramma stelleri"
+      ],
+      "es": [
+        "Cryptogramma stelleri"
+      ],
+      "fr": [
+        "Cryptogramma stelleri"
+      ],
+      "it": [
+        "Cryptogramma stelleri"
+      ],
+      "nl": [
+        "Cryptogramma stelleri"
+      ],
+      "pl": [
+        "Cryptogramma stelleri"
+      ],
+      "pt": [
+        "Cryptogramma stelleri"
+      ],
+      "ru": [
+        "Cryptogramma stelleri"
+      ],
+      "zh": [
+        "稀叶珠蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5050,9 +6661,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Haplopteris elongata"
+      ],
+      "en": [
+        "Haplopteris elongata"
+      ],
+      "es": [
+        "Haplopteris elongata"
+      ],
+      "fr": [
+        "Haplopteris elongata"
+      ],
+      "it": [
+        "Haplopteris elongata"
+      ],
+      "nl": [
+        "Haplopteris elongata"
+      ],
+      "pl": [
+        "Haplopteris elongata"
+      ],
+      "pt": [
+        "Haplopteris elongata"
+      ],
+      "ru": [
+        "Haplopteris elongata"
+      ],
+      "zh": [
+        "唇边书带蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5067,7 +6711,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/17a866bf7e5f9b4040bd98a020fa7ffb.jpg",
-    "description": null,
+    "description": "Haplopteris ensiformis, commonly known as the tape fern or shoestring fern, is a species of small fern native to tropical areas from eastern Africa and Madagascar, through south and southeast Asia, to Australia and islands of the Pacific. It grows on rocks and tree trunks in rainforest.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5144,9 +6788,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Haplopteris ensiformis"
+      ],
+      "en": [
+        "Haplopteris ensiformis"
+      ],
+      "es": [
+        "Haplopteris ensiformis"
+      ],
+      "fr": [
+        "Haplopteris ensiformis"
+      ],
+      "it": [
+        "Haplopteris ensiformis"
+      ],
+      "nl": [
+        "Haplopteris ensiformis"
+      ],
+      "pl": [
+        "Haplopteris ensiformis"
+      ],
+      "pt": [
+        "Haplopteris ensiformis"
+      ],
+      "ru": [
+        "Haplopteris ensiformis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5238,9 +6912,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Haplopteris flexuosa"
+      ],
+      "en": [
+        "Haplopteris flexuosa"
+      ],
+      "es": [
+        "Haplopteris flexuosa"
+      ],
+      "fr": [
+        "Haplopteris flexuosa"
+      ],
+      "it": [
+        "Haplopteris flexuosa"
+      ],
+      "nl": [
+        "Haplopteris flexuosa"
+      ],
+      "pl": [
+        "Haplopteris flexuosa"
+      ],
+      "pt": [
+        "Haplopteris flexuosa"
+      ],
+      "ru": [
+        "Haplopteris flexuosa"
+      ],
+      "zh": [
+        "书带蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5332,11 +7039,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hemionitis palmata"
+      ],
       "en": [
+        "Hemionitis palmata",
         "Starfern"
+      ],
+      "es": [
+        "Hemionitis palmata"
+      ],
+      "fr": [
+        "Hemionitis palmata"
+      ],
+      "it": [
+        "Hemionitis palmata"
+      ],
+      "nl": [
+        "Hemionitis palmata"
+      ],
+      "pl": [
+        "Hemionitis palmata"
+      ],
+      "pt": [
+        "Hemionitis palmata"
+      ],
+      "ru": [
+        "Hemionitis palmata"
       ]
     },
     "tags": [],
@@ -5430,9 +7164,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hemionitis tomentosa"
+      ],
+      "en": [
+        "Hemionitis tomentosa"
+      ],
+      "es": [
+        "Hemionitis tomentosa"
+      ],
+      "fr": [
+        "Hemionitis tomentosa"
+      ],
+      "it": [
+        "Hemionitis tomentosa"
+      ],
+      "nl": [
+        "Hemionitis tomentosa"
+      ],
+      "pl": [
+        "Hemionitis tomentosa"
+      ],
+      "pt": [
+        "Hemionitis tomentosa"
+      ],
+      "ru": [
+        "Hemionitis tomentosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5524,9 +7288,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Jamesonia flexuosa"
+      ],
+      "en": [
+        "Jamesonia flexuosa"
+      ],
+      "es": [
+        "Jamesonia flexuosa"
+      ],
+      "fr": [
+        "Jamesonia flexuosa"
+      ],
+      "it": [
+        "Jamesonia flexuosa"
+      ],
+      "nl": [
+        "Jamesonia flexuosa"
+      ],
+      "pl": [
+        "Jamesonia flexuosa"
+      ],
+      "pt": [
+        "Jamesonia flexuosa"
+      ],
+      "ru": [
+        "Jamesonia flexuosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5541,7 +7335,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ac9008e5ee0e4ea747df7548581d675d.jpg",
-    "description": null,
+    "description": "Llavea is a monotypic genus of fern in the family Pteridaceae. The sole species is Llavea cordifolia. It is often cultivated as an ornamental foliage plant. The genus was named in honour of Pablo de La Llave, a Mexican naturalist.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5618,9 +7412,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Llavea cordifolia"
+      ],
+      "en": [
+        "Llavea cordifolia"
+      ],
+      "es": [
+        "Llavea cordifolia"
+      ],
+      "fr": [
+        "Llavea cordifolia"
+      ],
+      "it": [
+        "Llavea cordifolia"
+      ],
+      "nl": [
+        "Llavea cordifolia"
+      ],
+      "pl": [
+        "Llavea cordifolia"
+      ],
+      "pt": [
+        "Llavea cordifolia"
+      ],
+      "ru": [
+        "Llavea cordifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5635,7 +7459,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Notholaena standleyi, also known as star cloak fern and Standley's cloak fern, is a fern that is native to the United States and Mexico. It is a member of the genus Notholaena, which is part of the subfamily Cheilanthoideae of family Pteridaceae. It is distinguished by the pentagonal shape formed by the blades of its frond, a property other members of Notholaena do not possess.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5712,9 +7536,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Notholaena standleyi"
+      ],
+      "en": [
+        "Notholaena standleyi"
+      ],
+      "es": [
+        "Notholaena standleyi"
+      ],
+      "fr": [
+        "Notholaena standleyi"
+      ],
+      "it": [
+        "Notholaena standleyi"
+      ],
+      "nl": [
+        "Notholaena standleyi"
+      ],
+      "pl": [
+        "Notholaena standleyi"
+      ],
+      "pt": [
+        "Notholaena standleyi"
+      ],
+      "ru": [
+        "Notholaena standleyi"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5806,11 +7660,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Onychium japonicum"
+      ],
       "en": [
-        "Carrot fern"
+        "Carrot fern",
+        "Onychium japonicum"
+      ],
+      "es": [
+        "Onychium japonicum"
+      ],
+      "fr": [
+        "Onychium japonicum"
+      ],
+      "it": [
+        "Onychium japonicum"
+      ],
+      "ja": [
+        "タチシノブ"
+      ],
+      "nl": [
+        "Onychium japonicum"
+      ],
+      "pl": [
+        "Onychium japonicum"
+      ],
+      "pt": [
+        "Onychium japonicum"
+      ],
+      "ru": [
+        "Onychium japonicum"
+      ],
+      "zh": [
+        "野雉尾金粉蕨"
       ]
     },
     "tags": [],
@@ -5904,9 +7791,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pellaea andromedifolia"
+      ],
+      "en": [
+        "Pellaea andromedifolia"
+      ],
+      "es": [
+        "Pellaea andromedifolia"
+      ],
+      "fr": [
+        "Pellaea andromedifolia"
+      ],
+      "it": [
+        "Pellaea andromedifolia"
+      ],
+      "nl": [
+        "Pellaea andromedifolia"
+      ],
+      "pl": [
+        "Pellaea andromedifolia"
+      ],
+      "pt": [
+        "Pellaea andromedifolia"
+      ],
+      "ru": [
+        "Pellaea andromedifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5920,8 +7837,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Pellaea_atropurpurea_-_Flickr_-_aspidoscelis_%282%29.jpg",
+    "description": "Pellaea atropurpurea, commonly known as purple-stem cliffbrake or just purple cliffbrake, is a fern native to North and Central America. Brake is an old word for fern, related to the word bracken. Like many other members of the Pteridaceae, it is a rock plant, needing a calcareous substrate.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5998,9 +7915,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pellaea atropurpurea"
+      ],
+      "en": [
+        "Pellaea atropurpurea"
+      ],
+      "es": [
+        "Pellaea atropurpurea"
+      ],
+      "fr": [
+        "Pellaea atropurpurea"
+      ],
+      "it": [
+        "Pellaea atropurpurea"
+      ],
+      "nl": [
+        "Pellaea atropurpurea"
+      ],
+      "pl": [
+        "Pellaea atropurpurea"
+      ],
+      "pt": [
+        "Pellaea atropurpurea"
+      ],
+      "ru": [
+        "Pellaea atropurpurea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6014,8 +7961,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pellaea_calomelanos00.jpg",
+    "description": "Pellaea calomelanos is a species of fern. It is found in eastern and southern Africa where it is associated with Afromontane vegetation, as well as on Madagascar, The Comoros, and the Mascarene Islands. Disjunct populations are found in northern India, Spain, and the Azores.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6092,9 +8039,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pellaea calomelanos"
+      ],
+      "en": [
+        "Pellaea calomelanos"
+      ],
+      "es": [
+        "Pellaea calomelanos"
+      ],
+      "fr": [
+        "Pellaea calomelanos"
+      ],
+      "it": [
+        "Pellaea calomelanos"
+      ],
+      "nl": [
+        "Pellaea calomelanos"
+      ],
+      "pl": [
+        "Pellaea calomelanos"
+      ],
+      "pt": [
+        "Pellaea calomelanos"
+      ],
+      "ru": [
+        "Pellaea calomelanos"
+      ],
+      "zh": [
+        "三角羽旱蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6108,8 +8088,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Sickle_Fern_Mount_Wilson_Blue_Mountains.jpg",
+    "description": "Pellaea nana, known as dwarf sickle fern, is a species of fern in the subfamily Cheilanthoideae of the family Pteridaceae. It grows in eastern Australia, including Lord Howe Island, in rainforest or moist eucalyptus forest, often on rocks, cliffs and large boulders. The original specimen was collected by Allan Cunningham at the Brisbane River. In the state of Victoria, this plant is considered rare. The specific epithet nana is derived from the Latin word nanus meaning dwarf.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6186,9 +8166,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pellaea nana"
+      ],
+      "en": [
+        "Pellaea nana"
+      ],
+      "es": [
+        "Pellaea nana"
+      ],
+      "fr": [
+        "Pellaea nana"
+      ],
+      "it": [
+        "Pellaea nana"
+      ],
+      "nl": [
+        "Pellaea nana"
+      ],
+      "pl": [
+        "Pellaea nana"
+      ],
+      "pt": [
+        "Pellaea nana"
+      ],
+      "ru": [
+        "Pellaea nana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6280,9 +8290,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pellaea ovata"
+      ],
+      "en": [
+        "Pellaea ovata"
+      ],
+      "es": [
+        "Pellaea ovata"
+      ],
+      "fr": [
+        "Pellaea ovata"
+      ],
+      "it": [
+        "Pellaea ovata"
+      ],
+      "nl": [
+        "Pellaea ovata"
+      ],
+      "pl": [
+        "Pellaea ovata"
+      ],
+      "pt": [
+        "Pellaea ovata"
+      ],
+      "ru": [
+        "Pellaea ovata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6297,7 +8337,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Pellaea paradoxa is a small hardy fern found north of Sydney in eastern Australia and Lord Howe Island. Often growing in or near rainforests in rocky crevices. But it may occasionally be seen in drier areas. Fronds are usually curved, 4 to 9 cm long, and 1 to 4 cm wide. Leathery to touch and a dull green. Juvenile fronds may be heart shaped. The stalks are around 1 to 5 mm long. Sori appear in a band, usually 2 to 3 mm wide, at the edge of the underside of the fronds.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6374,9 +8414,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pellaea paradoxa"
+      ],
+      "en": [
+        "Pellaea paradoxa"
+      ],
+      "es": [
+        "Pellaea paradoxa"
+      ],
+      "fr": [
+        "Pellaea paradoxa"
+      ],
+      "it": [
+        "Pellaea paradoxa"
+      ],
+      "nl": [
+        "Pellaea paradoxa"
+      ],
+      "pl": [
+        "Pellaea paradoxa"
+      ],
+      "pt": [
+        "Pellaea paradoxa"
+      ],
+      "ru": [
+        "Pellaea paradoxa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6391,7 +8461,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Pellaea rotundifolia, the button fern, is a species of fern endemic to New Zealand, where it grows in scrub and forests. It is also a popular garden plant and house plant, tolerating low temperatures but not freezing.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6468,9 +8538,40 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pellaea rotundifolia"
+      ],
+      "en": [
+        "Button Fern",
+        "Pellaea rotundifolia"
+      ],
+      "es": [
+        "Pellaea rotundifolia"
+      ],
+      "fr": [
+        "Pellaea rotundifolia"
+      ],
+      "it": [
+        "Pellaea rotundifolia"
+      ],
+      "nl": [
+        "Pellaea rotundifolia"
+      ],
+      "pl": [
+        "Pellaea rotundifolia"
+      ],
+      "pt": [
+        "Pellaea rotundifolia"
+      ],
+      "ru": [
+        "Pellaea rotundifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6485,7 +8586,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/41b7a82ee217f12c64d5e31c53920c30ff09d1ba",
-    "description": null,
+    "description": "Pityrogramma calomelanos, commonly known as the silver fern, is a rhizomatous geophyte or lithophyte native to Mexico and Tropical America. It grows mainly in subtropical regions and has been introduced widely across Asia, Africa, and Pacific islands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6562,11 +8663,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pityrogramma calomelanos"
+      ],
       "en": [
-        "Dixie silverback fern"
+        "Dixie silverback fern",
+        "Pityrogramma calomelanos"
+      ],
+      "es": [
+        "Pityrogramma calomelanos"
+      ],
+      "fr": [
+        "Pityrogramma calomelanos"
+      ],
+      "it": [
+        "Pityrogramma calomelanos"
+      ],
+      "nl": [
+        "Pityrogramma calomelanos"
+      ],
+      "pl": [
+        "Pityrogramma calomelanos"
+      ],
+      "pt": [
+        "Pityrogramma calomelanos"
+      ],
+      "ru": [
+        "Pityrogramma calomelanos"
+      ],
+      "zh": [
+        "粉叶蕨"
       ]
     },
     "tags": [],
@@ -6660,9 +8791,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pityrogramma tartarea"
+      ],
+      "en": [
+        "Pityrogramma tartarea"
+      ],
+      "es": [
+        "Pityrogramma tartarea"
+      ],
+      "fr": [
+        "Pityrogramma tartarea"
+      ],
+      "it": [
+        "Pityrogramma tartarea"
+      ],
+      "nl": [
+        "Pityrogramma tartarea"
+      ],
+      "pl": [
+        "Pityrogramma tartarea"
+      ],
+      "pt": [
+        "Pityrogramma tartarea"
+      ],
+      "ru": [
+        "Pityrogramma tartarea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6754,11 +8915,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pityrogramma trifoliata"
+      ],
       "en": [
+        "Pityrogramma trifoliata",
         "Threeleaf goldback fern"
+      ],
+      "es": [
+        "Pityrogramma trifoliata"
+      ],
+      "fr": [
+        "Pityrogramma trifoliata"
+      ],
+      "it": [
+        "Pityrogramma trifoliata"
+      ],
+      "nl": [
+        "Pityrogramma trifoliata"
+      ],
+      "pl": [
+        "Pityrogramma trifoliata"
+      ],
+      "pt": [
+        "Pityrogramma trifoliata"
+      ],
+      "ru": [
+        "Pityrogramma trifoliata"
       ]
     },
     "tags": [],
@@ -6852,9 +9040,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Polytaenium citrifolium"
+      ],
+      "en": [
+        "Polytaenium citrifolium"
+      ],
+      "es": [
+        "Polytaenium citrifolium"
+      ],
+      "fr": [
+        "Polytaenium citrifolium"
+      ],
+      "it": [
+        "Polytaenium citrifolium"
+      ],
+      "nl": [
+        "Polytaenium citrifolium"
+      ],
+      "pl": [
+        "Polytaenium citrifolium"
+      ],
+      "pt": [
+        "Polytaenium citrifolium"
+      ],
+      "ru": [
+        "Polytaenium citrifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6946,11 +9164,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Polytaenium lineatum"
+      ],
       "en": [
-        "Narrow lineleaf fern"
+        "Narrow lineleaf fern",
+        "Polytaenium lineatum"
+      ],
+      "es": [
+        "Polytaenium lineatum"
+      ],
+      "fr": [
+        "Polytaenium lineatum"
+      ],
+      "it": [
+        "Polytaenium lineatum"
+      ],
+      "nl": [
+        "Polytaenium lineatum"
+      ],
+      "pl": [
+        "Polytaenium lineatum"
+      ],
+      "pt": [
+        "Polytaenium lineatum"
+      ],
+      "ru": [
+        "Polytaenium lineatum"
       ]
     },
     "tags": [],
@@ -6978,17 +9223,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_altissima",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -7044,11 +9289,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.8
     },
     "common_names": {
+      "de": [
+        "Pteris altissima"
+      ],
       "en": [
+        "Pteris altissima",
         "Tall brake"
+      ],
+      "es": [
+        "Pteris altissima"
+      ],
+      "fr": [
+        "Pteris altissima"
+      ],
+      "it": [
+        "Pteris altissima"
+      ],
+      "nl": [
+        "Pteris altissima"
+      ],
+      "pl": [
+        "Pteris altissima"
+      ],
+      "pt": [
+        "Pteris altissima"
+      ],
+      "ru": [
+        "Pteris altissima"
       ]
     },
     "tags": [],
@@ -7076,17 +9348,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_biaurita",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -7142,9 +9414,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pteris biaurita"
+      ],
+      "en": [
+        "Pteris biaurita"
+      ],
+      "es": [
+        "Pteris biaurita"
+      ],
+      "fr": [
+        "Pteris biaurita"
+      ],
+      "it": [
+        "Pteris biaurita"
+      ],
+      "nl": [
+        "Pteris biaurita"
+      ],
+      "pl": [
+        "Pteris biaurita"
+      ],
+      "pt": [
+        "Pteris biaurita"
+      ],
+      "ru": [
+        "Pteris biaurita"
+      ],
+      "zh": [
+        "狭眼凤尾蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7170,17 +9475,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_cretica",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -7236,11 +9541,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "ديشار كريتي"
+      ],
+      "de": [
+        "Kretischer Saumfarn"
+      ],
       "en": [
-        "Cretan brake"
+        "Cretan brake",
+        "Pteris cretica"
+      ],
+      "es": [
+        "Pteris cretica"
+      ],
+      "fr": [
+        "Ptéris de Crète"
+      ],
+      "it": [
+        "Pteris cretica"
+      ],
+      "ja": [
+        "オオバノイノモトソウ"
+      ],
+      "nl": [
+        "Pteris cretica"
+      ],
+      "pl": [
+        "Orliczka kreteńska"
+      ],
+      "pt": [
+        "Pteris cretica"
+      ],
+      "ru": [
+        "Pteris cretica"
+      ],
+      "zh": [
+        "欧洲凤尾蕨"
       ]
     },
     "tags": [],
@@ -7268,7 +9609,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_deflexa",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -7334,11 +9675,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pteris deflexa"
+      ],
       "en": [
+        "Pteris deflexa",
         "Thickleaf brake"
+      ],
+      "es": [
+        "Pteris deflexa"
+      ],
+      "fr": [
+        "Pteris deflexa"
+      ],
+      "it": [
+        "Pteris deflexa"
+      ],
+      "nl": [
+        "Pteris deflexa"
+      ],
+      "pl": [
+        "Pteris deflexa"
+      ],
+      "pt": [
+        "Pteris deflexa"
+      ],
+      "ru": [
+        "Pteris deflexa"
       ]
     },
     "tags": [],
@@ -7366,7 +9734,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_dentata",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -7432,11 +9800,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pteris dentata"
+      ],
       "en": [
+        "Pteris dentata",
         "Toothed brake"
+      ],
+      "es": [
+        "Pteris dentata"
+      ],
+      "fr": [
+        "Ptéris denté"
+      ],
+      "it": [
+        "Pteris dentata"
+      ],
+      "nl": [
+        "Pteris dentata"
+      ],
+      "pl": [
+        "Pteris dentata"
+      ],
+      "pt": [
+        "Pteris dentata"
+      ],
+      "ru": [
+        "Pteris dentata"
       ]
     },
     "tags": [],
@@ -7464,7 +9859,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_denticulata",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -7530,11 +9925,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pteris denticulata"
+      ],
       "en": [
+        "Pteris denticulata",
         "Toothed brake"
+      ],
+      "es": [
+        "Pteris denticulata"
+      ],
+      "fr": [
+        "Pteris denticulata"
+      ],
+      "it": [
+        "Pteris denticulata"
+      ],
+      "nl": [
+        "Pteris denticulata"
+      ],
+      "pl": [
+        "Pteris denticulata"
+      ],
+      "pt": [
+        "Pteris denticulata"
+      ],
+      "ru": [
+        "Pteris denticulata"
       ]
     },
     "tags": [],
@@ -7562,7 +9984,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_dispar",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -7628,9 +10050,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pteris dispar"
+      ],
+      "en": [
+        "Pteris dispar"
+      ],
+      "es": [
+        "Pteris dispar"
+      ],
+      "fr": [
+        "Pteris dispar"
+      ],
+      "it": [
+        "Pteris dispar"
+      ],
+      "ja": [
+        "アマクサシダ"
+      ],
+      "nl": [
+        "Pteris dispar"
+      ],
+      "pl": [
+        "Pteris dispar"
+      ],
+      "pt": [
+        "Pteris dispar"
+      ],
+      "ru": [
+        "Pteris dispar"
+      ],
+      "zh": [
+        "刺齿凤尾蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7656,17 +10114,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_ensiformis",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -7722,11 +10180,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.8
     },
     "common_names": {
+      "ar": [
+        "ديشار سيفي الشكل"
+      ],
+      "de": [
+        "Pteris ensiformis"
+      ],
       "en": [
+        "Pteris ensiformis",
         "Sword brake"
+      ],
+      "es": [
+        "Pteris ensiformis"
+      ],
+      "fr": [
+        "Ptéris à feuilles fines"
+      ],
+      "it": [
+        "Pteris ensiformis"
+      ],
+      "ja": [
+        "ホコシダ"
+      ],
+      "nl": [
+        "Pteris ensiformis"
+      ],
+      "pl": [
+        "Pteris ensiformis"
+      ],
+      "pt": [
+        "Pteris ensiformis"
+      ],
+      "ru": [
+        "Pteris ensiformis"
+      ],
+      "zh": [
+        "剑叶凤尾蕨"
       ]
     },
     "tags": [],
@@ -7754,7 +10248,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_grandifolia",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -7820,11 +10314,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pteris grandifolia"
+      ],
       "en": [
-        "Elephantleaf brake"
+        "Elephantleaf brake",
+        "Pteris grandifolia"
+      ],
+      "es": [
+        "Pteris grandifolia"
+      ],
+      "fr": [
+        "Pteris grandifolia"
+      ],
+      "it": [
+        "Pteris grandifolia"
+      ],
+      "nl": [
+        "Pteris grandifolia"
+      ],
+      "pl": [
+        "Pteris grandifolia"
+      ],
+      "pt": [
+        "Pteris grandifolia"
+      ],
+      "ru": [
+        "Pteris grandifolia"
       ]
     },
     "tags": [],
@@ -7852,7 +10373,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_incompleta",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -7918,9 +10439,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pteris incompleta"
+      ],
+      "en": [
+        "Pteris incompleta"
+      ],
+      "es": [
+        "Pteris incompleta"
+      ],
+      "fr": [
+        "Pteris incompleta"
+      ],
+      "it": [
+        "Pteris incompleta"
+      ],
+      "nl": [
+        "Pteris incompleta"
+      ],
+      "pl": [
+        "Pteris incompleta"
+      ],
+      "pt": [
+        "Pteris incompleta"
+      ],
+      "ru": [
+        "Pteris incompleta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7946,7 +10497,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_longifolia",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -8012,11 +10563,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ديشار طويل الأوراق"
+      ],
+      "de": [
+        "Pteris longifolia"
+      ],
       "en": [
-        "Longleaf brake"
+        "Longleaf brake",
+        "Pteris longifolia"
+      ],
+      "es": [
+        "Pteris longifolia"
+      ],
+      "fr": [
+        "Pteris longifolia"
+      ],
+      "it": [
+        "Pteris longifolia"
+      ],
+      "nl": [
+        "Pteris longifolia"
+      ],
+      "pl": [
+        "Pteris longifolia"
+      ],
+      "pt": [
+        "Pteris longifolia"
+      ],
+      "ru": [
+        "Pteris longifolia"
       ]
     },
     "tags": [],
@@ -8044,7 +10625,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_macilenta",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -8110,9 +10691,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pteris macilenta"
+      ],
+      "en": [
+        "Pteris macilenta"
+      ],
+      "es": [
+        "Pteris macilenta"
+      ],
+      "fr": [
+        "Pteris macilenta"
+      ],
+      "it": [
+        "Pteris macilenta"
+      ],
+      "nl": [
+        "Pteris macilenta"
+      ],
+      "pl": [
+        "Pteris macilenta"
+      ],
+      "pt": [
+        "Pteris macilenta"
+      ],
+      "ru": [
+        "Pteris macilenta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8138,17 +10749,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_multifida",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -8204,11 +10815,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.8
     },
     "common_names": {
+      "de": [
+        "Pteris multifida"
+      ],
       "en": [
-        "Chinese brake"
+        "Chinese brake",
+        "Pteris multifida"
+      ],
+      "es": [
+        "Pteris multifida"
+      ],
+      "fr": [
+        "Pteris multifida"
+      ],
+      "it": [
+        "Pteris multifida"
+      ],
+      "ja": [
+        "イノモトソウ"
+      ],
+      "nl": [
+        "Pteris multifida"
+      ],
+      "pl": [
+        "Pteris multifida"
+      ],
+      "pt": [
+        "Pteris multifida"
+      ],
+      "ru": [
+        "Pteris multifida"
+      ],
+      "zh": [
+        "井栏凤尾蕨"
       ]
     },
     "tags": [],
@@ -8236,7 +10880,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_parkeri",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -8302,9 +10946,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pteris parkeri"
+      ],
+      "en": [
+        "Pteris parkeri"
+      ],
+      "es": [
+        "Pteris parkeri"
+      ],
+      "fr": [
+        "Pteris parkeri"
+      ],
+      "it": [
+        "Pteris parkeri"
+      ],
+      "nl": [
+        "Pteris parkeri"
+      ],
+      "pl": [
+        "Pteris parkeri"
+      ],
+      "pt": [
+        "Pteris parkeri"
+      ],
+      "ru": [
+        "Pteris parkeri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8330,7 +11004,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_podophylla",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -8396,9 +11070,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pteris podophylla"
+      ],
+      "en": [
+        "Pteris podophylla"
+      ],
+      "es": [
+        "Pteris podophylla"
+      ],
+      "fr": [
+        "Pteris podophylla"
+      ],
+      "it": [
+        "Pteris podophylla"
+      ],
+      "nl": [
+        "Pteris podophylla"
+      ],
+      "pl": [
+        "Pteris podophylla"
+      ],
+      "pt": [
+        "Pteris podophylla"
+      ],
+      "ru": [
+        "Pteris podophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8424,17 +11128,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_quadriaurita",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -8490,11 +11194,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.8
     },
     "common_names": {
+      "de": [
+        "Pteris quadriaurita"
+      ],
       "en": [
+        "Pteris quadriaurita",
         "Striped brake"
+      ],
+      "es": [
+        "Pteris quadriaurita"
+      ],
+      "fr": [
+        "Pteris quadriaurita"
+      ],
+      "it": [
+        "Pteris quadriaurita"
+      ],
+      "nl": [
+        "Pteris quadriaurita"
+      ],
+      "pl": [
+        "Pteris quadriaurita"
+      ],
+      "pt": [
+        "Pteris quadriaurita"
+      ],
+      "ru": [
+        "Pteris quadriaurita"
+      ],
+      "zh": [
+        "四耳凤尾蕨"
       ]
     },
     "tags": [],
@@ -8522,17 +11256,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_semipinnata",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -8588,9 +11322,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pteris semipinnata"
+      ],
+      "en": [
+        "Pteris semipinnata"
+      ],
+      "es": [
+        "Pteris semipinnata"
+      ],
+      "fr": [
+        "Pteris semipinnata"
+      ],
+      "it": [
+        "Pteris semipinnata"
+      ],
+      "nl": [
+        "Pteris semipinnata"
+      ],
+      "pl": [
+        "Pteris semipinnata"
+      ],
+      "pt": [
+        "Pteris semipinnata"
+      ],
+      "ru": [
+        "Pteris semipinnata"
+      ],
+      "zh": [
+        "半边旗"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8616,17 +11383,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_terminalis",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -8682,9 +11449,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pteris terminalis"
+      ],
+      "en": [
+        "Pteris terminalis"
+      ],
+      "es": [
+        "Pteris terminalis"
+      ],
+      "fr": [
+        "Pteris terminalis"
+      ],
+      "it": [
+        "Pteris terminalis"
+      ],
+      "nl": [
+        "Pteris terminalis"
+      ],
+      "pl": [
+        "Pteris terminalis"
+      ],
+      "pt": [
+        "Pteris terminalis"
+      ],
+      "ru": [
+        "Pteris terminalis"
+      ],
+      "zh": [
+        "溪边凤尾蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8710,17 +11510,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_tremula",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -8776,11 +11576,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.8
     },
     "common_names": {
+      "de": [
+        "Pteris tremula"
+      ],
       "en": [
-        "Australian bracken"
+        "Australian bracken",
+        "Pteris tremula"
+      ],
+      "es": [
+        "Pteris tremula"
+      ],
+      "fr": [
+        "Pteris tremula"
+      ],
+      "it": [
+        "Pteris tremula"
+      ],
+      "nl": [
+        "Pteris tremula"
+      ],
+      "pl": [
+        "Pteris tremula"
+      ],
+      "pt": [
+        "Pteris tremula"
+      ],
+      "ru": [
+        "Pteris tremula"
       ]
     },
     "tags": [],
@@ -8808,7 +11635,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_tripartita",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -8874,11 +11701,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pteris tripartita"
+      ],
       "en": [
-        "Giant bracken"
+        "Giant bracken",
+        "Pteris tripartita"
+      ],
+      "es": [
+        "Pteris tripartita"
+      ],
+      "fr": [
+        "Pteris tripartita"
+      ],
+      "it": [
+        "Pteris tripartita"
+      ],
+      "nl": [
+        "Pteris tripartita"
+      ],
+      "pl": [
+        "Pteris tripartita"
+      ],
+      "pt": [
+        "Pteris tripartita"
+      ],
+      "ru": [
+        "Pteris tripartita"
+      ],
+      "zh": [
+        "三叉凤尾蕨"
       ]
     },
     "tags": [],
@@ -8906,7 +11763,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_umbrosa",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -8972,9 +11829,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pteris umbrosa"
+      ],
+      "en": [
+        "Pteris umbrosa"
+      ],
+      "es": [
+        "Pteris umbrosa"
+      ],
+      "fr": [
+        "Pteris umbrosa"
+      ],
+      "it": [
+        "Pteris umbrosa"
+      ],
+      "nl": [
+        "Pteris umbrosa"
+      ],
+      "pl": [
+        "Pteris umbrosa"
+      ],
+      "pt": [
+        "Pteris umbrosa"
+      ],
+      "ru": [
+        "Pteris umbrosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9000,17 +11887,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pteris_vittata",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -9066,11 +11953,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 3.5
     },
     "common_names": {
+      "ar": [
+        "ديشار مخطط"
+      ],
+      "de": [
+        "Gebänderter Saumfarn"
+      ],
       "en": [
-        "Chinese brake"
+        "Chinese brake",
+        "Pteris vittata"
+      ],
+      "es": [
+        "Pteris vittata"
+      ],
+      "fr": [
+        "Pteris vittata"
+      ],
+      "it": [
+        "Pteris vittata"
+      ],
+      "ja": [
+        "モエジマシダ"
+      ],
+      "nl": [
+        "Pteris vittata"
+      ],
+      "pl": [
+        "Pteris vittata"
+      ],
+      "pt": [
+        "Pteris vittata"
+      ],
+      "ru": [
+        "Pteris vittata"
+      ],
+      "zh": [
+        "蜈蚣凤尾蕨"
       ]
     },
     "tags": [],
@@ -9164,9 +12087,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Radiovittaria stipitata"
+      ],
+      "en": [
+        "Radiovittaria stipitata"
+      ],
+      "es": [
+        "Radiovittaria stipitata"
+      ],
+      "fr": [
+        "Radiovittaria stipitata"
+      ],
+      "it": [
+        "Radiovittaria stipitata"
+      ],
+      "nl": [
+        "Radiovittaria stipitata"
+      ],
+      "pl": [
+        "Radiovittaria stipitata"
+      ],
+      "pt": [
+        "Radiovittaria stipitata"
+      ],
+      "ru": [
+        "Radiovittaria stipitata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9258,9 +12211,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Taenitis blechnoides"
+      ],
+      "en": [
+        "Taenitis blechnoides"
+      ],
+      "es": [
+        "Taenitis blechnoides"
+      ],
+      "fr": [
+        "Taenitis blechnoides"
+      ],
+      "it": [
+        "Taenitis blechnoides"
+      ],
+      "nl": [
+        "Taenitis blechnoides"
+      ],
+      "pl": [
+        "Taenitis blechnoides"
+      ],
+      "pt": [
+        "Taenitis blechnoides"
+      ],
+      "ru": [
+        "Taenitis blechnoides"
+      ],
+      "zh": [
+        "竹叶蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9352,11 +12338,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Vittaria graminifolia"
+      ],
       "en": [
-        "Grass fern"
+        "Grass fern",
+        "Vittaria graminifolia"
+      ],
+      "es": [
+        "Vittaria graminifolia"
+      ],
+      "fr": [
+        "Vittaria graminifolia"
+      ],
+      "it": [
+        "Vittaria graminifolia"
+      ],
+      "nl": [
+        "Vittaria graminifolia"
+      ],
+      "pl": [
+        "Vittaria graminifolia"
+      ],
+      "pt": [
+        "Vittaria graminifolia"
+      ],
+      "ru": [
+        "Vittaria graminifolia"
       ]
     },
     "tags": [],
@@ -9450,11 +12463,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Vittaria lineata"
+      ],
       "en": [
-        "Shoestring fern"
+        "Shoestring fern",
+        "Vittaria lineata"
+      ],
+      "es": [
+        "Vittaria lineata"
+      ],
+      "fr": [
+        "Vittaria lineata"
+      ],
+      "it": [
+        "Vittaria lineata"
+      ],
+      "nl": [
+        "Vittaria lineata"
+      ],
+      "pl": [
+        "Vittaria lineata"
+      ],
+      "pt": [
+        "Vittaria lineata"
+      ],
+      "ru": [
+        "Vittaria lineata"
       ]
     },
     "tags": [],

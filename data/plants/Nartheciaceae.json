@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f519d3db6f33147712e9f08fbf2034f479cd41e5",
-    "description": "Fruit displays in August.",
+    "description": "Aletris aurea  is a plant species native to the southeastern United States from eastern Texas and southeastern Oklahoma to Maryland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "حشيشة آلاغ المذهبة"
+      ],
+      "de": [
+        "Aletris aurea"
+      ],
       "en": [
+        "Aletris aurea",
         "Golden colicroot"
+      ],
+      "es": [
+        "Aletris aurea"
+      ],
+      "fr": [
+        "Aletris aurea"
+      ],
+      "it": [
+        "Aletris aurea"
+      ],
+      "nl": [
+        "Aletris aurea"
+      ],
+      "pl": [
+        "Aletris aurea"
+      ],
+      "pt": [
+        "Aletris aurea"
+      ],
+      "ru": [
+        "Aletris aurea"
       ]
     },
     "tags": [],
@@ -108,7 +138,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/af71ce0b187a05b0192ee14aaa315bea3f486859",
-    "description": "Fruit displays from July to August in the form of a small ovoid capsule.  Each capsule contains numerous seeds that are scattered by the wide once the capsule splits open.",
+    "description": "Aletris farinosa, called the unicorn root, true unicorn, crow-corn, white colic-root or white stargrass, is a plant species found across much of the eastern United States. It has also been reported from the southern part of Ontario, Canada. It is known from every state east of the Mississippi River except Vermont, as well as Texas, Oklahoma, Arkansas and Louisiana. Its native habitats include moist peaty, sandy or gravelly areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,11 +215,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "حشيشة آلاغ الرمداء"
+      ],
+      "de": [
+        "Aletris farinosa"
+      ],
       "en": [
-        "Agueroot"
+        "Agueroot",
+        "Aletris farinosa"
+      ],
+      "es": [
+        "Aletris farinosa"
+      ],
+      "fr": [
+        "Aletris farinosa"
+      ],
+      "it": [
+        "Aletris farinosa"
+      ],
+      "nl": [
+        "Aletris farinosa"
+      ],
+      "pl": [
+        "Aletris farinosa"
+      ],
+      "pt": [
+        "Aletris farinosa"
+      ],
+      "ru": [
+        "Aletris farinosa"
+      ],
+      "zh": [
+        "粉条儿菜"
       ]
     },
     "tags": [],
@@ -201,12 +264,12 @@
     "family": "Nartheciaceae",
     "genus": "Lophiola",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d0e9b0c1d4466a5d2539c61132877889.jpg",
-    "description": null,
+    "description": "Lophiola is a genus of monocotyledonous flowering plants native to eastern North America. It has variously been placed in the Liliaceae, the Haemodoraceae, the Tecophilaeaceae or the Nartheciaceae.Lophiola aurea Ker Gawl. - southeastern United States from Louisiana to North Carolina; also isolated populations in Delaware, New Jersey, and Nova Scotia",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -283,9 +346,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lophiola aurea"
+      ],
+      "en": [
+        "Lophiola aurea"
+      ],
+      "es": [
+        "Lophiola aurea"
+      ],
+      "fr": [
+        "Lophiola aurea"
+      ],
+      "it": [
+        "Lophiola aurea"
+      ],
+      "nl": [
+        "Lophiola aurea"
+      ],
+      "pl": [
+        "Lophiola aurea"
+      ],
+      "pt": [
+        "Lophiola aurea"
+      ],
+      "ru": [
+        "Lophiola aurea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -295,7 +388,7 @@
     "family": "Nartheciaceae",
     "genus": "Narthecium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -311,17 +404,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "narthecium_ossifragum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -377,11 +470,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "ar": [
+        "حنى كذاب"
+      ],
+      "de": [
+        "Moorlilie"
+      ],
       "en": [
-        "Bog-asphodel"
+        "Bog-asphodel",
+        "Narthecium ossifragum"
+      ],
+      "es": [
+        "Narthecium ossifragum"
+      ],
+      "fr": [
+        "Narthécie des marais"
+      ],
+      "it": [
+        "Narthecium ossifragum"
+      ],
+      "nl": [
+        "Beenbreek"
+      ],
+      "pl": [
+        "łomka zachodnia"
+      ],
+      "pt": [
+        "Narthecium ossifragum"
+      ],
+      "ru": [
+        "Narthecium ossifragum"
       ]
     },
     "tags": [],

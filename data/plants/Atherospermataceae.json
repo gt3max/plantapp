@@ -5,12 +5,12 @@
     "family": "Atherospermataceae",
     "genus": "Atherosperma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/420fe8bf5181419ff5381948e7ecb5b1b879d879",
-    "description": null,
+    "description": "Atherosperma is a genus of flowering plant in the family Atherospermataceae. Its only species is Atherosperma moschatum, commonly known as black sassafras, Australian sassafras, southern sassafras, native sassafras or Tasmanian sassafras. It is a shrub to conical tree and is endemic to south-eastern Australia. It has densely hairy young branchlets, flowers and the lower surface of the leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Atherosperma moschatum"
+      ],
       "en": [
+        "Atherosperma moschatum",
         "Tasmanian-sassafras"
+      ],
+      "es": [
+        "Atherosperma moschatum"
+      ],
+      "fr": [
+        "Atherosperma moschatum"
+      ],
+      "it": [
+        "Atherosperma moschatum"
+      ],
+      "nl": [
+        "Atherosperma moschatum"
+      ],
+      "pl": [
+        "Atherosperma moschatum"
+      ],
+      "pt": [
+        "Atherosperma moschatum"
+      ],
+      "ru": [
+        "Atherosperma moschatum"
       ]
     },
     "tags": [],
@@ -103,12 +130,12 @@
     "family": "Atherospermataceae",
     "genus": "Doryphora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Doryphora_sassafras_flower.jpg",
+    "description": "Doryphora sassafras, commonly known as sassafras, yellow sassafras, golden deal or golden sassafras, is a species of flowering plant in the Southern Sassafras Family Atherospermataceae and is endemic to eastern Australia. It is a shrub to tree with elliptic or egg-shaped leaves and contrasting white flowers which occur in autumn and winter.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,9 +212,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Doryphora sassafras"
+      ],
+      "en": [
+        "Doryphora sassafras"
+      ],
+      "es": [
+        "Doryphora sassafras"
+      ],
+      "fr": [
+        "Doryphora sassafras"
+      ],
+      "it": [
+        "Doryphora sassafras"
+      ],
+      "nl": [
+        "Doryphora sassafras"
+      ],
+      "pl": [
+        "Doryphora sassafras"
+      ],
+      "pt": [
+        "Doryphora sassafras"
+      ],
+      "ru": [
+        "Дорифора сассафрас"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,12 +254,12 @@
     "family": "Atherospermataceae",
     "genus": "Laurelia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/2df260b102b8fd2fc6e8df6343c8b34d.jpg",
-    "description": null,
+    "description": "Laurelia novae-zelandiae, commonly known as pukatea, is a large evergreen tree, endemic to the forests of New Zealand. Pukatea has 'toothed' leaves and produces small flowers. It is a species in the Atherospermataceae family, and a typical representative of the laurel forest ecoregion.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,9 +336,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Laurelia novae-zelandiae"
+      ],
+      "en": [
+        "Laurelia novae-zelandiae"
+      ],
+      "es": [
+        "Laurelia novae-zelandiae"
+      ],
+      "fr": [
+        "Laurelia novae-zelandiae"
+      ],
+      "it": [
+        "Laurelia novae-zelandiae"
+      ],
+      "nl": [
+        "Laurelia novae-zelandiae"
+      ],
+      "pl": [
+        "Laurelia novae-zelandiae"
+      ],
+      "pt": [
+        "Laurelia novae-zelandiae"
+      ],
+      "ru": [
+        "Laurelia novae-zelandiae"
+      ],
+      "zh": [
+        "紐西蘭桂"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

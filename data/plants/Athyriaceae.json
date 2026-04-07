@@ -5,7 +5,7 @@
     "family": "Athyriaceae",
     "genus": "Athyrium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,9 +21,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "athyrium_niponicum_var._pictum",
-      "water_frequency": "Every 3-4 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "deep shade",
@@ -94,11 +94,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Athyrium niponicum var. pictum"
+      ],
       "en": [
+        "Athyrium niponicum var. pictum",
         "Japanese painted fern"
+      ],
+      "es": [
+        "Athyrium niponicum var. pictum"
+      ],
+      "fr": [
+        "Athyrium niponicum var. pictum"
+      ],
+      "it": [
+        "Athyrium niponicum var. pictum"
+      ],
+      "nl": [
+        "Athyrium niponicum var. pictum"
+      ],
+      "pl": [
+        "Athyrium niponicum var. pictum"
+      ],
+      "pt": [
+        "Athyrium niponicum var. pictum"
+      ],
+      "ru": [
+        "Athyrium niponicum var. pictum"
       ]
     },
     "tags": [
@@ -115,7 +142,7 @@
     "family": "Athyriaceae",
     "genus": "Athyrium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -131,9 +158,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "athyrium_niponicum_var._pictum_metallicum",
-      "water_frequency": null,
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "deep shade",
@@ -204,7 +231,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [

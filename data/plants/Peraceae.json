@@ -5,7 +5,7 @@
     "family": "Peraceae",
     "genus": "Pera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pera arborea"
+      ],
+      "en": [
+        "Pera arborea"
+      ],
+      "es": [
+        "Pera arborea"
+      ],
+      "fr": [
+        "Pera arborea"
+      ],
+      "it": [
+        "Pera arborea"
+      ],
+      "nl": [
+        "Pera arborea"
+      ],
+      "pl": [
+        "Pera arborea"
+      ],
+      "pt": [
+        "Pera arborea"
+      ],
+      "ru": [
+        "Pera arborea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Peraceae",
     "genus": "Pera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pera glabrata"
+      ],
+      "en": [
+        "Pera glabrata"
+      ],
+      "es": [
+        "Pera glabrata"
+      ],
+      "fr": [
+        "Pera glabrata"
+      ],
+      "it": [
+        "Pera glabrata"
+      ],
+      "nl": [
+        "Pera glabrata"
+      ],
+      "pl": [
+        "Pera glabrata"
+      ],
+      "pt": [
+        "Pera glabrata"
+      ],
+      "ru": [
+        "Pera glabrata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +253,7 @@
     "family": "Peraceae",
     "genus": "Pogonophora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pogonophora schomburgkiana"
+      ],
+      "en": [
+        "Pogonophora schomburgkiana"
+      ],
+      "es": [
+        "Pogonophora schomburgkiana"
+      ],
+      "fr": [
+        "Pogonophora schomburgkiana"
+      ],
+      "it": [
+        "Pogonophora schomburgkiana"
+      ],
+      "nl": [
+        "Pogonophora schomburgkiana"
+      ],
+      "pl": [
+        "Pogonophora schomburgkiana"
+      ],
+      "pt": [
+        "Pogonophora schomburgkiana"
+      ],
+      "ru": [
+        "Pogonophora schomburgkiana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

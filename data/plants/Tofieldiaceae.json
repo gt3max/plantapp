@@ -5,7 +5,7 @@
     "family": "Tofieldiaceae",
     "genus": "Tofieldia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "tofieldia_calyculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Gewöhnliche Simsenlilie"
+      ],
       "en": [
-        "German-asphodel"
+        "German-asphodel",
+        "Tofieldia calyculata"
+      ],
+      "es": [
+        "Tofieldia calyculata"
+      ],
+      "fr": [
+        "Tofieldia calyculata"
+      ],
+      "it": [
+        "Tofieldia calyculata"
+      ],
+      "nl": [
+        "Tofieldia calyculata"
+      ],
+      "pl": [
+        "kosatka kielichowa"
+      ],
+      "pt": [
+        "Tofieldia calyculata"
+      ],
+      "ru": [
+        "Тофильдия чашечковая"
       ]
     },
     "tags": [],
@@ -103,7 +130,7 @@
     "family": "Tofieldiaceae",
     "genus": "Tofieldia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,7 +146,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "tofieldia_coccinea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -185,9 +212,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tofieldia coccinea"
+      ],
+      "en": [
+        "Tofieldia coccinea"
+      ],
+      "es": [
+        "Tofieldia coccinea"
+      ],
+      "fr": [
+        "Tofieldia coccinea"
+      ],
+      "it": [
+        "Tofieldia coccinea"
+      ],
+      "ja": [
+        "チシマゼキショウ"
+      ],
+      "nl": [
+        "Tofieldia coccinea"
+      ],
+      "pl": [
+        "Tofieldia coccinea"
+      ],
+      "pt": [
+        "Tofieldia coccinea"
+      ],
+      "ru": [
+        "Tofieldia coccinea"
+      ],
+      "zh": [
+        "长白岩菖蒲"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,7 +260,7 @@
     "family": "Tofieldiaceae",
     "genus": "Tofieldia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -213,17 +276,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "tofieldia_pusilla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -279,11 +342,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Kleine Simsenlilie"
+      ],
       "en": [
-        "Scottish false asphodel"
+        "Scottish false asphodel",
+        "Tofieldia pusilla"
+      ],
+      "es": [
+        "Tofieldia pusilla"
+      ],
+      "fr": [
+        "Tofieldia pusilla"
+      ],
+      "it": [
+        "Tofieldia pusilla"
+      ],
+      "nl": [
+        "Tofieldia pusilla"
+      ],
+      "pl": [
+        "Tofieldia pusilla"
+      ],
+      "pt": [
+        "Tofieldia pusilla"
+      ],
+      "ru": [
+        "Tofieldia pusilla"
       ]
     },
     "tags": [],
@@ -295,7 +385,7 @@
     "family": "Tofieldiaceae",
     "genus": "Triantha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -377,11 +467,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Triantha glutinosa"
+      ],
       "en": [
-        "Sticky tofieldia"
+        "Sticky tofieldia",
+        "Triantha glutinosa"
+      ],
+      "es": [
+        "Triantha glutinosa"
+      ],
+      "fr": [
+        "Triantha glutinosa"
+      ],
+      "it": [
+        "Triantha glutinosa"
+      ],
+      "nl": [
+        "Triantha glutinosa"
+      ],
+      "pl": [
+        "Triantha glutinosa"
+      ],
+      "pt": [
+        "Triantha glutinosa"
+      ],
+      "ru": [
+        "Triantha glutinosa"
       ]
     },
     "tags": [],
@@ -393,7 +510,7 @@
     "family": "Tofieldiaceae",
     "genus": "Triantha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -475,9 +592,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Triantha occidentalis"
+      ],
+      "en": [
+        "Triantha occidentalis"
+      ],
+      "es": [
+        "Triantha occidentalis"
+      ],
+      "fr": [
+        "Triantha occidentalis"
+      ],
+      "it": [
+        "Triantha occidentalis"
+      ],
+      "nl": [
+        "Triantha occidentalis"
+      ],
+      "pl": [
+        "Triantha occidentalis"
+      ],
+      "pt": [
+        "Triantha occidentalis"
+      ],
+      "ru": [
+        "Triantha occidentalis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -487,7 +634,7 @@
     "family": "Tofieldiaceae",
     "genus": "Triantha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -569,11 +716,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Triantha racemosa"
+      ],
       "en": [
-        "Coastal false asphodel"
+        "Coastal false asphodel",
+        "Triantha racemosa"
+      ],
+      "es": [
+        "Triantha racemosa"
+      ],
+      "fr": [
+        "Triantha racemosa"
+      ],
+      "it": [
+        "Triantha racemosa"
+      ],
+      "nl": [
+        "Triantha racemosa"
+      ],
+      "pl": [
+        "Triantha racemosa"
+      ],
+      "pt": [
+        "Triantha racemosa"
+      ],
+      "ru": [
+        "Triantha racemosa"
       ]
     },
     "tags": [],

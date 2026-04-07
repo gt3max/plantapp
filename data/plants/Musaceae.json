@@ -5,12 +5,12 @@
     "family": "Musaceae",
     "genus": "Musa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/5bddd1408cf119599b273500f6e087a1e4a9c028",
-    "description": null,
+    "description": "Musa acuminata is a species of banana native to Southern Asia, its range comprising the Indian subcontinent and Southeast Asia. Many of the modern edible dessert bananas are derived from this species, although some are hybrids with Musa balbisiana. First cultivated by humans around 8000 BCE, it is one of the early examples of domesticated plants.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "موز مستدق"
+      ],
+      "de": [
+        "Musa acuminata"
+      ],
       "en": [
-        "Cavendish banana"
+        "Cavendish banana",
+        "Musa acuminata"
+      ],
+      "es": [
+        "plátano malayo"
+      ],
+      "fr": [
+        "Musa acuminata"
+      ],
+      "it": [
+        "Musa acuminata"
+      ],
+      "ja": [
+        "ミバショウ"
+      ],
+      "ko": [
+        "무사 아쿠미나타"
+      ],
+      "nl": [
+        "babybanaan"
+      ],
+      "pl": [
+        "Musa acuminata"
+      ],
+      "pt": [
+        "Banana-maçã"
+      ],
+      "ru": [
+        "Банан заострённый"
+      ],
+      "zh": [
+        "小果野蕉"
       ]
     },
     "tags": [],
@@ -103,12 +142,12 @@
     "family": "Musaceae",
     "genus": "Musa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/05235098d72f59436db971e70c2ef51e41dc67b6",
-    "description": null,
+    "description": "Musa × paradisiaca is a species as well as a cultivar, originating as the hybrid between Musa acuminata and Musa balbisiana, cultivated and domesticated by humans very early. Most cultivated bananas and plantains are polyploid cultivars either of this hybrid or of M. acuminata alone. Linnaeus originally used the name M. paradisiaca only for plantains or cooking bananas, but the modern usage includes hybrid cultivars used both for cooking and as dessert bananas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,11 +224,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "موز فردوسي"
+      ],
+      "de": [
+        "Dessertbanane"
+      ],
       "en": [
+        "Musa × paradisiaca",
         "Plantain"
+      ],
+      "es": [
+        "Musa × paradisiaca"
+      ],
+      "fr": [
+        "Musa × paradisiaca"
+      ],
+      "it": [
+        "Musa ×paradisiaca"
+      ],
+      "ja": [
+        "バナナ"
+      ],
+      "ko": [
+        "바나나"
+      ],
+      "nl": [
+        "Musa ×paradisiaca"
+      ],
+      "pl": [
+        "banan zwyczajny"
+      ],
+      "pt": [
+        "Musa ×paradisiaca"
+      ],
+      "ru": [
+        "банан райский"
+      ],
+      "zh": [
+        "大蕉"
       ]
     },
     "tags": [],

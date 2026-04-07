@@ -5,12 +5,12 @@
     "family": "Gyrostemonaceae",
     "genus": "Codonocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4755b3345f1d23aa7d449bc26ee6a1f5.jpg",
-    "description": null,
+    "description": "Codonocarpus cotinifolius is a tall shrub or tree in the Gyrostemonaceae family found in all mainland states of Australia, including Victoria, and is also widespread in arid areas. It is suspected of being toxic to stock.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Codonocarpus cotinifolius"
+      ],
+      "en": [
+        "Codonocarpus cotinifolius"
+      ],
+      "es": [
+        "Codonocarpus cotinifolius"
+      ],
+      "fr": [
+        "Codonocarpus cotinifolius"
+      ],
+      "it": [
+        "Codonocarpus cotinifolius"
+      ],
+      "nl": [
+        "Codonocarpus cotinifolius"
+      ],
+      "pl": [
+        "Codonocarpus cotinifolius"
+      ],
+      "pt": [
+        "Codonocarpus cotinifolius"
+      ],
+      "ru": [
+        "Codonocarpus cotinifolius"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

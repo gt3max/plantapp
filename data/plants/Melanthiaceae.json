@@ -5,12 +5,12 @@
     "family": "Melanthiaceae",
     "genus": "Amianthium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Amianthium_muscitoxicum_%28homeredwardprice%29_003.jpg",
+    "description": "Amianthium is a genus of perennial monocot plants found in eastern North America. The genus contains only one species, known as Amianthium muscitoxicum. Its common names include \"fly poison\" and \"stagger grass\". The species name muscitoxicum comes from a direct Latin translation of \"fly poison\": muscae = flies, toxicum = poison. The entire plant is poisonous to an array of species, including humans, and the bulb is particularly toxic. A.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,7 +87,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "es": [
@@ -115,12 +117,12 @@
     "family": "Melanthiaceae",
     "genus": "Anticlea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2b64df0c16bd84acd866157a3841fc4cda1b5a00",
-    "description": null,
+    "description": "Anticlea elegans, commonly known as mountain deathcamas, elegant camas, or glaucous death-camas, is a trillium-relative in the flowering plant family Melanthiaceae. Three distinct subspecies are included Anticlea elegans subsp. elegans, the type subspecies, plus Anticlea elegans subsp. glauca and Anticlea elegans subsp. vaginata. Anticlea elegans subsp. vaginata is likely a result of a vicariance event at the end of the Pleistocene and the populations are genetically drifting apart.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -162,9 +164,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": "Native to: ASK, NWY OO, MNT OO, OHI, MSO",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: very strong toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -182,8 +184,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -197,11 +199,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Anticlea elegans"
+      ],
       "en": [
+        "Anticlea elegans",
         "White camas"
+      ],
+      "es": [
+        "Zigadenus elegans"
+      ],
+      "fr": [
+        "Anticlea elegans"
+      ],
+      "it": [
+        "Anticlea elegans"
+      ],
+      "nl": [
+        "Anticlea elegans"
+      ],
+      "pl": [
+        "Anticlea elegans"
+      ],
+      "pt": [
+        "Anticlea elegans"
+      ],
+      "ru": [
+        "Anticlea elegans"
+      ],
+      "zh": [
+        "高山死亡棋盘花"
       ]
     },
     "tags": [],
@@ -213,12 +245,12 @@
     "family": "Melanthiaceae",
     "genus": "Chamaelirium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Chamaelirium is a genus of flowering plants containing the single species Chamaelirium luteum, commonly known as blazing-star, devil's bit, false unicorn, fairy wand, and helonias. It is a perennial herb native to the eastern United States. It can be found in a variety of habitats, including wet meadows and deciduous woodlands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -295,9 +327,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chamaelirium luteum"
+      ],
+      "en": [
+        "Chamaelirium luteum"
+      ],
+      "es": [
+        "Chamaelirium"
+      ],
+      "fr": [
+        "Chamaelirium luteum"
+      ],
+      "it": [
+        "Chamaelirium luteum"
+      ],
+      "nl": [
+        "Chamaelirium luteum"
+      ],
+      "pl": [
+        "Chamaelirium luteum"
+      ],
+      "pt": [
+        "Chamaelirium luteum"
+      ],
+      "ru": [
+        "Chamaelirium luteum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -307,7 +369,7 @@
     "family": "Melanthiaceae",
     "genus": "Helonias",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -389,7 +451,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {},
     "tags": [],
@@ -401,7 +465,7 @@
     "family": "Melanthiaceae",
     "genus": "Paris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -487,11 +551,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Paris polyphylla"
+      ],
       "en": [
-        "Love apple"
+        "Love apple",
+        "Paris polyphylla"
+      ],
+      "es": [
+        "Paris polyphylla"
+      ],
+      "fr": [
+        "Paris polyphylla"
+      ],
+      "it": [
+        "Paris polyphylla"
+      ],
+      "nl": [
+        "Paris polyphylla"
+      ],
+      "pl": [
+        "Paris polyphylla"
+      ],
+      "pt": [
+        "Paris polyphylla"
+      ],
+      "ru": [
+        "Paris polyphylla"
+      ],
+      "zh": [
+        "七叶一枝花"
       ]
     },
     "tags": [],
@@ -503,7 +597,7 @@
     "family": "Melanthiaceae",
     "genus": "Paris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -524,12 +618,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Shade",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 50,
+      "ppfd_max": 150,
+      "dli_min": 2.0,
+      "dli_max": 6.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -550,9 +644,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Aralia spinosa",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: toxic. Parts: Whole plant, highest concentrations in fruit. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Will not grow in shade."
       ],
@@ -574,8 +668,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in fruit",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -589,11 +683,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.3
     },
     "common_names": {
+      "ar": [
+        "عشبة باريس"
+      ],
+      "de": [
+        "Einbeere"
+      ],
       "en": [
-        "Herb-paris"
+        "Herb-paris",
+        "Paris quadrifolia"
+      ],
+      "es": [
+        "Paris quadrifolia"
+      ],
+      "fr": [
+        "Parisette à quatre feuilles"
+      ],
+      "it": [
+        "Paris quadrifolia"
+      ],
+      "nl": [
+        "eenbes"
+      ],
+      "pl": [
+        "Czworolist pospolity"
+      ],
+      "pt": [
+        "Paris quadrifolia"
+      ],
+      "ru": [
+        "Вороний глаз четырёхлистный"
+      ],
+      "tr": [
+        "Paris quadrifolia"
+      ],
+      "zh": [
+        "四叶重楼"
       ]
     },
     "tags": [],
@@ -605,7 +735,7 @@
     "family": "Melanthiaceae",
     "genus": "Paris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -691,9 +821,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paris tetraphylla"
+      ],
+      "en": [
+        "Paris tetraphylla"
+      ],
+      "es": [
+        "Paris tetraphylla"
+      ],
+      "fr": [
+        "Paris tetraphylla"
+      ],
+      "it": [
+        "Paris tetraphylla"
+      ],
+      "ja": [
+        "ツクバネソウ"
+      ],
+      "nl": [
+        "Paris tetraphylla"
+      ],
+      "pl": [
+        "Paris tetraphylla"
+      ],
+      "pt": [
+        "Paris tetraphylla"
+      ],
+      "ru": [
+        "Paris tetraphylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -703,7 +866,7 @@
     "family": "Melanthiaceae",
     "genus": "Paris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -724,12 +887,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Shade",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 50,
+      "ppfd_max": 150,
+      "dli_min": 2.0,
+      "dli_max": 6.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -789,9 +952,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paris verticillata"
+      ],
+      "en": [
+        "Paris verticillata"
+      ],
+      "es": [
+        "Paris verticillata"
+      ],
+      "fr": [
+        "Paris verticillata"
+      ],
+      "it": [
+        "Paris verticillata"
+      ],
+      "ja": [
+        "クルマバツクバネソウ"
+      ],
+      "ko": [
+        "삿갓나물"
+      ],
+      "nl": [
+        "Paris verticillata"
+      ],
+      "pl": [
+        "Paris verticillata"
+      ],
+      "pt": [
+        "Paris verticillata"
+      ],
+      "ru": [
+        "Вороний глаз мутовчатый"
+      ],
+      "zh": [
+        "北重楼"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -801,7 +1003,7 @@
     "family": "Melanthiaceae",
     "genus": "Stenanthium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -883,9 +1085,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stenanthium densum"
+      ],
+      "en": [
+        "Stenanthium densum"
+      ],
+      "es": [
+        "Stenanthium densum"
+      ],
+      "fr": [
+        "Stenanthium densum"
+      ],
+      "it": [
+        "Stenanthium densum"
+      ],
+      "nl": [
+        "Stenanthium densum"
+      ],
+      "pl": [
+        "Stenanthium densum"
+      ],
+      "pt": [
+        "Stenanthium densum"
+      ],
+      "ru": [
+        "Stenanthium densum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -895,7 +1127,7 @@
     "family": "Melanthiaceae",
     "genus": "Stenanthium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -977,11 +1209,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Stenanthium gramineum"
+      ],
       "en": [
-        "Eastern featherbells"
+        "Eastern featherbells",
+        "Stenanthium gramineum"
+      ],
+      "es": [
+        "Stenanthium gramineum"
+      ],
+      "fr": [
+        "Stenanthium gramineum"
+      ],
+      "it": [
+        "Stenanthium gramineum"
+      ],
+      "nl": [
+        "Stenanthium gramineum"
+      ],
+      "pl": [
+        "Stenanthium gramineum"
+      ],
+      "pt": [
+        "Stenanthium gramineum"
+      ],
+      "ru": [
+        "Stenanthium gramineum"
       ]
     },
     "tags": [],
@@ -993,7 +1252,7 @@
     "family": "Melanthiaceae",
     "genus": "Toxicoscordion",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1075,11 +1334,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Toxicoscordion fremontii"
+      ],
       "en": [
-        "Fremont's death camas"
+        "Fremont's death camas",
+        "Toxicoscordion fremontii"
+      ],
+      "es": [
+        "Toxicoscordion fremontii"
+      ],
+      "fr": [
+        "Toxicoscordion fremontii"
+      ],
+      "it": [
+        "Toxicoscordion fremontii"
+      ],
+      "nl": [
+        "Toxicoscordion fremontii"
+      ],
+      "pl": [
+        "Toxicoscordion fremontii"
+      ],
+      "pt": [
+        "Toxicoscordion fremontii"
+      ],
+      "ru": [
+        "Toxicoscordion fremontii"
       ]
     },
     "tags": [],
@@ -1091,7 +1377,7 @@
     "family": "Melanthiaceae",
     "genus": "Toxicoscordion",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1173,11 +1459,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Toxicoscordion paniculatum"
+      ],
       "en": [
-        "Foothill death camas"
+        "Foothill death camas",
+        "Toxicoscordion paniculatum"
+      ],
+      "es": [
+        "Toxicoscordion paniculatum"
+      ],
+      "fr": [
+        "Toxicoscordion paniculatum"
+      ],
+      "it": [
+        "Toxicoscordion paniculatum"
+      ],
+      "nl": [
+        "Toxicoscordion paniculatum"
+      ],
+      "pl": [
+        "Toxicoscordion paniculatum"
+      ],
+      "pt": [
+        "Toxicoscordion paniculatum"
+      ],
+      "ru": [
+        "Toxicoscordion paniculatum"
       ]
     },
     "tags": [],
@@ -1189,7 +1502,7 @@
     "family": "Melanthiaceae",
     "genus": "Toxicoscordion",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1271,9 +1584,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Toxicoscordion venenosum"
+      ],
+      "en": [
+        "Toxicoscordion venenosum"
+      ],
+      "es": [
+        "Toxicoscordion venenosum"
+      ],
+      "fr": [
+        "Toxicoscordion venenosum"
+      ],
+      "it": [
+        "Toxicoscordion venenosum"
+      ],
+      "nl": [
+        "Toxicoscordion venenosum"
+      ],
+      "pl": [
+        "Toxicoscordion venenosum"
+      ],
+      "pt": [
+        "Toxicoscordion venenosum"
+      ],
+      "ru": [
+        "Toxicoscordion venenosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1283,7 +1626,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1365,9 +1708,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trillium albidum"
+      ],
+      "en": [
+        "Trillium albidum"
+      ],
+      "es": [
+        "Trillium albidum"
+      ],
+      "fr": [
+        "Trillium albidum"
+      ],
+      "it": [
+        "Trillium albidum"
+      ],
+      "nl": [
+        "Trillium albidum"
+      ],
+      "pl": [
+        "Trillium albidum"
+      ],
+      "pt": [
+        "Trillium albidum"
+      ],
+      "ru": [
+        "Trillium albidum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1377,7 +1750,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1459,11 +1832,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trillium catesbaei"
+      ],
       "en": [
-        "Bashful wakerobin"
+        "Bashful wakerobin",
+        "Trillium catesbaei"
+      ],
+      "es": [
+        "Trillium catesbaei"
+      ],
+      "fr": [
+        "Trillium catesbaei"
+      ],
+      "it": [
+        "Trillium catesbaei"
+      ],
+      "nl": [
+        "Trillium catesbaei"
+      ],
+      "pl": [
+        "Trillium catesbaei"
+      ],
+      "pt": [
+        "Trillium catesbaei"
+      ],
+      "ru": [
+        "Trillium catesbaei"
       ]
     },
     "tags": [],
@@ -1475,7 +1875,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1557,11 +1957,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trillium cernuum"
+      ],
       "en": [
+        "Trillium cernuum",
         "Whip-poor-will flower"
+      ],
+      "es": [
+        "Trillium cernuum"
+      ],
+      "fr": [
+        "Trillium cernuum"
+      ],
+      "it": [
+        "Trillium cernuum"
+      ],
+      "nl": [
+        "Trillium cernuum"
+      ],
+      "pl": [
+        "Trillium cernuum"
+      ],
+      "pt": [
+        "Trillium cernuum"
+      ],
+      "ru": [
+        "Триллиум поникший"
       ]
     },
     "tags": [],
@@ -1573,7 +2000,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1655,11 +2082,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trillium chloropetalum"
+      ],
       "en": [
-        "Giant trillium"
+        "Giant trillium",
+        "Trillium chloropetalum"
+      ],
+      "es": [
+        "Trillium chloropetalum"
+      ],
+      "fr": [
+        "Trillium chloropetalum"
+      ],
+      "it": [
+        "Trillium chloropetalum"
+      ],
+      "nl": [
+        "Trillium chloropetalum"
+      ],
+      "pl": [
+        "Trillium chloropetalum"
+      ],
+      "pt": [
+        "Trillium chloropetalum"
+      ],
+      "ru": [
+        "Trillium chloropetalum"
       ]
     },
     "tags": [],
@@ -1671,7 +2125,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1753,11 +2207,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trillium cuneatum"
+      ],
       "en": [
-        "Little sweet betsy"
+        "Little sweet betsy",
+        "Trillium cuneatum"
+      ],
+      "es": [
+        "Trillium cuneatum"
+      ],
+      "fr": [
+        "Trillium cuneatum"
+      ],
+      "it": [
+        "Trillium cuneatum"
+      ],
+      "nl": [
+        "Trillium cuneatum"
+      ],
+      "pl": [
+        "Trillium cuneatum"
+      ],
+      "pt": [
+        "Trillium cuneatum"
+      ],
+      "ru": [
+        "Trillium cuneatum"
       ]
     },
     "tags": [],
@@ -1769,7 +2250,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1851,11 +2332,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trillium erectum"
+      ],
       "en": [
-        "Birthroot"
+        "Birthroot",
+        "Trillium erectum"
+      ],
+      "es": [
+        "Trillium erectum"
+      ],
+      "fr": [
+        "Trille rouge"
+      ],
+      "it": [
+        "Trillium erectum"
+      ],
+      "nl": [
+        "Trillium erectum"
+      ],
+      "pl": [
+        "Trillium erectum"
+      ],
+      "pt": [
+        "Trillium erectum"
+      ],
+      "ru": [
+        "Триллиум прямостоячий"
       ]
     },
     "tags": [],
@@ -1867,7 +2375,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1949,11 +2457,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trillium flexipes"
+      ],
       "en": [
-        "Nodding wakerobin"
+        "Nodding wakerobin",
+        "Trillium flexipes"
+      ],
+      "es": [
+        "Trillium flexipes"
+      ],
+      "fr": [
+        "Trillium flexipes"
+      ],
+      "it": [
+        "Trillium flexipes"
+      ],
+      "nl": [
+        "Trillium flexipes"
+      ],
+      "pl": [
+        "Trillium flexipes"
+      ],
+      "pt": [
+        "Trillium flexipes"
+      ],
+      "ru": [
+        "Trillium flexipes"
       ]
     },
     "tags": [],
@@ -1965,7 +2500,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2047,11 +2582,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Großblütige Waldlilie"
+      ],
       "en": [
-        "Large white trillium"
+        "Large white trillium",
+        "Trillium grandiflorum"
+      ],
+      "es": [
+        "Trillium grandiflorum"
+      ],
+      "fr": [
+        "Trille blanc"
+      ],
+      "it": [
+        "Trillium grandiflorum"
+      ],
+      "nl": [
+        "Trillium grandiflorum"
+      ],
+      "pl": [
+        "Trillium grandiflorum"
+      ],
+      "pt": [
+        "Trillium grandiflorum"
+      ],
+      "ru": [
+        "Trillium grandiflorum"
       ]
     },
     "tags": [],
@@ -2063,7 +2625,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2145,9 +2707,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trillium luteum"
+      ],
+      "en": [
+        "Trillium luteum"
+      ],
+      "es": [
+        "Trillium luteum"
+      ],
+      "fr": [
+        "Trillium luteum"
+      ],
+      "it": [
+        "Trillium luteum"
+      ],
+      "nl": [
+        "Trillium luteum"
+      ],
+      "pl": [
+        "Trillium luteum"
+      ],
+      "pt": [
+        "Trillium luteum"
+      ],
+      "ru": [
+        "Trillium luteum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2157,7 +2749,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2239,11 +2831,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trillium nivale"
+      ],
       "en": [
-        "Snow trillium"
+        "Snow trillium",
+        "Trillium nivale"
+      ],
+      "es": [
+        "Trillium nivale"
+      ],
+      "fr": [
+        "Trillium nivale"
+      ],
+      "it": [
+        "Trillium nivale"
+      ],
+      "nl": [
+        "Trillium nivale"
+      ],
+      "pl": [
+        "Trillium nivale"
+      ],
+      "pt": [
+        "Trillium nivale"
+      ],
+      "ru": [
+        "Trillium nivale"
       ]
     },
     "tags": [],
@@ -2255,7 +2874,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2337,11 +2956,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Westliche Dreizipfellilie"
+      ],
       "en": [
-        "Pacific trillium"
+        "Pacific trillium",
+        "Trillium ovatum"
+      ],
+      "es": [
+        "Trillium ovatum"
+      ],
+      "fr": [
+        "Trillium ovatum"
+      ],
+      "it": [
+        "Trillium ovatum"
+      ],
+      "nl": [
+        "Trillium ovatum"
+      ],
+      "pl": [
+        "Trillium ovatum"
+      ],
+      "pt": [
+        "Trillium ovatum"
+      ],
+      "ru": [
+        "Trillium ovatum"
+      ],
+      "zh": [
+        "太平洋延齡草"
       ]
     },
     "tags": [],
@@ -2353,12 +3002,12 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Trillium_recurvatum_AR.jpg",
+    "description": "Trillium recurvatum, the prairie trillium, toadshade, or bloody butcher, is a species of perennial herbaceous flowering plant in the family Melanthiaceae. It is native to parts of central and eastern United States, where it is found from Iowa south to Texas and east to North Carolina and Pennsylvania. It grows in mesic forests and savannas, often in calcareous soils.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2435,9 +3084,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trillium recurvatum"
+      ],
+      "en": [
+        "Trillium recurvatum"
+      ],
+      "es": [
+        "Trillium recurvatum"
+      ],
+      "fr": [
+        "Trillium recurvatum"
+      ],
+      "it": [
+        "Trillium recurvatum"
+      ],
+      "nl": [
+        "Trillium recurvatum"
+      ],
+      "pl": [
+        "Trillium recurvatum"
+      ],
+      "pt": [
+        "Trillium recurvatum"
+      ],
+      "ru": [
+        "Trillium recurvatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2447,7 +3126,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2529,11 +3208,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trillium sessile"
+      ],
       "en": [
-        "Sessile trillium"
+        "Sessile trillium",
+        "Trillium sessile"
+      ],
+      "es": [
+        "Trillium sessile"
+      ],
+      "fr": [
+        "Trillium sessile"
+      ],
+      "it": [
+        "Trillium sessile"
+      ],
+      "nl": [
+        "Trillium sessile"
+      ],
+      "pl": [
+        "Trillium sessile"
+      ],
+      "pt": [
+        "Trillium sessile"
+      ],
+      "ru": [
+        "Trillium sessile"
       ]
     },
     "tags": [],
@@ -2545,7 +3251,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2627,9 +3333,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trillium tschonoskii"
+      ],
+      "en": [
+        "Trillium tschonoskii"
+      ],
+      "es": [
+        "Trillium tschonoskii"
+      ],
+      "fr": [
+        "Trillium tschonoskii"
+      ],
+      "it": [
+        "Trillium tschonoskii"
+      ],
+      "ja": [
+        "ミヤマエンレイソウ"
+      ],
+      "nl": [
+        "Trillium tschonoskii"
+      ],
+      "pl": [
+        "Trillium tschonoskii"
+      ],
+      "pt": [
+        "Trillium tschonoskii"
+      ],
+      "ru": [
+        "Trillium tschonoskii"
+      ],
+      "zh": [
+        "延龄草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2639,7 +3381,7 @@
     "family": "Melanthiaceae",
     "genus": "Trillium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2721,11 +3463,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trillium undulatum"
+      ],
       "en": [
-        "Paint trillium"
+        "Paint trillium",
+        "Trillium undulatum"
+      ],
+      "es": [
+        "Trillium undulatum"
+      ],
+      "fr": [
+        "Trille ondulé"
+      ],
+      "it": [
+        "Trillium undulatum"
+      ],
+      "nl": [
+        "Trillium undulatum"
+      ],
+      "pl": [
+        "Trillium undulatum"
+      ],
+      "pt": [
+        "Trillium undulatum"
+      ],
+      "ru": [
+        "Trillium undulatum"
       ]
     },
     "tags": [],
@@ -2737,7 +3506,7 @@
     "family": "Melanthiaceae",
     "genus": "Veratrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2753,17 +3522,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "veratrum_album",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2784,9 +3553,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
       "tips": "Similar plants: Tradescantia subaspera",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: very strong toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2804,8 +3573,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -2819,11 +3588,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "خربوق أبيض"
+      ],
+      "de": [
+        "Weißer Germer"
+      ],
       "en": [
+        "Veratrum album",
         "White veratrum"
+      ],
+      "es": [
+        "Veratrum album"
+      ],
+      "fr": [
+        "Veratrum album"
+      ],
+      "it": [
+        "Veratrum album"
+      ],
+      "ja": [
+        "バイケイソウ"
+      ],
+      "ko": [
+        "박새 (식물)"
+      ],
+      "nl": [
+        "Witte nieswortel"
+      ],
+      "pl": [
+        "Ciemiężyca biała"
+      ],
+      "pt": [
+        "Veratrum album"
+      ],
+      "ru": [
+        "Чемерица белая"
+      ],
+      "tr": [
+        "ak çöpleme"
+      ],
+      "zh": [
+        "白藜蘆"
       ]
     },
     "tags": [],
@@ -2835,7 +3646,7 @@
     "family": "Melanthiaceae",
     "genus": "Veratrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2856,12 +3667,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2917,11 +3728,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "de": [
+        "Veratrum californicum"
+      ],
       "en": [
-        "California veratrum"
+        "California veratrum",
+        "Veratrum californicum"
+      ],
+      "es": [
+        "Veratrum californicum"
+      ],
+      "fr": [
+        "Veratrum californicum"
+      ],
+      "it": [
+        "Veratrum californicum"
+      ],
+      "nl": [
+        "Veratrum californicum"
+      ],
+      "pl": [
+        "Veratrum californicum"
+      ],
+      "pt": [
+        "Veratrum californicum"
+      ],
+      "ru": [
+        "Veratrum californicum"
       ]
     },
     "tags": [],
@@ -2933,7 +3771,7 @@
     "family": "Melanthiaceae",
     "genus": "Veratrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2954,12 +3792,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3015,9 +3853,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 7.4
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Veratrum lobelianum"
+      ],
+      "en": [
+        "Veratrum lobelianum"
+      ],
+      "es": [
+        "Veratrum lobelianum"
+      ],
+      "fr": [
+        "Veratrum lobelianum"
+      ],
+      "it": [
+        "Veratrum lobelianum"
+      ],
+      "nl": [
+        "Veratrum lobelianum"
+      ],
+      "pl": [
+        "Ciemiężyca zielona"
+      ],
+      "pt": [
+        "Veratrum lobelianum"
+      ],
+      "ru": [
+        "Чемерица Лобеля"
+      ],
+      "zh": [
+        "阿尔泰藜芦"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3027,7 +3898,7 @@
     "family": "Melanthiaceae",
     "genus": "Veratrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3109,9 +3980,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Veratrum maackii"
+      ],
+      "en": [
+        "Veratrum maackii"
+      ],
+      "es": [
+        "Veratrum maackii"
+      ],
+      "fr": [
+        "Veratrum maackii"
+      ],
+      "it": [
+        "Veratrum maackii"
+      ],
+      "ja": [
+        "シュロソウ（広義）"
+      ],
+      "nl": [
+        "Veratrum maackii"
+      ],
+      "pl": [
+        "Veratrum maackii"
+      ],
+      "pt": [
+        "Veratrum maackii"
+      ],
+      "ru": [
+        "Чемерица Маака"
+      ],
+      "zh": [
+        "毛穗藜芦"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3121,7 +4028,7 @@
     "family": "Melanthiaceae",
     "genus": "Veratrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3137,17 +4044,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "veratrum_nigrum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3169,8 +4076,8 @@
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
       "tips": "Similar plants: Tradescantia subaspera",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3188,8 +4095,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -3203,11 +4110,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 5.6
     },
     "common_names": {
+      "ar": [
+        "خربوق أسود"
+      ],
+      "de": [
+        "Schwarzer Germer"
+      ],
       "en": [
-        "Black veratrum"
+        "Black veratrum",
+        "Veratrum nigrum"
+      ],
+      "es": [
+        "Veratrum nigrum"
+      ],
+      "fr": [
+        "Veratrum nigrum"
+      ],
+      "it": [
+        "Veratrum nigrum"
+      ],
+      "nl": [
+        "zwarte nieswortel"
+      ],
+      "pl": [
+        "Ciemiężyca czarna"
+      ],
+      "pt": [
+        "Veratrum nigrum"
+      ],
+      "ru": [
+        "Чемерица чёрная"
+      ],
+      "zh": [
+        "藜芦"
       ]
     },
     "tags": [],
@@ -3219,7 +4159,7 @@
     "family": "Melanthiaceae",
     "genus": "Veratrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3301,9 +4241,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Veratrum oxysepalum"
+      ],
+      "en": [
+        "Veratrum oxysepalum"
+      ],
+      "es": [
+        "Veratrum oxysepalum"
+      ],
+      "fr": [
+        "Veratrum oxysepalum"
+      ],
+      "it": [
+        "Veratrum oxysepalum"
+      ],
+      "ja": [
+        "バイケイソウ"
+      ],
+      "ko": [
+        "박새"
+      ],
+      "nl": [
+        "Veratrum oxysepalum"
+      ],
+      "pl": [
+        "Veratrum oxysepalum"
+      ],
+      "pt": [
+        "Veratrum oxysepalum"
+      ],
+      "ru": [
+        "Veratrum oxysepalum"
+      ],
+      "zh": [
+        "尖被藜芦"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3313,7 +4292,7 @@
     "family": "Melanthiaceae",
     "genus": "Veratrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3395,9 +4374,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Veratrum virginicum"
+      ],
+      "en": [
+        "Veratrum virginicum"
+      ],
+      "es": [
+        "Veratrum virginicum"
+      ],
+      "fr": [
+        "Veratrum virginicum"
+      ],
+      "it": [
+        "Veratrum virginicum"
+      ],
+      "nl": [
+        "Veratrum virginicum"
+      ],
+      "pl": [
+        "Veratrum virginicum"
+      ],
+      "pt": [
+        "Veratrum virginicum"
+      ],
+      "ru": [
+        "Veratrum virginicum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3407,7 +4416,7 @@
     "family": "Melanthiaceae",
     "genus": "Veratrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3428,12 +4437,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3489,11 +4498,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "de": [
+        "Veratrum viride"
+      ],
       "en": [
-        "American false hellebore"
+        "American false hellebore",
+        "Veratrum viride"
+      ],
+      "es": [
+        "Veratrum viride"
+      ],
+      "fr": [
+        "Veratrum viride"
+      ],
+      "it": [
+        "Veratrum viride"
+      ],
+      "nl": [
+        "Veratrum viride"
+      ],
+      "pl": [
+        "Veratrum viride"
+      ],
+      "pt": [
+        "Veratrum viride"
+      ],
+      "ru": [
+        "Veratrum viride"
       ]
     },
     "tags": [],
@@ -3505,12 +4541,12 @@
     "family": "Melanthiaceae",
     "genus": "Xerophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a942c10e4a22dde9f2d010debb12470de79d4385",
-    "description": null,
+    "description": "Xerophyllum tenax is a species of plants in the corn lily family. It is known by several common names, including bear grass, soap grass, quip-quip, and Indian basket grass. Beargrass can grow to be a little over 1.2 metres (4 ft) tall when in a preferred habitat and ideal conditions. The plant typically blooms at irregular intervals, depending on environmental factors such as moisture and temperature.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3587,11 +4623,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bärengras"
+      ],
       "en": [
-        "Bear-grass"
+        "Bear-grass",
+        "Xerophyllum tenax"
+      ],
+      "es": [
+        "Xerophyllum tenax"
+      ],
+      "fr": [
+        "Xerophyllum tenax"
+      ],
+      "it": [
+        "Xerophyllum tenax"
+      ],
+      "ja": [
+        "ベアグラス"
+      ],
+      "nl": [
+        "Xerophyllum tenax"
+      ],
+      "pl": [
+        "Xerophyllum tenax"
+      ],
+      "pt": [
+        "Xerophyllum tenax"
+      ],
+      "ru": [
+        "Xerophyllum tenax"
+      ],
+      "zh": [
+        "百合科旱葉百合屬"
       ]
     },
     "tags": [],

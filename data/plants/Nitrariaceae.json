@@ -5,7 +5,7 @@
     "family": "Nitrariaceae",
     "genus": "Nitraria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,36 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Nitraria billardierei"
+      ],
+      "en": [
+        "Nitraria billardierei"
+      ],
+      "es": [
+        "Nitraria billardierei"
+      ],
+      "fr": [
+        "Nitraria billardierei"
+      ],
+      "it": [
+        "Nitraria billardierei"
+      ],
+      "nl": [
+        "Nitraria billardierei"
+      ],
+      "pl": [
+        "Nitraria billardierei"
+      ],
+      "pt": [
+        "Nitraria billardierei"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +126,12 @@
     "family": "Nitrariaceae",
     "genus": "Peganum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dfbebcf1a052ce538a35c561cfc10ce6844b919a",
-    "description": null,
+    "description": "Peganum harmala, commonly called wild rue, Syrian rue, African rue, esfand or espand, or harmel, is a perennial, herbaceous plant, with a woody underground rootstock, of the family Nitrariaceae, usually growing in saline soils in temperate desert and Mediterranean regions. Its common English-language name came about because of a resemblance to rue. Its seeds contain a high concentration of diverse beta-carboline alkaloids.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -120,12 +147,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -181,11 +208,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "ar": [
+        "حرمل شائع"
+      ],
+      "de": [
+        "Steppenraute"
+      ],
       "en": [
+        "Peganum harmala",
         "Syrian-rue"
+      ],
+      "es": [
+        "Peganum harmala"
+      ],
+      "fr": [
+        "Peganum harmala"
+      ],
+      "it": [
+        "Peganum harmala"
+      ],
+      "ja": [
+        "ペガヌム・ハルマラ"
+      ],
+      "nl": [
+        "Peganum harmala"
+      ],
+      "pl": [
+        "Poganek rutowaty"
+      ],
+      "pt": [
+        "Peganum harmala"
+      ],
+      "ru": [
+        "Гармала обыкновенная"
+      ],
+      "tr": [
+        "Üzerlik"
+      ],
+      "zh": [
+        "骆驼蓬"
       ]
     },
     "tags": [],

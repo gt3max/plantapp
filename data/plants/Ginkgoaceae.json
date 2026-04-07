@@ -5,7 +5,7 @@
     "family": "Ginkgoaceae",
     "genus": "Ginkgo",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -52,9 +52,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Liquidambar styraciflua",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: allergenic. Animal: toxic. Parts: Leaf, seed coat. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -72,8 +72,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Horizontal",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Leaf, seed coat",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -87,11 +87,142 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جنكة بيلوبا",
+        "جنكويات",
+        "حبة الذاكرة",
+        "شجرة الجنكة",
+        "شجرة المعبد",
+        "شعبة الجنكويات",
+        "معبلة"
+      ],
+      "de": [
+        "Fächerbaum",
+        "Fächerblattbaum",
+        "Ginkgo",
+        "Ginkgo biloba Linne",
+        "Ginkgobaum",
+        "Ginkgogewächse",
+        "Ginkyo",
+        "Salisburia adiantifolia",
+        "Silberaprikose",
+        "Silberpflaume"
+      ],
       "en": [
-        "Ginkgo"
+        "Ginkgo",
+        "ginkgo",
+        "ginkgo plant",
+        "ginkgo tree",
+        "maidenhair tree",
+        "silver apricot"
+      ],
+      "es": [
+        "Arbol de los cuarenta escudos",
+        "Gingko",
+        "Gingko biloba",
+        "Ginko",
+        "Ginko biloba",
+        "Xinkgo",
+        "albaricoque de plata",
+        "albaricoque plateado",
+        "gingko",
+        "ginkgo",
+        "nogal de Japón",
+        "nogal del Japón",
+        "planta de ginkgo",
+        "Árbol de los cuarenta escudos",
+        "árbol de doncella",
+        "árbol de ginkgo",
+        "árbol de los cuarenta escudos"
+      ],
+      "fr": [
+        "Arbre aux 40 écus",
+        "Arbre aux quarante écus",
+        "Gingko biloba",
+        "Gingkos"
+      ],
+      "hi": [
+        "जिन्को बाइलोबा"
+      ],
+      "it": [
+        "Ginco",
+        "Gingko biloba",
+        "Ginko biloba"
+      ],
+      "ja": [
+        "いちょう",
+        "イチョウ",
+        "オハツキイチョウ",
+        "キレハイチョウ",
+        "ギンキョウ",
+        "シダレイチョウ",
+        "フイリイチョウ",
+        "公孫樹",
+        "銀杏",
+        "鴨脚樹"
+      ],
+      "ko": [
+        "은행나무",
+        "행단"
+      ],
+      "nl": [
+        "Chinese tempelboom",
+        "Japanse notenboom",
+        "Japanse tempelboom",
+        "Kingo biloba",
+        "eendenpootboom",
+        "ginkgo",
+        "tempelboom"
+      ],
+      "pl": [
+        "Gingko biloba",
+        "Miłorząb chiński",
+        "Miłorząb dwudzielny",
+        "Miłorząb japoński",
+        "miłorząb dwuklapowy"
+      ],
+      "pt": [
+        "Gingko",
+        "Gingko biloba",
+        "Nogueira do Japão",
+        "Nogueira-do-japão"
+      ],
+      "ru": [
+        "EGb 761",
+        "гингко",
+        "гинкго (растения)",
+        "гинкго билоба",
+        "гинкго двулопастный",
+        "гинко",
+        "гинко билоба"
+      ],
+      "tr": [
+        "Gingko biloba",
+        "Mabet ağacı"
+      ],
+      "zh": [
+        "公孫樹",
+        "公槂",
+        "平仲",
+        "文杏",
+        "枰仲",
+        "檘",
+        "火橐木",
+        "玉棐",
+        "玉精",
+        "白果",
+        "白果樹",
+        "銀杏",
+        "银杏",
+        "银杏叶提取物",
+        "鴨掌樹",
+        "鴨腳",
+        "鴨腳子"
       ]
     },
     "tags": [],

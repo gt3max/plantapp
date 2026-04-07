@@ -5,7 +5,7 @@
     "family": "Magnoliaceae",
     "genus": "Liriodendron",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,83 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "التوليب",
+        "الخزامي نبات من الفصيلة الزنبقية"
+      ],
+      "de": [
+        "Tulpenbaum"
+      ],
       "en": [
-        "Tulip-poplar"
+        "American tulip tree",
+        "Tulip-poplar",
+        "tulip poplar",
+        "tulip tree",
+        "tuliptree",
+        "yellow poplar"
+      ],
+      "es": [
+        "Arbol de las tulipas",
+        "Liriodendron fastigiatum",
+        "Liriodendron heterophyllum",
+        "Liriodendron integrifolium",
+        "Liriodendron obtusilobum",
+        "Liriodendron procerum",
+        "Liriodendron truncatifolium",
+        "Tulipanero",
+        "Tulipero de Virginia",
+        "Tulipia",
+        "Tulipifera liriodendrum",
+        "Tulipifero americano",
+        "Tulipifero de Virginia",
+        "Tulipífero americano",
+        "Tulipífero de Virginia",
+        "Tulípero de Virginia",
+        "Árbol de las tulipas"
+      ],
+      "fr": [
+        "Tulipier de Virginie",
+        "Tulipier de Viriginie pyramidal"
+      ],
+      "it": [
+        "Albero dei tulipani",
+        "Albero del tulipano",
+        "Toulipier"
+      ],
+      "ja": [
+        "ユリノキ",
+        "百合木",
+        "百合樹"
+      ],
+      "ko": [
+        "백합나무"
+      ],
+      "nl": [
+        "tulpenboom"
+      ],
+      "pl": [
+        "Tulipanowiec amerykański"
+      ],
+      "pt": [
+        "tulipeiro-da-virgínia"
+      ],
+      "ru": [
+        "Лириодендрон тюльпановый",
+        "Тюльпановое дерево"
+      ],
+      "tr": [
+        "Amerika lale ağacı"
+      ],
+      "zh": [
+        "凹朴皮",
+        "北美鹅掌楸",
+        "鹅掌楸",
+        "鹅掌楸根"
       ]
     },
     "tags": [],
@@ -103,7 +175,7 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,11 +257,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مغنولية مستدقة"
+      ],
+      "de": [
+        "Gurken-Magnolie"
+      ],
       "en": [
-        "Cucumber-tree"
+        "Cucumber-tree",
+        "Magnolia acuminata"
+      ],
+      "es": [
+        "Magnolia acuminata"
+      ],
+      "fr": [
+        "Magnolia acuminata"
+      ],
+      "it": [
+        "Magnolia acuminata"
+      ],
+      "nl": [
+        "Magnolia acuminata"
+      ],
+      "pl": [
+        "Magnolia drzewiasta"
+      ],
+      "pt": [
+        "Magnolia acuminata"
+      ],
+      "ru": [
+        "Магнолия длиннозаострённая"
       ]
     },
     "tags": [],
@@ -201,12 +303,12 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7155fa087d323fa7f59b4a36f5f370ad65154aff",
-    "description": null,
+    "description": "Magnolia champaca, known in English as champak, is a large evergreen tree in the family Magnoliaceae. It was previously classified as Michelia champaca. It is known for its fragrant flowers, and its timber used in woodworking.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -283,11 +385,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شنبق"
+      ],
+      "de": [
+        "Champaka"
+      ],
       "en": [
+        "Magnolia champaca",
         "Michelia"
+      ],
+      "es": [
+        "Magnolia champaca"
+      ],
+      "fr": [
+        "Magnolia champaca"
+      ],
+      "hi": [
+        "चम्पक"
+      ],
+      "it": [
+        "Magnolia champaca"
+      ],
+      "ja": [
+        "キンコウボク"
+      ],
+      "nl": [
+        "Magnolia champaca"
+      ],
+      "pl": [
+        "Magnolia champaca"
+      ],
+      "pt": [
+        "Michelia champaca"
+      ],
+      "ru": [
+        "Магнолия чампака"
+      ],
+      "zh": [
+        "黃玉蘭"
       ]
     },
     "tags": [],
@@ -299,12 +440,12 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/78d468edbfc0f0f8e62b80e54772925a.jpg",
-    "description": null,
+    "description": "Magnolia compressa is a species of flowering plant in the family Magnoliaceae, native to Yunnan, Taiwan, the Ryukyu Islands, and southwest Japan, and introduced to South Korea. A small tree when in cultivation, it is hardy only to USDA zone 10. It may be planted in containers and brought indoors in the winter.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -381,9 +522,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Magnolia compressa"
+      ],
+      "en": [
+        "Magnolia compressa"
+      ],
+      "es": [
+        "Magnolia compressa"
+      ],
+      "fr": [
+        "Magnolia compressa"
+      ],
+      "it": [
+        "Magnolia compressa"
+      ],
+      "ja": [
+        "オガタマノキ"
+      ],
+      "ko": [
+        "초령목"
+      ],
+      "nl": [
+        "Magnolia compressa"
+      ],
+      "pl": [
+        "Magnolia compressa"
+      ],
+      "pt": [
+        "Magnolia compressa"
+      ],
+      "ru": [
+        "Magnolia compressa"
+      ],
+      "zh": [
+        "烏心石"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -393,12 +573,12 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/170779b556721702844bd24ea7aa207e04446c1b",
-    "description": "Fruit is cucumber-shaped, oblong, 4 to 5 inches long, cone-like aggregate of fleshy seeded follicles. Once mature, the red drupe-like seeds are contained in a carpal, or cell. It displays from July to August.",
+    "description": "Magnolia fraseri, commonly known as Fraser's magnolia, Fraser magnolia, mountain magnolia, earleaf cucumbertree, or mountain-oread, is a species of magnolia native to the southeastern United States in the southern Appalachian Mountains and adjacent Atlantic and Gulf Coastal Plain from West Virginia to northern Florida and to eastern Texas. The Appalachian plants are classified as Magnolia fraseri var. fraseri, and the more coastal plants as M. fraseri var. pyramidata.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -475,11 +655,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ماغنوليا فريزرية"
+      ],
+      "de": [
+        "Berg-Magnolie"
+      ],
       "en": [
-        "Fraser's magnolia"
+        "Fraser's magnolia",
+        "Magnolia fraseri"
+      ],
+      "es": [
+        "Magnolia fraseri"
+      ],
+      "fr": [
+        "Magnolia fraseri"
+      ],
+      "it": [
+        "Magnolia fraseri"
+      ],
+      "nl": [
+        "Magnolia fraseri"
+      ],
+      "pl": [
+        "Magnolia Frasera"
+      ],
+      "pt": [
+        "Magnolia fraseri"
+      ],
+      "ru": [
+        "Magnolia fraseri"
       ]
     },
     "tags": [],
@@ -491,7 +701,7 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -573,11 +783,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ماغنوليا كبيرة الأزهار"
+      ],
+      "de": [
+        "Immergrüne Magnolie"
+      ],
       "en": [
-        "Bull bay"
+        "Bull bay",
+        "Magnolia grandiflora"
+      ],
+      "es": [
+        "Magnolia grandiflora"
+      ],
+      "fr": [
+        "Magnolia à grandes fleurs"
+      ],
+      "hi": [
+        "हिम चम्पा"
+      ],
+      "it": [
+        "Magnolia grandiflora"
+      ],
+      "ja": [
+        "タイサンボク"
+      ],
+      "ko": [
+        "태산목"
+      ],
+      "nl": [
+        "Magnolia grandiflora"
+      ],
+      "pl": [
+        "Magnolia wielkokwiatowa"
+      ],
+      "pt": [
+        "Magnólia-branca"
+      ],
+      "ru": [
+        "Магнолия крупноцветковая"
+      ],
+      "tr": [
+        "Magnolia grandiflora"
+      ],
+      "zh": [
+        "荷花玉兰"
       ]
     },
     "tags": [],
@@ -589,12 +844,12 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c496b3a03eb43eca6d46732e39522fa57863e779",
-    "description": "Fruits are a cone-like aggregation of follicles (small red seeds).",
+    "description": "Magnolia kobus, known as mokryeon, kobus magnolia, or kobushi magnolia, is a species of Magnolia native to Japan and Korea and occasionally cultivated in temperate areas. It is a deciduous, small to tall tree which has a slow rate of growth but can reach 8–15 m (25–50 ft) in height and up to 10 m (35 ft) in spread.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -671,11 +926,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مغنولية كوبوس"
+      ],
+      "de": [
+        "Kobushi-Magnolie"
+      ],
       "en": [
-        "Kobus magnolia"
+        "Kobus magnolia",
+        "Magnolia kobus"
+      ],
+      "es": [
+        "Magnolia kobus"
+      ],
+      "fr": [
+        "Magnolia de Kobé"
+      ],
+      "it": [
+        "Magnolia kobus"
+      ],
+      "ja": [
+        "コブシ"
+      ],
+      "ko": [
+        "목련"
+      ],
+      "nl": [
+        "Magnolia kobus"
+      ],
+      "pl": [
+        "Magnolia japońska"
+      ],
+      "pt": [
+        "Magnolia kobus"
+      ],
+      "ru": [
+        "Магнолия кобус"
+      ],
+      "tr": [
+        "Magnolia kobus"
+      ],
+      "zh": [
+        "日本辛夷"
       ]
     },
     "tags": [],
@@ -687,7 +984,7 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -769,11 +1066,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مغنولية كبيرة الأوراق"
+      ],
+      "de": [
+        "Großblättrige Magnolie"
+      ],
       "en": [
-        "Big-leaf magnolia"
+        "Big-leaf magnolia",
+        "Magnolia macrophylla"
+      ],
+      "es": [
+        "Magnolia macrophylla"
+      ],
+      "fr": [
+        "Magnolia macrophylla"
+      ],
+      "it": [
+        "Magnolia macrophylla"
+      ],
+      "nl": [
+        "Magnolia macrophylla"
+      ],
+      "pl": [
+        "Magnolia wielkolistna"
+      ],
+      "pt": [
+        "Magnolia macrophylla"
+      ],
+      "ru": [
+        "Магнолия крупнолистная"
+      ],
+      "zh": [
+        "大叶木兰"
       ]
     },
     "tags": [],
@@ -785,12 +1115,12 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/83f52a2885211f9f52fd6d7c7682257c4aaa33e1",
-    "description": null,
+    "description": "Magnolia obovata, the Japanese cucumber tree, Japanese bigleaf magnolia, or Japanese whitebark magnolia, is a species of Magnolia, native to Japan and the adjacent Kurile Islands. It grows at altitudes near sea level up to 1,800 m in mixed broadleaf forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -867,11 +1197,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مغنولية بيضاوية"
+      ],
+      "de": [
+        "Honoki-Magnolie"
+      ],
       "en": [
-        "Japanese whitebark magnolia"
+        "Japanese whitebark magnolia",
+        "Magnolia obovata"
+      ],
+      "es": [
+        "Magnolia obovata"
+      ],
+      "fr": [
+        "Magnolia obovata"
+      ],
+      "it": [
+        "Magnolia obovata"
+      ],
+      "ja": [
+        "ホオノキ"
+      ],
+      "ko": [
+        "일본목련"
+      ],
+      "nl": [
+        "Magnolia obovata"
+      ],
+      "pl": [
+        "Magnolia szerokolistna"
+      ],
+      "pt": [
+        "Magnolia obovata"
+      ],
+      "ru": [
+        "Магнолия обратнояйцевидная"
+      ],
+      "zh": [
+        "日本厚朴"
       ]
     },
     "tags": [],
@@ -883,12 +1252,12 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/685a9d50d44d2f7ef851e8242aa2ae818e435fee",
-    "description": null,
+    "description": "Magnolia salicifolia, also known as willow-leafed magnolia or anise magnolia, originates from Japan. It is a small deciduous tree 7.5 m (25 ft) tall, with narrow lanceolate leaves with whitened undersides. The leaves are not as narrow as true willows (Salix), but are narrow compared to other magnolias, giving this tree a finer texture. The 10 cm-wide scented flowers emerge in early spring before the leaves. Flowers have six petals. The leaves and bark are fragrant when crushed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -965,11 +1334,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مغنولية صفصافية الأوراق"
+      ],
+      "de": [
+        "Magnolia salicifolia"
+      ],
       "en": [
-        "Anise magnolia"
+        "Anise magnolia",
+        "Magnolia salicifolia"
+      ],
+      "es": [
+        "Magnolia salicifolia"
+      ],
+      "fr": [
+        "Magnolia salicifolia"
+      ],
+      "it": [
+        "Magnolia salicifolia"
+      ],
+      "ja": [
+        "タムシバ"
+      ],
+      "nl": [
+        "Magnolia salicifolia"
+      ],
+      "pl": [
+        "Magnolia salicifolia"
+      ],
+      "pt": [
+        "Magnolia salicifolia"
+      ],
+      "ru": [
+        "Магнолия иволистная"
+      ],
+      "zh": [
+        "柳叶木兰"
       ]
     },
     "tags": [],
@@ -981,12 +1386,12 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9d338fc957d6a6fcfecd073527f005dd43ec9afe",
-    "description": "Fruit is red when mature, 2 1/2 inches long.",
+    "description": "Magnolia sieboldii, or Siebold's magnolia, also known as Korean mountain magnolia and Oyama magnolia, is a species of Magnolia native to east Asia in China, Japan, and Korea. It is named after the German doctor Philipp Franz von Siebold (1796–1866).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1063,11 +1468,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مغنولية سيبولدية"
+      ],
+      "de": [
+        "Sommer-Magnolie"
+      ],
       "en": [
+        "Magnolia sieboldii",
         "Oyama magnolia"
+      ],
+      "es": [
+        "Magnolia sieboldii"
+      ],
+      "fr": [
+        "Magnolia sieboldii"
+      ],
+      "it": [
+        "Magnolia sieboldii"
+      ],
+      "ja": [
+        "オオヤマレンゲ"
+      ],
+      "ko": [
+        "함박꽃나무"
+      ],
+      "nl": [
+        "Magnolia sieboldii"
+      ],
+      "pl": [
+        "Magnolia Siebolda"
+      ],
+      "pt": [
+        "Magnolia sieboldii"
+      ],
+      "ru": [
+        "Магнолия Зибольда"
+      ],
+      "zh": [
+        "天女木兰"
       ]
     },
     "tags": [],
@@ -1079,12 +1523,12 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e6ee568215d27bee1254ae44fcbd994de3b17ce7",
-    "description": "Cone-like, pink, 4 inch fruit is an aggregate of follicles. It displays from July to October.",
+    "description": "Magnolia tripetala, commonly called umbrella magnolia or simply umbrella-tree, is a deciduous tree native to the eastern United States in the Appalachian Mountains, the Ozarks, and the Ouachita Mountains. The name \"umbrella tree\" derives from the fact that the large leaves are clustered at the tips of the branches forming an umbrella-shaped structure.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1161,11 +1605,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Schirm-Magnolie"
+      ],
       "en": [
+        "Magnolia tripetala",
         "Umbrella magnolia"
+      ],
+      "es": [
+        "Magnolia tripetala"
+      ],
+      "fr": [
+        "Magnolia tripetala"
+      ],
+      "it": [
+        "Magnolia tripetala"
+      ],
+      "nl": [
+        "Magnolia tripetala"
+      ],
+      "pl": [
+        "Magnolia parasolowata"
+      ],
+      "pt": [
+        "Magnolia tripetala"
+      ],
+      "ru": [
+        "Магнолия трёхлепестная"
       ]
     },
     "tags": [],
@@ -1177,12 +1648,12 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9d39651d88dcaee581576af7df7dc55c78e8610b",
-    "description": "The fruits are up to 2 inches long cone-like aggregates of follicles that are large and have many segments. They have bright red seeds that mature in fall and can be showy. The seeds dangle from the fruits by a thread and are relished by birds.",
+    "description": "Magnolia virginiana, most commonly known as sweetbay magnolia, or merely sweetbay, is a member of the magnolia family, Magnoliaceae. It was the first magnolia to be scientifically described under modern rules of botanical nomenclature, and is the type species of the genus Magnolia; as Magnolia is also the type genus of all flowering plants (magnoliophytes), this species in a sense typifies all flowering plants.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1259,11 +1730,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ماغنوليا فرجينية"
+      ],
+      "de": [
+        "Sumpf-Magnolie"
+      ],
       "en": [
+        "Magnolia virginiana",
         "Swamp-laurel"
+      ],
+      "es": [
+        "Magnolia virginiana"
+      ],
+      "fr": [
+        "Magnolia virginiana"
+      ],
+      "it": [
+        "Magnolia virginiana"
+      ],
+      "ja": [
+        "バージニアモクレン"
+      ],
+      "nl": [
+        "Magnolia virginiana"
+      ],
+      "pl": [
+        "Magnolia wirginijska"
+      ],
+      "pt": [
+        "Magnolia virginiana"
+      ],
+      "ru": [
+        "Магнолия виргинская"
       ]
     },
     "tags": [],
@@ -1275,12 +1779,12 @@
     "family": "Magnoliaceae",
     "genus": "Magnolia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e5cc5d2c02f97a4f74459eea659967e63578527c",
-    "description": null,
+    "description": "Magnolia × soulangeana, the saucer magnolia or sometimes the tulip tree, is a hybrid flowering plant in the genus Magnolia and family Magnoliaceae. It is a deciduous tree with large, early-blooming flowers in various shades of white, pink, and purple. It is one of the most commonly used magnolias in horticulture, being widely planted in the British Isles, especially in the south of England; and in the United States, especially the east and west coasts.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1357,7 +1861,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [

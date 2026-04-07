@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/928ed54eb3688ed08758667bef26535e.jpg",
-    "description": null,
+    "description": "Adenaria is a monotypic genus of plants in the family Lythraceae containing the single species Adenaria floribunda. Its common names include fruta de pavo. It is native to Mexico, the Dominican Republic, Haiti, and parts of Central and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Adenaria floribunda"
+      ],
+      "en": [
+        "Adenaria floribunda H.B.K."
+      ],
+      "es": [
+        "Adenaria floribunda"
+      ],
+      "fr": [
+        "Adenaria floribunda"
+      ],
+      "it": [
+        "Adenaria floribunda"
+      ],
+      "nl": [
+        "Adenaria floribunda"
+      ],
+      "pl": [
+        "Adenaria"
+      ],
+      "pt": [
+        "Adenaria floribunda"
+      ],
+      "ru": [
+        "Adenaria floribunda"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Lythraceae",
     "genus": "Ammannia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -115,17 +145,17 @@
     "synonyms": "[\"Ammannia senegalensis var. auriculata\"]",
     "care": {
       "plant_id": "ammannia_auriculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -181,11 +211,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Ammannia auriculata"
+      ],
       "en": [
+        "Ammannia auriculata",
         "Eared redstem"
+      ],
+      "es": [
+        "Ammannia auriculata"
+      ],
+      "fr": [
+        "Ammannia auriculata"
+      ],
+      "it": [
+        "Ammannia auriculata"
+      ],
+      "nl": [
+        "Ammannia auriculata"
+      ],
+      "pl": [
+        "Ammannia auriculata"
+      ],
+      "pt": [
+        "Ammannia auriculata"
+      ],
+      "ru": [
+        "Ammannia auriculata"
       ],
       "zh": [
         "独叶一枝枪",
@@ -204,12 +261,12 @@
     "family": "Lythraceae",
     "genus": "Ammannia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2a29ce1c21d4f0bb06db26a65b05b9c6f306bc93",
-    "description": null,
+    "description": "Ammannia baccifera, also known as the monarch redstem or blistering ammannia is a species in the family Lythraceae. It is widespread in the tropical regions of Asia, America and Africa. It has been naturalized in Spain. It is annual and herbaceous, and can be found in marshes, swamps, rice fields and water courses at low elevations. It is considered endangered in Israel, but because it is widespread and common elsewhere, the IUCN considers it to be 'Least Concern'.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -220,9 +277,9 @@
     "synonyms": "[\"Hapalocarpum indicum\", \"Hapalocarpum vesicatorium\", \"Cryptotheca apetala\", \"Celosia bicolor\", \"Ammannia baccifera var. micromerioides\", \"Ammannia attenuata var. latifolia\", \"Ammannia salicifolia\", \"Celosia nana\", \"Ammannia auriculata var. subsessilis\", \"Ammannia viridis\"]",
     "care": {
       "plant_id": "ammannia_baccifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -286,15 +343,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
         "رجل حمامة"
       ],
+      "de": [
+        "Ammannia baccifera"
+      ],
       "en": [
+        "Ammannia baccifera",
         "Blistering ammannia",
         "Monarch redstem"
+      ],
+      "es": [
+        "Ammannia baccifera"
+      ],
+      "fr": [
+        "Ammannia baccifera"
+      ],
+      "it": [
+        "Ammannia baccifera"
+      ],
+      "nl": [
+        "Ammannia baccifera"
+      ],
+      "pl": [
+        "Ammannia baccifera"
+      ],
+      "pt": [
+        "Ammannia baccifera"
+      ],
+      "ru": [
+        "Ammannia baccifera"
       ],
       "zh": [
         "水苋菜",
@@ -311,7 +395,7 @@
     "family": "Lythraceae",
     "genus": "Ammannia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -327,17 +411,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ammannia_coccinea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -393,13 +477,20 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "de": [
+        "Ammannia coccinea"
+      ],
       "en": [
+        "Ammannia coccinea",
         "Toothcup"
       ],
       "es": [
+        "Ammannia coccinea",
         "Ammannia pedunculata",
         "Ammannia pubiflora",
         "Ammannia purpurea",
@@ -408,6 +499,24 @@
         "Ammannia stylosa",
         "Ammannia teres",
         "Ammannia texana"
+      ],
+      "fr": [
+        "Ammannia coccinea"
+      ],
+      "it": [
+        "Ammannia coccinea"
+      ],
+      "nl": [
+        "Ammannia coccinea"
+      ],
+      "pl": [
+        "Ammannia coccinea"
+      ],
+      "pt": [
+        "Ammannia coccinea"
+      ],
+      "ru": [
+        "Ammannia coccinea"
       ],
       "zh": [
         "長葉水莧菜"
@@ -422,7 +531,7 @@
     "family": "Lythraceae",
     "genus": "Ammannia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -438,7 +547,7 @@
     "synonyms": "[\"Jussiaea sagittata\", \"Isnardia subhastata\", \"Ammannia lingulata\", \"Ammannia lythrifolia\", \"Rotala catholica\", \"Ammannia hastata\", \"Ammannia catholica var. brasiliensis\", \"Ammannia pallida\", \"Ludwigia scabriuscula\", \"Ammannia sagittata\"]",
     "care": {
       "plant_id": "ammannia_latifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -504,11 +613,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ammannia latifolia"
+      ],
       "en": [
+        "Ammannia latifolia",
         "Toothcup"
+      ],
+      "es": [
+        "Ammannia latifolia"
+      ],
+      "fr": [
+        "Ammannia latifolia"
+      ],
+      "it": [
+        "Ammannia latifolia"
+      ],
+      "nl": [
+        "Ammannia latifolia"
+      ],
+      "pl": [
+        "Ammannia latifolia"
+      ],
+      "pt": [
+        "Ammannia latifolia"
+      ],
+      "ru": [
+        "Ammannia latifolia"
       ]
     },
     "tags": [],
@@ -520,7 +656,7 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -536,7 +672,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "cuphea_vermillionaire",
-      "water_frequency": null,
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Frequent",
       "start_pct": null,
@@ -602,7 +738,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -623,12 +761,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/0556e0f2b6806458f438c0fb4129eaff.jpg",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -705,9 +843,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea aequipetala"
+      ],
+      "en": [
+        "Cuphea aequipetala"
+      ],
+      "es": [
+        "Cuphea aequipetala"
+      ],
+      "fr": [
+        "Cuphea aequipetala"
+      ],
+      "it": [
+        "Cuphea aequipetala"
+      ],
+      "nl": [
+        "Cuphea aequipetala"
+      ],
+      "pl": [
+        "Cuphea aequipetala"
+      ],
+      "pt": [
+        "Cuphea aequipetala"
+      ],
+      "ru": [
+        "Cuphea aequipetala"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -717,12 +885,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/5a68028a1139eba61e57eede9bd366a9.jpg",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -799,9 +967,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea antisyphilitica"
+      ],
+      "en": [
+        "Cuphea antisyphilitica"
+      ],
+      "es": [
+        "Cuphea antisyphilitica"
+      ],
+      "fr": [
+        "Cuphea antisyphilitica"
+      ],
+      "it": [
+        "Cuphea antisyphilitica"
+      ],
+      "nl": [
+        "Cuphea antisyphilitica"
+      ],
+      "pl": [
+        "Cuphea antisyphilitica"
+      ],
+      "pt": [
+        "Cuphea antisyphilitica"
+      ],
+      "ru": [
+        "Cuphea antisyphilitica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -811,12 +1009,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/145f72635ee4035f86260f2f6a6fb01fa7064879",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -893,9 +1091,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea appendiculata"
+      ],
+      "en": [
+        "Cuphea appendiculata"
+      ],
+      "es": [
+        "Cuphea appendiculata"
+      ],
+      "fr": [
+        "Cuphea appendiculata"
+      ],
+      "it": [
+        "Cuphea appendiculata"
+      ],
+      "nl": [
+        "Cuphea appendiculata"
+      ],
+      "pl": [
+        "Cuphea appendiculata"
+      ],
+      "pt": [
+        "Cuphea appendiculata"
+      ],
+      "ru": [
+        "Cuphea appendiculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -905,12 +1133,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f0af8b8c287ea8efbe96adcb004aa4bb84d197f7",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -987,9 +1215,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea calophylla"
+      ],
+      "en": [
+        "Cuphea calophylla"
+      ],
+      "es": [
+        "Cuphea calophylla"
+      ],
+      "fr": [
+        "Cuphea calophylla"
+      ],
+      "it": [
+        "Cuphea calophylla"
+      ],
+      "nl": [
+        "Cuphea calophylla"
+      ],
+      "pl": [
+        "Cuphea calophylla"
+      ],
+      "pt": [
+        "Cuphea calophylla"
+      ],
+      "ru": [
+        "Cuphea calophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -999,12 +1257,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a6bbf232359af7d9c80cc14ea722ef5f18a4c6ae",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1081,11 +1339,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cuphea carthagenensis"
+      ],
       "en": [
-        "Colombian waxweed"
+        "Colombian waxweed",
+        "Cuphea carthagenensis"
+      ],
+      "es": [
+        "Cuphea carthagenensis"
+      ],
+      "fr": [
+        "Cuphea carthagenensis"
+      ],
+      "it": [
+        "Cuphea carthagenensis"
+      ],
+      "nl": [
+        "Cuphea carthagenensis"
+      ],
+      "pl": [
+        "Cuphea carthagenensis"
+      ],
+      "pt": [
+        "Sete-sangrias"
+      ],
+      "ru": [
+        "Cuphea carthagenensis"
+      ],
+      "zh": [
+        "哥伦比亚萼距花"
       ]
     },
     "tags": [],
@@ -1097,12 +1385,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5a946ae8a5f53617e645637a4b4c73defca6616e",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1179,9 +1467,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea ericoides"
+      ],
+      "en": [
+        "Cuphea ericoides"
+      ],
+      "es": [
+        "Cuphea ericoides"
+      ],
+      "fr": [
+        "Cuphea ericoides"
+      ],
+      "it": [
+        "Cuphea ericoides"
+      ],
+      "nl": [
+        "Cuphea ericoides"
+      ],
+      "pl": [
+        "Cuphea ericoides"
+      ],
+      "pt": [
+        "Cuphea ericoides"
+      ],
+      "ru": [
+        "Cuphea ericoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1191,12 +1509,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/c28ebb5a82641a47b4229c94b90d0df8.jpg",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1273,9 +1591,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea flava"
+      ],
+      "en": [
+        "Cuphea flava"
+      ],
+      "es": [
+        "Cuphea flava"
+      ],
+      "fr": [
+        "Cuphea flava"
+      ],
+      "it": [
+        "Cuphea flava"
+      ],
+      "nl": [
+        "Cuphea flava"
+      ],
+      "pl": [
+        "Cuphea flava"
+      ],
+      "pt": [
+        "Cuphea flava"
+      ],
+      "ru": [
+        "Cuphea flava"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1285,12 +1633,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a984a93d20516fc8d86bc006abbdcffce3388646",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1367,11 +1715,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cuphea glutinosa"
+      ],
       "en": [
+        "Cuphea glutinosa",
         "Lavender-lady"
+      ],
+      "es": [
+        "Cuphea glutinosa"
+      ],
+      "fr": [
+        "Cuphea glutinosa"
+      ],
+      "it": [
+        "Cuphea glutinosa"
+      ],
+      "nl": [
+        "Cuphea glutinosa"
+      ],
+      "pl": [
+        "Cuphea glutinosa"
+      ],
+      "pt": [
+        "Cuphea glutinosa"
+      ],
+      "ru": [
+        "Cuphea glutinosa"
       ]
     },
     "tags": [],
@@ -1383,12 +1758,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a8af38d04a785fd60a6e6647e3caaf4c82b4097f",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1465,9 +1840,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea hookeriana"
+      ],
+      "en": [
+        "Cuphea hookeriana"
+      ],
+      "es": [
+        "Cuphea hookeriana"
+      ],
+      "fr": [
+        "Cuphea hookeriana"
+      ],
+      "it": [
+        "Cuphea hookeriana"
+      ],
+      "nl": [
+        "Cuphea hookeriana"
+      ],
+      "pl": [
+        "Cuphea hookeriana"
+      ],
+      "pt": [
+        "Cuphea hookeriana"
+      ],
+      "ru": [
+        "Cuphea hookeriana"
+      ],
+      "zh": [
+        "萼距花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1477,12 +1885,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/69edffa81a9bba695bccae780df029a277a6a95b",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": "Cuphea hyssopifolia, the false heather, Mexican heather, Hawaiian heather  or elfin herb, is a small evergreen shrub native to Mexico, Guatemala, and Honduras.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1559,11 +1967,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cuphea hyssopifolia"
+      ],
       "en": [
+        "Cuphea hyssopifolia",
         "Mexican-heather"
+      ],
+      "es": [
+        "Cuphea hyssopifolia"
+      ],
+      "fr": [
+        "Cuphea hyssopifolia"
+      ],
+      "it": [
+        "Cuphea hyssopifolia"
+      ],
+      "ja": [
+        "メキシコハナヤナギ"
+      ],
+      "nl": [
+        "Cuphea hyssopifolia"
+      ],
+      "pl": [
+        "Cuphea hyssopifolia"
+      ],
+      "pt": [
+        "Cuphea hyssopifolia"
+      ],
+      "ru": [
+        "Куфея иссополистная"
+      ],
+      "zh": [
+        "细叶萼距花"
       ]
     },
     "tags": [],
@@ -1575,12 +2016,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/3f69fc26963078b5128c7f605f4879dd.jpg",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1657,9 +2098,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea ingrata"
+      ],
+      "en": [
+        "Cuphea ingrata"
+      ],
+      "es": [
+        "Cuphea ingrata"
+      ],
+      "fr": [
+        "Cuphea ingrata"
+      ],
+      "it": [
+        "Cuphea ingrata"
+      ],
+      "nl": [
+        "Cuphea ingrata"
+      ],
+      "pl": [
+        "Cuphea ingrata"
+      ],
+      "pt": [
+        "Cuphea ingrata"
+      ],
+      "ru": [
+        "Cuphea ingrata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1669,12 +2140,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f27eb2894959b353f6a42cf9e9dcf4c0.jpg",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1751,9 +2222,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea linarioides"
+      ],
+      "en": [
+        "Cuphea linarioides"
+      ],
+      "es": [
+        "Cuphea linarioides"
+      ],
+      "fr": [
+        "Cuphea linarioides"
+      ],
+      "it": [
+        "Cuphea linarioides"
+      ],
+      "nl": [
+        "Cuphea linarioides"
+      ],
+      "pl": [
+        "Cuphea linarioides"
+      ],
+      "pt": [
+        "Cuphea linarioides"
+      ],
+      "ru": [
+        "Cuphea linarioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1763,7 +2264,7 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1845,11 +2346,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cuphea llavea"
+      ],
       "en": [
+        "Cuphea llavea",
         "Tiny-mice"
+      ],
+      "es": [
+        "Cuphea llavea"
+      ],
+      "fr": [
+        "Cuphea llavea"
+      ],
+      "it": [
+        "Cuphea llavea"
+      ],
+      "nl": [
+        "Cuphea llavea"
+      ],
+      "pl": [
+        "Cuphea llavea"
+      ],
+      "pt": [
+        "Cuphea llavea"
+      ],
+      "ru": [
+        "Cuphea llavea"
       ]
     },
     "tags": [],
@@ -1861,12 +2389,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3d6c0a3c2f685a321b8db4195d2a06003afa5fb2",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1943,9 +2471,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea melvilla"
+      ],
+      "en": [
+        "Cuphea melvilla"
+      ],
+      "es": [
+        "Cuphea melvilla"
+      ],
+      "fr": [
+        "Cuphea melvilla"
+      ],
+      "it": [
+        "Cuphea melvilla"
+      ],
+      "nl": [
+        "Cuphea melvilla"
+      ],
+      "pl": [
+        "Cuphea melvilla"
+      ],
+      "pt": [
+        "Cigarrinha"
+      ],
+      "ru": [
+        "Cuphea melvilla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1955,12 +2513,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/b2bfafdc361804ce0e90a39fde9e3193.jpg",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2037,9 +2595,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea micrantha"
+      ],
+      "en": [
+        "Cuphea micrantha"
+      ],
+      "es": [
+        "Cuphea micrantha"
+      ],
+      "fr": [
+        "Cuphea micrantha"
+      ],
+      "it": [
+        "Cuphea micrantha"
+      ],
+      "nl": [
+        "Cuphea micrantha"
+      ],
+      "pl": [
+        "Cuphea micrantha"
+      ],
+      "pt": [
+        "Cuphea micrantha"
+      ],
+      "ru": [
+        "Cuphea micrantha"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2049,12 +2637,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9b9e749e753f355040a00380a0b4840ed31b58dc",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2131,9 +2719,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea racemosa"
+      ],
+      "en": [
+        "Cuphea racemosa"
+      ],
+      "es": [
+        "Cuphea racemosa"
+      ],
+      "fr": [
+        "Cuphea racemosa"
+      ],
+      "it": [
+        "Cuphea racemosa"
+      ],
+      "nl": [
+        "Cuphea racemosa"
+      ],
+      "pl": [
+        "Cuphea racemosa"
+      ],
+      "pt": [
+        "Cuphea racemosa"
+      ],
+      "ru": [
+        "Cuphea racemosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2143,12 +2761,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/b0a7f8db316ba0806073b85100a4237d.jpg",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2225,9 +2843,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea sessilifolia"
+      ],
+      "en": [
+        "Cuphea sessilifolia"
+      ],
+      "es": [
+        "Cuphea sessilifolia"
+      ],
+      "fr": [
+        "Cuphea sessilifolia"
+      ],
+      "it": [
+        "Cuphea sessilifolia"
+      ],
+      "nl": [
+        "Cuphea sessilifolia"
+      ],
+      "pl": [
+        "Cuphea sessilifolia"
+      ],
+      "pt": [
+        "Cuphea sessilifolia"
+      ],
+      "ru": [
+        "Cuphea sessilifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2237,12 +2885,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f3a06b0e3a20b22b179c084c00732462.jpg",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2319,9 +2967,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea spermacoce"
+      ],
+      "en": [
+        "Cuphea spermacoce"
+      ],
+      "es": [
+        "Cuphea spermacoce"
+      ],
+      "fr": [
+        "Cuphea spermacoce"
+      ],
+      "it": [
+        "Cuphea spermacoce"
+      ],
+      "nl": [
+        "Cuphea spermacoce"
+      ],
+      "pl": [
+        "Cuphea spermacoce"
+      ],
+      "pt": [
+        "Cuphea spermacoce"
+      ],
+      "ru": [
+        "Cuphea spermacoce"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2331,12 +3009,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b3879e8bf72e36c5942f4ec888a1b48405f46a3b",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": "Cuphea viscosissima, also known as waxbush, blue waxweed, clammy cuphea or (ambiguously) as \"tarweed\", is an herbaceous plant in the loosestrife family. It native to the eastern United States, where it is most often found in open, rocky calcareous areas. It is the most common and widespread Cuphea in the U.S.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2413,11 +3091,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cuphea viscosissima"
+      ],
       "en": [
-        "Clammy cuphea"
+        "Clammy cuphea",
+        "Cuphea viscosissima"
+      ],
+      "es": [
+        "Cuphea viscosissima"
+      ],
+      "fr": [
+        "Cuphea viscosissima"
+      ],
+      "it": [
+        "Cuphea viscosissima"
+      ],
+      "nl": [
+        "Cuphea viscosissima"
+      ],
+      "pl": [
+        "Cuphea viscosissima"
+      ],
+      "pt": [
+        "Cuphea viscosissima"
+      ],
+      "ru": [
+        "Cuphea viscosissima"
+      ],
+      "zh": [
+        "粘毛萼距花"
       ]
     },
     "tags": [],
@@ -2429,12 +3137,12 @@
     "family": "Lythraceae",
     "genus": "Cuphea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/eb6b14cedcec5c969edaf98d3fba56e9.jpg",
-    "description": "The fruit capsule is inconspicuous, leathery, elongated, and less than 0.25 inches long. The dehiscent capsule contains many seeds, which are reddish-brown and pitted.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2511,9 +3219,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cuphea wrightii"
+      ],
+      "en": [
+        "Cuphea wrightii"
+      ],
+      "es": [
+        "Cuphea wrightii"
+      ],
+      "fr": [
+        "Cuphea wrightii"
+      ],
+      "it": [
+        "Cuphea wrightii"
+      ],
+      "nl": [
+        "Cuphea wrightii"
+      ],
+      "pl": [
+        "Cuphea wrightii"
+      ],
+      "pt": [
+        "Cuphea wrightii"
+      ],
+      "ru": [
+        "Cuphea wrightii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2523,12 +3261,12 @@
     "family": "Lythraceae",
     "genus": "Decodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9ae0487b127cc283ad24e630c2c8ee8d9aaf23d7",
-    "description": null,
+    "description": "Decodon verticillatus, the sole living species in the genus Decodon, is a flowering plant in the family Lythraceae. It is commonly known as waterwillow or swamp loosestrife. It is native to wetlands in the eastern half of the United States and Canada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2605,11 +3343,28 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Quirlblättriger Wasserweiderich",
+        "Wasseroleander",
+        "Wasserweiderich"
+      ],
       "en": [
         "Swamp-loosestrife"
+      ],
+      "es": [
+        "Decodon",
+        "Lythrum verticillatum"
+      ],
+      "nl": [
+        "Decodon"
+      ],
+      "pt": [
+        "Decodon"
       ]
     },
     "tags": [],
@@ -2621,7 +3376,7 @@
     "family": "Lythraceae",
     "genus": "Diplusodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2703,9 +3458,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diplusodon virgatus"
+      ],
+      "en": [
+        "Diplusodon virgatus"
+      ],
+      "es": [
+        "Diplusodon virgatus"
+      ],
+      "fr": [
+        "Diplusodon virgatus"
+      ],
+      "it": [
+        "Diplusodon virgatus"
+      ],
+      "nl": [
+        "Diplusodon virgatus"
+      ],
+      "pl": [
+        "Diplusodon virgatus"
+      ],
+      "pt": [
+        "Diplusodon virgatus"
+      ],
+      "ru": [
+        "Diplusodon virgatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2715,7 +3500,7 @@
     "family": "Lythraceae",
     "genus": "Heimia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2797,9 +3582,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Heimia apetala"
+      ],
+      "en": [
+        "Heimia apetala"
+      ],
+      "es": [
+        "Heimia apetala"
+      ],
+      "fr": [
+        "Heimia apetala"
+      ],
+      "it": [
+        "Heimia apetala"
+      ],
+      "nl": [
+        "Heimia apetala"
+      ],
+      "pl": [
+        "Heimia apetala"
+      ],
+      "pt": [
+        "Heimia apetala"
+      ],
+      "ru": [
+        "Heimia apetala"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2809,12 +3624,12 @@
     "family": "Lythraceae",
     "genus": "Heimia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5dbfdea8271403c268155dd0ad917616997e9bff",
-    "description": null,
+    "description": "Heimia salicifolia is a species of flowering plant in the Loosestrife family, Lythraceae. It is native to the Americas, ranging from the southwestern United States through Mexico and Central America to Argentina. Common names include shrubby yellowcrest, sinicuichi, sun opener, willow-leaf heimia, sini. The plant has been used for shamanic purposes by native peoples in Central America and Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2891,11 +3706,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sinicuichi"
+      ],
       "en": [
+        "Heimia salicifolia",
         "Shrubby yellowcrest"
+      ],
+      "es": [
+        "Heimia"
+      ],
+      "fr": [
+        "Heimia"
+      ],
+      "it": [
+        "Heimia salicifolia"
+      ],
+      "nl": [
+        "Heimia salicifolia"
+      ],
+      "pl": [
+        "Heimia salicifolia"
+      ],
+      "pt": [
+        "Heimia"
+      ],
+      "ru": [
+        "Хеймия"
+      ],
+      "zh": [
+        "黄薇属"
       ]
     },
     "tags": [],
@@ -2907,7 +3752,7 @@
     "family": "Lythraceae",
     "genus": "Lafoensia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2989,9 +3834,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lafoensia acuminata"
+      ],
+      "en": [
+        "Lafoensia acuminata"
+      ],
+      "es": [
+        "Lafoensia acuminata"
+      ],
+      "fr": [
+        "Lafoensia acuminata"
+      ],
+      "it": [
+        "Lafoensia acuminata"
+      ],
+      "nl": [
+        "Lafoensia acuminata"
+      ],
+      "pl": [
+        "Lafoensia acuminata"
+      ],
+      "pt": [
+        "Lafoensia acuminata"
+      ],
+      "ru": [
+        "Lafoensia acuminata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3001,12 +3876,12 @@
     "family": "Lythraceae",
     "genus": "Lafoensia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/63f75a4329cde7024c8959e07122b135df32525d",
-    "description": null,
+    "description": "Lafoensia pacari is a species of plant in the family Lythraceae. It is found in Brazil and Paraguay.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3083,9 +3958,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lafoensia pacari"
+      ],
+      "en": [
+        "Lafoensia pacari"
+      ],
+      "es": [
+        "Lafoensia pacari"
+      ],
+      "fr": [
+        "Lafoensia pacari"
+      ],
+      "it": [
+        "Lafoensia pacari"
+      ],
+      "nl": [
+        "Lafoensia pacari"
+      ],
+      "pl": [
+        "Lafoensia pacari"
+      ],
+      "pt": [
+        "Dedaleiro"
+      ],
+      "ru": [
+        "Lafoensia pacari"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3095,7 +4000,7 @@
     "family": "Lythraceae",
     "genus": "Lafoensia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3177,9 +4082,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lafoensia vandelliana"
+      ],
+      "en": [
+        "Lafoensia vandelliana"
+      ],
+      "es": [
+        "Lafoensia vandelliana"
+      ],
+      "fr": [
+        "Lafoensia vandelliana"
+      ],
+      "it": [
+        "Lafoensia vandelliana"
+      ],
+      "nl": [
+        "Lafoensia vandelliana"
+      ],
+      "pl": [
+        "Lafoensia vandelliana"
+      ],
+      "pt": [
+        "Lafoensia vandelliana"
+      ],
+      "ru": [
+        "Lafoensia vandelliana"
+      ],
+      "zh": [
+        "丽薇"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3189,7 +4127,7 @@
     "family": "Lythraceae",
     "genus": "Lagerstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3280,11 +4218,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "تمر حنا إفرنجي"
+      ],
+      "de": [
+        "Chinesische Lagerströmie"
+      ],
       "en": [
-        "Crepe-myrtle"
+        "Crepe-myrtle",
+        "Lagerstroemia indica"
+      ],
+      "it": [
+        "Lagerstroemia indica"
+      ],
+      "ja": [
+        "サルスベリ"
+      ],
+      "ko": [
+        "배롱나무"
+      ],
+      "nl": [
+        "Lagerstroemia indica"
+      ],
+      "pl": [
+        "Lagerstremia indyjska"
+      ],
+      "pt": [
+        "Lagerstroemia indica"
+      ],
+      "ru": [
+        "Лагерстрёмия индийская"
+      ],
+      "tr": [
+        "Oya ağacı"
+      ],
+      "zh": [
+        "紫薇"
       ]
     },
     "tags": [],
@@ -3296,7 +4270,7 @@
     "family": "Lythraceae",
     "genus": "Lagerstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3383,11 +4357,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Königinblume"
+      ],
       "en": [
+        "Lagerstroemia speciosa",
         "Queen's crape-myrtle"
+      ],
+      "es": [
+        "Lagerstroemia speciosa"
+      ],
+      "fr": [
+        "Lagerstroemia speciosa"
+      ],
+      "hi": [
+        "जरुल"
+      ],
+      "it": [
+        "Lagerstroemia speciosa"
+      ],
+      "ja": [
+        "バナバ"
+      ],
+      "ko": [
+        "바나바"
+      ],
+      "nl": [
+        "Lagerstroemia speciosa"
+      ],
+      "pl": [
+        "Lagerstremia wspaniała"
+      ],
+      "pt": [
+        "Resedá-gigante"
+      ],
+      "ru": [
+        "Lagerstroemia speciosa"
+      ],
+      "zh": [
+        "大花紫薇"
       ]
     },
     "tags": [],
@@ -3399,12 +4412,12 @@
     "family": "Lythraceae",
     "genus": "Lagerstroemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/fa15572a7ce8acbda56c2fea9334015f.jpg",
-    "description": null,
+    "description": "Lagerstroemia subcostata, the Taiwan crepe myrtle, is a deciduous tree native to Japan, the Ryukyu Islands, Taiwan, and southern China, and introduced to the Philippines.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3481,9 +4494,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lagerstroemia subcostata"
+      ],
+      "en": [
+        "Lagerstroemia subcostata"
+      ],
+      "es": [
+        "Lagerstroemia subcostata"
+      ],
+      "fr": [
+        "Lagerstroemia subcostata"
+      ],
+      "it": [
+        "Lagerstroemia subcostata"
+      ],
+      "ja": [
+        "シマサルスベリ"
+      ],
+      "nl": [
+        "Lagerstroemia subcostata"
+      ],
+      "pl": [
+        "Lagerstroemia subcostata"
+      ],
+      "pt": [
+        "Lagerstroemia subcostata"
+      ],
+      "ru": [
+        "Lagerstroemia subcostata"
+      ],
+      "zh": [
+        "九芎"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3493,12 +4542,12 @@
     "family": "Lythraceae",
     "genus": "Lawsonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d7169d16d8702ddccbb706b3ec0259ba143f63c7",
-    "description": null,
+    "description": "Lawsonia inermis, also known as hina, the henna tree, the mignonette tree, and the Egyptian privet, is a flowering plant and one of the only two species of the genus Lawsonia, with the other being Lawsonia odorata. It is used as a traditional medicinal plant. The species is named after the Scottish physician Isaac Lawson, a good friend of Linnaeus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3575,11 +4624,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "حناء"
+      ],
+      "de": [
+        "Hennastrauch"
+      ],
       "en": [
-        "Egyptian-privet"
+        "Egyptian-privet",
+        "Lawsonia inermis"
+      ],
+      "es": [
+        "alheña"
+      ],
+      "fr": [
+        "henné"
+      ],
+      "hi": [
+        "हिना"
+      ],
+      "it": [
+        "Lawsonia inermis"
+      ],
+      "ja": [
+        "ヘンナ"
+      ],
+      "ko": [
+        "헤나"
+      ],
+      "nl": [
+        "henna"
+      ],
+      "pl": [
+        "Henna"
+      ],
+      "pt": [
+        "Henna"
+      ],
+      "ru": [
+        "Лавсония неколючая"
+      ],
+      "tr": [
+        "Kına"
+      ],
+      "zh": [
+        "散沫花"
       ]
     },
     "tags": [],
@@ -3591,12 +4685,12 @@
     "family": "Lythraceae",
     "genus": "Lythrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1a5ae20fddc871e08bf3065978ee910633eae7df",
-    "description": null,
+    "description": "Lythrum alatum, commonly known as winged loosestrife, winged lythrum or angled purple-loosestrife, is a species of flowering plant belonging to the family Lythraceae. It is endemic to wetland areas in central and eastern United States and Ontario.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3607,17 +4701,17 @@
     "synonyms": "[\"Pythagorea alata\", \"Salicaria alata\"]",
     "care": {
       "plant_id": "lythrum_alatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3673,11 +4767,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "فرندل مجنح"
+      ],
+      "de": [
+        "Geflügelter Blutweiderich"
+      ],
       "en": [
-        "Angled purple loosestrife"
+        "Angled purple loosestrife",
+        "Lythrum alatum"
+      ],
+      "es": [
+        "Lythrum alatum"
+      ],
+      "fr": [
+        "Lythrum alatum"
+      ],
+      "it": [
+        "Lythrum alatum"
+      ],
+      "nl": [
+        "Lythrum alatum"
+      ],
+      "pl": [
+        "Lythrum alatum"
+      ],
+      "pt": [
+        "Lythrum alatum"
+      ],
+      "ru": [
+        "Lythrum alatum"
       ]
     },
     "tags": [],
@@ -3689,7 +4813,7 @@
     "family": "Lythraceae",
     "genus": "Lythrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3705,7 +4829,7 @@
     "synonyms": "[\"Peplis hispidula\", \"Lythrum borysthenicum var. biflorum\", \"Lythrum hispidulum\", \"Lythrum biflorum\", \"Middendorfia borysthenica\", \"Middendorfia hamulosa\", \"Middendorfia nummulariifolia\", \"Peplis tithymaloides\", \"Peplis nummulariifolia\", \"Peplis australis var. hispidula\"]",
     "care": {
       "plant_id": "lythrum_borysthenicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3771,9 +4895,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lythrum borysthenicum"
+      ],
+      "en": [
+        "Lythrum borysthenicum"
+      ],
+      "es": [
+        "Lythrum borysthenicum"
+      ],
+      "fr": [
+        "Lythrum borysthenicum"
+      ],
+      "it": [
+        "Lythrum borysthenicum"
+      ],
+      "nl": [
+        "Lythrum borysthenicum"
+      ],
+      "pl": [
+        "Lythrum borysthenicum"
+      ],
+      "pt": [
+        "Lythrum borysthenicum"
+      ],
+      "ru": [
+        "Lythrum borysthenicum"
+      ],
+      "zh": [
+        "四齿千屈菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3783,12 +4940,12 @@
     "family": "Lythraceae",
     "genus": "Lythrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Lythrum californicum is a species of flowering plant in the loosestrife family known by the common name California loosestrife. It is native to northern Mexico and the southwestern United States into the Midwest as far east as Oklahoma and Texas. It often grows in moist habitat. This is an erect perennial herb reaching 20 to 60 cm tall, sometimes branching. The waxy linear to lance-shaped leaves are arranged oppositely lower on the plant, and alternately toward the top.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3799,7 +4956,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "lythrum_californicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3865,9 +5022,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lythrum californicum"
+      ],
+      "en": [
+        "Lythrum californicum"
+      ],
+      "es": [
+        "Lythrum californicum"
+      ],
+      "fr": [
+        "Lythrum californicum"
+      ],
+      "it": [
+        "Lythrum californicum"
+      ],
+      "ja": [
+        "アメリカミソハギ"
+      ],
+      "nl": [
+        "Lythrum californicum"
+      ],
+      "pl": [
+        "Lythrum californicum"
+      ],
+      "pt": [
+        "Lythrum californicum"
+      ],
+      "ru": [
+        "Lythrum californicum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3877,7 +5067,7 @@
     "family": "Lythraceae",
     "genus": "Lythrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3893,17 +5083,17 @@
     "synonyms": "[\"Lythrum glaucum\", \"Lythrum hyssopifolium\", \"Lythrum hyssopifolia var. nummulariifolium\", \"Salicaria hyssopifolia\", \"Salicaria graefferi\", \"Pentaglossum linifolium\", \"Lythrum thymifolium\", \"Lythrum thymifolia\", \"Chabraea hyssopifolia\", \"Lythrum hyssopifolia var. biflorum\"]",
     "care": {
       "plant_id": "lythrum_hyssopifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3959,11 +5149,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "ar": [
+        "رِجْل الحَمامه"
+      ],
+      "de": [
+        "Ysopblättriger Weiderich"
+      ],
       "en": [
-        "Grass-poly"
+        "Grass-poly",
+        "Lythrum hyssopifolia"
+      ],
+      "es": [
+        "Lythrum hyssopifolia"
+      ],
+      "fr": [
+        "Salicaire à feuilles d'hysope"
+      ],
+      "it": [
+        "Lythrum hyssopifolia"
+      ],
+      "ja": [
+        "コメバミソハギ"
+      ],
+      "nl": [
+        "Kleine kattenstaart"
+      ],
+      "pl": [
+        "Krwawnica wąskolistna"
+      ],
+      "pt": [
+        "Lythrum hyssopifolia"
+      ],
+      "ru": [
+        "Дербенник иссополистный"
+      ],
+      "zh": [
+        "神香草叶千屈菜"
       ]
     },
     "tags": [],
@@ -3975,12 +5201,12 @@
     "family": "Lythraceae",
     "genus": "Lythrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2baaa79a630d0c11d5ea95c44967a77290b58d3a",
-    "description": null,
+    "description": "Lythrum junceum is a species of perennial herb in the family Lythraceae native to the Mediterranean Basin, West Asia and Macaronesia. They have a self-supporting growth form and simple, broad leaves. They are associated with freshwater habitat. Individuals can grow to 0.2 m.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3991,17 +5217,17 @@
     "synonyms": "[\"Lythrum acutangulum f. longistyla\", \"Lythrum acutangulum f. mediostyla\", \"Lythrum lineare\", \"Lythrum acutangulum f. brevistyla\", \"Lythrum meonanthum\", \"Lythrum graefferi f. album\", \"Lythrum graefferi\"]",
     "care": {
       "plant_id": "lythrum_junceum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4057,11 +5283,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "de": [
+        "Binsen-Weiderich"
+      ],
       "en": [
+        "Lythrum junceum",
         "Rose loosestrife"
+      ],
+      "es": [
+        "Lythrum junceum"
+      ],
+      "fr": [
+        "Lythrum junceum"
+      ],
+      "it": [
+        "Lythrum junceum"
+      ],
+      "nl": [
+        "Lythrum junceum"
+      ],
+      "pl": [
+        "Lythrum junceum"
+      ],
+      "pt": [
+        "Lythrum junceum"
+      ],
+      "ru": [
+        "Lythrum junceum"
       ]
     },
     "tags": [],
@@ -4073,7 +5326,7 @@
     "family": "Lythraceae",
     "genus": "Lythrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4089,17 +5342,17 @@
     "synonyms": "[\"Lythrum portula subsp. longidentata\", \"Peplis portula subsp. longidentata\", \"Peplis glandulifera\", \"Peplis fradinii\", \"Peplis serpyllifolia\", \"Peplis portulacifolia\", \"Peplis portula var. fradinii\", \"Peplis portulaca\", \"Peplis portula var. longidentata\", \"Peplis portula proles longidentata\"]",
     "care": {
       "plant_id": "lythrum_portula",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4155,11 +5408,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Sumpfquendel"
+      ],
       "en": [
+        "Lythrum portula",
         "Spatulaleaf loosestrife"
+      ],
+      "es": [
+        "Lythrum portula"
+      ],
+      "fr": [
+        "Lythrum portula"
+      ],
+      "it": [
+        "Lythrum portula"
+      ],
+      "nl": [
+        "Waterpostelein"
+      ],
+      "pl": [
+        "Lythrum portula"
+      ],
+      "pt": [
+        "Lythrum portula"
+      ],
+      "ru": [
+        "Lythrum portula"
       ]
     },
     "tags": [],
@@ -4171,7 +5451,7 @@
     "family": "Lythraceae",
     "genus": "Lythrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4187,17 +5467,17 @@
     "synonyms": "[\"Lythrum argyi\", \"Lythrum salicaria subvar. gracile\", \"Lythrum palustre\", \"Lythrum salicaria f. depauperatum\", \"Lythrum salicaria var. glabrum\", \"Lythrum spiciforme\", \"Lythrum cinereum\", \"Lythrum salicaria var. glabricaule\", \"Lythrum spicatum var. verticillatum\", \"Lythrum salicaria subvar. caudatum\"]",
     "care": {
       "plant_id": "lythrum_salicaria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4258,11 +5538,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "ar": [
+        "فرندل مبذول"
+      ],
+      "de": [
+        "Gewöhnlicher Blutweiderich"
+      ],
       "en": [
+        "Lythrum salicaria",
         "Purple loosestrife"
+      ],
+      "es": [
+        "Lythrum salicaria"
+      ],
+      "fr": [
+        "Salicaire commune"
+      ],
+      "it": [
+        "Lythrum salicaria"
+      ],
+      "ja": [
+        "エゾミソハギ"
+      ],
+      "ko": [
+        "부처꽃"
+      ],
+      "nl": [
+        "grote kattenstaart"
+      ],
+      "pl": [
+        "Krwawnica pospolita"
+      ],
+      "pt": [
+        "erva-carapau"
+      ],
+      "ru": [
+        "дербенник иволистный"
+      ],
+      "tr": [
+        "Kırmızı kan çiçeği"
+      ],
+      "zh": [
+        "千屈菜"
       ]
     },
     "tags": [],
@@ -4274,7 +5596,7 @@
     "family": "Lythraceae",
     "genus": "Lythrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4290,17 +5612,17 @@
     "synonyms": "[\"Lythrum melanospermum\", \"Salica lythastrum\", \"Chabraea serpyllifolia\", \"Lythrum strictum\", \"Salicaria thymifolia\", \"Editeles thymifolia\", \"Lythrum hyssopifolia subsp. melanospermum\", \"Lythrum thymifolia var. diffusa\", \"Lythrum thymophyllum\", \"Middendorfia melanosperma\"]",
     "care": {
       "plant_id": "lythrum_thymifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4356,11 +5678,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "de": [
+        "Lythrum thymifolia"
+      ],
       "en": [
+        "Lythrum thymifolia",
         "Thymeleaf loosestrife"
+      ],
+      "es": [
+        "Lythrum thymifolia"
+      ],
+      "fr": [
+        "Lythrum thymifolia"
+      ],
+      "it": [
+        "Lythrum thymifolia"
+      ],
+      "nl": [
+        "Lythrum thymifolia"
+      ],
+      "pl": [
+        "Lythrum thymifolia"
+      ],
+      "pt": [
+        "Lythrum thymifolia"
+      ],
+      "ru": [
+        "Lythrum thymifolia"
       ]
     },
     "tags": [],
@@ -4372,12 +5721,12 @@
     "family": "Lythraceae",
     "genus": "Lythrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7a72213a2c9191c35828e7e49b3e192684698d2b",
-    "description": null,
+    "description": "Lythrum tribracteatum is a species of flowering plant in the loosestrife family known by the common name threebract loosestrife.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4388,17 +5737,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "lythrum_tribracteatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4454,11 +5803,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Lythrum tribracteatum"
+      ],
       "en": [
+        "Lythrum tribracteatum",
         "Threebract loosestrife"
+      ],
+      "es": [
+        "Lythrum tribracteatum"
+      ],
+      "fr": [
+        "Lythrum tribracteatum"
+      ],
+      "it": [
+        "Lythrum tribracteatum"
+      ],
+      "nl": [
+        "Lythrum tribracteatum"
+      ],
+      "pl": [
+        "Lythrum tribracteatum"
+      ],
+      "pt": [
+        "Lythrum tribracteatum"
+      ],
+      "ru": [
+        "Дербенник трёхприцветниковый"
       ]
     },
     "tags": [],
@@ -4470,12 +5846,12 @@
     "family": "Lythraceae",
     "genus": "Lythrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6f2b7238cb4fb4fbf774bb05d2bd428959d5d7e3",
-    "description": null,
+    "description": "Lythrum virgatum, the wand loosestrife, is a species of flowering plant in the family Lythraceae, native to wet areas of the Eurasian steppes, and introduced to France, Germany, and the United States. The unimproved species and a number of cultivars are available from commercial suppliers. It is considered an invasive species in some jurisdictions.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4486,7 +5862,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "lythrum_virgatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4552,11 +5928,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "فرندل مستدق"
+      ],
+      "de": [
+        "Lythrum virgatum"
+      ],
       "en": [
+        "Lythrum virgatum",
         "Purple loosestrife"
+      ],
+      "es": [
+        "Lythrum virgatum"
+      ],
+      "fr": [
+        "Lythrum virgatum"
+      ],
+      "it": [
+        "Lythrum virgatum"
+      ],
+      "nl": [
+        "Lythrum virgatum"
+      ],
+      "pl": [
+        "Lythrum virgatum"
+      ],
+      "pt": [
+        "Lythrum virgatum"
+      ],
+      "ru": [
+        "дербенник прутовидный"
+      ],
+      "zh": [
+        "多枝千屈菜"
       ]
     },
     "tags": [],
@@ -4568,12 +5977,12 @@
     "family": "Lythraceae",
     "genus": "Pemphis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6e24fd8edbd946401fc151d87c127eea15bc6502",
-    "description": null,
+    "description": "Pemphis acidula, commonly known as bantigue or mentigi, is a species of flowering plant in the family Lythraceae. It is the only species in the genus Pemphis.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4650,9 +6059,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pemphis acidula"
+      ],
+      "en": [
+        "Pemphis acidula"
+      ],
+      "es": [
+        "Pemphis acidula"
+      ],
+      "fr": [
+        "Pemphis acidula"
+      ],
+      "it": [
+        "Pemphis acidula"
+      ],
+      "nl": [
+        "Pemphis acidula"
+      ],
+      "pl": [
+        "Pemphis acidula"
+      ],
+      "pt": [
+        "Pemphis acidula"
+      ],
+      "ru": [
+        "Pemphis acidula"
+      ],
+      "zh": [
+        "水芫花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4662,12 +6104,12 @@
     "family": "Lythraceae",
     "genus": "Physocalymma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/52a92a52d1fcb35933ff24e7233c614b6a240b3f",
-    "description": null,
+    "description": "Physocalymma is a monotypic genus of flowering plants belonging to the family Lythraceae. The only species is Physocalymma scaberrimum.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4744,9 +6186,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Physocalymma scaberrimum"
+      ],
+      "en": [
+        "Physocalymma scaberrimum"
+      ],
+      "es": [
+        "Physocalymma scaberrimum"
+      ],
+      "fr": [
+        "Physocalymma scaberrimum"
+      ],
+      "it": [
+        "Physocalymma scaberrimum"
+      ],
+      "nl": [
+        "Physocalymma scaberrimum"
+      ],
+      "pl": [
+        "Physocalymma scaberrimum"
+      ],
+      "pt": [
+        "Physocalymma scaberrimum"
+      ],
+      "ru": [
+        "Physocalymma scaberrimum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4756,7 +6228,7 @@
     "family": "Lythraceae",
     "genus": "Punica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4772,17 +6244,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "punica_granatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4804,8 +6276,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Passiflora incarnata",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Fruit, root cortex, tree bark. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Leaf spot, fruit blotch and root rot may occur.",
         "In the Southeast, pomegranates do not fruit reliably due mostly to poor pollination and the humid climate."
@@ -4828,8 +6300,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Multi-stemmed",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, root cortex, tree bark",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -4843,11 +6315,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "رمان"
+      ],
+      "de": [
+        "Granatapfel"
+      ],
       "en": [
-        "Pomegranate"
+        "Pomegranate",
+        "pomegranate"
+      ],
+      "es": [
+        "Punica granatum"
+      ],
+      "fr": [
+        "grenadier commun"
+      ],
+      "hi": [
+        "अनार"
+      ],
+      "it": [
+        "Punica granatum"
+      ],
+      "ja": [
+        "ザクロ"
+      ],
+      "ko": [
+        "석류나무"
+      ],
+      "nl": [
+        "granaatappel"
+      ],
+      "pl": [
+        "granatowiec właściwy"
+      ],
+      "pt": [
+        "romã"
+      ],
+      "ru": [
+        "Гранат обыкновенный"
+      ],
+      "tr": [
+        "Nar"
+      ],
+      "zh": [
+        "石榴"
       ]
     },
     "tags": [],
@@ -4859,12 +6376,12 @@
     "family": "Lythraceae",
     "genus": "Rotala",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/488fa478d817cb660ac1c890c0662f2b.jpg",
-    "description": null,
+    "description": "Rotala indica is a species of flowering plant in the loosestrife family known by the common name Indian toothcup. It is native to Southeast Asia. This aquatic plant is best known as a popular aquarium plant and as a weed of rice fields. It is known as an introduced species and a weed in rice-growing regions in Congo, Italy, and Portugal, and California and Louisiana in the United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4941,9 +6458,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rotala indica"
+      ],
+      "en": [
+        "Rotala indica"
+      ],
+      "es": [
+        "Rotala indica"
+      ],
+      "fr": [
+        "Rotala indica"
+      ],
+      "it": [
+        "Rotala indica"
+      ],
+      "ja": [
+        "キカシグサ"
+      ],
+      "ko": [
+        "마디꽃"
+      ],
+      "nl": [
+        "Rotala indica"
+      ],
+      "pl": [
+        "Rotala indica"
+      ],
+      "pt": [
+        "Rotala indica"
+      ],
+      "ru": [
+        "Rotala indica"
+      ],
+      "tr": [
+        "Rotala indica"
+      ],
+      "zh": [
+        "节节菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4953,7 +6512,7 @@
     "family": "Lythraceae",
     "genus": "Rotala",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5035,9 +6594,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rotala mexicana"
+      ],
+      "en": [
+        "Rotala mexicana"
+      ],
+      "es": [
+        "Rotala mexicana"
+      ],
+      "fr": [
+        "Rotala mexicana"
+      ],
+      "it": [
+        "Rotala mexicana"
+      ],
+      "ko": [
+        "가는마디꽃"
+      ],
+      "nl": [
+        "Rotala mexicana"
+      ],
+      "pl": [
+        "Rotala mexicana"
+      ],
+      "pt": [
+        "Rotala mexicana"
+      ],
+      "ru": [
+        "Rotala mexicana"
+      ],
+      "zh": [
+        "輪生葉水豬母乳"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5047,12 +6642,12 @@
     "family": "Lythraceae",
     "genus": "Rotala",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a2edfd0135b71ab0a8ca3ff44b564454517b3e82",
-    "description": null,
+    "description": "Rotala ramosior is a species of flowering plant in the loosestrife family known by the common name lowland rotala. This aquatic or semiaquatic plant is native to North America, where it grows in lakes, streams, and irrigation ditches. The branching stems of the plant grow to about 40 cm long. Leaves are decussate, arranged oppositely in perpendicular pairs along the stems. The leaves are linear to lance-shaped to oval and up to 5 cm long. Flowers occur singly in leaf axils.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5129,11 +6724,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Rotala ramosior"
+      ],
       "en": [
-        "Lowland rotala"
+        "Lowland rotala",
+        "Rotala ramosior"
+      ],
+      "es": [
+        "Rotala ramosior"
+      ],
+      "fr": [
+        "Rotala ramosior"
+      ],
+      "it": [
+        "Rotala ramosior"
+      ],
+      "nl": [
+        "Rotala ramosior"
+      ],
+      "pl": [
+        "Rotala ramosior"
+      ],
+      "pt": [
+        "Rotala ramosior"
+      ],
+      "ru": [
+        "Rotala ramosior"
+      ],
+      "zh": [
+        "美洲水豬母乳"
       ]
     },
     "tags": [],
@@ -5145,12 +6770,12 @@
     "family": "Lythraceae",
     "genus": "Rotala",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/67117162574c4ac8bee428d8a0f887220e7a977c",
-    "description": null,
+    "description": "Rotala rotundifolia, the dwarf rotala, is a plant species often confused with Rotala indica. It is sold in the aquarium trade, but is of uncertain status.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5227,11 +6852,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Rotala rotundifolia"
+      ],
       "en": [
+        "Rotala rotundifolia",
         "Roundleaf toothcup"
+      ],
+      "es": [
+        "Rotala rotundifolia"
+      ],
+      "fr": [
+        "Rotala rotundifolia"
+      ],
+      "it": [
+        "Rotala rotundifolia"
+      ],
+      "ja": [
+        "ホザキキカシグサ"
+      ],
+      "nl": [
+        "Rotala rotundifolia"
+      ],
+      "pl": [
+        "Rotala okrągłolistna"
+      ],
+      "pt": [
+        "Rotala rotundifolia"
+      ],
+      "ru": [
+        "Ротала круглолистная"
+      ],
+      "zh": [
+        "圆叶节节菜"
       ]
     },
     "tags": [],
@@ -5243,7 +6901,7 @@
     "family": "Lythraceae",
     "genus": "Sonneratia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5325,11 +6983,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sonneratia alba"
+      ],
       "en": [
-        "Mangrove apple"
+        "Mangrove apple",
+        "Sonneratia alba"
+      ],
+      "es": [
+        "Sonneratia alba"
+      ],
+      "fr": [
+        "Sonneratia alba"
+      ],
+      "it": [
+        "Sonneratia alba"
+      ],
+      "ja": [
+        "ハマザクロ"
+      ],
+      "nl": [
+        "Sonneratia alba"
+      ],
+      "pl": [
+        "Sonneratia alba"
+      ],
+      "pt": [
+        "Sonneratia alba"
+      ],
+      "ru": [
+        "Соннератия белая"
+      ],
+      "zh": [
+        "杯萼海桑"
       ]
     },
     "tags": [],
@@ -5341,7 +7032,7 @@
     "family": "Lythraceae",
     "genus": "Trapa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5357,17 +7048,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "trapa_natans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5423,11 +7114,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "ar": [
+        "عكر أبو قرون"
+      ],
+      "de": [
+        "Wassernuss"
+      ],
       "en": [
+        "Trapa natans",
         "Water-chestnut"
+      ],
+      "es": [
+        "Trapa natans"
+      ],
+      "fr": [
+        "Mâcre nageante"
+      ],
+      "hi": [
+        "सिंघाड़ा"
+      ],
+      "it": [
+        "Trapa natans"
+      ],
+      "ja": [
+        "オニビシ(広義)"
+      ],
+      "nl": [
+        "Waternoot"
+      ],
+      "pl": [
+        "kotewka orzech wodny"
+      ],
+      "pt": [
+        "Trapa natans"
+      ],
+      "ru": [
+        "рогульник плавающий"
+      ],
+      "tr": [
+        "Trapa natans"
+      ],
+      "zh": [
+        "菱角"
       ]
     },
     "tags": [],

@@ -5,12 +5,12 @@
     "family": "Pontederiaceae",
     "genus": "Heteranthera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/74f7b9984ebb74cb983be2fe962ee7ddaecc673d",
-    "description": null,
+    "description": "Heteranthera dubia, commonly called water stargrass or grassleaf mudplantain, is a species of aquatic plant in the pickerel-weed family (Pontederiaceae). It is native to North and Central America where it is widespread from Canada to Guatemala.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,9 +21,9 @@
     "synonyms": "[\"Schollera dubia\", \"Heteranthera dubia f. terrestre\", \"Heteranthera liebmannii\", \"Schollera graminifolia\", \"Phrynium dubium var. terrestre\", \"Schollera graminea\", \"Phrynium dubium\", \"Commelina dubia\", \"Leptanthus gramineus\", \"Schollera graminea var. minima\"]",
     "care": {
       "plant_id": "heteranthera_dubia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Heteranthera dubia"
+      ],
       "en": [
+        "Heteranthera dubia",
         "Water star-grass"
+      ],
+      "es": [
+        "Heteranthera dubia"
+      ],
+      "fr": [
+        "Heteranthera dubia"
+      ],
+      "it": [
+        "Heteranthera dubia"
+      ],
+      "ja": [
+        "ゾステレラ デュビア"
+      ],
+      "nl": [
+        "Heteranthera dubia"
+      ],
+      "pl": [
+        "Heteranthera dubia"
+      ],
+      "pt": [
+        "Heteranthera dubia"
+      ],
+      "ru": [
+        "Heteranthera dubia"
+      ],
+      "zh": [
+        "杜邦草"
       ]
     },
     "tags": [],
@@ -103,12 +136,12 @@
     "family": "Pontederiaceae",
     "genus": "Heteranthera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/10e96a20ffa326491d1f4b607094e5fa63915f59",
-    "description": null,
+    "description": "Heteranthera limosa is an annual flowering plant in the water hyacinth family known by the common names ducksalad and blue mudplantain. It grows in shallow water or on mud. It is considered a threatened species in parts of the central United States, and an invasive species weed in California, where it is a nuisance in rice paddies. It is also occasional in Florida waterways.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -119,9 +152,9 @@
     "synonyms": "[\"Pontederia triandra\", \"Heteranthera alismoides\", \"Schollera limosa\", \"Lunania uniflora\", \"Heteranthera hydrocleifolia\", \"Pontederia limosa\", \"Leptanthus ovalis\", \"Triexastima uniflora\", \"Phrynium limosum\", \"Heteranthera limosa f. albiflora\"]",
     "care": {
       "plant_id": "heteranthera_limosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -185,11 +218,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Heteranthera limosa"
+      ],
       "en": [
-        "Blue mud-plantain"
+        "Blue mud-plantain",
+        "Heteranthera limosa"
+      ],
+      "es": [
+        "Heteranthera limosa"
+      ],
+      "fr": [
+        "Heteranthera limosa"
+      ],
+      "it": [
+        "Heteranthera limosa"
+      ],
+      "ja": [
+        "アメリカコナギ"
+      ],
+      "nl": [
+        "Heteranthera limosa"
+      ],
+      "pl": [
+        "Heteranthera limosa"
+      ],
+      "pt": [
+        "Heteranthera limosa"
+      ],
+      "ru": [
+        "Heteranthera limosa"
       ]
     },
     "tags": [],
@@ -201,12 +264,12 @@
     "family": "Pontederiaceae",
     "genus": "Heteranthera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cb8f90c58493fee3fc9c32e91634959d756cb66e",
-    "description": null,
+    "description": "Heteranthera reniformis common name kidneyleaf mud-plantain, and mud plantain; is a species of flowering plant in the family Pontederiaceae. It is found in North America. It is listed as a special concern and believed extirpated in Connecticut. It listed as endangered in Illinois and Ohio.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -217,9 +280,9 @@
     "synonyms": "[\"Phrynium reniforme\", \"Heteranthera reniformis var. conjungens\", \"Phrynium reniforme var. acutum\", \"Pontederia azurea\", \"Schollera reniformis\", \"Leptanthus peruvianus\", \"Leptanthus reniformis\", \"Heteranthera pubescens\", \"Leptanthus virginicus\", \"Heteranthera virginicus\"]",
     "care": {
       "plant_id": "heteranthera_reniformis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -283,11 +346,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Heteranthera reniformis"
+      ],
       "en": [
+        "Heteranthera reniformis",
         "Mud plantain"
+      ],
+      "es": [
+        "Heteranthera reniformis"
+      ],
+      "fr": [
+        "Heteranthera reniformis"
+      ],
+      "it": [
+        "Heteranthera reniformis"
+      ],
+      "nl": [
+        "Heteranthera reniformis"
+      ],
+      "pl": [
+        "Heteranthera reniformis"
+      ],
+      "pt": [
+        "Heteranthera reniformis"
+      ],
+      "ru": [
+        "Heteranthera reniformis"
       ]
     },
     "tags": [],
@@ -299,7 +389,7 @@
     "family": "Pontederiaceae",
     "genus": "Heteranthera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -315,9 +405,9 @@
     "synonyms": "[\"Heteranthera limosa subsp. rotundifolia\", \"Heteranthera limosa var. rotundifolia\"]",
     "care": {
       "plant_id": "heteranthera_rotundifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -381,9 +471,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Heteranthera rotundifolia"
+      ],
+      "en": [
+        "Heteranthera rotundifolia"
+      ],
+      "es": [
+        "Heteranthera rotundifolia"
+      ],
+      "fr": [
+        "Heteranthera rotundifolia"
+      ],
+      "it": [
+        "Heteranthera rotundifolia"
+      ],
+      "nl": [
+        "Heteranthera rotundifolia"
+      ],
+      "pl": [
+        "Heteranthera rotundifolia"
+      ],
+      "pt": [
+        "Heteranthera rotundifolia"
+      ],
+      "ru": [
+        "Heteranthera rotundifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -393,12 +513,12 @@
     "family": "Pontederiaceae",
     "genus": "Pontederia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/BB40105_Eichornia_fullsize.jpg",
-    "description": "The fruit is oblong and 3-celled with one seed that has toothed ridges. Displays from June to November.",
+    "description": "Pontederia azurea is a water hyacinth from the Americas, sometimes known as anchored water hyacinth. It is the type species of Pontederia subg. Eichhornia, which was previously recognized as part of the polyphyletic genus Eichhornia. It is of some interest as an aquarium plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -409,9 +529,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pontederia_azurea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -475,9 +595,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pontederia azurea"
+      ],
+      "en": [
+        "Pontederia azurea"
+      ],
+      "es": [
+        "Pontederia azurea"
+      ],
+      "fr": [
+        "Pontederia azurea"
+      ],
+      "it": [
+        "Pontederia azurea"
+      ],
+      "nl": [
+        "Pontederia azurea"
+      ],
+      "pl": [
+        "Pontederia azurea"
+      ],
+      "pt": [
+        "Pontederia azurea"
+      ],
+      "ru": [
+        "Pontederia azurea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -487,7 +637,7 @@
     "family": "Pontederiaceae",
     "genus": "Pontederia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -503,9 +653,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pontederia_cordata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -569,11 +719,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Herzblättriges Hechtkraut"
+      ],
       "en": [
-        "Pickerel-weed"
+        "Pickerel-weed",
+        "Pontederia cordata"
+      ],
+      "es": [
+        "Pontederia cordata"
+      ],
+      "fr": [
+        "Pontédérie à feuilles en cœur"
+      ],
+      "it": [
+        "Pontederia cordata"
+      ],
+      "ja": [
+        "ポンテデリア・コルダータ"
+      ],
+      "nl": [
+        "Moerashyacint"
+      ],
+      "pl": [
+        "Pontederia cordata"
+      ],
+      "pt": [
+        "Pontederia cordata"
+      ],
+      "ru": [
+        "Pontederia cordata"
+      ],
+      "zh": [
+        "梭鱼草"
       ]
     },
     "tags": [],
@@ -585,7 +768,7 @@
     "family": "Pontederiaceae",
     "genus": "Pontederia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -601,9 +784,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pontederia_crassipes",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -667,9 +850,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pontederia crassipes"
+      ],
+      "en": [
+        "Pontederia crassipes"
+      ],
+      "es": [
+        "Pontederia crassipes"
+      ],
+      "fr": [
+        "Pontederia crassipes"
+      ],
+      "it": [
+        "Pontederia crassipes"
+      ],
+      "nl": [
+        "Pontederia crassipes"
+      ],
+      "pl": [
+        "Pontederia crassipes"
+      ],
+      "pt": [
+        "Pontederia crassipes"
+      ],
+      "ru": [
+        "Pontederia crassipes"
+      ],
+      "zh": [
+        "凤眼蓝"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -679,12 +895,12 @@
     "family": "Pontederiaceae",
     "genus": "Pontederia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7cdb7484902e92f149109d4e0fbfae36.jpg",
-    "description": "The fruit is oblong and 3-celled with one seed that has toothed ridges. Displays from June to November.",
+    "description": "Pontederia sagittata is a species of aquatic plant belonging to the family Pontederiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -695,9 +911,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pontederia_sagittata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -761,9 +977,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pontederia sagittata"
+      ],
+      "en": [
+        "Pontederia sagittata"
+      ],
+      "es": [
+        "Pontederia sagittata"
+      ],
+      "fr": [
+        "Pontederia sagittata"
+      ],
+      "it": [
+        "Pontederia sagittata"
+      ],
+      "nl": [
+        "Pontederia sagittata"
+      ],
+      "pl": [
+        "Pontederia sagittata"
+      ],
+      "pt": [
+        "Pontederia sagittata"
+      ],
+      "ru": [
+        "Pontederia sagittata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -773,12 +1019,12 @@
     "family": "Pontederiaceae",
     "genus": "Pontederia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/37ac3351cd38ed244156ea1f203ffb69.jpg",
-    "description": "The fruit is oblong and 3-celled with one seed that has toothed ridges. Displays from June to November.",
+    "description": "Monochoria vaginalis is a species of flowering plant in the water hyacinth family known by several common names, including heartshape false pickerelweed and oval-leafed pondweed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -789,9 +1035,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pontederia_vaginalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -855,7 +1101,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {},
     "tags": [],

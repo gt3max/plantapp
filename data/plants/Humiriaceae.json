@@ -5,7 +5,7 @@
     "family": "Humiriaceae",
     "genus": "Humiria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Humiria balsamifera"
+      ],
+      "en": [
+        "Humiria balsamifera"
+      ],
+      "es": [
+        "Humiria balsamifera"
+      ],
+      "fr": [
+        "Humiria balsamifera"
+      ],
+      "it": [
+        "Humiria balsamifera"
+      ],
+      "nl": [
+        "Humiria balsamifera"
+      ],
+      "pl": [
+        "Humiria balsamifera"
+      ],
+      "pt": [
+        "Humiria balsamifera"
+      ],
+      "ru": [
+        "Humiria balsamifera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Humiriaceae",
     "genus": "Sacoglottis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sacoglottis guianensis"
+      ],
+      "en": [
+        "Sacoglottis guianensis"
+      ],
+      "es": [
+        "Sacoglottis guianensis"
+      ],
+      "fr": [
+        "Sacoglottis guianensis"
+      ],
+      "it": [
+        "Sacoglottis guianensis"
+      ],
+      "nl": [
+        "Sacoglottis guianensis"
+      ],
+      "pl": [
+        "Sacoglottis guianensis"
+      ],
+      "pt": [
+        "Sacoglottis guianensis"
+      ],
+      "ru": [
+        "Sacoglottis guianensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +253,7 @@
     "family": "Humiriaceae",
     "genus": "Sacoglottis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sacoglottis mattogrossensis"
+      ],
+      "en": [
+        "Sacoglottis mattogrossensis"
+      ],
+      "es": [
+        "Sacoglottis mattogrossensis"
+      ],
+      "fr": [
+        "Sacoglottis mattogrossensis"
+      ],
+      "it": [
+        "Sacoglottis mattogrossensis"
+      ],
+      "nl": [
+        "Sacoglottis mattogrossensis"
+      ],
+      "pl": [
+        "Sacoglottis mattogrossensis"
+      ],
+      "pt": [
+        "Sacoglottis mattogrossensis"
+      ],
+      "ru": [
+        "Sacoglottis mattogrossensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

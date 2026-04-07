@@ -5,12 +5,12 @@
     "family": "Petalophyllaceae",
     "genus": "Petalophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Petalophyllum ralfsii, commonly known as petalwort, is a species of liverwort in the order Fossombroniales. It is a small green bryophyte that occurs in the Mediterranean region as far east as Turkey, and along the Atlantic coast of Europe as far as north-western Scotland. It grows primarily on moist sand dunes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Petalophyllum ralfsii"
+      ],
+      "en": [
+        "Petalophyllum ralfsii"
+      ],
+      "es": [
+        "Petalophyllum ralfsii"
+      ],
+      "fr": [
+        "Petalophyllum ralfsii"
+      ],
+      "it": [
+        "Petalophyllum ralfsii"
+      ],
+      "nl": [
+        "Petalophyllum ralfsii"
+      ],
+      "pl": [
+        "Petalophyllum ralfsii"
+      ],
+      "pt": [
+        "Petalophyllum ralfsii"
+      ],
+      "ru": [
+        "Petalophyllum ralfsii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

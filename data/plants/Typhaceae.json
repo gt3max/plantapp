@@ -5,12 +5,12 @@
     "family": "Typhaceae",
     "genus": "Sparganium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7cb3a33858fa492567cbbbd9fbc502a4f32feacd",
-    "description": null,
+    "description": "Sparganium americanum, American bur-reed, is a perennial plant found in the United States of America and Canada. Though this species resembles a grass, it is a type of bur-reed. This species is important for conservation purposes because it has the ability to remove nitrogen and phosphorus runoff from water, like many other wetland species. By doing this, it protects waterways from excess nitrogen which can cause eutrophication.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sparganium_americanum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "إسبارغانيون أمريكي"
+      ],
+      "de": [
+        "Sparganium americanum"
+      ],
       "en": [
-        "American bur-reed"
+        "American bur-reed",
+        "Sparganium americanum"
+      ],
+      "es": [
+        "Sparganium americanum"
+      ],
+      "fr": [
+        "Sparganium americanum"
+      ],
+      "it": [
+        "Sparganium americanum"
+      ],
+      "nl": [
+        "Sparganium americanum"
+      ],
+      "pl": [
+        "Sparganium americanum"
+      ],
+      "pt": [
+        "Sparganium americanum"
+      ],
+      "ru": [
+        "Sparganium americanum"
       ]
     },
     "tags": [],
@@ -103,7 +133,7 @@
     "family": "Typhaceae",
     "genus": "Sparganium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +149,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sparganium_angustifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,11 +215,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Sparganium angustifolium"
+      ],
       "en": [
-        "Floating bur-reed"
+        "Floating bur-reed",
+        "Sparganium angustifolium"
+      ],
+      "es": [
+        "Sparganium angustifolium"
+      ],
+      "fr": [
+        "Sparganium angustifolium"
+      ],
+      "it": [
+        "Sparganium angustifolium"
+      ],
+      "ja": [
+        "ホソバウキミクリ"
+      ],
+      "nl": [
+        "Drijvende egelskop"
+      ],
+      "pl": [
+        "jeżogłówka pokrewna"
+      ],
+      "pt": [
+        "Sparganium angustifolium"
+      ],
+      "ru": [
+        "Ежеголовник узколистный"
+      ],
+      "zh": [
+        "线叶黑三棱"
       ]
     },
     "tags": [],
@@ -201,7 +264,7 @@
     "family": "Typhaceae",
     "genus": "Sparganium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -217,17 +280,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sparganium_emersum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -283,11 +346,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "إسبارغانيون مكشوط"
+      ],
+      "de": [
+        "Einfacher Igelkolben"
+      ],
       "en": [
-        "European bur-reed"
+        "European bur-reed",
+        "Sparganium emersum"
+      ],
+      "es": [
+        "Sparganium emersum"
+      ],
+      "fr": [
+        "Sparganium emersum"
+      ],
+      "it": [
+        "Sparganium emersum"
+      ],
+      "ja": [
+        "エゾミクリ"
+      ],
+      "nl": [
+        "Kleine egelskop"
+      ],
+      "pl": [
+        "jeżogłówka pojedyncza"
+      ],
+      "pt": [
+        "Sparganium emersum"
+      ],
+      "ru": [
+        "Ежеголовник всплывающий"
+      ],
+      "zh": [
+        "小黑三棱"
       ]
     },
     "tags": [],
@@ -299,7 +398,7 @@
     "family": "Typhaceae",
     "genus": "Sparganium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -315,17 +414,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sparganium_erectum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -381,11 +480,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "إسبارغانيون قائم"
+      ],
+      "de": [
+        "Ästiger Igelkolben"
+      ],
       "en": [
-        "Branched bur-reed"
+        "Branched bur-reed",
+        "Sparganium erectum"
+      ],
+      "es": [
+        "Sparganium erectum"
+      ],
+      "fr": [
+        "Rubanier d'eau"
+      ],
+      "it": [
+        "Sparganium erectum"
+      ],
+      "ja": [
+        "ミクリ"
+      ],
+      "ko": [
+        "흑삼릉"
+      ],
+      "nl": [
+        "Grote egelskop"
+      ],
+      "pl": [
+        "Jeżogłówka gałęzista"
+      ],
+      "pt": [
+        "Sparganium erectum"
+      ],
+      "ru": [
+        "ежеголовник прямой"
+      ],
+      "zh": [
+        "直立黑三棱"
       ]
     },
     "tags": [],
@@ -397,7 +535,7 @@
     "family": "Typhaceae",
     "genus": "Sparganium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -413,17 +551,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sparganium_eurycarpum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -479,11 +617,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "إسبارغانيون عريض الثمر"
+      ],
+      "de": [
+        "Sparganium eurycarpum"
+      ],
       "en": [
-        "Broadfruit bur-reed"
+        "Broadfruit bur-reed",
+        "Sparganium eurycarpum"
+      ],
+      "es": [
+        "Sparganium eurycarpum"
+      ],
+      "fr": [
+        "Sparganium eurycarpum"
+      ],
+      "it": [
+        "Sparganium eurycarpum"
+      ],
+      "nl": [
+        "Sparganium eurycarpum"
+      ],
+      "pl": [
+        "Sparganium eurycarpum"
+      ],
+      "pt": [
+        "Sparganium eurycarpum"
+      ],
+      "ru": [
+        "Sparganium eurycarpum"
       ]
     },
     "tags": [],
@@ -495,7 +663,7 @@
     "family": "Typhaceae",
     "genus": "Sparganium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -511,17 +679,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sparganium_glomeratum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -577,9 +745,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sparganium glomeratum"
+      ],
+      "en": [
+        "Sparganium glomeratum"
+      ],
+      "es": [
+        "Sparganium glomeratum"
+      ],
+      "fr": [
+        "Sparganium glomeratum"
+      ],
+      "it": [
+        "Sparganium glomeratum"
+      ],
+      "ja": [
+        "タマミクリ"
+      ],
+      "nl": [
+        "Sparganium glomeratum"
+      ],
+      "pl": [
+        "Sparganium glomeratum"
+      ],
+      "pt": [
+        "Sparganium glomeratum"
+      ],
+      "ru": [
+        "Ежеголовник скученный"
+      ],
+      "zh": [
+        "短序黑三棱"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -589,12 +793,12 @@
     "family": "Typhaceae",
     "genus": "Sparganium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Sparganium gramineum is a species of flowering plant belonging to the family Typhaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -605,17 +809,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sparganium_gramineum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -671,9 +875,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sparganium gramineum"
+      ],
+      "en": [
+        "Sparganium gramineum"
+      ],
+      "es": [
+        "Sparganium gramineum"
+      ],
+      "fr": [
+        "Sparganium gramineum"
+      ],
+      "it": [
+        "Sparganium gramineum"
+      ],
+      "nl": [
+        "Sparganium gramineum"
+      ],
+      "pl": [
+        "Sparganium gramineum"
+      ],
+      "pt": [
+        "Sparganium gramineum"
+      ],
+      "ru": [
+        "Ежеголовник злаковый"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -683,7 +917,7 @@
     "family": "Typhaceae",
     "genus": "Sparganium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -699,17 +933,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sparganium_hyperboreum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -765,9 +999,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sparganium hyperboreum"
+      ],
+      "en": [
+        "Sparganium hyperboreum"
+      ],
+      "es": [
+        "Sparganium hyperboreum"
+      ],
+      "fr": [
+        "Sparganium hyperboreum"
+      ],
+      "it": [
+        "Sparganium hyperboreum"
+      ],
+      "nl": [
+        "Sparganium hyperboreum"
+      ],
+      "pl": [
+        "Sparganium hyperboreum"
+      ],
+      "pt": [
+        "Sparganium hyperboreum"
+      ],
+      "ru": [
+        "Sparganium hyperboreum"
+      ],
+      "zh": [
+        "无柱黑三棱"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -777,7 +1044,7 @@
     "family": "Typhaceae",
     "genus": "Sparganium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -793,17 +1060,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sparganium_natans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -859,11 +1126,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.4
     },
     "common_names": {
+      "de": [
+        "Zwerg-Igelkolben"
+      ],
       "en": [
-        "Small bur-reed"
+        "Small bur-reed",
+        "Sparganium natans"
+      ],
+      "es": [
+        "Sparganium natans"
+      ],
+      "fr": [
+        "Sparganium natans"
+      ],
+      "it": [
+        "Sparganium natans"
+      ],
+      "ja": [
+        "ヒナミクリ"
+      ],
+      "nl": [
+        "Kleinste egelskop"
+      ],
+      "pl": [
+        "jeżogłówka najmniejsza"
+      ],
+      "pt": [
+        "Sparganium natans"
+      ],
+      "ru": [
+        "Ежеголовник плавающий"
+      ],
+      "zh": [
+        "矮黑三棱"
       ]
     },
     "tags": [],
@@ -875,7 +1175,7 @@
     "family": "Typhaceae",
     "genus": "Typha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -891,17 +1191,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "typha_angustifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -957,11 +1257,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Schmalblättriger Rohrkolben"
+      ],
       "en": [
-        "Narrow-leaf cattail"
+        "Narrow-leaf cattail",
+        "Typha angustifolia"
+      ],
+      "es": [
+        "Typha angustifolia"
+      ],
+      "fr": [
+        "Massette à feuilles étroites"
+      ],
+      "it": [
+        "Typha angustifolia"
+      ],
+      "ja": [
+        "ホソバヒメガマ"
+      ],
+      "nl": [
+        "Kleine lisdodde"
+      ],
+      "pl": [
+        "pałka wąskolistna"
+      ],
+      "pt": [
+        "Typha angustifolia"
+      ],
+      "ru": [
+        "рогоз узколистный"
+      ],
+      "zh": [
+        "狭叶香蒲"
       ]
     },
     "tags": [],
@@ -973,7 +1306,7 @@
     "family": "Typhaceae",
     "genus": "Typha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -989,17 +1322,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "typha_domingensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1055,11 +1388,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "ar": [
+        "بوط دمياطي"
+      ],
+      "de": [
+        "Typha domingensis"
+      ],
       "en": [
-        "Narrow-leaf cumbungi"
+        "Narrow-leaf cumbungi",
+        "Typha domingensis"
+      ],
+      "es": [
+        "Typha domingensis"
+      ],
+      "fr": [
+        "Typha domingensis"
+      ],
+      "it": [
+        "Typha domingensis"
+      ],
+      "ja": [
+        "ヒメガマ"
+      ],
+      "nl": [
+        "Typha domingensis"
+      ],
+      "pl": [
+        "Pałka południowa"
+      ],
+      "pt": [
+        "Taboa"
+      ],
+      "ru": [
+        "Typha domingensis"
+      ],
+      "zh": [
+        "长苞香蒲"
       ]
     },
     "tags": [],
@@ -1071,7 +1440,7 @@
     "family": "Typhaceae",
     "genus": "Typha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1087,17 +1456,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "typha_latifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1153,11 +1522,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "ar": [
+        "بوط عريض الأوراق"
+      ],
+      "de": [
+        "Breitblättriger Rohrkolben"
+      ],
       "en": [
-        "Cooper's-reed"
+        "Cooper's-reed",
+        "Typha latifolia"
+      ],
+      "es": [
+        "Typha latifolia"
+      ],
+      "fr": [
+        "Massette à larges feuilles"
+      ],
+      "it": [
+        "Typha latifolia"
+      ],
+      "ja": [
+        "ガマ"
+      ],
+      "ko": [
+        "큰부들"
+      ],
+      "nl": [
+        "Grote lisdodde"
+      ],
+      "pl": [
+        "Pałka szerokolistna"
+      ],
+      "pt": [
+        "Typha latifolia"
+      ],
+      "ru": [
+        "рогоз широколистный"
+      ],
+      "zh": [
+        "宽叶香蒲"
       ]
     },
     "tags": [],
@@ -1169,7 +1577,7 @@
     "family": "Typhaceae",
     "genus": "Typha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1185,9 +1593,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "typha_laxmannii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1251,11 +1659,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Laxmanns Rohrkolben"
+      ],
       "en": [
-        "Graceful cattail"
+        "Graceful cattail",
+        "Typha laxmannii"
+      ],
+      "es": [
+        "Typha laxmannii"
+      ],
+      "fr": [
+        "Typha laxmannii"
+      ],
+      "it": [
+        "Typha laxmannii"
+      ],
+      "ja": [
+        "モウコガマ"
+      ],
+      "nl": [
+        "Typha laxmannii"
+      ],
+      "pl": [
+        "Typha laxmannii"
+      ],
+      "pt": [
+        "Typha laxmannii"
+      ],
+      "ru": [
+        "рогоз Лаксмана"
+      ],
+      "zh": [
+        "无苞香蒲"
       ]
     },
     "tags": [],
@@ -1267,7 +1708,7 @@
     "family": "Typhaceae",
     "genus": "Typha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1283,17 +1724,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "typha_minima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1349,11 +1790,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Zwerg-Rohrkolben"
+      ],
       "en": [
-        "Dwarf bulrush"
+        "Dwarf bulrush",
+        "Typha minima"
+      ],
+      "es": [
+        "Typha minima"
+      ],
+      "fr": [
+        "Typha minima"
+      ],
+      "it": [
+        "Typha minima"
+      ],
+      "ja": [
+        "チャボガマ"
+      ],
+      "nl": [
+        "Typha minima"
+      ],
+      "pl": [
+        "pałka drobna"
+      ],
+      "pt": [
+        "Typha minima"
+      ],
+      "ru": [
+        "Typha minima"
+      ],
+      "zh": [
+        "小香蒲"
       ]
     },
     "tags": [],
@@ -1365,7 +1839,7 @@
     "family": "Typhaceae",
     "genus": "Typha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1381,17 +1855,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "typha_orientalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1447,9 +1921,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 8.1
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Typha orientalis"
+      ],
+      "en": [
+        "Typha orientalis"
+      ],
+      "es": [
+        "Typha orientalis"
+      ],
+      "fr": [
+        "Typha orientalis"
+      ],
+      "it": [
+        "Typha orientalis"
+      ],
+      "ko": [
+        "부들"
+      ],
+      "nl": [
+        "Typha orientalis"
+      ],
+      "pl": [
+        "Typha orientalis"
+      ],
+      "pt": [
+        "Typha orientalis"
+      ],
+      "ru": [
+        "Typha orientalis"
+      ],
+      "zh": [
+        "香蒲"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1459,7 +1969,7 @@
     "family": "Typhaceae",
     "genus": "Typha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1475,9 +1985,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "typha_shuttleworthii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1541,9 +2051,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Typha shuttleworthii"
+      ],
+      "en": [
+        "Typha shuttleworthii"
+      ],
+      "es": [
+        "Typha shuttleworthii"
+      ],
+      "fr": [
+        "Typha shuttleworthii"
+      ],
+      "it": [
+        "Typha shuttleworthii"
+      ],
+      "nl": [
+        "Typha shuttleworthii"
+      ],
+      "pl": [
+        "Typha shuttleworthii"
+      ],
+      "pt": [
+        "Typha shuttleworthii"
+      ],
+      "ru": [
+        "Typha shuttleworthii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

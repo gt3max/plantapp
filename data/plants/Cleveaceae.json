@@ -5,7 +5,7 @@
     "family": "Cleveaceae",
     "genus": "Clevea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Clevea hyalina"
+      ],
+      "en": [
+        "Clevea hyalina"
+      ],
+      "es": [
+        "Clevea hyalina"
+      ],
+      "fr": [
+        "Clevea hyalina"
+      ],
+      "it": [
+        "Clevea hyalina"
+      ],
+      "nl": [
+        "Clevea hyalina"
+      ],
+      "pl": [
+        "Clevea hyalina"
+      ],
+      "pt": [
+        "Clevea hyalina"
+      ],
+      "ru": [
+        "Clevea hyalina"
+      ],
+      "zh": [
+        "克氏苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Cleveaceae",
     "genus": "Sauteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sauteria alpina"
+      ],
+      "en": [
+        "Sauteria alpina"
+      ],
+      "es": [
+        "Sauteria alpina"
+      ],
+      "fr": [
+        "Sauteria alpina"
+      ],
+      "it": [
+        "Sauteria alpina"
+      ],
+      "nl": [
+        "Sauteria alpina"
+      ],
+      "pl": [
+        "Sauteria alpina"
+      ],
+      "pt": [
+        "Sauteria alpina"
+      ],
+      "ru": [
+        "Sauteria alpina"
+      ],
+      "zh": [
+        "星孔苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

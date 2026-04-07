@@ -5,12 +5,12 @@
     "family": "Philydraceae",
     "genus": "Philydrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4616641a7b92f8c50f85f631eea38f60.jpg",
-    "description": null,
+    "description": "Philydrum is a genus of tufted, herbaceous, aquatic macrophyte plants, one of three genera constituting the plant family Philydraceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Philydrum lanuginosum"
+      ],
+      "en": [
+        "Philydrum lanuginosum"
+      ],
+      "es": [
+        "Philydrum lanuginosum"
+      ],
+      "fr": [
+        "Philydrum lanuginosum"
+      ],
+      "it": [
+        "Philydrum lanuginosum"
+      ],
+      "ja": [
+        "タヌキアヤメ"
+      ],
+      "nl": [
+        "Philydrum lanuginosum"
+      ],
+      "pl": [
+        "Philydrum lanuginosum"
+      ],
+      "pt": [
+        "Philydrum lanuginosum"
+      ],
+      "ru": [
+        "Philydrum lanuginosum"
+      ],
+      "zh": [
+        "田葱"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

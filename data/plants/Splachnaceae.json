@@ -5,12 +5,12 @@
     "family": "Splachnaceae",
     "genus": "Aplodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Aplodon is a monotypic genus of mosses belonging to the family Splachnaceae. The only species is Aplodon wormskioldii.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aplodon wormskioldii"
+      ],
+      "en": [
+        "Aplodon wormskioldii"
+      ],
+      "es": [
+        "Aplodon wormskioldii"
+      ],
+      "fr": [
+        "Aplodon wormskioldii"
+      ],
+      "it": [
+        "Aplodon wormskioldii"
+      ],
+      "nl": [
+        "Aplodon wormskioldii"
+      ],
+      "pl": [
+        "Aplodon wormskioldii"
+      ],
+      "pt": [
+        "Aplodon wormskioldii"
+      ],
+      "ru": [
+        "Aplodon wormskioldii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Splachnaceae",
     "genus": "Splachnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "إسبلكنون دورقي"
+      ],
+      "de": [
+        "Splachnum ampullaceum"
+      ],
+      "en": [
+        "Splachnum ampullaceum"
+      ],
+      "es": [
+        "Splachnum ampullaceum"
+      ],
+      "fr": [
+        "Splachnum ampullaceum"
+      ],
+      "it": [
+        "Splachnum ampullaceum"
+      ],
+      "nl": [
+        "Splachnum ampullaceum"
+      ],
+      "pl": [
+        "Podsadnik pęcherzykowaty"
+      ],
+      "pt": [
+        "Splachnum ampullaceum"
+      ],
+      "ru": [
+        "Splachnum ampullaceum"
+      ],
+      "zh": [
+        "大壶藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +259,7 @@
     "family": "Splachnaceae",
     "genus": "Splachnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +341,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "إسبلكنون أصفر"
+      ],
+      "de": [
+        "Splachnum luteum"
+      ],
+      "en": [
+        "Splachnum luteum"
+      ],
+      "es": [
+        "Splachnum luteum"
+      ],
+      "fr": [
+        "Splachnum luteum"
+      ],
+      "it": [
+        "Splachnum luteum"
+      ],
+      "nl": [
+        "Splachnum luteum"
+      ],
+      "pl": [
+        "Splachnum luteum"
+      ],
+      "pt": [
+        "Splachnum luteum"
+      ],
+      "ru": [
+        "Splachnum luteum"
+      ],
+      "zh": [
+        "黄壶藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +389,7 @@
     "family": "Splachnaceae",
     "genus": "Splachnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +471,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "إسبلكنون كروي"
+      ],
+      "de": [
+        "Kugelfrüchtiges Schirmmoos"
+      ],
+      "en": [
+        "Splachnum sphaericum"
+      ],
+      "es": [
+        "Splachnum sphaericum"
+      ],
+      "fr": [
+        "Splachnum sphaericum"
+      ],
+      "it": [
+        "Splachnum sphaericum"
+      ],
+      "nl": [
+        "Splachnum sphaericum"
+      ],
+      "pl": [
+        "Podsadnik kulisty"
+      ],
+      "pt": [
+        "Splachnum sphaericum"
+      ],
+      "ru": [
+        "Splachnum sphaericum"
+      ],
+      "zh": [
+        "卵叶壶藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,7 +519,7 @@
     "family": "Splachnaceae",
     "genus": "Splachnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -463,9 +601,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "إسبلكنون وعائي"
+      ],
+      "de": [
+        "Splachnum vasculosum"
+      ],
+      "en": [
+        "Splachnum vasculosum"
+      ],
+      "es": [
+        "Splachnum vasculosum"
+      ],
+      "fr": [
+        "Splachnum vasculosum"
+      ],
+      "it": [
+        "Splachnum vasculosum"
+      ],
+      "nl": [
+        "Splachnum vasculosum"
+      ],
+      "pl": [
+        "Splachnum vasculosum"
+      ],
+      "pt": [
+        "Splachnum vasculosum"
+      ],
+      "ru": [
+        "Splachnum vasculosum"
+      ],
+      "zh": [
+        "壶藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -475,7 +649,7 @@
     "family": "Splachnaceae",
     "genus": "Tetraplodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -557,9 +731,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tetraplodon angustatus"
+      ],
+      "en": [
+        "Tetraplodon angustatus"
+      ],
+      "es": [
+        "Tetraplodon angustatus"
+      ],
+      "fr": [
+        "Tetraplodon angustatus"
+      ],
+      "it": [
+        "Tetraplodon angustatus"
+      ],
+      "nl": [
+        "Tetraplodon angustatus"
+      ],
+      "pl": [
+        "Tetraplodon angustatus"
+      ],
+      "pt": [
+        "Tetraplodon angustatus"
+      ],
+      "ru": [
+        "Tetraplodon angustatus"
+      ],
+      "zh": [
+        "狭叶并齿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -569,7 +776,7 @@
     "family": "Splachnaceae",
     "genus": "Tetraplodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -651,9 +858,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tetraplodon mnioides"
+      ],
+      "en": [
+        "Tetraplodon mnioides"
+      ],
+      "es": [
+        "Tetraplodon mnioides"
+      ],
+      "fr": [
+        "Tetraplodon mnioides"
+      ],
+      "it": [
+        "Tetraplodon mnioides"
+      ],
+      "nl": [
+        "Tetraplodon mnioides"
+      ],
+      "pl": [
+        "Tetraplodon mnioides"
+      ],
+      "pt": [
+        "Tetraplodon mnioides"
+      ],
+      "ru": [
+        "Tetraplodon mnioides"
+      ],
+      "zh": [
+        "並齒蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

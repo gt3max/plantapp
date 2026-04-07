@@ -5,7 +5,7 @@
     "family": "Fossombroniaceae",
     "genus": "Fossombronia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fossombronia angulosa"
+      ],
+      "en": [
+        "Greater Frillwort"
+      ],
+      "es": [
+        "Fossombronia angulosa"
+      ],
+      "fr": [
+        "Fossombronia angulosa"
+      ],
+      "it": [
+        "Fossombronia angulosa"
+      ],
+      "nl": [
+        "Greater Frillwort"
+      ],
+      "pl": [
+        "Fossombronia angulosa"
+      ],
+      "pt": [
+        "Fossombronia angulosa"
+      ],
+      "ru": [
+        "Fossombronia angulosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Fossombroniaceae",
     "genus": "Fossombronia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fossombronia caespitiformis"
+      ],
+      "en": [
+        "Fossombronia caespitiformis"
+      ],
+      "es": [
+        "Fossombronia caespitiformis"
+      ],
+      "fr": [
+        "Fossombronia caespitiformis"
+      ],
+      "it": [
+        "Fossombronia caespitiformis"
+      ],
+      "nl": [
+        "Fossombronia caespitiformis"
+      ],
+      "pl": [
+        "Fossombronia caespitiformis"
+      ],
+      "pt": [
+        "Fossombronia caespitiformis"
+      ],
+      "ru": [
+        "Fossombronia caespitiformis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +253,12 @@
     "family": "Fossombroniaceae",
     "genus": "Fossombronia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Fossombronia foveolata is a species of liverwort belonging to the family Fossombroniaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fossombronia foveolata"
+      ],
+      "en": [
+        "Fossombronia foveolata"
+      ],
+      "es": [
+        "Fossombronia foveolata"
+      ],
+      "fr": [
+        "Fossombronia foveolata"
+      ],
+      "it": [
+        "Fossombronia foveolata"
+      ],
+      "nl": [
+        "Fossombronia foveolata"
+      ],
+      "pl": [
+        "Fossombronia foveolata"
+      ],
+      "pt": [
+        "Fossombronia foveolata"
+      ],
+      "ru": [
+        "Fossombronia foveolata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +377,7 @@
     "family": "Fossombroniaceae",
     "genus": "Fossombronia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +459,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fossombronia pusilla"
+      ],
+      "en": [
+        "Fossombronia pusilla"
+      ],
+      "es": [
+        "Fossombronia pusilla"
+      ],
+      "fr": [
+        "Fossombronia pusilla"
+      ],
+      "it": [
+        "Fossombronia pusilla"
+      ],
+      "nl": [
+        "Fossombronia pusilla"
+      ],
+      "pl": [
+        "Fossombronia pusilla"
+      ],
+      "pt": [
+        "Fossombronia pusilla"
+      ],
+      "ru": [
+        "Fossombronia pusilla"
+      ],
+      "zh": [
+        "小叶苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,12 +504,12 @@
     "family": "Fossombroniaceae",
     "genus": "Fossombronia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Fossombronia_wondraczekii_158835306.jpg",
+    "description": "Fossombronia wondraczekii is a species of liverwort belonging to the family Fossombroniaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -463,9 +586,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fossombronia wondraczekii"
+      ],
+      "en": [
+        "Fossombronia wondraczekii"
+      ],
+      "es": [
+        "Fossombronia wondraczekii"
+      ],
+      "fr": [
+        "Fossombronia wondraczekii"
+      ],
+      "it": [
+        "Fossombronia wondraczekii"
+      ],
+      "nl": [
+        "Fossombronia wondraczekii"
+      ],
+      "pl": [
+        "Fossombronia wondraczekii"
+      ],
+      "pt": [
+        "Fossombronia wondraczekii"
+      ],
+      "ru": [
+        "Fossombronia wondraczekii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

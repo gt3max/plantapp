@@ -5,7 +5,7 @@
     "family": "Archidiaceae",
     "genus": "Archidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Archidium alternifolium"
+      ],
+      "en": [
+        "Archidium alternifolium"
+      ],
+      "es": [
+        "Archidium alternifolium"
+      ],
+      "fr": [
+        "Archidium alternifolium"
+      ],
+      "it": [
+        "Archidium alternifolium"
+      ],
+      "nl": [
+        "Archidium alternifolium"
+      ],
+      "pl": [
+        "pierwomszak naprzemianlistny"
+      ],
+      "pt": [
+        "Archidium alternifolium"
+      ],
+      "ru": [
+        "Archidium alternifolium"
+      ],
+      "zh": [
+        "无轴藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,7 +5,7 @@
     "family": "Juglandaceae",
     "genus": "Carya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -95,11 +95,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bitternuss"
+      ],
       "en": [
-        "Bitternut"
+        "Bitternut",
+        "Carya cordiformis"
+      ],
+      "es": [
+        "Carya cordiformis"
+      ],
+      "fr": [
+        "Caryer cordiforme"
+      ],
+      "it": [
+        "Carya cordiformis"
+      ],
+      "nl": [
+        "Carya cordiformis"
+      ],
+      "pl": [
+        "Orzesznik gorzki"
+      ],
+      "pt": [
+        "Carya cordiformis"
+      ],
+      "ru": [
+        "Кария сердцевидная"
+      ],
+      "zh": [
+        "心葉山核桃"
       ]
     },
     "tags": [],
@@ -111,12 +141,12 @@
     "family": "Juglandaceae",
     "genus": "Carya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dac69da24c5cdb360131d6c501f240df701d199b",
-    "description": "The fruit is an oval 4-parted husk 1 inch long and ¾ inches across, green maturing to brown. It splits in fall to release the nut. The nutshell is tan, oval and slightly flattened containing edible meats. Displays in October.",
+    "description": "Carya glabra, the pignut hickory, is a common, but not abundant species of hickory in the oak-hickory forest association in the Eastern United States and Canada. Other common names are pignut, sweet pignut, coast pignut hickory, smoothbark hickory, swamp hickory, and broom hickory. The pear-shaped nut ripens in September and October, has a sweet maple like smell, and is an important part of the diet of many wild animals.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -201,11 +231,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ferkelnuss"
+      ],
       "en": [
+        "Carya glabra",
         "Pignut hickory"
+      ],
+      "es": [
+        "Carya glabra"
+      ],
+      "fr": [
+        "Caryer glabre"
+      ],
+      "it": [
+        "Carya glabra"
+      ],
+      "nl": [
+        "Carya glabra"
+      ],
+      "pl": [
+        "Orzesznik nagi"
+      ],
+      "pt": [
+        "Carya glabra"
+      ],
+      "ru": [
+        "Кария голая"
       ]
     },
     "tags": [],
@@ -217,12 +274,12 @@
     "family": "Juglandaceae",
     "genus": "Carya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/34a47d15e389d8eb0b6c0a1bdc31af040b692470",
-    "description": "Sweet edible nuts with a husk that splits into four sections when they ripen in the fall.  Husk begins green and dries to brown. The nut is oval to round, 1-3  long, tan to brown with darker streaking. Wind pollinated.",
+    "description": "The pecan is a species of hickory native to the Southern United States and northern Mexico in the region of the Mississippi River.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -303,11 +360,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بقان"
+      ],
+      "de": [
+        "Pekannuss"
+      ],
       "en": [
+        "Carya illinoinensis",
         "Nogal morado"
+      ],
+      "es": [
+        "Carya illinoinensis"
+      ],
+      "fr": [
+        "Pacanier"
+      ],
+      "it": [
+        "Carya illinoinensis"
+      ],
+      "ja": [
+        "ペカン"
+      ],
+      "ko": [
+        "피칸"
+      ],
+      "nl": [
+        "pecannoot"
+      ],
+      "pl": [
+        "orzesznik jadalny"
+      ],
+      "pt": [
+        "Nogueira-pecã"
+      ],
+      "ru": [
+        "Пекан обыкновенный"
+      ],
+      "tr": [
+        "Pekan cevizi"
+      ],
+      "zh": [
+        "长山核桃"
       ]
     },
     "tags": [],
@@ -319,12 +418,12 @@
     "family": "Juglandaceae",
     "genus": "Carya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/53bf9bca7eed6e11ec568015db2559aab579031a",
-    "description": "The round fruit is a 4 parted husk that is  1½-2  long and wide. It is green maturing to deep brown and splits open when the nut is mature.  The nut of each fruit is light tan, oval, and somewhat compressed. The meat is edible and sweet. Displays in October.",
+    "description": "Carya ovata, the shagbark hickory, is a common hickory native to eastern North America, with two varieties. The trees can grow to quite a large size but are unreliable in their fruit output. The nut is consumed by wildlife and historically by Native Americans, who also used the wood.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -401,11 +500,38 @@
       "germination_temp_c": null,
       "good_companions": "[\"Loblolly Pine\", \"Red Oak\", \"Sugar maple\", \"White Oak\", \"White Pine\"]",
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Carya ovata"
+      ],
       "en": [
+        "Carya ovata",
         "Shagbark hickory"
+      ],
+      "es": [
+        "Carya ovata"
+      ],
+      "fr": [
+        "Caryer ovale"
+      ],
+      "it": [
+        "Carya ovata"
+      ],
+      "nl": [
+        "Carya ovata"
+      ],
+      "pl": [
+        "Orzesznik pięciolistkowy"
+      ],
+      "pt": [
+        "Carya ovata"
+      ],
+      "ru": [
+        "Кария яйцевидная"
       ]
     },
     "tags": [],
@@ -417,12 +543,12 @@
     "family": "Juglandaceae",
     "genus": "Carya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d03aa375e3c1fa9e808219b9cf52776a65d3c96b",
-    "description": "Pear-shaped to round nut 3/4 to 1 1/2 inches wide, yellow when young, dark brown when mature in early fall. Rather thin-shelled, the seed is small and sweet and ripens in late autumn. When stored in its shell in a cool place, will keep for at least 6 months.",
+    "description": "Carya pallida, sand hickory, or pale hickory is a species of hickory native to the southeastern United States. It is a perennial, dicotyledonous plant which prefers rocky or sandy habitats. The sand hickory can reach heights of up to 30m, but its typical height is between 9-24m. In an open area, Carya crowns are usually towering and slim. The sand hickory nut is edible and consumed by various organisms.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -499,11 +625,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Carya pallida"
+      ],
       "en": [
+        "Carya pallida",
         "Sand hickory"
+      ],
+      "es": [
+        "Carya pallida"
+      ],
+      "fr": [
+        "Carya pallida"
+      ],
+      "it": [
+        "Carya pallida"
+      ],
+      "nl": [
+        "Carya pallida"
+      ],
+      "pl": [
+        "Carya pallida"
+      ],
+      "pt": [
+        "Carya pallida"
+      ],
+      "ru": [
+        "Carya pallida"
       ]
     },
     "tags": [],
@@ -515,12 +668,12 @@
     "family": "Juglandaceae",
     "genus": "Carya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Carya texana is a North American tree in the walnut family, Juglandaceae. It is endemic to the United States, found primarily in the southern Great Plains and the Lower Mississippi Valley. It is an endangered species in Indiana, where it occurs in the southwest corner of the state.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -597,9 +750,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Carya texana"
+      ],
+      "en": [
+        "Carya texana"
+      ],
+      "es": [
+        "Carya texana"
+      ],
+      "fr": [
+        "Carya texana"
+      ],
+      "it": [
+        "Carya texana"
+      ],
+      "nl": [
+        "Carya texana"
+      ],
+      "pl": [
+        "Carya texana"
+      ],
+      "pt": [
+        "Carya texana"
+      ],
+      "ru": [
+        "Carya texana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -609,12 +792,12 @@
     "family": "Juglandaceae",
     "genus": "Engelhardia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ad055f5b83ac71473e0e1c16ebd96911.jpg",
-    "description": null,
+    "description": "Engelhardia roxburghiana is a tree in the family Juglandaceae. It is named for the Scottish botanist William Roxburgh.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -691,9 +874,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Engelhardia roxburghiana"
+      ],
+      "en": [
+        "Engelhardia roxburghiana"
+      ],
+      "es": [
+        "Engelhardia roxburghiana"
+      ],
+      "fr": [
+        "Engelhardia roxburghiana"
+      ],
+      "it": [
+        "Engelhardia roxburghiana"
+      ],
+      "nl": [
+        "Engelhardia roxburghiana"
+      ],
+      "pl": [
+        "Engelhardia roxburghiana"
+      ],
+      "pt": [
+        "Engelhardia roxburghiana"
+      ],
+      "ru": [
+        "Engelhardia roxburghiana"
+      ],
+      "zh": [
+        "黄杞"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -703,12 +919,12 @@
     "family": "Juglandaceae",
     "genus": "Juglans",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/766aa9dd24b54c9908ffc9073d359623237783b3",
-    "description": null,
+    "description": "Juglans californica, the California black walnut, also called the California walnut, or the Southern California black walnut, is a large shrub or small tree of the walnut family, Juglandaceae, endemic to the Central Valley and the Coast Range valleys from Northern to Southern California.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -719,7 +935,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "juglans_californica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -785,11 +1001,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جوز كاليفورني"
+      ],
+      "de": [
+        "Kalifornische Walnuss"
+      ],
       "en": [
-        "California walnut"
+        "California walnut",
+        "Juglans californica"
+      ],
+      "es": [
+        "Juglans californica"
+      ],
+      "fr": [
+        "Juglans californica"
+      ],
+      "it": [
+        "Juglans californica"
+      ],
+      "ja": [
+        "カリフォルニア・ウォルナット"
+      ],
+      "nl": [
+        "Juglans californica"
+      ],
+      "pl": [
+        "Orzech kalifornijski"
+      ],
+      "pt": [
+        "Juglans californica"
+      ],
+      "ru": [
+        "Орех калифорнийский"
       ]
     },
     "tags": [],
@@ -801,12 +1050,12 @@
     "family": "Juglandaceae",
     "genus": "Juglans",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6a728702b4b62ea7be2beebf2af104df92662c69",
-    "description": "The fruit is a nut that is encased in an outer husk that is green with 2 to 4 longitudinal ridges and covered with short, sticky hairs. The fruits are oblong to an ovoid pointed nut that measures 1.5 to 2.2 inches long. They usually mature from September to October. The nuts may be single or in clusters of 2 to 5 nuts at the branch tips. The seed is sweet, oily, and edible.",
+    "description": "Juglans cinerea, commonly known as butternut or white walnut, is a species of walnut native to the eastern United States and southeast Canada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -817,17 +1066,17 @@
     "synonyms": "[\"Juglans cathartica\", \"Wallia cinerea\", \"Juglans oblonga\", \"Nux cinerea\"]",
     "care": {
       "plant_id": "juglans_cinerea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -891,11 +1140,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.1
     },
     "common_names": {
+      "ar": [
+        "جوز أرمد"
+      ],
+      "de": [
+        "Butternuss"
+      ],
       "en": [
+        "Juglans cinerea",
         "White walnut"
+      ],
+      "es": [
+        "Juglans cinerea"
+      ],
+      "fr": [
+        "Noyer cendré"
+      ],
+      "it": [
+        "Juglans cinerea"
+      ],
+      "ja": [
+        "バターナット"
+      ],
+      "ko": [
+        "백호두나무"
+      ],
+      "nl": [
+        "Juglans cinerea"
+      ],
+      "pl": [
+        "Orzech szary"
+      ],
+      "pt": [
+        "Juglans cinerea"
+      ],
+      "ru": [
+        "Орех серый"
+      ],
+      "zh": [
+        "壮核桃"
       ]
     },
     "tags": [],
@@ -907,12 +1195,12 @@
     "family": "Juglandaceae",
     "genus": "Juglans",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ad35a3a2989e5f323c69d43656bb92f06e6b84f7",
-    "description": null,
+    "description": "Juglans major, also known as Arizona walnut, is a walnut tree which grows to 50 ft tall (15 m) with a DBH of up to 0.61 metres (2 ft) at elevations of 300–2,130 m (1,000–7,000 ft) in Texas, Oklahoma, New Mexico, Arizona, and Utah. It also occurs in Mexico as far south as Guerrero. Common names include Arizona black walnut, and the Spanish name nogal cimarrón.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -923,7 +1211,7 @@
     "synonyms": "[\"Juglans rupestris var. major\", \"Juglans microcarpa var. major\", \"Juglans microcarpa subsp. major\"]",
     "care": {
       "plant_id": "juglans_major",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -989,11 +1277,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جوز كبير"
+      ],
+      "de": [
+        "Juglans major"
+      ],
       "en": [
-        "Arizona walnut"
+        "Arizona walnut",
+        "Juglans major"
+      ],
+      "es": [
+        "Juglans major"
+      ],
+      "fr": [
+        "Juglans major"
+      ],
+      "it": [
+        "Juglans major"
+      ],
+      "nl": [
+        "Juglans major"
+      ],
+      "pl": [
+        "Juglans major"
+      ],
+      "pt": [
+        "Juglans major"
+      ],
+      "ru": [
+        "Juglans major"
+      ],
+      "zh": [
+        "大果胡桃"
       ]
     },
     "tags": [],
@@ -1005,12 +1326,12 @@
     "family": "Juglandaceae",
     "genus": "Juglans",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2dd6019a0cfe3f9bb31c1a59556f32b0c6cdaa7e",
-    "description": null,
+    "description": "Juglans mandshurica, also known as Manchurian walnut or tigernut, is a species of deciduous tree in the walnut family, Juglandaceae. It is native to East Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1021,17 +1342,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "juglans_mandshurica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1087,11 +1408,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.1
     },
     "common_names": {
+      "ar": [
+        "جوز منشوري"
+      ],
+      "de": [
+        "Juglans mandshurica"
+      ],
       "en": [
+        "Juglans mandshurica",
         "Manchurian walnut"
+      ],
+      "es": [
+        "Juglans mandshurica"
+      ],
+      "fr": [
+        "Juglans mandshurica"
+      ],
+      "it": [
+        "Juglans mandshurica"
+      ],
+      "ja": [
+        "マンシュウグルミ"
+      ],
+      "ko": [
+        "가래나무"
+      ],
+      "nl": [
+        "Juglans mandshurica"
+      ],
+      "pl": [
+        "Orzech mandżurski"
+      ],
+      "pt": [
+        "Juglans mandshurica"
+      ],
+      "ru": [
+        "Орех маньчжурский"
+      ],
+      "tr": [
+        "Mançurya cevizi"
+      ],
+      "zh": [
+        "胡桃楸"
       ]
     },
     "tags": [],
@@ -1103,12 +1466,12 @@
     "family": "Juglandaceae",
     "genus": "Juglans",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4ff41e4adfd42cfcad0f450b00582bca05b29000",
-    "description": null,
+    "description": "Juglans microcarpa, known also as the little walnut, Texas walnut, Texas black walnut or little black walnut, is a large shrub or small tree which grows wild along streams and ravines in Texas, New Mexico, Oklahoma, and Kansas, and the northernmost states of Mexico. It produces nuts with a width of 1/2—3/4 in. The pinnately compound leaves bear 7—25 untoothed to finely-toothed leaflets, each 1/4—1/2 in wide. It is found at elevations ranging from 700 ft to 6700 ft.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1119,7 +1482,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "juglans_microcarpa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1185,11 +1548,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جوز صغير الثمار"
+      ],
+      "de": [
+        "Juglans microcarpa"
+      ],
       "en": [
+        "Juglans microcarpa",
         "Texas walnut"
+      ],
+      "es": [
+        "Juglans microcarpa"
+      ],
+      "fr": [
+        "Juglans microcarpa"
+      ],
+      "it": [
+        "Juglans microcarpa"
+      ],
+      "nl": [
+        "Juglans microcarpa"
+      ],
+      "pl": [
+        "Juglans microcarpa"
+      ],
+      "pt": [
+        "Juglans microcarpa"
+      ],
+      "ru": [
+        "Juglans microcarpa"
       ]
     },
     "tags": [],
@@ -1201,12 +1594,12 @@
     "family": "Juglandaceae",
     "genus": "Juglans",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/87fef7b023337dfec87b36b531fe52008714ac29",
-    "description": null,
+    "description": "Juglans neotropica is a species of plant in the Juglandaceae family. It is found in Colombia, Ecuador, and Peru. It is threatened by habitat loss. Common names include Colombian walnut, Ecuadorian walnut, Andean walnut, nogal, cedro negro, cedro nogal, and nogal Bogotano.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1217,7 +1610,7 @@
     "synonyms": "[\"Juglans granatensis\", \"Juglans columbiensis\", \"Juglans equatoriensis\", \"Juglans honorei\"]",
     "care": {
       "plant_id": "juglans_neotropica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1283,11 +1676,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جوز المنطقة المدارية الجديدة"
+      ],
+      "de": [
+        "Juglans neotropica"
+      ],
       "en": [
-        "Andean walnut"
+        "Andean walnut",
+        "Juglans neotropica"
+      ],
+      "es": [
+        "Juglans neotropica"
+      ],
+      "fr": [
+        "Juglans neotropica"
+      ],
+      "it": [
+        "Juglans neotropica"
+      ],
+      "nl": [
+        "Juglans neotropica"
+      ],
+      "pl": [
+        "Juglans neotropica"
+      ],
+      "pt": [
+        "Juglans neotropica"
+      ],
+      "ru": [
+        "Juglans neotropica"
       ]
     },
     "tags": [],
@@ -1299,12 +1722,12 @@
     "family": "Juglandaceae",
     "genus": "Juglans",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bf387e36b9eff38cd866bfaf278db1ceda478553",
-    "description": "Brown to black nut inside a fleshy, non-splitting, yellow-green husk that heavily stains skin and clothing.  Displays in October.  Nut inside is edible. Fruit attached singly or in pairs, globular, with pointed apex.",
+    "description": "Juglans nigra, the eastern American black walnut, is a species of deciduous tree in the walnut family, Juglandaceae, native to central and eastern North America, growing mostly in riparian zones.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1315,17 +1738,17 @@
     "synonyms": "[\"Wallia nigra\", \"Juglans pitteursii\", \"Juglans rugosa\", \"Juglans nigra oblonga\", \"Juglans nigra f. oblonga\", \"Juglans nigra f. laciniata\"]",
     "care": {
       "plant_id": "juglans_nigra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1347,7 +1770,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Good companions: Allium ampeloprasum, Black elderberry, Black locust, Black mulberry, Black raspberry, Gooseberry, Honey locust, Lycium barbarum, Parsley, Pedunculate Oak | Similar plants: Carya glabra",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs, Toxic to Horses Non-Toxic to Cats. Signs: Dogs: moldy nuts/hulls can cause tremors and seizures, ingestion of shavings can cause incoordination; Horses: laminitis, colic",
       "common_problems": null,
       "common_pests": null,
@@ -1366,7 +1789,7 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Open",
-      "toxic_parts": null,
+      "toxic_parts": "Whole plant",
       "toxicity_severity": "Severe",
       "toxicity_symptoms": "Dogs: moldy nuts/hulls can cause tremors and seizures, ingestion of shavings can cause incoordination; Horses: laminitis, colic",
       "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
@@ -1381,11 +1804,53 @@
       "germination_temp_c": null,
       "good_companions": "[\"Allium ampeloprasum\", \"Black elderberry\", \"Black locust\", \"Black mulberry\", \"Black raspberry\", \"Gooseberry\", \"Honey locust\", \"Lycium barbarum\", \"Parsley\", \"Pedunculate Oak\"]",
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.1
     },
     "common_names": {
+      "ar": [
+        "جوز أسود"
+      ],
+      "de": [
+        "Schwarznuss"
+      ],
       "en": [
-        "Black walnut"
+        "Black walnut",
+        "Juglans nigra"
+      ],
+      "es": [
+        "Juglans nigra"
+      ],
+      "fr": [
+        "Noyer noir"
+      ],
+      "it": [
+        "Juglans nigra"
+      ],
+      "ja": [
+        "ユグランス・ニグラ"
+      ],
+      "ko": [
+        "흑호두나무"
+      ],
+      "nl": [
+        "Zwarte walnoot"
+      ],
+      "pl": [
+        "orzech czarny"
+      ],
+      "pt": [
+        "Juglans nigra"
+      ],
+      "ru": [
+        "Орех чёрный"
+      ],
+      "tr": [
+        "Kara ceviz"
+      ],
+      "zh": [
+        "黑胡桃"
       ]
     },
     "tags": [],
@@ -1397,7 +1862,7 @@
     "family": "Juglandaceae",
     "genus": "Juglans",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1413,17 +1878,17 @@
     "synonyms": "[\"Juglans salicifolia\", \"Juglans regia var. maxima\", \"Juglans regia var. oblonga\", \"Juglans regia var. angulosa\", \"Juglans regia f. fruticosa\", \"Juglans regia f. pendula\", \"Juglans filicifolia\", \"Juglans duclouxiana\", \"Juglans regia laciniata\", \"Juglans regia lusus heterophylla\"]",
     "care": {
       "plant_id": "juglans_regia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1444,9 +1909,9 @@
       "watering_guide": "Propagation: Grafting",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Juglans cinerea",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: allergenic. Animal: weak toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": [
         "The English Walnut has no serious insect or disease problems.",
         "Anthracnose, bacterial blight, root rot, canker, leaf spot, and shoot dieback can occur.",
@@ -1473,8 +1938,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Rounded",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"The English Walnut is grown commercially for its edible nuts.  The wood is used to build furniture\", \"cabinets\", \"and gunstocks. The English Walnut was a folk remedy for a multitude of ailments including anthrax\", \"asthma\", \"backache\", \"colic\", \"and rheumatism.\"]",
@@ -1488,11 +1953,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.1
     },
     "common_names": {
+      "ar": [
+        "جوز شائع"
+      ],
+      "de": [
+        "Echte Walnuss"
+      ],
       "en": [
-        "Carpathian walnut"
+        "Carpathian walnut",
+        "Juglans regia"
+      ],
+      "es": [
+        "juglans regia"
+      ],
+      "fr": [
+        "noyer commun"
+      ],
+      "hi": [
+        "अख़रोट"
+      ],
+      "it": [
+        "Juglans regia"
+      ],
+      "ja": [
+        "シナノグルミ"
+      ],
+      "ko": [
+        "호두나무"
+      ],
+      "nl": [
+        "walnoot"
+      ],
+      "pl": [
+        "orzech włoski"
+      ],
+      "pt": [
+        "nogueira-comum"
+      ],
+      "ru": [
+        "Орех грецкий"
+      ],
+      "tr": [
+        "Adi ceviz"
+      ],
+      "zh": [
+        "普通胡桃"
       ]
     },
     "tags": [],
@@ -1504,12 +2014,12 @@
     "family": "Juglandaceae",
     "genus": "Platycarya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/61a4f33a72801cfe9add0b72fae45e68f7a466c6",
-    "description": null,
+    "description": "Platycarya strobilacea is a species of flowering plant in the family Juglandaceae, formerly treated as comprising the single living species in Platycarya, though a second living species Platycarya longzhouensis is now recognized. It is native to eastern Asia in China, Vietnam, Korea, and Japan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1586,9 +2096,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zapfennuss"
+      ],
+      "en": [
+        "Platycarya strobilacea"
+      ],
+      "es": [
+        "Platycarya strobilacea"
+      ],
+      "fr": [
+        "Platycarya strobilacea"
+      ],
+      "it": [
+        "Platycarya strobilacea"
+      ],
+      "ja": [
+        "ノグルミ"
+      ],
+      "ko": [
+        "굴피나무"
+      ],
+      "nl": [
+        "Platycarya strobilacea"
+      ],
+      "pl": [
+        "Platycarya strobilacea"
+      ],
+      "pt": [
+        "Platycarya strobilacea"
+      ],
+      "ru": [
+        "Platycarya strobilacea"
+      ],
+      "zh": [
+        "化香树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1598,7 +2147,7 @@
     "family": "Juglandaceae",
     "genus": "Pterocarya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1680,9 +2229,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pterocarya pterocarpa"
+      ],
+      "en": [
+        "Pterocarya pterocarpa"
+      ],
+      "es": [
+        "Pterocarya pterocarpa"
+      ],
+      "fr": [
+        "Pterocarya pterocarpa"
+      ],
+      "it": [
+        "Pterocarya pterocarpa"
+      ],
+      "nl": [
+        "Pterocarya pterocarpa"
+      ],
+      "pl": [
+        "Pterocarya pterocarpa"
+      ],
+      "pt": [
+        "Pterocarya pterocarpa"
+      ],
+      "ru": [
+        "Pterocarya pterocarpa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1692,12 +2271,12 @@
     "family": "Juglandaceae",
     "genus": "Pterocarya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6a6f904e317e7d38096040f37e49a8cad7864a75",
-    "description": "Insignificant, light green catkins appear May-June. Female catkins to 20” long and male catkins to 7  long. Produces 12 to 20 in. necklaces of emerald green, winged nutlets; turn brown in fall",
+    "description": "Pterocarya rhoifolia, commonly known as Japanese wingnut, is a species of tree in the family Juglandaceae. It is widely distributed throughout Japan, and also found in China in the Laoshan District of eastern Shandong Province. Its natural presence in China is contested.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1774,11 +2353,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pterocarya rhoifolia"
+      ],
       "en": [
-        "Japanese wingnut"
+        "Japanese wingnut",
+        "Pterocarya rhoifolia"
+      ],
+      "es": [
+        "Pterocarya rhoifolia"
+      ],
+      "fr": [
+        "Pterocarya rhoifolia"
+      ],
+      "it": [
+        "Pterocarya rhoifolia"
+      ],
+      "ja": [
+        "サワグルミ"
+      ],
+      "nl": [
+        "Pterocarya rhoifolia"
+      ],
+      "pl": [
+        "Skrzydłorzech japoński"
+      ],
+      "pt": [
+        "Pterocarya rhoifolia"
+      ],
+      "ru": [
+        "Pterocarya rhoifolia"
+      ],
+      "zh": [
+        "水胡桃"
       ]
     },
     "tags": [],
@@ -1790,12 +2402,12 @@
     "family": "Juglandaceae",
     "genus": "Pterocarya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/457e4f170bc5340aee16d7544e7376a8604e3b56",
-    "description": "Insignificant, light green catkins appear May-June. Female catkins to 20” long and male catkins to 7  long. Produces 12 to 20 in. necklaces of emerald green, winged nutlets; turn brown in fall",
+    "description": "Pterocarya stenoptera, the Chinese wingnut, is a small-winged wingnut tree of the Juglandaceae family. It is originally from Southeast China.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1872,11 +2484,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pterocarya stenoptera"
+      ],
       "en": [
-        "Chinese wingnut"
+        "Chinese wingnut",
+        "Pterocarya stenoptera"
+      ],
+      "es": [
+        "Pterocarya stenoptera"
+      ],
+      "fr": [
+        "Pterocarya stenoptera"
+      ],
+      "it": [
+        "Pterocarya stenoptera"
+      ],
+      "ja": [
+        "シナサワグルミ"
+      ],
+      "nl": [
+        "Pterocarya stenoptera"
+      ],
+      "pl": [
+        "Pterocarya stenoptera"
+      ],
+      "pt": [
+        "Pterocarya stenoptera"
+      ],
+      "ru": [
+        "Pterocarya stenoptera"
+      ],
+      "zh": [
+        "枫杨"
       ]
     },
     "tags": [],

@@ -5,12 +5,12 @@
     "family": "Schoepfiaceae",
     "genus": "Quinchamalium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b3b30eac096848b7625e1c9d53a406d89f051cd1",
-    "description": null,
+    "description": "Quinchamalium is a genus of flowering plant in the family Schoepfiaceae, with a single species Quinchamalium chilense, native to Chile, Argentina, Peru and Bolivia. Depending on the latitude, it can be found from sea level to 3,800 m in elevation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Quinchamalium chilense"
+      ],
+      "en": [
+        "Quinchamalium chilense"
+      ],
+      "es": [
+        "Quinchamalium chilense"
+      ],
+      "fr": [
+        "Quinchamalium chilense"
+      ],
+      "it": [
+        "Quinchamalium chilense"
+      ],
+      "nl": [
+        "Quinchamalium chilense"
+      ],
+      "pl": [
+        "Quinchamalium chilense"
+      ],
+      "pt": [
+        "Quinchamalium chilense"
+      ],
+      "ru": [
+        "Quinchamalium chilense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Schoepfiaceae",
     "genus": "Schoepfia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schoepfia brasiliensis"
+      ],
+      "en": [
+        "Schoepfia brasiliensis"
+      ],
+      "es": [
+        "Schoepfia brasiliensis"
+      ],
+      "fr": [
+        "Schoepfia brasiliensis"
+      ],
+      "it": [
+        "Schoepfia brasiliensis"
+      ],
+      "nl": [
+        "Schoepfia brasiliensis"
+      ],
+      "pl": [
+        "Schoepfia brasiliensis"
+      ],
+      "pt": [
+        "Schoepfia brasiliensis"
+      ],
+      "ru": [
+        "Schoepfia brasiliensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +253,7 @@
     "family": "Schoepfiaceae",
     "genus": "Schoepfia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,11 +335,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Schoepfia schreberi"
+      ],
       "en": [
-        "Gulf graytwig"
+        "Gulf graytwig",
+        "Schoepfia schreberi"
+      ],
+      "es": [
+        "Schoepfia schreberi"
+      ],
+      "fr": [
+        "Schoepfia schreberi"
+      ],
+      "it": [
+        "Schoepfia schreberi"
+      ],
+      "nl": [
+        "Schoepfia schreberi"
+      ],
+      "pl": [
+        "Schoepfia schreberi"
+      ],
+      "pt": [
+        "Schoepfia schreberi"
+      ],
+      "ru": [
+        "Schoepfia schreberi"
       ]
     },
     "tags": [],

@@ -21,13 +21,13 @@
     "synonyms": "[\"Acorus calamus var. belangeri\", \"Acorus calamus f. submersa\", \"Acorus calamus var. europeus\", \"Calamus aromaticus\", \"Acorus belangeri\", \"Acorus calamus var. vulgaris\", \"Acorus floridanus\", \"Acorus terrestris\", \"Acorus aromaticus\", \"Acorus flexuosus\"]",
     "care": {
       "plant_id": "acorus_calamus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
       "ppfd_min": 57,
       "ppfd_max": 104,
       "dli_min": 0.2,
@@ -53,8 +53,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Remove aged tissues, dead, rotten, diseased leaves timely | Similar plants: Asarum canadense | Native to: BGM BE, IRE NI, TEX OO, KGZ OO, AND",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: carcinogenic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": [
         "May also be used in other areas of the landscape, such as low spots, as long as its high soil moisture requirements can be met",
         "No serious insect or disease problems",
@@ -78,8 +78,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Rootstocks are used as a natural insecticide and an ingredient in perfumes.\"]",
@@ -93,11 +93,146 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "الحلو العلم",
+        "القصب الهندي",
+        "القَصَب العِطْرِي",
+        "الوج",
+        "عود الوج",
+        "قصب الذريره",
+        "وج"
+      ],
+      "de": [
+        "Ackerwurz",
+        "Gewürzkalmus",
+        "Indischer Kalmus",
+        "Kalmus",
+        "Kaninchenwurz",
+        "Kaninchenwurzel",
+        "Karremanswurz",
+        "Karremanswurzel",
+        "Magenbrand",
+        "Magenwurz",
+        "Nagenwurz",
+        "Rotting",
+        "Schwertheu",
+        "Würtzriedt",
+        "Zehrwurz"
+      ],
       "en": [
-        "Calamus"
+        "Acorus roseau",
+        "Calamus",
+        "Sweet Flag",
+        "calamus",
+        "calamus aromaticus",
+        "flag root",
+        "myrtle flag",
+        "myrtle grass",
+        "sweet calamus",
+        "sweet calomel",
+        "sweet-flag",
+        "sweetflag",
+        "sweetroot"
+      ],
+      "es": [
+        "Acoro",
+        "Acorus angustatus",
+        "Acorus casia",
+        "Acorus cochinchinensis",
+        "Acorus commersonii",
+        "Acorus europaeus",
+        "Acorus griffithii",
+        "Acorus nilaghirensis",
+        "Acorus odoratus",
+        "Acorus triqueter",
+        "Acorus undulatus",
+        "Acorus verus",
+        "Acorus vulgaris",
+        "Calamo aromatico",
+        "Calamo aromático",
+        "Calamus aromaticus",
+        "Orontium cochinchinense",
+        "cálamo aromático",
+        "Ácoro"
+      ],
+      "fr": [
+        "Acore odorant",
+        "Calamus aromaticus",
+        "Jonc odorant",
+        "Schoenante",
+        "acore"
+      ],
+      "hi": [
+        "वच"
+      ],
+      "it": [
+        "Acoro",
+        "Calamo",
+        "Calamo aromatico"
+      ],
+      "ja": [
+        "しょうぶ",
+        "ショウブ",
+        "ショウブコン",
+        "菖蒲根"
+      ],
+      "ko": [
+        "창포"
+      ],
+      "nl": [
+        "Kalmoes",
+        "Zwanenbrood"
+      ],
+      "pl": [
+        "Ajer",
+        "tatarak zwyczajny"
+      ],
+      "pt": [
+        "Açoro",
+        "Cana-cheirosa",
+        "Cálamo-aromático"
+      ],
+      "ru": [
+        "Аир болотный",
+        "Аир обыкновенный",
+        "Аир тростниковый",
+        "Ирный корень"
+      ],
+      "tr": [
+        "Hazanbel"
+      ],
+      "zh": [
+        "凌水挡",
+        "剑叶菖蒲",
+        "剑菖蒲",
+        "十香和",
+        "土菖蒲",
+        "大叶菖蒲",
+        "大菖蒲",
+        "家菖蒲",
+        "山菖蒲",
+        "水剑草",
+        "水菖蒲",
+        "泥菖蒲",
+        "溪菖蒲",
+        "狭叶菖蒲",
+        "白菖",
+        "白菖蒲",
+        "石菖蒲",
+        "细根菖蒲",
+        "臭草",
+        "臭菖蒲",
+        "臭蒲",
+        "菖蒲",
+        "藏菖蒲",
+        "野枇杷",
+        "野菖蒲",
+        "香蒲"
       ]
     },
     "tags": [],
@@ -125,9 +260,9 @@
     "synonyms": "[\"Acorus macrospadiceus\", \"Acorus gramineus var. japonicus\", \"Acorus gramineus var. pusillus\", \"Acorus gramineus var. macrospadiceus\", \"Acorus humilis\", \"Acorus xiangyeus\", \"Acorus pusillus\"]",
     "care": {
       "plant_id": "acorus_gramineus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -191,11 +326,59 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "الحلو العلم مصغرة",
+        "وج قزم",
+        "وَجّ قزم أو وَجّ عشبي"
+      ],
       "en": [
-        "Grassleaf sweet flag"
+        "Grassleaf sweet flag",
+        "Japanese rush",
+        "Japanese sweet flag",
+        "Japanese sweetflag",
+        "grass-leaf sweet-flag",
+        "grass-leaved sweet flag",
+        "grassy-leaved sweet flag",
+        "slender sweet flag"
+      ],
+      "es": [
+        "Acoro gramineo",
+        "Acorus gramineus var japonica",
+        "Acorus gramineus var macrospadiceus",
+        "Acorus gramineus var pusillus",
+        "Acorus gramineus var. japonica",
+        "Acorus gramineus var. macrospadiceus",
+        "Acorus gramineus var. pusillus",
+        "Acorus humilis",
+        "Acorus macrospadiceus",
+        "Acorus pusillus",
+        "Acorus xiangyeus",
+        "Ácoro gramineo"
+      ],
+      "ja": [
+        "アコルス",
+        "セキショウ"
+      ],
+      "pl": [
+        "Tatarak trawiasty"
+      ],
+      "zh": [
+        "九节菖蒲",
+        "小石菖蒲",
+        "建菖蒲",
+        "石菖蒲",
+        "菖蒲",
+        "金钱菖蒲",
+        "金钱蒲",
+        "钱菖蒲",
+        "钱蒲",
+        "长苞菖蒲",
+        "随手香"
       ]
     },
     "tags": [],

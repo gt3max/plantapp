@@ -5,12 +5,12 @@
     "family": "Burmanniaceae",
     "genus": "Apteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a9edeec3f8a8e8dd759151e25bc7829e992de78a",
-    "description": null,
+    "description": "Apteria is a genus of flowering plants in the Burmanniaceae, first described as a genus in 1834. It contains only one known species, Apteria aphylla, the nodding-nixie, native to the southern United States, Mexico, Central America, the West Indies, and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Apteria aphylla"
+      ],
       "en": [
+        "Apteria aphylla",
         "Nodding nixie"
+      ],
+      "es": [
+        "Apteria"
+      ],
+      "fr": [
+        "Apteria aphylla"
+      ],
+      "it": [
+        "Apteria aphylla"
+      ],
+      "nl": [
+        "Apteria aphylla"
+      ],
+      "pl": [
+        "Apteria aphylla"
+      ],
+      "pt": [
+        "Apteria"
+      ],
+      "ru": [
+        "Apteria aphylla"
       ]
     },
     "tags": [],
@@ -103,7 +130,7 @@
     "family": "Burmanniaceae",
     "genus": "Burmannia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,9 +212,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Burmannia bicolor"
+      ],
+      "en": [
+        "Burmannia bicolor"
+      ],
+      "es": [
+        "Burmannia bicolor"
+      ],
+      "fr": [
+        "Burmannia bicolor"
+      ],
+      "it": [
+        "Burmannia bicolor"
+      ],
+      "nl": [
+        "Burmannia bicolor"
+      ],
+      "pl": [
+        "Burmannia bicolor"
+      ],
+      "pt": [
+        "Burmannia bicolor"
+      ],
+      "ru": [
+        "Burmannia bicolor"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,12 +254,12 @@
     "family": "Burmanniaceae",
     "genus": "Burmannia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d579492993c3b601dbe8f8a693e9b061.jpg",
-    "description": null,
+    "description": "Burmannia capitata is a plant species widespread across the West Indies and much of Latin America. It grows in wet areas at elevations less than 100 m. It has been reported from Argentina, Belize, Bolivia, Brazil, Cuba, the Dominican Republic, Haiti, Jamaica, Puerto Rico, Trinidad and Tobago, Colombia, Costa Rica, French Guiana, Guyana, Honduras, southern Mexico, Nicaragua, Panama, Paraguay, Suriname, Venezuela, and the United States",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,9 +336,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "برمانة رؤيسية"
+      ],
+      "de": [
+        "Burmannia capitata"
+      ],
+      "en": [
+        "Burmannia capitata"
+      ],
+      "es": [
+        "Burmannia capitata"
+      ],
+      "fr": [
+        "Burmannia capitata"
+      ],
+      "it": [
+        "Burmannia capitata"
+      ],
+      "nl": [
+        "Burmannia capitata"
+      ],
+      "pl": [
+        "Burmannia capitata"
+      ],
+      "pt": [
+        "Burmannia capitata"
+      ],
+      "ru": [
+        "Burmannia capitata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

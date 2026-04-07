@@ -5,7 +5,7 @@
     "family": "Paulowniaceae",
     "genus": "Paulownia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -53,8 +53,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Albizia julibrissin",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic (unknown strength). Parts: Fruit, seed. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Flower buds can suffer frost damage in the early spring.",
         "This plant is weedy, messy, has weak wood and is listed as an invasive species by the NC Invasive Plant Council, North Carolina Forest Service, USDA National Invasive Species Information Center and the Invasive Plant Atlas of the United States."
@@ -75,8 +75,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, seed",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -90,11 +90,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بولفينية كثة الزغب"
+      ],
+      "de": [
+        "Blauglockenbaum"
+      ],
       "en": [
+        "Paulownia tomentosa",
         "Princesstree"
+      ],
+      "es": [
+        "Paulownia tomentosa"
+      ],
+      "fr": [
+        "Paulownia tomentosa"
+      ],
+      "it": [
+        "Paulownia tomentosa"
+      ],
+      "ja": [
+        "キリ"
+      ],
+      "ko": [
+        "참오동나무"
+      ],
+      "nl": [
+        "Anna Paulownaboom"
+      ],
+      "pl": [
+        "Paulownia omszona"
+      ],
+      "pt": [
+        "Paulownia tomentosa"
+      ],
+      "ru": [
+        "Павловния войлочная"
+      ],
+      "zh": [
+        "毛泡桐"
       ]
     },
     "tags": [],

@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/09c677df9b26f871ab33bf006a4479f32c303ccb",
-    "description": "1 inch long samaras in pairs in the fall.",
+    "description": "Acer buergerianum is a species of maple native to eastern China, Taiwan and Japan. The specific epithet is a patronym honoring Dutch plant hunter J. Buerger (1804-1858).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,7 +21,7 @@
     "synonyms": "[\"Acer trifidum f. buergerianum\"]",
     "care": {
       "plant_id": "acer_buergerianum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -90,7 +90,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -175,13 +177,13 @@
     "synonyms": "[\"Euacer campestre\"]",
     "care": {
       "plant_id": "acer_campestre",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -208,7 +210,7 @@
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Acer buergerianum | Native to: BGM BE, VRG OO, IRE NI, BUL OO, BGM",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Non-toxic (confirmed by TPPT database)",
       "common_problems": [
         "These are unlikely to cause the tree any harm",
         "Verticillium wilt can affect field maple",
@@ -251,7 +253,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.7
     },
     "common_names": {
       "ar": [
@@ -354,7 +358,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/efef080decce036b2630878831c3a6c6bfcd4a3f",
-    "description": "Colorful samaras in the fall.",
+    "description": "Acer cappadocicum, the Cappadocian maple, is a maple native to Asia, from central Turkey east along the Caucasus, the Himalayas, to southwestern China.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -365,7 +369,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_cappadocicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -435,7 +439,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -482,7 +488,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bd7e08f5d12a9428c5e0f4811345438b9c039918",
-    "description": "1 inch long samaras in pairs in the fall.",
+    "description": "Acer carpinifolium is a species of maple native to Japan, on the islands of Honshū, Kyūshū, and Shikoku, where it grows in woodlands and alongside streams in mountainous areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -493,7 +499,7 @@
     "synonyms": "[\"Acer carpinifolium f. magnificum\"]",
     "care": {
       "plant_id": "acer_carpinifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -562,7 +568,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "de": [
@@ -601,7 +609,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/19e5508ca0ca0cf1e792c362c6507a9a6463b6c8",
-    "description": "1 inch long samaras in pairs in the fall.",
+    "description": "Acer caudatifolium is an Asian species of maple, found only in Taiwan. The species is sometimes confused with another Taiwanese tree, Acer morrisonense. This species has been known to reach 20 metres tall. Leaves are non-compound, the blade narrowly ovate, up to 11 cm long by 4.5 cm wide, with serrate margins but no lobes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -612,7 +620,7 @@
     "synonyms": "[\"Acer kawakamii\", \"Acer kawakamii var. taiton-montanum\", \"Acer ovatifolium\", \"Acer taiton-montanum\", \"Acer pectinatum subsp. formosanum\"]",
     "care": {
       "plant_id": "acer_caudatifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -681,9 +689,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Acer caudatifolium"
+      ],
+      "en": [
+        "Acer caudatifolium"
+      ],
+      "es": [
+        "Acer caudatifolium"
+      ],
+      "fr": [
+        "Acer caudatifolium"
+      ],
+      "it": [
+        "Acer caudatifolium"
+      ],
+      "nl": [
+        "Acer caudatifolium"
+      ],
+      "pl": [
+        "Acer caudatifolium"
+      ],
+      "pt": [
+        "Acer caudatifolium"
+      ],
+      "ru": [
+        "Acer caudatifolium"
+      ],
       "zh": [
         "尖尾枫",
         "尖尾槭"
@@ -703,7 +740,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/faecb019de22f9eeb1c680e6043d8ae3264b4c56",
-    "description": "1 inch long samaras in pairs in the fall.",
+    "description": "Acer caudatum, commonly known as candle-shape maple, is an Asian species of maple trees. It is found in the Himalayas the mountains of southwestern China, plus Japan, Korea, and eastern Russia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -714,17 +751,17 @@
     "synonyms": "[\"Acer multiserratum\", \"Acer caudatum subsp. prattii\", \"Acer caudatum var. multiserratum\", \"Acer caudatum var. georgei\", \"Acer caudatum subsp. multiserratum\", \"Acer erosum\", \"Acer papilio\", \"Acer caudatum var. prattii\", \"Acer caudatum subsp. georgei\", \"Acer caudatum var. erosum\"]",
     "care": {
       "plant_id": "acer_caudatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -783,7 +820,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
       "de": [
@@ -792,7 +831,26 @@
         "Geschwänzter Ahorn"
       ],
       "en": [
+        "Acer caudatum",
         "Tail-leaf maple"
+      ],
+      "es": [
+        "Acer caudatum"
+      ],
+      "fr": [
+        "Acer caudatum"
+      ],
+      "it": [
+        "Acer caudatum"
+      ],
+      "nl": [
+        "Acer caudatum"
+      ],
+      "pl": [
+        "Acer caudatum"
+      ],
+      "pt": [
+        "Acer caudatum"
       ],
       "ru": [
         "Клён хвостатый"
@@ -816,7 +874,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c3a2b8c0a4526f9f18adb3b49aa280d1e4a2d1c8",
-    "description": "2 winged samara deep red when mature 2  long",
+    "description": "Acer circinatum, or vine maple, is a species of maple native to northwestern North America. Vine maple typically grows as a low-elevation coastal tree in temperate areas of high precipitation such as the west coast of Oregon and northern California, as well as the temperate rainforests of Washington and British Columbia. Vine maples play an important role in conserving the biodiversity of lowland ecosystems by enriching upper soil layers and providing habitat for other organisms.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -827,13 +885,13 @@
     "synonyms": "[\"Acer virgatum\", \"Acer circinatum f. fulvum\", \"Acer circinatum var. fulvum\", \"Acer modocense\", \"Acer macounii\"]",
     "care": {
       "plant_id": "acer_circinatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 27,
       "ppfd_max": 57,
       "dli_min": 0.1,
@@ -893,7 +951,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
       "ar": [
@@ -936,7 +996,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/714626792ec3b79ee38208d7370d597fcc0b4564",
-    "description": "Two-winged samara",
+    "description": "Acer cissifolium is a maple native to Japan, from southern Hokkaidō south through Honshū and Shikoku to Kyūshū.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -947,7 +1007,7 @@
     "synonyms": "[\"Negundo cissifolium\", \"Crula cissifolia\"]",
     "care": {
       "plant_id": "acer_cissifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1013,7 +1073,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "de": [
@@ -1062,7 +1124,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4649011ab9252b207298c35042e093f7f9f8313d",
-    "description": "Fruit is a paired samara, pink or red maturing to brown.",
+    "description": "Acer crataegifolium , is a species of maple in the snakebark maple group, native to mountains forests of central and southern Japan, on Honshū, Kyūshū, and Shikoku.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1073,7 +1135,7 @@
     "synonyms": "[\"Acer crataegifolium var. veitchii\", \"Acer crataegifolium var. macrophyllum\", \"Acer crataegifolium f. veitchii\", \"Acer cucullobracteatum\"]",
     "care": {
       "plant_id": "acer_crataegifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1139,7 +1201,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "de": [
@@ -1175,7 +1239,7 @@
     "family": "Sapindaceae",
     "genus": "Acer",
     "category": "decorative",
-    "indoor": 0,
+    "indoor": 1,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1191,9 +1255,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_davidii",
-      "water_frequency": "Every 3-4 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "Full sun",
@@ -1257,7 +1321,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -1321,13 +1387,13 @@
     "synonyms": "[\"Acer glabrum subsp. typicum\", \"Acer glabrum var. typicum\"]",
     "care": {
       "plant_id": "acer_glabrum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -1387,7 +1453,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
       "ar": [
@@ -1426,7 +1494,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e460e06981d1f16670bf733b16b2e5cc.jpg",
-    "description": "1 inch long samaras in pairs in the fall.",
+    "description": "Acer granatense, or the Spanish maple, is a species of flowering plant in the genus Acer, native to southern and eastern Spain, including Mallorca in the Balearic Islands and the Rif mountains of Morocco. Considered by some authorities to be a subspecies of the Italian maple, Acer opalus subsp. granatense, it is often found growing on cliffs and crevices in mountainous areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1437,17 +1505,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_granatense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1506,7 +1574,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
       "ar": [
@@ -1534,7 +1604,7 @@
     "family": "Sapindaceae",
     "genus": "Acer",
     "category": "decorative",
-    "indoor": 0,
+    "indoor": 1,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1550,9 +1620,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_griseum",
-      "water_frequency": "Every 3-4 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Full sun",
@@ -1624,7 +1694,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -1667,7 +1739,7 @@
     "family": "Sapindaceae",
     "genus": "Acer",
     "category": "decorative",
-    "indoor": 0,
+    "indoor": 1,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1683,9 +1755,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_japonicum",
-      "water_frequency": "Every 3-4 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Full sun",
@@ -1749,7 +1821,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -1833,9 +1907,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_japonicum_aconitifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Full sun",
@@ -1914,12 +1988,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Acer japonicum 'Aconitifolium'"
+      ],
       "en": [
+        "Acer japonicum 'Aconitifolium'",
         "Cutleaf Fullmoon Maple",
         "fernleaf full moon maple"
+      ],
+      "es": [
+        "Acer japonicum 'Aconitifolium'"
+      ],
+      "fr": [
+        "Acer japonicum 'Aconitifolium'"
+      ],
+      "it": [
+        "Acer japonicum 'Aconitifolium'"
+      ],
+      "nl": [
+        "Acer japonicum 'Aconitifolium'"
+      ],
+      "pl": [
+        "Acer japonicum 'Aconitifolium'"
+      ],
+      "pt": [
+        "Acer japonicum 'Aconitifolium'"
+      ],
+      "ru": [
+        "Acer japonicum 'Aconitifolium'"
       ],
       "zh": [
         "乌头叶羽扇槭"
@@ -1954,9 +2055,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_japonicum_green_cascade",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Full sun",
@@ -2020,7 +2121,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -2040,7 +2143,7 @@
     "family": "Sapindaceae",
     "genus": "Acer",
     "category": "decorative",
-    "indoor": 0,
+    "indoor": 1,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2056,9 +2159,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_macrophyllum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "full sun",
@@ -2129,7 +2232,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -2211,9 +2316,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_macrophyllum_mocha_rose",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "full sun",
@@ -2284,7 +2389,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -2310,7 +2417,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9cc5b997ab0182b8ee091055f86dc1041d437c6b",
-    "description": "1 inch long samaras in pairs in the fall.",
+    "description": "Acer micranthum, the small-leaved maple, is a species of flowering plant in the family Sapindaceae in the snakebark maple group, native to Japan, on Honshū, Kyūshū and Shikoku. Its Japanese name is the Komine maple.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2321,7 +2428,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_micranthum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2390,17 +2497,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "de": [
         "Kleinblütiger Ahorn"
       ],
       "en": [
+        "Acer micranthum",
         "Small-leaved-maple"
+      ],
+      "es": [
+        "Acer micranthum"
+      ],
+      "fr": [
+        "Acer micranthum"
+      ],
+      "it": [
+        "Acer micranthum"
       ],
       "ja": [
         "コミネカエデ"
+      ],
+      "nl": [
+        "Acer micranthum"
+      ],
+      "pl": [
+        "Acer micranthum"
+      ],
+      "pt": [
+        "Acer micranthum"
       ],
       "ru": [
         "Клен мелкоцветковый",
@@ -2432,13 +2560,13 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_monspessulanum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -2501,7 +2629,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 6.5
     },
     "common_names": {
       "ar": [
@@ -2587,7 +2717,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cdf9f30ae2819e928fc1d152e9434e83e1b4556d",
-    "description": "Samara, appearing in September or October, 1 - 1 ½  long almost twice as long as other maples. Greenish-yellow initially, brown finally; fruit persists into winter and is not particularly attractive. Pairs of samaras are grouped in clusters; 60 degree angle between each pair.",
+    "description": "Acer negundo, also known as the box elder, boxelder maple, Manitoba maple or ash-leaved maple, is a species of maple native to North America from Canada to Honduras. It is a fast-growing, short-lived tree with opposite, ash-like compound leaves. It is sometimes considered a weedy or invasive species, and has been naturalized throughout much of the world, including South America, Australia, New Zealand, South Africa, much of Europe, and parts of Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2603,8 +2733,8 @@
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -2629,9 +2759,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Acer palmatum | Native to: NWY OO, GEO, MNT OO, SIC MA, UKR MO",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: toxic (horse). Parts: Leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2649,8 +2779,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Irregular",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"The sap has a high sugar content and can be used to produce a syrup\", \"known as mountain molasses. The cambium was used for food by Native Americans\", \"who also boiled down the sap for syrup. The inner bark was used medicinally to induce vomiting. For ceremonial painting\", \"charcoal was used from the new\"]",
@@ -2664,7 +2794,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.2
     },
     "common_names": {
       "ar": [
@@ -2775,9 +2907,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_negundo_flamingo",
-      "water_frequency": null,
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "full sun",
@@ -2849,10 +2981,13 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
+        "Acer negundo 'Flamingo'",
         "Flamingo Boxelder",
         "Manitoba Maple",
         "box elder"
@@ -2876,7 +3011,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ab07c06cc7dee7d1df74cea717beb75af7aa1ffa",
-    "description": "1 inch long samaras in pairs in the fall.",
+    "description": "Acer oblongum, common name Himalayan maple, evergreen maple and Kashmir maple, is an evergreen Asian species of maple in the family Sapindaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2887,7 +3022,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_oblongum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2956,11 +3091,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Acer oblongum"
+      ],
       "en": [
+        "Acer oblongum",
         "Flying mothtree"
+      ],
+      "es": [
+        "Acer oblongum"
+      ],
+      "fr": [
+        "Acer oblongum"
+      ],
+      "it": [
+        "Acer oblongum"
+      ],
+      "nl": [
+        "Acer oblongum"
+      ],
+      "pl": [
+        "Acer oblongum"
+      ],
+      "pt": [
+        "Acer oblongum"
+      ],
+      "ru": [
+        "Acer oblongum"
+      ],
+      "tr": [
+        "Acer oblongum"
       ],
       "zh": [
         "五龙皮",
@@ -2983,7 +3148,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1e3e1ce882bccab1f3cae453b7cca881749fe757",
-    "description": "1 inch long samaras in pairs in the fall.",
+    "description": "Acer oliverianum, common names Oliver's maple and Oliver maple, is broadleaf deciduous tree. It is a species of maple.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2994,7 +3159,7 @@
     "synonyms": "[\"Acer campbellii subsp. schneiderianum\", \"Acer campbellii subsp. oliverianum\", \"Acer schneiderianum\", \"Acer schneiderianum var. pubescens\"]",
     "care": {
       "plant_id": "acer_oliverianum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3063,11 +3228,35 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Acer oliverianum"
+      ],
       "en": [
+        "Acer oliverianum",
         "Oliver maple"
+      ],
+      "es": [
+        "Acer oliverianum"
+      ],
+      "fr": [
+        "Acer oliverianum"
+      ],
+      "it": [
+        "Acer oliverianum"
+      ],
+      "nl": [
+        "Acer oliverianum"
+      ],
+      "pl": [
+        "Acer oliverianum"
+      ],
+      "pt": [
+        "Acer oliverianum"
       ],
       "ru": [
         "Acer serrulatum",
@@ -3105,17 +3294,17 @@
     "synonyms": "[\"Acer italum var. opalus\", \"Acer italum f. opalus\"]",
     "care": {
       "plant_id": "acer_opalus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3138,7 +3327,7 @@
       "tips": "Native to: MIDDLE EUROPE, BAL OO, ALG, COR, FRA FR | Similar plants: Acer griseum",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Non-toxic (confirmed by TPPT database)",
       "common_problems": [
         "Verticillium wilt is a potential problem for maples.",
         "It may suffer limb breakage with snow or ice."
@@ -3174,7 +3363,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
       "ar": [
@@ -3249,7 +3440,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/607dc707c1858fb676308978386ea9a3a7952f2a",
-    "description": "A schizocarp of two samaras, wings incurved forming an arch, becoming reddish.",
+    "description": "Acer palmatum, commonly known as Japanese maple, palmate maple, or smooth Japanese maple, is a species of woody plant native to Korea, Japan, China, eastern Mongolia, and southeast Russia. Many different cultivars of this maple have been selected and they are grown worldwide for their large variety of attractive forms, leaf shapes, and spectacular colors.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3260,13 +3451,13 @@
     "synonyms": "[\"Acer palmatum var. thunbergii\", \"Acer polymorphum var. palmatum\", \"Acer eupalmatum\", \"Acer palmatum subvar. eupalmatum\"]",
     "care": {
       "plant_id": "acer_palmatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -3326,7 +3517,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
       "ar": [
@@ -3389,7 +3582,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/503808c0e43498ba3db0ea0fe0e87e7942a5e158",
-    "description": "1 inch long winged samaras in pendulous chains. In North Carolina, the samaras are available from June to September.",
+    "description": "Acer pensylvanicum, known as the striped maple, whistlewood, moosewood, moose maple or goosefoot maple, is a North American species of maple. It is a small, slow-growing understory tree, and one of the most shade-tolerant species of maple. The striped maple is a sequential hermaphrodite, meaning that it can change its sex throughout its lifetime. It is the only species of snakebark maple native to North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3400,13 +3593,13 @@
     "synonyms": "[\"Acer pensylvanicum subsp. typicum\", \"Acer pensylvanicum var. erythrocladum\", \"Acer pensylvanicum erythrocladum\", \"Acer pensylvanicum f. erythrocladum\", \"Acer tricuspifolium\", \"Acer canadense\"]",
     "care": {
       "plant_id": "acer_pensylvanicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -3466,7 +3659,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
       "ar": [
@@ -3528,7 +3723,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0f800b82edded447a9e083e149faea1b6eac17e5",
-    "description": "Tiny black fruits in compound clusters ripen in fall.",
+    "description": "Acer pictum, commonly known as yellow-paint maple, is an Asian species of maple. It widespread across much of China as well as Korea, Japan, Mongolia, and eastern Russia. Its natural habitat is in temperate forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3539,17 +3734,17 @@
     "synonyms": "[\"Kalopanax pictus\", \"Acer platanoides subsp. pictum\", \"Acer lobelii subsp. pictum\"]",
     "care": {
       "plant_id": "acer_pictum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3610,11 +3805,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "de": [
+        "Acer pictum"
+      ],
       "en": [
+        "Acer pictum",
         "The painted maple"
+      ],
+      "es": [
+        "Acer pictum"
+      ],
+      "fr": [
+        "Acer pictum"
+      ],
+      "it": [
+        "Acer pictum"
+      ],
+      "nl": [
+        "Acer pictum"
+      ],
+      "pl": [
+        "Acer pictum"
+      ],
+      "pt": [
+        "Acer pictum"
+      ],
+      "ru": [
+        "Acer pictum"
       ],
       "zh": [
         "五角槭",
@@ -3652,8 +3874,8 @@
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -3680,7 +3902,7 @@
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Acer campestre | Native to: KGZ, NCS ST, NWY OO, MNT OO, UKR MO",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Non-toxic (confirmed by TPPT database)",
       "common_problems": [
         "\"}},{\"type\":\"image\",\"data\":{\"url\":\"https://images",
         "uk/production/volatile/sites/10/2023/07/2048x1365A-platanoidesRhytisma-acerinum-fungusSEOGettyImages-1360316322-cd45c8e",
@@ -3721,7 +3943,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.7
     },
     "common_names": {
       "ar": [
@@ -3844,13 +4068,13 @@
     "synonyms": "[\"Acer pseudoplatanus f. variegatum\", \"Acer pseudoplatanus var. complicatum\", \"Acer pseudoplatanus subsp. subobtusum\", \"Acer pseudoplatanus var. macrocarpum\", \"Acer pseudoplatanus subvar. auratum\", \"Acer pseudoplatanus var. anomalum\", \"Acer pseudoplatanus var. camboi\", \"Acer pseudoplatanus var. medium\", \"Acer pseudoplatanus f. lutescens\", \"Acer pseudoplatanus f. handjeryi\"]",
     "care": {
       "plant_id": "acer_pseudoplatanus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -3875,9 +4099,9 @@
       "watering_guide": "Propagation: Seed",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Acer buergerianum | Native to: BGM BE, VRG OO, IRE NI, BUL OO, ASIA TROPICAL",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: toxic (horse). Parts: Leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3895,8 +4119,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Rounded",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Leaf (or whole plant)",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Shade tree\"]",
@@ -3910,11 +4134,96 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.7
     },
     "common_names": {
+      "ar": [
+        "قيقب دلبي كاذب"
+      ],
+      "de": [
+        "Berg-Ahorn",
+        "Bergahorn",
+        "Blutahorn",
+        "Sykomore",
+        "Weiss-Ahorn",
+        "Weissahorn",
+        "Weiß-Ahorn",
+        "Weißahorn"
+      ],
       "en": [
         "Sycamore maple"
+      ],
+      "es": [
+        "Acer latifolium",
+        "Acer montanum",
+        "Acer procerum",
+        "Acer pseudo-platanus",
+        "Acer sericeum",
+        "Acer villosum",
+        "Arce blanco",
+        "Arce platano falso",
+        "Arce plátano falso",
+        "Arce sicomoro",
+        "Arce-sicomoro",
+        "Falso sicomoro",
+        "Falso sicómoro",
+        "Falso-platano",
+        "Pladano",
+        "Plagano",
+        "Planago",
+        "Platano silvestre",
+        "Plátano silvestre",
+        "Pradano"
+      ],
+      "fr": [
+        "Erable sycomore",
+        "Faux Platane",
+        "Érable de montagne",
+        "Érable sycomore",
+        "érable sycomore"
+      ],
+      "it": [
+        "Acero di monte",
+        "Acero montano",
+        "Sicomori"
+      ],
+      "ja": [
+        "シカモアカエデ",
+        "セイヨウカジカエデ"
+      ],
+      "ko": [
+        "개버즘단풍나무"
+      ],
+      "nl": [
+        "bergesdoorn",
+        "gewone esdoorn"
+      ],
+      "pl": [
+        "jawor",
+        "klon jawor",
+        "klon jaworowy"
+      ],
+      "pt": [
+        "Acer pseudoplatanus L. var. tomentosum Tausch",
+        "Falso-plátano",
+        "Plátano-bastardo"
+      ],
+      "ru": [
+        "Клен ложноплатановый",
+        "Клён ложноплатановый",
+        "Явор",
+        "белый клён",
+        "клён белый",
+        "платан"
+      ],
+      "tr": [
+        "Dağ akçaağacı"
+      ],
+      "zh": [
+        "岩槭",
+        "欧亚槭"
       ]
     },
     "tags": [],
@@ -3931,7 +4240,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/444ce92b2243359e8defd2686920564bbedcaf80",
-    "description": "1 inch long samaras in pairs in the fall.",
+    "description": "Acer pseudosieboldianum, the Korean maple or purplebloom maple, is a species of maple. It is native to northeastern China, Korea, and the Russian Far East.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3942,17 +4251,17 @@
     "synonyms": "[\"Acer pseudosieboldianum subsp. takesimense\", \"Acer circumlobatum var. pseudosieboldianum\", \"Acer pseudosieboldianum var. microsieboldianum\", \"Acer takesimense\", \"Acer pseudosieboldianum var. macrocarpum\", \"Acer pseudosieboldianum var. takesimense\", \"Acer pseudosieboldianum var. koreanum\", \"Acer pseudosieboldianum var. nudicarpum\", \"Acer okamotoi\", \"Acer ishidoyanum\"]",
     "care": {
       "plant_id": "acer_pseudosieboldianum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4011,11 +4320,36 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "de": [
+        "Koreanischer Fächer-Ahorn"
+      ],
       "en": [
-        "Korean maple"
+        "Korean maple",
+        "purplebloom maple"
+      ],
+      "fr": [
+        "Érable de Corée"
+      ],
+      "ko": [
+        "당단풍나무"
+      ],
+      "pl": [
+        "Klon ussuryjski"
+      ],
+      "ru": [
+        "Клён ложнозибольдов"
+      ],
+      "zh": [
+        "丹枫",
+        "九角枫",
+        "假色槭",
+        "紫花枫",
+        "紫花槭"
       ]
     },
     "tags": [],
@@ -4043,13 +4377,13 @@
     "synonyms": "[\"Acer rubrum f. schlesingeri\", \"Acer rubrum f. viride\", \"Acer stenocarpum\", \"Acer rubrum f. breviramusculum\", \"Acer rubrum f. rotundata\", \"Acer glaucum\", \"Acer rubrum var. rubrocarpum\", \"Rufacer rubrum\", \"Acer rubrum f. wagneri\", \"Acer rubrum f. pendulum\"]",
     "care": {
       "plant_id": "acer_rubrum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -4113,11 +4447,68 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "ar": [
+        "قيقب أحمر"
+      ],
+      "de": [
+        "Rot-Ahorn",
+        "Rotahorn"
+      ],
       "en": [
-        "Red maple"
+        "Red maple",
+        "red maple",
+        "soft maple",
+        "swamp maple",
+        "water maple"
+      ],
+      "es": [
+        "Acer collinsonia",
+        "Acer dasycarpum",
+        "Acer eriocarpum",
+        "Acer glaucum",
+        "Acer palliderubrum",
+        "Acer palmifolium",
+        "Arce rojo",
+        "Arce rojo americano",
+        "Argentacer saccharinum",
+        "Sacchrosphendamus saccharina"
+      ],
+      "fr": [
+        "plaine",
+        "plaine rouge",
+        "érable de Virginie",
+        "érable du Canada",
+        "érable rouge"
+      ],
+      "ja": [
+        "アメリカハナノキ",
+        "レッドメイプル"
+      ],
+      "nl": [
+        "Canadese esdoorn",
+        "rode esdoorn"
+      ],
+      "pl": [
+        "klon czerwony"
+      ],
+      "ru": [
+        "клен красный",
+        "клён красный",
+        "красный клен",
+        "красный клён"
+      ],
+      "tr": [
+        "Kırmızı akçaağaç"
+      ],
+      "zh": [
+        "北美紅楓",
+        "水枫",
+        "红花槭"
       ]
     },
     "tags": [],
@@ -4134,7 +4525,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1481c1b2f38140e01795e03476322aec0d56d84c",
-    "description": "Paired samara 1 inch long with rounded nutlets",
+    "description": "Acer rufinerve, the grey-budded snake-bark-maple, redvein maple or Honshū maple, is a species of tree in the snakebark maple group, related to Acer capillipes. It is native to mountain forests of Japan, on Honshū, Kyūshū and Shikoku.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4145,13 +4536,13 @@
     "synonyms": "[\"Acer rufinerve f. albolimbatum\", \"Acer pensylvanicum subsp. rufinerve\", \"Acer rufinerve var. marginatum\", \"Acer rufinerve albolimbata\", \"Acer rufinerve f. angustifolium\", \"Acer rufinerve var. albolimbatum\", \"Acer rufinerve var. marmoratum\", \"Acer rufinerve f. marmoratum\"]",
     "care": {
       "plant_id": "acer_rufinerve",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -4211,11 +4602,31 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "ar": [
+        "قيقب أحمر العروق"
+      ],
+      "de": [
+        "Rotnerviger Schlangenhaut-Ahorn"
+      ],
       "en": [
         "Grey-bud snakebark maple"
+      ],
+      "ja": [
+        "ウリハダカエデ"
+      ],
+      "pl": [
+        "Klon rdzawy"
+      ],
+      "ru": [
+        "Клён рыжевато-жилковатый"
+      ],
+      "zh": [
+        "红脉槭"
       ]
     },
     "tags": [],
@@ -4232,7 +4643,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c145c2daa0ca840cd6040f95cf3a5d67cbf9d7ff",
-    "description": "Samara, not ornamentally important.  Wings spreading at an 80 to 90-degree angle. In NC fruit is available in late spring to summer.",
+    "description": "Acer saccharinum, commonly known as silver maple, creek maple, silverleaf maple, soft maple, large maple, water maple, swamp maple, or white maple, is a species of maple native to the eastern and central United States and southeastern Canada. It is one of the most common trees in the United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4243,13 +4654,13 @@
     "synonyms": "[\"Sacchrosphendamnus saccharinus\", \"Acer dasycarpum subvar. cuneatum\", \"Acer saira\", \"Acer dasycarpum var. subtrilobatum\", \"Acer virginianum\", \"Acer dasycarpum f. citreovariegatum\", \"Acer dasycarpum var. pulverulentum\", \"Acer dasycarpum pyramidale\", \"Acer dasycarpum var. lutescens\", \"Acer floridanum\"]",
     "care": {
       "plant_id": "acer_saccharinum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -4309,11 +4720,70 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "de": [
+        "Silber-Ahorn",
+        "Silberahorn"
+      ],
       "en": [
-        "Soft maple"
+        "Soft maple",
+        "river maple",
+        "silver maple",
+        "soft maple",
+        "white maple"
+      ],
+      "es": [
+        "Arce blanco americano",
+        "Arce de Florida",
+        "Arce de hoja plateada",
+        "Arce del agua",
+        "Arce del azucar",
+        "Arce del rio",
+        "Arce del río",
+        "Arce plateado",
+        "Arce sacarino",
+        "Arce suave"
+      ],
+      "fr": [
+        "Erable argente",
+        "Erable argenté",
+        "Érable argenté",
+        "Érable lacinié"
+      ],
+      "it": [
+        "Acer saccarinum",
+        "Acero saccarino"
+      ],
+      "ja": [
+        "ギンカエデ",
+        "ギンヨウカエデ",
+        "シルバーメイプル"
+      ],
+      "nl": [
+        "Acer dasycarpum",
+        "Witte esdoorn",
+        "Zilveresdoorn"
+      ],
+      "pl": [
+        "Klon srebrzysty"
+      ],
+      "ru": [
+        "Клен серебристый",
+        "Клён серебристый",
+        "Серебристый клен",
+        "Серебристый клён"
+      ],
+      "tr": [
+        "Gümüşi akçaağaç"
+      ],
+      "zh": [
+        "糖槭",
+        "银枫树",
+        "银白槭"
       ]
     },
     "tags": [],
@@ -4330,7 +4800,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/64468534aac063b8ce25935c22941ceed8fa0f49",
-    "description": "The fruit is U-shaped, paired, papery-winged samara that averages 1 inch in length. Color is green maturing to brown. Available from June to September in North Carolina.",
+    "description": "Acer saccharum, the sugar maple, is a species of flowering plant in the soapberry and lychee family Sapindaceae. It is native to the hardwood forests of eastern Canada and the eastern United States. Sugar maple is best known for being the primary source of maple syrup and for its brightly colored autumn foliage.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4341,13 +4811,13 @@
     "synonyms": "[\"Saccharodendron saccharum\"]",
     "care": {
       "plant_id": "acer_saccharum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -4413,11 +4883,90 @@
       "germination_temp_c": null,
       "good_companions": "[\"Black walnut\"]",
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "ar": [
+        "قيقب سكري"
+      ],
+      "de": [
+        "Kanadischer Ahorn",
+        "Kanadischer Spitzahorn",
+        "Zucker-Ahorn",
+        "Zuckerahorn",
+        "Zuckerahorne"
+      ],
       "en": [
-        "Sugar maple"
+        "Sugar maple",
+        "sugar maple"
+      ],
+      "es": [
+        "Acer nigrum subsp. saccharophorum",
+        "Acer nigrum var. glaucum",
+        "Acer palmifolium f. glabratum",
+        "Acer palmifolium f. integrilobum",
+        "Acer saccharinum var. viride",
+        "Acer saccharophorum f. angustilobatum",
+        "Acer saccharophorum f. glaucum",
+        "Acer saccharophorum var. rugelii",
+        "Acer saccharum f. hispidum",
+        "Acer saccharum f. integrilobum",
+        "Acer saccharum f. rubrocarpum",
+        "Acer sinuosum",
+        "Acer subglaucum var. sinuosum",
+        "Acer treleaseanum",
+        "Arce azucarero",
+        "Arce de azucar"
+      ],
+      "fr": [
+        "érable franc",
+        "érable franche",
+        "érable à sucre"
+      ],
+      "it": [
+        "Acero canadese"
+      ],
+      "ja": [
+        "サトウカエデ",
+        "シュガーメイプル",
+        "シュガーメープル",
+        "シュガー・メイプル",
+        "シュガー・メープル",
+        "砂糖楓"
+      ],
+      "ko": [
+        "설탕단풍",
+        "설탕단풍나무"
+      ],
+      "nl": [
+        "Ahorn siroop",
+        "suikeresdoorn"
+      ],
+      "pl": [
+        "Klon cukrowy",
+        "Klon kanadyjski"
+      ],
+      "ru": [
+        "Acer hispidum",
+        "Acer palmifolium",
+        "Acer saccharinum Wangenh.",
+        "Acer saccharophorum",
+        "Acer subglaucum",
+        "Acer treleaseanum",
+        "Клен сахарный",
+        "Клён сахарный",
+        "Сахарный клен",
+        "Сахарный клён"
+      ],
+      "zh": [
+        "東部糖楓",
+        "石楓",
+        "硬楓",
+        "糖枫",
+        "糖楓",
+        "糖槭"
       ]
     },
     "tags": [],
@@ -4445,7 +4994,7 @@
     "synonyms": "[\"Acer japonicum f. aureum\", \"Acer shirasawanum f. aureum\", \"Acer japonicum var. aureum\", \"Acer japonicum var. microphyllum\"]",
     "care": {
       "plant_id": "acer_shirasawanum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4516,11 +5065,25 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Shirasawas Fächer-Ahorn"
+      ],
       "en": [
         "Shirasawa's maple"
+      ],
+      "pl": [
+        "Klon Shirasawy"
+      ],
+      "ru": [
+        "Клён Ширасавы"
+      ],
+      "zh": [
+        "白澤氏槭"
       ]
     },
     "tags": [],
@@ -4537,7 +5100,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c8effc4be5c5740acbc7d4403904b72f537e960b",
-    "description": "2-winged samara matures in fall.",
+    "description": "Acer sieboldianum is a species of maple native to Japan and common in the forests of Hokkaidō, Honshū, Shikoku and Kyūshū Islands; in the south of the range it is restricted to mountain forests. It is named after Philipp Franz von Siebold.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4548,13 +5111,13 @@
     "synonyms": "[\"Acer sieboldianum var. yezoense\", \"Acer japonicum var. sieboldianum\", \"Acer sieboldianum var. typicum\", \"Acer sieboldianum f. dissectum\", \"Acer sieboldianum var. tortuosum\", \"Acer sieboldianum f. microphyllum\", \"Acer polymorphum var. kaempferi\", \"Acer sieboldianum f. tortuosum\", \"Acer sieboldianum subvar. microphyllum\", \"Acer sieboldianum var. microphyllum\"]",
     "care": {
       "plant_id": "acer_sieboldianum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -4614,11 +5177,29 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "de": [
+        "Siebolds Fächer-Ahorn"
+      ],
       "en": [
         "Siebold's maple"
+      ],
+      "ja": [
+        "コハウチワカエデ"
+      ],
+      "pl": [
+        "Klon Siebolda"
+      ],
+      "ru": [
+        "Клен Зибольда",
+        "Клён Зибольда"
+      ],
+      "zh": [
+        "黄花羽扇槭"
       ]
     },
     "tags": [],
@@ -4635,7 +5216,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bf912ea056d12f09629ddbdacc4c5036640e2531",
-    "description": "Paired reddish samara 3⁄4–1 1⁄4 in. long, maturing in late summer to early autumn",
+    "description": "Acer spicatum, the mountain maple, dwarf maple, moose maple, or white maple, is a species of maple native to northeastern North America from Saskatchewan to Newfoundland, and south to Pennsylvania. It also grows at high elevations in the southern Appalachian Mountains to northern Georgia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4646,13 +5227,13 @@
     "synonyms": "[\"Acer parviflorum\", \"Acer montanum\", \"Acer spicatum f. rugosum\", \"Acer spicatum f. americanum\", \"Acer spicatum f. roseocarpum\", \"Acer striatum\", \"Acer pumilum\"]",
     "care": {
       "plant_id": "acer_spicatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -4712,11 +5293,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "de": [
+        "Vermont-Ahorn"
+      ],
       "en": [
-        "Moose maple"
+        "Moose maple",
+        "dwarf maple",
+        "moose maple",
+        "mountain maple",
+        "white maple"
+      ],
+      "fr": [
+        "plaine bleue",
+        "plaine bâtarde",
+        "érable bâtard",
+        "érable à épis"
+      ],
+      "ja": [
+        "アメリカヤマモミジ"
+      ],
+      "pl": [
+        "Klon kłosowy"
+      ],
+      "ru": [
+        "Клён колосистый"
+      ],
+      "zh": [
+        "山槭",
+        "穗果槭"
       ]
     },
     "tags": [],
@@ -4733,7 +5342,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8988e33ca7ec3e168d7e49df00bce6b5344addc3",
-    "description": "2 winged samaras are nearly parallel, reddish and 3/4 to 1 in wide",
+    "description": "Acer tataricum, the Tatar maple or Tatarian maple, is a species of maple widespread across central and southeastern Europe and temperate Asia, from Austria and Turkey, and in some circumscriptions, with a disjunct population in eastern Asia in northern and central China, Japan and the Russian Far East. The species is named after the Tatar peoples of southern Russia; the tree's name is similarly commonly also misspelled \"Tartar\" or \"Tartarian\" in English.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4744,13 +5353,13 @@
     "synonyms": "[\"Euacer tataricum\"]",
     "care": {
       "plant_id": "acer_tataricum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
       "ppfd_min": 69,
       "ppfd_max": 166,
       "dli_min": 0.3,
@@ -4810,11 +5419,65 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "قيقب تتري"
+      ],
+      "de": [
+        "Steppen-Ahorn",
+        "Steppenahorn",
+        "Tataren-Ahorn",
+        "Tatarenahorn",
+        "Tatarischer Steppen-Ahorn",
+        "Tatarischer Steppenahorn"
+      ],
       "en": [
-        "Tartar maple"
+        "Tartar maple",
+        "Tatar Maple"
+      ],
+      "es": [
+        "Acer tataricum f. acutipterum",
+        "Acer tataricum f. crispatum",
+        "Acer tataricum f. cruciatum",
+        "Acer tataricum f. incumbens",
+        "Acer tataricum f. latialatum",
+        "Acer tataricum f. nanum",
+        "Acer tataricum f. oblongifolium",
+        "Acer tataricum f. orbiculatum",
+        "Acer tataricum f. platypterum",
+        "Acer tataricum f. rotundifolium",
+        "Acer tataricum f. torminaloides",
+        "Acer tataricum var. crispatum",
+        "Acer tataricum var. incumbens",
+        "Acer tataricum var. slendzinskii",
+        "Arce de Tartaria",
+        "Euacer tataricum"
+      ],
+      "pl": [
+        "Klon tatarski"
+      ],
+      "ru": [
+        "Клен татарский",
+        "Клён татарский",
+        "Татарский клен",
+        "Татарский клён",
+        "Черноклён",
+        "лимок",
+        "неклён",
+        "паклён",
+        "серёжник",
+        "черноклен",
+        "черноклён"
+      ],
+      "tr": [
+        "Tatar akçaağacı"
+      ],
+      "zh": [
+        "鞑靼槭"
       ]
     },
     "tags": [],
@@ -4831,7 +5494,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/2cfa0972803f3991d4eb1f79dc4df8f8.jpg",
-    "description": "1 inch long samaras in pairs in the fall.",
+    "description": "Acer tschonoskii, the butterfly maple or Tschonoski's maple, is a species of shrub or small tree native to Japan and the Kuril Islands. It is one of the least invasive, easiest to grow, and hardiest species of maples, but remains rarely used in gardens. A. tschonoskii naturally grows in subalpine habitats, at elevations between 1,400–2,500 m (4,600–8,200 ft). A. tschonoskii var. australe,, a variety of A. tschonoskii, is distributed from Iwate Prefecture southward to Shikoku and Kyushu.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4842,7 +5505,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "acer_tschonoskii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4911,9 +5574,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Acer tschonoskii"
+      ],
+      "en": [
+        "Acer tschonoskii"
+      ],
+      "es": [
+        "Acer tschonoskii"
+      ],
+      "fr": [
+        "Acer tschonoskii"
+      ],
+      "it": [
+        "Acer tschonoskii"
+      ],
+      "ja": [
+        "ミネカエデ"
+      ],
+      "nl": [
+        "Acer tschonoskii"
+      ],
+      "pl": [
+        "Acer tschonoskii"
+      ],
+      "pt": [
+        "Acer tschonoskii"
+      ],
+      "ru": [
+        "Acer tschonoskii"
+      ],
+      "zh": [
+        "峰楓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4928,7 +5627,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4ea200005634d66cc7d20081e3e5af1f754d3da8",
-    "description": "The fruit is a smooth, pear to fig-shaped leathery capsule with 1-3 large, brown, shiny seeds, each with a pale scar (the  buck&#x27;s eye ).",
+    "description": "Aesculus californica, commonly known as the California buckeye or California horse-chestnut, is a species of buckeye native to California and southwestern Oregon.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4939,17 +5638,17 @@
     "synonyms": "[\"Hippocastanum californicum\", \"Pawia californica\", \"Calothyrsus californica\", \"Pavia californica\"]",
     "care": {
       "plant_id": "aesculus_californica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5009,11 +5708,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.4
     },
     "common_names": {
+      "ar": [
+        "كستناء كاليفورنيا"
+      ],
+      "de": [
+        "Kalifornische Rosskastanie"
+      ],
       "en": [
+        "Aesculus californica",
         "California buckeye"
+      ],
+      "es": [
+        "Aesculus californica"
+      ],
+      "fr": [
+        "Pavier de Californie"
+      ],
+      "it": [
+        "Aesculus californica"
+      ],
+      "nl": [
+        "Aesculus californica"
+      ],
+      "pl": [
+        "kasztanowiec kalifornijski"
+      ],
+      "pt": [
+        "Aesculus californica"
+      ],
+      "ru": [
+        "Aesculus californica"
+      ],
+      "zh": [
+        "加州七葉树"
       ]
     },
     "tags": [],
@@ -5030,7 +5762,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2c7f900973473a8136406780d1331210f54df263",
-    "description": "warty or prickly, leathery capsule with 1-3 shiny, brown seeds, each with a pale scar (the  buck&#x27;s eye )",
+    "description": "Aesculus glabra, commonly known as Ohio buckeye, Texas buckeye, fetid buckeye\nis a species of tree in the soapberry family (Sapindaceae) native to North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5041,17 +5773,17 @@
     "synonyms": "[\"Nebropsis glabra\"]",
     "care": {
       "plant_id": "aesculus_glabra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5109,11 +5841,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.4
     },
     "common_names": {
+      "de": [
+        "Ohio-Rosskastanie"
+      ],
       "en": [
+        "Aesculus glabra",
         "Ohio buckeye"
+      ],
+      "es": [
+        "Aesculus glabra"
+      ],
+      "fr": [
+        "Pavier de l'Ohio"
+      ],
+      "it": [
+        "Aesculus glabra"
+      ],
+      "ja": [
+        "オハイオトチノキ"
+      ],
+      "ko": [
+        "오하이오칠엽수"
+      ],
+      "nl": [
+        "Aesculus glabra"
+      ],
+      "pl": [
+        "Aesculus glabra"
+      ],
+      "pt": [
+        "Aesculus glabra"
+      ],
+      "ru": [
+        "Конский каштан голый"
+      ],
+      "zh": [
+        "光叶七叶树"
       ]
     },
     "tags": [],
@@ -5141,13 +5909,13 @@
     "synonyms": "[\"Aesculus procera\", \"Aesculus hippocastanum f. albovariegatum\", \"Aesculus hippocastanum var. albovariegatum\", \"Aesculus hippocastanum var. luteovariegatum\", \"Aesculus hippocastanum f. luteovariegatum\", \"Aesculus castanea\", \"Pawia hippocastanum\", \"Hippocastanum vulgare\", \"Aesculus hippocastanum var. flore-pleno\", \"Aesculus hippocastanum var. aureovariegata\"]",
     "care": {
       "plant_id": "aesculus_hippocastanum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
       "ppfd_min": 57,
       "ppfd_max": 104,
       "dli_min": 0.2,
@@ -5172,9 +5940,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "In spring pruning and remove old, diseased and dead leaves timely | Similar plants: Aesculus flava | Native to: BGM BE, NWY OO, IRE NI, GEO, FRA FR",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: strong toxic. Parts: Fruit, seed. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5192,8 +5960,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, seed",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"The fruit husk can be used to produce a textile dye.\"]",
@@ -5207,11 +5975,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.4
     },
     "common_names": {
+      "ar": [
+        "كستناء الحصان"
+      ],
+      "de": [
+        "Gewöhnliche Rosskastanie"
+      ],
       "en": [
+        "Aesculus hippocastanum",
         "Horse-chestnut"
+      ],
+      "es": [
+        "Aesculus hippocastanum"
+      ],
+      "fr": [
+        "Aesculus hippocastanum"
+      ],
+      "it": [
+        "Aesculus hippocastanum"
+      ],
+      "ja": [
+        "セイヨウトチノキ"
+      ],
+      "ko": [
+        "마로니에"
+      ],
+      "nl": [
+        "witte paardenkastanje"
+      ],
+      "pl": [
+        "kasztanowiec zwyczajny"
+      ],
+      "pt": [
+        "Castanheiro-da-índia"
+      ],
+      "ru": [
+        "конский каштан обыкновенный"
+      ],
+      "tr": [
+        "Beyaz çiçekli at kestanesi"
+      ],
+      "zh": [
+        "欧洲七叶树"
       ]
     },
     "tags": [],
@@ -5239,7 +6049,7 @@
     "synonyms": "[\"Macrothyrsus odorata\", \"Pavia alba\", \"Nebropsis alba\", \"Pavia edulis\", \"Aesculus macrostachya\", \"Pawia parviflora\", \"Aesculus macrostachys\", \"Aesculus odorata\", \"Pavia parviflora\", \"Aesculus alba\"]",
     "care": {
       "plant_id": "aesculus_parviflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5309,11 +6119,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Strauch-Rosskastanie"
+      ],
       "en": [
+        "Aesculus parviflora",
         "Shrubby pavia"
+      ],
+      "es": [
+        "Aesculus parviflora"
+      ],
+      "fr": [
+        "Aesculus parviflora"
+      ],
+      "it": [
+        "Aesculus parviflora"
+      ],
+      "ja": [
+        "アエスクルス・パルビフローラ"
+      ],
+      "nl": [
+        "Aesculus parviflora"
+      ],
+      "pl": [
+        "Kasztanowiec drobnokwiatowy"
+      ],
+      "pt": [
+        "Aesculus parviflora"
+      ],
+      "ru": [
+        "Aesculus parviflora"
+      ],
+      "tr": [
+        "Aesculus parviflora"
+      ],
+      "zh": [
+        "小花七叶树"
       ]
     },
     "tags": [],
@@ -5330,7 +6176,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/736576d820a65a25b86a6566dd863325c9fa664c",
-    "description": "1-3 inch wide smooth, light tan leathery capsule with 1-3 large, shiny, brown seeds each with a pale scar.",
+    "description": "Aesculus pavia, known as red buckeye or firecracker plant, is a species of deciduous flowering plant. The small tree or shrub is native to the southern and eastern parts of the United States, found from Illinois to Virginia in the north and from Texas to Florida in the south. It is hardy far to the north of its native range, with successful cultivation poleward to Arboretum Mustila in Finland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5341,13 +6187,13 @@
     "synonyms": null,
     "care": {
       "plant_id": "aesculus_pavia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
       "ppfd_min": 57,
       "ppfd_max": 104,
       "dli_min": 0.2,
@@ -5407,11 +6253,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.4
     },
     "common_names": {
+      "de": [
+        "Rote Rosskastanie"
+      ],
       "en": [
+        "Aesculus pavia",
         "Red buckeye"
+      ],
+      "es": [
+        "Aesculus pavia"
+      ],
+      "fr": [
+        "Pavier rouge"
+      ],
+      "it": [
+        "Aesculus pavia"
+      ],
+      "nl": [
+        "Aesculus pavia"
+      ],
+      "pl": [
+        "Kasztanowiec krwisty"
+      ],
+      "pt": [
+        "Aesculus pavia"
+      ],
+      "ru": [
+        "Конский каштан красный"
       ]
     },
     "tags": [],
@@ -5428,7 +6301,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/de6f5be1a00a344e8ac0994cc2384254fa240acd",
-    "description": "The fruit is a smooth, pear to fig-shaped leathery capsule with 1-3 large, brown, shiny seeds, each with a pale scar (the  buck&#x27;s eye ).",
+    "description": "Aesculus turbinata, common name Japanese horse-chestnut, is native to Japan but cultivated elsewhere. It is a tree up to 30 metres tall. Flowers are white to pale yellowish with red spots. Capsules are dark brown, obovoid to pyriform. The seeds were traditionally eaten, after leaching, by the Jōmon people of Japan over about four millennia, until 300 AD. Today the seeds are used in Japanese cuisine to prepare tochimochi.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5439,7 +6312,7 @@
     "synonyms": "[\"Pawia dissimilis\", \"Pawia turbinata\", \"Aesculus turbinata f. pubescens\", \"Aesculus turbinata var. pubescens\", \"Aesculus japonica\", \"Aesculus dissimilis\"]",
     "care": {
       "plant_id": "aesculus_turbinata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5512,11 +6385,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Japanische Rosskastanie"
+      ],
       "en": [
+        "Aesculus turbinata",
         "Japanese horse-chestnut"
+      ],
+      "es": [
+        "Aesculus turbinata"
+      ],
+      "fr": [
+        "Aesculus turbinata"
+      ],
+      "it": [
+        "Aesculus turbinata"
+      ],
+      "ja": [
+        "トチノキ"
+      ],
+      "ko": [
+        "칠엽수"
+      ],
+      "nl": [
+        "Aesculus turbinata"
+      ],
+      "pl": [
+        "Aesculus turbinata"
+      ],
+      "pt": [
+        "Aesculus turbinata"
+      ],
+      "ru": [
+        "Конский каштан японский"
+      ],
+      "tr": [
+        "Aesculus turbinata"
+      ],
+      "zh": [
+        "日本七叶树"
       ]
     },
     "tags": [],
@@ -5532,8 +6444,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/A_mature_Alectryon_excelsus_tree_in_Tangoio%2C_New_Zealand_%28cropped%29.jpg",
+    "description": "Alectryon excelsus, commonly known as tītoki, or sometimes New Zealand oak, is a shiny-leaved tree endemic to New Zealand. It is in the family Sapindaceae. It is found in coastal and lowland forests throughout most of the North Island and from Banks Peninsula to central Westland in the South Island.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5610,9 +6522,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Alectryon excelsus"
+      ],
+      "en": [
+        "Alectryon excelsus"
+      ],
+      "es": [
+        "Alectryon excelsus"
+      ],
+      "fr": [
+        "Alectryon excelsus"
+      ],
+      "it": [
+        "Alectryon excelsus"
+      ],
+      "nl": [
+        "Alectryon excelsus"
+      ],
+      "pl": [
+        "Alectryon excelsus"
+      ],
+      "pt": [
+        "Titoki"
+      ],
+      "ru": [
+        "Alectryon excelsus"
+      ],
+      "zh": [
+        "紅冠果"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5627,7 +6572,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c5ef9b8a747208bd815136a5f7ff317601167a60",
-    "description": null,
+    "description": "Alectryon oleifolius, commonly known as boonaree, inland rosewood or bullock bush, is a species of small tree of the soapberry family Sapindaceae, native to Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5704,11 +6649,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Alectryon oleifolius"
+      ],
       "en": [
+        "Alectryon oleifolius",
         "Australian rosewood"
+      ],
+      "es": [
+        "Alectryon oleifolius"
+      ],
+      "fr": [
+        "Alectryon oleifolius"
+      ],
+      "it": [
+        "Alectryon oleifolius"
+      ],
+      "nl": [
+        "Alectryon oleifolius"
+      ],
+      "pl": [
+        "Alectryon oleifolius"
+      ],
+      "pt": [
+        "Alectryon oleifolius"
+      ],
+      "ru": [
+        "Alectryon oleifolius"
       ]
     },
     "tags": [],
@@ -5802,9 +6774,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Allophylus africanus"
+      ],
+      "en": [
+        "Allophylus africanus"
+      ],
+      "es": [
+        "Allophylus africanus"
+      ],
+      "fr": [
+        "Allophylus africanus"
+      ],
+      "it": [
+        "Allophylus africanus"
+      ],
+      "nl": [
+        "Allophylus africanus"
+      ],
+      "pl": [
+        "Allophylus africanus"
+      ],
+      "pt": [
+        "Allophylus africanus"
+      ],
+      "ru": [
+        "Allophylus africanus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5819,7 +6821,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9700fe3ed83f5d18e4c6857a95e07b40ce7af975",
-    "description": null,
+    "description": "Allophylus cobbe, commonly known as titberry or Indian allophylus, is a pantropical shrub in the family Sapindaceae with many uses in traditional medicine. It has a highly variable morphology throughout its range and may prove to be more than one species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5896,13 +6898,20 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Allophylus cobbe"
+      ],
       "en": [
+        "Allophyllus cobbe",
         "titberry"
       ],
       "es": [
+        "Allophylus cobbe",
         "Allophylus cobbe f. racemosus",
         "Allophylus serrulatus",
         "Allophylus zimmermannianus",
@@ -5944,6 +6953,24 @@
         "Schmidelia villosa",
         "Toxicodendrum cobbe",
         "Usubis triphylla"
+      ],
+      "fr": [
+        "Allophylus cobbe"
+      ],
+      "it": [
+        "Allophylus cobbe"
+      ],
+      "nl": [
+        "Allophyllus cobbe"
+      ],
+      "pl": [
+        "Allophylus cobbe"
+      ],
+      "pt": [
+        "Allophylus cobbe"
+      ],
+      "ru": [
+        "Allophylus cobbe"
       ],
       "zh": [
         "止宮樹"
@@ -6040,9 +7067,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Allophylus cominia"
+      ],
+      "en": [
+        "Allophylus cominia"
+      ],
+      "es": [
+        "Allophylus cominia"
+      ],
+      "fr": [
+        "Allophylus cominia"
+      ],
+      "it": [
+        "Allophylus cominia"
+      ],
+      "nl": [
+        "Allophylus cominia"
+      ],
+      "pl": [
+        "Allophylus cominia"
+      ],
+      "pt": [
+        "Allophylus cominia"
+      ],
+      "ru": [
+        "Allophylus cominia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6057,7 +7114,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/34a7c6547183237f8d67fdc3be03f277aa16fa9b",
-    "description": null,
+    "description": "Allophylus edulis is a plant species in the genus Allophylus endemic to the Guianas, Brazil, Bolivia, Paraguay, Argentina and Uruguay.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6134,11 +7191,20 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Allophylus edulis"
+      ],
+      "en": [
+        "Allophylus edulis"
+      ],
       "es": [
         "Allophylus cambessedei",
+        "Allophylus edulis",
         "Allophylus edulis var. gracilis",
         "Allophylus edulis var. rosae",
         "Allophylus pauciflorus",
@@ -6158,8 +7224,24 @@
         "Waku",
         "Wakú"
       ],
+      "fr": [
+        "Allophylus edulis"
+      ],
+      "it": [
+        "Allophylus edulis"
+      ],
+      "nl": [
+        "Allophylus edulis"
+      ],
+      "pl": [
+        "Allophylus edulis"
+      ],
       "pt": [
+        "Allophylus edulis",
         "Vacum"
+      ],
+      "ru": [
+        "Allophylus edulis"
       ]
     },
     "tags": [],
@@ -6253,9 +7335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Allophylus petiolulatus"
+      ],
+      "en": [
+        "Allophylus petiolulatus"
+      ],
+      "es": [
+        "Allophylus petiolulatus"
+      ],
+      "fr": [
+        "Allophylus petiolulatus"
+      ],
+      "it": [
+        "Allophylus petiolulatus"
+      ],
+      "nl": [
+        "Allophylus petiolulatus"
+      ],
+      "pl": [
+        "Allophylus petiolulatus"
+      ],
+      "pt": [
+        "Allophylus petiolulatus"
+      ],
+      "ru": [
+        "Allophylus petiolulatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6347,11 +7459,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Allophylus racemosus"
+      ],
       "en": [
+        "Allophylus racemosus",
         "Palo de caja"
+      ],
+      "es": [
+        "Allophylus racemosus"
+      ],
+      "fr": [
+        "Allophylus racemosus"
+      ],
+      "it": [
+        "Allophylus racemosus"
+      ],
+      "nl": [
+        "Allophylus racemosus"
+      ],
+      "pl": [
+        "Allophylus racemosus"
+      ],
+      "pt": [
+        "Allophylus racemosus"
+      ],
+      "ru": [
+        "Allophylus racemosus"
       ],
       "zh": [
         "总状异木患",
@@ -6367,12 +7506,12 @@
     "family": "Sapindaceae",
     "genus": "Arytera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/17f585f0cc7ddadff78f9fc847bfcbfb.jpg",
-    "description": null,
+    "description": "Arytera divaricata, known as the gap axe, coogara, coogera or rose tamarind is a forest tree of eastern Australia. An attractive plant with glossy pale and limp new leaves. It grows in fairly dry situations, often in littoral rainforests and monsoon forest.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6449,9 +7588,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Arytera divaricata"
+      ],
+      "en": [
+        "Arytera divaricata"
+      ],
+      "es": [
+        "Arytera divaricata"
+      ],
+      "fr": [
+        "Arytera divaricata"
+      ],
+      "it": [
+        "Arytera divaricata"
+      ],
+      "nl": [
+        "Arytera divaricata"
+      ],
+      "pl": [
+        "Arytera divaricata"
+      ],
+      "pt": [
+        "Arytera divaricata"
+      ],
+      "ru": [
+        "Arytera divaricata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6461,12 +7630,12 @@
     "family": "Sapindaceae",
     "genus": "Atalaya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Atalaya_brevialata.jpg",
+    "description": "Atalaya brevialata is a species of plant in the soapberry (Sapindaceae) family. It is native to northern Australia where it occurs in the Northern Territory.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6543,9 +7712,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Atalaya brevialata"
+      ],
+      "en": [
+        "Atalaya brevialata"
+      ],
+      "es": [
+        "Atalaya brevialata"
+      ],
+      "fr": [
+        "Atalaya brevialata"
+      ],
+      "it": [
+        "Atalaya brevialata"
+      ],
+      "nl": [
+        "Atalaya brevialata"
+      ],
+      "pl": [
+        "Atalaya brevialata"
+      ],
+      "pt": [
+        "Atalaya brevialata"
+      ],
+      "ru": [
+        "Atalaya brevialata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6555,12 +7754,12 @@
     "family": "Sapindaceae",
     "genus": "Atalaya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/717ce5c3a1ab1a03e5408bf5440cd728.jpg",
-    "description": null,
+    "description": "Atalaya hemiglauca, commonly known as whitewood or cattle bush, is a species of plant in the soapberry (Sapindaceae) family. It is native to northern and inland Australia where it occurs from Western Australia through the Northern Territory and South Australia to Queensland and northern New South Wales.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6637,9 +7836,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Atalaya hemiglauca"
+      ],
+      "en": [
+        "Atalaya hemiglauca"
+      ],
+      "es": [
+        "Atalaya hemiglauca"
+      ],
+      "fr": [
+        "Atalaya hemiglauca"
+      ],
+      "it": [
+        "Atalaya hemiglauca"
+      ],
+      "nl": [
+        "Atalaya hemiglauca"
+      ],
+      "pl": [
+        "Atalaya hemiglauca"
+      ],
+      "pt": [
+        "Atalaya hemiglauca"
+      ],
+      "ru": [
+        "Atalaya hemiglauca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6649,7 +7878,7 @@
     "family": "Sapindaceae",
     "genus": "Billia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6731,9 +7960,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Billia rosea"
+      ],
+      "en": [
+        "Billia rosea"
+      ],
+      "es": [
+        "Billia rosea"
+      ],
+      "fr": [
+        "Billia rosea"
+      ],
+      "it": [
+        "Billia rosea"
+      ],
+      "nl": [
+        "Billia rosea"
+      ],
+      "pl": [
+        "Billia rosea"
+      ],
+      "pt": [
+        "Billia rosea"
+      ],
+      "ru": [
+        "Billia rosea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6743,7 +8002,7 @@
     "family": "Sapindaceae",
     "genus": "Blighia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6831,11 +8090,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
-      "en": [
+      "ar": [
+        "آقية"
+      ],
+      "de": [
         "Akee"
+      ],
+      "en": [
+        "Akee",
+        "Blighia sapida"
+      ],
+      "es": [
+        "Blighia"
+      ],
+      "fr": [
+        "Blighia sapida"
+      ],
+      "it": [
+        "Blighia sapida"
+      ],
+      "ja": [
+        "アキー"
+      ],
+      "ko": [
+        "아키"
+      ],
+      "nl": [
+        "Aki"
+      ],
+      "pl": [
+        "Bligia pospolita"
+      ],
+      "pt": [
+        "Akee"
+      ],
+      "ru": [
+        "Аки (растение)"
+      ],
+      "zh": [
+        "阿開木"
       ]
     },
     "tags": [],
@@ -6847,7 +8145,7 @@
     "family": "Sapindaceae",
     "genus": "Blighia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6929,9 +8227,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Blighia unijugata"
+      ],
+      "en": [
+        "Blighia unijugata"
+      ],
+      "es": [
+        "Blighia unijugata"
+      ],
+      "fr": [
+        "Blighia unijugata"
+      ],
+      "it": [
+        "Blighia unijugata"
+      ],
+      "nl": [
+        "Blighia unijugata"
+      ],
+      "pl": [
+        "Blighia unijugata"
+      ],
+      "pt": [
+        "Blighia unijugata"
+      ],
+      "ru": [
+        "Blighia unijugata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6941,12 +8269,12 @@
     "family": "Sapindaceae",
     "genus": "Cardiospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3cffb38599494a5d129121db30c811c2ac05ba8d",
-    "description": "1 inch wide oval to elliptical, green turning reddish-brown balloon-like capsular showy fruits. The seeds are round, green turning black, on thin paper walls inside the three parted bladder.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7025,11 +8353,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طفطف صدئي"
+      ],
+      "de": [
+        "Cardiospermum corindum"
+      ],
       "en": [
-        "Faux persil"
+        "Cardiospermum corindum",
+        "Faux persil",
+        "balloon vine",
+        "faux persil",
+        "heartseed balloonvine"
+      ],
+      "es": [
+        "Cardiospermum corindum"
+      ],
+      "fr": [
+        "Cardiospermum corindum"
+      ],
+      "it": [
+        "Cardiospermum corindum"
+      ],
+      "nl": [
+        "Cardiospermum corindum"
+      ],
+      "pl": [
+        "Cardiospermum corindum"
+      ],
+      "pt": [
+        "Cardiospermum corindum"
+      ],
+      "ru": [
+        "Cardiospermum corindum"
       ]
     },
     "tags": [],
@@ -7041,7 +8402,7 @@
     "family": "Sapindaceae",
     "genus": "Cardiospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7125,11 +8486,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طفطف مخملي"
+      ],
+      "de": [
+        "Cardiospermum grandiflorum"
+      ],
       "en": [
-        "Balloonvine"
+        "Balloonvine",
+        "Cardiospermum grandiflorum"
+      ],
+      "es": [
+        "Cardiospermum grandiflorum"
+      ],
+      "fr": [
+        "Cardiospermum grandiflorum"
+      ],
+      "it": [
+        "Cardiospermum grandiflorum"
+      ],
+      "nl": [
+        "Cardiospermum grandiflorum"
+      ],
+      "pl": [
+        "Cardiospermum grandiflorum"
+      ],
+      "pt": [
+        "Cardiospermum grandiflorum"
+      ],
+      "ru": [
+        "Кардиоспермум крупноцветковый"
+      ],
+      "zh": [
+        "大花倒地铃"
       ]
     },
     "tags": [],
@@ -7141,7 +8535,7 @@
     "family": "Sapindaceae",
     "genus": "Cardiospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7223,11 +8617,54 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بكف",
+        "نوفة"
+      ],
+      "de": [
+        "Ballonpflanze",
+        "Ballonrebe",
+        "Herzsame"
+      ],
       "en": [
-        "Balloonvine"
+        "Balloonvine",
+        "Cardiospermum halicacabum (Interior of Fruitcase)",
+        "Lesser balloon vine",
+        "Shepherd's vine",
+        "love in a puff"
+      ],
+      "ja": [
+        "フウセンカズラ",
+        "風船かずら",
+        "風船カズラ"
+      ],
+      "ko": [
+        "풍선덩굴"
+      ],
+      "nl": [
+        "blaasjeswingerd"
+      ],
+      "ru": [
+        "Кардиоспермум халикакаб",
+        "Кардиоспермум халикакабовый",
+        "Кардиоспермум халикакабский",
+        "Халикакаб"
+      ],
+      "zh": [
+        "三角泡",
+        "倒地鈴",
+        "倒地铃",
+        "倒地铃(小果倒地铃）",
+        "包袱草",
+        "野苦瓜",
+        "金丝苦楝藤",
+        "風船蔓",
+        "风船葛"
       ]
     },
     "tags": [],
@@ -7239,12 +8676,12 @@
     "family": "Sapindaceae",
     "genus": "Cardiospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a452f2b5ce09e900cc58923804a41ebb.jpg",
-    "description": "1 inch wide oval to elliptical, green turning reddish-brown balloon-like capsular showy fruits. The seeds are round, green turning black, on thin paper walls inside the three parted bladder.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7323,9 +8760,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cardiospermum microcarpum"
+      ],
+      "en": [
+        "Cardiospermum microcarpum"
+      ],
+      "es": [
+        "Cardiospermum microcarpum"
+      ],
+      "fr": [
+        "Cardiospermum microcarpum"
+      ],
+      "it": [
+        "Cardiospermum microcarpum"
+      ],
+      "nl": [
+        "Cardiospermum microcarpum"
+      ],
+      "pl": [
+        "Cardiospermum microcarpum"
+      ],
+      "pt": [
+        "Cardiospermum microcarpum"
+      ],
+      "ru": [
+        "Cardiospermum microcarpum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7335,7 +8802,7 @@
     "family": "Sapindaceae",
     "genus": "Cossinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7417,9 +8884,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cossinia pinnata"
+      ],
+      "en": [
+        "Cossinia pinnata"
+      ],
+      "es": [
+        "Cossinia pinnata"
+      ],
+      "fr": [
+        "bois de Judas"
+      ],
+      "it": [
+        "Cossinia pinnata"
+      ],
+      "nl": [
+        "Cossinia pinnata"
+      ],
+      "pl": [
+        "Cossinia pinnata"
+      ],
+      "pt": [
+        "Cossinia pinnata"
+      ],
+      "ru": [
+        "Cossinia pinnata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7429,7 +8926,7 @@
     "family": "Sapindaceae",
     "genus": "Cupania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7511,11 +9008,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cupania americana"
+      ],
       "en": [
+        "Cupania americana",
         "Wild ackee"
+      ],
+      "es": [
+        "Cupania americana"
+      ],
+      "fr": [
+        "Cupania americana"
+      ],
+      "it": [
+        "Cupania americana"
+      ],
+      "nl": [
+        "Cupania americana"
+      ],
+      "pl": [
+        "Cupania americana"
+      ],
+      "pt": [
+        "Cupania americana"
+      ],
+      "ru": [
+        "Cupania americana"
       ]
     },
     "tags": [],
@@ -7527,12 +9051,12 @@
     "family": "Sapindaceae",
     "genus": "Cupania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0651f9db10f64cffe989c9bc59f3661eccfc516e",
-    "description": null,
+    "description": "Cupania cinerea is a plant species in the family Sapindaceae. It was described as a new species in 1843 by German botanist Eduard Friedrich Poeppig. The plant is native to South America and Central America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7609,9 +9133,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cupania cinerea"
+      ],
+      "en": [
+        "Cupania cinerea"
+      ],
+      "es": [
+        "Cupania cinerea"
+      ],
+      "fr": [
+        "Cupania cinerea"
+      ],
+      "it": [
+        "Cupania cinerea"
+      ],
+      "nl": [
+        "Cupania cinerea"
+      ],
+      "pl": [
+        "Cupania cinerea"
+      ],
+      "pt": [
+        "Cupania cinerea"
+      ],
+      "ru": [
+        "Cupania cinerea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7621,7 +9175,7 @@
     "family": "Sapindaceae",
     "genus": "Cupania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7703,11 +9257,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cupania glabra"
+      ],
       "en": [
+        "Cupania glabra",
         "Florida toadwood"
+      ],
+      "es": [
+        "Cupania glabra"
+      ],
+      "fr": [
+        "Cupania glabra"
+      ],
+      "it": [
+        "Cupania glabra"
+      ],
+      "nl": [
+        "Cupania glabra"
+      ],
+      "pl": [
+        "Cupania glabra"
+      ],
+      "pt": [
+        "Cupania glabra"
+      ],
+      "ru": [
+        "Cupania glabra"
       ]
     },
     "tags": [],
@@ -7719,7 +9300,7 @@
     "family": "Sapindaceae",
     "genus": "Cupania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7801,9 +9382,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cupania oblongifolia"
+      ],
+      "en": [
+        "Cupania oblongifolia"
+      ],
+      "es": [
+        "Cupania oblongifolia"
+      ],
+      "fr": [
+        "Cupania oblongifolia"
+      ],
+      "it": [
+        "Cupania oblongifolia"
+      ],
+      "nl": [
+        "Cupania oblongifolia"
+      ],
+      "pl": [
+        "Cupania oblongifolia"
+      ],
+      "pt": [
+        "Cupania oblongifolia"
+      ],
+      "ru": [
+        "Cupania oblongifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7813,7 +9424,7 @@
     "family": "Sapindaceae",
     "genus": "Cupania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7895,9 +9506,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cupania scrobiculata"
+      ],
+      "en": [
+        "Cupania scrobiculata"
+      ],
+      "es": [
+        "Cupania scrobiculata"
+      ],
+      "fr": [
+        "Cupania scrobiculata"
+      ],
+      "it": [
+        "Cupania scrobiculata"
+      ],
+      "nl": [
+        "Cupania scrobiculata"
+      ],
+      "pl": [
+        "Cupania scrobiculata"
+      ],
+      "pt": [
+        "Cupania scrobiculata"
+      ],
+      "ru": [
+        "Cupania scrobiculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7907,12 +9548,12 @@
     "family": "Sapindaceae",
     "genus": "Cupania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a9e118d5f2d80ab55fc46528d0209133f9316a22",
-    "description": null,
+    "description": "Cupania vernalis is a tree species in the genus Cupania and family Sapindaceae. \nThey have a self-supporting growth form. They are native to Sao Paulo.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7989,9 +9630,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cupania vernalis"
+      ],
+      "en": [
+        "Cupania vernalis"
+      ],
+      "es": [
+        "Cupania vernalis"
+      ],
+      "fr": [
+        "Cupania vernalis"
+      ],
+      "it": [
+        "Cupania vernalis"
+      ],
+      "nl": [
+        "Cupania vernalis"
+      ],
+      "pl": [
+        "Cupania vernalis"
+      ],
+      "pt": [
+        "Cupania vernalis"
+      ],
+      "ru": [
+        "Cupania vernalis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8001,12 +9672,12 @@
     "family": "Sapindaceae",
     "genus": "Cupaniopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7f650cd9a879d38eec287285905591aa869861dc",
-    "description": null,
+    "description": "Cupaniopsis anacardioides, commonly known as tuckeroo, cashew-leaf cupania, carrotwood, beach tamarind or green-leaved tamarind, is a species of flowering plant in the family, Sapindaceae, and is native to eastern and northern Australia. It is a tree with paripinnate leaves with 4 to 8 egg-shaped leaflets with the narrower end towards the base, or elliptic leaves, and separate male and female flowers arranged in panicles, the fruit a more or less spherical golden yellow capsule.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8083,11 +9754,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cupaniopsis anacardioides"
+      ],
       "en": [
-        "Carrotwood"
+        "Carrotwood",
+        "Cupaniopsis anacardioides"
+      ],
+      "es": [
+        "Cupaniopsis anacardioides"
+      ],
+      "fr": [
+        "Cupaniopsis anacardioides"
+      ],
+      "it": [
+        "Cupaniopsis anacardioides"
+      ],
+      "nl": [
+        "Cupaniopsis anacardioides"
+      ],
+      "pl": [
+        "Cupaniopsis anacardioides"
+      ],
+      "pt": [
+        "Cupaniopsis anacardioides"
+      ],
+      "ru": [
+        "Cupaniopsis anacardioides"
       ]
     },
     "tags": [],
@@ -8099,7 +9797,7 @@
     "family": "Sapindaceae",
     "genus": "Deinbollia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8181,9 +9879,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Deinbollia pinnata"
+      ],
+      "en": [
+        "Deinbollia pinnata"
+      ],
+      "es": [
+        "Deinbollia pinnata"
+      ],
+      "fr": [
+        "Deinbollia pinnata"
+      ],
+      "it": [
+        "Deinbollia pinnata"
+      ],
+      "nl": [
+        "Deinbollia pinnata"
+      ],
+      "pl": [
+        "Deinbollia pinnata"
+      ],
+      "pt": [
+        "Deinbollia pinnata"
+      ],
+      "ru": [
+        "Deinbollia pinnata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8193,7 +9921,7 @@
     "family": "Sapindaceae",
     "genus": "Diatenopteryx",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8275,9 +10003,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diatenopteryx sorbifolia"
+      ],
+      "en": [
+        "Diatenopteryx sorbifolia"
+      ],
+      "es": [
+        "Diatenopteryx sorbifolia",
+        "Maria preta",
+        "María preta"
+      ],
+      "fr": [
+        "Diatenopteryx sorbifolia"
+      ],
+      "it": [
+        "Diatenopteryx sorbifolia"
+      ],
+      "nl": [
+        "Diatenopteryx sorbifolia"
+      ],
+      "pl": [
+        "Diatenopteryx sorbifolia"
+      ],
+      "pt": [
+        "Diatenopteryx sorbifolia"
+      ],
+      "ru": [
+        "Diatenopteryx sorbifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8287,12 +10047,12 @@
     "family": "Sapindaceae",
     "genus": "Dimocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/22d72586c4725d5a01bd918938564fe6d49d4bd6",
-    "description": null,
+    "description": "Dimocarpus longan, commonly known as the longan and dragon's eye, is a tropical tree species that produces edible fruit. It is one of the better-known tropical members of the soapberry family Sapindaceae, to which the lychee and rambutan also belong. The fruit of the longan is similar to that of the lychee, but is less aromatic in taste.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8369,11 +10129,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
-      "en": [
+      "ar": [
+        "لونجان"
+      ],
+      "de": [
         "Longan"
+      ],
+      "en": [
+        "Dimocarpus longan",
+        "Longan"
+      ],
+      "es": [
+        "Dimocarpus longan"
+      ],
+      "fr": [
+        "longanier"
+      ],
+      "it": [
+        "Dimocarpus longan"
+      ],
+      "ja": [
+        "リュウガン"
+      ],
+      "ko": [
+        "롱안"
+      ],
+      "nl": [
+        "longan"
+      ],
+      "pl": [
+        "Dimocarpus longan"
+      ],
+      "pt": [
+        "longan"
+      ],
+      "ru": [
+        "Лонган"
+      ],
+      "tr": [
+        "longan"
+      ],
+      "zh": [
+        "龍眼"
       ]
     },
     "tags": [],
@@ -8385,12 +10187,12 @@
     "family": "Sapindaceae",
     "genus": "Dodonaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Dodonaea baueri, commonly known as crinkled hop-bush, is a species of flowering plant in the family Sapindaceae and is endemic to South Australia. It is a dioecious, spreading, sometimes prostrate shrub with simple leaves, single or paired flowers and capsules usually with four wings.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8467,9 +10269,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "شث بويري"
+      ],
+      "de": [
+        "Dodonaea baueri"
+      ],
+      "en": [
+        "Dodonaea baueri"
+      ],
+      "es": [
+        "Dodonaea baueri"
+      ],
+      "fr": [
+        "Dodonaea baueri"
+      ],
+      "it": [
+        "Dodonaea baueri"
+      ],
+      "nl": [
+        "Dodonaea baueri"
+      ],
+      "pl": [
+        "Dodonaea baueri"
+      ],
+      "pt": [
+        "Dodonaea baueri"
+      ],
+      "ru": [
+        "Dodonaea baueri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8479,12 +10314,12 @@
     "family": "Sapindaceae",
     "genus": "Dodonaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/9d023a3506861f8fc91c724b84a24fb2.jpg",
-    "description": null,
+    "description": "Dodonaea bursariifolia, commonly known as small hop-bush, is a species of plant in the family Sapindaceae and is endemic to southern inland areas of continental Australia. It is a spreading shrub with simple egg-shaped to lance-shaped leaves, the narrower end towards the base, or oblong leaves, flowers arranged in pairs or threes, oblong capsules usually with three leathery, oblong wings.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8561,9 +10396,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dodonaea bursariifolia"
+      ],
+      "en": [
+        "Dodonaea bursariifolia"
+      ],
+      "es": [
+        "Dodonaea bursariifolia"
+      ],
+      "fr": [
+        "Dodonaea bursariifolia"
+      ],
+      "it": [
+        "Dodonaea bursariifolia"
+      ],
+      "nl": [
+        "Dodonaea bursariifolia"
+      ],
+      "pl": [
+        "Dodonaea bursariifolia"
+      ],
+      "pt": [
+        "Dodonaea bursariifolia"
+      ],
+      "ru": [
+        "Dodonaea bursariifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8573,12 +10438,12 @@
     "family": "Sapindaceae",
     "genus": "Dodonaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6536e36879484fe0ec30b49d4372f9f3.jpg",
-    "description": null,
+    "description": "Dodonaea hexandra, commonly known as horned hop bush, is a species of plant in the family Sapindaceae and is native to scattered parts of Australia, mostly in the south of South Australia. It is a spreading, dioecious shrub with simple leaves, flowers arranged singly with six stamens, and spherical, three-angled capsules.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8655,9 +10520,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dodonaea hexandra"
+      ],
+      "en": [
+        "Dodonaea hexandra"
+      ],
+      "es": [
+        "Dodonaea hexandra"
+      ],
+      "fr": [
+        "Dodonaea hexandra"
+      ],
+      "it": [
+        "Dodonaea hexandra"
+      ],
+      "nl": [
+        "Dodonaea hexandra"
+      ],
+      "pl": [
+        "Dodonaea hexandra"
+      ],
+      "pt": [
+        "Dodonaea hexandra"
+      ],
+      "ru": [
+        "Dodonaea hexandra"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8667,12 +10562,12 @@
     "family": "Sapindaceae",
     "genus": "Dodonaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Dodonaea hispidula is a species of flowering plant in the family Sapindaceae and is native to tropical northern Australia. It is a shrub with simple, usually clustered, narrowly elliptic or egg-shaped leaves with the narrower end towards the base, flowers arranged singly, in racemes or panicles, and oblong or elliptic capsules with three or four locules.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8749,9 +10644,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dodonaea hispidula"
+      ],
+      "en": [
+        "Dodonaea hispidula"
+      ],
+      "es": [
+        "Dodonaea hispidula"
+      ],
+      "fr": [
+        "Dodonaea hispidula"
+      ],
+      "it": [
+        "Dodonaea hispidula"
+      ],
+      "nl": [
+        "Dodonaea hispidula"
+      ],
+      "pl": [
+        "Dodonaea hispidula"
+      ],
+      "pt": [
+        "Dodonaea hispidula"
+      ],
+      "ru": [
+        "Dodonaea hispidula"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8761,12 +10686,12 @@
     "family": "Sapindaceae",
     "genus": "Dodonaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Dodonaea lanceolata, commonly known as pirrungu, or yellow hop-bush, is a species of plant in the family Sapindaceae and is endemic to northern Australia. It is an erect shrub with simple elliptic to oblong or lance-shaped leaves, flowers arranged in panicles on the ends of branches with usually eight stamens, and three-winged capsules.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8843,9 +10768,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dodonaea lanceolata"
+      ],
+      "en": [
+        "Dodonaea lanceolata"
+      ],
+      "es": [
+        "Dodonaea lanceolata"
+      ],
+      "fr": [
+        "Dodonaea lanceolata"
+      ],
+      "it": [
+        "Dodonaea lanceolata"
+      ],
+      "nl": [
+        "Dodonaea lanceolata"
+      ],
+      "pl": [
+        "Dodonaea lanceolata"
+      ],
+      "pt": [
+        "Dodonaea lanceolata"
+      ],
+      "ru": [
+        "Dodonaea lanceolata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8855,12 +10810,12 @@
     "family": "Sapindaceae",
     "genus": "Dodonaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a70fc9d450c91386d18c4f5d38ae6d6d68d82982",
-    "description": null,
+    "description": "Dodonaea lobulata, commonly known as bead hopbush, or lobed hop-bush, is a species of flowering plant in the family Sapindaceae and is endemic to southern continental Australia, mostly to inland Western Australia. It is an erect, spreading, dioecious shrub with pinnatifid or lobed leaves, flowers arranged in pairs or in groups of three, with six to eight stamens, and mostly three-angled capsules.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8937,11 +10892,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dodonaea lobulata"
+      ],
       "en": [
+        "Dodonaea lobulata",
         "Lobe-leaf hopbush"
+      ],
+      "es": [
+        "Dodonaea lobulata"
+      ],
+      "fr": [
+        "Dodonaea lobulata"
+      ],
+      "it": [
+        "Dodonaea lobulata"
+      ],
+      "nl": [
+        "Dodonaea lobulata"
+      ],
+      "pl": [
+        "Dodonaea lobulata"
+      ],
+      "pt": [
+        "Dodonaea lobulata"
+      ],
+      "ru": [
+        "Dodonaea lobulata"
       ]
     },
     "tags": [],
@@ -8953,12 +10935,12 @@
     "family": "Sapindaceae",
     "genus": "Dodonaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/5f2c84a1c35e2da47ed896c0a2171b68.jpg",
-    "description": null,
+    "description": "Dodonaea procumbens, commonly known as trailing hop bush or creeping hop-bush, is a species of shrub in the genus Dodonaea found in eastern Australia. It occurs in many places in Australia such as South Australia, New South Wales and Victoria. Although the information on the abundance of this species is limited, it is estimated that about 5,000 plants occur in about 55 wild populations.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9035,9 +11017,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dodonaea procumbens"
+      ],
+      "en": [
+        "Dodonaea procumbens"
+      ],
+      "es": [
+        "Dodonaea procumbens"
+      ],
+      "fr": [
+        "Dodonaea procumbens"
+      ],
+      "it": [
+        "Dodonaea procumbens"
+      ],
+      "nl": [
+        "Dodonaea procumbens"
+      ],
+      "pl": [
+        "Dodonaea procumbens"
+      ],
+      "pt": [
+        "Dodonaea procumbens"
+      ],
+      "ru": [
+        "Dodonaea procumbens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9047,12 +11059,12 @@
     "family": "Sapindaceae",
     "genus": "Dodonaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ca4e556496c12389a98b9fb506821186.jpg",
-    "description": null,
+    "description": "Dodonaea stenozyga, commonly known as desert hop-bush, is a species of flowering plant in the family Sapindaceae and is endemic to southern parts of continental Australia. It is a small, upright shrub with small clusters of flowers and linear leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9129,9 +11141,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dodonaea stenozyga"
+      ],
+      "en": [
+        "Dodonaea stenozyga"
+      ],
+      "es": [
+        "Dodonaea stenozyga"
+      ],
+      "fr": [
+        "Dodonaea stenozyga"
+      ],
+      "it": [
+        "Dodonaea stenozyga"
+      ],
+      "nl": [
+        "Dodonaea stenozyga"
+      ],
+      "pl": [
+        "Dodonaea stenozyga"
+      ],
+      "pt": [
+        "Dodonaea stenozyga"
+      ],
+      "ru": [
+        "Dodonaea stenozyga"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9141,12 +11183,12 @@
     "family": "Sapindaceae",
     "genus": "Dodonaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9d549dfb9d797010bbf974a978cccaaec32a2183",
-    "description": null,
+    "description": "Dodonaea triquetra, commonly known as large-leaf hop-bush, is a species of flowering plant in the family Sapindaceae and is endemic to eastern Australia. It is usually a dioecious shrub with simple elliptic, sometimes lance-shaped or egg-shaped leaves, flowers in panicles on the ends of branches, each flower usually with four sepals, eight stamens, and a three-winged capsule.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9223,9 +11265,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dodonaea triquetra"
+      ],
+      "en": [
+        "Dodonaea triquetra"
+      ],
+      "es": [
+        "Dodonaea triquetra"
+      ],
+      "fr": [
+        "Dodonaea triquetra"
+      ],
+      "it": [
+        "Dodonaea triquetra"
+      ],
+      "nl": [
+        "Dodonaea triquetra"
+      ],
+      "pl": [
+        "Dodonaea triquetra"
+      ],
+      "pt": [
+        "Dodonaea triquetra"
+      ],
+      "ru": [
+        "Dodonaea triquetra"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9235,7 +11307,7 @@
     "family": "Sapindaceae",
     "genus": "Dodonaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9317,11 +11389,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شث دابق"
+      ],
+      "de": [
+        "Dodonaea viscosa"
+      ],
       "en": [
+        "Dodonaea viscosa",
         "Florida hopbush"
+      ],
+      "es": [
+        "Dodonaea viscosa"
+      ],
+      "fr": [
+        "bois de reinette"
+      ],
+      "hi": [
+        "विलायती मेहॆंदी"
+      ],
+      "it": [
+        "Dodonaea viscosa"
+      ],
+      "ja": [
+        "ハウチワノキ"
+      ],
+      "nl": [
+        "Dodonaea viscosa"
+      ],
+      "pl": [
+        "Dodonaea viscosa"
+      ],
+      "pt": [
+        "Dodonaea viscosa"
+      ],
+      "ru": [
+        "Dodonaea viscosa"
+      ],
+      "tr": [
+        "Dodonaea viscosa"
+      ],
+      "zh": [
+        "车桑子"
       ]
     },
     "tags": [],
@@ -9333,7 +11447,7 @@
     "family": "Sapindaceae",
     "genus": "Doratoxylon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9415,9 +11529,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Doratoxylon apetalum"
+      ],
+      "en": [
+        "Doratoxylon apetalum"
+      ],
+      "es": [
+        "Doratoxylon apetalum"
+      ],
+      "fr": [
+        "Doratoxylon apetalum"
+      ],
+      "it": [
+        "Doratoxylon apetalum"
+      ],
+      "nl": [
+        "Doratoxylon apetalum"
+      ],
+      "pl": [
+        "Doratoxylon apetalum"
+      ],
+      "pt": [
+        "Doratoxylon apetalum"
+      ],
+      "ru": [
+        "Doratoxylon apetalum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9427,12 +11571,12 @@
     "family": "Sapindaceae",
     "genus": "Ganophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Ganophyllum falcatum, commonly known as the scaly ash, is an evergreen rainforest tree. It grows up to 32 metres high and has rough, flaky bark. The species was described by German-Dutch botanist Carl Ludwig Blume in 1851 based on plant material collected from the coast of New Guinea.It is native to Africa, the Andaman Islands, Asia, Malesia and northern Australia. The ovoid fruits are consumed by fruit pigeons and cassowaries.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9509,9 +11653,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ganophyllum falcatum"
+      ],
+      "en": [
+        "Ganophyllum falcatum"
+      ],
+      "es": [
+        "Ganophyllum falcatum"
+      ],
+      "fr": [
+        "Ganophyllum falcatum"
+      ],
+      "it": [
+        "Ganophyllum falcatum"
+      ],
+      "nl": [
+        "Ganophyllum falcatum"
+      ],
+      "pl": [
+        "Ganophyllum falcatum"
+      ],
+      "pt": [
+        "Ganophyllum falcatum"
+      ],
+      "ru": [
+        "Ganophyllum falcatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9521,12 +11695,12 @@
     "family": "Sapindaceae",
     "genus": "Guioa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/05b0c0f6335c2336344ff0652e277954.jpg",
-    "description": null,
+    "description": "Guioa semiglauca, known as the guioa or wild quince, is a rainforest tree of eastern Australia It grows from Kioloa near Batemans Bay in southern New South Wales to Eungella National Park in tropical Queensland. It grows in many different types of rainforest, particularly common in regenerating areas and on sand in littoral rainforest.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9603,9 +11777,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Guioa semiglauca"
+      ],
+      "en": [
+        "Guioa semiglauca"
+      ],
+      "es": [
+        "Guioa semiglauca"
+      ],
+      "fr": [
+        "Guioa semiglauca"
+      ],
+      "it": [
+        "Guioa semiglauca"
+      ],
+      "nl": [
+        "Guioa semiglauca"
+      ],
+      "pl": [
+        "Guioa semiglauca"
+      ],
+      "pt": [
+        "Guioa semiglauca"
+      ],
+      "ru": [
+        "Guioa semiglauca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9615,12 +11819,12 @@
     "family": "Sapindaceae",
     "genus": "Jagera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Jagera pseudorhus, commonly named foambark, is a species of rainforest trees, in the northern half of eastern Australia and in New Guinea, constituting part of the flowering plant family Sapindaceae. Named for the saponin foam that forms on the bark after heavy rain.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9697,9 +11901,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Jagera pseudorhus"
+      ],
+      "en": [
+        "Jagera pseudorhus"
+      ],
+      "es": [
+        "Jagera pseudorhus"
+      ],
+      "fr": [
+        "Jagera pseudorhus"
+      ],
+      "it": [
+        "Jagera pseudorhus"
+      ],
+      "nl": [
+        "Jagera pseudorhus"
+      ],
+      "pl": [
+        "Jagera pseudorhus"
+      ],
+      "pt": [
+        "Jagera pseudorhus"
+      ],
+      "ru": [
+        "Jagera pseudorhus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9709,12 +11943,12 @@
     "family": "Sapindaceae",
     "genus": "Koelreuteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e1e403ade6f3462e20588824ac251cd5313116ac",
-    "description": null,
+    "description": "Koelreuteria elegans, more commonly known as flamegold rain tree, is a deciduous tree 15–17 metres tall. There are currently two subspecies under this taxa, i.e., K. elegans ssp. elegans, which is endemic to Fiji, and K. elegans ssp. formosana, which is endemic to Taiwan. The subspecies formosana, commonly known as Taiwanese golden rain tree, is widely grown throughout the tropics and sub-tropical parts of the world as a street tree.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9791,11 +12025,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كولرتيريا حمراء"
+      ],
+      "de": [
+        "Koelreuteria elegans"
+      ],
       "en": [
-        "Chinese flame tree"
+        "Chinese flame tree",
+        "Koelreuteria elegans"
+      ],
+      "es": [
+        "Koelreuteria elegans"
+      ],
+      "fr": [
+        "Koelreuteria elegans"
+      ],
+      "it": [
+        "Koelreuteria elegans"
+      ],
+      "ja": [
+        "タイワンモクゲンジ"
+      ],
+      "nl": [
+        "Koelreuteria elegans"
+      ],
+      "pl": [
+        "Koelreuteria elegans"
+      ],
+      "pt": [
+        "Koelreuteria elegans"
+      ],
+      "ru": [
+        "Koelreuteria elegans"
+      ],
+      "zh": [
+        "秀麗欒"
       ]
     },
     "tags": [],
@@ -9807,7 +12077,7 @@
     "family": "Sapindaceae",
     "genus": "Koelreuteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9889,11 +12159,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ظرو عثكولي"
+      ],
+      "de": [
+        "Blasenesche"
+      ],
       "en": [
-        "Goldenrain-tree"
+        "Goldenrain-tree",
+        "Koelreuteria paniculata"
+      ],
+      "it": [
+        "Koelreuteria paniculata"
+      ],
+      "ko": [
+        "모감주나무"
+      ],
+      "nl": [
+        "Chinese vernisboom"
+      ],
+      "pl": [
+        "Roztrzeplin wiechowaty"
+      ],
+      "pt": [
+        "Coreutéria"
+      ],
+      "ru": [
+        "Кёльрейтерия метельчатая"
+      ],
+      "tr": [
+        "Altuni fener ağacı"
+      ],
+      "zh": [
+        "栾树"
       ]
     },
     "tags": [],
@@ -9905,7 +12208,7 @@
     "family": "Sapindaceae",
     "genus": "Lecaniodiscus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9987,9 +12290,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lecaniodiscus cupanioides"
+      ],
+      "en": [
+        "Lecaniodiscus cupanioides"
+      ],
+      "es": [
+        "Lecaniodiscus cupanioides"
+      ],
+      "fr": [
+        "Lecaniodiscus cupanioides"
+      ],
+      "it": [
+        "Lecaniodiscus cupanioides"
+      ],
+      "nl": [
+        "Lecaniodiscus cupanioides"
+      ],
+      "pl": [
+        "Lecaniodiscus cupanioides"
+      ],
+      "pt": [
+        "Lecaniodiscus cupanioides"
+      ],
+      "ru": [
+        "Lecaniodiscus cupanioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9999,12 +12332,12 @@
     "family": "Sapindaceae",
     "genus": "Lepisanthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/996b86347d4047affecb6672219c72a4f67b0cea",
-    "description": null,
+    "description": "Lepisanthes senegalensis is a tree widespread through tropical Africa and tropical Asia to New Guinea and northern Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -10081,9 +12414,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lepisanthes senegalensis"
+      ],
+      "en": [
+        "Lepisanthes senegalensis"
+      ],
+      "es": [
+        "Lepisanthes senegalensis"
+      ],
+      "fr": [
+        "Lepisanthes senegalensis"
+      ],
+      "it": [
+        "Lepisanthes senegalensis"
+      ],
+      "nl": [
+        "Lepisanthes senegalensis"
+      ],
+      "pl": [
+        "Lepisanthes senegalensis"
+      ],
+      "pt": [
+        "Lepisanthes senegalensis"
+      ],
+      "ru": [
+        "Lepisanthes senegalensis"
+      ],
+      "zh": [
+        "滇赤才"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10093,12 +12459,12 @@
     "family": "Sapindaceae",
     "genus": "Litchi",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b7d793940cc8c7a1bff0112204761fabaef2ea3a",
-    "description": null,
+    "description": "Lychee is a monotypic taxon and the sole member in the genus Litchi in the soapberry family, Sapindaceae.\nThe fruit is edible and has a sweet, mildly tart flavor and a distinctive floral aroma often described as rose-like.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -10175,11 +12541,70 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بندق ليتشي",
+        "ليتشة",
+        "ليتشي"
+      ],
+      "de": [
+        "Litschibaum"
+      ],
       "en": [
-        "Leechee"
+        "Leechee",
+        "fruta del dragon",
+        "litchi",
+        "lychee"
+      ],
+      "fr": [
+        "litchi"
+      ],
+      "hi": [
+        "लीची"
+      ],
+      "it": [
+        "Ciliegia della Cina",
+        "litchi"
+      ],
+      "ja": [
+        "れいし",
+        "ライチ",
+        "ライチー",
+        "レイシ",
+        "茘枝"
+      ],
+      "ko": [
+        "리치"
+      ],
+      "nl": [
+        "lychee"
+      ],
+      "pl": [
+        "Liczi chińskie"
+      ],
+      "pt": [
+        "lichi",
+        "lichia"
+      ],
+      "ru": [
+        "личи"
+      ],
+      "tr": [
+        "Liçi"
+      ],
+      "zh": [
+        "大荔",
+        "离枝",
+        "荔枝",
+        "荔枝叶",
+        "荔枝壳",
+        "荔枝核",
+        "荔枝根",
+        "野生荔枝"
       ]
     },
     "tags": [],
@@ -10191,12 +12616,12 @@
     "family": "Sapindaceae",
     "genus": "Magonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/16ead0777dfc161b5a55eb0deed7fb7d.jpg",
-    "description": null,
+    "description": "Magonia A.St.-Hil. is a plant genus in the family Sapindaceae, with a single currently accepted species, Magonia pubescens. It is a tree native to tropical South America, ranging from northern Brazil through Bolivia and Paraguay to northeastern Argentina.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -10273,9 +12698,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Magonia pubescens"
+      ],
+      "en": [
+        "Magonia pubescens"
+      ],
+      "es": [
+        "Magonia pubescens"
+      ],
+      "fr": [
+        "Magonia pubescens"
+      ],
+      "it": [
+        "Magonia pubescens"
+      ],
+      "nl": [
+        "Magonia pubescens"
+      ],
+      "pl": [
+        "Magonia pubescens"
+      ],
+      "pt": [
+        "Magonia pubescens"
+      ],
+      "ru": [
+        "Magonia pubescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10285,7 +12740,7 @@
     "family": "Sapindaceae",
     "genus": "Matayba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10367,11 +12822,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Matayba arborescens"
+      ],
       "en": [
-        "Arborescent matayba"
+        "Arborescent matayba",
+        "Matayba arborescens"
+      ],
+      "es": [
+        "Matayba arborescens"
+      ],
+      "fr": [
+        "Matayba arborescens"
+      ],
+      "it": [
+        "Matayba arborescens"
+      ],
+      "nl": [
+        "Matayba arborescens"
+      ],
+      "pl": [
+        "Matayba arborescens"
+      ],
+      "pt": [
+        "Matayba arborescens"
+      ],
+      "ru": [
+        "Matayba arborescens"
       ]
     },
     "tags": [],
@@ -10383,7 +12865,7 @@
     "family": "Sapindaceae",
     "genus": "Matayba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10465,9 +12947,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Matayba elaeagnoides"
+      ],
+      "en": [
+        "Matayba elaeagnoides"
+      ],
+      "es": [
+        "Matayba elaeagnoides"
+      ],
+      "fr": [
+        "Matayba elaeagnoides"
+      ],
+      "it": [
+        "Matayba elaeagnoides"
+      ],
+      "nl": [
+        "Matayba elaeagnoides"
+      ],
+      "pl": [
+        "Matayba elaeagnoides"
+      ],
+      "pt": [
+        "Matayba elaeagnoides"
+      ],
+      "ru": [
+        "Matayba elaeagnoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10477,7 +12989,7 @@
     "family": "Sapindaceae",
     "genus": "Matayba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10559,9 +13071,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Matayba guianensis"
+      ],
+      "en": [
+        "Matayba guianensis"
+      ],
+      "es": [
+        "Matayba guianensis"
+      ],
+      "fr": [
+        "Matayba guianensis"
+      ],
+      "it": [
+        "Matayba guianensis"
+      ],
+      "nl": [
+        "Matayba guianensis"
+      ],
+      "pl": [
+        "Matayba guianensis"
+      ],
+      "pt": [
+        "Matayba guianensis"
+      ],
+      "ru": [
+        "Matayba guianensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10571,7 +13113,7 @@
     "family": "Sapindaceae",
     "genus": "Matayba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10653,9 +13195,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Matayba scrobiculata"
+      ],
+      "en": [
+        "Matayba scrobiculata"
+      ],
+      "es": [
+        "Matayba scrobiculata"
+      ],
+      "fr": [
+        "Matayba scrobiculata"
+      ],
+      "it": [
+        "Matayba scrobiculata"
+      ],
+      "nl": [
+        "Matayba scrobiculata"
+      ],
+      "pl": [
+        "Matayba scrobiculata"
+      ],
+      "pt": [
+        "Matayba scrobiculata"
+      ],
+      "ru": [
+        "Matayba scrobiculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10665,12 +13237,12 @@
     "family": "Sapindaceae",
     "genus": "Melicoccus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0426b42f8d3be699d48194725010d8a0a76d5ce7",
-    "description": null,
+    "description": "Melicoccus bijugatus is a fruit-bearing tree in the soapberry family Sapindaceae, native or naturalized across the New World tropics including South and Central America, and parts of the Caribbean. Its stone-bearing fruits, commonly called quenepa, kenèp or guinep, are edible. Other names for the fruits include limoncillo, Bajan ackee, chenet, Spanish lime, mamoncillo, and quenette.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -10747,11 +13319,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Melicoccus bijugatus"
+      ],
       "en": [
-        "Genip"
+        "Genip",
+        "Melicoccus bijugatusss"
+      ],
+      "es": [
+        "Melicoccus bijugatus"
+      ],
+      "fr": [
+        "Quenettier"
+      ],
+      "it": [
+        "Melicoccus bijugatus"
+      ],
+      "ja": [
+        "マモン"
+      ],
+      "ko": [
+        "마몬"
+      ],
+      "nl": [
+        "Knippa"
+      ],
+      "pl": [
+        "Melicoccus bijugatus"
+      ],
+      "pt": [
+        "Mamoncillo"
+      ],
+      "ru": [
+        "Мамончилло"
+      ],
+      "zh": [
+        "蜜莓"
       ]
     },
     "tags": [],
@@ -10763,7 +13371,7 @@
     "family": "Sapindaceae",
     "genus": "Melicoccus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10845,9 +13453,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Melicoccus oliviformis"
+      ],
+      "en": [
+        "Melicoccus oliviformis"
+      ],
+      "es": [
+        "Melicoccus oliviformis"
+      ],
+      "fr": [
+        "Melicoccus oliviformis"
+      ],
+      "it": [
+        "Melicoccus oliviformis"
+      ],
+      "nl": [
+        "Melicoccus oliviformis"
+      ],
+      "pl": [
+        "Melicoccus oliviformis"
+      ],
+      "pt": [
+        "Melicoccus oliviformis"
+      ],
+      "ru": [
+        "Melicoccus oliviformis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10857,7 +13495,7 @@
     "family": "Sapindaceae",
     "genus": "Molinaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10939,9 +13577,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Molinaea alternifolia"
+      ],
+      "en": [
+        "Molinaea alternifolia"
+      ],
+      "es": [
+        "Molinaea alternifolia"
+      ],
+      "fr": [
+        "Molinaea alternifolia"
+      ],
+      "it": [
+        "Molinaea alternifolia"
+      ],
+      "nl": [
+        "Molinaea alternifolia"
+      ],
+      "pl": [
+        "Molinaea alternifolia"
+      ],
+      "pt": [
+        "Molinaea alternifolia"
+      ],
+      "ru": [
+        "Molinaea alternifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10951,12 +13619,12 @@
     "family": "Sapindaceae",
     "genus": "Nephelium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/12d97a96a294167c86ed679cc9890229281fc647",
-    "description": null,
+    "description": "Rambutan is a medium-sized tropical tree in the family Sapindaceae. The name also refers to the edible fruit produced by this tree. The rambutan is native to Southeast Asia. It is closely related to several other edible tropical fruits, including the lychee, longan, pulasan, and quenepa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -11033,11 +13701,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
-      "en": [
+      "ar": [
+        "رامبوتان"
+      ],
+      "de": [
         "Rambutan"
+      ],
+      "en": [
+        "Nephelium lappaceum",
+        "Rambutan"
+      ],
+      "es": [
+        "Nephelium lappaceum"
+      ],
+      "fr": [
+        "ramboutan"
+      ],
+      "hi": [
+        "रम्बूटान"
+      ],
+      "it": [
+        "Nephelium lappaceum"
+      ],
+      "ja": [
+        "ランブータン"
+      ],
+      "ko": [
+        "람부탄"
+      ],
+      "nl": [
+        "Ramboetan"
+      ],
+      "pl": [
+        "Jagodzian rambutan"
+      ],
+      "pt": [
+        "Rambutão"
+      ],
+      "ru": [
+        "Рамбутан"
+      ],
+      "tr": [
+        "Rambutan"
+      ],
+      "zh": [
+        "红毛丹"
       ]
     },
     "tags": [],
@@ -11049,7 +13762,7 @@
     "family": "Sapindaceae",
     "genus": "Pancovia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -11131,9 +13844,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pancovia bijuga"
+      ],
+      "en": [
+        "Pancovia bijuga"
+      ],
+      "es": [
+        "Pancovia bijuga"
+      ],
+      "fr": [
+        "Pancovia bijuga"
+      ],
+      "it": [
+        "Pancovia bijuga"
+      ],
+      "nl": [
+        "Pancovia bijuga"
+      ],
+      "pl": [
+        "Pancovia bijuga"
+      ],
+      "pt": [
+        "Pancovia bijuga"
+      ],
+      "ru": [
+        "Pancovia bijuga"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -11143,12 +13886,12 @@
     "family": "Sapindaceae",
     "genus": "Pappea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e0320a8f1ed16ff4e203b78e790a33e701810366",
-    "description": null,
+    "description": "Pappea capensis is a South African tree in the family Sapindaceae. It is the only species in the genus Pappea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -11225,11 +13968,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pappea capensis"
+      ],
       "en": [
-        "Judgement tree"
+        "Judgement tree",
+        "Pappea capensis"
+      ],
+      "es": [
+        "Pappea capensis"
+      ],
+      "fr": [
+        "Pappea capensis"
+      ],
+      "it": [
+        "Pappea capensis"
+      ],
+      "nl": [
+        "Pappea capensis"
+      ],
+      "pl": [
+        "Pappea capensis"
+      ],
+      "pt": [
+        "Pappea capensis"
+      ],
+      "ru": [
+        "Pappea capensis"
       ]
     },
     "tags": [],
@@ -11241,7 +14011,7 @@
     "family": "Sapindaceae",
     "genus": "Paullinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -11323,9 +14093,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paullinia alata"
+      ],
+      "en": [
+        "Paullinia alata"
+      ],
+      "es": [
+        "Paullinia alata"
+      ],
+      "fr": [
+        "Paullinia alata"
+      ],
+      "it": [
+        "Paullinia alata"
+      ],
+      "nl": [
+        "Paullinia alata"
+      ],
+      "pl": [
+        "Paullinia alata"
+      ],
+      "pt": [
+        "Paullinia alata"
+      ],
+      "ru": [
+        "Paullinia alata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -11335,7 +14135,7 @@
     "family": "Sapindaceae",
     "genus": "Paullinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -11417,9 +14217,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paullinia carpopoda"
+      ],
+      "en": [
+        "Paullinia carpopoda"
+      ],
+      "es": [
+        "Paullinia carpopoda"
+      ],
+      "fr": [
+        "Paullinia carpopoda"
+      ],
+      "it": [
+        "Paullinia carpopoda"
+      ],
+      "nl": [
+        "Paullinia carpopoda"
+      ],
+      "pl": [
+        "Paullinia carpopoda"
+      ],
+      "pt": [
+        "Paullinia carpopoda"
+      ],
+      "ru": [
+        "Paullinia carpopoda"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -11429,7 +14259,7 @@
     "family": "Sapindaceae",
     "genus": "Paullinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -11511,9 +14341,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paullinia clavigera"
+      ],
+      "en": [
+        "Paullinia clavigera"
+      ],
+      "es": [
+        "Paullinia clavigera"
+      ],
+      "fr": [
+        "Paullinia clavigera"
+      ],
+      "it": [
+        "Paullinia clavigera"
+      ],
+      "nl": [
+        "Paullinia clavigera"
+      ],
+      "pl": [
+        "Paullinia clavigera"
+      ],
+      "pt": [
+        "Paullinia clavigera"
+      ],
+      "ru": [
+        "Paullinia clavigera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -11523,7 +14383,7 @@
     "family": "Sapindaceae",
     "genus": "Paullinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -11605,9 +14465,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paullinia cururu"
+      ],
+      "en": [
+        "Paullinia cururu"
+      ],
+      "es": [
+        "Paullinia cururu"
+      ],
+      "fr": [
+        "Paullinia cururu"
+      ],
+      "it": [
+        "Paullinia cururu"
+      ],
+      "nl": [
+        "Paullinia cururu"
+      ],
+      "pl": [
+        "Paullinia cururu"
+      ],
+      "pt": [
+        "Paullinia cururu"
+      ],
+      "ru": [
+        "Paullinia cururu"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -11617,7 +14507,7 @@
     "family": "Sapindaceae",
     "genus": "Paullinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -11699,9 +14589,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paullinia elegans"
+      ],
+      "en": [
+        "Paullinia elegans"
+      ],
+      "es": [
+        "Paullinia elegans"
+      ],
+      "fr": [
+        "Paullinia elegans"
+      ],
+      "it": [
+        "Paullinia elegans"
+      ],
+      "nl": [
+        "Paullinia elegans"
+      ],
+      "pl": [
+        "Paullinia elegans"
+      ],
+      "pt": [
+        "Paullinia elegans"
+      ],
+      "ru": [
+        "Paullinia elegans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -11711,12 +14631,12 @@
     "family": "Sapindaceae",
     "genus": "Paullinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/555c80343b07c2fb70ec5dc0353acd48.jpg",
-    "description": null,
+    "description": "Paullinia fuscescens, with no English name other than moldy bread and cheese used for several species, is a woody vine occurring from Mexico and the Caribbean into northern South America. It belongs to the family Sapindaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -11793,9 +14713,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paullinia fuscescens"
+      ],
+      "en": [
+        "Paullinia fuscescens"
+      ],
+      "es": [
+        "Paullinia fuscescens"
+      ],
+      "fr": [
+        "Paullinia fuscescens"
+      ],
+      "it": [
+        "Paullinia fuscescens"
+      ],
+      "nl": [
+        "Paullinia fuscescens"
+      ],
+      "pl": [
+        "Paullinia fuscescens"
+      ],
+      "pt": [
+        "Paullinia fuscescens"
+      ],
+      "ru": [
+        "Paullinia fuscescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -11805,7 +14755,7 @@
     "family": "Sapindaceae",
     "genus": "Paullinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -11887,9 +14837,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paullinia meliifolia"
+      ],
+      "en": [
+        "Paullinia meliifolia"
+      ],
+      "es": [
+        "Paullinia meliifolia"
+      ],
+      "fr": [
+        "Paullinia meliifolia"
+      ],
+      "it": [
+        "Paullinia meliifolia"
+      ],
+      "nl": [
+        "Paullinia meliifolia"
+      ],
+      "pl": [
+        "Paullinia meliifolia"
+      ],
+      "pt": [
+        "Paullinia meliifolia"
+      ],
+      "ru": [
+        "Paullinia meliifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -11899,12 +14879,12 @@
     "family": "Sapindaceae",
     "genus": "Paullinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6fe3bb42e8ce66b35a84de355a0c44664f760d88",
-    "description": null,
+    "description": "Paullinia pinnata is a flowering plant species in the genus of Paullinia found in South America and Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -11981,11 +14961,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Paullinia pinnata"
+      ],
       "en": [
-        "Barbasco"
+        "Barbasco",
+        "Paullinia pinnata"
+      ],
+      "es": [
+        "Paullinia pinnata"
+      ],
+      "fr": [
+        "Paullinia pinnata"
+      ],
+      "it": [
+        "Paullinia pinnata"
+      ],
+      "nl": [
+        "Paullinia pinnata"
+      ],
+      "pl": [
+        "Paullinia pinnata"
+      ],
+      "pt": [
+        "Paullinia pinnata"
+      ],
+      "ru": [
+        "Paullinia pinnata"
       ]
     },
     "tags": [],
@@ -11997,7 +15004,7 @@
     "family": "Sapindaceae",
     "genus": "Paullinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -12079,9 +15086,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paullinia trigonia"
+      ],
+      "en": [
+        "Paullinia trigonia"
+      ],
+      "es": [
+        "Paullinia trigonia"
+      ],
+      "fr": [
+        "Paullinia trigonia"
+      ],
+      "it": [
+        "Paullinia trigonia"
+      ],
+      "nl": [
+        "Paullinia trigonia"
+      ],
+      "pl": [
+        "Paullinia trigonia"
+      ],
+      "pt": [
+        "Paullinia trigonia"
+      ],
+      "ru": [
+        "Paullinia trigonia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -12091,12 +15128,12 @@
     "family": "Sapindaceae",
     "genus": "Pometia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f2ef1af6b3164247964c8b987001c07f.jpg",
-    "description": null,
+    "description": "The Pometia pinnata is a tropical hardwood tree species that is widespread in the Pacific and Southeast Asian regions. The tree species has many common names, including matoa, tava, taun tree, Island lychee and Pacific lychee. The species comes from the Sapindaceae family and comes from the clades of Tracheophytes, Angiosperms, and the order Sapindales.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -12173,9 +15210,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pometia pinnata"
+      ],
+      "en": [
+        "Pometia pinnata"
+      ],
+      "es": [
+        "Pometia"
+      ],
+      "fr": [
+        "Pometia pinnata"
+      ],
+      "it": [
+        "Pometia pinnata"
+      ],
+      "ja": [
+        "マトア"
+      ],
+      "nl": [
+        "Pometia pinnata"
+      ],
+      "pl": [
+        "Matoa"
+      ],
+      "pt": [
+        "Pometia"
+      ],
+      "ru": [
+        "Pometia pinnata"
+      ],
+      "tr": [
+        "Pometia pinnata"
+      ],
+      "zh": [
+        "番龙眼"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -12185,7 +15261,7 @@
     "family": "Sapindaceae",
     "genus": "Sapindus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -12267,11 +15343,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صابونية موكوروسية"
+      ],
+      "de": [
+        "Waschnussbaum"
+      ],
       "en": [
-        "Reetha"
+        "Reetha",
+        "Sapindus mukorossi"
+      ],
+      "es": [
+        "Sapindus mukorossi"
+      ],
+      "fr": [
+        "Sapindus mukorossi"
+      ],
+      "it": [
+        "Sapindus mukorossi"
+      ],
+      "ja": [
+        "ムクロジ"
+      ],
+      "ko": [
+        "무환자나무"
+      ],
+      "nl": [
+        "Sapindus mukorossi"
+      ],
+      "pl": [
+        "Sapindus mukorossi"
+      ],
+      "pt": [
+        "Sapindus mukorossi"
+      ],
+      "ru": [
+        "Sapindus mukorossi"
+      ],
+      "zh": [
+        "无患子"
       ]
     },
     "tags": [],
@@ -12283,7 +15398,7 @@
     "family": "Sapindaceae",
     "genus": "Sapindus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -12365,11 +15480,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صابونية غربية"
+      ],
+      "de": [
+        "Sapindus saponaria"
+      ],
       "en": [
+        "Sapindus saponaria",
         "Wing-leaf soapberry"
+      ],
+      "es": [
+        "Sapindus saponaria"
+      ],
+      "fr": [
+        "Sapindus saponaria"
+      ],
+      "it": [
+        "Sapindus saponaria"
+      ],
+      "nl": [
+        "Sapindus saponaria"
+      ],
+      "pl": [
+        "Sapindus saponaria"
+      ],
+      "pt": [
+        "Fruta-de-sabão"
+      ],
+      "ru": [
+        "Мыльное дерево настоящее"
+      ],
+      "zh": [
+        "無患子"
       ]
     },
     "tags": [],
@@ -12381,7 +15529,7 @@
     "family": "Sapindaceae",
     "genus": "Sarcopteryx",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -12463,9 +15611,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sarcopteryx stipata"
+      ],
+      "en": [
+        "Sarcopteryx stipata"
+      ],
+      "es": [
+        "Sarcopteryx stipata"
+      ],
+      "fr": [
+        "Sarcopteryx stipata"
+      ],
+      "it": [
+        "Sarcopteryx stipata"
+      ],
+      "nl": [
+        "Sarcopteryx stipata"
+      ],
+      "pl": [
+        "Sarcopteryx stipata"
+      ],
+      "pt": [
+        "Sarcopteryx stipata"
+      ],
+      "ru": [
+        "Sarcopteryx stipata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -12475,7 +15653,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -12557,9 +15735,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania caracasana"
+      ],
+      "en": [
+        "Serjania caracasana"
+      ],
+      "es": [
+        "Serjania caracasana"
+      ],
+      "fr": [
+        "Serjania caracasana"
+      ],
+      "it": [
+        "Serjania caracasana"
+      ],
+      "nl": [
+        "Serjania caracasana"
+      ],
+      "pl": [
+        "Serjania caracasana"
+      ],
+      "pt": [
+        "Serjania caracasana"
+      ],
+      "ru": [
+        "Serjania caracasana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -12569,7 +15777,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -12651,9 +15859,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania communis"
+      ],
+      "en": [
+        "Serjania communis"
+      ],
+      "es": [
+        "Serjania communis"
+      ],
+      "fr": [
+        "Serjania communis"
+      ],
+      "it": [
+        "Serjania communis"
+      ],
+      "nl": [
+        "Serjania communis"
+      ],
+      "pl": [
+        "Serjania communis"
+      ],
+      "pt": [
+        "Serjania communis"
+      ],
+      "ru": [
+        "Serjania communis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -12663,7 +15901,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -12745,9 +15983,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania erecta"
+      ],
+      "en": [
+        "Serjania erecta"
+      ],
+      "es": [
+        "Serjania erecta"
+      ],
+      "fr": [
+        "Serjania erecta"
+      ],
+      "it": [
+        "Serjania erecta"
+      ],
+      "nl": [
+        "Serjania erecta"
+      ],
+      "pl": [
+        "Serjania erecta"
+      ],
+      "pt": [
+        "Cinco-folhas"
+      ],
+      "ru": [
+        "Serjania erecta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -12757,7 +16025,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -12839,9 +16107,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania fuscifolia"
+      ],
+      "en": [
+        "Serjania fuscifolia"
+      ],
+      "es": [
+        "Serjania fuscifolia"
+      ],
+      "fr": [
+        "Serjania fuscifolia"
+      ],
+      "it": [
+        "Serjania fuscifolia"
+      ],
+      "nl": [
+        "Serjania fuscifolia"
+      ],
+      "pl": [
+        "Serjania fuscifolia"
+      ],
+      "pt": [
+        "Serjania fuscifolia"
+      ],
+      "ru": [
+        "Serjania fuscifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -12851,7 +16149,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -12933,9 +16231,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania glabrata"
+      ],
+      "en": [
+        "Serjania glabrata"
+      ],
+      "es": [
+        "Serjania glabrata"
+      ],
+      "fr": [
+        "Serjania glabrata"
+      ],
+      "it": [
+        "Serjania glabrata"
+      ],
+      "nl": [
+        "Serjania glabrata"
+      ],
+      "pl": [
+        "Serjania glabrata"
+      ],
+      "pt": [
+        "Serjania glabrata"
+      ],
+      "ru": [
+        "Serjania glabrata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -12945,7 +16273,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13027,9 +16355,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania laruotteana"
+      ],
+      "en": [
+        "Serjania laruotteana"
+      ],
+      "es": [
+        "Serjania laruotteana"
+      ],
+      "fr": [
+        "Serjania laruotteana"
+      ],
+      "it": [
+        "Serjania laruotteana"
+      ],
+      "nl": [
+        "Serjania laruotteana"
+      ],
+      "pl": [
+        "Serjania laruotteana"
+      ],
+      "pt": [
+        "Serjania laruotteana"
+      ],
+      "ru": [
+        "Serjania laruotteana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -13039,7 +16397,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13121,9 +16479,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania lethalis"
+      ],
+      "en": [
+        "Serjania lethalis"
+      ],
+      "es": [
+        "Serjania lethalis"
+      ],
+      "fr": [
+        "Serjania lethalis"
+      ],
+      "it": [
+        "Serjania lethalis"
+      ],
+      "nl": [
+        "Serjania lethalis"
+      ],
+      "pl": [
+        "Serjania lethalis"
+      ],
+      "pt": [
+        "Serjania lethalis"
+      ],
+      "ru": [
+        "Serjania lethalis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -13133,7 +16521,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13215,9 +16603,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania meridionalis"
+      ],
+      "en": [
+        "Serjania meridionalis"
+      ],
+      "es": [
+        "Serjania meridionalis"
+      ],
+      "fr": [
+        "Serjania meridionalis"
+      ],
+      "it": [
+        "Serjania meridionalis"
+      ],
+      "nl": [
+        "Serjania meridionalis"
+      ],
+      "pl": [
+        "Serjania meridionalis"
+      ],
+      "pt": [
+        "Serjania meridionalis"
+      ],
+      "ru": [
+        "Serjania meridionalis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -13227,7 +16645,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13309,9 +16727,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania mexicana"
+      ],
+      "en": [
+        "Serjania mexicana"
+      ],
+      "es": [
+        "Serjania mexicana"
+      ],
+      "fr": [
+        "Serjania mexicana"
+      ],
+      "it": [
+        "Serjania mexicana"
+      ],
+      "nl": [
+        "Serjania mexicana"
+      ],
+      "pl": [
+        "Serjania mexicana"
+      ],
+      "pt": [
+        "Serjania mexicana"
+      ],
+      "ru": [
+        "Serjania mexicana"
+      ],
+      "zh": [
+        "瓜瓶藤"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -13321,7 +16772,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13403,9 +16854,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania paradoxa"
+      ],
+      "en": [
+        "Serjania paradoxa"
+      ],
+      "es": [
+        "Serjania paradoxa"
+      ],
+      "fr": [
+        "Serjania paradoxa"
+      ],
+      "it": [
+        "Serjania paradoxa"
+      ],
+      "nl": [
+        "Serjania paradoxa"
+      ],
+      "pl": [
+        "Serjania paradoxa"
+      ],
+      "pt": [
+        "Serjania paradoxa"
+      ],
+      "ru": [
+        "Serjania paradoxa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -13415,7 +16896,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13497,9 +16978,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania reticulata"
+      ],
+      "en": [
+        "Serjania reticulata"
+      ],
+      "es": [
+        "Serjania reticulata"
+      ],
+      "fr": [
+        "Serjania reticulata"
+      ],
+      "it": [
+        "Serjania reticulata"
+      ],
+      "nl": [
+        "Serjania reticulata"
+      ],
+      "pl": [
+        "Serjania reticulata"
+      ],
+      "pt": [
+        "Serjania reticulata"
+      ],
+      "ru": [
+        "Serjania reticulata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -13509,7 +17020,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13591,9 +17102,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Serjania salzmanniana"
+      ],
+      "en": [
+        "Serjania salzmanniana"
+      ],
+      "es": [
+        "Serjania salzmanniana"
+      ],
+      "fr": [
+        "Serjania salzmanniana"
+      ],
+      "it": [
+        "Serjania salzmanniana"
+      ],
+      "nl": [
+        "Serjania salzmanniana"
+      ],
+      "pl": [
+        "Serjania salzmanniana"
+      ],
+      "pt": [
+        "Serjania salzmanniana"
+      ],
+      "ru": [
+        "Serjania salzmanniana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -13603,7 +17144,7 @@
     "family": "Sapindaceae",
     "genus": "Serjania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13685,11 +17226,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Serjania triquetra"
+      ],
       "en": [
-        "Bejuco cuadrado"
+        "Bejuco cuadrado",
+        "Serjania triquetra"
+      ],
+      "es": [
+        "Serjania triquetra"
+      ],
+      "fr": [
+        "Serjania triquetra"
+      ],
+      "it": [
+        "Serjania triquetra"
+      ],
+      "nl": [
+        "Serjania triquetra"
+      ],
+      "pl": [
+        "Serjania triquetra"
+      ],
+      "pt": [
+        "Serjania triquetra"
+      ],
+      "ru": [
+        "Serjania triquetra"
       ]
     },
     "tags": [],
@@ -13701,7 +17269,7 @@
     "family": "Sapindaceae",
     "genus": "Talisia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13783,9 +17351,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Talisia esculenta"
+      ],
+      "en": [
+        "Talisia esculenta"
+      ],
+      "es": [
+        "Talisia esculenta"
+      ],
+      "fr": [
+        "Talisia esculenta"
+      ],
+      "it": [
+        "Talisia esculenta"
+      ],
+      "nl": [
+        "Pitomba"
+      ],
+      "pl": [
+        "Talisia esculenta"
+      ],
+      "pt": [
+        "Pitomba"
+      ],
+      "ru": [
+        "Talisia esculenta"
+      ],
+      "zh": [
+        "牛睛果"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -13795,7 +17396,7 @@
     "family": "Sapindaceae",
     "genus": "Thouinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13877,9 +17478,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thouinia paucidentata"
+      ],
+      "en": [
+        "Thouinia paucidentata"
+      ],
+      "es": [
+        "Thouinia paucidentata"
+      ],
+      "fr": [
+        "Thouinia paucidentata"
+      ],
+      "it": [
+        "Thouinia paucidentata"
+      ],
+      "nl": [
+        "Thouinia paucidentata"
+      ],
+      "pl": [
+        "Thouinia paucidentata"
+      ],
+      "pt": [
+        "Thouinia paucidentata"
+      ],
+      "ru": [
+        "Thouinia paucidentata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -13889,7 +17520,7 @@
     "family": "Sapindaceae",
     "genus": "Thouinidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -13971,9 +17602,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thouinidium decandrum"
+      ],
+      "en": [
+        "Thouinidium decandrum"
+      ],
+      "es": [
+        "Thouinidium decandrum"
+      ],
+      "fr": [
+        "Thouinidium decandrum"
+      ],
+      "it": [
+        "Thouinidium decandrum"
+      ],
+      "nl": [
+        "Thouinidium decandrum"
+      ],
+      "pl": [
+        "Thouinidium decandrum"
+      ],
+      "pt": [
+        "Thouinidium decandrum"
+      ],
+      "ru": [
+        "Thouinidium decandrum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -13983,7 +17644,7 @@
     "family": "Sapindaceae",
     "genus": "Ungnadia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -14065,11 +17726,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ungnadia speciosa"
+      ],
       "en": [
-        "Texas-buckeye"
+        "Texas-buckeye",
+        "Ungnadia speciosa"
+      ],
+      "es": [
+        "Ungnadia speciosa"
+      ],
+      "fr": [
+        "Ungnadia speciosa"
+      ],
+      "it": [
+        "Ungnadia speciosa"
+      ],
+      "nl": [
+        "Ungnadia speciosa"
+      ],
+      "pl": [
+        "Ungnadia speciosa"
+      ],
+      "pt": [
+        "Ungnadia speciosa"
+      ],
+      "ru": [
+        "Унгнадия прекрасная"
       ]
     },
     "tags": [],
@@ -14081,7 +17769,7 @@
     "family": "Sapindaceae",
     "genus": "Urvillea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -14163,11 +17851,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Urvillea ulmacea"
+      ],
       "en": [
-        "Apaac"
+        "Apaac",
+        "Urvillea ulmacea"
+      ],
+      "es": [
+        "Urvillea ulmacea"
+      ],
+      "fr": [
+        "Urvillea ulmacea"
+      ],
+      "it": [
+        "Urvillea ulmacea"
+      ],
+      "nl": [
+        "Urvillea ulmacea"
+      ],
+      "pl": [
+        "Urvillea ulmacea"
+      ],
+      "pt": [
+        "Urvillea ulmacea"
+      ],
+      "ru": [
+        "Urvillea ulmacea"
       ]
     },
     "tags": [],

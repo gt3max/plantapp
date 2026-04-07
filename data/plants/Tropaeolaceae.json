@@ -5,7 +5,7 @@
     "family": "Tropaeolaceae",
     "genus": "Tropaeolum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -53,7 +53,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Good companions: Apricot, Cucumis sativus, Nectarine, Peach, Potato, Pumpkin / Zucchini, Raphanus sativus, Rose, Sour cherry, Sweet cherry | Similar plants: Mentha x piperita",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Non-toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses. Signs: No records of toxic ingestion from this plant.",
       "common_problems": [
         "Self-seeding can cause the plant to spread."
@@ -76,8 +76,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Climbing",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in seed",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": "No records of toxic ingestion from this plant.",
       "toxicity_first_aid": null,
       "used_for": "[\"Pest control\", \"oil\", \"Fragrance\"]",
@@ -91,11 +91,53 @@
       "germination_temp_c": null,
       "good_companions": "[\"Apricot\", \"Cucumis sativus\", \"Nectarine\", \"Peach\", \"Potato\", \"Pumpkin / Zucchini\", \"Raphanus sativus\", \"Rose\", \"Sour cherry\", \"Sweet cherry\"]",
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كبوسين كبير"
+      ],
+      "de": [
+        "Große Kapuzinerkresse"
+      ],
       "en": [
-        "Garden nasturtium"
+        "Garden nasturtium",
+        "Tropaeolum majus"
+      ],
+      "es": [
+        "Tropaeolum majus"
+      ],
+      "fr": [
+        "Grande capucine"
+      ],
+      "it": [
+        "Tropaeolum majus"
+      ],
+      "ja": [
+        "キンレンカ"
+      ],
+      "ko": [
+        "한련"
+      ],
+      "nl": [
+        "Oost-Indische kers"
+      ],
+      "pl": [
+        "Nasturcja większa"
+      ],
+      "pt": [
+        "Cinco-Chagas"
+      ],
+      "ru": [
+        "Настурция большая"
+      ],
+      "tr": [
+        "Latin çiçeği"
+      ],
+      "zh": [
+        "旱金莲"
       ]
     },
     "tags": [],

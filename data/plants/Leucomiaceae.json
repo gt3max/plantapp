@@ -5,7 +5,7 @@
     "family": "Leucomiaceae",
     "genus": "Leucomium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Leucomium strumosum"
+      ],
+      "en": [
+        "Leucomium strumosum"
+      ],
+      "es": [
+        "Leucomium strumosum"
+      ],
+      "fr": [
+        "Leucomium strumosum"
+      ],
+      "it": [
+        "Leucomium strumosum"
+      ],
+      "nl": [
+        "Leucomium strumosum"
+      ],
+      "pl": [
+        "Leucomium strumosum"
+      ],
+      "pt": [
+        "Leucomium strumosum"
+      ],
+      "ru": [
+        "Leucomium strumosum"
+      ],
+      "zh": [
+        "白蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Leucomiaceae",
     "genus": "Tetrastichium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tetrastichium fontanum"
+      ],
+      "en": [
+        "Tetrastichium fontanum"
+      ],
+      "es": [
+        "Tetrastichium fontanum"
+      ],
+      "fr": [
+        "Tetrastichium fontanum"
+      ],
+      "it": [
+        "Tetrastichium fontanum"
+      ],
+      "nl": [
+        "Tetrastichium fontanum"
+      ],
+      "pl": [
+        "Tetrastichium fontanum"
+      ],
+      "pt": [
+        "Tetrastichium fontanum"
+      ],
+      "ru": [
+        "Tetrastichium fontanum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +256,7 @@
     "family": "Leucomiaceae",
     "genus": "Tetrastichium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +338,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tetrastichium virens"
+      ],
+      "en": [
+        "Tetrastichium virens"
+      ],
+      "es": [
+        "Tetrastichium virens"
+      ],
+      "fr": [
+        "Tetrastichium virens"
+      ],
+      "it": [
+        "Tetrastichium virens"
+      ],
+      "nl": [
+        "Tetrastichium virens"
+      ],
+      "pl": [
+        "Tetrastichium virens"
+      ],
+      "pt": [
+        "Tetrastichium virens"
+      ],
+      "ru": [
+        "Tetrastichium virens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

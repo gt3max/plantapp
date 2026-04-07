@@ -5,7 +5,7 @@
     "family": "Fabroniaceae",
     "genus": "Clasmatodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Clasmatodon parvulus"
+      ],
+      "en": [
+        "Clasmatodon parvulus"
+      ],
+      "es": [
+        "Clasmatodon parvulus"
+      ],
+      "fr": [
+        "Clasmatodon parvulus"
+      ],
+      "it": [
+        "Clasmatodon parvulus"
+      ],
+      "nl": [
+        "Clasmatodon parvulus"
+      ],
+      "pl": [
+        "Clasmatodon parvulus"
+      ],
+      "pt": [
+        "Clasmatodon parvulus"
+      ],
+      "ru": [
+        "Clasmatodon parvulus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Fabroniaceae",
     "genus": "Fabronia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fabronia ciliaris"
+      ],
+      "en": [
+        "Fabronia ciliaris"
+      ],
+      "es": [
+        "Fabronia ciliaris"
+      ],
+      "fr": [
+        "Fabronia ciliaris"
+      ],
+      "it": [
+        "Fabronia ciliaris"
+      ],
+      "nl": [
+        "Fabronia ciliaris"
+      ],
+      "pl": [
+        "Fabronia ciliaris"
+      ],
+      "pt": [
+        "Fabronia ciliaris"
+      ],
+      "ru": [
+        "Fabronia ciliaris"
+      ],
+      "zh": [
+        "八齿碎米藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +256,7 @@
     "family": "Fabroniaceae",
     "genus": "Fabronia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +338,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fabronia pusilla"
+      ],
+      "en": [
+        "Fabronia pusilla"
+      ],
+      "es": [
+        "Fabronia pusilla"
+      ],
+      "fr": [
+        "Fabronia pusilla"
+      ],
+      "it": [
+        "Fabronia pusilla"
+      ],
+      "ja": [
+        "ファブロニア・プジッラ"
+      ],
+      "nl": [
+        "Fabronia pusilla"
+      ],
+      "pl": [
+        "Fabronia pusilla"
+      ],
+      "pt": [
+        "Fabronia pusilla"
+      ],
+      "ru": [
+        "Fabronia pusilla"
+      ],
+      "zh": [
+        "碎米藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

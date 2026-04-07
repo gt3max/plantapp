@@ -5,7 +5,7 @@
     "family": "Basellaceae",
     "genus": "Anredera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,9 +21,9 @@
     "synonyms": "[\"Boussingaultia cordifolia\", \"Boussingaultia gracilis\", \"Anredera cordifolia subsp. gracilis\", \"Boussingaultia cordata\", \"Anredera americana\", \"Boussingaultia gracilis f. pseudobaselloides\", \"Boussingaultia gracilis f. typica\", \"Boussingaultia gracilis var. pseudobaselloides\"]",
     "care": {
       "plant_id": "anredera_cordifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "Low",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "Bright indirect light",
@@ -95,11 +95,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مساس"
+      ],
+      "de": [
+        "Madeirawein"
+      ],
       "en": [
+        "Anredera cordifolia",
         "Basell-potatoes"
+      ],
+      "es": [
+        "Anredera cordifolia"
+      ],
+      "fr": [
+        "Anredera cordifolia"
+      ],
+      "it": [
+        "Anredera cordifolia"
+      ],
+      "ja": [
+        "アカザカズラ"
+      ],
+      "nl": [
+        "Anredera cordifolia"
+      ],
+      "pl": [
+        "Anredera cordifolia"
+      ],
+      "pt": [
+        "Anredera cordifolia"
+      ],
+      "ru": [
+        "Anredera cordifolia"
+      ],
+      "zh": [
+        "心叶落葵薯"
       ]
     },
     "tags": [],
@@ -111,7 +147,7 @@
     "family": "Basellaceae",
     "genus": "Basella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -199,11 +235,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بازيلاء بيضاء"
+      ],
+      "de": [
+        "Indischer Spinat"
+      ],
       "en": [
+        "Basella alba",
         "Indian-spinach"
+      ],
+      "es": [
+        "Basella alba"
+      ],
+      "fr": [
+        "Basella alba"
+      ],
+      "hi": [
+        "पोई"
+      ],
+      "it": [
+        "Basella alba"
+      ],
+      "ja": [
+        "ツルムラサキ"
+      ],
+      "ko": [
+        "말라바시금치"
+      ],
+      "nl": [
+        "Basella alba"
+      ],
+      "pl": [
+        "wyćwiklin biały"
+      ],
+      "pt": [
+        "Basella alba"
+      ],
+      "ru": [
+        "Базелла белая"
+      ],
+      "zh": [
+        "落葵"
       ]
     },
     "tags": [],
@@ -215,7 +293,7 @@
     "family": "Basellaceae",
     "genus": "Ullucus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -297,11 +375,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Olluco"
+      ],
       "en": [
+        "Ulluco",
+        "Ullucus tuberosus"
+      ],
+      "es": [
+        "Ullucus tuberosus"
+      ],
+      "fr": [
         "Ulluco"
+      ],
+      "it": [
+        "Ullucus tuberosus"
+      ],
+      "ja": [
+        "ウルーコ"
+      ],
+      "ko": [
+        "울류쿠"
+      ],
+      "nl": [
+        "Ullucus tuberosus"
+      ],
+      "pl": [
+        "Olluco"
+      ],
+      "pt": [
+        "Ullucus"
+      ],
+      "ru": [
+        "Уллюко"
       ]
     },
     "tags": [],

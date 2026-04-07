@@ -5,7 +5,7 @@
     "family": "Staphyleaceae",
     "genus": "Staphylea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "staphylea_bumalda",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.6
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Staphylea bumalda"
+      ],
+      "en": [
+        "Staphylea bumalda"
+      ],
+      "es": [
+        "Staphylea bumalda"
+      ],
+      "fr": [
+        "Staphylea bumalda"
+      ],
+      "it": [
+        "Staphylea bumalda"
+      ],
+      "ko": [
+        "고추나무"
+      ],
+      "nl": [
+        "Staphylea bumalda"
+      ],
+      "pl": [
+        "Staphylea bumalda"
+      ],
+      "pt": [
+        "Staphylea bumalda"
+      ],
+      "ru": [
+        "Staphylea bumalda"
+      ],
+      "zh": [
+        "省沽油"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +135,7 @@
     "family": "Staphyleaceae",
     "genus": "Staphylea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -115,7 +151,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "staphylea_formosana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -181,9 +217,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Staphylea formosana"
+      ],
+      "en": [
+        "Staphylea formosana"
+      ],
+      "es": [
+        "Staphylea formosana"
+      ],
+      "fr": [
+        "Staphylea formosana"
+      ],
+      "it": [
+        "Staphylea formosana"
+      ],
+      "nl": [
+        "Staphylea formosana"
+      ],
+      "pl": [
+        "Staphylea formosana"
+      ],
+      "pt": [
+        "Staphylea formosana"
+      ],
+      "ru": [
+        "Staphylea formosana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +259,7 @@
     "family": "Staphyleaceae",
     "genus": "Staphylea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -209,17 +275,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "staphylea_japonica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -275,9 +341,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.6
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Staphylea japonica"
+      ],
+      "en": [
+        "Staphylea japonica"
+      ],
+      "es": [
+        "Staphylea japonica"
+      ],
+      "fr": [
+        "Staphylea japonica"
+      ],
+      "it": [
+        "Staphylea japonica"
+      ],
+      "nl": [
+        "Staphylea japonica"
+      ],
+      "pl": [
+        "Staphylea japonica"
+      ],
+      "pt": [
+        "Staphylea japonica"
+      ],
+      "ru": [
+        "Staphylea japonica"
+      ],
+      "zh": [
+        "野鸦椿"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +386,7 @@
     "family": "Staphyleaceae",
     "genus": "Staphylea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -303,17 +402,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "staphylea_pinnata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -369,11 +468,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "de": [
+        "Gemeine Pimpernuss"
+      ],
       "en": [
-        "Bladdernut"
+        "Bladdernut",
+        "Staphylea pinnata"
+      ],
+      "es": [
+        "Staphylea pinnata"
+      ],
+      "fr": [
+        "Staphylea pinnata"
+      ],
+      "it": [
+        "Staphylea pinnata"
+      ],
+      "ja": [
+        "ミツバウツギ"
+      ],
+      "ko": [
+        "유럽고추나무"
+      ],
+      "nl": [
+        "Pimpernoot"
+      ],
+      "pl": [
+        "Kłokoczka południowa"
+      ],
+      "pt": [
+        "Staphylea pinnata"
+      ],
+      "ru": [
+        "Клекачка перистая"
+      ],
+      "tr": [
+        "Staphylea pinnata"
       ]
     },
     "tags": [],
@@ -385,7 +520,7 @@
     "family": "Staphyleaceae",
     "genus": "Staphylea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -401,17 +536,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "staphylea_trifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -473,11 +608,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "de": [
+        "Staphylea trifolia"
+      ],
       "en": [
-        "American bladdernut"
+        "American bladdernut",
+        "Staphylea trifolia"
+      ],
+      "es": [
+        "Staphylea trifolia"
+      ],
+      "fr": [
+        "Staphylier à trois folioles"
+      ],
+      "it": [
+        "Staphylea trifolia"
+      ],
+      "nl": [
+        "Staphylea trifolia"
+      ],
+      "pl": [
+        "Staphylea trifolia"
+      ],
+      "pt": [
+        "Staphylea trifolia"
+      ],
+      "ru": [
+        "Staphylea trifolia"
       ]
     },
     "tags": [],
@@ -489,7 +651,7 @@
     "family": "Staphyleaceae",
     "genus": "Turpinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -571,11 +733,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Turpinia occidentalis"
+      ],
       "en": [
-        "Muttonwood"
+        "Muttonwood",
+        "Turpinia occidentalis"
+      ],
+      "es": [
+        "Turpinia occidentalis"
+      ],
+      "fr": [
+        "Turpinia occidentalis"
+      ],
+      "it": [
+        "Turpinia occidentalis"
+      ],
+      "nl": [
+        "Turpinia occidentalis"
+      ],
+      "pl": [
+        "Turpinia occidentalis"
+      ],
+      "pt": [
+        "Turpinia occidentalis"
+      ],
+      "ru": [
+        "Turpinia occidentalis"
       ]
     },
     "tags": [],

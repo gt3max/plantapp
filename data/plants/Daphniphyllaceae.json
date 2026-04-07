@@ -5,7 +5,7 @@
     "family": "Daphniphyllaceae",
     "genus": "Daphniphyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -92,9 +92,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Daphniphyllum macropodum"
+      ],
+      "en": [
+        "Daphniphyllum macropodum"
+      ],
+      "es": [
+        "Daphniphyllum macropodum"
+      ],
+      "fr": [
+        "Daphniphyllum macropodum"
+      ],
+      "it": [
+        "Daphniphyllum macropodum"
+      ],
+      "ja": [
+        "ユズリハ"
+      ],
+      "ko": [
+        "굴거리나무"
+      ],
+      "nl": [
+        "Daphniphyllum macropodum"
+      ],
+      "pl": [
+        "Daphniphyllum macropodum"
+      ],
+      "pt": [
+        "Daphniphyllum macropodum"
+      ],
+      "ru": [
+        "Волчелистник крупноножковый"
+      ],
+      "zh": [
+        "交让木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -104,7 +143,7 @@
     "family": "Daphniphyllaceae",
     "genus": "Daphniphyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -191,9 +230,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Daphniphyllum pentandrum"
+      ],
+      "en": [
+        "Daphniphyllum pentandrum"
+      ],
+      "es": [
+        "Daphniphyllum pentandrum"
+      ],
+      "fr": [
+        "Daphniphyllum pentandrum"
+      ],
+      "it": [
+        "Daphniphyllum pentandrum"
+      ],
+      "nl": [
+        "Daphniphyllum pentandrum"
+      ],
+      "pl": [
+        "Daphniphyllum pentandrum"
+      ],
+      "pt": [
+        "Daphniphyllum pentandrum"
+      ],
+      "ru": [
+        "Daphniphyllum pentandrum"
+      ],
+      "zh": [
+        "虎皮楠"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

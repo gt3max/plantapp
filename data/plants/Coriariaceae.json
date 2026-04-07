@@ -5,12 +5,12 @@
     "family": "Coriariaceae",
     "genus": "Coriaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7b2ee5bd3e103ac11fdc5992a6e01c38ddbb3a61",
-    "description": null,
+    "description": "Coriaria arborea, commonly known as tutu and tree tutu, is a species of shrub or small tree in the family Coriariaceae. It is endemic to New Zealand. Every part of C. arborea, except the juice of the fruits, contains the toxin tutin, which is highly poisonous to humans and livestock. Poisonings can result in brain paralysis, convulsions, exhaustion, memory loss, or even death. C. arborea is a bushy shrub which can grow to a height of 7 metres. C.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coriaria arborea"
+      ],
+      "en": [
+        "Coriaria arborea"
+      ],
+      "es": [
+        "Coriaria arborea"
+      ],
+      "fr": [
+        "Coriaria arborea"
+      ],
+      "it": [
+        "Coriaria arborea"
+      ],
+      "nl": [
+        "Coriaria arborea"
+      ],
+      "pl": [
+        "Coriaria arborea"
+      ],
+      "pt": [
+        "Coriaria arborea"
+      ],
+      "ru": [
+        "Coriaria arborea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Coriariaceae",
     "genus": "Coriaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d5a6fee5997611bb11a90e3c1a5aa150b43c6975",
-    "description": null,
+    "description": "Coriaria myrtifolia, called in English redoul, is a shrub that grows to 2–3 m tall. Myrtifolia means myrtle-like leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -120,12 +150,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -181,11 +211,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "عشبة الدباغين الآسية الورق"
+      ],
+      "de": [
+        "Myrtenblättriger Gerberstrauch"
+      ],
       "en": [
+        "Coriaria myrtifolia",
         "French sumac"
+      ],
+      "es": [
+        "Coriaria myrtifolia"
+      ],
+      "fr": [
+        "Coriaria myrtifolia"
+      ],
+      "it": [
+        "Coriaria myrtifolia"
+      ],
+      "nl": [
+        "Coriaria myrtifolia"
+      ],
+      "pl": [
+        "Coriaria myrtifolia"
+      ],
+      "pt": [
+        "Coriaria myrtifolia"
+      ],
+      "ru": [
+        "Coriaria myrtifolia"
+      ],
+      "zh": [
+        "欧马桑"
       ]
     },
     "tags": [],
@@ -197,12 +260,12 @@
     "family": "Coriariaceae",
     "genus": "Coriaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3486af762170dca76776674979f19a6bf91f3290",
-    "description": null,
+    "description": "Coriaria ruscifolia is a plant of the Coriariaceae family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,9 +342,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coriaria ruscifolia"
+      ],
+      "en": [
+        "Coriaria ruscifolia"
+      ],
+      "es": [
+        "Coriaria ruscifolia"
+      ],
+      "fr": [
+        "Coriaria ruscifolia"
+      ],
+      "it": [
+        "Coriaria ruscifolia"
+      ],
+      "nl": [
+        "Coriaria ruscifolia"
+      ],
+      "pl": [
+        "Coriaria ruscifolia"
+      ],
+      "pt": [
+        "Coriaria ruscifolia"
+      ],
+      "ru": [
+        "Coriaria ruscifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

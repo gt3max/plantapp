@@ -5,7 +5,7 @@
     "family": "Saxifragaceae",
     "genus": "Asimitellaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,7 +87,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {},
     "tags": [],
@@ -99,7 +101,7 @@
     "family": "Saxifragaceae",
     "genus": "Astilbe",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +183,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Astilbe microphylla"
+      ],
+      "en": [
+        "Astilbe microphylla"
+      ],
+      "es": [
+        "Astilbe microphylla"
+      ],
+      "fr": [
+        "Astilbe microphylla"
+      ],
+      "it": [
+        "Astilbe microphylla"
+      ],
+      "ja": [
+        "チダケサシ"
+      ],
+      "nl": [
+        "Astilbe microphylla"
+      ],
+      "pl": [
+        "Astilbe microphylla"
+      ],
+      "pt": [
+        "Astilbe microphylla"
+      ],
+      "ru": [
+        "Astilbe microphylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +228,12 @@
     "family": "Saxifragaceae",
     "genus": "Astilbe",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e7dfa16ab99207bf1e420e450e892bf181819e14",
-    "description": "The capsile is 2 chambered and splits to reveal seeds",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +310,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rote Prachtspiere"
+      ],
+      "en": [
+        "Astilbe rubra"
+      ],
+      "es": [
+        "Astilbe rubra"
+      ],
+      "fr": [
+        "Astilbe rubra"
+      ],
+      "it": [
+        "Astilbe rubra"
+      ],
+      "ko": [
+        "노루오줌"
+      ],
+      "nl": [
+        "Astilbe rubra"
+      ],
+      "pl": [
+        "Astilbe rubra"
+      ],
+      "pt": [
+        "Astilbe rubra"
+      ],
+      "ru": [
+        "Astilbe rubra"
+      ],
+      "zh": [
+        "腺萼落新妇"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,12 +358,12 @@
     "family": "Saxifragaceae",
     "genus": "Astilbe",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ffc99378eb6d846fb506f57bcbc92d2ffed9724c",
-    "description": "The capsile is 2 chambered and splits to reveal seeds",
+    "description": "Astilbe thunbergii is a species of flowering plant in the genus Astilbe, native to Japan. Its hybrid cultivar 'Straussenfeder' has gained the Royal Horticultural Society's Award of Garden Merit.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -369,11 +440,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Thunberg-Prachtspiere"
+      ],
       "en": [
+        "Astilbe thunbergii",
         "Thunberg's astilbe"
+      ],
+      "es": [
+        "Astilbe thunbergii"
+      ],
+      "fr": [
+        "Astilbe thunbergii"
+      ],
+      "it": [
+        "Astilbe thunbergii"
+      ],
+      "nl": [
+        "Astilbe thunbergii"
+      ],
+      "pl": [
+        "Astilbe thunbergii"
+      ],
+      "pt": [
+        "Astilbe thunbergii"
+      ],
+      "ru": [
+        "Астильба Тунберга"
       ]
     },
     "tags": [],
@@ -385,12 +483,12 @@
     "family": "Saxifragaceae",
     "genus": "Bergenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/26a2ed976139f9705a9b40f87ac488a9de36fb19",
-    "description": "The fruit is an ellipsoidal, dry capsule with two diverging lobes opening along the abdominal suture. Seeds are numerous, oblong, smooth, and black.",
+    "description": "Bergenia crassifolia is a species of flowering plant of the genus Bergenia in the family Saxifragaceae. Common names for the species include heart-leaved bergenia, heartleaf bergenia, leather bergenia, winter-blooming bergenia, elephant-ears, elephant's ears, Korean elephant-ear, badan, pigsqueak, Siberian tea, and Mongolian tea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -473,11 +571,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "برغنية سميكة الأوراق"
+      ],
+      "de": [
+        "Bergenia crassifolia"
+      ],
       "en": [
+        "Bergenia crassifolia",
         "Siberian-tea"
+      ],
+      "es": [
+        "Bergenia crassifolia"
+      ],
+      "fr": [
+        "Bergenia crassifolia"
+      ],
+      "it": [
+        "Bergenia crassifolia"
+      ],
+      "nl": [
+        "Bergenia crassifolia"
+      ],
+      "pl": [
+        "Bergenia grubolistna"
+      ],
+      "pt": [
+        "Bergenia crassifolia"
+      ],
+      "ru": [
+        "Бадан толстолистный"
+      ],
+      "zh": [
+        "厚叶岩白菜"
       ]
     },
     "tags": [],
@@ -489,12 +620,12 @@
     "family": "Saxifragaceae",
     "genus": "Boykinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/36558b936f31124fee7af9bf61b9f8be.jpg",
-    "description": null,
+    "description": "Boykinia occidentalis is a species of flowering plant in the saxifrage family known by the common name coastal brookfoam. It is native to the west coast of North America from British Columbia to California, where it grows in shady areas near riverbanks and streams. It is a rhizomatous perennial herb producing large, rounded leaves with blades up to 45 centimeters long and 12 wide, borne on petioles up to 30 centimeters in length.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -571,9 +702,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Boykinia occidentalis"
+      ],
+      "en": [
+        "Boykinia occidentalis"
+      ],
+      "es": [
+        "Boykinia occidentalis"
+      ],
+      "fr": [
+        "Boykinia occidentalis"
+      ],
+      "it": [
+        "Boykinia occidentalis"
+      ],
+      "nl": [
+        "Boykinia occidentalis"
+      ],
+      "pl": [
+        "Boykinia occidentalis"
+      ],
+      "pt": [
+        "Boykinia occidentalis"
+      ],
+      "ru": [
+        "Boykinia occidentalis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -583,7 +744,7 @@
     "family": "Saxifragaceae",
     "genus": "Chrysosplenium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -599,17 +760,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "chrysosplenium_alternifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -665,11 +826,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 3.9
     },
     "common_names": {
+      "de": [
+        "Wechselblättriges Milzkraut"
+      ],
       "en": [
-        "Alternate-leaf golden saxifrage"
+        "Alternate-leaf golden saxifrage",
+        "Chrysosplenium alternifolium"
+      ],
+      "es": [
+        "Chrysosplenium alternifolium"
+      ],
+      "fr": [
+        "Chrysosplenium alternifolium"
+      ],
+      "it": [
+        "Chrysosplenium alternifolium"
+      ],
+      "nl": [
+        "Verspreidbladig goudveil"
+      ],
+      "pl": [
+        "Śledziennica skrętolistna"
+      ],
+      "pt": [
+        "Chrysosplenium alternifolium"
+      ],
+      "ru": [
+        "Селезёночник очерёднолистный"
+      ],
+      "zh": [
+        "互叶猫眼草"
       ]
     },
     "tags": [],
@@ -681,12 +872,12 @@
     "family": "Saxifragaceae",
     "genus": "Chrysosplenium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b30a7080f9683d6b782eb2283214201d0b026098",
-    "description": null,
+    "description": "Chrysosplenium americanum, the American golden saxifrage, is a species of golden saxifrage native to eastern North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -697,17 +888,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "chrysosplenium_americanum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -763,11 +954,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 4.7
     },
     "common_names": {
+      "de": [
+        "Chrysosplenium americanum"
+      ],
       "en": [
-        "American golden saxifrage"
+        "American golden saxifrage",
+        "Chrysosplenium americanum"
+      ],
+      "es": [
+        "Chrysosplenium americanum"
+      ],
+      "fr": [
+        "Chrysosplenium americanum"
+      ],
+      "it": [
+        "Chrysosplenium americanum"
+      ],
+      "nl": [
+        "Chrysosplenium americanum"
+      ],
+      "pl": [
+        "Chrysosplenium americanum"
+      ],
+      "pt": [
+        "Chrysosplenium americanum"
+      ],
+      "ru": [
+        "Chrysosplenium americanum"
       ]
     },
     "tags": [],
@@ -779,12 +997,12 @@
     "family": "Saxifragaceae",
     "genus": "Chrysosplenium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Chrysosplenium_flagelliferum_%28flower%29.jpg",
+    "description": "Chrysosplenium flagelliferum is a species of flowering plant in the saxifrage family. It was first described by Friedrich Schmidt in 1868.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -795,7 +1013,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "chrysosplenium_flagelliferum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -861,9 +1079,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chrysosplenium flagelliferum"
+      ],
+      "en": [
+        "Chrysosplenium flagelliferum"
+      ],
+      "es": [
+        "Chrysosplenium flagelliferum"
+      ],
+      "fr": [
+        "Chrysosplenium flagelliferum"
+      ],
+      "it": [
+        "Chrysosplenium flagelliferum"
+      ],
+      "ja": [
+        "ツルネコノメソウ"
+      ],
+      "nl": [
+        "Chrysosplenium flagelliferum"
+      ],
+      "pl": [
+        "Chrysosplenium flagelliferum"
+      ],
+      "pt": [
+        "Chrysosplenium flagelliferum"
+      ],
+      "ru": [
+        "Chrysosplenium flagelliferum"
+      ],
+      "zh": [
+        "匍匐猫眼草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -873,7 +1127,7 @@
     "family": "Saxifragaceae",
     "genus": "Chrysosplenium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -889,7 +1143,7 @@
     "synonyms": "[\"Chrysosplenium grayanum var. polysticha\", \"Chrysosplenium nipponicum\", \"Chrysosplenium grayanum var. nipponicum\", \"Chrysosplenium grayanum var. dickinsii\", \"Chrysosplenium dickinsii\"]",
     "care": {
       "plant_id": "chrysosplenium_grayanum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -955,9 +1209,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chrysosplenium grayanum"
+      ],
+      "en": [
+        "Chrysosplenium grayanum"
+      ],
+      "es": [
+        "Chrysosplenium grayanum"
+      ],
+      "fr": [
+        "Chrysosplenium grayanum"
+      ],
+      "it": [
+        "Chrysosplenium grayanum"
+      ],
+      "ja": [
+        "ネコノメソウ"
+      ],
+      "ko": [
+        "괭이눈"
+      ],
+      "nl": [
+        "Chrysosplenium grayanum"
+      ],
+      "pl": [
+        "Chrysosplenium grayanum"
+      ],
+      "pt": [
+        "Chrysosplenium grayanum"
+      ],
+      "ru": [
+        "Chrysosplenium grayanum"
+      ],
+      "zh": [
+        "猫眼草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -967,7 +1260,7 @@
     "family": "Saxifragaceae",
     "genus": "Chrysosplenium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -983,7 +1276,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "chrysosplenium_japonicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1049,9 +1342,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chrysosplenium japonicum"
+      ],
+      "en": [
+        "Chrysosplenium japonicum"
+      ],
+      "es": [
+        "Chrysosplenium japonicum"
+      ],
+      "fr": [
+        "Chrysosplenium japonicum"
+      ],
+      "it": [
+        "Chrysosplenium japonicum"
+      ],
+      "ja": [
+        "ヤマネコノメソウ"
+      ],
+      "nl": [
+        "Chrysosplenium japonicum"
+      ],
+      "pl": [
+        "Chrysosplenium japonicum"
+      ],
+      "pt": [
+        "Chrysosplenium japonicum"
+      ],
+      "ru": [
+        "Chrysosplenium japonicum"
+      ],
+      "zh": [
+        "日本金腰"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1061,7 +1390,7 @@
     "family": "Saxifragaceae",
     "genus": "Chrysosplenium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1077,7 +1406,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "chrysosplenium_macrostemon",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1143,9 +1472,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chrysosplenium macrostemon"
+      ],
+      "en": [
+        "Chrysosplenium macrostemon"
+      ],
+      "es": [
+        "Chrysosplenium macrostemon"
+      ],
+      "fr": [
+        "Chrysosplenium macrostemon"
+      ],
+      "it": [
+        "Chrysosplenium macrostemon"
+      ],
+      "ja": [
+        "イワボタン"
+      ],
+      "nl": [
+        "Chrysosplenium macrostemon"
+      ],
+      "pl": [
+        "Chrysosplenium macrostemon"
+      ],
+      "pt": [
+        "Chrysosplenium macrostemon"
+      ],
+      "ru": [
+        "Chrysosplenium macrostemon"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1155,7 +1517,7 @@
     "family": "Saxifragaceae",
     "genus": "Chrysosplenium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1171,17 +1533,17 @@
     "synonyms": "[\"Chrysosplenium octandrum\", \"Saxifraga aurea\", \"Chrysosplenium repens\", \"Chrysosplenium auriculatum\"]",
     "care": {
       "plant_id": "chrysosplenium_oppositifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1237,11 +1599,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Gegenblättriges Milzkraut"
+      ],
       "en": [
+        "Chrysosplenium oppositifolium",
         "Opposite-leaved golden saxifrage"
+      ],
+      "es": [
+        "Chrysosplenium oppositifolium"
+      ],
+      "fr": [
+        "Chrysosplenium oppositifolium"
+      ],
+      "it": [
+        "Chrysosplenium oppositifolium"
+      ],
+      "nl": [
+        "Paarbladig goudveil"
+      ],
+      "pl": [
+        "Śledziennica naprzeciwlistna"
+      ],
+      "pt": [
+        "Chrysosplenium oppositifolium"
+      ],
+      "ru": [
+        "Chrysosplenium oppositifolium"
       ]
     },
     "tags": [],
@@ -1253,12 +1642,12 @@
     "family": "Saxifragaceae",
     "genus": "Chrysosplenium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/c9aaab6a86a140ddbc08cd9d854787a2.jpg",
-    "description": null,
+    "description": "Chrysosplenium pilosum, the hairy golden saxifrage, is a species of flowering plant in the saxifrage family. It was first described by Karl Maximovich in 1859.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1269,7 +1658,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "chrysosplenium_pilosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1335,9 +1724,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chrysosplenium pilosum"
+      ],
+      "en": [
+        "Chrysosplenium pilosum"
+      ],
+      "es": [
+        "Chrysosplenium pilosum"
+      ],
+      "fr": [
+        "Chrysosplenium pilosum"
+      ],
+      "it": [
+        "Chrysosplenium pilosum"
+      ],
+      "ja": [
+        "ケネコノメソウ"
+      ],
+      "nl": [
+        "Chrysosplenium pilosum"
+      ],
+      "pl": [
+        "Chrysosplenium pilosum"
+      ],
+      "pt": [
+        "Chrysosplenium pilosum"
+      ],
+      "ru": [
+        "Chrysosplenium pilosum"
+      ],
+      "zh": [
+        "长毛猫眼草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1347,7 +1772,7 @@
     "family": "Saxifragaceae",
     "genus": "Chrysosplenium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1363,17 +1788,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "chrysosplenium_tetrandrum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1429,9 +1854,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 4.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chrysosplenium tetrandrum"
+      ],
+      "en": [
+        "Chrysosplenium tetrandrum"
+      ],
+      "es": [
+        "Chrysosplenium tetrandrum"
+      ],
+      "fr": [
+        "Chrysosplenium tetrandrum"
+      ],
+      "it": [
+        "Chrysosplenium tetrandrum"
+      ],
+      "nl": [
+        "Chrysosplenium tetrandrum"
+      ],
+      "pl": [
+        "Chrysosplenium tetrandrum"
+      ],
+      "pt": [
+        "Chrysosplenium tetrandrum"
+      ],
+      "ru": [
+        "Chrysosplenium tetrandrum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1441,12 +1896,12 @@
     "family": "Saxifragaceae",
     "genus": "Darmera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/207feaebd0ca70ddd854209a5adc5acf535913f4",
-    "description": null,
+    "description": "Darmera peltata, the Indian rhubarb or umbrella plant, is a flowering plant, the only species within the genus Darmera in the family Saxifragaceae. It is a slowly spreading rhizomatous perennial native to mountain streamsides in woodland in the western United States, growing to 2 m tall by 1 m wide. The name Darmera honors Karl Darmer, a 19th-century German horticulturist.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1523,11 +1978,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "دارمرة درعية"
+      ],
+      "de": [
+        "Schildblatt"
+      ],
       "en": [
+        "Darmera peltata",
         "Indian-rhubarb"
+      ],
+      "es": [
+        "Darmera"
+      ],
+      "fr": [
+        "Darmera peltata"
+      ],
+      "it": [
+        "Darmera peltata"
+      ],
+      "nl": [
+        "Schildblad"
+      ],
+      "pl": [
+        "Tarczownica tarczowata"
+      ],
+      "pt": [
+        "Darmera"
+      ],
+      "ru": [
+        "Дармера щитовидная"
+      ],
+      "zh": [
+        "盾叶伞"
       ]
     },
     "tags": [],
@@ -1539,12 +2027,12 @@
     "family": "Saxifragaceae",
     "genus": "Heuchera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cd379e9ec825465b0795b90d97e330e4a61387cd",
-    "description": "In North Carolina, the fruits appear from May to September.",
+    "description": "Heuchera americana, or American alumroot, is a small evergreen perennial native to eastern and central North America while also ranging into Ontario, Canada. It is a part of the Saxifrage family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1621,11 +2109,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "هوشرية أمريكية"
+      ],
+      "de": [
+        "Heuchera americana"
+      ],
       "en": [
-        "Alumroot"
+        "Alumroot",
+        "Heuchera americana"
+      ],
+      "es": [
+        "Heuchera americana"
+      ],
+      "fr": [
+        "Heuchera americana"
+      ],
+      "it": [
+        "Heuchera americana"
+      ],
+      "nl": [
+        "Heuchera americana"
+      ],
+      "pl": [
+        "Żurawka amerykańska"
+      ],
+      "pt": [
+        "Heuchera americana"
+      ],
+      "ru": [
+        "Heuchera americana"
       ]
     },
     "tags": [],
@@ -1637,12 +2155,12 @@
     "family": "Saxifragaceae",
     "genus": "Heuchera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ba3c2286957b1fd2c91f86503b46d0078bb63577",
-    "description": null,
+    "description": "Heuchera cylindrica is a species of perennial flowering plant in the saxifrage family known by the common names poker alumroot, roundleaf alumroot, and coral bells. It is native to western North America, where it is found from British Columbia to California, and east to Wyoming and Montana.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1719,11 +2237,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "هوشرية أسطوانية"
+      ],
+      "de": [
+        "Heuchera cylindrica"
+      ],
       "en": [
+        "Heuchera cylindrica",
         "Mat alumroot"
+      ],
+      "es": [
+        "Heuchera cylindrica"
+      ],
+      "fr": [
+        "Heuchera cylindrica"
+      ],
+      "it": [
+        "Heuchera cylindrica"
+      ],
+      "nl": [
+        "Heuchera cylindrica"
+      ],
+      "pl": [
+        "Heuchera cylindrica"
+      ],
+      "pt": [
+        "Heuchera cylindrica"
+      ],
+      "ru": [
+        "Heuchera cylindrica"
       ]
     },
     "tags": [],
@@ -1735,12 +2283,12 @@
     "family": "Saxifragaceae",
     "genus": "Heuchera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/70904a8c4df5b83700c3400ca7c0e6e43199d922",
-    "description": null,
+    "description": "Heuchera parvifolia is a species of flowering plant in the saxifrage family known by the common names littleleaf alumroot and common alumroot. It is native to California and the Interior West of the United States, where it grows primarily on rocky ledges on slopes and canyon walls.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1817,11 +2365,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Heuchera parvifolia"
+      ],
       "en": [
-        "Hard alumroot"
+        "Hard alumroot",
+        "Heuchera parvifolia"
+      ],
+      "es": [
+        "Heuchera parvifolia"
+      ],
+      "fr": [
+        "Heuchera parvifolia"
+      ],
+      "it": [
+        "Heuchera parvifolia"
+      ],
+      "nl": [
+        "Heuchera parvifolia"
+      ],
+      "pl": [
+        "Heuchera parvifolia"
+      ],
+      "pt": [
+        "Heuchera parvifolia"
+      ],
+      "ru": [
+        "Heuchera parvifolia"
       ]
     },
     "tags": [],
@@ -1833,7 +2408,7 @@
     "family": "Saxifragaceae",
     "genus": "Heuchera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1915,11 +2490,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Heuchera richardsonii"
+      ],
       "en": [
+        "Heuchera richardsonii",
         "Richardson's alumroot"
+      ],
+      "es": [
+        "Heuchera richardsonii"
+      ],
+      "fr": [
+        "Heuchera richardsonii"
+      ],
+      "it": [
+        "Heuchera richardsonii"
+      ],
+      "nl": [
+        "Heuchera richardsonii"
+      ],
+      "pl": [
+        "Heuchera richardsonii"
+      ],
+      "pt": [
+        "Heuchera richardsonii"
+      ],
+      "ru": [
+        "Heuchera richardsonii"
       ]
     },
     "tags": [],
@@ -1931,12 +2533,12 @@
     "family": "Saxifragaceae",
     "genus": "Heuchera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0e7aafaedcaf4f2a5383e80adc409926c67c3744",
-    "description": null,
+    "description": "Heuchera rubescens, with the common name pink alumroot, is a species of Heuchera.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2013,11 +2615,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Heuchera rubescens"
+      ],
       "en": [
+        "Heuchera rubescens",
         "Jack-o'the-rocks"
+      ],
+      "es": [
+        "Heuchera rubescens"
+      ],
+      "fr": [
+        "Heuchera rubescens"
+      ],
+      "it": [
+        "Heuchera rubescens"
+      ],
+      "nl": [
+        "Heuchera rubescens"
+      ],
+      "pl": [
+        "Heuchera rubescens"
+      ],
+      "pt": [
+        "Heuchera rubescens"
+      ],
+      "ru": [
+        "Heuchera rubescens"
       ]
     },
     "tags": [],
@@ -2029,7 +2658,7 @@
     "family": "Saxifragaceae",
     "genus": "Heuchera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2115,11 +2744,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Heuchera sanguinea"
+      ],
       "en": [
-        "Coralbells"
+        "Coralbells",
+        "Heuchera sanguinea"
+      ],
+      "es": [
+        "Heuchera sanguinea"
+      ],
+      "fr": [
+        "Heuchera sanguinea"
+      ],
+      "it": [
+        "Heuchera sanguinea"
+      ],
+      "nl": [
+        "Heuchera sanguinea"
+      ],
+      "pl": [
+        "Żurawka krwista"
+      ],
+      "pt": [
+        "Heuchera sanguinea"
+      ],
+      "ru": [
+        "гейхера кроваво-красная"
+      ],
+      "zh": [
+        "红肾形草"
       ]
     },
     "tags": [],
@@ -2131,12 +2790,12 @@
     "family": "Saxifragaceae",
     "genus": "Heuchera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9ed39a359177391950afe9603c3a0336a2efd5c0",
-    "description": "In North Carolina, the fruits are available from July to November.",
+    "description": "Heuchera villosa, the hairy alumroot, is a small evergreen perennial native to the Eastern United States. It is found only on rock outcrops, growing on cliffs and boulders. Considered locally endangered in the state of Ohio.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2215,11 +2874,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Heuchera villosa"
+      ],
       "en": [
-        "Hairy alumroot"
+        "Hairy alumroot",
+        "Heuchera villosa"
+      ],
+      "es": [
+        "Heuchera villosa"
+      ],
+      "fr": [
+        "Heuchera villosa"
+      ],
+      "it": [
+        "Heuchera villosa"
+      ],
+      "nl": [
+        "Heuchera villosa"
+      ],
+      "pl": [
+        "Heuchera villosa"
+      ],
+      "pt": [
+        "Heuchera villosa"
+      ],
+      "ru": [
+        "Heuchera villosa"
       ]
     },
     "tags": [],
@@ -2231,12 +2917,12 @@
     "family": "Saxifragaceae",
     "genus": "Leptarrhena",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/edea88fde9147b4979f47b5bb3a9f0ddd061b39f",
-    "description": null,
+    "description": "Leptarrhena pyrolifolia is a species of flowering plants belonging to the family Saxifragaceae. It is the sole species in genus Leptarrhena.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2313,11 +2999,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Leptarrhena pyrolifolia"
+      ],
       "en": [
-        "Leatherleaf-saxifrage"
+        "Leatherleaf-saxifrage",
+        "Leptarrhena pyrolifolia"
+      ],
+      "es": [
+        "Leptarrhena"
+      ],
+      "fr": [
+        "Leptarrhena pyrolifolia"
+      ],
+      "it": [
+        "Leptarrhena pyrolifolia"
+      ],
+      "nl": [
+        "Leptarrhena pyrolifolia"
+      ],
+      "pl": [
+        "Leptarrhena pyrolifolia"
+      ],
+      "pt": [
+        "Leptarrhena"
+      ],
+      "ru": [
+        "Leptarrhena pyrolifolia"
       ]
     },
     "tags": [],
@@ -2329,12 +3042,12 @@
     "family": "Saxifragaceae",
     "genus": "Lithophragma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/09454b1015323c0c87ab093c2cd74334523bf530",
-    "description": null,
+    "description": "Lithophragma affine is a species of flowering plant in the saxifrage family known by the common name San Francisco woodland star or fringed woodland star. It is native to the coast of western North America from Oregon to Baja California, where it grows in open habitat on mountain slopes, hills, and canyonsides up to an altitude of 6,600 feet (2,000 m).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2411,11 +3124,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lithophragma affine"
+      ],
       "en": [
+        "Lithophragma affine",
         "San francisco woodland-star"
+      ],
+      "es": [
+        "Lithophragma affine"
+      ],
+      "fr": [
+        "Lithophragma affine"
+      ],
+      "it": [
+        "Lithophragma affine"
+      ],
+      "nl": [
+        "Lithophragma affine"
+      ],
+      "pl": [
+        "Lithophragma affine"
+      ],
+      "pt": [
+        "Lithophragma affine"
+      ],
+      "ru": [
+        "Lithophragma affine"
       ]
     },
     "tags": [],
@@ -2427,12 +3167,12 @@
     "family": "Saxifragaceae",
     "genus": "Lithophragma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5ce186fec4b6f450d2dbc897f070101af0ad3b48",
-    "description": null,
+    "description": "Lithophragma glabrum is a slender perennial western North American mountain plant in the Saxifrage family (Saxifragaceae), known by the common names bulbous woodland star, bulbiferous prairie-star, smooth woodland star, and smooth rockstar.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2509,11 +3249,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lithophragma glabrum"
+      ],
       "en": [
-        "Fringecup"
+        "Fringecup",
+        "Lithophragma glabrum"
+      ],
+      "es": [
+        "Lithophragma glabrum"
+      ],
+      "fr": [
+        "Lithophragma glabrum"
+      ],
+      "it": [
+        "Lithophragma glabrum"
+      ],
+      "nl": [
+        "Lithophragma glabrum"
+      ],
+      "pl": [
+        "Lithophragma glabrum"
+      ],
+      "pt": [
+        "Lithophragma glabrum"
+      ],
+      "ru": [
+        "Lithophragma glabrum"
       ]
     },
     "tags": [],
@@ -2525,12 +3292,12 @@
     "family": "Saxifragaceae",
     "genus": "Lithophragma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e7f2c57aed1012278a17c9aafdcf2d43.jpg",
-    "description": null,
+    "description": "Lithophragma heterophyllum, commonly known as hillside woodland star, is a species of flowering plant in the saxifrage family found in the western United States. It is native to the coastal mountain ranges of California, where it can generally be found in shady habitat. It is a rhizomatous perennial herb growing erect or leaning with a slender naked flowering stem. The leaves are located on the lower part of the stem, each divided into rounded lobes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2607,9 +3374,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lithophragma heterophyllum"
+      ],
+      "en": [
+        "Lithophragma heterophyllum"
+      ],
+      "es": [
+        "Lithophragma heterophyllum"
+      ],
+      "fr": [
+        "Lithophragma heterophyllum"
+      ],
+      "it": [
+        "Lithophragma heterophyllum"
+      ],
+      "nl": [
+        "Lithophragma heterophyllum"
+      ],
+      "pl": [
+        "Lithophragma heterophyllum"
+      ],
+      "pt": [
+        "Lithophragma heterophyllum"
+      ],
+      "ru": [
+        "Lithophragma heterophyllum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2619,12 +3416,12 @@
     "family": "Saxifragaceae",
     "genus": "Lithophragma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/3b2e53a8ee0018faeb730ca7eec730cd.jpg",
-    "description": null,
+    "description": "Lithophragma parviflorum is a species of flowering plant in the saxifrage family known by the common name smallflower woodland star. It is native to much of western North America from British Columbia to California to South Dakota and Nebraska, where it grows in several types of open habitat. It is a rhizomatous perennial herb growing erect or leaning with a naked flowering stem. The leaves are mainly located low on the stem, each cut into three lobes or divided into three lobed leaflets.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2701,9 +3498,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lithophragma parviflorum"
+      ],
+      "en": [
+        "Lithophragma parviflorum",
+        "smallflower woodland star"
+      ],
+      "es": [
+        "Lithophragma parviflorum"
+      ],
+      "fr": [
+        "Lithophragma parviflorum"
+      ],
+      "it": [
+        "Lithophragma parviflorum"
+      ],
+      "nl": [
+        "Lithophragma parviflorum"
+      ],
+      "pl": [
+        "Lithophragma parviflorum"
+      ],
+      "pt": [
+        "Lithophragma parviflorum"
+      ],
+      "ru": [
+        "Lithophragma parviflorum"
+      ],
+      "zh": [
+        "小花林星花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2713,12 +3544,12 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cff491c8447bfc39299c7111497afef5001a1634",
-    "description": null,
+    "description": "Micranthes californica, known by the common name California saxifrage, is a species of flowering plants.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2795,11 +3626,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthes californica"
+      ],
       "en": [
-        "California saxifrage"
+        "California saxifrage",
+        "Micranthes californica"
+      ],
+      "es": [
+        "Micranthes californica"
+      ],
+      "fr": [
+        "Micranthes californica"
+      ],
+      "it": [
+        "Micranthes californica"
+      ],
+      "nl": [
+        "Micranthes californica"
+      ],
+      "pl": [
+        "Micranthes californica"
+      ],
+      "pt": [
+        "Micranthes californica"
+      ],
+      "ru": [
+        "Micranthes californica"
       ]
     },
     "tags": [],
@@ -2811,7 +3669,7 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2893,9 +3751,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Micranthes clusii"
+      ],
+      "en": [
+        "Micranthes clusii"
+      ],
+      "es": [
+        "Micranthes clusii"
+      ],
+      "fr": [
+        "Micranthes clusii"
+      ],
+      "it": [
+        "Micranthes clusii"
+      ],
+      "nl": [
+        "Micranthes clusii"
+      ],
+      "pl": [
+        "Micranthes clusii"
+      ],
+      "pt": [
+        "Micranthes clusii"
+      ],
+      "ru": [
+        "Micranthes clusii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2905,12 +3793,12 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bb4f67bbeed4ff685d0e87319fd72c9cd3901f4c",
-    "description": null,
+    "description": "Micranthes ferruginea is a species of flowering plant known by the common names russethair saxifrage and rusty saxifrage. It is native to western North America from Alaska and northwestern Canada to northern California to Wyoming, where it can be found in moist, rocky habitat in mountainous areas. It is a perennial herb growing from a caudex and rhizome system and producing a basal rosette of leaves. Each leaf is up to 6 centimeters long, thick and fleshy with large teeth along the edges.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2987,11 +3875,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthes ferruginea"
+      ],
       "en": [
+        "Micranthes ferruginea",
         "Russethair saxifrage"
+      ],
+      "es": [
+        "Micranthes ferruginea"
+      ],
+      "fr": [
+        "Micranthes ferruginea"
+      ],
+      "it": [
+        "Micranthes ferruginea"
+      ],
+      "nl": [
+        "Micranthes ferruginea"
+      ],
+      "pl": [
+        "Micranthes ferruginea"
+      ],
+      "pt": [
+        "Micranthes ferruginea"
+      ],
+      "ru": [
+        "Micranthes ferruginea"
       ]
     },
     "tags": [],
@@ -3003,7 +3918,7 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3085,9 +4000,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Micranthes foliolosa"
+      ],
+      "en": [
+        "Micranthes foliolosa"
+      ],
+      "es": [
+        "Micranthes foliolosa"
+      ],
+      "fr": [
+        "Micranthes foliolosa"
+      ],
+      "it": [
+        "Micranthes foliolosa"
+      ],
+      "nl": [
+        "Micranthes foliolosa"
+      ],
+      "pl": [
+        "Micranthes foliolosa"
+      ],
+      "pt": [
+        "Micranthes foliolosa"
+      ],
+      "ru": [
+        "Micranthes foliolosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3097,12 +4042,12 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/30f072ff4ecbd1c3396ca71905be95b14af3314d",
-    "description": null,
+    "description": "Micranthes integrifolia is a species of flowering plant known by the common name wholeleaf saxifrage. It is native to western North America from British Columbia to Montana and northern California, where it grows in moist habitat, including meadows, prairies, and grassy mountain slopes. It is a perennial herb growing from a caudex and system of rhizomes, and producing a basal rosette of leaves. Each leaf is up to 7 centimeters long with a toothed or smooth-edged blade borne on a short petiole.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3179,11 +4124,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthes integrifolia"
+      ],
       "en": [
-        "Columbian pseudosaxifrage"
+        "Columbian pseudosaxifrage",
+        "Micranthes integrifolia"
+      ],
+      "es": [
+        "Micranthes integrifolia"
+      ],
+      "fr": [
+        "Micranthes integrifolia"
+      ],
+      "it": [
+        "Micranthes integrifolia"
+      ],
+      "nl": [
+        "Saxifraga integrifolia"
+      ],
+      "pl": [
+        "Micranthes integrifolia"
+      ],
+      "pt": [
+        "Micranthes integrifolia"
+      ],
+      "ru": [
+        "Micranthes integrifolia"
       ]
     },
     "tags": [],
@@ -3195,7 +4167,7 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3277,11 +4249,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthes lyallii"
+      ],
       "en": [
+        "Micranthes lyallii",
         "Red-stem pseudosaxifrage"
+      ],
+      "es": [
+        "Micranthes lyallii"
+      ],
+      "fr": [
+        "Micranthes lyallii"
+      ],
+      "it": [
+        "Micranthes lyallii"
+      ],
+      "nl": [
+        "Micranthes lyallii"
+      ],
+      "pl": [
+        "Micranthes lyallii"
+      ],
+      "pt": [
+        "Micranthes lyallii"
+      ],
+      "ru": [
+        "Micranthes lyallii"
       ]
     },
     "tags": [],
@@ -3293,7 +4292,7 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3375,9 +4374,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Micranthes nelsoniana"
+      ],
+      "en": [
+        "Micranthes nelsoniana"
+      ],
+      "es": [
+        "Micranthes nelsoniana"
+      ],
+      "fr": [
+        "Micranthes nelsoniana"
+      ],
+      "it": [
+        "Micranthes nelsoniana"
+      ],
+      "nl": [
+        "Micranthes nelsoniana"
+      ],
+      "pl": [
+        "Micranthes nelsoniana"
+      ],
+      "pt": [
+        "Micranthes nelsoniana"
+      ],
+      "ru": [
+        "Micranthes nelsoniana"
+      ],
+      "zh": [
+        "斑点亭阁草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3387,12 +4419,12 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/273153852c1b0236a901768e00718829.jpg",
-    "description": null,
+    "description": "Micranthes nivalis is a plant species in the saxifrage family. It is commonly called snow saxifrage or (ambiguously) alpine saxifrage.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3469,9 +4501,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Micranthes nivalis"
+      ],
+      "en": [
+        "Micranthes nivalis"
+      ],
+      "es": [
+        "Micranthes nivalis"
+      ],
+      "fr": [
+        "Micranthes nivalis"
+      ],
+      "it": [
+        "Micranthes nivalis"
+      ],
+      "nl": [
+        "Micranthes nivalis"
+      ],
+      "pl": [
+        "Micranthes nivalis"
+      ],
+      "pt": [
+        "Micranthes nivalis"
+      ],
+      "ru": [
+        "Micranthes nivalis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3481,12 +4543,12 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cfdd7ef3bb1a11d784aa35bea43249035c82b0b0",
-    "description": null,
+    "description": "Micranthes odontoloma is a species of flowering plant known by the common name brook saxifrage. It is native to much of western North America, where it can be found in many types of moist and rocky habitat types. It is a perennial herb. It produces a clump of leaves with rounded, toothed, or scalloped blades on long, thin petioles. The branching inflorescence arises on a slender, erect peduncle up to half a meter tall bearing many flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3563,11 +4625,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthes odontoloma"
+      ],
       "en": [
-        "Brook saxifrage"
+        "Brook saxifrage",
+        "Micranthes odontoloma"
+      ],
+      "es": [
+        "Micranthes odontoloma"
+      ],
+      "fr": [
+        "Micranthes odontoloma"
+      ],
+      "it": [
+        "Micranthes odontoloma"
+      ],
+      "nl": [
+        "Saxifraga odontoloma"
+      ],
+      "pl": [
+        "Micranthes odontoloma"
+      ],
+      "pt": [
+        "Micranthes odontoloma"
+      ],
+      "ru": [
+        "Micranthes odontoloma"
       ]
     },
     "tags": [],
@@ -3579,12 +4668,12 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/03627c33d8e787dfae5db80413fac2ec19f8045b",
-    "description": null,
+    "description": "Micranthes oregana is a species of flowering plant known by the common name Oregon saxifrage. It is native to western North America, including the mountainous regions of the western United States. It can be found in moist habitat, such as marshes and other wetlands. It is a perennial herb growing from a thick, fleshy or woody caudex. It produces a basal rosette of linear to lance-shaped leaves each up to 25 centimeters long.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3661,11 +4750,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthes oregana"
+      ],
       "en": [
-        "Bog saxifrage"
+        "Bog saxifrage",
+        "Micranthes oregana"
+      ],
+      "es": [
+        "Micranthes oregana"
+      ],
+      "fr": [
+        "Micranthes oregana"
+      ],
+      "it": [
+        "Micranthes oregana"
+      ],
+      "nl": [
+        "Micranthes oregana"
+      ],
+      "pl": [
+        "Micranthes oregana"
+      ],
+      "pt": [
+        "Micranthes oregana"
+      ],
+      "ru": [
+        "Micranthes oregana"
       ]
     },
     "tags": [],
@@ -3677,12 +4793,12 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/29ba459f4810d00306a6a6ae1dfcc2577346b7ee",
-    "description": null,
+    "description": "Micranthes pensylvanica, the swamp saxifrage, is a species of flowering plant in the family Saxifragaceae. It is native to swampy areas in eastern North America, and it is found in Minnesota, Iowa, and Missouri eastward to the East Coast.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3759,11 +4875,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthes pensylvanica"
+      ],
       "en": [
+        "Micranthes pensylvanica",
         "Pennsylvania saxifrage"
+      ],
+      "es": [
+        "Micranthes pensylvanica"
+      ],
+      "fr": [
+        "Micranthes pensylvanica"
+      ],
+      "it": [
+        "Micranthes pensylvanica"
+      ],
+      "nl": [
+        "Micranthes pensylvanica"
+      ],
+      "pl": [
+        "Micranthes pensylvanica"
+      ],
+      "pt": [
+        "Micranthes pensylvanica"
+      ],
+      "ru": [
+        "Micranthes pensylvanica"
       ]
     },
     "tags": [],
@@ -3775,7 +4918,7 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3857,11 +5000,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthes rhomboidea"
+      ],
       "en": [
-        "Diamond-leaf pseudosaxifrage"
+        "Diamond-leaf pseudosaxifrage",
+        "Micranthes rhomboidea"
+      ],
+      "es": [
+        "Micranthes rhomboidea"
+      ],
+      "fr": [
+        "Micranthes rhomboidea"
+      ],
+      "it": [
+        "Micranthes rhomboidea"
+      ],
+      "nl": [
+        "Micranthes rhomboidea"
+      ],
+      "pl": [
+        "Micranthes rhomboidea"
+      ],
+      "pt": [
+        "Micranthes rhomboidea"
+      ],
+      "ru": [
+        "Micranthes rhomboidea"
       ]
     },
     "tags": [],
@@ -3873,7 +5043,7 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3955,9 +5125,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Micranthes stellaris"
+      ],
+      "en": [
+        "Micranthes stellaris"
+      ],
+      "es": [
+        "Micranthes stellaris"
+      ],
+      "fr": [
+        "Micranthes stellaris"
+      ],
+      "it": [
+        "Micranthes stellaris"
+      ],
+      "nl": [
+        "Micranthes stellaris"
+      ],
+      "pl": [
+        "Micranthes stellaris"
+      ],
+      "pt": [
+        "Micranthes stellaris"
+      ],
+      "ru": [
+        "Micranthes stellaris"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3967,7 +5167,7 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4049,11 +5249,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthes tenuis"
+      ],
       "en": [
+        "Micranthes tenuis",
         "Ottertail pass saxifrage"
+      ],
+      "es": [
+        "Micranthes tenuis"
+      ],
+      "fr": [
+        "Micranthes tenuis"
+      ],
+      "it": [
+        "Micranthes tenuis"
+      ],
+      "nl": [
+        "Micranthes tenuis"
+      ],
+      "pl": [
+        "Micranthes tenuis"
+      ],
+      "pt": [
+        "Micranthes tenuis"
+      ],
+      "ru": [
+        "Micranthes tenuis"
       ]
     },
     "tags": [],
@@ -4065,12 +5292,12 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b9848013a27e5bbd0bc6dea9e05aaa17dc3f14cc",
-    "description": null,
+    "description": "Micranthes tolmiei is a species of flowering plant known by the common name Tolmie's saxifrage, or Tolmie's alpine saxifrage. It is native to western North America from Alaska to Montana to California, where it grows in rocky mountain habitat types, especially in alpine climates, such as talus and fellfields. It is a small perennial herb growing in mats of creeping stems lined with thick, fleshy leaves each up to 1.5 centimeters long.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4147,11 +5374,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Micranthes tolmiei"
+      ],
       "en": [
+        "Micranthes tolmiei",
         "Tolmie's saxifrage"
+      ],
+      "es": [
+        "Micranthes tolmiei"
+      ],
+      "fr": [
+        "Micranthes tolmiei"
+      ],
+      "it": [
+        "Micranthes tolmiei"
+      ],
+      "nl": [
+        "Saxifraga tolmiei"
+      ],
+      "pl": [
+        "Micranthes tolmiei"
+      ],
+      "pt": [
+        "Micranthes tolmiei"
+      ],
+      "ru": [
+        "Micranthes tolmiei"
       ]
     },
     "tags": [],
@@ -4163,12 +5417,12 @@
     "family": "Saxifragaceae",
     "genus": "Micranthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Micranthes virginiensis, the early saxifrage, or Virginia saxifrage, is a wildflower native to eastern and central North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4245,9 +5499,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Micranthes virginiensis"
+      ],
+      "en": [
+        "Micranthes virginiensis"
+      ],
+      "es": [
+        "Micranthes virginiensis"
+      ],
+      "fr": [
+        "Saxifrage de Virginie"
+      ],
+      "it": [
+        "Micranthes virginiensis"
+      ],
+      "nl": [
+        "Micranthes virginiensis"
+      ],
+      "pl": [
+        "Micranthes virginiensis"
+      ],
+      "pt": [
+        "Micranthes virginiensis"
+      ],
+      "ru": [
+        "Micranthes virginiensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4257,12 +5541,12 @@
     "family": "Saxifragaceae",
     "genus": "Mitella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c6db3029dfed54c11ad436503bae6681f601a47b",
-    "description": null,
+    "description": "Mitella diphylla is a clump forming, open woodland plant native to northeast and midwest regions of North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4339,11 +5623,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Mitella diphylla"
+      ],
       "en": [
-        "Bishop's-cap"
+        "Bishop's-cap",
+        "Mitella diphylla"
+      ],
+      "es": [
+        "Mitella diphylla"
+      ],
+      "fr": [
+        "Mitella diphylla"
+      ],
+      "it": [
+        "Mitella diphylla"
+      ],
+      "nl": [
+        "Mitella diphylla"
+      ],
+      "pl": [
+        "Mitella diphylla"
+      ],
+      "pt": [
+        "Mitella diphylla"
+      ],
+      "ru": [
+        "Mitella diphylla"
       ]
     },
     "tags": [],
@@ -4355,7 +5666,7 @@
     "family": "Saxifragaceae",
     "genus": "Mitella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4437,11 +5748,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Mitella nuda"
+      ],
       "en": [
+        "Mitella nuda",
         "Naked miterwort"
+      ],
+      "es": [
+        "Mitella nuda"
+      ],
+      "fr": [
+        "Mitella nuda"
+      ],
+      "it": [
+        "Mitella nuda"
+      ],
+      "nl": [
+        "Mitella nuda"
+      ],
+      "pl": [
+        "Mitella nuda"
+      ],
+      "pt": [
+        "Mitella nuda"
+      ],
+      "ru": [
+        "Mitella nuda"
+      ],
+      "zh": [
+        "唢呐草"
       ]
     },
     "tags": [],
@@ -4453,12 +5794,12 @@
     "family": "Saxifragaceae",
     "genus": "Pectiantia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6f92048a744d3a66f4f6db9ef6051ef31cc34066",
-    "description": null,
+    "description": "Pectiantia pentandra is a species of flowering plant in the Saxifrage Family (Saxifragaceae), known by the common names fivestamen miterwort or five-point bishop's cap.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4535,11 +5876,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pectiantia pentandra"
+      ],
       "en": [
-        "Five-star mitrewort"
+        "Five-star mitrewort",
+        "Pectiantia pentandra"
+      ],
+      "es": [
+        "Pectiantia pentandra"
+      ],
+      "fr": [
+        "Pectiantia pentandra"
+      ],
+      "it": [
+        "Pectiantia pentandra"
+      ],
+      "nl": [
+        "Pectiantia pentandra"
+      ],
+      "pl": [
+        "Pectiantia pentandra"
+      ],
+      "pt": [
+        "Pectiantia pentandra"
+      ],
+      "ru": [
+        "Pectiantia pentandra"
       ]
     },
     "tags": [],
@@ -4551,12 +5919,12 @@
     "family": "Saxifragaceae",
     "genus": "Rodgersia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/140387e76b098631d5afded2acbcb212b674ff3c",
-    "description": "5-parted leaves",
+    "description": "Rodgersia podophylla is a species of flowering plant in the saxifrage family native to Japan and Korea. Growing to 2 m (6.6 ft) tall and broad, it is a herbaceous perennial with handsome spiky leaves, and occasional creamy-white flower panicles in June and July. It is extensively grown for ornamental use in gardens where it prefers damp shady positions on neutral to acid soils. Though hardy to −20 °C (−4 °F) it enjoys a sheltered location.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4633,11 +6001,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Rodgersia podophylla"
+      ],
       "en": [
-        "Rodgersia"
+        "Rodgersia",
+        "Rodgersia podophylla"
+      ],
+      "es": [
+        "Rodgersia podophylla"
+      ],
+      "fr": [
+        "Rodgersia podophylla"
+      ],
+      "it": [
+        "Rodgersia podophylla"
+      ],
+      "ja": [
+        "ヤグルマソウ"
+      ],
+      "ko": [
+        "도깨비부채"
+      ],
+      "nl": [
+        "Rodgersia podophylla"
+      ],
+      "pl": [
+        "Rodgersia podophylla"
+      ],
+      "pt": [
+        "Rodgersia podophylla"
+      ],
+      "ru": [
+        "Rodgersia podophylla"
+      ],
+      "zh": [
+        "鬼灯檠"
       ]
     },
     "tags": [],
@@ -4649,7 +6053,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4665,17 +6069,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_adscendens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4731,11 +6135,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "ar": [
+        "كاسر الحجر الصاعد"
+      ],
+      "de": [
+        "Aufsteigender Steinbrech"
+      ],
       "en": [
+        "Saxifraga adscendens",
         "Wedgeleaf saxifrage"
+      ],
+      "es": [
+        "Saxifraga adscendens"
+      ],
+      "fr": [
+        "Saxifraga adscendens"
+      ],
+      "it": [
+        "Saxifraga adscendens"
+      ],
+      "nl": [
+        "Saxifraga adscendens"
+      ],
+      "pl": [
+        "Skalnica dwuletnia"
+      ],
+      "pt": [
+        "Saxifraga adscendens"
+      ],
+      "ru": [
+        "Камнеломка восходящая"
       ]
     },
     "tags": [],
@@ -4747,7 +6181,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4763,17 +6197,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_aizoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4829,11 +6263,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Fetthennen-Steinbrech"
+      ],
       "en": [
+        "Saxifraga aizoides",
         "Yellow mountain saxifrage"
+      ],
+      "es": [
+        "Saxifraga aizoides"
+      ],
+      "fr": [
+        "Saxifraga aizoides"
+      ],
+      "it": [
+        "Saxifraga aizoides"
+      ],
+      "nl": [
+        "Saxifraga aizoides"
+      ],
+      "pl": [
+        "Skalnica nakrapiana"
+      ],
+      "pt": [
+        "Saxifraga aizoides"
+      ],
+      "ru": [
+        "Камнеломка жёстколистная"
       ]
     },
     "tags": [],
@@ -4845,7 +6306,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4861,17 +6322,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_androsacea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4927,11 +6388,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.4
     },
     "common_names": {
+      "de": [
+        "Mannsschild-Steinbrech"
+      ],
       "en": [
+        "Saxifraga androsacea",
         "Scree saxifrage"
+      ],
+      "es": [
+        "Saxifraga androsacea"
+      ],
+      "fr": [
+        "Saxifraga androsacea"
+      ],
+      "it": [
+        "Saxifraga androsacea"
+      ],
+      "nl": [
+        "Saxifraga androsacea"
+      ],
+      "pl": [
+        "Skalnica naradkowata"
+      ],
+      "pt": [
+        "Saxifraga androsacea"
+      ],
+      "ru": [
+        "камнеломка проломниковая"
       ]
     },
     "tags": [],
@@ -4943,7 +6431,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4959,7 +6447,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_aphylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5025,9 +6513,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كاسر الحجر اللاورقي"
+      ],
+      "de": [
+        "Blattloser Steinbrech"
+      ],
+      "en": [
+        "Saxifraga aphylla"
+      ],
+      "es": [
+        "Saxifraga aphylla"
+      ],
+      "fr": [
+        "Saxifraga aphylla"
+      ],
+      "it": [
+        "Saxifraga aphylla"
+      ],
+      "nl": [
+        "Saxifraga aphylla"
+      ],
+      "pl": [
+        "Saxifraga aphylla"
+      ],
+      "pt": [
+        "Saxifraga aphylla"
+      ],
+      "ru": [
+        "Saxifraga aphylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5037,7 +6558,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5053,7 +6574,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_aquatica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5119,11 +6640,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كاسر الحجر المائي"
+      ],
+      "de": [
+        "Saxifraga aquatica"
+      ],
       "en": [
-        "Aquatic pyrenean saxifrage"
+        "Aquatic pyrenean saxifrage",
+        "Saxifraga aquatica"
+      ],
+      "es": [
+        "Saxifraga aquatica"
+      ],
+      "fr": [
+        "Saxifraga aquatica"
+      ],
+      "it": [
+        "Saxifraga aquatica"
+      ],
+      "nl": [
+        "Saxifraga aquatica"
+      ],
+      "pl": [
+        "Saxifraga aquatica"
+      ],
+      "pt": [
+        "Saxifraga aquatica"
+      ],
+      "ru": [
+        "Saxifraga aquatica"
       ]
     },
     "tags": [],
@@ -5135,7 +6686,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5151,7 +6702,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_aretioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5217,9 +6768,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga aretioides"
+      ],
+      "en": [
+        "Saxifraga aretioides"
+      ],
+      "es": [
+        "Saxifraga aretioides"
+      ],
+      "fr": [
+        "Saxifraga aretioides"
+      ],
+      "it": [
+        "Saxifraga aretioides"
+      ],
+      "nl": [
+        "Saxifraga aretioides"
+      ],
+      "pl": [
+        "Saxifraga aretioides"
+      ],
+      "pt": [
+        "Saxifraga aretioides"
+      ],
+      "ru": [
+        "Saxifraga aretioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5229,7 +6810,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5245,17 +6826,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_aspera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5311,11 +6892,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "كاسر الحجر خشن السويق"
+      ],
+      "de": [
+        "Saxifraga aspera"
+      ],
       "en": [
+        "Saxifraga aspera",
         "Stiff-haired saxifrage"
+      ],
+      "es": [
+        "Saxifraga aspera"
+      ],
+      "fr": [
+        "Saxifraga aspera"
+      ],
+      "it": [
+        "Saxifraga aspera"
+      ],
+      "nl": [
+        "Saxifraga aspera"
+      ],
+      "pl": [
+        "Saxifraga aspera"
+      ],
+      "pt": [
+        "Saxifraga aspera"
+      ],
+      "ru": [
+        "Saxifraga aspera"
       ]
     },
     "tags": [],
@@ -5327,7 +6938,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5348,12 +6959,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5409,9 +7020,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zweiblütiger Steinbrech"
+      ],
+      "en": [
+        "Saxifraga biflora"
+      ],
+      "es": [
+        "Saxifraga biflora"
+      ],
+      "fr": [
+        "Saxifraga biflora"
+      ],
+      "it": [
+        "Saxifraga biflora"
+      ],
+      "nl": [
+        "Saxifraga biflora"
+      ],
+      "pl": [
+        "Saxifraga biflora"
+      ],
+      "pt": [
+        "Saxifraga biflora"
+      ],
+      "ru": [
+        "Saxifraga biflora"
+      ],
+      "zh": [
+        "双花虎耳草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5421,7 +7065,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5437,17 +7081,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_bronchialis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5503,11 +7147,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Saxifraga bronchialis"
+      ],
       "en": [
-        "Matted saxifrage"
+        "Matted saxifrage",
+        "Saxifraga bronchialis"
+      ],
+      "es": [
+        "Saxifraga bronchialis"
+      ],
+      "fr": [
+        "Saxifraga bronchialis"
+      ],
+      "it": [
+        "Saxifraga bronchialis"
+      ],
+      "nl": [
+        "Saxifraga bronchialis"
+      ],
+      "pl": [
+        "Saxifraga bronchialis"
+      ],
+      "pt": [
+        "Saxifraga bronchialis"
+      ],
+      "ru": [
+        "Saxifraga bronchialis"
+      ],
+      "tr": [
+        "Saxifraga bronchialis"
+      ],
+      "zh": [
+        "刺虎耳草"
       ]
     },
     "tags": [],
@@ -5519,7 +7196,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5535,17 +7212,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_bryoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5601,11 +7278,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "de": [
+        "Moos-Steinbrech"
+      ],
       "en": [
-        "Moss saxifrage"
+        "Moss saxifrage",
+        "Saxifraga bryoides"
+      ],
+      "es": [
+        "Saxifraga bryoides"
+      ],
+      "fr": [
+        "Saxifraga bryoides"
+      ],
+      "it": [
+        "Saxifraga bryoides"
+      ],
+      "nl": [
+        "Saxifraga bryoides"
+      ],
+      "pl": [
+        "Skalnica mchowata"
+      ],
+      "pt": [
+        "Saxifraga bryoides"
+      ],
+      "ru": [
+        "Камнеломка моховидная"
+      ],
+      "zh": [
+        "藓状虎耳草"
       ]
     },
     "tags": [],
@@ -5617,7 +7324,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5633,7 +7340,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_bulbifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5699,9 +7406,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga bulbifera"
+      ],
+      "en": [
+        "Saxifraga bulbifera"
+      ],
+      "es": [
+        "Saxifraga bulbifera"
+      ],
+      "fr": [
+        "Saxifraga bulbifera"
+      ],
+      "it": [
+        "Saxifraga bulbifera"
+      ],
+      "nl": [
+        "Saxifraga bulbifera"
+      ],
+      "pl": [
+        "Saxifraga bulbifera"
+      ],
+      "pt": [
+        "Saxifraga bulbifera"
+      ],
+      "ru": [
+        "Saxifraga bulbifera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5711,7 +7448,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5727,17 +7464,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_caesia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5793,9 +7530,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Blaugrüner Steinbrech"
+      ],
+      "en": [
+        "Saxifraga caesia"
+      ],
+      "es": [
+        "Saxifraga caesia"
+      ],
+      "fr": [
+        "Saxifraga caesia"
+      ],
+      "it": [
+        "Saxifraga caesia"
+      ],
+      "nl": [
+        "Saxifraga caesia"
+      ],
+      "pl": [
+        "Skalnica seledynowa"
+      ],
+      "pt": [
+        "Saxifraga caesia"
+      ],
+      "ru": [
+        "Saxifraga caesia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5805,7 +7572,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5821,17 +7588,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_callosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5887,11 +7654,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 4.0
     },
     "common_names": {
+      "ar": [
+        "سفرس قاس"
+      ],
+      "de": [
+        "Zungen-Steinbrech"
+      ],
       "en": [
-        "Limestone saxifrage"
+        "Limestone saxifrage",
+        "Saxifraga callosa"
+      ],
+      "es": [
+        "Saxifraga callosa"
+      ],
+      "fr": [
+        "Saxifraga callosa"
+      ],
+      "it": [
+        "Saxifraga callosa"
+      ],
+      "nl": [
+        "Saxifraga callosa"
+      ],
+      "pl": [
+        "Saxifraga callosa"
+      ],
+      "pt": [
+        "Saxifraga callosa"
+      ],
+      "ru": [
+        "Saxifraga callosa"
       ]
     },
     "tags": [],
@@ -5903,7 +7700,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5919,7 +7716,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_canaliculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5985,9 +7782,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga caniculata"
+      ],
+      "en": [
+        "Saxifraga canaliculata"
+      ],
+      "es": [
+        "Saxifraga canaliculata"
+      ],
+      "fr": [
+        "Saxifraga canaliculata"
+      ],
+      "it": [
+        "Saxifraga canaliculata"
+      ],
+      "nl": [
+        "Saxifraga canaliculata"
+      ],
+      "pl": [
+        "Saxifraga canaliculata"
+      ],
+      "pt": [
+        "Saxifraga canaliculata"
+      ],
+      "ru": [
+        "Saxifraga canaliculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5997,7 +7824,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6013,7 +7840,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_carpetana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6079,9 +7906,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga carpetana"
+      ],
+      "en": [
+        "Saxifraga carpetana"
+      ],
+      "es": [
+        "Saxifraga carpetana"
+      ],
+      "fr": [
+        "Saxifraga carpetana"
+      ],
+      "it": [
+        "Saxifraga carpetana"
+      ],
+      "nl": [
+        "Saxifraga carpetana"
+      ],
+      "pl": [
+        "Saxifraga carpetana"
+      ],
+      "pt": [
+        "Saxifraga carpetana"
+      ],
+      "ru": [
+        "Saxifraga carpetana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6091,7 +7948,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6112,12 +7969,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6173,11 +8030,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "de": [
+        "Nickender Steinbrech"
+      ],
       "en": [
-        "Nodding saxifrage"
+        "Nodding saxifrage",
+        "Saxifraga cernua"
+      ],
+      "es": [
+        "Saxifraga cernua"
+      ],
+      "fr": [
+        "Saxifraga cernua"
+      ],
+      "it": [
+        "Saxifraga cernua"
+      ],
+      "ja": [
+        "ムカゴユキノシタ"
+      ],
+      "nl": [
+        "Saxifraga cernua"
+      ],
+      "pl": [
+        "Skalnica zwisła"
+      ],
+      "pt": [
+        "Saxifraga cernua"
+      ],
+      "ru": [
+        "Камнеломка поникающая"
+      ],
+      "zh": [
+        "零余虎耳草"
       ]
     },
     "tags": [],
@@ -6189,7 +8079,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6205,17 +8095,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_cespitosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6271,11 +8161,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Polstersteinbrech"
+      ],
       "en": [
+        "Saxifraga cespitosa",
         "Tufted alpine saxifrage"
+      ],
+      "es": [
+        "Saxifraga cespitosa"
+      ],
+      "fr": [
+        "Saxifraga cespitosa"
+      ],
+      "it": [
+        "Saxifraga cespitosa"
+      ],
+      "nl": [
+        "Saxifraga cespitosa"
+      ],
+      "pl": [
+        "Saxifraga cespitosa"
+      ],
+      "pt": [
+        "Saxifraga cespitosa"
+      ],
+      "ru": [
+        "Камнеломка дернистая"
       ]
     },
     "tags": [],
@@ -6287,7 +8204,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6369,9 +8286,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga corsica"
+      ],
+      "en": [
+        "Saxifraga corsica"
+      ],
+      "es": [
+        "Saxifraga corsica"
+      ],
+      "fr": [
+        "Saxifraga corsica"
+      ],
+      "it": [
+        "Saxifraga corsica"
+      ],
+      "nl": [
+        "Saxifraga corsica"
+      ],
+      "pl": [
+        "Saxifraga corsica"
+      ],
+      "pt": [
+        "Saxifraga corsica"
+      ],
+      "ru": [
+        "Saxifraga corsica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6381,7 +8328,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6397,17 +8344,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_cotyledon",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6463,11 +8410,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Strauß-Steinbrech"
+      ],
       "en": [
-        "Pyramidal saxifrage"
+        "Pyramidal saxifrage",
+        "Saxifraga cotyledon"
+      ],
+      "es": [
+        "Saxifraga cotyledon"
+      ],
+      "fr": [
+        "Saxifraga cotyledon"
+      ],
+      "it": [
+        "Saxifraga cotyledon"
+      ],
+      "nl": [
+        "Saxifraga cotyledon"
+      ],
+      "pl": [
+        "Saxifraga cotyledon"
+      ],
+      "pt": [
+        "Saxifraga cotyledon"
+      ],
+      "ru": [
+        "Saxifraga cotyledon"
       ]
     },
     "tags": [],
@@ -6479,7 +8453,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6495,17 +8469,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_cuneata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6561,9 +8535,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga cuneata"
+      ],
+      "en": [
+        "Saxifraga cuneata"
+      ],
+      "es": [
+        "Saxifraga cuneata"
+      ],
+      "fr": [
+        "Saxifraga cuneata"
+      ],
+      "it": [
+        "Saxifraga cuneata"
+      ],
+      "nl": [
+        "Saxifraga cuneata"
+      ],
+      "pl": [
+        "Saxifraga cuneata"
+      ],
+      "pt": [
+        "Saxifraga cuneata"
+      ],
+      "ru": [
+        "Saxifraga cuneata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6573,7 +8577,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6594,12 +8598,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6655,11 +8659,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.0
     },
     "common_names": {
+      "ar": [
+        "كاسر الحجر المخروطي"
+      ],
+      "de": [
+        "Keilblatt-Steinbrech"
+      ],
       "en": [
-        "Lesser londonpride"
+        "Lesser londonpride",
+        "Saxifraga cuneifolia"
+      ],
+      "es": [
+        "Saxifraga cuneifolia"
+      ],
+      "fr": [
+        "Saxifraga cuneifolia"
+      ],
+      "it": [
+        "Saxifraga cuneifolia"
+      ],
+      "nl": [
+        "Saxifraga cuneifolia"
+      ],
+      "pl": [
+        "Saxifraga cuneifolia"
+      ],
+      "pt": [
+        "Saxifraga cuneifolia"
+      ],
+      "ru": [
+        "Saxifraga cuneifolia"
       ]
     },
     "tags": [],
@@ -6671,7 +8705,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6687,17 +8721,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_diapensioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6753,9 +8787,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Polster-Steinbrech"
+      ],
+      "en": [
+        "Saxifraga diapensioides"
+      ],
+      "es": [
+        "Saxifraga diapensioides"
+      ],
+      "fr": [
+        "Saxifraga diapensioides"
+      ],
+      "it": [
+        "Saxifraga diapensioides"
+      ],
+      "nl": [
+        "Saxifraga diapensioides"
+      ],
+      "pl": [
+        "Saxifraga diapensioides"
+      ],
+      "pt": [
+        "Saxifraga diapensioides"
+      ],
+      "ru": [
+        "Saxifraga diapensioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6765,7 +8829,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6781,17 +8845,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_exarata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6847,11 +8911,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Furchen-Steinbrech"
+      ],
       "en": [
+        "Saxifraga exarata",
         "White saxifrage"
+      ],
+      "es": [
+        "Saxifraga exarata"
+      ],
+      "fr": [
+        "Saxifraga exarata"
+      ],
+      "it": [
+        "Saxifraga exarata"
+      ],
+      "nl": [
+        "Saxifraga exarata"
+      ],
+      "pl": [
+        "Saxifraga exarata"
+      ],
+      "pt": [
+        "Saxifraga exarata"
+      ],
+      "ru": [
+        "Saxifraga exarata"
       ]
     },
     "tags": [],
@@ -6863,7 +8954,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6879,7 +8970,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_flagellaris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6945,9 +9036,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga flagellaris"
+      ],
+      "en": [
+        "Saxifraga flagellaris"
+      ],
+      "es": [
+        "Saxifraga flagellaris"
+      ],
+      "fr": [
+        "Saxifraga flagellaris"
+      ],
+      "it": [
+        "Saxifraga flagellaris"
+      ],
+      "nl": [
+        "Saxifraga flagellaris"
+      ],
+      "pl": [
+        "Saxifraga flagellaris"
+      ],
+      "pt": [
+        "Saxifraga flagellaris"
+      ],
+      "ru": [
+        "Камнеломка усатая"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6957,7 +9078,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6973,7 +9094,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_florulenta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7039,9 +9160,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga florulenta"
+      ],
+      "en": [
+        "Saxifraga florulenta"
+      ],
+      "es": [
+        "Saxifraga florulenta"
+      ],
+      "fr": [
+        "Saxifrage à nombreuses fleurs"
+      ],
+      "it": [
+        "Saxifraga florulenta"
+      ],
+      "nl": [
+        "Saxifraga florulenta"
+      ],
+      "pl": [
+        "Saxifraga florulenta"
+      ],
+      "pt": [
+        "Saxifraga florulenta"
+      ],
+      "ru": [
+        "Saxifraga florulenta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7051,7 +9202,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7067,7 +9218,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_fortunei",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7133,9 +9284,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "برغنية فورتيونية"
+      ],
+      "de": [
+        "Saxifraga fortunei"
+      ],
+      "en": [
+        "Saxifraga fortunei"
+      ],
+      "es": [
+        "Saxifraga fortunei"
+      ],
+      "fr": [
+        "Saxifraga fortunei"
+      ],
+      "it": [
+        "Saxifraga fortunei"
+      ],
+      "ja": [
+        "ダイモンジソウ"
+      ],
+      "nl": [
+        "Saxifraga fortunei"
+      ],
+      "pl": [
+        "Saxifraga fortunei"
+      ],
+      "pt": [
+        "Saxifraga fortunei"
+      ],
+      "ru": [
+        "Saxifraga fortunei"
+      ],
+      "zh": [
+        "齿瓣虎耳草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7145,7 +9335,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7161,7 +9351,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_fragilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7227,9 +9417,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga fragilis"
+      ],
+      "en": [
+        "Saxifraga fragilis"
+      ],
+      "es": [
+        "Saxifraga fragilis"
+      ],
+      "fr": [
+        "Saxifraga fragilis"
+      ],
+      "it": [
+        "Saxifraga fragilis"
+      ],
+      "nl": [
+        "Saxifraga fragilis"
+      ],
+      "pl": [
+        "Saxifraga fragilis"
+      ],
+      "pt": [
+        "Saxifraga fragilis"
+      ],
+      "ru": [
+        "Saxifraga fragilis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7239,7 +9459,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7255,17 +9475,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_fragosoi",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7321,9 +9541,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga fragosoi"
+      ],
+      "en": [
+        "Saxifraga fragosoi"
+      ],
+      "es": [
+        "Saxifraga fragosoi"
+      ],
+      "fr": [
+        "Saxifraga fragosoi"
+      ],
+      "it": [
+        "Saxifraga fragosoi"
+      ],
+      "nl": [
+        "Saxifraga fragosoi"
+      ],
+      "pl": [
+        "Saxifraga fragosoi"
+      ],
+      "pt": [
+        "Saxifraga fragosoi"
+      ],
+      "ru": [
+        "Saxifraga fragosoi"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7333,7 +9583,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7349,7 +9599,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_geranioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7415,9 +9665,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga geranioides"
+      ],
+      "en": [
+        "Saxifraga geranioides"
+      ],
+      "es": [
+        "Saxifraga geranioides"
+      ],
+      "fr": [
+        "Saxifraga geranioides"
+      ],
+      "it": [
+        "Saxifraga geranioides"
+      ],
+      "nl": [
+        "Saxifraga geranioides"
+      ],
+      "pl": [
+        "Saxifraga geranioides"
+      ],
+      "pt": [
+        "Saxifraga geranioides"
+      ],
+      "ru": [
+        "Saxifraga geranioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7427,7 +9707,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7443,7 +9723,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_globulifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7509,9 +9789,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga globulifera"
+      ],
+      "en": [
+        "Saxifraga globulifera"
+      ],
+      "es": [
+        "Saxifraga globulifera"
+      ],
+      "fr": [
+        "Saxifraga globulifera"
+      ],
+      "it": [
+        "Saxifraga globulifera"
+      ],
+      "nl": [
+        "Saxifraga globulifera"
+      ],
+      "pl": [
+        "Saxifraga globulifera"
+      ],
+      "pt": [
+        "Saxifraga globulifera"
+      ],
+      "ru": [
+        "Saxifraga globulifera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7521,7 +9831,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7537,17 +9847,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_granulata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7603,11 +9913,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "سفرس الحصى"
+      ],
+      "de": [
+        "Knöllchen-Steinbrech"
+      ],
       "en": [
-        "Meadow saxifrage"
+        "Meadow saxifrage",
+        "Saxifraga granulata"
+      ],
+      "es": [
+        "Saxifraga granulata"
+      ],
+      "fr": [
+        "Saxifrage granulée"
+      ],
+      "it": [
+        "Saxifraga granulata"
+      ],
+      "nl": [
+        "Saxifraga granulata"
+      ],
+      "pl": [
+        "Skalnica ziarenkowata"
+      ],
+      "pt": [
+        "Saxifraga granulata"
+      ],
+      "ru": [
+        "Камнеломка зернистая"
+      ],
+      "zh": [
+        "小鳞茎虎耳草"
       ]
     },
     "tags": [],
@@ -7619,7 +9962,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7635,17 +9978,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_hirculus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7701,11 +10044,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Moor-Steinbrech"
+      ],
       "en": [
-        "Marsh saxifrage"
+        "Marsh saxifrage",
+        "Saxifraga hirculus"
+      ],
+      "es": [
+        "Saxifraga hirculus"
+      ],
+      "fr": [
+        "Saxifraga hirculus"
+      ],
+      "it": [
+        "Saxifraga hirculus"
+      ],
+      "nl": [
+        "bokjessteenbreek"
+      ],
+      "pl": [
+        "Skalnica torfowiskowa"
+      ],
+      "pt": [
+        "Saxifraga hirculus"
+      ],
+      "ru": [
+        "Камнеломка болотная"
+      ],
+      "zh": [
+        "山羊臭虎耳草"
       ]
     },
     "tags": [],
@@ -7717,7 +10090,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7733,17 +10106,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_hirsuta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7799,11 +10172,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.7
     },
     "common_names": {
+      "de": [
+        "Saxifraga hirsuta"
+      ],
       "en": [
-        "Kidney saxifrage"
+        "Kidney saxifrage",
+        "Saxifraga hirsuta"
+      ],
+      "es": [
+        "Saxifraga hirsuta"
+      ],
+      "fr": [
+        "Saxifraga hirsuta"
+      ],
+      "it": [
+        "Saxifraga hirsuta"
+      ],
+      "nl": [
+        "Saxifraga hirsuta"
+      ],
+      "pl": [
+        "Saxifraga hirsuta"
+      ],
+      "pt": [
+        "Saxifraga hirsuta"
+      ],
+      "ru": [
+        "Saxifraga hirsuta"
       ]
     },
     "tags": [],
@@ -7815,12 +10215,12 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Saxifraga_hyperborea_upernavik_2007-08-01_2.jpg",
+    "description": "Saxifraga hyperborea, the pygmy saxifrage, is a plant species native to Canada, Alaska, Greenland, Russia, Spitsbergen, and from mountainous areas in the western United States. One report from Mount Washington in New Hampshire is unverified. The plant grows in wet tundra, snow banks, stream banks and lake sides at elevations up to 3000 m. The US populations have been called S. debilis or S. rivularis in various publications.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7831,7 +10231,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_hyperborea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7897,9 +10297,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga hyperborea"
+      ],
+      "en": [
+        "Saxifraga hyperborea"
+      ],
+      "es": [
+        "Saxifraga hyperborea"
+      ],
+      "fr": [
+        "Saxifraga hyperborea"
+      ],
+      "it": [
+        "Saxifraga hyperborea"
+      ],
+      "nl": [
+        "Saxifraga hyperborea"
+      ],
+      "pl": [
+        "Saxifraga hyperborea"
+      ],
+      "pt": [
+        "Saxifraga hyperborea"
+      ],
+      "ru": [
+        "Saxifraga hyperborea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7909,7 +10339,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7925,17 +10355,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_hypnoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7991,11 +10421,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "كاسر الحجر الطحلبي"
+      ],
+      "de": [
+        "Saxifraga hypnoides"
+      ],
       "en": [
-        "Mossy saxifrage"
+        "Mossy saxifrage",
+        "Saxifraga hypnoides"
+      ],
+      "es": [
+        "Saxifraga hypnoides"
+      ],
+      "fr": [
+        "Saxifraga hypnoides"
+      ],
+      "it": [
+        "Saxifraga hypnoides"
+      ],
+      "nl": [
+        "Saxifraga hypnoides"
+      ],
+      "pl": [
+        "Saxifraga hypnoides"
+      ],
+      "pt": [
+        "Saxifraga hypnoides"
+      ],
+      "ru": [
+        "Saxifraga hypnoides"
+      ],
+      "zh": [
+        "灰藓虎耳草"
       ]
     },
     "tags": [],
@@ -8007,7 +10470,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8023,7 +10486,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_intricata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -8089,9 +10552,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga intricata"
+      ],
+      "en": [
+        "Saxifraga intricata"
+      ],
+      "es": [
+        "Saxifraga intricata"
+      ],
+      "fr": [
+        "Saxifraga intricata"
+      ],
+      "it": [
+        "Saxifraga intricata"
+      ],
+      "nl": [
+        "Saxifraga intricata"
+      ],
+      "pl": [
+        "Saxifraga intricata"
+      ],
+      "pt": [
+        "Saxifraga intricata"
+      ],
+      "ru": [
+        "Saxifraga intricata"
+      ],
+      "tr": [
+        "Saxifraga intricata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8101,7 +10597,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8117,17 +10613,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_longifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8183,11 +10679,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.4
     },
     "common_names": {
+      "ar": [
+        "كاسر الحجر مستطيل الورق"
+      ],
+      "de": [
+        "Saxifraga longifolia"
+      ],
       "en": [
-        "Pyrenean saxifrage"
+        "Pyrenean saxifrage",
+        "Saxifraga longifolia"
+      ],
+      "es": [
+        "Saxifraga longifolia"
+      ],
+      "fr": [
+        "Saxifraga longifolia"
+      ],
+      "it": [
+        "Saxifraga longifolia"
+      ],
+      "nl": [
+        "Saxifraga longifolia"
+      ],
+      "pl": [
+        "Saxifraga longifolia"
+      ],
+      "pt": [
+        "Saxifraga longifolia"
+      ],
+      "ru": [
+        "Saxifraga longifolia"
       ]
     },
     "tags": [],
@@ -8199,7 +10725,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8215,7 +10741,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_media",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -8281,11 +10807,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Saxifraga media"
+      ],
       "en": [
-        "Reddish saxifrage"
+        "Reddish saxifrage",
+        "Saxifraga media"
+      ],
+      "es": [
+        "Saxifraga media"
+      ],
+      "fr": [
+        "Saxifraga media"
+      ],
+      "it": [
+        "Saxifraga media"
+      ],
+      "nl": [
+        "Saxifraga media"
+      ],
+      "pl": [
+        "Saxifraga media"
+      ],
+      "pt": [
+        "Saxifraga media"
+      ],
+      "ru": [
+        "Saxifraga media"
+      ],
+      "tr": [
+        "Saxifraga media"
       ]
     },
     "tags": [],
@@ -8297,7 +10853,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8313,7 +10869,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_mertensiana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -8379,11 +10935,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Saxifraga mertensiana"
+      ],
       "en": [
+        "Saxifraga mertensiana",
         "Wood saxifrage"
+      ],
+      "es": [
+        "Saxifraga mertensiana"
+      ],
+      "fr": [
+        "Saxifraga mertensiana"
+      ],
+      "it": [
+        "Saxifraga mertensiana"
+      ],
+      "nl": [
+        "Saxifraga mertensiana"
+      ],
+      "pl": [
+        "Saxifraga mertensiana"
+      ],
+      "pt": [
+        "Saxifraga mertensiana"
+      ],
+      "ru": [
+        "Saxifraga mertensiana"
       ]
     },
     "tags": [],
@@ -8395,7 +10978,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8411,17 +10994,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_moschata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8477,9 +11060,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Moschus-Steinbrech"
+      ],
+      "en": [
+        "Saxifraga moschata"
+      ],
+      "es": [
+        "Saxifraga moschata"
+      ],
+      "fr": [
+        "Saxifraga moschata"
+      ],
+      "it": [
+        "Saxifraga moschata"
+      ],
+      "nl": [
+        "Saxifraga moschata"
+      ],
+      "pl": [
+        "Skalnica darniowa"
+      ],
+      "pt": [
+        "Saxifraga moschata"
+      ],
+      "ru": [
+        "Камнеломка мускусная"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8489,7 +11102,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8505,17 +11118,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_muscoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8571,9 +11184,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga muscoides"
+      ],
+      "en": [
+        "Saxifraga muscoides"
+      ],
+      "es": [
+        "Saxifraga muscoides"
+      ],
+      "fr": [
+        "Saxifraga muscoides"
+      ],
+      "it": [
+        "Saxifraga muscoides"
+      ],
+      "nl": [
+        "Saxifraga muscoides"
+      ],
+      "pl": [
+        "Saxifraga muscoides"
+      ],
+      "pt": [
+        "Saxifraga muscoides"
+      ],
+      "ru": [
+        "Saxifraga muscoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8583,7 +11226,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8599,17 +11242,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_mutata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8665,9 +11308,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 6.0
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كاسر الحجر المغيار"
+      ],
+      "de": [
+        "Kies-Steinbrech"
+      ],
+      "en": [
+        "Saxifraga mutata"
+      ],
+      "es": [
+        "Saxifraga mutata"
+      ],
+      "fr": [
+        "Saxifraga mutata"
+      ],
+      "it": [
+        "Saxifraga mutata"
+      ],
+      "nl": [
+        "Saxifraga mutata"
+      ],
+      "pl": [
+        "Saxifraga mutata"
+      ],
+      "pt": [
+        "Saxifraga mutata"
+      ],
+      "ru": [
+        "Saxifraga mutata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8677,7 +11353,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8693,17 +11369,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_oppositifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8759,11 +11435,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "de": [
+        "Gegenblättriger Steinbrech"
+      ],
       "en": [
-        "Purple mountain saxifrage"
+        "Purple mountain saxifrage",
+        "Saxifraga oppositifolia"
+      ],
+      "es": [
+        "Saxifraga oppositifolia"
+      ],
+      "fr": [
+        "Saxifrage à feuilles opposées"
+      ],
+      "it": [
+        "Saxifraga oppositifolia"
+      ],
+      "nl": [
+        "Saxifraga oppositifolia"
+      ],
+      "pl": [
+        "Skalnica naprzeciwlistna"
+      ],
+      "pt": [
+        "Saxifraga oppositifolia"
+      ],
+      "ru": [
+        "Камнеломка супротивнолистная"
+      ],
+      "tr": [
+        "Saxifraga oppositifolia"
+      ],
+      "zh": [
+        "挪威虎耳草"
       ]
     },
     "tags": [],
@@ -8775,7 +11484,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8791,17 +11500,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_osloensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8857,9 +11566,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga osloensis"
+      ],
+      "en": [
+        "Saxifraga osloensis"
+      ],
+      "es": [
+        "Saxifraga osloensis"
+      ],
+      "fr": [
+        "Saxifraga osloensis"
+      ],
+      "it": [
+        "Saxifraga osloensis"
+      ],
+      "nl": [
+        "Saxifraga osloensis"
+      ],
+      "pl": [
+        "Saxifraga osloensis"
+      ],
+      "pt": [
+        "Saxifraga osloensis"
+      ],
+      "ru": [
+        "Saxifraga osloensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8869,7 +11608,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8885,17 +11624,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_paniculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8951,11 +11690,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "de": [
+        "Rispen-Steinbrech"
+      ],
       "en": [
-        "Lifelong saxifrage"
+        "Lifelong saxifrage",
+        "Saxifraga paniculata"
+      ],
+      "es": [
+        "Saxifraga paniculata"
+      ],
+      "fr": [
+        "Saxifraga paniculata"
+      ],
+      "it": [
+        "Saxifraga paniculata"
+      ],
+      "nl": [
+        "Saxifraga paniculata"
+      ],
+      "pl": [
+        "Skalnica gronkowa"
+      ],
+      "pt": [
+        "Saxifraga paniculata"
+      ],
+      "ru": [
+        "Saxifraga paniculata"
       ]
     },
     "tags": [],
@@ -8967,7 +11733,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8983,17 +11749,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_pedemontana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -9049,9 +11815,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 3.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Piemonteser Steinbrech"
+      ],
+      "en": [
+        "Saxifraga pedemontana"
+      ],
+      "es": [
+        "Saxifraga pedemontana"
+      ],
+      "fr": [
+        "Saxifraga pedemontana"
+      ],
+      "it": [
+        "Saxifraga pedemontana"
+      ],
+      "nl": [
+        "Saxifraga pedemontana"
+      ],
+      "pl": [
+        "Saxifraga pedemontana"
+      ],
+      "pt": [
+        "Saxifraga pedemontana"
+      ],
+      "ru": [
+        "Saxifraga pedemontana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9061,7 +11857,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9077,7 +11873,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_pentadactylis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -9143,9 +11939,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga pentadactylis"
+      ],
+      "en": [
+        "Saxifraga pentadactylis"
+      ],
+      "es": [
+        "Saxifraga pentadactylis"
+      ],
+      "fr": [
+        "Saxifraga pentadactylis"
+      ],
+      "it": [
+        "Saxifraga pentadactylis"
+      ],
+      "nl": [
+        "Saxifraga pentadactylis"
+      ],
+      "pl": [
+        "Saxifraga pentadactylis"
+      ],
+      "pt": [
+        "Saxifraga pentadactylis"
+      ],
+      "ru": [
+        "Saxifraga pentadactylis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9155,7 +11981,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9171,7 +11997,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_praetermissa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -9237,9 +12063,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga praetermissa"
+      ],
+      "en": [
+        "Saxifraga praetermissa"
+      ],
+      "es": [
+        "Saxifraga praetermissa"
+      ],
+      "fr": [
+        "Saxifraga praetermissa"
+      ],
+      "it": [
+        "Saxifraga praetermissa"
+      ],
+      "nl": [
+        "Saxifraga praetermissa"
+      ],
+      "pl": [
+        "Saxifraga praetermissa"
+      ],
+      "pt": [
+        "Saxifraga praetermissa"
+      ],
+      "ru": [
+        "Saxifraga praetermissa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9249,7 +12105,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9265,17 +12121,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_pubescens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -9331,11 +12187,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Saxifraga pubescens"
+      ],
       "en": [
-        "Hairy saxifrage"
+        "Hairy saxifrage",
+        "Saxifraga pubescens"
+      ],
+      "es": [
+        "Saxifraga pubescens"
+      ],
+      "fr": [
+        "Saxifraga pubescens"
+      ],
+      "it": [
+        "Saxifraga pubescens"
+      ],
+      "nl": [
+        "Saxifraga pubescens"
+      ],
+      "pl": [
+        "Saxifraga pubescens"
+      ],
+      "pt": [
+        "Saxifraga pubescens"
+      ],
+      "ru": [
+        "Saxifraga pubescens"
       ]
     },
     "tags": [],
@@ -9347,7 +12230,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9429,9 +12312,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gestutzter Steinbrech"
+      ],
+      "en": [
+        "Saxifraga retusa"
+      ],
+      "es": [
+        "Saxifraga retusa"
+      ],
+      "fr": [
+        "Saxifrage tronquée"
+      ],
+      "it": [
+        "Saxifraga retusa"
+      ],
+      "nl": [
+        "Saxifraga retusa"
+      ],
+      "pl": [
+        "skalnica odgiętolistna"
+      ],
+      "pt": [
+        "Saxifraga retusa"
+      ],
+      "ru": [
+        "Saxifraga retusa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9441,7 +12354,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9457,17 +12370,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_rivularis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -9523,11 +12436,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "de": [
+        "Saxifraga rivularis"
+      ],
       "en": [
+        "Saxifraga rivularis",
         "Weak saxifrage"
+      ],
+      "es": [
+        "Saxifraga rivularis"
+      ],
+      "fr": [
+        "Saxifraga rivularis"
+      ],
+      "it": [
+        "Saxifraga rivularis"
+      ],
+      "nl": [
+        "Saxifraga rivularis"
+      ],
+      "pl": [
+        "Saxifraga rivularis"
+      ],
+      "pt": [
+        "Saxifraga rivularis"
+      ],
+      "ru": [
+        "Камнеломка ручейная"
       ]
     },
     "tags": [],
@@ -9539,7 +12479,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9555,13 +12495,13 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_rosacea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": null,
       "ppfd_max": null,
       "dli_min": null,
@@ -9621,11 +12561,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "de": [
+        "Rasen-Steinbrech"
+      ],
       "en": [
-        "Irish saxifrage"
+        "Irish saxifrage",
+        "Saxifraga rosacea"
+      ],
+      "es": [
+        "Saxifraga rosacea"
+      ],
+      "fr": [
+        "Saxifraga rosacea"
+      ],
+      "it": [
+        "Saxifraga rosacea"
+      ],
+      "nl": [
+        "Saxifraga rosacea"
+      ],
+      "pl": [
+        "Saxifraga rosacea"
+      ],
+      "pt": [
+        "Saxifraga rosacea"
+      ],
+      "ru": [
+        "Saxifraga rosacea"
+      ],
+      "zh": [
+        "红枝虎耳草"
       ]
     },
     "tags": [],
@@ -9637,7 +12607,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9658,12 +12628,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -9719,11 +12689,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "كاسر الحجر مستدير الورق"
+      ],
+      "de": [
+        "Rundblättriger Steinbrech"
+      ],
       "en": [
-        "Round-leaf saxifrage"
+        "Round-leaf saxifrage",
+        "Saxifraga rotundifolia"
+      ],
+      "es": [
+        "Saxifraga rotundifolia"
+      ],
+      "fr": [
+        "Saxifraga rotundifolia"
+      ],
+      "it": [
+        "Saxifraga rotundifolia"
+      ],
+      "nl": [
+        "Saxifraga rotundifolia"
+      ],
+      "pl": [
+        "Skalnica okrągłolistna"
+      ],
+      "pt": [
+        "Saxifraga rotundifolia"
+      ],
+      "ru": [
+        "Saxifraga rotundifolia"
       ]
     },
     "tags": [],
@@ -9735,7 +12735,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9817,9 +12817,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Seguiers Steinbrech"
+      ],
+      "en": [
+        "Saxifraga seguieri"
+      ],
+      "es": [
+        "Saxifraga seguieri"
+      ],
+      "fr": [
+        "Saxifraga seguieri"
+      ],
+      "it": [
+        "Saxifraga seguieri"
+      ],
+      "nl": [
+        "Saxifraga seguieri"
+      ],
+      "pl": [
+        "Saxifraga seguieri"
+      ],
+      "pt": [
+        "Saxifraga seguieri"
+      ],
+      "ru": [
+        "Saxifraga seguieri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9829,7 +12859,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9845,7 +12875,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_sibirica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -9911,9 +12941,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga sibirica"
+      ],
+      "en": [
+        "Saxifraga sibirica"
+      ],
+      "es": [
+        "Saxifraga sibirica"
+      ],
+      "fr": [
+        "Saxifraga sibirica"
+      ],
+      "it": [
+        "Saxifraga sibirica"
+      ],
+      "nl": [
+        "Saxifraga sibirica"
+      ],
+      "pl": [
+        "Saxifraga sibirica"
+      ],
+      "pt": [
+        "Saxifraga sibirica"
+      ],
+      "ru": [
+        "Saxifraga sibirica"
+      ],
+      "zh": [
+        "球茎虎耳草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9923,7 +12986,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9939,7 +13002,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_spathularis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -10005,11 +13068,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Saxifraga spathularis"
+      ],
       "en": [
+        "Saxifraga spathularis",
         "St patrick's-cabbage"
+      ],
+      "es": [
+        "Saxifraga spathularis"
+      ],
+      "fr": [
+        "Saxifraga spathularis"
+      ],
+      "it": [
+        "Saxifraga spathularis"
+      ],
+      "nl": [
+        "Saxifraga spathularis"
+      ],
+      "pl": [
+        "Saxifraga spathularis"
+      ],
+      "pt": [
+        "Saxifraga spathularis"
+      ],
+      "ru": [
+        "Saxifraga spathularis"
       ]
     },
     "tags": [],
@@ -10021,7 +13111,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10037,7 +13127,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_stolonifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -10103,11 +13193,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كاسر الحجر السرعي"
+      ],
+      "de": [
+        "Kriech-Steinbrech"
+      ],
       "en": [
-        "Creeping saxifrage"
+        "Creeping saxifrage",
+        "Saxifraga stolonifera"
+      ],
+      "es": [
+        "Saxifraga stolonifera"
+      ],
+      "fr": [
+        "Saxifrage stolonifère"
+      ],
+      "it": [
+        "Saxifraga stolonifera"
+      ],
+      "ja": [
+        "ユキノシタ"
+      ],
+      "ko": [
+        "바위취"
+      ],
+      "nl": [
+        "Saxifraga stolonifera"
+      ],
+      "pl": [
+        "skalnica rozłogowa"
+      ],
+      "pt": [
+        "Saxifraga stolonifera"
+      ],
+      "ru": [
+        "Saxifraga stolonifera"
+      ],
+      "tr": [
+        "Saxifraga stolonifera"
+      ],
+      "zh": [
+        "虎耳草"
       ]
     },
     "tags": [],
@@ -10119,7 +13251,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10135,17 +13267,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_tricuspidata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -10201,11 +13333,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Saxifraga tricuspidata"
+      ],
       "en": [
-        "Prickly saxifrage"
+        "Prickly saxifrage",
+        "Saxifraga tricuspidata"
+      ],
+      "es": [
+        "Saxifraga tricuspidata"
+      ],
+      "fr": [
+        "Saxifraga tricuspidata"
+      ],
+      "it": [
+        "Saxifraga tricuspidata"
+      ],
+      "nl": [
+        "Saxifraga tricuspidata"
+      ],
+      "pl": [
+        "Saxifraga tricuspidata"
+      ],
+      "pt": [
+        "Saxifraga tricuspidata"
+      ],
+      "ru": [
+        "Saxifraga tricuspidata"
       ]
     },
     "tags": [],
@@ -10217,7 +13376,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10233,17 +13392,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_tridactylites",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -10299,11 +13458,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Dreifinger-Steinbrech"
+      ],
       "en": [
-        "Rue-leaf saxifrage"
+        "Rue-leaf saxifrage",
+        "Saxifraga tridactylites"
+      ],
+      "es": [
+        "Saxifraga tridactylites"
+      ],
+      "fr": [
+        "Saxifrage à trois doigts"
+      ],
+      "it": [
+        "Saxifraga tridactylites"
+      ],
+      "ja": [
+        "ロボウクモマグサ"
+      ],
+      "nl": [
+        "kandelaartje"
+      ],
+      "pl": [
+        "Skalnica trójpalczasta"
+      ],
+      "pt": [
+        "Saxifraga tridactylites"
+      ],
+      "ru": [
+        "Камнеломка трёхпалая"
       ]
     },
     "tags": [],
@@ -10315,7 +13504,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10331,17 +13520,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_umbrosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Shade",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 50,
+      "ppfd_max": 150,
+      "dli_min": 2.0,
+      "dli_max": 6.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -10397,11 +13586,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 3.0
     },
     "common_names": {
+      "ar": [
+        "كاسر الحجر الظلي"
+      ],
+      "de": [
+        "Saxifraga umbrosa"
+      ],
       "en": [
-        "London-pride"
+        "London-pride",
+        "Saxifraga umbrosa"
+      ],
+      "es": [
+        "Saxifraga umbrosa"
+      ],
+      "fr": [
+        "Saxifraga umbrosa"
+      ],
+      "it": [
+        "Saxifraga umbrosa"
+      ],
+      "nl": [
+        "Saxifraga umbrosa"
+      ],
+      "pl": [
+        "Skalnica cienista"
+      ],
+      "pt": [
+        "Saxifraga umbrosa"
+      ],
+      "ru": [
+        "Saxifraga umbrosa"
       ]
     },
     "tags": [],
@@ -10413,7 +13632,7 @@
     "family": "Saxifragaceae",
     "genus": "Saxifraga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10429,7 +13648,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saxifraga_vayredana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -10495,9 +13714,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saxifraga vayredana"
+      ],
+      "en": [
+        "Saxifraga vayredana"
+      ],
+      "es": [
+        "Saxifraga vayredana"
+      ],
+      "fr": [
+        "Saxifraga vayredana"
+      ],
+      "it": [
+        "Saxifraga vayredana"
+      ],
+      "nl": [
+        "Saxifraga vayredana"
+      ],
+      "pl": [
+        "Saxifraga vayredana"
+      ],
+      "pt": [
+        "Saxifraga vayredana"
+      ],
+      "ru": [
+        "Saxifraga vayredana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10507,7 +13756,7 @@
     "family": "Saxifragaceae",
     "genus": "Tellima",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10523,17 +13772,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "tellima_grandiflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Shade",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 50,
+      "ppfd_max": 150,
+      "dli_min": 2.0,
+      "dli_max": 6.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -10589,11 +13838,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 3.0
     },
     "common_names": {
+      "de": [
+        "Falsche Alraunenwurzel"
+      ],
       "en": [
-        "Fringecups"
+        "Fringecups",
+        "Tellima grandiflora"
+      ],
+      "es": [
+        "Tellima grandiflora"
+      ],
+      "fr": [
+        "Tellima grandiflora"
+      ],
+      "it": [
+        "Tellima grandiflora"
+      ],
+      "nl": [
+        "Tellima grandiflora"
+      ],
+      "pl": [
+        "Telima wielkokwiatowa"
+      ],
+      "pt": [
+        "Tellima"
+      ],
+      "ru": [
+        "Tellima grandiflora"
+      ],
+      "zh": [
+        "大繐杯花"
       ]
     },
     "tags": [],
@@ -10605,7 +13884,7 @@
     "family": "Saxifragaceae",
     "genus": "Tiarella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10689,11 +13968,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Tiarella cordifolia"
+      ],
       "en": [
-        "Heart-leaf foamflower"
+        "Heart-leaf foamflower",
+        "Tiarella cordifolia"
+      ],
+      "es": [
+        "Tiarella cordifolia"
+      ],
+      "fr": [
+        "Tiarella cordifolia"
+      ],
+      "it": [
+        "Tiarella cordifolia"
+      ],
+      "nl": [
+        "Tiarella cordifolia"
+      ],
+      "pl": [
+        "Tiarella cordifolia"
+      ],
+      "pt": [
+        "Tiarella cordifolia"
+      ],
+      "ru": [
+        "Тиарелла сердцелистная"
+      ],
+      "zh": [
+        "泡沫花"
       ]
     },
     "tags": [],
@@ -10705,7 +14014,7 @@
     "family": "Saxifragaceae",
     "genus": "Tiarella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10789,9 +14098,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tiarella polyphylla"
+      ],
+      "en": [
+        "Tiarella polyphylla"
+      ],
+      "es": [
+        "Tiarella polyphylla"
+      ],
+      "fr": [
+        "Tiarella polyphylla"
+      ],
+      "it": [
+        "Tiarella polyphylla"
+      ],
+      "ja": [
+        "ズダヤクシュ"
+      ],
+      "nl": [
+        "Tiarella polyphylla"
+      ],
+      "pl": [
+        "Tiarella polyphylla"
+      ],
+      "pt": [
+        "Tiarella polyphylla"
+      ],
+      "ru": [
+        "Tiarella polyphylla"
+      ],
+      "zh": [
+        "黄水枝"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10801,7 +14146,7 @@
     "family": "Saxifragaceae",
     "genus": "Tiarella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10885,11 +14230,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Tiarella trifoliata"
+      ],
       "en": [
-        "Sugar-scoop"
+        "Sugar-scoop",
+        "Tiarella trifoliata"
+      ],
+      "es": [
+        "Tiarella trifoliata"
+      ],
+      "fr": [
+        "Tiarella trifoliata"
+      ],
+      "it": [
+        "Tiarella trifoliata"
+      ],
+      "nl": [
+        "Tiarella trifoliata"
+      ],
+      "pl": [
+        "Tiarella trifoliata"
+      ],
+      "pt": [
+        "Tiarella trifoliata"
+      ],
+      "ru": [
+        "Тиарелла трёхлистная"
       ]
     },
     "tags": [],
@@ -10901,7 +14273,7 @@
     "family": "Saxifragaceae",
     "genus": "Tolmiea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10922,12 +14294,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Shade",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 50,
+      "ppfd_max": 150,
+      "dli_min": 2.0,
+      "dli_max": 6.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -10983,11 +14355,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.0
     },
     "common_names": {
+      "de": [
+        "Henne mit Küken"
+      ],
       "en": [
-        "Pick-a-back-plant"
+        "Pick-a-back-plant",
+        "Tolmiea menziesii"
+      ],
+      "es": [
+        "Tolmiea menziesii"
+      ],
+      "fr": [
+        "Tolmiea menziesii"
+      ],
+      "it": [
+        "Tolmiea menziesii"
+      ],
+      "nl": [
+        "Kindje-op-moeders-schoot"
+      ],
+      "pl": [
+        "Tolmiea"
+      ],
+      "pt": [
+        "Tolmiea"
+      ],
+      "ru": [
+        "Tolmiea menziesii"
+      ],
+      "zh": [
+        "负儿草"
       ]
     },
     "tags": [],

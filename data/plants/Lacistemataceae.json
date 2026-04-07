@@ -5,7 +5,7 @@
     "family": "Lacistemataceae",
     "genus": "Lacistema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lacistema aggregatum"
+      ],
+      "en": [
+        "Lacistema aggregatum"
+      ],
+      "es": [
+        "Lacistema aggregatum"
+      ],
+      "fr": [
+        "Lacistema aggregatum"
+      ],
+      "it": [
+        "Lacistema aggregatum"
+      ],
+      "nl": [
+        "Lacistema aggregatum"
+      ],
+      "pl": [
+        "Lacistema aggregatum"
+      ],
+      "pt": [
+        "Lacistema aggregatum"
+      ],
+      "ru": [
+        "Lacistema aggregatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Lacistemataceae",
     "genus": "Lacistema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lacistema hasslerianum"
+      ],
+      "en": [
+        "Lacistema hasslerianum"
+      ],
+      "es": [
+        "Lacistema hasslerianum"
+      ],
+      "fr": [
+        "Lacistema hasslerianum"
+      ],
+      "it": [
+        "Lacistema hasslerianum"
+      ],
+      "nl": [
+        "Lacistema hasslerianum"
+      ],
+      "pl": [
+        "Lacistema hasslerianum"
+      ],
+      "pt": [
+        "Lacistema hasslerianum"
+      ],
+      "ru": [
+        "Lacistema hasslerianum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +253,7 @@
     "family": "Lacistemataceae",
     "genus": "Lacistema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lacistema pubescens"
+      ],
+      "en": [
+        "Lacistema pubescens"
+      ],
+      "es": [
+        "Lacistema pubescens"
+      ],
+      "fr": [
+        "Lacistema pubescens"
+      ],
+      "it": [
+        "Lacistema pubescens"
+      ],
+      "nl": [
+        "Lacistema pubescens"
+      ],
+      "pl": [
+        "Lacistema pubescens"
+      ],
+      "pt": [
+        "Lacistema pubescens"
+      ],
+      "ru": [
+        "Lacistema pubescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

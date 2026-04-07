@@ -5,12 +5,12 @@
     "family": "Theaceae",
     "genus": "Camellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9d779bbb1fe7a0c0744d60b2cd18131fb7750bfc",
-    "description": "A woody capsule up to 1  in length.",
+    "description": "Camellia japonica, known as common camellia, or Japanese camellia, is a species of flowering plant from the genus Camellia in the tea family Theaceae. It is native to China and Japan, and grows naturally in forests at altitudes of around 300–1,100 metres (980–3,600 ft).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -92,11 +92,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كاميلة"
+      ],
+      "de": [
+        "Kamelie"
+      ],
       "en": [
-        "Camellia"
+        "Camellia",
+        "Camellia japonica"
+      ],
+      "es": [
+        "Camellia japonica"
+      ],
+      "fr": [
+        "Camélia du Japon"
+      ],
+      "it": [
+        "Camellia japonica"
+      ],
+      "ja": [
+        "ヤブツバキ"
+      ],
+      "ko": [
+        "동백나무"
+      ],
+      "nl": [
+        "Camellia japonica"
+      ],
+      "pl": [
+        "Kamelia japońska"
+      ],
+      "pt": [
+        "Camellia japonica"
+      ],
+      "ru": [
+        "Камелия японская"
+      ],
+      "tr": [
+        "Japon Kamelyası"
+      ],
+      "zh": [
+        "山茶花"
       ]
     },
     "tags": [],
@@ -108,12 +150,12 @@
     "family": "Theaceae",
     "genus": "Camellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6ee0a495e32ee56e1078dee0e891feef5c7ba20b",
-    "description": "Roundish woody capsule up to 1  in length.",
+    "description": "Camellia oleifera, which originated in China, is notable as an important source of edible oil obtained from its seeds. It is commonly known as the oil-seed camellia or tea oil camellia, though to a lesser extent other species of camellia are used in oil production too.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -190,11 +232,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كاميليا أوليفيرا"
+      ],
+      "de": [
+        "Camellia oleifera"
+      ],
       "en": [
+        "Camellia oleifera",
         "Sasanqua camellia"
+      ],
+      "es": [
+        "Camellia oleifera"
+      ],
+      "fr": [
+        "Camellia oleifera"
+      ],
+      "it": [
+        "Camellia oleifera"
+      ],
+      "ja": [
+        "ユチャ"
+      ],
+      "nl": [
+        "Camellia oleifera"
+      ],
+      "pl": [
+        "Kamelia olejodajna"
+      ],
+      "pt": [
+        "Camellia oleifera"
+      ],
+      "ru": [
+        "Камелия масличная"
+      ],
+      "zh": [
+        "油茶"
       ]
     },
     "tags": [],
@@ -206,12 +284,12 @@
     "family": "Theaceae",
     "genus": "Camellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c01b0c63b8f3d073dc822fe5292156a13bbea55d",
-    "description": "A loculicidal woody capsule, 1 inch long.",
+    "description": "Camellia sasanqua, with common name sasanqua camellia, is a species of Camellia native to southern Japan. It is usually found growing up to an altitude of 900 m (3,000 ft).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -295,11 +373,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كاميليا ساسانكوا"
+      ],
+      "de": [
+        "Herbstblühende Kamelie"
+      ],
       "en": [
+        "Camellia sasanqua",
         "Sasanqua camellia"
+      ],
+      "es": [
+        "Camellia sasanqua"
+      ],
+      "fr": [
+        "Camellia sasanqua"
+      ],
+      "it": [
+        "Camellia sasanqua"
+      ],
+      "ja": [
+        "サザンカ"
+      ],
+      "nl": [
+        "Camellia sasanqua"
+      ],
+      "pl": [
+        "Kamelia mała"
+      ],
+      "pt": [
+        "Camellia sasanqua"
+      ],
+      "ru": [
+        "камелия сасанква"
+      ],
+      "zh": [
+        "茶梅"
       ]
     },
     "tags": [],
@@ -311,12 +425,12 @@
     "family": "Theaceae",
     "genus": "Camellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8069fd909449ea97ee047e694c992a738d458b4a",
-    "description": "3-lobed smooth fruit begins green maturing to dark brown and cracks open to reveal 3 rounded-cuneate seeds.  Seeds can take up to 12 months to develop from bud blossom to mature fruit.",
+    "description": "Camellia sinensis is a species of evergreen shrub or small tree in the flowering plant family Theaceae. Its leaves, leaf buds, and stems are used to produce tea. Common names include tea plant, tea shrub, and tea tree.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -359,8 +473,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: subtropical",
       "tips": "Remove aged tissues, dead and pest branches timely | Similar plants: Arabis caucasica | Native to: AGE SF, CHN SA, ASIA TROPICAL, CARIBBEAN, AND",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: stimulating. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -379,7 +493,7 @@
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
       "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Used as a medicinal product\"]",
@@ -393,11 +507,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كاميليا صينية"
+      ],
+      "de": [
+        "Tee"
+      ],
       "en": [
-        "Black tea"
+        "Black tea",
+        "Camellia sinensis"
+      ],
+      "es": [
+        "Camellia sinensis"
+      ],
+      "fr": [
+        "théier"
+      ],
+      "hi": [
+        "कामेल्या सीनेन्सीस्"
+      ],
+      "it": [
+        "Camellia sinensis"
+      ],
+      "ja": [
+        "チャノキ"
+      ],
+      "ko": [
+        "차나무"
+      ],
+      "nl": [
+        "theeplant"
+      ],
+      "pl": [
+        "herbata chińska"
+      ],
+      "pt": [
+        "Camellia sinensis"
+      ],
+      "ru": [
+        "чай"
+      ],
+      "tr": [
+        "Çay"
+      ],
+      "zh": [
+        "茶樹"
       ]
     },
     "tags": [],
@@ -409,12 +568,12 @@
     "family": "Theaceae",
     "genus": "Gordonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cca91159241f41ce0b5924f1b82896ec23b0169b",
-    "description": null,
+    "description": "Gordonia fruticosa is a species of shrub or tree in the family Theaceae. It is native to Central and South America, ranging from Honduras to Bolivia and southern Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -491,9 +650,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gordonia fruticosa"
+      ],
+      "en": [
+        "Gordonia fruticosa"
+      ],
+      "es": [
+        "Gordonia fruticosa"
+      ],
+      "fr": [
+        "Gordonia fruticosa"
+      ],
+      "it": [
+        "Gordonia fruticosa"
+      ],
+      "nl": [
+        "Gordonia fruticosa"
+      ],
+      "pl": [
+        "Gordonia fruticosa"
+      ],
+      "pt": [
+        "Gordonia fruticosa"
+      ],
+      "ru": [
+        "Gordonia fruticosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -503,12 +692,12 @@
     "family": "Theaceae",
     "genus": "Gordonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Gordonia lasianthus is a small to medium-sized evergreen tree or shrub found in acidic, swampy soils of pinelands and bays on the Atlantic and Gulf Coastal Plains of the southeastern United States. It is a member of the tea or family Theaceae. It is slow growing with soft, light-colored, fine-grained wood of little commercial value, although loblolly-bay could be managed as a source of pulpwood. When older specimens are cut, the wood exudes a strong scent.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -585,9 +774,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gordonia lasianthus"
+      ],
+      "en": [
+        "Gordonia lasianthus"
+      ],
+      "es": [
+        "Gordonia lasianthus"
+      ],
+      "fr": [
+        "Gordonia lasianthus"
+      ],
+      "it": [
+        "Gordonia lasianthus"
+      ],
+      "nl": [
+        "Gordonia lasianthus"
+      ],
+      "pl": [
+        "Gordonia lasianthus"
+      ],
+      "pt": [
+        "Gordonia lasianthus"
+      ],
+      "ru": [
+        "Gordonia lasianthus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -597,7 +816,7 @@
     "family": "Theaceae",
     "genus": "Schima",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -679,9 +898,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schima superba"
+      ],
+      "en": [
+        "Schima superba"
+      ],
+      "es": [
+        "Schima superba"
+      ],
+      "fr": [
+        "Schima superba"
+      ],
+      "it": [
+        "Schima superba"
+      ],
+      "nl": [
+        "Schima superba"
+      ],
+      "pl": [
+        "Schima superba"
+      ],
+      "pt": [
+        "Schima superba"
+      ],
+      "ru": [
+        "Schima superba"
+      ],
+      "zh": [
+        "木荷"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -691,7 +943,7 @@
     "family": "Theaceae",
     "genus": "Stewartia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -777,11 +1029,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Stewartia malacodendron"
+      ],
       "en": [
-        "Round-fruit stewartia"
+        "Round-fruit stewartia",
+        "Stewartia malacodendron"
+      ],
+      "es": [
+        "Stewartia malacodendron"
+      ],
+      "fr": [
+        "Stewartia malacodendron"
+      ],
+      "it": [
+        "Stewartia malacodendron"
+      ],
+      "nl": [
+        "Stewartia malacodendron"
+      ],
+      "pl": [
+        "Stewartia malacodendron"
+      ],
+      "pt": [
+        "Stewartia malacodendron"
+      ],
+      "ru": [
+        "Стюартия малакодендрон"
+      ],
+      "zh": [
+        "圆果紫茎"
       ]
     },
     "tags": [],
@@ -793,7 +1075,7 @@
     "family": "Theaceae",
     "genus": "Stewartia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -875,9 +1157,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Japanische Scheinkamelie"
+      ],
+      "en": [
+        "Stewartia pseudocamellia"
+      ],
+      "es": [
+        "Stewartia pseudocamellia"
+      ],
+      "fr": [
+        "Stewartia pseudocamellia"
+      ],
+      "it": [
+        "Stewartia pseudocamellia"
+      ],
+      "ja": [
+        "ナツツバキ"
+      ],
+      "ko": [
+        "노각나무"
+      ],
+      "nl": [
+        "Stewartia pseudocamellia"
+      ],
+      "pl": [
+        "Stewarcja kameliowata"
+      ],
+      "pt": [
+        "Stewartia pseudocamellia"
+      ],
+      "ru": [
+        "Стюартия псевдокамеллия"
+      ],
+      "zh": [
+        "红山紫茎"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

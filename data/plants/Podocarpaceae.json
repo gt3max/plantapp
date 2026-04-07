@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2c5443bb701fa63236f0201a5bbfc783b5325a3b",
-    "description": null,
+    "description": "Afrocarpus falcatus is a species of tree in the family Podocarpaceae. It is native to the montane forests of southern Africa, where it is distributed in Malawi, Mozambique, South Africa, and Eswatini. Common names include common yellowwood, bastard yellowwood, outeniqua yellowwood, African pine tree, weeping yew, Afrikaans: outeniekwageelhout, kalander, Sotho: mogôbagôba, Xhosa: umkhoba and Zulu: umsonti.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gewöhnliches Afrogelbholz"
+      ],
       "en": [
+        "Afrocarpus falcatus",
         "Bastard yellowwood"
+      ],
+      "es": [
+        "Afrocarpus falcatus"
+      ],
+      "fr": [
+        "Afrocarpus falcatus"
+      ],
+      "it": [
+        "Afrocarpus falcatus"
+      ],
+      "nl": [
+        "Afrocarpus falcatus"
+      ],
+      "pl": [
+        "Afrocarpus falcatus"
+      ],
+      "pt": [
+        "Afrocarpus falcatus"
+      ],
+      "ru": [
+        "Afrocarpus falcatus"
+      ],
+      "zh": [
+        "镰形罗汉松"
       ]
     },
     "tags": [],
@@ -103,12 +133,12 @@
     "family": "Podocarpaceae",
     "genus": "Dacrycarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/78624a77710f148c313465561bdd36866f60ce1c",
-    "description": null,
+    "description": "Dacrycarpus dacrydioides, commonly known as kahikatea and white pine, is a coniferous tree endemic to New Zealand. A podocarp, it is New Zealand's tallest tree, gaining heights of 60 metres over a life span of 600 years. It was first described botanically by the French botanist Achille Richard in 1832 as Podocarpus dacrydioides, and was given its current binomial name Dacrycarpus dacrydioides in 1969 by the American botanist David de Laubenfels.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,11 +215,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صنوبر أبيض"
+      ],
+      "de": [
+        "Neuseeländische Warzeneibe"
+      ],
       "en": [
+        "Dacrycarpus dacrydioides",
         "New zealand dacryberry"
+      ],
+      "es": [
+        "Dacrycarpus dacrydioides"
+      ],
+      "fr": [
+        "Dacrycarpus dacrydioides"
+      ],
+      "it": [
+        "Dacrycarpus dacrydioides"
+      ],
+      "ja": [
+        "スイシスギマキ"
+      ],
+      "nl": [
+        "Dacrycarpus dacrydioides"
+      ],
+      "pl": [
+        "Dacrycarpus dacrydioides"
+      ],
+      "pt": [
+        "Dacrycarpus dacrydioides"
+      ],
+      "ru": [
+        "Ногоплодник дакридиевидный"
+      ],
+      "zh": [
+        "紐西蘭雞毛松"
       ]
     },
     "tags": [],
@@ -201,12 +267,12 @@
     "family": "Podocarpaceae",
     "genus": "Dacrycarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/55565bba8d5b8656b46cd8d7c82a2c24fc706d9f",
-    "description": null,
+    "description": "Dacrycarpus imbricatus is a species of conifer in the family Podocarpaceae. It is found in Cambodia, southern China, Fiji, Indonesia, Laos, Malaysia, Papua New Guinea, the Philippines, Thailand, Vanuatu, and Vietnam. It is a tall tree up to 40 metres (130 ft) high.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -283,11 +349,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dacrycarpus imbricatus"
+      ],
       "en": [
+        "Dacrycarpus imbricatus",
         "Pine"
+      ],
+      "es": [
+        "Dacrycarpus imbricatus"
+      ],
+      "fr": [
+        "Dacrycarpus imbricatus"
+      ],
+      "it": [
+        "Dacrycarpus imbricatus"
+      ],
+      "nl": [
+        "Dacrycarpus imbricatus"
+      ],
+      "pl": [
+        "Dacrycarpus imbricatus"
+      ],
+      "pt": [
+        "Dacrycarpus imbricatus"
+      ],
+      "ru": [
+        "Dacrycarpus imbricatus"
+      ],
+      "zh": [
+        "鸡毛松"
       ]
     },
     "tags": [],
@@ -299,7 +395,7 @@
     "family": "Podocarpaceae",
     "genus": "Dacrydium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -381,11 +477,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "دماعة سروية"
+      ],
+      "de": [
+        "Rimu-Harzeibe"
+      ],
       "en": [
+        "Dacrydium cupressinum",
         "Red pine"
+      ],
+      "es": [
+        "Dacrydium cupressinum"
+      ],
+      "fr": [
+        "Dacrydium cupressinum"
+      ],
+      "it": [
+        "Dacrydium cupressinum"
+      ],
+      "ja": [
+        "リム (植物)"
+      ],
+      "ko": [
+        "리무 (나무)"
+      ],
+      "nl": [
+        "Dacrydium cupressinum"
+      ],
+      "pl": [
+        "Dacrydium cupressinum"
+      ],
+      "pt": [
+        "Rimu"
+      ],
+      "ru": [
+        "Дакридиум кипарисовый"
+      ],
+      "zh": [
+        "紐西蘭陸均松"
       ]
     },
     "tags": [],
@@ -397,12 +532,12 @@
     "family": "Podocarpaceae",
     "genus": "Halocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/080e4d2b2750e6d1ab1533eaef55c057.jpg",
-    "description": null,
+    "description": "Halocarpus biformis, commonly known as yellow pine or pink pine, is a coniferous tree endemic to New Zealand. It yields a tight-grained, sweet-smelling, and extremely durable wood.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -479,9 +614,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halocarpus biformis"
+      ],
+      "en": [
+        "Halocarpus biformis"
+      ],
+      "es": [
+        "Halocarpus biformis"
+      ],
+      "fr": [
+        "Halocarpus biformis"
+      ],
+      "it": [
+        "Halocarpus biformis"
+      ],
+      "nl": [
+        "Halocarpus biformis"
+      ],
+      "pl": [
+        "Halocarpus biformis"
+      ],
+      "pt": [
+        "Halocarpus biformis"
+      ],
+      "ru": [
+        "Halocarpus biformis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -491,12 +656,12 @@
     "family": "Podocarpaceae",
     "genus": "Lepidothamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1eb3bb3ace1f8560b6c997a4249f0424.jpg",
-    "description": null,
+    "description": "Lepidothamnus intermedius, commonly known as the yellow silver pine, is a species of conifer in the family Podocarpaceae. It is endemic to New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -573,9 +738,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lepidothamnus intermedius"
+      ],
+      "en": [
+        "Lepidothamnus intermedius"
+      ],
+      "es": [
+        "Lepidothamnus intermedius"
+      ],
+      "fr": [
+        "Lepidothamnus intermedius"
+      ],
+      "it": [
+        "Lepidothamnus intermedius"
+      ],
+      "nl": [
+        "Lepidothamnus intermedius"
+      ],
+      "pl": [
+        "Lepidothamnus intermedius"
+      ],
+      "pt": [
+        "Lepidothamnus intermedius"
+      ],
+      "ru": [
+        "Lepidothamnus intermedius"
+      ],
+      "zh": [
+        "黃銀松"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -585,12 +783,12 @@
     "family": "Podocarpaceae",
     "genus": "Manoao",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/db05c60d597504c3fcbe4b13b5d717cc.jpg",
-    "description": null,
+    "description": "Manoao is a monotypic genus in the family Podocarpaceae. The single species, M. colensoi, commonly known as manoao, silver pine, Westland pine, or white silver pine, is endemic to New Zealand. Before 1996 it was classified in genus Dacrydium or Lagarostrobos, but has recently been recognised as a distinct genus; some botanists still treat it in Lagarostrobos on the basis that it is not phylogenetically distinct from that genus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -667,9 +865,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Manoao colensoi"
+      ],
+      "en": [
+        "Manoao colensoi"
+      ],
+      "es": [
+        "Manoao"
+      ],
+      "fr": [
+        "Manoao colensoi"
+      ],
+      "it": [
+        "Manoao colensoi"
+      ],
+      "ja": [
+        "マノアオ"
+      ],
+      "nl": [
+        "Manoao"
+      ],
+      "pl": [
+        "Manoao colensoi"
+      ],
+      "pt": [
+        "Manoao"
+      ],
+      "ru": [
+        "Manoao colensoi"
+      ],
+      "zh": [
+        "銀松"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -679,12 +913,12 @@
     "family": "Podocarpaceae",
     "genus": "Nageia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b73555b53957c0e0324d1296bb2a8d4d8c45a345",
-    "description": null,
+    "description": "Nageia nagi, or the Asian bayberry, is a plant species in the family Podocarpaceae named by Carl Peter Thunberg. Nageia nagi is native to China, Japan, and Taiwan. It was formerly called Podocarpus nagi.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -761,11 +995,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ناغية يابانية"
+      ],
+      "de": [
+        "Nageia nagi"
+      ],
       "en": [
-        "Kaphal"
+        "Kaphal",
+        "Nageia nagi"
+      ],
+      "es": [
+        "Nageia nagi"
+      ],
+      "fr": [
+        "Nageia nagi"
+      ],
+      "it": [
+        "Nageia nagi"
+      ],
+      "ja": [
+        "ナギ"
+      ],
+      "nl": [
+        "Nageia nagi"
+      ],
+      "pl": [
+        "Nageia nagi"
+      ],
+      "pt": [
+        "Nageia nagi"
+      ],
+      "ru": [
+        "Nageia nagi"
+      ],
+      "zh": [
+        "竹柏"
       ]
     },
     "tags": [],
@@ -777,12 +1047,12 @@
     "family": "Podocarpaceae",
     "genus": "Phyllocladus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0e295ccfd2c693e0058008ddb1f8b77d9d10bfa6",
-    "description": null,
+    "description": "Phyllocladus aspleniifolius, commonly known as the celerytop pine, is an endemic gymnosperm of Tasmania, Australia. It is widespread and common in Tasmania, with the most abundance in the western highlands. Its leaves appear similar to those of a celery plant, hence the common name.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -859,11 +1129,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Tasmanische Blatteibe"
+      ],
       "en": [
-        "Celery-top pine"
+        "Celery-top pine",
+        "Phyllocladus aspleniifolius"
+      ],
+      "es": [
+        "Phyllocladus aspleniifolius"
+      ],
+      "fr": [
+        "Phyllocladus aspleniifolius"
+      ],
+      "it": [
+        "Phyllocladus aspleniifolius"
+      ],
+      "nl": [
+        "Phyllocladus aspleniifolius"
+      ],
+      "pl": [
+        "Phyllocladus aspleniifolius"
+      ],
+      "pt": [
+        "Phyllocladus aspleniifolius"
+      ],
+      "ru": [
+        "Филлокладус асплениелистный"
+      ],
+      "zh": [
+        "芹葉松"
       ]
     },
     "tags": [],
@@ -875,12 +1175,12 @@
     "family": "Podocarpaceae",
     "genus": "Phyllocladus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dc143065cceb66251046214a121b53c50ef9a581",
-    "description": null,
+    "description": "Phyllocladus trichomanoides, commonly known as the tānekaha or celery pine, is a coniferous tree endemic to New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -957,11 +1257,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Phyllocladus trichomanoides"
+      ],
       "en": [
-        "Celery pine"
+        "Celery pine",
+        "Phyllocladus trichomanoides"
+      ],
+      "es": [
+        "Phyllocladus trichomanoides"
+      ],
+      "fr": [
+        "Phyllocladus trichomanoides"
+      ],
+      "it": [
+        "Phyllocladus trichomanoides"
+      ],
+      "nl": [
+        "Phyllocladus trichomanoides"
+      ],
+      "pl": [
+        "Phyllocladus trichomanoides"
+      ],
+      "pt": [
+        "Phyllocladus trichomanoides"
+      ],
+      "ru": [
+        "Phyllocladus trichomanoides"
       ]
     },
     "tags": [],
@@ -973,12 +1300,12 @@
     "family": "Podocarpaceae",
     "genus": "Podocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/14a90bfc141bc5819bd41561a01ea8c4a0add534",
-    "description": "Female cones have 1-2 seeds borne on top of a swollen, fleshy aril. The aril is purplish and less than an inch in diameter. Male cones are clustered in yellowish-green strobili. Aril&#x27;s are edible but seeds are poisonous.",
+    "description": "Podocarpus elatus, known as the plum pine, the brown pine, the Illawarra plum or the Queensland Christmas tree, is a species of Podocarpus endemic to the east coast of Australia, in eastern New South Wales and eastern Queensland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1059,11 +1386,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "معلاقة باسقة"
+      ],
+      "de": [
+        "Podocarpus elatus"
+      ],
       "en": [
-        "Brown pine"
+        "Brown pine",
+        "Podocarpus elatus"
+      ],
+      "es": [
+        "Podocarpus elatus"
+      ],
+      "fr": [
+        "Podocarpus elatus"
+      ],
+      "it": [
+        "Podocarpus elatus"
+      ],
+      "ja": [
+        "イラワラプラム"
+      ],
+      "nl": [
+        "Podocarpus elatus"
+      ],
+      "pl": [
+        "Podocarpus elatus"
+      ],
+      "pt": [
+        "Podocarpus elatus"
+      ],
+      "ru": [
+        "Подокарп высокий"
+      ],
+      "zh": [
+        "高大羅漢松"
       ]
     },
     "tags": [],
@@ -1075,12 +1438,12 @@
     "family": "Podocarpaceae",
     "genus": "Podocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ef954e04fb77cbc4304c3bcab04065e1.jpg",
-    "description": "Female cones have 1-2 seeds borne on top of a swollen, fleshy aril. The aril is purplish and less than an inch in diameter. Male cones are clustered in yellowish-green strobili. Aril&#x27;s are edible but seeds are poisonous.",
+    "description": "Podocarpus laetus is a species of conifer in the family Podocarpaceae, commonly known as Hall's tōtara, mountain tōtara or thin-barked tōtara. Previously known as Podocarpus hallii and Podocarpus cunninghamii, in 2015 it was realised that the much earlier name P. laetus has priority. Its common name results from the species being named after J. W. Hall, a New Zealand pharmacist.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1161,9 +1524,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Podocarpus laetus"
+      ],
+      "en": [
+        "Podocarpus laetus"
+      ],
+      "es": [
+        "Podocarpus laetus"
+      ],
+      "fr": [
+        "Podocarpus laetus"
+      ],
+      "it": [
+        "Podocarpus laetus"
+      ],
+      "nl": [
+        "Podocarpus laetus"
+      ],
+      "pl": [
+        "Podocarpus laetus"
+      ],
+      "pt": [
+        "Podocarpus laetus"
+      ],
+      "ru": [
+        "Podocarpus laetus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1173,12 +1566,12 @@
     "family": "Podocarpaceae",
     "genus": "Podocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cf190154898c211d9e677eba1beceba8cf271862",
-    "description": "Female cones have 1-2 seeds borne on top of a swollen, fleshy aril. The aril is purplish and less than an inch in diameter. Male cones are clustered in yellowish-green strobili. Aril&#x27;s are edible but seeds are poisonous.",
+    "description": "Podocarpus lambertii is a species of conifer in the family Podocarpaceae. It is found in Argentina and Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1259,9 +1652,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Podocarpus lambertii"
+      ],
+      "en": [
+        "Podocarpus lambertii"
+      ],
+      "es": [
+        "Podocarpus lambertii"
+      ],
+      "fr": [
+        "Podocarpus lambertii"
+      ],
+      "it": [
+        "Podocarpus lambertii"
+      ],
+      "nl": [
+        "Podocarpus lambertii"
+      ],
+      "pl": [
+        "Podocarpus lambertii"
+      ],
+      "pt": [
+        "Podocarpus lambertii"
+      ],
+      "ru": [
+        "Podocarpus lambertii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1271,12 +1694,12 @@
     "family": "Podocarpaceae",
     "genus": "Podocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f94af892db5143c321b6df90957efd04958bdef1",
-    "description": "Female cones have 1-2 seeds borne on top of a swollen, fleshy aril. The aril is purplish and less than an inch in diameter. Male cones are clustered in yellowish-green strobili. Aril&#x27;s are edible but seeds are poisonous.",
+    "description": "Podocarpus latifolius is a large evergreen tree up to 35 m high and 3 m trunk diameter, in the conifer family Podocarpaceae; it is the type species of the genus Podocarpus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1357,11 +1780,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Breitblättrige Steineibe"
+      ],
       "en": [
-        "Broad-leaved yellowwood"
+        "Broad-leaved yellowwood",
+        "Podocarpus latifolius"
+      ],
+      "es": [
+        "Podocarpus latifolius"
+      ],
+      "fr": [
+        "Podocarpus latifolius"
+      ],
+      "it": [
+        "Podocarpus latifolius"
+      ],
+      "nl": [
+        "Podocarpus latifolius"
+      ],
+      "pl": [
+        "Podocarpus latifolius"
+      ],
+      "pt": [
+        "Podocarpus latifolius"
+      ],
+      "ru": [
+        "Podocarpus latifolius"
+      ],
+      "zh": [
+        "黃木"
       ]
     },
     "tags": [],
@@ -1373,12 +1826,12 @@
     "family": "Podocarpaceae",
     "genus": "Podocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b43b1c91a57fbabc038acc89ad4cef36b0418fc9",
-    "description": "Female cones have 1-2 seeds borne on top of a swollen, fleshy aril. The aril is purplish and less than an inch in diameter. Male cones are clustered in yellowish-green strobili. Aril&#x27;s are edible but seeds are poisonous.",
+    "description": "Podocarpus lawrencei is a species of podocarp native throughout the Australian high country, from southern Tasmania through to the New South Wales highlands. Common names are Errinundra plum-pine and mountain plum-pine. It grows on exposed sites to 1,800 m, often forming living carpets over rocks through wind pruning.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1459,11 +1912,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Podocarpus lawrencei"
+      ],
       "en": [
-        "Mountain plum pine"
+        "Mountain plum pine",
+        "Podocarpus lawrencei"
+      ],
+      "es": [
+        "Podocarpus lawrencei"
+      ],
+      "fr": [
+        "Podocarpus lawrencei"
+      ],
+      "it": [
+        "Podocarpus lawrencei"
+      ],
+      "nl": [
+        "Podocarpus lawrencei"
+      ],
+      "pl": [
+        "Podocarpus lawrencei"
+      ],
+      "pt": [
+        "Podocarpus lawrencei"
+      ],
+      "ru": [
+        "Podocarpus lawrencei"
       ]
     },
     "tags": [],
@@ -1475,12 +1955,12 @@
     "family": "Podocarpaceae",
     "genus": "Podocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e9c87eb482b7ccb99c3e9409b2ed1b25e0c1edfe",
-    "description": "Female cones have 1-2 seeds borne on top of a swollen, fleshy aril. The aril is purplish and less than an inch in diameter. Male cones are clustered in yellowish-green strobili. Aril&#x27;s are edible but seeds are poisonous.",
+    "description": "Podocarpus macrophyllus is a conifer in the genus Podocarpus, family Podocarpaceae. It is the northernmost species of the genus, native to southern Japan and southern and eastern China. Common names in English include yew plum pine, Buddhist pine, fern pine and Japanese yew. Kusamaki (クサマキ) and inumaki (犬槇) are Japanese names for this tree. In China, it is known as luóhàn sōng (羅漢松), which literally means \"arhat pine\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1561,11 +2041,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "معلاقة كبيرة الأوراق"
+      ],
+      "de": [
+        "Großblättrige Steineibe"
+      ],
       "en": [
-        "Big-leaf podocarp"
+        "Big-leaf podocarp",
+        "Podocarpus macrophyllus"
+      ],
+      "es": [
+        "Podocarpus macrophyllus"
+      ],
+      "fr": [
+        "Podocarpus macrophyllus"
+      ],
+      "it": [
+        "Podocarpus macrophyllus"
+      ],
+      "ja": [
+        "イヌマキ"
+      ],
+      "ko": [
+        "나한송"
+      ],
+      "nl": [
+        "Podocarpus macrophyllus"
+      ],
+      "pl": [
+        "Podokarpus wielkolistny"
+      ],
+      "pt": [
+        "Podocarpus macrophyllus"
+      ],
+      "ru": [
+        "Подокарп крупнолистный"
+      ],
+      "zh": [
+        "羅漢松"
       ]
     },
     "tags": [],
@@ -1577,12 +2096,12 @@
     "family": "Podocarpaceae",
     "genus": "Podocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cdc394fc5e7608f69b098d85be4cc1d5e55043b7",
-    "description": "Female cones have 1-2 seeds borne on top of a swollen, fleshy aril. The aril is purplish and less than an inch in diameter. Male cones are clustered in yellowish-green strobili. Aril&#x27;s are edible but seeds are poisonous.",
+    "description": "Podocarpus neriifolius, commonly known as the Jati Brown pine, is a species of conifer in the family Podocarpaceae. It ranges from Nepal, eastern India, and Bangladesh through parts of Indochina and Malesia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1663,11 +2182,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Podocarpus neriifolius"
+      ],
       "en": [
-        "Brown pine"
+        "Brown pine",
+        "Podocarpus neriifolius"
+      ],
+      "es": [
+        "Podocarpus neriifolius"
+      ],
+      "fr": [
+        "Podocarpus neriifolius"
+      ],
+      "it": [
+        "Podocarpus neriifolius"
+      ],
+      "nl": [
+        "Podocarpus neriifolius"
+      ],
+      "pl": [
+        "Podocarpus neriifolius"
+      ],
+      "pt": [
+        "Podocarpus neriifolius"
+      ],
+      "ru": [
+        "Podocarpus neriifolius"
+      ],
+      "zh": [
+        "百日青"
       ]
     },
     "tags": [],
@@ -1679,12 +2228,12 @@
     "family": "Podocarpaceae",
     "genus": "Podocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3c148aa1bde74daf288e80bf3b8fe48d7d9c0272",
-    "description": "Female cones have 1-2 seeds borne on top of a swollen, fleshy aril. The aril is purplish and less than an inch in diameter. Male cones are clustered in yellowish-green strobili. Aril&#x27;s are edible but seeds are poisonous.",
+    "description": "Podocarpus nivalis, the mountain or snow tōtara, is a species of conifer in the family Podocarpaceae. It is endemic to New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1765,11 +2314,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Podocarpus nivalis"
+      ],
       "en": [
-        "Alpine totara"
+        "Alpine totara",
+        "Podocarpus nivalis"
+      ],
+      "es": [
+        "Podocarpus nivalis"
+      ],
+      "fr": [
+        "Podocarpus nivalis"
+      ],
+      "it": [
+        "Podocarpus nivalis"
+      ],
+      "nl": [
+        "Podocarpus nivalis"
+      ],
+      "pl": [
+        "Podocarpus nivalis"
+      ],
+      "pt": [
+        "Podocarpus nivalis"
+      ],
+      "ru": [
+        "Podocarpus nivalis"
       ]
     },
     "tags": [],
@@ -1781,12 +2357,12 @@
     "family": "Podocarpaceae",
     "genus": "Podocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/039c88944552fe465e05120735da377debede8cf",
-    "description": "Female cones have 1-2 seeds borne on top of a swollen, fleshy aril. The aril is purplish and less than an inch in diameter. Male cones are clustered in yellowish-green strobili. Aril&#x27;s are edible but seeds are poisonous.",
+    "description": "Podocarpus oleifolius is a species of conifer in the family Podocarpaceae. It is found in Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, and Venezuela.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1867,11 +2443,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Podocarpus oleifolius"
+      ],
       "en": [
-        "Olive-leaf podoberry"
+        "Olive-leaf podoberry",
+        "Podocarpus oleifolius"
+      ],
+      "es": [
+        "Podocarpus oleifolius"
+      ],
+      "fr": [
+        "Podocarpus oleifolius"
+      ],
+      "it": [
+        "Podocarpus oleifolius"
+      ],
+      "nl": [
+        "Podocarpus oleifolius"
+      ],
+      "pl": [
+        "Podocarpus oleifolius"
+      ],
+      "pt": [
+        "Podocarpus oleifolius"
+      ],
+      "ru": [
+        "Podocarpus oleifolius"
       ]
     },
     "tags": [],
@@ -1883,12 +2486,12 @@
     "family": "Podocarpaceae",
     "genus": "Podocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/56d4873610c7a2440f0957a5ee7cf160f9494587",
-    "description": "Female cones have 1-2 seeds borne on top of a swollen, fleshy aril. The aril is purplish and less than an inch in diameter. Male cones are clustered in yellowish-green strobili. Aril&#x27;s are edible but seeds are poisonous.",
+    "description": "Podocarpus totara, commonly known as the tōtara, is a species of podocarp tree endemic to New Zealand. Found across New Zealand, the tree can grow up to a height of 35 m (115 ft), and is known for its longevity.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1969,11 +2572,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "معلاقة توتارا"
+      ],
+      "de": [
+        "Totara"
+      ],
       "en": [
-        "Mahogany pine"
+        "Mahogany pine",
+        "Podocarpus totara"
+      ],
+      "es": [
+        "Podocarpus totara"
+      ],
+      "fr": [
+        "Podocarpus totara"
+      ],
+      "it": [
+        "Podocarpus totara"
+      ],
+      "ja": [
+        "トタラマキ"
+      ],
+      "nl": [
+        "Podocarpus totara"
+      ],
+      "pl": [
+        "Zastrzalin totara"
+      ],
+      "pt": [
+        "Podocarpus totara"
+      ],
+      "ru": [
+        "Подокарп тотара"
+      ],
+      "zh": [
+        "桃柘羅漢松"
       ]
     },
     "tags": [],
@@ -1985,7 +2624,7 @@
     "family": "Podocarpaceae",
     "genus": "Prumnopitys",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2067,11 +2706,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Prumnopitys ferruginea"
+      ],
       "en": [
-        "Brown pine"
+        "Brown pine",
+        "Prumnopitys ferruginea"
+      ],
+      "es": [
+        "Prumnopitys ferruginea"
+      ],
+      "fr": [
+        "Prumnopitys ferruginea"
+      ],
+      "it": [
+        "Prumnopitys ferruginea"
+      ],
+      "ja": [
+        "ミロノキ"
+      ],
+      "nl": [
+        "Prumnopitys ferruginea"
+      ],
+      "pl": [
+        "Prumnopitys ferruginea"
+      ],
+      "pt": [
+        "Prumnopitys ferruginea"
+      ],
+      "ru": [
+        "Prumnopitys ferruginea"
       ]
     },
     "tags": [],
@@ -2083,7 +2752,7 @@
     "family": "Podocarpaceae",
     "genus": "Prumnopitys",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2165,11 +2834,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ماتا"
+      ],
+      "de": [
+        "Mataī"
+      ],
       "en": [
-        "Black pine"
+        "Black pine",
+        "Prumnopitys taxifolia"
+      ],
+      "es": [
+        "Prumnopitys taxifolia"
+      ],
+      "fr": [
+        "Prumnopitys taxifolia"
+      ],
+      "it": [
+        "Prumnopitys taxifolia"
+      ],
+      "ja": [
+        "ニュージーランドクロマツ"
+      ],
+      "nl": [
+        "Prumnopitys taxifolia"
+      ],
+      "pl": [
+        "Prumnopitys taxifolia"
+      ],
+      "pt": [
+        "Prumnopitys taxifolia"
+      ],
+      "ru": [
+        "Prumnopitys taxifolia"
+      ],
+      "zh": [
+        "黑松"
       ]
     },
     "tags": [],

@@ -5,12 +5,12 @@
     "family": "Colchicaceae",
     "genus": "Burchardia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c3f1e7733ddb2fa6984f735a1568d639e4b4823f",
-    "description": null,
+    "description": "Burchardia umbellata, known as milkmaids, is a perennial herbaceous plant native to woodlands and heath of eastern and southern Australia. It is known in all states. It typically flowers from September until November, in dry sclerophyll forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Burchardia umbellata"
+      ],
+      "en": [
+        "Burchardia umbellata"
+      ],
+      "es": [
+        "Burchardia umbellata"
+      ],
+      "fr": [
+        "Burchardia umbellata"
+      ],
+      "it": [
+        "Burchardia umbellata"
+      ],
+      "nl": [
+        "Burchardia umbellata"
+      ],
+      "pl": [
+        "Burchardia umbellata"
+      ],
+      "pt": [
+        "Burchardia umbellata"
+      ],
+      "ru": [
+        "Burchardia umbellata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Colchicaceae",
     "genus": "Colchicum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -115,17 +145,17 @@
     "synonyms": "[\"Colchicum alpinum subsp. parvulum\", \"Colchicum alpinum proles merenderoides\", \"Colchicum vallis-demonis\", \"Colchicum alpinum var. merenderoides\", \"Colchicum merenderoides\", \"Colchicum alpinum var. parvulum\", \"Colchicum pseudoparvulum\", \"Colchicum parvulum\"]",
     "care": {
       "plant_id": "colchicum_alpinum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -147,8 +177,8 @@
       "light_guide": "Climate: temperate",
       "tips": "Native to: MIDDLE EUROPE, SIC, ITA SM, ITA VC, FRA | Similar plants: Dianthus chinensis x barbatus",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: very strong toxic. Parts: Whole plant, highest concentrations in bulb, seed. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -166,8 +196,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in bulb, seed",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -181,11 +211,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "لحلاح ألبي"
+      ],
+      "de": [
+        "Alpen-Herbstzeitlose"
+      ],
       "en": [
-        "Alpine autumn crocus"
+        "Alpine autumn crocus",
+        "Colchicum alpinum"
+      ],
+      "es": [
+        "Colchicum alpinum"
+      ],
+      "fr": [
+        "Colchicum alpinum"
+      ],
+      "it": [
+        "Colchicum alpinum"
+      ],
+      "nl": [
+        "Alpentijloos"
+      ],
+      "pl": [
+        "Colchicum alpinum"
+      ],
+      "pt": [
+        "Colchicum alpinum"
+      ],
+      "ru": [
+        "Colchicum alpinum"
+      ],
+      "zh": [
+        "高山秋水仙"
       ]
     },
     "tags": [],
@@ -197,7 +260,7 @@
     "family": "Colchicaceae",
     "genus": "Colchicum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -213,17 +276,17 @@
     "synonyms": "[\"Colchicum drenowskii\", \"Colchicum autumnale var. bulgaricum\", \"Colchicum autumnale var. pictum\", \"Colchicum borisii\", \"Bulbocodium antumnale\", \"Colchicum commune\", \"Colchicum polyanthon\", \"Colchicum autumnale f. macropetala\", \"Colchicum autumnale var. transsilvanicum\", \"Colchicum rhodopaeum\"]",
     "care": {
       "plant_id": "colchicum_autumnale",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -245,7 +308,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Lantana camara | Native to: BGM BE, IRE NI, FRA FR, UKR MO, SPA GI",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs, Toxic to Cats, Toxic to Horses. Signs: Bloody vomiting, diarrhea, shock, multi-organ damage, bone marrow suppression",
       "common_problems": null,
       "common_pests": null,
@@ -264,7 +327,7 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
+      "toxic_parts": "Whole plant, highest concentrations in bulb, seed",
       "toxicity_severity": "Moderate",
       "toxicity_symptoms": "Bloody vomiting, diarrhea, shock, multi-organ damage, bone marrow suppression",
       "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
@@ -279,11 +342,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "ar": [
+        "لحلاح خريفي"
+      ],
+      "de": [
+        "Herbst-Zeitlose"
+      ],
       "en": [
-        "Colchicum"
+        "Colchicum",
+        "Colchicum autumnale"
+      ],
+      "es": [
+        "Colchicum autumnale"
+      ],
+      "fr": [
+        "Colchique d'automne"
+      ],
+      "it": [
+        "Colchicum autumnale"
+      ],
+      "ja": [
+        "イヌサフラン"
+      ],
+      "nl": [
+        "Herfsttijloos"
+      ],
+      "pl": [
+        "zimowit jesienny"
+      ],
+      "pt": [
+        "Colchicum autumnale"
+      ],
+      "ru": [
+        "Безвременник осенний"
+      ],
+      "zh": [
+        "秋水仙"
       ]
     },
     "tags": [],
@@ -295,7 +394,7 @@
     "family": "Colchicaceae",
     "genus": "Colchicum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -311,17 +410,17 @@
     "synonyms": "[\"Colchicum vernum\", \"Merendera verna\", \"Bulbocodium vernum\"]",
     "care": {
       "plant_id": "colchicum_bulbocodium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -377,9 +476,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.6
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "زريرة"
+      ],
+      "de": [
+        "Frühlingslichtblume"
+      ],
+      "en": [
+        "Colchicum bulbocodium"
+      ],
+      "es": [
+        "Colchicum bulbocodium"
+      ],
+      "fr": [
+        "Campanette"
+      ],
+      "it": [
+        "Colchicum bulbocodium"
+      ],
+      "nl": [
+        "Colchicum bulbocodium"
+      ],
+      "pl": [
+        "Colchicum bulbocodium"
+      ],
+      "pt": [
+        "Colchicum bulbocodium"
+      ],
+      "ru": [
+        "брандушка весенняя"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,12 +521,12 @@
     "family": "Colchicaceae",
     "genus": "Colchicum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/da84fd24bff76a165b2716ab557d1b537a316dba",
-    "description": "Seeds ripen in spring and early summer.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -405,7 +537,7 @@
     "synonyms": "[\"Bulbocodium fontanesii\", \"Bulbocodium filifolium\", \"Merendera linifolia\", \"Merendera filifolia var. atlantica\", \"Merendera filifolia\", \"Bulbocodium balearicum\", \"Merendera bulbocodium subsp. filifolia\"]",
     "care": {
       "plant_id": "colchicum_filifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -471,9 +603,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "لحلاح خيطي الأوراق"
+      ],
+      "de": [
+        "Colchicum filifolium"
+      ],
+      "en": [
+        "Colchicum filifolium"
+      ],
+      "es": [
+        "Colchicum filifolium"
+      ],
+      "fr": [
+        "Colchicum filifolium"
+      ],
+      "it": [
+        "Colchicum filifolium"
+      ],
+      "nl": [
+        "Colchicum filifolium"
+      ],
+      "pl": [
+        "Colchicum filifolium"
+      ],
+      "pt": [
+        "Colchicum filifolium"
+      ],
+      "ru": [
+        "Colchicum filifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -483,12 +648,12 @@
     "family": "Colchicaceae",
     "genus": "Colchicum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/52e6dca64b71b781a9876ef1ebbd605e51dafe25",
-    "description": "Seeds ripen in spring and early summer.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -499,17 +664,17 @@
     "synonyms": "[\"Colchicum multiflorum subsp. longifolium\", \"Colchicum neapolitanum var. castrense\", \"Colchicum longifolium var. provinciale\", \"Colchicum neapolitanum var. provinciale\", \"Colchicum longifolium var. castrense\", \"Colchicum castrense\", \"Colchicum longifolium var. micranthum\", \"Colchicum multiflorum subsp. micranthum\", \"Colchicum provinciale\", \"Colchicum autumnale var. provinciale\"]",
     "care": {
       "plant_id": "colchicum_longifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -565,9 +730,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "لحلاح طويل الأوراق"
+      ],
+      "de": [
+        "Colchicum longifolium"
+      ],
+      "en": [
+        "Colchicum longifolium"
+      ],
+      "es": [
+        "Colchicum longifolium"
+      ],
+      "fr": [
+        "Colchicum longifolium"
+      ],
+      "it": [
+        "Colchicum longifolium"
+      ],
+      "nl": [
+        "Colchicum longifolium"
+      ],
+      "pl": [
+        "Colchicum longifolium"
+      ],
+      "pt": [
+        "Colchicum longifolium"
+      ],
+      "ru": [
+        "Colchicum longifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -577,12 +775,12 @@
     "family": "Colchicaceae",
     "genus": "Colchicum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6703fdf842378d2830c1acd8e4d30fbde00ea0ba",
-    "description": "Seeds ripen in spring and early summer.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -593,17 +791,17 @@
     "synonyms": "[\"Bulbocodium montanum\", \"Merendera bulbocodium var. bulbocodioides\", \"Colchicum pyrenaicum\", \"Merendera montana var. gredensis\", \"Colchicum bulbocodioides\", \"Bulbocodium pyrenaicum\", \"Bulbocodium colchicoides\", \"Merendera pyrenaica\", \"Bulbocodium lusitanicum\", \"Bulbocodium broteri\"]",
     "care": {
       "plant_id": "colchicum_montanum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -659,11 +857,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "لحلاح جبلي"
+      ],
+      "de": [
+        "Berg-Zeitlose"
+      ],
       "en": [
+        "Colchicum montanum",
         "Merendera"
+      ],
+      "es": [
+        "Colchicum montanum"
+      ],
+      "fr": [
+        "Colchique des Pyrénées"
+      ],
+      "it": [
+        "Colchicum montanum"
+      ],
+      "nl": [
+        "Colchicum montanum"
+      ],
+      "pl": [
+        "Colchicum montanum"
+      ],
+      "pt": [
+        "Colchicum montanum"
+      ],
+      "ru": [
+        "Colchicum montanum"
       ]
     },
     "tags": [],
@@ -675,7 +903,7 @@
     "family": "Colchicaceae",
     "genus": "Disporum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -757,9 +985,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Disporum sessile"
+      ],
+      "en": [
+        "Disporum sessile"
+      ],
+      "es": [
+        "Disporum sessile"
+      ],
+      "fr": [
+        "Disporum sessile"
+      ],
+      "it": [
+        "Disporum sessile"
+      ],
+      "ja": [
+        "ホウチャクソウ"
+      ],
+      "nl": [
+        "Disporum sessile"
+      ],
+      "pl": [
+        "Disporum sessile"
+      ],
+      "pt": [
+        "Disporum sessile"
+      ],
+      "ru": [
+        "Disporum sessile"
+      ],
+      "zh": [
+        "宝铎草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -769,7 +1033,7 @@
     "family": "Colchicaceae",
     "genus": "Disporum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -851,9 +1115,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Disporum smilacinum"
+      ],
+      "en": [
+        "Disporum smilacinum"
+      ],
+      "es": [
+        "Disporum smilacinum"
+      ],
+      "fr": [
+        "Disporum smilacinum"
+      ],
+      "it": [
+        "Disporum smilacinum"
+      ],
+      "ja": [
+        "チゴユリ"
+      ],
+      "ko": [
+        "애기나리"
+      ],
+      "nl": [
+        "Disporum smilacinum"
+      ],
+      "pl": [
+        "Disporum smilacinum"
+      ],
+      "pt": [
+        "Disporum smilacinum"
+      ],
+      "ru": [
+        "Disporum smilacinum"
+      ],
+      "zh": [
+        "山东万寿竹"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -863,12 +1166,12 @@
     "family": "Colchicaceae",
     "genus": "Disporum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/92694bcd8bd19e28087350ccc5f24572.jpg",
-    "description": null,
+    "description": "Disporum uniflorum, commonly known as yellow fairy bells, is a species of perennial herb in the genus Disporum. It is native to Korea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -945,9 +1248,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Disporum uniflorum"
+      ],
+      "en": [
+        "Disporum uniflorum"
+      ],
+      "es": [
+        "Disporum uniflorum"
+      ],
+      "fr": [
+        "Disporum uniflorum"
+      ],
+      "it": [
+        "Disporum uniflorum"
+      ],
+      "ko": [
+        "윤판나물"
+      ],
+      "nl": [
+        "Disporum uniflorum"
+      ],
+      "pl": [
+        "Disporum uniflorum"
+      ],
+      "pt": [
+        "Disporum uniflorum"
+      ],
+      "ru": [
+        "Disporum uniflorum"
+      ],
+      "zh": [
+        "少花萬壽竹"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -957,12 +1296,12 @@
     "family": "Colchicaceae",
     "genus": "Disporum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Disporum viridescens is a species of flowering plant in the family Colchicaceae. Like other species in the genus, it grows from a rhizome. The plant is 30 to 80 cm, with a stem that may branch. The leaves are more-or-less ovate in shape with a very short petiole (stalk). One or two open flowers are borne at the ends of stems; they have greenish white tepals which are 1.5 to 2 cm long. Flowering is in late spring to early summer. Black berries around 1 cm (0.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1039,9 +1378,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Disporum viridescens"
+      ],
+      "en": [
+        "Disporum viridescens"
+      ],
+      "es": [
+        "Disporum viridescens"
+      ],
+      "fr": [
+        "Disporum viridescens"
+      ],
+      "it": [
+        "Disporum viridescens"
+      ],
+      "ja": [
+        "オオチゴユリ"
+      ],
+      "nl": [
+        "Disporum viridescens"
+      ],
+      "pl": [
+        "Disporum viridescens"
+      ],
+      "pt": [
+        "Disporum viridescens"
+      ],
+      "ru": [
+        "Disporum viridescens"
+      ],
+      "zh": [
+        "宝珠草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1051,12 +1426,12 @@
     "family": "Colchicaceae",
     "genus": "Gloriosa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dc43566a77c75845ad468efcfceb5b8c28a5559d",
-    "description": "The 3-parted capsules are 2-4.5 inches long. They start green and mature to brown. Each contains around 20 seeds",
+    "description": "Gloriosa superba is a species of flowering plant in the family Colchicaceae. Common names include flame lily, climbing lily, creeping lily, glory lily, gloriosa lily, tiger claw, and fire lily.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1133,11 +1508,90 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "باهرة هندية"
+      ],
+      "de": [
+        "Gloriosa rothschildiana",
+        "Ruhmesblume"
+      ],
       "en": [
-        "Climbing-lily"
+        "Climbing lily",
+        "Climbing-lily",
+        "Flame lily",
+        "Glory Lily",
+        "Tiger claw"
+      ],
+      "es": [
+        "Bandera española",
+        "Clinostylis speciosa",
+        "Eugone superba",
+        "Gloriosa abyssinica",
+        "Gloriosa angulata",
+        "Gloriosa caerulea",
+        "Gloriosa carsonii",
+        "Gloriosa cirrhifolia",
+        "Gloriosa doniana",
+        "Gloriosa graminifolia var heterophylla",
+        "Gloriosa graminifolia var. heterophylla",
+        "Gloriosa grandiflora",
+        "Gloriosa homblei",
+        "Gloriosa leopoldii",
+        "Gloriosa lutea",
+        "Gloriosa nepalensis",
+        "Gloriosa plantii",
+        "Gloriosa rockefelleriana",
+        "Gloriosa rothschildiana",
+        "Gloriosa sampiana",
+        "Gloriosa simplex",
+        "Gloriosa speciosa",
+        "Gloriosa verschuurii",
+        "Gloriosa virescens",
+        "Gloriosa virescens var grandiflora",
+        "Gloriosa virescens var leopoldii",
+        "Gloriosa virescens var petersiana",
+        "Gloriosa virescens var plantii",
+        "Gloriosa virescens var platyphylla",
+        "Gloriosa virescens var. grandiflora",
+        "Gloriosa virescens var. leopoldii",
+        "Gloriosa virescens var. petersiana",
+        "Gloriosa virescens var. plantii",
+        "Gloriosa virescens var. platyphylla",
+        "Lirio de fuego",
+        "Methonica abyssinic",
+        "Methonica doniana",
+        "Methonica gloriosa",
+        "Methonica grandiflora",
+        "Methonica leopoldii",
+        "Methonica petersiana",
+        "Methonica plantii",
+        "Methonica platyphylla",
+        "Methonica superba",
+        "Methonica virescens"
+      ],
+      "hi": [
+        "कलिहारी"
+      ],
+      "nl": [
+        "Klimlelie",
+        "Prachtlelie"
+      ],
+      "pl": [
+        "glorioza wspaniała",
+        "pysznokwiat wspaniały"
+      ],
+      "ru": [
+        "глориоза роскошная"
+      ],
+      "zh": [
+        "嘉兰",
+        "火焰百合",
+        "百骑大栗树"
       ]
     },
     "tags": [],
@@ -1149,7 +1603,7 @@
     "family": "Colchicaceae",
     "genus": "Schelhammera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1231,9 +1685,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schelhammera undulata"
+      ],
+      "en": [
+        "Schelhammera undulata"
+      ],
+      "es": [
+        "Schelhammera undulata"
+      ],
+      "fr": [
+        "Schelhammera undulata"
+      ],
+      "it": [
+        "Schelhammera undulata"
+      ],
+      "nl": [
+        "Schelhammera undulata"
+      ],
+      "pl": [
+        "Schelhammera undulata"
+      ],
+      "pt": [
+        "Schelhammera undulata"
+      ],
+      "ru": [
+        "Schelhammera undulata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1243,7 +1727,7 @@
     "family": "Colchicaceae",
     "genus": "Uvularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1325,11 +1809,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زهرة اللهاة الكبيرة الأزهار"
+      ],
+      "de": [
+        "Uvularia grandiflora"
+      ],
       "en": [
-        "Bellwort"
+        "Bellwort",
+        "Uvularia grandiflora"
+      ],
+      "es": [
+        "Uvularia grandiflora"
+      ],
+      "fr": [
+        "Uvularia grandiflora"
+      ],
+      "it": [
+        "Uvularia grandiflora"
+      ],
+      "nl": [
+        "Uvularia grandiflora"
+      ],
+      "pl": [
+        "Jagodowiec wielkokwiatowy"
+      ],
+      "pt": [
+        "Uvularia grandiflora"
+      ],
+      "ru": [
+        "Увулярия крупноцветковая"
+      ],
+      "zh": [
+        "大颚花"
       ]
     },
     "tags": [],
@@ -1341,7 +1858,7 @@
     "family": "Colchicaceae",
     "genus": "Uvularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1423,11 +1940,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زهرة اللهاة المثقوبة الورقة"
+      ],
+      "de": [
+        "Uvularia perfoliata"
+      ],
       "en": [
-        "Straw-bell"
+        "Straw-bell",
+        "Uvularia perfoliata"
+      ],
+      "es": [
+        "Uvularia perfoliata"
+      ],
+      "fr": [
+        "Uvularia perfoliata"
+      ],
+      "it": [
+        "Uvularia perfoliata"
+      ],
+      "nl": [
+        "Uvularia perfoliata"
+      ],
+      "pl": [
+        "Uvularia perfoliata"
+      ],
+      "pt": [
+        "Uvularia perfoliata"
+      ],
+      "ru": [
+        "Uvularia perfoliata"
       ]
     },
     "tags": [],
@@ -1439,7 +1986,7 @@
     "family": "Colchicaceae",
     "genus": "Uvularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1521,11 +2068,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زهرة اللهاة اللاطئة الأوراق"
+      ],
+      "de": [
+        "Uvularia sessilifolia"
+      ],
       "en": [
-        "Sessile-leaf bellwort"
+        "Sessile-leaf bellwort",
+        "Uvularia sessilifolia"
+      ],
+      "es": [
+        "Uvularia sessilifolia"
+      ],
+      "fr": [
+        "Uvularia sessilifolia"
+      ],
+      "it": [
+        "Uvularia sessilifolia"
+      ],
+      "nl": [
+        "Uvularia sessilifolia"
+      ],
+      "pl": [
+        "Uvularia sessilifolia"
+      ],
+      "pt": [
+        "Uvularia sessilifolia"
+      ],
+      "ru": [
+        "Увулярия сидячелистная"
       ]
     },
     "tags": [],
@@ -1537,7 +2114,7 @@
     "family": "Colchicaceae",
     "genus": "Wurmbea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1619,9 +2196,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Wurmbea dioica"
+      ],
+      "en": [
+        "Wurmbea dioica"
+      ],
+      "es": [
+        "Wurmbea dioica"
+      ],
+      "fr": [
+        "Wurmbea dioica"
+      ],
+      "it": [
+        "Wurmbea dioica"
+      ],
+      "nl": [
+        "Wurmbea dioica"
+      ],
+      "pl": [
+        "Wurmbea dioica"
+      ],
+      "pt": [
+        "Wurmbea dioica"
+      ],
+      "ru": [
+        "Wurmbea dioica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

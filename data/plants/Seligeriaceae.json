@@ -5,7 +5,7 @@
     "family": "Seligeriaceae",
     "genus": "Blindia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Blindia acuta"
+      ],
+      "en": [
+        "Blindia acuta"
+      ],
+      "es": [
+        "Blindia acuta"
+      ],
+      "fr": [
+        "Blindia acuta"
+      ],
+      "it": [
+        "Blindia acuta"
+      ],
+      "nl": [
+        "Blindia acuta"
+      ],
+      "pl": [
+        "Blindia ostra"
+      ],
+      "pt": [
+        "Blindia acuta"
+      ],
+      "ru": [
+        "Blindia acuta"
+      ],
+      "zh": [
+        "小穗藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Seligeriaceae",
     "genus": "Seligeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Seligeria calcarea"
+      ],
+      "en": [
+        "Seligeria calcarea"
+      ],
+      "es": [
+        "Seligeria calcarea"
+      ],
+      "fr": [
+        "Seligeria calcarea"
+      ],
+      "it": [
+        "Seligeria calcarea"
+      ],
+      "nl": [
+        "Seligeria calcarea"
+      ],
+      "pl": [
+        "Seligeria calcarea"
+      ],
+      "pt": [
+        "Seligeria calcarea"
+      ],
+      "ru": [
+        "Seligeria calcarea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +256,7 @@
     "family": "Seligeriaceae",
     "genus": "Seligeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +338,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Seligeria pusilla"
+      ],
+      "en": [
+        "Seligeria pusilla"
+      ],
+      "es": [
+        "Seligeria pusilla"
+      ],
+      "fr": [
+        "Seligeria pusilla"
+      ],
+      "it": [
+        "Seligeria pusilla"
+      ],
+      "nl": [
+        "Seligeria pusilla"
+      ],
+      "pl": [
+        "Seligeria pusilla"
+      ],
+      "pt": [
+        "Seligeria pusilla"
+      ],
+      "ru": [
+        "Seligeria pusilla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +380,7 @@
     "family": "Seligeriaceae",
     "genus": "Seligeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +462,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Seligeria recurvata"
+      ],
+      "en": [
+        "Seligeria recurvata"
+      ],
+      "es": [
+        "Seligeria recurvata"
+      ],
+      "fr": [
+        "Seligeria recurvata"
+      ],
+      "it": [
+        "Seligeria recurvata"
+      ],
+      "nl": [
+        "Seligeria recurvata"
+      ],
+      "pl": [
+        "Seligeria recurvata"
+      ],
+      "pt": [
+        "Seligeria recurvata"
+      ],
+      "ru": [
+        "Seligeria recurvata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

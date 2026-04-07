@@ -5,7 +5,7 @@
     "family": "Marsileaceae",
     "genus": "Marsilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,7 +21,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "marsilea_costulifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Marsilea costulifera"
+      ],
+      "en": [
+        "Marsilea costulifera"
+      ],
+      "es": [
+        "Marsilea costulifera"
+      ],
+      "fr": [
+        "Marsilea costulifera"
+      ],
+      "it": [
+        "Marsilea costulifera"
+      ],
+      "nl": [
+        "Marsilea costulifera"
+      ],
+      "pl": [
+        "Marsilea costulifera"
+      ],
+      "pt": [
+        "Marsilea costulifera"
+      ],
+      "ru": [
+        "Marsilea costulifera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Marsileaceae",
     "genus": "Marsilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/353ea8d89aac8a7f2ba89701a7d3b7ee.jpg",
-    "description": null,
+    "description": "Marsilea drummondii is a species of fern known by the common name nardoo. It is native to Australia, where it is widespread and common, particularly in inland regions. It is a rhizomatous perennial aquatic fern that roots in mud substrates and produces herbage that floats on the surface of quiet water bodies. It occurs in water up to one metre deep. It occurs in abundance after floods. It can form mats on the water's surface and cover the ground in carpets as floodwaters recede.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -115,17 +145,17 @@
     "synonyms": "[\"Marsilea drummondii var. muelleri\", \"Marsilea drummondii var. minor\", \"Marsilea elata\", \"Marsilea nardu\", \"Marsilea sericea\", \"Marsilea howittiana\", \"Marsilea salvatrix\", \"Marsilea drummondii var. macra\", \"Zaluzianskia macropus\", \"Marsilea macropus\"]",
     "care": {
       "plant_id": "marsilea_drummondii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Marsilea drummondii"
+      ],
+      "en": [
+        "Marsilea drummondii"
+      ],
+      "es": [
+        "Marsilea drummondii"
+      ],
+      "fr": [
+        "Marsilea drummondii"
+      ],
+      "it": [
+        "Marsilea drummondii"
+      ],
+      "nl": [
+        "Marsilea drummondii"
+      ],
+      "pl": [
+        "Marsylia Drummonda"
+      ],
+      "pt": [
+        "Marsilea drummondii"
+      ],
+      "ru": [
+        "Marsilea drummondii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +253,12 @@
     "family": "Marsileaceae",
     "genus": "Marsilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/02a5e652b9cb0461f7de02a0827e34622cd6bb3e",
-    "description": null,
+    "description": "Marsilea hirsuta, known as the nardoo, is a species of aquatic fern in the family Marsileaceae. A widespread species with wide clover like fronds, found in flood plains and swamps in Australia. This plant was first mentioned in the scientific literature in 1810, in the Prodromus Florae Novae Hollandiae, authored by Scottish botanist, Robert Brown. One of the many plants listed with a type as \"(J.T.) v.v.\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -209,9 +269,9 @@
     "synonyms": "[\"Marsilea azorica\", \"Zaluzianskia hirsuta\"]",
     "care": {
       "plant_id": "marsilea_hirsuta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -275,11 +335,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Marsilea hirsuta"
+      ],
       "en": [
+        "Marsilea hirsuta",
         "Rough waterclover"
+      ],
+      "es": [
+        "Marsilea hirsuta"
+      ],
+      "fr": [
+        "Marsilea hirsuta"
+      ],
+      "it": [
+        "Marsilea hirsuta"
+      ],
+      "nl": [
+        "Marsilea hirsuta"
+      ],
+      "pl": [
+        "Marsilea hirsuta"
+      ],
+      "pt": [
+        "Marsilea hirsuta"
+      ],
+      "ru": [
+        "Marsilea hirsuta"
       ]
     },
     "tags": [],
@@ -291,12 +378,12 @@
     "family": "Marsileaceae",
     "genus": "Marsilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1e3e5d6cf26bfbffec8c810dfd9834e49d79d957",
-    "description": null,
+    "description": "Marsilea minuta, or dwarf waterclover is a species of aquatic fern in the family Marsileaceae. It is not to be confused with Marsilea minuta E.Fourn. 1880, which is a synonym for Marsilea vestita. Other common names include gelid waterklawer, small water clover, airy pepperwort, and pepperwort, though the lattermost also applies to plants in the genus Lepidium.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -307,7 +394,7 @@
     "synonyms": "[\"Zaluzianskya minuta\", \"Lemma minuta\"]",
     "care": {
       "plant_id": "marsilea_minuta",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -373,11 +460,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Marsilea minuta"
+      ],
       "en": [
+        "Marsilea minuta",
         "Small water-clover"
+      ],
+      "es": [
+        "Marsilea minuta"
+      ],
+      "fr": [
+        "Marsilea minuta"
+      ],
+      "it": [
+        "Marsilea minuta"
+      ],
+      "nl": [
+        "Marsilea minuta"
+      ],
+      "pl": [
+        "Marsilea minuta"
+      ],
+      "pt": [
+        "Marsilea minuta"
+      ],
+      "ru": [
+        "Marsilea minuta"
+      ],
+      "zh": [
+        "田字草"
       ]
     },
     "tags": [],
@@ -389,12 +506,12 @@
     "family": "Marsileaceae",
     "genus": "Marsilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/36a93b3c6cfc7738103dbc9861fb3a8054b12e8e",
-    "description": null,
+    "description": "Marsilea quadrifolia is a herbaceous plant found naturally in central and southern Europe, Caucasia, western Siberia, Afghanistan, south-west India, China, Japan, and Vietnam, though it is considered a weed in some parts of the United States, where it has been well established in the northeast for over 100 years. Its common names include four leaf clover and European waterclover (USA), even though it is not a species of clover.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -405,17 +522,17 @@
     "synonyms": "[\"Zaluzianskia marsilioides\", \"Marsilea europaea\", \"Marsilea quadrifoliata\", \"Zaluzianskia quadrifolia\", \"Marsilea coromandelica\", \"Pteris quadrifoliata\", \"Spheroidia quadrifoliata\", \"Lemma quadrifolia\"]",
     "care": {
       "plant_id": "marsilea_quadrifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -471,11 +588,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Kleefarn"
+      ],
       "en": [
-        "European water-clover"
+        "European water-clover",
+        "Marsilea quadrifolia"
+      ],
+      "es": [
+        "Marsilea quadrifolia"
+      ],
+      "fr": [
+        "Marsilea quadrifolia"
+      ],
+      "it": [
+        "Marsilea quadrifolia"
+      ],
+      "ja": [
+        "デンジソウ"
+      ],
+      "ko": [
+        "네가래"
+      ],
+      "nl": [
+        "Klaverbladvaren"
+      ],
+      "pl": [
+        "Marsylia czterolistna"
+      ],
+      "pt": [
+        "Marsilea quadrifolia"
+      ],
+      "ru": [
+        "Марсилия четырёхлистная"
+      ],
+      "zh": [
+        "苹"
       ]
     },
     "tags": [],
@@ -487,7 +640,7 @@
     "family": "Marsileaceae",
     "genus": "Marsilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -503,7 +656,7 @@
     "synonyms": "[\"Marsilea fabri\", \"Marsilea pubescens\"]",
     "care": {
       "plant_id": "marsilea_strigosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -569,9 +722,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Marsilea strigosa"
+      ],
+      "en": [
+        "Marsilea strigosa"
+      ],
+      "es": [
+        "Marsilea strigosa"
+      ],
+      "fr": [
+        "Marsilea strigosa"
+      ],
+      "it": [
+        "Marsilea strigosa"
+      ],
+      "nl": [
+        "Marsilea strigosa"
+      ],
+      "pl": [
+        "Marsilea strigosa"
+      ],
+      "pt": [
+        "Marsilea strigosa"
+      ],
+      "ru": [
+        "Марсилия щетинистая"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,12 +764,12 @@
     "family": "Marsileaceae",
     "genus": "Marsilea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f6df84610851aab9e87f8445e8336d88.jpg",
-    "description": null,
+    "description": "Marsilea vestita, the hairy water-clover, is a species of largely aquatic fern in the family Marsileaceae. It is native to western and central North America, the Bahamas, Barbuda, and Peru. It can grow into a water form or a land form, depending on local conditions.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -597,17 +780,17 @@
     "synonyms": "[\"Marsilea picta\", \"Marsilea vestita var. tenuifolia\", \"Marsilea longipes\", \"Marsilea uncinata\", \"Marsilea brevipes\", \"Marsilea tenuifolia\", \"Zaluzianskia vestita\", \"Marsilea vestita subsp. tenuifolia\", \"Zaluzianskia tenuifolia\", \"Marsilea mucronata\"]",
     "care": {
       "plant_id": "marsilea_vestita",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -663,9 +846,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Marsilea vestita"
+      ],
+      "en": [
+        "Marsilea vestita"
+      ],
+      "es": [
+        "Marsilea vestita"
+      ],
+      "fr": [
+        "Marsilea vestita"
+      ],
+      "it": [
+        "Marsilea vestita"
+      ],
+      "nl": [
+        "Marsilea vestita"
+      ],
+      "pl": [
+        "Marsilea vestita"
+      ],
+      "pt": [
+        "Marsilea vestita"
+      ],
+      "ru": [
+        "Marsilea vestita"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -675,12 +888,12 @@
     "family": "Marsileaceae",
     "genus": "Pilularia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e45b0279efc767be9e779038e57bdac5.jpg",
-    "description": null,
+    "description": "Pilularia globulifera, or pillwort, is an unusual species of fern in the family Marsileaceae. It is native to western Europe, where it grows at the edges of lakes, ponds, ditches and marshes, on wet clay or clay-sand soil, sometimes in water up to 30 cm (12 in) deep.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -691,17 +904,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "pilularia_globulifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -757,9 +970,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gewöhnlicher Pillenfarn"
+      ],
+      "en": [
+        "Pilularia globulifera"
+      ],
+      "es": [
+        "Pilularia globulifera"
+      ],
+      "fr": [
+        "Pilularia globulifera"
+      ],
+      "it": [
+        "Pilularia globulifera"
+      ],
+      "nl": [
+        "Pilvaren"
+      ],
+      "pl": [
+        "gałuszka kulecznica"
+      ],
+      "pt": [
+        "Pilularia globulifera"
+      ],
+      "ru": [
+        "Pilularia globulifera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

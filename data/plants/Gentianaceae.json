@@ -5,12 +5,12 @@
     "family": "Gentianaceae",
     "genus": "Anthocleista",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/9f1ac95e602b8df22f77b81b7466ad9f.jpg",
-    "description": null,
+    "description": "Anthocleista vogelii, commonly called Murderer's Mat or Cabbage Tree in several countries in Africa, is a rainforest tree in the family Gentianaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Anthocleista vogelii"
+      ],
+      "en": [
+        "Anthocleista vogelii"
+      ],
+      "es": [
+        "Anthocleista vogelii"
+      ],
+      "fr": [
+        "Anthocleista vogelii"
+      ],
+      "it": [
+        "Anthocleista vogelii"
+      ],
+      "nl": [
+        "Anthocleista vogelii"
+      ],
+      "pl": [
+        "Anthocleista vogelii"
+      ],
+      "pt": [
+        "Anthocleista vogelii"
+      ],
+      "ru": [
+        "Anthocleista vogelii"
+      ],
+      "zh": [
+        "白菜树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Gentianaceae",
     "genus": "Bartonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e174de4a6b55fdacee856d27150b47b3.jpg",
-    "description": null,
+    "description": "Bartonia virginica is a species of a flowering plant in Gentianaceae. It is commonly called a yellow screwstem or yellow bartonia and it is an annual species with a small pale green to yellow flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bartonia virginica"
+      ],
+      "en": [
+        "Bartonia virginica"
+      ],
+      "es": [
+        "Bartonia virginica"
+      ],
+      "fr": [
+        "Bartonia virginica"
+      ],
+      "it": [
+        "Bartonia virginica"
+      ],
+      "nl": [
+        "Bartonia virginica"
+      ],
+      "pl": [
+        "Bartonia virginica"
+      ],
+      "pt": [
+        "Bartonia virginica"
+      ],
+      "ru": [
+        "Bartonia virginica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +256,7 @@
     "family": "Gentianaceae",
     "genus": "Blackstonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -214,12 +277,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -275,9 +338,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.1
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Spät-Bitterling"
+      ],
+      "en": [
+        "Blackstonia acuminata"
+      ],
+      "es": [
+        "Blackstonia acuminata"
+      ],
+      "fr": [
+        "Blackstonia acuminata"
+      ],
+      "it": [
+        "Blackstonia acuminata"
+      ],
+      "nl": [
+        "Blackstonia acuminata"
+      ],
+      "pl": [
+        "Blackstonia acuminata"
+      ],
+      "pt": [
+        "Blackstonia acuminata"
+      ],
+      "ru": [
+        "Blackstonia acuminata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +380,7 @@
     "family": "Gentianaceae",
     "genus": "Blackstonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +462,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Blackstonia imperfoliata"
+      ],
+      "en": [
+        "Blackstonia imperfoliata"
+      ],
+      "es": [
+        "Blackstonia imperfoliata"
+      ],
+      "fr": [
+        "Blackstonia imperfoliata"
+      ],
+      "it": [
+        "Blackstonia imperfoliata"
+      ],
+      "nl": [
+        "Blackstonia imperfoliata"
+      ],
+      "pl": [
+        "Blackstonia imperfoliata"
+      ],
+      "pt": [
+        "Blackstonia imperfoliata"
+      ],
+      "ru": [
+        "Blackstonia imperfoliata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,7 +504,7 @@
     "family": "Gentianaceae",
     "genus": "Blackstonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -402,12 +525,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -463,11 +586,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Durchwachsenblättriger Bitterling"
+      ],
       "en": [
+        "Blackstonia perfoliata",
         "Yellow-wort"
+      ],
+      "es": [
+        "Blackstonia perfoliata"
+      ],
+      "fr": [
+        "Blackstonie perfoliée"
+      ],
+      "it": [
+        "Blackstonia perfoliata"
+      ],
+      "nl": [
+        "Zomerbitterling"
+      ],
+      "pl": [
+        "Blackstonia perfoliata"
+      ],
+      "pt": [
+        "Blackstonia perfoliata"
+      ],
+      "ru": [
+        "Blackstonia perfoliata"
+      ],
+      "tr": [
+        "Blackstonia perfoliata"
       ]
     },
     "tags": [],
@@ -479,7 +632,7 @@
     "family": "Gentianaceae",
     "genus": "Calolisianthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -561,9 +714,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Calolisianthus pedunculatus"
+      ],
+      "en": [
+        "Calolisianthus pedunculatus"
+      ],
+      "es": [
+        "Calolisianthus pedunculatus"
+      ],
+      "fr": [
+        "Calolisianthus pedunculatus"
+      ],
+      "it": [
+        "Calolisianthus pedunculatus"
+      ],
+      "nl": [
+        "Calolisianthus pedunculatus"
+      ],
+      "pl": [
+        "Calolisianthus pedunculatus"
+      ],
+      "pt": [
+        "Calolisianthus pedunculatus"
+      ],
+      "ru": [
+        "Calolisianthus pedunculatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -573,7 +756,7 @@
     "family": "Gentianaceae",
     "genus": "Calolisianthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -655,9 +838,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Calolisianthus speciosus"
+      ],
+      "en": [
+        "Calolisianthus speciosus"
+      ],
+      "es": [
+        "Calolisianthus speciosus"
+      ],
+      "fr": [
+        "Calolisianthus speciosus"
+      ],
+      "it": [
+        "Calolisianthus speciosus"
+      ],
+      "nl": [
+        "Calolisianthus speciosus"
+      ],
+      "pl": [
+        "Calolisianthus speciosus"
+      ],
+      "pt": [
+        "Calolisianthus speciosus"
+      ],
+      "ru": [
+        "Calolisianthus speciosus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -667,12 +880,12 @@
     "family": "Gentianaceae",
     "genus": "Canscora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5f4869717bac30ce8b81d2c2f6fce612b50ccdd6",
-    "description": null,
+    "description": "Canscora diffusa is a plant species in the genus Canscora. Diffutidin and diffutin are flavans, a type of flavonoid, found in C. diffusa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -749,9 +962,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Canscora diffusa"
+      ],
+      "en": [
+        "Canscora diffusa"
+      ],
+      "es": [
+        "Canscora diffusa"
+      ],
+      "fr": [
+        "Canscora diffusa"
+      ],
+      "it": [
+        "Canscora diffusa"
+      ],
+      "nl": [
+        "Canscora diffusa"
+      ],
+      "pl": [
+        "Canscora diffusa"
+      ],
+      "pt": [
+        "Canscora diffusa"
+      ],
+      "ru": [
+        "Canscora diffusa"
+      ],
+      "zh": [
+        "铺地穿心草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -761,7 +1007,7 @@
     "family": "Gentianaceae",
     "genus": "Centaurium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -782,12 +1028,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -843,11 +1089,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "ar": [
+        "قنطريوم إرتري"
+      ],
+      "de": [
+        "Echtes Tausendgüldenkraut"
+      ],
       "en": [
+        "Centaurium erythraea",
         "European centaury"
+      ],
+      "es": [
+        "Centaurium erythraea"
+      ],
+      "fr": [
+        "Centaurium erythraea"
+      ],
+      "it": [
+        "Centaurium erythraea"
+      ],
+      "ja": [
+        "ベニバナセンブリ"
+      ],
+      "ko": [
+        "센토리"
+      ],
+      "nl": [
+        "echt duizendguldenkruid"
+      ],
+      "pl": [
+        "centuria pospolita"
+      ],
+      "pt": [
+        "fel-da-terra"
+      ],
+      "ru": [
+        "золототысячник обыкновенный"
+      ],
+      "tr": [
+        "Centaurium erythraea"
+      ],
+      "zh": [
+        "红色百金花"
       ]
     },
     "tags": [],
@@ -859,7 +1147,7 @@
     "family": "Gentianaceae",
     "genus": "Centaurium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -880,12 +1168,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -941,11 +1229,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Strand-Tausendgüldenkraut"
+      ],
       "en": [
+        "Centaurium littorale",
         "Sea centaury"
+      ],
+      "es": [
+        "Centaurium littorale"
+      ],
+      "fr": [
+        "Centaurium littorale"
+      ],
+      "it": [
+        "Centaurium littorale"
+      ],
+      "nl": [
+        "Strandduizendguldenkruid"
+      ],
+      "pl": [
+        "Centuria nadbrzeżna"
+      ],
+      "pt": [
+        "Centaurium littorale"
+      ],
+      "ru": [
+        "Золототысячник приморский"
+      ],
+      "zh": [
+        "滨岸百金花"
       ]
     },
     "tags": [],
@@ -957,7 +1275,7 @@
     "family": "Gentianaceae",
     "genus": "Centaurium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -978,12 +1296,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1039,9 +1357,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Centaurium maritimum"
+      ],
+      "en": [
+        "Centaurium maritimum"
+      ],
+      "es": [
+        "Centaurium maritimum"
+      ],
+      "fr": [
+        "Centaurium maritimum"
+      ],
+      "it": [
+        "Centaurium maritimum"
+      ],
+      "nl": [
+        "Centaurium maritimum"
+      ],
+      "pl": [
+        "Centaurium maritimum"
+      ],
+      "pt": [
+        "Centaurium maritimum"
+      ],
+      "ru": [
+        "Centaurium maritimum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1051,7 +1399,7 @@
     "family": "Gentianaceae",
     "genus": "Centaurium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1067,17 +1415,17 @@
     "synonyms": "[\"Chironia centaurium var. pulchella\", \"Chironia pulchella\", \"Erythraea ramosissima var. pulchella\", \"Sabatia pulchella\", \"Erythraea ramosissima var. minima\", \"Erythraea pulchella\", \"Gentiana pulchella\"]",
     "care": {
       "plant_id": "centaurium_pulchellum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1133,11 +1481,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 8.7
     },
     "common_names": {
+      "ar": [
+        "القنطريون الصغير"
+      ],
+      "de": [
+        "Kleines Tausendgüldenkraut"
+      ],
       "en": [
-        "Branched centaury"
+        "Branched centaury",
+        "Centaurium pulchellum"
+      ],
+      "es": [
+        "Centaurium pulchellum"
+      ],
+      "fr": [
+        "Centaurium pulchellum"
+      ],
+      "it": [
+        "Centaurium pulchellum"
+      ],
+      "nl": [
+        "Fraai duizendguldenkruid"
+      ],
+      "pl": [
+        "Centuria nadobna"
+      ],
+      "pt": [
+        "Centaurium pulchellum"
+      ],
+      "ru": [
+        "золототысячник красивый"
+      ],
+      "zh": [
+        "美丽百金花"
       ]
     },
     "tags": [],
@@ -1149,7 +1530,7 @@
     "family": "Gentianaceae",
     "genus": "Centaurium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1165,17 +1546,17 @@
     "synonyms": "[\"Pleurimaria quadrifolia\", \"Chlora quadrifolia\", \"Gentiana quadrifolia\"]",
     "care": {
       "plant_id": "centaurium_quadrifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1231,9 +1612,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Centaurium quadrifolium"
+      ],
+      "en": [
+        "Centaurium quadrifolium"
+      ],
+      "es": [
+        "Centaurium quadrifolium"
+      ],
+      "fr": [
+        "Centaurium quadrifolium"
+      ],
+      "it": [
+        "Centaurium quadrifolium"
+      ],
+      "nl": [
+        "Centaurium quadrifolium"
+      ],
+      "pl": [
+        "Centaurium quadrifolium"
+      ],
+      "pt": [
+        "Centaurium quadrifolium"
+      ],
+      "ru": [
+        "Centaurium quadrifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1243,12 +1654,12 @@
     "family": "Gentianaceae",
     "genus": "Centaurium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d89048d9325148b48db1d13d77e8819db176a869",
-    "description": null,
+    "description": "Centaurium scilloides, also known as perennial centaury is a flowering plant in the family Gentianaceae. It is native to Atlantic Europe and the Azores. Plants from the Azores have white flowers and are genetically different with some treating it as a different species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1259,17 +1670,17 @@
     "synonyms": "[\"Gentiana scilloides\", \"Hippion scilloides\", \"Erythraea scilloides\", \"Erythraea massonii\", \"Centaurium scilloides subsp. massonii\", \"Chironia nummulariifolia\", \"Erythraea nummulariifolia\"]",
     "care": {
       "plant_id": "centaurium_scilloides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1325,9 +1736,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Centaurium scilloides"
+      ],
+      "en": [
+        "Centaurium scilloides"
+      ],
+      "es": [
+        "Centaurium scilloides"
+      ],
+      "fr": [
+        "Centaurium scilloides"
+      ],
+      "it": [
+        "Centaurium scilloides"
+      ],
+      "nl": [
+        "Centaurium scilloides"
+      ],
+      "pl": [
+        "Centaurium scilloides"
+      ],
+      "pt": [
+        "Centaurium scilloides"
+      ],
+      "ru": [
+        "Centaurium scilloides"
+      ],
+      "zh": [
+        "矮甸百金花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1337,12 +1781,12 @@
     "family": "Gentianaceae",
     "genus": "Centaurium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/48f74eb33f7e14fb52fd86df3a75daa7b73b55d5",
-    "description": null,
+    "description": "Centaurium tenuiflorum, the slender centaury, is a species of annual herb in the family Gentianaceae. They have a self-supporting growth form and simple, broad leaves. Individuals can grow to 17 cm tall. It is native to the Mediterranean basin, Western Asia to the Transcaucasus, Iran, and western Himalayas, Macaronesia, Great Britain, the Crimean Peninsula, Chad, and Socotra.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1353,17 +1797,17 @@
     "synonyms": "[\"Erythraea tenuiflora\", \"Centaurium pulchellum subsp. tenuiflorum\", \"Erythraea pulchella subsp. tenuiflora\", \"Erythraea ramosissima var. tenuiflora\", \"Erythraea latifolia var. tenuiflora\", \"Centaurium pulchellum var. tenuiflorum\"]",
     "care": {
       "plant_id": "centaurium_tenuiflorum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1419,11 +1863,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Centaurium tenuiflorum"
+      ],
       "en": [
+        "Centaurium tenuiflorum",
         "Slender centaury"
+      ],
+      "es": [
+        "Centaurium tenuiflorum"
+      ],
+      "fr": [
+        "Centaurium tenuiflorum"
+      ],
+      "it": [
+        "Centaurium tenuiflorum"
+      ],
+      "ja": [
+        "ハナハマセンブリ"
+      ],
+      "nl": [
+        "Centaurium tenuiflorum"
+      ],
+      "pl": [
+        "Centaurium tenuiflorum"
+      ],
+      "pt": [
+        "Centaurium tenuiflorum"
+      ],
+      "ru": [
+        "Centaurium tenuiflorum"
       ]
     },
     "tags": [],
@@ -1435,7 +1909,7 @@
     "family": "Gentianaceae",
     "genus": "Chelonanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1517,9 +1991,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chelonanthus alatus"
+      ],
+      "en": [
+        "Chelonanthus alatus"
+      ],
+      "es": [
+        "Chelonanthus alatus"
+      ],
+      "fr": [
+        "Chelonanthus alatus"
+      ],
+      "it": [
+        "Chelonanthus alatus"
+      ],
+      "nl": [
+        "Chelonanthus alatus"
+      ],
+      "pl": [
+        "Chelonanthus alatus"
+      ],
+      "pt": [
+        "Chelonanthus alatus"
+      ],
+      "ru": [
+        "Chelonanthus alatus"
+      ],
+      "tr": [
+        "Chelonanthus alatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1529,7 +2036,7 @@
     "family": "Gentianaceae",
     "genus": "Chelonanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1611,9 +2118,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chelonanthus purpurascens"
+      ],
+      "en": [
+        "Chelonanthus purpurascens"
+      ],
+      "es": [
+        "Chelonanthus purpurascens"
+      ],
+      "fr": [
+        "Chelonanthus purpurascens"
+      ],
+      "it": [
+        "Chelonanthus purpurascens"
+      ],
+      "nl": [
+        "Chelonanthus purpurascens"
+      ],
+      "pl": [
+        "Chelonanthus purpurascens"
+      ],
+      "pt": [
+        "Chelonanthus purpurascens"
+      ],
+      "ru": [
+        "Chelonanthus purpurascens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1623,12 +2160,12 @@
     "family": "Gentianaceae",
     "genus": "Chironia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/42794a97ab8dfd06836551761f100874.jpg",
-    "description": null,
+    "description": "Chironia baccifera, known as Christmas berry, bitterbossie or aambeibessie, is species of Chironia native to southern South Africa. A bushy shrub, it can reach 1 m, but is typically 0.5 m in width and height. Its Afrikaans name aambeibessie refers to its supposed medicinal use in treating haemorrhoids. It is used as an ornamental, preferring sandy soils. It is mildly toxic.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1705,9 +2242,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chironia baccifera"
+      ],
+      "en": [
+        "Chironia baccifera"
+      ],
+      "es": [
+        "Chironia baccifera"
+      ],
+      "fr": [
+        "Chironia baccifera"
+      ],
+      "it": [
+        "Chironia baccifera"
+      ],
+      "nl": [
+        "Chironia baccifera"
+      ],
+      "pl": [
+        "Chironia baccifera"
+      ],
+      "pt": [
+        "Chironia baccifera"
+      ],
+      "ru": [
+        "Chironia baccifera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1717,12 +2284,12 @@
     "family": "Gentianaceae",
     "genus": "Cicendia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5fba04efde7f8600fd2d31c89fccd9c01c88cfae",
-    "description": null,
+    "description": "Cicendia filiformis, also called yellow centaury or slender cicendia, is a species of flowering planet of the family Gentianaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1738,12 +2305,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1799,11 +2366,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Fadenenzian"
+      ],
       "en": [
+        "Cicendia filiformis",
         "Yellow centaury"
+      ],
+      "es": [
+        "Cicendia filiformis"
+      ],
+      "fr": [
+        "Cicendia filiformis"
+      ],
+      "it": [
+        "Cicendia filiformis"
+      ],
+      "nl": [
+        "Draadgentiaan"
+      ],
+      "pl": [
+        "Cicendia filiformis"
+      ],
+      "pt": [
+        "Cicendia filiformis"
+      ],
+      "ru": [
+        "Cicendia filiformis"
       ]
     },
     "tags": [],
@@ -1815,7 +2409,7 @@
     "family": "Gentianaceae",
     "genus": "Cicendia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1897,11 +2491,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cicendia quadrangularis"
+      ],
       "en": [
+        "Cicendia quadrangularis",
         "Oregon timwort"
+      ],
+      "es": [
+        "Cicendia quadrangularis"
+      ],
+      "fr": [
+        "Cicendia quadrangularis"
+      ],
+      "it": [
+        "Cicendia quadrangularis"
+      ],
+      "nl": [
+        "Cicendia quadrangularis"
+      ],
+      "pl": [
+        "Cicendia quadrangularis"
+      ],
+      "pt": [
+        "Cicendia quadrangularis"
+      ],
+      "ru": [
+        "Cicendia quadrangularis"
       ]
     },
     "tags": [],
@@ -1913,7 +2534,7 @@
     "family": "Gentianaceae",
     "genus": "Comastoma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1995,11 +2616,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Zarter Haarschlund"
+      ],
       "en": [
+        "Comastoma tenellum",
         "Samiland-gentian"
+      ],
+      "es": [
+        "Comastoma tenellum"
+      ],
+      "fr": [
+        "Comastoma tenellum"
+      ],
+      "it": [
+        "Comastoma tenellum"
+      ],
+      "nl": [
+        "Comastoma tenellum"
+      ],
+      "pl": [
+        "Comastoma tenellum"
+      ],
+      "pt": [
+        "Comastoma tenellum"
+      ],
+      "ru": [
+        "Comastoma tenellum"
+      ],
+      "zh": [
+        "柔弱喉毛花"
       ]
     },
     "tags": [],
@@ -2011,7 +2662,7 @@
     "family": "Gentianaceae",
     "genus": "Coutoubea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2093,9 +2744,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coutoubea ramosa"
+      ],
+      "en": [
+        "Coutoubea ramosa"
+      ],
+      "es": [
+        "Coutoubea ramosa"
+      ],
+      "fr": [
+        "Coutoubea ramosa"
+      ],
+      "it": [
+        "Coutoubea ramosa"
+      ],
+      "nl": [
+        "Coutoubea ramosa"
+      ],
+      "pl": [
+        "Coutoubea ramosa"
+      ],
+      "pt": [
+        "Coutoubea ramosa"
+      ],
+      "ru": [
+        "Coutoubea ramosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2105,12 +2786,12 @@
     "family": "Gentianaceae",
     "genus": "Coutoubea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ff3d70d107c85343362d1928e1b5eb43e743bbe2",
-    "description": null,
+    "description": "Coutoubea spicata is a species of flowering plant from the genus Coutoubea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2187,9 +2868,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Coutoubea spicata"
+      ],
+      "en": [
+        "Coutoubea spicata"
+      ],
+      "es": [
+        "Coutoubea spicata"
+      ],
+      "fr": [
+        "Coutoubea spicata"
+      ],
+      "it": [
+        "Coutoubea spicata"
+      ],
+      "nl": [
+        "Coutoubea spicata"
+      ],
+      "pl": [
+        "Coutoubea spicata"
+      ],
+      "pt": [
+        "Coutoubea spicata"
+      ],
+      "ru": [
+        "Coutoubea spicata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2199,7 +2910,7 @@
     "family": "Gentianaceae",
     "genus": "Curtia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2281,9 +2992,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Curtia tenuifolia"
+      ],
+      "en": [
+        "Curtia tenuifolia"
+      ],
+      "es": [
+        "Curtia tenuifolia"
+      ],
+      "fr": [
+        "Curtia tenuifolia"
+      ],
+      "it": [
+        "Curtia tenuifolia"
+      ],
+      "nl": [
+        "Curtia tenuifolia"
+      ],
+      "pl": [
+        "Curtia tenuifolia"
+      ],
+      "pt": [
+        "Curtia tenuifolia"
+      ],
+      "ru": [
+        "Curtia tenuifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2293,12 +3034,12 @@
     "family": "Gentianaceae",
     "genus": "Eustoma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/c6b8f0ba829668d75c7aaba5d95eb8a5.jpg",
-    "description": null,
+    "description": "Eustoma exaltatum, commonly called seaside gentian, is a species of flowering plant in the gentian family (Gentianaceae).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2375,9 +3116,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eustoma exaltatum"
+      ],
+      "en": [
+        "Eustoma exaltatum"
+      ],
+      "es": [
+        "Eustoma exaltatum"
+      ],
+      "fr": [
+        "Eustoma exaltatum"
+      ],
+      "it": [
+        "Eustoma exaltatum"
+      ],
+      "nl": [
+        "Eustoma exaltatum"
+      ],
+      "pl": [
+        "Eustoma exaltatum"
+      ],
+      "pt": [
+        "Eustoma exaltatum"
+      ],
+      "ru": [
+        "Eustoma exaltatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2387,7 +3158,7 @@
     "family": "Gentianaceae",
     "genus": "Exaculum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2403,17 +3174,17 @@
     "synonyms": "[\"Cicendia candollei\", \"Exacum glaucum\", \"Erythraea candollei\", \"Exaculum pusillum var. candollei\", \"Microcala pusilla\", \"Microcala filiformis\", \"Exacum pusillum\", \"Chironia minima\", \"Gentiana filiformis\", \"Gentiana pusilla\"]",
     "care": {
       "plant_id": "exaculum_pusillum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2469,11 +3240,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Exaculum pusillum"
+      ],
       "en": [
+        "Exaculum pusillum",
         "Guernsey centaury"
+      ],
+      "es": [
+        "Exaculum pusillum"
+      ],
+      "fr": [
+        "Exaculum pusillum"
+      ],
+      "it": [
+        "Exaculum pusillum"
+      ],
+      "nl": [
+        "Exaculum pusillum"
+      ],
+      "pl": [
+        "Exaculum pusillum"
+      ],
+      "pt": [
+        "Exaculum pusillum"
+      ],
+      "ru": [
+        "Exaculum pusillum"
       ]
     },
     "tags": [],
@@ -2485,7 +3283,7 @@
     "family": "Gentianaceae",
     "genus": "Exacum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2503,7 +3301,7 @@
       "plant_id": "exacum_affine",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part shade",
@@ -2567,11 +3365,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "عشرب سقطري"
+      ],
+      "de": [
+        "Exacum affine"
+      ],
       "en": [
+        "Exacum affine",
         "Persian violet"
+      ],
+      "es": [
+        "Exacum affine"
+      ],
+      "fr": [
+        "Exacum affine"
+      ],
+      "it": [
+        "Exacum affine"
+      ],
+      "nl": [
+        "Exacum affine"
+      ],
+      "pl": [
+        "Exacum affine"
+      ],
+      "pt": [
+        "Exacum affine"
+      ],
+      "ru": [
+        "Exacum affine"
+      ],
+      "tr": [
+        "İran Menekşesi, Ekzakum"
+      ],
+      "zh": [
+        "紫芳草"
       ]
     },
     "tags": [
@@ -2588,12 +3422,12 @@
     "family": "Gentianaceae",
     "genus": "Fagraea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/30725a2b43b982e9988edca3049418586c8647d7",
-    "description": null,
+    "description": "Fagraea berteroana, commonly known as the pua keni keni, pua kenikeni or perfume flower tree, is a small spreading tree or a large shrub. \nIt is known as the pua-lulu in the Samoan Islands, and as pua in Tonga, Niue and Tahiti.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2670,11 +3504,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Fagraea berteroana"
+      ],
       "en": [
-        "Cape jitta"
+        "Cape jitta",
+        "Fagraea berteroana"
+      ],
+      "es": [
+        "Fagraea berteroana"
+      ],
+      "fr": [
+        "Fagraea berteroana"
+      ],
+      "it": [
+        "Fagraea berteroana"
+      ],
+      "nl": [
+        "Fagraea berteroana"
+      ],
+      "pl": [
+        "Fagraea baeteroana"
+      ],
+      "pt": [
+        "Fagraea berteroana"
+      ],
+      "ru": [
+        "Fagraea berteroana"
       ]
     },
     "tags": [],
@@ -2686,12 +3547,12 @@
     "family": "Gentianaceae",
     "genus": "Fagraea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f5a65a626aeab99258cca93f2fff290b43b6279b",
-    "description": null,
+    "description": "Fagraea ceilanica is a species of small tree in the family Gentianaceae growing to heights of up to 10 metres. Typical habitat is seasonal tropical forest, but it is also grown as an ornamental tree in many places in India, Indo-China and Malesia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2768,9 +3629,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fagraea ceilanica"
+      ],
+      "en": [
+        "Fagraea ceilanica"
+      ],
+      "es": [
+        "Fagraea ceilanica"
+      ],
+      "fr": [
+        "Fagraea ceilanica"
+      ],
+      "it": [
+        "Fagraea ceilanica"
+      ],
+      "nl": [
+        "Fagraea ceilanica"
+      ],
+      "pl": [
+        "Fagraea ceilanica"
+      ],
+      "pt": [
+        "Fagraea ceilanica"
+      ],
+      "ru": [
+        "Fagraea ceilanica"
+      ],
+      "zh": [
+        "灰莉"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2780,12 +3674,12 @@
     "family": "Gentianaceae",
     "genus": "Frasera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Frasera albicaulis is a species of flowering plant in the family Gentianaceae. It is known by the common name whitestem frasera. It is native to the northwestern United States, where it grows in open areas in mountain habitat. It is a perennial herb growing from a woody base surrounded by rosettes of leaves, its stem growing 10 to 70 centimeters tall. The leaves are green with white margins. The basal leaves are lance-shaped, up to 30 centimeters long, and borne on petioles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2862,9 +3756,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Frasera albicaulis"
+      ],
+      "en": [
+        "Frasera albicaulis"
+      ],
+      "es": [
+        "Frasera albicaulis"
+      ],
+      "fr": [
+        "Frasera albicaulis"
+      ],
+      "it": [
+        "Frasera albicaulis"
+      ],
+      "nl": [
+        "Frasera albicaulis"
+      ],
+      "pl": [
+        "Frasera albicaulis"
+      ],
+      "pt": [
+        "Frasera albicaulis"
+      ],
+      "ru": [
+        "Frasera albicaulis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2874,12 +3798,12 @@
     "family": "Gentianaceae",
     "genus": "Frasera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/206a95f78552926bc3c7dffdbcba17f758038a00",
-    "description": null,
+    "description": "Frasera caroliniensis, commonly known as American columbo or yellow gentian, is a herbaceous perennial of the gentian family Gentianaceae found in the deciduous forest of Southern Ontario and throughout the eastern and southeastern United States. It was previously known as Swertia caroliniensis.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2956,11 +3880,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Frasera caroliniensis"
+      ],
       "en": [
-        "American columbo"
+        "American columbo",
+        "Frasera caroliniensis"
+      ],
+      "es": [
+        "Frasera caroliniensis"
+      ],
+      "fr": [
+        "Frasera caroliniensis"
+      ],
+      "it": [
+        "Frasera caroliniensis"
+      ],
+      "nl": [
+        "Frasera caroliniensis"
+      ],
+      "pl": [
+        "Frasera caroliniensis"
+      ],
+      "pt": [
+        "Frasera caroliniensis"
+      ],
+      "ru": [
+        "Frasera caroliniensis"
       ]
     },
     "tags": [],
@@ -2972,12 +3923,12 @@
     "family": "Gentianaceae",
     "genus": "Frasera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/21bb5e50f20628893b856dd9f5be20492a73aa5b",
-    "description": null,
+    "description": "Frasera speciosa is a species of flowering plant in the gentian family (Gentianaceae) known by the common names elkweed, monument plant, and green gentian. When blooming it grows a tall stalk with numerous flowers that have purple dotted green petals. Each plant can flower just once before it dies.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3054,11 +4005,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Frasera speciosa"
+      ],
       "en": [
-        "Elkweed"
+        "Elkweed",
+        "Frasera speciosa"
+      ],
+      "es": [
+        "Frasera speciosa"
+      ],
+      "fr": [
+        "Frasera speciosa"
+      ],
+      "it": [
+        "Frasera speciosa"
+      ],
+      "nl": [
+        "Frasera speciosa"
+      ],
+      "pl": [
+        "Frasera speciosa"
+      ],
+      "pt": [
+        "Frasera speciosa"
+      ],
+      "ru": [
+        "Frasera speciosa"
       ]
     },
     "tags": [],
@@ -3070,7 +4048,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3086,17 +4064,17 @@
     "synonyms": "[\"Lexipyretum acaule\", \"Pneumonanthe grandiflora\", \"Pneumonanthe acaulis\", \"Gentianusa acaulis\", \"Ciminalis acaulis\", \"Thylacitis grandiflora\", \"Gentiana grandiflora\"]",
     "care": {
       "plant_id": "gentiana_acaulis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3152,11 +4130,46 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Gentiana kochiana",
+        "Kiesel-Glocken-Enzian",
+        "Kochs Enzian",
+        "Kochscher Enzian",
+        "Silikat-Glocken-Enzian"
+      ],
       "en": [
         "Trumpet gentian"
+      ],
+      "es": [
+        "Ciminalis acaulis",
+        "Genciana",
+        "Genciana azul",
+        "Genciana de verano",
+        "Gentiana excisa",
+        "Gentiana kochiana",
+        "Gentiana latifolia"
+      ],
+      "fr": [
+        "Gentiane acaule",
+        "Gentiane de Koch"
+      ],
+      "it": [
+        "Genzianella"
+      ],
+      "nl": [
+        "Kochs gentiaan",
+        "Stengelloze gentiaan"
+      ],
+      "pl": [
+        "Goryczka bezłodygowa"
+      ],
+      "zh": [
+        "无茎龙胆"
       ]
     },
     "tags": [],
@@ -3168,12 +4181,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0bcdafb1bf58827145b4299e9e2b7171caaee249",
-    "description": null,
+    "description": "Gentiana affinis is a species of flowering plant in the family Gentianaceae. It is native to western and central North America, ranging from southwestern Canada to the western and central United States. It is commonly known as the prairie gentian or pleated gentian.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3184,17 +4197,17 @@
     "synonyms": "[\"Dasystephana affinis\", \"Pneumonanthe affinis\"]",
     "care": {
       "plant_id": "gentiana_affinis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3250,11 +4263,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Gentiana affinis"
+      ],
       "en": [
+        "Gentiana affinis",
         "Pleated gentian"
+      ],
+      "es": [
+        "Gentiana affinis"
+      ],
+      "fr": [
+        "Gentiana affinis"
+      ],
+      "it": [
+        "Gentiana affinis"
+      ],
+      "nl": [
+        "Gentiana affinis"
+      ],
+      "pl": [
+        "Gentiana affinis"
+      ],
+      "pt": [
+        "Gentiana affinis"
+      ],
+      "ru": [
+        "Gentiana affinis"
+      ],
+      "tr": [
+        "Gentiana affinis"
       ]
     },
     "tags": [],
@@ -3266,12 +4309,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c04f4e21d89c676d6f764b0038e392eb3ee8fa68",
-    "description": null,
+    "description": "Gentiana alba is a herbaceous species of flowering plant in the Gentian family Gentianaceae, producing yellowish-white colored flowers from thick white taproots. It is native to North America from Manitoba through Ontario in the north, south to Oklahoma, Arkansas and North Carolina, and it is listed as rare, endangered, threatened or extirpated in parts of this range.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3282,7 +4325,7 @@
     "synonyms": "[\"Dasystephana flavida\", \"Gentiana alba f. andrewsii\", \"Pneumonanthe flavida\", \"Gentiana flavida\"]",
     "care": {
       "plant_id": "gentiana_alba",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3348,11 +4391,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جنطيانا بيضاء"
+      ],
+      "de": [
+        "Gentiana alba"
+      ],
       "en": [
+        "Gentiana alba",
         "Yellow gentian"
+      ],
+      "es": [
+        "Gentiana alba"
+      ],
+      "fr": [
+        "Gentiana alba"
+      ],
+      "it": [
+        "Gentiana alba"
+      ],
+      "nl": [
+        "Gentiana alba"
+      ],
+      "pl": [
+        "Gentiana alba"
+      ],
+      "pt": [
+        "Gentiana alba"
+      ],
+      "ru": [
+        "Gentiana alba"
+      ],
+      "tr": [
+        "Gentiana alba"
       ]
     },
     "tags": [],
@@ -3364,7 +4440,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3380,7 +4456,7 @@
     "synonyms": "[\"Pneumonanthe algida\", \"Gentianodes algida\", \"Dasystephana algida\", \"Gentiana frigida var. algida\"]",
     "care": {
       "plant_id": "gentiana_algida",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3446,11 +4522,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentiana algida"
+      ],
       "en": [
-        "Arctic gentian"
+        "Arctic gentian",
+        "Gentiana algida"
+      ],
+      "es": [
+        "Gentiana algida"
+      ],
+      "fr": [
+        "Gentiana algida"
+      ],
+      "it": [
+        "Gentiana algida"
+      ],
+      "ja": [
+        "トウヤクリンドウ"
+      ],
+      "ko": [
+        "산용담"
+      ],
+      "nl": [
+        "Gentiana algida"
+      ],
+      "pl": [
+        "Gentiana algida"
+      ],
+      "pt": [
+        "Gentiana algida"
+      ],
+      "ru": [
+        "Gentiana algida"
+      ],
+      "tr": [
+        "Gentiana algida"
+      ],
+      "zh": [
+        "小儿血参",
+        "白花龙胆",
+        "苦龙胆",
+        "高山龙胆"
       ]
     },
     "tags": [],
@@ -3462,12 +4580,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/31de5559a477ba56b4b1add6b6bc28654c047628",
-    "description": null,
+    "description": "Gentiana alpina is a plant species from the Gentiana genus in the family Gentianaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3478,17 +4596,17 @@
     "synonyms": "[\"Gentiana excisa subsp. alpina\", \"Gentiana acaulis var. alpina\", \"Ciminalis alpina\", \"Gentiana acaulis subsp. alpina\", \"Ericoila alpina\", \"Gentiana clusii subsp. alpina\"]",
     "care": {
       "plant_id": "gentiana_alpina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3544,11 +4662,49 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Alpen-Enzian"
+      ],
       "en": [
+        "Gentiana alpina",
         "Southern gentian"
+      ],
+      "es": [
+        "Ciminalis alpina",
+        "Enciana alpina",
+        "Gentiana acaulis subsp. alpina",
+        "Gentiana acaulis var. alpina",
+        "Gentiana acaulis var. parviflora",
+        "Gentiana alpina",
+        "Gentiana incisiflora"
+      ],
+      "fr": [
+        "Gentiane Des Alpes",
+        "Gentiane des Alpes",
+        "Gentiane des alpes"
+      ],
+      "it": [
+        "Gentiana alpina"
+      ],
+      "nl": [
+        "Gentiana alpina"
+      ],
+      "pl": [
+        "Gentiana alpina"
+      ],
+      "pt": [
+        "Gentiana alpina"
+      ],
+      "ru": [
+        "Gentiana alpina"
+      ],
+      "tr": [
+        "Gentiana alpina"
       ]
     },
     "tags": [],
@@ -3560,7 +4716,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3576,17 +4732,17 @@
     "synonyms": "[\"Pneumonanthe andrewsii\", \"Dasystephana andrewsii\"]",
     "care": {
       "plant_id": "gentiana_andrewsii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3642,11 +4798,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Gentiana andrewsii"
+      ],
       "en": [
-        "Closed gentian"
+        "Closed gentian",
+        "Gentiana andrewsii",
+        "bottle gentian",
+        "closed bottle gentian"
+      ],
+      "es": [
+        "Gentiana andrewsii"
+      ],
+      "fr": [
+        "Gentiana andrewsii"
+      ],
+      "it": [
+        "Gentiana andrewsii"
+      ],
+      "nl": [
+        "Gentiana andrewsii"
+      ],
+      "pl": [
+        "Gentiana andrewsii"
+      ],
+      "pt": [
+        "Gentiana andrewsii"
+      ],
+      "ru": [
+        "Gentiana andrewsii"
+      ],
+      "tr": [
+        "Gentiana andrewsii"
       ]
     },
     "tags": [],
@@ -3658,7 +4846,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3674,17 +4862,17 @@
     "synonyms": "[\"Pneumonanthe angustifolia\", \"Gentiana acaulis var. angustifolia\", \"Gentiana sabauda\", \"Thylacitis angustifolia\", \"Ciminalis angustifolia\", \"Gentiana acaulis var. media\", \"Gentiana caulescens\", \"Gentiana acaulis var. caulescens\", \"Gentiana acaulis subsp. angustifolia\", \"Gentiana excisa subsp. angustifolia\"]",
     "care": {
       "plant_id": "gentiana_angustifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3740,9 +4928,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentiana angustifolia"
+      ],
+      "en": [
+        "Gentiana angustifolia"
+      ],
+      "es": [
+        "Gentiana angustifolia"
+      ],
+      "fr": [
+        "Gentiana angustifolia"
+      ],
+      "it": [
+        "Gentiana angustifolia"
+      ],
+      "nl": [
+        "Gentiana angustifolia",
+        "smalbladige gentiaan"
+      ],
+      "pl": [
+        "Gentiana angustifolia"
+      ],
+      "pt": [
+        "Gentiana angustifolia"
+      ],
+      "ru": [
+        "Gentiana angustifolia"
+      ],
+      "tr": [
+        "Gentiana angustifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3752,7 +4974,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3773,12 +4995,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3834,11 +5056,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.4
     },
     "common_names": {
+      "de": [
+        "Blaue Kreuzwurz",
+        "Geißleiter",
+        "Herbst-Enzian",
+        "Hirschbrunft-Enzian",
+        "Schwalbenwurz-Enzian"
+      ],
       "en": [
-        "Willow gentian"
+        "The Willow Gentian",
+        "Willow gentian",
+        "willow gentian"
+      ],
+      "es": [
+        "Coilantha asclepiadea",
+        "Dasystephana asclepiadea",
+        "Gentiana ramiflora",
+        "Gentiana schistocalyx",
+        "Pneumonanthe asclepiadea",
+        "Pneumonanthe plicata"
+      ],
+      "fr": [
+        "Gentiane Asclepiade",
+        "Gentiane Asclépiade"
+      ],
+      "nl": [
+        "Zijdeplantgentiaan"
+      ],
+      "pl": [
+        "Goryczka tojeściowa",
+        "Goryczka trojeściowa",
+        "Goryczka trojeściowata"
+      ],
+      "ru": [
+        "Горечавка ваточниковая",
+        "Горечавка ластовенная",
+        "Горечавка ластовневая"
+      ],
+      "tr": [
+        "Mavi centiyan"
+      ],
+      "zh": [
+        "柳叶龙胆"
       ]
     },
     "tags": [],
@@ -3850,12 +5114,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6e79f3a9e2dd1f5354b3f82d4cb3bdc8fb89f55c",
-    "description": null,
+    "description": "Gentiana bavarica, the Bavarian gentian, is a herbaceous perennial species of flowering plant in the Gentian family Gentianaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3871,12 +5135,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3932,11 +5196,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Bayerischer Enzian"
+      ],
       "en": [
-        "Bavarian gentian"
+        "Bavarian gentian",
+        "Gentiana bavarica"
+      ],
+      "es": [
+        "Gentiana bavarica"
+      ],
+      "fr": [
+        "Gentiana bavarica",
+        "Gentiane de Bavière"
+      ],
+      "it": [
+        "Gentiana bavarica"
+      ],
+      "nl": [
+        "Beierse gentiaan",
+        "Gentiana bavarica"
+      ],
+      "pl": [
+        "Gentiana bavarica"
+      ],
+      "pt": [
+        "Gentiana bavarica"
+      ],
+      "ru": [
+        "Gentiana bavarica"
+      ],
+      "tr": [
+        "Gentiana bavarica"
       ]
     },
     "tags": [],
@@ -3948,7 +5244,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3964,17 +5260,17 @@
     "synonyms": "[\"Gentiana verna var. brachyphylla\", \"Calathiana brachyphylla\", \"Gentiana verna proles brachyphylla\", \"Gentiana verna subsp. brachyphylla\"]",
     "care": {
       "plant_id": "gentiana_brachyphylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4030,11 +5326,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Kurzblatt-Enzian"
+      ],
       "en": [
+        "Gentiana brachyphylla",
         "Kurzblttriger enzian"
+      ],
+      "es": [
+        "Gentiana brachyphylla"
+      ],
+      "fr": [
+        "Gentiana brachyphylla",
+        "Gentiane à feuilles courtes"
+      ],
+      "it": [
+        "Gentiana brachyphylla"
+      ],
+      "nl": [
+        "Gentiana brachyphylla"
+      ],
+      "pl": [
+        "Gentiana brachyphylla"
+      ],
+      "pt": [
+        "Gentiana brachyphylla"
+      ],
+      "ru": [
+        "Gentiana brachyphylla"
+      ],
+      "tr": [
+        "Gentiana brachyphylla"
       ]
     },
     "tags": [],
@@ -4046,7 +5373,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4062,17 +5389,17 @@
     "synonyms": "[\"Gentiana punctata subsp. burseri\"]",
     "care": {
       "plant_id": "gentiana_burseri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4128,9 +5455,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentiana burseri"
+      ],
+      "en": [
+        "Gentiana burseri"
+      ],
+      "es": [
+        "Coilantha burseri",
+        "Genciana de Burser",
+        "Gentiana burseri"
+      ],
+      "fr": [
+        "Gentiana burseri",
+        "Gentiane de Burser"
+      ],
+      "it": [
+        "Gentiana burseri"
+      ],
+      "nl": [
+        "Gentiana burseri"
+      ],
+      "pl": [
+        "Gentiana burseri"
+      ],
+      "pt": [
+        "Gentiana burseri"
+      ],
+      "ru": [
+        "Gentiana burseri"
+      ],
+      "tr": [
+        "Gentiana burseri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4140,12 +5503,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f97ab9e384bba4646b6e6d097c770036ad65b911",
-    "description": null,
+    "description": "Gentiana calycosa is a species of flowering plant in the family Gentianaceae. It is a herbaceous perennial gentian known by the common names explorer's gentian, Rainier pleated gentian, and mountain bog gentian.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4156,7 +5519,7 @@
     "synonyms": "[\"Pneumonanthe calycosa\", \"Gentiana calycosa var. monticola\", \"Gentiana myrsinites\", \"Gentiana obtusiloba\", \"Gentiana cusickii\", \"Gentiana calycosa var. asepala\", \"Dasystephana obtusiloba\", \"Gentiana calycosa var. obtusiloba\", \"Gentiana calycosa var. stricta\", \"Gentiana calycosa subsp. typica\"]",
     "care": {
       "plant_id": "gentiana_calycosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4222,11 +5585,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentiana calycosa"
+      ],
       "en": [
-        "Rainier pleated gentian"
+        "Gentiana calycosa",
+        "Rainier pleated gentian",
+        "bog gentian",
+        "explorer's gentian"
+      ],
+      "es": [
+        "Gentiana calycosa"
+      ],
+      "fr": [
+        "Gentiana calycosa"
+      ],
+      "it": [
+        "Gentiana calycosa"
+      ],
+      "nl": [
+        "Gentiana calycosa"
+      ],
+      "pl": [
+        "Gentiana calycosa"
+      ],
+      "pt": [
+        "Gentiana calycosa"
+      ],
+      "ru": [
+        "Gentiana calycosa"
+      ],
+      "tr": [
+        "Gentiana calycosa"
       ]
     },
     "tags": [],
@@ -4238,12 +5633,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cb7acd269b1735c1d4db0d03952d98afd6e3d738",
-    "description": null,
+    "description": "Gentiana clausa, one of several plants with the common name \"bottle gentian\", is a 1'–2' tall flowering plant in the Gentianaceae family. It is native to Eastern North American moist meadows and woods at higher elevations, from Quebec in the north, through the Appalachian range to North Carolina and Tennessee in the south. It has paired, lanceolate leaves, usually on unbranched stalks, and blue blooms which remain closed or nearly so. It flowers from late August to October.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4254,7 +5649,7 @@
     "synonyms": "[\"Pneumonanthe clausa\", \"Gentiana clausa f. albiflora\", \"Gentiana andrewsii var. intermedia\", \"Xolemia clausa\"]",
     "care": {
       "plant_id": "gentiana_clausa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4320,11 +5715,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentiana clausa"
+      ],
       "en": [
-        "Bottle gentian"
+        "Bottle gentian",
+        "Gentiana clausa"
+      ],
+      "es": [
+        "Gentiana clausa"
+      ],
+      "fr": [
+        "Gentiana clausa"
+      ],
+      "it": [
+        "Gentiana clausa"
+      ],
+      "nl": [
+        "Gentiana clausa"
+      ],
+      "pl": [
+        "Gentiana clausa"
+      ],
+      "pt": [
+        "Gentiana clausa"
+      ],
+      "ru": [
+        "Gentiana clausa"
+      ],
+      "tr": [
+        "Gentiana clausa"
       ]
     },
     "tags": [],
@@ -4336,12 +5761,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5b6222d942cf69cec6f16a619537e924855f92ca",
-    "description": null,
+    "description": "Gentiana clusii, commonly known as flower of the sweet-lady or Clusius' gentian, is a large-flowered, short-stemmed gentian, native to Europe. It is named after Carolus Clusius, one of the earliest botanists to study alpine flora.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4352,17 +5777,17 @@
     "synonyms": "[\"Ciminalis clusii\", \"Gentiana acaulis subsp. clusii\", \"Thylacitis clusii\"]",
     "care": {
       "plant_id": "gentiana_clusii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4418,11 +5843,29 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "de": [
+        "Clusius-Enzian",
+        "Echter Alpenenzian",
+        "Kalk-Glocken-Enzian"
+      ],
       "en": [
         "Trumpet gentian"
+      ],
+      "fr": [
+        "Gentiane de Clusius"
+      ],
+      "nl": [
+        "Grootbloemige gentiaan"
+      ],
+      "pl": [
+        "Goryczka Klusjusa",
+        "Goryczka Klusjusza",
+        "Goryczka krótkołodygowa"
       ]
     },
     "tags": [],
@@ -4434,7 +5877,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4450,17 +5893,17 @@
     "synonyms": "[\"Tretorrhiza cruciata\", \"Dasystephana cruciata\", \"Pneumonanthe cruciata\", \"Ericoila cruciata\", \"Gentianusa cruciata\", \"Gentianella cruciata\"]",
     "care": {
       "plant_id": "gentiana_cruciata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4516,11 +5959,30 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Kreuz-Enzian"
+      ],
       "en": [
         "Cross gentian"
+      ],
+      "fr": [
+        "Gentiane croisette"
+      ],
+      "nl": [
+        "kruisbladgentiaan"
+      ],
+      "pl": [
+        "Goryczka krzyżowa"
+      ],
+      "ru": [
+        "Горечавка крестообразная",
+        "Горечавка перекрёстнолистная",
+        "горечавка крестовидная"
       ]
     },
     "tags": [],
@@ -4532,12 +5994,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b28342f32f5f459d757e75c76f0577ba271b256d",
-    "description": null,
+    "description": "Gentiana glauca is a species of flowering plant in the gentian family known by the common names pale gentian and glaucous gentian. It is native to eastern Asia and northwestern North America from Alaska and the Northwest Territories to Washington and Montana.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4548,7 +6010,7 @@
     "synonyms": "[\"Dasystephana glauca\", \"Dasistepha caespitosa\", \"Gentianodes glauca\", \"Pneumonanthe glauca\", \"Gentiana caespitosa\", \"Gentiana glauca f. chlorantha\", \"Coilantha glauca\", \"Gentiana glauca var. paulensis\", \"Ciminalis glauca\"]",
     "care": {
       "plant_id": "gentiana_glauca",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4614,11 +6076,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentiana glauca"
+      ],
       "en": [
+        "Gentiana glauca",
         "Pale gentian"
+      ],
+      "es": [
+        "Gentiana glauca"
+      ],
+      "fr": [
+        "Gentiana glauca"
+      ],
+      "it": [
+        "Gentiana glauca"
+      ],
+      "nl": [
+        "Gentiana glauca"
+      ],
+      "pl": [
+        "Gentiana glauca"
+      ],
+      "pt": [
+        "Gentiana glauca"
+      ],
+      "ru": [
+        "Gentiana glauca"
+      ],
+      "tr": [
+        "Gentiana glauca"
       ]
     },
     "tags": [],
@@ -4630,7 +6122,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4646,7 +6138,7 @@
     "synonyms": "[\"Ciminalis ligustica\"]",
     "care": {
       "plant_id": "gentiana_ligustica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4712,9 +6204,49 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentiana ligustica"
+      ],
+      "en": [
+        "Gentiana ligustica"
+      ],
+      "es": [
+        "Gentiana ligustica"
+      ],
+      "fr": [
+        "Gentiana ligustica",
+        "Gentiane de Ligurie"
+      ],
+      "it": [
+        "Gentiana ligustica",
+        "Genziana ligure"
+      ],
+      "nl": [
+        "Gentiana ligustica"
+      ],
+      "pl": [
+        "Gentiana ligustica"
+      ],
+      "pt": [
+        "Gentiana ligustica"
+      ],
+      "ru": [
+        "Gentiana lingulata",
+        "Gentianella lingulata",
+        "Генцианелла язычковая",
+        "Горечавка язычковая",
+        "Горечавочка летняя",
+        "Горечавочка язычковая"
+      ],
+      "tr": [
+        "Gentiana ligustica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4724,12 +6256,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/30cf84fcf870745d0e0f0d3fec371d45afc56111",
-    "description": null,
+    "description": "Gentiana linearis, the narrowleaf gentian, is a 1–2 ft (30–61 cm) tall flowering plant in the Gentianaceae family. It is native to northeastern North America from Manitoba to Maine, and to the Appalachian Mountains of West Virginia, Virginia, and Tennessee.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4740,7 +6272,7 @@
     "synonyms": "[\"Gentiana linearis f. blanchardii\", \"Gentiana saponaria var. linearis\", \"Ciminalis linearis\", \"Pneumonanthe pseudopneumonanthe\", \"Pneumonanthe linearis\", \"Pneumonanthe media\", \"Gentiana pseudopneumonanthe\", \"Diploma hudsonica\", \"Gentiana michauxii\", \"Dasystephana linearis\"]",
     "care": {
       "plant_id": "gentiana_linearis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4806,11 +6338,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentiana linearis"
+      ],
       "en": [
+        "Gentiana linearis",
         "Narrowleaf gentian"
+      ],
+      "es": [
+        "Gentiana linearis"
+      ],
+      "fr": [
+        "Gentiana linearis"
+      ],
+      "it": [
+        "Gentiana linearis"
+      ],
+      "nl": [
+        "Gentiana linearis"
+      ],
+      "pl": [
+        "Gentiana linearis"
+      ],
+      "pt": [
+        "Gentiana linearis"
+      ],
+      "ru": [
+        "Gentiana linearis"
+      ],
+      "tr": [
+        "Gentiana linearis"
       ]
     },
     "tags": [],
@@ -4822,7 +6384,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4838,17 +6400,17 @@
     "synonyms": "[\"Asterias lutea\", \"Gentianusa lutea\", \"Swertia lutea\"]",
     "care": {
       "plant_id": "gentiana_lutea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4904,11 +6466,82 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "ar": [
+        "جنثيانا",
+        "جنطيانا صفراء",
+        "جنطيوس",
+        "دواء الحية",
+        "کوشاد أصفر"
+      ],
+      "de": [
+        "Gelber Enzian"
+      ],
       "en": [
+        "Great Yellow Gentian",
         "Great yellow gentian"
+      ],
+      "es": [
+        "Agenciana",
+        "Cenjana",
+        "Genciana mayor",
+        "Genciana rastrera",
+        "Gengiba",
+        "Gengiba de Jarava",
+        "Gensiana",
+        "Janciana",
+        "Janzaina",
+        "Junciana",
+        "Junzana",
+        "Sianzaina",
+        "Unciana",
+        "Xanzaina",
+        "Xaranzana",
+        "Xonzana",
+        "chanzaina",
+        "funciana",
+        "genciana",
+        "genciana amarilla",
+        "gonciana",
+        "gonzana",
+        "quina de Europa",
+        "sanzaina"
+      ],
+      "fr": [
+        "Gentiane des Pyrénées",
+        "Gentiane jaune",
+        "Grande gentiane"
+      ],
+      "it": [
+        "Genziana maggiore"
+      ],
+      "ja": [
+        "ゲンチアナ",
+        "ゲンチアナ・ルテア"
+      ],
+      "nl": [
+        "gele gentiaan"
+      ],
+      "pl": [
+        "Goryczka żółta"
+      ],
+      "pt": [
+        "Genciana-amarela",
+        "genciana-amarela"
+      ],
+      "ru": [
+        "Горечавка желтая",
+        "Горечавка жёлтая"
+      ],
+      "tr": [
+        "Sarı Censiyan"
+      ],
+      "zh": [
+        "黄龙胆"
       ]
     },
     "tags": [],
@@ -4920,12 +6553,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/864531b7de6ed7224172318a6b75a5f6.jpg",
-    "description": null,
+    "description": "Gentiana macrophylla, the large leaf gentian, is called qin jiao(秦艽) in Chinese. Synonyms include G. straminea, G. crassiaulisor, and G. dahurica. It is found in China, Kazakhstan, Mongolia and Russia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4936,7 +6569,7 @@
     "synonyms": "[\"Tretorhiza macrophylla\", \"Dasystephana macrophylla\", \"Ericoila macrophylla\", \"Pneumonanthe macrophylla\", \"Gentiana macrophylla f. alba\"]",
     "care": {
       "plant_id": "gentiana_macrophylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5002,9 +6635,61 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentiana macrophylla"
+      ],
+      "en": [
+        "Gentiana macrophylla",
+        "Gentiana macrophylla"
+      ],
+      "es": [
+        "Gentiana macrophylla"
+      ],
+      "fr": [
+        "Gentiana macrophylla"
+      ],
+      "it": [
+        "Gentiana macrophylla"
+      ],
+      "ko": [
+        "대엽용담",
+        "큰잎용담"
+      ],
+      "nl": [
+        "Gentiana macrophylla"
+      ],
+      "pl": [
+        "Gentiana macrophylla"
+      ],
+      "pt": [
+        "Gentiana macrophylla"
+      ],
+      "ru": [
+        "Gentiana macrophylla"
+      ],
+      "tr": [
+        "Gentiana macrophylla"
+      ],
+      "zh": [
+        "大叶秦艽",
+        "大叶龙胆",
+        "左秦艽",
+        "秦乣",
+        "秦爪",
+        "秦究",
+        "秦胶",
+        "秦艽",
+        "秦艽花",
+        "萝卜艽",
+        "西秦艽",
+        "龙胆地丁"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5014,7 +6699,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5030,17 +6715,17 @@
     "synonyms": "[\"Ericoila nivalis\", \"Hippion nivale\", \"Gentiana aquatica\", \"Calathiana nivalis\", \"Gentiana humilis\", \"Gentiana nivalis subf. reducta\", \"Gentiana nivalis var. albiflora\", \"Gentiana minima\", \"Chiophila nivalis\", \"Gentiana nivalis var. uniflora\"]",
     "care": {
       "plant_id": "gentiana_nivalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5096,11 +6781,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "de": [
+        "Schnee-Enzian"
+      ],
       "en": [
         "Alpine gentian"
+      ],
+      "es": [
+        "Calathiana nivalis",
+        "Chiophila nivalis",
+        "Ericala carpathica",
+        "Ericala nivalis",
+        "Ericoïla nivalis",
+        "Genciana nival",
+        "Gentiana nivalis var. brevifolia",
+        "Hippion nivale",
+        "Lexipyretum nivale"
+      ],
+      "fr": [
+        "Gentiane des neiges"
+      ],
+      "nl": [
+        "sneeuwgentiaan"
+      ],
+      "pl": [
+        "Goryczka śniegowa"
+      ],
+      "ru": [
+        "Горечавка снежная"
       ]
     },
     "tags": [],
@@ -5112,12 +6825,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2382b858f542eb15f9699d264582abf4efbf000e",
-    "description": null,
+    "description": "Gentiana pannonica, the Hungarian gentian or brown gentian, is a species of flowering plant in the family Gentianaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5128,17 +6841,17 @@
     "synonyms": "[\"Gentiana semifida\", \"Pneumonanthe pannonica\", \"Gentiana purpurea\", \"Gentiana punctata\", \"Gentiana purpurea var. pannonica\", \"Coilantha pannonica\"]",
     "care": {
       "plant_id": "gentiana_pannonica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5194,11 +6907,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Ostalpen-Enzian",
+        "Pannonischer Enzian",
+        "Ungarischer Enzian",
+        "Ungarn-Enzian"
+      ],
       "en": [
+        "Gentiana pannonica",
         "Hungarian gentian"
+      ],
+      "es": [
+        "Gentiana pannonica"
+      ],
+      "fr": [
+        "Gentiana pannonica"
+      ],
+      "it": [
+        "Gentiana pannonica"
+      ],
+      "nl": [
+        "Gentiana pannonica"
+      ],
+      "pl": [
+        "goryczka panońska"
+      ],
+      "pt": [
+        "Gentiana pannonica"
+      ],
+      "ru": [
+        "Gentiana pannonica"
+      ],
+      "tr": [
+        "Gentiana pannonica"
       ]
     },
     "tags": [],
@@ -5210,12 +6956,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6f9a70eabb6f66211253ae84656c6b35e82143c6",
-    "description": null,
+    "description": "Gentiana parryi, or Parry's gentian, is a species of the genus Gentiana. It is a perennial forb/herb native to Wyoming, Utah, Colorado and New Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5226,7 +6972,7 @@
     "synonyms": "[\"Dasystephana parryi\", \"Pneumonanthe bracteosa\", \"Pneumonanthe parryi\", \"Gentiana bracteosa\", \"Gentiana parryi var. bracteosa\"]",
     "care": {
       "plant_id": "gentiana_parryi",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5292,11 +7038,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentiana parryi"
+      ],
       "en": [
+        "Gentiana parryi",
         "Parry's gentian"
+      ],
+      "es": [
+        "Gentiana parryi"
+      ],
+      "fr": [
+        "Gentiana parryi"
+      ],
+      "it": [
+        "Gentiana parryi"
+      ],
+      "nl": [
+        "Gentiana parryi"
+      ],
+      "pl": [
+        "Gentiana parryi"
+      ],
+      "pt": [
+        "Gentiana parryi"
+      ],
+      "ru": [
+        "Gentiana parryi"
+      ],
+      "tr": [
+        "Gentiana parryi"
       ]
     },
     "tags": [],
@@ -5308,7 +7084,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5324,17 +7100,17 @@
     "synonyms": "[\"Ciminalis vulgaris\", \"Gentiana pneumonanthe f. diffusa\", \"Pneumonanthe angustifolia\", \"Gentiana pneumonanthe var. aloyana\", \"Gentiana linifolia\", \"Dasystephana pneumonanthe\", \"Pneumonanthe vulgaris\", \"Gentiana linearifolia\", \"Ciminalis pneumonanthe\", \"Gentiana pneumonanthe var. minor\"]",
     "care": {
       "plant_id": "gentiana_pneumonanthe",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5390,11 +7166,67 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Lungen-Enzian",
+        "Lungenenzian",
+        "gentiane pneumonanthe"
+      ],
       "en": [
         "Marsh gentian"
+      ],
+      "es": [
+        "Caliz de la aurora",
+        "Cáliz de la aurora",
+        "Genciana de turbera",
+        "Gentiana macrocarpophora",
+        "Gentiana nopcsae",
+        "Pneumonanthe angustifolia",
+        "Pneumonanthe vulgaris"
+      ],
+      "fr": [
+        "Gentiane des marais",
+        "Gentiane pneumonanthe"
+      ],
+      "nl": [
+        "Klokjesgentiaan"
+      ],
+      "pl": [
+        "Goryczka wąskolistna"
+      ],
+      "pt": [
+        "Genciana-de-turfeiras"
+      ],
+      "ru": [
+        "Ciminalis pneumonanthe",
+        "Ciminalis pseudopneumonanthe",
+        "Ciminalis vulgaris",
+        "Dasystephana pneumonanthe",
+        "Gentiana adrianii",
+        "Gentiana eonae",
+        "Gentiana linearifolia",
+        "Gentiana linifolia",
+        "Gentiana macrocarpophora",
+        "Gentiana manginii",
+        "Gentiana palustris",
+        "Gentiana pneumonanthoides",
+        "Gentiana reyesii",
+        "Gentianusa pneumonanthe",
+        "Pneumonanthe angustifolia",
+        "Pneumonanthe media",
+        "Pneumonanthe minor",
+        "Pneumonanthe vulgaris",
+        "Горечавка легочная",
+        "Горечавка обыкновенная",
+        "Сокольница лёгочная",
+        "горечавка лёгочная"
+      ],
+      "zh": [
+        "蓝色龙胆"
       ]
     },
     "tags": [],
@@ -5406,12 +7238,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ed95eae7b6dcd5cc3de4c45e97ac345e64de4932",
-    "description": null,
+    "description": "Gentiana prostrata, commonly known as pygmy gentian, moss gentian, or gentiane penchée, is a species of plant in the family Gentianaceae. It is widely distributed across Eurasia, North America, and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5422,17 +7254,17 @@
     "synonyms": "[\"Chondrophylla prostrata\", \"Ericoila prostrata\", \"Ciminalis prostrata\", \"Gentiana prostrata var. typica\", \"Varasia prostrata\"]",
     "care": {
       "plant_id": "gentiana_prostrata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5488,11 +7320,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "de": [
+        "Liegender Enzian"
+      ],
       "en": [
+        "Gentiana prostrata",
         "Pygmy gentian"
+      ],
+      "es": [
+        "Gentiana prostrata"
+      ],
+      "fr": [
+        "Gentiana prostrata"
+      ],
+      "it": [
+        "Gentiana prostrata"
+      ],
+      "nl": [
+        "Gentiana prostrata"
+      ],
+      "pl": [
+        "Gentiana prostrata"
+      ],
+      "pt": [
+        "Gentiana prostrata"
+      ],
+      "ru": [
+        "Gentiana prostrata"
+      ],
+      "tr": [
+        "Gentiana prostrata"
+      ],
+      "zh": [
+        "匍地龙胆",
+        "垂花龙胆"
       ]
     },
     "tags": [],
@@ -5504,12 +7370,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cdbb7e964796d7026d7192870d194400d94b1342",
-    "description": null,
+    "description": "Gentiana punctata, the spotted gentian, is a least concern herbaceous species of flowering plant in the gentian family Gentianaceae. It grows in Central and Southeastern Europe at altitudes 1.500−2.600 meters. It is 20−60 cm tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5520,17 +7386,17 @@
     "synonyms": "[\"Dasystephana punctata\", \"Gentiana campanulata\", \"Pneumonanthe punctata\", \"Gentianusa punctata\", \"Gentiana purpurea\", \"Pneumonanthe campanulata\", \"Pneumonanthe campestris\", \"Coilantha campanulata\", \"Lexipyretum punctatum\", \"Coilantha punctata\"]",
     "care": {
       "plant_id": "gentiana_punctata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5586,11 +7452,29 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Punktierter Enzian",
+        "Tüpfel-Enzian"
+      ],
       "en": [
         "Spotted gentian"
+      ],
+      "fr": [
+        "Gentiane ponctuée"
+      ],
+      "nl": [
+        "Gestippelde gentiaan"
+      ],
+      "pl": [
+        "Goryczka kropkowana"
+      ],
+      "tr": [
+        "Benekli centiyan"
       ]
     },
     "tags": [],
@@ -5602,12 +7486,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6c3dcda213b2345ca1bcc7128965431143e55b4d",
-    "description": null,
+    "description": "Gentiana purpurea, the purple gentian, is a plant species in the genus Gentiana. Flowers from July to August. The root is sometimes used in the manufacture of gentian bitters. It is native to Central and Northern Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5618,17 +7502,17 @@
     "synonyms": "[\"Pneumonanthe purpurea\", \"Coilantha purpurea\", \"Gentiana purpurea var. nana\", \"Gentianusa purpurea\", \"Gentiana purpurea var. intermedia\", \"Gentiana purpurea var. lutea\", \"Gentiana purpurea var. kamtschatica\", \"Gentiana purpurea f. flavida\", \"Gentiana purpurea var. camtschatica\", \"Gentiana purpurea var. flavida\"]",
     "care": {
       "plant_id": "gentiana_purpurea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5684,11 +7568,34 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Purpur-Enzian"
+      ],
       "en": [
         "Purple gentian"
+      ],
+      "es": [
+        "Coilantha purpurea",
+        "Pneumonanthe purpurea"
+      ],
+      "fr": [
+        "Gentiane pourpre"
+      ],
+      "nl": [
+        "Blauwe gentiaan",
+        "Paarse gentiaan",
+        "Purpergentiaan"
+      ],
+      "pl": [
+        "Goryczka purpurowa"
+      ],
+      "zh": [
+        "紫龙胆"
       ]
     },
     "tags": [],
@@ -5700,7 +7607,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5721,12 +7628,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5782,11 +7689,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Gentiana pyrenaica"
+      ],
       "en": [
+        "Gentiana pyrenaica",
         "Pyrenean gentian"
+      ],
+      "es": [
+        "Gentiana pyrenaica"
+      ],
+      "fr": [
+        "Gentiana pyrenaica",
+        "Gentiane des Pyrénées"
+      ],
+      "it": [
+        "Gentiana pyrenaica"
+      ],
+      "nl": [
+        "Gentiana pyrenaica"
+      ],
+      "pl": [
+        "Gentiana pyrenaica"
+      ],
+      "pt": [
+        "Gentiana pyrenaica"
+      ],
+      "ru": [
+        "Gentiana pyrenaica"
+      ],
+      "tr": [
+        "Pir gentiyanı"
       ]
     },
     "tags": [],
@@ -5798,7 +7736,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5880,9 +7818,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentiana rostanii"
+      ],
+      "en": [
+        "Gentiana rostanii"
+      ],
+      "es": [
+        "Gentiana rostanii"
+      ],
+      "fr": [
+        "Gentiana rostanii"
+      ],
+      "it": [
+        "Gentiana rostanii"
+      ],
+      "nl": [
+        "Gentiana rostanii"
+      ],
+      "pl": [
+        "Gentiana rostanii"
+      ],
+      "pt": [
+        "Gentiana rostanii"
+      ],
+      "ru": [
+        "Gentiana rostanii"
+      ],
+      "tr": [
+        "Gentiana rostanii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5892,12 +7863,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/28381ab58e63d5b96d959a72d16d77ba5c56caa3",
-    "description": "Capsules split into 2 sections, releasing numerous small seeds that can be dispersed by wind or water.",
+    "description": "Gentiana saponaria, the soapwort gentian or harvestbells, is a 1–2 ft (30–61 cm) tall flowering plant in the Gentianaceae family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5908,7 +7879,7 @@
     "synonyms": "[\"Pneumonanthe latifolia\", \"Xolemia trachiloma\", \"Pneumonanthe saponaria\", \"Xolemia shortiana\", \"Pneumonanthe rigida\", \"Gentiana ochroleuca\", \"Pneumonanthe puberula\", \"Pneumonanthe michauxii\", \"Gentiana shortiana\", \"Gentiana fimbriata\"]",
     "care": {
       "plant_id": "gentiana_saponaria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5978,11 +7949,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentiana saponaria"
+      ],
       "en": [
+        "Gentiana saponaria",
         "Harvestbells"
+      ],
+      "es": [
+        "Gentiana saponaria"
+      ],
+      "fr": [
+        "Gentiana saponaria"
+      ],
+      "it": [
+        "Gentiana saponaria"
+      ],
+      "nl": [
+        "Gentiana saponaria"
+      ],
+      "pl": [
+        "Gentiana saponaria"
+      ],
+      "pt": [
+        "Gentiana saponaria"
+      ],
+      "ru": [
+        "Gentiana saponaria"
+      ],
+      "tr": [
+        "Gentiana saponaria"
       ]
     },
     "tags": [],
@@ -5994,12 +7995,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/164a37c531529623b560d03c32f343f95c7419ff",
-    "description": null,
+    "description": "Gentiana scabra, also known as the Japanese gentian or the Rindō Flower, is a species of flowering plant in the Gentian family (Gentianaceae), found in much of East Asia. The flowers bloom in mid-summer, autumn and are blue or dark blue in color.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6010,17 +8011,17 @@
     "synonyms": "[\"Dasystephana scabra\"]",
     "care": {
       "plant_id": "gentiana_scabra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6076,11 +8077,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Japanischer Herbstenzian"
+      ],
       "en": [
         "Scabrous gentian"
+      ],
+      "fr": [
+        "Gentiane du Japon"
+      ],
+      "ja": [
+        "えやみぐさ",
+        "イヤミグサ",
+        "トウリンドウ",
+        "疫病草",
+        "瘧草",
+        "竜胆"
+      ],
+      "ko": [
+        "용담"
+      ],
+      "ru": [
+        "Горечавка шероховатая"
+      ],
+      "zh": [
+        "山龙胆",
+        "胆草",
+        "草龙胆",
+        "龙胆",
+        "龙胆草",
+        "龙胆（龙胆草）"
       ]
     },
     "tags": [],
@@ -6092,12 +8123,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7dd6207092817f242c859985cce1cb50118b43c0",
-    "description": null,
+    "description": "Gentiana sedifolia is a species of plant in the family Gentianaceae. It can be found in regions from Costa Rica to northern Chile.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6108,7 +8139,7 @@
     "synonyms": "[\"Gentiana sedifolia var. microphylla\", \"Varasia sedifolia\", \"Gentiana microphylla\", \"Gentiana prostrata f. imbricata\", \"Gentiana cespitosa\", \"Gentiana chimboracensis\", \"Gentiana sedifolia var. lineata\", \"Ericoila sedifolia\", \"Gentiana sedifolia var. micrantha\", \"Gentiana sedifolia subvar. imbricata\"]",
     "care": {
       "plant_id": "gentiana_sedifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6174,9 +8205,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentiana sedifolia"
+      ],
+      "en": [
+        "Gentiana sedifolia"
+      ],
+      "es": [
+        "Gentiana sedifolia"
+      ],
+      "fr": [
+        "Gentiana sedifolia"
+      ],
+      "it": [
+        "Gentiana sedifolia"
+      ],
+      "nl": [
+        "Gentiana sedifolia"
+      ],
+      "pl": [
+        "Gentiana sedifolia"
+      ],
+      "pt": [
+        "Gentiana sedifolia"
+      ],
+      "ru": [
+        "Gentiana sedifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6186,7 +8247,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6202,7 +8263,7 @@
     "synonyms": "[\"Gentiana squarrosa var. microphylla\", \"Gentiana squarrosa var. liukiuensis\", \"Ericoila squarrosa\", \"Ciminalis squarrosa\", \"Varasia squarrosa\", \"Gentiana squarrosa f. albiflorida\", \"Gentiana takahashii\", \"Gentiana wootchuliana\"]",
     "care": {
       "plant_id": "gentiana_squarrosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6268,9 +8329,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentiana squarrosa"
+      ],
+      "en": [
+        "Gentiana squarrosa"
+      ],
+      "es": [
+        "Gentiana squarrosa"
+      ],
+      "fr": [
+        "Gentiana squarrosa"
+      ],
+      "it": [
+        "Gentiana squarrosa"
+      ],
+      "nl": [
+        "Gentiana squarrosa"
+      ],
+      "pl": [
+        "Gentiana squarrosa"
+      ],
+      "pt": [
+        "Gentiana squarrosa"
+      ],
+      "ru": [
+        "Gentiana squarrosa"
+      ],
+      "tr": [
+        "Gentiana squarrosa"
+      ],
+      "zh": [
+        "小龙胆",
+        "岩龙胆",
+        "白花小龙胆",
+        "石龙胆",
+        "鳞叶龙胆",
+        "鳞片龙胆"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6280,7 +8382,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6296,17 +8398,17 @@
     "synonyms": "[\"Calathiana terglouensis\"]",
     "care": {
       "plant_id": "gentiana_terglouensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6362,9 +8464,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentiana terglouensis"
+      ],
+      "en": [
+        "Gentiana terglouensis"
+      ],
+      "es": [
+        "Gentiana terglouensis"
+      ],
+      "fr": [
+        "Gentiana terglouensis"
+      ],
+      "it": [
+        "Gentiana terglouensis"
+      ],
+      "nl": [
+        "Gentiana terglouensis",
+        "Triglav-gentiaan"
+      ],
+      "pl": [
+        "Gentiana terglouensis"
+      ],
+      "pt": [
+        "Gentiana terglouensis"
+      ],
+      "ru": [
+        "Gentiana terglouensis"
+      ],
+      "tr": [
+        "Gentiana terglouensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6374,12 +8510,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/132c4c60b8f3b957eea5146a2368d6da20fb74f6",
-    "description": null,
+    "description": "Gentiana triflora is a tall, flowering perennial plant in the genus Gentiana native to higher-elevation meadows and forests of China, Mongolia, Eastern Russia, Korea and Japan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6390,7 +8526,7 @@
     "synonyms": "[\"Pneumonanthe triflora\", \"Dasystephana triflora\"]",
     "care": {
       "plant_id": "gentiana_triflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6456,11 +8592,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentiana triflora"
+      ],
       "en": [
+        "Gentiana triflora",
         "Three-flower gentian"
+      ],
+      "es": [
+        "Gentiana triflora"
+      ],
+      "fr": [
+        "Gentiana triflora"
+      ],
+      "it": [
+        "Gentiana triflora"
+      ],
+      "ja": [
+        "トウオオヤマリンドウ"
+      ],
+      "nl": [
+        "Gentiana triflora"
+      ],
+      "pl": [
+        "Gentiana triflora"
+      ],
+      "pt": [
+        "Gentiana triflora"
+      ],
+      "ru": [
+        "Gentiana triflora"
+      ],
+      "tr": [
+        "Gentiana triflora"
+      ],
+      "zh": [
+        "三花龙胆",
+        "龙胆草"
       ]
     },
     "tags": [],
@@ -6472,12 +8645,12 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/912f8b0ee1c7601a615f2dd6ac79a8f2847895d4",
-    "description": null,
+    "description": "Gentiana utriculosa is a species of flowering plant belonging to the family Gentianaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6488,17 +8661,17 @@
     "synonyms": "[\"Gentianusa utriculosa\", \"Gentiana bucovinensis\", \"Psalina utriculosa\", \"Calathiana utriculosa\", \"Gentiana utriculosa var. montenegrina\", \"Gentiana utriculosa f. montenegrina\", \"Ericoila utriculosa\", \"Hippion utriculosum\"]",
     "care": {
       "plant_id": "gentiana_utriculosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6554,11 +8727,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Schlauch-Enzian"
+      ],
       "en": [
-        "Bladder gentian"
+        "Bladder gentian",
+        "Gentiana utriculosa"
+      ],
+      "es": [
+        "Gentiana utriculosa"
+      ],
+      "fr": [
+        "Gentiana utriculosa"
+      ],
+      "it": [
+        "Gentiana utriculosa"
+      ],
+      "nl": [
+        "Blaasgentiaan"
+      ],
+      "pl": [
+        "Gentiana utriculosa"
+      ],
+      "pt": [
+        "Gentiana utriculosa"
+      ],
+      "ru": [
+        "Gentiana utriculosa"
+      ],
+      "tr": [
+        "Gentiana utriculosa"
       ]
     },
     "tags": [],
@@ -6570,7 +8773,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6586,17 +8789,17 @@
     "synonyms": "[\"Ricoila verna\", \"Gentianusa verna\", \"Calathiana verna\", \"Ericoila verna\"]",
     "care": {
       "plant_id": "gentiana_verna",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6652,11 +8855,60 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "جنطيانا ربيعية",
+        "كوشاد ربيعي",
+        "کوشاد ربيعي"
+      ],
+      "de": [
+        "Frühlings-Enzian",
+        "Frühlingsenzian",
+        "Herrgottsliechtli",
+        "Himmelsbläueli",
+        "Himmelsstengel",
+        "Schusternagerl",
+        "Schusternägelein",
+        "Tintabluoma"
+      ],
       "en": [
         "Spring gentian"
+      ],
+      "es": [
+        "genciana",
+        "genciana de primavera",
+        "gitanilla",
+        "gitanilla menuda"
+      ],
+      "fr": [
+        "Gentiane de printemps",
+        "Gentiane printanière"
+      ],
+      "it": [
+        "Genzianella di primavera"
+      ],
+      "ja": [
+        "ゲンチアナ・ウェルナ"
+      ],
+      "nl": [
+        "Lentegentiaan",
+        "Voorjaarsgentiaan"
+      ],
+      "pl": [
+        "Goryczka wiosenna"
+      ],
+      "ru": [
+        "Горечавка весенняя"
+      ],
+      "tr": [
+        "Gentiyan"
+      ],
+      "zh": [
+        "春花龍膽"
       ]
     },
     "tags": [],
@@ -6668,7 +8920,7 @@
     "family": "Gentianaceae",
     "genus": "Gentiana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6684,7 +8936,7 @@
     "synonyms": "[\"Varasia zollingeri\", \"Ciminalis zollingeri\"]",
     "care": {
       "plant_id": "gentiana_zollingeri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6750,9 +9002,49 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentiana zollingeri"
+      ],
+      "en": [
+        "Gentiana zollingeri"
+      ],
+      "es": [
+        "Gentiana zollingeri"
+      ],
+      "fr": [
+        "Gentiana zollingeri"
+      ],
+      "it": [
+        "Gentiana zollingeri"
+      ],
+      "ja": [
+        "フデリンドウ"
+      ],
+      "nl": [
+        "Gentiana zollingeri"
+      ],
+      "pl": [
+        "Gentiana zollingeri"
+      ],
+      "pt": [
+        "Gentiana zollingeri"
+      ],
+      "ru": [
+        "Gentiana zollingeri"
+      ],
+      "tr": [
+        "Gentiana zollingeri"
+      ],
+      "zh": [
+        "笔龙胆",
+        "绍氏龙胆"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6762,7 +9054,7 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6778,17 +9070,17 @@
     "synonyms": "[\"Gentiana pulchella\", \"Gentiana germanica subsp. amarella\", \"Opsantha amarella\", \"Eyrythalia pulchella\", \"Gentianusa amarella\", \"Gentianella amarella subsp. euamarella\", \"Gentiana amarella\"]",
     "care": {
       "plant_id": "gentianella_amarella",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6844,9 +9136,55 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bitterer Fransenenzian",
+        "Blattwinkelblütiger Enzian",
+        "Herbstenzian"
+      ],
+      "en": [
+        "annual gentian",
+        "autumn dwarf gentian",
+        "autumn dwarf-gentian",
+        "autumn dwarfgentian",
+        "autumn felwort",
+        "autumn gentian"
+      ],
+      "es": [
+        "Gentiana amarella",
+        "Gentiana axillaris",
+        "Gentiana lingulata",
+        "Gentianella axillaris"
+      ],
+      "fr": [
+        "Gentiane amere",
+        "Gentiane amère",
+        "gentianelle amère"
+      ],
+      "nl": [
+        "slanke gentiaan"
+      ],
+      "pl": [
+        "Goryczuszka gorzkawa"
+      ],
+      "ru": [
+        "Gentiana amarella",
+        "Горечавка горьковатая",
+        "Горечавка луговая",
+        "Горечавка пазушная",
+        "Горечавочка горьковатая",
+        "Горечавочка пазушная",
+        "Наричник"
+      ],
+      "zh": [
+        "秋花假龙胆",
+        "红假龙胆"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6856,12 +9194,12 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7f59a1aaa02e63f5e1c4816bc9cf9297.jpg",
-    "description": null,
+    "description": "Gentianella aurea is a species of flowering plant belonging to the family Gentianaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6872,17 +9210,17 @@
     "synonyms": "[\"Hippion involucratum\", \"Ericoila aurea\", \"Gentiana involucrata\", \"Gentiana quinquefolia\", \"Hippion aureum\", \"Ericoila umbellata\", \"Gentiana umbellata\", \"Gentiana involucrata var. caerulescens\", \"Gentiana unalaccensis\", \"Gentiana pseudamarella\"]",
     "care": {
       "plant_id": "gentianella_aurea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6938,9 +9276,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.9
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentianella aurea"
+      ],
+      "en": [
+        "Gentianella aurea"
+      ],
+      "es": [
+        "Gentianella aurea"
+      ],
+      "fr": [
+        "Gentianella aurea"
+      ],
+      "it": [
+        "Gentianella aurea"
+      ],
+      "nl": [
+        "Gentianella aurea"
+      ],
+      "pl": [
+        "Gentianella aurea"
+      ],
+      "pt": [
+        "Gentianella aurea"
+      ],
+      "ru": [
+        "Gentianella aurea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6950,12 +9318,12 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ef59f0c92b1f65f458f7b30f5a096d35.jpg",
-    "description": null,
+    "description": "Gentianella bellidifolia is a species of the genus Gentianella that is native to New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6966,7 +9334,7 @@
     "synonyms": "[\"Gentiana bellidifolia\", \"Gentiana flaccida\", \"Oreophylax bellidifolius\", \"Gentiana bellidifolia var. australis\", \"Chionogentias bellidifolia\"]",
     "care": {
       "plant_id": "gentianella_bellidifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7032,9 +9400,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentianella bellidifolia"
+      ],
+      "en": [
+        "Gentianella bellidifolia"
+      ],
+      "es": [
+        "Gentianella bellidifolia"
+      ],
+      "fr": [
+        "Gentianella bellidifolia"
+      ],
+      "it": [
+        "Gentianella bellidifolia"
+      ],
+      "nl": [
+        "Gentianella bellidifolia"
+      ],
+      "pl": [
+        "Gentianella bellidifolia"
+      ],
+      "pt": [
+        "Gentianella bellidifolia"
+      ],
+      "ru": [
+        "Gentianella bellidifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7044,7 +9442,7 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7060,17 +9458,17 @@
     "synonyms": "[\"Eyrythalia campestris\", \"Gentiana campestris\", \"Gentianusa campestris\", \"Cicendia campestris\"]",
     "care": {
       "plant_id": "gentianella_campestris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7126,11 +9524,29 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Feld-Enzian",
+        "Feld-Kranzenzian",
+        "Feldenzian",
+        "gentiane champêtre"
+      ],
       "en": [
         "Field gentian"
+      ],
+      "fr": [
+        "Gentiane champêtre",
+        "Gentiane des champs"
+      ],
+      "nl": [
+        "Veldgentiaan"
+      ],
+      "pl": [
+        "Goryczuszka polna"
       ]
     },
     "tags": [],
@@ -7142,12 +9558,12 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1fcaefc8befdb1c6d51b7a7254718041ab7d9266",
-    "description": null,
+    "description": "Gentianella germanica, commonly known as German gentian, is a species of dwarf gentian from Europe. It grows primarily in grasslands with calcareous soils in primarily in Central Europe, northern France, and the Low Countries, but with a small population in the United Kingdom. In the UK it is also known as the Chiltern gentian and it grows in the Chiltern Hills of southern England. It is a small, usually biennial plant with large five petaled red-violet flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7158,17 +9574,17 @@
     "synonyms": "[\"Eyrythalia germanica\", \"Gentiana germanica\", \"Gentianella germanica subsp. solstitialis\", \"Gentiana polymorpha subsp. solstitialis\", \"Gentiana solstitialis\", \"Gentiana amarella subsp. germanica\", \"Opsanthe germanica\", \"Gentianella solstitialis\", \"Gentiana amarella var. germanica\"]",
     "care": {
       "plant_id": "gentianella_germanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7224,11 +9640,28 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Deutscher Enzian",
+        "Deutscher Fransenenzian",
+        "Deutscher Kranzenzian"
+      ],
       "en": [
         "Chiltern gentian"
+      ],
+      "fr": [
+        "Gentiane d'Allemagne",
+        "Gentianelle d'Allemagne"
+      ],
+      "nl": [
+        "Duitse gentiaan"
+      ],
+      "pl": [
+        "Goryczuszka Wettsteina"
       ]
     },
     "tags": [],
@@ -7240,7 +9673,7 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7256,7 +9689,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "gentianella_insubrica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7322,9 +9755,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentianella insubrica"
+      ],
+      "en": [
+        "Gentianella insubrica"
+      ],
+      "es": [
+        "Gentianella insubrica"
+      ],
+      "fr": [
+        "Gentianella insubrica"
+      ],
+      "it": [
+        "Gentianella insubrica"
+      ],
+      "nl": [
+        "Gentianella insubrica"
+      ],
+      "pl": [
+        "Gentianella insubrica"
+      ],
+      "pt": [
+        "Gentianella insubrica"
+      ],
+      "ru": [
+        "Gentianella insubrica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7334,7 +9797,7 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7350,17 +9813,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "gentianella_obtusifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7416,9 +9879,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentianella obtusifolia"
+      ],
+      "en": [
+        "Gentianella obtusifolia"
+      ],
+      "es": [
+        "Gentianella obtusifolia"
+      ],
+      "fr": [
+        "Gentianella obtusifolia"
+      ],
+      "it": [
+        "Gentianella obtusifolia"
+      ],
+      "nl": [
+        "Gentianella obtusifolia"
+      ],
+      "pl": [
+        "Gentianella obtusifolia"
+      ],
+      "pt": [
+        "Gentianella obtusifolia"
+      ],
+      "ru": [
+        "Gentianella obtusifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7428,7 +9921,7 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7444,7 +9937,7 @@
     "synonyms": "[\"Arctogentia propinqua\", \"Gentiana propinqua\", \"Amarella propinqua\", \"Aloitis propinqua\"]",
     "care": {
       "plant_id": "gentianella_propinqua",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7510,9 +10003,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentianella propinqua"
+      ],
+      "en": [
+        "Gentianella propinqua"
+      ],
+      "es": [
+        "Gentianella propinqua"
+      ],
+      "fr": [
+        "Gentianella propinqua"
+      ],
+      "it": [
+        "Gentianella propinqua"
+      ],
+      "nl": [
+        "Gentianella propinqua"
+      ],
+      "pl": [
+        "Gentianella propinqua"
+      ],
+      "pt": [
+        "Gentianella propinqua"
+      ],
+      "ru": [
+        "Gentianella propinqua"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7522,12 +10045,12 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/da4cca3028f2567043bc98afe73129371f37fb61",
-    "description": "Capsule divides into 2 parts to release the numerous tiny seeds. These seeds are distributed by wind and water.",
+    "description": "Gentianella quinquefolia, commonly called agueweed, is a flowering plant in the gentian family. It is native to eastern North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7538,7 +10061,7 @@
     "synonyms": "[\"Hippion quinquefolium\", \"Ericoila quinquefolia\", \"Aloitis quinquefolia\", \"Gentiana quinquefolia\"]",
     "care": {
       "plant_id": "gentianella_quinquefolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7604,11 +10127,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentianella quinquefolia"
+      ],
       "en": [
-        "Agueweed"
+        "Agueweed",
+        "Gentianella quinquefolia",
+        "agueweed"
+      ],
+      "es": [
+        "Gentianella quinquefolia"
+      ],
+      "fr": [
+        "Gentianella quinquefolia"
+      ],
+      "it": [
+        "Gentianella quinquefolia"
+      ],
+      "nl": [
+        "Gentianella quinquefolia"
+      ],
+      "pl": [
+        "Gentianella quinquefolia"
+      ],
+      "pt": [
+        "Gentianella quinquefolia"
+      ],
+      "ru": [
+        "Gentianella quinquefolia"
       ]
     },
     "tags": [],
@@ -7620,7 +10171,7 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7636,7 +10187,7 @@
     "synonyms": "[\"Gentiana ramosa\"]",
     "care": {
       "plant_id": "gentianella_ramosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7702,9 +10253,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentianella ramosa"
+      ],
+      "en": [
+        "Gentianella ramosa"
+      ],
+      "es": [
+        "Gentianella ramosa"
+      ],
+      "fr": [
+        "Gentianella ramosa"
+      ],
+      "it": [
+        "Gentianella ramosa"
+      ],
+      "nl": [
+        "Gentianella ramosa"
+      ],
+      "pl": [
+        "Gentianella ramosa"
+      ],
+      "pt": [
+        "Gentianella ramosa"
+      ],
+      "ru": [
+        "Gentianella ramosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7714,12 +10295,12 @@
     "family": "Gentianaceae",
     "genus": "Gentianella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Dune_Gentian_Gentianella_uliginosa_%285908375372%29.jpg",
+    "description": "Gentianella uliginosa is a species of flowering plant belonging to the family Gentianaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7730,17 +10311,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "gentianella_uliginosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7796,9 +10377,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentianella uliginosa",
+        "Sumpf-Kranzenzian"
+      ],
+      "en": [
+        "Dune gentian",
+        "Gentianella uliginosa"
+      ],
+      "es": [
+        "Gentianella uliginosa"
+      ],
+      "fr": [
+        "Gentianella uliginosa"
+      ],
+      "it": [
+        "Gentianella uliginosa"
+      ],
+      "nl": [
+        "Gentianella uliginosa",
+        "duingentiaan"
+      ],
+      "pl": [
+        "Goryczuszka błotna"
+      ],
+      "pt": [
+        "Gentianella uliginosa"
+      ],
+      "ru": [
+        "Gentianella uliginosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7808,7 +10422,7 @@
     "family": "Gentianaceae",
     "genus": "Gentianopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7890,9 +10504,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentianopsis barbata"
+      ],
+      "en": [
+        "Gentianopsis barbata"
+      ],
+      "es": [
+        "Gentianopsis barbata"
+      ],
+      "fr": [
+        "Gentianopsis barbata"
+      ],
+      "it": [
+        "Gentianopsis barbata"
+      ],
+      "nl": [
+        "Gentianopsis barbata"
+      ],
+      "pl": [
+        "Gentianopsis barbata"
+      ],
+      "pt": [
+        "Gentianopsis barbata"
+      ],
+      "ru": [
+        "Горечавочник бородатый"
+      ],
+      "zh": [
+        "双色龙胆",
+        "扁蕾"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7902,7 +10550,7 @@
     "family": "Gentianaceae",
     "genus": "Gentianopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7984,11 +10632,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gefranster Enzian",
+        "Gentiana ciliata",
+        "Gentianella ciliata",
+        "Gewöhnlicher Fransenenzian"
+      ],
       "en": [
-        "Fringed gentian"
+        "Fringed gentian",
+        "fringed gentian"
+      ],
+      "fr": [
+        "Gentiane ciliee",
+        "Gentiane ciliée",
+        "Gentianella ciliata"
+      ],
+      "it": [
+        "Gentiana ciliata",
+        "Gentianella ciliata"
+      ],
+      "nl": [
+        "Franjegentiaan",
+        "Gentianella ciliata"
+      ],
+      "pl": [
+        "Gentianella ciliata",
+        "Goryczka orzęsiona",
+        "Goryczuszka orzęsiona"
       ]
     },
     "tags": [],
@@ -8000,12 +10675,12 @@
     "family": "Gentianaceae",
     "genus": "Gentianopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/41c63aa84b6a42761fe9ab8ff5d01b1924bffaf2",
-    "description": null,
+    "description": "Gentianopsis crinita is a biennial herbaceous species, native to eastern USA and eastern Canada. The flowers of fringed gentian open on sunny days, but generally remain closed on cloudy days. Individual plants live for only one or two years; the plant is noted as having become relatively rare. It grows in moist, limey woods, meadows, and stream banks.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8082,11 +10757,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentianopsis crinita"
+      ],
       "en": [
-        "Fringed-gentian"
+        "Fringed-gentian",
+        "Gentianopsis crinita"
+      ],
+      "es": [
+        "Gentiana crinita"
+      ],
+      "fr": [
+        "Gentiana crinita",
+        "Gentianopsis crinita"
+      ],
+      "it": [
+        "Gentianopsis crinita"
+      ],
+      "nl": [
+        "Gentianopsis crinita"
+      ],
+      "pl": [
+        "Gentianopsis crinita"
+      ],
+      "pt": [
+        "Gentianopsis crinita"
+      ],
+      "ru": [
+        "Gentianopsis crinita"
       ]
     },
     "tags": [],
@@ -8098,7 +10801,7 @@
     "family": "Gentianaceae",
     "genus": "Gentianopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8180,11 +10883,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentianopsis detonsa"
+      ],
       "en": [
-        "Fringed-gentian"
+        "Fringed-gentian",
+        "Gentianopsis detonsa"
+      ],
+      "es": [
+        "Gentianopsis detonsa"
+      ],
+      "fr": [
+        "Gentianopsis detonsa"
+      ],
+      "it": [
+        "Gentianopsis detonsa"
+      ],
+      "nl": [
+        "Gentianopsis detonsa"
+      ],
+      "pl": [
+        "Gentianopsis detonsa"
+      ],
+      "pt": [
+        "Gentianopsis detonsa"
+      ],
+      "ru": [
+        "Gentianopsis detonsa"
       ]
     },
     "tags": [],
@@ -8196,7 +10926,7 @@
     "family": "Gentianaceae",
     "genus": "Gentianopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8278,9 +11008,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gentianopsis thermalis"
+      ],
+      "en": [
+        "Gentianopsis thermalis"
+      ],
+      "es": [
+        "Gentianopsis thermalis"
+      ],
+      "fr": [
+        "Gentianopsis thermalis"
+      ],
+      "it": [
+        "Gentianopsis thermalis"
+      ],
+      "nl": [
+        "Gentianopsis thermalis"
+      ],
+      "pl": [
+        "Gentianopsis thermalis"
+      ],
+      "pt": [
+        "Gentianopsis thermalis"
+      ],
+      "ru": [
+        "Gentianopsis thermalis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8290,12 +11050,12 @@
     "family": "Gentianaceae",
     "genus": "Gentianopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/79c4261d7f498a5d84b6688b34262643765e10de",
-    "description": null,
+    "description": "Gentianopsis virgata, commonly known as lesser fringed gentian, narrow-leaved fringed gentian, or smaller fringed gentian, is a biennial herbaceous species of plant, native to eastern USA and eastern Canada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8372,11 +11132,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gentianopsis virgata"
+      ],
       "en": [
+        "Gentianopsis virgata",
         "Lesser fringed gentian"
+      ],
+      "es": [
+        "Gentianopsis virgata"
+      ],
+      "fr": [
+        "Gentianopsis virgata",
+        "Grande gentiane"
+      ],
+      "it": [
+        "Gentianopsis virgata"
+      ],
+      "nl": [
+        "Gentianopsis virgata"
+      ],
+      "pl": [
+        "Gentianopsis virgata"
+      ],
+      "pt": [
+        "Gentianopsis virgata"
+      ],
+      "ru": [
+        "Gentianopsis virgata"
       ]
     },
     "tags": [],
@@ -8388,7 +11176,7 @@
     "family": "Gentianaceae",
     "genus": "Halenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8470,9 +11258,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halenia brevicornis"
+      ],
+      "en": [
+        "Halenia brevicornis"
+      ],
+      "es": [
+        "Halenia brevicornis"
+      ],
+      "fr": [
+        "Halenia brevicornis"
+      ],
+      "it": [
+        "Halenia brevicornis"
+      ],
+      "nl": [
+        "Halenia brevicornis"
+      ],
+      "pl": [
+        "Halenia brevicornis"
+      ],
+      "pt": [
+        "Halenia brevicornis"
+      ],
+      "ru": [
+        "Halenia brevicornis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8482,7 +11300,7 @@
     "family": "Gentianaceae",
     "genus": "Halenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8564,9 +11382,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halenia corniculata"
+      ],
+      "en": [
+        "Halenia corniculata"
+      ],
+      "es": [
+        "Halenia corniculata"
+      ],
+      "fr": [
+        "Halenia corniculata"
+      ],
+      "it": [
+        "Halenia corniculata"
+      ],
+      "ja": [
+        "ハナイカリ"
+      ],
+      "nl": [
+        "Halenia corniculata"
+      ],
+      "pl": [
+        "Halenia corniculata"
+      ],
+      "pt": [
+        "Halenia corniculata"
+      ],
+      "ru": [
+        "Halenia corniculata"
+      ],
+      "zh": [
+        "花锚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8576,12 +11430,12 @@
     "family": "Gentianaceae",
     "genus": "Halenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f02d9ba645c32c5c0dd582eeab1fdce8.jpg",
-    "description": null,
+    "description": "Halenia deflexa, also known as green gentian or spurred gentian is a native flower of the northern regions of the United States as well as all of Canada. It is mostly found in wetlands or moist forests of these regions. The blooming season is typically from July to August.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -8658,9 +11512,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halenia deflexa"
+      ],
+      "en": [
+        "Halenia deflexa"
+      ],
+      "es": [
+        "Halenia deflexa"
+      ],
+      "fr": [
+        "Halenia deflexa"
+      ],
+      "it": [
+        "Halenia deflexa"
+      ],
+      "nl": [
+        "Halenia deflexa"
+      ],
+      "pl": [
+        "Halenia deflexa"
+      ],
+      "pt": [
+        "Halenia deflexa"
+      ],
+      "ru": [
+        "Halenia deflexa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8670,7 +11554,7 @@
     "family": "Gentianaceae",
     "genus": "Halenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8752,9 +11636,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halenia elliptica"
+      ],
+      "en": [
+        "Halenia elliptica"
+      ],
+      "es": [
+        "Halenia elliptica"
+      ],
+      "fr": [
+        "Halenia elliptica"
+      ],
+      "it": [
+        "Halenia elliptica"
+      ],
+      "nl": [
+        "Halenia elliptica"
+      ],
+      "pl": [
+        "Halenia elliptica"
+      ],
+      "pt": [
+        "Halenia elliptica"
+      ],
+      "ru": [
+        "Halenia elliptica"
+      ],
+      "zh": [
+        "椭圆叶花锚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8764,7 +11681,7 @@
     "family": "Gentianaceae",
     "genus": "Lomatogonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8846,9 +11763,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Kärntner Tauernblümchen"
+      ],
+      "en": [
+        "Lomatogonium carinthiacum"
+      ],
+      "es": [
+        "Lomatogonium carinthiacum"
+      ],
+      "fr": [
+        "Lomatogonium carinthiacum"
+      ],
+      "it": [
+        "Lomatogonium carinthiacum"
+      ],
+      "nl": [
+        "Lomatogonium carinthiacum"
+      ],
+      "pl": [
+        "Lomatogonium carinthiacum"
+      ],
+      "pt": [
+        "Lomatogonium carinthiacum"
+      ],
+      "ru": [
+        "Lomatogonium carinthiacum"
+      ],
+      "tr": [
+        "Lomatogonium carinthiacum"
+      ],
+      "zh": [
+        "肋柱花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8858,7 +11811,7 @@
     "family": "Gentianaceae",
     "genus": "Lomatogonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8940,11 +11893,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lomatogonium rotatum"
+      ],
       "en": [
+        "Lomatogonium rotatum",
         "Marsh felwort"
+      ],
+      "es": [
+        "Lomatogonium rotatum"
+      ],
+      "fr": [
+        "Lomatogonium rotatum"
+      ],
+      "it": [
+        "Lomatogonium rotatum"
+      ],
+      "nl": [
+        "Lomatogonium rotatum"
+      ],
+      "pl": [
+        "Lomatogonium rotatum"
+      ],
+      "pt": [
+        "Lomatogonium rotatum"
+      ],
+      "ru": [
+        "Ломатогониум колесовидный"
+      ],
+      "tr": [
+        "Lomatogonium rotatum"
+      ],
+      "zh": [
+        "辐状肋柱花"
       ]
     },
     "tags": [],
@@ -8956,12 +11942,12 @@
     "family": "Gentianaceae",
     "genus": "Obolaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e6d30551d593e60563219de79345e07d1b4f7070",
-    "description": null,
+    "description": "Obolaria is a genus of flowering plant in the gentian family Gentianaceae. It is monotypic, being represented by the single species Obolaria virginica, commonly known as Virginia pennywort.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9038,11 +12024,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Obolaria virginica"
+      ],
       "en": [
+        "Obolaria virginica",
         "Pennywort"
+      ],
+      "es": [
+        "Obolaria virginica"
+      ],
+      "fr": [
+        "Obolaria virginica"
+      ],
+      "it": [
+        "Obolaria virginica"
+      ],
+      "nl": [
+        "Obolaria virginica"
+      ],
+      "pl": [
+        "Obolaria virginica"
+      ],
+      "pt": [
+        "Obolaria virginica"
+      ],
+      "ru": [
+        "Obolaria virginica"
       ]
     },
     "tags": [],
@@ -9054,7 +12067,7 @@
     "family": "Gentianaceae",
     "genus": "Sabatia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9136,11 +12149,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قنطريون امريكي"
+      ],
+      "de": [
+        "Sabatia angularis"
+      ],
       "en": [
-        "Rose-pink"
+        "Rose-pink",
+        "Sabatia angularis"
+      ],
+      "es": [
+        "Sabatia angularis"
+      ],
+      "fr": [
+        "Sabatia angularis"
+      ],
+      "it": [
+        "Sabatia angularis"
+      ],
+      "nl": [
+        "Sabatia angularis"
+      ],
+      "pl": [
+        "Sabatia angularis"
+      ],
+      "pt": [
+        "Sabatia angularis"
+      ],
+      "ru": [
+        "Sabatia angularis"
       ]
     },
     "tags": [],
@@ -9152,7 +12195,7 @@
     "family": "Gentianaceae",
     "genus": "Sabatia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9234,11 +12277,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sabatia brevifolia"
+      ],
       "en": [
+        "Sabatia brevifolia",
         "Shortleaf rose gentian"
+      ],
+      "es": [
+        "Sabatia brevifolia"
+      ],
+      "fr": [
+        "Sabatia brevifolia"
+      ],
+      "it": [
+        "Sabatia brevifolia"
+      ],
+      "nl": [
+        "Sabatia brevifolia"
+      ],
+      "pl": [
+        "Sabatia brevifolia"
+      ],
+      "pt": [
+        "Sabatia brevifolia"
+      ],
+      "ru": [
+        "Sabatia brevifolia"
       ]
     },
     "tags": [],
@@ -9250,7 +12320,7 @@
     "family": "Gentianaceae",
     "genus": "Sabatia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9332,11 +12402,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sabatia campanulata"
+      ],
       "en": [
+        "Sabatia campanulata",
         "Slender rose gentian"
+      ],
+      "es": [
+        "Sabatia campanulata"
+      ],
+      "fr": [
+        "Sabatia campanulata"
+      ],
+      "it": [
+        "Sabatia campanulata"
+      ],
+      "nl": [
+        "Sabatia campanulata"
+      ],
+      "pl": [
+        "Sabatia campanulata"
+      ],
+      "pt": [
+        "Sabatia campanulata"
+      ],
+      "ru": [
+        "Sabatia campanulata"
       ]
     },
     "tags": [],
@@ -9348,7 +12445,7 @@
     "family": "Gentianaceae",
     "genus": "Sabatia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9430,11 +12527,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sabatia campestris"
+      ],
       "en": [
+        "Sabatia campestris",
         "Texas star"
+      ],
+      "es": [
+        "Sabatia campestris"
+      ],
+      "fr": [
+        "Sabatia campestris"
+      ],
+      "it": [
+        "Sabatia campestris"
+      ],
+      "nl": [
+        "Sabatia campestris"
+      ],
+      "pl": [
+        "Sabatia campestris"
+      ],
+      "pt": [
+        "Sabatia campestris"
+      ],
+      "ru": [
+        "Sabatia campestris"
       ]
     },
     "tags": [],
@@ -9446,7 +12570,7 @@
     "family": "Gentianaceae",
     "genus": "Sabatia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9528,9 +12652,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sabatia difformis"
+      ],
+      "en": [
+        "Sabatia difformis"
+      ],
+      "es": [
+        "Sabatia difformis"
+      ],
+      "fr": [
+        "Sabatia difformis"
+      ],
+      "it": [
+        "Sabatia difformis"
+      ],
+      "nl": [
+        "Sabatia difformis"
+      ],
+      "pl": [
+        "Sabatia difformis"
+      ],
+      "pt": [
+        "Sabatia difformis"
+      ],
+      "ru": [
+        "Sabatia difformis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9540,12 +12694,12 @@
     "family": "Gentianaceae",
     "genus": "Sabatia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/84f8394f14bb7de2c73702e5a38cb783a24146b2",
-    "description": "Fruit displays from August to November.",
+    "description": "Sabatia stellaris, with the common names rose of Plymouth, marsh pink, salt-marsh pink, and sea-pink; is a species of Sabatia. It has the synonym Sabatia maculata (Benth.) Benth. & Hook.f., Sabatia palmeri Gray, Sabatia purpusii Brandeg., Sabatia simulata Britt.).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9622,11 +12776,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sabatia stellaris"
+      ],
       "en": [
-        "Rose of plymouth"
+        "Rose of plymouth",
+        "Sabatia stellaris"
+      ],
+      "es": [
+        "Sabatia stellaris"
+      ],
+      "fr": [
+        "Sabatia stellaris"
+      ],
+      "it": [
+        "Sabatia stellaris"
+      ],
+      "nl": [
+        "Sabatia stellaris"
+      ],
+      "pl": [
+        "Sabatia stellaris"
+      ],
+      "pt": [
+        "Sabatia stellaris"
+      ],
+      "ru": [
+        "Sabatia stellaris"
       ]
     },
     "tags": [],
@@ -9638,7 +12819,7 @@
     "family": "Gentianaceae",
     "genus": "Schenkia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9720,9 +12901,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schenkia australis"
+      ],
+      "en": [
+        "Schenkia australis"
+      ],
+      "es": [
+        "Schenkia australis"
+      ],
+      "fr": [
+        "Schenkia australis"
+      ],
+      "it": [
+        "Schenkia australis"
+      ],
+      "nl": [
+        "Schenkia australis"
+      ],
+      "pl": [
+        "Schenkia australis"
+      ],
+      "pt": [
+        "Schenkia australis"
+      ],
+      "ru": [
+        "Schenkia australis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9732,12 +12943,12 @@
     "family": "Gentianaceae",
     "genus": "Schenkia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ba1835d5467e761193c5775a755021c2.jpg",
-    "description": null,
+    "description": "Schenkia spicata is a species of annual herb in the family Gentianaceae. It has a very wide Old World distribution, ranging from north Africa, through Europe and into Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -9814,9 +13025,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schenkia spicata"
+      ],
+      "en": [
+        "Schenkia spicata"
+      ],
+      "es": [
+        "Schenkia spicata"
+      ],
+      "fr": [
+        "Schenkia spicata"
+      ],
+      "it": [
+        "Schenkia spicata"
+      ],
+      "nl": [
+        "Schenkia spicata"
+      ],
+      "pl": [
+        "Schenkia spicata"
+      ],
+      "pt": [
+        "Schenkia spicata"
+      ],
+      "ru": [
+        "Schenkia spicata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9826,7 +13067,7 @@
     "family": "Gentianaceae",
     "genus": "Schultesia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -9908,9 +13149,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schultesia guianensis"
+      ],
+      "en": [
+        "Schultesia guianensis"
+      ],
+      "es": [
+        "Schultesia guianensis"
+      ],
+      "fr": [
+        "Schultesia guianensis"
+      ],
+      "it": [
+        "Schultesia guianensis"
+      ],
+      "nl": [
+        "Schultesia guianensis"
+      ],
+      "pl": [
+        "Schultesia guianensis"
+      ],
+      "pt": [
+        "Schultesia guianensis"
+      ],
+      "ru": [
+        "Schultesia guianensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -9920,7 +13191,7 @@
     "family": "Gentianaceae",
     "genus": "Sebaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10002,9 +13273,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sebaea ovata"
+      ],
+      "en": [
+        "Sebaea ovata"
+      ],
+      "es": [
+        "Sebaea ovata"
+      ],
+      "fr": [
+        "Sebaea ovata"
+      ],
+      "it": [
+        "Sebaea ovata"
+      ],
+      "nl": [
+        "Sebaea ovata"
+      ],
+      "pl": [
+        "Sebaea ovata"
+      ],
+      "pt": [
+        "Sebaea ovata"
+      ],
+      "ru": [
+        "Sebaea ovata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10014,7 +13315,7 @@
     "family": "Gentianaceae",
     "genus": "Swertia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10030,7 +13331,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "swertia_bimaculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -10096,9 +13397,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Swertia bimaculata"
+      ],
+      "en": [
+        "Swertia bimaculata"
+      ],
+      "es": [
+        "Swertia bimaculata"
+      ],
+      "fr": [
+        "Swertia bimaculata"
+      ],
+      "it": [
+        "Swertia bimaculata"
+      ],
+      "ja": [
+        "アケボノソウ"
+      ],
+      "nl": [
+        "Swertia bimaculata"
+      ],
+      "pl": [
+        "Swertia bimaculata"
+      ],
+      "pt": [
+        "Swertia bimaculata"
+      ],
+      "ru": [
+        "Сверция двоякопятнистая"
+      ],
+      "zh": [
+        "獐牙菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10108,7 +13445,7 @@
     "family": "Gentianaceae",
     "genus": "Swertia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10124,7 +13461,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "swertia_japonica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -10190,9 +13527,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Swertia japonica"
+      ],
+      "en": [
+        "Swertia japonica"
+      ],
+      "es": [
+        "Swertia japonica"
+      ],
+      "fr": [
+        "Swertia japonica"
+      ],
+      "it": [
+        "Swertia japonica"
+      ],
+      "ja": [
+        "センブリ"
+      ],
+      "ko": [
+        "쓴풀"
+      ],
+      "nl": [
+        "Swertia japonica"
+      ],
+      "pl": [
+        "Swertia japonica"
+      ],
+      "pt": [
+        "Swertia japonica"
+      ],
+      "ru": [
+        "Swertia japonica"
+      ],
+      "zh": [
+        "日本獐牙菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10202,12 +13578,12 @@
     "family": "Gentianaceae",
     "genus": "Swertia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/799a4dc0c1aff108e08d8af5bf6f095349cc147b",
-    "description": null,
+    "description": "Swertia perennis is a species of flowering plant in the gentian family known by the common names felwort and star swertia. It is native to several regions of the northern hemisphere, including much of Eurasia and western North America. It is a plant of wetlands, particularly calcareous fens.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -10218,17 +13594,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "swertia_perennis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -10284,11 +13660,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "de": [
+        "Sumpfenzian"
+      ],
       "en": [
-        "Alpine bog swertia"
+        "Alpine bog swertia",
+        "Swertia perennis"
+      ],
+      "es": [
+        "Swertia perennis"
+      ],
+      "fr": [
+        "Swertia perennis"
+      ],
+      "it": [
+        "Swertia perennis"
+      ],
+      "nl": [
+        "Swertia perennis"
+      ],
+      "pl": [
+        "Niebielistka trwała"
+      ],
+      "pt": [
+        "Swertia perennis"
+      ],
+      "ru": [
+        "Сверция многолетняя"
+      ],
+      "zh": [
+        "北温带獐牙菜"
       ]
     },
     "tags": [],
@@ -10300,7 +13706,7 @@
     "family": "Gentianaceae",
     "genus": "Tetrapollinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10382,9 +13788,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tetrapollinia caerulescens"
+      ],
+      "en": [
+        "Tetrapollinia caerulescens"
+      ],
+      "es": [
+        "Tetrapollinia caerulescens"
+      ],
+      "fr": [
+        "Tetrapollinia caerulescens"
+      ],
+      "it": [
+        "Tetrapollinia caerulescens"
+      ],
+      "nl": [
+        "Tetrapollinia caerulescens"
+      ],
+      "pl": [
+        "Tetrapollinia caerulescens"
+      ],
+      "pt": [
+        "Tetrapollinia caerulescens"
+      ],
+      "ru": [
+        "Tetrapollinia caerulescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10394,7 +13830,7 @@
     "family": "Gentianaceae",
     "genus": "Tripterospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10476,9 +13912,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tripterospermum trinervium"
+      ],
+      "en": [
+        "Tripterospermum trinervium"
+      ],
+      "es": [
+        "Tripterospermum trinervium"
+      ],
+      "fr": [
+        "Tripterospermum trinervium"
+      ],
+      "it": [
+        "Tripterospermum trinervium"
+      ],
+      "nl": [
+        "Tripterospermum trinervium"
+      ],
+      "pl": [
+        "Tripterospermum trinervium"
+      ],
+      "pt": [
+        "Tripterospermum trinervium"
+      ],
+      "ru": [
+        "Tripterospermum trinervium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10488,7 +13954,7 @@
     "family": "Gentianaceae",
     "genus": "Utania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10570,9 +14036,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Utania racemosa"
+      ],
+      "en": [
+        "Utania racemosa"
+      ],
+      "es": [
+        "Utania racemosa"
+      ],
+      "fr": [
+        "Utania racemosa"
+      ],
+      "it": [
+        "Utania racemosa"
+      ],
+      "nl": [
+        "Utania racemosa"
+      ],
+      "pl": [
+        "Utania racemosa"
+      ],
+      "pt": [
+        "Utania racemosa"
+      ],
+      "ru": [
+        "Utania racemosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10582,7 +14078,7 @@
     "family": "Gentianaceae",
     "genus": "Voyria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10664,9 +14160,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Voyria aphylla"
+      ],
+      "en": [
+        "Voyria aphylla"
+      ],
+      "es": [
+        "Voyria aphylla"
+      ],
+      "fr": [
+        "Voyria aphylla"
+      ],
+      "it": [
+        "Voyria aphylla"
+      ],
+      "nl": [
+        "Voyria aphylla"
+      ],
+      "pl": [
+        "Voyria aphylla"
+      ],
+      "pt": [
+        "Voyria aphylla"
+      ],
+      "ru": [
+        "Voyria aphylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10676,7 +14202,7 @@
     "family": "Gentianaceae",
     "genus": "Zeltnera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10758,9 +14284,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zeltnera exaltata"
+      ],
+      "en": [
+        "Zeltnera exaltata"
+      ],
+      "es": [
+        "Zeltnera exaltata"
+      ],
+      "fr": [
+        "Zeltnera exaltata"
+      ],
+      "it": [
+        "Zeltnera exaltata"
+      ],
+      "nl": [
+        "Zeltnera exaltata"
+      ],
+      "pl": [
+        "Zeltnera exaltata"
+      ],
+      "pt": [
+        "Zeltnera exaltata"
+      ],
+      "ru": [
+        "Zeltnera exaltata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -10770,7 +14326,7 @@
     "family": "Gentianaceae",
     "genus": "Zeltnera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -10852,11 +14408,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Zeltnera venusta"
+      ],
       "en": [
-        "Charming centaury"
+        "Charming centaury",
+        "Zeltnera venusta"
+      ],
+      "es": [
+        "Zeltnera venusta"
+      ],
+      "fr": [
+        "Zeltnera venusta"
+      ],
+      "it": [
+        "Zeltnera venusta"
+      ],
+      "nl": [
+        "Zeltnera venusta"
+      ],
+      "pl": [
+        "Zeltnera venusta"
+      ],
+      "pt": [
+        "Zeltnera venusta"
+      ],
+      "ru": [
+        "Zeltnera venusta"
       ]
     },
     "tags": [],

@@ -5,7 +5,7 @@
     "family": "Pedaliaceae",
     "genus": "Sesamum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سمسم"
+      ],
+      "de": [
+        "Sesam"
+      ],
       "en": [
-        "Sesame"
+        "Sesame",
+        "Sesamum indicum"
+      ],
+      "es": [
+        "sésamo"
+      ],
+      "fr": [
+        "sésame"
+      ],
+      "hi": [
+        "तिल"
+      ],
+      "it": [
+        "Sesamum indicum"
+      ],
+      "ja": [
+        "ゴマ"
+      ],
+      "ko": [
+        "참깨"
+      ],
+      "nl": [
+        "sesam"
+      ],
+      "pl": [
+        "sezam indyjski"
+      ],
+      "pt": [
+        "Gergelim"
+      ],
+      "ru": [
+        "кунжут индийский"
+      ],
+      "tr": [
+        "susam"
+      ],
+      "zh": [
+        "芝麻"
       ]
     },
     "tags": [],
@@ -103,7 +148,7 @@
     "family": "Pedaliaceae",
     "genus": "Sesamum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,9 +230,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sesamum sesamoides"
+      ],
+      "en": [
+        "Sesamum sesamoides"
+      ],
+      "es": [
+        "Sesamum sesamoides"
+      ],
+      "fr": [
+        "Sesamum sesamoides"
+      ],
+      "it": [
+        "Sesamum sesamoides"
+      ],
+      "nl": [
+        "Sesamum sesamoides"
+      ],
+      "pl": [
+        "Sesamum sesamoides"
+      ],
+      "pt": [
+        "Sesamum sesamoides"
+      ],
+      "ru": [
+        "Sesamum sesamoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

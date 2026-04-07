@@ -5,7 +5,7 @@
     "family": "Bixaceae",
     "genus": "Bixa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -93,11 +93,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بكسة أورلانية"
+      ],
+      "de": [
+        "Annattostrauch"
+      ],
       "en": [
-        "Arnatto"
+        "Arnatto",
+        "Bixa orellana"
+      ],
+      "es": [
+        "Bixa orellana"
+      ],
+      "fr": [
+        "Roucou"
+      ],
+      "hi": [
+        "लटकन"
+      ],
+      "it": [
+        "Bixa orellana"
+      ],
+      "ja": [
+        "ベニノキ"
+      ],
+      "ko": [
+        "빅사"
+      ],
+      "nl": [
+        "Orleaanboom"
+      ],
+      "pl": [
+        "Arnota właściwa"
+      ],
+      "pt": [
+        "Urucu"
+      ],
+      "ru": [
+        "аннато"
+      ],
+      "zh": [
+        "红木"
       ]
     },
     "tags": [],
@@ -109,12 +151,12 @@
     "family": "Bixaceae",
     "genus": "Cochlospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a82adfc8b01e234cfdb14a92de25e8298a06d615",
-    "description": null,
+    "description": "Cochlospermum fraseri is a tree in the family Bixaceae with common names cotton tree, kapok bush, and kapok tree. It is native to northwestern Australia from the Kimberly region of Western Australia to the northern parts of the Northern Territory.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -191,11 +233,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cochlospermum fraseri"
+      ],
       "en": [
+        "Cochlospermum fraseri",
         "Kapokbush"
+      ],
+      "es": [
+        "Cochlospermum fraseri"
+      ],
+      "fr": [
+        "Cochlospermum fraseri"
+      ],
+      "it": [
+        "Cochlospermum fraseri"
+      ],
+      "nl": [
+        "Cochlospermum fraseri"
+      ],
+      "pl": [
+        "Cochlospermum fraseri"
+      ],
+      "pt": [
+        "Cochlospermum fraseri"
+      ],
+      "ru": [
+        "Cochlospermum fraseri"
       ]
     },
     "tags": [],
@@ -207,7 +276,7 @@
     "family": "Bixaceae",
     "genus": "Cochlospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -289,9 +358,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cochlospermum orinocense"
+      ],
+      "en": [
+        "Cochlospermum orinocense"
+      ],
+      "es": [
+        "Cochlospermum orinocense"
+      ],
+      "fr": [
+        "Cochlospermum orinocense"
+      ],
+      "it": [
+        "Cochlospermum orinocense"
+      ],
+      "nl": [
+        "Cochlospermum orinocense"
+      ],
+      "pl": [
+        "Cochlospermum orinocense"
+      ],
+      "pt": [
+        "Cochlospermum orinocense"
+      ],
+      "ru": [
+        "Cochlospermum orinocense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -301,7 +400,7 @@
     "family": "Bixaceae",
     "genus": "Cochlospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -383,9 +482,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cochlospermum planchonii"
+      ],
+      "en": [
+        "Cochlospermum planchonii"
+      ],
+      "es": [
+        "Cochlospermum planchonii"
+      ],
+      "fr": [
+        "Cochlospermum planchonii"
+      ],
+      "it": [
+        "Cochlospermum planchonii"
+      ],
+      "nl": [
+        "Cochlospermum planchonii"
+      ],
+      "pl": [
+        "Cochlospermum planchonii"
+      ],
+      "pt": [
+        "Cochlospermum planchonii"
+      ],
+      "ru": [
+        "Cochlospermum planchonii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -395,12 +524,12 @@
     "family": "Bixaceae",
     "genus": "Cochlospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4b2f5f083c7c526edfc0bac065a8b9ff.jpg",
-    "description": null,
+    "description": "Cochlospermum regium, also known as yellow cotton tree, is a flowering plant that has its origins in the Cerrado tropical savanna of South America, but now it is also common in Southeast Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -477,9 +606,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cochlospermum regium"
+      ],
+      "en": [
+        "Cochlospermum regium"
+      ],
+      "es": [
+        "Cochlospermum regium"
+      ],
+      "fr": [
+        "Cochlospermum regium"
+      ],
+      "it": [
+        "Cochlospermum regium"
+      ],
+      "nl": [
+        "Cochlospermum regium"
+      ],
+      "pl": [
+        "Cochlospermum regium"
+      ],
+      "pt": [
+        "Algodão-do-cerrado"
+      ],
+      "ru": [
+        "Cochlospermum regium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -489,7 +648,7 @@
     "family": "Bixaceae",
     "genus": "Cochlospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -571,9 +730,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cochlospermum tinctorium"
+      ],
+      "en": [
+        "Cochlospermum tinctorium"
+      ],
+      "es": [
+        "Cochlospermum tinctorium"
+      ],
+      "fr": [
+        "Cochlospermum tinctorium"
+      ],
+      "it": [
+        "Cochlospermum tinctorium"
+      ],
+      "nl": [
+        "Cochlospermum tinctorium"
+      ],
+      "pl": [
+        "Cochlospermum tinctorium"
+      ],
+      "pt": [
+        "Cochlospermum tinctorium"
+      ],
+      "ru": [
+        "Cochlospermum tinctorium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -583,7 +772,7 @@
     "family": "Bixaceae",
     "genus": "Cochlospermum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -665,11 +854,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Butterblumenbaum"
+      ],
       "en": [
-        "Bototo"
+        "Bototo",
+        "Cochlospermum vitifolium"
+      ],
+      "es": [
+        "Cochlospermum vitifolium"
+      ],
+      "fr": [
+        "Cochlospermum vitifolium"
+      ],
+      "it": [
+        "Cochlospermum vitifolium"
+      ],
+      "nl": [
+        "Cochlospermum vitifolium"
+      ],
+      "pl": [
+        "Cochlospermum vitifolium"
+      ],
+      "pt": [
+        "Cochlospermum vitifolium"
+      ],
+      "ru": [
+        "Cochlospermum vitifolium"
       ]
     },
     "tags": [],

@@ -5,12 +5,12 @@
     "family": "Myricaceae",
     "genus": "Comptonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b1b1c0c7001c9321cd7bdc23cb3cdb8ba42f69d8",
-    "description": "Greenish brown, burr-like nutlets.",
+    "description": "Comptonia peregrina is a species of flowering plant in the family Myricaceae native to eastern North America. It is the only extant (living) species in the genus Comptonia, although some extinct species are placed in the genus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -91,11 +91,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Farnmyrte"
+      ],
       "en": [
+        "Comptonia peregrina",
         "Sweet fern"
+      ],
+      "es": [
+        "Comptonia"
+      ],
+      "fr": [
+        "Comptonia peregrina"
+      ],
+      "it": [
+        "Comptonia peregrina"
+      ],
+      "nl": [
+        "Comptonia peregrina"
+      ],
+      "pl": [
+        "Komptonia amerykańska"
+      ],
+      "pt": [
+        "Comptonia"
+      ],
+      "ru": [
+        "Comptonia peregrina"
+      ],
+      "zh": [
+        "香蕨"
       ]
     },
     "tags": [],
@@ -107,12 +137,12 @@
     "family": "Myricaceae",
     "genus": "Morella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Myrica_californica_-_Leaning_Pine_Arboretum_-_DSC05800.JPG",
+    "description": "Myrica californica is an evergreen shrub or small tree native to the Pacific coast of North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -189,9 +219,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Morella californica"
+      ],
+      "en": [
+        "Morella californica"
+      ],
+      "es": [
+        "Morella californica"
+      ],
+      "fr": [
+        "Morella californica"
+      ],
+      "it": [
+        "Morella californica"
+      ],
+      "nl": [
+        "Morella californica"
+      ],
+      "pl": [
+        "Morella californica"
+      ],
+      "pt": [
+        "Morella californica"
+      ],
+      "ru": [
+        "Morella californica"
+      ],
+      "zh": [
+        "加州杨梅"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -201,12 +264,12 @@
     "family": "Myricaceae",
     "genus": "Morella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Myrica caroliniensis is a shrub or small tree native to the coast and coastal plains of southeastern North America. Its common names include bayberry, southern bayberry, pocosin bayberry, and evergreen bayberry. It sees uses in the garden and for candlemaking, as well as a medicinal plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -283,9 +346,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Morella caroliniensis"
+      ],
+      "en": [
+        "Morella caroliniensis"
+      ],
+      "es": [
+        "Morella caroliniensis"
+      ],
+      "fr": [
+        "Morella caroliniensis"
+      ],
+      "it": [
+        "Morella caroliniensis"
+      ],
+      "nl": [
+        "Morella caroliniensis"
+      ],
+      "pl": [
+        "Morella caroliniensis"
+      ],
+      "pt": [
+        "Morella caroliniensis"
+      ],
+      "ru": [
+        "Morella caroliniensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -295,12 +388,12 @@
     "family": "Myricaceae",
     "genus": "Morella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Myrica cerifera is an evergreen tree or large shrub native to North and Central America and the Caribbean. Its common names include southern wax myrtle, southern bayberry, candleberry, bayberry tree, and tallow shrub. It has uses in the garden and for candlemaking, as well as a medicinal plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -377,9 +470,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Morella cerifera"
+      ],
+      "en": [
+        "Morella cerifera"
+      ],
+      "es": [
+        "Morella cerifera"
+      ],
+      "fr": [
+        "Morella cerifera"
+      ],
+      "it": [
+        "Morella cerifera"
+      ],
+      "ja": [
+        "シロコヤマモモ"
+      ],
+      "nl": [
+        "Morella cerifera"
+      ],
+      "pl": [
+        "Morella cerifera"
+      ],
+      "pt": [
+        "Myrica cerifera"
+      ],
+      "ru": [
+        "Morella cerifera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,12 +515,12 @@
     "family": "Myricaceae",
     "genus": "Morella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Myrica faya is a species of Myrica, native to Macaronesia, and possibly also western coastal mainland Portugal.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -471,9 +597,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Morella faya"
+      ],
+      "en": [
+        "Morella faya"
+      ],
+      "es": [
+        "Morella faya"
+      ],
+      "fr": [
+        "Morella faya"
+      ],
+      "it": [
+        "Morella faya"
+      ],
+      "nl": [
+        "Morella faya"
+      ],
+      "pl": [
+        "Morella faya"
+      ],
+      "pt": [
+        "Morella faya"
+      ],
+      "ru": [
+        "Morella faya"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -483,7 +639,7 @@
     "family": "Myricaceae",
     "genus": "Morella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -565,9 +721,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Morella parvifolia"
+      ],
+      "en": [
+        "Morella parvifolia"
+      ],
+      "es": [
+        "Morella parvifolia"
+      ],
+      "fr": [
+        "Morella parvifolia"
+      ],
+      "it": [
+        "Morella parvifolia"
+      ],
+      "nl": [
+        "Morella parvifolia"
+      ],
+      "pl": [
+        "Morella parvifolia"
+      ],
+      "pt": [
+        "Morella parvifolia"
+      ],
+      "ru": [
+        "Morella parvifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -577,7 +763,7 @@
     "family": "Myricaceae",
     "genus": "Morella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -659,9 +845,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Morella pubescens"
+      ],
+      "en": [
+        "Morella pubescens"
+      ],
+      "es": [
+        "Morella pubescens"
+      ],
+      "fr": [
+        "Morella pubescens"
+      ],
+      "it": [
+        "Morella pubescens"
+      ],
+      "nl": [
+        "Morella pubescens"
+      ],
+      "pl": [
+        "Morella pubescens"
+      ],
+      "pt": [
+        "Morella pubescens"
+      ],
+      "ru": [
+        "Morella pubescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -671,7 +887,7 @@
     "family": "Myricaceae",
     "genus": "Myrica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -687,17 +903,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "myrica_gale",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -753,11 +969,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "ar": [
+        "الميرقية الحلوة"
+      ],
+      "de": [
+        "Gagelstrauch"
+      ],
       "en": [
-        "Bog-myrtle"
+        "Bog-myrtle",
+        "Myrica gale"
+      ],
+      "es": [
+        "Myrica gale"
+      ],
+      "fr": [
+        "Myrica gale"
+      ],
+      "it": [
+        "Myrica gale"
+      ],
+      "ja": [
+        "セイヨウヤチヤナギ"
+      ],
+      "nl": [
+        "Wilde gagel"
+      ],
+      "pl": [
+        "Woskownica europejska"
+      ],
+      "pt": [
+        "Myrica gale"
+      ],
+      "ru": [
+        "Восковница обыкновенная"
       ]
     },
     "tags": [],

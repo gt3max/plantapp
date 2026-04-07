@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/d22f966cfe045b0a0c38e435b8a8738b4a374491",
-    "description": null,
+    "description": "Aldrovanda vesiculosa, commonly known as the waterwheel plant, is the sole extant species in the flowering plant genus Aldrovanda of the family Droseraceae. The plant captures small aquatic invertebrates using traps similar to those of the Venus flytrap. The traps are arranged in whorls around a central, free-floating stem, giving rise to the common name. This is one of the few plant species capable of rapid movement.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,7 +21,7 @@
     "synonyms": "[\"Aldrovanda vesiculosa var. duriaei\", \"Ruelingia polyphylla\", \"Aldrovanda verticillata\", \"Aldrovanda vesiculosa var. australis\", \"Talinum polyphyllum\", \"Drosera aldrovanda\", \"Aldrovanda vesiculosa var. verticillata\", \"Aldrovanda vesiculosa var. rubescens\", \"Aldrovanda generalis\", \"Anacampseros polyphylla\"]",
     "care": {
       "plant_id": "aldrovanda_vesiculosa",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -87,11 +87,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ناعورة"
+      ],
+      "de": [
+        "Aldrovanda vesiculosa"
+      ],
       "en": [
+        "Aldrovanda vesiculosa",
         "Waterwheel plant"
+      ],
+      "es": [
+        "Aldrovanda vesiculosa"
+      ],
+      "fr": [
+        "Aldrovanda vesiculosa"
+      ],
+      "it": [
+        "Aldrovanda vesiculosa"
+      ],
+      "ja": [
+        "ムジナモ"
+      ],
+      "ko": [
+        "벌레먹이말"
+      ],
+      "nl": [
+        "watervliegenval"
+      ],
+      "pl": [
+        "Aldrowanda pęcherzykowata"
+      ],
+      "pt": [
+        "Aldrovanda vesiculosa"
+      ],
+      "ru": [
+        "Альдрованда пузырчатая"
+      ],
+      "tr": [
+        "su çarkı"
+      ],
+      "zh": [
+        "囊泡貉藻"
       ]
     },
     "tags": [],
@@ -103,7 +145,7 @@
     "family": "Droseraceae",
     "genus": "Dionaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +161,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "dionaea_muscipula",
-      "water_frequency": "Every 2-3 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "full sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 800,
+      "dli_min": 12.0,
+      "dli_max": 25.0,
       "temp_min_c": 5,
       "temp_max_c": 8,
       "humidity_level": "High (60-80%)",
@@ -185,11 +227,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "خناق الذباب"
+      ],
+      "de": [
+        "Venusfliegenfalle"
+      ],
       "en": [
+        "Dionaea muscipula",
         "Venus fly trap"
+      ],
+      "es": [
+        "Dionaea muscipula"
+      ],
+      "fr": [
+        "Dionée attrape-mouche"
+      ],
+      "it": [
+        "Dionaea muscipula"
+      ],
+      "ja": [
+        "ハエトリグサ"
+      ],
+      "ko": [
+        "파리지옥"
+      ],
+      "nl": [
+        "venusvliegenvanger"
+      ],
+      "pl": [
+        "Muchołówka"
+      ],
+      "pt": [
+        "dioneia"
+      ],
+      "ru": [
+        "Венерина мухоловка"
+      ],
+      "tr": [
+        "Sinekkapan bitkisi"
+      ],
+      "zh": [
+        "捕蠅草"
       ]
     },
     "tags": [
@@ -206,7 +290,7 @@
     "family": "Droseraceae",
     "genus": "Dionaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -222,9 +306,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "dionaea_muscipula_akai_ryu",
-      "water_frequency": "Every 2-3 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "full sun",
@@ -288,7 +372,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -309,7 +395,7 @@
     "family": "Droseraceae",
     "genus": "Dionaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -325,7 +411,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "dionaea_muscipula_cup-shaped",
-      "water_frequency": "Every 2-3 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Minimum",
       "start_pct": null,
@@ -391,7 +477,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -412,7 +500,7 @@
     "family": "Droseraceae",
     "genus": "Dionaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -428,7 +516,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "dionaea_muscipula_king_henry",
-      "water_frequency": "Every 2-3 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Frequent",
       "start_pct": null,
@@ -494,7 +582,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -515,12 +605,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Drosera_whittakeri_ssp_aberransFloweringPlant1.jpg",
+    "description": "Drosera aberrans is a perennial tuberous species in the genus Drosera that is native to New South Wales, South Australia, and Victoria. It grows in a rosette 3 to 5 cm in diameter with green, orange-yellow, or red leaves. It is native to southern inland South Australia, southern and central Victoria, and one single collection from New South Wales. It grows in a variety of soils from sand to laterite gravel and limestone clay in mallee woodland, heathland, and open forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -531,17 +621,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "drosera_aberrans",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -597,9 +687,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera aberrans"
+      ],
+      "en": [
+        "Drosera aberrans"
+      ],
+      "es": [
+        "Drosera aberrans"
+      ],
+      "fr": [
+        "Drosera aberrans"
+      ],
+      "it": [
+        "Drosera aberrans"
+      ],
+      "nl": [
+        "Drosera aberrans"
+      ],
+      "pl": [
+        "Drosera aberrans"
+      ],
+      "pt": [
+        "Drosera aberrans"
+      ],
+      "ru": [
+        "Drosera aberrans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -609,7 +729,7 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -625,17 +745,17 @@
     "synonyms": "[\"Drosera longifolia var. major\", \"Drosera kihlmanii\", \"Drosera longifolia var. vulgaris\", \"Adenopa anglica\", \"Drosera longifolia var. major\", \"Drosera septentrionalis var. oblongifolia\", \"Drosera macedonica\", \"Drosera anglica f. pusilla\", \"Drosera anglica var. subuniflora\", \"Drosera longifolia\"]",
     "care": {
       "plant_id": "drosera_anglica",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -691,11 +811,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Langblättriger Sonnentau"
+      ],
       "en": [
+        "Drosera anglica",
         "Great sundew"
+      ],
+      "es": [
+        "Drosera anglica"
+      ],
+      "fr": [
+        "Drosera anglica"
+      ],
+      "it": [
+        "Drosera anglica"
+      ],
+      "ja": [
+        "ナガバノモウセンゴケ"
+      ],
+      "ko": [
+        "긴잎끈끈이주걱"
+      ],
+      "nl": [
+        "Lange zonnedauw"
+      ],
+      "pl": [
+        "Rosiczka długolistna"
+      ],
+      "pt": [
+        "Drosera anglica"
+      ],
+      "ru": [
+        "Росянка английская"
+      ],
+      "zh": [
+        "英国茅膏菜"
       ]
     },
     "tags": [],
@@ -707,12 +863,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/ccfcf6494fa1bee41df2d0503fe48b85ece35166",
-    "description": null,
+    "description": "Drosera arcturi is a perennial, insectivorous species of sub-alpine or alpine herb native to Australia and New Zealand. It is one of New Zealand's two alpine species of sundew, the other being Drosera stenopetala. The specific epithet, which translates as \"of Arthur\" from Latin, is a reference to Mount Arthur, in north-eastern Tasmania, the type locality of the species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -723,7 +879,7 @@
     "synonyms": "[\"Drosera ligulata\", \"Drosera polyneura\"]",
     "care": {
       "plant_id": "drosera_arcturi",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -789,9 +945,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera arcturi"
+      ],
+      "en": [
+        "Drosera arcturi"
+      ],
+      "es": [
+        "Drosera arcturi"
+      ],
+      "fr": [
+        "Drosera arcturi"
+      ],
+      "it": [
+        "Drosera arcturi"
+      ],
+      "nl": [
+        "Drosera arcturi"
+      ],
+      "pl": [
+        "Drosera arcturi"
+      ],
+      "pt": [
+        "Drosera arcturi"
+      ],
+      "ru": [
+        "Drosera arcturi"
+      ],
+      "zh": [
+        "亞瑟毛氈苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -801,12 +990,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/7964156ca4d92b4772485e566aeba7c7ad4a135f",
-    "description": null,
+    "description": "Drosera binata, commonly known as the forked sundew or fork-leaved sundew. It is a large, perennial sundew native to south-eastern Australia and New Zealand. The specific epithet is Latin for \"having pairs\", a reference to the leaves, which are dichotomously divided or forked. These leaves are up to 60 cm (24 in) long.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -817,17 +1006,17 @@
     "synonyms": "[\"Drosera binata var. multifida\", \"Drosera dichotoma\", \"Drosera binata var. dichotoma\", \"Drosera intermedia\", \"Dismophyla binata\", \"Drosera pedata\", \"Drosera binata var. rubra\", \"Drosera billardierei\", \"Drosera flagellifera\", \"Drosera cunninghamii\"]",
     "care": {
       "plant_id": "drosera_binata",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -883,11 +1072,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Drosera binata"
+      ],
       "en": [
+        "Drosera binata",
         "Forked sundew"
+      ],
+      "es": [
+        "Drosera binata"
+      ],
+      "fr": [
+        "Drosera binata"
+      ],
+      "it": [
+        "Drosera binata"
+      ],
+      "nl": [
+        "Drosera binata"
+      ],
+      "pl": [
+        "Drosera binata"
+      ],
+      "pt": [
+        "Drosera binata"
+      ],
+      "ru": [
+        "Росянка двусложная"
+      ],
+      "zh": [
+        "叉葉毛氈苔"
       ]
     },
     "tags": [],
@@ -899,12 +1118,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/c1d36f9d858e2c34b5f5970a3e6b4b48e102ea22",
-    "description": null,
+    "description": "Drosera brevifolia is a carnivorous plant of the family Droseraceae native to the Americas. This species differs considerably from the pink sundew, Drosera capillaris, by its wedge-shaped leaves, and distinctly deeper red to reddish purple color, noticeable when side by side with D. capillaris.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -915,7 +1134,7 @@
     "synonyms": "[\"Drosera ferruginea\", \"Drosera leucantha\", \"Drosera moaensis\", \"Drosera chiapensis\", \"Drosera brevifolia var. major\", \"Drosera annua\", \"Drosera maritima\"]",
     "care": {
       "plant_id": "drosera_brevifolia",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -981,11 +1200,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Drosera brevifolia"
+      ],
       "en": [
+        "Drosera brevifolia",
         "Dwarf sundew"
+      ],
+      "es": [
+        "Drosera brevifolia"
+      ],
+      "fr": [
+        "Drosera brevifolia"
+      ],
+      "it": [
+        "Drosera brevifolia"
+      ],
+      "nl": [
+        "Drosera brevifolia"
+      ],
+      "pl": [
+        "Drosera brevifolia"
+      ],
+      "pt": [
+        "Drosera brevifolia"
+      ],
+      "ru": [
+        "Drosera brevifolia"
       ]
     },
     "tags": [],
@@ -997,12 +1243,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f28be23b0149d58eda7a72d3553c2b7cef4b1516",
-    "description": "Displays from July to October",
+    "description": "Drosera capillaris, also known as the pink sundew, is a species of carnivorous plant belonging to the family Droseraceae. It is native to the southern United States, the Greater Antilles, western and southern Mexico, Central America, and northern South America. It is critically endangered in some places and thrives in unique conditions like fires, as it allows new growth to flourish.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1013,17 +1259,17 @@
     "synonyms": "[\"Drosera minor\", \"Drosera communis var. breviscapa\", \"Drosera tenella\", \"Drosera communis var. cubensis\"]",
     "care": {
       "plant_id": "drosera_capillaris",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -1081,11 +1327,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Drosera capillaris"
+      ],
       "en": [
+        "Drosera capillaris",
         "Pink sundew"
+      ],
+      "es": [
+        "Drosera capillaris"
+      ],
+      "fr": [
+        "Drosera capillaris"
+      ],
+      "it": [
+        "Drosera capillaris"
+      ],
+      "nl": [
+        "Drosera capillaris"
+      ],
+      "pl": [
+        "Drosera capillaris"
+      ],
+      "pt": [
+        "Drosera capillaris"
+      ],
+      "ru": [
+        "Drosera capillaris"
+      ],
+      "zh": [
+        "絨毛毛氈苔"
       ]
     },
     "tags": [],
@@ -1097,12 +1373,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/09f7826a9d6f58d4f2bd3d0d50c663dc.jpg",
-    "description": null,
+    "description": "Drosera cistiflora, also called the poppy-flowered sundew, is a carnivorous species in the sundew family, known for its unusually large flowers. It is native to Southern Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1113,7 +1389,7 @@
     "synonyms": "[\"Drosera liniflora\", \"Drosera helianthemum\", \"Drosera variegata\", \"Drosera cistiflora var. multiflora\", \"Drosera cistiflora var. minutiflora\", \"Drosera cistiflora var. exilis\", \"Drosera violacea\", \"Drosera cistiflora var. violacea\", \"Drosera speciosa\", \"Drosera rubripetala\"]",
     "care": {
       "plant_id": "drosera_cistiflora",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1179,9 +1455,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera cistiflora"
+      ],
+      "en": [
+        "Drosera cistiflora"
+      ],
+      "es": [
+        "Drosera cistiflora"
+      ],
+      "fr": [
+        "Drosera cistiflora"
+      ],
+      "it": [
+        "Drosera cistiflora"
+      ],
+      "nl": [
+        "Drosera cistiflora"
+      ],
+      "pl": [
+        "Drosera cistiflora"
+      ],
+      "pt": [
+        "Drosera cistiflora"
+      ],
+      "ru": [
+        "Drosera cistiflora"
+      ],
+      "zh": [
+        "岩蔷薇茅膏菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1191,7 +1500,7 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -1207,7 +1516,7 @@
     "synonyms": "[\"Drosera communis var. alba\", \"Drosera intermedia var. tenuis\", \"Drosera montana f. parviflora\", \"Drosera parvifolia\"]",
     "care": {
       "plant_id": "drosera_communis",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1273,9 +1582,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera communis"
+      ],
+      "en": [
+        "Drosera communis"
+      ],
+      "es": [
+        "Drosera communis"
+      ],
+      "fr": [
+        "Drosera communis"
+      ],
+      "it": [
+        "Drosera communis"
+      ],
+      "nl": [
+        "Drosera communis"
+      ],
+      "pl": [
+        "Drosera communis"
+      ],
+      "pt": [
+        "Drosera communis"
+      ],
+      "ru": [
+        "Drosera communis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1285,12 +1624,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/af0eb253a818182655bec39245958f02.jpg",
-    "description": null,
+    "description": "Drosera erythrorhiza, the red ink sundew, is a perennial tuberous species in the carnivorous plant genus Drosera that is endemic to Western Australia. It grows in a rosette and is distinguished from the other species in section Erythrorhiza by its many-flowered cymose inflorescences with up to 50 individual flowers. D. erythrorhiza was first described by John Lindley in his 1839 publication A sketch of the vegetation of the Swan River Colony. In 1992, N. G.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1301,7 +1640,7 @@
     "synonyms": "[\"Sondera erythrorhiza\", \"Drosera erythrorhiza var. imbecilia\", \"Drosera primulacea\"]",
     "care": {
       "plant_id": "drosera_erythrorhiza",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1367,9 +1706,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera erythrorhiza"
+      ],
+      "en": [
+        "Drosera erythrorhiza"
+      ],
+      "es": [
+        "Drosera erythrorhiza"
+      ],
+      "fr": [
+        "Drosera erythrorhiza"
+      ],
+      "it": [
+        "Drosera erythrorhiza"
+      ],
+      "nl": [
+        "Drosera erythrorhiza"
+      ],
+      "pl": [
+        "Drosera erythrorhiza"
+      ],
+      "pt": [
+        "Drosera erythrorhiza"
+      ],
+      "ru": [
+        "Drosera erythrorhiza"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1379,12 +1748,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/d46d375d078dbdba11041d138a3d506ebe3f9a35",
-    "description": "Displays in August",
+    "description": "Drosera filiformis, commonly known as Tracy's sundew, dewthread or the thread-leaved sundew, is a small, insectivorous, rosette-forming species of perennial herb. A species of sundew, it is unusual within its genus in that the long, erect, filiform (thread-like) leaves of this plant unroll in spirals – an arrangement similar to the circinate vernation seen in ferns.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1395,7 +1764,7 @@
     "synonyms": "[\"Filicirna filiformis\", \"Drosera filiformis var. typica\"]",
     "care": {
       "plant_id": "drosera_filiformis",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1463,11 +1832,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Fadenförmiger Sonnentau"
+      ],
       "en": [
+        "Drosera filiformis",
         "Threadleaf sundew"
+      ],
+      "es": [
+        "Drosera filiformis"
+      ],
+      "fr": [
+        "Drosera filiformis"
+      ],
+      "it": [
+        "Drosera filiformis"
+      ],
+      "ja": [
+        "イトバモウセンゴケ"
+      ],
+      "nl": [
+        "Drosera filiformis"
+      ],
+      "pl": [
+        "Drosera filiformis"
+      ],
+      "pt": [
+        "Drosera filiformis"
+      ],
+      "ru": [
+        "Drosera filiformis"
       ]
     },
     "tags": [],
@@ -1479,12 +1878,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f0aa727afd02d82c52417b30bc959af032a351e7",
-    "description": null,
+    "description": "Drosera glanduligera, commonly known as the pimpernel sundew or scarlet sundew, is a species of carnivorous plant in the Sundew family, Droseraceae. It is endemic to southern Australia. It is an ephemeral annual plant that grows in the winter and flowers from August to November.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1495,17 +1894,17 @@
     "synonyms": "[\"Drosera patellifera\"]",
     "care": {
       "plant_id": "drosera_glanduligera",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -1561,9 +1960,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera glanduligera"
+      ],
+      "en": [
+        "Drosera glanduligera"
+      ],
+      "es": [
+        "Drosera glanduligera"
+      ],
+      "fr": [
+        "Drosera glanduligera"
+      ],
+      "it": [
+        "Drosera glanduligera"
+      ],
+      "nl": [
+        "Drosera glanduligera"
+      ],
+      "pl": [
+        "Drosera glanduligera"
+      ],
+      "pt": [
+        "Drosera glanduligera"
+      ],
+      "ru": [
+        "Drosera glanduligera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1573,12 +2002,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/c8627f252e047ac23397f95cb0439535.jpg",
-    "description": null,
+    "description": "Drosera hookeri, the grassland sundew is an shortly erect perennial tuberous species in the carnivorous plant genus Drosera. Drosera hookeri is found in south-eastern Australia. Although the holotype was collected in Tasmania, its distribution also includes Victoria, New South Wales and South Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1589,7 +2018,7 @@
     "synonyms": "[\"Drosera foliosa\", \"Drosera peltata var. foliosa\"]",
     "care": {
       "plant_id": "drosera_hookeri",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1655,9 +2084,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera hookeri"
+      ],
+      "en": [
+        "Drosera hookeri"
+      ],
+      "es": [
+        "Drosera hookeri"
+      ],
+      "fr": [
+        "Drosera hookeri"
+      ],
+      "it": [
+        "Drosera hookeri"
+      ],
+      "nl": [
+        "Drosera hookeri"
+      ],
+      "pl": [
+        "Drosera hookeri"
+      ],
+      "pt": [
+        "Drosera hookeri"
+      ],
+      "ru": [
+        "Drosera hookeri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1667,12 +2126,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e15aa58d7f9ce05b7d1b2cd635c8aaf0.jpg",
-    "description": null,
+    "description": "Drosera indica, sometimes known as the Indian sundew, is a species of sundew native to tropical and southern Africa, Madagascar and tropical and subtropical Asia. It was first described by Carl Linnaeus in his Species Plantarum in 1753. Until the early 21st century it was mostly considered a highly variable species with a wide distribution including Australia, but since 2000 several distinct species have been separated from D.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1683,7 +2142,7 @@
     "synonyms": "[\"Drosera hexagynia\", \"Drosera indica var. makinoi\", \"Drosera indica var. alba\", \"Drosera indica f. albiflora\", \"Drosera indica var. albiflora\", \"Drosera metziana\", \"Drosera makinoi\", \"Drosera minor\"]",
     "care": {
       "plant_id": "drosera_indica",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -1749,9 +2208,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera indica"
+      ],
+      "en": [
+        "Drosera indica"
+      ],
+      "es": [
+        "Drosera indica"
+      ],
+      "fr": [
+        "Drosera indica"
+      ],
+      "it": [
+        "Drosera indica"
+      ],
+      "ja": [
+        "ナガバノイシモチソウ"
+      ],
+      "nl": [
+        "Drosera indica"
+      ],
+      "pl": [
+        "Drosera indica"
+      ],
+      "pt": [
+        "Drosera indica"
+      ],
+      "ru": [
+        "Drosera indica"
+      ],
+      "zh": [
+        "长叶茅膏菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1761,7 +2256,7 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -1777,17 +2272,17 @@
     "synonyms": "[\"Drosera intermedia var. corymbosa\", \"Drosera capillaris var. brasiliensis\", \"Drosera intermedia var. americana\", \"Drosera intermedia f. gracilis\", \"Drosera intermedia f. vulgaris\", \"Drosera media\", \"Drosera intermedia var. gracilis\", \"Drosera intermedia subvar. corymbosa\", \"Drosera intermedia f. elatior\", \"Drosera foliosa\"]",
     "care": {
       "plant_id": "drosera_intermedia",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -1845,11 +2340,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Mittlerer Sonnentau"
+      ],
       "en": [
+        "Drosera intermedia",
         "Oblong-leaf sundew"
+      ],
+      "es": [
+        "Drosera intermedia"
+      ],
+      "fr": [
+        "Droséra intermédiaire"
+      ],
+      "it": [
+        "Drosera intermedia"
+      ],
+      "ja": [
+        "ナガエモウセンゴケ"
+      ],
+      "nl": [
+        "kleine zonnedauw"
+      ],
+      "pl": [
+        "Rosiczka pośrednia"
+      ],
+      "pt": [
+        "Drosera intermedia"
+      ],
+      "ru": [
+        "Росянка промежуточная"
+      ],
+      "zh": [
+        "長柄毛氈苔"
       ]
     },
     "tags": [],
@@ -1861,12 +2389,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/5fc81ae397083e0622549a98fc678586b58ed53d",
-    "description": null,
+    "description": "Drosera macrantha, the bridal rainbow, is a scrambling or climbing perennial tuberous species in the carnivorous plant genus Drosera that is endemic to Western Australia. It grows in a variety of habitats, including winter-wet depressions in sandy, loamy, laterite, or quartzite soils. D. macrantha produces small, cup-shaped carnivorous leaves along a long stem that can be 0.16–1.5 m (0.5–4.9 ft) high as it climbs. Its 1 in (2.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1877,17 +2405,17 @@
     "synonyms": "[\"Sondera macrantha\", \"Drosera macrantha var. burgesii\"]",
     "care": {
       "plant_id": "drosera_macrantha",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -1943,11 +2471,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Drosera macrantha"
+      ],
       "en": [
-        "Bridal rainbow"
+        "Bridal rainbow",
+        "Drosera macrantha"
+      ],
+      "es": [
+        "Drosera macrantha"
+      ],
+      "fr": [
+        "Drosera macrantha"
+      ],
+      "it": [
+        "Drosera macrantha"
+      ],
+      "nl": [
+        "Drosera macrantha"
+      ],
+      "pl": [
+        "Drosera macrantha"
+      ],
+      "pt": [
+        "Drosera macrantha"
+      ],
+      "ru": [
+        "Drosera macrantha"
       ]
     },
     "tags": [],
@@ -1959,12 +2514,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Drosera menziesii, the pink rainbow, is an erect or scrambling perennial tuberous species in the carnivorous plant genus Drosera. It is endemic to Western Australia and grows in a variety of habitats, including winter-wet depressions, swamps, and granite outcrops in clay or peat sand soils or loam. D. menziesii produces small, circular carnivorous leaves along an undulating erect stem that can be .05–1.1 m (0.2–3.6 ft) high. Its pink flowers emerge from July to November.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1975,7 +2530,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "drosera_menziesii",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2041,9 +2596,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera menziesii"
+      ],
+      "en": [
+        "Drosera menziesii"
+      ],
+      "es": [
+        "Drosera menziesii"
+      ],
+      "fr": [
+        "Drosera menziesii"
+      ],
+      "it": [
+        "Drosera menziesii"
+      ],
+      "nl": [
+        "Drosera menziesii"
+      ],
+      "pl": [
+        "Drosera menziesii"
+      ],
+      "pt": [
+        "Drosera menziesii"
+      ],
+      "ru": [
+        "Drosera menziesii"
+      ],
+      "zh": [
+        "曼西毛氈苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2053,7 +2641,7 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -2069,7 +2657,7 @@
     "synonyms": "[\"Drosera communis var. pauciflora\"]",
     "care": {
       "plant_id": "drosera_montana",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2135,9 +2723,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera tomentosa"
+      ],
+      "en": [
+        "Drosera montana"
+      ],
+      "es": [
+        "Drosera montana"
+      ],
+      "fr": [
+        "Drosera tomentosa"
+      ],
+      "it": [
+        "Drosera tomentosa"
+      ],
+      "nl": [
+        "Drosera montana"
+      ],
+      "pl": [
+        "Drosera montana"
+      ],
+      "pt": [
+        "Drosera montana"
+      ],
+      "ru": [
+        "Drosera montana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2147,7 +2765,7 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -2163,17 +2781,17 @@
     "synonyms": "[\"Sondera peltata\", \"Drosera peltata\", \"Drosera peltata var. genuina\"]",
     "care": {
       "plant_id": "drosera_peltata",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -2229,9 +2847,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera peltata"
+      ],
+      "en": [
+        "Drosera peltata"
+      ],
+      "es": [
+        "Drosera peltata"
+      ],
+      "fr": [
+        "Drosera peltata"
+      ],
+      "it": [
+        "Drosera peltata"
+      ],
+      "ja": [
+        "イシモチソウ"
+      ],
+      "ko": [
+        "끈끈이귀개"
+      ],
+      "nl": [
+        "Drosera peltata"
+      ],
+      "pl": [
+        "Drosera peltata"
+      ],
+      "pt": [
+        "Drosera peltata"
+      ],
+      "ru": [
+        "Drosera peltata"
+      ],
+      "zh": [
+        "盾叶茅膏菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2241,12 +2898,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a55818a737c7d38a2e898cf9a4a5c8f4.jpg",
-    "description": null,
+    "description": "Drosera petiolaris is a carnivorous plant in the genus Drosera and is the eponymous species of the petiolaris species complex, which mostly refers to the entire subgenus Lasiocephala. It is native to Northern Australia, including the northern regions of Western Australia, the Northern Territory, and Queensland, and New Guinea; this distribution is the largest in the subgenus and the only that extends beyond Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2257,7 +2914,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "drosera_petiolaris",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2323,9 +2980,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera petiolaris"
+      ],
+      "en": [
+        "Drosera petiolaris"
+      ],
+      "es": [
+        "Drosera petiolaris"
+      ],
+      "fr": [
+        "Drosera petiolaris"
+      ],
+      "it": [
+        "Drosera petiolaris"
+      ],
+      "nl": [
+        "Drosera petiolaris"
+      ],
+      "pl": [
+        "Drosera petiolaris"
+      ],
+      "pt": [
+        "Drosera petiolaris"
+      ],
+      "ru": [
+        "Drosera petiolaris"
+      ],
+      "tr": [
+        "Drosera petiolaris"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2335,12 +3025,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Drosera pygmaea is a carnivorous, rosette-forming biennial or annual species of herb native to Australia and New Zealand. The specific epithet, which translates as \"dwarf\" from Latin, is a reference to the very small size of this plant, which grows to between 8 and 18 mm in diameter. Small, pale flowers are produced at the ends of 1- to 3-inch stems. It is perhaps the most well-known of the pygmy sundews. Within New Zealand D.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2351,7 +3041,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "drosera_pygmaea",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2417,9 +3107,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera pygmaea"
+      ],
+      "en": [
+        "Drosera pygmaea"
+      ],
+      "es": [
+        "Drosera pygmaea"
+      ],
+      "fr": [
+        "Drosera pygmaea"
+      ],
+      "it": [
+        "Drosera pygmaea"
+      ],
+      "nl": [
+        "Drosera pygmaea"
+      ],
+      "pl": [
+        "Drosera pygmaea"
+      ],
+      "pt": [
+        "Drosera pygmaea"
+      ],
+      "ru": [
+        "Drosera pygmaea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2429,7 +3149,7 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -2445,17 +3165,17 @@
     "synonyms": "[\"Drosera septentrionalis\", \"Drosera rotundifolia var. furcata\", \"Drosera rotundifolia var. perennis\", \"Drosera rotundifolia var. maritima\", \"Drosera rotundifolia var. breviscapa\", \"Drosera rotundifolia f. comosa\", \"Rorella rotundifolia\", \"Drosera rotundifolia var. comosa\", \"Drosera rotundifolia var. distachya\", \"Rossolis rotundifolia\"]",
     "care": {
       "plant_id": "drosera_rotundifolia",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -2513,11 +3233,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "ar": [
+        "ندية مستديرة الأوراق"
+      ],
+      "de": [
+        "Rundblättriger Sonnentau"
+      ],
       "en": [
+        "Drosera rotundifolia",
         "Round-leaf sundew"
+      ],
+      "es": [
+        "Drosera rotundifolia"
+      ],
+      "fr": [
+        "Drosera à feuilles rondes"
+      ],
+      "it": [
+        "Drosera rotundifolia"
+      ],
+      "ja": [
+        "モウセンゴケ"
+      ],
+      "ko": [
+        "끈끈이주걱"
+      ],
+      "nl": [
+        "ronde zonnedauw"
+      ],
+      "pl": [
+        "Rosiczka okrągłolistna"
+      ],
+      "pt": [
+        "Drosera rotundifolia"
+      ],
+      "ru": [
+        "Росянка круглолистная"
+      ],
+      "tr": [
+        "Güneşgülü"
+      ],
+      "zh": [
+        "圓葉茅膏菜"
       ]
     },
     "tags": [],
@@ -2529,12 +3291,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/b4964047712dfb663a55a12a6f9e0e520162877b",
-    "description": null,
+    "description": "Drosera spatulata, the spoon-leaved sundew, is a variable, rosette-forming sundew with spoon-shaped leaves. The specific epithet is Latin for \"spatula shaped,\" a reference to the form of the leaves. This sundew has a large range and occurs naturally throughout Southeast Asia, southern China and Japan, Micronesia, Papua New Guinea, eastern Australia, Tasmania and New Zealand. Variants are often known by the localities in which they are found.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2545,17 +3307,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "drosera_spatulata",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -2611,9 +3373,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera spatulata"
+      ],
+      "en": [
+        "Drosera spatulata"
+      ],
+      "es": [
+        "Drosera spatulata"
+      ],
+      "fr": [
+        "Drosera spatulata"
+      ],
+      "it": [
+        "Drosera spatulata"
+      ],
+      "ja": [
+        "コモウセンゴケ"
+      ],
+      "ko": [
+        "좀끈끈이주걱"
+      ],
+      "nl": [
+        "Drosera spatulata"
+      ],
+      "pl": [
+        "Drosera spatulata"
+      ],
+      "pt": [
+        "Drosera spatulata"
+      ],
+      "ru": [
+        "Drosera spatulata"
+      ],
+      "zh": [
+        "小毛氈苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2623,12 +3424,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Drosera stolonifera, sometimes referred to as the leafy sundew, is a tuberous perennial species in the genus Drosera that is endemic to Western Australia. It produces 2 to 3 semi-erect lateral stems that grow 10 to 15 cm long. It is most closely related to D. purpurascens, but differs by several characteristics including height and petiole length. It is native to a number of swampy locations around Perth south to Pinjarra.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2639,7 +3440,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "drosera_stolonifera",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -2705,9 +3506,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera stolonifera"
+      ],
+      "en": [
+        "Drosera stolonifera"
+      ],
+      "es": [
+        "Drosera stolonifera"
+      ],
+      "fr": [
+        "Drosera stolonifera"
+      ],
+      "it": [
+        "Drosera stolonifera"
+      ],
+      "nl": [
+        "Drosera stolonifera"
+      ],
+      "pl": [
+        "Drosera stolonifera"
+      ],
+      "pt": [
+        "Drosera stolonifera"
+      ],
+      "ru": [
+        "Drosera stolonifera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2717,12 +3548,12 @@
     "family": "Droseraceae",
     "genus": "Drosera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Drosera whittakeri is a sundew that is native to South Australia and Victoria.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2733,17 +3564,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "drosera_whittakeri",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -2799,9 +3630,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drosera whittakeri"
+      ],
+      "en": [
+        "Drosera whittakeri"
+      ],
+      "es": [
+        "Drosera whittakeri"
+      ],
+      "fr": [
+        "Drosera whittakeri"
+      ],
+      "it": [
+        "Drosera whittakeri"
+      ],
+      "ja": [
+        "ドロセラ・ホワイタケリ"
+      ],
+      "nl": [
+        "Drosera whittakeri"
+      ],
+      "pl": [
+        "Drosera whittakeri"
+      ],
+      "pt": [
+        "Drosera whittakeri"
+      ],
+      "ru": [
+        "Drosera whittakeri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

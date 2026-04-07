@@ -5,7 +5,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": "[\"Dioscorea sapinii\", \"Dioscorea vulgaris\", \"Dioscorea globosa\", \"Dioscorea colocasiifolia\", \"Dioscorea rubella\", \"Dioscorea javanica\", \"Dioscorea alata var. globosa\", \"Dioscorea eburina\", \"Dioscorea alata var. tarri\", \"Dioscorea purpurea\"]",
     "care": {
       "plant_id": "dioscorea_alata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.6
     },
     "common_names": {
+      "ar": [
+        "ديسقوريا جناحية"
+      ],
+      "de": [
+        "Dioscorea alata"
+      ],
       "en": [
+        "Dioscorea alata",
         "Greater yam"
+      ],
+      "es": [
+        "Dioscorea alata"
+      ],
+      "fr": [
+        "Dioscorea alata"
+      ],
+      "it": [
+        "Dioscorea alata"
+      ],
+      "ja": [
+        "ダイジョ"
+      ],
+      "ko": [
+        "열대둥근마"
+      ],
+      "nl": [
+        "Dioscorea alata"
+      ],
+      "pl": [
+        "Pochrzyn skrzydlaty"
+      ],
+      "pt": [
+        "Dioscorea alata"
+      ],
+      "ru": [
+        "Dioscorea alata"
+      ],
+      "tr": [
+        "Dioscorea alata"
+      ],
+      "zh": [
+        "参薯"
       ]
     },
     "tags": [],
@@ -103,7 +145,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +161,17 @@
     "synonyms": "[\"Dioscorea bulbifera var. anthropophagorum\", \"Dioscorea heterophylla\", \"Dioscorea sativa var. rotunda\", \"Dioscorea bulbifera f. domestica\", \"Dioscorea rogersii\", \"Dioscorea sativa f. spontanea\", \"Dioscorea bulbifera var. simbha\", \"Dioscorea hoffa\", \"Dioscorea bulbifera var. brachybotryum\", \"Dioscorea korrorensis\"]",
     "care": {
       "plant_id": "dioscorea_bulbifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,11 +227,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.6
     },
     "common_names": {
+      "ar": [
+        "ديسقوريا بصلية"
+      ],
+      "de": [
+        "Luftkartoffel"
+      ],
       "en": [
-        "Air-potato"
+        "Air-potato",
+        "Dioscorea bulbifera"
+      ],
+      "es": [
+        "Dioscorea bulbifera"
+      ],
+      "fr": [
+        "Hoffe"
+      ],
+      "it": [
+        "Dioscorea bulbifera"
+      ],
+      "ja": [
+        "カシュウイモ"
+      ],
+      "nl": [
+        "Dioscorea bulbifera"
+      ],
+      "pl": [
+        "Dioscorea bulbifera"
+      ],
+      "pt": [
+        "Dioscorea bulbifera"
+      ],
+      "ru": [
+        "Диоскорея клубненосная"
+      ],
+      "tr": [
+        "Dioscorea bulbifera"
+      ],
+      "zh": [
+        "黄独"
       ]
     },
     "tags": [],
@@ -201,7 +282,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -217,17 +298,17 @@
     "synonyms": "[\"Tamus cirrhosa\", \"Tamus baccifera\", \"Tamus norsa\", \"Tamus communis var. triloba\", \"Tamus cordifolia\", \"Tamus racemosa\", \"Tamus communis\", \"Tamus communis var. subtriloba\", \"Tamus communis f. subtriloba\", \"Smilax rubra\"]",
     "care": {
       "plant_id": "dioscorea_communis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -283,11 +364,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.9
     },
     "common_names": {
+      "ar": [
+        "خيرون شائع"
+      ],
+      "de": [
+        "Gemeine Schmerwurz"
+      ],
       "en": [
-        "Black-bindweed"
+        "Black-bindweed",
+        "Dioscorea communis"
+      ],
+      "es": [
+        "Dioscorea communis"
+      ],
+      "fr": [
+        "Dioscorea communis"
+      ],
+      "it": [
+        "Tamus communis"
+      ],
+      "nl": [
+        "Spekwortel"
+      ],
+      "pl": [
+        "Dioscorea communis"
+      ],
+      "pt": [
+        "Tamus communis"
+      ],
+      "ru": [
+        "Dioscorea communis"
+      ],
+      "tr": [
+        "Dioscorea communis"
+      ],
+      "zh": [
+        "黑薯蓣"
       ]
     },
     "tags": [],
@@ -299,7 +416,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -315,7 +432,7 @@
     "synonyms": "[\"Dioscorea tepinapensis\", \"Dioscorea tepinapensis var. aggregata\"]",
     "care": {
       "plant_id": "dioscorea_composita",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -381,9 +498,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ديسقوريا مركبة"
+      ],
+      "de": [
+        "Dioscorea composita"
+      ],
+      "en": [
+        "Dioscorea composita"
+      ],
+      "es": [
+        "Dioscorea composita"
+      ],
+      "fr": [
+        "Dioscorea composita"
+      ],
+      "it": [
+        "Dioscorea composita"
+      ],
+      "nl": [
+        "Dioscorea composita"
+      ],
+      "pl": [
+        "Dioscorea composita"
+      ],
+      "pt": [
+        "Dioscorea composita"
+      ],
+      "ru": [
+        "Dioscorea composita"
+      ],
+      "tr": [
+        "Dioscorea composita"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -393,7 +546,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -409,7 +562,7 @@
     "synonyms": "[\"Helmia convolvulacea\"]",
     "care": {
       "plant_id": "dioscorea_convolvulacea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -475,9 +628,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dioscorea convolvulacea"
+      ],
+      "en": [
+        "Dioscorea convolvulacea"
+      ],
+      "es": [
+        "Dioscorea convolvulacea"
+      ],
+      "fr": [
+        "Dioscorea convolvulacea"
+      ],
+      "it": [
+        "Dioscorea convolvulacea"
+      ],
+      "nl": [
+        "Dioscorea convolvulacea"
+      ],
+      "pl": [
+        "Dioscorea convolvulacea"
+      ],
+      "pt": [
+        "Dioscorea convolvulacea"
+      ],
+      "ru": [
+        "Dioscorea convolvulacea"
+      ],
+      "tr": [
+        "Dioscorea convolvulacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -487,7 +673,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -503,7 +689,7 @@
     "synonyms": "[\"Dioscorea triphylla\", \"Dioscorea triphylla var. dumetorum\", \"Dioscorea triphylla var. abyssinica\", \"Dioscorea triphylla var. tomentosa\", \"Helmia dumetorum\", \"Dioscorea buchholziana\", \"Dioscorea triphylla var. rotundata\"]",
     "care": {
       "plant_id": "dioscorea_dumetorum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -569,9 +755,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dioscorea dumetorum"
+      ],
+      "en": [
+        "Dioscorea dumetorum"
+      ],
+      "es": [
+        "Dioscorea dumetorum"
+      ],
+      "fr": [
+        "Dioscorea dumetorum"
+      ],
+      "it": [
+        "Dioscorea dumetorum"
+      ],
+      "nl": [
+        "Dioscorea dumetorum"
+      ],
+      "pl": [
+        "Dioscorea dumetorum"
+      ],
+      "pt": [
+        "Dioscorea dumetorum"
+      ],
+      "ru": [
+        "Dioscorea dumetorum"
+      ],
+      "tr": [
+        "Dioscorea dumetorum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,7 +800,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -597,7 +816,7 @@
     "synonyms": "[\"Dioscorea barclayi\"]",
     "care": {
       "plant_id": "dioscorea_floribunda",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -663,9 +882,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dioscorea floribunda"
+      ],
+      "en": [
+        "Dioscorea floribunda"
+      ],
+      "es": [
+        "Dioscorea floribunda"
+      ],
+      "fr": [
+        "Dioscorea floribunda"
+      ],
+      "it": [
+        "Dioscorea floribunda"
+      ],
+      "nl": [
+        "Dioscorea floribunda"
+      ],
+      "pl": [
+        "Dioscorea floribunda"
+      ],
+      "pt": [
+        "Dioscorea floribunda"
+      ],
+      "ru": [
+        "Dioscorea floribunda"
+      ],
+      "tr": [
+        "Dioscorea floribunda"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -675,7 +927,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -691,17 +943,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "dioscorea_japonica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -757,9 +1009,54 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.6
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ديسقوريا يابانية"
+      ],
+      "de": [
+        "Dioscorea japonica"
+      ],
+      "en": [
+        "Dioscorea japonica"
+      ],
+      "es": [
+        "Dioscorea japonica"
+      ],
+      "fr": [
+        "Dioscorea japonica"
+      ],
+      "it": [
+        "Dioscorea japonica"
+      ],
+      "ja": [
+        "ヤマノイモ"
+      ],
+      "ko": [
+        "참마"
+      ],
+      "nl": [
+        "Dioscorea japonica"
+      ],
+      "pl": [
+        "Dioscorea japonica"
+      ],
+      "pt": [
+        "Dioscorea japonica"
+      ],
+      "ru": [
+        "Диоскорея японская"
+      ],
+      "tr": [
+        "Dioscorea japonica"
+      ],
+      "zh": [
+        "日本薯蓣"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -769,7 +1066,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -785,7 +1082,7 @@
     "synonyms": "[\"Dioscorea multiflora var. asuncionensis\", \"Dioscorea concepcionis\", \"Dioscorea multiflora var. concepcionis\", \"Dioscorea niederleinii\", \"Helmia multiflora\", \"Dioscorea multiflora var. loefgrenii\", \"Dioscorea multiflora var. parvifolia\", \"Dioscorea macrocapsa\"]",
     "care": {
       "plant_id": "dioscorea_multiflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -851,9 +1148,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dioscorea multiflora"
+      ],
+      "en": [
+        "Dioscorea multiflora"
+      ],
+      "es": [
+        "Dioscorea multiflora"
+      ],
+      "fr": [
+        "Dioscorea multiflora"
+      ],
+      "it": [
+        "Dioscorea multiflora"
+      ],
+      "nl": [
+        "Dioscorea multiflora"
+      ],
+      "pl": [
+        "Dioscorea multiflora"
+      ],
+      "pt": [
+        "Dioscorea multiflora"
+      ],
+      "ru": [
+        "Dioscorea multiflora"
+      ],
+      "tr": [
+        "Dioscorea multiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -863,7 +1193,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -879,7 +1209,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "dioscorea_nipponica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -945,9 +1275,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dioscorea nipponica"
+      ],
+      "en": [
+        "Dioscorea nipponica"
+      ],
+      "es": [
+        "Dioscorea nipponica"
+      ],
+      "fr": [
+        "Dioscorea nipponica"
+      ],
+      "it": [
+        "Dioscorea nipponica"
+      ],
+      "ja": [
+        "穿山龍"
+      ],
+      "nl": [
+        "Dioscorea nipponica"
+      ],
+      "pl": [
+        "Dioscorea nipponica"
+      ],
+      "pt": [
+        "Dioscorea nipponica"
+      ],
+      "ru": [
+        "Диоскорея ниппонская"
+      ],
+      "tr": [
+        "Dioscorea nipponica"
+      ],
+      "zh": [
+        "穿龙薯蓣"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -957,7 +1326,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -973,7 +1342,7 @@
     "synonyms": "[\"Dioscorea oppositifolia var. linnaei\", \"Dioscorea oppositifolia var. thwaitesii\", \"Dioscorea opposita\", \"Dioscorea oppositifolia var. dukhunensis\"]",
     "care": {
       "plant_id": "dioscorea_oppositifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1039,11 +1408,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ديسقوريا متقابلة الأوراق"
+      ],
+      "de": [
+        "Dioscorea oppositifolia"
+      ],
       "en": [
-        "Chinese yam"
+        "Chinese yam",
+        "Dioscorea oppositifolia"
+      ],
+      "es": [
+        "Dioscorea opposita"
+      ],
+      "fr": [
+        "Dioscorea oppositifolia"
+      ],
+      "it": [
+        "Nagaimo"
+      ],
+      "ja": [
+        "ナガイモ"
+      ],
+      "ko": [
+        "마"
+      ],
+      "nl": [
+        "Dioscorea oppositifolia"
+      ],
+      "pl": [
+        "Pochrzyn chiński"
+      ],
+      "pt": [
+        "Dioscorea oppositifolia"
+      ],
+      "ru": [
+        "Dioscorea oppositifolia"
+      ],
+      "tr": [
+        "Dioscorea oppositifolia"
+      ],
+      "zh": [
+        "薯蕷"
       ]
     },
     "tags": [],
@@ -1055,7 +1466,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1071,7 +1482,7 @@
     "synonyms": "[\"Hamatris triphylla\", \"Dioscorea pentaphylla var. cardonii\", \"Dioscorea pentaphylla var. simplicifolia\", \"Dioscorea pentaphylla var. sacerdotalis\", \"Dioscorea pentaphylla var. linnaei\", \"Dioscorea pentaphylla var. communis\", \"Dioscorea triphylla\", \"Dioscorea sumbawensis\", \"Ubium quadrifarium\", \"Dioscorea pentaphylla var. unifoliata\"]",
     "care": {
       "plant_id": "dioscorea_pentaphylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1137,9 +1548,54 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ديسقوريا خماسية الأوراق"
+      ],
+      "de": [
+        "Dioscorea pentaphylla"
+      ],
+      "en": [
+        "Dioscorea pentaphylla"
+      ],
+      "es": [
+        "Dioscorea pentaphylla"
+      ],
+      "fr": [
+        "Dioscorea pentaphylla"
+      ],
+      "it": [
+        "Dioscorea pentaphylla"
+      ],
+      "ja": [
+        "アケビドコロ"
+      ],
+      "ko": [
+        "디오스코리아 펜타필라"
+      ],
+      "nl": [
+        "Dioscorea pentaphylla"
+      ],
+      "pl": [
+        "Dioscorea pentaphylla"
+      ],
+      "pt": [
+        "Dioscorea pentaphylla"
+      ],
+      "ru": [
+        "Dioscorea pentaphylla"
+      ],
+      "tr": [
+        "Dioscorea pentaphylla"
+      ],
+      "zh": [
+        "五叶薯蓣"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1149,7 +1605,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1165,7 +1621,7 @@
     "synonyms": "[\"Sismondaea dioscoreoides\", \"Dioscorea piperifolia var. apiculata\", \"Dioscorea mandonii\", \"Dioscorea conferta\", \"Dioscorea piperifolia var. obtusifolia\", \"Dioscorea ancistrocarpa\", \"Dioscorea larecajensis\", \"Dioscorea arcuata\", \"Dioscorea helmiicarpa\", \"Dioscorea maynensis\"]",
     "care": {
       "plant_id": "dioscorea_piperifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1231,9 +1687,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dioscorea piperifolia"
+      ],
+      "en": [
+        "Dioscorea piperifolia"
+      ],
+      "es": [
+        "Dioscorea piperifolia"
+      ],
+      "fr": [
+        "Dioscorea piperifolia"
+      ],
+      "it": [
+        "Dioscorea piperifolia"
+      ],
+      "nl": [
+        "Dioscorea piperifolia"
+      ],
+      "pl": [
+        "Dioscorea piperifolia"
+      ],
+      "pt": [
+        "Dioscorea piperifolia"
+      ],
+      "ru": [
+        "Dioscorea piperifolia"
+      ],
+      "tr": [
+        "Dioscorea piperifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1243,7 +1732,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1259,7 +1748,7 @@
     "synonyms": "[\"Dioscorea multiflora\", \"Dioscorea caracasana\", \"Dioscorea kegeliana\", \"Dioscorea piperifolia\", \"Dioscorea polygonoides var. aperta\", \"Dioscorea polygonoides var. martinicensis\", \"Dioscorea piperifolia\", \"Dioscorea polygonoides var. scorpioidea\", \"Dioscorea sieberi\", \"Dioscorea lutea\"]",
     "care": {
       "plant_id": "dioscorea_polygonoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1325,11 +1814,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dioscorea polygonoides"
+      ],
       "en": [
+        "Dioscorea polygonoides",
         "Lesser spearwort"
+      ],
+      "es": [
+        "Dioscorea polygonoides"
+      ],
+      "fr": [
+        "Dioscorea polygonoides"
+      ],
+      "it": [
+        "Dioscorea polygonoides"
+      ],
+      "nl": [
+        "Dioscorea polygonoides"
+      ],
+      "pl": [
+        "Dioscorea polygonoides"
+      ],
+      "pt": [
+        "Dioscorea polygonoides"
+      ],
+      "ru": [
+        "Dioscorea polygonoides"
+      ],
+      "tr": [
+        "Dioscorea polygonoides"
       ]
     },
     "tags": [],
@@ -1341,12 +1860,12 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/19df3a17ada230e91ac831690652b02dfd3aedb1",
-    "description": "Seeds are winged and released from a capsule that splits open",
+    "description": "Dioscorea polystachya or Chinese yam, also called cinnamon-vine, is a species of flowering plant in the yam family. It is sometimes called Chinese potato or by its Korean name ma. It is also called huaishan in Mandarin and wàaih sāan in Cantonese.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1357,7 +1876,7 @@
     "synonyms": "[\"Dioscorea polystachya f. tsukune\", \"Dioscorea rosthornii\", \"Dioscorea polystachya f. elongata\", \"Dioscorea batatas f. flabellata\", \"Dioscorea doryphora\", \"Dioscorea potaninii\", \"Dioscorea batatas f. tsukune\", \"Dioscorea decaisneana\", \"Dioscorea batatas f. rakuda\", \"Dioscorea pseudobatatas\"]",
     "care": {
       "plant_id": "dioscorea_polystachya",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1429,11 +1948,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ديسقوريا متعددة السنيبلات"
+      ],
+      "de": [
+        "Dioscorea polystachya"
+      ],
       "en": [
-        "Chinese yam"
+        "Chinese yam",
+        "Dioscorea polystachya"
+      ],
+      "es": [
+        "Dioscorea polystachya"
+      ],
+      "fr": [
+        "Dioscorea polystachya"
+      ],
+      "it": [
+        "Dioscorea polystachya"
+      ],
+      "ja": [
+        "ナガイモ"
+      ],
+      "ko": [
+        "마"
+      ],
+      "nl": [
+        "Dioscorea polystachya"
+      ],
+      "pl": [
+        "Pochrzyn chiński"
+      ],
+      "pt": [
+        "Dioscorea polystachya"
+      ],
+      "ru": [
+        "Dioscorea polystachya"
+      ],
+      "tr": [
+        "Dioscorea polystachya"
+      ],
+      "zh": [
+        "長山藥"
       ]
     },
     "tags": [],
@@ -1445,7 +2006,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1461,7 +2022,7 @@
     "synonyms": "[\"Dioscorea sagittifolia var. lecardii\", \"Dioscorea lecardii var. zara\", \"Dioscorea mildbraedii\", \"Dioscorea zara\", \"Dioscorea cayenensis var. praehensilis\", \"Dioscorea lecardii\", \"Dioscorea liebrechtsiana\", \"Dioscorea odoratissima\", \"Dioscorea angustiflora\", \"Dioscorea costermansiana\"]",
     "care": {
       "plant_id": "dioscorea_praehensilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1527,11 +2088,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dioscorea praehensilis"
+      ],
       "en": [
+        "Dioscorea praehensilis",
         "Forest yam"
+      ],
+      "es": [
+        "Dioscorea praehensilis"
+      ],
+      "fr": [
+        "Dioscorea praehensilis"
+      ],
+      "it": [
+        "Dioscorea praehensilis"
+      ],
+      "nl": [
+        "Dioscorea praehensilis"
+      ],
+      "pl": [
+        "Dioscorea praehensilis"
+      ],
+      "pt": [
+        "Dioscorea praehensilis"
+      ],
+      "ru": [
+        "Dioscorea praehensilis"
+      ],
+      "tr": [
+        "Dioscorea praehensilis"
       ]
     },
     "tags": [],
@@ -1543,7 +2134,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1559,7 +2150,7 @@
     "synonyms": "[\"Dioscorea verdickii\", \"Dioscorea quartiniana var. apiculata\", \"Dioscorea holstii\", \"Dioscorea quartiniana var. hochstetteri\", \"Dioscorea ulugurensis\", \"Dioscorea quartiniana var. schliebenii\", \"Dioscorea forbesii\", \"Dioscorea beccariana\", \"Dioscorea quartiniana var. excisa\", \"Dioscorea quartiniana var. cryptantha\"]",
     "care": {
       "plant_id": "dioscorea_quartiniana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1625,9 +2216,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dioscorea quartiniana"
+      ],
+      "en": [
+        "Dioscorea quartiniana"
+      ],
+      "es": [
+        "Dioscorea quartiniana"
+      ],
+      "fr": [
+        "Dioscorea quartiniana"
+      ],
+      "it": [
+        "Dioscorea quartiniana"
+      ],
+      "nl": [
+        "Dioscorea quartiniana"
+      ],
+      "pl": [
+        "Dioscorea quartiniana"
+      ],
+      "pt": [
+        "Dioscorea quartiniana"
+      ],
+      "ru": [
+        "Dioscorea quartiniana"
+      ],
+      "tr": [
+        "Dioscorea quartiniana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1637,7 +2261,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1653,7 +2277,7 @@
     "synonyms": "[\"Dioscorea quinqueloba\"]",
     "care": {
       "plant_id": "dioscorea_quinquelobata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1719,9 +2343,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dioscorea quinquelobata"
+      ],
+      "en": [
+        "Dioscorea quinquelobata"
+      ],
+      "es": [
+        "Dioscorea quinquelobata"
+      ],
+      "fr": [
+        "Dioscorea quinquelobata"
+      ],
+      "it": [
+        "Dioscorea quinquelobata"
+      ],
+      "ja": [
+        "カエデドコロ"
+      ],
+      "ko": [
+        "단풍마"
+      ],
+      "nl": [
+        "Dioscorea quinquelobata"
+      ],
+      "pl": [
+        "Dioscorea quinquelobata"
+      ],
+      "pt": [
+        "Dioscorea quinquelobata"
+      ],
+      "ru": [
+        "Dioscorea quinquelobata"
+      ],
+      "tr": [
+        "Dioscorea quinquelobata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1731,7 +2394,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1747,7 +2410,7 @@
     "synonyms": "[\"Dioscorea septemloba var. platyphylla\", \"Dioscorea sititoana\", \"Dioscorea septemloba var. sititoana\"]",
     "care": {
       "plant_id": "dioscorea_septemloba",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1813,9 +2476,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dioscorea septemloba"
+      ],
+      "en": [
+        "Dioscorea septemloba"
+      ],
+      "es": [
+        "Dioscorea septemloba"
+      ],
+      "fr": [
+        "Dioscorea septemloba"
+      ],
+      "it": [
+        "Dioscorea septemloba"
+      ],
+      "nl": [
+        "Dioscorea septemloba"
+      ],
+      "pl": [
+        "Dioscorea septemloba"
+      ],
+      "pt": [
+        "Dioscorea septemloba"
+      ],
+      "ru": [
+        "Dioscorea septemloba"
+      ],
+      "tr": [
+        "Dioscorea septemloba"
+      ],
+      "zh": [
+        "绵萆薢"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1825,7 +2524,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1841,7 +2540,7 @@
     "synonyms": "[\"Dioscorea acrotheca\", \"Dioscorea maximowiczii\"]",
     "care": {
       "plant_id": "dioscorea_tenuipes",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1907,9 +2606,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dioscorea tenuipes"
+      ],
+      "en": [
+        "Dioscorea tenuipes"
+      ],
+      "es": [
+        "Dioscorea tenuipes"
+      ],
+      "fr": [
+        "Dioscorea tenuipes"
+      ],
+      "it": [
+        "Dioscorea tenuipes"
+      ],
+      "ko": [
+        "각시마"
+      ],
+      "nl": [
+        "Dioscorea tenuipes"
+      ],
+      "pl": [
+        "Dioscorea tenuipes"
+      ],
+      "pt": [
+        "Dioscorea tenuipes"
+      ],
+      "ru": [
+        "Dioscorea tenuipes"
+      ],
+      "tr": [
+        "Dioscorea tenuipes"
+      ],
+      "zh": [
+        "细柄薯蓣"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1919,7 +2657,7 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1935,17 +2673,17 @@
     "synonyms": "[\"Dioscorea punctata\"]",
     "care": {
       "plant_id": "dioscorea_transversa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2001,9 +2739,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.6
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ديسقوريا مستعرضة"
+      ],
+      "de": [
+        "Dioscorea transversa"
+      ],
+      "en": [
+        "Dioscorea transversa"
+      ],
+      "es": [
+        "Dioscorea transversa"
+      ],
+      "fr": [
+        "Dioscorea transversa"
+      ],
+      "it": [
+        "Dioscorea transversa"
+      ],
+      "nl": [
+        "Dioscorea transversa"
+      ],
+      "pl": [
+        "Dioscorea transversa"
+      ],
+      "pt": [
+        "Dioscorea transversa"
+      ],
+      "ru": [
+        "Dioscorea transversa"
+      ],
+      "tr": [
+        "Dioscorea transversa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2013,12 +2787,12 @@
     "family": "Dioscoreaceae",
     "genus": "Dioscorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/41fc6d45d6f3dffc518707e7035d72f9557078a0",
-    "description": "Brown fruit displays from September to November.  Capsules are 3-sectioned, each containing 2 seeds, occasionally 1 seed.  These green capsules ripen to brown.",
+    "description": "Dioscorea villosa is a species of twining tuberous vine which is native to eastern North America. It is commonly known as wild yam, colic root, rheumatism root, devil's bones, and fourleaf yam. It is common and widespread in a range stretching from Texas and Florida north to Minnesota, Ontario and Massachusetts.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2029,17 +2803,17 @@
     "synonyms": "[\"Merione villosa\", \"Dioscorea pruinosa\", \"Dioscorea longifolia\", \"Dioscorea lloydiana\", \"Dioscorea repanda\", \"Dioscorea villosa var. glabra\", \"Dioscorea villosa var. glabrifolia\", \"Dioscorea paniculata var. glabrifolia\", \"Dioscorea villosa var. hirticaulis\", \"Dioscorea villosa var. laeviuscula\"]",
     "care": {
       "plant_id": "dioscorea_villosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2095,11 +2869,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.6
     },
     "common_names": {
+      "ar": [
+        "ديسقوريا وبرية"
+      ],
+      "de": [
+        "Dioscorea villosa"
+      ],
       "en": [
+        "Dioscorea villosa",
         "Wild yam"
+      ],
+      "es": [
+        "Dioscorea villosa"
+      ],
+      "fr": [
+        "Dioscorea villosa"
+      ],
+      "it": [
+        "Dioscorea villosa"
+      ],
+      "nl": [
+        "Dioscorea villosa"
+      ],
+      "pl": [
+        "Dioscorea villosa"
+      ],
+      "pt": [
+        "Dioscorea villosa"
+      ],
+      "ru": [
+        "Dioscorea villosa"
+      ],
+      "tr": [
+        "Dioscorea villosa"
       ]
     },
     "tags": [],
@@ -2111,7 +2918,7 @@
     "family": "Dioscoreaceae",
     "genus": "Tacca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2193,11 +3000,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ostindische Pfeilwurz"
+      ],
       "en": [
-        "East indian arrowroot"
+        "East indian arrowroot",
+        "Tacca leontopetaloides"
+      ],
+      "es": [
+        "Tacca leontopedaloides"
+      ],
+      "fr": [
+        "Tacca leontopedaloides"
+      ],
+      "it": [
+        "Tacca leontopedaloides"
+      ],
+      "ja": [
+        "タシロイモ"
+      ],
+      "ko": [
+        "타카"
+      ],
+      "nl": [
+        "Tacca leontopetaloides"
+      ],
+      "pl": [
+        "Krąpiel pierzastodzielna"
+      ],
+      "pt": [
+        "Tacca leontopetaloides"
+      ],
+      "ru": [
+        "Такка перистонадрезанная"
+      ],
+      "zh": [
+        "蒟蒻薯"
       ]
     },
     "tags": [],

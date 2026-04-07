@@ -5,12 +5,12 @@
     "family": "Koeberliniaceae",
     "genus": "Koeberlinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ac76efb3554a8a682e2ca880adb63ca686e6e95b",
-    "description": null,
+    "description": "Koeberlinia spinosa is a species of flowering plant native to the southwestern United States and northern Mexico known by several common names, including crown of thorns, allthorn, smokebush, and crucifixion thorn. It is one of two species of the genus Koeberlinia, which is sometimes considered to be the only genus in the plant family Koeberliniaceae. Alternately it is treated as a member of the caper family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Koeberlinia spinosa"
+      ],
       "en": [
-        "Crown of thorns"
+        "Crown of thorns",
+        "Koeberlinia spinosa"
+      ],
+      "es": [
+        "Koeberliniaceae"
+      ],
+      "fr": [
+        "Koeberliniaceae"
+      ],
+      "it": [
+        "Koeberlinia spinosa"
+      ],
+      "ko": [
+        "코이베를리니아"
+      ],
+      "nl": [
+        "Koeberlinia spinosa"
+      ],
+      "pl": [
+        "Koeberlinia spinosa"
+      ],
+      "pt": [
+        "Koeberlinia spinosa"
+      ],
+      "ru": [
+        "Кеберлиния"
+      ],
+      "zh": [
+        "耶稣刺"
       ]
     },
     "tags": [],

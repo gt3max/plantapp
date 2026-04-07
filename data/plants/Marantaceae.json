@@ -99,11 +99,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Calathea crotalifera"
+      ],
       "en": [
+        "Calathea crotalifera",
         "Rattlesnake plant"
+      ],
+      "es": [
+        "Calathea crotalifera"
+      ],
+      "fr": [
+        "Calathea crotalifera"
+      ],
+      "it": [
+        "Calathea crotalifera"
+      ],
+      "nl": [
+        "Calathea crotalifera"
+      ],
+      "pl": [
+        "Calathea crotalifera"
+      ],
+      "pt": [
+        "Calathea crotalifera"
+      ],
+      "ru": [
+        "Calathea crotalifera"
       ]
     },
     "tags": [],
@@ -131,9 +158,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "calathea_lancifolia",
-      "water_frequency": null,
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part shade",
@@ -205,11 +232,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Calathea lancifolia"
+      ],
       "en": [
+        "Calathea lancifolia",
         "rattlesnake plant"
+      ],
+      "es": [
+        "Calathea lancifolia"
+      ],
+      "fr": [
+        "Calathea lancifolia"
+      ],
+      "it": [
+        "Calathea lancifolia"
+      ],
+      "nl": [
+        "Calathea lancifolia"
+      ],
+      "pl": [
+        "Calathea lancifolia"
+      ],
+      "pt": [
+        "Calathea lancifolia"
+      ],
+      "ru": [
+        "Calathea lancifolia"
       ]
     },
     "tags": [
@@ -320,11 +374,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Calathea lutea"
+      ],
       "en": [
+        "Calathea lutea",
         "Pampano"
+      ],
+      "es": [
+        "Calathea lutea"
+      ],
+      "fr": [
+        "Calathea lutea"
+      ],
+      "it": [
+        "Calathea lutea"
+      ],
+      "ja": [
+        "カラテア・ルテア"
+      ],
+      "nl": [
+        "Calathea lutea"
+      ],
+      "pl": [
+        "Calathea lutea"
+      ],
+      "pt": [
+        "Calathea lutea"
+      ],
+      "ru": [
+        "Calathea lutea"
+      ],
+      "zh": [
+        "雪茄竹芋"
       ]
     },
     "tags": [],
@@ -354,15 +441,15 @@
       "plant_id": "calathea_makoyana",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 65,
-      "light_preferred": "part shade",
-      "light_also_ok": null,
-      "ppfd_min": 39,
-      "ppfd_max": 81,
-      "dli_min": 0.1,
-      "dli_max": 0.3,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 11,
       "temp_max_c": 12,
       "humidity_level": "Low (30-85%)",
@@ -426,11 +513,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Calathea makoyana"
+      ],
       "en": [
+        "Calathea makoyana",
+        "Peacock Plant",
         "peacock plant"
+      ],
+      "es": [
+        "Calathea makoyana"
+      ],
+      "fr": [
+        "Calathea makoyana"
+      ],
+      "it": [
+        "Calathea makoyana"
+      ],
+      "nl": [
+        "Calathea makoyana"
+      ],
+      "pl": [
+        "Calathea makoyana"
+      ],
+      "pt": [
+        "Calathea makoyana"
+      ],
+      "ru": [
+        "Calathea makoyana"
+      ],
+      "zh": [
+        "孔雀竹芋"
       ]
     },
     "tags": [
@@ -463,13 +581,13 @@
     "synonyms": null,
     "care": {
       "plant_id": "calathea_orbifolia",
-      "water_frequency": "Every 5-7 days, keep soil consistently moist",
+      "water_frequency": "Every 7-10 days",
       "water_winter": "Every 7-10 days, slightly drier",
-      "water_demand": "",
+      "water_demand": "Medium",
       "start_pct": 18,
       "stop_pct": 65,
-      "light_preferred": "Medium indirect light, no direct sun",
-      "light_also_ok": "Low light (tolerates)",
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
       "ppfd_min": 75,
       "ppfd_max": 200,
       "dli_min": 3.0,
@@ -507,8 +625,8 @@
         "Fungus gnats",
         "Mealybugs"
       ],
-      "watering_method": null,
-      "watering_avoid": null,
+      "watering_method": "Top layer should be dry",
+      "watering_avoid": "Sensitive to lime in water — use filtered or rainwater",
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
       "temp_winter_low_c": null,
@@ -537,19 +655,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Calathea orbifolia"
+      ],
       "en": [
         "Calathea",
+        "Calathea Orbifolia",
+        "Calathea orbifolia",
         "Round-leaf Calathea"
       ],
       "es": [
+        "Calathea orbifolia",
         "Calathea rotundifolia",
         "Maranta orbifolia",
         "Maranta rotundifolia",
         "Phyllodes rotundifolia",
         "Thalia rotundifolia"
+      ],
+      "fr": [
+        "Calathea orbifolia"
+      ],
+      "it": [
+        "Calathea orbifolia"
+      ],
+      "nl": [
+        "Calathea orbifolia"
+      ],
+      "pl": [
+        "Calathea orbifolia"
+      ],
+      "pt": [
+        "Calathea orbifolia"
+      ],
+      "ru": [
+        "Calathea orbifolia"
       ]
     },
     "tags": [
@@ -580,9 +724,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "calathea_zebrina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part shade",
@@ -650,11 +794,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Calathea zebrina"
+      ],
       "en": [
+        "Calathea zebrina",
         "zebra plant"
+      ],
+      "es": [
+        "Calathea zebrina"
+      ],
+      "fr": [
+        "Calathea zebrina"
+      ],
+      "it": [
+        "Calathea zebrina"
+      ],
+      "ja": [
+        "カラテア・ゼブリナ"
+      ],
+      "nl": [
+        "Calathea zebrina"
+      ],
+      "pl": [
+        "Calathea zebrina"
+      ],
+      "pt": [
+        "Calathea zebrina"
+      ],
+      "ru": [
+        "Calathea zebrina"
+      ],
+      "zh": [
+        "绒叶肖竹芋"
       ]
     },
     "tags": [
@@ -753,9 +930,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Donax canniformis"
+      ],
+      "en": [
+        "Donax canniformis"
+      ],
+      "es": [
+        "Donax"
+      ],
+      "fr": [
+        "Donax canniformis"
+      ],
+      "it": [
+        "Donax canniformis"
+      ],
+      "nl": [
+        "Donax canniformis"
+      ],
+      "pl": [
+        "Donax canniformis"
+      ],
+      "pt": [
+        "Donax"
+      ],
+      "ru": [
+        "Donax canniformis"
+      ],
+      "zh": [
+        "竹叶蕉"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -855,9 +1065,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Goeppertia micans"
+      ],
+      "en": [
+        "Goeppertia micans"
+      ],
+      "es": [
+        "Goeppertia micans"
+      ],
+      "fr": [
+        "Goeppertia micans"
+      ],
+      "it": [
+        "Goeppertia micans"
+      ],
+      "nl": [
+        "Goeppertia micans"
+      ],
+      "pl": [
+        "Goeppertia micans"
+      ],
+      "pt": [
+        "Goeppertia micans"
+      ],
+      "ru": [
+        "Goeppertia micans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -919,8 +1159,8 @@
       "toxicity_note": "Non-toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses. Signs: If you suspect your pet may have ingested a potentially toxic substance, call the ASPCA Poison Control at (888) 426-4435 or contact your local veterinarian as soon as possible.*",
       "common_problems": null,
       "common_pests": null,
-      "watering_method": null,
-      "watering_avoid": null,
+      "watering_method": "Keep soil moist",
+      "watering_avoid": "Sensitive to lime in water — use filtered or rainwater",
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
       "temp_winter_low_c": null,
@@ -949,11 +1189,69 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "المرنطة",
+        "مرنطة قصبية",
+        "مورنطة قصبية"
+      ],
+      "de": [
+        "Pfeilwurz"
+      ],
       "en": [
         "Arrowroot"
+      ],
+      "es": [
+        "Arrurruz",
+        "Azafrán",
+        "Maranta indica",
+        "Maranta ramosissima",
+        "Maranta sylvatica",
+        "Maranta tessellata var. kegeljanii",
+        "Phrynium variegatum"
+      ],
+      "fr": [
+        "Arrow-root",
+        "Marante",
+        "Rouroute"
+      ],
+      "hi": [
+        "अरारोट"
+      ],
+      "ja": [
+        "kuzu-ukon",
+        "アロールート",
+        "クズウコン"
+      ],
+      "ko": [
+        "갈울금"
+      ],
+      "nl": [
+        "Pijlwortel",
+        "arrowroot"
+      ],
+      "pl": [
+        "maranta trzcinowa"
+      ],
+      "pt": [
+        "Agutingue-pé",
+        "Araruta",
+        "araruta"
+      ],
+      "ru": [
+        "Маранта тростниковидная"
+      ],
+      "tr": [
+        "Ararot"
+      ],
+      "zh": [
+        "斑叶竹芋",
+        "竹芋",
+        "葛鬱金"
       ]
     },
     "tags": [],
@@ -1047,9 +1345,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Monotagma laxum"
+      ],
+      "en": [
+        "Monotagma laxum"
+      ],
+      "es": [
+        "Monotagma laxum"
+      ],
+      "fr": [
+        "Monotagma laxum"
+      ],
+      "it": [
+        "Monotagma laxum"
+      ],
+      "nl": [
+        "Monotagma laxum"
+      ],
+      "pl": [
+        "Monotagma laxum"
+      ],
+      "pt": [
+        "Monotagma laxum"
+      ],
+      "ru": [
+        "Monotagma laxum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1064,7 +1392,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/200dae38b7b41fa679e50f834d4c89de.jpg",
-    "description": null,
+    "description": "Monotagma plurispicatum is a species of plant in the Marantaceae family. It is native to tropical South America and Central America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1141,9 +1469,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Monotagma plurispicatum"
+      ],
+      "en": [
+        "Monotagma plurispicatum"
+      ],
+      "es": [
+        "Monotagma plurispicatum"
+      ],
+      "fr": [
+        "Monotagma plurispicatum"
+      ],
+      "it": [
+        "Monotagma plurispicatum"
+      ],
+      "nl": [
+        "Monotagma plurispicatum"
+      ],
+      "pl": [
+        "Monotagma plurispicatum"
+      ],
+      "pt": [
+        "Monotagma plurispicatum"
+      ],
+      "ru": [
+        "Monotagma plurispicatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1235,11 +1593,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Stromanthe tonckat"
+      ],
       "en": [
-        "Stromanthe"
+        "Stromanthe",
+        "Stromanthe tonckat"
+      ],
+      "es": [
+        "Stromanthe tonckat"
+      ],
+      "fr": [
+        "Stromanthe tonckat"
+      ],
+      "it": [
+        "Stromanthe tonckat"
+      ],
+      "nl": [
+        "Stromanthe tonckat"
+      ],
+      "pl": [
+        "Stromanthe tonckat"
+      ],
+      "pt": [
+        "Stromanthe tonckat"
+      ],
+      "ru": [
+        "Stromanthe tonckat"
       ]
     },
     "tags": [],
@@ -1333,11 +1718,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Thalia geniculata"
+      ],
       "en": [
-        "Arrowroot"
+        "Arrowroot",
+        "Thalia geniculata"
+      ],
+      "es": [
+        "Thalia geniculata"
+      ],
+      "fr": [
+        "Thalia geniculata"
+      ],
+      "it": [
+        "Thalia geniculata"
+      ],
+      "ja": [
+        "タリア・ゲニクラータ"
+      ],
+      "nl": [
+        "Thalia geniculata"
+      ],
+      "pl": [
+        "Thalia geniculata"
+      ],
+      "pt": [
+        "Thalia geniculata"
+      ],
+      "ru": [
+        "Thalia geniculata"
+      ],
+      "zh": [
+        "垂花水竹芋"
       ]
     },
     "tags": [],

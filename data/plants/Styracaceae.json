@@ -5,12 +5,12 @@
     "family": "Styracaceae",
     "genus": "Halesia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/635df2564aa9345049fcb6e5d66b4601bd3f805b",
-    "description": "A 1 to 2 inch, oblong 4-winged dry drupe with one hard seed which starts out green with a dark point at the base and turns brown persisting and providing winter interest. In North Carolina, fruits are available from August to September.",
+    "description": "Halesia carolina, commonly called Carolina silverbells or little silverbells, is a species of flowering plant in the family Styracaceae, native to the southeastern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -91,11 +91,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "هاليزية كارولينة"
+      ],
+      "de": [
+        "Halesia carolina"
+      ],
       "en": [
-        "Carolina silverbell"
+        "Carolina silverbell",
+        "Halesia carolina"
+      ],
+      "es": [
+        "Halesia carolina"
+      ],
+      "fr": [
+        "Halesia carolina"
+      ],
+      "it": [
+        "Halesia carolina"
+      ],
+      "nl": [
+        "Halesia carolina"
+      ],
+      "pl": [
+        "Halesia carolina"
+      ],
+      "pt": [
+        "Halesia carolina"
+      ],
+      "ru": [
+        "Halesia carolina"
+      ],
+      "zh": [
+        "小银钟花"
       ]
     },
     "tags": [],
@@ -107,7 +140,7 @@
     "family": "Styracaceae",
     "genus": "Pterostyrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -189,9 +222,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pterostyrax hispidus"
+      ],
+      "en": [
+        "Pterostyrax hispidus"
+      ],
+      "es": [
+        "Pterostyrax hispidus"
+      ],
+      "fr": [
+        "Pterostyrax hispidus"
+      ],
+      "it": [
+        "Pterostyrax hispidus"
+      ],
+      "ja": [
+        "オオバアサガラ"
+      ],
+      "ko": [
+        "나래쪽동백"
+      ],
+      "nl": [
+        "Pterostyrax hispidus"
+      ],
+      "pl": [
+        "Pterostyrax hispidus"
+      ],
+      "pt": [
+        "Pterostyrax hispidus"
+      ],
+      "ru": [
+        "Pterostyrax hispidus"
+      ],
+      "zh": [
+        "白辛樹"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -201,7 +273,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -283,11 +355,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "إصطرك أمريكي"
+      ],
+      "de": [
+        "Styrax americanum"
+      ],
       "en": [
-        "American snowbell"
+        "American snowbell",
+        "Styrax americanus"
+      ],
+      "es": [
+        "Styrax americanum"
+      ],
+      "fr": [
+        "Styrax americanus"
+      ],
+      "it": [
+        "Styrax americanum"
+      ],
+      "nl": [
+        "Styrax americanus"
+      ],
+      "pl": [
+        "Styrax americanus"
+      ],
+      "pt": [
+        "Styrax americanus"
+      ],
+      "ru": [
+        "Styrax americanus"
+      ],
+      "zh": [
+        "美洲安息香"
       ]
     },
     "tags": [],
@@ -299,7 +404,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -381,9 +486,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Styrax argenteus"
+      ],
+      "en": [
+        "Styrax argenteus"
+      ],
+      "es": [
+        "Styrax argenteus"
+      ],
+      "fr": [
+        "Styrax argenteus"
+      ],
+      "it": [
+        "Styrax argenteus"
+      ],
+      "nl": [
+        "Styrax argenteus"
+      ],
+      "pl": [
+        "Styrax argenteus"
+      ],
+      "pt": [
+        "Styrax argenteus"
+      ],
+      "ru": [
+        "Styrax argenteus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -393,7 +528,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -475,9 +610,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Styrax camporum"
+      ],
+      "en": [
+        "Styrax camporum"
+      ],
+      "es": [
+        "Styrax camporum"
+      ],
+      "fr": [
+        "Styrax camporum"
+      ],
+      "it": [
+        "Styrax camporum"
+      ],
+      "nl": [
+        "Styrax camporum"
+      ],
+      "pl": [
+        "Styrax camporum"
+      ],
+      "pt": [
+        "Styrax camporum"
+      ],
+      "ru": [
+        "Styrax camporum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -487,7 +652,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -569,9 +734,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Styrax ferrugineus"
+      ],
+      "en": [
+        "Styrax ferrugineus"
+      ],
+      "es": [
+        "Styrax ferrugineus"
+      ],
+      "fr": [
+        "Styrax ferrugineus"
+      ],
+      "it": [
+        "Styrax ferrugineus"
+      ],
+      "nl": [
+        "Styrax ferrugineus"
+      ],
+      "pl": [
+        "Styrax ferrugineus"
+      ],
+      "pt": [
+        "Styrax ferrugineus"
+      ],
+      "ru": [
+        "Styrax ferrugineus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,7 +776,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -663,9 +858,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Styrax formosanus"
+      ],
+      "en": [
+        "Styrax formosanus"
+      ],
+      "es": [
+        "Styrax formosanus"
+      ],
+      "fr": [
+        "Styrax formosanus"
+      ],
+      "it": [
+        "Styrax formosanus"
+      ],
+      "nl": [
+        "Styrax formosanus"
+      ],
+      "pl": [
+        "Styrax formosanus"
+      ],
+      "pt": [
+        "Styrax formosanus"
+      ],
+      "ru": [
+        "Styrax formosanus"
+      ],
+      "zh": [
+        "台湾安息香"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -675,7 +903,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -696,12 +924,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -757,11 +985,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Japanischer Storaxbaum"
+      ],
       "en": [
-        "Japanese snowbell"
+        "Japanese snowbell",
+        "Styrax japonicus"
+      ],
+      "es": [
+        "Styrax japonicus"
+      ],
+      "fr": [
+        "Styrax japonicus"
+      ],
+      "it": [
+        "Styrax japonicus"
+      ],
+      "ja": [
+        "エゴノキ"
+      ],
+      "ko": [
+        "때죽나무"
+      ],
+      "nl": [
+        "Styrax japonicus"
+      ],
+      "pl": [
+        "Styrak japoński"
+      ],
+      "pt": [
+        "Styrax japonicus"
+      ],
+      "ru": [
+        "Styrax japonicus"
+      ],
+      "tr": [
+        "Styrax japonicus"
+      ],
+      "zh": [
+        "野茉莉"
       ]
     },
     "tags": [],
@@ -773,7 +1040,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -855,9 +1122,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Styrax leprosus"
+      ],
+      "en": [
+        "Styrax leprosus"
+      ],
+      "es": [
+        "Styrax leprosus"
+      ],
+      "fr": [
+        "Styrax leprosus"
+      ],
+      "it": [
+        "Styrax leprosus"
+      ],
+      "nl": [
+        "Styrax leprosus"
+      ],
+      "pl": [
+        "Styrax leprosus"
+      ],
+      "pt": [
+        "Styrax leprosus"
+      ],
+      "ru": [
+        "Styrax leprosus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -867,7 +1164,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -888,12 +1185,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -949,9 +1246,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Styrax obassia"
+      ],
+      "en": [
+        "Styrax obassia"
+      ],
+      "es": [
+        "Styrax obassia"
+      ],
+      "fr": [
+        "Styrax obassia"
+      ],
+      "it": [
+        "Styrax obassia"
+      ],
+      "ja": [
+        "ハクウンボク"
+      ],
+      "ko": [
+        "쪽동백나무"
+      ],
+      "nl": [
+        "Styrax obassia"
+      ],
+      "pl": [
+        "Styrax obassia"
+      ],
+      "pt": [
+        "Styrax obassia"
+      ],
+      "ru": [
+        "Styrax obassia"
+      ],
+      "zh": [
+        "玉铃花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -961,7 +1297,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -982,12 +1318,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1043,11 +1379,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "لبنى"
+      ],
+      "de": [
+        "Echter Storaxbaum"
+      ],
       "en": [
-        "Storax"
+        "Storax",
+        "Styrax officinalis"
+      ],
+      "es": [
+        "Styrax officinale"
+      ],
+      "fr": [
+        "Aliboufier"
+      ],
+      "it": [
+        "Styrax officinalis"
+      ],
+      "nl": [
+        "Styrax officinalis"
+      ],
+      "pl": [
+        "Styrak lekarski"
+      ],
+      "pt": [
+        "Styrax officinalis"
+      ],
+      "ru": [
+        "Styrax officinalis"
+      ],
+      "tr": [
+        "Ayı fındığı"
+      ],
+      "zh": [
+        "南欧安息香"
       ]
     },
     "tags": [],
@@ -1059,7 +1431,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1141,9 +1513,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Styrax redivivus"
+      ],
+      "en": [
+        "Styrax redivivus"
+      ],
+      "es": [
+        "Styrax redivivus"
+      ],
+      "fr": [
+        "Styrax redivivus"
+      ],
+      "it": [
+        "Styrax redivivus"
+      ],
+      "nl": [
+        "Styrax redivivus"
+      ],
+      "pl": [
+        "Styrax redivivus"
+      ],
+      "pt": [
+        "Styrax redivivus"
+      ],
+      "ru": [
+        "Styrax redivivus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1153,7 +1555,7 @@
     "family": "Styracaceae",
     "genus": "Styrax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1235,9 +1637,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Styrax suberifolius"
+      ],
+      "en": [
+        "Styrax suberifolius"
+      ],
+      "es": [
+        "Styrax suberifolius"
+      ],
+      "fr": [
+        "Styrax suberifolius"
+      ],
+      "it": [
+        "Styrax suberifolius"
+      ],
+      "nl": [
+        "Styrax suberifolius"
+      ],
+      "pl": [
+        "Styrax suberifolius"
+      ],
+      "pt": [
+        "Styrax suberifolius"
+      ],
+      "ru": [
+        "Styrax suberifolius"
+      ],
+      "zh": [
+        "栓叶安息香"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

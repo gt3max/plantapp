@@ -5,12 +5,12 @@
     "family": "Cymodoceaceae",
     "genus": "Amphibolis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ca16d005dd6bbeb0fed04acd0ac041cf.jpg",
-    "description": null,
+    "description": "Amphibolis antarctica is a species of flowering plant in the family Cymodoceaceae. It is referred to by the common names wire weed or sea nymph, and is a seagrass found in coastal waters of southern and western Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Amphibolis antarctica"
+      ],
       "en": [
+        "Amphibolis antarctica",
         "Sea Nymph"
+      ],
+      "es": [
+        "Amphibolis antarctica"
+      ],
+      "fr": [
+        "Amphibolis antarctica"
+      ],
+      "it": [
+        "Amphibolis antarctica"
+      ],
+      "nl": [
+        "Amphibolis antarctica"
+      ],
+      "pl": [
+        "Amphibolis antarctica"
+      ],
+      "pt": [
+        "Amphibolis antarctica"
+      ],
+      "ru": [
+        "Amphibolis antarctica"
       ],
       "zh": [
         "南极根枝草"
@@ -106,12 +133,12 @@
     "family": "Cymodoceaceae",
     "genus": "Cymodocea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e91abc19919a36a1eb9dad1c2fd0494ae5f3c3ad",
-    "description": null,
+    "description": "Cymodocea nodosa is a species of seagrass in the family Cymodoceaceae and is sometimes known as little Neptune grass. As a seagrass, it is restricted to growing underwater and is found in shallow parts of the Mediterranean Sea and certain adjoining areas of the Atlantic Ocean.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -122,7 +149,7 @@
     "synonyms": "[\"Cymodocea major\", \"Zostera mediterranea\", \"Phucagrostis major\", \"Cymodocea preauxiana\", \"Phucagrostis major\", \"Cymodocea aequorea\", \"Cymodocea webbiana\", \"Phucagrostis nodosa\", \"Zostera nodosa\", \"Kernera nodosa\"]",
     "care": {
       "plant_id": "cymodocea_nodosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -188,11 +215,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "حامول البحر"
+      ],
+      "de": [
+        "Cymodocea nodosa"
+      ],
       "en": [
+        "Cymodocea nodosa",
         "Slender seagrass"
+      ],
+      "es": [
+        "Cymodocea nodosa"
+      ],
+      "fr": [
+        "Cymodocea nodosa"
+      ],
+      "it": [
+        "Cymodocea nodosa"
+      ],
+      "ja": [
+        "キュモドケア・ノドサ"
+      ],
+      "nl": [
+        "Cymodocea nodosa"
+      ],
+      "pl": [
+        "Cymodocea nodosa"
+      ],
+      "pt": [
+        "Cymodocea nodosa"
+      ],
+      "ru": [
+        "Cymodocea nodosa"
+      ],
+      "zh": [
+        "小海王星草"
       ]
     },
     "tags": [],
@@ -204,7 +267,7 @@
     "family": "Cymodoceaceae",
     "genus": "Cymodocea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -220,17 +283,17 @@
     "synonyms": "[\"Phucagrostis rotundata\"]",
     "care": {
       "plant_id": "cymodocea_rotundata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -286,9 +349,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 7.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cymodocea rotundata"
+      ],
+      "en": [
+        "Cymodocea rotundata"
+      ],
+      "es": [
+        "Cymodocea rotundata"
+      ],
+      "fr": [
+        "Cymodocea rotundata"
+      ],
+      "it": [
+        "Cymodocea rotundata"
+      ],
+      "ja": [
+        "ベニアマモ"
+      ],
+      "nl": [
+        "Cymodocea rotundata"
+      ],
+      "pl": [
+        "Cymodocea rotundata"
+      ],
+      "pt": [
+        "Cymodocea rotundata"
+      ],
+      "ru": [
+        "Cymodocea rotundata"
+      ],
+      "zh": [
+        "丝粉藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -298,12 +397,12 @@
     "family": "Cymodoceaceae",
     "genus": "Halodule",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Halodule pinifolia is a species of seagrass in the genus Halodule. It is found in shallow sea waters in the western Pacific ocean.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -380,9 +479,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halodule pinifolia"
+      ],
+      "en": [
+        "Halodule pinifolia"
+      ],
+      "es": [
+        "Halodule pinifolia"
+      ],
+      "fr": [
+        "Halodule pinifolia"
+      ],
+      "it": [
+        "Halodule pinifolia"
+      ],
+      "ja": [
+        "マツバウミジグサ"
+      ],
+      "nl": [
+        "Halodule pinifolia"
+      ],
+      "pl": [
+        "Halodule pinifolia"
+      ],
+      "pt": [
+        "Halodule pinifolia"
+      ],
+      "ru": [
+        "Halodule pinifolia"
+      ],
+      "zh": [
+        "羽叶二药藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -392,7 +527,7 @@
     "family": "Cymodoceaceae",
     "genus": "Halodule",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -474,9 +609,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Halodule uninervis"
+      ],
+      "en": [
+        "Halodule uninervis"
+      ],
+      "es": [
+        "Halodule uninervis"
+      ],
+      "fr": [
+        "Halodule uninervis"
+      ],
+      "it": [
+        "Halodule uninervis"
+      ],
+      "ja": [
+        "ウミジグサ"
+      ],
+      "nl": [
+        "Halodule uninervis"
+      ],
+      "pl": [
+        "Halodule uninervis"
+      ],
+      "pt": [
+        "Halodule uninervis"
+      ],
+      "ru": [
+        "Halodule uninervis"
+      ],
+      "zh": [
+        "二藥藻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -486,7 +657,7 @@
     "family": "Cymodoceaceae",
     "genus": "Halodule",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -502,9 +673,9 @@
     "synonyms": "[\"Halodule beaudettei\", \"Halodule brasiliensis\", \"Diplanthera dawsonii\", \"Diplanthera wrightii\", \"Diplanthera beaudettei\"]",
     "care": {
       "plant_id": "halodule_wrightii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -568,11 +739,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Halodule wrightii"
+      ],
       "en": [
+        "Halodule wrightii",
         "Shoal-grass"
+      ],
+      "es": [
+        "Halodule beaudettei"
+      ],
+      "fr": [
+        "Halodule wrightii"
+      ],
+      "it": [
+        "Halodule beaudettei"
+      ],
+      "nl": [
+        "Halodule beaudettei"
+      ],
+      "pl": [
+        "Halodule wrightii"
+      ],
+      "pt": [
+        "Halodule wrightii"
+      ],
+      "ru": [
+        "Halodule wrightii"
+      ],
+      "zh": [
+        "萊氏二藥草"
       ]
     },
     "tags": [],
@@ -584,7 +785,7 @@
     "family": "Cymodoceaceae",
     "genus": "Oceana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -666,9 +867,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oceana serrulata"
+      ],
+      "en": [
+        "Oceana serrulata"
+      ],
+      "es": [
+        "Oceana serrulata"
+      ],
+      "fr": [
+        "Oceana serrulata"
+      ],
+      "it": [
+        "Oceana serrulata"
+      ],
+      "nl": [
+        "Oceana serrulata"
+      ],
+      "pl": [
+        "Oceana serrulata"
+      ],
+      "pt": [
+        "Oceana serrulata"
+      ],
+      "ru": [
+        "Oceana serrulata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -678,7 +909,7 @@
     "family": "Cymodoceaceae",
     "genus": "Syringodium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -760,9 +991,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Syringodium filiforme"
+      ],
+      "en": [
+        "Syringodium filiforme"
+      ],
+      "es": [
+        "Syringodium filiforme"
+      ],
+      "fr": [
+        "Syringodium filiforme"
+      ],
+      "it": [
+        "Syringodium filiforme"
+      ],
+      "nl": [
+        "Syringodium filiforme"
+      ],
+      "pl": [
+        "Syringodium filiforme"
+      ],
+      "pt": [
+        "Syringodium filiforme"
+      ],
+      "ru": [
+        "Syringodium filiforme"
+      ],
+      "zh": [
+        "丝状针叶草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -772,7 +1036,7 @@
     "family": "Cymodoceaceae",
     "genus": "Syringodium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -854,11 +1118,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Syringodium isoetifolium"
+      ],
       "en": [
-        "Species code: si"
+        "Species code: si",
+        "Syringodium isoetifolium"
+      ],
+      "es": [
+        "Syringodium isoetifolium"
+      ],
+      "fr": [
+        "Syringodium isoetifolium"
+      ],
+      "it": [
+        "Syringodium isoetifolium"
+      ],
+      "ja": [
+        "シオニラ"
+      ],
+      "nl": [
+        "Syringodium isoetifolium"
+      ],
+      "pl": [
+        "Syringodium isoetifolium"
+      ],
+      "pt": [
+        "Syringodium isoetifolium"
+      ],
+      "ru": [
+        "Syringodium isoetifolium"
+      ],
+      "zh": [
+        "针叶藻"
       ]
     },
     "tags": [],
@@ -870,7 +1167,7 @@
     "family": "Cymodoceaceae",
     "genus": "Thalassodendron",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -952,9 +1249,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كنف"
+      ],
+      "de": [
+        "Thalassodendron ciliatum"
+      ],
+      "en": [
+        "Thalassodendron ciliatum"
+      ],
+      "es": [
+        "Thalassodendron ciliatum"
+      ],
+      "fr": [
+        "Thalassodendron ciliatum"
+      ],
+      "it": [
+        "Thalassodendron ciliatum"
+      ],
+      "nl": [
+        "Thalassodendron ciliatum"
+      ],
+      "pl": [
+        "Thalassodendron ciliatum"
+      ],
+      "pt": [
+        "Thalassodendron ciliatum"
+      ],
+      "ru": [
+        "Thalassodendron ciliatum"
+      ],
+      "zh": [
+        "全楔草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Alisma canaliculatum, commonly known as channelled water plantain, is a species of plants in the Alismataceae. It is native to Japan, Korea, the Ryukyu Islands, Taiwan, the Kuril Islands, and China.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,9 +21,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "alisma_canaliculatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -87,9 +87,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Alisma canaliculatum"
+      ],
+      "en": [
+        "Alisma canaliculatum"
+      ],
+      "es": [
+        "Alisma canaliculatum"
+      ],
+      "fr": [
+        "Alisma canaliculatum"
+      ],
+      "it": [
+        "Alisma canaliculatum"
+      ],
+      "ja": [
+        "ヘラオモダカ"
+      ],
+      "ko": [
+        "택사"
+      ],
+      "nl": [
+        "Alisma canaliculatum"
+      ],
+      "pl": [
+        "Alisma canaliculatum"
+      ],
+      "pt": [
+        "Alisma canaliculatum"
+      ],
+      "ru": [
+        "Частуха желобчатая"
+      ],
+      "tr": [
+        "Alisma canaliculatum"
+      ],
+      "zh": [
+        "窄叶泽泻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -104,7 +146,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3c0a6b28c988d220f954ff454389954dc47cdf12",
-    "description": "The ripe achenes may float for several days dispersing long distances.",
+    "description": "Alisma gramineum is a small aquatic plant in the water-plantain family. It has several common names including narrowleaf water-plantain, ribbonleaf water-plantain or ribbon-leaved water-plantain, and grass-leaved water-plantain. It grows in mud or submerged in shallow fresh or brackish water in marshy areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -115,17 +157,17 @@
     "synonyms": "[\"Alisma loeselii\", \"Alisma plantago-aquatica f. angustissimum\", \"Alisma graminifolium f. submersum\", \"Alisma graminifolium f. strictum\", \"Alisma graminifolium f. semimersum\", \"Alisma graminifolium f. pumilum\", \"Alisma gramineum var. geyeri\", \"Alisma geyeri var. angustissimum\", \"Alisma graminifolium f. submersum\", \"Alisma graminifolium f. terrestre\"]",
     "care": {
       "plant_id": "alisma_gramineum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -187,11 +229,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "de": [
+        "Alisma gramineum"
+      ],
       "en": [
+        "Alisma gramineum",
         "Geyer waterplantain"
+      ],
+      "es": [
+        "Alisma gramineum"
+      ],
+      "fr": [
+        "Alisma gramineum"
+      ],
+      "hi": [
+        "Alisma gramineum"
+      ],
+      "it": [
+        "Alisma gramineum"
+      ],
+      "nl": [
+        "Smalle waterweegbree"
+      ],
+      "pl": [
+        "żabieniec trawolistny"
+      ],
+      "pt": [
+        "Alisma gramineum"
+      ],
+      "ru": [
+        "частуха злаковая"
+      ],
+      "tr": [
+        "Alisma gramineum"
+      ],
+      "zh": [
+        "草泽泻"
       ]
     },
     "tags": [],
@@ -219,17 +297,17 @@
     "synonyms": "[\"Alisma plantago-aquatica var. stenophyllum\", \"Alisma plantago-aquatica f. stenophyllum\", \"Alisma stenophyllum\", \"Alisma plantago-aquatica f. aquaticum\", \"Alisma plantago-aquatica f. lanceolatum\", \"Alisma plantago-aquatica proles cadevallii\", \"Alisma plantago-aquatica f. pumilum\", \"Alisma major var. lanceolatum\", \"Alisma plantago-aquatica subsp. stenophyllum\", \"Alisma plantago-aquatica var. lanceolatum\"]",
     "care": {
       "plant_id": "alisma_lanceolatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -291,11 +369,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "de": [
+        "Lanzettblättriger Froschlöffel"
+      ],
       "en": [
+        "Alisma lanceolatum",
         "Narrow-leaf water-plantain"
+      ],
+      "es": [
+        "Alisma lanceolatum"
+      ],
+      "fr": [
+        "Alisma lanceolatum"
+      ],
+      "it": [
+        "Alisma lanceolatum"
+      ],
+      "nl": [
+        "Slanke waterweegbree"
+      ],
+      "pl": [
+        "żabieniec lancetowaty"
+      ],
+      "pt": [
+        "Alisma lanceolatum"
+      ],
+      "ru": [
+        "частуха ланцетная"
+      ],
+      "tr": [
+        "Alisma lanceolatum"
+      ],
+      "zh": [
+        "膜果泽泻"
       ]
     },
     "tags": [],
@@ -323,17 +434,17 @@
     "synonyms": "[\"Alisma plantago-aquatica subsp. latifolium\", \"Damasonium plantago-aquaticum\", \"Alisma major\"]",
     "care": {
       "plant_id": "alisma_plantago-aquatica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -355,8 +466,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Iris hexagona | Native to: KGZ, NCS ST, CLC MA, BAL OO, CHM JL",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Parts: Whole plant, highest concentrations in latex, root. (Source: TPPT/Agroscope)",
       "common_problems": [
         "No serious pest or disease.  The plant can be weedy and spread via self-seeding.  Slugs are attracted to the plant."
       ],
@@ -379,8 +490,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in latex, root",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -394,11 +505,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "ar": [
+        "مزمار الراعي المائي"
+      ],
+      "de": [
+        "Gewöhnlicher Froschlöffel"
+      ],
       "en": [
+        "Alisma plantago-aquatica",
         "Water-plantain"
+      ],
+      "es": [
+        "Alisma plantago-aquatica"
+      ],
+      "fr": [
+        "Alisma plantago-aquatica"
+      ],
+      "it": [
+        "Alisma plantago-aquatica"
+      ],
+      "ja": [
+        "ウォータープランテーン"
+      ],
+      "nl": [
+        "grote waterweegbree"
+      ],
+      "pl": [
+        "żabieniec babka wodna"
+      ],
+      "pt": [
+        "Tanchagem-da-água"
+      ],
+      "ru": [
+        "частуха обыкновенная"
+      ],
+      "tr": [
+        "Alisma plantago-aquatica"
+      ],
+      "zh": [
+        "泽泻"
       ]
     },
     "tags": [],
@@ -415,7 +565,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/51bb34f3fa4dd4e98119da90bfb17a470ad078ca",
-    "description": "The ripe achenes may float for several days dispersing long distances.",
+    "description": "Alisma subcordatum, the American water plantain, is a perennial aquatic plant in the water-plantain family (Alismataceae). This plant grows to about 3 feet in height with lance to oval shaped leaves rising from bulbous corms with fibrous roots. Any leaves that form underwater are weak and quick to rot; they rarely remain on adult plants. A branched inflorescence with white to pink 3-petaled flowers blooms from June to September. The seeds are eaten by waterfowl and upland birds.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -426,9 +576,9 @@
     "synonyms": "[\"Alisma plantago-aquatica var. parviflorum\", \"Alisma plantago-aquatica subsp. subcordatum\", \"Alisma montanum\", \"Alisma parviflorum\"]",
     "care": {
       "plant_id": "alisma_subcordatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -498,11 +648,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Alisma subcordatum"
+      ],
       "en": [
+        "Alisma subcordatum",
         "Southern water-plantain"
+      ],
+      "es": [
+        "Alisma subcordatum"
+      ],
+      "fr": [
+        "Alisma subcordatum"
+      ],
+      "it": [
+        "Alisma subcordatum"
+      ],
+      "nl": [
+        "Alisma subcordatum"
+      ],
+      "pl": [
+        "Alisma subcordatum"
+      ],
+      "pt": [
+        "Alisma subcordatum"
+      ],
+      "ru": [
+        "Alisma subcordatum"
+      ],
+      "tr": [
+        "Alisma subcordatum"
+      ],
+      "zh": [
+        "大叶泽泻"
       ]
     },
     "tags": [],
@@ -530,17 +713,17 @@
     "synonyms": "[\"Alisma brevipes\", \"Alisma plantago-aquatica subsp. brevipes\", \"Alisma plantago-aquatica var. americanum\", \"Alisma superbum var. lanceolatum\", \"Alisma odoratum\", \"Alisma roseum\", \"Alisma superbum\", \"Alisma superbum var. angustissimum\", \"Alisma subcordatum var. superbum\", \"Alisma plantago-aquatica var. triviale\"]",
     "care": {
       "plant_id": "alisma_triviale",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -605,11 +788,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "de": [
+        "Alisma triviale"
+      ],
       "en": [
+        "Alisma triviale",
         "Northern water-plantain"
+      ],
+      "es": [
+        "Alisma triviale"
+      ],
+      "fr": [
+        "Alisma triviale"
+      ],
+      "it": [
+        "Alisma triviale"
+      ],
+      "nl": [
+        "Alisma triviale"
+      ],
+      "pl": [
+        "Alisma triviale"
+      ],
+      "pt": [
+        "Alisma triviale"
+      ],
+      "ru": [
+        "Alisma triviale"
+      ],
+      "tr": [
+        "Alisma triviale"
       ]
     },
     "tags": [],
@@ -626,7 +839,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Alisma wahlenbergii, the Baltic water-plantain, is a species of plant in the family Alismataceae. It is native to the area around the northern Baltic Sea: Finland, Sweden, Estonia, Latvia, Lithuania, and northern and northwestern Russia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -637,9 +850,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "alisma_wahlenbergii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -703,9 +916,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Alisma wahlenbergii"
+      ],
+      "en": [
+        "Alisma wahlenbergii"
+      ],
+      "es": [
+        "Alisma wahlenbergii"
+      ],
+      "fr": [
+        "Alisma wahlenbergii"
+      ],
+      "it": [
+        "Alisma wahlenbergii"
+      ],
+      "nl": [
+        "Alisma wahlenbergii"
+      ],
+      "pl": [
+        "Alisma wahlenbergii"
+      ],
+      "pt": [
+        "Alisma wahlenbergii"
+      ],
+      "ru": [
+        "Частуха Валенберга"
+      ],
+      "tr": [
+        "Alisma wahlenbergii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -715,12 +961,12 @@
     "family": "Alismataceae",
     "genus": "Aquarius",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/3d6b3cd67502506588f9cd7f5b054e92.jpg",
-    "description": null,
+    "description": "Echinodorus cordifolius, the spade-leaf sword or creeping burhead, is a species of aquatic plants in the Alismatales. It is native to Mexico, the West Indies, Central America, South America and the southeastern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -731,9 +977,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "aquarius_cordifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -797,9 +1043,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aquarius cordifolius"
+      ],
+      "en": [
+        "Aquarius cordifolius"
+      ],
+      "es": [
+        "Aquarius cordifolius"
+      ],
+      "fr": [
+        "Aquarius cordifolius"
+      ],
+      "it": [
+        "Aquarius cordifolius"
+      ],
+      "nl": [
+        "Aquarius cordifolius"
+      ],
+      "pl": [
+        "Aquarius cordifolius"
+      ],
+      "pt": [
+        "Aquarius cordifolius"
+      ],
+      "ru": [
+        "Aquarius cordifolius"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -809,7 +1085,7 @@
     "family": "Alismataceae",
     "genus": "Aquarius",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -825,9 +1101,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "aquarius_grandiflorus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -891,9 +1167,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aquarius grandiflorus"
+      ],
+      "en": [
+        "Aquarius grandiflorus"
+      ],
+      "es": [
+        "Aquarius grandiflorus"
+      ],
+      "fr": [
+        "Aquarius grandiflorus"
+      ],
+      "it": [
+        "Aquarius grandiflorus"
+      ],
+      "nl": [
+        "Aquarius grandiflorus"
+      ],
+      "pl": [
+        "Aquarius grandiflorus"
+      ],
+      "pt": [
+        "Aquarius grandiflorus"
+      ],
+      "ru": [
+        "Aquarius grandiflorus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -903,7 +1209,7 @@
     "family": "Alismataceae",
     "genus": "Aquarius",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -919,9 +1225,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "aquarius_subulatus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -985,9 +1291,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aquarius subulatus"
+      ],
+      "en": [
+        "Aquarius subulatus"
+      ],
+      "es": [
+        "Aquarius subulatus"
+      ],
+      "fr": [
+        "Aquarius subulatus"
+      ],
+      "it": [
+        "Aquarius subulatus"
+      ],
+      "nl": [
+        "Aquarius subulatus"
+      ],
+      "pl": [
+        "Aquarius subulatus"
+      ],
+      "pt": [
+        "Aquarius subulatus"
+      ],
+      "ru": [
+        "Aquarius subulatus"
+      ],
+      "zh": [
+        "钻形象耳慈姑"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -997,7 +1336,7 @@
     "family": "Alismataceae",
     "genus": "Baldellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1013,17 +1352,17 @@
     "synonyms": "[\"Damasonium ranunculoides\", \"Echinodorus ranunculoides\", \"Alisma ranunculoides\", \"Sagittaria ranunculodes\"]",
     "care": {
       "plant_id": "baldellia_ranunculoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1079,11 +1418,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Baldellia ranunculoides"
+      ],
       "en": [
+        "Baldellia ranunculoides",
         "Lesser-water-plantain"
+      ],
+      "es": [
+        "Baldellia ranunculoides"
+      ],
+      "fr": [
+        "Baldellia ranunculoides"
+      ],
+      "it": [
+        "Baldellia ranunculoides"
+      ],
+      "nl": [
+        "Moerasweegbree"
+      ],
+      "pl": [
+        "Żabienica jaskrowata"
+      ],
+      "pt": [
+        "Baldellia ranunculoides"
+      ],
+      "ru": [
+        "Baldellia ranunculoides"
+      ],
+      "tr": [
+        "Baldellia ranunculoides"
+      ],
+      "zh": [
+        "假泽泻"
       ]
     },
     "tags": [],
@@ -1095,7 +1467,7 @@
     "family": "Alismataceae",
     "genus": "Baldellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1111,17 +1483,17 @@
     "synonyms": "[\"Alisma repens\", \"Echinodorus repens\", \"Baldellia ranunculoides subsp. repens\", \"Baldellia ranunculoides f. repens\", \"Echinodorus ranunculoides subsp. repens\", \"Alisma ranunculoides proles repens\", \"Echinodorus ranunculoides var. repens\", \"Baldellia ranunculoides var. repens\", \"Alisma ranunculoides var. repens\"]",
     "care": {
       "plant_id": "baldellia_repens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1177,9 +1549,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Baldellia repens"
+      ],
+      "en": [
+        "Baldellia repens"
+      ],
+      "es": [
+        "Baldellia repens"
+      ],
+      "fr": [
+        "Baldellia repens"
+      ],
+      "it": [
+        "Baldellia repens"
+      ],
+      "nl": [
+        "Baldellia repens"
+      ],
+      "pl": [
+        "Baldellia repens"
+      ],
+      "pt": [
+        "Baldellia repens"
+      ],
+      "ru": [
+        "Baldellia repens"
+      ],
+      "tr": [
+        "Baldellia repens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1189,12 +1594,12 @@
     "family": "Alismataceae",
     "genus": "Caldesia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c61cd944b65b31a6a6702cba2afccfaf72314837",
-    "description": null,
+    "description": "Caldesia parnassifolia, is an aquatic species in the Alismataceae. It is found in slow-moving fresh water.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1205,9 +1610,9 @@
     "synonyms": "[\"Alisma reniforme\", \"Alisma parnassifolium var. dubium\", \"Alisma parnassifolium var. terrestris\", \"Caldesia parnassifolia var. major\", \"Caldesia reniformis\", \"Damasonium parnassifolium\", \"Alisma parnassifolium var. baumgartenianum\", \"Alisma parnassifolium f. dubium\", \"Caldesia parnassifolia var. dubia\", \"Echinodorus parnassifolius\"]",
     "care": {
       "plant_id": "caldesia_parnassifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1271,11 +1676,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Caldesia parnassifolia"
+      ],
       "en": [
+        "Caldesia parnassifolia",
         "Parnassus-leaved water plantain"
+      ],
+      "es": [
+        "Caldesia parnassifolia"
+      ],
+      "fr": [
+        "Caldesia parnassifolia"
+      ],
+      "it": [
+        "Caldesia parnassifolia"
+      ],
+      "ja": [
+        "マルバオモダカ"
+      ],
+      "nl": [
+        "Caldesia parnassifolia"
+      ],
+      "pl": [
+        "Kaldezja dziewięciornikowata"
+      ],
+      "pt": [
+        "Caldesia parnassifolia"
+      ],
+      "ru": [
+        "Кальдезия белозоролистная"
+      ],
+      "tr": [
+        "Caldesia parnassifolia"
+      ],
+      "zh": [
+        "泽苔草"
       ]
     },
     "tags": [],
@@ -1287,12 +1728,12 @@
     "family": "Alismataceae",
     "genus": "Damasonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3a7a3884c9ae5f88d4dd515cb01965576ceeb9fd",
-    "description": null,
+    "description": "Damasonium alisma is a species of flowering marsh plant known by the common name of starfruit. Its native range includes parts of Great Britain, France, Portugal, Spain, Italy, Greece, Russia, Ukraine, Moldova, and Kazakhstan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1303,17 +1744,17 @@
     "synonyms": "[\"Actinocarpus stellatus\", \"Damasonium dalechampii\", \"Actinocarpus europaeus\", \"Alisma damasonium\", \"Actinocarpus maior\", \"Damasonium damasonium\", \"Alisma stellatum\", \"Damasonium vulgare\", \"Damasonium alisma subsp. stellatum\", \"Damasonium stellatum\"]",
     "care": {
       "plant_id": "damasonium_alisma",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1369,11 +1810,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "de": [
+        "Damasonium alisma"
+      ],
       "en": [
+        "Damasonium alisma",
         "Starfruit"
+      ],
+      "es": [
+        "Damasonium alisma"
+      ],
+      "fr": [
+        "Damasonium alisma"
+      ],
+      "it": [
+        "Damasonium alisma"
+      ],
+      "nl": [
+        "Damasonium alisma"
+      ],
+      "pl": [
+        "Damasonium alisma"
+      ],
+      "pt": [
+        "Damasonium alisma"
+      ],
+      "ru": [
+        "Звездоплодник частуховый"
+      ],
+      "tr": [
+        "Damasonium alisma"
       ]
     },
     "tags": [],
@@ -1385,12 +1856,12 @@
     "family": "Alismataceae",
     "genus": "Damasonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/aaf2406ffdb8d68da58ffd68184e2478.jpg",
-    "description": null,
+    "description": "Damasonium minus is a species of flowering plant in the water-plantain family known by the common names starfruit and star-fruit. It is native to Australia, where it occurs everywhere except the Northern Territory. It is perhaps best known as an agricultural weed. It is a major weed of Australian rice crops.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1401,9 +1872,9 @@
     "synonyms": "[\"Damasonium australe\", \"Actinocarpus minor\", \"Alisma minus\", \"Actinocarpus australis\", \"Damasonium brownii\"]",
     "care": {
       "plant_id": "damasonium_minus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1467,9 +1938,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Damasonium minus"
+      ],
+      "en": [
+        "Damasonium minus"
+      ],
+      "es": [
+        "Damasonium minus"
+      ],
+      "fr": [
+        "Damasonium minus"
+      ],
+      "it": [
+        "Damasonium minus"
+      ],
+      "nl": [
+        "Damasonium minus"
+      ],
+      "pl": [
+        "Damasonium minus"
+      ],
+      "pt": [
+        "Damasonium minus"
+      ],
+      "ru": [
+        "Damasonium minus"
+      ],
+      "tr": [
+        "Damasonium minus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1479,7 +1983,7 @@
     "family": "Alismataceae",
     "genus": "Damasonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1495,9 +1999,9 @@
     "synonyms": "[\"Damasonium minimum\", \"Alisma polyspermum\", \"Damasonium alisma proles polyspermum\", \"Damasonium polyspermum var. minimum\", \"Damasonium polyspermum var. medians\", \"Damasonium stellatum var. polyspermum\", \"Damasonium stellatum subsp. polyspermum\", \"Damasonium alisma subsp. polyspermum\", \"Damasonium stellatum var. polyspermum\"]",
     "care": {
       "plant_id": "damasonium_polyspermum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1561,11 +2065,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مزمار الراعي"
+      ],
+      "de": [
+        "Damasonium polyspermum"
+      ],
       "en": [
+        "Damasonium polyspermum",
         "Starfruit"
+      ],
+      "es": [
+        "Damasonium polyspermum"
+      ],
+      "fr": [
+        "Damasonium polyspermum"
+      ],
+      "it": [
+        "Damasonium polyspermum"
+      ],
+      "nl": [
+        "Damasonium polyspermum"
+      ],
+      "pl": [
+        "Damasonium polyspermum"
+      ],
+      "pt": [
+        "Damasonium polyspermum"
+      ],
+      "ru": [
+        "Damasonium polyspermum"
+      ],
+      "tr": [
+        "Damasonium polyspermum"
       ]
     },
     "tags": [],
@@ -1577,12 +2114,12 @@
     "family": "Alismataceae",
     "genus": "Echinodorus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/19f71cf297154d808a61ea62c7fe2217e1371b67",
-    "description": null,
+    "description": "Echinodorus berteroi is an aquatic plant species in the Alismataceae It is native to the southern and central parts of the United States, as well as Central America, the West Indies, and South America as far south as Argentina.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1593,9 +2130,9 @@
     "synonyms": "[\"Echinodorus rostratus var. lanceolatus\", \"Echinodorus rostratus\", \"Alisma berteroanum\", \"Alisma rostratum\", \"Sagittaria rostrata\", \"Echinodorus cordifolius var. berteroanus\", \"Echinodorus berteroi subsp. patagonicus\", \"Echinodorus patagonicus\", \"Echinodorus berteroi var. patagonicus\", \"Alisma berteroi\"]",
     "care": {
       "plant_id": "echinodorus_berteroi",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1659,11 +2196,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Echinodorus berteroi"
+      ],
       "en": [
+        "Echinodorus berteroi",
         "Upright burhead"
+      ],
+      "es": [
+        "Echinodorus berteroi"
+      ],
+      "fr": [
+        "Echinodorus berteroi"
+      ],
+      "it": [
+        "Echinodorus berteroi"
+      ],
+      "nl": [
+        "Echinodorus berteroi"
+      ],
+      "pl": [
+        "Echinodorus berteroi"
+      ],
+      "pt": [
+        "Echinodorus berteroi"
+      ],
+      "ru": [
+        "Эхинодорус Бертера"
+      ],
+      "tr": [
+        "Echinodorus berteroi"
       ]
     },
     "tags": [],
@@ -1675,12 +2242,12 @@
     "family": "Alismataceae",
     "genus": "Helanthium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/0aee1fdd03467ec812c88fe984d74415.jpg",
-    "description": null,
+    "description": "Helanthium tenellum, the pygmy chain sword, is a species of plants in the Alismataceae. It is native to the eastern United States, southern Mexico, West Indies, Central America, South America",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1691,9 +2258,9 @@
     "synonyms": "[\"Echinodorus tenellus var. parvulus\", \"Echinodorus tenellus\", \"Helanthium parvulum\", \"Alisma tenellum\", \"Echinodorus subulatus\", \"Echinodorus parvulus\", \"Sagittaria tenella\", \"Echinodorus tenellus f. randii\", \"Echinodorus tenellus var. ecostatus\", \"Alisma ranunculoides var. brasiliense\"]",
     "care": {
       "plant_id": "helanthium_tenellum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1757,9 +2324,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "إكيندوروس تينليس"
+      ],
+      "de": [
+        "Helanthium tenellum"
+      ],
+      "en": [
+        "Helanthium tenellum"
+      ],
+      "es": [
+        "Helanthium tenellum"
+      ],
+      "fr": [
+        "Helanthium tenellum"
+      ],
+      "it": [
+        "Helanthium tenellum"
+      ],
+      "nl": [
+        "Helanthium tenellum"
+      ],
+      "pl": [
+        "Helanthium tenellum"
+      ],
+      "pt": [
+        "Helanthium tenellum"
+      ],
+      "ru": [
+        "Гелантиум нежный"
+      ],
+      "tr": [
+        "Helanthium tenellum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1769,12 +2372,12 @@
     "family": "Alismataceae",
     "genus": "Hydrocleys",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f798b801bd34d30db18d92f961c1376ad5e87d50",
-    "description": "The fruits are follicles containing several seeds.",
+    "description": "Hydrocleys nymphoides, the waterpoppy or water-poppy, is an aquatic plant species in the Alismataceae. It is widespread across South America, Central America, Puerto Rico, Trinidad and the Netherlands Antilles. It is cultivated in many places for used in decorative ponds and artificial aquatic habitats, and naturalized in Australia, New Zealand, South Africa, Fiji, New Caledonia, French Polynesia, Florida, Louisiana and Texas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1785,9 +2388,9 @@
     "synonyms": "[\"Hydrocleys azurea\", \"Limnocharis commersonii\", \"Hydrocleys humboldtii\", \"Limnocharis humboldtii\", \"Vespuccia humboldtii\", \"Stratiotes nymphoides\", \"Limnocharis nymphoides\", \"Sagittaria ranunculoides\", \"Hydrocleys commersonii\"]",
     "care": {
       "plant_id": "hydrocleys_nymphoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1851,11 +2454,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hydrocleys nymphoides"
+      ],
       "en": [
+        "Hydrocleys nymphoides",
         "Water-poppy"
+      ],
+      "es": [
+        "Hydrocleys nymphoides"
+      ],
+      "fr": [
+        "Hydrocleys nymphoides"
+      ],
+      "it": [
+        "Hydrocleys nymphoides"
+      ],
+      "ja": [
+        "ミズヒナゲシ"
+      ],
+      "nl": [
+        "Hydrocleys nymphoides"
+      ],
+      "pl": [
+        "Hydrocleys nymphoides"
+      ],
+      "pt": [
+        "Hydrocleys nymphoides"
+      ],
+      "ru": [
+        "Hydrocleys nymphoides"
+      ],
+      "tr": [
+        "Hydrocleys nymphoides"
+      ],
+      "zh": [
+        "水金英"
       ]
     },
     "tags": [],
@@ -1867,12 +2506,12 @@
     "family": "Alismataceae",
     "genus": "Limnocharis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a27daac5cad86759fdc3191ad914663d13bea87b",
-    "description": null,
+    "description": "Limnocharis flava is a species of aquatic flowering plant which is native to Mexico, Central America, South America, Cuba, Haiti and the Dominican Republic but widely naturalized in southern and southeastern Asia: India, Sri Lanka, Cambodia, Burma, Thailand, Vietnam, Indonesia, Malaysia, Brunei and southern China.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1883,9 +2522,9 @@
     "synonyms": "[\"Damasonium maximum\", \"Limnocharis flava var. indica\", \"Limnocharis emarginata\", \"Limnocharis plumieri\", \"Damasonium flavum\", \"Alisma flavum\"]",
     "care": {
       "plant_id": "limnocharis_flava",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1949,11 +2588,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Limnocharis flava"
+      ],
       "en": [
+        "Limnocharis flava",
         "Sawah-flower-rush"
+      ],
+      "es": [
+        "Limnocharis flava"
+      ],
+      "fr": [
+        "Limnocharis flava"
+      ],
+      "it": [
+        "Limnocharis flava"
+      ],
+      "ja": [
+        "キバナオモダカ"
+      ],
+      "nl": [
+        "Limnocharis flava"
+      ],
+      "pl": [
+        "Limnocharis żółty"
+      ],
+      "pt": [
+        "Limnocharis flava"
+      ],
+      "ru": [
+        "Limnocharis flava"
+      ],
+      "tr": [
+        "Limnocharis flava"
+      ],
+      "zh": [
+        "黄花泽泻",
+        "黄花蔺"
       ]
     },
     "tags": [],
@@ -1965,12 +2641,12 @@
     "family": "Alismataceae",
     "genus": "Luronium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/25aafcaac4c8a6cf9574741f6d6ae6eef54edfe8",
-    "description": null,
+    "description": "Luronium natans is a species of aquatic plant commonly known as the floating water-plantain. It is the only recognized species in the genus Luronium, native to western and central Europe, from Spain to Britain to Norway east to Ukraine.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1981,17 +2657,17 @@
     "synonyms": "[\"Alisma natans var. sparganiifolium\", \"Damasonium natans\", \"Elisma natans var. sparganiifolium\", \"Echinodorus natans subvar. parvulus\", \"Elisma natans f. sparganiifolium\", \"Elisma natans f. repens\", \"Elisma natans f. fluitans\", \"Elisma natans subvar. plantaginifolium\", \"Elisma natans\", \"Echinodorus natans var. repens\"]",
     "care": {
       "plant_id": "luronium_natans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2047,11 +2723,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Froschkraut"
+      ],
       "en": [
-        "Floating-water-plantain"
+        "Floating-water-plantain",
+        "Luronium natans"
+      ],
+      "es": [
+        "Luronium"
+      ],
+      "fr": [
+        "Luronium natans"
+      ],
+      "it": [
+        "Luronium natans"
+      ],
+      "nl": [
+        "drijvende waterweegbree"
+      ],
+      "pl": [
+        "Elisma wodna"
+      ],
+      "pt": [
+        "Luronium"
+      ],
+      "ru": [
+        "Лурониум"
+      ],
+      "tr": [
+        "Luronium natans"
+      ],
+      "zh": [
+        "欧泽泻属"
       ]
     },
     "tags": [],
@@ -2063,7 +2772,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2079,17 +2788,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_cuneata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2145,9 +2854,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.2
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سهم الماء الإسفيني"
+      ],
+      "de": [
+        "Sagittaria cuneata"
+      ],
+      "en": [
+        "Sagittaria cuneata"
+      ],
+      "es": [
+        "Sagittaria cuneata"
+      ],
+      "fr": [
+        "Sagittaria cuneata"
+      ],
+      "it": [
+        "Sagittaria cuneata"
+      ],
+      "nl": [
+        "Sagittaria cuneata"
+      ],
+      "pl": [
+        "Sagittaria cuneata"
+      ],
+      "pt": [
+        "Sagittaria cuneata"
+      ],
+      "ru": [
+        "Sagittaria cuneata"
+      ],
+      "tr": [
+        "Sagittaria cuneata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2157,7 +2902,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2173,17 +2918,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_graminea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2239,11 +2984,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "سهم الماء النجيلي"
+      ],
+      "de": [
+        "Sagittaria graminea"
+      ],
       "en": [
-        "Delta arrowhead"
+        "Delta arrowhead",
+        "Sagittaria graminea"
+      ],
+      "es": [
+        "Sagittaria graminea"
+      ],
+      "fr": [
+        "Sagittaire graminoïde"
+      ],
+      "it": [
+        "Sagittaria graminea"
+      ],
+      "ja": [
+        "ナガバオモダカ"
+      ],
+      "nl": [
+        "Sagittaria graminea"
+      ],
+      "pl": [
+        "Sagittaria graminea"
+      ],
+      "pt": [
+        "Sagittaria graminea"
+      ],
+      "ru": [
+        "Sagittaria graminea"
+      ],
+      "tr": [
+        "Sagittaria graminea"
       ]
     },
     "tags": [],
@@ -2255,7 +3036,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2271,9 +3052,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_guayanensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -2337,11 +3118,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سهم الماء الغوياني"
+      ],
+      "de": [
+        "Sagittaria guayanensis"
+      ],
       "en": [
+        "Sagittaria guayanensis",
         "Swamp-potato"
+      ],
+      "es": [
+        "Sagittaria guayanensis"
+      ],
+      "fr": [
+        "Sagittaria guayanensis"
+      ],
+      "it": [
+        "Sagittaria guayanensis"
+      ],
+      "nl": [
+        "Sagittaria guayanensis"
+      ],
+      "pl": [
+        "Sagittaria guayanensis"
+      ],
+      "pt": [
+        "Sagittaria guayanensis"
+      ],
+      "ru": [
+        "Sagittaria guayanensis"
+      ],
+      "tr": [
+        "Sagittaria guayanensis"
+      ],
+      "zh": [
+        "美洲冠果草"
       ]
     },
     "tags": [],
@@ -2353,7 +3170,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2369,17 +3186,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_lancifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2435,11 +3252,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "سهم الماء سناني الأوراق"
+      ],
+      "de": [
+        "Sagittaria lancifolia"
+      ],
       "en": [
-        "Lance-leaf arrowhead"
+        "Lance-leaf arrowhead",
+        "Sagittaria lancifolia"
+      ],
+      "es": [
+        "Sagittaria lancifolia"
+      ],
+      "fr": [
+        "Sagittaria lancifolia"
+      ],
+      "it": [
+        "Sagittaria lancifolia"
+      ],
+      "nl": [
+        "Sagittaria lancifolia"
+      ],
+      "pl": [
+        "Sagittaria lancifolia"
+      ],
+      "pt": [
+        "Sagittaria lancifolia"
+      ],
+      "ru": [
+        "Sagittaria lancifolia"
+      ],
+      "tr": [
+        "Sagittaria lancifolia"
+      ],
+      "zh": [
+        "泽泻慈姑"
       ]
     },
     "tags": [],
@@ -2451,7 +3304,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2467,17 +3320,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_latifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2500,7 +3353,7 @@
       "tips": "Similar plants: Itea virginica",
       "toxic_to_pets": 0,
       "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxicity_note": "Non-toxic (confirmed by TPPT database)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2533,11 +3386,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "سهم الماء عريض الأوراق"
+      ],
+      "de": [
+        "Sagittaria latifolia"
+      ],
       "en": [
-        "Duck-potato"
+        "Duck-potato",
+        "Sagittaria latifolia"
+      ],
+      "es": [
+        "Sagittaria latifolia"
+      ],
+      "fr": [
+        "Sagittaria latifolia"
+      ],
+      "it": [
+        "Sagittaria latifolia"
+      ],
+      "nl": [
+        "Sagittaria latifolia"
+      ],
+      "pl": [
+        "Sagittaria latifolia"
+      ],
+      "pt": [
+        "Sagittaria latifolia"
+      ],
+      "ru": [
+        "Sagittaria latifolia"
+      ],
+      "tr": [
+        "Sagittaria latifolia"
       ]
     },
     "tags": [],
@@ -2549,7 +3435,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2565,17 +3451,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_montevidensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2631,11 +3517,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "سهم الماء المونتفيديوي"
+      ],
+      "de": [
+        "Montevideo-Pfeilkraut"
+      ],
       "en": [
-        "Giant arrowhead"
+        "Giant arrowhead",
+        "Sagittaria montevidensis"
+      ],
+      "es": [
+        "Sagittaria montevidensis"
+      ],
+      "fr": [
+        "Sagittaria montevidensis"
+      ],
+      "it": [
+        "Sagittaria montevidensis"
+      ],
+      "nl": [
+        "Sagittaria montevidensis"
+      ],
+      "pl": [
+        "Sagittaria montevidensis"
+      ],
+      "pt": [
+        "Sagittaria montevidensis"
+      ],
+      "ru": [
+        "Sagittaria montevidensis"
+      ],
+      "tr": [
+        "Sagittaria montevidensis"
+      ],
+      "zh": [
+        "蒙特登慈姑"
       ]
     },
     "tags": [],
@@ -2647,7 +3569,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2663,17 +3585,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_natans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2729,9 +3651,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.2
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سهم الماء السابح"
+      ],
+      "de": [
+        "Sagittaria natans"
+      ],
+      "en": [
+        "Sagittaria natans"
+      ],
+      "es": [
+        "Sagittaria natans"
+      ],
+      "fr": [
+        "Sagittaria natans"
+      ],
+      "it": [
+        "Sagittaria natans"
+      ],
+      "ja": [
+        "カラフトグワイ"
+      ],
+      "nl": [
+        "Sagittaria natans"
+      ],
+      "pl": [
+        "Sagittaria natans"
+      ],
+      "pt": [
+        "Sagittaria natans"
+      ],
+      "ru": [
+        "Стрелолист плавающий"
+      ],
+      "tr": [
+        "Sagittaria natans"
+      ],
+      "zh": [
+        "浮叶慈姑"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2741,7 +3705,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2757,17 +3721,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_platyphylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2823,9 +3787,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.2
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سهم الماء مسطح الأوراق"
+      ],
+      "de": [
+        "Sagittaria platyphylla"
+      ],
+      "en": [
+        "Sagittaria platyphylla"
+      ],
+      "es": [
+        "Sagittaria platyphylla"
+      ],
+      "fr": [
+        "Sagittaria platyphylla"
+      ],
+      "it": [
+        "Sagittaria platyphylla"
+      ],
+      "nl": [
+        "Sagittaria platyphylla"
+      ],
+      "pl": [
+        "Sagittaria platyphylla"
+      ],
+      "pt": [
+        "Sagittaria platyphylla"
+      ],
+      "ru": [
+        "Sagittaria platyphylla"
+      ],
+      "tr": [
+        "Sagittaria platyphylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2835,7 +3835,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2851,9 +3851,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_rigida",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -2917,11 +3917,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سهم الماء الصلب"
+      ],
+      "de": [
+        "Sagittaria rigida"
+      ],
       "en": [
+        "Sagittaria rigida",
         "Sessilefruit arrowhead"
+      ],
+      "es": [
+        "Sagittaria rigida"
+      ],
+      "fr": [
+        "Sagittaria rigida"
+      ],
+      "it": [
+        "Sagittaria rigida"
+      ],
+      "nl": [
+        "Sagittaria rigida"
+      ],
+      "pl": [
+        "Sagittaria rigida"
+      ],
+      "pt": [
+        "Sagittaria rigida"
+      ],
+      "ru": [
+        "Sagittaria rigida"
+      ],
+      "tr": [
+        "Sagittaria rigida"
       ]
     },
     "tags": [],
@@ -2933,7 +3966,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2949,17 +3982,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_sagittifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3015,11 +4048,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "سهم الماء النموذجي"
+      ],
+      "de": [
+        "Gewöhnliches Pfeilkraut"
+      ],
       "en": [
-        "Arrowhead"
+        "Arrowhead",
+        "Sagittaria sagittifolia"
+      ],
+      "es": [
+        "Sagittaria sagittifolia"
+      ],
+      "fr": [
+        "Sagittaire à feuilles en flèche"
+      ],
+      "it": [
+        "Sagittaria sagittifolia"
+      ],
+      "ja": [
+        "セイヨウオモダカ"
+      ],
+      "nl": [
+        "Pijlkruid"
+      ],
+      "pl": [
+        "Strzałka wodna"
+      ],
+      "pt": [
+        "Sagittaria sagittifolia"
+      ],
+      "ru": [
+        "Стрелолист обыкновенный"
+      ],
+      "tr": [
+        "Sagittaria sagittifolia"
+      ],
+      "zh": [
+        "慈姑"
       ]
     },
     "tags": [],
@@ -3031,7 +4103,7 @@
     "family": "Alismataceae",
     "genus": "Sagittaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3047,17 +4119,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sagittaria_trifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3113,9 +4185,54 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.2
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سهم الماء ثلاثي الأوراق"
+      ],
+      "de": [
+        "Sagittaria trifolia"
+      ],
+      "en": [
+        "Sagittaria trifolia"
+      ],
+      "es": [
+        "Sagittaria trifolia"
+      ],
+      "fr": [
+        "Sagittaria trifolia"
+      ],
+      "it": [
+        "Sagittaria trifolia"
+      ],
+      "ja": [
+        "オモダカ"
+      ],
+      "ko": [
+        "벗풀"
+      ],
+      "nl": [
+        "Sagittaria trifolia"
+      ],
+      "pl": [
+        "Sagittaria trifolia"
+      ],
+      "pt": [
+        "Sagittaria trifolia"
+      ],
+      "ru": [
+        "Стрелолист трёхлистный"
+      ],
+      "tr": [
+        "Sagittaria trifolia"
+      ],
+      "zh": [
+        "野慈姑"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

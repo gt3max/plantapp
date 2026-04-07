@@ -5,12 +5,12 @@
     "family": "Didiereaceae",
     "genus": "Portulacaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/81a294078ac16bace7a0769cec0f7573a6282d29",
-    "description": null,
+    "description": "Portulacaria afra is a small-leaved succulent plant found in South Africa. These succulents commonly have a reddish stem and green leaves, but a variegated cultivar is often seen in cultivation. They are simple to care for and make easy houseplants for a sunny location. In frost-free regions they may be used in outdoor landscaping.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "رجلة الصبار"
+      ],
+      "de": [
+        "Portulacaria afra"
+      ],
       "en": [
-        "Elephant bush"
+        "Elephant bush",
+        "Portulacaria afra"
+      ],
+      "es": [
+        "Portulacaria afra"
+      ],
+      "fr": [
+        "Portulacaria"
+      ],
+      "it": [
+        "Portulacaria afra"
+      ],
+      "nl": [
+        "Portulacaria afra"
+      ],
+      "pl": [
+        "Portulacaria afra"
+      ],
+      "pt": [
+        "Portulacaria afra"
+      ],
+      "ru": [
+        "Portulacaria afra"
+      ],
+      "zh": [
+        "樹馬齒莧"
       ]
     },
     "tags": [],

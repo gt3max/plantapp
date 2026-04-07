@@ -5,12 +5,12 @@
     "family": "Altingiaceae",
     "genus": "Liquidambar",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/46c0241250211e3600ec0a2140e434c59492fb25",
-    "description": "Dark brown, spherical burr-like cluster 1.5  in diameter appear in late summer and can persist into winter. Fruit is less woody and softer than L. styraciflua so are not as much of a stepping hazard.",
+    "description": "Liquidambar formosana, commonly known as the Formosan gum, Chinese sweet gum and Formosa sweet gum, is a species of tree in the family Altingiaceae native to East and Southeast Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -91,11 +91,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "عنبر دماع فرموزا"
+      ],
       "en": [
-        "Formosan sweet-gum"
+        "Formosan sweet-gum",
+        "Sweet Gum"
+      ],
+      "ja": [
+        "イガカエデ",
+        "サンカクバフウ",
+        "タイワンフウ",
+        "フウ"
+      ],
+      "ko": [
+        "풍나무",
+        "풍향수"
+      ],
+      "ru": [
+        "Ликвидамбар тайваньский",
+        "Ликвидамбар формозский"
+      ],
+      "zh": [
+        "三角枫",
+        "大叶枫",
+        "山枫香树",
+        "枫木",
+        "枫树",
+        "枫香",
+        "枫香果",
+        "枫香树",
+        "枫香树叶",
+        "枫香脂",
+        "楓香",
+        "白胶香",
+        "红枫",
+        "路路通"
       ]
     },
     "tags": [],
@@ -107,7 +143,7 @@
     "family": "Altingiaceae",
     "genus": "Liquidambar",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -128,12 +164,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -195,11 +231,62 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "عنبر دماع أمريكي"
+      ],
+      "de": [
+        "Amerikanischer Amberbaum",
+        "Seesternbaum"
+      ],
       "en": [
-        "Alligator-wood"
+        "Alligator-wood",
+        "American storax",
+        "American sweetgum",
+        "alligatorwood",
+        "bilsted",
+        "hazel pine",
+        "redgum",
+        "satin-walnut",
+        "star-leaved gum",
+        "sweetgum"
+      ],
+      "es": [
+        "Árbol del Ámbar"
+      ],
+      "fr": [
+        "Copalme d'Amérique",
+        "Copalme d'amérique"
+      ],
+      "it": [
+        "Storace americano"
+      ],
+      "ja": [
+        "アメリカフウ",
+        "アメリカンレッドガム",
+        "モミジバフウ"
+      ],
+      "nl": [
+        "Amberboom",
+        "Amerikaanse amberboom",
+        "Storaxboom"
+      ],
+      "pl": [
+        "Ambrowiec amerykański",
+        "Ambrowiec balsamiczny"
+      ],
+      "ru": [
+        "Амбровое дерево",
+        "Ликвидамбар смолоносный",
+        "Ликвидамбр смолоносный"
+      ],
+      "zh": [
+        "北美枫香",
+        "北美枫香树"
       ]
     },
     "tags": [],

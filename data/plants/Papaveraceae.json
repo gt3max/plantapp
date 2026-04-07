@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/002242e95a228dcb3fafd0abc77a094683e49862",
-    "description": null,
+    "description": "Adlumia fungosa is a species in the Papaveraceae that is commonly known as the Allegheny vine, climbing fumitory, or mountain fringe. It is a herbaceous, creeping, flowering plant and is closely related to the Fumitory genus, Fumaria.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Adlumia fungosa"
+      ],
       "en": [
+        "Adlumia fungosa",
         "Allegheny vine"
+      ],
+      "es": [
+        "Adlumia fungosa"
+      ],
+      "fr": [
+        "Adlumia fungosa"
+      ],
+      "it": [
+        "Adlumia fungosa"
+      ],
+      "nl": [
+        "Adlumia fungosa"
+      ],
+      "pl": [
+        "Adlumia fungosa"
+      ],
+      "pt": [
+        "Adlumia fungosa"
+      ],
+      "ru": [
+        "Adlumia fungosa"
+      ],
+      "zh": [
+        "北美荷包藤"
       ]
     },
     "tags": [],
@@ -103,12 +133,12 @@
     "family": "Papaveraceae",
     "genus": "Argemone",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/be44728ca173d6f3c5e58c734d2a62e045e08eea",
-    "description": "The fruit will split open after drying.",
+    "description": "Argemone albiflora, the white prickly poppy, also known as the bluestem prickly poppy or the Texas prickly poppy, is a small erect plant with a decorative white flower with a yellow latex. It is deeply rooted with yellow or red stamens. The plant is known for the sharp prickles on its stem and leaves. The sepals fall off as the flower of this plant grows bigger. It grows in the arid regions of the southern Midwest along roadsides and disturbed pieces of land.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -119,9 +149,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "argemone_albiflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -185,11 +215,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أرجمون أبيض الأزهار"
+      ],
+      "de": [
+        "Argemone albiflora"
+      ],
       "en": [
+        "Argemone albiflora",
         "Bluestem pricklypoppy"
+      ],
+      "es": [
+        "Argemone albiflora"
+      ],
+      "fr": [
+        "Argemone albiflora"
+      ],
+      "it": [
+        "Argemone albiflora"
+      ],
+      "nl": [
+        "Argemone albiflora"
+      ],
+      "pl": [
+        "Argemone albiflora"
+      ],
+      "pt": [
+        "Argemone albiflora"
+      ],
+      "ru": [
+        "Argemone albiflora"
+      ],
+      "zh": [
+        "白蓟罂粟"
       ]
     },
     "tags": [],
@@ -201,12 +264,12 @@
     "family": "Papaveraceae",
     "genus": "Argemone",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f17b707694407be2f92e7c5f9f6ccafa6f31e425",
-    "description": "The fruit will split open after drying.",
+    "description": "Argemone mexicana, also known by the common names Mexican poppy, Mexican prickly poppy, flowering thistle, cardo, and cardosanto, is a species of poppy found in Mexico and now widely naturalized in many parts of the world. An extremely hardy pioneer plant, it is tolerant of drought and poor soil, often being the only cover on new road cuttings or verges. It has bright yellow latex.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -249,8 +312,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: seasonally dry tropical",
       "tips": "Similar plants: Cytisus scoparius | Native to: NCB, HAW JI, NWY OO, GEO, GHA",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -268,8 +331,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Oils extracted from the seed are used for lighting and for producing\\u00a0soap.\\u00a0 It has also been used on wood as a treatment for termites.\"]",
@@ -283,11 +346,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أرجمون مكسيكي"
+      ],
+      "de": [
+        "Mexikanischer Stachelmohn"
+      ],
       "en": [
+        "Argemone mexicana",
         "Bermuda thistle"
+      ],
+      "es": [
+        "Argemone mexicana"
+      ],
+      "fr": [
+        "Argémone mexicaine"
+      ],
+      "hi": [
+        "सत्यानाशी"
+      ],
+      "it": [
+        "Argemone mexicana"
+      ],
+      "ja": [
+        "アザミゲシ"
+      ],
+      "nl": [
+        "Stekelpapaver"
+      ],
+      "pl": [
+        "Argemon meksykański"
+      ],
+      "pt": [
+        "Argemone mexicana"
+      ],
+      "ru": [
+        "Argemone mexicana"
+      ],
+      "zh": [
+        "蓟罂粟"
       ]
     },
     "tags": [],
@@ -299,12 +401,12 @@
     "family": "Papaveraceae",
     "genus": "Argemone",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Argemone_munita_1.jpg",
+    "description": "Argemone munita is a species of prickly poppy known by the common names flatbud prickly poppy and chicalote. \"Munita\" means \"armed\", in reference to the many long prickles. This flower is native to California, where it is widespread throughout the western part of the state and its eastern deserts, on slopes to 10,000 feet, and along roadsides. Its range also extends into Baja California, Arizona, and Nevada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -381,9 +483,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "أرجمون مسلح"
+      ],
+      "de": [
+        "Argemone munita"
+      ],
+      "en": [
+        "Argemone munita"
+      ],
+      "es": [
+        "Argemone munita"
+      ],
+      "fr": [
+        "Argemone munita"
+      ],
+      "it": [
+        "Argemone munita"
+      ],
+      "nl": [
+        "Argemone munita"
+      ],
+      "pl": [
+        "Argemone munita"
+      ],
+      "pt": [
+        "Argemone munita"
+      ],
+      "ru": [
+        "Argemone munita"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -393,12 +528,12 @@
     "family": "Papaveraceae",
     "genus": "Argemone",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/eadc274a6e630bf6f67073727749e2353b6bb328",
-    "description": "The fruit will split open after drying.",
+    "description": "Argemone ochroleuca is a species of prickly poppy, a flowering plant commonly known as pale Mexican prickly poppy or Mexican poppy. It is native to Mexico and is also an introduced weed in many temperate and tropical regions of the world. It can grow up to 1 m in height and has a sticky yellow sap.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -475,11 +610,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أرجمون أصفر"
+      ],
+      "de": [
+        "Argemone ochroleuca"
+      ],
       "en": [
+        "Argemone ochroleuca",
         "White-flower mexican-poppy"
+      ],
+      "es": [
+        "Argemone ochroleuca"
+      ],
+      "fr": [
+        "Argemone ochroleuca"
+      ],
+      "it": [
+        "Argemone ochroleuca"
+      ],
+      "nl": [
+        "Argemone ochroleuca"
+      ],
+      "pl": [
+        "Argemone ochroleuca"
+      ],
+      "pt": [
+        "Argemone ochroleuca"
+      ],
+      "ru": [
+        "Argemone ochroleuca"
+      ],
+      "zh": [
+        "淡黄蓟罂粟"
       ]
     },
     "tags": [],
@@ -491,12 +659,12 @@
     "family": "Papaveraceae",
     "genus": "Argemone",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b0db6a7ad638a60d31a1bb761494aaabbfff429c",
-    "description": "The fruit will split open after drying.",
+    "description": "Argemone polyanthemos, the crested pricklypoppy, also known as bluestem prickly poppy, pricklypoppy, white prickly poppy, annual pricklypoppy, or as thistle poppy is an annual plant with yellow sap and showy white flowers in the poppy family (Papaveraceae).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -573,11 +741,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أرجمون كثير الأزهار"
+      ],
+      "de": [
+        "Argemone polyanthemos"
+      ],
       "en": [
+        "Argemone polyanthemos",
         "Crested pricklypoppy"
+      ],
+      "es": [
+        "Argemone polyanthemos"
+      ],
+      "fr": [
+        "Argemone polyanthemos"
+      ],
+      "it": [
+        "Argemone polyanthemos"
+      ],
+      "nl": [
+        "Argemone polyanthemos"
+      ],
+      "pl": [
+        "Argemone polyanthemos"
+      ],
+      "pt": [
+        "Argemone polyanthemos"
+      ],
+      "ru": [
+        "Argemone polyanthemos"
       ]
     },
     "tags": [],
@@ -589,12 +787,12 @@
     "family": "Papaveraceae",
     "genus": "Bocconia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6b94edb5629376e32e13a5643b1df45577e72922",
-    "description": null,
+    "description": "Bocconia frutescens is a species of flowering plant in the poppy family known by many common names, including plume poppy, tree poppy, tree celandine, parrotweed, sea oxeye daisy, and John Crow bush in English, gordolobo, llorasangre, tabaquillo, palo amarillo, palo de toro and pan cimarrón in Spanish, bois codine in French and bwa kodenn  in Haitian Kreyòl. It is native to the Americas, including Mexico, parts of Central and South America, and the West Indies.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -671,11 +869,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bocconia frutescens"
+      ],
       "en": [
+        "Bocconia frutescens",
         "Plume-poppy"
+      ],
+      "es": [
+        "Bocconia frutescens"
+      ],
+      "fr": [
+        "Bocconia frutescens"
+      ],
+      "it": [
+        "Bocconia frutescens"
+      ],
+      "nl": [
+        "Bocconia frutescens"
+      ],
+      "pl": [
+        "Bocconia frutescens"
+      ],
+      "pt": [
+        "Bocconia frutescens"
+      ],
+      "ru": [
+        "Bocconia frutescens"
       ]
     },
     "tags": [],
@@ -687,7 +912,7 @@
     "family": "Papaveraceae",
     "genus": "Capnoides",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -773,11 +998,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Capnoides sempervirens"
+      ],
       "en": [
+        "Capnoides sempervirens",
         "Rock harlequin"
+      ],
+      "es": [
+        "Capnoides sempervirens"
+      ],
+      "fr": [
+        "Capnoides sempervirens"
+      ],
+      "it": [
+        "Capnoides sempervirens"
+      ],
+      "nl": [
+        "Capnoides sempervirens"
+      ],
+      "pl": [
+        "Capnoides sempervirens"
+      ],
+      "pt": [
+        "Capnoides sempervirens"
+      ],
+      "ru": [
+        "Capnoides sempervirens"
       ]
     },
     "tags": [],
@@ -789,7 +1041,7 @@
     "family": "Papaveraceae",
     "genus": "Ceratocapnos",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -810,12 +1062,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -871,11 +1123,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "de": [
+        "Rankender Lerchensporn"
+      ],
       "en": [
+        "Ceratocapnos claviculata",
         "Climbing corydalis"
+      ],
+      "es": [
+        "Ceratocapnos claviculata"
+      ],
+      "fr": [
+        "Ceratocapnos claviculata"
+      ],
+      "it": [
+        "Ceratocapnos claviculata"
+      ],
+      "ja": [
+        "ツルエンゴサク"
+      ],
+      "nl": [
+        "Rankende helmbloem"
+      ],
+      "pl": [
+        "Ceratocapnos claviculata"
+      ],
+      "pt": [
+        "Ceratocapnos claviculata"
+      ],
+      "ru": [
+        "Ceratocapnos claviculata"
       ]
     },
     "tags": [],
@@ -887,12 +1169,12 @@
     "family": "Papaveraceae",
     "genus": "Chelidonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/0a1e418eb75e1af1cc4389e769f8fbe5.jpg",
-    "description": "Fruit a slender capsule about 2 inches long.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -908,12 +1190,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -969,9 +1251,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 6.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chelidonium asiaticum"
+      ],
+      "en": [
+        "Chelidonium asiaticum"
+      ],
+      "es": [
+        "Chelidonium asiaticum"
+      ],
+      "fr": [
+        "Chelidonium asiaticum"
+      ],
+      "it": [
+        "Chelidonium asiaticum"
+      ],
+      "nl": [
+        "Chelidonium asiaticum"
+      ],
+      "pl": [
+        "Chelidonium asiaticum"
+      ],
+      "pt": [
+        "Chelidonium asiaticum"
+      ],
+      "ru": [
+        "Чистотел азиатский"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -981,7 +1293,7 @@
     "family": "Papaveraceae",
     "genus": "Chelidonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1002,12 +1314,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1028,9 +1340,9 @@
       "watering_guide": "Propagation: Seed",
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day) | Climate: temperate",
       "tips": "Similar plants: Argemone mexicana | Native to: KGZ, NCS ST, AGW SJ, BAL OO, CHM JL",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: strong toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": [
         "No serious insect or disease problems",
         "Uses\n\nNaturalize in woodland, wild gardens or other areas where plant spread will not be a concern",
@@ -1054,8 +1366,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Historically used as a wart remover.\"]",
@@ -1069,11 +1381,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 6.3
     },
     "common_names": {
+      "ar": [
+        "عروق الصباغين"
+      ],
+      "de": [
+        "Schöllkraut"
+      ],
       "en": [
-        "Celandine"
+        "Celandine",
+        "Chelidonium majus"
+      ],
+      "es": [
+        "Chelidonium majus"
+      ],
+      "fr": [
+        "Chelidonium majus"
+      ],
+      "it": [
+        "Chelidonium majus"
+      ],
+      "ja": [
+        "クサノオウ"
+      ],
+      "ko": [
+        "애기똥풀"
+      ],
+      "nl": [
+        "stinkende gouwe"
+      ],
+      "pl": [
+        "Glistnik jaskółcze ziele"
+      ],
+      "pt": [
+        "ceruda"
+      ],
+      "ru": [
+        "чистотел большой"
+      ],
+      "tr": [
+        "Kırlangıç otu"
+      ],
+      "zh": [
+        "白屈菜"
       ]
     },
     "tags": [],
@@ -1085,12 +1439,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/952c8f5bfd3738c6e47ecb1fffad2b74.jpg",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": "Corydalis ambigua is a tuberous early flowering east Asian flowering plant species in the poppy family Papaveraceae. Its exact native range is obscure due to taxonomic confusion. It is one of the sources of the drug tetrahydropalmatine.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1169,9 +1523,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corydalis ambigua"
+      ],
+      "en": [
+        "Corydalis ambigua"
+      ],
+      "es": [
+        "Corydalis ambigua"
+      ],
+      "fr": [
+        "Corydalis ambigua"
+      ],
+      "it": [
+        "Corydalis ambigua"
+      ],
+      "nl": [
+        "Corydalis ambigua"
+      ],
+      "pl": [
+        "Corydalis ambigua"
+      ],
+      "pt": [
+        "Corydalis ambigua"
+      ],
+      "ru": [
+        "Corydalis ambigua"
+      ],
+      "zh": [
+        "东北延胡索"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1181,12 +1568,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a39b249738d2c5d944da392f82347658a623105c",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": "Corydalis aurea, also known as scrambled eggs, golden smoke, or golden corydalis, is a flowering plant in the poppy family (Papaveraceae). The plant has a broad range stretching across North America and is able to thrive within a variety of ecosystems. The plant possesses numerous distinct characteristics. Its fruit most closely resembles that of a pea pod and is typically around 3/4 of an inch in length. The plant has numerous medicinal uses, as well as uses for gardens.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1202,12 +1589,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1265,11 +1652,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.7
     },
     "common_names": {
+      "de": [
+        "Corydalis aurea"
+      ],
       "en": [
+        "Corydalis aurea",
         "Golden corydalis"
+      ],
+      "es": [
+        "Corydalis aurea"
+      ],
+      "fr": [
+        "corydale dorée"
+      ],
+      "it": [
+        "Corydalis aurea"
+      ],
+      "nl": [
+        "Corydalis aurea"
+      ],
+      "pl": [
+        "Corydalis aurea"
+      ],
+      "pt": [
+        "Corydalis aurea"
+      ],
+      "ru": [
+        "Corydalis aurea"
       ]
     },
     "tags": [],
@@ -1281,7 +1695,7 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1363,9 +1777,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corydalis bracteata"
+      ],
+      "en": [
+        "Corydalis bracteata"
+      ],
+      "es": [
+        "Corydalis bracteata"
+      ],
+      "fr": [
+        "Corydalis bracteata"
+      ],
+      "it": [
+        "Corydalis bracteata"
+      ],
+      "nl": [
+        "Corydalis bracteata"
+      ],
+      "pl": [
+        "Corydalis bracteata"
+      ],
+      "pt": [
+        "Corydalis bracteata"
+      ],
+      "ru": [
+        "Хохлатка крупноприцветниковая"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1375,7 +1819,7 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1396,12 +1840,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1423,8 +1867,8 @@
       "light_guide": "Climate: temperate",
       "tips": "Native to: BGM BE, NCS ST, NCS KC, FRA FR, UKR MO | Similar plants: Trillium erectum",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant, highest concentrations in bulb. (Source: TPPT/Agroscope)",
       "common_problems": [
         "No significant problems"
       ],
@@ -1444,8 +1888,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in bulb",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1459,11 +1903,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.0
     },
     "common_names": {
+      "ar": [
+        "قنبري أجوف"
+      ],
+      "de": [
+        "Hohler Lerchensporn"
+      ],
       "en": [
+        "Corydalis cava",
         "Hollowroot"
+      ],
+      "es": [
+        "Corydalis cava"
+      ],
+      "fr": [
+        "Corydale creuse"
+      ],
+      "it": [
+        "Corydalis cava"
+      ],
+      "nl": [
+        "holwortel"
+      ],
+      "pl": [
+        "Kokorycz pusta"
+      ],
+      "pt": [
+        "Corydalis cava"
+      ],
+      "ru": [
+        "Хохлатка полая"
       ]
     },
     "tags": [],
@@ -1475,7 +1949,7 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1557,9 +2031,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corydalis curvisiliqua"
+      ],
+      "en": [
+        "Corydalis curvisiliqua"
+      ],
+      "es": [
+        "Corydalis curvisiliqua"
+      ],
+      "fr": [
+        "Corydalis curvisiliqua"
+      ],
+      "it": [
+        "Corydalis curvisiliqua"
+      ],
+      "nl": [
+        "Corydalis curvisiliqua"
+      ],
+      "pl": [
+        "Corydalis curvisiliqua"
+      ],
+      "pt": [
+        "Corydalis curvisiliqua"
+      ],
+      "ru": [
+        "Corydalis curvisiliqua"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1569,12 +2073,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/21e39bc30c01250c23e116a0aeae6bb1fdb8058d",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": "Corydalis flavula is an herbaceous perennial plant native to the eastern United States. Its natural habitat is open woods and slopes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1590,12 +2094,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1653,11 +2157,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.7
     },
     "common_names": {
+      "de": [
+        "Corydalis flavula"
+      ],
       "en": [
+        "Corydalis flavula",
         "Yellow harlequin"
+      ],
+      "es": [
+        "Corydalis flavula"
+      ],
+      "fr": [
+        "Corydalis flavula"
+      ],
+      "it": [
+        "Corydalis flavula"
+      ],
+      "nl": [
+        "Corydalis flavula"
+      ],
+      "pl": [
+        "Corydalis flavula"
+      ],
+      "pt": [
+        "Corydalis flavula"
+      ],
+      "ru": [
+        "Corydalis flavula"
       ]
     },
     "tags": [],
@@ -1669,12 +2200,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d4408b56a7cf019a9c36c54774d4b6ca.jpg",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1753,9 +2284,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corydalis heterocarpa"
+      ],
+      "en": [
+        "Corydalis heterocarpa"
+      ],
+      "es": [
+        "Corydalis heterocarpa"
+      ],
+      "fr": [
+        "Corydalis heterocarpa"
+      ],
+      "it": [
+        "Corydalis heterocarpa"
+      ],
+      "ja": [
+        "ツクシキケマン"
+      ],
+      "nl": [
+        "Corydalis heterocarpa"
+      ],
+      "pl": [
+        "Corydalis heterocarpa"
+      ],
+      "pt": [
+        "Corydalis heterocarpa"
+      ],
+      "ru": [
+        "Corydalis heterocarpa"
+      ],
+      "zh": [
+        "异果黄堇"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1765,12 +2332,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b187c1dcd113f4dfa2b28b462a5549b0e2968ed7",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": "Corydalis incisa, incised fumewort, is an annual or biennial herbaceous species of plant in the poppy family. It is also known as purple keman or murasa-kike-man. Some authorities report it in the family Fumariaceae. The wildflower is native to Japan, Korea, Taiwan, and China, found in forests, clearings, and irrigation channels.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1786,12 +2353,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1849,11 +2416,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.7
     },
     "common_names": {
+      "de": [
+        "Corydalis incisa"
+      ],
       "en": [
+        "Corydalis incisa",
         "Incised fumewort"
+      ],
+      "es": [
+        "Corydalis incisa"
+      ],
+      "fr": [
+        "Corydalis incisa"
+      ],
+      "it": [
+        "Corydalis incisa"
+      ],
+      "ja": [
+        "ムラサキケマン"
+      ],
+      "ko": [
+        "자주괴불주머니"
+      ],
+      "nl": [
+        "Corydalis incisa"
+      ],
+      "pl": [
+        "Corydalis incisa"
+      ],
+      "pt": [
+        "Corydalis incisa"
+      ],
+      "ru": [
+        "Corydalis incisa"
+      ],
+      "tr": [
+        "Corydalis incisa"
+      ],
+      "zh": [
+        "刻叶紫堇"
       ]
     },
     "tags": [],
@@ -1865,12 +2471,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5096e8547597791a49000890be5388396e4a2944",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": "Corydalis intermedia is a species of flowering plant belonging to the family Papaveraceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1886,12 +2492,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1913,8 +2519,8 @@
       "light_guide": "Climate: temperate",
       "tips": "Native to: MIDDLE EUROPE, UKR UK, BLT, FRA FR, UKR MO | Similar plants: Trillium erectum",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant, highest concentrations in bulb. (Source: TPPT/Agroscope)",
       "common_problems": [
         "No significant problems"
       ],
@@ -1934,8 +2540,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in bulb",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1949,9 +2555,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Mittlerer Lerchensporn"
+      ],
+      "en": [
+        "Corydalis intermedia"
+      ],
+      "es": [
+        "Corydalis intermedia"
+      ],
+      "fr": [
+        "Corydalis intermedia"
+      ],
+      "it": [
+        "Corydalis intermedia"
+      ],
+      "nl": [
+        "Corydalis intermedia"
+      ],
+      "pl": [
+        "Kokorycz wątła"
+      ],
+      "pt": [
+        "Corydalis intermedia"
+      ],
+      "ru": [
+        "Хохлатка промежуточная"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1961,12 +2597,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/042e90392b3b853e030175bbb1c10281.jpg",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": "Corydalis micrantha is a species of flowering plant in the poppy family (Papaveraceae), native to the United States. Common names include smallflower fumewort, slender corydalis, southern corydalis, and golden corydalis.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2045,9 +2681,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corydalis micrantha"
+      ],
+      "en": [
+        "Corydalis micrantha"
+      ],
+      "es": [
+        "Corydalis micrantha"
+      ],
+      "fr": [
+        "Corydalis micrantha"
+      ],
+      "it": [
+        "Corydalis micrantha"
+      ],
+      "nl": [
+        "Corydalis micrantha"
+      ],
+      "pl": [
+        "Corydalis micrantha"
+      ],
+      "pt": [
+        "Corydalis micrantha"
+      ],
+      "ru": [
+        "Corydalis micrantha"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2057,12 +2723,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4e1a177a951453a9ca4abbcb54aee11f475f4e42",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": "Corydalis nobilis, the Siberian corydalis, is a perennial plant native to Siberia, Xinjiang and Kazakhstan. It was introduced to Europe by Linnaeus, who had asked his friend Erich Laxmann for seeds of Lamprocapnos spectabilis, but was sent seeds of C. nobilis instead. Both Lamprocampnos and Corydalis are members of the family Papaveraceae, with seeds having an attached elaiosome that makes them attractive to ants, which disperse the seeds.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2078,12 +2744,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2141,11 +2807,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.7
     },
     "common_names": {
+      "de": [
+        "Corydalis nobilis"
+      ],
       "en": [
+        "Corydalis nobilis",
         "Siberian corydalis"
+      ],
+      "es": [
+        "Corydalis nobilis"
+      ],
+      "fr": [
+        "Corydalis nobilis"
+      ],
+      "it": [
+        "Corydalis nobilis"
+      ],
+      "nl": [
+        "Corydalis nobilis"
+      ],
+      "pl": [
+        "Corydalis nobilis"
+      ],
+      "pt": [
+        "Corydalis nobilis"
+      ],
+      "ru": [
+        "Хохлатка благородная"
+      ],
+      "zh": [
+        "阿山黄堇"
       ]
     },
     "tags": [],
@@ -2157,12 +2853,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/debc12b487cea9f1d233166ede0caeaa.jpg",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2241,9 +2937,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corydalis pallida"
+      ],
+      "en": [
+        "Corydalis pallida"
+      ],
+      "es": [
+        "Corydalis pallida"
+      ],
+      "fr": [
+        "Corydalis pallida"
+      ],
+      "it": [
+        "Corydalis pallida"
+      ],
+      "ja": [
+        "フウロケマン"
+      ],
+      "nl": [
+        "Corydalis pallida"
+      ],
+      "pl": [
+        "Corydalis pallida"
+      ],
+      "pt": [
+        "Corydalis pallida"
+      ],
+      "ru": [
+        "Хохлатка бледная"
+      ],
+      "zh": [
+        "黃堇"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2253,12 +2985,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/28641ea47d7effc0bc20b6b7fd9ecf1767ce9238",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": "Corydalis pumila is a species of plant in the family Papaveraceae. It is found in Central Europe and has a small, fragmented distribution. In Poland, it is a rare species found only in the western part of the country. It grows mainly in fertile deciduous forests, rarely in cemeteries and parks. The aboveground shoot develops only for two months in early spring. As a very rare species losing its habitats, it is subject to legal protection in Poland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2269,17 +3001,17 @@
     "synonyms": "[\"Corydalis decipiens\", \"Pistolochia pumila\", \"Pistolochia pumila f. papillosa\", \"Corydalis pseudopumila\", \"Corydalis fabacea proles pumila\", \"Bulbocapnos lobellii\", \"Capnoides pumila\", \"Corydalis lobelii\", \"Fumaria pumila\"]",
     "care": {
       "plant_id": "corydalis_pumila",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2337,9 +3069,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corydalis pumila"
+      ],
+      "en": [
+        "Corydalis pumila"
+      ],
+      "es": [
+        "Corydalis pumila"
+      ],
+      "fr": [
+        "Corydalis pumila"
+      ],
+      "it": [
+        "Corydalis pumila"
+      ],
+      "nl": [
+        "Corydalis pumila"
+      ],
+      "pl": [
+        "Kokorycz drobna"
+      ],
+      "pt": [
+        "Corydalis pumila"
+      ],
+      "ru": [
+        "Corydalis pumila"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2349,7 +3111,7 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2367,15 +3129,15 @@
       "plant_id": "corydalis_solida",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2397,8 +3159,8 @@
       "light_guide": "Climate: temperate",
       "tips": "Native to: BGM BE, ALG, NWY OO, FRA FR, UKR MO | Similar plants: Trillium erectum",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant, highest concentrations in bulb. (Source: TPPT/Agroscope)",
       "common_problems": [
         "No significant problems"
       ],
@@ -2418,8 +3180,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in bulb",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -2433,11 +3195,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 3.7
     },
     "common_names": {
+      "ar": [
+        "كوريداليس سوليدا"
+      ],
+      "de": [
+        "Gefingerter Lerchensporn"
+      ],
       "en": [
-        "Bird-in-a-bush"
+        "Bird-in-a-bush",
+        "Corydalis solida"
+      ],
+      "es": [
+        "Corydalis solida"
+      ],
+      "fr": [
+        "Corydale à bulbe plein"
+      ],
+      "it": [
+        "Corydalis solida"
+      ],
+      "nl": [
+        "Vingerhelmbloem"
+      ],
+      "pl": [
+        "Kokorycz pełna"
+      ],
+      "pt": [
+        "Corydalis solida"
+      ],
+      "ru": [
+        "Хохлатка плотная"
+      ],
+      "zh": [
+        "实心延胡索"
       ]
     },
     "tags": [],
@@ -2449,12 +3244,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4f8bbd1fa71097ea5dbd21680deb5041.jpg",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2470,12 +3265,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2533,9 +3328,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corydalis speciosa"
+      ],
+      "en": [
+        "Corydalis speciosa"
+      ],
+      "es": [
+        "Corydalis speciosa"
+      ],
+      "fr": [
+        "Corydalis speciosa"
+      ],
+      "it": [
+        "Corydalis speciosa"
+      ],
+      "nl": [
+        "Corydalis speciosa"
+      ],
+      "pl": [
+        "Corydalis speciosa"
+      ],
+      "pt": [
+        "Corydalis speciosa"
+      ],
+      "ru": [
+        "Хохлатка прекрасная"
+      ],
+      "zh": [
+        "珠果黄堇"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2545,12 +3373,12 @@
     "family": "Papaveraceae",
     "genus": "Corydalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/3fea67a9b9a9064ae686b1c352f889ff.jpg",
-    "description": "The green capsules are tubular pods with black seeds",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2566,12 +3394,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2629,9 +3457,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corydalis turtschaninovii"
+      ],
+      "en": [
+        "Corydalis turtschaninovii"
+      ],
+      "es": [
+        "Corydalis turtschaninovii"
+      ],
+      "fr": [
+        "Corydalis turtschaninovii"
+      ],
+      "it": [
+        "Corydalis turtschaninovii"
+      ],
+      "ja": [
+        "エンゴサク"
+      ],
+      "ko": [
+        "조선현호색"
+      ],
+      "nl": [
+        "Corydalis turtschaninovii"
+      ],
+      "pl": [
+        "Corydalis turtschaninovii"
+      ],
+      "pt": [
+        "Corydalis turtschaninovii"
+      ],
+      "ru": [
+        "Хохлатка Турчанинова"
+      ],
+      "zh": [
+        "齿瓣延胡索"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2641,12 +3508,12 @@
     "family": "Papaveraceae",
     "genus": "Dendromecon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5ca5a5abea3ccad6f39960bffc2add330c43c8c3",
-    "description": null,
+    "description": "Dendromecon rigida, also called bush poppy or tree poppy, is a shrub or small tree of the Papaveraceae native to California and Baja California.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2723,11 +3590,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dendromecon rigida"
+      ],
       "en": [
+        "Dendromecon rigida",
         "Tree-poppy"
+      ],
+      "es": [
+        "Dendromecon rigida"
+      ],
+      "fr": [
+        "Dendromecon rigida"
+      ],
+      "it": [
+        "Dendromecon rigida"
+      ],
+      "nl": [
+        "Dendromecon rigida"
+      ],
+      "pl": [
+        "Dendromecon rigida"
+      ],
+      "pt": [
+        "Dendromecon rigida"
+      ],
+      "ru": [
+        "Dendromecon rigida"
+      ],
+      "zh": [
+        "罂粟木"
       ]
     },
     "tags": [],
@@ -2739,12 +3636,12 @@
     "family": "Papaveraceae",
     "genus": "Dicentra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/91d7876af35a35b476797f3c3797d42607dbf5cc",
-    "description": "1/2 inch drooping seed capsules are a somewhat flattened oval. Each capsule divides into 2 parts to release several seeds. Fruits are available in June.",
+    "description": "Dicentra canadensis, the squirrel corn, is a flowering plant from eastern North America with oddly shaped white flowers and finely divided leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2821,11 +3718,46 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ذرة السناجيب"
+      ],
+      "de": [
+        "Dicentra canadensis"
+      ],
       "en": [
-        "Turkey-corn"
+        "Dicentra canadensis",
+        "Turkey-corn",
+        "squirrel corn"
+      ],
+      "es": [
+        "Dicentra canadensis"
+      ],
+      "fr": [
+        "Dicentra canadensis"
+      ],
+      "it": [
+        "Dicentra canadensis"
+      ],
+      "nl": [
+        "Dicentra canadensis"
+      ],
+      "pl": [
+        "Dicentra canadensis"
+      ],
+      "pt": [
+        "Dicentra canadensis"
+      ],
+      "ru": [
+        "Dicentra canadensis"
+      ],
+      "zh": [
+        "加拿大荷包牡丹",
+        "加拿大马裤花"
       ]
     },
     "tags": [],
@@ -2837,12 +3769,12 @@
     "family": "Papaveraceae",
     "genus": "Dicentra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/de3eb4eeea4efce424c9c40ea8c7fcac487691e7",
-    "description": "The oval seed capsules taper into points at both ends. These capsules split apart into 2 segments to release many seeds. Fruits appear from May to June.",
+    "description": "Dicentra cucullaria, Dutchman's britches, or Dutchman's breeches, is a perennial herbaceous plant, native to rich woods of eastern North America, with a disjunct population in the Columbia Basin.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2919,11 +3851,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dicentra cucullaria"
+      ],
       "en": [
+        "Dicentra cucullaria",
         "Dutchman's-breeches"
+      ],
+      "es": [
+        "Dicentra cucullaria"
+      ],
+      "fr": [
+        "Dicentra cucullaria"
+      ],
+      "it": [
+        "Dicentra cucullaria"
+      ],
+      "nl": [
+        "Dicentra cucullaria"
+      ],
+      "pl": [
+        "Dicentra cucullaria"
+      ],
+      "pt": [
+        "Dicentra cucullaria"
+      ],
+      "ru": [
+        "Dicentra cucullaria"
+      ],
+      "zh": [
+        "僧帽荷包牡丹",
+        "马裤花"
       ]
     },
     "tags": [],
@@ -2935,12 +3898,12 @@
     "family": "Papaveraceae",
     "genus": "Dicentra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/61a768963acf367c5918890554e19f9f59abff81",
-    "description": "The fruit a many-seeded capsule. Fruit becomes available July-August",
+    "description": "Dicentra eximia is a flowering plant with fernlike leaves and oddly shaped flowers native to the Appalachian Mountains. It is similar to the Pacific bleeding-heart, which grows on the Pacific Coast. Dicentra eximia is a perennial herb in the Papaveraceae family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3017,11 +3980,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dicentra eximia"
+      ],
       "en": [
-        "Wild bleeding-heart"
+        "Dicentra eximia",
+        "Wild bleeding-heart",
+        "bleeding heart",
+        "wild bleeding heart"
+      ],
+      "es": [
+        "Dicentra eximia"
+      ],
+      "fr": [
+        "Dicentra eximia"
+      ],
+      "it": [
+        "Dicentra eximia"
+      ],
+      "nl": [
+        "Dicentra eximia"
+      ],
+      "pl": [
+        "Dicentra eximia"
+      ],
+      "pt": [
+        "Dicentra eximia"
+      ],
+      "ru": [
+        "Dicentra eximia"
+      ],
+      "zh": [
+        "繸毛荷包牡丹",
+        "繸毛马裤花"
       ]
     },
     "tags": [],
@@ -3033,12 +4029,12 @@
     "family": "Papaveraceae",
     "genus": "Dicentra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6586cce5a13de8c91475c16eaec4d20dff3e81c0",
-    "description": null,
+    "description": "Dicentra formosa is a species of flowering plant in the poppy family, Papaveraceae. With its fern-like foliage and inflorescence of drooping pink, purple, yellow or cream \"hearts\", this species is native to the United States' Pacific Northwest and West Coast of North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3115,11 +4111,30 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Amerikanische Herzblume",
+        "Pazifische Herzblume"
+      ],
       "en": [
-        "Bleeding-heart"
+        "Bleeding-heart",
+        "Pacific bleeding heart",
+        "western bleeding heart",
+        "wild bleeding heart"
+      ],
+      "ru": [
+        "Дицентра красивая"
+      ],
+      "tr": [
+        "Kanayan Kalpler, Ağlayan Kalpler"
+      ],
+      "zh": [
+        "华丽荷包牡丹",
+        "华丽马裤花"
       ]
     },
     "tags": [],
@@ -3131,12 +4146,12 @@
     "family": "Papaveraceae",
     "genus": "Ehrendorferia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7e9a165100b259b816c505fb7eb5f996.jpg",
-    "description": null,
+    "description": "Ehrendorferia chrysantha, with the common name golden eardrops, is a biennial to perennial plant in the family Papaveraceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3213,9 +4228,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ehrendorferia chrysantha"
+      ],
+      "en": [
+        "Ehrendorferia chrysantha"
+      ],
+      "es": [
+        "Ehrendorferia chrysantha"
+      ],
+      "fr": [
+        "Ehrendorferia chrysantha"
+      ],
+      "it": [
+        "Ehrendorferia chrysantha"
+      ],
+      "nl": [
+        "Ehrendorferia chrysantha"
+      ],
+      "pl": [
+        "Ehrendorferia chrysantha"
+      ],
+      "pt": [
+        "Ehrendorferia chrysantha"
+      ],
+      "ru": [
+        "Ehrendorferia chrysantha"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3225,12 +4270,12 @@
     "family": "Papaveraceae",
     "genus": "Eschscholzia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/910dfc84e3cb4a0dca426f995a854d0a4c0b373f",
-    "description": null,
+    "description": "Eschscholzia caespitosa is a species of poppy known by the common names foothill poppy, tufted poppy and collarless California poppy.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3307,11 +4352,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Eschscholzia caespitosa"
+      ],
       "en": [
+        "Eschscholzia caespitosa",
         "Tufted california-poppy"
+      ],
+      "es": [
+        "Eschscholzia caespitosa"
+      ],
+      "fr": [
+        "Eschscholzia caespitosa"
+      ],
+      "it": [
+        "Eschscholzia caespitosa"
+      ],
+      "nl": [
+        "Eschscholzia caespitosa"
+      ],
+      "pl": [
+        "Eschscholzia caespitosa"
+      ],
+      "pt": [
+        "Eschscholzia caespitosa"
+      ],
+      "ru": [
+        "Eschscholzia caespitosa"
       ]
     },
     "tags": [],
@@ -3323,7 +4395,7 @@
     "family": "Papaveraceae",
     "genus": "Eschscholzia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3371,8 +4443,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Cosmos",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3390,8 +4462,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Wildflower\"]",
@@ -3405,11 +4477,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "خشخاش كاليفورنيا"
+      ],
+      "de": [
+        "Kalifornischer Mohn"
+      ],
       "en": [
-        "California-poppy"
+        "California-poppy",
+        "Eschscholzia californica"
+      ],
+      "es": [
+        "Eschscholzia californica"
+      ],
+      "fr": [
+        "Pavot de Californie"
+      ],
+      "it": [
+        "Eschscholzia californica"
+      ],
+      "ja": [
+        "ハナビシソウ"
+      ],
+      "nl": [
+        "Slaapmutsje"
+      ],
+      "pl": [
+        "Pozłotka kalifornijska"
+      ],
+      "pt": [
+        "Eschscholzia californica"
+      ],
+      "ru": [
+        "Эшшольция калифорнийская"
+      ],
+      "tr": [
+        "Kaliforniya gelinciği"
+      ],
+      "zh": [
+        "花菱草"
       ]
     },
     "tags": [],
@@ -3421,12 +4532,12 @@
     "family": "Papaveraceae",
     "genus": "Eschscholzia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f3cb7fe9bbe2d615b937ff00ef7bfe482f0c64af",
-    "description": null,
+    "description": "Eschscholzia glyptosperma is a species of poppy known by the common names desert gold poppy, desert golden poppy, and Mojave poppy.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3503,11 +4614,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Eschscholzia glyptosperma"
+      ],
       "en": [
-        "Desert poppy"
+        "Desert poppy",
+        "Eschscholzia glyptosperma"
+      ],
+      "es": [
+        "Eschscholzia glyptosperma"
+      ],
+      "fr": [
+        "Eschscholzia glyptosperma"
+      ],
+      "it": [
+        "Eschscholzia glyptosperma"
+      ],
+      "nl": [
+        "Eschscholzia glyptosperma"
+      ],
+      "pl": [
+        "Eschscholzia glyptosperma"
+      ],
+      "pt": [
+        "Eschscholzia glyptosperma"
+      ],
+      "ru": [
+        "Eschscholzia glyptosperma"
       ]
     },
     "tags": [],
@@ -3519,12 +4657,12 @@
     "family": "Papaveraceae",
     "genus": "Eschscholzia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/160b948a2901c85ff004954aeadd9873.jpg",
-    "description": null,
+    "description": "Eschscholzia minutiflora is a species of poppy known by the common name pygmy poppy.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3601,9 +4739,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eschscholzia minutiflora"
+      ],
+      "en": [
+        "Eschscholzia minutiflora"
+      ],
+      "es": [
+        "Eschscholzia minutiflora"
+      ],
+      "fr": [
+        "Eschscholzia minutiflora"
+      ],
+      "it": [
+        "Eschscholzia minutiflora"
+      ],
+      "nl": [
+        "Eschscholzia minutiflora"
+      ],
+      "pl": [
+        "Eschscholzia minutiflora"
+      ],
+      "pt": [
+        "Eschscholzia minutiflora"
+      ],
+      "ru": [
+        "Eschscholzia minutiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3613,12 +4781,12 @@
     "family": "Papaveraceae",
     "genus": "Eschscholzia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e9a5b1c8aeafd921b6a3561dbea54b87d4074b79",
-    "description": null,
+    "description": "Eschscholzia parishii, with the common name Parish's poppy, is an annual desert wildflower in the Poppy family (Papaveraceae), native to several North American desert regions.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3695,11 +4863,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Eschscholzia parishii"
+      ],
       "en": [
+        "Eschscholzia parishii",
         "Parish's poppy"
+      ],
+      "es": [
+        "Eschscholzia parishii"
+      ],
+      "fr": [
+        "Eschscholzia parishii"
+      ],
+      "it": [
+        "Eschscholzia parishii"
+      ],
+      "nl": [
+        "Eschscholzia parishii"
+      ],
+      "pl": [
+        "Eschscholzia parishii"
+      ],
+      "pt": [
+        "Eschscholzia parishii"
+      ],
+      "ru": [
+        "Eschscholzia parishii"
       ]
     },
     "tags": [],
@@ -3711,12 +4906,12 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5e2dfbb8c6c51191660634e5777319f715c2cf3f",
-    "description": null,
+    "description": "Fumaria agraria is an herbaceous annual plant in the poppy family Papaveraceae. It is native to North Africa and the western Mediterranean Europe, and has been introduced to Chile, Peru, Ecuador, and northern Argentina, where it is now an invasive species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3727,7 +4922,7 @@
     "synonyms": "[\"Fumaria agraria var. beltranii\", \"Fumaria agraria var. mauritanica\", \"Fumaria embergeri\", \"Fumaria agraria var. chilensis\", \"Fumaria agraria subsp. embergeri\", \"Fumaria agraria var. elata\", \"Fumaria agraria var. maximilianii\"]",
     "care": {
       "plant_id": "fumaria_agraria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3793,11 +4988,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Fumaria agraria"
+      ],
       "en": [
-        "Field fumitory"
+        "Field fumitory",
+        "Fumaria agraria"
+      ],
+      "es": [
+        "Fumaria agraria"
+      ],
+      "fr": [
+        "Fumaria agraria"
+      ],
+      "it": [
+        "Fumaria agraria"
+      ],
+      "nl": [
+        "Fumaria agraria"
+      ],
+      "pl": [
+        "Fumaria agraria"
+      ],
+      "pt": [
+        "Fumaria agraria"
+      ],
+      "ru": [
+        "Fumaria agraria"
       ]
     },
     "tags": [],
@@ -3809,12 +5031,12 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7340415b770086bd376f6acdb3e81b0fbd87ac38",
-    "description": null,
+    "description": "Fumaria bastardii, commonly, tall ramping fumitory or bastard's fumitory, is a tall, many-branched herbaceous flowering plant native to Western Europe including the British Isles and the northern Mediterranean. The species is a weed of arable and disturbed ground, and occurs as an introduced alien in many areas of the world with suitable climates, including Southwest Australia and North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3825,17 +5047,17 @@
     "synonyms": "[\"Fumaria bastardii var. confusa\", \"Fumaria bastardii var. benedicta\", \"Fumaria muralis\", \"Fumaria muralis var. affinis\", \"Fumaria muralis proles vagans\", \"Fumaria gussonei\", \"Fumaria almensis\", \"Fumaria codinae\", \"Fumaria muralis var. pustulosa\", \"Fumaria muralis proles affinis\"]",
     "care": {
       "plant_id": "fumaria_bastardii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3891,11 +5113,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Fumaria bastardii"
+      ],
       "en": [
+        "Fumaria bastardii",
         "Tall ramping-fumitory"
+      ],
+      "es": [
+        "Fumaria bastardii"
+      ],
+      "fr": [
+        "Fumaria bastardii"
+      ],
+      "it": [
+        "Fumaria bastardii"
+      ],
+      "nl": [
+        "Fumaria bastardii"
+      ],
+      "pl": [
+        "Fumaria bastardii"
+      ],
+      "pt": [
+        "Fumaria bastardii"
+      ],
+      "ru": [
+        "Fumaria bastardii"
       ]
     },
     "tags": [],
@@ -3907,7 +5156,7 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3923,17 +5172,17 @@
     "synonyms": "[\"Fumaria officinalis var. capreolata\"]",
     "care": {
       "plant_id": "fumaria_capreolata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3955,8 +5204,8 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3974,8 +5223,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -3989,11 +5238,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Ranken-Erdrauch"
+      ],
       "en": [
-        "Climbing fumitory"
+        "Climbing fumitory",
+        "Fumaria capreolata"
+      ],
+      "es": [
+        "Fumaria capreolata"
+      ],
+      "fr": [
+        "Fumaria capreolata"
+      ],
+      "it": [
+        "Fumaria capreolata"
+      ],
+      "nl": [
+        "rankende duivenkervel"
+      ],
+      "pl": [
+        "Fumaria capreolata"
+      ],
+      "pt": [
+        "Fumaria capreolata"
+      ],
+      "ru": [
+        "Дымянка козья"
       ]
     },
     "tags": [],
@@ -4005,12 +5281,12 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/177a27dee9e4394e2ab680cbeeeb0506b1dff35b",
-    "description": null,
+    "description": "Fumaria densiflora is a species of annual herb in the family Papaveraceae. They have a self-supporting growth form and alternate, one leaf per node, leaves. Leaves can be dissected twice or more.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4021,17 +5297,17 @@
     "synonyms": "[\"Fumaria littoralis\", \"Fumaria officinalis subsp. densiflora\", \"Fumaria densiflora var. albida\", \"Fumaria officinalis subsp. micrantha\", \"Fumaria micrantha var. littoralis\", \"Fumaria calycina\", \"Fumaria aegyptiaca\", \"Fumaria obtusisepala\", \"Fumaria media\", \"Fumaria micrantha\"]",
     "care": {
       "plant_id": "fumaria_densiflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4087,11 +5363,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Fumaria densiflora"
+      ],
       "en": [
+        "Fumaria densiflora",
         "Narrow-leaf fumitory"
+      ],
+      "es": [
+        "Fumaria densiflora"
+      ],
+      "fr": [
+        "Fumaria densiflora"
+      ],
+      "it": [
+        "Fumaria densiflora"
+      ],
+      "nl": [
+        "Fumaria densiflora"
+      ],
+      "pl": [
+        "Fumaria densiflora"
+      ],
+      "pt": [
+        "Fumaria densiflora"
+      ],
+      "ru": [
+        "Fumaria densiflora"
       ]
     },
     "tags": [],
@@ -4103,7 +5406,7 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4119,17 +5422,17 @@
     "synonyms": "[\"Fumaria media var. muralis\", \"Fumaria capreolata var. muralis\"]",
     "care": {
       "plant_id": "fumaria_muralis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4185,11 +5488,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.4
     },
     "common_names": {
+      "de": [
+        "Fumaria muralis"
+      ],
       "en": [
-        "Common ramping-fumitory"
+        "Common ramping-fumitory",
+        "Fumaria muralis"
+      ],
+      "es": [
+        "Fumaria muralis"
+      ],
+      "fr": [
+        "Fumaria muralis"
+      ],
+      "it": [
+        "Fumaria muralis"
+      ],
+      "ja": [
+        "セイヨウエンゴサク"
+      ],
+      "nl": [
+        "Fumaria muralis"
+      ],
+      "pl": [
+        "Fumaria muralis"
+      ],
+      "pt": [
+        "Fumaria muralis"
+      ],
+      "ru": [
+        "Fumaria muralis"
+      ],
+      "zh": [
+        "墙生烟堇"
       ]
     },
     "tags": [],
@@ -4201,12 +5537,12 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/22c205f1ca1cac11efc8b41d39752522970dc6b8",
-    "description": null,
+    "description": "Fumaria occidentalis, the western ramping-fumitory, is a species of flowering plant in the genus Fumaria that is endemic to Cornwall. It is the largest of the British fumitories, and was discovered in 1904.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4217,17 +5553,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "fumaria_occidentalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4283,11 +5619,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Fumaria occidentalis"
+      ],
       "en": [
+        "Fumaria occidentalis",
         "Western fumitory"
+      ],
+      "es": [
+        "Fumaria occidentalis"
+      ],
+      "fr": [
+        "Fumaria occidentalis"
+      ],
+      "it": [
+        "Fumaria occidentalis"
+      ],
+      "nl": [
+        "Fumaria occidentalis"
+      ],
+      "pl": [
+        "Fumaria occidentalis"
+      ],
+      "pt": [
+        "Fumaria occidentalis"
+      ],
+      "ru": [
+        "Fumaria occidentalis"
       ]
     },
     "tags": [],
@@ -4299,7 +5662,7 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4315,17 +5678,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "fumaria_officinalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4347,8 +5710,8 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -4366,8 +5729,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -4381,11 +5744,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "بقلة الملك"
+      ],
+      "de": [
+        "Gewöhnlicher Erdrauch"
+      ],
       "en": [
-        "Common fumitory"
+        "Common fumitory",
+        "Fumaria officinalis"
+      ],
+      "es": [
+        "Fumaria officinalis"
+      ],
+      "fr": [
+        "Fumeterre officinale"
+      ],
+      "it": [
+        "Fumaria officinalis"
+      ],
+      "ja": [
+        "カラクサケマン"
+      ],
+      "nl": [
+        "gewone duivenkervel"
+      ],
+      "pl": [
+        "Dymnica pospolita"
+      ],
+      "pt": [
+        "erva-passarinha"
+      ],
+      "ru": [
+        "Дымянка лекарственная"
+      ],
+      "tr": [
+        "Şahtere otu"
+      ],
+      "zh": [
+        "球果紫菫"
       ]
     },
     "tags": [],
@@ -4397,12 +5799,12 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/173945863a555995ed78b8c9e7a6b971e19e22f5",
-    "description": null,
+    "description": "Fumaria parviflora is a species of flowering plant known by the common names fineleaf fumitory, fine-leaved fumitory and Indian fumitory. It is native to Europe, Asia, and Africa, but it is common and widely distributed in many other parts of the world. It is sometimes weedy. The small flowers are dull white with purple tips. The fruit is a rounded nutlet with a central crest.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4413,17 +5815,17 @@
     "synonyms": "[\"Fumaria vaillantii subsp. parviflora\", \"Fumaria officinalis var. parviflora\"]",
     "care": {
       "plant_id": "fumaria_parviflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4479,11 +5881,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "حميرا"
+      ],
+      "de": [
+        "Kleinblütiger Erdrauch"
+      ],
       "en": [
-        "Fine-leaf fumitory"
+        "Fine-leaf fumitory",
+        "Fumaria parviflora"
+      ],
+      "es": [
+        "Fumaria parviflora"
+      ],
+      "fr": [
+        "Fumaria parviflora"
+      ],
+      "it": [
+        "Fumaria parviflora"
+      ],
+      "nl": [
+        "Fumaria parviflora"
+      ],
+      "pl": [
+        "Fumaria parviflora"
+      ],
+      "pt": [
+        "Fumaria parviflora"
+      ],
+      "ru": [
+        "Fumaria parviflora"
       ]
     },
     "tags": [],
@@ -4495,12 +5927,12 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/3eccc2ccb7c54395df5ed8c9ef764d16.jpg",
-    "description": null,
+    "description": "Fumaria purpurea, known as purple ramping-fumitory, is an annual flowering herbaceous plant in the poppy family which is endemic to the British Isles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4511,7 +5943,7 @@
     "synonyms": "[\"Fumaria capreolata var. devoniensis\"]",
     "care": {
       "plant_id": "fumaria_purpurea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4577,9 +6009,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fumaria purpurea"
+      ],
+      "en": [
+        "Fumaria purpurea"
+      ],
+      "es": [
+        "Fumaria purpurea"
+      ],
+      "fr": [
+        "Fumaria purpurea"
+      ],
+      "it": [
+        "Fumaria purpurea"
+      ],
+      "nl": [
+        "Fumaria purpurea"
+      ],
+      "pl": [
+        "Fumaria purpurea"
+      ],
+      "pt": [
+        "Fumaria purpurea"
+      ],
+      "ru": [
+        "Fumaria purpurea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4589,7 +6051,7 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4605,7 +6067,7 @@
     "synonyms": "[\"Fumaria muralis var. tenuisecta\", \"Fumaria bonanovae\", \"Fumaria apiculata\", \"Fumaria muralis var. paui\", \"Fumaria merinoi\", \"Fumaria agraria subsp. merinoi\", \"Fumaria muralis var. multiflora\", \"Fumaria agraria subsp. merinoi\", \"Fumaria paradoxa\", \"Fumaria martini\"]",
     "care": {
       "plant_id": "fumaria_reuteri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4671,11 +6133,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Fumaria reuteri"
+      ],
       "en": [
-        "Few-flower fumitory"
+        "Few-flower fumitory",
+        "Fumaria reuteri"
+      ],
+      "es": [
+        "Fumaria reuteri"
+      ],
+      "fr": [
+        "Fumaria reuteri"
+      ],
+      "it": [
+        "Fumaria reuteri"
+      ],
+      "nl": [
+        "Fumaria reuteri"
+      ],
+      "pl": [
+        "Fumaria reuteri"
+      ],
+      "pt": [
+        "Fumaria reuteri"
+      ],
+      "ru": [
+        "Fumaria reuteri"
       ]
     },
     "tags": [],
@@ -4687,12 +6176,12 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a503607c7191c6c203e7a595f45cfba7953caaf2",
-    "description": null,
+    "description": "Fumaria schleicheri is a species of annual herb in the family Papaveraceae. They have a self-supporting growth form and have simple, broad leaves. Individuals can grow to 19 cm.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4703,7 +6192,7 @@
     "synonyms": "[\"Fumaria vaillantii subsp. schleicheri\", \"Fumaria parviflora subsp. schleicheri\"]",
     "care": {
       "plant_id": "fumaria_schleicheri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4735,8 +6224,8 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -4754,8 +6243,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -4769,9 +6258,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dunkler Erdrauch"
+      ],
+      "en": [
+        "Fumaria schleicheri"
+      ],
+      "es": [
+        "Fumaria schleicheri"
+      ],
+      "fr": [
+        "Fumaria schleicheri"
+      ],
+      "it": [
+        "Fumaria schleicheri"
+      ],
+      "nl": [
+        "Fumaria schleicheri"
+      ],
+      "pl": [
+        "Fumaria schleicheri"
+      ],
+      "pt": [
+        "Fumaria schleicheri"
+      ],
+      "ru": [
+        "Fumaria schleicheri"
+      ],
+      "tr": [
+        "Fumaria schleicheri"
+      ],
+      "zh": [
+        "烟堇"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4781,7 +6306,7 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4797,7 +6322,7 @@
     "synonyms": "[\"Fumaria muralis var. sepium\"]",
     "care": {
       "plant_id": "fumaria_sepium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -4863,9 +6388,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fumaria sepium"
+      ],
+      "en": [
+        "Fumaria sepium"
+      ],
+      "es": [
+        "Fumaria sepium"
+      ],
+      "fr": [
+        "Fumaria sepium"
+      ],
+      "it": [
+        "Fumaria sepium"
+      ],
+      "nl": [
+        "Fumaria sepium"
+      ],
+      "pl": [
+        "Fumaria sepium"
+      ],
+      "pt": [
+        "Fumaria sepium"
+      ],
+      "ru": [
+        "Fumaria sepium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4875,12 +6430,12 @@
     "family": "Papaveraceae",
     "genus": "Fumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6526ae5e7bccffe4996e3bff89af97a33fbc6d5d",
-    "description": null,
+    "description": "Fumaria vaillantii, or earthsmoke, is a species of perennial herb in the family Papaveraceae. They have a self-supporting growth form and simple, broad leaves. Individuals can grow to 28 cm. Fumaria vaillantii originates from Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4891,17 +6446,17 @@
     "synonyms": "[\"Fumaria parviflora subsp. vaillantii\"]",
     "care": {
       "plant_id": "fumaria_vaillantii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4957,11 +6512,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Blasser Erdrauch"
+      ],
       "en": [
-        "Few-flower fumitory"
+        "Few-flower fumitory",
+        "Fumaria vaillantii"
+      ],
+      "es": [
+        "Fumaria vaillantii"
+      ],
+      "fr": [
+        "Fumaria vaillantii"
+      ],
+      "it": [
+        "Fumaria di Vaillant"
+      ],
+      "nl": [
+        "Fumaria vaillantii"
+      ],
+      "pl": [
+        "dymnica drobnokwiatowa"
+      ],
+      "pt": [
+        "Fumaria vaillantii"
+      ],
+      "ru": [
+        "Fumaria vaillantii"
+      ],
+      "zh": [
+        "短梗烟堇"
       ]
     },
     "tags": [],
@@ -4973,7 +6558,7 @@
     "family": "Papaveraceae",
     "genus": "Glaucium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4989,17 +6574,17 @@
     "synonyms": "[\"Glaucium fischeri\", \"Glaucium glaucium\", \"Glaucium fulvum\", \"Glaucium littorale\", \"Chelidonium littorale\", \"Glaucium luteum\", \"Glaucium flavum f. subleiocarpum\", \"Glaucium corniculatum var. fulvum\", \"Glaucium corniculatum f. grandiflorum\", \"Glaucium glabrum\"]",
     "care": {
       "plant_id": "glaucium_flavum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5021,8 +6606,8 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5040,8 +6625,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -5055,11 +6640,66 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "ar": [
+        "قرن الجديان",
+        "ماميثا صفراء",
+        "نعمان"
+      ],
+      "de": [
+        "Gelber Hornmohn",
+        "glaucienne jaune"
+      ],
       "en": [
-        "Horned-poppy"
+        "Horned-poppy",
+        "yellow horned poppy"
+      ],
+      "es": [
+        "Adormidera marina",
+        "Chelidonium fulvum",
+        "Chelidonium glaucium",
+        "Chelidonium glaucum",
+        "Glaucio",
+        "Glaucium fulvum",
+        "Glaucium glaucum",
+        "Glaucium grandiflorum",
+        "Glaucium luteum",
+        "Glaucium maritimum",
+        "Glaucium serpieri",
+        "adormidera/amapola marina",
+        "amapola loca"
+      ],
+      "fr": [
+        "Glaucienne jaune"
+      ],
+      "it": [
+        "Chelidonium glaucium",
+        "Glaucium fulvum",
+        "Glaucium glaucum",
+        "Glaucium luteum",
+        "Glaucium maritimum",
+        "Papavero giallo"
+      ],
+      "nl": [
+        "gele hoornpapaver"
+      ],
+      "pl": [
+        "Siwiec żółty"
+      ],
+      "ru": [
+        "Глауциум жёлтый",
+        "Мачок желтый",
+        "Мачок жёлтый"
+      ],
+      "zh": [
+        "金花海罂粟",
+        "黃花海罌粟",
+        "黄海罂粟",
+        "黄花海罂粟"
       ]
     },
     "tags": [],
@@ -5071,12 +6711,12 @@
     "family": "Papaveraceae",
     "genus": "Hylomecon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/eb0f492a11a7fd96e19753601c7d0e724579a7cb",
-    "description": null,
+    "description": "Hylomecon japonica is a species of flowering plant in the family Papaveraceae, native to China and Japan. It was first described by Carl Peter Thunberg in 1784 as Chelidonium japonicum.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5153,11 +6793,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hylomecon japonica"
+      ],
       "en": [
-        "Forest-poppy"
+        "Forest-poppy",
+        "Hylomecon japonica"
+      ],
+      "es": [
+        "Hylomecon japonica"
+      ],
+      "fr": [
+        "Hylomecon japonica"
+      ],
+      "it": [
+        "Hylomecon japonica"
+      ],
+      "ja": [
+        "ヤマブキソウ"
+      ],
+      "nl": [
+        "Hylomecon japonica"
+      ],
+      "pl": [
+        "Hylomecon japonica"
+      ],
+      "pt": [
+        "Hylomecon japonica"
+      ],
+      "ru": [
+        "Hylomecon japonica"
+      ],
+      "zh": [
+        "荷青花"
       ]
     },
     "tags": [],
@@ -5169,7 +6842,7 @@
     "family": "Papaveraceae",
     "genus": "Hylomecon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5251,9 +6924,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hylomecon japonicum"
+      ],
+      "en": [
+        "Hylomecon japonicum"
+      ],
+      "es": [
+        "Hylomecon japonicum"
+      ],
+      "fr": [
+        "Hylomecon japonicum"
+      ],
+      "it": [
+        "Hylomecon japonicum"
+      ],
+      "nl": [
+        "Hylomecon japonicum"
+      ],
+      "pl": [
+        "Hylomecon japonicum"
+      ],
+      "pt": [
+        "Hylomecon japonicum"
+      ],
+      "ru": [
+        "Hylomecon japonicum"
+      ],
+      "zh": [
+        "日本荷青花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5263,12 +6969,12 @@
     "family": "Papaveraceae",
     "genus": "Hypecoum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d661f449663215408c7d26e627f5bc80606cf088",
-    "description": null,
+    "description": "Hypecoum imberbe, the sicklefruit hypecoum, is a species of annual herb in the family Papaveraceae. Flowers are visited by Lycaena phlaeas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5279,17 +6985,17 @@
     "synonyms": "[\"Hypecoum procumbens subsp. imberbe\", \"Hypecoum glaucescens\", \"Hypecoum grandiflorum\", \"Hypecoum procumbens subsp. glaucescens\", \"Hypecoum procumbens var. glaucescens\", \"Hypecoum procumbens subsp. aequiloba\", \"Hypecoum procumbens subsp. grandiflorum\", \"Hypecoum pendulum\"]",
     "care": {
       "plant_id": "hypecoum_imberbe",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5345,11 +7051,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Hypecoum imberbe"
+      ],
       "en": [
+        "Hypecoum imberbe",
         "Sicklefruit hypecoum"
+      ],
+      "es": [
+        "Hypecoum imberbe"
+      ],
+      "fr": [
+        "Hypecoum imberbe"
+      ],
+      "it": [
+        "Hypecoum imberbe"
+      ],
+      "nl": [
+        "Hypecoum imberbe"
+      ],
+      "pl": [
+        "Hypecoum imberbe"
+      ],
+      "pt": [
+        "Hypecoum imberbe"
+      ],
+      "ru": [
+        "Hypecoum imberbe"
       ]
     },
     "tags": [],
@@ -5361,12 +7094,12 @@
     "family": "Papaveraceae",
     "genus": "Hypecoum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d486442e5371905d4b8f866d093b12ca3430f2df",
-    "description": null,
+    "description": "Hypecoum pendulum is a species of flowering plant in the poppy family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5377,17 +7110,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypecoum_pendulum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5443,11 +7176,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "حشيش"
+      ],
+      "de": [
+        "Hypecoum pendulum"
+      ],
       "en": [
+        "Hypecoum pendulum",
         "Pendent hypecoum"
+      ],
+      "es": [
+        "Hypecoum pendulum"
+      ],
+      "fr": [
+        "Hypecoum pendulum"
+      ],
+      "it": [
+        "Hypecoum pendulum"
+      ],
+      "nl": [
+        "Hypecoum pendulum"
+      ],
+      "pl": [
+        "Hypecoum pendulum"
+      ],
+      "pt": [
+        "Hypecoum pendulum"
+      ],
+      "ru": [
+        "Hypecoum pendulum"
       ]
     },
     "tags": [],
@@ -5459,12 +7222,12 @@
     "family": "Papaveraceae",
     "genus": "Hypecoum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6be8bc5f250d5046f1ea2282e7584bea8c6d9a47",
-    "description": null,
+    "description": "Hypecoum procumbens, the sickle-fruited hypecoum, is a species of annual herb in the family Papaveraceae. They have a self-supporting growth form and simple leaves. Individuals can grow to 40 cm tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5475,7 +7238,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "hypecoum_procumbens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5541,11 +7304,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جهيرة"
+      ],
+      "de": [
+        "Niederliegende Lappenblume"
+      ],
       "en": [
+        "Hypecoum procumbens",
         "Procumbent hypecoum"
+      ],
+      "es": [
+        "Hypecoum procumbens"
+      ],
+      "fr": [
+        "Hypecoum procumbens"
+      ],
+      "it": [
+        "Hypecoum procumbens"
+      ],
+      "nl": [
+        "Hypecoum procumbens"
+      ],
+      "pl": [
+        "Hypecoum procumbens"
+      ],
+      "pt": [
+        "Hypecoum procumbens"
+      ],
+      "ru": [
+        "Hypecoum procumbens"
       ]
     },
     "tags": [],
@@ -5557,12 +7350,12 @@
     "family": "Papaveraceae",
     "genus": "Lamprocapnos",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fc6b0f5032c99982dc3a294cbd5dd67c51d09859",
-    "description": "The fruit is an oblong, 25 to 35 mm, capsule, and it contains 2 to 8 black, rounded, smooth seeds. Fruits are produced from April to June.",
+    "description": "Lamprocapnos spectabilis, commonly known as bleeding heart or Asian bleeding heart, is a species of flowering plant belonging to the fumitory subfamily (Fumarioideae) of the Papaveraceae. It is native to Northeast China and the Korean peninsula; however, it has been introduced by humans into a larger area of Northeast Asia, including parts of Siberia, Russia and Japan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5647,11 +7440,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زهرة القلب النازف"
+      ],
+      "de": [
+        "Tränendes Herz"
+      ],
       "en": [
-        "Asian bleeding-heart"
+        "Asian bleeding-heart",
+        "Lamprocapnos spectabilis"
+      ],
+      "es": [
+        "Lamprocapnos"
+      ],
+      "fr": [
+        "Cœur de Marie"
+      ],
+      "it": [
+        "Lamprocapnos spectabilis"
+      ],
+      "ja": [
+        "ケマンソウ"
+      ],
+      "ko": [
+        "금낭화"
+      ],
+      "nl": [
+        "gebroken hartje"
+      ],
+      "pl": [
+        "Serduszka okazałe"
+      ],
+      "pt": [
+        "Lamprocapnos spectabilis"
+      ],
+      "ru": [
+        "Дицентра великолепная"
+      ],
+      "zh": [
+        "荷包牡丹"
       ]
     },
     "tags": [],
@@ -5663,12 +7495,12 @@
     "family": "Papaveraceae",
     "genus": "Macleaya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b5aeff45dea539d3c39f6f494912c6fd63e127e8",
-    "description": null,
+    "description": "Macleaya cordata, the five-seeded plume-poppy, is a species of flowering plant in the poppy family Papaveraceae, which is used ornamentally. It is native to China and Japan. It is a large herbaceous perennial growing to 2.5 m (8 ft) tall by 1 m (3 ft) or more wide, with olive green leaves and airy panicles of buff-white flowers in summer.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5745,11 +7577,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Federmohn"
+      ],
       "en": [
+        "Macleaya cordata",
         "Plume poppy"
+      ],
+      "es": [
+        "Macleaya cordata"
+      ],
+      "fr": [
+        "Macleaya cordata"
+      ],
+      "it": [
+        "Macleaya cordata"
+      ],
+      "ja": [
+        "タケニグサ"
+      ],
+      "nl": [
+        "Macleaya cordata"
+      ],
+      "pl": [
+        "Macleaya cordata"
+      ],
+      "pt": [
+        "Macleaya cordata"
+      ],
+      "ru": [
+        "Маклейя сердцевидная"
+      ],
+      "zh": [
+        "博落回"
       ]
     },
     "tags": [],
@@ -5761,12 +7626,12 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d08d75d342759f7dab15e80a1a711ad089f54c96",
-    "description": "Fruit in the form of an elliptical, many seeded capsule. Seeds are small or minute, kidney-shaped and pitted or very finely reticulated.",
+    "description": "Oreomecon alpina, synonym Papaver alpinum, the Alpine poppy or dwarf poppy, is a poppy found in the Alps. The circumscription of the species varies considerably. In some treatments, the species is one of a group of related species, and includes several subspecies, four of which are found in Austria. In other treatments, it includes species that have been treated as separate, and has at most one subspecies.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5777,17 +7642,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_alpinum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5809,8 +7674,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Catharanthus roseus",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic (unknown strength). Parts: Whole plant, highest concentrations in capsule, latex (without seed). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -5828,8 +7693,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in capsule, latex (without seed)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -5843,11 +7708,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "خشخاش ألبي"
+      ],
+      "de": [
+        "Papaver alpinum"
+      ],
       "en": [
-        "Austrian poppy"
+        "Austrian poppy",
+        "Papaver alpinum"
+      ],
+      "es": [
+        "Papaver alpinum"
+      ],
+      "fr": [
+        "Papaver alpinum"
+      ],
+      "it": [
+        "Papaver alpinum"
+      ],
+      "nl": [
+        "Papaver alpinum"
+      ],
+      "pl": [
+        "Mak alpejski"
+      ],
+      "pt": [
+        "Papaver alpinum"
+      ],
+      "ru": [
+        "Мак альпийский"
+      ],
+      "zh": [
+        "高山罂粟"
       ]
     },
     "tags": [],
@@ -5859,12 +7757,12 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4fa79cfac8299033b2c21019bccfbbeced0c5168",
-    "description": "Fruit in the form of an elliptical, many seeded capsule. Seeds are small or minute, kidney-shaped and pitted or very finely reticulated.",
+    "description": "Papaver atlanticum, also known as the Moroccan poppy, Spanish poppy, and Atlas poppy, is a species of poppy.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5875,7 +7773,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_atlanticum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5941,11 +7839,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "خشخاش أطلسي"
+      ],
+      "de": [
+        "Atlas-Mohn"
+      ],
       "en": [
-        "Atlas poppy"
+        "Atlas poppy",
+        "Papaver atlanticum"
+      ],
+      "es": [
+        "Papaver rupifragum"
+      ],
+      "fr": [
+        "Papaver atlanticum"
+      ],
+      "it": [
+        "Papaver atlanticum"
+      ],
+      "nl": [
+        "Donzige klaproos"
+      ],
+      "pl": [
+        "Papaver atlanticum"
+      ],
+      "pt": [
+        "Papaver atlanticum"
+      ],
+      "ru": [
+        "Мак атлантический"
       ]
     },
     "tags": [],
@@ -5957,7 +7885,7 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5973,17 +7901,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_cambricum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6039,11 +7967,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "ar": [
+        "خشخاش كمبري"
+      ],
+      "de": [
+        "Papaver cambricum"
+      ],
       "en": [
+        "Papaver cambricum",
         "Poppy"
+      ],
+      "es": [
+        "Papaver cambricum"
+      ],
+      "fr": [
+        "Papaver cambricum"
+      ],
+      "it": [
+        "Papaver cambricum"
+      ],
+      "nl": [
+        "Papaver cambricum"
+      ],
+      "pl": [
+        "Papaver cambricum"
+      ],
+      "pt": [
+        "Papaver cambricum"
+      ],
+      "ru": [
+        "Papaver cambricum"
       ]
     },
     "tags": [],
@@ -6055,7 +8013,7 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6071,17 +8029,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_dubium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6103,8 +8061,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Catharanthus roseus",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic (unknown strength). Parts: Whole plant, highest concentrations in capsule, latex (without seed). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6122,8 +8080,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in capsule, latex (without seed)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -6137,11 +8095,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Saat-Mohn"
+      ],
       "en": [
-        "Long-head poppy"
+        "Long-head poppy",
+        "Papaver dubium"
+      ],
+      "es": [
+        "Papaver dubium"
+      ],
+      "fr": [
+        "Papaver dubium"
+      ],
+      "it": [
+        "Papaver dubium"
+      ],
+      "ja": [
+        "ナガミヒナゲシ"
+      ],
+      "nl": [
+        "Bleke klaproos"
+      ],
+      "pl": [
+        "Mak wątpliwy"
+      ],
+      "pt": [
+        "Papaver dubium"
+      ],
+      "ru": [
+        "мак сомнительный"
       ]
     },
     "tags": [],
@@ -6153,12 +8141,12 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/65102b20a9fa16740c9e88889d134c1a40278c51",
-    "description": "Fruit in the form of an elliptical, many seeded capsule. Seeds are small or minute, kidney-shaped and pitted or very finely reticulated.",
+    "description": "Roemeria sicula, the rough poppy or round pricklyhead poppy, is a widespread species of flowering plant in the poppy family. It is native to the Mediterranean region, and western Asia as far as the western Himalayas, and has been introduced to much of the rest of Europe, South Africa, all of Australia, some US states, Chile and Argentina. It is a minor weed of cereal crops, and its range is expected to greatly expand due to climate change.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6169,17 +8157,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_hybridum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6235,11 +8223,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "خشخاش هجين"
+      ],
+      "de": [
+        "Bastard-Mohn"
+      ],
       "en": [
+        "Papaver hybridum",
         "Rough poppy"
+      ],
+      "es": [
+        "Papaver hybridum"
+      ],
+      "fr": [
+        "Papaver hybridum"
+      ],
+      "it": [
+        "Papaver hybridum"
+      ],
+      "nl": [
+        "bastaardklaproos"
+      ],
+      "pl": [
+        "mak mieszańcowy"
+      ],
+      "pt": [
+        "Papaver hybridum"
+      ],
+      "ru": [
+        "мак гибридный"
       ]
     },
     "tags": [],
@@ -6251,12 +8269,12 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3119a17f0138044d17f6989f619139a067d61ec0",
-    "description": "Fruit in the form of an elliptical, many seeded capsule. Seeds are small or minute, kidney-shaped and pitted or very finely reticulated.",
+    "description": "Oreomecon lapponica is a species in the poppy family known by the common name Lapland poppy. It grows in the Arctic tundra from Norway around the arctic circle to Greenland. Until 2023 it was known as Papaver lapponicum.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6267,7 +8285,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_lapponicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6333,11 +8351,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Papaver lapponicum"
+      ],
       "en": [
-        "Lapland poppy"
+        "Lapland poppy",
+        "Papaver lapponicum"
+      ],
+      "es": [
+        "Papaver lapponicum"
+      ],
+      "fr": [
+        "Papaver lapponicum"
+      ],
+      "it": [
+        "Papaver lapponicum"
+      ],
+      "nl": [
+        "Papaver lapponicum"
+      ],
+      "pl": [
+        "Papaver lapponicum"
+      ],
+      "pt": [
+        "Papaver lapponicum"
+      ],
+      "ru": [
+        "Мак лапландский"
       ]
     },
     "tags": [],
@@ -6349,12 +8394,12 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d86f041faa823c2233d0878977d09ecc.jpg",
-    "description": "Fruit in the form of an elliptical, many seeded capsule. Seeds are small or minute, kidney-shaped and pitted or very finely reticulated.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6365,17 +8410,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_lecoqii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6431,9 +8476,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.1
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Papaver lecoqii"
+      ],
+      "en": [
+        "Papaver lecoqii"
+      ],
+      "es": [
+        "Papaver lecoqii"
+      ],
+      "fr": [
+        "Papaver lecoqii"
+      ],
+      "it": [
+        "Papaver lecoqii"
+      ],
+      "nl": [
+        "Papaver lecoqii"
+      ],
+      "pl": [
+        "Papaver lecoqii"
+      ],
+      "pt": [
+        "Papaver lecoqii"
+      ],
+      "ru": [
+        "Papaver lecoqii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6443,12 +8518,12 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/51dd54041c5c102b39daf37532e29b01.jpg",
-    "description": "Fruit in the form of an elliptical, many seeded capsule. Seeds are small or minute, kidney-shaped and pitted or very finely reticulated.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6459,7 +8534,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_macounii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6525,9 +8600,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Papaver macounii"
+      ],
+      "en": [
+        "Papaver macounii"
+      ],
+      "es": [
+        "Papaver macounii"
+      ],
+      "fr": [
+        "Papaver macounii"
+      ],
+      "it": [
+        "Papaver macounii"
+      ],
+      "nl": [
+        "Papaver macounii"
+      ],
+      "pl": [
+        "Papaver macounii"
+      ],
+      "pt": [
+        "Papaver macounii"
+      ],
+      "ru": [
+        "Papaver macounii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6537,12 +8642,12 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/95e6a05938f74f2949bf892f25d8d0f73cc6225f",
-    "description": "Fruit in the form of an elliptical, many seeded capsule. Seeds are small or minute, kidney-shaped and pitted or very finely reticulated.",
+    "description": "Oreomecon nudicaulis, synonym Papaver nudicaule, the Iceland poppy, is a boreal flowering plant. It is native to subpolar regions of Asia and the Yukon in North America, and has been introduced elsewhere. Iceland poppies are hardy but short-lived perennials, often grown as biennials. They yield large, papery, bowl-shaped, lightly fragrant flowers supported by hairy, 1 foot (30 cm) curved stems among feathery blue-green foliage 1–6 inches long. They were first described by botanists in 1759.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6553,17 +8658,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_nudicaule",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6619,11 +8724,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Islandmohn"
+      ],
       "en": [
-        "Arctic poppy"
+        "Arctic poppy",
+        "Papaver nudicaule"
+      ],
+      "es": [
+        "Papaver nudicaule"
+      ],
+      "fr": [
+        "Papaver nudicaule"
+      ],
+      "it": [
+        "Papaver nudicaule"
+      ],
+      "ja": [
+        "シベリアヒナゲシ"
+      ],
+      "nl": [
+        "Papaver nudicaule"
+      ],
+      "pl": [
+        "Mak nagołodygowy"
+      ],
+      "pt": [
+        "Papaver nudicaule"
+      ],
+      "ru": [
+        "Мак голостебельный"
+      ],
+      "zh": [
+        "野罂粟"
       ]
     },
     "tags": [],
@@ -6635,12 +8773,12 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0ae6fffd5cefb0076e3c3a9b3d1058aefa004952",
-    "description": "Ripening of seeds occur in mid-late summer (July to August).",
+    "description": "Papaver orientale, the Oriental poppy, is a perennial flowering plant native to the Caucasus, northeastern Turkey, and northern Iran.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6651,17 +8789,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_orientale",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6717,11 +8855,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "ar": [
+        "خشخاش مشرقي"
+      ],
+      "de": [
+        "Türkischer Mohn"
+      ],
       "en": [
-        "Oriental poppy"
+        "Oriental poppy",
+        "Papaver orientale"
+      ],
+      "es": [
+        "Papaver orientale"
+      ],
+      "fr": [
+        "Papaver orientale"
+      ],
+      "it": [
+        "Papaver orientale"
+      ],
+      "ja": [
+        "オニゲシ"
+      ],
+      "nl": [
+        "Oosterse klaproos"
+      ],
+      "pl": [
+        "mak wschodni"
+      ],
+      "pt": [
+        "Papaver orientale"
+      ],
+      "ru": [
+        "Мак восточный"
+      ],
+      "tr": [
+        "Gelincik, Türk Gelinciği"
+      ],
+      "zh": [
+        "鬼罂粟"
       ]
     },
     "tags": [],
@@ -6733,12 +8910,12 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/36565b6122021d20547cd1bd9eb7969f03635c02",
-    "description": "Fruit in the form of an elliptical, many seeded capsule. Seeds are small or minute, kidney-shaped and pitted or very finely reticulated.",
+    "description": "The Arctic poppy is a flowering plant in the poppy family. It may also be referred to as rooted poppy or yellow poppy. Arctic poppies grow in cold climate conditions and are found in Arctic regions of Europe. Arctic poppies have adaptations, such as heliotropism and physical characteristics, which help them survive in the harsh environment they grow in.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6749,7 +8926,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_radicatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6815,11 +8992,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Arktischer Mohn"
+      ],
       "en": [
-        "Arctic poppy"
+        "Arctic poppy",
+        "Papaver radicatum"
+      ],
+      "es": [
+        "Papaver radicatum"
+      ],
+      "fr": [
+        "Pavot arctique"
+      ],
+      "it": [
+        "Papaver radicatum"
+      ],
+      "nl": [
+        "Papaver radicatum"
+      ],
+      "pl": [
+        "Papaver radicatum"
+      ],
+      "pt": [
+        "Papaver radicatum"
+      ],
+      "ru": [
+        "Мак полярный"
       ]
     },
     "tags": [],
@@ -6831,7 +9035,7 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6847,17 +9051,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_rhoeas",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6878,9 +9082,9 @@
       "watering_guide": null,
       "light_guide": null,
       "tips": "Similar plants: Celosia",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Whole plant, highest concentrations in capsule, latex (without seed). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6898,8 +9102,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in capsule, latex (without seed)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -6913,11 +9117,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "ar": [
+        "خشخاش منثور"
+      ],
+      "de": [
+        "Klatschmohn"
+      ],
       "en": [
+        "Papaver rhoeas",
         "Shirley poppy"
+      ],
+      "es": [
+        "Papaver rhoeas"
+      ],
+      "fr": [
+        "coquelicot"
+      ],
+      "it": [
+        "Papaver rhoeas"
+      ],
+      "ja": [
+        "ヒナゲシ"
+      ],
+      "ko": [
+        "개양귀비"
+      ],
+      "nl": [
+        "Grote klaproos"
+      ],
+      "pl": [
+        "Mak polny"
+      ],
+      "pt": [
+        "Papoila"
+      ],
+      "ru": [
+        "мак самосейка"
+      ],
+      "tr": [
+        "Gelincik"
+      ],
+      "zh": [
+        "虞美人"
       ]
     },
     "tags": [],
@@ -6929,7 +9175,7 @@
     "family": "Papaveraceae",
     "genus": "Papaver",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6945,17 +9191,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "papaver_somniferum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6976,9 +9222,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Catharanthus roseus",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: strong toxic. Parts: Whole plant, highest concentrations in capsule, latex (without seed). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6996,8 +9242,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Clumping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in capsule, latex (without seed)",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -7011,11 +9257,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "ar": [
+        "خشخاش منوم"
+      ],
+      "de": [
+        "Schlafmohn"
+      ],
       "en": [
-        "Oilseed poppy"
+        "Oilseed poppy",
+        "Papaver somniferum"
+      ],
+      "es": [
+        "Papaver somniferum"
+      ],
+      "fr": [
+        "pavot somnifère"
+      ],
+      "hi": [
+        "अफ़ीम पोस्ता"
+      ],
+      "it": [
+        "Papaver somniferum"
+      ],
+      "ja": [
+        "ケシ"
+      ],
+      "ko": [
+        "양귀비"
+      ],
+      "nl": [
+        "Slaapbol"
+      ],
+      "pl": [
+        "mak lekarski"
+      ],
+      "pt": [
+        "Papoila-dormideira"
+      ],
+      "ru": [
+        "мак опийный"
+      ],
+      "tr": [
+        "haşhaş"
+      ],
+      "zh": [
+        "罌粟"
       ]
     },
     "tags": [],
@@ -7027,7 +9318,7 @@
     "family": "Papaveraceae",
     "genus": "Platycapnos",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7043,17 +9334,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "platycapnos_spicatus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7109,9 +9400,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Platycapnos spicatus"
+      ],
+      "en": [
+        "Platycapnos spicatus"
+      ],
+      "es": [
+        "Platycapnos spicatus"
+      ],
+      "fr": [
+        "Platycapnos spicatus"
+      ],
+      "it": [
+        "Platycapnos spicatus"
+      ],
+      "nl": [
+        "Platycapnos spicatus"
+      ],
+      "pl": [
+        "Platycapnos spicatus"
+      ],
+      "pt": [
+        "Platycapnos spicatus"
+      ],
+      "ru": [
+        "Platycapnos spicatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7121,12 +9442,12 @@
     "family": "Papaveraceae",
     "genus": "Platystemon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8c1b23e2febbf4f858fab0436eab5fe83729cf8c",
-    "description": null,
+    "description": "Platystemon is a monotypic genus of flowering plants in the poppy family containing the single species Platystemon californicus, which is known by the common name creamcups. It is native to Oregon, California, Arizona, Utah and Baja California, and is found in open grasslands and sandy soils below 6,000 feet (1,800 m) elevation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7203,11 +9524,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Platystemon californicus"
+      ],
       "en": [
-        "Cream-cups"
+        "Cream-cups",
+        "Platystemon californicus"
+      ],
+      "es": [
+        "Platystemon californicus"
+      ],
+      "fr": [
+        "Platystemon californicus"
+      ],
+      "it": [
+        "Platystemon californicus"
+      ],
+      "nl": [
+        "Platystemon californicus"
+      ],
+      "pl": [
+        "Platystemon californicus"
+      ],
+      "pt": [
+        "Platystemon californicus"
+      ],
+      "ru": [
+        "Platystemon californicus"
+      ],
+      "zh": [
+        "宽蕊罂粟"
       ]
     },
     "tags": [],
@@ -7219,12 +9570,12 @@
     "family": "Papaveraceae",
     "genus": "Pseudofumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/29fe81c3bc671326ab74e7a44d3356eb6de8e5fe",
-    "description": null,
+    "description": "Pseudofumaria alba is a short-lived perennial plant in the family Papaveraceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7301,11 +9652,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Blassgelber Scheinerdrauch"
+      ],
       "en": [
-        "Pale corydalis"
+        "Pale corydalis",
+        "Pseudofumaria alba"
+      ],
+      "es": [
+        "Pseudofumaria alba"
+      ],
+      "fr": [
+        "Pseudofumaria alba"
+      ],
+      "it": [
+        "Pseudofumaria alba"
+      ],
+      "nl": [
+        "Pseudofumaria alba"
+      ],
+      "pl": [
+        "Pseudofumaria alba"
+      ],
+      "pt": [
+        "Pseudofumaria alba"
+      ],
+      "ru": [
+        "Pseudofumaria alba"
       ]
     },
     "tags": [],
@@ -7317,7 +9695,7 @@
     "family": "Papaveraceae",
     "genus": "Pseudofumaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7338,12 +9716,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7399,11 +9777,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.5
     },
     "common_names": {
+      "de": [
+        "Pseudofumaria lutea"
+      ],
       "en": [
+        "Pseudofumaria lutea",
         "Yellow corydalis"
+      ],
+      "es": [
+        "Pseudofumaria lutea"
+      ],
+      "fr": [
+        "Pseudofumaria lutea"
+      ],
+      "it": [
+        "Pseudofumaria lutea"
+      ],
+      "nl": [
+        "Pseudofumaria lutea"
+      ],
+      "pl": [
+        "Pseudofumaria lutea"
+      ],
+      "pt": [
+        "Pseudofumaria lutea"
+      ],
+      "ru": [
+        "Pseudofumaria lutea"
       ]
     },
     "tags": [],
@@ -7415,7 +9820,7 @@
     "family": "Papaveraceae",
     "genus": "Roemeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7431,17 +9836,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "roemeria_argemone",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7497,11 +9902,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Roemeria argemone"
+      ],
       "en": [
-        "Pale poppy"
+        "Pale poppy",
+        "Roemeria argemone"
+      ],
+      "es": [
+        "Roemeria argemone"
+      ],
+      "fr": [
+        "Roemeria argemone"
+      ],
+      "it": [
+        "Roemeria argemone"
+      ],
+      "nl": [
+        "Roemeria argemone"
+      ],
+      "pl": [
+        "Roemeria argemone"
+      ],
+      "pt": [
+        "Roemeria argemone"
+      ],
+      "ru": [
+        "Roemeria argemone"
       ]
     },
     "tags": [],
@@ -7513,12 +9945,12 @@
     "family": "Papaveraceae",
     "genus": "Romneya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a67c4539338906db6721fb0d6f81fd316c8bec35",
-    "description": null,
+    "description": "Romneya coulteri, the Coulter's Matilija poppy or California tree poppy, is a perennial species of flowering plant in the poppy family (Papaveraceae). Native to southern California, USA, and Baja California, Mexico, it grows in dry canyons in chaparral and coastal sage scrub plant communities, sometimes in areas recently burned. It is a popular ornamental plant, kept for its large, showy flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7595,11 +10027,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Romneya coulteri"
+      ],
       "en": [
-        "California tree-poppy"
+        "California tree-poppy",
+        "Romneya coulteri"
+      ],
+      "es": [
+        "Romneya coulteri"
+      ],
+      "fr": [
+        "Romneya coulteri"
+      ],
+      "it": [
+        "Romneya coulteri"
+      ],
+      "nl": [
+        "Romneya coulteri"
+      ],
+      "pl": [
+        "Romneya coulteri"
+      ],
+      "pt": [
+        "Romneya coulteri"
+      ],
+      "ru": [
+        "Romneya coulteri"
       ]
     },
     "tags": [],
@@ -7611,7 +10070,7 @@
     "family": "Papaveraceae",
     "genus": "Sanguinaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7695,11 +10154,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "الدموية"
+      ],
+      "de": [
+        "Kanadische Blutwurz"
+      ],
       "en": [
-        "Red puccoon"
+        "Red puccoon",
+        "Sanguinaria canadensis"
+      ],
+      "es": [
+        "Sanguinaria canadensis"
+      ],
+      "fr": [
+        "Sanguinaire du Canada"
+      ],
+      "it": [
+        "Sanguinaria canadensis"
+      ],
+      "ja": [
+        "カナダケシ"
+      ],
+      "nl": [
+        "Sanguinaria canadensis"
+      ],
+      "pl": [
+        "Sangwinaria kanadyjska"
+      ],
+      "pt": [
+        "Sanguinaria"
+      ],
+      "ru": [
+        "Sanguinaria canadensis"
+      ],
+      "zh": [
+        "血根草"
       ]
     },
     "tags": [],
@@ -7711,7 +10206,7 @@
     "family": "Papaveraceae",
     "genus": "Sarcocapnos",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7727,17 +10222,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sarcocapnos_enneaphylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7793,9 +10288,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sarcocapnos enneaphylla"
+      ],
+      "en": [
+        "Sarcocapnos enneaphylla"
+      ],
+      "es": [
+        "Sarcocapnos enneaphylla"
+      ],
+      "fr": [
+        "Sarcocapnos enneaphylla"
+      ],
+      "it": [
+        "Sarcocapnos enneaphylla"
+      ],
+      "nl": [
+        "Sarcocapnos enneaphylla"
+      ],
+      "pl": [
+        "Sarcocapnos enneaphylla"
+      ],
+      "pt": [
+        "Sarcocapnos enneaphylla"
+      ],
+      "ru": [
+        "Sarcocapnos enneaphylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7805,7 +10330,7 @@
     "family": "Papaveraceae",
     "genus": "Stylophorum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7887,11 +10412,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ثرمية ثنائية الأوراق"
+      ],
+      "de": [
+        "Stylophorum diphyllum"
+      ],
       "en": [
-        "Celandine-poppy"
+        "Celandine-poppy",
+        "Stylophorum diphyllum"
+      ],
+      "es": [
+        "Stylophorum diphyllum"
+      ],
+      "fr": [
+        "Stylophorum diphyllum"
+      ],
+      "it": [
+        "Stylophorum diphyllum"
+      ],
+      "nl": [
+        "Stylophorum diphyllum"
+      ],
+      "pl": [
+        "Styloforum dwulistne"
+      ],
+      "pt": [
+        "Stylophorum diphyllum"
+      ],
+      "ru": [
+        "Stylophorum diphyllum"
       ]
     },
     "tags": [],

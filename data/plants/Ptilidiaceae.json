@@ -5,7 +5,7 @@
     "family": "Ptilidiaceae",
     "genus": "Ptilidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ptilidium californicum"
+      ],
+      "en": [
+        "Ptilidium californicum"
+      ],
+      "es": [
+        "Ptilidium californicum"
+      ],
+      "fr": [
+        "Ptilidium californicum"
+      ],
+      "it": [
+        "Ptilidium californicum"
+      ],
+      "nl": [
+        "Ptilidium californicum"
+      ],
+      "pl": [
+        "Ptilidium californicum"
+      ],
+      "pt": [
+        "Ptilidium californicum"
+      ],
+      "ru": [
+        "Ptilidium californicum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,11 +129,11 @@
     "family": "Ptilidiaceae",
     "genus": "Ptilidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ptilidium_ciliare_%28a%2C_132028-465914%29_6847.JPG",
     "description": null,
     "wikidata_id": null,
     "sources": [
@@ -181,9 +211,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ptilidium ciliare"
+      ],
+      "en": [
+        "Ptilidium ciliare"
+      ],
+      "es": [
+        "Ptilidium ciliare"
+      ],
+      "fr": [
+        "Ptilidium ciliare"
+      ],
+      "it": [
+        "Ptilidium ciliare"
+      ],
+      "nl": [
+        "Ptilidium ciliare"
+      ],
+      "pl": [
+        "Ptilidium ciliare"
+      ],
+      "pt": [
+        "Ptilidium ciliare"
+      ],
+      "ru": [
+        "Ptilidium ciliare"
+      ],
+      "zh": [
+        "毛叶苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +256,12 @@
     "family": "Ptilidiaceae",
     "genus": "Ptilidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ptilidium_pulcherrimum.jpeg",
+    "description": "Ptilidium pulcherrimum is a liverwort in the genus Ptilidium known by the common name tree fringewort in English. It is found across North America, Northern Europe, and Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +338,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ptilidium pulcherrimum"
+      ],
+      "en": [
+        "Ptilidium pulcherrimum"
+      ],
+      "es": [
+        "Ptilidium pulcherrimum"
+      ],
+      "fr": [
+        "Ptilidium pulcherrimum"
+      ],
+      "it": [
+        "Ptilidium pulcherrimum"
+      ],
+      "ja": [
+        "テガタゴケ"
+      ],
+      "nl": [
+        "Ptilidium pulcherrimum"
+      ],
+      "pl": [
+        "Ptilidium pulcherrimum"
+      ],
+      "pt": [
+        "Ptilidium pulcherrimum"
+      ],
+      "ru": [
+        "Ptilidium pulcherrimum"
+      ],
+      "zh": [
+        "深裂毛叶苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

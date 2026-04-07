@@ -5,7 +5,7 @@
     "family": "Fontinalaceae",
     "genus": "Dichelyma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dichelyma capillaceum"
+      ],
+      "en": [
+        "Dichelyma capillaceum"
+      ],
+      "es": [
+        "Dichelyma capillaceum"
+      ],
+      "fr": [
+        "Dichelyma capillaceum"
+      ],
+      "it": [
+        "Dichelyma capillaceum"
+      ],
+      "nl": [
+        "Dichelyma capillaceum"
+      ],
+      "pl": [
+        "Dichelyma capillaceum"
+      ],
+      "pt": [
+        "Dichelyma capillaceum"
+      ],
+      "ru": [
+        "Dichelyma capillaceum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Fontinalaceae",
     "genus": "Dichelyma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dichelyma falcatum"
+      ],
+      "en": [
+        "Dichelyma falcatum"
+      ],
+      "es": [
+        "Dichelyma falcatum"
+      ],
+      "fr": [
+        "Dichelyma falcatum"
+      ],
+      "it": [
+        "Dichelyma falcatum"
+      ],
+      "nl": [
+        "Dichelyma falcatum"
+      ],
+      "pl": [
+        "Dichelyma falcatum"
+      ],
+      "pt": [
+        "Dichelyma falcatum"
+      ],
+      "ru": [
+        "Dichelyma falcatum"
+      ],
+      "zh": [
+        "弯刀藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +256,12 @@
     "family": "Fontinalaceae",
     "genus": "Fontinalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Fontinalis antipyretica, greater water-moss, or common water moss, is a species of submerged aquatic moss belonging to the subclass Bryidae. It is found in both still and flowing freshwater in Europe, Asia, Greenland and Africa. In North America it is found in most Canadian provinces with a seaboard and most US states except the most southern.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +338,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Quellmoos"
+      ],
+      "en": [
+        "Fontinalis antipyretica"
+      ],
+      "es": [
+        "Fontinalis antipyretica"
+      ],
+      "fr": [
+        "Fontinalis antipyretica"
+      ],
+      "it": [
+        "Fontinalis antipyretica"
+      ],
+      "ja": [
+        "クロカワゴケ"
+      ],
+      "nl": [
+        "Fontinalis antipyretica"
+      ],
+      "pl": [
+        "Fontinalis antipyretica"
+      ],
+      "pt": [
+        "Fontinalis antipyretica"
+      ],
+      "ru": [
+        "Фонтиналис противопожарный"
+      ],
+      "zh": [
+        "水藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +386,7 @@
     "family": "Fontinalaceae",
     "genus": "Fontinalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +468,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fontinalis dalecarlica"
+      ],
+      "en": [
+        "Fontinalis dalecarlica"
+      ],
+      "es": [
+        "Fontinalis dalecarlica"
+      ],
+      "fr": [
+        "Fontinalis dalecarlica"
+      ],
+      "it": [
+        "Fontinalis dalecarlica"
+      ],
+      "nl": [
+        "Fontinalis dalecarlica"
+      ],
+      "pl": [
+        "zdrojek szwedzki"
+      ],
+      "pt": [
+        "Fontinalis dalecarlica"
+      ],
+      "ru": [
+        "Fontinalis dalecarlica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,12 +510,12 @@
     "family": "Fontinalaceae",
     "genus": "Fontinalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Fontinalis dueriaei is a species of moss belonging to the family Fontinalaceae. It is notable for large, flat, concave leaves, reddish stems, and for being the fastest grower of the Fontinalis genus. It regrows in fall and winter.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -463,9 +592,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fontinalis duriaei"
+      ],
+      "en": [
+        "Fontinalis duriaei"
+      ],
+      "es": [
+        "Fontinalis duriaei"
+      ],
+      "fr": [
+        "Fontinalis duriaei"
+      ],
+      "it": [
+        "Fontinalis duriaei"
+      ],
+      "nl": [
+        "Fontinalis duriaei"
+      ],
+      "pl": [
+        "Fontinalis duriaei"
+      ],
+      "pt": [
+        "Fontinalis duriaei"
+      ],
+      "ru": [
+        "Fontinalis duriaei"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -475,12 +634,12 @@
     "family": "Fontinalaceae",
     "genus": "Fontinalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Fontinalis_hypnoides_%28fontinalis_moss%29_%286931232426%29.jpg",
+    "description": "Fontinalis hypnoides is a species of moss belonging to the family Fontinalaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -557,9 +716,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fontinalis hypnoides"
+      ],
+      "en": [
+        "Fontinalis hypnoides"
+      ],
+      "es": [
+        "Fontinalis hypnoides"
+      ],
+      "fr": [
+        "Fontinalis hypnoides"
+      ],
+      "it": [
+        "Fontinalis hypnoides"
+      ],
+      "nl": [
+        "Fontinalis hypnoides"
+      ],
+      "pl": [
+        "Fontinalis hypnoides"
+      ],
+      "pt": [
+        "Fontinalis hypnoides"
+      ],
+      "ru": [
+        "Fontinalis hypnoides"
+      ],
+      "zh": [
+        "羽枝水藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -569,7 +761,7 @@
     "family": "Fontinalaceae",
     "genus": "Fontinalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -651,9 +843,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fontinalis neomexicana"
+      ],
+      "en": [
+        "Fontinalis neomexicana"
+      ],
+      "es": [
+        "Fontinalis neomexicana"
+      ],
+      "fr": [
+        "Fontinalis neomexicana"
+      ],
+      "it": [
+        "Fontinalis neomexicana"
+      ],
+      "nl": [
+        "Fontinalis neomexicana"
+      ],
+      "pl": [
+        "Fontinalis neomexicana"
+      ],
+      "pt": [
+        "Fontinalis neomexicana"
+      ],
+      "ru": [
+        "Fontinalis neomexicana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -663,7 +885,7 @@
     "family": "Fontinalaceae",
     "genus": "Fontinalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -745,9 +967,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fontinalis squamosa"
+      ],
+      "en": [
+        "Fontinalis squamosa"
+      ],
+      "es": [
+        "Fontinalis squamosa"
+      ],
+      "fr": [
+        "Fontinalis squamosa"
+      ],
+      "it": [
+        "Fontinalis squamosa"
+      ],
+      "nl": [
+        "Fontinalis squamosa"
+      ],
+      "pl": [
+        "Zdrojek łuseczkowaty"
+      ],
+      "pt": [
+        "Fontinalis squamosa"
+      ],
+      "ru": [
+        "Fontinalis squamosa"
+      ],
+      "zh": [
+        "仰叶水藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -757,7 +1012,7 @@
     "family": "Fontinalaceae",
     "genus": "Fontinalis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -839,9 +1094,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fontinalis sullivantii"
+      ],
+      "en": [
+        "Fontinalis sullivantii"
+      ],
+      "es": [
+        "Fontinalis sullivantii"
+      ],
+      "fr": [
+        "Fontinalis sullivantii"
+      ],
+      "it": [
+        "Fontinalis sullivantii"
+      ],
+      "nl": [
+        "Fontinalis sullivantii"
+      ],
+      "pl": [
+        "Fontinalis sullivantii"
+      ],
+      "pt": [
+        "Fontinalis sullivantii"
+      ],
+      "ru": [
+        "Fontinalis sullivantii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

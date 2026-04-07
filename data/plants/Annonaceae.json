@@ -5,7 +5,7 @@
     "family": "Annonaceae",
     "genus": "Anaxagorea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Anaxagorea dolichocarpa"
+      ],
+      "en": [
+        "Anaxagorea dolichocarpa"
+      ],
+      "es": [
+        "Anaxagorea dolichocarpa"
+      ],
+      "fr": [
+        "Anaxagorea dolichocarpa"
+      ],
+      "it": [
+        "Anaxagorea dolichocarpa"
+      ],
+      "nl": [
+        "Anaxagorea dolichocarpa"
+      ],
+      "pl": [
+        "Anaxagorea dolichocarpa"
+      ],
+      "pt": [
+        "Anaxagorea dolichocarpa"
+      ],
+      "ru": [
+        "Anaxagorea dolichocarpa"
+      ],
+      "zh": [
+        "长果蒙蒿子"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cf4cf1a5fd5101df944abdf99c211bf0d60da9ab",
-    "description": null,
+    "description": "The cherimoya, also spelled cherimoyer and chirimoya, and called chirimuya by the Quechua people, is a species of edible fruit-bearing plant in the genus Annona, within the family Annonaceae, which also includes the closely related sweetsop and soursop. Native to mountainous regions of Honduras and Guatemala, the plant has a long history of cultivation in the Andes and Central America",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,11 +214,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
-      "en": [
+      "ar": [
+        "قشطة شريموليا"
+      ],
+      "de": [
         "Cherimoya"
+      ],
+      "en": [
+        "Annona cherimola",
+        "Cherimoya"
+      ],
+      "es": [
+        "Annona cherimola"
+      ],
+      "fr": [
+        "Annona cherimola"
+      ],
+      "it": [
+        "Annona cherimola"
+      ],
+      "ja": [
+        "チェリモヤ"
+      ],
+      "ko": [
+        "체리모야"
+      ],
+      "nl": [
+        "Cherimoya"
+      ],
+      "pl": [
+        "flaszowiec peruwiański"
+      ],
+      "pt": [
+        "Cherimoia"
+      ],
+      "ru": [
+        "Черимойя"
+      ],
+      "tr": [
+        "Annona cherimola"
+      ],
+      "zh": [
+        "秘鲁番荔枝"
       ]
     },
     "tags": [],
@@ -197,12 +272,12 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e55aa20e8776c3957760dd5295a8dfae.jpg",
-    "description": null,
+    "description": "Annona coriacea is a fruit tree native to Brazil. Its original habitat includes the ecoregions of Cerrado, Caatinga, and Pantanal. There, it is typically found in scrublands and savannahs, though it is sometimes grown in orchards. Its wood is used in constructions and toys. This plant is cited in Flora Brasiliensis by Carl Friedrich Philipp von Martius.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,9 +354,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Annona coriacea"
+      ],
+      "en": [
+        "Annona coriacea"
+      ],
+      "es": [
+        "Annona coriacea"
+      ],
+      "fr": [
+        "Annona coriacea"
+      ],
+      "it": [
+        "Annona coriacea"
+      ],
+      "nl": [
+        "Annona coriacea"
+      ],
+      "pl": [
+        "Annona coriacea"
+      ],
+      "pt": [
+        "Annona coriacea"
+      ],
+      "ru": [
+        "Annona coriacea"
+      ],
+      "zh": [
+        "革叶番荔枝"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -291,12 +399,12 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/27df0436910884e96bb6270ab7c18d9d.jpg",
-    "description": null,
+    "description": "Annona dolabripetala, commonly known as araticum, is a species of flowering plant in the Annonaceae family. It is a tree endemic to eastern, southern, and west-central Brazil, which grows up to 25 meters tall. It grows in Atlantic rain forest, Atlantic semi-deciduous seasonally-dry forest, and Cerrado savannas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -373,9 +481,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Annona dolabripetala"
+      ],
+      "en": [
+        "Annona dolabripetala"
+      ],
+      "es": [
+        "Annona dolabripetala"
+      ],
+      "fr": [
+        "Annona dolabripetala"
+      ],
+      "it": [
+        "Annona dolabripetala"
+      ],
+      "nl": [
+        "Annona dolabripetala"
+      ],
+      "pl": [
+        "Annona dolabripetala"
+      ],
+      "pt": [
+        "Annona dolabripetala"
+      ],
+      "ru": [
+        "Annona dolabripetala"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -385,12 +523,12 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/58cfb7bcb1b2591df1a5dd95e510ab50.jpg",
-    "description": null,
+    "description": "Annona emarginata is a species of plant in the Annonaceae family. It is a tree native to South America, ranging from northeastern Brazil and Peru through central and southern Brazil, Bolivia, Paraguay, and Uruguay to northern Argentina, where it grows in lowland tropical and subtropical moist forest.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -467,9 +605,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Annona emarginata"
+      ],
+      "en": [
+        "Annona emarginata"
+      ],
+      "es": [
+        "Annona emarginata"
+      ],
+      "fr": [
+        "Annona emarginata"
+      ],
+      "it": [
+        "Annona emarginata"
+      ],
+      "nl": [
+        "Annona emarginata"
+      ],
+      "pl": [
+        "Annona emarginata"
+      ],
+      "pt": [
+        "Annona emarginata"
+      ],
+      "ru": [
+        "Annona emarginata"
+      ],
+      "zh": [
+        "凹叶番荔枝"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -479,7 +650,7 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -561,9 +732,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Annona exsucca"
+      ],
+      "en": [
+        "Annona exsucca"
+      ],
+      "es": [
+        "Annona exsucca"
+      ],
+      "fr": [
+        "Annona exsucca"
+      ],
+      "it": [
+        "Annona exsucca"
+      ],
+      "nl": [
+        "Annona exsucca"
+      ],
+      "pl": [
+        "Annona exsucca"
+      ],
+      "pt": [
+        "Annona exsucca"
+      ],
+      "ru": [
+        "Annona exsucca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -573,7 +774,7 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -589,9 +790,9 @@
     "synonyms": "[\"Annona klainei var. moandensis\", \"Annona australis\", \"Annona laurifolia\", \"Annona uliginosa\", \"Annona palustris var. grandifolia\", \"Annona chrysocarpa\", \"Cassia ketschta\", \"Asimina arborea\", \"Annona palustris\", \"Annona peruviana\"]",
     "care": {
       "plant_id": "annona_glabra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -655,11 +856,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Annona glabra"
+      ],
       "en": [
+        "Annona glabra",
         "Corkwood"
+      ],
+      "es": [
+        "Annona glabra"
+      ],
+      "fr": [
+        "Annona glabra"
+      ],
+      "it": [
+        "Annona glabra"
+      ],
+      "nl": [
+        "Annona glabra"
+      ],
+      "pl": [
+        "Annona glabra"
+      ],
+      "pt": [
+        "Araticum-do-brejo"
+      ],
+      "ru": [
+        "Аннона гладкая"
+      ],
+      "tr": [
+        "Annona glabra"
+      ],
+      "zh": [
+        "圆滑番荔枝"
       ]
     },
     "tags": [],
@@ -671,7 +905,7 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -753,9 +987,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Annona leptopetala"
+      ],
+      "en": [
+        "Annona leptopetala"
+      ],
+      "es": [
+        "Annona leptopetala"
+      ],
+      "fr": [
+        "Annona leptopetala"
+      ],
+      "it": [
+        "Annona leptopetala"
+      ],
+      "nl": [
+        "Annona leptopetala"
+      ],
+      "pl": [
+        "Annona leptopetala"
+      ],
+      "pt": [
+        "Annona leptopetala"
+      ],
+      "ru": [
+        "Annona leptopetala"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -765,12 +1029,12 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b60f0c4d4ef52592cc09aa0e668c51e3314877ae",
-    "description": null,
+    "description": "Annona montana, the mountain soursop, is a tree and its edible fruit in the Annonaceae family native to Central America, the Amazon, and islands in the Caribbean. It has fibrous fruits. A. montana may be used as a rootstock for cultivated Annonas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -847,11 +1111,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Annona montana"
+      ],
       "en": [
+        "Annona montana",
         "Mountain soursop"
+      ],
+      "es": [
+        "Annona montana"
+      ],
+      "fr": [
+        "Annona montana"
+      ],
+      "it": [
+        "Annona montana"
+      ],
+      "nl": [
+        "bergzuurzak"
+      ],
+      "pl": [
+        "Flaszowiec górski"
+      ],
+      "pt": [
+        "Annona montana"
+      ],
+      "ru": [
+        "Annona montana"
+      ],
+      "tr": [
+        "Annona montana"
+      ],
+      "zh": [
+        "山刺番荔枝"
       ]
     },
     "tags": [],
@@ -863,7 +1160,7 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -879,9 +1176,9 @@
     "synonyms": "[\"Annona muricata f. mirabilis\", \"Annona bonplandiana\", \"Annona muricata var. borinquensis\", \"Annona cearaensis\"]",
     "care": {
       "plant_id": "annona_muricata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "Bright indirect light",
@@ -951,11 +1248,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قشطة شائكة"
+      ],
+      "de": [
+        "Stachelannone"
+      ],
       "en": [
+        "Annona muricata",
         "Soursop"
+      ],
+      "es": [
+        "Annona muricata"
+      ],
+      "fr": [
+        "Annona muricata"
+      ],
+      "it": [
+        "Annona muricata"
+      ],
+      "ja": [
+        "サワーソップ"
+      ],
+      "ko": [
+        "그라비올라"
+      ],
+      "nl": [
+        "zuurzak"
+      ],
+      "pl": [
+        "flaszowiec miękkociernisty"
+      ],
+      "pt": [
+        "Graviola"
+      ],
+      "ru": [
+        "Сметанное яблоко"
+      ],
+      "tr": [
+        "Annona muricata"
+      ],
+      "zh": [
+        "刺果番荔枝"
       ]
     },
     "tags": [],
@@ -967,7 +1306,7 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -983,9 +1322,9 @@
     "synonyms": "[\"Annona humboldtii\", \"Annona excelsa\", \"Annona humboldtiana\", \"Annona lutescens\", \"Annona primigenia\", \"Annona reticulata var. primigenia\", \"Annona longifolia\", \"Annona laevis\", \"Annona riparia\"]",
     "care": {
       "plant_id": "annona_reticulata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "Bright indirect light",
@@ -1057,11 +1396,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "القشطة الهندي"
+      ],
+      "de": [
+        "Netzannone"
+      ],
       "en": [
+        "Annona reticulata",
         "Bullock's-heart"
+      ],
+      "es": [
+        "Annona reticulata"
+      ],
+      "fr": [
+        "Annona reticulata"
+      ],
+      "hi": [
+        "रामफल"
+      ],
+      "it": [
+        "Annona reticulata"
+      ],
+      "ja": [
+        "ギュウシンリ"
+      ],
+      "ko": [
+        "커스터드애플"
+      ],
+      "nl": [
+        "custardappel"
+      ],
+      "pl": [
+        "flaszowiec siatkowaty"
+      ],
+      "pt": [
+        "Annona reticulata"
+      ],
+      "ru": [
+        "Кремовое яблоко"
+      ],
+      "tr": [
+        "Annona reticulata"
+      ],
+      "zh": [
+        "牛心番荔枝"
       ]
     },
     "tags": [],
@@ -1073,12 +1457,12 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/35f170d58490e76df5ae8cdc10f7da497f3af371",
-    "description": null,
+    "description": "Annona senegalensis, commonly known as African custard-apple, wild custard apple, wild soursop, abo ibobo, sunkungo, and dorgot is a species of flowering plant in the custard apple family, Annonaceae. The specific epithet, senegalensis, translates to mean \"of Senegal\", the country where the type specimen was collected.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1155,11 +1539,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Annona senegalensis"
+      ],
       "en": [
+        "Annona senegalensis",
         "Wild custard-apple"
+      ],
+      "es": [
+        "Annona senegalensis"
+      ],
+      "fr": [
+        "Annona senegalensis"
+      ],
+      "it": [
+        "Annona senegalensis"
+      ],
+      "nl": [
+        "Annona senegalensis"
+      ],
+      "pl": [
+        "Annona senegalensis"
+      ],
+      "pt": [
+        "Annona senegalensis"
+      ],
+      "ru": [
+        "Аннона сенегальская"
+      ],
+      "tr": [
+        "Annona senegalensis"
+      ],
+      "zh": [
+        "非洲番荔枝"
       ]
     },
     "tags": [],
@@ -1171,12 +1588,12 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dd98071811daba8580395f55ea00cd67ad30c490",
-    "description": null,
+    "description": "Annona squamosa is a small, well-branched tree or shrub from the family Annonaceae that bears edible fruits called sugar apples or sweetsops or custard apples. It tolerates a tropical lowland climate better than its relatives Annona reticulata and Annona cherimola helping make it the most widely cultivated of these species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1253,11 +1670,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قشطة صدفية"
+      ],
+      "de": [
+        "Zimtapfel"
+      ],
       "en": [
+        "Annona squamosa",
         "Custard-apple"
+      ],
+      "es": [
+        "Annona squamosa"
+      ],
+      "fr": [
+        "Attier"
+      ],
+      "hi": [
+        "शरीफा"
+      ],
+      "it": [
+        "Annona squamosa"
+      ],
+      "ja": [
+        "バンレイシ"
+      ],
+      "ko": [
+        "아노나"
+      ],
+      "nl": [
+        "zoetzak"
+      ],
+      "pl": [
+        "flaszowiec łuskowaty"
+      ],
+      "pt": [
+        "Fruta-pinha"
+      ],
+      "ru": [
+        "сахарное яблоко"
+      ],
+      "tr": [
+        "Annona squamosa"
+      ],
+      "zh": [
+        "番荔枝"
       ]
     },
     "tags": [],
@@ -1269,7 +1731,7 @@
     "family": "Annonaceae",
     "genus": "Annona",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1351,9 +1813,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Annona sylvatica"
+      ],
+      "en": [
+        "Annona sylvatica"
+      ],
+      "es": [
+        "Annona sylvatica"
+      ],
+      "fr": [
+        "Annona sylvatica"
+      ],
+      "it": [
+        "Annona sylvatica"
+      ],
+      "nl": [
+        "Annona sylvatica"
+      ],
+      "pl": [
+        "Rollinia sylvatica"
+      ],
+      "pt": [
+        "Rollinia sylvatica"
+      ],
+      "ru": [
+        "Annona sylvatica"
+      ],
+      "zh": [
+        "森林番荔枝"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1363,12 +1858,12 @@
     "family": "Annonaceae",
     "genus": "Asimina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f435d08d7a05237468ef486ee3d0d41124acda6d",
-    "description": "1- to 3-inch long cylindric yellow-green fruits mature to dark brown. Displays from July to September.",
+    "description": "Asimina parviflora, the smallflower pawpaw, is a small to medium shrub in the custard apple family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1445,11 +1940,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Asimina parviflora"
+      ],
       "en": [
+        "Asimina parviflora",
         "Dwarf pawpaw"
+      ],
+      "es": [
+        "Asimina parviflora"
+      ],
+      "fr": [
+        "Asimina parviflora"
+      ],
+      "it": [
+        "Asimina parviflora"
+      ],
+      "nl": [
+        "Asimina parviflora"
+      ],
+      "pl": [
+        "Asimina parviflora"
+      ],
+      "pt": [
+        "Asimina parviflora"
+      ],
+      "ru": [
+        "Asimina parviflora"
       ]
     },
     "tags": [],
@@ -1461,12 +1983,12 @@
     "family": "Annonaceae",
     "genus": "Asimina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/55c7a17cbd422ce8426e8641081f33a99b95b2f2",
-    "description": "1- to 3-inch long cylindric yellow-green fruits mature to dark brown. Displays from July to September.",
+    "description": "Asimina reticulata, the netted pawpaw, is a species of plant in the family Annonaceae. It is endemic to Florida in the United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1543,11 +2065,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Asimina reticulata"
+      ],
       "en": [
+        "Asimina reticulata",
         "Flag pawpaw"
+      ],
+      "es": [
+        "Asimina reticulata"
+      ],
+      "fr": [
+        "Asimina reticulata"
+      ],
+      "it": [
+        "Asimina reticulata"
+      ],
+      "nl": [
+        "Asimina reticulata"
+      ],
+      "pl": [
+        "Asimina reticulata"
+      ],
+      "pt": [
+        "Asimina reticulata"
+      ],
+      "ru": [
+        "Asimina reticulata"
       ]
     },
     "tags": [],
@@ -1559,7 +2108,7 @@
     "family": "Annonaceae",
     "genus": "Asimina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1645,11 +2194,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أزيمينة مفصصة"
+      ],
+      "de": [
+        "Dreilappige Papau"
+      ],
       "en": [
+        "Asimina triloba",
         "Indian-banana"
+      ],
+      "es": [
+        "Asimina triloba"
+      ],
+      "fr": [
+        "asiminier trilobé"
+      ],
+      "it": [
+        "Asimina triloba"
+      ],
+      "ja": [
+        "ポーポー"
+      ],
+      "ko": [
+        "뽀뽀나무"
+      ],
+      "nl": [
+        "Asimina triloba"
+      ],
+      "pl": [
+        "Asymina trójklapowa"
+      ],
+      "pt": [
+        "Asimina triloba"
+      ],
+      "ru": [
+        "Азимина трёхлопастная"
+      ],
+      "tr": [
+        "Bayağı papav"
+      ],
+      "zh": [
+        "波波樹"
       ]
     },
     "tags": [],
@@ -1661,7 +2252,7 @@
     "family": "Annonaceae",
     "genus": "Bocageopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1743,9 +2334,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bocageopsis multiflora"
+      ],
+      "en": [
+        "Bocageopsis multiflora"
+      ],
+      "es": [
+        "Bocageopsis multiflora"
+      ],
+      "fr": [
+        "Bocageopsis multiflora"
+      ],
+      "it": [
+        "Bocageopsis multiflora"
+      ],
+      "nl": [
+        "Bocageopsis multiflora"
+      ],
+      "pl": [
+        "Bocageopsis multiflora"
+      ],
+      "pt": [
+        "Bocageopsis multiflora"
+      ],
+      "ru": [
+        "Bocageopsis multiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1755,12 +2376,12 @@
     "family": "Annonaceae",
     "genus": "Cananga",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/53e0a123033e1a5bd98d7b27a098b1584e877a49",
-    "description": null,
+    "description": "Cananga odorata, commonly known as ylang-ylang, Macassar oil tree, perfume tree or cananga, is a species of plant in the custard apple family Annonaceae. It is native to areas from Indochina to northeastern Australia, and has been introduced to many other regions. It is valued for the essential oil, also called ylang-ylang, which is extracted from the flowers. Ylang-ylang is one of the most extensively used natural fragrances in the perfume industry.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1837,11 +2458,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "يلانج"
+      ],
+      "de": [
+        "Ylang-Ylang"
+      ],
       "en": [
+        "Cananga odorata",
         "Macassar oiltree"
+      ],
+      "es": [
+        "Cananga odorata"
+      ],
+      "fr": [
+        "Ylang-ylang"
+      ],
+      "it": [
+        "Cananga odorata"
+      ],
+      "ja": [
+        "イランイラン"
+      ],
+      "ko": [
+        "일랑일랑"
+      ],
+      "nl": [
+        "Cananga odorata"
+      ],
+      "pl": [
+        "Jagodlin wonny"
+      ],
+      "pt": [
+        "Ylang ylang"
+      ],
+      "ru": [
+        "Иланг-иланг"
+      ],
+      "zh": [
+        "依兰"
       ]
     },
     "tags": [],
@@ -1853,7 +2513,7 @@
     "family": "Annonaceae",
     "genus": "Cardiopetalum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1935,9 +2595,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cardiopetalum calophyllum"
+      ],
+      "en": [
+        "Cardiopetalum calophyllum"
+      ],
+      "es": [
+        "Cardiopetalum calophyllum"
+      ],
+      "fr": [
+        "Cardiopetalum calophyllum"
+      ],
+      "it": [
+        "Cardiopetalum calophyllum"
+      ],
+      "nl": [
+        "Cardiopetalum calophyllum"
+      ],
+      "pl": [
+        "Cardiopetalum calophyllum"
+      ],
+      "pt": [
+        "Cardiopetalum calophyllum"
+      ],
+      "ru": [
+        "Cardiopetalum calophyllum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1947,7 +2637,7 @@
     "family": "Annonaceae",
     "genus": "Cleistopholis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2029,9 +2719,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cleistopholis patens"
+      ],
+      "en": [
+        "Cleistopholis patens"
+      ],
+      "es": [
+        "Cleistopholis patens"
+      ],
+      "fr": [
+        "Cleistopholis patens"
+      ],
+      "it": [
+        "Cleistopholis patens"
+      ],
+      "nl": [
+        "Cleistopholis patens"
+      ],
+      "pl": [
+        "Cleistopholis patens"
+      ],
+      "pt": [
+        "Cleistopholis patens"
+      ],
+      "ru": [
+        "Cleistopholis patens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2041,12 +2761,12 @@
     "family": "Annonaceae",
     "genus": "Desmos",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5c8a230b919b17545d02011a78e0292b3a9ea794",
-    "description": null,
+    "description": "Desmos chinensis is a species of flowering plant in the family Annonaceae. The yellowish-green flowers are similar to the Ylang-ylang flowers, therefore this plant is sometimes known as dwarf ylang-ylang. Their smell, however, is much less strong and is only felt in the morning. By midday it has mostly faded away.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2123,9 +2843,68 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Desmos chinensis"
+      ],
+      "en": [
+        "Desmos chinensis"
+      ],
+      "es": [
+        "Desmos chinensis"
+      ],
+      "fr": [
+        "Desmos chinensis"
+      ],
+      "it": [
+        "Desmos chinensis"
+      ],
+      "nl": [
+        "Desmos chinensis"
+      ],
+      "pl": [
+        "Desmos chinensis"
+      ],
+      "pt": [
+        "Desmos chinensis"
+      ],
+      "ru": [
+        "Desmos chinensis"
+      ],
+      "zh": [
+        "五爪龙",
+        "假鹰爪",
+        "半夜兰",
+        "双柱木",
+        "复轮藤",
+        "山指甲",
+        "朴蛇",
+        "波蔗",
+        "灯笼草",
+        "爪芋根",
+        "狗牙花",
+        "碎骨藤",
+        "酒饼叶",
+        "酒饼藤",
+        "鸡爪叶",
+        "鸡爪木",
+        "鸡爪枝",
+        "鸡爪枝皮",
+        "鸡爪根",
+        "鸡爪珠",
+        "鸡爪笼",
+        "鸡爪风",
+        "鸡爪香",
+        "鸡肘风",
+        "鸡脚趾",
+        "鸡香草",
+        "黑节竹"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2135,7 +2914,7 @@
     "family": "Annonaceae",
     "genus": "Duguetia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2217,9 +2996,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Duguetia furfuracea"
+      ],
+      "en": [
+        "Duguetia furfuracea"
+      ],
+      "es": [
+        "Duguetia furfuracea"
+      ],
+      "fr": [
+        "Duguetia furfuracea"
+      ],
+      "it": [
+        "Duguetia furfuracea"
+      ],
+      "nl": [
+        "Duguetia furfuracea"
+      ],
+      "pl": [
+        "Duguetia furfuracea"
+      ],
+      "pt": [
+        "Duguetia furfuracea"
+      ],
+      "ru": [
+        "Duguetia furfuracea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2229,12 +3038,12 @@
     "family": "Annonaceae",
     "genus": "Fusaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dc616fee4cfcbf71cc1bd8ebe87df57a8d6914f1",
-    "description": null,
+    "description": "Fusaea longifolia is a species of plant in the family Annonaceae. It is native to Brazil, Colombia, Ecuador, French Guiana, Guyana, Peru, Suriname and Venezuela. Jean Baptiste Christophore Fusée Aublet, the French botanist who first formally described the species using the basionym Annona longifolia, named it after its long-leaved foliage.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2311,9 +3120,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fusaea longifolia"
+      ],
+      "en": [
+        "Fusaea longifolia"
+      ],
+      "es": [
+        "Fusaea longifolia"
+      ],
+      "fr": [
+        "Fusaea longifolia"
+      ],
+      "it": [
+        "Fusaea longifolia"
+      ],
+      "nl": [
+        "Fusaea longifolia"
+      ],
+      "pl": [
+        "Fusaea longifolia"
+      ],
+      "pt": [
+        "Fusaea longifolia"
+      ],
+      "ru": [
+        "Fusaea longifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2323,12 +3162,12 @@
     "family": "Annonaceae",
     "genus": "Greenwayodendron",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/29f6cf96f84a429fac466be2e50084d0.jpg",
-    "description": null,
+    "description": "Greenwayodendron suaveolens is a species of plant in the genus Greenwayodendron, and a member of the Annonaceae family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2405,9 +3244,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "Greenwayodendron suaveolens"
+      ],
+      "de": [
+        "Greenwayodendron suaveolens"
+      ],
+      "en": [
+        "Greenwayodendron suaveolens"
+      ],
+      "es": [
+        "Greenwayodendron suaveolens"
+      ],
+      "fr": [
+        "Greenwayodendron suaveolens"
+      ],
+      "it": [
+        "Greenwayodendron suaveolens"
+      ],
+      "ja": [
+        "Greenwayodendron suaveolens"
+      ],
+      "ko": [
+        "Greenwayodendron suaveolens"
+      ],
+      "nl": [
+        "Greenwayodendron suaveolens"
+      ],
+      "pl": [
+        "Greenwayodendron suaveolens"
+      ],
+      "pt": [
+        "Greenwayodendron suaveolens"
+      ],
+      "ru": [
+        "Greenwayodendron suaveolens"
+      ],
+      "zh": [
+        "Greenwayodendron suaveolens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2417,7 +3298,7 @@
     "family": "Annonaceae",
     "genus": "Guatteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2499,9 +3380,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Guatteria amplifolia"
+      ],
+      "en": [
+        "Guatteria amplifolia"
+      ],
+      "es": [
+        "Guatteria amplifolia"
+      ],
+      "fr": [
+        "Guatteria amplifolia"
+      ],
+      "it": [
+        "Guatteria amplifolia"
+      ],
+      "nl": [
+        "Guatteria amplifolia"
+      ],
+      "pl": [
+        "Guatteria amplifolia"
+      ],
+      "pt": [
+        "Guatteria amplifolia"
+      ],
+      "ru": [
+        "Guatteria amplifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2511,7 +3422,7 @@
     "family": "Annonaceae",
     "genus": "Guatteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2593,9 +3504,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Guatteria australis"
+      ],
+      "en": [
+        "Guatteria australis"
+      ],
+      "es": [
+        "Guatteria australis"
+      ],
+      "fr": [
+        "Guatteria australis"
+      ],
+      "it": [
+        "Guatteria australis"
+      ],
+      "nl": [
+        "Guatteria australis"
+      ],
+      "pl": [
+        "Guatteria australis"
+      ],
+      "pt": [
+        "Guatteria australis"
+      ],
+      "ru": [
+        "Guatteria australis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2605,7 +3546,7 @@
     "family": "Annonaceae",
     "genus": "Guatteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2687,9 +3628,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Guatteria blepharophylla"
+      ],
+      "en": [
+        "Guatteria blepharophylla"
+      ],
+      "es": [
+        "Guatteria blepharophylla"
+      ],
+      "fr": [
+        "Guatteria blepharophylla"
+      ],
+      "it": [
+        "Guatteria blepharophylla"
+      ],
+      "nl": [
+        "Guatteria blepharophylla"
+      ],
+      "pl": [
+        "Guatteria blepharophylla"
+      ],
+      "pt": [
+        "Guatteria blepharophylla"
+      ],
+      "ru": [
+        "Guatteria blepharophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2699,7 +3670,7 @@
     "family": "Annonaceae",
     "genus": "Guatteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2781,9 +3752,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Guatteria megalophylla"
+      ],
+      "en": [
+        "Guatteria megalophylla"
+      ],
+      "es": [
+        "Guatteria megalophylla"
+      ],
+      "fr": [
+        "Guatteria megalophylla"
+      ],
+      "it": [
+        "Guatteria megalophylla"
+      ],
+      "nl": [
+        "Guatteria megalophylla"
+      ],
+      "pl": [
+        "Guatteria megalophylla"
+      ],
+      "pt": [
+        "Guatteria megalophylla"
+      ],
+      "ru": [
+        "Guatteria megalophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2793,7 +3794,7 @@
     "family": "Annonaceae",
     "genus": "Guatteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2875,9 +3876,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Guatteria pogonopus"
+      ],
+      "en": [
+        "Guatteria pogonopus"
+      ],
+      "es": [
+        "Guatteria pogonopus"
+      ],
+      "fr": [
+        "Guatteria pogonopus"
+      ],
+      "it": [
+        "Guatteria pogonopus"
+      ],
+      "nl": [
+        "Guatteria pogonopus"
+      ],
+      "pl": [
+        "Guatteria pogonopus"
+      ],
+      "pt": [
+        "Guatteria pogonopus"
+      ],
+      "ru": [
+        "Guatteria pogonopus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2887,7 +3918,7 @@
     "family": "Annonaceae",
     "genus": "Guatteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2969,9 +4000,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Guatteria punctata"
+      ],
+      "en": [
+        "Guatteria punctata"
+      ],
+      "es": [
+        "Guatteria punctata"
+      ],
+      "fr": [
+        "Guatteria punctata"
+      ],
+      "it": [
+        "Guatteria punctata"
+      ],
+      "nl": [
+        "Guatteria punctata"
+      ],
+      "pl": [
+        "Guatteria punctata"
+      ],
+      "pt": [
+        "Guatteria punctata"
+      ],
+      "ru": [
+        "Guatteria punctata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2981,7 +4042,7 @@
     "family": "Annonaceae",
     "genus": "Guatteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3063,9 +4124,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Guatteria schomburgkiana"
+      ],
+      "en": [
+        "Guatteria schomburgkiana"
+      ],
+      "es": [
+        "Guatteria schomburgkiana"
+      ],
+      "fr": [
+        "Guatteria schomburgkiana"
+      ],
+      "it": [
+        "Guatteria schomburgkiana"
+      ],
+      "nl": [
+        "Guatteria schomburgkiana"
+      ],
+      "pl": [
+        "Guatteria schomburgkiana"
+      ],
+      "pt": [
+        "Guatteria schomburgkiana"
+      ],
+      "ru": [
+        "Guatteria schomburgkiana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3075,7 +4166,7 @@
     "family": "Annonaceae",
     "genus": "Guatteria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3157,9 +4248,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Guatteria sellowiana"
+      ],
+      "en": [
+        "Guatteria sellowiana"
+      ],
+      "es": [
+        "Guatteria sellowiana"
+      ],
+      "fr": [
+        "Guatteria sellowiana"
+      ],
+      "it": [
+        "Guatteria sellowiana"
+      ],
+      "nl": [
+        "Guatteria sellowiana"
+      ],
+      "pl": [
+        "Guatteria sellowiana"
+      ],
+      "pt": [
+        "Guatteria sellowiana"
+      ],
+      "ru": [
+        "Guatteria sellowiana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3169,12 +4290,12 @@
     "family": "Annonaceae",
     "genus": "Hexalobus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ac78af7cd07eddaf60c473b1655a6093c26f4fb0",
-    "description": null,
+    "description": "Hexalobus monopetalus is a species of plant in the family Annonaceae with the common name baboon's breakfast. It is native to Angola, Benin, Botswana, Burkina Faso, Cameroon, Central African Republic, Chad, Gambia, Ghana, Guinea, Guinea-Bissau, Ivory Coast, Liberia, Malawi, Mali, Mozambique, Namibia, Niger, Nigeria, Senegal, South Africa, Sudan, Tanzania, Togo, Uganda, Zambia, Zaire and Zimbabwe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3251,11 +4372,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hexalobus monopetalus"
+      ],
       "en": [
+        "Hexalobus monopetalus",
         "Shakamaplum"
+      ],
+      "es": [
+        "Hexalobus monopetalus"
+      ],
+      "fr": [
+        "Hexalobus monopetalus"
+      ],
+      "it": [
+        "Hexalobus monopetalus"
+      ],
+      "nl": [
+        "Hexalobus monopetalus"
+      ],
+      "pl": [
+        "Hexalobus monopetalus"
+      ],
+      "pt": [
+        "Hexalobus monopetalus"
+      ],
+      "ru": [
+        "Hexalobus monopetalus"
       ]
     },
     "tags": [],
@@ -3267,12 +4415,12 @@
     "family": "Annonaceae",
     "genus": "Monodora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/043d53227b36951c55864f2a64cecdc03e36ca39",
-    "description": null,
+    "description": "Monodora tenuifolia is a species of plant in the family Annonaceae. It is native to equatorial Africa. George Bentham, the English botanist who first formally described the species, named it after its slender leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3349,11 +4497,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Monodora tenuifolia"
+      ],
       "en": [
+        "Monodora tenuifolia",
         "Orchidtree"
+      ],
+      "es": [
+        "Monodora tenuifolia"
+      ],
+      "fr": [
+        "Monodora tenuifolia"
+      ],
+      "it": [
+        "Monodora tenuifolia"
+      ],
+      "nl": [
+        "Monodora tenuifolia"
+      ],
+      "pl": [
+        "Monodora tenuifolia"
+      ],
+      "pt": [
+        "Monodora tenuifolia"
+      ],
+      "ru": [
+        "Monodora tenuifolia"
       ]
     },
     "tags": [],
@@ -3365,7 +4540,7 @@
     "family": "Annonaceae",
     "genus": "Oxandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3447,9 +4622,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Oxandra espintana"
+      ],
+      "en": [
+        "Oxandra espintana"
+      ],
+      "es": [
+        "Oxandra espintana"
+      ],
+      "fr": [
+        "Oxandra espintana"
+      ],
+      "it": [
+        "Oxandra espintana"
+      ],
+      "nl": [
+        "Oxandra espintana"
+      ],
+      "pl": [
+        "Oxandra espintana"
+      ],
+      "pt": [
+        "Oxandra espintana"
+      ],
+      "ru": [
+        "Oxandra espintana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3459,7 +4664,7 @@
     "family": "Annonaceae",
     "genus": "Unonopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3541,9 +4746,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Unonopsis guatterioides"
+      ],
+      "en": [
+        "Unonopsis guatterioides"
+      ],
+      "es": [
+        "Unonopsis guatterioides"
+      ],
+      "fr": [
+        "Unonopsis guatterioides"
+      ],
+      "it": [
+        "Unonopsis guatterioides"
+      ],
+      "nl": [
+        "Unonopsis guatterioides"
+      ],
+      "pl": [
+        "Unonopsis guatterioides"
+      ],
+      "pt": [
+        "Unonopsis guatterioides"
+      ],
+      "ru": [
+        "Unonopsis guatterioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3553,7 +4788,7 @@
     "family": "Annonaceae",
     "genus": "Unonopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3635,9 +4870,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Unonopsis stipitata"
+      ],
+      "en": [
+        "Unonopsis stipitata"
+      ],
+      "es": [
+        "Unonopsis stipitata"
+      ],
+      "fr": [
+        "Unonopsis stipitata"
+      ],
+      "it": [
+        "Unonopsis stipitata"
+      ],
+      "nl": [
+        "Unonopsis stipitata"
+      ],
+      "pl": [
+        "Unonopsis stipitata"
+      ],
+      "pt": [
+        "Unonopsis stipitata"
+      ],
+      "ru": [
+        "Unonopsis stipitata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3647,7 +4912,7 @@
     "family": "Annonaceae",
     "genus": "Uvaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3729,11 +4994,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Uvaria chamae"
+      ],
       "en": [
-        "Finger-root"
+        "Finger-root",
+        "Uvaria chamae"
+      ],
+      "es": [
+        "Uvaria chamae"
+      ],
+      "fr": [
+        "Uvaria chamae"
+      ],
+      "it": [
+        "Uvaria chamae"
+      ],
+      "nl": [
+        "Uvaria chamae"
+      ],
+      "pl": [
+        "Uvaria chamae"
+      ],
+      "pt": [
+        "Uvaria chamae"
+      ],
+      "ru": [
+        "Uvaria chamae"
       ]
     },
     "tags": [],
@@ -3745,7 +5037,7 @@
     "family": "Annonaceae",
     "genus": "Xylopia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3827,9 +5119,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مرة الخشب الحبشية"
+      ],
+      "de": [
+        "Mohrenpfeffer"
+      ],
+      "en": [
+        "Xylopia aethiopica"
+      ],
+      "es": [
+        "Xylopia aethiopica"
+      ],
+      "fr": [
+        "Xylopia aethiopica"
+      ],
+      "it": [
+        "Xylopia aethiopica"
+      ],
+      "ja": [
+        "ギニアペッパーグローブ"
+      ],
+      "nl": [
+        "Xylopia aethiopica"
+      ],
+      "pl": [
+        "Xylopia aethiopica"
+      ],
+      "pt": [
+        "Pimenta-da-áfrica"
+      ],
+      "ru": [
+        "Xylopia aethiopica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3839,7 +5167,7 @@
     "family": "Annonaceae",
     "genus": "Xylopia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3921,11 +5249,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Xylopia aromatica"
+      ],
       "en": [
-        "Monkey pepper"
+        "Monkey pepper",
+        "Xylopia aromatica"
+      ],
+      "es": [
+        "Xylopia aromatica"
+      ],
+      "fr": [
+        "Xylopia aromatica"
+      ],
+      "it": [
+        "Xylopia aromatica"
+      ],
+      "nl": [
+        "Xylopia aromatica"
+      ],
+      "pl": [
+        "Xylopia aromatica"
+      ],
+      "pt": [
+        "Pimenta-de-macaco"
+      ],
+      "ru": [
+        "Ксилопия ароматная"
       ]
     },
     "tags": [],
@@ -3937,7 +5292,7 @@
     "family": "Annonaceae",
     "genus": "Xylopia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4019,9 +5374,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Xylopia emarginata"
+      ],
+      "en": [
+        "Xylopia emarginata"
+      ],
+      "es": [
+        "Xylopia emarginata"
+      ],
+      "fr": [
+        "Xylopia emarginata"
+      ],
+      "it": [
+        "Xylopia emarginata"
+      ],
+      "nl": [
+        "Xylopia emarginata"
+      ],
+      "pl": [
+        "Xylopia emarginata"
+      ],
+      "pt": [
+        "Xylopia emarginata"
+      ],
+      "ru": [
+        "Xylopia emarginata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4031,12 +5416,12 @@
     "family": "Annonaceae",
     "genus": "Xylopia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4f2f5e605182487fcc6a0f906279e7c0ca0d663d",
-    "description": null,
+    "description": "Xylopia frutescens is a tree species the genus Xylopia and family Annonaceae and its native range is S. Mexico to S. Tropical America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4113,11 +5498,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Xylopia frutescens"
+      ],
       "en": [
-        "Pimientillo"
+        "Pimientillo",
+        "Xylopia frutescens"
+      ],
+      "es": [
+        "Xylopia frutescens"
+      ],
+      "fr": [
+        "Xylopia frutescens"
+      ],
+      "it": [
+        "Xylopia frutescens"
+      ],
+      "nl": [
+        "Xylopia frutescens"
+      ],
+      "pl": [
+        "Xylopia frutescens"
+      ],
+      "pt": [
+        "Xylopia frutescens"
+      ],
+      "ru": [
+        "Xylopia frutescens"
       ]
     },
     "tags": [],
@@ -4129,7 +5541,7 @@
     "family": "Annonaceae",
     "genus": "Xylopia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4211,9 +5623,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Xylopia sericea"
+      ],
+      "en": [
+        "Xylopia sericea"
+      ],
+      "es": [
+        "Xylopia sericea"
+      ],
+      "fr": [
+        "Xylopia sericea"
+      ],
+      "it": [
+        "Xylopia sericea"
+      ],
+      "nl": [
+        "Xylopia sericea"
+      ],
+      "pl": [
+        "Xylopia sericea"
+      ],
+      "pt": [
+        "Xylopia sericea"
+      ],
+      "ru": [
+        "Xylopia sericea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

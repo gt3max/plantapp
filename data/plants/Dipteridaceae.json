@@ -5,12 +5,12 @@
     "family": "Dipteridaceae",
     "genus": "Dipteris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ebf337d0e36e784c7d9d9e5e35d28fb61de9820d",
-    "description": null,
+    "description": "Dipteris conjugata is a species of fern in the family Dipteridaceae. It has a rhizome, and 2-3 tall stems with mid green or dark green fronds, which have several divisions to toothed lobes. It is grows in clearings, mountain ridges and in forest margins, from tropical and temperate Asia, northern Queensland in Australia and some islands in the Pacific Ocean. It has limited native medicinal uses.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dipteris conjugata"
+      ],
+      "en": [
+        "Dipteris conjugata"
+      ],
+      "es": [
+        "Dipteris conjugata"
+      ],
+      "fr": [
+        "Dipteris conjugata"
+      ],
+      "it": [
+        "Dipteris conjugata"
+      ],
+      "ja": [
+        "ヤブレガサウラボシ"
+      ],
+      "nl": [
+        "Dipteris conjugata"
+      ],
+      "pl": [
+        "Dipteris conjugata"
+      ],
+      "pt": [
+        "Dipteris conjugata"
+      ],
+      "ru": [
+        "Dipteris conjugata"
+      ],
+      "zh": [
+        "双扇蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Elatinaceae",
     "genus": "Elatine",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/171225750b6cee28776054e1e81fb48ae756d470",
-    "description": null,
+    "description": "Elatine alsinastrum is a member of the genus Elatine in the plant family Elatinaceae, the waterwort family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": "[\"Elatine alsinastrum f. fluitans\", \"Elatinella alsinastrum\", \"Alsine alsinastrum\", \"Alsinastrum galiifolia\", \"Elatine alsinastrum f. terrestris\", \"Potamopitys alsinastrum\", \"Rhizium verticillatum\", \"Elatine hippuroidea\", \"Elatine verticillata\", \"Elatine alsinastrum var. terrestris\"]",
     "care": {
       "plant_id": "elatine_alsinastrum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 7.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Elatine alsinastrum"
+      ],
+      "en": [
+        "Elatine alsinastrum"
+      ],
+      "es": [
+        "Elatine alsinastrum"
+      ],
+      "fr": [
+        "Elatine alsinastrum"
+      ],
+      "it": [
+        "Elatine alsinastrum"
+      ],
+      "nl": [
+        "Elatine alsinastrum"
+      ],
+      "pl": [
+        "Nadwodnik okółkowy"
+      ],
+      "pt": [
+        "Elatine alsinastrum"
+      ],
+      "ru": [
+        "Повойничек мокричный"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Elatinaceae",
     "genus": "Elatine",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a2b23d4efe5b440014dcc651eee5fa94.jpg",
-    "description": null,
+    "description": "Elatine gratioloides is a species of flowering plant belonging to the family Elatinaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -115,7 +145,7 @@
     "synonyms": "[\"Elatine americana var. australiensis\"]",
     "care": {
       "plant_id": "elatine_gratioloides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Elatine gratioloides"
+      ],
+      "en": [
+        "Elatine gratioloides"
+      ],
+      "es": [
+        "Elatine gratioloides"
+      ],
+      "fr": [
+        "Elatine gratioloides"
+      ],
+      "it": [
+        "Elatine gratioloides"
+      ],
+      "nl": [
+        "Elatine gratioloides"
+      ],
+      "pl": [
+        "Elatine gratioloides"
+      ],
+      "pt": [
+        "Elatine gratioloides"
+      ],
+      "ru": [
+        "Elatine gratioloides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +253,12 @@
     "family": "Elatinaceae",
     "genus": "Elatine",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/78808d32683912e9cbfbe7b82bc2c17d551a0e2a",
-    "description": null,
+    "description": "Elatine hexandra, the six-stamened waterwort, is a species of flowering plant in the family Elatinaceae, which grows in shallow water around lakes and pools in Europe from Ireland to Romania. It is declining due to drainage and water pollution and is therefore protected in several countries.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -209,17 +269,17 @@
     "synonyms": "[\"Elatine paludosa var. hexandra\", \"Elatine paludosa subsp. hexandra\", \"Elatine hexandra subvar. pedunculata\", \"Elatine hydropiper var. hexandra\", \"Elatine paludosa\", \"Tillaea hexandra\", \"Hydropiper hexandrum\", \"Elatine hexandra var. pedunculata\", \"Elatine tripetala\", \"Potamopitys hexandra\"]",
     "care": {
       "plant_id": "elatine_hexandra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -275,11 +335,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "de": [
+        "Sechsmänniger Tännel"
+      ],
       "en": [
+        "Elatine hexandra",
         "Six-stamen waterwort"
+      ],
+      "es": [
+        "Elatine hexandra"
+      ],
+      "fr": [
+        "Elatine hexandra"
+      ],
+      "it": [
+        "Elatine hexandra"
+      ],
+      "nl": [
+        "Elatine hexandra"
+      ],
+      "pl": [
+        "Nadwodnik sześciopręcikowy"
+      ],
+      "pt": [
+        "Elatine hexandra"
+      ],
+      "ru": [
+        "Повойничек шеститычинковый"
       ]
     },
     "tags": [],
@@ -291,12 +378,12 @@
     "family": "Elatinaceae",
     "genus": "Elatine",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1a6a4ce41ebe6f34d368fecbe6b2410c42fb5086",
-    "description": null,
+    "description": "Elatine hydropiper, known as the eight-stamened waterwort, is a species of flowering plant belonging to the family Elatinaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -307,17 +394,17 @@
     "synonyms": "[\"Elatine serpyllifolia\", \"Elatine serpillifolium\", \"Elatine spathulata\", \"Elatine siphosperma\", \"Elatine hydropiper\", \"Elatine paludosa subsp. major\", \"Elatine hydropiper var. gyrosperma\", \"Elatine schkuhriana\", \"Elatine hydropiper var. emersa\", \"Elatine majuscula\"]",
     "care": {
       "plant_id": "elatine_hydropiper",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -373,11 +460,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "de": [
+        "Wasserpfeffer-Tännel"
+      ],
       "en": [
-        "Eight-stamened waterwort"
+        "Eight-stamened waterwort",
+        "Elatine hydropiper"
+      ],
+      "es": [
+        "Elatine hydropiper"
+      ],
+      "fr": [
+        "Elatine hydropiper"
+      ],
+      "it": [
+        "Elatine hydropiper"
+      ],
+      "nl": [
+        "Klein glaskroos"
+      ],
+      "pl": [
+        "Nadwodnik naprzeciwlistny"
+      ],
+      "pt": [
+        "Elatine hydropiper"
+      ],
+      "ru": [
+        "Повойничек перечный"
+      ],
+      "zh": [
+        "马蹄沟繁缕"
       ]
     },
     "tags": [],
@@ -389,7 +506,7 @@
     "family": "Elatinaceae",
     "genus": "Elatine",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -405,7 +522,7 @@
     "synonyms": "[\"Alsinastrum macropodum\", \"Elatine major subsp. macropoda\", \"Elatine macrocarpa\", \"Elatine hydropiper var. macropoda\", \"Elatine hydropiper var. pedunculata\", \"Hydropiper fabri\", \"Elatine hexandra subsp. macropoda\", \"Elatine fabri\", \"Potamopitys macropoda\", \"Elatine paludosa subsp. macropoda\"]",
     "care": {
       "plant_id": "elatine_macropoda",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -471,9 +588,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Elatine macropoda"
+      ],
+      "en": [
+        "Elatine macropoda"
+      ],
+      "es": [
+        "Elatine macropoda"
+      ],
+      "fr": [
+        "Elatine macropoda"
+      ],
+      "it": [
+        "Elatine macropoda"
+      ],
+      "nl": [
+        "Elatine macropoda"
+      ],
+      "pl": [
+        "Elatine macropoda"
+      ],
+      "pt": [
+        "Elatine macropoda"
+      ],
+      "ru": [
+        "Elatine macropoda"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -483,12 +630,12 @@
     "family": "Elatinaceae",
     "genus": "Elatine",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/27f37dc6e688b2b0bcc78eabecb969556b140f04",
-    "description": null,
+    "description": "Elatine triandra is a species of flowering plant belonging to the family Elatinaceae. It is known by the common name longstem waterwort.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -499,17 +646,17 @@
     "synonyms": "[\"Elatine nivalis\", \"Crypta triandra\", \"Alsinastrum triandrum\", \"Elatine triandra var. major\", \"Elatine gracilis\", \"Birolia palludosa\", \"Elatine hydropiper var. triandra\", \"Elatine triandra f. intermedia\", \"Ilyphilos triandrus\", \"Elatine triandra f. callitrichoides\"]",
     "care": {
       "plant_id": "elatine_triandra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -565,11 +712,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Elatine triandra"
+      ],
       "en": [
+        "Elatine triandra",
         "Threestamen waterwort"
+      ],
+      "es": [
+        "Elatine triandra"
+      ],
+      "fr": [
+        "Elatine triandra"
+      ],
+      "it": [
+        "Elatine triandra"
+      ],
+      "ja": [
+        "ミゾハコベ"
+      ],
+      "ko": [
+        "물별"
+      ],
+      "nl": [
+        "Elatine triandra"
+      ],
+      "pl": [
+        "Nadwodnik trójpręcikowy"
+      ],
+      "pt": [
+        "Elatine triandra"
+      ],
+      "ru": [
+        "Повойничек трёхтычинковый"
+      ],
+      "zh": [
+        "三蕊沟繁缕"
       ]
     },
     "tags": [],

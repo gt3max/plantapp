@@ -5,7 +5,7 @@
     "family": "Lonchitidaceae",
     "genus": "Lonchitis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lonchitis hirsuta"
+      ],
+      "en": [
+        "Lonchitis hirsuta"
+      ],
+      "es": [
+        "Lonchitis hirsuta"
+      ],
+      "fr": [
+        "Lonchitis hirsuta"
+      ],
+      "it": [
+        "Lonchitis hirsuta"
+      ],
+      "nl": [
+        "Lonchitis hirsuta"
+      ],
+      "pl": [
+        "Lonchitis hirsuta"
+      ],
+      "pt": [
+        "Lonchitis hirsuta"
+      ],
+      "ru": [
+        "Lonchitis hirsuta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

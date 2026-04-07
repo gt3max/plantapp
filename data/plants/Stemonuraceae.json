@@ -5,7 +5,7 @@
     "family": "Stemonuraceae",
     "genus": "Discophora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Discophora guianensis"
+      ],
+      "en": [
+        "Discophora guianensis"
+      ],
+      "es": [
+        "Discophora guianensis"
+      ],
+      "fr": [
+        "Discophora guianensis"
+      ],
+      "it": [
+        "Discophora guianensis"
+      ],
+      "nl": [
+        "Discophora guianensis"
+      ],
+      "pl": [
+        "Discophora guianensis"
+      ],
+      "pt": [
+        "Discophora guianensis"
+      ],
+      "ru": [
+        "Discophora guianensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

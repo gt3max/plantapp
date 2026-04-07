@@ -5,7 +5,7 @@
     "family": "Antheliaceae",
     "genus": "Anthelia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Anthelia julacea"
+      ],
+      "en": [
+        "Anthelia julacea"
+      ],
+      "es": [
+        "Anthelia julacea"
+      ],
+      "fr": [
+        "Anthelia julacea"
+      ],
+      "it": [
+        "Anthelia julacea"
+      ],
+      "nl": [
+        "Anthelia julacea"
+      ],
+      "pl": [
+        "Anthelia julacea"
+      ],
+      "pt": [
+        "Anthelia julacea"
+      ],
+      "ru": [
+        "Anthelia julacea"
+      ],
+      "zh": [
+        "兔耳苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Antheliaceae",
     "genus": "Anthelia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Anthelia juratzkana"
+      ],
+      "en": [
+        "Anthelia juratzkana"
+      ],
+      "es": [
+        "Anthelia juratzkana"
+      ],
+      "fr": [
+        "Anthelia juratzkana"
+      ],
+      "it": [
+        "Anthelia juratzkana"
+      ],
+      "nl": [
+        "Anthelia juratzkana"
+      ],
+      "pl": [
+        "Anthelia juratzkana"
+      ],
+      "pt": [
+        "Anthelia juratzkana"
+      ],
+      "ru": [
+        "Anthelia juratzkana"
+      ],
+      "zh": [
+        "小兔耳苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

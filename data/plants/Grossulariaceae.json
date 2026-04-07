@@ -5,7 +5,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ribes_alpinum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "ar": [
+        "كشمش جبلي"
+      ],
+      "de": [
+        "Alpen-Johannisbeere"
+      ],
       "en": [
-        "Alpine currant"
+        "Alpine currant",
+        "Ribes alpinum"
+      ],
+      "es": [
+        "Ribes alpinum"
+      ],
+      "fr": [
+        "Ribes alpinum"
+      ],
+      "it": [
+        "Ribes alpinum"
+      ],
+      "nl": [
+        "Ribes alpinum"
+      ],
+      "pl": [
+        "porzeczka alpejska"
+      ],
+      "pt": [
+        "Ribes alpinum"
+      ],
+      "ru": [
+        "Смородина альпийская"
+      ],
+      "tr": [
+        "Alp frenk üzümü"
+      ],
+      "zh": [
+        "高山茶藨子"
       ]
     },
     "tags": [],
@@ -103,7 +139,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -124,12 +160,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,11 +221,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Kanadische Johannisbeere"
+      ],
       "en": [
-        "American black currant"
+        "American black currant",
+        "Ribes americanum"
+      ],
+      "es": [
+        "Ribes americanum"
+      ],
+      "fr": [
+        "Ribes americanum"
+      ],
+      "it": [
+        "Ribes americanum"
+      ],
+      "nl": [
+        "Ribes americanum"
+      ],
+      "pl": [
+        "Ribes americanum"
+      ],
+      "pt": [
+        "Ribes americanum"
+      ],
+      "ru": [
+        "Смородина американская"
+      ],
+      "tr": [
+        "Ribes americanum"
+      ],
+      "zh": [
+        "美洲茶藨子"
       ]
     },
     "tags": [],
@@ -201,7 +270,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -217,17 +286,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ribes_aureum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -283,11 +352,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Gold-Johannisbeere"
+      ],
       "en": [
-        "Golden currant"
+        "Golden currant",
+        "Ribes aureum"
+      ],
+      "es": [
+        "Ribes aureum"
+      ],
+      "fr": [
+        "Ribes aureum"
+      ],
+      "it": [
+        "Ribes aureum"
+      ],
+      "ja": [
+        "ゴールデンカラント"
+      ],
+      "nl": [
+        "gele ribes"
+      ],
+      "pl": [
+        "Porzeczka złota"
+      ],
+      "pt": [
+        "Ribes aureum"
+      ],
+      "ru": [
+        "Смородина золотистая"
+      ],
+      "tr": [
+        "Ribes aureum"
+      ],
+      "zh": [
+        "香茶藨子"
       ]
     },
     "tags": [],
@@ -299,7 +404,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -381,9 +486,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ribes bracteosum"
+      ],
+      "en": [
+        "Ribes bracteosum"
+      ],
+      "es": [
+        "Ribes bracteosum"
+      ],
+      "fr": [
+        "Ribes bracteosum"
+      ],
+      "it": [
+        "Ribes bracteosum"
+      ],
+      "nl": [
+        "Ribes bracteosum"
+      ],
+      "pl": [
+        "Ribes bracteosum"
+      ],
+      "pt": [
+        "Ribes bracteosum"
+      ],
+      "ru": [
+        "Смородина прицветниковая"
+      ],
+      "tr": [
+        "Ribes bracteosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -393,7 +531,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -475,11 +613,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ribes californicum"
+      ],
       "en": [
-        "Hillside gooseberry"
+        "Hillside gooseberry",
+        "Ribes californicum"
+      ],
+      "es": [
+        "Ribes californicum"
+      ],
+      "fr": [
+        "Ribes californicum"
+      ],
+      "it": [
+        "Ribes californicum"
+      ],
+      "nl": [
+        "Ribes californicum"
+      ],
+      "pl": [
+        "Ribes californicum"
+      ],
+      "pt": [
+        "Ribes californicum"
+      ],
+      "ru": [
+        "Ribes californicum"
+      ],
+      "tr": [
+        "Ribes californicum"
       ]
     },
     "tags": [],
@@ -491,7 +659,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -512,12 +680,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -573,11 +741,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Ribes cereum"
+      ],
       "en": [
+        "Ribes cereum",
         "Squaw currant"
+      ],
+      "es": [
+        "Ribes cereum"
+      ],
+      "fr": [
+        "Ribes cereum"
+      ],
+      "it": [
+        "Ribes cereum"
+      ],
+      "nl": [
+        "Ribes cereum"
+      ],
+      "pl": [
+        "Ribes cereum"
+      ],
+      "pt": [
+        "Ribes cereum"
+      ],
+      "ru": [
+        "Смородина восковая"
+      ],
+      "tr": [
+        "Ribes cereum"
       ]
     },
     "tags": [],
@@ -589,7 +787,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -610,12 +808,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -671,11 +869,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Ribes cynosbati"
+      ],
       "en": [
-        "American gooseberry"
+        "American gooseberry",
+        "Ribes cynosbati"
+      ],
+      "es": [
+        "Ribes cynosbati"
+      ],
+      "fr": [
+        "Ribes cynosbati"
+      ],
+      "it": [
+        "Ribes cynosbati"
+      ],
+      "nl": [
+        "Ribes cynosbati"
+      ],
+      "pl": [
+        "Ribes cynosbati"
+      ],
+      "pt": [
+        "Ribes cynosbati"
+      ],
+      "ru": [
+        "Ribes cynosbati"
+      ],
+      "tr": [
+        "Ribes cynosbati"
       ]
     },
     "tags": [],
@@ -687,7 +915,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -769,11 +997,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كشمش متفشج"
+      ],
+      "de": [
+        "Oregon-Stachelbeere"
+      ],
       "en": [
+        "Ribes divaricatum",
         "Wild black gooseberry"
+      ],
+      "es": [
+        "Ribes divaricatum"
+      ],
+      "fr": [
+        "Ribes divaricatum"
+      ],
+      "it": [
+        "Ribes divaricatum"
+      ],
+      "nl": [
+        "Ribes divaricatum"
+      ],
+      "pl": [
+        "Ribes divaricatum"
+      ],
+      "pt": [
+        "Ribes divaricatum"
+      ],
+      "ru": [
+        "Ribes divaricatum"
+      ],
+      "tr": [
+        "Ribes divaricatum"
       ]
     },
     "tags": [],
@@ -785,7 +1046,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -867,9 +1128,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dolden-Johannisbeere"
+      ],
+      "en": [
+        "Ribes fasciculatum"
+      ],
+      "es": [
+        "Ribes fasciculatum"
+      ],
+      "fr": [
+        "Ribes fasciculatum"
+      ],
+      "it": [
+        "Ribes fasciculatum"
+      ],
+      "ja": [
+        "ヤブサンザシ"
+      ],
+      "ko": [
+        "개당주나무"
+      ],
+      "nl": [
+        "Ribes fasciculatum"
+      ],
+      "pl": [
+        "Ribes fasciculatum"
+      ],
+      "pt": [
+        "Ribes fasciculatum"
+      ],
+      "ru": [
+        "Смородина пучковатая"
+      ],
+      "tr": [
+        "Ribes fasciculatum"
+      ],
+      "zh": [
+        "簇花茶藨子"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -879,7 +1182,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -900,12 +1203,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -961,11 +1264,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "ar": [
+        "كشمش حشفي"
+      ],
+      "de": [
+        "Stinktier-Johannisbeere"
+      ],
       "en": [
+        "Ribes glandulosum",
         "Wild currant"
+      ],
+      "es": [
+        "Ribes glandulosum"
+      ],
+      "fr": [
+        "Ribes glandulosum"
+      ],
+      "it": [
+        "Ribes glandulosum"
+      ],
+      "nl": [
+        "Ribes glandulosum"
+      ],
+      "pl": [
+        "Ribes glandulosum"
+      ],
+      "pt": [
+        "Ribes glandulosum"
+      ],
+      "ru": [
+        "Смородина железистая"
+      ],
+      "tr": [
+        "Ribes glandulosum"
       ]
     },
     "tags": [],
@@ -977,7 +1313,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1059,11 +1395,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كشمش خشن الملمس"
+      ],
+      "de": [
+        "Ribes hirtellum"
+      ],
       "en": [
-        "American gooseberry"
+        "American gooseberry",
+        "Ribes hirtellum"
+      ],
+      "es": [
+        "Ribes hirtellum"
+      ],
+      "fr": [
+        "Ribes hirtellum"
+      ],
+      "it": [
+        "Ribes hirtellum"
+      ],
+      "nl": [
+        "Ribes hirtellum"
+      ],
+      "pl": [
+        "Ribes hirtellum"
+      ],
+      "pt": [
+        "Ribes hirtellum"
+      ],
+      "ru": [
+        "Ribes hirtellum"
+      ],
+      "tr": [
+        "Ribes hirtellum"
+      ],
+      "zh": [
+        "美洲醋栗"
       ]
     },
     "tags": [],
@@ -1075,7 +1447,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1157,11 +1529,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ribes hudsonianum"
+      ],
       "en": [
-        "Northern black currant"
+        "Northern black currant",
+        "Ribes hudsonianum"
+      ],
+      "es": [
+        "Ribes hudsonianum"
+      ],
+      "fr": [
+        "Ribes hudsonianum"
+      ],
+      "it": [
+        "Ribes hudsonianum"
+      ],
+      "nl": [
+        "Ribes hudsonianum"
+      ],
+      "pl": [
+        "Ribes hudsonianum"
+      ],
+      "pt": [
+        "Ribes hudsonianum"
+      ],
+      "ru": [
+        "Ribes hudsonianum"
+      ],
+      "tr": [
+        "Ribes hudsonianum"
       ]
     },
     "tags": [],
@@ -1173,7 +1575,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1255,11 +1657,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ribes indecorum"
+      ],
       "en": [
+        "Ribes indecorum",
         "White-flower currant"
+      ],
+      "es": [
+        "Ribes indecorum"
+      ],
+      "fr": [
+        "Ribes indecorum"
+      ],
+      "it": [
+        "Ribes indecorum"
+      ],
+      "nl": [
+        "Ribes indecorum"
+      ],
+      "pl": [
+        "Ribes indecorum"
+      ],
+      "pt": [
+        "Ribes indecorum"
+      ],
+      "ru": [
+        "Ribes indecorum"
+      ],
+      "tr": [
+        "Ribes indecorum"
       ]
     },
     "tags": [],
@@ -1271,7 +1703,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1353,11 +1785,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ribes inerme"
+      ],
       "en": [
+        "Ribes inerme",
         "White-stem gooseberry"
+      ],
+      "es": [
+        "Ribes inerme"
+      ],
+      "fr": [
+        "Ribes inerme"
+      ],
+      "it": [
+        "Ribes inerme"
+      ],
+      "nl": [
+        "Ribes inerme"
+      ],
+      "pl": [
+        "Ribes inerme"
+      ],
+      "pt": [
+        "Ribes inerme"
+      ],
+      "ru": [
+        "Ribes inerme"
+      ],
+      "tr": [
+        "Ribes inerme"
       ]
     },
     "tags": [],
@@ -1369,7 +1831,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1390,12 +1852,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1451,11 +1913,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Ribes lacustre"
+      ],
       "en": [
-        "Bristly black gooseberry"
+        "Bristly black gooseberry",
+        "Ribes lacustre"
+      ],
+      "es": [
+        "Ribes lacustre"
+      ],
+      "fr": [
+        "Ribes lacustre"
+      ],
+      "it": [
+        "Ribes lacustre"
+      ],
+      "nl": [
+        "Ribes lacustre"
+      ],
+      "pl": [
+        "Ribes lacustre"
+      ],
+      "pt": [
+        "Ribes lacustre"
+      ],
+      "ru": [
+        "Смородина озёрная"
+      ],
+      "tr": [
+        "Ribes lacustre"
       ]
     },
     "tags": [],
@@ -1467,7 +1959,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1549,11 +2041,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ribes laxiflorum"
+      ],
       "en": [
+        "Ribes laxiflorum",
         "Spreading currant"
+      ],
+      "es": [
+        "Ribes laxiflorum"
+      ],
+      "fr": [
+        "Ribes laxiflorum"
+      ],
+      "it": [
+        "Ribes laxiflorum"
+      ],
+      "nl": [
+        "Ribes laxiflorum"
+      ],
+      "pl": [
+        "Ribes laxiflorum"
+      ],
+      "pt": [
+        "Ribes laxiflorum"
+      ],
+      "ru": [
+        "Ribes laxiflorum"
+      ],
+      "tr": [
+        "Ribes laxiflorum"
       ]
     },
     "tags": [],
@@ -1565,7 +2087,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1647,11 +2169,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ribes lobbii"
+      ],
       "en": [
+        "Ribes lobbii",
         "Sticky gooseberry"
+      ],
+      "es": [
+        "Ribes lobbii"
+      ],
+      "fr": [
+        "Ribes lobbii"
+      ],
+      "it": [
+        "Ribes lobbii"
+      ],
+      "nl": [
+        "Ribes lobbii"
+      ],
+      "pl": [
+        "Ribes lobbii"
+      ],
+      "pt": [
+        "Ribes lobbii"
+      ],
+      "ru": [
+        "Ribes lobbii"
+      ],
+      "tr": [
+        "Ribes lobbii"
       ]
     },
     "tags": [],
@@ -1663,7 +2215,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1684,12 +2236,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1745,11 +2297,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Ribes malvaceum"
+      ],
       "en": [
-        "Chaparral currant"
+        "Chaparral currant",
+        "Ribes malvaceum"
+      ],
+      "es": [
+        "Ribes malvaceum"
+      ],
+      "fr": [
+        "Ribes malvaceum"
+      ],
+      "it": [
+        "Ribes malvaceum"
+      ],
+      "nl": [
+        "Ribes malvaceum"
+      ],
+      "pl": [
+        "Ribes malvaceum"
+      ],
+      "pt": [
+        "Ribes malvaceum"
+      ],
+      "ru": [
+        "Ribes malvaceum"
+      ],
+      "tr": [
+        "Ribes malvaceum"
       ]
     },
     "tags": [],
@@ -1761,7 +2343,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1843,11 +2425,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ribes menziesii"
+      ],
       "en": [
-        "Canyon gooseberry"
+        "Canyon gooseberry",
+        "Ribes menziesii"
+      ],
+      "es": [
+        "Ribes menziesii"
+      ],
+      "fr": [
+        "Ribes menziesii"
+      ],
+      "it": [
+        "Ribes menziesii"
+      ],
+      "nl": [
+        "Ribes menziesii"
+      ],
+      "pl": [
+        "Ribes menziesii"
+      ],
+      "pt": [
+        "Ribes menziesii"
+      ],
+      "ru": [
+        "Ribes menziesii"
+      ],
+      "tr": [
+        "Ribes menziesii"
       ]
     },
     "tags": [],
@@ -1859,7 +2471,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1941,11 +2553,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ribes montigenum"
+      ],
       "en": [
-        "Alpine prickly currant"
+        "Alpine prickly currant",
+        "Ribes montigenum"
+      ],
+      "es": [
+        "Ribes montigenum"
+      ],
+      "fr": [
+        "Ribes montigenum"
+      ],
+      "it": [
+        "Ribes montigenum"
+      ],
+      "nl": [
+        "Ribes montigenum"
+      ],
+      "pl": [
+        "Ribes montigenum"
+      ],
+      "pt": [
+        "Ribes montigenum"
+      ],
+      "ru": [
+        "Ribes montigenum"
+      ],
+      "tr": [
+        "Ribes montigenum"
       ]
     },
     "tags": [],
@@ -1957,12 +2599,12 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Ribes nevadense is a species of currant known by the common names Sierra currant and mountain pink currant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2039,9 +2681,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ribes nevadense"
+      ],
+      "en": [
+        "Ribes nevadense"
+      ],
+      "es": [
+        "Ribes nevadense"
+      ],
+      "fr": [
+        "Ribes nevadense"
+      ],
+      "it": [
+        "Ribes nevadense"
+      ],
+      "nl": [
+        "Ribes nevadense"
+      ],
+      "pl": [
+        "Ribes nevadense"
+      ],
+      "pt": [
+        "Ribes nevadense"
+      ],
+      "ru": [
+        "Ribes nevadense"
+      ],
+      "tr": [
+        "Ribes nevadense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2051,7 +2726,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2067,17 +2742,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ribes_nigrum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2133,11 +2808,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 4.4
     },
     "common_names": {
+      "ar": [
+        "كشمش أسود"
+      ],
+      "de": [
+        "Schwarze Johannisbeere"
+      ],
       "en": [
-        "Black currant"
+        "Black currant",
+        "Ribes nigrum"
+      ],
+      "es": [
+        "Ribes nigrum"
+      ],
+      "fr": [
+        "Ribes nigrum"
+      ],
+      "it": [
+        "Ribes nigrum"
+      ],
+      "ja": [
+        "クロスグリ"
+      ],
+      "ko": [
+        "블랙커런트"
+      ],
+      "nl": [
+        "zwarte bes"
+      ],
+      "pl": [
+        "porzeczka czarna"
+      ],
+      "pt": [
+        "Cassis"
+      ],
+      "ru": [
+        "Смородина чёрная"
+      ],
+      "tr": [
+        "Siyah frenk üzümü"
+      ],
+      "zh": [
+        "黑加仑"
       ]
     },
     "tags": [],
@@ -2149,12 +2866,12 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Ribes oxyacanthoides is a North American species of gooseberry known by the common name Canadian gooseberry. Its various subspecies have common names of their own.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2170,12 +2887,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2231,9 +2948,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ribes oxyacanthoides"
+      ],
+      "en": [
+        "Ribes oxyacanthoides"
+      ],
+      "es": [
+        "Ribes oxyacanthoides"
+      ],
+      "fr": [
+        "Ribes oxyacanthoides"
+      ],
+      "it": [
+        "Ribes oxyacanthoides"
+      ],
+      "nl": [
+        "Ribes oxyacanthoides"
+      ],
+      "pl": [
+        "Ribes oxyacanthoides"
+      ],
+      "pt": [
+        "Ribes oxyacanthoides"
+      ],
+      "ru": [
+        "Ribes oxyacanthoides"
+      ],
+      "tr": [
+        "Ribes oxyacanthoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2243,7 +2993,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2259,17 +3009,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ribes_petraeum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2325,11 +3075,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "ar": [
+        "كشمش صخري"
+      ],
+      "de": [
+        "Felsen-Johannisbeere"
+      ],
       "en": [
+        "Ribes petraeum",
         "Rock currant"
+      ],
+      "es": [
+        "Ribes petraeum"
+      ],
+      "fr": [
+        "Ribes petraeum"
+      ],
+      "it": [
+        "Ribes petraeum"
+      ],
+      "nl": [
+        "steenbes"
+      ],
+      "pl": [
+        "Porzeczka skalna"
+      ],
+      "pt": [
+        "Ribes petraeum"
+      ],
+      "ru": [
+        "Смородина скальная"
+      ],
+      "tr": [
+        "Ribes petraeum"
       ]
     },
     "tags": [],
@@ -2341,7 +3124,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2423,11 +3206,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ribes quercetorum"
+      ],
       "en": [
-        "Oak gooseberry"
+        "Oak gooseberry",
+        "Ribes quercetorum"
+      ],
+      "es": [
+        "Ribes quercetorum"
+      ],
+      "fr": [
+        "Ribes quercetorum"
+      ],
+      "it": [
+        "Ribes quercetorum"
+      ],
+      "nl": [
+        "Ribes quercetorum"
+      ],
+      "pl": [
+        "Ribes quercetorum"
+      ],
+      "pt": [
+        "Ribes quercetorum"
+      ],
+      "ru": [
+        "Ribes quercetorum"
+      ],
+      "tr": [
+        "Ribes quercetorum"
       ]
     },
     "tags": [],
@@ -2439,7 +3252,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2460,12 +3273,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2521,11 +3334,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Ribes roezlii"
+      ],
       "en": [
+        "Ribes roezlii",
         "Sierra gooseberry"
+      ],
+      "es": [
+        "Ribes roezlii"
+      ],
+      "fr": [
+        "Ribes roezlii"
+      ],
+      "it": [
+        "Ribes roezlii"
+      ],
+      "nl": [
+        "Ribes roezlii"
+      ],
+      "pl": [
+        "Ribes roezlii"
+      ],
+      "pt": [
+        "Ribes roezlii"
+      ],
+      "ru": [
+        "Ribes roezlii"
+      ],
+      "tr": [
+        "Ribes roezlii"
       ]
     },
     "tags": [],
@@ -2537,7 +3380,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2558,12 +3401,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2619,11 +3462,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "ar": [
+        "كشمش أحمر"
+      ],
+      "de": [
+        "Rote Johannisbeere"
+      ],
       "en": [
-        "Garden currant"
+        "Garden currant",
+        "Ribes rubrum"
+      ],
+      "es": [
+        "Ribes rubrum"
+      ],
+      "fr": [
+        "groseiller"
+      ],
+      "it": [
+        "Ribes rubrum"
+      ],
+      "ja": [
+        "フサスグリ"
+      ],
+      "ko": [
+        "레드커런트"
+      ],
+      "nl": [
+        "aalbes"
+      ],
+      "pl": [
+        "porzeczka zwyczajna"
+      ],
+      "pt": [
+        "Groselha"
+      ],
+      "ru": [
+        "Смородина красная"
+      ],
+      "tr": [
+        "Kırmızı frenk üzümü"
+      ],
+      "zh": [
+        "紅加侖"
       ]
     },
     "tags": [],
@@ -2635,7 +3520,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2656,12 +3541,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2717,11 +3602,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Blut-Johannisbeere"
+      ],
       "en": [
-        "Flowering currant"
+        "Flowering currant",
+        "Ribes sanguineum"
+      ],
+      "es": [
+        "Ribes sanguineum"
+      ],
+      "fr": [
+        "Groseillier à fleurs"
+      ],
+      "it": [
+        "Ribes sanguineum"
+      ],
+      "ja": [
+        "ハナスグリ"
+      ],
+      "nl": [
+        "rode ribes"
+      ],
+      "pl": [
+        "Porzeczka krwista"
+      ],
+      "pt": [
+        "Ribes sanguineum"
+      ],
+      "ru": [
+        "Смородина кроваво-красная"
+      ],
+      "tr": [
+        "Ribes sanguineum"
       ]
     },
     "tags": [],
@@ -2733,7 +3651,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2754,12 +3672,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2815,11 +3733,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Fuchsienblütige Johannisbeere"
+      ],
       "en": [
-        "Fuchsia-flower gooseberry"
+        "Fuchsia-flower gooseberry",
+        "Ribes speciosum"
+      ],
+      "es": [
+        "Ribes speciosum"
+      ],
+      "fr": [
+        "Ribes speciosum"
+      ],
+      "it": [
+        "Ribes speciosum"
+      ],
+      "nl": [
+        "Ribes speciosum"
+      ],
+      "pl": [
+        "Ribes speciosum"
+      ],
+      "pt": [
+        "Ribes speciosum"
+      ],
+      "ru": [
+        "Ribes speciosum"
+      ],
+      "tr": [
+        "Ribes speciosum"
       ]
     },
     "tags": [],
@@ -2831,7 +3779,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2852,12 +3800,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2913,11 +3861,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Ährige Johannisbeere"
+      ],
       "en": [
-        "Currant"
+        "Currant",
+        "Ribes spicatum"
+      ],
+      "es": [
+        "Ribes spicatum"
+      ],
+      "fr": [
+        "Ribes spicatum"
+      ],
+      "it": [
+        "Ribes spicatum"
+      ],
+      "nl": [
+        "Ribes spicatum"
+      ],
+      "pl": [
+        "Porzeczka czerwona"
+      ],
+      "pt": [
+        "Ribes spicatum"
+      ],
+      "ru": [
+        "Смородина пушистая"
+      ],
+      "tr": [
+        "Ribes spicatum"
       ]
     },
     "tags": [],
@@ -2929,7 +3907,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2950,12 +3928,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3011,11 +3989,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "ar": [
+        "كشمش منقعي"
+      ],
+      "de": [
+        "Ribes triste"
+      ],
       "en": [
+        "Ribes triste",
         "Swamp red currant"
+      ],
+      "es": [
+        "Ribes triste"
+      ],
+      "fr": [
+        "Gadelier rouge sauvage"
+      ],
+      "it": [
+        "Ribes triste"
+      ],
+      "nl": [
+        "Ribes triste"
+      ],
+      "pl": [
+        "Ribes triste"
+      ],
+      "pt": [
+        "Ribes triste"
+      ],
+      "ru": [
+        "Смородина печальная"
+      ],
+      "tr": [
+        "Ribes triste"
+      ],
+      "zh": [
+        "矮茶藨子"
       ]
     },
     "tags": [],
@@ -3027,7 +4041,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3043,17 +4057,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ribes_uva-crispa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3109,11 +4123,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "ar": [
+        "عنب الثعلب"
+      ],
+      "de": [
+        "Stachelbeere"
+      ],
       "en": [
-        "European gooseberry"
+        "European gooseberry",
+        "Ribes uva-crispa"
+      ],
+      "es": [
+        "Ribes uva-crispa"
+      ],
+      "fr": [
+        "groseillier à maquereau"
+      ],
+      "it": [
+        "Ribes uva-crispa"
+      ],
+      "ja": [
+        "セイヨウスグリ"
+      ],
+      "ko": [
+        "구즈베리"
+      ],
+      "nl": [
+        "kruisbes"
+      ],
+      "pl": [
+        "porzeczka agrest"
+      ],
+      "pt": [
+        "Groselheira"
+      ],
+      "ru": [
+        "Крыжовник обыкновенный"
+      ],
+      "tr": [
+        "Ribes uva-crispa"
+      ],
+      "zh": [
+        "鵝莓"
       ]
     },
     "tags": [],
@@ -3125,7 +4181,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3207,11 +4263,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ribes velutinum"
+      ],
       "en": [
-        "Desert gooseberry"
+        "Desert gooseberry",
+        "Ribes velutinum"
+      ],
+      "es": [
+        "Ribes velutinum"
+      ],
+      "fr": [
+        "Ribes velutinum"
+      ],
+      "it": [
+        "Ribes velutinum"
+      ],
+      "nl": [
+        "Ribes velutinum"
+      ],
+      "pl": [
+        "Ribes velutinum"
+      ],
+      "pt": [
+        "Ribes velutinum"
+      ],
+      "ru": [
+        "Ribes velutinum"
+      ],
+      "tr": [
+        "Ribes velutinum"
       ]
     },
     "tags": [],
@@ -3223,7 +4309,7 @@
     "family": "Grossulariaceae",
     "genus": "Ribes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3244,12 +4330,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3305,11 +4391,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.2
     },
     "common_names": {
+      "de": [
+        "Ribes viscosissimum"
+      ],
       "en": [
+        "Ribes viscosissimum",
         "Sticky currant"
+      ],
+      "es": [
+        "Ribes viscosissimum"
+      ],
+      "fr": [
+        "Ribes viscosissimum"
+      ],
+      "it": [
+        "Ribes viscosissimum"
+      ],
+      "nl": [
+        "Ribes viscosissimum"
+      ],
+      "pl": [
+        "Ribes viscosissimum"
+      ],
+      "pt": [
+        "Ribes viscosissimum"
+      ],
+      "ru": [
+        "Ribes viscosissimum"
+      ],
+      "tr": [
+        "Ribes viscosissimum"
       ]
     },
     "tags": [],

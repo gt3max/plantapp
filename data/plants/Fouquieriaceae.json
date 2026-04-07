@@ -5,12 +5,12 @@
     "family": "Fouquieriaceae",
     "genus": "Fouquieria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1e5ff376c926e779246dec56d8e4d041735a4069",
-    "description": null,
+    "description": "Fouquieria splendens, commonly known as ocotillo, is a plant indigenous to the Mojave, Sonoran, Chihuahuan and Colorado deserts in the Southwestern United States, and northern Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Fouquieria splendens"
+      ],
       "en": [
+        "Fouquieria splendens",
         "Vine-cactus"
+      ],
+      "es": [
+        "Fouquieria splendens"
+      ],
+      "fr": [
+        "Ocotillo"
+      ],
+      "it": [
+        "Fouquieria splendens"
+      ],
+      "ja": [
+        "フォウクィエリア・スプレンデンス"
+      ],
+      "nl": [
+        "Fouquieria splendens"
+      ],
+      "pl": [
+        "Fouquieria splendens"
+      ],
+      "pt": [
+        "Fouquieria splendens"
+      ],
+      "ru": [
+        "Fouquieria splendens"
+      ],
+      "zh": [
+        "福桂树"
       ]
     },
     "tags": [],

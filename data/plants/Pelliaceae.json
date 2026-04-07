@@ -5,7 +5,7 @@
     "family": "Pelliaceae",
     "genus": "Pellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Endivienartiges Beckenmoos"
+      ],
+      "en": [
+        "Pellia endiviifolia"
+      ],
+      "es": [
+        "Pellia endiviifolia"
+      ],
+      "fr": [
+        "Pellia endiviifolia"
+      ],
+      "it": [
+        "Pellia endiviifolia"
+      ],
+      "nl": [
+        "Pellia endiviifolia"
+      ],
+      "pl": [
+        "Pellia endiviifolia"
+      ],
+      "pt": [
+        "Pellia endiviifolia"
+      ],
+      "ru": [
+        "Pellia endiviifolia"
+      ],
+      "zh": [
+        "花叶溪苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Pelliaceae",
     "genus": "Pellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -115,9 +148,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "pellia_epiphylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gemeines Beckenmoos"
+      ],
+      "en": [
+        "Pellia epiphylla"
+      ],
+      "es": [
+        "Pellia epiphylla"
+      ],
+      "fr": [
+        "Pellia epiphylla"
+      ],
+      "it": [
+        "Pellia epiphylla"
+      ],
+      "nl": [
+        "Pellia epiphylla"
+      ],
+      "pl": [
+        "Pellia epiphylla"
+      ],
+      "pt": [
+        "Pellia epiphylla"
+      ],
+      "ru": [
+        "Pellia epiphylla"
+      ],
+      "zh": [
+        "溪苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +259,7 @@
     "family": "Pelliaceae",
     "genus": "Pellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +341,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pellia neesiana"
+      ],
+      "en": [
+        "Pellia neesiana"
+      ],
+      "es": [
+        "Pellia neesiana"
+      ],
+      "fr": [
+        "Pellia neesiana"
+      ],
+      "it": [
+        "Pellia neesiana"
+      ],
+      "nl": [
+        "Pellia neesiana"
+      ],
+      "pl": [
+        "Pellia neesiana"
+      ],
+      "pt": [
+        "Pellia neesiana"
+      ],
+      "ru": [
+        "Pellia neesiana"
+      ],
+      "zh": [
+        "波绿溪苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

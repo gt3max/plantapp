@@ -21,9 +21,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "achimenes_(group)",
-      "water_frequency": null,
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "part shade",
@@ -87,7 +87,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -126,7 +128,7 @@
       "plant_id": "achimenes_grandiflora",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -194,9 +196,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Achimenes grandiflora"
+      ],
+      "en": [
+        "Achimenes grandiflora"
+      ],
+      "es": [
+        "Achimenes grandiflora"
+      ],
+      "fr": [
+        "Achimenes grandiflora"
+      ],
+      "it": [
+        "Achimenes grandiflora"
+      ],
+      "nl": [
+        "Achimenes grandiflora"
+      ],
+      "pl": [
+        "Achimenes wielkokwiatowy"
+      ],
+      "pt": [
+        "Achimenes grandiflora"
+      ],
+      "ru": [
+        "Achimenes grandiflora"
+      ],
+      "zh": [
+        "戏法草",
+        "长筒花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -224,7 +260,7 @@
       "plant_id": "achimenes_longiflora",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -292,9 +328,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Achimenes longiflora"
+      ],
+      "en": [
+        "Achimenes longiflora"
+      ],
+      "es": [
+        "Achimenes longiflora"
+      ],
+      "fr": [
+        "Achimenes longiflora"
+      ],
+      "it": [
+        "Achimenes longiflora"
+      ],
+      "nl": [
+        "Achimenes longiflora"
+      ],
+      "pl": [
+        "Achimenes longiflora"
+      ],
+      "pt": [
+        "Achimenes longiflora"
+      ],
+      "ru": [
+        "Achimenes longiflora"
+      ],
+      "zh": [
+        "长花猴蝶花",
+        "长花长筒花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -320,9 +390,9 @@
     "synonyms": "[\"Trichosporum radicans\", \"Trichosporum ovatum\", \"Aeschynanthus radicans var. robustior\", \"Aeschynanthus radicans var. lanuginosus\"]",
     "care": {
       "plant_id": "aeschynanthus_radicans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Low",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "part shade",
@@ -390,11 +460,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aeschynanthus radicans"
+      ],
       "en": [
+        "Aeschynanthus radicans",
         "lipstick plant"
+      ],
+      "es": [
+        "Aeschynanthus radicans"
+      ],
+      "fr": [
+        "Aeschynanthus radicans"
+      ],
+      "it": [
+        "Aeschynanthus radicans"
+      ],
+      "nl": [
+        "Aeschynanthus radicans"
+      ],
+      "pl": [
+        "Aeschynanthus radicans"
+      ],
+      "pt": [
+        "Aeschynanthus radicans"
+      ],
+      "ru": [
+        "Aeschynanthus radicans"
+      ],
+      "zh": [
+        "芒毛苣苔"
       ]
     },
     "tags": [
@@ -429,7 +529,7 @@
       "plant_id": "besleria_laxiflora",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -493,9 +593,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Besleria laxiflora"
+      ],
+      "en": [
+        "Besleria laxiflora"
+      ],
+      "es": [
+        "Besleria laxiflora"
+      ],
+      "fr": [
+        "Besleria laxiflora"
+      ],
+      "it": [
+        "Besleria laxiflora"
+      ],
+      "nl": [
+        "Besleria laxiflora"
+      ],
+      "pl": [
+        "Besleria laxiflora"
+      ],
+      "pt": [
+        "Besleria laxiflora"
+      ],
+      "ru": [
+        "Besleria laxiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -523,7 +653,7 @@
       "plant_id": "besleria_solanoides",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -587,9 +717,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Besleria solanoides"
+      ],
+      "en": [
+        "Besleria solanoides"
+      ],
+      "es": [
+        "Besleria solanoides"
+      ],
+      "fr": [
+        "Besleria solanoides"
+      ],
+      "it": [
+        "Besleria solanoides"
+      ],
+      "nl": [
+        "Besleria solanoides"
+      ],
+      "pl": [
+        "Besleria solanoides"
+      ],
+      "pt": [
+        "Besleria solanoides"
+      ],
+      "ru": [
+        "Besleria solanoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -604,7 +764,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/ffa138f6556c0ca7576c7914735f01ca2239a803",
-    "description": null,
+    "description": "Codonanthopsis crassifolia is a species of plant in the family Gesneriaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -617,7 +777,7 @@
       "plant_id": "codonanthopsis_crassifolia",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -681,9 +841,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Codonanthopsis crassifolia"
+      ],
+      "en": [
+        "Codonanthopsis crassifolia"
+      ],
+      "es": [
+        "Codonanthopsis crassifolia"
+      ],
+      "fr": [
+        "Codonanthopsis crassifolia"
+      ],
+      "it": [
+        "Codonanthopsis crassifolia"
+      ],
+      "nl": [
+        "Codonanthopsis crassifolia"
+      ],
+      "pl": [
+        "Codonanthopsis crassifolia"
+      ],
+      "pt": [
+        "Codonanthopsis crassifolia"
+      ],
+      "ru": [
+        "Codonanthopsis crassifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -711,7 +901,7 @@
       "plant_id": "columnea_microcalyx",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "full sun",
@@ -775,11 +965,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Columnea microcalyx"
+      ],
       "en": [
+        "Columnea microcalyx",
         "columnea"
+      ],
+      "es": [
+        "Columnea microcalyx"
+      ],
+      "fr": [
+        "Columnea microcalyx"
+      ],
+      "it": [
+        "Columnea microcalyx"
+      ],
+      "nl": [
+        "Columnea microcalyx"
+      ],
+      "pl": [
+        "Columnea microcalyx"
+      ],
+      "pt": [
+        "Columnea microcalyx"
+      ],
+      "ru": [
+        "Columnea microcalyx"
       ]
     },
     "tags": [
@@ -814,7 +1031,7 @@
       "plant_id": "columnea_strigosa",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -878,9 +1095,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Columnea strigosa"
+      ],
+      "en": [
+        "Columnea strigosa"
+      ],
+      "es": [
+        "Columnea strigosa"
+      ],
+      "fr": [
+        "Columnea strigosa"
+      ],
+      "it": [
+        "Columnea strigosa"
+      ],
+      "nl": [
+        "Columnea strigosa"
+      ],
+      "pl": [
+        "Columnea strigosa"
+      ],
+      "pt": [
+        "Columnea strigosa"
+      ],
+      "ru": [
+        "Columnea strigosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -895,7 +1142,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/352f3333f78d3788d5a3dd4550c0b1f96679d57a",
-    "description": null,
+    "description": "Conandron ramondioides is a species of flowering plant in the family Gesneriaceae. It is the sole species in genus Conandron. It is native to eastern Asia, where it is found in southeastern China, Japan, Taiwan, and Vietnam. Its natural habitat is on damp rock faces, in forests and along streamsides. It is a common species in Japan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -908,7 +1155,7 @@
       "plant_id": "conandron_ramondioides",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -972,9 +1219,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Conandron ramondioides"
+      ],
+      "en": [
+        "Conandron ramondioides"
+      ],
+      "es": [
+        "Conandron ramondioides"
+      ],
+      "fr": [
+        "Conandron ramondioides"
+      ],
+      "it": [
+        "Conandron ramondioides"
+      ],
+      "ja": [
+        "イワタバコ"
+      ],
+      "nl": [
+        "Conandron ramondioides"
+      ],
+      "pl": [
+        "Conandron ramondioides"
+      ],
+      "pt": [
+        "Conandron ramondioides"
+      ],
+      "ru": [
+        "Conandron ramondioides"
+      ],
+      "zh": [
+        "苦苣苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1002,7 +1285,7 @@
       "plant_id": "corallodiscus_lanuginosus",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -1066,9 +1349,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Corallodiscus lanuginosus"
+      ],
+      "en": [
+        "Corallodiscus lanuginosus"
+      ],
+      "es": [
+        "Corallodiscus lanuginosus"
+      ],
+      "fr": [
+        "Corallodiscus lanuginosus"
+      ],
+      "it": [
+        "Corallodiscus lanuginosus"
+      ],
+      "nl": [
+        "Corallodiscus lanuginosus"
+      ],
+      "pl": [
+        "Corallodiscus lanuginosus"
+      ],
+      "pt": [
+        "Corallodiscus lanuginosus"
+      ],
+      "ru": [
+        "Corallodiscus lanuginosus"
+      ],
+      "zh": [
+        "西藏珊瑚苣苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1096,7 +1412,7 @@
       "plant_id": "drymonia_coccinea",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -1160,9 +1476,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drymonia coccinea"
+      ],
+      "en": [
+        "Drymonia coccinea"
+      ],
+      "es": [
+        "Drymonia coccinea"
+      ],
+      "fr": [
+        "Drymonia coccinea"
+      ],
+      "it": [
+        "Drymonia coccinea"
+      ],
+      "nl": [
+        "Drymonia coccinea"
+      ],
+      "pl": [
+        "Drymonia coccinea"
+      ],
+      "pt": [
+        "Drymonia coccinea"
+      ],
+      "ru": [
+        "Drymonia coccinea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1190,7 +1536,7 @@
       "plant_id": "drymonia_serrulata",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -1254,9 +1600,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Drymonia serrulata"
+      ],
+      "en": [
+        "Drymonia serrulata"
+      ],
+      "es": [
+        "Drymonia serrulata"
+      ],
+      "fr": [
+        "Drymonia serrulata"
+      ],
+      "it": [
+        "Drymonia serrulata"
+      ],
+      "nl": [
+        "Drymonia serrulata"
+      ],
+      "pl": [
+        "Drymonia serrulata"
+      ],
+      "pt": [
+        "Drymonia serrulata"
+      ],
+      "ru": [
+        "Drymonia serrulata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1282,9 +1658,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "episcia_cupreata",
-      "water_frequency": "Every 3-4 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part shade",
@@ -1348,11 +1724,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Episcia cupreata"
+      ],
       "en": [
+        "Episcia cupreata",
+        "Flame Violet",
         "flame violet"
+      ],
+      "es": [
+        "Episcia cupreata"
+      ],
+      "fr": [
+        "Episcia cupreata"
+      ],
+      "it": [
+        "Episcia cupreata"
+      ],
+      "ja": [
+        "ハイベニギリ"
+      ],
+      "nl": [
+        "Episcia cupreata"
+      ],
+      "pl": [
+        "Episcia cupreata"
+      ],
+      "pt": [
+        "Episcia cupreata"
+      ],
+      "ru": [
+        "Episcia cupreata"
+      ],
+      "zh": [
+        "喜荫花"
       ]
     },
     "tags": [
@@ -1374,7 +1784,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/029cc3f27f1d1caf4ce8d448bfc558bd.jpg",
-    "description": null,
+    "description": "Fieldia australis, usually referred to as fieldia, is a small climbing plant or epiphyte found in the rainforests of eastern Australia, ranging from southeastern Queensland to Victoria. It is the sole species in genus Fieldia. Commonly seen in the cooler rainforests at higher elevations, it also grows in the warmer rainforests with a high humidity. The plant uses adventitious roots to grip hold of tree trunks, mossy rocks or tree ferns.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1387,7 +1797,7 @@
       "plant_id": "fieldia_australis",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -1451,9 +1861,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fieldia australis"
+      ],
+      "en": [
+        "Fieldia australis"
+      ],
+      "es": [
+        "Fieldia australis"
+      ],
+      "fr": [
+        "Fieldia australis"
+      ],
+      "it": [
+        "Fieldia australis"
+      ],
+      "nl": [
+        "Fieldia australis"
+      ],
+      "pl": [
+        "Fieldia australis"
+      ],
+      "pt": [
+        "Fieldia australis"
+      ],
+      "ru": [
+        "Fieldia australis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1481,7 +1921,7 @@
       "plant_id": "glossoloma_ichthyoderma",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -1545,9 +1985,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Glossoloma ichthyoderma"
+      ],
+      "en": [
+        "Glossoloma ichthyoderma"
+      ],
+      "es": [
+        "Glossoloma ichthyoderma"
+      ],
+      "fr": [
+        "Glossoloma ichthyoderma"
+      ],
+      "it": [
+        "Glossoloma ichthyoderma"
+      ],
+      "nl": [
+        "Glossoloma ichthyoderma"
+      ],
+      "pl": [
+        "Glossoloma ichthyoderma"
+      ],
+      "pt": [
+        "Glossoloma ichthyoderma"
+      ],
+      "ru": [
+        "Glossoloma ichthyoderma"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1575,7 +2045,7 @@
       "plant_id": "glossoloma_schultzei",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -1639,9 +2109,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Glossoloma schultzei"
+      ],
+      "en": [
+        "Glossoloma schultzei"
+      ],
+      "es": [
+        "Glossoloma schultzei"
+      ],
+      "fr": [
+        "Glossoloma schultzei"
+      ],
+      "it": [
+        "Glossoloma schultzei"
+      ],
+      "nl": [
+        "Glossoloma schultzei"
+      ],
+      "pl": [
+        "Glossoloma schultzei"
+      ],
+      "pt": [
+        "Glossoloma schultzei"
+      ],
+      "ru": [
+        "Glossoloma schultzei"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1669,7 +2169,7 @@
       "plant_id": "kohleria_spicata",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -1733,9 +2233,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Kohleria spicata"
+      ],
+      "en": [
+        "Kohleria spicata"
+      ],
+      "es": [
+        "Kohleria spicata"
+      ],
+      "fr": [
+        "Kohleria spicata"
+      ],
+      "it": [
+        "Kohleria spicata"
+      ],
+      "nl": [
+        "Kohleria spicata"
+      ],
+      "pl": [
+        "Kohleria spicata"
+      ],
+      "pt": [
+        "Kohleria spicata"
+      ],
+      "ru": [
+        "Kohleria spicata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1763,7 +2293,7 @@
       "plant_id": "lysionotus_pauciflorus",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -1827,9 +2357,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lysionotus pauciflorus"
+      ],
+      "en": [
+        "Lysionotus pauciflorus"
+      ],
+      "es": [
+        "Lysionotus pauciflorus"
+      ],
+      "fr": [
+        "Lysionotus pauciflorus"
+      ],
+      "it": [
+        "Lysionotus pauciflorus"
+      ],
+      "nl": [
+        "Lysionotus pauciflorus"
+      ],
+      "pl": [
+        "Lysionotus pauciflorus"
+      ],
+      "pt": [
+        "Lysionotus pauciflorus"
+      ],
+      "ru": [
+        "Lysionotus pauciflorus"
+      ],
+      "zh": [
+        "吊石苣苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1857,7 +2420,7 @@
       "plant_id": "moussonia_deppeana",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -1921,9 +2484,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Moussonia deppeana"
+      ],
+      "en": [
+        "Moussonia deppeana"
+      ],
+      "es": [
+        "Moussonia deppeana"
+      ],
+      "fr": [
+        "Moussonia deppeana"
+      ],
+      "it": [
+        "Moussonia deppeana"
+      ],
+      "nl": [
+        "Moussonia deppeana"
+      ],
+      "pl": [
+        "Moussonia deppeana"
+      ],
+      "pt": [
+        "Moussonia deppeana"
+      ],
+      "ru": [
+        "Moussonia deppeana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1949,17 +2542,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ramonda_myconi",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 15,
       "temp_max_c": 30,
       "humidity_level": "High (60-80%)",
@@ -2015,11 +2608,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "de": [
+        "Pyrenäen-Felsenteller"
+      ],
       "en": [
-        "Pyrenean-violet"
+        "Pyrenean-violet",
+        "Ramonda myconi"
+      ],
+      "es": [
+        "Ramonda myconi"
+      ],
+      "fr": [
+        "Ramondie des Pyrénées"
+      ],
+      "it": [
+        "Ramonda myconi"
+      ],
+      "nl": [
+        "Ramonda pyrenaica"
+      ],
+      "pl": [
+        "Ramonda myconi"
+      ],
+      "pt": [
+        "Ramonda myconi"
+      ],
+      "ru": [
+        "Ramonda myconi"
       ]
     },
     "tags": [],
@@ -2036,7 +2656,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/2328a4faaf9e71a07c5060ea3bea31a7.jpg",
-    "description": null,
+    "description": "Rhabdothamnus solandri is a small shrub of the family Gesneriaceae endemic to New Zealand. It is the only plant of the genus Rhabdothamnus, and the only member of Gesneriaceae native to New Zealand. Its common names are New Zealand gloxinia and, in the Māori language, taurepo, mātātā, and waiū-atua.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2049,7 +2669,7 @@
       "plant_id": "rhabdothamnus_solandri",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -2113,9 +2733,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhabdothamnus solandri"
+      ],
+      "en": [
+        "Rhabdothamnus solandri"
+      ],
+      "es": [
+        "Rhabdothamnus solandri"
+      ],
+      "fr": [
+        "Rhabdothamnus solandri"
+      ],
+      "it": [
+        "Rhabdothamnus solandri"
+      ],
+      "nl": [
+        "Rhabdothamnus solandri"
+      ],
+      "pl": [
+        "Rhabdothamnus solandri"
+      ],
+      "pt": [
+        "Rhabdothamnus solandri"
+      ],
+      "ru": [
+        "Rhabdothamnus solandri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2143,7 +2793,7 @@
       "plant_id": "rhynchoglossum_obliquum",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -2207,9 +2857,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhynchoglossum obliquum"
+      ],
+      "en": [
+        "Rhynchoglossum obliquum"
+      ],
+      "es": [
+        "Rhynchoglossum obliquum"
+      ],
+      "fr": [
+        "Rhynchoglossum obliquum"
+      ],
+      "it": [
+        "Rhynchoglossum obliquum"
+      ],
+      "nl": [
+        "Rhynchoglossum obliquum"
+      ],
+      "pl": [
+        "Rhynchoglossum obliquum"
+      ],
+      "pt": [
+        "Rhynchoglossum obliquum"
+      ],
+      "ru": [
+        "Rhynchoglossum obliquum"
+      ],
+      "zh": [
+        "尖舌苣苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2237,7 +2920,7 @@
       "plant_id": "rhynchotechum_discolor",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -2301,9 +2984,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhynchotechum discolor"
+      ],
+      "en": [
+        "Rhynchotechum discolor"
+      ],
+      "es": [
+        "Rhynchotechum discolor"
+      ],
+      "fr": [
+        "Rhynchotechum discolor"
+      ],
+      "it": [
+        "Rhynchotechum discolor"
+      ],
+      "ja": [
+        "ヤマビワソウ"
+      ],
+      "nl": [
+        "Rhynchotechum discolor"
+      ],
+      "pl": [
+        "Rhynchotechum discolor"
+      ],
+      "pt": [
+        "Rhynchotechum discolor"
+      ],
+      "ru": [
+        "Rhynchotechum discolor"
+      ],
+      "zh": [
+        "异色线柱苣苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2331,7 +3050,7 @@
       "plant_id": "sinningia_allagophylla",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -2395,9 +3114,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sinningia allagophylla"
+      ],
+      "en": [
+        "Sinningia allagophylla"
+      ],
+      "es": [
+        "Sinningia allagophylla"
+      ],
+      "fr": [
+        "Sinningia allagophylla"
+      ],
+      "it": [
+        "Sinningia allagophylla"
+      ],
+      "nl": [
+        "Sinningia allagophylla"
+      ],
+      "pl": [
+        "Sinningia allagophylla"
+      ],
+      "pt": [
+        "Sinningia allagophylla"
+      ],
+      "ru": [
+        "Sinningia allagophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2425,7 +3174,7 @@
       "plant_id": "sinningia_elatior",
       "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "High",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light, no direct sun",
@@ -2489,22 +3238,52 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sinningia elatior"
+      ],
+      "en": [
+        "Sinningia elatior"
+      ],
+      "es": [
+        "Sinningia elatior"
+      ],
+      "fr": [
+        "Sinningia elatior"
+      ],
+      "it": [
+        "Sinningia elatior"
+      ],
+      "nl": [
+        "Sinningia elatior"
+      ],
+      "pl": [
+        "Sinningia elatior"
+      ],
+      "pt": [
+        "Sinningia elatior"
+      ],
+      "ru": [
+        "Sinningia elatior"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
   {
     "plant_id": "saintpaulia_ionantha",
-    "scientific": "Streptocarpus sect. Saintpaulia",
+    "scientific": "Streptocarpus ionanthus",
     "family": "Gesneriaceae",
     "genus": "Streptocarpus",
     "category": "decorative",
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://res.cloudinary.com/dmvvh57hg/image/upload/plants/saintpaulia_ionantha/inat_1.jpg",
     "description": "Streptocarpus sect. Saintpaulia is a section within Streptocarpus subgenus Streptocarpella consisting of about ten species of herbaceous perennial flowering plants in the family Gesneriaceae, native to Tanzania and adjacent southeastern Kenya in eastern tropical Africa. The section was previously treated as a separate genus, Saintpaulia, but molecular phylogenetic studies showed that it was nested within the genus Streptocarpus.",
     "wikidata_id": "",
@@ -2517,7 +3296,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "saintpaulia_ionantha",
-      "water_frequency": "Water from bottom when top is dry, every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": "Every 7-10 days",
       "water_demand": "",
       "start_pct": 0,
@@ -2561,8 +3340,8 @@
         "Cyclamen mites",
         "Thrips"
       ],
-      "watering_method": null,
-      "watering_avoid": null,
+      "watering_method": "Top layer should be dry",
+      "watering_avoid": "Avoid getting water on leaves",
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
       "temp_winter_low_c": null,
@@ -2591,11 +3370,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Usambaraveilchen"
+      ],
       "en": [
-        "African Violet"
+        "African Violet",
+        "African violets"
+      ],
+      "es": [
+        "Saintpaulia",
+        "Violeta africana",
+        "Violeta de Africa",
+        "Violeta de África"
+      ],
+      "ja": [
+        "アフリカスミレ属",
+        "セントポーリア",
+        "セントポーリア属"
+      ],
+      "nl": [
+        "Kaaps viooltje"
+      ],
+      "pl": [
+        "Sępolia fiołkowa"
+      ],
+      "pt": [
+        "Saintpaulia",
+        "Violeta africana",
+        "Violeta-africana"
+      ],
+      "ru": [
+        "Сенполия",
+        "Узамбарская фиалка"
+      ],
+      "tr": [
+        "Afrika menekşesi"
+      ],
+      "zh": [
+        "非洲堇",
+        "非洲堇屬",
+        "非洲紫罗兰",
+        "非洲紫羅蘭",
+        "非洲紫蘿蘭"
       ]
     },
     "tags": [

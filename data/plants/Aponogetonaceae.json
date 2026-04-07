@@ -5,12 +5,12 @@
     "family": "Aponogetonaceae",
     "genus": "Aponogeton",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/649e007a3a14df5a7edfa37173021e0ed5634180",
-    "description": null,
+    "description": "Aponogeton distachyos or Aponogeton distachyum, also known as waterblommetjie, Cape-pondweed, water hawthorn, vleikos and Cape pond weed is an aquatic flowering plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,9 +21,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "aponogeton_distachyos",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جارة الماء السنبلية"
+      ],
+      "de": [
+        "Zweiährige Wasserähre"
+      ],
       "en": [
+        "Aponogeton distachyos",
         "Cape pond-lily"
+      ],
+      "es": [
+        "Aponogeton distachyos"
+      ],
+      "fr": [
+        "Aponogeton distachyos"
+      ],
+      "it": [
+        "Aponogeton distachyos"
+      ],
+      "nl": [
+        "kaapse waterlelie"
+      ],
+      "pl": [
+        "Aponogeton distachyos"
+      ],
+      "pt": [
+        "Aponogeton distachyos"
+      ],
+      "ru": [
+        "Апоногетон двуколосый"
+      ],
+      "zh": [
+        "长柄水蕹"
       ]
     },
     "tags": [],

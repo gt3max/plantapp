@@ -5,12 +5,12 @@
     "family": "Mayacaceae",
     "genus": "Mayaca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6fc2899f4a13f12bb4e69941a3614483a8518915",
-    "description": null,
+    "description": "Mayaca fluviatilis, also known as bog moss, is a perennial herbaceous submerged plant in the monogeneric family Mayacaceae. It is native to Central and South America, the Caribbean, and the United States where it is often sold as an aquarium plant. Through the aquatic plant trade, it has recently become naturalized in Sri Lanka, Singapore, and China. It has been identified in three locations in Australia but more populations are likely in other parts of Australia as well.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,9 +21,9 @@
     "synonyms": "[\"Mayaca wrightii\", \"Mayaca aubletii var. wrightii\", \"Mayaca michauxii\", \"Mayaca aubletii\", \"Coletia madida\", \"Mayaca fluviatilis var. wrightii\", \"Syena mayaca\", \"Syena nuttalliana\", \"Syena aubletii\", \"Mayaca caroliniana\"]",
     "care": {
       "plant_id": "mayaca_fluviatilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Mayaca fluviatilis"
+      ],
       "en": [
+        "Mayaca fluviatilis",
         "Stream bogmoss"
+      ],
+      "es": [
+        "Mayaca fluviatilis"
+      ],
+      "fr": [
+        "Mayaca fluviatilis"
+      ],
+      "it": [
+        "Mayaca fluviatilis"
+      ],
+      "ja": [
+        "マヤカ (水草)"
+      ],
+      "nl": [
+        "Mayaca fluviatilis"
+      ],
+      "pl": [
+        "Mayaca fluviatilis"
+      ],
+      "pt": [
+        "Mayaca fluviatilis"
+      ],
+      "ru": [
+        "Mayaca fluviatilis"
+      ],
+      "zh": [
+        "花水藓"
       ]
     },
     "tags": [],

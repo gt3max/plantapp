@@ -5,12 +5,12 @@
     "family": "Bataceae",
     "genus": "Batis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e45da4e7d6e61c25ac205f0491890744e77282ad",
-    "description": null,
+    "description": "Batis maritima, the saltwort or beachwort, is a halophyte. It is a C3-plant, long-lived perennial, dioecious, succulent shrub. The plant forms dense colonies in salt marshes, brackish marshes, and mangrove swamps and frequently is found on the margins of saltpans and wind-tidal flats. Batis maritima is a pioneer plant, covers quickly areas where hurricanes have destroyed the natural vegetation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,9 +21,9 @@
     "synonyms": "[\"Batis californica\", \"Batis americana\"]",
     "care": {
       "plant_id": "batis_maritima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Batis maritima"
+      ],
       "en": [
+        "Batis maritima",
         "Turtleweed"
+      ],
+      "es": [
+        "Batis maritima"
+      ],
+      "fr": [
+        "Batis maritima"
+      ],
+      "it": [
+        "Batis maritima"
+      ],
+      "nl": [
+        "Batis maritima"
+      ],
+      "pl": [
+        "Batis maritima"
+      ],
+      "pt": [
+        "Batis maritima"
+      ],
+      "ru": [
+        "Batis maritima"
+      ],
+      "zh": [
+        "白楔"
       ]
     },
     "tags": [],

@@ -5,7 +5,7 @@
     "family": "Dryopteridaceae",
     "genus": "Cyrtomium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,7 +21,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "cyrtomium_falcatum",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Frequent",
       "start_pct": null,
@@ -89,11 +89,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cyrtomium falcatum"
+      ],
       "en": [
+        "Cyrtomium falcatum",
+        "House Holly Fern",
         "Japanese holly fern"
+      ],
+      "es": [
+        "Cyrtomium falcatum"
+      ],
+      "fr": [
+        "Cyrtomium falcatum"
+      ],
+      "it": [
+        "Cyrtomium falcatum"
+      ],
+      "nl": [
+        "IJzervaren"
+      ],
+      "pl": [
+        "Cyrtomium sierpowate"
+      ],
+      "pt": [
+        "Cyrtomium falcatum"
+      ],
+      "ru": [
+        "Cyrtomium falcatum"
+      ],
+      "zh": [
+        "全缘贯众"
       ]
     },
     "tags": [
@@ -110,7 +141,7 @@
     "family": "Dryopteridaceae",
     "genus": "Cyrtomium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -126,7 +157,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "cyrtomium_fortunei",
-      "water_frequency": "Every 2-3 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Frequent",
       "start_pct": null,
@@ -192,12 +223,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cyrtomium fortunei"
+      ],
       "en": [
         "Asian netvein hollyfern",
+        "Cyrtomium fortunei",
         "Japanese holly fern"
+      ],
+      "es": [
+        "Cyrtomium fortunei"
+      ],
+      "fr": [
+        "Cyrtomium fortunei"
+      ],
+      "it": [
+        "Cyrtomium fortunei"
+      ],
+      "nl": [
+        "Cyrtomium fortunei"
+      ],
+      "pl": [
+        "Cyrtomium fortunei"
+      ],
+      "pt": [
+        "Cyrtomium fortunei"
+      ],
+      "ru": [
+        "Cyrtomium fortunei"
+      ],
+      "tr": [
+        "Cyrtomium fortunei"
+      ],
+      "zh": [
+        "贯众"
       ]
     },
     "tags": [

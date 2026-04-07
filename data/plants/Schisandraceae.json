@@ -5,7 +5,7 @@
     "family": "Schisandraceae",
     "genus": "Illicium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ليسوم فلوريدا"
+      ],
+      "de": [
+        "Illicium floridanum"
+      ],
       "en": [
-        "Florida anisetree"
+        "Florida anisetree",
+        "Illicium floridanum"
+      ],
+      "es": [
+        "Illicium floridanum"
+      ],
+      "fr": [
+        "Illicium floridanum"
+      ],
+      "it": [
+        "Illicium floridanum"
+      ],
+      "nl": [
+        "Illicium floridanum"
+      ],
+      "pl": [
+        "Illicium floridanum"
+      ],
+      "pt": [
+        "Illicium floridanum"
+      ],
+      "ru": [
+        "Illicium floridanum"
       ]
     },
     "tags": [],
@@ -103,7 +133,7 @@
     "family": "Schisandraceae",
     "genus": "Kadsura",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,11 +215,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كدسورة يابانية"
+      ],
+      "de": [
+        "Kadsura japonica"
+      ],
       "en": [
-        "Japanese kadsura"
+        "Japanese kadsura",
+        "Kadsura japonica"
+      ],
+      "es": [
+        "Kadsura japonica"
+      ],
+      "fr": [
+        "Kadsura japonica"
+      ],
+      "it": [
+        "Kadsura japonica"
+      ],
+      "ja": [
+        "サネカズラ"
+      ],
+      "nl": [
+        "Kadsura japonica"
+      ],
+      "pl": [
+        "Kadsura japonica"
+      ],
+      "pt": [
+        "Kadsura japonica"
+      ],
+      "ru": [
+        "Кадсура японская"
+      ],
+      "tr": [
+        "Kadsura japonica"
+      ],
+      "zh": [
+        "日本南五味子"
       ]
     },
     "tags": [],
@@ -201,7 +270,7 @@
     "family": "Schisandraceae",
     "genus": "Schisandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -283,11 +352,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شزندرة صينية"
+      ],
+      "de": [
+        "Chinesisches Spaltkörbchen"
+      ],
       "en": [
-        "Magnolia-vine"
+        "Magnolia-vine",
+        "Schisandra chinensis"
+      ],
+      "es": [
+        "Schisandra chinensis"
+      ],
+      "it": [
+        "Schisandra chinensis"
+      ],
+      "ja": [
+        "チョウセンゴミシ"
+      ],
+      "ko": [
+        "오미자나무"
+      ],
+      "nl": [
+        "Schisandra chinensis"
+      ],
+      "pl": [
+        "Cytryniec chiński"
+      ],
+      "pt": [
+        "Schisandra chinensis"
+      ],
+      "ru": [
+        "лимонник китайский"
+      ],
+      "zh": [
+        "五味子"
       ]
     },
     "tags": [],

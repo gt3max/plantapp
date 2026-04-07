@@ -5,12 +5,12 @@
     "family": "Balsaminaceae",
     "genus": "Impatiens",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8a58e9f0bd3f55411960336e2ceec0a14caf693a",
-    "description": null,
+    "description": "Impatiens balfourii is a species of the genus Impatiens known by the common names Balfour's touch-me-not, Kashmir balsam, and poor man's orchid. It belongs to the family Balsaminaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": "[\"Impatiens mathildae\"]",
     "care": {
       "plant_id": "impatiens_balfourii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -53,7 +53,7 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Non-toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses.",
       "common_problems": null,
       "common_pests": null,
@@ -72,8 +72,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": "If you suspect your pet may have ingested a potentially toxic substance, call the ASPCA Poison Control at (888) 426-4435 or contact your local veterinarian as soon as possible.*",
       "toxicity_first_aid": null,
       "used_for": null,
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 4.9
     },
     "common_names": {
+      "de": [
+        "Impatiens balfourii"
+      ],
       "en": [
-        "Balfour's touch-me-not"
+        "Balfour's touch-me-not",
+        "Impatiens balfourii"
+      ],
+      "es": [
+        "Impatiens balfourii"
+      ],
+      "fr": [
+        "Balsamine de Balfour"
+      ],
+      "it": [
+        "Impatiens balfourii"
+      ],
+      "nl": [
+        "Impatiens balfourii"
+      ],
+      "pl": [
+        "Impatiens balfourii"
+      ],
+      "pt": [
+        "Impatiens balfourii"
+      ],
+      "ru": [
+        "Impatiens balfourii"
       ]
     },
     "tags": [],
@@ -103,7 +130,7 @@
     "family": "Balsaminaceae",
     "genus": "Impatiens",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +146,17 @@
     "synonyms": "[\"Impatiens balsamina var. vulgaris\", \"Balsamina balsamina\", \"Balsamina hortensis\"]",
     "care": {
       "plant_id": "impatiens_balsamina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,11 +212,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 4.9
     },
     "common_names": {
+      "ar": [
+        "بلظامينا"
+      ],
+      "de": [
+        "Impatiens balsamina"
+      ],
       "en": [
-        "Balsam"
+        "Balsam",
+        "Impatiens balsamina"
+      ],
+      "es": [
+        "Impatiens balsamina"
+      ],
+      "fr": [
+        "Impatiens balsamina"
+      ],
+      "it": [
+        "Impatiens balsamina"
+      ],
+      "ja": [
+        "ホウセンカ"
+      ],
+      "ko": [
+        "봉선화"
+      ],
+      "nl": [
+        "Impatiens balsamina"
+      ],
+      "pl": [
+        "niecierpek balsamina"
+      ],
+      "pt": [
+        "Beijo-de-frade"
+      ],
+      "ru": [
+        "Недотрога бальзаминовая"
+      ],
+      "zh": [
+        "凤仙花"
       ]
     },
     "tags": [],
@@ -201,7 +267,7 @@
     "family": "Balsaminaceae",
     "genus": "Impatiens",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -217,17 +283,17 @@
     "synonyms": "[\"Impatiens parviflora var. brachycentra\"]",
     "care": {
       "plant_id": "impatiens_brachycentra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -283,9 +349,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 4.9
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Impatiens brachycentra"
+      ],
+      "en": [
+        "Impatiens brachycentra"
+      ],
+      "es": [
+        "Impatiens brachycentra"
+      ],
+      "fr": [
+        "Impatiens brachycentra"
+      ],
+      "it": [
+        "Impatiens brachycentra"
+      ],
+      "nl": [
+        "Impatiens brachycentra"
+      ],
+      "pl": [
+        "Impatiens brachycentra"
+      ],
+      "pt": [
+        "Impatiens brachycentra"
+      ],
+      "ru": [
+        "Impatiens brachycentra"
+      ],
+      "zh": [
+        "短距凤仙花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -295,7 +394,7 @@
     "family": "Balsaminaceae",
     "genus": "Impatiens",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -311,17 +410,17 @@
     "synonyms": "[\"Impatiens maculata\", \"Chrysaea biflora\", \"Balsamina fulva\", \"Impatiens biflora f. peasei\", \"Impatiens noli-tangere subsp. biflora\", \"Impatiens biflora f. platymeris\", \"Impatiens fulva\", \"Impatiens biflora f. biflora\", \"Impatiens fulva f. albiflora\", \"Impatiens biflora f. citrina\"]",
     "care": {
       "plant_id": "impatiens_capensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -384,11 +483,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "de": [
+        "Impatiens capensis"
+      ],
       "en": [
+        "Impatiens capensis",
         "Jewelweed"
+      ],
+      "es": [
+        "Impatiens capensis"
+      ],
+      "fr": [
+        "Impatiente du Cap"
+      ],
+      "it": [
+        "Impatiens capensis"
+      ],
+      "nl": [
+        "Oranje springzaad"
+      ],
+      "pl": [
+        "niecierpek pomarańczowy"
+      ],
+      "pt": [
+        "Impatiens capensis"
+      ],
+      "ru": [
+        "Impatiens capensis"
       ]
     },
     "tags": [],
@@ -400,7 +526,7 @@
     "family": "Balsaminaceae",
     "genus": "Impatiens",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -416,17 +542,17 @@
     "synonyms": "[\"Impatiens roylei var. macrochila\", \"Impatiens moschata\", \"Impatiens macrochila\", \"Impatiens cornigera\", \"Impatiens glanduligera\", \"Impatiens sulcata var. glandulifera\", \"Impatiens royleana\", \"Balsamina roylei\", \"Impatiens roylei var. pallidiflora\", \"Impatiens roylei\"]",
     "care": {
       "plant_id": "impatiens_glandulifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -448,8 +574,8 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -467,8 +593,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -482,11 +608,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 5.6
     },
     "common_names": {
+      "de": [
+        "Drüsiges Springkraut"
+      ],
       "en": [
+        "Impatiens glandulifera",
         "Policeman's-helmet"
+      ],
+      "es": [
+        "Impatiens glandulifera"
+      ],
+      "fr": [
+        "Balsamine de l'Himalaya"
+      ],
+      "it": [
+        "Impatiens glandulifera"
+      ],
+      "nl": [
+        "reuzenbalsemien"
+      ],
+      "pl": [
+        "niecierpek gruczołowaty"
+      ],
+      "pt": [
+        "Impatiens glandulifera"
+      ],
+      "ru": [
+        "Недотрога железистая"
+      ],
+      "zh": [
+        "腺柄凤仙花"
       ]
     },
     "tags": [],
@@ -498,7 +654,7 @@
     "family": "Balsaminaceae",
     "genus": "Impatiens",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -514,17 +670,17 @@
     "synonyms": "[\"Impatiens caucasica\", \"Impatiens noli-me-tangere\", \"Impatiens cucullata\", \"Impatiens komarovii\", \"Impatiens penduliflora\", \"Impatiens noli-tangere f. hemileuca\", \"Impatiens noli-tangere f. pallidiflora\", \"Impatiens noli-tangere var. pallida\", \"Impatiens palustris\", \"Impatiens noli-tangere var. pallescens\"]",
     "care": {
       "plant_id": "impatiens_noli-tangere",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -580,11 +736,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 4.1
     },
     "common_names": {
+      "de": [
+        "Großes Springkraut"
+      ],
       "en": [
-        "Balsam"
+        "Balsam",
+        "Impatiens noli-tangere"
+      ],
+      "es": [
+        "Impatiens noli-tangere"
+      ],
+      "fr": [
+        "Impatiens noli-tangere"
+      ],
+      "it": [
+        "Impatiens noli-tangere"
+      ],
+      "ja": [
+        "キツリフネ"
+      ],
+      "nl": [
+        "groot springzaad"
+      ],
+      "pl": [
+        "niecierpek pospolity"
+      ],
+      "pt": [
+        "Erva-de-santa-catarina"
+      ],
+      "ru": [
+        "Недотрога обыкновенная"
+      ],
+      "zh": [
+        "水金凤"
       ]
     },
     "tags": [],
@@ -596,12 +785,12 @@
     "family": "Balsaminaceae",
     "genus": "Impatiens",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d9aec45d9b04eac9c89d078877e12fd196c8fe0a",
-    "description": "Capsules contain seed and are sensitive to touch. They will spring open and eject the seeds inside a considerable distance.",
+    "description": "Impatiens pallida, with the common names pale jewelweed, pale touch-me-not, or yellow jewelweed, is a flowering annual plant in the family Balsaminaceae native to Canada and the United States. It grows in moist to wet soils, generally alongside the closely related Impatiens capensis, producing flowers from midsummer through fall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -612,17 +801,17 @@
     "synonyms": "[\"Impatiens noli-tangere\", \"Chrysaea aurea\", \"Impatiens pallida var. alba\", \"Impatiens pallida f. dichroma\", \"Impatiens pallida f. pallida\", \"Impatiens pallida f. speciosa\", \"Impatiens aurea\"]",
     "care": {
       "plant_id": "impatiens_pallida",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -683,11 +872,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 4.9
     },
     "common_names": {
+      "de": [
+        "Impatiens pallida"
+      ],
       "en": [
+        "Impatiens pallida",
         "Jewelweed"
+      ],
+      "es": [
+        "Impatiens pallida"
+      ],
+      "fr": [
+        "Impatiente pâle"
+      ],
+      "it": [
+        "Impatiens pallida"
+      ],
+      "nl": [
+        "Impatiens pallida"
+      ],
+      "pl": [
+        "Impatiens pallida"
+      ],
+      "pt": [
+        "Impatiens pallida"
+      ],
+      "ru": [
+        "Impatiens pallida"
       ]
     },
     "tags": [],
@@ -699,7 +915,7 @@
     "family": "Balsaminaceae",
     "genus": "Impatiens",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -715,17 +931,17 @@
     "synonyms": "[\"Impatiens parviflora f. albiflora\", \"Impatiens parviflora subsp. nevskii\", \"Impatiens nevskii\", \"Balsamina parviflora\"]",
     "care": {
       "plant_id": "impatiens_parviflora",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -781,11 +997,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 4.0
     },
     "common_names": {
+      "de": [
+        "Kleines Springkraut"
+      ],
       "en": [
-        "Balsam"
+        "Balsam",
+        "Impatiens parviflora"
+      ],
+      "es": [
+        "Impatiens parviflora"
+      ],
+      "fr": [
+        "Impatiens parviflora"
+      ],
+      "it": [
+        "Impatiens parviflora"
+      ],
+      "nl": [
+        "Klein springzaad"
+      ],
+      "pl": [
+        "niecierpek drobnokwiatowy"
+      ],
+      "pt": [
+        "Impatiens parviflora"
+      ],
+      "ru": [
+        "Недотрога мелкоцветковая"
+      ],
+      "zh": [
+        "小花凤仙花"
       ]
     },
     "tags": [],
@@ -797,7 +1043,7 @@
     "family": "Balsaminaceae",
     "genus": "Impatiens",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -813,17 +1059,17 @@
     "synonyms": "[\"Impatiens bruantii\", \"Impatiens sultani\", \"Impatiens episcopi\", \"Impatiens petersiana\", \"Impatiens holstii\", \"Impatiens lujae\"]",
     "care": {
       "plant_id": "impatiens_walleriana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -887,11 +1133,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 4.9
     },
     "common_names": {
+      "de": [
+        "Fleißiges Lieschen"
+      ],
       "en": [
-        "Busy lizzy"
+        "Busy lizzy",
+        "Impatiens Walleriana"
+      ],
+      "es": [
+        "Impatiens walleriana"
+      ],
+      "fr": [
+        "Impatiens walleriana"
+      ],
+      "it": [
+        "Impatiens walleriana"
+      ],
+      "ja": [
+        "アフリカホウセンカ"
+      ],
+      "nl": [
+        "Vlijtig liesje"
+      ],
+      "pl": [
+        "Impatiens walleriana"
+      ],
+      "pt": [
+        "Impatiens walleriana"
+      ],
+      "ru": [
+        "Недотрога Уоллера"
+      ],
+      "tr": [
+        "Cam güzeli"
+      ],
+      "zh": [
+        "苏丹凤仙花"
       ]
     },
     "tags": [],

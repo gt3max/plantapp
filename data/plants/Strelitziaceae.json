@@ -8,7 +8,7 @@
     "indoor": 1,
     "edible": 0,
     "has_phases": 0,
-    "preset": "Standard",
+    "preset": "Tropical",
     "image_url": "https://res.cloudinary.com/dmvvh57hg/image/upload/plants/strelitzia_nicolai/main.jpg",
     "description": "The fruit is brown, woody capsule.  The seeds are large, black with an orange aril. They are usually produced in the fall and winter.",
     "wikidata_id": null,
@@ -21,7 +21,7 @@
     "synonyms": "[\"Strelitzia alba subsp. nicolai\", \"Strelitzia quensonii\"]",
     "care": {
       "plant_id": "strelitzia_nicolai",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -64,7 +64,7 @@
       "common_pests": [
         "Monitor for scale, spider mites, aphids, and mealybugs."
       ],
-      "watering_method": null,
+      "watering_method": "Top layer should be dry",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -94,7 +94,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -146,13 +148,13 @@
     "synonyms": null,
     "care": {
       "plant_id": "strelitzia_reginae",
-      "water_frequency": "Every 7-10 days when top 2 inches are dry",
+      "water_frequency": "Every 7-10 days",
       "water_winter": "Every 10-14 days",
       "water_demand": "",
       "start_pct": 0,
       "stop_pct": 0,
-      "light_preferred": "Bright direct to indirect light (6+ hours)",
-      "light_also_ok": "Bright indirect",
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
       "ppfd_min": 200,
       "ppfd_max": 600,
       "dli_min": 8.0,
@@ -220,11 +222,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "عصفور الجنة الملكي"
+      ],
+      "de": [
+        "Paradiesvogelblume"
+      ],
       "en": [
-        "Bird of Paradise"
+        "Bird of Paradise",
+        "Strelitzia reginae"
+      ],
+      "es": [
+        "Strelitzia reginae"
+      ],
+      "fr": [
+        "Strelitzia reginae"
+      ],
+      "it": [
+        "Strelitzia reginae"
+      ],
+      "ja": [
+        "ゴクラクチョウカ"
+      ],
+      "ko": [
+        "극락조화"
+      ],
+      "nl": [
+        "Paradijsvogelbloem"
+      ],
+      "pl": [
+        "Strelicja królewska"
+      ],
+      "pt": [
+        "Strelitzia reginae"
+      ],
+      "ru": [
+        "Стрелитция королевская"
+      ],
+      "tr": [
+        "Cennetkuşu"
+      ],
+      "zh": [
+        "鹤望兰"
       ]
     },
     "tags": [

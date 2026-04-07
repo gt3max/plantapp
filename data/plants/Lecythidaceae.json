@@ -5,12 +5,12 @@
     "family": "Lecythidaceae",
     "genus": "Barringtonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4dfc47e2d69567e463790b77439cb738b9cde9b4",
-    "description": null,
+    "description": "Barringtonia acutangula is a species of Barringtonia native to coastal wetlands in southern Asia and northern Australasia, from Afghanistan east to the Philippines, Queensland and the Northern Territory. Common names include freshwater mangrove, itchytree and mango-pine.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,9 +21,9 @@
     "synonyms": "[\"Huttum acutangulum\", \"Stravadium rubrum\", \"Caryophyllus acutangulus\", \"Butonica acutangula\", \"Barringtonia rubra\", \"Michelia acutangula\", \"Eugenia acutangula\", \"Stravadium acutangulum\"]",
     "care": {
       "plant_id": "barringtonia_acutangula",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Barringtonia acutangula"
+      ],
       "en": [
+        "Barringtonia acutangula",
         "Freshwater mangrove"
+      ],
+      "es": [
+        "Barringtonia acutangula"
+      ],
+      "fr": [
+        "Barringtonia acutangula"
+      ],
+      "it": [
+        "Barringtonia acutangula"
+      ],
+      "ja": [
+        "ベニサガリバナ"
+      ],
+      "nl": [
+        "Barringtonia acutangula"
+      ],
+      "pl": [
+        "Barringtonia acutangula"
+      ],
+      "pt": [
+        "Barringtonia acutangula"
+      ],
+      "ru": [
+        "Barringtonia acutangula"
+      ],
+      "zh": [
+        "红花玉蕊"
       ]
     },
     "tags": [],
@@ -103,12 +136,12 @@
     "family": "Lecythidaceae",
     "genus": "Barringtonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7cfe5fcf353291b44063fffa8fc0cde427a6bcf8",
-    "description": null,
+    "description": "Barringtonia asiatica, known variously as fish poison tree, putat and beach Barringtonia among other names, is a species of plants in the brazil nut family Lecythidaceae. It is native to coastal habitats from Tanzania and Madagascar in the west to tropical Asia, northern Australia, and islands of the western Pacific Ocean. It was described by Wilhelm Sulpiz Kurz in 1875 and has a conservation status of least concern. It has been used by a number of traditional cultures as a fish poison.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,11 +218,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Barringtonia asiatica"
+      ],
       "en": [
+        "Barringtonia asiatica",
         "Mango-pine"
+      ],
+      "es": [
+        "Barringtonia asiatica"
+      ],
+      "fr": [
+        "Barringtonia asiatica"
+      ],
+      "it": [
+        "Barringtonia asiatica"
+      ],
+      "ja": [
+        "ゴバンノアシ"
+      ],
+      "nl": [
+        "Barringtonia asiatica"
+      ],
+      "pl": [
+        "Keben okazały"
+      ],
+      "pt": [
+        "Barringtonia asiatica"
+      ],
+      "ru": [
+        "Баррингтония азиатская"
+      ],
+      "zh": [
+        "滨玉蕊"
       ]
     },
     "tags": [],
@@ -201,12 +267,12 @@
     "family": "Lecythidaceae",
     "genus": "Barringtonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/aa6d613261269785532216086699f25b70c3b3f2",
-    "description": null,
+    "description": "Barringtonia racemosa, commonly known as powder-puff tree, is a species of tree in the family Lecythidaceae. It is found in coastal swamp forests and on the edges of estuaries in the Indian Ocean, starting at the east coast of Mozambique and KwaZulu-Natal to Madagascar, India, Sri Lanka, Malesia, Maldives, Thailand, Laos, southern China, northern Australia, coastal Taiwan, the Ryukyu Islands and many Polynesian islands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -217,9 +283,9 @@
     "synonyms": "[\"Butonica ceylanica\", \"Barringtonia elongata\", \"Barringtonia terrestris\", \"Butonica inclyta\", \"Barringtonia pallida\", \"Barringtonia racemosa var. elongata\", \"Barringtonia stravadium\", \"Stravadium album\", \"Barringtonia ceylanica\", \"Barringtonia ceramensis\"]",
     "care": {
       "plant_id": "barringtonia_racemosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -283,11 +349,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Barringtonia racemosa"
+      ],
       "en": [
+        "Barringtonia racemosa",
         "Brackwater mangrove"
+      ],
+      "es": [
+        "Barringtonia racemosa"
+      ],
+      "fr": [
+        "Barringtonia racemosa"
+      ],
+      "it": [
+        "Barringtonia racemosa"
+      ],
+      "ja": [
+        "サガリバナ"
+      ],
+      "nl": [
+        "Barringtonia racemosa"
+      ],
+      "pl": [
+        "Barringtonia racemosa"
+      ],
+      "pt": [
+        "Barringtonia racemosa"
+      ],
+      "ru": [
+        "Barringtonia racemosa"
+      ],
+      "zh": [
+        "玉蕊"
       ]
     },
     "tags": [],
@@ -299,12 +398,12 @@
     "family": "Lecythidaceae",
     "genus": "Bertholletia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c7bc4555c41edc5dc96fa1a0a76efd2f235b819c",
-    "description": null,
+    "description": "Brazil nut refers to a South American tree in the family Lecythidaceae as well as the tree's commercially-harvested edible seeds. It is one of the largest and longest-lived trees in the Amazon rainforest. The fruit and its nutshell – containing the edible nut – are relatively large and weigh as much as 2 kg (4.4 lb) in total. As food, Brazil nuts are notable for diverse content of micronutrients, especially a high amount of selenium.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -381,11 +480,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جوز برازيلي"
+      ],
+      "de": [
+        "Paranussbaum"
+      ],
       "en": [
+        "Bertholletia excelsa",
         "Brazilnut"
+      ],
+      "es": [
+        "Bertholletia excelsa"
+      ],
+      "fr": [
+        "Bertholletia excelsa"
+      ],
+      "it": [
+        "Bertholletia excelsa"
+      ],
+      "ja": [
+        "ブラジルナッツ"
+      ],
+      "ko": [
+        "브라질넛"
+      ],
+      "nl": [
+        "Paranoot"
+      ],
+      "pl": [
+        "orzesznica wyniosła"
+      ],
+      "pt": [
+        "Bertholletia excelsa"
+      ],
+      "ru": [
+        "бразильский орех"
+      ],
+      "tr": [
+        "Brezilya fındığı"
+      ],
+      "zh": [
+        "巴西栗"
       ]
     },
     "tags": [],
@@ -397,12 +538,12 @@
     "family": "Lecythidaceae",
     "genus": "Cariniana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/42e76d11a48ccae66591b222d8448251f9c1109c",
-    "description": null,
+    "description": "Cariniana estrellensis is a species of rainforest tree in the family Lecythidaceae. It is native to South America. These trees can grow to extraordinary size. Perhaps the largest rainforest tree ever measured by college trained forester was a C. estrellensis measured by Edmundo Navarro de Andrade which was 22 m (72 ft) girth with no buttresses or basal swelling. Another individual measured by botanical explorer David G.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -479,9 +620,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cariniana estrellensis"
+      ],
+      "en": [
+        "Cariniana estrellensis"
+      ],
+      "es": [
+        "Cariniana estrellensis"
+      ],
+      "fr": [
+        "Cariniana estrellensis"
+      ],
+      "it": [
+        "Cariniana estrellensis"
+      ],
+      "nl": [
+        "Cariniana estrellensis"
+      ],
+      "pl": [
+        "Cariniana estrellensis"
+      ],
+      "pt": [
+        "Jequitibá-branco"
+      ],
+      "ru": [
+        "Cariniana estrellensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -491,12 +662,12 @@
     "family": "Lecythidaceae",
     "genus": "Couratari",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/252bb81ea8056aba20c6565c5dae53e363f3fe3b",
-    "description": null,
+    "description": "Couratari guianensis, the fine-leaf wadara, cachimbo caspi, cachimbo, capa de tabaco, coco cabuyo, or tauari, is a species of woody plant in the family Lecythidaceae. It is found in Brazil, Colombia, Costa Rica, French Guiana, Guyana, Panama, Peru, Suriname, and Venezuela. It is threatened by habitat loss.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -573,11 +744,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Couratari guianensis"
+      ],
       "en": [
+        "Couratari guianensis",
         "Fine-leaf wadara"
+      ],
+      "es": [
+        "Couratari guianensis"
+      ],
+      "fr": [
+        "Couratari guianensis"
+      ],
+      "it": [
+        "Couratari guianensis"
+      ],
+      "nl": [
+        "Couratari guianensis"
+      ],
+      "pl": [
+        "Couratari guianensis"
+      ],
+      "pt": [
+        "Maú"
+      ],
+      "ru": [
+        "Couratari guianensis"
       ]
     },
     "tags": [],
@@ -589,12 +787,12 @@
     "family": "Lecythidaceae",
     "genus": "Couroupita",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/202fe8826da06e2de350cb59ec997bd5a2d34fd1",
-    "description": null,
+    "description": "Couroupita guianensis, known by a variety of common names including cannonball tree, is a deciduous tree in the flowering plant family Lecythidaceae. It is native to lowland tropical rainforests of Central and South America, from Costa Rica, south to Brazil and northern Bolivia and it is cultivated in many other tropical areas throughout the world because of its fragrant flowers and large fruit, which are brownish grey.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -671,11 +869,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شجرة قذيفة المدفع"
+      ],
+      "de": [
+        "Kanonenkugelbaum"
+      ],
       "en": [
-        "Cannonball-tree"
+        "Cannonball-tree",
+        "Couroupita guianensis"
+      ],
+      "es": [
+        "Couroupita guianensis"
+      ],
+      "fr": [
+        "Couroupita guianensis"
+      ],
+      "it": [
+        "Couroupita guianensis"
+      ],
+      "ja": [
+        "ホウガンノキ"
+      ],
+      "nl": [
+        "Kanonskogelboom"
+      ],
+      "pl": [
+        "Czerpnia gujańska"
+      ],
+      "pt": [
+        "Abricó-de-macaco"
+      ],
+      "ru": [
+        "Курупита гвианская"
+      ],
+      "zh": [
+        "砲彈樹"
       ]
     },
     "tags": [],
@@ -687,7 +921,7 @@
     "family": "Lecythidaceae",
     "genus": "Eschweilera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -769,9 +1003,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eschweilera caudiculata"
+      ],
+      "en": [
+        "Eschweilera caudiculata"
+      ],
+      "es": [
+        "Eschweilera caudiculata"
+      ],
+      "fr": [
+        "Eschweilera caudiculata"
+      ],
+      "it": [
+        "Eschweilera caudiculata"
+      ],
+      "nl": [
+        "Eschweilera caudiculata"
+      ],
+      "pl": [
+        "Eschweilera caudiculata"
+      ],
+      "pt": [
+        "Eschweilera caudiculata"
+      ],
+      "ru": [
+        "Eschweilera caudiculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -781,12 +1045,12 @@
     "family": "Lecythidaceae",
     "genus": "Eschweilera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/040db007e1c5b5e70d8df5c06d99818f014c52ea",
-    "description": null,
+    "description": "Eschweilera coriacea is a species of tree in the family Lecythidaceae. It is native to Honduras, Panama and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -863,9 +1127,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eschweilera coriacea"
+      ],
+      "en": [
+        "Eschweilera coriacea"
+      ],
+      "es": [
+        "Eschweilera coriacea"
+      ],
+      "fr": [
+        "Eschweilera coriacea"
+      ],
+      "it": [
+        "Eschweilera coriacea"
+      ],
+      "nl": [
+        "Eschweilera coriacea"
+      ],
+      "pl": [
+        "Eschweilera coriacea"
+      ],
+      "pt": [
+        "Matamatá"
+      ],
+      "ru": [
+        "Eschweilera coriacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -875,7 +1169,7 @@
     "family": "Lecythidaceae",
     "genus": "Eschweilera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -957,9 +1251,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eschweilera ovata"
+      ],
+      "en": [
+        "Eschweilera ovata"
+      ],
+      "es": [
+        "Eschweilera ovata"
+      ],
+      "fr": [
+        "Eschweilera ovata"
+      ],
+      "it": [
+        "Eschweilera ovata"
+      ],
+      "nl": [
+        "Eschweilera ovata"
+      ],
+      "pl": [
+        "Eschweilera ovata"
+      ],
+      "pt": [
+        "Biriba-branca"
+      ],
+      "ru": [
+        "Eschweilera ovata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -969,7 +1293,7 @@
     "family": "Lecythidaceae",
     "genus": "Eschweilera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1051,9 +1375,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Eschweilera pedicellata"
+      ],
+      "en": [
+        "Eschweilera pedicellata"
+      ],
+      "es": [
+        "Eschweilera pedicellata"
+      ],
+      "fr": [
+        "Eschweilera pedicellata"
+      ],
+      "it": [
+        "Eschweilera pedicellata"
+      ],
+      "nl": [
+        "Eschweilera pedicellata"
+      ],
+      "pl": [
+        "Eschweilera pedicellata"
+      ],
+      "pt": [
+        "Eschweilera pedicellata"
+      ],
+      "ru": [
+        "Eschweilera pedicellata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1063,12 +1417,12 @@
     "family": "Lecythidaceae",
     "genus": "Gustavia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4a74876aa83f9d03c1b173dbf43de0fd1c0ef855",
-    "description": null,
+    "description": "Gustavia superba is an understory tree in the family Lecythidaceae, that grows in Central and north-western South America.\nCommon names include membrillo, sachamango, Stinkwood and heaven lotus. The trunk is around 5-10 m high with a rosette of very large leaves radiating from the top. These leaves can be up to 1.28 m long by less than 30 cm wide.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1145,11 +1499,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gustavia augusta"
+      ],
       "en": [
+        "Gustavia augusta",
         "Heaven lotus"
+      ],
+      "es": [
+        "Gustavia augusta"
+      ],
+      "fr": [
+        "Gustavia augusta"
+      ],
+      "it": [
+        "Gustavia augusta"
+      ],
+      "nl": [
+        "Gustavia augusta"
+      ],
+      "pl": [
+        "Gustavia augusta"
+      ],
+      "pt": [
+        "Jeniparana"
+      ],
+      "ru": [
+        "Gustavia augusta"
       ]
     },
     "tags": [],
@@ -1161,7 +1542,7 @@
     "family": "Lecythidaceae",
     "genus": "Gustavia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1243,9 +1624,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gustavia hexapetala"
+      ],
+      "en": [
+        "Gustavia hexapetala"
+      ],
+      "es": [
+        "Gustavia hexapetala"
+      ],
+      "fr": [
+        "Gustavia hexapetala"
+      ],
+      "it": [
+        "Gustavia hexapetala"
+      ],
+      "nl": [
+        "Gustavia hexapetala"
+      ],
+      "pl": [
+        "Gustavia hexapetala"
+      ],
+      "pt": [
+        "Gustavia hexapetala"
+      ],
+      "ru": [
+        "Gustavia hexapetala"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1255,12 +1666,12 @@
     "family": "Lecythidaceae",
     "genus": "Gustavia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bb84f057dd9f22169879ed79911fda835d9b2dde",
-    "description": null,
+    "description": "Gustavia superba is an understory tree in the family Lecythidaceae, that grows in Central and north-western South America.\nCommon names include membrillo, sachamango, Stinkwood and heaven lotus. The trunk is around 5-10 m high with a rosette of very large leaves radiating from the top. These leaves can be up to 1.28 m long by less than 30 cm wide.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1337,9 +1748,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gustavia superba"
+      ],
+      "en": [
+        "Gustavia superba"
+      ],
+      "es": [
+        "Gustavia superba"
+      ],
+      "fr": [
+        "Gustavia superba"
+      ],
+      "it": [
+        "Gustavia superba"
+      ],
+      "nl": [
+        "Gustavia superba"
+      ],
+      "pl": [
+        "Gustavia superba"
+      ],
+      "pt": [
+        "Gustavia superba"
+      ],
+      "ru": [
+        "Gustavia superba"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1349,7 +1790,7 @@
     "family": "Lecythidaceae",
     "genus": "Lecythis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1431,9 +1872,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "لوسيت مغضن"
+      ],
+      "de": [
+        "Lecythis corrugata"
+      ],
+      "en": [
+        "Lecythis corrugata"
+      ],
+      "es": [
+        "Lecythis corrugata"
+      ],
+      "fr": [
+        "Lecythis corrugata"
+      ],
+      "it": [
+        "Lecythis corrugata"
+      ],
+      "nl": [
+        "Lecythis corrugata"
+      ],
+      "pl": [
+        "Lecythis corrugata"
+      ],
+      "pt": [
+        "Lecythis corrugata"
+      ],
+      "ru": [
+        "Lecythis corrugata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1443,12 +1917,12 @@
     "family": "Lecythidaceae",
     "genus": "Lecythis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/87b0d37ecf8cca5fff26f7396a29c02d5a4a385f",
-    "description": null,
+    "description": "Lecythis minor, the monkey-pot tree, is a small tree with toxic seeds that occurs in South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1525,11 +1999,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "لوسيت صغير"
+      ],
+      "de": [
+        "Lecythis minor"
+      ],
       "en": [
-        "Lecythis"
+        "Lecythis",
+        "Lecythis minor"
+      ],
+      "es": [
+        "Lecythis minor"
+      ],
+      "fr": [
+        "Lecythis minor"
+      ],
+      "it": [
+        "Lecythis minor"
+      ],
+      "nl": [
+        "Lecythis minor"
+      ],
+      "pl": [
+        "Lecythis minor"
+      ],
+      "pt": [
+        "Lecythis minor"
+      ],
+      "ru": [
+        "Lecythis minor"
+      ],
+      "zh": [
+        "小猴胡桃"
       ]
     },
     "tags": [],
@@ -1541,12 +2048,12 @@
     "family": "Lecythidaceae",
     "genus": "Lecythis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8537099b75b412a168d2fde3f97fb3cc1b0bac0d",
-    "description": null,
+    "description": "Lecythis pisonis, the cream nut or monkey pot, is a tropical tree in the Brazil nut family Lecythidaceae. It is known in its native tropical America as sapucaia or castanha-de-sapucaia. The fruit is shaped like a cooking pot and contains edible seeds.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1623,11 +2130,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lecythis pisonis"
+      ],
       "en": [
+        "Lecythis pisonis",
         "Paradise-nut"
+      ],
+      "es": [
+        "Lecythis pisonis"
+      ],
+      "fr": [
+        "Lecythis pisonis"
+      ],
+      "it": [
+        "Lecythis pisonis"
+      ],
+      "nl": [
+        "Lecythis pisonis"
+      ],
+      "pl": [
+        "Lecythis pisonis"
+      ],
+      "pt": [
+        "Lecythis pisonis"
+      ],
+      "ru": [
+        "Lecythis pisonis"
       ]
     },
     "tags": [],
@@ -1639,12 +2173,12 @@
     "family": "Lecythidaceae",
     "genus": "Planchonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8e1413e6a59e40143d8e7639b4324cde50e66bd8",
-    "description": null,
+    "description": "Planchonia careya is a tree species in the family Lecythidaceae. Common names include cocky apple, cockatoo apple and billygoat plum. The species should not be confused with Terminalia ferdinandiana, with which it shares some common names. The 1889 book 'The Useful Native Plants of Australia' records that Indigenous Australians of the Mitchell River area referred to this plant as \"Ootcho\" while those of the Cloncurry River area referred to it as \"Go-onje\" and \"Gunthamarrah\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1721,11 +2255,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Planchonia careya"
+      ],
       "en": [
-        "Billygoat-plum"
+        "Billygoat-plum",
+        "Planchonia careya"
+      ],
+      "es": [
+        "Planchonia careya"
+      ],
+      "fr": [
+        "Planchonia careya"
+      ],
+      "it": [
+        "Planchonia careya"
+      ],
+      "nl": [
+        "Planchonia careya"
+      ],
+      "pl": [
+        "Planchonia careya"
+      ],
+      "pt": [
+        "Planchonia careya"
+      ],
+      "ru": [
+        "Planchonia careya"
+      ],
+      "zh": [
+        "公雞蘋果"
       ]
     },
     "tags": [],

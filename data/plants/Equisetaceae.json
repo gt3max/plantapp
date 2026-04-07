@@ -5,7 +5,7 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": "[\"Equisetum arvense var. nanum\", \"Equisetum arvense var. robustum\", \"Equisetum arvense var. serotinum\", \"Equisetum arvense var. nemorosum\", \"Equisetum arvense var. irriguum\", \"Equisetum alpestre\", \"Equisetum boreale\", \"Equisetum arvense f. diffusum\", \"Equisetum arvense var. granulatum\", \"Equisetum arvense f. pseudonemorosum\"]",
     "care": {
       "plant_id": "equisetum_arvense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -52,8 +52,8 @@
       "watering_guide": "Propagation: Division",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Quercus nigra",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Horses. Signs: Thiamine deficiency: weakness, weight loss, staggers, tremors, death",
       "common_problems": null,
       "common_pests": null,
@@ -72,8 +72,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": "Thiamine deficiency: weakness, weight loss, staggers, tremors, death",
       "toxicity_first_aid": null,
       "used_for": "[\"It has been used as a remedy for a variety of ailments by Native Americans\", \"and in ancient Roman\", \"and Chinese medicine.\"]",
@@ -87,11 +87,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "كنباث الحقول"
+      ],
+      "de": [
+        "Acker-Schachtelhalm"
+      ],
       "en": [
-        "Common horsetail"
+        "Common horsetail",
+        "Equisetum arvense"
+      ],
+      "es": [
+        "Equisetum arvense"
+      ],
+      "fr": [
+        "Prêle des champs"
+      ],
+      "it": [
+        "Equisetum arvense"
+      ],
+      "ja": [
+        "スギナ"
+      ],
+      "ko": [
+        "쇠뜨기"
+      ],
+      "nl": [
+        "heermoes"
+      ],
+      "pl": [
+        "skrzyp polny"
+      ],
+      "pt": [
+        "Equisetum arvense"
+      ],
+      "ru": [
+        "хвощ полевой"
+      ],
+      "tr": [
+        "Tarla atkuyruğu"
+      ],
+      "zh": [
+        "問荊"
       ]
     },
     "tags": [],
@@ -103,12 +145,12 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/22316d37d029db7c3d41edb1b976617c338c6339",
-    "description": null,
+    "description": "Equisetum bogotense, the Andean horsetail, is a herbaceous perennial that reproduces through spores. It has thicker, less bushy whorled branches, and a silica rich rhizomatous stem, which roots grow out of, under ground. This stem is a dull dark brown color with glabrous growth aside from the sheathed segments. The plant has a history as a traditional herbal remedy, and a study of its diuretic effects on humans showed significant increases in urinary sodium, potassium, and chloride.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -119,17 +161,17 @@
     "synonyms": "[\"Equisetum bogotense var. polystachyum\", \"Equisetum bogotense var. nudum\", \"Equisetum stipulaceum\", \"Equisetum rinihuense\", \"Equisetum bogotense var. flagelliforme\", \"Paramochaete bogotense\"]",
     "care": {
       "plant_id": "equisetum_bogotense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,9 +227,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 6.6
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كنباث بوغوتي"
+      ],
+      "de": [
+        "Equisetum bogotense"
+      ],
+      "en": [
+        "Equisetum bogotense"
+      ],
+      "es": [
+        "Equisetum bogotense"
+      ],
+      "fr": [
+        "Equisetum bogotense"
+      ],
+      "it": [
+        "Equisetum bogotense"
+      ],
+      "nl": [
+        "Equisetum bogotense"
+      ],
+      "pl": [
+        "Equisetum bogotense"
+      ],
+      "pt": [
+        "Equisetum bogotense"
+      ],
+      "ru": [
+        "Equisetum bogotense"
+      ],
+      "zh": [
+        "马尾草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,7 +275,7 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -213,17 +291,17 @@
     "synonyms": "[\"Equisetum limosum\", \"Equisetum maximum\", \"Equisetum lacustre\", \"Equisetum fluviatile f. uliginosum\", \"Equisetum fluviatile var. brachycladon\", \"Equisetum limosum var. candelabrum\", \"Equisetum limosum var. polystachium\", \"Equisetum limosum f. linnaeanum\", \"Equisetum limosum var. minus\", \"Equisetum fluviatile var. uliginosum\"]",
     "care": {
       "plant_id": "equisetum_fluviatile",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -244,9 +322,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: weak toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -264,8 +342,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -279,11 +357,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 7.9
     },
     "common_names": {
+      "ar": [
+        "كنباث نهري"
+      ],
+      "de": [
+        "Teich-Schachtelhalm"
+      ],
       "en": [
+        "Equisetum fluviatile",
         "River horsetail"
+      ],
+      "es": [
+        "Equisetum fluviatile"
+      ],
+      "fr": [
+        "Equisetum fluviatile"
+      ],
+      "it": [
+        "Equisetum fluviatile"
+      ],
+      "ja": [
+        "ミズドクサ"
+      ],
+      "nl": [
+        "Holpijp"
+      ],
+      "pl": [
+        "Skrzyp bagienny"
+      ],
+      "pt": [
+        "Equisetum fluviatile"
+      ],
+      "ru": [
+        "Хвощ приречный"
+      ],
+      "tr": [
+        "Su atkuyruğu"
+      ],
+      "zh": [
+        "溪木賊"
       ]
     },
     "tags": [],
@@ -295,12 +412,12 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4348646a56723a752912e20d60772788fd766a20",
-    "description": null,
+    "description": "Equisetum giganteum is a species of horsetail with the common name southern giant horsetail. It is native to South America and Central America, from central Chile east to Brazil and north to southern Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -311,9 +428,9 @@
     "synonyms": "[\"Equisetum giganteum var. digitaliferum\", \"Equisetum caracasanum\", \"Equisetum giganteum var. caracasanum\", \"Equisetum tarapacanum\", \"Equisetum philippii\", \"Equisetum bolivianum\", \"Equisetum brasiliense var. ramosum\", \"Equisetum giganteum var. chilense\", \"Equisetum brasiliense f. ramosum\", \"Equisetum ramosissimum var. dolosum\"]",
     "care": {
       "plant_id": "equisetum_giganteum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -377,11 +494,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كنباث عملاق"
+      ],
+      "de": [
+        "Equisetum giganteum"
+      ],
       "en": [
+        "Equisetum giganteum",
         "Giant horsetail"
+      ],
+      "es": [
+        "Equisetum giganteum"
+      ],
+      "fr": [
+        "Equisetum giganteum"
+      ],
+      "it": [
+        "Equisetum giganteum"
+      ],
+      "nl": [
+        "Equisetum giganteum"
+      ],
+      "pl": [
+        "Equisetum giganteum"
+      ],
+      "pt": [
+        "Equisetum giganteum"
+      ],
+      "ru": [
+        "Equisetum giganteum"
+      ],
+      "zh": [
+        "巨木賊"
       ]
     },
     "tags": [],
@@ -393,7 +543,7 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -409,17 +559,17 @@
     "synonyms": "[\"Equisetum hyemale var. javanicum\", \"Equisetum hyemale var. viride\", \"Equisetum hyemale var. fuscozonatum\", \"Equisetum alpinum\", \"Equisetum hyemale f. paleaceum\", \"Equisetum hyemale subsp. paleaceum\", \"Equisetum hyemale f. doellii\", \"Equisetum hyemale var. capillare\", \"Equisetum hyemale f. paleaceum\", \"Equisetum hyemale f. viride\"]",
     "care": {
       "plant_id": "equisetum_hyemale",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -440,9 +590,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: weak toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -460,8 +610,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -475,11 +625,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "ar": [
+        "كنباث شتوي"
+      ],
+      "de": [
+        "Winter-Schachtelhalm"
+      ],
       "en": [
+        "Equisetum hyemale",
         "Great scouring-rush"
+      ],
+      "es": [
+        "Equisetum hyemale"
+      ],
+      "fr": [
+        "Equisetum hyemale"
+      ],
+      "it": [
+        "Equisetum hyemale"
+      ],
+      "ja": [
+        "トクサ"
+      ],
+      "ko": [
+        "속새"
+      ],
+      "nl": [
+        "schaafstro"
+      ],
+      "pl": [
+        "Skrzyp zimowy"
+      ],
+      "pt": [
+        "Equisetum hyemale"
+      ],
+      "ru": [
+        "Хвощ зимующий"
+      ],
+      "zh": [
+        "木贼"
       ]
     },
     "tags": [],
@@ -491,12 +680,12 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7616f769c99b64b481424d6bc65e906954c04a7b",
-    "description": null,
+    "description": "Equisetum laevigatum is a species of horsetail in the family Equisetaceae. It is known by the common names smooth horsetail and smooth scouring rush. This plant is native to much of North America except for northern Canada and southern Mexico. It is usually found in moist areas in sandy and gravelly substrates. It may be annual or perennial. It grows narrow green stems sometimes reaching heights exceeding 1.5 meters.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -507,17 +696,17 @@
     "synonyms": "[\"Hippochaete laevigata var. polystachya\", \"Equisetum praealtum var. laevigatum\", \"Equisetum funstonii var. ramosum\", \"Hippochaete laevigata var. caespitosa\", \"Equisetum funstonii f. ramosum\", \"Hippochaete laevigata var. caespitica\", \"Equisetum funstonii f. polystachyum\", \"Hippochaete laevigata var. funstonii\", \"Equisetum funstonii var. nudum\", \"Equisetum laevigatum f. variegatoides\"]",
     "care": {
       "plant_id": "equisetum_laevigatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -573,11 +762,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "de": [
+        "Equisetum laevigatum"
+      ],
       "en": [
+        "Equisetum laevigatum",
         "Smooth scouring-rush"
+      ],
+      "es": [
+        "Equisetum laevigatum"
+      ],
+      "fr": [
+        "Equisetum laevigatum"
+      ],
+      "it": [
+        "Equisetum laevigatum"
+      ],
+      "nl": [
+        "Equisetum laevigatum"
+      ],
+      "pl": [
+        "Equisetum laevigatum"
+      ],
+      "pt": [
+        "Equisetum laevigatum"
+      ],
+      "ru": [
+        "Equisetum laevigatum"
       ]
     },
     "tags": [],
@@ -589,12 +805,12 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/15554cc2ba6c657c4b365f4d030aec1a9664c4a4",
-    "description": null,
+    "description": "Equisetum myriochaetum, also known as Mexican giant horsetail, is a species of horsetail that is native to Nicaragua, Costa Rica, Colombia, Venezuela, Ecuador, Peru and Mexico. \nIt is the largest horsetail species, commonly reaching 4.6 metres (15 ft), with the largest recorded specimen having a height of 7.3 metres (24 ft). At each node is a whorl of as many as 32 branchlets. It is semi-aquatic and is often found growing on riverbanks.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -605,9 +821,9 @@
     "synonyms": "[\"Equisetum mexicanum\", \"Equisetum mexicanum\", \"Equisetum ramosissimum var. sprucei\", \"Hippochaete myriochaeta\", \"Equisetum elongatum var. muelleri\", \"Equisetum ramosissimum var. muelleri\", \"Equisetum myriochaetum var. densum\", \"Equisetum myriochaetum var. laxum\"]",
     "care": {
       "plant_id": "equisetum_myriochaetum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -671,9 +887,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Equisetum myriochaetum"
+      ],
+      "en": [
+        "Equisetum myriochaetum"
+      ],
+      "es": [
+        "Equisetum myriochaetum"
+      ],
+      "fr": [
+        "Equisetum myriochaetum"
+      ],
+      "it": [
+        "Equisetum myriochaetum"
+      ],
+      "nl": [
+        "Equisetum myriochaetum"
+      ],
+      "pl": [
+        "Equisetum myriochaetum"
+      ],
+      "pt": [
+        "Equisetum myriochaetum"
+      ],
+      "ru": [
+        "Equisetum myriochaetum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -683,7 +929,7 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -699,17 +945,17 @@
     "synonyms": "[\"Equisetum palustre f. tenue\", \"Equisetum palustre f. luxurians\", \"Equisetum palustre var. tenue\", \"Equisetum palustre f. fluitans\", \"Equisetum palustre f. ramosissimum\", \"Equisetum palustre f. nigridens\", \"Equisetum palustre var. aphyllum\", \"Equisetum palustre var. polystachyum\", \"Equisetum palustre var. ramosissimum\", \"Equisetum palustre var. simplicissimum\"]",
     "care": {
       "plant_id": "equisetum_palustre",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -730,9 +976,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: strong toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -750,8 +996,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -765,11 +1011,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "ar": [
+        "كنباث مستنقعي"
+      ],
+      "de": [
+        "Sumpf-Schachtelhalm"
+      ],
       "en": [
+        "Equisetum palustre",
         "Marsh horsetail"
+      ],
+      "es": [
+        "Equisetum palustre"
+      ],
+      "fr": [
+        "Prêle des marais"
+      ],
+      "it": [
+        "Equisetum palustre"
+      ],
+      "ja": [
+        "イヌスギナ"
+      ],
+      "nl": [
+        "lidrus"
+      ],
+      "pl": [
+        "Skrzyp błotny"
+      ],
+      "pt": [
+        "Equisetum palustre"
+      ],
+      "ru": [
+        "хвощ болотный"
+      ],
+      "zh": [
+        "犬问荆"
       ]
     },
     "tags": [],
@@ -781,7 +1063,7 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -799,15 +1081,15 @@
       "plant_id": "equisetum_pratense",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -828,9 +1110,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: strong toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -848,8 +1130,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -863,11 +1145,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.8
     },
     "common_names": {
+      "ar": [
+        "كنباث مرجي"
+      ],
+      "de": [
+        "Wiesen-Schachtelhalm"
+      ],
       "en": [
+        "Equisetum pratense",
         "Meadow horsetail"
+      ],
+      "es": [
+        "Equisetum pratense"
+      ],
+      "fr": [
+        "Equisetum pratense"
+      ],
+      "it": [
+        "Equisetum pratense"
+      ],
+      "nl": [
+        "veldpaardenstaart"
+      ],
+      "pl": [
+        "Skrzyp łąkowy"
+      ],
+      "pt": [
+        "Equisetum pratense"
+      ],
+      "ru": [
+        "Хвощ луговой"
+      ],
+      "tr": [
+        "Çayır atkuyruğu"
+      ],
+      "zh": [
+        "草问荆"
       ]
     },
     "tags": [],
@@ -879,7 +1197,7 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -895,17 +1213,17 @@
     "synonyms": "[\"Equisetum elongatum var. ramosissimum\", \"Presla ramosissima\", \"Hippochaete ramosissima\"]",
     "care": {
       "plant_id": "equisetum_ramosissimum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -926,9 +1244,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -946,8 +1264,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -961,11 +1279,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "كنباث أفرع"
+      ],
+      "de": [
+        "Equisetum ramosissimum"
+      ],
       "en": [
-        "Branched horsetail"
+        "Branched horsetail",
+        "Equisetum ramosissimum"
+      ],
+      "es": [
+        "Equisetum ramosissimum"
+      ],
+      "fr": [
+        "Equisetum ramosissimum"
+      ],
+      "it": [
+        "Equisetum ramosissimum"
+      ],
+      "ja": [
+        "イヌドクサ"
+      ],
+      "nl": [
+        "vertakte paardenstaart"
+      ],
+      "pl": [
+        "Skrzyp gałęzisty"
+      ],
+      "pt": [
+        "Equisetum ramosissimum"
+      ],
+      "ru": [
+        "Хвощ ветвистый"
+      ],
+      "zh": [
+        "节节草"
       ]
     },
     "tags": [],
@@ -977,12 +1331,12 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9d77c3eb2ba4a5f90801878c8a41bd369e354444",
-    "description": "No fruits. Reproduces by spores that are housed in small cone-like structures on top of fertile stems",
+    "description": "Equisetum scirpoides Michx., Fl. Bor.-Amer. 2: 281 (1803). 2 n = 216. The smallest of the currently occurring representatives of the genus Equisetum (horsetail).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -995,15 +1349,15 @@
       "plant_id": "equisetum_scirpoides",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1061,11 +1415,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "de": [
+        "Equisetum scirpoides"
+      ],
       "en": [
-        "Dwarf scouringrush"
+        "Dwarf scouringrush",
+        "Equisetum scirpoides"
+      ],
+      "es": [
+        "Equisetum scirpoides"
+      ],
+      "fr": [
+        "Equisetum scirpoides"
+      ],
+      "it": [
+        "Equisetum scirpoides"
+      ],
+      "nl": [
+        "Equisetum scirpoides"
+      ],
+      "pl": [
+        "skrzyp sitowaty"
+      ],
+      "pt": [
+        "Equisetum scirpoides"
+      ],
+      "ru": [
+        "Хвощ камышовый"
+      ],
+      "zh": [
+        "蔺木贼"
       ]
     },
     "tags": [],
@@ -1077,7 +1461,7 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1093,17 +1477,17 @@
     "synonyms": "[\"Presla sylvatica\", \"Equisetum silvaticum var. squarrosum\", \"Equisetum sylvaticum var. multiramosum\", \"Equisetum sylvaticum f. tardatum\", \"Equisetum sylvaticum var. praecox\", \"Equisetum sylvaticum f. serum\", \"Equisetum sylvaticum f. serotinum\", \"Equisetum sylvaticum var. serotinum\", \"Equisetum sylvaticum var. robustum\", \"Equisetum sylvaticum var. pyramidale\"]",
     "care": {
       "plant_id": "equisetum_sylvaticum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1124,9 +1508,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: weak toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1144,8 +1528,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1159,11 +1543,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 3.7
     },
     "common_names": {
+      "ar": [
+        "كنباث حرجي"
+      ],
+      "de": [
+        "Wald-Schachtelhalm"
+      ],
       "en": [
+        "Equisetum sylvaticum",
         "Wood horsetail"
+      ],
+      "es": [
+        "Equisetum sylvaticum"
+      ],
+      "fr": [
+        "Equisetum sylvaticum"
+      ],
+      "it": [
+        "Equisetum sylvaticum"
+      ],
+      "ja": [
+        "フサスギナ"
+      ],
+      "nl": [
+        "bospaardenstaart"
+      ],
+      "pl": [
+        "Skrzyp leśny"
+      ],
+      "pt": [
+        "Equisetum sylvaticum"
+      ],
+      "ru": [
+        "Хвощ лесной"
+      ],
+      "zh": [
+        "林木贼"
       ]
     },
     "tags": [],
@@ -1175,7 +1595,7 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1191,17 +1611,17 @@
     "synonyms": "[\"Equisetum telmateia var. gracile\", \"Presla eburnea\", \"Equisetum telmateia var. ramulosum\", \"Equisetum maximum var. serotinum\", \"Equisetum telmateia f. comosum\", \"Equisetum telmateia var. caespitosum\", \"Equisetum macrostachion\", \"Equisetum telmateia f. ramulosum\", \"Equisetum telmateia var. nanum\", \"Equisetum telmateia f. gracile\"]",
     "care": {
       "plant_id": "equisetum_telmateia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1222,9 +1642,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: weak toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1242,8 +1662,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1257,11 +1677,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 5.9
     },
     "common_names": {
+      "ar": [
+        "كنباث سبخي"
+      ],
+      "de": [
+        "Riesen-Schachtelhalm"
+      ],
       "en": [
+        "Equisetum telmateia",
         "Great horsetail"
+      ],
+      "es": [
+        "Equisetum telmateia"
+      ],
+      "fr": [
+        "Equisetum telmateia"
+      ],
+      "it": [
+        "Equisetum telmateia"
+      ],
+      "nl": [
+        "reuzenpaardenstaart"
+      ],
+      "pl": [
+        "Skrzyp olbrzymi"
+      ],
+      "pt": [
+        "Equisetum telmateia"
+      ],
+      "ru": [
+        "Хвощ большой"
+      ],
+      "tr": [
+        "Kırkkilit Otu"
       ]
     },
     "tags": [],
@@ -1273,7 +1726,7 @@
     "family": "Equisetaceae",
     "genus": "Equisetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1289,17 +1742,17 @@
     "synonyms": "[\"Equisetum bauhinii\", \"Equisetum variegatum var. elatum\", \"Equisetum variegatum var. arenarium\", \"Hippochaete variegata subsp. alaskana\", \"Equisetum variegatum f. arenarium\", \"Equisetum variegatum f. wilsonii\", \"Equisetum hyemale subsp. wilsonii\", \"Equisetum arenarium\", \"Equisetum variegatum var. compositum\", \"Equisetum hyemale var. variegatum\"]",
     "care": {
       "plant_id": "equisetum_variegatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1320,9 +1773,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: weak toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1340,8 +1793,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1355,11 +1808,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Bunter Schachtelhalm"
+      ],
       "en": [
+        "Equisetum variegatum",
         "Variegated horsetail"
+      ],
+      "es": [
+        "Equisetum variegatum"
+      ],
+      "fr": [
+        "Equisetum variegatum"
+      ],
+      "it": [
+        "Equisetum variegatum"
+      ],
+      "nl": [
+        "bonte paardenstaart"
+      ],
+      "pl": [
+        "Skrzyp pstry"
+      ],
+      "pt": [
+        "Equisetum variegatum"
+      ],
+      "ru": [
+        "Хвощ пёстрый"
+      ],
+      "zh": [
+        "斑纹木贼"
       ]
     },
     "tags": [],

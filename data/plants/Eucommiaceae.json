@@ -5,12 +5,12 @@
     "family": "Eucommiaceae",
     "genus": "Eucommia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fc73ac79c31b8cc7067a6f33e38d292531c64f91",
-    "description": "Flattened winged seeds about 1” to 11/2” long.",
+    "description": "Eucommia ulmoides is a species of small tree native to China. It belongs to the monotypic family Eucommiaceae. It is considered vulnerable in the wild, but is widely cultivated in China for its bark and is highly valued in herbology such as traditional Chinese medicine.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "القوم"
+      ],
+      "de": [
+        "Eucommia ulmoides"
+      ],
       "en": [
-        "Eucommia"
+        "Eucommia",
+        "Eucommia ulmoides"
+      ],
+      "es": [
+        "Eucommiaceae"
+      ],
+      "fr": [
+        "Eucommia ulmoides"
+      ],
+      "it": [
+        "Eucommia ulmoides"
+      ],
+      "ja": [
+        "トチュウ"
+      ],
+      "ko": [
+        "두충"
+      ],
+      "nl": [
+        "Eucommia ulmoides"
+      ],
+      "pl": [
+        "Eukomia wiązowata"
+      ],
+      "pt": [
+        "Eucommia ulmoides"
+      ],
+      "ru": [
+        "Эвкоммия"
+      ],
+      "zh": [
+        "杜仲"
       ]
     },
     "tags": [],

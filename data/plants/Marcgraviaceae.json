@@ -5,7 +5,7 @@
     "family": "Marcgraviaceae",
     "genus": "Norantea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Norantea guianensis"
+      ],
       "en": [
+        "Norantea guianensis",
         "Red hot poker vine"
+      ],
+      "es": [
+        "Norantea guianensis"
+      ],
+      "fr": [
+        "Norantea guianensis"
+      ],
+      "it": [
+        "Norantea guianensis"
+      ],
+      "ja": [
+        "ノランテア・ギアネンシス"
+      ],
+      "nl": [
+        "Norantea guianensis"
+      ],
+      "pl": [
+        "Norantea guianensis"
+      ],
+      "pt": [
+        "Norantea guianensis"
+      ],
+      "ru": [
+        "Norantea guianensis"
       ]
     },
     "tags": [],
@@ -103,7 +133,7 @@
     "family": "Marcgraviaceae",
     "genus": "Souroubea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,9 +215,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Souroubea guianensis"
+      ],
+      "en": [
+        "Souroubea guianensis"
+      ],
+      "es": [
+        "Souroubea guianensis"
+      ],
+      "fr": [
+        "Souroubea guianensis"
+      ],
+      "it": [
+        "Souroubea guianensis"
+      ],
+      "nl": [
+        "Souroubea guianensis"
+      ],
+      "pl": [
+        "Souroubea guianensis"
+      ],
+      "pt": [
+        "Souroubea guianensis"
+      ],
+      "ru": [
+        "Souroubea guianensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

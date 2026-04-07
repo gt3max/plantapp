@@ -5,7 +5,7 @@
     "family": "Talinaceae",
     "genus": "Talinum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Talinum fruticosum"
+      ],
       "en": [
-        "Surinam-purslane"
+        "Surinam-purslane",
+        "Talinum fruticosum"
+      ],
+      "es": [
+        "Talinum fruticosum"
+      ],
+      "fr": [
+        "Talinum fruticosum"
+      ],
+      "it": [
+        "Talinum fruticosum"
+      ],
+      "ja": [
+        "ハゼラン"
+      ],
+      "nl": [
+        "Talinum fruticosum"
+      ],
+      "pl": [
+        "Talinum fruticosum"
+      ],
+      "pt": [
+        "Talinum fruticosum"
+      ],
+      "ru": [
+        "Talinum fruticosum"
+      ],
+      "tr": [
+        "Talinum fruticosum"
+      ],
+      "zh": [
+        "棱轴土人参"
       ]
     },
     "tags": [],
@@ -103,7 +139,7 @@
     "family": "Talinaceae",
     "genus": "Talinum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,11 +221,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Talinum paniculatum"
+      ],
       "en": [
-        "Fameflower"
+        "Fameflower",
+        "Talinum paniculatum"
+      ],
+      "es": [
+        "Talinum paniculatum"
+      ],
+      "fr": [
+        "Talinum paniculatum"
+      ],
+      "it": [
+        "Talinum paniculatum"
+      ],
+      "nl": [
+        "Talinum paniculatum"
+      ],
+      "pl": [
+        "Talinum paniculatum"
+      ],
+      "pt": [
+        "Beldroega-grande"
+      ],
+      "ru": [
+        "Talinum paniculatum"
+      ],
+      "zh": [
+        "土人参"
       ]
     },
     "tags": [],

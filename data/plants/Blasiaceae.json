@@ -5,12 +5,12 @@
     "family": "Blasiaceae",
     "genus": "Blasia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Blasia_pusilla_300908a.jpg",
+    "description": "Blasia pusilla is the only species in the liverwort genus Blasia. This species establishes a symbiosis with nitrogen-fixing cyanobacteria of the genus Nostoc, which are housed in special cavities, called auricles, occurring on the ventral (underside) surface of the thallus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Blasia pusilla"
+      ],
+      "en": [
+        "Blasia pusilla"
+      ],
+      "es": [
+        "Blasia pusilla"
+      ],
+      "fr": [
+        "Blasia pusilla"
+      ],
+      "it": [
+        "Blasia pusilla"
+      ],
+      "ja": [
+        "ウスバゼニゴケ"
+      ],
+      "nl": [
+        "Blasia pusilla"
+      ],
+      "pl": [
+        "Blasia pusilla"
+      ],
+      "pt": [
+        "Blasia pusilla"
+      ],
+      "ru": [
+        "Блазия крошечная"
+      ],
+      "zh": [
+        "壶苞苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

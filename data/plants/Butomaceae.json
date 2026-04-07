@@ -5,7 +5,7 @@
     "family": "Butomaceae",
     "genus": "Butomus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": "[\"Butomus caesalpini\", \"Butomus umbellatus f. natans\", \"Butomus umbellatus var. minor\", \"Butomus umbellatus var. vallisneriifolius\", \"Butomus floridus\", \"Butomus umbellatus f. terrestris\", \"Butomus umbellatus f. albiflorus\", \"Butomus vulgaris\", \"Butomus umbellatus var. scutariensis\", \"Butomus umbellatus f. submersus\"]",
     "care": {
       "plant_id": "butomus_umbellatus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 10,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "ar": [
+        "بوطي خيمي"
+      ],
+      "de": [
+        "Schwanenblume"
+      ],
       "en": [
+        "Butomus umbellatus",
         "Water-gladiolus"
+      ],
+      "es": [
+        "Butomus"
+      ],
+      "fr": [
+        "Butomus umbellatus"
+      ],
+      "it": [
+        "Butomus umbellatus"
+      ],
+      "ja": [
+        "ハナイ科"
+      ],
+      "ko": [
+        "구주꽃골"
+      ],
+      "nl": [
+        "zwanenbloem"
+      ],
+      "pl": [
+        "Łączeń baldaszkowy"
+      ],
+      "pt": [
+        "Butomus umbellatus"
+      ],
+      "ru": [
+        "сусак зонтичный"
+      ],
+      "zh": [
+        "花蔺"
       ]
     },
     "tags": [],

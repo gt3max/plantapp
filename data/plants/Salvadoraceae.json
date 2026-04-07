@@ -5,12 +5,12 @@
     "family": "Salvadoraceae",
     "genus": "Azima",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/23e6c79178974e2a87c0eccffdff27753402242b",
-    "description": null,
+    "description": "Azima tetracantha is an ornamental plant in the Salvadoraceae family. Common Name: Bee Sting Bush. This plant is commonly known as 'Yashankala' in ayurveda. Its foliage is an important medicine for post-pregnancy treatments, the same is also used for 'karkidaka treatments' which is famous in Kerala.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ضيشي رباعي الموق"
+      ],
+      "de": [
+        "Azima tetracantha"
+      ],
       "en": [
+        "Azima tetracantha",
         "Needle bush"
+      ],
+      "es": [
+        "Azima tetracantha"
+      ],
+      "fr": [
+        "Azima tetracantha"
+      ],
+      "it": [
+        "Azima tetracantha"
+      ],
+      "nl": [
+        "Azima tetracantha"
+      ],
+      "pl": [
+        "Azima tetracantha"
+      ],
+      "pt": [
+        "Azima tetracantha"
+      ],
+      "ru": [
+        "Azima tetracantha"
+      ],
+      "zh": [
+        "四刺刺茉莉"
       ]
     },
     "tags": [],
@@ -103,12 +136,12 @@
     "family": "Salvadoraceae",
     "genus": "Salvadora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a9e4e0a8499ddabccd4bf3b75cc8976d0b609d80",
-    "description": null,
+    "description": "Salvadora persica or the toothbrush tree is a small evergreen tree. Regional common names include arak, jhal, and mustard tree. Its roots and twigs called miswak are traditionally used for chewing as a toothbrush.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,11 +218,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "أراك"
+      ],
+      "de": [
+        "Zahnbürstenbaum"
+      ],
       "en": [
+        "Salvadora persica",
         "Toothbrushtree"
+      ],
+      "es": [
+        "Salvadora persica"
+      ],
+      "fr": [
+        "Salvadora persica"
+      ],
+      "it": [
+        "Salvadora persica"
+      ],
+      "ja": [
+        "サルバドラ・ペルシカ"
+      ],
+      "nl": [
+        "Salvadora persica"
+      ],
+      "pl": [
+        "Salvadora persica"
+      ],
+      "pt": [
+        "Salvadora persica"
+      ],
+      "ru": [
+        "Сальвадора персидская"
+      ],
+      "tr": [
+        "Misvak ağacı"
+      ],
+      "zh": [
+        "牙刷树"
       ]
     },
     "tags": [],

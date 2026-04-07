@@ -5,12 +5,12 @@
     "family": "Hernandiaceae",
     "genus": "Gyrocarpus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7ffa11c10b98fa8c73916a32c9dded56349aba1b",
-    "description": null,
+    "description": "Gyrocarpus americanus is a flowering plant in the Hernandiaceae family, with a wide pantropical distribution. Its common names include the helicopter tree, propeller tree, whirly whirly tree, stinkwood or shitwood.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gyrocarpus americanus"
+      ],
       "en": [
-        "Gyro damson"
+        "Gyro damson",
+        "Gyrocarpus americanus"
+      ],
+      "es": [
+        "Gyrocarpus americanus"
+      ],
+      "fr": [
+        "Gyrocarpus americanus"
+      ],
+      "it": [
+        "Gyrocarpus americanus"
+      ],
+      "nl": [
+        "Gyrocarpus americanus"
+      ],
+      "pl": [
+        "Gyrocarpus americanus"
+      ],
+      "pt": [
+        "Gyrocarpus americanus"
+      ],
+      "ru": [
+        "Gyrocarpus americanus"
+      ],
+      "zh": [
+        "旋翼果"
       ]
     },
     "tags": [],
@@ -103,12 +133,12 @@
     "family": "Hernandiaceae",
     "genus": "Hernandia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3aa4cca81efc863c5da2eb270612daebc79fbfec",
-    "description": null,
+    "description": "Hernandia nymphaeifolia is a species of plant in the Hernandiaceae family. Its common name is lantern tree.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,11 +215,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "هرناندية نيلوفرية الأوراق"
+      ],
+      "de": [
+        "Hernandia nymphaeifolia"
+      ],
       "en": [
+        "Hernandia nymphaeifolia",
         "Sea hearse"
+      ],
+      "es": [
+        "Hernandia nymphaeifolia"
+      ],
+      "fr": [
+        "Hernandia nymphaeifolia"
+      ],
+      "it": [
+        "Hernandia nymphaeifolia"
+      ],
+      "ja": [
+        "ハスノハギリ"
+      ],
+      "nl": [
+        "Hernandia nymphaeifolia"
+      ],
+      "pl": [
+        "Hernandia nymphaeifolia"
+      ],
+      "pt": [
+        "Hernandia nymphaeifolia"
+      ],
+      "ru": [
+        "Hernandia nymphaeifolia"
+      ],
+      "zh": [
+        "莲叶桐"
       ]
     },
     "tags": [],

@@ -5,7 +5,7 @@
     "family": "Oleaceae",
     "genus": "Cartrema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "عبقة أمريكية"
+      ],
+      "de": [
+        "Cartrema americana"
+      ],
+      "en": [
+        "Cartrema americana"
+      ],
+      "es": [
+        "Cartrema americana"
+      ],
+      "fr": [
+        "Cartrema americana"
+      ],
+      "it": [
+        "Cartrema americana"
+      ],
+      "nl": [
+        "Cartrema americana"
+      ],
+      "pl": [
+        "Cartrema americana"
+      ],
+      "pt": [
+        "Cartrema americana"
+      ],
+      "ru": [
+        "Cartrema americana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Oleaceae",
     "genus": "Chionanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chionanthus ramiflorus"
+      ],
+      "en": [
+        "Chionanthus ramiflorus"
+      ],
+      "es": [
+        "Chionanthus ramiflorus"
+      ],
+      "fr": [
+        "Chionanthus ramiflorus"
+      ],
+      "it": [
+        "Chionanthus ramiflorus"
+      ],
+      "nl": [
+        "Chionanthus ramiflorus"
+      ],
+      "pl": [
+        "Chionanthus ramiflorus"
+      ],
+      "pt": [
+        "Chionanthus ramiflorus"
+      ],
+      "ru": [
+        "Chionanthus ramiflorus"
+      ],
+      "zh": [
+        "紅頭李欖"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +259,7 @@
     "family": "Oleaceae",
     "genus": "Chionanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,11 +341,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Chionanthus retusus"
+      ],
       "en": [
-        "Chinese fringetree"
+        "Chinese fringetree",
+        "Chionanthus retusus"
+      ],
+      "es": [
+        "Chionanthus retusus"
+      ],
+      "fr": [
+        "Chionanthus retusus"
+      ],
+      "it": [
+        "Chionanthus retusus"
+      ],
+      "ja": [
+        "ヒトツバタゴ"
+      ],
+      "ko": [
+        "이팝나무"
+      ],
+      "nl": [
+        "Chionanthus retusus"
+      ],
+      "pl": [
+        "Chionanthus retusus"
+      ],
+      "pt": [
+        "Chionanthus retusus"
+      ],
+      "ru": [
+        "Chionanthus retusus"
+      ],
+      "zh": [
+        "流蘇樹"
       ]
     },
     "tags": [],
@@ -291,7 +393,7 @@
     "family": "Oleaceae",
     "genus": "Chionanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -381,11 +483,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زهرة الثلج"
+      ],
+      "de": [
+        "Chionanthus virginicus"
+      ],
       "en": [
-        "American fringetree"
+        "American fringetree",
+        "Chionanthus virginicus"
+      ],
+      "es": [
+        "Chionanthus virginicus"
+      ],
+      "fr": [
+        "Arbre à neige"
+      ],
+      "it": [
+        "Chionanthus virginicus"
+      ],
+      "ja": [
+        "アメリカヒトツバタゴ"
+      ],
+      "nl": [
+        "Chionanthus virginicus"
+      ],
+      "pl": [
+        "Śniegowiec wirginijski"
+      ],
+      "pt": [
+        "Chionanthus virginicus"
+      ],
+      "ru": [
+        "Chionanthus virginicus"
+      ],
+      "zh": [
+        "美国流苏树"
       ]
     },
     "tags": [],
@@ -397,12 +535,12 @@
     "family": "Oleaceae",
     "genus": "Chrysojasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/b3fc5c2a1744ba0562e90c2b4a24856a.jpg",
-    "description": "Black berries",
+    "description": "Chrysojasminum fruticans, the wild jasmine or common yellow jasmine, is a species of flowering plant in the family Oleaceae, native to the Mediterranean region and the Middle East as far as northern Iran. A semi-evergreen shrub reaching 1.5 m (5 ft) with yellow flowers and black berries, it is available from commercial suppliers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -484,9 +622,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chrysojasminum fruticans"
+      ],
+      "en": [
+        "Chrysojasminum fruticans"
+      ],
+      "es": [
+        "Chrysojasminum fruticans"
+      ],
+      "fr": [
+        "Chrysojasminum fruticans"
+      ],
+      "it": [
+        "Chrysojasminum fruticans"
+      ],
+      "nl": [
+        "Chrysojasminum fruticans"
+      ],
+      "pl": [
+        "Chrysojasminum fruticans"
+      ],
+      "pt": [
+        "Chrysojasminum fruticans"
+      ],
+      "ru": [
+        "Chrysojasminum fruticans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -496,12 +664,12 @@
     "family": "Oleaceae",
     "genus": "Chrysojasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/5128906b35bd568bdbe48dbf8c4b0326.jpg",
-    "description": "Glossy black berries.",
+    "description": "Chrysojasminum humile, the Italian jasmine or yellow jasmine, is a species of flowering plant in the family Oleaceae, native to Afghanistan, Tajikistan, Pakistan, Nepal, Burma (Myanmar), the Himalayas and south west China. The species is widely cultivated and reportedly naturalized in Greece, Sicily and the former Yugoslavia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -583,9 +751,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chrysojasminum humile"
+      ],
+      "en": [
+        "Chrysojasminum humile"
+      ],
+      "es": [
+        "Chrysojasminum humile"
+      ],
+      "fr": [
+        "Chrysojasminum humile"
+      ],
+      "it": [
+        "Chrysojasminum humile"
+      ],
+      "nl": [
+        "Chrysojasminum humile"
+      ],
+      "pl": [
+        "Chrysojasminum humile"
+      ],
+      "pt": [
+        "Chrysojasminum humile"
+      ],
+      "ru": [
+        "Chrysojasminum humile"
+      ],
+      "zh": [
+        "矮探春"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -595,12 +796,12 @@
     "family": "Oleaceae",
     "genus": "Forestiera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d2fe42e791dd4ef2b500a818dcb8634833696a89",
-    "description": null,
+    "description": "Forestiera acuminata, commonly known as eastern swamp privet, is a deciduous shrub or small tree that is native to the southeastern and central United States, growing primarily in or near wetlands. It is especially common along the Mississippi Valley as far north as Illinois and Indiana, but found also across the South from eastern Texas to South Carolina. It grows in swamp forests as well as rocky edges of streams and ponds.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -677,11 +878,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Forestiera acuminata"
+      ],
       "en": [
+        "Forestiera acuminata",
         "Swamp-privet"
+      ],
+      "es": [
+        "Forestiera acuminata"
+      ],
+      "fr": [
+        "Forestiera acuminata"
+      ],
+      "it": [
+        "Forestiera acuminata"
+      ],
+      "nl": [
+        "Forestiera acuminata"
+      ],
+      "pl": [
+        "Forestiera acuminata"
+      ],
+      "pt": [
+        "Forestiera acuminata"
+      ],
+      "ru": [
+        "Forestiera acuminata"
       ]
     },
     "tags": [],
@@ -693,12 +921,12 @@
     "family": "Oleaceae",
     "genus": "Forestiera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/430063adedeaa8dd901b7655a8560f361dae2e9c",
-    "description": null,
+    "description": "Forestiera pubescens, commonly known as stretchberry, desert olive, tanglewood, devil's elbow, elbow bush, spring goldenglow, spring herald, New Mexico privet, or Texas forsythia is a deciduous shrub or small tree native to the southwestern United States and northern Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -775,11 +1003,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Forestiera pubescens"
+      ],
       "en": [
+        "Forestiera pubescens",
         "Stretchberry"
+      ],
+      "es": [
+        "Forestiera pubescens"
+      ],
+      "fr": [
+        "Forestiera pubescens"
+      ],
+      "it": [
+        "Forestiera pubescens"
+      ],
+      "nl": [
+        "Forestiera pubescens"
+      ],
+      "pl": [
+        "Forestiera pubescens"
+      ],
+      "pt": [
+        "Forestiera pubescens"
+      ],
+      "ru": [
+        "Forestiera pubescens"
       ]
     },
     "tags": [],
@@ -791,12 +1046,12 @@
     "family": "Oleaceae",
     "genus": "Forestiera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Forestiera segregata is a species of flowering plant in the olive family known by the common names Florida privet, Florida swampprivet, and southern privet. It is native to the Bahamas, the Greater Antilles, including Puerto Rico and the Cayman Islands, the Lesser Antilles, including Anguilla, and Florida, Georgia, and South Carolina in the United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -873,9 +1128,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Forestiera segregata"
+      ],
+      "en": [
+        "Forestiera segregata"
+      ],
+      "es": [
+        "Forestiera segregata"
+      ],
+      "fr": [
+        "Forestiera segregata"
+      ],
+      "it": [
+        "Forestiera segregata"
+      ],
+      "nl": [
+        "Forestiera segregata"
+      ],
+      "pl": [
+        "Forestiera segregata"
+      ],
+      "pt": [
+        "Forestiera segregata"
+      ],
+      "ru": [
+        "Forestiera segregata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -885,12 +1170,12 @@
     "family": "Oleaceae",
     "genus": "Forsythia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c7c82e3ff4501c8ffff54630739722b721569088",
-    "description": "Two celled capsule with many winged seeds.",
+    "description": "Forsythia suspensa, commonly known as weeping forsythia or golden-bell, is a species of flowering plant in the family Oleaceae. It is native to China.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -901,7 +1186,7 @@
     "synonyms": "[\"Ligustrum suspensum\", \"Forsythia suspensa f. aureovariegata\", \"Forsythia suspensa f. atrocaulis\", \"Forsythia suspensa f. decipiens\", \"Forsythia suspensa f. pubescens\", \"Forsythia suspensa var. latifolia\", \"Forsythia suspensa f. pallida\", \"Forsythia fortunei\", \"Rangium suspensum\", \"Lilac perpensa\"]",
     "care": {
       "plant_id": "forsythia_suspensa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -967,11 +1252,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hänge-Forsythie"
+      ],
       "en": [
-        "Forsythia"
+        "Forsythia",
+        "Forsythia suspensa"
+      ],
+      "es": [
+        "Forsythia suspensa"
+      ],
+      "fr": [
+        "Forsythia suspensa"
+      ],
+      "it": [
+        "Forsythia suspensa"
+      ],
+      "ja": [
+        "レンギョウ"
+      ],
+      "nl": [
+        "Forsythia suspensa"
+      ],
+      "pl": [
+        "forsycja zwisła"
+      ],
+      "pt": [
+        "Forsythia suspensa"
+      ],
+      "ru": [
+        "Forsythia suspensa"
+      ],
+      "tr": [
+        "Forsythia suspensa"
+      ],
+      "zh": [
+        "连翘"
       ]
     },
     "tags": [],
@@ -983,12 +1304,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4ba47bc8879e9edd47d7a7607b6ae06c.jpg",
-    "description": null,
+    "description": "Fraxinus albicans, commonly called the Texas ash, is a species of tree in the olive family (Oleaceae). It is native to North America, where it is found from eastern Texas and southern Oklahoma in the United States, to the state of Durango in Mexico. Its natural habitat is in dry, rocky slopes, often over limestone.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1065,9 +1386,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Fraxinus albicans"
+      ],
+      "en": [
+        "Fraxinus albicans"
+      ],
+      "es": [
+        "Fraxinus albicans"
+      ],
+      "fr": [
+        "Fraxinus albicans"
+      ],
+      "it": [
+        "Fraxinus albicans"
+      ],
+      "nl": [
+        "Fraxinus albicans"
+      ],
+      "pl": [
+        "Fraxinus albicans"
+      ],
+      "pt": [
+        "Fraxinus albicans"
+      ],
+      "ru": [
+        "Fraxinus albicans"
+      ],
+      "tr": [
+        "Fraxinus albicans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1077,7 +1431,7 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1163,11 +1517,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران أمريكي"
+      ],
+      "de": [
+        "Weiß-Esche"
+      ],
       "en": [
-        "American ash"
+        "American ash",
+        "Fraxinus americana"
+      ],
+      "es": [
+        "Fraxinus americana"
+      ],
+      "fr": [
+        "frêne blanc"
+      ],
+      "it": [
+        "Fraxinus americana"
+      ],
+      "ja": [
+        "ホワイト・アッシュ"
+      ],
+      "ko": [
+        "미국물푸레"
+      ],
+      "nl": [
+        "Fraxinus americana"
+      ],
+      "pl": [
+        "Jesion amerykański"
+      ],
+      "pt": [
+        "Fraxinus americana"
+      ],
+      "ru": [
+        "Ясень американский"
+      ],
+      "tr": [
+        "Amerika dişbudağı"
+      ],
+      "zh": [
+        "北美白梣"
       ]
     },
     "tags": [],
@@ -1179,7 +1575,7 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1261,11 +1657,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران رفيع الأوراق"
+      ],
+      "de": [
+        "Schmalblättrige Esche"
+      ],
       "en": [
-        "Desert ash"
+        "Desert ash",
+        "Fraxinus angustifolia"
+      ],
+      "es": [
+        "Fraxinus angustifolia"
+      ],
+      "fr": [
+        "Fraxinus angustifolia"
+      ],
+      "it": [
+        "Fraxinus angustifolia"
+      ],
+      "ja": [
+        "ホソバトネリコ"
+      ],
+      "nl": [
+        "Smalbladige es"
+      ],
+      "pl": [
+        "Jesion wąskolistny"
+      ],
+      "pt": [
+        "freixo"
+      ],
+      "ru": [
+        "Fraxinus angustifolia"
+      ],
+      "tr": [
+        "Sivri meyveli dişbudak"
       ]
     },
     "tags": [],
@@ -1277,12 +1709,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/61bb443a65635d261d9edd4f7f96d681da2b1f8a",
-    "description": null,
+    "description": "Fraxinus anomala is a species of ash tree known by the common name single-leaf ash. It is native to the southwestern United States and northern Mexico, where it grows in a number of habitats including desert scrub and chaparral. It is unusual in the genus in that some specimens have simple leaves instead of the pinnate leaves more characteristic of the group.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1359,11 +1791,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران شاذ"
+      ],
+      "de": [
+        "Einblättrige Esche"
+      ],
       "en": [
+        "Fraxinus anomala",
         "Utah ash"
+      ],
+      "es": [
+        "Fraxinus anomala"
+      ],
+      "fr": [
+        "Fraxinus anomala"
+      ],
+      "it": [
+        "Fraxinus anomala"
+      ],
+      "nl": [
+        "Fraxinus anomala"
+      ],
+      "pl": [
+        "Fraxinus anomala"
+      ],
+      "pt": [
+        "Fraxinus anomala"
+      ],
+      "ru": [
+        "Fraxinus anomala"
       ]
     },
     "tags": [],
@@ -1375,12 +1837,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/751ab08a45902b6666cde8e78c4d3ebf6dea2e2a",
-    "description": "Flattened broad-wing samaras are 1 1/2 to 2 inches long and 1/2- 3/4 inches wide. The violet wings hang well below the seed portion and there can be 2 to 3 wings. Matures from July to October.",
+    "description": "Fraxinus caroliniana, the pop ash, Florida ash, swamp ash, Carolina ash, or water ash, is a species of ash tree native from Cuba through the subtropical Southeastern United States from southern Virginia to Texas. It was originally described by the botanist Philip Miller. It is a small tree about 40 ft. Leaves are compound, opposite, 7–12 in long, leaflets 5–7 in, ovate to oblong, coarsely serrate or entire, 3–6 in long, 2–3 in wide.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1457,11 +1919,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران كاروليني"
+      ],
+      "de": [
+        "Fraxinus caroliniana"
+      ],
       "en": [
-        "Florida ash"
+        "Florida ash",
+        "Fraxinus caroliniana"
+      ],
+      "es": [
+        "Fraxinus caroliniana"
+      ],
+      "fr": [
+        "Fraxinus caroliniana"
+      ],
+      "it": [
+        "Fraxinus caroliniana"
+      ],
+      "nl": [
+        "Fraxinus caroliniana"
+      ],
+      "pl": [
+        "Fraxinus caroliniana"
+      ],
+      "pt": [
+        "Fraxinus caroliniana"
+      ],
+      "ru": [
+        "Fraxinus caroliniana"
+      ],
+      "tr": [
+        "Fraxinus caroliniana"
       ]
     },
     "tags": [],
@@ -1473,12 +1968,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/561b55d7de8fffc52fa0b7d1c82aa040152ac274",
-    "description": null,
+    "description": "Fraxinus chinensis, the Chinese ash, is a species of ash tree. Its leaves are used in traditional Chinese medicine for dysentery disorders, and it can be used as cultivator of the white scale insects for candle making.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1555,11 +2050,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Fraxinus chinensis"
+      ],
       "en": [
-        "Chinese ash"
+        "Chinese ash",
+        "Fraxinus chinensis"
+      ],
+      "es": [
+        "Fraxinus chinensis"
+      ],
+      "fr": [
+        "Fraxinus chinensis"
+      ],
+      "it": [
+        "Fraxinus chinensis"
+      ],
+      "ja": [
+        "コウリョウトネリコ"
+      ],
+      "nl": [
+        "Fraxinus chinensis"
+      ],
+      "pl": [
+        "Fraxinus chinensis"
+      ],
+      "pt": [
+        "Fraxinus chinensis"
+      ],
+      "ru": [
+        "Ясень китайский"
+      ],
+      "tr": [
+        "Fraxinus chinensis"
+      ],
+      "zh": [
+        "白蜡树"
       ]
     },
     "tags": [],
@@ -1571,12 +2102,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0e9e8dc170520912b0df15ccf5662cb4a2d95d3b",
-    "description": null,
+    "description": "Fraxinus dipetala, the California ash or two-petal ash, is a species of ash native to southwestern North America in the United States in northwestern Arizona, California, southern Nevada, and Utah, and in Mexico in northern Baja California. It grows at altitudes of 100–1,300 m.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1653,11 +2184,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Fraxinus dipetala"
+      ],
       "en": [
-        "California ash"
+        "California ash",
+        "Fraxinus dipetala"
+      ],
+      "es": [
+        "Fraxinus dipetala"
+      ],
+      "fr": [
+        "Fraxinus dipetala"
+      ],
+      "it": [
+        "Fraxinus dipetala"
+      ],
+      "nl": [
+        "Fraxinus dipetala"
+      ],
+      "pl": [
+        "Fraxinus dipetala"
+      ],
+      "pt": [
+        "Fraxinus dipetala"
+      ],
+      "ru": [
+        "Fraxinus dipetala"
+      ],
+      "tr": [
+        "Fraxinus dipetala"
       ]
     },
     "tags": [],
@@ -1669,7 +2230,7 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1685,7 +2246,7 @@
     "synonyms": "[\"Fraxinus excelsior var. communis\"]",
     "care": {
       "plant_id": "fraxinus_excelsior",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1716,9 +2277,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": null,
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic (unknown strength). Animal: toxic. Parts: Fruit, leaf (or whole fruit). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1736,8 +2297,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, leaf (or whole fruit)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1751,11 +2312,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران عالي"
+      ],
+      "de": [
+        "Gemeine Esche"
+      ],
       "en": [
-        "European ash"
+        "European ash",
+        "Fraxinus excelsior"
+      ],
+      "es": [
+        "Fraxinus excelsior"
+      ],
+      "fr": [
+        "Frêne élevé"
+      ],
+      "it": [
+        "Fraxinus excelsior"
+      ],
+      "ja": [
+        "セイヨウトネリコ"
+      ],
+      "ko": [
+        "구주물푸레나무"
+      ],
+      "nl": [
+        "es"
+      ],
+      "pl": [
+        "jesion wyniosły"
+      ],
+      "pt": [
+        "Freixo-europeu"
+      ],
+      "ru": [
+        "ясень обыкновенный"
+      ],
+      "tr": [
+        "Adi dişbudak"
+      ],
+      "zh": [
+        "欧洲白蜡树"
       ]
     },
     "tags": [],
@@ -1767,12 +2370,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Fraxinus lanuginosa is a species of ash native to Japan and to the Primorye region of eastern Russia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1849,9 +2452,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مران شعيري"
+      ],
+      "de": [
+        "Wollflaumige Esche"
+      ],
+      "en": [
+        "Fraxinus lanuginosa"
+      ],
+      "es": [
+        "Fraxinus lanuginosa"
+      ],
+      "fr": [
+        "Fraxinus lanuginosa"
+      ],
+      "it": [
+        "Fraxinus lanuginosa"
+      ],
+      "ja": [
+        "アオダモ"
+      ],
+      "nl": [
+        "Fraxinus lanuginosa"
+      ],
+      "pl": [
+        "Fraxinus lanuginosa"
+      ],
+      "pt": [
+        "Fraxinus lanuginosa"
+      ],
+      "ru": [
+        "Ясень шерстистый"
+      ],
+      "tr": [
+        "Fraxinus lanuginosa"
+      ],
+      "zh": [
+        "棉毛梣"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1861,7 +2506,7 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1949,11 +2594,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران عريض الأوراق"
+      ],
+      "de": [
+        "Oregon-Esche"
+      ],
       "en": [
+        "Fraxinus latifolia",
         "Oregon ash"
+      ],
+      "es": [
+        "Fraxinus latifolia"
+      ],
+      "fr": [
+        "Frêne de l'Oregon"
+      ],
+      "it": [
+        "Fraxinus latifolia"
+      ],
+      "ja": [
+        "オレゴンアッシュ"
+      ],
+      "nl": [
+        "Fraxinus latifolia"
+      ],
+      "pl": [
+        "Fraxinus latifolia"
+      ],
+      "pt": [
+        "Fraxinus latifolia"
+      ],
+      "ru": [
+        "Fraxinus latifolia"
+      ],
+      "zh": [
+        "俄勒岡梣樹"
       ]
     },
     "tags": [],
@@ -1965,12 +2646,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/83f4cf251bcb4684bd188f84b521d572.jpg",
-    "description": null,
+    "description": "Fraxinus longicuspis, the taper-tip ash or Japanese ash, is a species of flowering plant in the family Oleaceae, native to the mountains of central and southern Japan. A deciduous tree, it is hardy to USDA zone 5. It is used as a street tree in a few cities around the world.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2047,9 +2728,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Langspitzige Esche"
+      ],
+      "en": [
+        "Fraxinus longicuspis"
+      ],
+      "es": [
+        "Fraxinus longicuspis"
+      ],
+      "fr": [
+        "Fraxinus longicuspis"
+      ],
+      "it": [
+        "Fraxinus longicuspis"
+      ],
+      "nl": [
+        "Fraxinus longicuspis"
+      ],
+      "pl": [
+        "Fraxinus longicuspis"
+      ],
+      "pt": [
+        "Fraxinus longicuspis"
+      ],
+      "ru": [
+        "Fraxinus longicuspis"
+      ],
+      "tr": [
+        "Fraxinus longicuspis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2059,12 +2773,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/36d85029c437456846e08a9bc3d91a5f12478bd6",
-    "description": null,
+    "description": "Fraxinus mandshurica, or the Manchurian ash, is a species of Fraxinus native to northeastern Asia in northern China, Korea, Japan and southeastern Russia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2141,11 +2855,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران منشوري"
+      ],
+      "de": [
+        "Mandschurische Esche"
+      ],
       "en": [
+        "Fraxinus mandschurica",
         "Manchurian ash"
+      ],
+      "es": [
+        "Fraxinus mandshurica"
+      ],
+      "fr": [
+        "Fraxinus mandshurica"
+      ],
+      "it": [
+        "Fraxinus mandshurica"
+      ],
+      "ja": [
+        "ヤチダモ"
+      ],
+      "ko": [
+        "들메나무"
+      ],
+      "nl": [
+        "Fraxinus mandshurica"
+      ],
+      "pl": [
+        "Fraxinus mandshurica"
+      ],
+      "pt": [
+        "Fraxinus mandshurica"
+      ],
+      "ru": [
+        "Ясень маньчжурский"
+      ],
+      "tr": [
+        "Fraxinus mandshurica"
+      ],
+      "zh": [
+        "水曲柳"
       ]
     },
     "tags": [],
@@ -2157,12 +2913,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5cee8a06ee37db9dcc3fcd39602f1c6821ec764f",
-    "description": "Fruit is a samara with one wing and 1 seed dispursed by the wind.",
+    "description": "Fraxinus nigra, or the black ash, is a species of ash native to much of eastern Canada and the northeastern United States, from western Newfoundland west to southeastern Manitoba, and south to Illinois and northern Virginia. Formerly abundant, as of 2017 the species is threatened with near total extirpation throughout its range within the next century as a result of infestation by an invasive parasitic insect known as the emerald ash borer.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2239,11 +2995,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران أسود"
+      ],
+      "de": [
+        "Schwarz-Esche"
+      ],
       "en": [
+        "Fraxinus nigra",
         "Water ash"
+      ],
+      "es": [
+        "Fraxinus nigra"
+      ],
+      "fr": [
+        "Frêne noir"
+      ],
+      "it": [
+        "Fraxinus nigra"
+      ],
+      "ja": [
+        "ニグラトネリコ"
+      ],
+      "nl": [
+        "Fraxinus nigra"
+      ],
+      "pl": [
+        "Fraxinus nigra"
+      ],
+      "pt": [
+        "Fraxinus nigra"
+      ],
+      "ru": [
+        "Fraxinus nigra"
+      ],
+      "tr": [
+        "Fraxinus nigra"
+      ],
+      "zh": [
+        "黑梣"
       ]
     },
     "tags": [],
@@ -2255,7 +3050,7 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2271,7 +3066,7 @@
     "synonyms": "[\"Ornus ornus\", \"Fraxinus montana\", \"Ornus europaea\"]",
     "care": {
       "plant_id": "fraxinus_ornus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2337,11 +3132,46 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران رمادي"
+      ],
+      "de": [
+        "Manna-Esche"
+      ],
       "en": [
         "Manna"
+      ],
+      "hi": [
+        "फ्रेक्सिनस ऑर्नस"
+      ],
+      "it": [
+        "Fraxinus ornus"
+      ],
+      "ja": [
+        "マンナ樹"
+      ],
+      "nl": [
+        "Pluimes"
+      ],
+      "pl": [
+        "jesion mannowy"
+      ],
+      "pt": [
+        "Fraxinus ornus"
+      ],
+      "ru": [
+        "Ясень манновый"
+      ],
+      "tr": [
+        "Çiçekli dişbudak"
+      ],
+      "zh": [
+        "花梣"
       ]
     },
     "tags": [],
@@ -2353,7 +3183,7 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2443,11 +3273,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران بنسلفاني"
+      ],
+      "de": [
+        "Rot-Esche"
+      ],
       "en": [
+        "Fraxinus pennsylvanica",
         "Green ash"
+      ],
+      "es": [
+        "Fraxinus pennsylvanica"
+      ],
+      "fr": [
+        "Fraxinus pennsylvanica"
+      ],
+      "it": [
+        "Fraxinus pennsylvanica"
+      ],
+      "ja": [
+        "ビロードトネリコ"
+      ],
+      "ko": [
+        "붉은물푸레"
+      ],
+      "nl": [
+        "Fraxinus pennsylvanica"
+      ],
+      "pl": [
+        "jesion pensylwański"
+      ],
+      "pt": [
+        "Fraxinus pennsylvanica"
+      ],
+      "ru": [
+        "Ясень пенсильванский"
+      ],
+      "tr": [
+        "Yeşil dişbudak"
+      ],
+      "zh": [
+        "美国红梣"
       ]
     },
     "tags": [],
@@ -2459,7 +3331,7 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2541,11 +3413,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Fraxinus profunda"
+      ],
       "en": [
+        "Fraxinus profunda",
         "Pumpkin ash"
+      ],
+      "es": [
+        "Fraxinus profunda"
+      ],
+      "fr": [
+        "Fraxinus profunda"
+      ],
+      "it": [
+        "Fraxinus profunda"
+      ],
+      "nl": [
+        "Fraxinus profunda"
+      ],
+      "pl": [
+        "Fraxinus profunda"
+      ],
+      "pt": [
+        "Fraxinus profunda"
+      ],
+      "ru": [
+        "Fraxinus profunda"
       ]
     },
     "tags": [],
@@ -2557,12 +3456,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/15e5a13fc239480e933137532278962b262c40f8",
-    "description": "Winged samaras in clusters. Individuals are 1–1½  long, ¼–½  across",
+    "description": "Fraxinus quadrangulata, the blue ash, is a species of ash native primarily to the Midwestern United States from Oklahoma to Michigan, as well as the Bluegrass region of Kentucky and the Nashville Basin region of Tennessee. Isolated populations exist in Alabama, Southern Ontario, and small sections of the Appalachian Mountains. It is typically found over calcareous substrates such as limestone, growing on limestone slopes and in moist valley soils, at elevations of 120–600 m (390–1,970 ft).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2645,11 +3544,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران رباعي الأضلاع"
+      ],
+      "de": [
+        "Blau-Esche"
+      ],
       "en": [
-        "Blue ash"
+        "Blue ash",
+        "Fraxinus quadrangulata"
+      ],
+      "es": [
+        "Fraxinus quadrangulata"
+      ],
+      "fr": [
+        "Fraxinus quadrangulata"
+      ],
+      "it": [
+        "Fraxinus quadrangulata"
+      ],
+      "ja": [
+        "ブルー・アッシュ"
+      ],
+      "nl": [
+        "Fraxinus quadrangulata"
+      ],
+      "pl": [
+        "Fraxinus quadrangulata"
+      ],
+      "pt": [
+        "Fraxinus quadrangulata"
+      ],
+      "ru": [
+        "Fraxinus quadrangulata"
+      ],
+      "tr": [
+        "Fraxinus quadrangulata"
       ]
     },
     "tags": [],
@@ -2661,12 +3596,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b58c99056e9cdbfe0e7fcc10e259d943ea8f2d94",
-    "description": null,
+    "description": "Fraxinus sieboldiana, the Chinese flowering ash or Japanese flowering ash, is a species of flowering plant in the family Oleaceae. It is native to southeastern China, the Korean peninsula, and Japan. It grows on wooded slopes and by streams. It is hardy to USDA zone 6. A variegated cultivar, 'Rising Sun', is available.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2743,11 +3678,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Siebolds Blumen-Esche"
+      ],
       "en": [
-        "Chinese flowering ash"
+        "Chinese flowering ash",
+        "Fraxinus sieboldiana"
+      ],
+      "es": [
+        "Fraxinus sieboldiana"
+      ],
+      "fr": [
+        "Fraxinus sieboldiana"
+      ],
+      "it": [
+        "Fraxinus sieboldiana"
+      ],
+      "ja": [
+        "マルバアオダモ"
+      ],
+      "ko": [
+        "쇠물푸레"
+      ],
+      "nl": [
+        "Fraxinus sieboldiana"
+      ],
+      "pl": [
+        "Fraxinus sieboldiana"
+      ],
+      "pt": [
+        "Fraxinus sieboldiana"
+      ],
+      "ru": [
+        "Fraxinus sieboldiana"
+      ],
+      "zh": [
+        "庐山梣"
       ]
     },
     "tags": [],
@@ -2759,12 +3730,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/42e8d18c8c2c9f325c4fb2ae4f395952c3fb2e15",
-    "description": null,
+    "description": "Fraxinus uhdei, commonly known as tropical ash or Shamel ash, is a species of tree native to Mexico and Central America. It is commonly planted as a street tree in Mexico and the southwestern United States. It has also been planted and spread from cultivation in Hawaii, where it is now considered an invasive species.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2841,11 +3812,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران شامل"
+      ],
+      "de": [
+        "Fraxinus uhdei"
+      ],
       "en": [
+        "Fraxinus uhdei",
         "Shamel ash"
+      ],
+      "es": [
+        "Fraxinus uhdei"
+      ],
+      "fr": [
+        "Fraxinus uhdei"
+      ],
+      "it": [
+        "Fraxinus uhdei"
+      ],
+      "nl": [
+        "Fraxinus uhdei"
+      ],
+      "pl": [
+        "Fraxinus uhdei"
+      ],
+      "pt": [
+        "Fraxinus uhdei"
+      ],
+      "ru": [
+        "Fraxinus uhdei"
+      ],
+      "tr": [
+        "Fraxinus uhdei"
       ]
     },
     "tags": [],
@@ -2857,12 +3861,12 @@
     "family": "Oleaceae",
     "genus": "Fraxinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/641d4631d4c1d3138b13f828c7efed1648b39dd7",
-    "description": null,
+    "description": "Fraxinus velutina, the velvet ash, Arizona ash or Modesto ash, is a species of Fraxinus native to southwestern North America, in the United States from southern California east to Texas, and in Mexico from northern Baja California east to Coahuila and Nuevo León.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2939,11 +3943,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مران مخملي"
+      ],
+      "de": [
+        "Arizona-Esche"
+      ],
       "en": [
-        "Arizon ash"
+        "Arizon ash",
+        "Fraxinus velutina"
+      ],
+      "es": [
+        "Fraxinus velutina"
+      ],
+      "fr": [
+        "Fraxinus velutina"
+      ],
+      "it": [
+        "Fraxinus velutina"
+      ],
+      "ja": [
+        "絨毛白蝋"
+      ],
+      "nl": [
+        "Fraxinus velutina"
+      ],
+      "pl": [
+        "Jesion aksamitny"
+      ],
+      "pt": [
+        "Fraxinus velutina"
+      ],
+      "ru": [
+        "Fraxinus velutina"
+      ],
+      "tr": [
+        "Fraxinus velutina"
+      ],
+      "zh": [
+        "绒毛白蜡"
       ]
     },
     "tags": [],
@@ -2955,12 +3998,12 @@
     "family": "Oleaceae",
     "genus": "Jasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6b59306b0bb00636273477897ebf2fed.jpg",
-    "description": null,
+    "description": "Jasminum didymum is a species of scrambling vine or low shrub. It is native to insular Southeast Asia from Java to the Philippines, as well as Australia, as well as some islands in the Pacific. Jasminum didymum occurs naturally in habitats from rainforests to arid and semi-arid shrublands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2971,17 +4014,17 @@
     "synonyms": "[\"Jasminum didymum var. typicum\"]",
     "care": {
       "plant_id": "jasminum_didymum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3037,9 +4080,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Jasminum didymum"
+      ],
+      "en": [
+        "Jasminum didymum"
+      ],
+      "es": [
+        "Jasminum didymum"
+      ],
+      "fr": [
+        "Jasminum didymum"
+      ],
+      "it": [
+        "Jasminum didymum"
+      ],
+      "nl": [
+        "Jasminum didymum"
+      ],
+      "pl": [
+        "Jasminum didymum"
+      ],
+      "pt": [
+        "Jasminum didymum"
+      ],
+      "ru": [
+        "Jasminum didymum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3049,12 +4122,12 @@
     "family": "Oleaceae",
     "genus": "Jasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/daea22830b32f3896e756db96448feaeb61cf30a",
-    "description": null,
+    "description": "Jasminum elongatum is a species of flowering plant in the family Oleaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3065,7 +4138,7 @@
     "synonyms": "[\"Jasminum multiflorum f. subelongatum\", \"Jasminum aemulum var. brassii\", \"Jasminum coarctatum var. caudatifolium\", \"Jasminum aemulum var. glaberrimum\", \"Jasminum aemulum\", \"Jasminum glabrum\", \"Jasminum bifarium\", \"Jasminum mixtinervium\", \"Jasminum ligustrioides\", \"Jasminum amplexicaule\"]",
     "care": {
       "plant_id": "jasminum_elongatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3131,9 +4204,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Jasminum elongatum"
+      ],
+      "en": [
+        "Jasminum elongatum"
+      ],
+      "es": [
+        "Jasminum elongatum"
+      ],
+      "fr": [
+        "Jasminum elongatum"
+      ],
+      "it": [
+        "Jasminum elongatum"
+      ],
+      "nl": [
+        "Jasminum elongatum"
+      ],
+      "pl": [
+        "Jasminum elongatum"
+      ],
+      "pt": [
+        "Jasminum elongatum"
+      ],
+      "ru": [
+        "Jasminum elongatum"
+      ],
+      "tr": [
+        "Jasminum elongatum"
+      ],
+      "zh": [
+        "扭肚藤"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3143,12 +4252,12 @@
     "family": "Oleaceae",
     "genus": "Jasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7786d5708200a3388e6f9d9ccc9d6af3caa50041",
-    "description": null,
+    "description": "Jasminum fluminense is a species of vine plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3159,7 +4268,7 @@
     "synonyms": "[\"Jasminum bahiense var. fluminense\", \"Jasminum azoricum var. fluminense\"]",
     "care": {
       "plant_id": "jasminum_fluminense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3225,11 +4334,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Jasminum fluminense"
+      ],
       "en": [
+        "Jasminum fluminense",
         "Jazmin de trapo"
+      ],
+      "es": [
+        "Jasminum fluminense"
+      ],
+      "fr": [
+        "Jasminum fluminense"
+      ],
+      "it": [
+        "Jasminum fluminense"
+      ],
+      "nl": [
+        "Jasminum fluminense"
+      ],
+      "pl": [
+        "Jasminum fluminense"
+      ],
+      "pt": [
+        "Jasminum fluminense"
+      ],
+      "ru": [
+        "Jasminum fluminense"
+      ],
+      "tr": [
+        "Jasminum fluminense"
       ]
     },
     "tags": [],
@@ -3241,7 +4380,7 @@
     "family": "Oleaceae",
     "genus": "Jasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3257,7 +4396,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "jasminum_lanceolaria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3323,7 +4462,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {},
     "tags": [],
@@ -3335,7 +4476,7 @@
     "family": "Oleaceae",
     "genus": "Jasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3351,7 +4492,7 @@
     "synonyms": "[\"Jasminum simplicifolium var. molle\", \"Jasminum acuminatum\"]",
     "care": {
       "plant_id": "jasminum_molle",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3417,9 +4558,15 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "en": [
+        "Jasminum molle"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3429,12 +4576,12 @@
     "family": "Oleaceae",
     "genus": "Jasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f5a4eeb2280cec188976e6fbcd1c80b4.jpg",
-    "description": null,
+    "description": "Jasminum nervosum is a species of flowering plant in the family Oleaceae. The leaves of this jasmine are used as a medicinal drink in Vietnam.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3445,7 +4592,7 @@
     "synonyms": "[\"Jasminum anastomosans var. silhetense\", \"Jasminum lindleyanum\", \"Jasminum hemsleyi\", \"Jasminum subtriplinerve var. parvifolium\", \"Jasminum stenopetalum\", \"Jasminum silhetense\", \"Jasminum smalianum\", \"Jasminum finlaysonianum\", \"Jasminum elegans\", \"Jasminum trinerve\"]",
     "care": {
       "plant_id": "jasminum_nervosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3511,9 +4658,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "عصب فرعي ياسمين"
+      ],
+      "de": [
+        "Jasminum nervosum"
+      ],
+      "en": [
+        "Jasminum nervosum"
+      ],
+      "es": [
+        "Jasminum nervosum"
+      ],
+      "fr": [
+        "Jasminum nervosum"
+      ],
+      "it": [
+        "Jasminum nervosum"
+      ],
+      "nl": [
+        "Jasminum subtriplinerve"
+      ],
+      "pl": [
+        "Jasminum nervosum"
+      ],
+      "pt": [
+        "Jasminum nervosum"
+      ],
+      "ru": [
+        "Jasminum nervosum"
+      ],
+      "zh": [
+        "青藤仔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3523,12 +4706,12 @@
     "family": "Oleaceae",
     "genus": "Jasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a5becdf46dbf09e8453c51c2f528ae39719a2e59",
-    "description": "The fruit is rarely produced in cultivation. If seen, it will appear as a black, two-lobed berry.",
+    "description": "Jasminum nudiflorum, the winter jasmine, is a slender, deciduous shrub native to China. The flower's blossoming peaks right after winter, which is why it is also named Yingchun (迎春) in Chinese, which means \"the flower that welcomes Spring\". It is widely cultivated as an ornamental and is reportedly naturalized in France and in scattered locations in the United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3539,17 +4722,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "jasminum_nudiflorum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3605,11 +4788,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "ياسمين عاري الأزهار"
+      ],
+      "de": [
+        "Winter-Jasmin"
+      ],
       "en": [
+        "Jasminum nudiflorum",
         "Winter jasmine"
+      ],
+      "es": [
+        "Jasminum nudiflorum"
+      ],
+      "fr": [
+        "Jasmin d'hiver"
+      ],
+      "it": [
+        "Jasminum nudiflorum"
+      ],
+      "ja": [
+        "オウバイ"
+      ],
+      "ko": [
+        "영춘화"
+      ],
+      "nl": [
+        "Winterjasmijn"
+      ],
+      "pl": [
+        "Jasminum nudiflorum"
+      ],
+      "pt": [
+        "Jasminum nudiflorum"
+      ],
+      "ru": [
+        "Жасмин голоцветковый"
+      ],
+      "tr": [
+        "Jasminum nudiflorum"
+      ],
+      "zh": [
+        "迎春花"
       ]
     },
     "tags": [],
@@ -3621,12 +4846,12 @@
     "family": "Oleaceae",
     "genus": "Jasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/425a5eda38e7f788502f555c196ed42a142c2d09",
-    "description": "Fruit is rarely seen.",
+    "description": "Jasminum officinale, known as the common jasmine or simply jasmine, is a species of flowering plant in the olive family Oleaceae. It is native to the Caucasus and parts of Asia, also widely naturalized.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3637,7 +4862,7 @@
     "synonyms": "[\"Jasminum viminale\", \"Jasminum officinale var. piliferum\", \"Jasminum officinale var. tenuifolium\", \"Jasminum officinale var. bosphoricum\", \"Jasminum officinale var. pumilum\", \"Jasminum ochroleucum\", \"Jasminum officinale var. aureum\", \"Jasminum affine\", \"Jasminum officinale var. tibeticum\", \"Jasminum officinale var. acutum\"]",
     "care": {
       "plant_id": "jasminum_officinale",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3703,11 +4928,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ياسمين شامي"
+      ],
+      "de": [
+        "Echter Jasmin"
+      ],
       "en": [
-        "Common jasmine"
+        "Common jasmine",
+        "Jasminum officinale"
+      ],
+      "es": [
+        "Jasminum officinale"
+      ],
+      "fr": [
+        "Jasminum officinale"
+      ],
+      "it": [
+        "Jasminum officinale"
+      ],
+      "ko": [
+        "자스미눔 오피시날레"
+      ],
+      "nl": [
+        "Jasminum officinale"
+      ],
+      "pl": [
+        "Jaśmin lekarski"
+      ],
+      "pt": [
+        "Jasminum officinale"
+      ],
+      "ru": [
+        "Жасмин белый"
+      ],
+      "tr": [
+        "Hakiki yasemin"
+      ],
+      "zh": [
+        "素方花"
       ]
     },
     "tags": [],
@@ -3724,7 +4988,7 @@
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://res.cloudinary.com/dmvvh57hg/image/upload/plants/jasminum_sambac/inat_1.jpg",
-    "description": null,
+    "description": "Jasminum sambac is a species of jasmine native to Bhutan and India. It is cultivated in many places, especially West Asia, South Asia and Southeast Asia. It is naturalised in many scattered locales: Mauritius, Madagascar, the Maldives, Christmas Island, Chiapas, Central America, southern Florida, the Bahamas, Cuba, Hispaniola, Jamaica, Puerto Rico, and the Lesser Antilles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3735,7 +4999,7 @@
     "synonyms": "[\"Jasminum undulatum\", \"Jasminum blancoi\", \"Nyctanthes undulata\", \"Jasminum quinqueflorum var. pubescens\", \"Jasminum sambac var. trifoliatum\", \"Jasminum sambac var. verum\", \"Jasminum sambac var. normale\", \"Jasminum sambac var. nemocalyx\", \"Mogorium gimea\", \"Jasminum quadrifolium\"]",
     "care": {
       "plant_id": "jasminum_sambac",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3771,7 +5035,7 @@
       "toxicity_note": null,
       "common_problems": null,
       "common_pests": null,
-      "watering_method": null,
+      "watering_method": "Top layer should be dry",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -3801,11 +5065,68 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "الراسقي",
+        "فل",
+        "فل عربي"
+      ],
+      "de": [
+        "Arabischer Jasmin"
+      ],
       "en": [
-        "Arabian jasmine"
+        "Arabian jasmine",
+        "Jasminium Sambac (flower)",
+        "mogra",
+        "sampaguita"
+      ],
+      "es": [
+        "Jazmín"
+      ],
+      "fr": [
+        "Jasmin d'Arabie"
+      ],
+      "hi": [
+        "मोगरा",
+        "वनमल्लिका"
+      ],
+      "it": [
+        "Gelsomino d'Arabia"
+      ],
+      "ja": [
+        "ピカケ",
+        "マツリカ",
+        "ムラティ",
+        "茉莉花"
+      ],
+      "ko": [
+        "말리화"
+      ],
+      "nl": [
+        "Arabische jasmijn",
+        "Melati"
+      ],
+      "pl": [
+        "dzielżamin wielkolistny",
+        "jaśmin wielkolistny",
+        "jaśminek wielkolistny"
+      ],
+      "pt": [
+        "Jasmim-árabe"
+      ],
+      "ru": [
+        "Жасмин арабский",
+        "Жасмин индийский",
+        "Жасмин самбак"
+      ],
+      "zh": [
+        "茉莉",
+        "茉莉花",
+        "雙瓣茉莉"
       ]
     },
     "tags": [],
@@ -3817,7 +5138,7 @@
     "family": "Oleaceae",
     "genus": "Jasminum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3833,17 +5154,17 @@
     "synonyms": "[\"Jasminum australe\"]",
     "care": {
       "plant_id": "jasminum_simplicifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3899,11 +5220,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "ياسمين بسيط الأوراق"
+      ],
+      "de": [
+        "Jasminum simplicifolium"
+      ],
       "en": [
-        "Jasmine"
+        "Jasmine",
+        "Jasminum simplicifolium"
+      ],
+      "es": [
+        "Jasminum simplicifolium"
+      ],
+      "fr": [
+        "Jasminum simplicifolium"
+      ],
+      "it": [
+        "Jasminum simplicifolium"
+      ],
+      "nl": [
+        "Jasminum simplicifolium"
+      ],
+      "pl": [
+        "Jasminum simplicifolium"
+      ],
+      "pt": [
+        "Jasminum simplicifolium"
+      ],
+      "ru": [
+        "Jasminum simplicifolium"
       ]
     },
     "tags": [],
@@ -3915,12 +5266,12 @@
     "family": "Oleaceae",
     "genus": "Ligustrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/507ae288477272644208b872d2886b5c358bf5ed",
-    "description": "Fruits are flat, berry-like drupes that are 0.2 inches long and start green and ripen to blue-black.",
+    "description": "Ligustrum japonicum, known as wax-leaf privet or Japanese privet is a species of Ligustrum (privet) native to central and southern Japan and Korea. It is widely cultivated in other regions, and is naturalized in California and in the southeastern United States from Texas to Virginia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3936,12 +5287,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4005,11 +5356,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "تمرحنة يابانية"
+      ],
+      "de": [
+        "Japanischer Liguster",
+        "Ligustrum coriaceum"
+      ],
       "en": [
-        "Japanese privet"
+        "Curlyleaf ligustrum",
+        "Japanese liguster",
+        "Japanese privet",
+        "L. japonicum",
+        "Wax-leaf privet"
+      ],
+      "fr": [
+        "Troène du Japon",
+        "Troène du Texas",
+        "Troène japonais"
+      ],
+      "ja": [
+        "タマツバキ",
+        "ネズミモチ",
+        "鼠黐"
+      ],
+      "ko": [
+        "광나무"
+      ],
+      "tr": [
+        "Japon kurtbağrı"
+      ],
+      "zh": [
+        "日本女贞",
+        "日本毛女贞",
+        "苦茶叶"
       ]
     },
     "tags": [],
@@ -4021,12 +5406,12 @@
     "family": "Oleaceae",
     "genus": "Ligustrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f00f4cbc71bd80edd35f78c7684d1282a9556763",
-    "description": "Fruits are 1/4-inch, semi-fleshy, olive-like drupes that are blue-black. They persist into winter.",
+    "description": "Ligustrum lucidum, the broad-leaf privet, Chinese privet, glossy privet, tree privet or wax-leaf privet, is a species of flowering plant in the olive family Oleaceae, native to the southern half of China and naturalized in many places. The name \"Chinese privet\" is also used for Ligustrum sinense.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4042,12 +5427,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4113,11 +5498,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "ليغستروم",
+        "ليغوستروم لوسيدوم",
+        "وثاقية المعة",
+        "وثاقية لامعة"
+      ],
+      "de": [
+        "Glänzender Liguster"
+      ],
       "en": [
         "Chinese privet"
+      ],
+      "ja": [
+        "トウネズミモチ"
+      ],
+      "pl": [
+        "Ligustr lśniący"
+      ],
+      "pt": [
+        "Ligustro"
+      ],
+      "zh": [
+        "大叶女贞",
+        "大叶蜡树",
+        "女貞",
+        "女贞子",
+        "尖叶女贞",
+        "白蜡树",
+        "虫白蜡",
+        "蜡树",
+        "青蜡树"
       ]
     },
     "tags": [],
@@ -4129,12 +5545,12 @@
     "family": "Oleaceae",
     "genus": "Ligustrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/705ba36d3ff66586f08e98441db527854d345408",
-    "description": null,
+    "description": "Ligustrum obtusifolium is a species of privet, native to Japan, Korea and northeastern China. The species is considered invasive in parts of the United States. It has become very common in southern New England, the mid-Atlantic States, and the Great Lakes regions, with scattered occurrences in the South, the Great Plains, and Washington state. With Ligustrum ovalifolium it is a parent of the widespread hybrid Ligustrum × ibolium.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4150,12 +5566,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4211,11 +5627,32 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Stumpfblättriger Liguster"
+      ],
       "en": [
         "Border privet"
+      ],
+      "ja": [
+        "イボタノキ"
+      ],
+      "ko": [
+        "검정알나무",
+        "쥐똥나무"
+      ],
+      "ru": [
+        "Бирючина туполистная"
+      ],
+      "zh": [
+        "水腊树",
+        "水蜡",
+        "水蜡树",
+        "辽东水蜡树"
       ]
     },
     "tags": [],
@@ -4227,7 +5664,7 @@
     "family": "Oleaceae",
     "genus": "Ligustrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4248,12 +5685,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4309,11 +5746,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "تمرحنة بيضاوية الأوراق"
+      ],
+      "de": [
+        "Breitblatt-Liguster",
+        "Goldliguster",
+        "Ligustrum ovalifolium Aureum",
+        "Ovalblättriger Liguster"
+      ],
       "en": [
-        "California privet"
+        "California privet",
+        "Ligustrum ovalifolium"
+      ],
+      "es": [
+        "Ligustrum ovalifolium"
+      ],
+      "fr": [
+        "Ligustrum ovalifolium"
+      ],
+      "it": [
+        "Ligustrum ovalifolium"
+      ],
+      "nl": [
+        "Ligustrum ovalifolium"
+      ],
+      "pl": [
+        "Ligustrum ovalifolium"
+      ],
+      "pt": [
+        "Ligustrum ovalifolium"
+      ],
+      "ru": [
+        "Ligustrum ovalifolium"
+      ],
+      "zh": [
+        "卵叶女贞"
       ]
     },
     "tags": [],
@@ -4325,12 +5798,12 @@
     "family": "Oleaceae",
     "genus": "Ligustrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/745d440cbe86743b84fa48343a7f1c0c7a126dd0",
-    "description": null,
+    "description": "Ligustrum quihoui, or waxyleaf privet, is a shrub native to Korea and China. As with some other members of the genus, L. quihoui is cultivated as an ornamental in many places and has become naturalized and invasive in urban areas and scattered forested locales of the southeastern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4346,12 +5819,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4407,11 +5880,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Ligustrum quihoui",
+        "Quihouis Liguster"
+      ],
       "en": [
+        "Ligustrum quihoui",
         "Waxyleaf privet"
+      ],
+      "es": [
+        "Ligustrum quihoui"
+      ],
+      "fr": [
+        "Ligustrum quihoui"
+      ],
+      "it": [
+        "Ligustrum quihoui"
+      ],
+      "nl": [
+        "Ligustrum quihoui"
+      ],
+      "pl": [
+        "Ligustrum quihoui"
+      ],
+      "pt": [
+        "Ligustrum quihoui"
+      ],
+      "ru": [
+        "Ligustrum quihoui"
+      ],
+      "zh": [
+        "小叶女贞",
+        "小白蜡条",
+        "水白腊"
       ]
     },
     "tags": [],
@@ -4423,12 +5929,12 @@
     "family": "Oleaceae",
     "genus": "Ligustrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/35e24053c3dfafc115c73a999873b1e0479672cd",
-    "description": "Fruits are clusters of black, semi-fleshy, olive-like drupes that birds like to eat.",
+    "description": "Ligustrum sinense is a species of flowering plant in the family Oleaceae. This privet is native to China, Taiwan and Vietnam, and invasive in Réunion, the Andaman Islands, Norfolk Island, Costa Rica, Honduras, Panama and much of the eastern and southern United States. The name \"Chinese privet\" may also refer to Ligustrum lucidum.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4444,12 +5950,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4510,11 +6016,59 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "تمرحنة صينية"
+      ],
+      "de": [
+        "Chinesischer Liguster"
+      ],
       "en": [
+        "Chinese Privet",
         "Chinese privet"
+      ],
+      "es": [
+        "Ligustrin",
+        "Ligustrina",
+        "Ligustrum calleryanum",
+        "Ligustrum indicum",
+        "Ligustrum microparpum",
+        "Ligustrum sinensi",
+        "Ligustrum stauntonii",
+        "Ligustrum villosum",
+        "Ligustrín",
+        "Olea consanguinea",
+        "Olea walpersiana",
+        "Phillyrea indica"
+      ],
+      "fr": [
+        "troène de Chine"
+      ],
+      "ja": [
+        "コミノネズミモチ"
+      ],
+      "pt": [
+        "Ligustrina"
+      ],
+      "ru": [
+        "Ligustrum sinensis",
+        "Бирючина китайская",
+        "Волчья ягодка"
+      ],
+      "zh": [
+        "光萼小蜡",
+        "千张树",
+        "多毛小蜡",
+        "小实女贞",
+        "小蜡",
+        "小蜡树",
+        "山指甲",
+        "水黄杨",
+        "黄心柳"
       ]
     },
     "tags": [],
@@ -4526,7 +6080,7 @@
     "family": "Oleaceae",
     "genus": "Ligustrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4608,9 +6162,46 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ligustrum tschonoskii"
+      ],
+      "en": [
+        "Ligustrum tschonoskii"
+      ],
+      "es": [
+        "Ligustrum tschonoskii"
+      ],
+      "fr": [
+        "Ligustrum tschonoskii"
+      ],
+      "it": [
+        "Ligustrum tschonoskii"
+      ],
+      "nl": [
+        "Ligustrum tschonoskii"
+      ],
+      "pl": [
+        "Ligustrum tschonoskii"
+      ],
+      "pt": [
+        "Ligustrum tschonoskii"
+      ],
+      "ru": [
+        "Ligustrum tschonoskii"
+      ],
+      "tr": [
+        "Ligustrum tschonoskii"
+      ],
+      "zh": [
+        "东京女贞",
+        "邱氏女贞"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4620,7 +6211,7 @@
     "family": "Oleaceae",
     "genus": "Ligustrum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4641,12 +6232,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4668,7 +6259,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Ligustrum japonicum",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs, Toxic to Cats, Toxic to Horses. Signs: Drooling, abdominal pain, diarrhea, colic, depression",
       "common_problems": [
         "Whiteflies, Japanese and ligustrum weevils, white peach scale, and privet rust mites are common insect problems.",
@@ -4695,7 +6286,7 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
+      "toxic_parts": "Bark, fruit, leaf",
       "toxicity_severity": "Moderate",
       "toxicity_symptoms": "Drooling, abdominal pain, diarrhea, colic, depression",
       "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
@@ -4710,11 +6301,46 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "باسم",
+        "تمرحنة شائعة",
+        "نوار أبيض",
+        "ياسمون"
+      ],
+      "de": [
+        "Gewöhnlicher Liguster",
+        "Liguster"
+      ],
       "en": [
-        "Common privet"
+        "Common privet",
+        "Wild Privet"
+      ],
+      "fr": [
+        "Troène commun",
+        "troène commun"
+      ],
+      "ja": [
+        "セイヨウイボタ"
+      ],
+      "nl": [
+        "wilde liguster"
+      ],
+      "pl": [
+        "ligustr pospolity"
+      ],
+      "pt": [
+        "Alfeneiro"
+      ],
+      "ru": [
+        "Бирючина обыкновенная"
+      ],
+      "zh": [
+        "欧洲女贞"
       ]
     },
     "tags": [],
@@ -4726,12 +6352,12 @@
     "family": "Oleaceae",
     "genus": "Menodora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/085ce82884f5d1f742d133724455212b.jpg",
-    "description": null,
+    "description": "Menodora scabra is broom-like shrub in the Olive Family (Oleaceae), known by the common name rough menodora or broom twinberry. It is a popular desert garden plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4808,9 +6434,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Menodora scabra"
+      ],
+      "en": [
+        "Menodora scabra"
+      ],
+      "es": [
+        "Menodora scabra"
+      ],
+      "fr": [
+        "Menodora scabra"
+      ],
+      "it": [
+        "Menodora scabra"
+      ],
+      "nl": [
+        "Menodora scabra"
+      ],
+      "pl": [
+        "Menodora scabra"
+      ],
+      "pt": [
+        "Menodora scabra"
+      ],
+      "ru": [
+        "Menodora scabra"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4820,12 +6476,12 @@
     "family": "Oleaceae",
     "genus": "Nestegis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/89cd41addd2d626c61202fd7f3144b80.jpg",
-    "description": null,
+    "description": "Notelaea cunninghamii, commonly known as black maire, is a native tree of New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4902,9 +6558,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Nestegis cunninghamii"
+      ],
+      "en": [
+        "Nestegis cunninghamii"
+      ],
+      "es": [
+        "Nestegis cunninghamii"
+      ],
+      "fr": [
+        "Nestegis cunninghamii"
+      ],
+      "it": [
+        "Nestegis cunninghamii"
+      ],
+      "nl": [
+        "Nestegis cunninghamii"
+      ],
+      "pl": [
+        "Nestegis cunninghamii"
+      ],
+      "pt": [
+        "Nestegis cunninghamii"
+      ],
+      "ru": [
+        "Nestegis cunninghamii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4914,12 +6600,12 @@
     "family": "Oleaceae",
     "genus": "Nestegis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/651a07aadb9ff5a03efa344bff070560.jpg",
-    "description": null,
+    "description": "Notelaea neolanceolata, commonly known as white maire, is a tree native to New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4996,9 +6682,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Nestegis lanceolata"
+      ],
+      "en": [
+        "Nestegis lanceolata"
+      ],
+      "es": [
+        "Nestegis lanceolata"
+      ],
+      "fr": [
+        "Nestegis lanceolata"
+      ],
+      "it": [
+        "Nestegis lanceolata"
+      ],
+      "nl": [
+        "Nestegis lanceolata"
+      ],
+      "pl": [
+        "Nestegis lanceolata"
+      ],
+      "pt": [
+        "Nestegis lanceolata"
+      ],
+      "ru": [
+        "Nestegis lanceolata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5008,12 +6724,12 @@
     "family": "Oleaceae",
     "genus": "Notelaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1238a56dec7f299588636af5b730cfad.jpg",
-    "description": null,
+    "description": "Notelaea ligustrina, known as the privet mock olive, native olive, doral or silkwood, is a plant in the olive family, found in southeastern Australia. It is known to grow in and near rainforests south of Monga National Park in New South Wales, and into Victoria and the island state of Tasmania. The specific epithet ligustrina refers to the Privet, which it resembles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5090,9 +6806,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Notelaea ligustrina"
+      ],
+      "en": [
+        "Nestegis ligustrina"
+      ],
+      "es": [
+        "Notelaea ligustrina"
+      ],
+      "fr": [
+        "Notelaea ligustrina"
+      ],
+      "it": [
+        "Notelaea ligustrina"
+      ],
+      "nl": [
+        "Nestegis ligustrina"
+      ],
+      "pl": [
+        "Notelaea ligustrina"
+      ],
+      "pt": [
+        "Notelaea ligustrina"
+      ],
+      "ru": [
+        "Notelaea ligustrina"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5102,12 +6848,12 @@
     "family": "Oleaceae",
     "genus": "Notelaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a8c7bb5947f911640ec5edb5f8a8cd87bb33ad7c",
-    "description": null,
+    "description": "Notelaea longifolia is a very common shrub or small tree in eastern Australia. Occurring in or adjacent to rainforest from Mimosa Rocks National Park to Bamaga in far north Queensland. Common names include large mock-olive or long-leaved-olive. An attractive ornamental plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5184,11 +6930,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Notelaea longifolia"
+      ],
       "en": [
-        "Large mock olive"
+        "Large mock olive",
+        "Notelaea longifolia"
+      ],
+      "es": [
+        "Notelaea longifolia"
+      ],
+      "fr": [
+        "Notelaea longifolia"
+      ],
+      "it": [
+        "Notelaea longifolia"
+      ],
+      "nl": [
+        "Notelaea longifolia"
+      ],
+      "pl": [
+        "Notelaea longifolia"
+      ],
+      "pt": [
+        "Notelaea longifolia"
+      ],
+      "ru": [
+        "Notelaea longifolia"
       ]
     },
     "tags": [],
@@ -5200,12 +6973,12 @@
     "family": "Oleaceae",
     "genus": "Notelaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d467c6f98d448e82b30b4056f3e25412.jpg",
-    "description": null,
+    "description": "Notelaea microcarpa is a bush or small crooked tree from the olive family, found in eastern Australia. Two varieties are recognised; var. microcarpa, the velvet mock olive and var. velutina known as the gorge mock olive.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5282,9 +7055,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Notelaea microcarpa"
+      ],
+      "en": [
+        "Notelaea microcarpa"
+      ],
+      "es": [
+        "Notelaea microcarpa"
+      ],
+      "fr": [
+        "Notelaea microcarpa"
+      ],
+      "it": [
+        "Notelaea microcarpa"
+      ],
+      "nl": [
+        "Notelaea microcarpa"
+      ],
+      "pl": [
+        "Notelaea microcarpa"
+      ],
+      "pt": [
+        "Notelaea microcarpa"
+      ],
+      "ru": [
+        "Notelaea microcarpa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5294,12 +7097,12 @@
     "family": "Oleaceae",
     "genus": "Notelaea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f22f426008a1c4d9db46fbf4f646212d.jpg",
-    "description": null,
+    "description": "Notelaea venosa is a very common shrub or small tree in eastern Australia. Occurring in or adjacent to rainforest from Lakes Entrance, Victoria to Cunninghams Gap in south eastern Queensland. Common names include veined mock-olive, smooth mock-olive, large-leaved mock-olive and large mock-olive. Often seen in the bushland areas in Sydney.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5376,9 +7179,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Notelaea venosa"
+      ],
+      "en": [
+        "Notelaea venosa"
+      ],
+      "es": [
+        "Notelaea venosa"
+      ],
+      "fr": [
+        "Notelaea venosa"
+      ],
+      "it": [
+        "Notelaea venosa"
+      ],
+      "nl": [
+        "Notelaea venosa"
+      ],
+      "pl": [
+        "Notelaea venosa"
+      ],
+      "pt": [
+        "Notelaea venosa"
+      ],
+      "ru": [
+        "Notelaea venosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5388,12 +7221,12 @@
     "family": "Oleaceae",
     "genus": "Olea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6329bc6170e22855c8bea70bffa371b91b2f4f56",
-    "description": "The fruits are oval green drupes that measure 1.5 inches long.  They turn purplish-black when ripened and are edible. Each olive contains one pit.",
+    "description": "Olea capensis, the black ironwood, is an African tree species in the olive family Oleaceae. It is widespread in sub-Saharan Africa: from the east in Somalia, Ethiopia and Sudan, south to the tip of South Africa, and west to Cameroon, Sierra Leone and the islands of the Gulf of Guinea, as well as Madagascar and the Comoros. It occurs in bush, littoral scrub and evergreen forest.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5404,7 +7237,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "olea_capensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5476,11 +7309,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زيتون رأس الرجاء"
+      ],
+      "de": [
+        "Olea capensis"
+      ],
       "en": [
-        "Black ironwood"
+        "Black ironwood",
+        "Olea capensis"
+      ],
+      "es": [
+        "Olea capensis"
+      ],
+      "fr": [
+        "Olea capensis"
+      ],
+      "it": [
+        "Olea capensis"
+      ],
+      "ja": [
+        "オレア・カペンシス"
+      ],
+      "nl": [
+        "Olea capensis"
+      ],
+      "pl": [
+        "Olea capensis"
+      ],
+      "pt": [
+        "Olea capensis"
+      ],
+      "ru": [
+        "Olea capensis"
+      ],
+      "zh": [
+        "非洲木樨榄"
       ]
     },
     "tags": [],
@@ -5492,7 +7361,7 @@
     "family": "Oleaceae",
     "genus": "Olea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5508,17 +7377,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "olea_europaea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 800,
+      "dli_min": 12.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -5580,11 +7449,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "زيتون"
+      ],
+      "de": [
+        "Olivenbaum"
+      ],
       "en": [
+        "Olea europaea",
         "Olive"
+      ],
+      "es": [
+        "Olivo"
+      ],
+      "fr": [
+        "olivier européen"
+      ],
+      "hi": [
+        "ज़ैतून"
+      ],
+      "it": [
+        "Olea europaea"
+      ],
+      "ja": [
+        "オリーブ"
+      ],
+      "ko": [
+        "올리브나무"
+      ],
+      "nl": [
+        "olijf"
+      ],
+      "pl": [
+        "oliwka europejska"
+      ],
+      "pt": [
+        "Oliveira"
+      ],
+      "ru": [
+        "Олива европейская"
+      ],
+      "tr": [
+        "Zeytin"
+      ],
+      "zh": [
+        "油橄榄"
       ]
     },
     "tags": [],
@@ -5596,12 +7510,12 @@
     "family": "Oleaceae",
     "genus": "Olea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2fc9302d3f3f99b29be828856a69d723d29fa19f",
-    "description": "The fruits are oval green drupes that measure 1.5 inches long.  They turn purplish-black when ripened and are edible. Each olive contains one pit.",
+    "description": "Olea lancea grows as a shrub or small tree up to 6 metres (20 ft) tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5612,7 +7526,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "olea_lancea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5684,9 +7598,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "أوليا لانسيا"
+      ],
+      "de": [
+        "Olea lancea"
+      ],
+      "en": [
+        "Olea lancea"
+      ],
+      "es": [
+        "Olea lancea"
+      ],
+      "fr": [
+        "bois d'olive blanc"
+      ],
+      "it": [
+        "Olea lancea"
+      ],
+      "nl": [
+        "Olea lancea"
+      ],
+      "pl": [
+        "Olea lancea"
+      ],
+      "pt": [
+        "Olea lancea"
+      ],
+      "ru": [
+        "Olea lancea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5696,12 +7643,12 @@
     "family": "Oleaceae",
     "genus": "Olea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8e51855ec940394bca59ca526b9e2df9e03c6d3c",
-    "description": "The fruits are oval green drupes that measure 1.5 inches long.  They turn purplish-black when ripened and are edible. Each olive contains one pit.",
+    "description": "Olea paniculata, commonly known as the native olive, is a plant of the genus Olea and a relative of the olive. It grows natively in Pakistan and southwestern China (Yunnan) through tropical Asia to Australia and the Pacific islands of New Caledonia, Vanuatu and Lord Howe Island.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5712,7 +7659,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "olea_paniculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -5784,11 +7731,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Olea paniculata"
+      ],
       "en": [
-        "Australian olive"
+        "Australian olive",
+        "Olea paniculata"
+      ],
+      "es": [
+        "Olea paniculata"
+      ],
+      "fr": [
+        "Olea paniculata"
+      ],
+      "it": [
+        "Olea paniculata"
+      ],
+      "nl": [
+        "Olea paniculata"
+      ],
+      "pl": [
+        "Olea paniculata"
+      ],
+      "pt": [
+        "Olea paniculata"
+      ],
+      "ru": [
+        "Olea paniculata"
+      ],
+      "zh": [
+        "腺叶木犀榄"
       ]
     },
     "tags": [],
@@ -5800,7 +7777,7 @@
     "family": "Oleaceae",
     "genus": "Osmanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5886,11 +7863,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "عبقة أريجية"
+      ],
+      "de": [
+        "Süße Duftblüte"
+      ],
       "en": [
+        "Osmanthus fragrans",
         "Sweet osmanthus"
+      ],
+      "es": [
+        "tea olive"
+      ],
+      "fr": [
+        "Olivier odorant"
+      ],
+      "hi": [
+        "सिलंग"
+      ],
+      "it": [
+        "Osmanthus fragrans"
+      ],
+      "ja": [
+        "モクセイ"
+      ],
+      "ko": [
+        "목서"
+      ],
+      "nl": [
+        "Osmanthus fragrans"
+      ],
+      "pl": [
+        "wończa pachnąca"
+      ],
+      "pt": [
+        "Osmanthus fragrans"
+      ],
+      "ru": [
+        "Osmanthus fragrans"
+      ],
+      "zh": [
+        "桂花"
       ]
     },
     "tags": [],
@@ -5902,12 +7921,12 @@
     "family": "Oleaceae",
     "genus": "Osmanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e17477ba36c383f1ffb7bdffc2b8e79a3cad73d8",
-    "description": "Ovoid, bluish purple-black to black drupe less than an inch in size that is seldom seen in cultivation.",
+    "description": "Osmanthus heterophyllus, variously known as holly osmanthus, holly olive, and false holly, is a species of flowering plant in the olive family Oleaceae, native to eastern Asia in central and southern Japan and Taiwan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5988,11 +8007,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Stachelblättrige Duftblüte"
+      ],
       "en": [
-        "Chinese-holly"
+        "Chinese-holly",
+        "Osmanthus heterophyllus"
+      ],
+      "es": [
+        "Osmanthus heterophyllus"
+      ],
+      "fr": [
+        "Osmanthus heterophyllus"
+      ],
+      "it": [
+        "Osmanthus heterophyllus"
+      ],
+      "ja": [
+        "ヒイラギ"
+      ],
+      "ko": [
+        "구골나무"
+      ],
+      "nl": [
+        "Osmanthus heterophyllus"
+      ],
+      "pl": [
+        "Osmanthus heterophyllus"
+      ],
+      "pt": [
+        "Osmanthus heterophyllus"
+      ],
+      "ru": [
+        "Османтус разнолистный"
+      ],
+      "zh": [
+        "柊树"
       ]
     },
     "tags": [],
@@ -6004,7 +8059,7 @@
     "family": "Oleaceae",
     "genus": "Phillyrea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6020,17 +8075,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "phillyrea_angustifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6086,11 +8141,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "ar": [
+        "زرود ضيق الأوراق"
+      ],
+      "de": [
+        "Schmalblättrige Steinlinde"
+      ],
       "en": [
-        "False olive"
+        "False olive",
+        "Phillyrea angustifolia"
+      ],
+      "es": [
+        "Phillyrea angustifolia"
+      ],
+      "fr": [
+        "Phillyrea angustifolia"
+      ],
+      "it": [
+        "Phillyrea angustifolia"
+      ],
+      "nl": [
+        "Phillyrea angustifolia"
+      ],
+      "pl": [
+        "Phillyrea angustifolia"
+      ],
+      "pt": [
+        "Phillyrea angustifolia"
+      ],
+      "ru": [
+        "Phillyrea angustifolia"
       ]
     },
     "tags": [],
@@ -6102,7 +8187,7 @@
     "family": "Oleaceae",
     "genus": "Phillyrea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6118,17 +8203,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "phillyrea_latifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6184,11 +8269,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "ar": [
+        "زرود عريض الأوراق"
+      ],
+      "de": [
+        "Breitblättrige Steinlinde"
+      ],
       "en": [
-        "Green olive tree"
+        "Green olive tree",
+        "Phillyrea latifolia"
+      ],
+      "es": [
+        "Phillyrea latifolia"
+      ],
+      "fr": [
+        "Phillyrea latifolia"
+      ],
+      "it": [
+        "Phillyrea latifolia"
+      ],
+      "nl": [
+        "Phillyrea latifolia"
+      ],
+      "pl": [
+        "Filirea szerokolistna"
+      ],
+      "pt": [
+        "Phillyrea latifolia"
+      ],
+      "ru": [
+        "Phillyrea latifolia"
       ]
     },
     "tags": [],
@@ -6200,12 +8315,12 @@
     "family": "Oleaceae",
     "genus": "Picconia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0960110226065b26d906800d8c240162317a5c7d",
-    "description": null,
+    "description": "Picconia azorica, locally known as pau-branco, is a species of Picconia common to the majority of islands of the Portuguese archipelago of the Azores, where it is endemic. It can grow to a medium-sized tree, though it is usually found in the form of a shrub. It is threatened by habitat loss.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6282,11 +8397,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Picconia azorica"
+      ],
       "en": [
-        "Pau-branco"
+        "Pau-branco",
+        "Picconia azorica"
+      ],
+      "es": [
+        "Picconia azorica"
+      ],
+      "fr": [
+        "Picconia azorica"
+      ],
+      "it": [
+        "Picconia azorica"
+      ],
+      "nl": [
+        "Picconia azorica"
+      ],
+      "pl": [
+        "Picconia azorica"
+      ],
+      "pt": [
+        "Picconia azorica"
+      ],
+      "ru": [
+        "Picconia azorica"
       ]
     },
     "tags": [],
@@ -6298,7 +8440,7 @@
     "family": "Oleaceae",
     "genus": "Syringa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6314,7 +8456,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "syringa_josikaea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6380,11 +8522,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ليلك مجري"
+      ],
+      "de": [
+        "Ungarischer Flieder"
+      ],
       "en": [
-        "Hungarian lilac"
+        "Hungarian lilac",
+        "Syringa josikaea"
+      ],
+      "es": [
+        "Syringa josikaea"
+      ],
+      "fr": [
+        "Syringa josikaea"
+      ],
+      "it": [
+        "Syringa josikaea"
+      ],
+      "ja": [
+        "ハンガリーハシドイ"
+      ],
+      "nl": [
+        "Syringa josikaea"
+      ],
+      "pl": [
+        "Lilak Josiki"
+      ],
+      "pt": [
+        "Syringa josikaea"
+      ],
+      "ru": [
+        "Сирень венгерская"
       ]
     },
     "tags": [],
@@ -6396,7 +8571,7 @@
     "family": "Oleaceae",
     "genus": "Syringa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6478,9 +8653,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Wolliger Flieder"
+      ],
+      "en": [
+        "Syringa pubescens"
+      ],
+      "es": [
+        "Syringa pubescens"
+      ],
+      "fr": [
+        "Syringa pubescens"
+      ],
+      "it": [
+        "Syringa pubescens"
+      ],
+      "ko": [
+        "털개회나무"
+      ],
+      "nl": [
+        "Syringa pubescens"
+      ],
+      "pl": [
+        "Syringa pubescens"
+      ],
+      "pt": [
+        "Syringa pubescens"
+      ],
+      "ru": [
+        "Сирень пушистая"
+      ],
+      "zh": [
+        "巧玲花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6490,7 +8701,7 @@
     "family": "Oleaceae",
     "genus": "Syringa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6511,12 +8722,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6572,11 +8783,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "de": [
+        "Japanischer Flieder"
+      ],
       "en": [
-        "Japanese tree lilac"
+        "Japanese tree lilac",
+        "Syringa reticulata"
+      ],
+      "es": [
+        "Syringa reticulata"
+      ],
+      "fr": [
+        "Syringa reticulata"
+      ],
+      "it": [
+        "Syringa reticulata"
+      ],
+      "ja": [
+        "ハシドイ"
+      ],
+      "ko": [
+        "개회나무"
+      ],
+      "nl": [
+        "Syringa reticulata"
+      ],
+      "pl": [
+        "Syringa reticulata"
+      ],
+      "pt": [
+        "Syringa reticulata"
+      ],
+      "ru": [
+        "Syringa reticulata"
+      ],
+      "zh": [
+        "暴马丁香"
       ]
     },
     "tags": [],
@@ -6588,7 +8835,7 @@
     "family": "Oleaceae",
     "genus": "Syringa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6675,11 +8922,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Zottiger Flieder"
+      ],
       "en": [
-        "Japanese lilac"
+        "Japanese lilac",
+        "Syringa villosa"
+      ],
+      "es": [
+        "Syringa villosa"
+      ],
+      "fr": [
+        "Syringa villosa"
+      ],
+      "it": [
+        "Syringa villosa"
+      ],
+      "nl": [
+        "Syringa villosa"
+      ],
+      "pl": [
+        "Syringa villosa"
+      ],
+      "pt": [
+        "Syringa villosa"
+      ],
+      "ru": [
+        "Сирень мохнатая"
+      ],
+      "zh": [
+        "红丁香"
       ]
     },
     "tags": [],
@@ -6691,7 +8968,7 @@
     "family": "Oleaceae",
     "genus": "Syringa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6707,17 +8984,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "syringa_vulgaris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6779,11 +9056,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.8
     },
     "common_names": {
+      "ar": [
+        "ليلك شائع"
+      ],
+      "de": [
+        "Gemeiner Flieder"
+      ],
       "en": [
-        "Common lilac"
+        "Common lilac",
+        "Syringa vulgaris"
+      ],
+      "es": [
+        "lila común"
+      ],
+      "fr": [
+        "lilas commun"
+      ],
+      "it": [
+        "lillà comune"
+      ],
+      "ja": [
+        "ライラック"
+      ],
+      "ko": [
+        "라일락"
+      ],
+      "nl": [
+        "sering"
+      ],
+      "pl": [
+        "lilak pospolity"
+      ],
+      "pt": [
+        "lilás comum"
+      ],
+      "ru": [
+        "сирень обыкновенная"
+      ],
+      "tr": [
+        "hakiki leylak"
+      ],
+      "zh": [
+        "欧丁香"
       ]
     },
     "tags": [],

@@ -5,12 +5,12 @@
     "family": "Cyrillaceae",
     "genus": "Cliftonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Cliftonia monophylla, the buck-wheat tree, buckwheat tree or black titi, is a tree native to the southeastern United States. It is the sole species in the genus Cliftonia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كلفتونية وحيدة الورقة"
+      ],
+      "de": [
+        "Cliftonia monophylla"
+      ],
+      "en": [
+        "Cliftonia monophylla"
+      ],
+      "es": [
+        "Cliftonia monophylla"
+      ],
+      "fr": [
+        "Cliftonia monophylla"
+      ],
+      "it": [
+        "Cliftonia monophylla"
+      ],
+      "nl": [
+        "Cliftonia monophylla"
+      ],
+      "pl": [
+        "Cliftonia monophylla"
+      ],
+      "pt": [
+        "Cliftonia monophylla"
+      ],
+      "ru": [
+        "Cliftonia monophylla"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Cyrillaceae",
     "genus": "Cyrilla",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/85eb099f8c7989843c5ea19e4d9ffb9c9c98a5a9",
-    "description": "Yellow-brown capsule ovoid, dry,  1/12 inch long, containing 1-5 seeds, but ending up with only 1 seed maturing.  Persists into winter. Displays from September to October.",
+    "description": "Cyrilla racemiflora, the sole species in the genus Cyrilla, is a flowering plant in the family Cyrillaceae, native to warm temperate to tropical regions of the Americas, from the southeastern United States, south through the Caribbean, Mexico and Central America to northern Brazil and Venezuela in South America. Common names include swamp cyrilla, swamp titi, palo colorado, red titi, black titi, white titi, leatherwood, ironwood, he-huckleberry, and myrtle.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -187,11 +220,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سيريلة عنقودية الأزهار"
+      ],
+      "de": [
+        "Cyrilla racemiflora"
+      ],
       "en": [
-        "Black titi"
+        "Black titi",
+        "Cyrilla racemiflora"
+      ],
+      "es": [
+        "Cyrilla"
+      ],
+      "fr": [
+        "Cyrilla racemiflora"
+      ],
+      "it": [
+        "Cyrilla racemiflora"
+      ],
+      "ja": [
+        "キリラ・ラケミフロラ"
+      ],
+      "nl": [
+        "Cyrilla"
+      ],
+      "pl": [
+        "Cyrilla racemiflora"
+      ],
+      "pt": [
+        "Cyrilla"
+      ],
+      "ru": [
+        "Cyrilla racemiflora"
+      ],
+      "tr": [
+        "Cyrilla racemiflora"
       ]
     },
     "tags": [],

@@ -5,7 +5,7 @@
     "family": "Sphaerocarpaceae",
     "genus": "Sphaerocarpos",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سفيريكاربوس تكسانوس"
+      ],
+      "de": [
+        "Sphaerocarpos texanus"
+      ],
+      "en": [
+        "Sphaerocarpos texanus"
+      ],
+      "es": [
+        "Sphaerocarpos texanus"
+      ],
+      "fr": [
+        "Sphaerocarpos texanus"
+      ],
+      "it": [
+        "Sphaerocarpos texanus"
+      ],
+      "nl": [
+        "Sphaerocarpos texanus"
+      ],
+      "pl": [
+        "Sphaerocarpos texanus"
+      ],
+      "pt": [
+        "Sphaerocarpos texanus"
+      ],
+      "ru": [
+        "Sphaerocarpos texanus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

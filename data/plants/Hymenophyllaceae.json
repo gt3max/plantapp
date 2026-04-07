@@ -5,7 +5,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,7 +21,7 @@
     "synonyms": "[\"Mecodium badium\", \"Mecodium flexile\", \"Hymenophyllum latilobum\", \"Sphaerocionium badium\", \"Hymenophyllum javanicum var. badium\", \"Hymenophyllum australe var. crispatum\", \"Hymenophyllum crispatum var. majus\", \"Hymenophyllum macrocarpum\", \"Sphaerocionium macrocarpum\", \"Hymenophyllum crispatum\"]",
     "care": {
       "plant_id": "hymenophyllum_badium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum badium"
+      ],
+      "en": [
+        "Hymenophyllum badium"
+      ],
+      "es": [
+        "Hymenophyllum badium"
+      ],
+      "fr": [
+        "Hymenophyllum badium"
+      ],
+      "it": [
+        "Hymenophyllum badium"
+      ],
+      "ja": [
+        "オオコケシノブ"
+      ],
+      "nl": [
+        "Hymenophyllum badium"
+      ],
+      "pl": [
+        "Hymenophyllum badium"
+      ],
+      "pt": [
+        "Hymenophyllum badium"
+      ],
+      "ru": [
+        "Hymenophyllum badium"
+      ],
+      "zh": [
+        "蕗蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +135,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -115,17 +151,17 @@
     "synonyms": "[\"Hymenophyllum spinosum\", \"Hymenophyllum omeiense\", \"Hymenophyllum minutidenticulatum\", \"Hymenophyllum henryi\", \"Hymenophyllum denticulatum var. flaccidum\", \"Hymenophyllum flaccidum\", \"Hymenophyllum khasianum\", \"Leptocionium flaccidum\", \"Hymenophyllum spicatum\", \"Meringium flaccidum\"]",
     "care": {
       "plant_id": "hymenophyllum_barbatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -181,9 +217,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum barbatum"
+      ],
+      "en": [
+        "Hymenophyllum barbatum"
+      ],
+      "es": [
+        "Hymenophyllum barbatum"
+      ],
+      "fr": [
+        "Hymenophyllum barbatum"
+      ],
+      "it": [
+        "Hymenophyllum barbatum"
+      ],
+      "ja": [
+        "コウヤコケシノブ"
+      ],
+      "nl": [
+        "Hymenophyllum barbatum"
+      ],
+      "pl": [
+        "Hymenophyllum barbatum"
+      ],
+      "pt": [
+        "Hymenophyllum barbatum"
+      ],
+      "ru": [
+        "Hymenophyllum barbatum"
+      ],
+      "zh": [
+        "华东膜蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +265,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -209,7 +281,7 @@
     "synonyms": "[\"Hymenophyllum martii\", \"Mecodium caudiculatum\", \"Sphaerocionium caudiculatum\"]",
     "care": {
       "plant_id": "hymenophyllum_caudiculatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -275,9 +347,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum caudiculatum"
+      ],
+      "en": [
+        "Hymenophyllum caudiculatum"
+      ],
+      "es": [
+        "Hymenophyllum caudiculatum"
+      ],
+      "fr": [
+        "Hymenophyllum caudiculatum"
+      ],
+      "it": [
+        "Hymenophyllum caudiculatum"
+      ],
+      "nl": [
+        "Hymenophyllum caudiculatum"
+      ],
+      "pl": [
+        "Hymenophyllum caudiculatum"
+      ],
+      "pt": [
+        "Hymenophyllum caudiculatum"
+      ],
+      "ru": [
+        "Hymenophyllum caudiculatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,12 +389,12 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f131bef07972bba2e400830d8a668474.jpg",
-    "description": null,
+    "description": " Hymenophyllum cupressiforme is a southern hemisphere species of filmy fern. Found in moist sheltered areas, in or near rainforests. Occasionally found in drier protected areas. Leaves one cell thick. A small epiphytic fern found on tree trunks, rocks and fallen logs.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -303,17 +405,17 @@
     "synonyms": "[\"Hymenophyllum tunbrigense var. cupressiforme\", \"Hymenophyllum antarcticum\"]",
     "care": {
       "plant_id": "hymenophyllum_cupressiforme",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -369,9 +471,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum cupressiforme"
+      ],
+      "en": [
+        "Hymenophyllum cupressiforme"
+      ],
+      "es": [
+        "Hymenophyllum cupressiforme"
+      ],
+      "fr": [
+        "Hymenophyllum cupressiforme"
+      ],
+      "it": [
+        "Hymenophyllum cupressiforme"
+      ],
+      "nl": [
+        "Hymenophyllum cupressiforme"
+      ],
+      "pl": [
+        "Hymenophyllum cupressiforme"
+      ],
+      "pt": [
+        "Hymenophyllum cupressiforme"
+      ],
+      "ru": [
+        "Hymenophyllum cupressiforme"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,12 +513,12 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/c97ff882cffad4d55ebf0587a46b10f4.jpg",
-    "description": null,
+    "description": "Hymenophyllum demissum is a species of fern in the family Hymenophyllaceae. H. demissum is found in New Zealand, with a specific example occurrence being in North Island's Hamilton Ecological District in a Nothofagus-podocarp forest in association with other fern species understory plants, crown fern, Blechnum discolor being an example.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -397,17 +529,17 @@
     "synonyms": "[\"Hymenophyllum polychilum\", \"Mecodium demissum\", \"Trichomanes demissum\", \"Hymenophyllum erectoalatum\", \"Sphaerocionium demissum\", \"Hymenophyllum aucklandicum\", \"Hymenophyllum megalocarpum\"]",
     "care": {
       "plant_id": "hymenophyllum_demissum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -463,9 +595,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum demissum"
+      ],
+      "en": [
+        "Hymenophyllum demissum"
+      ],
+      "es": [
+        "Hymenophyllum demissum"
+      ],
+      "fr": [
+        "Hymenophyllum demissum"
+      ],
+      "it": [
+        "Hymenophyllum demissum"
+      ],
+      "nl": [
+        "Hymenophyllum demissum"
+      ],
+      "pl": [
+        "Hymenophyllum demissum"
+      ],
+      "pt": [
+        "Hymenophyllum demissum"
+      ],
+      "ru": [
+        "Hymenophyllum demissum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -475,12 +637,12 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/efe9a6a1e1a985b9846e4e94cd99f6c5.jpg",
-    "description": null,
+    "description": "Hymenophyllum flabellatum, the shiny filmy-fern, is a species of fern in the family Hymenophyllaceae. This delicate fern is commonly epiphytic and is between 5 and 25 cm in length. It is distinct, with its thin, one-celled thick, membranous leaves. It is from the family Hymenophyllaceae and is dispersed world wide. The species is dispersed highly throughout Tasmanian rainforests and in the south east of mainland Australia, with small pockets of the population seen in northern Queensland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -491,17 +653,17 @@
     "synonyms": "[\"Trichomanes nitens\", \"Mecodium flabellatum\", \"Hymenophyllum hookeri\", \"Hymenophyllum nitens\"]",
     "care": {
       "plant_id": "hymenophyllum_flabellatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -557,9 +719,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum flabellatum"
+      ],
+      "en": [
+        "Hymenophyllum flabellatum"
+      ],
+      "es": [
+        "Hymenophyllum flabellatum"
+      ],
+      "fr": [
+        "Hymenophyllum flabellatum"
+      ],
+      "it": [
+        "Hymenophyllum flabellatum"
+      ],
+      "nl": [
+        "Hymenophyllum flabellatum"
+      ],
+      "pl": [
+        "Hymenophyllum flabellatum"
+      ],
+      "pt": [
+        "Hymenophyllum flabellatum"
+      ],
+      "ru": [
+        "Hymenophyllum flabellatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -569,7 +761,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -585,7 +777,7 @@
     "synonyms": "[\"Hymenophyllum aeruginosum var. franklinianum\", \"Hymenophyllum franklinianum\", \"Sphaerocionium frankliniae\"]",
     "care": {
       "plant_id": "hymenophyllum_frankliniae",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -651,9 +843,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum frankliniae"
+      ],
+      "en": [
+        "Hymenophyllum frankliniae"
+      ],
+      "es": [
+        "Hymenophyllum frankliniae"
+      ],
+      "fr": [
+        "Hymenophyllum frankliniae"
+      ],
+      "it": [
+        "Hymenophyllum frankliniae"
+      ],
+      "nl": [
+        "Hymenophyllum frankliniae"
+      ],
+      "pl": [
+        "Hymenophyllum frankliniae"
+      ],
+      "pt": [
+        "Hymenophyllum frankliniae"
+      ],
+      "ru": [
+        "Hymenophyllum frankliniae"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -663,7 +885,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -679,7 +901,7 @@
     "synonyms": "[\"Trichomanes fucoides\", \"Leptocionium fucoides\", \"Meringium fucoides\"]",
     "care": {
       "plant_id": "hymenophyllum_fucoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -745,11 +967,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hymenophyllum fucoides"
+      ],
       "en": [
-        "Graceful filmy fern"
+        "Graceful filmy fern",
+        "Hymenophyllum fucoides"
+      ],
+      "es": [
+        "Hymenophyllum fucoides"
+      ],
+      "fr": [
+        "Hymenophyllum fucoides"
+      ],
+      "it": [
+        "Hymenophyllum fucoides"
+      ],
+      "nl": [
+        "Hymenophyllum fucoides"
+      ],
+      "pl": [
+        "Hymenophyllum fucoides"
+      ],
+      "pt": [
+        "Hymenophyllum fucoides"
+      ],
+      "ru": [
+        "Hymenophyllum fucoides"
       ]
     },
     "tags": [],
@@ -761,7 +1010,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -777,7 +1026,7 @@
     "synonyms": "[\"Adiantum tenellum\", \"Mecodium fumarioides\", \"Hymenophyllum ricciifolium\", \"Meringium tenellum\", \"Mecodium tenellum\", \"Sphaerocionium tenellum\", \"Sphaerocionium ricciifolium\", \"Hymenophyllum emersum\", \"Hymenophyllum tenellum\"]",
     "care": {
       "plant_id": "hymenophyllum_fumarioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -843,9 +1092,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum fumarioides"
+      ],
+      "en": [
+        "Hymenophyllum fumarioides"
+      ],
+      "es": [
+        "Hymenophyllum fumarioides"
+      ],
+      "fr": [
+        "Hymenophyllum fumarioides"
+      ],
+      "it": [
+        "Hymenophyllum fumarioides"
+      ],
+      "nl": [
+        "Hymenophyllum fumarioides"
+      ],
+      "pl": [
+        "Hymenophyllum fumarioides"
+      ],
+      "pt": [
+        "Hymenophyllum fumarioides"
+      ],
+      "ru": [
+        "Hymenophyllum fumarioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -855,7 +1134,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -871,17 +1150,17 @@
     "synonyms": "[\"Hymenophyllum microcarpon\", \"Hymenophyllum intermedium\", \"Hymenophyllum ciliatum var. abbreviatum\", \"Trichomanes ciliatum\", \"Hymenophyllum ciliatum var. crispatum\", \"Hymenophyllum ciliatum var. nudipes\", \"Trichomanes hispidum\", \"Hymenophyllum ciliatum\", \"Hymenophyllum ciliatum var. boryanum\", \"Hymenophyllum ciliatum var. ornifolium\"]",
     "care": {
       "plant_id": "hymenophyllum_hirsutum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -937,11 +1216,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "de": [
+        "Hymenophyllum hirsutum"
+      ],
       "en": [
-        "Hairy filmy fern"
+        "Hairy filmy fern",
+        "Hymenophyllum hirsutum"
+      ],
+      "es": [
+        "Hymenophyllum hirsutum"
+      ],
+      "fr": [
+        "Hymenophyllum hirsutum"
+      ],
+      "it": [
+        "Hymenophyllum hirsutum"
+      ],
+      "nl": [
+        "Hymenophyllum hirsutum"
+      ],
+      "pl": [
+        "Hymenophyllum hirsutum"
+      ],
+      "pt": [
+        "Hymenophyllum hirsutum"
+      ],
+      "ru": [
+        "Hymenophyllum hirsutum"
       ]
     },
     "tags": [],
@@ -953,7 +1259,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -969,7 +1275,7 @@
     "synonyms": "[\"Mecodium inaequale\", \"Trichomanes inaequale\"]",
     "care": {
       "plant_id": "hymenophyllum_inaequale",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1035,9 +1341,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum inaequale"
+      ],
+      "en": [
+        "Hymenophyllum inaequale"
+      ],
+      "es": [
+        "Hymenophyllum inaequale"
+      ],
+      "fr": [
+        "Hymenophyllum inaequale"
+      ],
+      "it": [
+        "Hymenophyllum inaequale"
+      ],
+      "nl": [
+        "Hymenophyllum inaequale"
+      ],
+      "pl": [
+        "Hymenophyllum inaequale"
+      ],
+      "pt": [
+        "Hymenophyllum inaequale"
+      ],
+      "ru": [
+        "Hymenophyllum inaequale"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1047,7 +1383,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1063,7 +1399,7 @@
     "synonyms": "[\"Hymenophyllum angustifrons\", \"Sphaerocionium microcarpum\", \"Hymenophyllum pteropodum\", \"Mecodium microcarpum\", \"Hymenophyllum notabile\", \"Hymenophyllum beyrichianum\", \"Hymenophyllum organense\", \"Hymenophyllum microcarpum var. lanceolatum\"]",
     "care": {
       "plant_id": "hymenophyllum_microcarpum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1129,9 +1465,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum microcarpum"
+      ],
+      "en": [
+        "Hymenophyllum microcarpum"
+      ],
+      "es": [
+        "Hymenophyllum microcarpum"
+      ],
+      "fr": [
+        "Hymenophyllum microcarpum"
+      ],
+      "it": [
+        "Hymenophyllum microcarpum"
+      ],
+      "nl": [
+        "Hymenophyllum microcarpum"
+      ],
+      "pl": [
+        "Hymenophyllum microcarpum"
+      ],
+      "pt": [
+        "Hymenophyllum microcarpum"
+      ],
+      "ru": [
+        "Hymenophyllum microcarpum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1141,12 +1507,12 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ef70d1b3007cda4f43e860988d79d65a.jpg",
-    "description": null,
+    "description": "Hymenophyllum multifidum, or the much-divided filmy fern, is a species of fern, endemic to New Zealand. It has one of the largest altitudinal ranges of any fern in New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1157,17 +1523,17 @@
     "synonyms": "[\"Hymenophyllum oligocarpum\", \"Hymenophyllum howense\", \"Hymenophyllum alpinum\", \"Wibelia multifida\", \"Trichomanes multifidum\", \"Hymenophyllum truncatum\", \"Meringium multifidum\", \"Davallia multifida\"]",
     "care": {
       "plant_id": "hymenophyllum_multifidum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1223,9 +1589,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum multifidum"
+      ],
+      "en": [
+        "Hymenophyllum multifidum"
+      ],
+      "es": [
+        "Hymenophyllum multifidum"
+      ],
+      "fr": [
+        "Hymenophyllum multifidum"
+      ],
+      "it": [
+        "Hymenophyllum multifidum"
+      ],
+      "nl": [
+        "Hymenophyllum multifidum"
+      ],
+      "pl": [
+        "Hymenophyllum multifidum"
+      ],
+      "pt": [
+        "Hymenophyllum multifidum"
+      ],
+      "ru": [
+        "Hymenophyllum multifidum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1235,7 +1631,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1251,7 +1647,7 @@
     "synonyms": "[\"Mecodium myriocarpum\"]",
     "care": {
       "plant_id": "hymenophyllum_myriocarpum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1317,9 +1713,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum myriocarpum"
+      ],
+      "en": [
+        "Hymenophyllum myriocarpum"
+      ],
+      "es": [
+        "Hymenophyllum myriocarpum"
+      ],
+      "fr": [
+        "Hymenophyllum myriocarpum"
+      ],
+      "it": [
+        "Hymenophyllum myriocarpum"
+      ],
+      "nl": [
+        "Hymenophyllum myriocarpum"
+      ],
+      "pl": [
+        "Hymenophyllum myriocarpum"
+      ],
+      "pt": [
+        "Hymenophyllum myriocarpum"
+      ],
+      "ru": [
+        "Hymenophyllum myriocarpum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1329,12 +1755,12 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/341710b64877b0b49262cabbce4c3d36.jpg",
-    "description": null,
+    "description": "Hymenophyllum nephrophyllum, commonly known as the kidney fern, is a filmy fern species native to New Zealand. It commonly grows on the forest floor of open native bush. Individual kidney-shaped fronds stand about 5–10 cm tall. In hot weather they shrivel up to conserve moisture, but open up again when the wet returns. This species has very thin fronds which are only four to six cells in thickness. In the Māori language they are also called raurenga.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1345,17 +1771,17 @@
     "synonyms": "[\"Cardiomanes reniforme\", \"Trichomanes reniforme\"]",
     "care": {
       "plant_id": "hymenophyllum_nephrophyllum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1411,9 +1837,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum nephrophyllum"
+      ],
+      "en": [
+        "Hymenophyllum nephrophyllum"
+      ],
+      "es": [
+        "Hymenophyllum nephrophyllum"
+      ],
+      "fr": [
+        "Hymenophyllum nephrophyllum"
+      ],
+      "it": [
+        "Hymenophyllum nephrophyllum"
+      ],
+      "nl": [
+        "Hymenophyllum nephrophyllum"
+      ],
+      "pl": [
+        "Hymenophyllum nephrophyllum"
+      ],
+      "pt": [
+        "Hymenophyllum nephrophyllum"
+      ],
+      "ru": [
+        "Hymenophyllum nephrophyllum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1423,7 +1879,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1439,7 +1895,7 @@
     "synonyms": "[\"Craspedoneuron pallidum\", \"Craspedoneuron braunii\", \"Craspedoneuron glaucofuscum\", \"Pleuromanes retusum\", \"Trichomanes retusum\", \"Trichomanes glaucofuscum\", \"Trichomanes glaucescens\", \"Trichomanes braunii\", \"Trichomanes savaiense\", \"Pleuromanes pallidum\"]",
     "care": {
       "plant_id": "hymenophyllum_pallidum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1505,9 +1961,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum pallidum"
+      ],
+      "en": [
+        "Hymenophyllum pallidum"
+      ],
+      "es": [
+        "Hymenophyllum pallidum"
+      ],
+      "fr": [
+        "Hymenophyllum pallidum"
+      ],
+      "it": [
+        "Hymenophyllum pallidum"
+      ],
+      "nl": [
+        "Hymenophyllum pallidum"
+      ],
+      "pl": [
+        "Hymenophyllum pallidum"
+      ],
+      "pt": [
+        "Hymenophyllum pallidum"
+      ],
+      "ru": [
+        "Hymenophyllum pallidum"
+      ],
+      "zh": [
+        "毛叶蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1517,7 +2006,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1533,17 +2022,17 @@
     "synonyms": "[\"Hymenophyllum peltatum var. patagonicum\", \"Hymenophyllum uncinatum\", \"Trichomanes peltatum\", \"Hymenophyllum mettenii\", \"Hymenophyllum unilaterale\", \"Hymenophyllum meyeri\", \"Hymenophyllum perfissum\", \"Meringium peltatum\", \"Hymenophyllum peltatum var. elegans\", \"Hymenophyllum tunbrigense var. peltatum\"]",
     "care": {
       "plant_id": "hymenophyllum_peltatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1599,9 +2088,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum peltatum"
+      ],
+      "en": [
+        "Hymenophyllum peltatum"
+      ],
+      "es": [
+        "Hymenophyllum peltatum"
+      ],
+      "fr": [
+        "Hymenophyllum peltatum"
+      ],
+      "it": [
+        "Hymenophyllum peltatum"
+      ],
+      "nl": [
+        "Hymenophyllum peltatum"
+      ],
+      "pl": [
+        "Hymenophyllum peltatum"
+      ],
+      "pt": [
+        "Hymenophyllum peltatum"
+      ],
+      "ru": [
+        "Hymenophyllum peltatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1611,7 +2130,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1627,17 +2146,17 @@
     "synonyms": "[\"Hymenophyllum mazei\", \"Hymenophyllum pusillum\", \"Hymenophyllum mexiae\", \"Mecodium polyanthos\", \"Myrmecostylum clavatum\", \"Hymenophyllum millefolium\", \"Hymenophyllum clavatum\", \"Hymenophyllum microphyllum\", \"Hymenophyllum fraternum\", \"Hymenophyllum botryoides\"]",
     "care": {
       "plant_id": "hymenophyllum_polyanthos",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1693,9 +2212,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum polyanthos"
+      ],
+      "en": [
+        "Hymenophyllum polyanthos"
+      ],
+      "es": [
+        "Hymenophyllum polyanthos"
+      ],
+      "fr": [
+        "Hymenophyllum polyanthos"
+      ],
+      "it": [
+        "Hymenophyllum polyanthos"
+      ],
+      "ja": [
+        "ホソバコケシノブ"
+      ],
+      "nl": [
+        "Hymenophyllum polyanthos"
+      ],
+      "pl": [
+        "Hymenophyllum polyanthos"
+      ],
+      "pt": [
+        "Hymenophyllum polyanthos"
+      ],
+      "ru": [
+        "Hymenophyllum polyanthos"
+      ],
+      "zh": [
+        "细叶蕗蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1705,7 +2260,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1721,17 +2276,17 @@
     "synonyms": "[\"Hymenophyllum gunnii\", \"Hymenophyllum imbricatum\", \"Mecodium rarum\", \"Hymenophyllum semibivalve\", \"Trichomanes rarum\"]",
     "care": {
       "plant_id": "hymenophyllum_rarum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1787,9 +2342,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum rarum"
+      ],
+      "en": [
+        "Hymenophyllum rarum"
+      ],
+      "es": [
+        "Hymenophyllum rarum"
+      ],
+      "fr": [
+        "Hymenophyllum rarum"
+      ],
+      "it": [
+        "Hymenophyllum rarum"
+      ],
+      "nl": [
+        "Hymenophyllum rarum"
+      ],
+      "pl": [
+        "Hymenophyllum rarum"
+      ],
+      "pt": [
+        "Hymenophyllum rarum"
+      ],
+      "ru": [
+        "Hymenophyllum rarum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1799,7 +2384,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1815,17 +2400,17 @@
     "synonyms": "[\"Hymenophyllum pusillum\", \"Hymenophyllum zeelandicum\"]",
     "care": {
       "plant_id": "hymenophyllum_revolutum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1881,9 +2466,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum revolutum"
+      ],
+      "en": [
+        "Hymenophyllum revolutum"
+      ],
+      "es": [
+        "Hymenophyllum revolutum"
+      ],
+      "fr": [
+        "Hymenophyllum revolutum"
+      ],
+      "it": [
+        "Hymenophyllum revolutum"
+      ],
+      "nl": [
+        "Hymenophyllum revolutum"
+      ],
+      "pl": [
+        "Hymenophyllum revolutum"
+      ],
+      "pt": [
+        "Hymenophyllum revolutum"
+      ],
+      "ru": [
+        "Hymenophyllum revolutum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1893,7 +2508,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1909,17 +2524,17 @@
     "synonyms": "[\"Hymenophyllum lophocarpum\", \"Hymenophyllum cristulatum\", \"Sphaerocionium sanguinolentum\", \"Hymenophyllum polyanthos var. sanguinolentum\", \"Mecodium sanguinolentum\", \"Trichomanes sanguinolentum\"]",
     "care": {
       "plant_id": "hymenophyllum_sanguinolentum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1975,9 +2590,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum sanguinolentum"
+      ],
+      "en": [
+        "Hymenophyllum sanguinolentum"
+      ],
+      "es": [
+        "Hymenophyllum sanguinolentum"
+      ],
+      "fr": [
+        "Hymenophyllum sanguinolentum"
+      ],
+      "it": [
+        "Hymenophyllum sanguinolentum"
+      ],
+      "nl": [
+        "Hymenophyllum sanguinolentum"
+      ],
+      "pl": [
+        "Hymenophyllum sanguinolentum"
+      ],
+      "pt": [
+        "Hymenophyllum sanguinolentum"
+      ],
+      "ru": [
+        "Hymenophyllum sanguinolentum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1987,7 +2632,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2003,7 +2648,7 @@
     "synonyms": "[\"Sphaerocionium glauduliferum\", \"Mecodium scabrum\", \"Sphaerocionium scabrum\"]",
     "care": {
       "plant_id": "hymenophyllum_scabrum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2069,9 +2714,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum scabrum"
+      ],
+      "en": [
+        "Hymenophyllum scabrum"
+      ],
+      "es": [
+        "Hymenophyllum scabrum"
+      ],
+      "fr": [
+        "Hymenophyllum scabrum"
+      ],
+      "it": [
+        "Hymenophyllum scabrum"
+      ],
+      "nl": [
+        "Hymenophyllum scabrum"
+      ],
+      "pl": [
+        "Hymenophyllum scabrum"
+      ],
+      "pt": [
+        "Hymenophyllum scabrum"
+      ],
+      "ru": [
+        "Hymenophyllum scabrum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2081,12 +2756,12 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c602d5cd99a244f0bd41280cc617b0f8b017f715",
-    "description": null,
+    "description": "Hymenophyllum tunbrigense, the Tunbridge filmy fern or Tunbridge filmy-fern, is a small, fragile perennial leptosporangiate fern which forms large dense colonies of overlapping leaves from creeping rhizomes. The common name derives from the leaves which are very thin, only a single cell thick, and translucent, giving the appearance of a wet film. The evergreen fronds are bipinnatifid, deeply and irregularly dissected, about 3 to 6 cm long, 2 cm across with dark winged stipes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2097,17 +2772,17 @@
     "synonyms": "[\"Hymenophyllum repens\", \"Hymenophyllum thomassetii\", \"Trichomanes tunbrigense\", \"Trichomanes pulchellum\", \"Hymenophyllum alatum\", \"Hymenophyllum dregeanum\"]",
     "care": {
       "plant_id": "hymenophyllum_tunbrigense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2163,11 +2838,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "de": [
+        "Englischer Hautfarn"
+      ],
       "en": [
+        "Hymenophyllum tunbrigense",
         "Tunbridge filmy fern"
+      ],
+      "es": [
+        "Hymenophyllum tunbrigense"
+      ],
+      "fr": [
+        "Hymenophyllum tunbrigense"
+      ],
+      "it": [
+        "Hymenophyllum tunbrigense"
+      ],
+      "nl": [
+        "Hymenophyllum tunbrigense"
+      ],
+      "pl": [
+        "Hymenophyllum tunbrigense"
+      ],
+      "pt": [
+        "Hymenophyllum tunbrigense"
+      ],
+      "ru": [
+        "Hymenophyllum tunbrigense"
       ]
     },
     "tags": [],
@@ -2179,12 +2881,12 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/ad2b944b6b1374c0a51cc6916d20c1a3.jpg",
-    "description": null,
+    "description": "Hymenophyllum wilsonii, the Wilson's filmy-fern, is a small, fragile, perennial leptosporangiate fern which forms large dense colonies from creeping rhizomes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2195,17 +2897,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "hymenophyllum_wilsonii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2261,9 +2963,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum wilsonii"
+      ],
+      "en": [
+        "Hymenophyllum wilsonii"
+      ],
+      "es": [
+        "Hymenophyllum wilsonii"
+      ],
+      "fr": [
+        "Hymenophyllum wilsonii"
+      ],
+      "it": [
+        "Hymenophyllum wilsonii"
+      ],
+      "nl": [
+        "Hymenophyllum wilsonii"
+      ],
+      "pl": [
+        "Hymenophyllum wilsonii"
+      ],
+      "pt": [
+        "Hymenophyllum wilsonii"
+      ],
+      "ru": [
+        "Hymenophyllum wilsonii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2273,7 +3005,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Hymenophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2289,7 +3021,7 @@
     "synonyms": "[\"Hymenophyllum wrightii f. serratum\", \"Mecodium wrightii\"]",
     "care": {
       "plant_id": "hymenophyllum_wrightii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2355,9 +3087,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hymenophyllum wrightii"
+      ],
+      "en": [
+        "Hymenophyllum wrightii"
+      ],
+      "es": [
+        "Hymenophyllum wrightii"
+      ],
+      "fr": [
+        "Hymenophyllum wrightii"
+      ],
+      "it": [
+        "Hymenophyllum wrightii"
+      ],
+      "ko": [
+        "처녀이끼"
+      ],
+      "nl": [
+        "Hymenophyllum wrightii"
+      ],
+      "pl": [
+        "Hymenophyllum wrightii"
+      ],
+      "pt": [
+        "Hymenophyllum wrightii"
+      ],
+      "ru": [
+        "Hymenophyllum wrightii"
+      ],
+      "zh": [
+        "萊氏蕗蕨"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2367,7 +3135,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Trichomanes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2383,7 +3151,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "trichomanes_ankersii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2449,9 +3217,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trichomanes ankersii"
+      ],
+      "en": [
+        "Trichomanes ankersii"
+      ],
+      "es": [
+        "Trichomanes ankersii"
+      ],
+      "fr": [
+        "Trichomanes ankersii"
+      ],
+      "it": [
+        "Trichomanes ankersii"
+      ],
+      "nl": [
+        "Trichomanes ankersii"
+      ],
+      "pl": [
+        "Trichomanes ankersii"
+      ],
+      "pt": [
+        "Trichomanes ankersii"
+      ],
+      "ru": [
+        "Trichomanes ankersii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2461,7 +3259,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Trichomanes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2477,7 +3275,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "trichomanes_crispum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2543,11 +3341,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trichomanes crispum"
+      ],
       "en": [
-        "Crisped bristle fern"
+        "Crisped bristle fern",
+        "Trichomanes crispum"
+      ],
+      "es": [
+        "Trichomanes crispum"
+      ],
+      "fr": [
+        "Trichomanes crispum"
+      ],
+      "it": [
+        "Trichomanes crispum"
+      ],
+      "nl": [
+        "Trichomanes crispum"
+      ],
+      "pl": [
+        "Trichomanes crispum"
+      ],
+      "pt": [
+        "Trichomanes crispum"
+      ],
+      "ru": [
+        "Trichomanes crispum"
       ]
     },
     "tags": [],
@@ -2559,7 +3384,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Trichomanes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2575,7 +3400,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "trichomanes_cristatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2641,9 +3466,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trichomanes cristatum"
+      ],
+      "en": [
+        "Trichomanes cristatum"
+      ],
+      "es": [
+        "Trichomanes cristatum"
+      ],
+      "fr": [
+        "Trichomanes cristatum"
+      ],
+      "it": [
+        "Trichomanes cristatum"
+      ],
+      "nl": [
+        "Trichomanes cristatum"
+      ],
+      "pl": [
+        "Trichomanes cristatum"
+      ],
+      "pt": [
+        "Trichomanes cristatum"
+      ],
+      "ru": [
+        "Trichomanes cristatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2653,7 +3508,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Trichomanes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2669,7 +3524,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "trichomanes_elegans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2735,9 +3590,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trichomanes elegans"
+      ],
+      "en": [
+        "Trichomanes elegans"
+      ],
+      "es": [
+        "Trichomanes elegans"
+      ],
+      "fr": [
+        "Trichomanes elegans"
+      ],
+      "it": [
+        "Trichomanes elegans"
+      ],
+      "nl": [
+        "Trichomanes elegans"
+      ],
+      "pl": [
+        "Trichomanes elegans"
+      ],
+      "pt": [
+        "Trichomanes elegans"
+      ],
+      "ru": [
+        "Trichomanes elegans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2747,7 +3632,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Trichomanes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2763,7 +3648,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "trichomanes_pilosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2829,9 +3714,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trichomanes pilosum"
+      ],
+      "en": [
+        "Trichomanes pilosum"
+      ],
+      "es": [
+        "Trichomanes pilosum"
+      ],
+      "fr": [
+        "Trichomanes pilosum"
+      ],
+      "it": [
+        "Trichomanes pilosum"
+      ],
+      "nl": [
+        "Trichomanes pilosum"
+      ],
+      "pl": [
+        "Trichomanes pilosum"
+      ],
+      "pt": [
+        "Trichomanes pilosum"
+      ],
+      "ru": [
+        "Trichomanes pilosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2841,7 +3756,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Trichomanes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2857,17 +3772,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "trichomanes_pinnatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
+      "light_preferred": "Shade",
       "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "ppfd_min": 25,
+      "ppfd_max": 100,
+      "dli_min": 1.0,
+      "dli_max": 4.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2923,11 +3838,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 1.5
     },
     "common_names": {
+      "de": [
+        "Trichomanes pinnatum"
+      ],
       "en": [
-        "Tansy bristle fern"
+        "Tansy bristle fern",
+        "Trichomanes pinnatum"
+      ],
+      "es": [
+        "Trichomanes pinnatum"
+      ],
+      "fr": [
+        "Trichomanes pinnatum"
+      ],
+      "it": [
+        "Trichomanes pinnatum"
+      ],
+      "nl": [
+        "Trichomanes pinnatum"
+      ],
+      "pl": [
+        "Trichomanes pinnatum"
+      ],
+      "pt": [
+        "Trichomanes pinnatum"
+      ],
+      "ru": [
+        "Trichomanes pinnatum"
       ]
     },
     "tags": [],
@@ -2939,7 +3881,7 @@
     "family": "Hymenophyllaceae",
     "genus": "Trichomanes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2955,7 +3897,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "trichomanes_polypodioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3021,11 +3963,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trichomanes polypodioides"
+      ],
       "en": [
-        "Jeweled bristle fern"
+        "Jeweled bristle fern",
+        "Trichomanes polypodioides"
+      ],
+      "es": [
+        "Trichomanes polypodioides"
+      ],
+      "fr": [
+        "Trichomanes polypodioides"
+      ],
+      "it": [
+        "Trichomanes polypodioides"
+      ],
+      "nl": [
+        "Trichomanes polypodioides"
+      ],
+      "pl": [
+        "Trichomanes polypodioides"
+      ],
+      "pt": [
+        "Trichomanes polypodioides"
+      ],
+      "ru": [
+        "Trichomanes polypodioides"
       ]
     },
     "tags": [],

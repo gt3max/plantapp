@@ -5,7 +5,7 @@
     "family": "Taxaceae",
     "genus": "Cephalotaxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طقسوس برقوقي فورتيوني"
+      ],
+      "de": [
+        "Fortunes Kopfeibe"
+      ],
       "en": [
+        "Cephalotaxus fortunei",
         "Fortune's plum-yew"
+      ],
+      "es": [
+        "Cephalotaxus fortunei"
+      ],
+      "fr": [
+        "Cephalotaxus fortunei"
+      ],
+      "it": [
+        "Cephalotaxus fortunei"
+      ],
+      "nl": [
+        "Cephalotaxus fortunei"
+      ],
+      "pl": [
+        "Głowocis Fortune'a"
+      ],
+      "pt": [
+        "Cephalotaxus fortunei"
+      ],
+      "ru": [
+        "Cephalotaxus fortunei"
+      ],
+      "zh": [
+        "三尖杉"
       ]
     },
     "tags": [],
@@ -103,7 +136,7 @@
     "family": "Taxaceae",
     "genus": "Cephalotaxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,7 +218,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -201,7 +236,7 @@
     "family": "Taxaceae",
     "genus": "Taxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -249,7 +284,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Ilex aquifolium",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs, Toxic to Cats, Toxic to Horses. Signs: Tremors, difficulty breathing, vomiting, seizures (dogs), sudden death from acute heart failure.",
       "common_problems": null,
       "common_pests": null,
@@ -268,7 +303,7 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Conical",
-      "toxic_parts": null,
+      "toxic_parts": "Whole plant without aril (red seed coat)",
       "toxicity_severity": "Severe",
       "toxicity_symptoms": "Tremors, difficulty breathing, vomiting, seizures (dogs), sudden death from acute heart failure.",
       "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
@@ -283,11 +318,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طقسوس توتي"
+      ],
+      "de": [
+        "Europäische Eibe"
+      ],
       "en": [
+        "Taxus baccata",
         "Yew"
+      ],
+      "es": [
+        "Taxus baccata"
+      ],
+      "fr": [
+        "Taxus baccata"
+      ],
+      "it": [
+        "Taxus baccata"
+      ],
+      "ja": [
+        "ヨーロッパイチイ"
+      ],
+      "ko": [
+        "서양주목"
+      ],
+      "nl": [
+        "venijnboom"
+      ],
+      "pl": [
+        "cis pospolity"
+      ],
+      "pt": [
+        "Teixo"
+      ],
+      "ru": [
+        "тис ягодный"
+      ],
+      "tr": [
+        "Yaygın porsuk"
+      ],
+      "zh": [
+        "歐洲紅豆杉"
       ]
     },
     "tags": [],
@@ -299,7 +376,7 @@
     "family": "Taxaceae",
     "genus": "Taxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -386,11 +463,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طقسوس قصير الأوراق"
+      ],
+      "de": [
+        "Pazifische Eibe"
+      ],
       "en": [
-        "Pacific yew"
+        "Pacific yew",
+        "Taxus brevifolia"
+      ],
+      "es": [
+        "Taxus brevifolia"
+      ],
+      "fr": [
+        "If de l'Ouest"
+      ],
+      "it": [
+        "Taxus brevifolia"
+      ],
+      "ja": [
+        "タイヘイヨウイチイ"
+      ],
+      "nl": [
+        "Taxus brevifolia"
+      ],
+      "pl": [
+        "Cis krótkolistny"
+      ],
+      "pt": [
+        "Taxus brevifolia"
+      ],
+      "ru": [
+        "Тис коротколистный"
+      ],
+      "zh": [
+        "短叶红豆杉"
       ]
     },
     "tags": [],
@@ -402,7 +515,7 @@
     "family": "Taxaceae",
     "genus": "Taxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -487,11 +600,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طقسوس كندي"
+      ],
+      "de": [
+        "Kanadische Eibe"
+      ],
       "en": [
-        "Ground-hemlock"
+        "Ground-hemlock",
+        "Taxus canadensis"
+      ],
+      "es": [
+        "Taxus canadensis"
+      ],
+      "fr": [
+        "If du Canada"
+      ],
+      "it": [
+        "Taxus canadensis"
+      ],
+      "ja": [
+        "カナダイチイ"
+      ],
+      "nl": [
+        "Taxus canadensis"
+      ],
+      "pl": [
+        "Cis kanadyjski"
+      ],
+      "pt": [
+        "Taxus canadensis"
+      ],
+      "ru": [
+        "Тис канадский"
+      ],
+      "tr": [
+        "Kanada porsuğu"
       ]
     },
     "tags": [],
@@ -503,7 +652,7 @@
     "family": "Taxaceae",
     "genus": "Taxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -591,11 +740,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طقسوس شرافي"
+      ],
+      "de": [
+        "Japanische Eibe"
+      ],
       "en": [
-        "Japanese yew"
+        "Japanese yew",
+        "Taxus cuspidata"
+      ],
+      "es": [
+        "Taxus cuspidata"
+      ],
+      "fr": [
+        "If du Japon"
+      ],
+      "it": [
+        "Taxus cuspidata"
+      ],
+      "ja": [
+        "イチイ"
+      ],
+      "ko": [
+        "주목"
+      ],
+      "nl": [
+        "Taxus cuspidata"
+      ],
+      "pl": [
+        "Cis japoński"
+      ],
+      "pt": [
+        "Taxus cuspidata"
+      ],
+      "ru": [
+        "тис остроконечный"
+      ],
+      "tr": [
+        "Taxus cuspidata"
+      ],
+      "zh": [
+        "东北红豆杉"
       ]
     },
     "tags": [],
@@ -607,7 +798,7 @@
     "family": "Taxaceae",
     "genus": "Taxus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -694,11 +885,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طقسوس الهيمالايا"
+      ],
+      "de": [
+        "Himalaja-Eibe"
+      ],
       "en": [
-        "Himalayan yew"
+        "Himalayan yew",
+        "Taxus wallichiana"
+      ],
+      "es": [
+        "Taxus wallichiana"
+      ],
+      "fr": [
+        "Taxus wallichiana"
+      ],
+      "it": [
+        "Taxus wallichiana"
+      ],
+      "ja": [
+        "インドイチイ"
+      ],
+      "nl": [
+        "Taxus wallichiana"
+      ],
+      "pl": [
+        "Cis Wallicha"
+      ],
+      "pt": [
+        "Taxus wallichiana"
+      ],
+      "ru": [
+        "Taxus wallichiana"
+      ],
+      "zh": [
+        "须弥红豆杉"
       ]
     },
     "tags": [],
@@ -710,7 +937,7 @@
     "family": "Taxaceae",
     "genus": "Torreya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -794,11 +1021,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "تورية كاليفورنية"
+      ],
+      "de": [
+        "Kalifornische Nusseibe"
+      ],
       "en": [
-        "California torreya"
+        "California torreya",
+        "Torreya californica"
+      ],
+      "es": [
+        "Torreya californica"
+      ],
+      "fr": [
+        "Torreya californica"
+      ],
+      "it": [
+        "Torreya californica"
+      ],
+      "ja": [
+        "アメリカガヤ"
+      ],
+      "nl": [
+        "Californische torreya"
+      ],
+      "pl": [
+        "Torreja kalifornijska"
+      ],
+      "pt": [
+        "Torreya californica"
+      ],
+      "ru": [
+        "Torreya californica"
+      ],
+      "zh": [
+        "加州榧"
       ]
     },
     "tags": [],
@@ -810,7 +1073,7 @@
     "family": "Taxaceae",
     "genus": "Torreya",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -894,11 +1157,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "تورية جوزة الطيب"
+      ],
+      "de": [
+        "Japanische Nusseibe"
+      ],
       "en": [
-        "Japanese torreya"
+        "Japanese torreya",
+        "Torreya nucifera"
+      ],
+      "es": [
+        "Torreya nucifera"
+      ],
+      "fr": [
+        "Torreya nucifera"
+      ],
+      "it": [
+        "Torreya nucifera"
+      ],
+      "ja": [
+        "カヤ"
+      ],
+      "ko": [
+        "비자나무"
+      ],
+      "nl": [
+        "Torreya nucifera"
+      ],
+      "pl": [
+        "Torreja orzechowa"
+      ],
+      "pt": [
+        "Kaya"
+      ],
+      "ru": [
+        "Торрея орехоносная"
+      ],
+      "zh": [
+        "日本榧树"
       ]
     },
     "tags": [],

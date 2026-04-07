@@ -5,7 +5,7 @@
     "family": "Buxbaumiaceae",
     "genus": "Buxbaumia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Blattloses Koboldmoos"
+      ],
+      "en": [
+        "Buxbaumia aphylla"
+      ],
+      "es": [
+        "Buxbaumia aphylla"
+      ],
+      "fr": [
+        "Buxbaumia aphylla"
+      ],
+      "it": [
+        "Buxbaumia aphylla"
+      ],
+      "nl": [
+        "Buxbaumia aphylla"
+      ],
+      "pl": [
+        "Buxbaumia aphylla"
+      ],
+      "pt": [
+        "Buxbaumia aphylla"
+      ],
+      "ru": [
+        "Буксбаумия безлистная"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Buxbaumiaceae",
     "genus": "Buxbaumia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Buxbaumia_viridis_220313.JPG",
+    "description": "Buxbaumia viridis, also known as the green shield-moss, is a rare bryophyte found sporadically throughout the northern hemisphere. The gametophyte of this moss is not macroscopically visible; the large, distinct sporophyte of B. viridis is the only identifying structure of this moss. This moss can be found singularly or in small groups on decaying wood, mostly in humid, sub-alpine to alpine Picea abies, Abies alba, or mixed tree forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Grünes Koboldmoos"
+      ],
+      "en": [
+        "Buxbaumia viridis"
+      ],
+      "es": [
+        "Buxbaumia viridis"
+      ],
+      "fr": [
+        "Buxbaumia viridis"
+      ],
+      "it": [
+        "Buxbaumia viridis"
+      ],
+      "nl": [
+        "Buxbaumia viridis"
+      ],
+      "pl": [
+        "Bezlist okrywowy"
+      ],
+      "pt": [
+        "Buxbaumia viridis"
+      ],
+      "ru": [
+        "Buxbaumia viridis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

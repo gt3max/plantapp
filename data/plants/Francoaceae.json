@@ -5,12 +5,12 @@
     "family": "Francoaceae",
     "genus": "Bersama",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/23e3825c6ebd8db9a185d103678b8d06.jpg",
-    "description": null,
+    "description": "Bersama abyssinica is a species of medium-sized evergreen tree in the family Francoaceae. The leaves are pinnately divided with a strongly winged rachis. The inflorescence is a spike.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bersama abyssinica"
+      ],
+      "en": [
+        "Bersama abyssinica"
+      ],
+      "es": [
+        "Bersama abyssinica"
+      ],
+      "fr": [
+        "Bersama abyssinica"
+      ],
+      "it": [
+        "Bersama abyssinica"
+      ],
+      "nl": [
+        "Bersama abyssinica"
+      ],
+      "pl": [
+        "Bersama abyssinica"
+      ],
+      "pt": [
+        "Bersama abyssinica"
+      ],
+      "ru": [
+        "Bersama abyssinica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Francoaceae",
     "genus": "Melianthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7d32679de01fe796006e4844e61223ead4742ca4",
-    "description": null,
+    "description": "Melianthus major, the giant honey flower or kruidjie-roer-my-nie, is a species of flowering plant in the family Francoaceae. It is an evergreen suckering shrub, endemic to South Africa and naturalised in India, Australia and New Zealand. It grows to 2–3 m (7–10 ft) tall by 1–3 m (3–10 ft) wide, with pinnate blue-green leaves 30–50 cm (12–20 in) long, which have a distinctive musky odour.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,11 +211,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زهرة العسل الكبيرة"
+      ],
+      "de": [
+        "Honigstrauch"
+      ],
       "en": [
+        "Melianthus major",
         "Tall cape honey-flower"
+      ],
+      "es": [
+        "Melianthus major"
+      ],
+      "fr": [
+        "Melianthus major"
+      ],
+      "it": [
+        "Melianthus major"
+      ],
+      "nl": [
+        "Melianthus major"
+      ],
+      "pl": [
+        "Melianthus major"
+      ],
+      "pt": [
+        "Melianthus major"
+      ],
+      "ru": [
+        "Melianthus major"
+      ],
+      "zh": [
+        "蜜花"
       ]
     },
     "tags": [],

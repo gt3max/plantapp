@@ -5,7 +5,7 @@
     "family": "Caricaceae",
     "genus": "Carica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,9 +21,9 @@
     "synonyms": "[\"Carica papaya f. portoricensis\", \"Papaya carica\", \"Carica pinnatifida\", \"Papaya peltata\", \"Carica papaya f. correae\", \"Papaya citriformis\", \"Carica papaya f. ernstii\", \"Carica papaya var. jimenezii\", \"Papaya papaya\", \"Papaya rochefortii\"]",
     "care": {
       "plant_id": "carica_papaya",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "Bright indirect light",
@@ -95,11 +95,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ببايا"
+      ],
+      "de": [
+        "Papaya"
+      ],
       "en": [
+        "Carica papaya",
         "Pawpaw"
+      ],
+      "es": [
+        "Carica papaya"
+      ],
+      "fr": [
+        "Carica papaya"
+      ],
+      "hi": [
+        "पपीता"
+      ],
+      "it": [
+        "Carica papaya"
+      ],
+      "ja": [
+        "パパイア"
+      ],
+      "ko": [
+        "파파야"
+      ],
+      "nl": [
+        "papaja"
+      ],
+      "pl": [
+        "melonowiec właściwy"
+      ],
+      "pt": [
+        "mamão"
+      ],
+      "ru": [
+        "папайя"
+      ],
+      "tr": [
+        "Papaya"
+      ],
+      "zh": [
+        "番木瓜"
       ]
     },
     "tags": [],
@@ -111,12 +156,12 @@
     "family": "Caricaceae",
     "genus": "Jacaratia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2db57890f824ae1ffee857c11bb999916bd666fd",
-    "description": null,
+    "description": "Jacaratia spinosa is a species of tree, in the genus Jacaratia of the family Caricaceae. It is found in the tropical dry forests of central and southern Mexico, Nicaragua, and El Salvador. Its stem is used as a main ingredient in the manufacturing of candy. Its fruit is also appreciated by many animals including monkeys and birds.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -193,9 +238,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Jacaratia spinosa"
+      ],
+      "en": [
+        "Jacaratia spinosa"
+      ],
+      "es": [
+        "Jacaratia spinosa"
+      ],
+      "fr": [
+        "Jacaratia spinosa"
+      ],
+      "it": [
+        "Jacaratia spinosa"
+      ],
+      "nl": [
+        "Jacaratia spinosa"
+      ],
+      "pl": [
+        "Jacaratia spinosa"
+      ],
+      "pt": [
+        "Jaracatiá"
+      ],
+      "ru": [
+        "Jacaratia spinosa"
+      ],
+      "zh": [
+        "哈喀拉帝亞"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -205,7 +283,7 @@
     "family": "Caricaceae",
     "genus": "Vasconcellea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -287,9 +365,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Vasconcellea quercifolia"
+      ],
+      "en": [
+        "Vasconcellea quercifolia"
+      ],
+      "es": [
+        "Vasconcellea quercifolia"
+      ],
+      "fr": [
+        "Vasconcellea quercifolia"
+      ],
+      "it": [
+        "Vasconcellea quercifolia"
+      ],
+      "ko": [
+        "너도파파야"
+      ],
+      "nl": [
+        "Vasconcellea quercifolia"
+      ],
+      "pl": [
+        "Vasconcellea quercifolia"
+      ],
+      "pt": [
+        "Mamão-do-mato"
+      ],
+      "ru": [
+        "Дынное дерево дуболистное"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

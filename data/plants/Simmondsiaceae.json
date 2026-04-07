@@ -5,12 +5,12 @@
     "family": "Simmondsiaceae",
     "genus": "Simmondsia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2f689e097b890ad8616774392f1a33171983c5a9",
-    "description": null,
+    "description": "Jojoba – also commonly called goat nut, deer nut, pignut, wild hazel, quinine nut, coffeeberry, and gray box bush – is an evergreen, dioecious shrub native to the Southwestern United States and northern Mexico. Simmondsia chinensis is the sole species of the family Simmondsiaceae, placed in the order Caryophyllales.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "هوهوبا"
+      ],
+      "de": [
+        "Jojoba"
+      ],
       "en": [
-        "Goatnut"
+        "Goatnut",
+        "Simmondsia chinensis"
+      ],
+      "es": [
+        "Simmondsia chinensis"
+      ],
+      "fr": [
+        "jojoba"
+      ],
+      "hi": [
+        "होहोबा"
+      ],
+      "it": [
+        "Simmondsia chinensis"
+      ],
+      "ja": [
+        "ホホバ"
+      ],
+      "ko": [
+        "호호바"
+      ],
+      "nl": [
+        "jojoba"
+      ],
+      "pl": [
+        "Simondsja kalifornijska"
+      ],
+      "pt": [
+        "jojoba"
+      ],
+      "ru": [
+        "жожоба"
+      ],
+      "tr": [
+        "jojoba"
+      ],
+      "zh": [
+        "西蒙德木"
       ]
     },
     "tags": [],

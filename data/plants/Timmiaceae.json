@@ -5,7 +5,7 @@
     "family": "Timmiaceae",
     "genus": "Timmia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Timmia austriaca"
+      ],
+      "en": [
+        "Timmia austriaca"
+      ],
+      "es": [
+        "Timmia austriaca"
+      ],
+      "fr": [
+        "Timmia austriaca"
+      ],
+      "it": [
+        "Timmia austriaca"
+      ],
+      "nl": [
+        "Timmia austriaca"
+      ],
+      "pl": [
+        "Timmia austriaca"
+      ],
+      "pt": [
+        "Timmia austriaca"
+      ],
+      "ru": [
+        "Timmia austriaca"
+      ],
+      "zh": [
+        "南方美姿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Timmiaceae",
     "genus": "Timmia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Timmia megapolitana"
+      ],
+      "en": [
+        "Timmia megapolitana"
+      ],
+      "es": [
+        "Timmia megapolitana"
+      ],
+      "fr": [
+        "Timmia megapolitana"
+      ],
+      "it": [
+        "Timmia megapolitana"
+      ],
+      "nl": [
+        "Timmia megapolitana"
+      ],
+      "pl": [
+        "Trzęsiec meklemburski"
+      ],
+      "pt": [
+        "Timmia megapolitana"
+      ],
+      "ru": [
+        "Timmia megapolitana"
+      ],
+      "zh": [
+        "美姿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +259,7 @@
     "family": "Timmiaceae",
     "genus": "Timmia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +341,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Timmia norvegica"
+      ],
+      "en": [
+        "Timmia norvegica"
+      ],
+      "es": [
+        "Timmia norvegica"
+      ],
+      "fr": [
+        "Timmia norvegica"
+      ],
+      "it": [
+        "Timmia norvegica"
+      ],
+      "nl": [
+        "Timmia norvegica"
+      ],
+      "pl": [
+        "Timmia norvegica"
+      ],
+      "pt": [
+        "Timmia norvegica"
+      ],
+      "ru": [
+        "Timmia norvegica"
+      ],
+      "zh": [
+        "挪威美姿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

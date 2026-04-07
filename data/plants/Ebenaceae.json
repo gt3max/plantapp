@@ -5,12 +5,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1147f5bcef785d1ac2de8db1ad52a40173ac78a4",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros abyssinica is a tree species in the family Ebenaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,7 +21,7 @@
     "synonyms": "[\"Ebenus abyssinica\", \"Maba abyssinica\"]",
     "care": {
       "plant_id": "diospyros_abyssinica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros abyssinica"
+      ],
+      "en": [
+        "Diospyros abyssinica"
+      ],
+      "es": [
+        "Diospyros abyssinica"
+      ],
+      "fr": [
+        "Diospyros abyssinica"
+      ],
+      "it": [
+        "Diospyros abyssinica"
+      ],
+      "nl": [
+        "Diospyros abyssinica"
+      ],
+      "pl": [
+        "Diospyros abyssinica"
+      ],
+      "pt": [
+        "Diospyros abyssinica"
+      ],
+      "ru": [
+        "Diospyros abyssinica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/84692b1fc8aa1bdb8101f6e6403537121b88b3e2",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros acapulcensis is a species of tree in the family Ebenaceae. It is native to Central America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -115,7 +145,7 @@
     "synonyms": "[\"Macreightia acapulcensis\", \"Ebenus acapulcensis\", \"Maba acapulcensis\"]",
     "care": {
       "plant_id": "diospyros_acapulcensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros acapulcensis"
+      ],
+      "en": [
+        "Diospyros acapulcensis"
+      ],
+      "es": [
+        "Diospyros acapulcensis"
+      ],
+      "fr": [
+        "Diospyros acapulcensis"
+      ],
+      "it": [
+        "Diospyros acapulcensis"
+      ],
+      "nl": [
+        "Diospyros acapulcensis"
+      ],
+      "pl": [
+        "Diospyros acapulcensis"
+      ],
+      "pt": [
+        "Diospyros acapulcensis"
+      ],
+      "ru": [
+        "Diospyros acapulcensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +253,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e00fab16674724d93aac709d824af07a.jpg",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros australis  is the most southerly of the group of some 450 ebonies and persimmons. It is a shrub or small tree growing in rainforests of seaward eastern Australia. The habitat is in a variety of different rainforest forms, though not often seen in the cool temperate rainforests. The range of natural distribution is from Durras Lake near Batemans Bay in south east New South Wales, to Atherton in tropical Queensland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -209,17 +269,17 @@
     "synonyms": "[\"Diospyros microcarpa\", \"Maba cargillia\", \"Diospyros cargillia\", \"Annona microcarpa\", \"Cargillia australis\", \"Monodora microcarpa\"]",
     "care": {
       "plant_id": "diospyros_australis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -275,9 +335,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "خرمال جنوبي"
+      ],
+      "de": [
+        "Diospyros australis"
+      ],
+      "en": [
+        "Diospyros australis"
+      ],
+      "es": [
+        "Diospyros australis"
+      ],
+      "fr": [
+        "Diospyros australis"
+      ],
+      "it": [
+        "Diospyros australis"
+      ],
+      "nl": [
+        "Diospyros australis"
+      ],
+      "pl": [
+        "Diospyros australis"
+      ],
+      "pt": [
+        "Diospyros australis"
+      ],
+      "ru": [
+        "Diospyros australis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,12 +380,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4cf0dcdd4730ee9f714875cc6a3d53f1.jpg",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros eriantha is a tree in the family Ebenaceae. It grows up to 7 metres (20 ft) tall. The fruits are ellipsoid, black, up to 1 cm (0.4 in) long. The specific epithet eriantha is from the Greek meaning 'woolly flowers'. D. eriantha is found in and around southern China, Indochina, Sumatra, Java, Borneo, Taiwan and the Philippines.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -303,7 +396,7 @@
     "synonyms": "[\"Diospyros teysmannii\", \"Diospyros velascoi\", \"Diospyros eriantha var. velascoi\", \"Ebenus teysmannii\"]",
     "care": {
       "plant_id": "diospyros_eriantha",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -369,9 +462,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros eriantha"
+      ],
+      "en": [
+        "Diospyros eriantha"
+      ],
+      "es": [
+        "Diospyros eriantha"
+      ],
+      "fr": [
+        "Diospyros eriantha"
+      ],
+      "it": [
+        "Diospyros eriantha"
+      ],
+      "ja": [
+        "ヤワラケガキ"
+      ],
+      "nl": [
+        "Diospyros eriantha"
+      ],
+      "pl": [
+        "Diospyros eriantha"
+      ],
+      "pt": [
+        "Diospyros eriantha"
+      ],
+      "ru": [
+        "Diospyros eriantha"
+      ],
+      "zh": [
+        "乌材"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,12 +510,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/253d017d54872b68328cb6c51919d568.jpg",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros ferrea, known as black ebony, is a tree in the ebony family, distributed in Burma (Myanmar), Cambodia, India, Indonesia, Malay Peninsula, Philippines, Sri Lanka, Thailand, Laos (Khammouan) and Taiwan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -397,7 +526,7 @@
     "synonyms": "[\"Diospyros ferrea var. ellipsoidea\", \"Maba guineensis\", \"Maba ebenus\", \"Diospyros ferrea f. obovata\", \"Diospyros ferrea f. oblongata\", \"Diospyros nigrescens\", \"Diospyros ferrea f. globosa\", \"Maba ebenoxylon\", \"Maba ferrea\", \"Maba vacciniifolia\"]",
     "care": {
       "plant_id": "diospyros_ferrea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -463,9 +592,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros ferrea"
+      ],
+      "en": [
+        "Diospyros ferrea"
+      ],
+      "es": [
+        "Diospyros ferrea"
+      ],
+      "fr": [
+        "Diospyros ferrea"
+      ],
+      "it": [
+        "Diospyros ferrea"
+      ],
+      "ja": [
+        "ヤエヤマコクタン"
+      ],
+      "nl": [
+        "Diospyros ferrea"
+      ],
+      "pl": [
+        "Diospyros ferrea"
+      ],
+      "pt": [
+        "Diospyros ferrea"
+      ],
+      "ru": [
+        "Diospyros ferrea"
+      ],
+      "zh": [
+        "象牙树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -475,12 +640,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/61a046552e5999f99aed15c6655cf47d.jpg",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros geminata is a small tree or shrub of dry rainforest, gallery forest and sub tropical rainforest of Australia and New Guinea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -491,7 +656,7 @@
     "synonyms": "[\"Maba geminata\", \"Ebenus geminata\", \"Diospyros ferrea var. geminata\"]",
     "care": {
       "plant_id": "diospyros_geminata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -557,9 +722,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros geminata"
+      ],
+      "en": [
+        "Diospyros geminata"
+      ],
+      "es": [
+        "Diospyros geminata"
+      ],
+      "fr": [
+        "Diospyros geminata"
+      ],
+      "it": [
+        "Diospyros geminata"
+      ],
+      "nl": [
+        "Diospyros geminata"
+      ],
+      "pl": [
+        "Diospyros geminata"
+      ],
+      "pt": [
+        "Diospyros geminata"
+      ],
+      "ru": [
+        "Diospyros geminata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -569,12 +764,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/76a4215c1c117d30c7b2c311e35c49ba.jpg",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros humilis, commonly named Queensland ebony, is a small eastern Australian tree found throughout Queensland and extending into Northern New South Wales and the Northern Territory. The plant is most commonly found in coastal and semi-arid zones in vine scrubs, brigalow woodlands and other locales with infrequent fire.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -585,7 +780,7 @@
     "synonyms": "[\"Ebenus humilis\", \"Maba obovata\", \"Maba humilis\", \"Ebenus obovata\", \"Diospyros ferrea var. humilis\"]",
     "care": {
       "plant_id": "diospyros_humilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -651,9 +846,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros humilis"
+      ],
+      "en": [
+        "Diospyros humilis"
+      ],
+      "es": [
+        "Diospyros humilis"
+      ],
+      "fr": [
+        "Diospyros humilis"
+      ],
+      "it": [
+        "Diospyros humilis"
+      ],
+      "nl": [
+        "Diospyros humilis"
+      ],
+      "pl": [
+        "Diospyros humilis"
+      ],
+      "pt": [
+        "Diospyros humilis"
+      ],
+      "ru": [
+        "Хурма низкая"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -663,12 +888,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/62bdb438c289d782712900617cc60dca966dd0fa",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros inconstans is a species of tree in the family Ebenaceae. It is native to Panama and South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -679,7 +904,7 @@
     "synonyms": "[\"Ebenus inconstans\", \"Macreightia inconstans\", \"Maba inconstans\"]",
     "care": {
       "plant_id": "diospyros_inconstans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -745,9 +970,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros inconstans"
+      ],
+      "en": [
+        "Diospyros inconstans"
+      ],
+      "es": [
+        "Diospyros inconstans"
+      ],
+      "fr": [
+        "Diospyros inconstans"
+      ],
+      "it": [
+        "Diospyros inconstans"
+      ],
+      "nl": [
+        "Diospyros inconstans"
+      ],
+      "pl": [
+        "Diospyros inconstans"
+      ],
+      "pt": [
+        "Diospyros inconstans"
+      ],
+      "ru": [
+        "Diospyros inconstans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -757,12 +1012,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/96d0f5cfe3fff49dac74f0158af34a6a65e4f96d",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros kaki, the Oriental persimmon, Chinese persimmon, Japanese persimmon, kaki persimmon, or Fuyu persimmon, is the most widely cultivated species of the genus Diospyros. Although its first botanical description was not published until 1780, D. kaki cultivation in China dates back more than 2000 years.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -773,17 +1028,17 @@
     "synonyms": "[\"Diospyros kaki var. sahuti\", \"Diospyros kaki var. costata\", \"Diospyros kaki var. elliptica\", \"Diospyros amara\", \"Diospyros trichocarpa\", \"Diospyros kaki var. silvestris\", \"Diospyros costata\", \"Diospyros roxburghii\", \"Diospyros wieseneri\", \"Diospyros lycopersicon\"]",
     "care": {
       "plant_id": "diospyros_kaki",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -839,11 +1094,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "كاكي"
+      ],
+      "de": [
+        "Kaki"
+      ],
       "en": [
+        "Diospyros kaki",
         "Japanese persimmon"
+      ],
+      "es": [
+        "Diospyros kaki"
+      ],
+      "fr": [
+        "plaqueminier"
+      ],
+      "it": [
+        "Diospyros kaki"
+      ],
+      "ja": [
+        "カキノキ"
+      ],
+      "ko": [
+        "감나무"
+      ],
+      "nl": [
+        "kaki"
+      ],
+      "pl": [
+        "Hurma wschodnia"
+      ],
+      "pt": [
+        "Dióspiro"
+      ],
+      "ru": [
+        "хурма восточная"
+      ],
+      "tr": [
+        "Trabzon hurması"
+      ],
+      "zh": [
+        "柿树"
       ]
     },
     "tags": [],
@@ -855,12 +1152,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/efaf90eecf88bb44b553c67fd1ab6f45.jpg",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -871,7 +1168,7 @@
     "synonyms": "[\"Annona lasiocalyx\", \"Diospyros hispida var. camporum\", \"Diospyros mattogrossensis\", \"Diospyros hispida\", \"Diospyros burchellii\", \"Diospyros coccolobifolia var. pubescens\"]",
     "care": {
       "plant_id": "diospyros_lasiocalyx",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -937,9 +1234,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros lasiocalyx"
+      ],
+      "en": [
+        "Diospyros lasiocalyx"
+      ],
+      "es": [
+        "Diospyros lasiocalyx"
+      ],
+      "fr": [
+        "Diospyros lasiocalyx"
+      ],
+      "it": [
+        "Diospyros lasiocalyx"
+      ],
+      "nl": [
+        "Diospyros lasiocalyx"
+      ],
+      "pl": [
+        "Diospyros lasiocalyx"
+      ],
+      "pt": [
+        "Diospyros lasiocalyx"
+      ],
+      "ru": [
+        "Diospyros lasiocalyx"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -949,12 +1276,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/705cdfd7ecbbeccccc15bc528e5e83ea9035bd42",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "The date-plum, also known by the common names Caucasian persimmon and lilac persimmon, is a widely cultivated species of the genus Diospyros, native to temperate Asia and southeast Europe. Its English name derives from the small fruit, which have a taste reminiscent of both plums and dates. It is among the oldest plants in cultivation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -965,17 +1292,17 @@
     "synonyms": "[\"Diospyros lotus f. globosa\", \"Diospyros lotus f. ellipsoidea\", \"Dactylus trapezuntinus\", \"Diospyros lotus f. longifolia\", \"Diospyros lotus var. mollissima\", \"Diospyros lotus var. laevis\", \"Diospyros mediterranea\", \"Diospyros umlovok\", \"Diospyros lotus var. angustifolia\", \"Diospyros calycina\"]",
     "care": {
       "plant_id": "diospyros_lotus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1031,11 +1358,54 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "خرمندي"
+      ],
+      "de": [
+        "Lotuspflaume"
+      ],
       "en": [
+        "Date-plum",
+        "Diospyros lotus",
         "Lotus persimmon"
+      ],
+      "es": [
+        "Diospyros lotus"
+      ],
+      "fr": [
+        "Diospyros lotus"
+      ],
+      "it": [
+        "Diospyros lotus"
+      ],
+      "ja": [
+        "マメガキ"
+      ],
+      "ko": [
+        "고욤나무"
+      ],
+      "nl": [
+        "lotusboom"
+      ],
+      "pl": [
+        "hurma kaukaska"
+      ],
+      "pt": [
+        "Diospyros lotus"
+      ],
+      "ru": [
+        "хурма кавказская"
+      ],
+      "tr": [
+        "Küçük Trabzon hurması"
+      ],
+      "zh": [
+        "君遷子"
       ]
     },
     "tags": [],
@@ -1047,12 +1417,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/3a021f516c6d0ca8e7f05949ac394c4a.jpg",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros lycioides, commonly called the bushveld bluebush, is a species of African Diospyros, trees and shrubs in the family Ebenaceae. It is native to central and southern Africa, except the winter-rainfall area. It grows in Australia and is known as a weed there. Many parts of the plant are used: the wood, the roots and stems for toothbrushes, the fruits for alcoholic drinks, and the roots and bark in traditional medicine.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1063,7 +1433,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "diospyros_lycioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1129,9 +1499,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros lycioides"
+      ],
+      "en": [
+        "Diospyros lycioides"
+      ],
+      "es": [
+        "Diospyros lycioides"
+      ],
+      "fr": [
+        "Diospyros lycioides"
+      ],
+      "it": [
+        "Diospyros lycioides"
+      ],
+      "nl": [
+        "Diospyros lycioides"
+      ],
+      "pl": [
+        "Diospyros lycioides"
+      ],
+      "pt": [
+        "Diospyros lycioides"
+      ],
+      "ru": [
+        "Diospyros lycioides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1141,12 +1541,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/203b3e94e2e5b1f699c922174c4ff79d26e1b02e",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros maritima is a tree in the family Ebenaceae. The specific epithet maritima means 'by the sea', referring to the tree's habitat.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1157,7 +1557,7 @@
     "synonyms": "[\"Diospyros kusanoi\", \"Diospyros laxa\", \"Diospyros liukiuensis\", \"Cargillia megalocarpa\", \"Diospyros camarinensis\", \"Cargillia maritima\", \"Diospyros maritima var. oblongata\", \"Diospyros maritima var. ovalifolia\", \"Diospyros nitens\", \"Diospyros tetrandra\"]",
     "care": {
       "plant_id": "diospyros_maritima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1223,11 +1623,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "خرمال بحري"
+      ],
+      "de": [
+        "Diospyros maritima"
+      ],
       "en": [
+        "Diospyros maritima",
         "Sea ebony"
+      ],
+      "es": [
+        "Diospyros maritima"
+      ],
+      "fr": [
+        "Diospyros maritima"
+      ],
+      "it": [
+        "Diospyros maritima"
+      ],
+      "ja": [
+        "リュウキュウガキ"
+      ],
+      "nl": [
+        "Diospyros maritima"
+      ],
+      "pl": [
+        "Diospyros maritima"
+      ],
+      "pt": [
+        "Diospyros maritima"
+      ],
+      "ru": [
+        "Diospyros maritima"
+      ],
+      "zh": [
+        "海边柿"
       ]
     },
     "tags": [],
@@ -1239,12 +1675,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/493bb5c01de264a8cb554856d5bd3e19f1488611",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros mespiliformis, the jackalberry, is a large dioecious evergreen tree found mostly in the savannas of Africa. Jackals are fond of the fruit, hence the common names. It is a member of the family Ebenaceae, and is related to the true ebony and edible persimmon.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1255,17 +1691,17 @@
     "synonyms": "[\"Diospyros sabiensis\", \"Diospyros corylicarpa\", \"Diospyros bicolor\", \"Diospyros holtzii\", \"Diospyros kilimandscharica\", \"Diospyros senegalensis\"]",
     "care": {
       "plant_id": "diospyros_mespiliformis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1321,11 +1757,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "ظلامة"
+      ],
+      "de": [
+        "Diospyros mespiliformis"
+      ],
       "en": [
+        "Diospyros mespiliformis",
         "Ebony diospyros"
+      ],
+      "es": [
+        "Diospyros mespiliformis"
+      ],
+      "fr": [
+        "Diospyros mespiliformis"
+      ],
+      "it": [
+        "Diospyros mespiliformis"
+      ],
+      "ja": [
+        "ジャッカルベリー"
+      ],
+      "nl": [
+        "Jakhalsbes"
+      ],
+      "pl": [
+        "Diospyros mespiliformis"
+      ],
+      "pt": [
+        "Diospyros mespiliformis"
+      ],
+      "ru": [
+        "Хурма мушмуловидная"
+      ],
+      "zh": [
+        "胡狼柿"
       ]
     },
     "tags": [],
@@ -1337,12 +1809,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e83b6a44dbe7514333230c25a091847b.jpg",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1353,7 +1825,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "diospyros_monbuttensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1419,9 +1891,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros monbuttensis"
+      ],
+      "en": [
+        "Diospyros monbuttensis"
+      ],
+      "es": [
+        "Diospyros monbuttensis"
+      ],
+      "fr": [
+        "Diospyros monbuttensis"
+      ],
+      "it": [
+        "Diospyros monbuttensis"
+      ],
+      "nl": [
+        "Diospyros monbuttensis"
+      ],
+      "pl": [
+        "Diospyros monbuttensis"
+      ],
+      "pt": [
+        "Diospyros monbuttensis"
+      ],
+      "ru": [
+        "Diospyros monbuttensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1431,12 +1933,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6004e814411922e8aa3e9d3d455b969b.jpg",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": "Diospyros pentamera is a common rainforest tree in the Ebony or Persimmon family (Ebenaceae) growing from near Batemans Bay in New South Wales to the Atherton Tableland in tropical Queensland, Australia. It is commonly known as the myrtle ebony, black myrtle, grey plum or grey persimmon.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1447,7 +1949,7 @@
     "synonyms": "[\"Cargillia pentamera\", \"Cargillia arborea\", \"Maba pentamera\"]",
     "care": {
       "plant_id": "diospyros_pentamera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1513,9 +2015,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros pentamera"
+      ],
+      "en": [
+        "Diospyros pentamera"
+      ],
+      "es": [
+        "Diospyros pentamera"
+      ],
+      "fr": [
+        "Diospyros pentamera"
+      ],
+      "it": [
+        "Diospyros pentamera"
+      ],
+      "nl": [
+        "Diospyros pentamera"
+      ],
+      "pl": [
+        "Diospyros pentamera"
+      ],
+      "pt": [
+        "Diospyros pentamera"
+      ],
+      "ru": [
+        "Diospyros pentamera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1525,12 +2057,12 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5e6388ec5d69895c5f84eed1b30a1b9a7fc5eea0",
-    "description": "3-4 inch orange fruit is globular/ oval. When cut in the middle, it has 8 lighter colored lines inside. May persist into winter.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1541,7 +2073,7 @@
     "synonyms": "[\"Diospyros praetermissa\", \"Diospyros vestita\", \"Maba sericea\", \"Ebenus sericea\"]",
     "care": {
       "plant_id": "diospyros_sericea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1607,9 +2139,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Diospyros sericea"
+      ],
+      "en": [
+        "Diospyros sericea"
+      ],
+      "es": [
+        "Diospyros sericea"
+      ],
+      "fr": [
+        "Diospyros sericea"
+      ],
+      "it": [
+        "Diospyros sericea"
+      ],
+      "nl": [
+        "Diospyros sericea"
+      ],
+      "pl": [
+        "Diospyros sericea"
+      ],
+      "pt": [
+        "Diospyros sericea"
+      ],
+      "ru": [
+        "Diospyros sericea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1619,7 +2181,7 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1635,17 +2197,17 @@
     "synonyms": "[\"Brayodendron texanum\", \"Diospyros cuneifolia\", \"Diospyros mexicana\"]",
     "care": {
       "plant_id": "diospyros_texana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1701,11 +2263,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "خرمال تكساني"
+      ],
+      "de": [
+        "Diospyros texana"
+      ],
       "en": [
+        "Diospyros texana",
         "Texas persimmon"
+      ],
+      "es": [
+        "Diospyros texana"
+      ],
+      "fr": [
+        "Diospyros texana"
+      ],
+      "it": [
+        "Diospyros texana"
+      ],
+      "ko": [
+        "텍사스감나무"
+      ],
+      "nl": [
+        "Diospyros texana"
+      ],
+      "pl": [
+        "Diospyros texana"
+      ],
+      "pt": [
+        "Diospyros texana"
+      ],
+      "ru": [
+        "Diospyros texana"
+      ],
+      "zh": [
+        "德州柿"
       ]
     },
     "tags": [],
@@ -1717,7 +2315,7 @@
     "family": "Ebenaceae",
     "genus": "Diospyros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1733,17 +2331,17 @@
     "synonyms": "[\"Diospyros intermedia\", \"Diospyros angustifolia\", \"Diospyros digyna\", \"Diospyros virginiana var. insignis\", \"Diospyros undulata\", \"Diospyros caroliniana\", \"Diospyros virginiana var. macrocarpa\", \"Diospyros guaiacana\", \"Diospyros lucida\", \"Diospyros virginiana subsp. mosieri\"]",
     "care": {
       "plant_id": "diospyros_virginiana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1803,11 +2401,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "ديوسبيروس فرجينيا"
+      ],
+      "de": [
+        "Diospyros virginiana"
+      ],
       "en": [
+        "Diospyros virginiana",
         "Persimmon"
+      ],
+      "es": [
+        "Diospyros virginiana"
+      ],
+      "fr": [
+        "Diospyros virginiana"
+      ],
+      "it": [
+        "Diospyros virginiana"
+      ],
+      "ja": [
+        "アメリカガキ"
+      ],
+      "nl": [
+        "Amerikaanse persimmon"
+      ],
+      "pl": [
+        "Diospyros virginiana"
+      ],
+      "pt": [
+        "Caqui americano"
+      ],
+      "ru": [
+        "Хурма виргинская"
+      ],
+      "zh": [
+        "美洲柿"
       ]
     },
     "tags": [],
@@ -1819,12 +2453,12 @@
     "family": "Ebenaceae",
     "genus": "Euclea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e9d0a4220846b821c4d14d0055028acdb5f8defe",
-    "description": null,
+    "description": "Euclea crispa, commonly known as the blue guarri, is an Afrotropical plant species of the family Ebenaceae. The hardy and evergreen plants may form a dense stand of shrubs, or grow to tree size. It is widespread and common in the interior regions of southern Africa, and occurs northward to the tropics. Though some are present near the South African south and east coasts, they generally occur at middle to high altitudes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1901,11 +2535,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Euclea crispa"
+      ],
       "en": [
-        "Blue guarri"
+        "Blue guarri",
+        "Euclea crispa"
+      ],
+      "es": [
+        "Euclea crispa"
+      ],
+      "fr": [
+        "Euclea crispa"
+      ],
+      "it": [
+        "Euclea crispa"
+      ],
+      "nl": [
+        "Euclea crispa"
+      ],
+      "pl": [
+        "Euclea crispa"
+      ],
+      "pt": [
+        "Euclea crispa"
+      ],
+      "ru": [
+        "Euclea crispa"
       ]
     },
     "tags": [],
@@ -1917,12 +2578,12 @@
     "family": "Ebenaceae",
     "genus": "Euclea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2bb97ce7c302ecd54c039dc50673bef9152b66e7",
-    "description": null,
+    "description": "Euclea natalensis, the Natal guarri, is a dioecious African plant species of the family Ebenaceae. It occurs from Ethiopia and Somalia in the north, southwards to the Western Cape, South Africa. It has nectar and also contains pollen Its hirsute, leathery leaves have an opposite arrangement, and the flower sprays grow from the leaf axils. The spherical fruit appear from October to June.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1999,11 +2660,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Euclea natalensis"
+      ],
       "en": [
-        "Bushveld hairy guarri"
+        "Bushveld hairy guarri",
+        "Euclea natalensis"
+      ],
+      "es": [
+        "Euclea natalensis"
+      ],
+      "fr": [
+        "Euclea natalensis"
+      ],
+      "it": [
+        "Euclea natalensis"
+      ],
+      "nl": [
+        "Euclea natalensis"
+      ],
+      "pl": [
+        "Euclea natalensis"
+      ],
+      "pt": [
+        "Euclea natalensis"
+      ],
+      "ru": [
+        "Euclea natalensis"
       ]
     },
     "tags": [],
@@ -2015,12 +2703,12 @@
     "family": "Ebenaceae",
     "genus": "Euclea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/358d0a59326640a832e92520b4a81f73d9ab8c22",
-    "description": null,
+    "description": "Euclea racemosa is a small to medium-sized evergreen tree that is indigenous to the Indian Ocean coast of Africa from Egypt to South Africa, as well as in Comoros, Oman and Yemen.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2097,11 +2785,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Euclea racemosa"
+      ],
       "en": [
-        "Dune guarri"
+        "Dune guarri",
+        "Euclea racemosa"
+      ],
+      "es": [
+        "Euclea racemosa"
+      ],
+      "fr": [
+        "Euclea racemosa"
+      ],
+      "it": [
+        "Euclea racemosa"
+      ],
+      "nl": [
+        "Euclea racemosa"
+      ],
+      "pl": [
+        "Euclea racemosa"
+      ],
+      "pt": [
+        "Euclea racemosa"
+      ],
+      "ru": [
+        "Euclea racemosa"
       ]
     },
     "tags": [],
@@ -2113,7 +2828,7 @@
     "family": "Ebenaceae",
     "genus": "Euclea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2195,11 +2910,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Euclea undulata"
+      ],
       "en": [
-        "Common guarri"
+        "Common guarri",
+        "Euclea undulata"
+      ],
+      "es": [
+        "Euclea undulata"
+      ],
+      "fr": [
+        "Euclea undulata"
+      ],
+      "it": [
+        "Euclea undulata"
+      ],
+      "nl": [
+        "Euclea undulata"
+      ],
+      "pl": [
+        "Euclea undulata"
+      ],
+      "pt": [
+        "Euclea undulata"
+      ],
+      "ru": [
+        "Euclea undulata"
       ]
     },
     "tags": [],

@@ -5,12 +5,12 @@
     "family": "Cabombaceae",
     "genus": "Brasenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/PPA/1000_1099/h1036a_fullsize.jpg",
-    "description": "Each fertilized pistil develops into a 1 or 2 seeded hard, ellipsoid or fusiform fruit. The style persists on the fruit. The fruit does not split open to release the seed.",
+    "description": "Brasenia is a genus belonging to the family Cabombaceae, consisting of one species, Brasenia schreberi, commonly known as watershield. It is widely distributed in North America, the West Indies, northern South America, eastern Asia, Australia, the Indian subcontinent, and parts of Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Brasenia schreberi"
+      ],
+      "en": [
+        "Brasenia schreberi"
+      ],
+      "es": [
+        "Brasenia schreberi"
+      ],
+      "fr": [
+        "Brasenia schreberi"
+      ],
+      "it": [
+        "Brasenia schreberi"
+      ],
+      "ja": [
+        "ジュンサイ"
+      ],
+      "ko": [
+        "순채"
+      ],
+      "nl": [
+        "Brasenia schreberi"
+      ],
+      "pl": [
+        "płoczyniec"
+      ],
+      "pt": [
+        "Brasenia"
+      ],
+      "ru": [
+        "Brasenia schreberi"
+      ],
+      "zh": [
+        "莼菜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +138,7 @@
     "family": "Cabombaceae",
     "genus": "Cabomba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -115,9 +154,9 @@
     "synonyms": "[\"Nectris caroliniana\"]",
     "care": {
       "plant_id": "cabomba_caroliniana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -187,11 +226,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كبمبة كارولينية"
+      ],
+      "de": [
+        "Karolina-Haarnixe"
+      ],
       "en": [
+        "Cabomba caroliniana",
         "Carolina water-shield"
+      ],
+      "es": [
+        "Cabomba caroliniana"
+      ],
+      "fr": [
+        "Cabomba caroliniana"
+      ],
+      "it": [
+        "Cabomba caroliniana"
+      ],
+      "ja": [
+        "ハゴロモモ"
+      ],
+      "nl": [
+        "Cabomba caroliniana"
+      ],
+      "pl": [
+        "Kabomba karolińska"
+      ],
+      "pt": [
+        "Cabomba caroliniana"
+      ],
+      "ru": [
+        "Кабомба каролинская"
+      ],
+      "zh": [
+        "白花穗蓴"
       ]
     },
     "tags": [],

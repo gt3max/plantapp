@@ -5,12 +5,12 @@
     "family": "Picramniaceae",
     "genus": "Alvaradoa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2441a5a85b333379882856671ff6d8124e3351d3",
-    "description": null,
+    "description": "Alvaradoa amorphoides, the Mexican alvaradoa, is a species of plant in the Picramniaceae family. It is a common native plant in Mexico but is also native to southern Florida, where is it endangered.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,17 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Alvaradoa amorphoides"
+      ],
       "en": [
+        "Alvaradoa amorphoides",
         "Mexican alvaradoa"
       ],
       "es": [
+        "Alvaradoa amorphoides",
         "Ardillo tamarindillo",
         "Palo bermejo",
         "Palo de hormiga",
         "Picramnia filipetala"
+      ],
+      "fr": [
+        "Alvaradoa amorphoides"
+      ],
+      "it": [
+        "Alvaradoa amorphoides"
+      ],
+      "nl": [
+        "Alvaradoa amorphoides"
+      ],
+      "pl": [
+        "Alvaradoa amorphoides"
+      ],
+      "pt": [
+        "Alvaradoa amorphoides"
+      ],
+      "ru": [
+        "Alvaradoa amorphoides"
       ]
     },
     "tags": [],
@@ -109,12 +134,12 @@
     "family": "Picramniaceae",
     "genus": "Picramnia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5dee88ff7ace6d387456ed7f3801fd7520ef2fbb",
-    "description": null,
+    "description": "Picramnia antidesma is a species of plant in the Picramniaceae family, native to Mexico, Central America, and the Greater Antilles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -191,9 +216,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Picramnia antidesma"
+      ],
+      "en": [
+        "Picramnia antidesma"
+      ],
+      "es": [
+        "Picramnia antidesma"
+      ],
+      "fr": [
+        "Picramnia antidesma"
+      ],
+      "it": [
+        "Picramnia antidesma"
+      ],
+      "nl": [
+        "Picramnia antidesma"
+      ],
+      "pl": [
+        "Picramnia antidesma"
+      ],
+      "pt": [
+        "Picramnia antidesma"
+      ],
+      "ru": [
+        "Picramnia antidesma"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -203,7 +258,7 @@
     "family": "Picramniaceae",
     "genus": "Picramnia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -285,9 +340,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Picramnia latifolia"
+      ],
+      "en": [
+        "Picramnia latifolia"
+      ],
+      "es": [
+        "Picramnia latifolia"
+      ],
+      "fr": [
+        "Picramnia latifolia"
+      ],
+      "it": [
+        "Picramnia latifolia"
+      ],
+      "nl": [
+        "Picramnia latifolia"
+      ],
+      "pl": [
+        "Picramnia latifolia"
+      ],
+      "pt": [
+        "Picramnia latifolia"
+      ],
+      "ru": [
+        "Picramnia latifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -297,7 +382,7 @@
     "family": "Picramniaceae",
     "genus": "Picramnia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -379,9 +464,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Picramnia sellowii"
+      ],
+      "en": [
+        "Picramnia sellowii"
+      ],
+      "es": [
+        "Picramnia sellowii"
+      ],
+      "fr": [
+        "Picramnia sellowii"
+      ],
+      "it": [
+        "Picramnia sellowii"
+      ],
+      "nl": [
+        "Picramnia sellowii"
+      ],
+      "pl": [
+        "Picramnia sellowii"
+      ],
+      "pt": [
+        "Picramnia sellowii"
+      ],
+      "ru": [
+        "Picramnia sellowii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

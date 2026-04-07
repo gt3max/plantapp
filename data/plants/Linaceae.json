@@ -5,12 +5,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ac66b5618886eec2e6b3e42321f1e7ea25bcc000",
-    "description": null,
+    "description": "Linum alpinum, the alpine flax, is a species of perennial plant belonging to the Linaceae family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": "[\"Linum perenne var. alpinum\", \"Adenolinum alpinum\", \"Linum perenne subsp. alpinum\", \"Linum austriacum var. alpinum\"]",
     "care": {
       "plant_id": "linum_alpinum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -53,8 +53,8 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Parts: Seed. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -72,8 +72,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Seed",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -87,9 +87,46 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.8
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Alpen-Lein"
+      ],
+      "en": [
+        "Linum alpinum"
+      ],
+      "es": [
+        "Linum alpinum"
+      ],
+      "fr": [
+        "Lin des Alpes",
+        "Linum alpinum"
+      ],
+      "it": [
+        "Linum alpinum"
+      ],
+      "nl": [
+        "Linum alpinum"
+      ],
+      "pl": [
+        "Linum alpinum"
+      ],
+      "pt": [
+        "Linum alpinum"
+      ],
+      "ru": [
+        "Linum alpinum"
+      ],
+      "tr": [
+        "Linum alpinum"
+      ],
+      "zh": [
+        "高山亚麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +136,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -115,17 +152,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "linum_appressum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -181,9 +218,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Linum appressum"
+      ],
+      "en": [
+        "Linum appressum"
+      ],
+      "es": [
+        "Linum appressum"
+      ],
+      "fr": [
+        "Linum appressum"
+      ],
+      "it": [
+        "Linum appressum"
+      ],
+      "nl": [
+        "Linum appressum"
+      ],
+      "pl": [
+        "Linum appressum"
+      ],
+      "pt": [
+        "Linum appressum"
+      ],
+      "ru": [
+        "Linum appressum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +260,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ded2f9498c4ffdb19a41baf57c79b464626670cb",
-    "description": null,
+    "description": "Linum austriacum, Asian flax, is a species of flowering plant belonging to the family Linaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -209,17 +276,17 @@
     "synonyms": "[\"Adenolinum austriacum\", \"Linum perenne var. austriacum\", \"Linum perenne subsp. austriacum\", \"Linum alpinum subsp. austriacum\"]",
     "care": {
       "plant_id": "linum_austriacum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -241,8 +308,8 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Parts: Seed. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -260,8 +327,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Seed",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -275,11 +342,30 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Österreich-Lein",
+        "Österreichischer Lein"
+      ],
       "en": [
         "Asian flax"
+      ],
+      "fr": [
+        "Lin d'Autriche"
+      ],
+      "nl": [
+        "Oostenrijks vlas"
+      ],
+      "pl": [
+        "Len austriacki"
+      ],
+      "ru": [
+        "лен австрийский",
+        "лён австрийский"
       ]
     },
     "tags": [],
@@ -291,7 +377,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -307,7 +393,7 @@
     "synonyms": "[\"Linum rigidum var. berlandieri\", \"Cathartolinum berlandieri\"]",
     "care": {
       "plant_id": "linum_berlandieri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -373,9 +459,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Linum berlandieri"
+      ],
+      "en": [
+        "Linum berlandieri"
+      ],
+      "es": [
+        "Linum berlandieri"
+      ],
+      "fr": [
+        "Linum berlandieri"
+      ],
+      "it": [
+        "Linum berlandieri"
+      ],
+      "nl": [
+        "Linum berlandieri"
+      ],
+      "pl": [
+        "Linum berlandieri"
+      ],
+      "pt": [
+        "Linum berlandieri"
+      ],
+      "ru": [
+        "Linum berlandieri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -385,7 +501,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -401,17 +517,17 @@
     "synonyms": "[\"Linum arvense\", \"Linum angustifolium\", \"Linum tenuifolium\", \"Linum usitatissimum var. cribrosum\", \"Linum bienne var. siculum\", \"Linum dehiscens subsp. angustifolium\", \"Linum ambiguum\", \"Linum dehiscens\", \"Linum usitatissimum var. ambiguum\", \"Linum angustifolium subvar. nanum\"]",
     "care": {
       "plant_id": "linum_bienne",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -467,11 +583,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Zweijähriger Lein"
+      ],
       "en": [
+        "Linum bienne",
         "Pale flax"
+      ],
+      "es": [
+        "Linum bienne"
+      ],
+      "fr": [
+        "Lin bisannuel"
+      ],
+      "it": [
+        "Linum bienne"
+      ],
+      "nl": [
+        "Tweejarig vlas"
+      ],
+      "pl": [
+        "Linum bienne"
+      ],
+      "pt": [
+        "Linum bienne"
+      ],
+      "ru": [
+        "Linum bienne"
       ]
     },
     "tags": [],
@@ -483,12 +626,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fb04f79d94c3b10a2eef886bf1b84514a4a1ee1f",
-    "description": null,
+    "description": "Linum campanulatum is a perennial plant belonging to the Linaceae family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -499,17 +642,17 @@
     "synonyms": "[\"Xantholinum campanulatum\", \"Linum flavum var. campanulatum\", \"Linum rochelianum\", \"Linum campanulatum var. genuinum\", \"Linum glandulosum\", \"Linum campanulatum var. heterophyllum\", \"Linum glandulosum var. campanulatum\"]",
     "care": {
       "plant_id": "linum_campanulatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -565,9 +708,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Linum campanulatum"
+      ],
+      "en": [
+        "Linum campanulatum"
+      ],
+      "es": [
+        "Linum campanulatum"
+      ],
+      "fr": [
+        "Lin Campanulé",
+        "Lin campanule",
+        "Linum campanulatum"
+      ],
+      "it": [
+        "Linum campanulatum"
+      ],
+      "nl": [
+        "Linum campanulatum"
+      ],
+      "pl": [
+        "Linum campanulatum"
+      ],
+      "pt": [
+        "Linum campanulatum"
+      ],
+      "ru": [
+        "Linum campanulatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -577,7 +752,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -593,17 +768,17 @@
     "synonyms": "[\"Cathartolinum catharticum\", \"Cathartolinum pratense\", \"Nezera cathartica\"]",
     "care": {
       "plant_id": "linum_catharticum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -659,11 +834,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "الكتان المسهل",
+        "كتان جبلي"
+      ],
+      "de": [
+        "Purgier-Lein",
+        "Purgierlein",
+        "Wiesen-Lein"
+      ],
       "en": [
         "Bitter flax"
+      ],
+      "es": [
+        "Linum diversifolium",
+        "canchelagua",
+        "canchilagua",
+        "cantilagua",
+        "lino",
+        "lino catártico",
+        "lino purgante"
+      ],
+      "fr": [
+        "Lin purgatif",
+        "lin purgatif"
+      ],
+      "nl": [
+        "Geelhartje"
+      ],
+      "pl": [
+        "Len przeczyszczający"
+      ],
+      "pt": [
+        "Linho-purgante",
+        "Linun catharticum L.",
+        "Linun catharticum l.",
+        "linho-purgante"
+      ],
+      "ru": [
+        "Лен слабительный",
+        "Лён слабительный"
       ]
     },
     "tags": [],
@@ -675,12 +890,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2bf80961db831a8cdd0214ad378709e4eb6b6d63",
-    "description": null,
+    "description": "Linum flavum, the golden flax or yellow flax, is a species of flowering plant in the family Linaceae, native to central and southern Europe. It is an erect, woody perennial growing to 30 cm (12 in) tall by 20 cm (8 in) broad, with dark green, semi-evergreen leaves, and terminal clusters of bright yellow, five-petalled flowers in spring. The Latin flavum means \"pure yellow\".",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -691,7 +906,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "linum_flavum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -757,11 +972,36 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gelb-Lein",
+        "Gelber Lein"
+      ],
       "en": [
         "Yellow flax"
+      ],
+      "es": [
+        "Lino amarillo"
+      ],
+      "fr": [
+        "Lin jaune"
+      ],
+      "pl": [
+        "Len złocisty"
+      ],
+      "ru": [
+        "Лен желтый",
+        "Лен жёлтый",
+        "Лён желтый",
+        "Лён жёлтый"
+      ],
+      "zh": [
+        "黄亚麻",
+        "黄花亚麻"
       ]
     },
     "tags": [],
@@ -773,7 +1013,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -789,7 +1029,7 @@
     "synonyms": "[\"Adenolinum grandiflorum\", \"Linum grandiflorum var. purpureum\"]",
     "care": {
       "plant_id": "linum_grandiflorum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -855,11 +1095,40 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "الكتان الأحمر",
+        "كتان الزهور"
+      ],
+      "de": [
+        "Pracht-Lein",
+        "Prachtlein",
+        "Roter Lein"
+      ],
       "en": [
         "Crimson flax"
+      ],
+      "es": [
+        "Adenolinum grandiflorum",
+        "Lino de flor",
+        "Lino rojo",
+        "Linum grandiflorum var rubrum",
+        "Linum grandiflorum var. rubrum",
+        "Linum rubrum"
+      ],
+      "pl": [
+        "Len wielkokwiatowy"
+      ],
+      "ru": [
+        "лён крупноцветковый"
+      ],
+      "zh": [
+        "大花亚麻",
+        "红花亚麻"
       ]
     },
     "tags": [],
@@ -871,7 +1140,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -887,7 +1156,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "linum_hirsutum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -953,9 +1222,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Linum hirsutum"
+      ],
+      "en": [
+        "Linum hirsutum"
+      ],
+      "es": [
+        "Linum hirsutum"
+      ],
+      "fr": [
+        "Linum hirsutum"
+      ],
+      "it": [
+        "Linum hirsutum"
+      ],
+      "nl": [
+        "Linum hirsutum"
+      ],
+      "pl": [
+        "Len włochaty"
+      ],
+      "pt": [
+        "Linum hirsutum"
+      ],
+      "ru": [
+        "Лён жёстковолосистый"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -965,7 +1264,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -981,17 +1280,17 @@
     "synonyms": "[\"Linum austriacum var. loreyi\", \"Linum austriacum subsp. loreyi\", \"Linum loreyi\", \"Linum alpinum subsp. anglicum\", \"Linum petryi\", \"Linum alpinum var. collinum\", \"Linum laeve subsp. anglicum\", \"Adenolinum leonii\", \"Linum alpinum subsp. leonii\"]",
     "care": {
       "plant_id": "linum_leonii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1047,9 +1346,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lothringer Lein"
+      ],
+      "en": [
+        "Linum leonii"
+      ],
+      "es": [
+        "Linum leonii"
+      ],
+      "fr": [
+        "Lin de Léo",
+        "Linum leonii"
+      ],
+      "it": [
+        "Linum leonii"
+      ],
+      "nl": [
+        "Frans vlas",
+        "Linum leonii"
+      ],
+      "pl": [
+        "Linum leonii"
+      ],
+      "pt": [
+        "Linum leonii"
+      ],
+      "ru": [
+        "Linum leonii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1059,7 +1390,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1075,17 +1406,17 @@
     "synonyms": "[\"Adenolinum lewisii\", \"Linum perenne var. lewisii\", \"Linum sibiricum var. lewisii\", \"Linum perenne subsp. lewisii\"]",
     "care": {
       "plant_id": "linum_lewisii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1141,11 +1472,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "ar": [
+        "كتان لويس"
+      ],
+      "de": [
+        "Linum lewisii"
+      ],
       "en": [
-        "Lewis's flax"
+        "Lewis flax",
+        "Lewis's flax",
+        "Linum lewisii",
+        "blue flax",
+        "wild blue flax"
+      ],
+      "es": [
+        "Linum lewisii"
+      ],
+      "fr": [
+        "Linum lewisii"
+      ],
+      "it": [
+        "Linum lewisii"
+      ],
+      "nl": [
+        "Linum lewisii"
+      ],
+      "pl": [
+        "Linum lewisii"
+      ],
+      "pt": [
+        "Linum lewisii"
+      ],
+      "ru": [
+        "Linum lewisii"
+      ],
+      "zh": [
+        "刘氏亚麻"
       ]
     },
     "tags": [],
@@ -1157,7 +1524,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1173,17 +1540,17 @@
     "synonyms": "[\"Linum albidum\", \"Linum angustifolium\", \"Linum marginale var. australe\"]",
     "care": {
       "plant_id": "linum_marginale",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1239,9 +1606,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Linum marginale"
+      ],
+      "en": [
+        "Linum marginale"
+      ],
+      "es": [
+        "Linum marginale"
+      ],
+      "fr": [
+        "Linum marginale"
+      ],
+      "it": [
+        "Linum marginale"
+      ],
+      "nl": [
+        "Linum marginale"
+      ],
+      "pl": [
+        "Linum marginale"
+      ],
+      "pt": [
+        "Linum marginale"
+      ],
+      "ru": [
+        "Linum marginale"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1251,7 +1648,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1267,7 +1664,7 @@
     "synonyms": "[\"Alsolinum maritimum\", \"Linopsis maritima\"]",
     "care": {
       "plant_id": "linum_maritimum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1333,9 +1730,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Linum maritimum"
+      ],
+      "en": [
+        "Linum maritimum"
+      ],
+      "es": [
+        "Linum maritimum"
+      ],
+      "fr": [
+        "Linum maritimum"
+      ],
+      "it": [
+        "Linum maritimum"
+      ],
+      "nl": [
+        "Linum maritimum"
+      ],
+      "pl": [
+        "Linum maritimum"
+      ],
+      "pt": [
+        "Linum maritimum"
+      ],
+      "ru": [
+        "Linum maritimum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1345,12 +1772,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fb480cfc38908353165397603c835d609d4ca846",
-    "description": null,
+    "description": "Linum medium, common name stiff yellow flax, is a species of Linum (flax) native to eastern North America. It is found as far west as Texas and Wisconsin, east to the Atlantic Ocean, north to Ontario and Maine, and south to southern Florida. It is also found in The Bahamas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1361,17 +1788,17 @@
     "synonyms": "[\"Linum striatum var. medium\", \"Linum medium var. typicum\", \"Linum virginianum var. medium\"]",
     "care": {
       "plant_id": "linum_medium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1427,11 +1854,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Linum medium"
+      ],
       "en": [
+        "Linum medium",
         "Stiff yellow flax"
+      ],
+      "es": [
+        "Linum medium"
+      ],
+      "fr": [
+        "Linum medium"
+      ],
+      "it": [
+        "Linum medium"
+      ],
+      "nl": [
+        "Linum medium"
+      ],
+      "pl": [
+        "Linum medium"
+      ],
+      "pt": [
+        "Linum medium"
+      ],
+      "ru": [
+        "Linum medium"
       ]
     },
     "tags": [],
@@ -1443,7 +1897,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1459,17 +1913,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "linum_narbonense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1525,11 +1979,49 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.7
     },
     "common_names": {
+      "de": [
+        "Linum narbonense"
+      ],
       "en": [
-        "Flax"
+        "Flax",
+        "Linum narbonense"
+      ],
+      "es": [
+        "Lino azul",
+        "Lino de Narbona",
+        "Lino narbonense",
+        "Linum acuminatum",
+        "Linum barrasii",
+        "Linum narbonense",
+        "Linum paniculatum",
+        "Linum reflexum"
+      ],
+      "fr": [
+        "Lin de Narbonne",
+        "Linum narbonense"
+      ],
+      "it": [
+        "Linum narbonense"
+      ],
+      "nl": [
+        "Linum narbonense"
+      ],
+      "pl": [
+        "Linum narbonense"
+      ],
+      "pt": [
+        "Linum narbonense"
+      ],
+      "ru": [
+        "Linum narbonense"
+      ],
+      "zh": [
+        "那波奈亚麻"
       ]
     },
     "tags": [],
@@ -1541,7 +2033,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1557,7 +2049,7 @@
     "synonyms": "[\"Linum nodiflorum var. perpapillosum\", \"Xantholinum nodiflorum\", \"Linum nodiflorum f. micranthum\", \"Linum galloi\", \"Linum pusillum\", \"Linum aureum\", \"Linum luteolum\"]",
     "care": {
       "plant_id": "linum_nodiflorum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1623,11 +2115,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Linum nodiflorum"
+      ],
       "en": [
+        "Linum nodiflorum",
         "Nodding flax"
+      ],
+      "es": [
+        "Linum nodiflorum"
+      ],
+      "fr": [
+        "Linum nodiflorum"
+      ],
+      "it": [
+        "Linum nodiflorum"
+      ],
+      "nl": [
+        "Linum nodiflorum"
+      ],
+      "pl": [
+        "Linum nodiflorum"
+      ],
+      "pt": [
+        "Linum nodiflorum"
+      ],
+      "ru": [
+        "Linum nodiflorum"
       ]
     },
     "tags": [],
@@ -1639,7 +2158,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1655,17 +2174,17 @@
     "synonyms": "[\"Adenolinum sibiricum\", \"Linum decurrens\", \"Linum sibiricum\", \"Linum perenne roseum\", \"Adenolinum perenne\", \"Linum perenne var. pauciflorum\", \"Linum alpinum\", \"Linum darmstadinum\", \"Linum perenne var. procumbens\", \"Linum alpestre\"]",
     "care": {
       "plant_id": "linum_perenne",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1721,11 +2240,35 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "de": [
+        "Ausdauernder Lein",
+        "Stauden-Lein"
+      ],
       "en": [
         "Blue flax"
+      ],
+      "nl": [
+        "Overblijvend vlas"
+      ],
+      "pl": [
+        "Len trwały"
+      ],
+      "ru": [
+        "Лен многолетний",
+        "Лён многолетний"
+      ],
+      "zh": [
+        "亚麻花",
+        "多年生亚麻",
+        "宿根亚麻",
+        "百骑大栗树",
+        "蓝亚麻",
+        "豆麻"
       ]
     },
     "tags": [],
@@ -1737,12 +2280,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a8eb71050911c6611adf65ea1d5d5c5d8d66302a",
-    "description": null,
+    "description": "Linum pratense, commonly called meadow flax, is a species of flowering plant in the flax family (Linaceae). It is native to the United States, where it is found in the south-central and southwestern regions of the country. Its natural habitat consists of dry, open prairies over calcareous or sandy soil. It can be found in both intact and disturbed communities.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1753,7 +2296,7 @@
     "synonyms": "[\"Adenolinum pratense\", \"Linum lewisii var. pratense\"]",
     "care": {
       "plant_id": "linum_pratense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1819,11 +2362,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Linum pratense"
+      ],
       "en": [
+        "Linum pratense",
         "Meadow flax"
+      ],
+      "es": [
+        "Linum pratense"
+      ],
+      "fr": [
+        "Linum pratense"
+      ],
+      "it": [
+        "Linum pratense"
+      ],
+      "nl": [
+        "Linum pratense"
+      ],
+      "pl": [
+        "Linum pratense"
+      ],
+      "pt": [
+        "Linum pratense"
+      ],
+      "ru": [
+        "Linum pratense"
       ]
     },
     "tags": [],
@@ -1835,12 +2405,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fffd9f8ec6231fcc28aa641cb097b5e805453b49",
-    "description": null,
+    "description": "Linum pubescens, the hairy pink flax, is an herbaceous flowering plant in the genus Linum native to the east Mediterranean region.\nThe plant is annual and blooms in the spring.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1851,7 +2421,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "linum_pubescens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1917,9 +2487,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Linum pubescens"
+      ],
+      "en": [
+        "Linum pubescens"
+      ],
+      "es": [
+        "Linum pubescens"
+      ],
+      "fr": [
+        "Linum pubescens"
+      ],
+      "it": [
+        "Linum pubescens"
+      ],
+      "nl": [
+        "Linum pubescens"
+      ],
+      "pl": [
+        "Linum pubescens"
+      ],
+      "pt": [
+        "Linum pubescens"
+      ],
+      "ru": [
+        "Linum pubescens"
+      ],
+      "zh": [
+        "毛亚麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1929,7 +2532,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1945,7 +2548,7 @@
     "synonyms": "[\"Mesynium rigidum\", \"Cathartolinum rigidum\", \"Nezera rigida\"]",
     "care": {
       "plant_id": "linum_rigidum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2011,11 +2614,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Linum rigidum"
+      ],
       "en": [
+        "Linum rigidum",
         "Stiff-stem flax"
+      ],
+      "es": [
+        "Linum rigidum"
+      ],
+      "fr": [
+        "Linum rigidum"
+      ],
+      "it": [
+        "Linum rigidum"
+      ],
+      "nl": [
+        "Linum rigidum"
+      ],
+      "pl": [
+        "Linum rigidum"
+      ],
+      "pt": [
+        "Linum rigidum"
+      ],
+      "ru": [
+        "Linum rigidum"
       ]
     },
     "tags": [],
@@ -2027,7 +2657,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2043,7 +2673,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "linum_salsoloides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2109,9 +2739,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Linum salsoloides"
+      ],
+      "en": [
+        "Linum salsoloides"
+      ],
+      "es": [
+        "Linum salsoloides"
+      ],
+      "fr": [
+        "Linum salsoloides"
+      ],
+      "it": [
+        "Linum salsoloides"
+      ],
+      "nl": [
+        "Linum salsoloides"
+      ],
+      "pl": [
+        "Linum salsoloides"
+      ],
+      "pt": [
+        "Linum salsoloides"
+      ],
+      "ru": [
+        "Linum salsoloides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2121,7 +2781,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2137,17 +2797,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "linum_striatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2203,9 +2863,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Linum striatum"
+      ],
+      "en": [
+        "Linum striatum"
+      ],
+      "es": [
+        "Linum striatum"
+      ],
+      "fr": [
+        "Linum striatum"
+      ],
+      "it": [
+        "Linum striatum"
+      ],
+      "nl": [
+        "Linum striatum"
+      ],
+      "pl": [
+        "Linum striatum"
+      ],
+      "pt": [
+        "Linum striatum"
+      ],
+      "ru": [
+        "Linum striatum"
+      ],
+      "zh": [
+        "斑纹亚麻"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2215,12 +2908,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/77b7b6d0c749b5f79a8c894a3dd1c6b522b0c91f",
-    "description": null,
+    "description": "Linum strictum, commonly known as rigid flax, upright flax, and upright yellow flax, is a species of flax with a rigid stem, from whence it derives its taxonomic name, growing to a height of 10–45 cm. The plant is endemic to the Mediterranean region, as well as native to Sudan, Ethiopia, Eritrea, Croatia, Bosnia and Herzegovina, Montenegro, Crimea, Albania, Portugal, Jordan, Iraq, Iran, Madeira, the Canary Islands, the Transcaucasus, Saudi Arabia (Asir), Bahrain, Qatar, Pakistan, and northwest India. It features highly in classical Hebrew and Greek literature, owing principally to its cultivation for its plant fiber, linen, but also for its edible seeds and culinary foliage.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2231,17 +2924,17 @@
     "synonyms": "[\"Linum strictum var. racemosum\", \"Chrysolinum strictum\", \"Linum strictum var. macranthum\", \"Linum strictum subsp. spicatum\", \"Cathartolinum alternum\", \"Linum spicatum var. sessiliflorum\", \"Linum alterniflorum\", \"Linum alternum\", \"Linum strictum var. paniculatum\", \"Linum inaequale\"]",
     "care": {
       "plant_id": "linum_strictum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2297,11 +2990,40 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Linum strictum"
+      ],
       "en": [
+        "Linum strictum",
         "Upright flax"
+      ],
+      "es": [
+        "Linum strictum"
+      ],
+      "fr": [
+        "Lin Dressé",
+        "Lin dresse",
+        "Lin dressé"
+      ],
+      "it": [
+        "Linum strictum"
+      ],
+      "nl": [
+        "Linum strictum"
+      ],
+      "pl": [
+        "Linum strictum"
+      ],
+      "pt": [
+        "Linum strictum"
+      ],
+      "ru": [
+        "Linum strictum"
       ]
     },
     "tags": [],
@@ -2313,12 +3035,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1a04cacc9742519a0b176ac43259d9dfff9ca4c8",
-    "description": null,
+    "description": "Linum suffruticosum, the white flax or Pyrenean flax, is a species of flowering plant in the family Linaceae, native to Spain. It is a polyploid species complex with significant morphological variation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2329,17 +3051,17 @@
     "synonyms": "[\"Linum tenuifolium subsp. suffruticosum\", \"Leucolinum suffruticosum\", \"Cathartolinum suffruticosum\", \"Linum biforme f. suffruticosum\", \"Linum tenuifolium var. suffruticosum\"]",
     "care": {
       "plant_id": "linum_suffruticosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2395,11 +3117,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "de": [
+        "Linum suffruticosum"
+      ],
       "en": [
+        "Linum suffruticosum",
         "White flax"
+      ],
+      "es": [
+        "Linum suffruticosum"
+      ],
+      "fr": [
+        "Lin sous-arbrisseau"
+      ],
+      "it": [
+        "Linum suffruticosum"
+      ],
+      "nl": [
+        "Linum suffruticosum"
+      ],
+      "pl": [
+        "Linum suffruticosum"
+      ],
+      "pt": [
+        "Linum suffruticosum"
+      ],
+      "ru": [
+        "Linum suffruticosum"
       ]
     },
     "tags": [],
@@ -2411,12 +3160,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c0e8d861612ae18ab6b203b417f8d14261b31adc",
-    "description": null,
+    "description": "Linum sulcatum, common names yellow flax, grooved yellow flax, grooved flax, and yellow wild flax is a plant native to the United States and Canada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2427,7 +3176,7 @@
     "synonyms": "[\"Cathartolinum sulcatum\", \"Mesynium sulcatum\", \"Linum bootii\", \"Linum striatum\", \"Nezera sulcata\", \"Linum simplex\"]",
     "care": {
       "plant_id": "linum_sulcatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2493,11 +3242,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Linum sulcatum"
+      ],
       "en": [
-        "Grooved flax"
+        "Grooved flax",
+        "Linum sulcatum"
+      ],
+      "es": [
+        "Linum sulcatum"
+      ],
+      "fr": [
+        "Linum sulcatum"
+      ],
+      "it": [
+        "Linum sulcatum"
+      ],
+      "nl": [
+        "Linum sulcatum"
+      ],
+      "pl": [
+        "Linum sulcatum"
+      ],
+      "pt": [
+        "Linum sulcatum"
+      ],
+      "ru": [
+        "Linum sulcatum"
       ]
     },
     "tags": [],
@@ -2509,7 +3285,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2525,7 +3301,7 @@
     "synonyms": "[\"Linum trigynum subsp. tenue\"]",
     "care": {
       "plant_id": "linum_tenue",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2591,9 +3367,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Linum tenue"
+      ],
+      "en": [
+        "Linum tenue"
+      ],
+      "es": [
+        "Linum tenue"
+      ],
+      "fr": [
+        "Linum tenue"
+      ],
+      "it": [
+        "Linum tenue"
+      ],
+      "nl": [
+        "Linum tenue"
+      ],
+      "pl": [
+        "Linum tenue"
+      ],
+      "pt": [
+        "Linum tenue"
+      ],
+      "ru": [
+        "Linum tenue"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2603,7 +3409,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2619,17 +3425,17 @@
     "synonyms": "[\"Leucolinum tenuifolium\", \"Cathartolinum tenuifolium\", \"Linum biforme f. tenuifolium\", \"Linum biforme\", \"Linum biforme subsp. tenuifolium\", \"Linum cilicicum\"]",
     "care": {
       "plant_id": "linum_tenuifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2685,9 +3491,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.9
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schmalblättriger Lein"
+      ],
+      "en": [
+        "Linum tenuifolium"
+      ],
+      "es": [
+        "Linum tenuifolium"
+      ],
+      "fr": [
+        "Lin a feuilles etroites",
+        "Lin à feuilles étroites"
+      ],
+      "it": [
+        "Linum tenuifolium"
+      ],
+      "nl": [
+        "Linum tenuifolium",
+        "Smal vlas"
+      ],
+      "pl": [
+        "len cienkolistny"
+      ],
+      "pt": [
+        "Linum tenuifolium"
+      ],
+      "ru": [
+        "Linum tenuifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2697,12 +3535,12 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/995a5be71dce780f5ed2f4283e31676b92281f80",
-    "description": null,
+    "description": "Linum trigynum, the French flax, is a species of annual herb in the family Linaceae. It is native to Southern Europe, Western Asia, North Africa, the Horn of Africa and some oceanic islands, such as Madeira, Canary Islands and Socotra. They have a self-supporting growth form. Individuals can grow to 0.18 m tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2713,17 +3551,17 @@
     "synonyms": "[\"Chrysolinum gallicum\", \"Linum trigynum var. sieberi\", \"Linum gallicum var. sieberi\", \"Cathartolinum gallicum\", \"Linum strictissimum\", \"Linum aureum\", \"Linum gallicum var. medium\", \"Linum gallicum var. abyssinicum\", \"Linum trigynum var. confertum\", \"Linum gallicum\"]",
     "care": {
       "plant_id": "linum_trigynum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2779,11 +3617,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "de": [
+        "Linum trigynum"
+      ],
       "en": [
+        "Linum trigynum",
         "Slender yellow flax"
+      ],
+      "es": [
+        "Linum trigynum"
+      ],
+      "fr": [
+        "Linum trigynum"
+      ],
+      "it": [
+        "Linum trigynum"
+      ],
+      "nl": [
+        "Linum trigynum"
+      ],
+      "pl": [
+        "Linum trigynum"
+      ],
+      "pt": [
+        "Linum trigynum"
+      ],
+      "ru": [
+        "Linum trigynum"
       ]
     },
     "tags": [],
@@ -2795,7 +3660,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2811,17 +3676,17 @@
     "synonyms": "[\"Linum angustifolium subsp. usitatissimum\"]",
     "care": {
       "plant_id": "linum_usitatissimum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2842,9 +3707,9 @@
       "watering_guide": "Propagation: Seed",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Linum perenne | Good companions: Carrot, Potato",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: very strong toxic. Parts: Seed. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2862,8 +3727,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Creeping",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Seed",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Biomass\", \"Fiber\", \"Gum\", \"textiles\", \"oil\", \"Dynamic accumulator\"]",
@@ -2877,11 +3742,104 @@
       "germination_temp_c": null,
       "good_companions": "[\"Carrot\", \"Potato\"]",
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "الكتان",
+        "الكتان الأحمر",
+        "كتان",
+        "مسلج"
+      ],
+      "de": [
+        "Faserlein",
+        "Gemeiner Flachs",
+        "Gemeiner Lein",
+        "Haarlinse",
+        "Kultur-Lein",
+        "Saat-Lein",
+        "Öllein"
+      ],
       "en": [
-        "Linseed"
+        "Linseed",
+        "common flax",
+        "fibre flax",
+        "flax"
+      ],
+      "es": [
+        "Lino",
+        "Linum angustifolium subsp humile",
+        "Linum angustifolium subsp usitatissimum",
+        "Linum angustifolium subsp. humile",
+        "Linum angustifolium subsp. usitatissimum",
+        "Linum crepitans",
+        "Linum humile",
+        "Linum moroderorum",
+        "Linum reuteri",
+        "Linum usitatissimum subsp crepitans",
+        "Linum usitatissimum subsp. crepitans",
+        "Linum usitatissimum var humile",
+        "Linum usitatissimum var. humile",
+        "Linum utile"
+      ],
+      "fr": [
+        "Lin",
+        "Lin cultive",
+        "Lin cultivé"
+      ],
+      "hi": [
+        "अलसी",
+        "अलसी एक चमत्कारी, आयुवर्धक, आरोग्यवर्धक दैविक भोजन",
+        "तीसी",
+        "सन"
+      ],
+      "it": [
+        "Lino"
+      ],
+      "ja": [
+        "アマ",
+        "アマニ",
+        "リンシード",
+        "亜麻",
+        "亜麻仁"
+      ],
+      "ko": [
+        "아마"
+      ],
+      "nl": [
+        "Vezelvlas",
+        "vlas"
+      ],
+      "pl": [
+        "len włóknisty",
+        "len zwyczajny"
+      ],
+      "pt": [
+        "linhaça",
+        "linheiro",
+        "linho",
+        "linho galego",
+        "linho mourisco"
+      ],
+      "ru": [
+        "лен обыкновенный",
+        "лен посевной",
+        "лён обыкновенный",
+        "лён посевной",
+        "лён-долгунец"
+      ],
+      "tr": [
+        "Keten",
+        "Keten Tohumu"
+      ],
+      "zh": [
+        "亚麻",
+        "亚麻子",
+        "壁虱胡麻",
+        "山西胡麻",
+        "鸦麻"
       ]
     },
     "tags": [],
@@ -2893,7 +3851,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2909,7 +3867,7 @@
     "synonyms": "[\"Cathartolinum virginianum\", \"Nezera virginiana\", \"Linum virginianum var. microcarpum\"]",
     "care": {
       "plant_id": "linum_virginianum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2975,11 +3933,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Linum virginianum"
+      ],
       "en": [
+        "Linum virginianum",
         "Woodland flax"
+      ],
+      "es": [
+        "Linum virginianum"
+      ],
+      "fr": [
+        "Linum virginianum"
+      ],
+      "it": [
+        "Linum virginianum"
+      ],
+      "nl": [
+        "Linum virginianum"
+      ],
+      "pl": [
+        "Linum virginianum"
+      ],
+      "pt": [
+        "Linum virginianum"
+      ],
+      "ru": [
+        "Linum virginianum"
       ]
     },
     "tags": [],
@@ -2991,7 +3976,7 @@
     "family": "Linaceae",
     "genus": "Linum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3007,17 +3992,17 @@
     "synonyms": "[\"Linum viscosum var. brevistylum\", \"Linum viscosum proles catalaunicum\", \"Linum viscosum f. sylvestre\", \"Linum viscosum var. sylvestre\", \"Linum venustum\", \"Linum hirsutum\", \"Linum viscosum f. coeruleum\", \"Linum viscosum var. longistylum\", \"Linum viscosum var. catalaunicum\", \"Linum sylvestre\"]",
     "care": {
       "plant_id": "linum_viscosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3073,11 +4058,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "de": [
+        "Klebriger Lein"
+      ],
       "en": [
+        "Linum viscosum",
         "Sticky flax"
+      ],
+      "es": [
+        "Linum viscosum"
+      ],
+      "fr": [
+        "Lin visqueux",
+        "Linum viscosum"
+      ],
+      "it": [
+        "Linum viscosum"
+      ],
+      "nl": [
+        "Kleverig vlas"
+      ],
+      "pl": [
+        "Linum viscosum"
+      ],
+      "pt": [
+        "Linum viscosum"
+      ],
+      "ru": [
+        "Linum viscosum"
       ]
     },
     "tags": [],
@@ -3089,12 +4102,12 @@
     "family": "Linaceae",
     "genus": "Radiola",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/74a1c1aefa4787d592760636c1cc093a37b30b34",
-    "description": null,
+    "description": "Radiola linoides is the sole species in the Radiola genus, a monotypic genus of flowering plants belonging to the family Linaceae. It has the common names of 'allseed' and 'flaxseed'. It has a very short stem which is repeatedly subdivided, with a pair of very small leaves and a single white flower at each fork and at the end of the branches. It has leaves which are opposite arranged, oval and sessile.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3110,12 +4123,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3171,11 +4184,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "رديولة كتانية"
+      ],
+      "de": [
+        "Zwerglein"
+      ],
       "en": [
-        "Allseed"
+        "Allseed",
+        "Radiola linoides"
+      ],
+      "es": [
+        "Radiola linoides"
+      ],
+      "fr": [
+        "Radiola linoides"
+      ],
+      "it": [
+        "Radiola linoides"
+      ],
+      "nl": [
+        "Dwergvlas"
+      ],
+      "pl": [
+        "Lenek stoziarn"
+      ],
+      "pt": [
+        "Radiola linoides"
+      ],
+      "ru": [
+        "Радиола льновидная"
       ]
     },
     "tags": [],

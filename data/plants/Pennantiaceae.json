@@ -5,12 +5,12 @@
     "family": "Pennantiaceae",
     "genus": "Pennantia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Pennantia_corymbosa_11.JPG",
+    "description": "Pennantia corymbosa, commonly known as kaikomako, is a small dioecious tree endemic to New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pennantia corymbosa"
+      ],
+      "en": [
+        "Pennantia corymbosa"
+      ],
+      "es": [
+        "Pennantia corymbosa"
+      ],
+      "fr": [
+        "Pennantia corymbosa"
+      ],
+      "it": [
+        "Pennantia corymbosa"
+      ],
+      "nl": [
+        "Pennantia corymbosa"
+      ],
+      "pl": [
+        "Pennantia corymbosa"
+      ],
+      "pt": [
+        "Pennantia corymbosa"
+      ],
+      "ru": [
+        "Pennantia corymbosa"
+      ],
+      "zh": [
+        "凱科瑪寇木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

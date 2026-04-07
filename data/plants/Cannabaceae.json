@@ -5,12 +5,12 @@
     "family": "Cannabaceae",
     "genus": "Aphananthe",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/cb4a97288bfe3b3639870c2fa41aa24c.jpg",
-    "description": null,
+    "description": "Aphananthe aspera, commonly known as scabrous aphananthe or muku tree, is a flowering plant in the family Cannabaceae. It is found on slopes and stream banks between 100 and 1600 m. It is native to China, Taiwan, Japan, Korea, and Vietnam.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aphananthe aspera"
+      ],
+      "en": [
+        "Aphananthe aspera"
+      ],
+      "es": [
+        "Aphananthe aspera"
+      ],
+      "fr": [
+        "Aphananthe aspera"
+      ],
+      "it": [
+        "Aphananthe aspera"
+      ],
+      "ja": [
+        "ムクノキ"
+      ],
+      "ko": [
+        "푸조나무"
+      ],
+      "nl": [
+        "Aphananthe aspera"
+      ],
+      "pl": [
+        "Aphananthe aspera"
+      ],
+      "pt": [
+        "Aphananthe aspera"
+      ],
+      "ru": [
+        "Aphananthe aspera"
+      ],
+      "zh": [
+        "糙叶树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +138,12 @@
     "family": "Cannabaceae",
     "genus": "Aphananthe",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/67e4d7134b8a07669acd32517f39d1efc71f6171",
-    "description": null,
+    "description": "Aphananthe philippinensis is a common rainforest tree in the family Cannabaceae. In Australia it occurs from the Manning River in New South Wales to near Herberton in tropical Queensland. It was first described from the island of Luzon in the Philippines, hence the species name. The generic name of Aphananthe refers to 'insignificant flowers'. This plant also occurs on the Solomon Islands and in Papua New Guinea",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,11 +220,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aphananthe philippinensis"
+      ],
       "en": [
+        "Aphananthe philippinensis",
         "Wild holly"
+      ],
+      "es": [
+        "Aphananthe philippinensis"
+      ],
+      "fr": [
+        "Aphananthe philippinensis"
+      ],
+      "it": [
+        "Aphananthe philippinensis"
+      ],
+      "nl": [
+        "Aphananthe philippinensis"
+      ],
+      "pl": [
+        "Aphananthe philippinensis"
+      ],
+      "pt": [
+        "Aphananthe philippinensis"
+      ],
+      "ru": [
+        "Aphananthe philippinensis"
       ]
     },
     "tags": [],
@@ -197,12 +263,12 @@
     "family": "Cannabaceae",
     "genus": "Cannabis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fc10640d4f3eb9ae3f2a8d69f92b186564e7aa72",
-    "description": null,
+    "description": "Cannabis sativa is an annual herbaceous flowering plant. The species was first classified by Carl Linnaeus in 1753. The specific epithet sativa means 'cultivated'. Indigenous to Eastern Asia, the plant is now of cosmopolitan distribution due to widespread cultivation. It has been cultivated throughout recorded history and used as a source of industrial fiber, seed oil, food, and medicine. It is also used as a recreational drug and for religious and spiritual purposes.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -218,8 +284,8 @@
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 92,
       "ppfd_max": 138,
       "dli_min": 0.3,
@@ -245,7 +311,7 @@
       "light_guide": "Climate: temperate",
       "tips": "Remove aged tissues, dead, rotten, diseased leaves timely | Native to: BGM BE, IRE NI, INI, GUI, ASIA TEMPERATE",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs, Toxic to Cats, Toxic to Horses. Signs: Prolonged depression, vomiting, incoordination, sleepiness or excitation, hypersalivaton, dilated pupils, low blood pressure, low body temperature, seizure, coma, death (rare)",
       "common_problems": null,
       "common_pests": null,
@@ -264,7 +330,7 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
+      "toxic_parts": "Flowering top of female plant",
       "toxicity_severity": "Severe",
       "toxicity_symptoms": "Prolonged depression, vomiting, incoordination, sleepiness or excitation, hypersalivaton, dilated pupils, low blood pressure, low body temperature, seizure, coma, death (rare)",
       "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
@@ -279,11 +345,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 7.3
     },
     "common_names": {
+      "ar": [
+        "قنب مزروع"
+      ],
+      "de": [
+        "Hanf"
+      ],
       "en": [
+        "Cannabis sativa",
         "Hemp"
+      ],
+      "es": [
+        "Cannabis sativa"
+      ],
+      "fr": [
+        "chanvre cultivé"
+      ],
+      "hi": [
+        "गाँजे का पौधा"
+      ],
+      "it": [
+        "Cannabis sativa"
+      ],
+      "ja": [
+        "アサ"
+      ],
+      "ko": [
+        "삼"
+      ],
+      "nl": [
+        "Cannabis sativa"
+      ],
+      "pl": [
+        "konopie siewne"
+      ],
+      "pt": [
+        "Cannabis sativa"
+      ],
+      "ru": [
+        "конопля посевная"
+      ],
+      "tr": [
+        "Hint keneviri"
+      ],
+      "zh": [
+        "大麻"
       ]
     },
     "tags": [],
@@ -295,12 +406,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b07274bd10d5f03b386935d192a0d1dd5bc06ea8",
-    "description": "Drupes mature to deep purple with one round brown seed within. Fleshy parts of the fruit are edible and sweet. Displays from August to October.",
+    "description": "Celtis africana, the white stinkwood, is a deciduous tree in the family Cannabaceae. Its habit ranges from a tall tree in forest to a medium-sized tree in bushveld and open country, and a shrub on rocky soil. It occurs in Yemen and Somaliland and over large parts of Africa south of the Sahara. It is a common tree in the south and east of southern Africa, where the odour given off by freshly-cut green timber is similar to that of Ocotea bullata or black stinkwood.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -311,7 +422,7 @@
     "synonyms": "[\"Celtis kraussiana var. stolzii\", \"Celtis eriantha\", \"Celtis holtzii\", \"Celtis kraussiana\", \"Celtis kraussiana var. flavescens\", \"Celtis opegrapha\", \"Celtis burmanni\", \"Celtis henriquesii\", \"Celtis vesiculosa\"]",
     "care": {
       "plant_id": "celtis_africana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -377,9 +488,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ميس أفريقي"
+      ],
+      "de": [
+        "Celtis africana"
+      ],
+      "en": [
+        "Celtis africana"
+      ],
+      "es": [
+        "Celtis africana"
+      ],
+      "fr": [
+        "Celtis africana"
+      ],
+      "it": [
+        "Celtis africana"
+      ],
+      "nl": [
+        "Celtis africana"
+      ],
+      "pl": [
+        "Celtis africana"
+      ],
+      "pt": [
+        "Celtis africana"
+      ],
+      "ru": [
+        "Celtis africana"
+      ],
+      "zh": [
+        "白朴"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,7 +536,7 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -405,13 +552,13 @@
     "synonyms": "[\"Celtis serrata\", \"Celtis betulifolia\", \"Celtis australis var. panormitana\", \"Celtis kotschyana\", \"Celtis excelsa\", \"Celtis lutea\", \"Celtis australis f. variegata\"]",
     "care": {
       "plant_id": "celtis_australis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -479,11 +626,52 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "ميس جنوبي"
+      ],
+      "de": [
+        "Europäischer Zürgelbaum"
+      ],
       "en": [
         "European hackberry"
+      ],
+      "es": [
+        "Celtis australis"
+      ],
+      "fr": [
+        "Micocoulier de Provence"
+      ],
+      "hi": [
+        "खरक"
+      ],
+      "it": [
+        "Celtis australis"
+      ],
+      "ja": [
+        "ケルティス・アウストラリス"
+      ],
+      "nl": [
+        "Europese netelboom"
+      ],
+      "pl": [
+        "wiązowiec południowy"
+      ],
+      "pt": [
+        "Celtis australis"
+      ],
+      "ru": [
+        "Каркас южный"
+      ],
+      "tr": [
+        "Adi çitlembik"
+      ],
+      "zh": [
+        "南欧朴"
       ]
     },
     "tags": [],
@@ -495,12 +683,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Celtis biondii is a species of hackberry native to China, Taiwan, Korea, and Japan. It prefers to grow on limestone in the floristic assemblage that is thought to also include wild Ginkgo biloba. It is a deciduous tree growing 18 m (59 ft) tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -511,7 +699,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "celtis_biondii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -577,9 +765,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ميس بيوندي"
+      ],
+      "de": [
+        "Celtis biondii"
+      ],
+      "en": [
+        "Celtis biondii"
+      ],
+      "es": [
+        "Celtis biondii"
+      ],
+      "fr": [
+        "Celtis biondii"
+      ],
+      "it": [
+        "Celtis biondii"
+      ],
+      "ja": [
+        "サキシマエノキ"
+      ],
+      "ko": [
+        "폭나무"
+      ],
+      "nl": [
+        "Celtis biondii"
+      ],
+      "pl": [
+        "Celtis biondii"
+      ],
+      "pt": [
+        "Celtis biondii"
+      ],
+      "ru": [
+        "Celtis biondii"
+      ],
+      "zh": [
+        "紫弹朴"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -589,12 +819,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6612e1cbf57a6422e0b5ade7dab10c3f.jpg",
-    "description": "Drupes mature to deep purple with one round brown seed within. Fleshy parts of the fruit are edible and sweet. Displays from August to October.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -605,7 +835,7 @@
     "synonyms": "[\"Celtis boliviensis\", \"Mertensia brasiliensis\", \"Celtis flagellaris\", \"Celtis dumosa\", \"Momisia crenata\", \"Momisia flexuosa\", \"Celtis flexuosa\", \"Celtis membranacea\", \"Celtis lanceolata\", \"Momisia membranacea\"]",
     "care": {
       "plant_id": "celtis_brasiliensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -671,9 +901,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ميس برازيلي"
+      ],
+      "de": [
+        "Celtis brasiliensis"
+      ],
+      "en": [
+        "Celtis brasiliensis"
+      ],
+      "es": [
+        "Celtis brasiliensis"
+      ],
+      "fr": [
+        "Celtis brasiliensis"
+      ],
+      "it": [
+        "Celtis brasiliensis"
+      ],
+      "nl": [
+        "Celtis brasiliensis"
+      ],
+      "pl": [
+        "Celtis brasiliensis"
+      ],
+      "pt": [
+        "Celtis brasiliensis"
+      ],
+      "ru": [
+        "Celtis brasiliensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -683,12 +946,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Celtis ehrenbergiana, called the desert hackberry or spiny hackberry, is a plant species that has long been called C. pallida by many authors, including in the \"Flora of North America\" database. It is native to Arizona, Florida, New Mexico and Texas, and to Latin America as far south as central Argentina. It grows in dry locations such as deserts, brushlands, canyons, mesas and grasslands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -699,17 +962,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "celtis_ehrenbergiana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -765,9 +1028,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Celtis ehrenbergiana"
+      ],
+      "en": [
+        "Celtis ehrenbergiana"
+      ],
+      "es": [
+        "Celtis ehrenbergiana"
+      ],
+      "fr": [
+        "Celtis ehrenbergiana"
+      ],
+      "it": [
+        "Celtis ehrenbergiana"
+      ],
+      "nl": [
+        "Celtis ehrenbergiana"
+      ],
+      "pl": [
+        "Celtis ehrenbergiana"
+      ],
+      "pt": [
+        "Celtis ehrenbergiana"
+      ],
+      "ru": [
+        "Celtis ehrenbergiana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -777,12 +1070,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ea44d7b7334feb41b89725b2759783c6ec8f9fe8",
-    "description": "Drupes mature to deep purple with one round brown seed within. Fleshy parts of the fruit are edible and sweet. Displays from August to October.",
+    "description": "Celtis iguanaea, the iguana hackberry, is a deciduous tree in the genus Celtis.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -793,17 +1086,17 @@
     "synonyms": "[\"Celtis epiphylladena\", \"Celtis biflora\", \"Mertensia laevigata\", \"Momisia zizyphoides\", \"Colletia iguanaea\", \"Momisia ehrenbergiana\", \"Rhamnus grangenos\", \"Momisia tala\", \"Plagioceltis dichotoma\", \"Celtis aculeata var. pubescens\"]",
     "care": {
       "plant_id": "celtis_iguanaea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -859,11 +1152,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "ميس إغواني"
+      ],
+      "de": [
+        "Celtis iguanaea"
+      ],
       "en": [
+        "Celtis iguanaea",
         "Iguana hackberry"
+      ],
+      "es": [
+        "Celtis iguanaea"
+      ],
+      "fr": [
+        "Celtis iguanaea"
+      ],
+      "it": [
+        "Celtis iguanaea"
+      ],
+      "nl": [
+        "Celtis iguanaea"
+      ],
+      "pl": [
+        "Celtis iguanaea"
+      ],
+      "pt": [
+        "Celtis iguanaea"
+      ],
+      "ru": [
+        "Celtis iguanaea"
       ]
     },
     "tags": [],
@@ -875,12 +1198,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5081098f694545a04358abb61e2ce6bc73aa3666",
-    "description": "Drupes mature to deep purple with one round brown seed within. Fleshy parts of the fruit are edible and sweet. Displays from August to October.",
+    "description": "Celtis jessoensis, known as the Japanese hackberry or Jesso hackberry, is a species of hackberry native to Japan and Korea. It is a deciduous tree growing to 20–25 m (66–82 ft) tall. The leaves are 5–9 cm (2.0–3.5 in) long and 3–4 cm (1.2–1.6 in) broad, with a sharply serrated margin, glaucous beneath and downy on the leaf veins.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -891,7 +1214,7 @@
     "synonyms": "[\"Celtis taihyunchungii\", \"Celtis koraiensis var. holophylla\", \"Celtis cordifolia\", \"Celtis jessoensis var. angustibolia\", \"Celtis jessoensis f. angustibolia\", \"Celtis edulis\", \"Celtis hashimotoi\", \"Celtis aphanonthoides\", \"Celtis bungeana var. jessoensis\", \"Celtis choseniana\"]",
     "care": {
       "plant_id": "celtis_jessoensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -957,11 +1280,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ميس يازو"
+      ],
+      "de": [
+        "Celtis jessoensis"
+      ],
       "en": [
+        "Celtis jessoensis",
         "Japanese hackberry"
+      ],
+      "es": [
+        "Celtis jessoensis"
+      ],
+      "fr": [
+        "Celtis jessoensis"
+      ],
+      "it": [
+        "Celtis jessoensis"
+      ],
+      "ja": [
+        "エゾエノキ"
+      ],
+      "ko": [
+        "풍게나무"
+      ],
+      "nl": [
+        "Celtis jessoensis"
+      ],
+      "pl": [
+        "Celtis jessoensis"
+      ],
+      "pt": [
+        "Celtis jessoensis"
+      ],
+      "ru": [
+        "Celtis jessoensis"
+      ],
+      "zh": [
+        "日本朴樹"
       ]
     },
     "tags": [],
@@ -973,12 +1335,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/77b23517db4fec400037cdc9a57d31ab1cb1ba62",
-    "description": "Drupes mature to deep purple with one round brown seed within. Fleshy parts of the fruit are edible and sweet. Displays from August to October.",
+    "description": "Celtis laevigata is a medium-sized tree native to North America. Common names include sugarberry, southern hackberry, or in the southern U.S. sugar hackberry or just hackberry.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -989,13 +1351,13 @@
     "synonyms": "[\"Celtis berlandieri\", \"Momisia lamarckii\", \"Celtis americana\", \"Celtis laevigata var. brachyphylla\", \"Celtis laevigata f. microphylla\", \"Celtis laevigata var. anomala\", \"Celtis laevigata var. apposita\", \"Sponia laevigata\", \"Celtis laevigata var. texana\", \"Celtis texana\"]",
     "care": {
       "plant_id": "celtis_laevigata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -1063,11 +1425,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "ميس ناعم"
+      ],
+      "de": [
+        "Glattblättriger Zürgelbaum"
+      ],
       "en": [
+        "Celtis laevigata",
         "Sugar hackberry"
+      ],
+      "es": [
+        "Celtis laevigata"
+      ],
+      "fr": [
+        "Celtis laevigata"
+      ],
+      "it": [
+        "Celtis laevigata"
+      ],
+      "nl": [
+        "Celtis laevigata"
+      ],
+      "pl": [
+        "Celtis laevigata"
+      ],
+      "pt": [
+        "Celtis laevigata"
+      ],
+      "ru": [
+        "Celtis laevigata"
       ]
     },
     "tags": [],
@@ -1079,12 +1471,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/becc7cf08992b11b79d93a47a387b0523a4b17a9",
-    "description": "Drupes mature to deep purple with one round brown seed within. Fleshy parts of the fruit are edible and sweet. Displays from August to October.",
+    "description": "Celtis mildbraedii is a species of forest tree in the family Cannabaceae. It was previously assigned to the family Ulmaceae. These trees grow in limited areas of South Africa, Mozambique and Zimbabwe. They are also found in forested areas from West Africa to Sudan, DRC, Angola and Tanzania. Common names include natal white stinkwood, red-fruited white-stinkwood and natal elm. This species is more common in Tropical Africa than in Southern Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1095,7 +1487,7 @@
     "synonyms": "[\"Celtis compressa\", \"Celtis usambarensis\", \"Celtis bequaertii\", \"Celtis dubia\", \"Celtis franksiae\"]",
     "care": {
       "plant_id": "celtis_mildbraedii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1161,11 +1553,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ميس ملدبريدي"
+      ],
+      "de": [
+        "Celtis mildbraedii"
+      ],
       "en": [
+        "Celtis mildbraedii",
         "Red-fruited white-stinkwood"
+      ],
+      "es": [
+        "Celtis mildbraedii"
+      ],
+      "fr": [
+        "Celtis mildbraedii"
+      ],
+      "it": [
+        "Celtis mildbraedii"
+      ],
+      "nl": [
+        "Celtis mildbraedii"
+      ],
+      "pl": [
+        "Celtis mildbraedii"
+      ],
+      "pt": [
+        "Celtis mildbraedii"
+      ],
+      "ru": [
+        "Celtis mildbraedii"
       ]
     },
     "tags": [],
@@ -1177,7 +1599,7 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1193,13 +1615,13 @@
     "synonyms": "[\"Celtis pumila\", \"Celtis occidentalis f. neglecta\", \"Celtis cordata\", \"Celtis longifolia\", \"Sponia crassifolia\", \"Sponia occidentalis\", \"Celtis pumila var. deamii\", \"Celtis procera\", \"Celtis occidentalis var. crassifolia\", \"Celtis occidentalis var. cordata\"]",
     "care": {
       "plant_id": "celtis_occidentalis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -1263,11 +1685,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "ميس غربي"
+      ],
+      "de": [
+        "Amerikanischer Zürgelbaum"
+      ],
       "en": [
+        "Celtis occidentalis",
         "Northern hackberry"
+      ],
+      "es": [
+        "Celtis occidentalis"
+      ],
+      "fr": [
+        "Micocoulier occidental"
+      ],
+      "it": [
+        "Celtis occidentalis"
+      ],
+      "nl": [
+        "zwepenboom"
+      ],
+      "pl": [
+        "wiązowiec zachodni"
+      ],
+      "pt": [
+        "Celtis occidentalis"
+      ],
+      "ru": [
+        "Каркас западный"
       ]
     },
     "tags": [],
@@ -1279,12 +1731,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bfece30f131f795a5264aef72ef9e2c9c2cd9ca6",
-    "description": "Drupes mature to deep purple with one round brown seed within. Fleshy parts of the fruit are edible and sweet. Displays from August to October.",
+    "description": "Celtis ehrenbergiana, called the desert hackberry or spiny hackberry, is a plant species that has long been called C. pallida by many authors, including in the \"Flora of North America\" database. It is native to Arizona, Florida, New Mexico and Texas, and to Latin America as far south as central Argentina. It grows in dry locations such as deserts, brushlands, canyons, mesas and grasslands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1295,17 +1747,17 @@
     "synonyms": "[\"Celtis spinosa var. pallida\", \"Celtis tala var. pallida\"]",
     "care": {
       "plant_id": "celtis_pallida",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1361,11 +1813,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "ميس شاحب"
+      ],
+      "de": [
+        "Celtis pallida"
+      ],
       "en": [
+        "Celtis pallida",
         "Desert hackberry"
+      ],
+      "es": [
+        "Celtis pallida"
+      ],
+      "fr": [
+        "Celtis pallida"
+      ],
+      "it": [
+        "Celtis pallida"
+      ],
+      "nl": [
+        "Celtis pallida"
+      ],
+      "pl": [
+        "Celtis pallida"
+      ],
+      "pt": [
+        "Celtis pallida"
+      ],
+      "ru": [
+        "Celtis pallida"
       ]
     },
     "tags": [],
@@ -1377,7 +1859,7 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1393,17 +1875,17 @@
     "synonyms": "[\"Celtis wightii var. consimilis\", \"Celtis brevinervis\", \"Celtis philippensis var. consimilis\", \"Sponia strychnifolia\", \"Solenostigma wightii\", \"Celtis collinsiae\", \"Celtis trinervia\", \"Celtis hasseltii\", \"Celtis djungiel\", \"Celtis wightii\"]",
     "care": {
       "plant_id": "celtis_philippensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1459,9 +1941,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ميس فلبيني"
+      ],
+      "de": [
+        "Celtis philippensis"
+      ],
+      "en": [
+        "Celtis philippensis"
+      ],
+      "es": [
+        "Celtis philippensis"
+      ],
+      "fr": [
+        "Celtis philippensis"
+      ],
+      "it": [
+        "Celtis philippensis"
+      ],
+      "nl": [
+        "Celtis philippensis"
+      ],
+      "pl": [
+        "Celtis philippensis"
+      ],
+      "pt": [
+        "Celtis philippensis"
+      ],
+      "ru": [
+        "Celtis philippensis"
+      ],
+      "zh": [
+        "菲律宾朴树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1471,12 +1989,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/856ba77c99e482d626b6d5db84ecda48.jpg",
-    "description": "Drupes mature to deep purple with one round brown seed within. Fleshy parts of the fruit are edible and sweet. Displays from August to October.",
+    "description": "Celtis reticulata, with common names including netleaf hackberry, western hackberry, Douglas hackberry, netleaf sugar hackberry, palo blanco, and acibuche, is a small- to medium-sized deciduous tree native to western North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1487,7 +2005,7 @@
     "synonyms": "[\"Celtis occidentalis var. reticulata\", \"Celtis mississippiensis var. reticulata\", \"Celtis douglasii\", \"Celtis laevigata var. brevipes\", \"Celtis reticulata var. vestita\", \"Celtis patula\", \"Celtis brevipes\", \"Celtis occidentalis f. reticulata\", \"Celtis laevigata var. reticulata\", \"Celtis laevigata subsp. reticulata\"]",
     "care": {
       "plant_id": "celtis_reticulata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1553,9 +2071,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ميس شبكي"
+      ],
+      "de": [
+        "Celtis reticulata"
+      ],
+      "en": [
+        "Celtis reticulata"
+      ],
+      "es": [
+        "Celtis reticulata"
+      ],
+      "fr": [
+        "Celtis reticulata"
+      ],
+      "it": [
+        "Celtis reticulata"
+      ],
+      "nl": [
+        "Celtis reticulata"
+      ],
+      "pl": [
+        "Celtis reticulata"
+      ],
+      "pt": [
+        "Celtis reticulata"
+      ],
+      "ru": [
+        "Каркас сетчатый"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1565,7 +2116,7 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1581,13 +2132,13 @@
     "synonyms": "[\"Celtis sinensis var. nervosa\", \"Celtis hunanensis\", \"Celtis labilis\", \"Celtis bodinieri\", \"Celtis cercidifolia\", \"Sponia willdenowiana\", \"Celtis willdenowiana\", \"Celtis japonica\", \"Celtis tetrandra subsp. sinensis\", \"Celtis sinensis f. purpurascens\"]",
     "care": {
       "plant_id": "celtis_sinensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 81,
       "ppfd_max": 115,
       "dli_min": 0.3,
@@ -1655,11 +2206,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "ميس صيني"
+      ],
+      "de": [
+        "Celtis sinensis"
+      ],
       "en": [
+        "Celtis sinensis",
         "Chinese hackberry"
+      ],
+      "es": [
+        "Celtis sinensis"
+      ],
+      "fr": [
+        "Celtis sinensis"
+      ],
+      "it": [
+        "Celtis sinensis"
+      ],
+      "ja": [
+        "エノキ"
+      ],
+      "ko": [
+        "팽나무"
+      ],
+      "nl": [
+        "Celtis sinensis"
+      ],
+      "pl": [
+        "wiązowiec chiński"
+      ],
+      "pt": [
+        "Celtis sinensis"
+      ],
+      "ru": [
+        "каркас китайский"
+      ],
+      "zh": [
+        "朴樹"
       ]
     },
     "tags": [],
@@ -1671,12 +2261,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/987c5b3c1245434ca5f9a5a642da8c8b9e787904",
-    "description": "The sweet fruit is a berry-like drupe, 5 to 8 millimeters in diameter, consisting of a single stone encased within a thin, sweet mesocarp. From green, it becomes an orange-pink. The outer skin remains smooth with yellow pulp and a sweet flavor. Drupes display from August to October.",
+    "description": "Celtis tenuifolia, the dwarf hackberry or Georgia hackberry, is a shrub or small tree 2-to-12-meter-high. It is native to eastern North America but is very uncommon north of the Ohio River. In Canada, dwarf hackberry is designated as threatened and protected under Canada's Species at Risk Act.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1687,7 +2277,7 @@
     "synonyms": "[\"Celtis tenuifolia var. soperi\", \"Celtis tenuifolia var. georgiana\", \"Celtis occidentalis var. grandidentata\", \"Celtis occidentalis var. georgiana\", \"Celtis occidentalis subsp. tenuifolia\", \"Celtis grandidentata\", \"Celtis fuscata\", \"Celtis pumila var. georgiana\", \"Celtis americana\", \"Celtis salicifolia\"]",
     "care": {
       "plant_id": "celtis_tenuifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1757,11 +2347,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ميس نحيل الأوراق"
+      ],
+      "de": [
+        "Celtis tenuifolia"
+      ],
       "en": [
+        "Celtis tenuifolia",
         "Dwarf hackberry"
+      ],
+      "es": [
+        "Celtis tenuifolia"
+      ],
+      "fr": [
+        "Celtis tenuifolia"
+      ],
+      "it": [
+        "Celtis tenuifolia"
+      ],
+      "nl": [
+        "Celtis tenuifolia"
+      ],
+      "pl": [
+        "Celtis tenuifolia"
+      ],
+      "pt": [
+        "Celtis tenuifolia"
+      ],
+      "ru": [
+        "Celtis tenuifolia"
       ]
     },
     "tags": [],
@@ -1773,12 +2393,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8c6cce1dd272eaf094fb68a02ae7cde6c0ad6458",
-    "description": "Drupes mature to deep purple with one round brown seed within. Fleshy parts of the fruit are edible and sweet. Displays from August to October.",
+    "description": "Celtis tetrandra, called the Nilgiri elm, is a species of flowering plant in the hackberry genus Celtis, family Cannabaceae. It is widely distributed across the Indian Subcontinent, southern China, Southeast Asia, and western Indonesia. It is occasionally available commercially.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1789,7 +2409,7 @@
     "synonyms": "[\"Celtis xizangensis\", \"Celtis formosana\", \"Celtis salvatiana\", \"Celtis fengqingensis\", \"Celtis kunmingensis\", \"Sponia tetrandra\", \"Celtis yunnanensis\", \"Celtis tetrandra f. pendula\", \"Celtis glabra\", \"Celtis hamiltonii\"]",
     "care": {
       "plant_id": "celtis_tetrandra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1855,11 +2475,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ميس رباعي الأسدية"
+      ],
+      "de": [
+        "Celtis tetrandra"
+      ],
       "en": [
+        "Celtis tetrandra",
         "Nilgiri elm"
+      ],
+      "es": [
+        "Celtis tetrandra"
+      ],
+      "fr": [
+        "Celtis tetrandra"
+      ],
+      "it": [
+        "Celtis tetrandra"
+      ],
+      "nl": [
+        "Celtis tetrandra"
+      ],
+      "pl": [
+        "Celtis tetrandra"
+      ],
+      "pt": [
+        "Celtis tetrandra"
+      ],
+      "ru": [
+        "Каркас четырёхтычинковый"
+      ],
+      "zh": [
+        "四蕊朴"
       ]
     },
     "tags": [],
@@ -1871,12 +2524,12 @@
     "family": "Cannabaceae",
     "genus": "Celtis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/59a1f254d62c61e598b9d2e71584b151.jpg",
-    "description": "Drupes mature to deep purple with one round brown seed within. Fleshy parts of the fruit are edible and sweet. Displays from August to October.",
+    "description": "Celtis zenkeri is a species of flowering plant native to sub-Saharan Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1887,7 +2540,7 @@
     "synonyms": "[\"Celtis stuhlmannii\", \"Celtis affinis\", \"Celtis soyauxii\"]",
     "care": {
       "plant_id": "celtis_zenkeri",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1953,9 +2606,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ميس زنكري"
+      ],
+      "de": [
+        "Celtis zenkeri"
+      ],
+      "en": [
+        "Celtis zenkeri"
+      ],
+      "es": [
+        "Celtis zenkeri"
+      ],
+      "fr": [
+        "Celtis zenkeri"
+      ],
+      "it": [
+        "Celtis zenkeri"
+      ],
+      "nl": [
+        "Celtis zenkeri"
+      ],
+      "pl": [
+        "Celtis zenkeri"
+      ],
+      "pt": [
+        "Celtis zenkeri"
+      ],
+      "ru": [
+        "Celtis zenkeri"
+      ],
+      "tr": [
+        "Celtis zenkeri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1965,7 +2654,7 @@
     "family": "Cannabaceae",
     "genus": "Gironniera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2047,9 +2736,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gironniera subaequalis"
+      ],
+      "en": [
+        "Gironniera subaequalis"
+      ],
+      "es": [
+        "Gironniera subaequalis"
+      ],
+      "fr": [
+        "Gironniera subaequalis"
+      ],
+      "it": [
+        "Gironniera subaequalis"
+      ],
+      "nl": [
+        "Gironniera subaequalis"
+      ],
+      "pl": [
+        "Gironniera subaequalis"
+      ],
+      "pt": [
+        "Gironniera subaequalis"
+      ],
+      "ru": [
+        "Gironniera subaequalis"
+      ],
+      "zh": [
+        "大叶白颜树",
+        "寒虾子",
+        "白颜树",
+        "黄机树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2059,7 +2784,7 @@
     "family": "Cannabaceae",
     "genus": "Humulus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2075,17 +2800,17 @@
     "synonyms": "[\"Humulus lupulus var. acrocarpus\", \"Humulus lupulus var. silvestris\", \"Humulus lupulus var. spaltensis\", \"Humulus lupulus var. effusus\", \"Lupulus humulus\", \"Lupulus scandens\", \"Humulus lupulus var. fengxianensis\", \"Humulus volubilis\", \"Humulus vulgaris\", \"Lupulus amarus\"]",
     "care": {
       "plant_id": "humulus_lupulus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2107,7 +2832,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Centrosema virginianum",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs. Signs: Dogs: panting, high body temperature, seizures, death.",
       "common_problems": null,
       "common_pests": null,
@@ -2126,7 +2851,7 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Climbing",
-      "toxic_parts": null,
+      "toxic_parts": "Fruit",
       "toxicity_severity": "Severe",
       "toxicity_symptoms": "Dogs: panting, high body temperature, seizures, death.",
       "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
@@ -2141,11 +2866,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "ar": [
+        "جنجل شائع"
+      ],
+      "de": [
+        "Echter Hopfen"
+      ],
       "en": [
-        "Bine"
+        "Bine",
+        "Humulus lupulus"
+      ],
+      "es": [
+        "Humulus lupulus"
+      ],
+      "fr": [
+        "houblon"
+      ],
+      "hi": [
+        "साधारण राज़क"
+      ],
+      "it": [
+        "Humulus lupulus"
+      ],
+      "ja": [
+        "ホップ"
+      ],
+      "ko": [
+        "홉"
+      ],
+      "nl": [
+        "hop"
+      ],
+      "pl": [
+        "chmiel zwyczajny"
+      ],
+      "pt": [
+        "Humulus lupulus"
+      ],
+      "ru": [
+        "хмель обыкновенный"
+      ],
+      "tr": [
+        "Şerbetçi otu"
+      ],
+      "zh": [
+        "蛇麻"
       ]
     },
     "tags": [],
@@ -2157,12 +2927,12 @@
     "family": "Cannabaceae",
     "genus": "Humulus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ceb25b0e65df087448e57035a6ee44db017277be",
-    "description": "The fruit is an ovoid, yellow-brown achene.",
+    "description": "Humulus japonicus is a species of flowering plant in family Cannabaceae. This ornamental plant is sometimes referred to by the common name Japanese hops.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2173,17 +2943,17 @@
     "synonyms": "[\"Humulus japonicus\", \"Humulopsis scandens\", \"Humulus japonicus var. minor\", \"Humulus aculeatus\", \"Antidesma scandens\", \"Humulus scandens var. variegatus\", \"Humulus japonicus var. variegatus\"]",
     "care": {
       "plant_id": "humulus_scandens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2239,11 +3009,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Humulus scandens"
+      ],
       "en": [
+        "Humulus scandens",
         "Japanese hop"
+      ],
+      "es": [
+        "Humulus scandens"
+      ],
+      "fr": [
+        "Humulus scandens"
+      ],
+      "it": [
+        "Humulus scandens"
+      ],
+      "nl": [
+        "Humulus scandens"
+      ],
+      "pl": [
+        "Humulus scandens"
+      ],
+      "pt": [
+        "Humulus scandens"
+      ],
+      "ru": [
+        "Humulus scandens"
+      ],
+      "zh": [
+        "葎草"
       ]
     },
     "tags": [],
@@ -2255,7 +3055,7 @@
     "family": "Cannabaceae",
     "genus": "Trema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2337,11 +3137,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trema cannabina"
+      ],
       "en": [
-        "Poison-peach"
+        "Poison-peach",
+        "Trema cannabina"
+      ],
+      "es": [
+        "Trema cannabina"
+      ],
+      "fr": [
+        "Trema cannabina"
+      ],
+      "it": [
+        "Trema cannabina"
+      ],
+      "nl": [
+        "Trema cannabina"
+      ],
+      "pl": [
+        "Trema cannabina"
+      ],
+      "pt": [
+        "Trema cannabina"
+      ],
+      "ru": [
+        "Trema cannabina"
+      ],
+      "zh": [
+        "光叶山黄麻"
       ]
     },
     "tags": [],
@@ -2353,12 +3183,12 @@
     "family": "Cannabaceae",
     "genus": "Trema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e056e0cac21a75b35e1907d81c56f109b9d300f9",
-    "description": null,
+    "description": "Trema micranthum, the Jamaican nettletree or capulin, is a plant species native to warmer parts of the Western Hemisphere. It has been reported from Mexico, Central America, tropical South America, the Virgin Islands, Jamaica, Cuba, Hispaniola, Puerto Rico, and southern Florida.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2435,11 +3265,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trema micrantha"
+      ],
       "en": [
-        "Capulin"
+        "Capulin",
+        "Trema micrantha"
+      ],
+      "es": [
+        "Trema micrantha"
+      ],
+      "fr": [
+        "Trema micrantha"
+      ],
+      "it": [
+        "Trema micrantha"
+      ],
+      "nl": [
+        "Trema micrantha"
+      ],
+      "pl": [
+        "Trema micrantha"
+      ],
+      "pt": [
+        "Trema micrantha"
+      ],
+      "ru": [
+        "Trema micrantha"
       ]
     },
     "tags": [],
@@ -2451,12 +3308,12 @@
     "family": "Cannabaceae",
     "genus": "Trema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b3da069564d3a2aa1e29cead2f08433fecbabedc",
-    "description": null,
+    "description": "Trema orientale is a species of flowering tree in the hemp family, Cannabaceae. It is known by many common names, including charcoal-tree, Indian charcoal-tree, pigeon wood, Oriental trema, and in Hawaii, where it has become naturalized, gunpowder tree, or nalita. It has a near universal distribution in tropical and warm temperate parts of the Old World, with a range extending from South Africa, through the Middle East, the Indian subcontinent and southern China to Southeast Asia and Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2533,7 +3390,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -2549,12 +3408,12 @@
     "family": "Cannabaceae",
     "genus": "Trema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/508a9d34727b0198582c130e7fe02e183d90500f",
-    "description": null,
+    "description": "Trema tomentosum, also known as T. tomentosa and commonly called poison peach, is a shrub or tree in the family Cannabaceae native to the Indian subcontinent, south east Asia, through the islands of the south west Pacific, and the east coast and northern half of Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2631,11 +3490,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Trema tomentosa"
+      ],
       "en": [
-        "Peach-leaf-poisonbush"
+        "Peach-leaf-poisonbush",
+        "Trema tomentosum"
+      ],
+      "es": [
+        "Trema tomentosa"
+      ],
+      "fr": [
+        "Trema tomentosa"
+      ],
+      "it": [
+        "Trema tomentosa"
+      ],
+      "nl": [
+        "Trema tomentosa"
+      ],
+      "pl": [
+        "Trema tomentosa"
+      ],
+      "pt": [
+        "Trema tomentosa"
+      ],
+      "ru": [
+        "Trema tomentosa"
+      ],
+      "zh": [
+        "山黄麻"
       ]
     },
     "tags": [],

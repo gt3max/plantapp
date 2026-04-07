@@ -5,7 +5,7 @@
     "family": "Stereophyllaceae",
     "genus": "Entodontopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Entodontopsis leucostega"
+      ],
+      "en": [
+        "Entodontopsis leucostega"
+      ],
+      "es": [
+        "Entodontopsis leucostega"
+      ],
+      "fr": [
+        "Entodontopsis leucostega"
+      ],
+      "it": [
+        "Entodontopsis leucostega"
+      ],
+      "nl": [
+        "Entodontopsis leucostega"
+      ],
+      "pl": [
+        "Entodontopsis leucostega"
+      ],
+      "pt": [
+        "Entodontopsis leucostega"
+      ],
+      "ru": [
+        "Entodontopsis leucostega"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Stereophyllaceae",
     "genus": "Stereophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stereophyllum radiculosum"
+      ],
+      "en": [
+        "Stereophyllum radiculosum"
+      ],
+      "es": [
+        "Stereophyllum radiculosum"
+      ],
+      "fr": [
+        "Stereophyllum radiculosum"
+      ],
+      "it": [
+        "Stereophyllum radiculosum"
+      ],
+      "nl": [
+        "Stereophyllum radiculosum"
+      ],
+      "pl": [
+        "Stereophyllum radiculosum"
+      ],
+      "pt": [
+        "Stereophyllum radiculosum"
+      ],
+      "ru": [
+        "Stereophyllum radiculosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

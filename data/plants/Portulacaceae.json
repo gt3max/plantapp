@@ -5,12 +5,12 @@
     "family": "Portulacaceae",
     "genus": "Portulaca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/07dcf1bb845880c6b46790b04804dab67dd7450b",
-    "description": "Rounded 1/8-1/4 inch diameter seed capsules develop. When ripe, they split open, spilling numerous tiny, rounded to elongate, iridescent blue-grey seeds",
+    "description": "Portulaca grandiflora is a succulent flowering plant in the purslane family Portulacaceae, native to southern Brazil, Argentina, and Uruguay and often cultivated in gardens. It has many common names, including rose moss, eleven o'clock, Mexican rose, moss rose, sun rose, rose Jepun, table rose, rock rose, and moss-rose purslane.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "رجلة زهور"
+      ],
+      "de": [
+        "Portulakröschen"
+      ],
       "en": [
-        "Moss-rose"
+        "Moss-rose",
+        "Portulaca grandiflora"
+      ],
+      "es": [
+        "Portulaca grandiflora"
+      ],
+      "fr": [
+        "Portulaca grandiflora"
+      ],
+      "hi": [
+        "पोर्टुलाका ग्रन्डीफ़्लोरा"
+      ],
+      "it": [
+        "Portulaca grandiflora"
+      ],
+      "ja": [
+        "マツバボタン"
+      ],
+      "ko": [
+        "채송화"
+      ],
+      "nl": [
+        "Portulaca grandiflora"
+      ],
+      "pl": [
+        "Portulaka wielkokwiatowa"
+      ],
+      "pt": [
+        "Onze-horas"
+      ],
+      "ru": [
+        "Портулак крупноцветковый"
+      ],
+      "zh": [
+        "大花马齿苋"
       ]
     },
     "tags": [],
@@ -103,12 +145,12 @@
     "family": "Portulacaceae",
     "genus": "Portulaca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/473e8b5888dae7c88380e968a17f511b26d969dc",
-    "description": "A capsule containing many tiny seeds.",
+    "description": "Portulaca halimoides is a species of purslane known by the common name silkcotton purslane. It is native to the deserts of the southwestern United States and northern Mexico, as well as parts of Central and South America. It is a fleshy annual herb producing a branching stem spreading to a maximum length around 25 centimeters. It is often pink or red in color and there are strands of woolly hairlike trichomes at nodes along the stem and within the inflorescence.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,11 +227,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Portulaca halimoides"
+      ],
       "en": [
+        "Portulaca halimoides",
         "Silkcotton purslane"
+      ],
+      "es": [
+        "Portulaca halimoides"
+      ],
+      "fr": [
+        "Portulaca halimoides"
+      ],
+      "it": [
+        "Portulaca halimoides"
+      ],
+      "nl": [
+        "Portulaca halimoides"
+      ],
+      "pl": [
+        "Portulaca halimoides"
+      ],
+      "pt": [
+        "Portulaca halimoides"
+      ],
+      "ru": [
+        "Portulaca halimoides"
       ]
     },
     "tags": [],
@@ -201,7 +270,7 @@
     "family": "Portulacaceae",
     "genus": "Portulaca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
@@ -222,12 +291,12 @@
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -283,11 +352,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "رجلة"
+      ],
+      "de": [
+        "Portulak"
+      ],
       "en": [
-        "Common purslane"
+        "Common purslane",
+        "Portulaca oleracea"
+      ],
+      "es": [
+        "Portulaca oleracea"
+      ],
+      "fr": [
+        "Portulaca oleracea"
+      ],
+      "hi": [
+        "पोर्टुलाका ओलेरासिया या पर्सलेन"
+      ],
+      "it": [
+        "Portulaca oleracea"
+      ],
+      "ja": [
+        "スベリヒユ"
+      ],
+      "ko": [
+        "쇠비름"
+      ],
+      "nl": [
+        "postelein"
+      ],
+      "pl": [
+        "Portulaka pospolita"
+      ],
+      "pt": [
+        "beldroegas"
+      ],
+      "ru": [
+        "Портулак огородный"
+      ],
+      "tr": [
+        "Semizotu"
+      ],
+      "zh": [
+        "马齿苋"
       ]
     },
     "tags": [],
@@ -299,12 +413,12 @@
     "family": "Portulacaceae",
     "genus": "Portulaca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/86a49a3637c596abf764ee156aa406c8805bfd0d",
-    "description": "A capsule containing many tiny seeds.",
+    "description": "Portulaca pilosa is a species of flowering succulent plant in the purslane family, Portulacaceae, which is native to the Americas. Its common names include pink purslane, kiss-me-quick and hairy pigweed. Its range extends from the southern United States and the Caribbean to as far south as Brazil.\nIt is a succulent plant with linear leaves and pink flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -320,12 +434,12 @@
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -381,11 +495,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Portulaca pilosa"
+      ],
       "en": [
-        "Kiss-me-quick"
+        "Kiss-me-quick",
+        "Portulaca pilosa"
+      ],
+      "es": [
+        "Portulaca pilosa"
+      ],
+      "fr": [
+        "Portulaca pilosa"
+      ],
+      "it": [
+        "Portulaca pilosa"
+      ],
+      "ja": [
+        "ヒメマツバボタン"
+      ],
+      "nl": [
+        "Portulaca pilosa"
+      ],
+      "pl": [
+        "Portulaca pilosa"
+      ],
+      "pt": [
+        "Portulaca pilosa"
+      ],
+      "ru": [
+        "Portulaca pilosa"
+      ],
+      "zh": [
+        "毛马齿苋"
       ]
     },
     "tags": [],
@@ -397,12 +544,12 @@
     "family": "Portulacaceae",
     "genus": "Portulaca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/ce84d032fbc0c1c4b156a4ba3a4999a44c898a35",
-    "description": "A capsule containing many tiny seeds.",
+    "description": "Portulaca quadrifida, known as pusley, wild purslane, chicken weed, single‑flowered purslane, small‑leaved purslane and 10 o'clock plant, is a species of flowering plant in the genus Portulaca, possibly native to Africa, but certainly widespread over the Old World Tropics, and introduced elsewhere. It is collected in the wild and eaten in salads or cooked, and is a favorite fodder for chickens and pigs.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -479,11 +626,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "الرجلة"
+      ],
+      "de": [
+        "Portulaca quadrifida"
+      ],
       "en": [
-        "Chickenweed"
+        "Chickenweed",
+        "Portulaca quadrifida"
+      ],
+      "es": [
+        "Portulaca quadrifida"
+      ],
+      "fr": [
+        "Portulaca quadrifida"
+      ],
+      "it": [
+        "Portulaca quadrifida"
+      ],
+      "nl": [
+        "Portulaca quadrifida"
+      ],
+      "pl": [
+        "Portulaca quadrifida"
+      ],
+      "pt": [
+        "Portulaca quadrifida"
+      ],
+      "ru": [
+        "Portulaca quadrifida"
+      ],
+      "zh": [
+        "四瓣马齿苋"
       ]
     },
     "tags": [],
@@ -495,12 +675,12 @@
     "family": "Portulacaceae",
     "genus": "Portulaca",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/17e40075fa83714bc6c5eda59933a2014e204814",
-    "description": "A capsule containing many tiny seeds.",
+    "description": "Portulaca umbraticola, also known as the wingpod purslane, is an annual or short-lived perennial succulent in the genus of flowering plants Portulaca.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -577,11 +757,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Portulaca umbraticola"
+      ],
       "en": [
+        "Portulaca umbraticola",
         "Wingpod purslane"
+      ],
+      "es": [
+        "Portulaca umbraticola"
+      ],
+      "fr": [
+        "Portulaca umbraticola"
+      ],
+      "it": [
+        "Portulaca umbraticola"
+      ],
+      "ja": [
+        "ハナスベリヒユ"
+      ],
+      "nl": [
+        "Portulaca umbraticola"
+      ],
+      "pl": [
+        "Portulaca umbraticola"
+      ],
+      "pt": [
+        "Portulaca umbraticola"
+      ],
+      "ru": [
+        "Portulaca umbraticola"
+      ],
+      "zh": [
+        "环翅马齿苋"
       ]
     },
     "tags": [],

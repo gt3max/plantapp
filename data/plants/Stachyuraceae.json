@@ -5,7 +5,7 @@
     "family": "Stachyuraceae",
     "genus": "Stachyurus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "يعشيل صيني"
+      ],
+      "de": [
+        "Chinesischer Perlschweif"
+      ],
+      "en": [
+        "Stachyurus chinensis"
+      ],
+      "es": [
+        "Stachyurus chinensis"
+      ],
+      "fr": [
+        "Stachyurus chinensis"
+      ],
+      "it": [
+        "Stachyurus chinensis"
+      ],
+      "nl": [
+        "Stachyurus chinensis"
+      ],
+      "pl": [
+        "Stachyurus chinensis"
+      ],
+      "pt": [
+        "Stachyurus chinensis"
+      ],
+      "ru": [
+        "Stachyurus chinensis"
+      ],
+      "zh": [
+        "中国旌节花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +135,7 @@
     "family": "Stachyuraceae",
     "genus": "Stachyurus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +217,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stachyurus himalaicus"
+      ],
+      "en": [
+        "Stachyurus himalaicus"
+      ],
+      "es": [
+        "Stachyurus himalaicus"
+      ],
+      "fr": [
+        "Stachyurus himalaicus"
+      ],
+      "it": [
+        "Stachyurus himalaicus"
+      ],
+      "nl": [
+        "Stachyurus himalaicus"
+      ],
+      "pl": [
+        "Stachyurus himalaicus"
+      ],
+      "pt": [
+        "Stachyurus himalaicus"
+      ],
+      "ru": [
+        "Stachyurus himalaicus"
+      ],
+      "tr": [
+        "Stachyurus himalaicus"
+      ],
+      "zh": [
+        "西域旌节花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +265,7 @@
     "family": "Stachyuraceae",
     "genus": "Stachyurus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +347,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "يعشيل بكوري"
+      ],
+      "de": [
+        "Stachyurus praecox"
+      ],
+      "en": [
+        "Stachyurus praecox"
+      ],
+      "es": [
+        "Stachyurus praecox"
+      ],
+      "fr": [
+        "Stachyurus praecox"
+      ],
+      "it": [
+        "Stachyurus praecox"
+      ],
+      "ja": [
+        "キブシ"
+      ],
+      "nl": [
+        "Stachyurus praecox"
+      ],
+      "pl": [
+        "Stachyurus praecox"
+      ],
+      "pt": [
+        "Stachyurus praecox"
+      ],
+      "ru": [
+        "Stachyurus praecox"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

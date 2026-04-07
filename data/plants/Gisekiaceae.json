@@ -5,7 +5,7 @@
     "family": "Gisekiaceae",
     "genus": "Gisekia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,40 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ديد مان"
+      ],
+      "de": [
+        "Gisekia pharnacioides"
+      ],
       "en": [
-        "Common gisekia"
+        "Common gisekia",
+        "Gisekia pharnacioides",
+        "Gisekia pharnacioides (original spelling)"
+      ],
+      "es": [
+        "Gisekia pharnacioides"
+      ],
+      "fr": [
+        "Gisekia pharnacioides"
+      ],
+      "it": [
+        "Gisekia pharnacioides"
+      ],
+      "nl": [
+        "Gisekia pharnacioides"
+      ],
+      "ru": [
+        "Gisekia pharnacioides"
+      ],
+      "zh": [
+        "吉粟草",
+        "针晶粟草"
       ]
     },
     "tags": [],

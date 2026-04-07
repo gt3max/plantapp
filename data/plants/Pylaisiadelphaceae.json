@@ -5,7 +5,7 @@
     "family": "Pylaisiadelphaceae",
     "genus": "Pylaisiadelpha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pylaisiadelpha tenuirostris"
+      ],
+      "en": [
+        "Pylaisiadelpha tenuirostris"
+      ],
+      "es": [
+        "Pylaisiadelpha tenuirostris"
+      ],
+      "fr": [
+        "Pylaisiadelpha tenuirostris"
+      ],
+      "it": [
+        "Pylaisiadelpha tenuirostris"
+      ],
+      "nl": [
+        "Pylaisiadelpha tenuirostris"
+      ],
+      "pl": [
+        "Pylaisiadelpha tenuirostris"
+      ],
+      "pt": [
+        "Pylaisiadelpha tenuirostris"
+      ],
+      "ru": [
+        "Pylaisiadelpha tenuirostris"
+      ],
+      "zh": [
+        "扁枝毛綿蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Pylaisiadelphaceae",
     "genus": "Wijkia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Wijkia extenuata"
+      ],
+      "en": [
+        "Wijkia extenuata"
+      ],
+      "es": [
+        "Wijkia extenuata"
+      ],
+      "fr": [
+        "Wijkia extenuata"
+      ],
+      "it": [
+        "Wijkia extenuata"
+      ],
+      "nl": [
+        "Wijkia extenuata"
+      ],
+      "pl": [
+        "Wijkia extenuata"
+      ],
+      "pt": [
+        "Wijkia extenuata"
+      ],
+      "ru": [
+        "Wijkia extenuata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

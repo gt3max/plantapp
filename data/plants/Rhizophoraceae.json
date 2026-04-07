@@ -5,12 +5,12 @@
     "family": "Rhizophoraceae",
     "genus": "Bruguiera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e5724a119d80e5caa4816dc8868d2118932696ed",
-    "description": null,
+    "description": "Bruguiera gymnorhiza, the large-leafed orange mangrove or oriental mangrove, is a mangrove tree that grows usually to 7–20 metres (23–66 ft) high, but sometimes up to 35m, that belongs to the family Rhizophoraceae. It is found on the seaward side of mangrove swamps, often in the company of Rhizophora. It grows from the Western Pacific across Indian Ocean coasts to Cape Province, South Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,9 +21,9 @@
     "synonyms": "[\"Rhizophora tinctoria\", \"Rhizophora conjugata\", \"Bruguiera capensis\", \"Bruguiera gymnorhiza f. alba\", \"Bruguiera rheedei\", \"Rhizophora palun\", \"Rhizophora gymnorhiza\", \"Bruguiera zippelii\", \"Bruguiera gymnorhiza var. palun\", \"Bruguiera conjugata f. alba\"]",
     "care": {
       "plant_id": "bruguiera_gymnorhiza",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "Bright indirect light",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bruguiera gymnorhiza"
+      ],
       "en": [
+        "Bruguiera gymnorhiza",
         "Burmese mangrove"
+      ],
+      "es": [
+        "Bruguiera gymnorhiza"
+      ],
+      "fr": [
+        "Bruguiera gymnorhiza"
+      ],
+      "it": [
+        "Bruguiera gymnorhiza"
+      ],
+      "ja": [
+        "オヒルギ"
+      ],
+      "nl": [
+        "Bruguiera gymnorhiza"
+      ],
+      "pl": [
+        "Bruguiera gymnorhiza"
+      ],
+      "pt": [
+        "Bruguiera gymnorhiza"
+      ],
+      "ru": [
+        "Bruguiera gymnorhiza"
+      ],
+      "zh": [
+        "木榄"
       ]
     },
     "tags": [],
@@ -103,12 +136,12 @@
     "family": "Rhizophoraceae",
     "genus": "Carallia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/04be08881ad1804e840b301a8499eb9f7f18a0f1",
-    "description": null,
+    "description": "Carallia brachiata is a species of flowering plant in the family Rhizophoraceae. This large tree grows to a height of 25 metres (82 ft) and is found from Australia, through South East Asia to the Western Ghats. It is the host plant of the moth Dysphania percota in India and Dysphania numana in Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,11 +218,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Carallia brachiata"
+      ],
       "en": [
-        "Carallawood"
+        "Carallawood",
+        "Carallia brachiata"
+      ],
+      "es": [
+        "Carallia brachiata"
+      ],
+      "fr": [
+        "Carallia brachiata"
+      ],
+      "it": [
+        "Carallia brachiata"
+      ],
+      "nl": [
+        "Carallia brachiata"
+      ],
+      "pl": [
+        "Carallia brachiata"
+      ],
+      "pt": [
+        "Carallia brachiata"
+      ],
+      "ru": [
+        "Carallia brachiata"
+      ],
+      "zh": [
+        "竹节树"
       ]
     },
     "tags": [],
@@ -201,7 +264,7 @@
     "family": "Rhizophoraceae",
     "genus": "Cassipourea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -283,11 +346,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cassipourea guianensis"
+      ],
       "en": [
-        "Bastard waterwood"
+        "Bastard waterwood",
+        "Cassipourea guianensis"
+      ],
+      "es": [
+        "Cassipourea guianensis"
+      ],
+      "fr": [
+        "Cassipourea guianensis"
+      ],
+      "it": [
+        "Cassipourea guianensis"
+      ],
+      "nl": [
+        "Cassipourea guianensis"
+      ],
+      "pl": [
+        "Cassipourea guianensis"
+      ],
+      "pt": [
+        "Cassipourea guianensis"
+      ],
+      "ru": [
+        "Cassipourea guianensis"
       ]
     },
     "tags": [],
@@ -299,12 +389,12 @@
     "family": "Rhizophoraceae",
     "genus": "Ceriops",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/380efd3c3d263e46f035a915291060a2.jpg",
-    "description": null,
+    "description": "Ceriops tagal, commonly known as spurred mangrove or Indian mangrove, is a mangrove tree species in the family Rhizophoraceae. It is a protected tree in South Africa. The specific epithet tagal is a plant name from the Tagalog language.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -381,9 +471,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ceriops tagal"
+      ],
+      "en": [
+        "Ceriops tagal"
+      ],
+      "es": [
+        "Ceriops tagal"
+      ],
+      "fr": [
+        "Ceriops tagal"
+      ],
+      "it": [
+        "Ceriops tagal"
+      ],
+      "ja": [
+        "コヒルギ"
+      ],
+      "nl": [
+        "Ceriops tagal"
+      ],
+      "pl": [
+        "Ceriops tagal"
+      ],
+      "pt": [
+        "Ceriops tagal"
+      ],
+      "ru": [
+        "Ceriops tagal"
+      ],
+      "tr": [
+        "Ceriops tagal"
+      ],
+      "zh": [
+        "角果木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -393,12 +522,12 @@
     "family": "Rhizophoraceae",
     "genus": "Gynotroches",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/bc99cc0875e61e0b86693ed7095c2621.jpg",
-    "description": null,
+    "description": "Gynotroches is a monotypic genus of trees in the family Rhizophoraceae. It contains the single species Gynotroches axillaris. The generic name Gynotroches is from the Greek meaning \"woman wheel\", referring to the shape of the stigma. The specific epithet axillaris is from the Latin, referring to the axillary position of the flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -475,9 +604,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gynotroches axillaris"
+      ],
+      "en": [
+        "Gynotroches axillaris"
+      ],
+      "es": [
+        "Gynotroches axillaris"
+      ],
+      "fr": [
+        "Gynotroches axillaris"
+      ],
+      "it": [
+        "Gynotroches axillaris"
+      ],
+      "nl": [
+        "Gynotroches axillaris"
+      ],
+      "pl": [
+        "Gynotroches axillaris"
+      ],
+      "pt": [
+        "Gynotroches axillaris"
+      ],
+      "ru": [
+        "Gynotroches axillaris"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -487,12 +646,12 @@
     "family": "Rhizophoraceae",
     "genus": "Rhizophora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1ec809e56cf9e5c3680bba69bbf0ea880f83c355",
-    "description": null,
+    "description": "A mangrove is a shrub or tree that grows mainly in coastal saline or brackish water. Mangroves grow in an equatorial climate, typically along coastlines and tidal rivers. They have particular adaptations to take in extra oxygen and remove salt, allowing them to tolerate conditions that kill most plants. The term is also used for tropical coastal vegetation consisting of such species. Mangroves are taxonomically diverse due to convergent evolution in several plant families.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -569,11 +728,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قندل متقابل الذرى"
+      ],
+      "de": [
+        "Rhizophora apiculata"
+      ],
       "en": [
-        "Mangrove"
+        "Mangrove",
+        "Rhizophora apiculata"
+      ],
+      "es": [
+        "Rhizophora apiculata"
+      ],
+      "fr": [
+        "Rhizophora apiculata"
+      ],
+      "it": [
+        "Rhizophora apiculata"
+      ],
+      "ja": [
+        "フタバナヒルギ"
+      ],
+      "nl": [
+        "Rhizophora apiculata"
+      ],
+      "pl": [
+        "Rhizophora apiculata"
+      ],
+      "pt": [
+        "Rhizophora apiculata"
+      ],
+      "ru": [
+        "Rhizophora apiculata"
+      ],
+      "zh": [
+        "紅樹"
       ]
     },
     "tags": [],
@@ -585,7 +780,7 @@
     "family": "Rhizophoraceae",
     "genus": "Rhizophora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -667,11 +862,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شورى"
+      ],
+      "de": [
+        "Rote Mangrove"
+      ],
       "en": [
-        "Red mangrove"
+        "Red mangrove",
+        "Rhizophora mangle"
+      ],
+      "es": [
+        "Rhizophora mangle"
+      ],
+      "fr": [
+        "Rhizophora mangle"
+      ],
+      "hi": [
+        "बिना (पौधा)"
+      ],
+      "it": [
+        "Rhizophora mangle"
+      ],
+      "ja": [
+        "アメリカヒルギ"
+      ],
+      "nl": [
+        "Rhizophora mangle"
+      ],
+      "pl": [
+        "Rhizophora mangle"
+      ],
+      "pt": [
+        "Mangue-vermelho"
+      ],
+      "ru": [
+        "Красное мангровое дерево"
+      ],
+      "zh": [
+        "美國紅樹"
       ]
     },
     "tags": [],
@@ -683,12 +917,12 @@
     "family": "Rhizophoraceae",
     "genus": "Rhizophora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/73a4f23d6b9003557c44d9cad3a4bfaf341c4929",
-    "description": null,
+    "description": "Rhizophora mucronata is a species of mangrove found on coasts and river banks in East Africa and the Indo-Pacific region.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -765,11 +999,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قندل مؤنف"
+      ],
+      "de": [
+        "Rhizophora mucronata"
+      ],
       "en": [
-        "Loop-root mangrove"
+        "Loop-root mangrove",
+        "Rhizophora mucronata"
+      ],
+      "es": [
+        "Rhizophora mucronata"
+      ],
+      "fr": [
+        "Rhizophora mucronata"
+      ],
+      "hi": [
+        "खमो"
+      ],
+      "it": [
+        "Rhizophora mucronata"
+      ],
+      "ja": [
+        "ヤエヤマヒルギ"
+      ],
+      "nl": [
+        "Rhizophora mucronata"
+      ],
+      "pl": [
+        "Rhizophora mucronata"
+      ],
+      "pt": [
+        "Rhizophora mucronata"
+      ],
+      "ru": [
+        "Ризофора остроконечная"
+      ],
+      "zh": [
+        "红茄苳"
       ]
     },
     "tags": [],
@@ -781,12 +1054,12 @@
     "family": "Rhizophoraceae",
     "genus": "Rhizophora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bacd70ae04b8d7e7f3fbbbec1a2fd1b0a171f32c",
-    "description": null,
+    "description": "Rhizophora racemosa is a species of mangrove tree in the family Rhizophoraceae. It has a patchy distribution on the Pacific coast of Central and South America, occurs in places on the Atlantic coast of that continent, and has a more widespread range on the Atlantic coast of West Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -863,9 +1136,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhizophora racemosa"
+      ],
+      "en": [
+        "Rhizophora racemosa"
+      ],
+      "es": [
+        "Rhizophora racemosa"
+      ],
+      "fr": [
+        "Rhizophora racemosa"
+      ],
+      "it": [
+        "Rhizophora racemosa"
+      ],
+      "ja": [
+        "カズザキヒルギ"
+      ],
+      "nl": [
+        "Rhizophora racemosa"
+      ],
+      "pl": [
+        "Rhizophora racemosa"
+      ],
+      "pt": [
+        "Rhizophora racemosa"
+      ],
+      "ru": [
+        "Rhizophora racemosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -875,12 +1181,12 @@
     "family": "Rhizophoraceae",
     "genus": "Rhizophora",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Rhizopora_stylosa_Found_in_Mangrove_of_Cilintang%2C_Taman_Nasional_Ujung_Kulon%2C_Banten.jpg",
+    "description": "Rhizophora stylosa, the spotted mangrove, red mangrove, small stilted mangrove or stilt-root mangrove, is a small to medium-sized evergreen tree in the family Rhizophoraceae. The specific epithet stylosa is from the Latin meaning 'stylus form', referring to the flower.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -957,9 +1263,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhizophora stylosa"
+      ],
+      "en": [
+        "Rhizophora stylosa"
+      ],
+      "es": [
+        "Rhizophora stylosa"
+      ],
+      "fr": [
+        "Rhizophora stylosa"
+      ],
+      "it": [
+        "Rhizophora stylosa"
+      ],
+      "ja": [
+        "ヤエヤマヒルギ"
+      ],
+      "nl": [
+        "Rhizophora stylosa"
+      ],
+      "pl": [
+        "Rhizophora stylosa"
+      ],
+      "pt": [
+        "Rhizophora stylosa"
+      ],
+      "ru": [
+        "Rhizophora stylosa"
+      ],
+      "zh": [
+        "紅海欖"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

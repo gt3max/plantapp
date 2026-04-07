@@ -5,7 +5,7 @@
     "family": "Phyllogoniaceae",
     "genus": "Phyllogonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllogonium fulgens"
+      ],
+      "en": [
+        "Phyllogonium fulgens"
+      ],
+      "es": [
+        "Phyllogonium fulgens"
+      ],
+      "fr": [
+        "Phyllogonium fulgens"
+      ],
+      "it": [
+        "Phyllogonium fulgens"
+      ],
+      "nl": [
+        "Phyllogonium fulgens"
+      ],
+      "pl": [
+        "Phyllogonium fulgens"
+      ],
+      "pt": [
+        "Phyllogonium fulgens"
+      ],
+      "ru": [
+        "Phyllogonium fulgens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Phyllogoniaceae",
     "genus": "Phyllogonium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phyllogonium viride"
+      ],
+      "en": [
+        "Phyllogonium viride"
+      ],
+      "es": [
+        "Phyllogonium viride"
+      ],
+      "fr": [
+        "Phyllogonium viride"
+      ],
+      "it": [
+        "Phyllogonium viride"
+      ],
+      "nl": [
+        "Phyllogonium viride"
+      ],
+      "pl": [
+        "Phyllogonium viride"
+      ],
+      "pt": [
+        "Phyllogonium viride"
+      ],
+      "ru": [
+        "Phyllogonium viride"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

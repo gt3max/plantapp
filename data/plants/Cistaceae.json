@@ -5,7 +5,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": "[\"Cistus albidus var. longifolius\", \"Cistus albidus var. microcarpus\", \"Cistus albidus var. albus\", \"Cistus albidus var. parvifolius\", \"Cistus albidus f. albus\", \"Cistus vulgaris var. albidus\", \"Cistus albidus var. angustifolius\", \"Cistus albidus var. attenuatifolius\", \"Cistus albereensis\", \"Cistus albidus var. grandifolius\"]",
     "care": {
       "plant_id": "cistus_albidus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "قريضة مبيضة"
+      ],
+      "de": [
+        "Weißliche Zistrose"
+      ],
       "en": [
+        "Cistus albidus",
         "White-leaf rock-rose"
+      ],
+      "es": [
+        "Cistus albidus"
+      ],
+      "fr": [
+        "Cistus albidus"
+      ],
+      "it": [
+        "Cistus albidus"
+      ],
+      "nl": [
+        "Cistus albidus"
+      ],
+      "pl": [
+        "Cistus albidus"
+      ],
+      "pt": [
+        "Cistus albidus"
+      ],
+      "ru": [
+        "Cistus albidus"
       ]
     },
     "tags": [],
@@ -103,7 +133,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +149,17 @@
     "synonyms": "[\"Halimium clusii\", \"Cistus clusii var. parviflorus\", \"Cistus clusii var. grandiflorus\", \"Cistus clusii var. sedjera\", \"Cistus clusii var. multiflorus\", \"Cistus clusii var. viridis\", \"Cistus clusii var. fastigiatus\", \"Cistus clusii var. pruinosus\", \"Cistus clusii subsp. multiflorus\", \"Halimium umbellatum var. bianorii\"]",
     "care": {
       "plant_id": "cistus_clusii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,9 +215,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Clusius-Zistrose"
+      ],
+      "en": [
+        "Cistus clusii"
+      ],
+      "es": [
+        "Cistus clusii"
+      ],
+      "fr": [
+        "Cistus clusii"
+      ],
+      "it": [
+        "Cistus clusii"
+      ],
+      "nl": [
+        "Cistus clusii"
+      ],
+      "pl": [
+        "Cistus clusii"
+      ],
+      "pt": [
+        "Cistus clusii"
+      ],
+      "ru": [
+        "Cistus clusii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,7 +257,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -213,17 +273,17 @@
     "synonyms": "[\"Cistus vulgaris var. creticus\", \"Cistus villosus subsp. creticus\", \"Cistus polymorphus f. creticus\", \"Cistus villosus var. creticus\", \"Cistus polymorphus var. creticus\", \"Cistus vulgaris\", \"Cistus \\u00d7 incanus var. creticus\", \"Cistus \\u00d7 incanus subsp. creticus\"]",
     "care": {
       "plant_id": "cistus_creticus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -279,11 +339,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "قريضة كريتية"
+      ],
+      "de": [
+        "Kretische Zistrose"
+      ],
       "en": [
+        "Cistus creticus",
         "Pink rockrose"
+      ],
+      "es": [
+        "Cistus creticus"
+      ],
+      "fr": [
+        "Cistus creticus"
+      ],
+      "it": [
+        "Cistus creticus"
+      ],
+      "nl": [
+        "Cistus creticus"
+      ],
+      "pl": [
+        "Czystek kreteński"
+      ],
+      "pt": [
+        "Cistus creticus"
+      ],
+      "ru": [
+        "Cistus creticus"
+      ],
+      "tr": [
+        "Tüylü laden"
       ]
     },
     "tags": [],
@@ -295,7 +388,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -311,17 +404,17 @@
     "synonyms": "[\"Cistus crispus var. vestitus\", \"Cistus vulgaris var. crispus\", \"Cistus crispus f. warburgii\", \"Cistus crispus f. vestitus\"]",
     "care": {
       "plant_id": "cistus_crispus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -377,9 +470,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cistus crispus"
+      ],
+      "en": [
+        "Cistus crispus"
+      ],
+      "es": [
+        "Cistus crispus"
+      ],
+      "fr": [
+        "Cistus crispus"
+      ],
+      "it": [
+        "Cistus crispus"
+      ],
+      "nl": [
+        "Cistus crispus"
+      ],
+      "pl": [
+        "Cistus crispus"
+      ],
+      "pt": [
+        "Cistus crispus"
+      ],
+      "ru": [
+        "Cistus crispus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,12 +512,12 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Cistaceae_Cistus_inflatus_1.jpg",
+    "description": "Cistus inflatus is a shrubby species of flowering plant in the family Cistaceae, often known as Cistus psilosepalus, although this name is a synonym of the hybrid Cistus × laxus. It has white flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -405,17 +528,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "cistus_inflatus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -471,9 +594,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cistus inflatus"
+      ],
+      "en": [
+        "Cistus inflatus"
+      ],
+      "es": [
+        "Cistus inflatus"
+      ],
+      "fr": [
+        "Cistus inflatus"
+      ],
+      "it": [
+        "Cistus inflatus"
+      ],
+      "nl": [
+        "Cistus inflatus"
+      ],
+      "pl": [
+        "Cistus inflatus"
+      ],
+      "pt": [
+        "Cistus inflatus"
+      ],
+      "ru": [
+        "Cistus inflatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -483,7 +636,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -499,17 +652,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "cistus_ladanifer",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -565,11 +718,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "قريضة عنبرية"
+      ],
+      "de": [
+        "Lack-Zistrose"
+      ],
       "en": [
+        "Cistus ladanifer",
         "Common gum cistus"
+      ],
+      "es": [
+        "Cistus ladanifer"
+      ],
+      "fr": [
+        "Cistus ladanifer"
+      ],
+      "it": [
+        "Cistus ladanifer"
+      ],
+      "nl": [
+        "Cistus ladanifer"
+      ],
+      "pl": [
+        "Cistus ladanifer"
+      ],
+      "pt": [
+        "Esteva"
+      ],
+      "ru": [
+        "Cistus ladanifer"
+      ],
+      "zh": [
+        "膠薔樹"
       ]
     },
     "tags": [],
@@ -581,7 +767,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -597,17 +783,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "cistus_laurifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -663,11 +849,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.7
     },
     "common_names": {
+      "de": [
+        "Cistus laurifolius"
+      ],
       "en": [
+        "Cistus laurifolius",
         "Laurel-leaf cistus"
+      ],
+      "es": [
+        "Cistus laurifolius"
+      ],
+      "fr": [
+        "Cistus laurifolius"
+      ],
+      "it": [
+        "Cistus laurifolius"
+      ],
+      "nl": [
+        "Cistus laurifolius"
+      ],
+      "pl": [
+        "Czystek wawrzynolistny"
+      ],
+      "pt": [
+        "Cistus laurifolius"
+      ],
+      "ru": [
+        "Cistus laurifolius"
+      ],
+      "tr": [
+        "Defne yapraklı laden"
       ]
     },
     "tags": [],
@@ -679,7 +895,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -695,7 +911,7 @@
     "synonyms": "[\"Helianthemum bourgaeanum\", \"Helianthemum libanotis\", \"Cistus bourgaeanus\", \"Helianthemum umbellatum\"]",
     "care": {
       "plant_id": "cistus_libanotis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -761,9 +977,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "قريضة لبنانية"
+      ],
+      "de": [
+        "Cistus libanotis"
+      ],
+      "en": [
+        "Cistus libanotis"
+      ],
+      "es": [
+        "Cistus libanotis"
+      ],
+      "fr": [
+        "Cistus libanotis"
+      ],
+      "it": [
+        "Cistus libanotis"
+      ],
+      "nl": [
+        "Cistus libanotis"
+      ],
+      "pl": [
+        "Cistus libanotis"
+      ],
+      "pt": [
+        "Cistus libanotis"
+      ],
+      "ru": [
+        "Cistus libanotis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -773,7 +1022,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -789,17 +1038,17 @@
     "synonyms": "[\"Cistus affinis\", \"Cistus monspeliensis var. minor\", \"Cistus monspeliensis var. vulgaris\", \"Cistus monspeliensis f. flavescens\", \"Cistus monspeliensis subsp. affinis\", \"Cistus valentinus\", \"Cistus monspeliensis var. flavescens\", \"Cistus monspeliensis proles affinis\", \"Cistus monspeliensis var. major\", \"Cistus monspeliensis var. parviflorus\"]",
     "care": {
       "plant_id": "cistus_monspeliensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -855,11 +1104,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "قريضة متوسطية"
+      ],
+      "de": [
+        "Montpellier-Zistrose"
+      ],
       "en": [
+        "Cistus monspeliensis",
         "Montpelier rock-rose"
+      ],
+      "es": [
+        "Cistus monspeliensis"
+      ],
+      "fr": [
+        "Cistus monspeliensis"
+      ],
+      "it": [
+        "Cistus monspeliensis"
+      ],
+      "nl": [
+        "Cistus monspeliensis"
+      ],
+      "pl": [
+        "Cistus monspeliensis"
+      ],
+      "pt": [
+        "Cistus monspeliensis"
+      ],
+      "ru": [
+        "Cistus monspeliensis"
+      ],
+      "zh": [
+        "白岩蔷薇"
       ]
     },
     "tags": [],
@@ -871,7 +1153,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -887,17 +1169,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "cistus_populifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -953,11 +1235,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "قريضة حورية الأوراق"
+      ],
+      "de": [
+        "Cistus populifolius"
+      ],
       "en": [
+        "Cistus populifolius",
         "Poplar-leaved cistus"
+      ],
+      "es": [
+        "Cistus populifolius"
+      ],
+      "fr": [
+        "Cistus populifolius"
+      ],
+      "it": [
+        "Cistus populifolius"
+      ],
+      "nl": [
+        "Cistus populifolius"
+      ],
+      "pl": [
+        "Cistus populifolius"
+      ],
+      "pt": [
+        "Cistus populifolius"
+      ],
+      "ru": [
+        "Cistus populifolius"
       ]
     },
     "tags": [],
@@ -969,7 +1281,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -985,7 +1297,7 @@
     "synonyms": "[\"Cistus gardi\"]",
     "care": {
       "plant_id": "cistus_pouzolzii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1051,9 +1363,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cistus pouzolzii"
+      ],
+      "en": [
+        "Cistus pouzolzii"
+      ],
+      "es": [
+        "Cistus pouzolzii"
+      ],
+      "fr": [
+        "Cistus pouzolzii"
+      ],
+      "it": [
+        "Cistus pouzolzii"
+      ],
+      "nl": [
+        "Cistus pouzolzii"
+      ],
+      "pl": [
+        "Cistus pouzolzii"
+      ],
+      "pt": [
+        "Cistus pouzolzii"
+      ],
+      "ru": [
+        "Cistus pouzolzii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1063,7 +1405,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1079,17 +1421,17 @@
     "synonyms": "[\"Cistus salviifolius f. biflorus\", \"Ledonia velutina\", \"Cistus sideritis\", \"Cistus salviifolius var. grandifolius\", \"Cistus salviifolius var. vulgaris\", \"Cistus salviifolius f. macrocalyx\", \"Cistus salviifolius f. cymosus\", \"Cistus salviifolius var. undulatifolius\", \"Ledonia microphylla\", \"Cistus elegans\"]",
     "care": {
       "plant_id": "cistus_salviifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1145,11 +1487,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "قريضة مريمية الأوراق"
+      ],
+      "de": [
+        "Salbeiblättrige Zistrose"
+      ],
       "en": [
+        "Cistus salviifolius",
         "Sage-leaf rock-rose"
+      ],
+      "es": [
+        "Cistus salviifolius"
+      ],
+      "fr": [
+        "Cistus salviifolius"
+      ],
+      "it": [
+        "Cistus salviifolius"
+      ],
+      "nl": [
+        "Cistus salviifolius"
+      ],
+      "pl": [
+        "Cistus salviifolius"
+      ],
+      "pt": [
+        "Cistus salviifolius"
+      ],
+      "ru": [
+        "ладанник шалфеелистный"
+      ],
+      "tr": [
+        "Adaçayı yapraklı laden"
+      ],
+      "zh": [
+        "鼠尾草叶岩蔷薇"
       ]
     },
     "tags": [],
@@ -1161,7 +1539,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1177,7 +1555,7 @@
     "synonyms": "[\"Cistus berthelotianus var. pilosus\", \"Cistus berthelotianus\", \"Cistus vaginatus var. hirsutissimus\", \"Rhodocistus berthelotianus var. leucophyllus\", \"Cistus symphytifolius var. hirutissimus\", \"Cistus vaginatus\", \"Cistus symphytifolius f. albiflorus\", \"Cistus symphytifolius var. vaginatus\", \"Cistus symphytifolius var. villosus\", \"Cistus symphytifolius var. canus\"]",
     "care": {
       "plant_id": "cistus_symphytifolius",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1243,9 +1621,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Beinwellblättrige Zistrose"
+      ],
+      "en": [
+        "Cistus symphytifolius"
+      ],
+      "es": [
+        "Cistus symphytifolius"
+      ],
+      "fr": [
+        "Cistus symphytifolius"
+      ],
+      "it": [
+        "Cistus symphytifolius"
+      ],
+      "nl": [
+        "Cistus symphytifolius"
+      ],
+      "pl": [
+        "Cistus symphytifolius"
+      ],
+      "pt": [
+        "Cistus symphytifolius"
+      ],
+      "ru": [
+        "Cistus symphytifolius"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1255,7 +1663,7 @@
     "family": "Cistaceae",
     "genus": "Cistus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1271,7 +1679,7 @@
     "synonyms": "[\"Cistus \\u00d7 pratii\", \"Cistus \\u00d7 braunii\", \"Cistus vulgaris var. incanus\", \"Cistus \\u00d7 mercedis\", \"Cistus \\u00d7 bornetii\", \"Cistus polymorphus f. incanus\", \"Cistus \\u00d7 ferreri\", \"Cistus \\u00d7 delilei\", \"Cistus \\u00d7 incanus f. albiflorus\", \"Helianthemum apenninum subsp. pulverulentum\"]",
     "care": {
       "plant_id": "cistus_×_incanus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1337,7 +1745,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -1353,7 +1763,7 @@
     "family": "Cistaceae",
     "genus": "Crocanthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1435,9 +1845,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Crocanthemum bicknellii"
+      ],
+      "en": [
+        "Crocanthemum bicknellii"
+      ],
+      "es": [
+        "Crocanthemum bicknellii"
+      ],
+      "fr": [
+        "Crocanthemum bicknellii"
+      ],
+      "it": [
+        "Crocanthemum bicknellii"
+      ],
+      "nl": [
+        "Crocanthemum bicknellii"
+      ],
+      "pl": [
+        "Crocanthemum bicknellii"
+      ],
+      "pt": [
+        "Crocanthemum bicknellii"
+      ],
+      "ru": [
+        "Crocanthemum bicknellii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1447,12 +1887,12 @@
     "family": "Cistaceae",
     "genus": "Crocanthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Helianthemum canadense or Crocanthemum canadense is a species of rock-rose (Cistaceae), native to eastern North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1529,9 +1969,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Crocanthemum canadense"
+      ],
+      "en": [
+        "Crocanthemum canadense"
+      ],
+      "es": [
+        "Crocanthemum canadense"
+      ],
+      "fr": [
+        "Crocanthemum canadense"
+      ],
+      "it": [
+        "Crocanthemum canadense"
+      ],
+      "nl": [
+        "Crocanthemum canadense"
+      ],
+      "pl": [
+        "Crocanthemum canadense"
+      ],
+      "pt": [
+        "Crocanthemum canadense"
+      ],
+      "ru": [
+        "Crocanthemum canadense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1541,7 +2011,7 @@
     "family": "Cistaceae",
     "genus": "Crocanthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1623,9 +2093,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Crocanthemum glomeratum"
+      ],
+      "en": [
+        "Crocanthemum glomeratum"
+      ],
+      "es": [
+        "Crocanthemum glomeratum"
+      ],
+      "fr": [
+        "Crocanthemum glomeratum"
+      ],
+      "it": [
+        "Crocanthemum glomeratum"
+      ],
+      "nl": [
+        "Crocanthemum glomeratum"
+      ],
+      "pl": [
+        "Crocanthemum glomeratum"
+      ],
+      "pt": [
+        "Crocanthemum glomeratum"
+      ],
+      "ru": [
+        "Crocanthemum glomeratum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1635,12 +2135,12 @@
     "family": "Cistaceae",
     "genus": "Crocanthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://storage.googleapis.com/powop-assets/neotropikey/crocanthemum_scoparium_cchristie_fullsize.jpg",
-    "description": null,
+    "description": "Crocanthemum scoparium, commonly known as the broom-Like frostweed or peak rushrose, is a small, drought-tolerant shrub native to North America, particularly in coastal and inland chaparral ecosystems of California, Baja California, and surrounding regions. It is a member of the Cistaceae family, which is well-known for its hardy, sun-loving plants adapted to dry climates. The plant is recognized for its upright, broom-like branches, which give it a distinctive appearance and its common name.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1717,9 +2217,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Crocanthemum scoparium"
+      ],
+      "en": [
+        "Crocanthemum scoparium"
+      ],
+      "es": [
+        "Crocanthemum scoparium"
+      ],
+      "fr": [
+        "Crocanthemum scoparium"
+      ],
+      "it": [
+        "Crocanthemum scoparium"
+      ],
+      "nl": [
+        "Crocanthemum scoparium"
+      ],
+      "pl": [
+        "Crocanthemum scoparium"
+      ],
+      "pt": [
+        "Crocanthemum scoparium"
+      ],
+      "ru": [
+        "Crocanthemum scoparium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1729,12 +2259,12 @@
     "family": "Cistaceae",
     "genus": "Fumana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a4fba7b81d7fe174539bc53bd93f2c49d47c8037",
-    "description": null,
+    "description": "Fumana arabica is a species of shrub in the family Cistaceae. They have a self-supporting growth form and simple, broad leaves and dry fruit. Individuals can grow to 22 cm tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1745,7 +2275,7 @@
     "synonyms": "[\"Fumana ferruginea\", \"Helianthemum arabicum\", \"Helianthemum syriacum\", \"Cistus ferrugineus\", \"Helianthemum savii\", \"Fumana viscidula\", \"Fumana arabica var. incanescens\", \"Cistus arabicus\", \"Helianthemum viscidulum\", \"Cistus savi\"]",
     "care": {
       "plant_id": "fumana_arabica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1811,11 +2341,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "دخانية عربية"
+      ],
+      "de": [
+        "Fumana arabica"
+      ],
       "en": [
-        "Arabian rockrose"
+        "Arabian rockrose",
+        "Fumana arabica"
+      ],
+      "es": [
+        "Fumana arabica"
+      ],
+      "fr": [
+        "Fumana arabica"
+      ],
+      "it": [
+        "Fumana arabica"
+      ],
+      "nl": [
+        "Fumana arabica"
+      ],
+      "pl": [
+        "Fumana arabica"
+      ],
+      "pt": [
+        "Fumana arabica"
+      ],
+      "ru": [
+        "Fumana arabica"
       ]
     },
     "tags": [],
@@ -1827,7 +2387,7 @@
     "family": "Cistaceae",
     "genus": "Fumana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1843,17 +2403,17 @@
     "synonyms": "[\"Fumana vulgaris subsp. ericoides\", \"Helianthemum fumana var. ericoides\", \"Cistus ericoides\", \"Fumana spachii var. ericoides\", \"Helianthemum fumana subsp. ericoides\"]",
     "care": {
       "plant_id": "fumana_ericoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1909,11 +2469,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.6
     },
     "common_names": {
+      "ar": [
+        "دخانية خلنجانية"
+      ],
+      "de": [
+        "Fumana ericoides"
+      ],
       "en": [
-        "Aufrechtes heideröschen"
+        "Aufrechtes heideröschen",
+        "Fumana ericoides"
+      ],
+      "es": [
+        "Fumana ericoides"
+      ],
+      "fr": [
+        "Fumana ericoides"
+      ],
+      "it": [
+        "Fumana ericoides"
+      ],
+      "nl": [
+        "Fumana ericoides"
+      ],
+      "pl": [
+        "Fumana ericoides"
+      ],
+      "pt": [
+        "Fumana ericoides"
+      ],
+      "ru": [
+        "Fumana ericoides"
       ]
     },
     "tags": [],
@@ -1925,12 +2515,12 @@
     "family": "Cistaceae",
     "genus": "Fumana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2298df63a35dc14780e5a7e3409f8c0d3d80926c",
-    "description": null,
+    "description": "Fumana laevipes is a species of shrub in the family Cistaceae. They have a self-supporting growth form and simple, broad leaves and dry fruit. Individuals can grow to 10 cm tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1941,17 +2531,17 @@
     "synonyms": "[\"Helianthemum levipes\", \"Fumanopsis laevipes\", \"Helianthemum laevipes\", \"Fumana laevipes var. puverula\", \"Cistus laevipes\", \"Helianthemum fasciculatum\", \"Fumana laevipes var. puberula\", \"Anthelis laevipes\", \"Cistus glaucus\", \"Cistus fasciculatus\"]",
     "care": {
       "plant_id": "fumana_laevipes",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2007,9 +2597,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.3
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "دخانية ناعمة الجذع"
+      ],
+      "de": [
+        "Fumana laevipes"
+      ],
+      "en": [
+        "Fumana laevipes"
+      ],
+      "es": [
+        "Fumana laevipes"
+      ],
+      "fr": [
+        "Fumana laevipes"
+      ],
+      "it": [
+        "Fumana laevipes"
+      ],
+      "nl": [
+        "Fumana laevipes"
+      ],
+      "pl": [
+        "Fumana laevipes"
+      ],
+      "pt": [
+        "Fumana laevipes"
+      ],
+      "ru": [
+        "Fumana laevipes"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2019,12 +2642,12 @@
     "family": "Cistaceae",
     "genus": "Fumana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2a5c9342b28dd6d22c8aa5ae74c3f2c9b32ebf6e",
-    "description": null,
+    "description": "Fumana laevis is a species of plants in the family Cistaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2035,17 +2658,17 @@
     "synonyms": "[\"Cistus laevis\", \"Fumana viscida var. laevis\", \"Helianthemum glutinosum var. laeve\", \"Fumana viscida subsp. hispidula\", \"Fumana viscida var. longifolia\", \"Helianthemum thymifolium var. laeve\", \"Fumana hispidula\", \"Fumanopsis laevis\", \"Fumana glutinosa f. hispidula\", \"Fumana thymifolia var. glabra\"]",
     "care": {
       "plant_id": "fumana_laevis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2101,11 +2724,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "دخانية ملساء"
+      ],
+      "de": [
+        "Fumana laevis"
+      ],
       "en": [
+        "Fumana laevis",
         "Smooth needle-rockrose"
+      ],
+      "es": [
+        "Fumana laevis"
+      ],
+      "fr": [
+        "Fumana laevis"
+      ],
+      "it": [
+        "Fumana laevis"
+      ],
+      "nl": [
+        "Fumana laevis"
+      ],
+      "pl": [
+        "Fumana laevis"
+      ],
+      "pt": [
+        "Fumana laevis"
+      ],
+      "ru": [
+        "Fumana laevis"
       ]
     },
     "tags": [],
@@ -2117,7 +2770,7 @@
     "family": "Cistaceae",
     "genus": "Fumana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2133,17 +2786,17 @@
     "synonyms": "[\"Helianthemum procumbens\", \"Helianthemum fumana var. procumbens\"]",
     "care": {
       "plant_id": "fumana_procumbens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2199,9 +2852,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.9
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "دخانية مفترشة"
+      ],
+      "de": [
+        "Gewöhnliches Nadelröschen"
+      ],
+      "en": [
+        "Fumana procumbens"
+      ],
+      "es": [
+        "Fumana procumbens"
+      ],
+      "fr": [
+        "Fumana procumbens"
+      ],
+      "it": [
+        "Fumana procumbens"
+      ],
+      "nl": [
+        "Fumana procumbens"
+      ],
+      "pl": [
+        "Fumana procumbens"
+      ],
+      "pt": [
+        "Fumana procumbens"
+      ],
+      "ru": [
+        "Fumana procumbens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2211,12 +2897,12 @@
     "family": "Cistaceae",
     "genus": "Fumana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5b925f8d5a2bb6ef69ec3f9062265bb86d96d39d",
-    "description": null,
+    "description": "Fumana thymifolia, the thyme leaved fumana, is a species of shrub in the family Cistaceae. They have a self-supporting growth form and simple, broad leaves and dry fruit. Individuals can grow to 30 cm tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2227,7 +2913,7 @@
     "synonyms": "[\"Fumanopsis glutinosus\", \"Fumana barrelieri\", \"Helianthemum thymifolium\", \"Fumanopsis thymifolia\", \"Fumana glutinosa f. barrelieri\", \"Fumana viscida var. thymifolia\", \"Fumana bracteifera\", \"Cistus barrelieri\", \"Helianthemum glutinosum\", \"Helianthemum glutinosum var. vulgare\"]",
     "care": {
       "plant_id": "fumana_thymifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2293,9 +2979,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "دخانية زعترية"
+      ],
+      "de": [
+        "Thymianblättriges Nadelröschen"
+      ],
+      "en": [
+        "Fumana thymifolia"
+      ],
+      "es": [
+        "Fumana thymifolia"
+      ],
+      "fr": [
+        "Fumana thymifolia"
+      ],
+      "it": [
+        "Fumana thymifolia"
+      ],
+      "nl": [
+        "Fumana thymifolia"
+      ],
+      "pl": [
+        "Fumana thymifolia"
+      ],
+      "pt": [
+        "Fumana thymifolia"
+      ],
+      "ru": [
+        "Fumana thymifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2305,7 +3024,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2321,7 +3040,7 @@
     "synonyms": "[\"Cistus aegypticus\", \"Helianthemum inflatum\", \"Helianthemum clandestinum\"]",
     "care": {
       "plant_id": "helianthemum_aegyptiacum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2387,9 +3106,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "رقروق مصري"
+      ],
+      "de": [
+        "Helianthemum aegyptiacum"
+      ],
+      "en": [
+        "Helianthemum aegyptiacum"
+      ],
+      "es": [
+        "Helianthemum aegyptiacum"
+      ],
+      "fr": [
+        "Helianthemum aegyptiacum"
+      ],
+      "it": [
+        "Helianthemum aegyptiacum"
+      ],
+      "nl": [
+        "Helianthemum aegyptiacum"
+      ],
+      "pl": [
+        "Helianthemum aegyptiacum"
+      ],
+      "pt": [
+        "Helianthemum aegyptiacum"
+      ],
+      "ru": [
+        "Helianthemum aegyptiacum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2399,12 +3151,12 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/78bb8a66d3899ad32c647e363148b389aa1cd327",
-    "description": null,
+    "description": "Helianthemum almeriense, also known as jarilla, mata turmera or tormera in Spanish, is a very branched woody plant of the Cistaceae family, with showy white flowers, which blooms in winter and spring.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2415,17 +3167,17 @@
     "synonyms": "[\"Helianthemum violaceum f. minutifolium\", \"Helianthemum eulaliae var. foliosum\", \"Helianthemum lineare var. scopulorum\", \"Helianthemum leptophyllum var. psilosepalum\", \"Helianthemum almeriense subsp. scopulorum\", \"Helianthemum almeriense var. scopulorum\", \"Helianthemum almeriense var. scopulorum\", \"Helianthemum leptophyllum f. squarrosum\"]",
     "care": {
       "plant_id": "helianthemum_almeriense",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2481,9 +3233,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.5
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Helianthemum almeriense"
+      ],
+      "en": [
+        "Helianthemum almeriense"
+      ],
+      "es": [
+        "Helianthemum almeriense"
+      ],
+      "fr": [
+        "Helianthemum almeriense"
+      ],
+      "it": [
+        "Helianthemum almeriense"
+      ],
+      "nl": [
+        "Helianthemum almeriense"
+      ],
+      "pl": [
+        "Helianthemum almeriense"
+      ],
+      "pt": [
+        "Helianthemum almeriense"
+      ],
+      "ru": [
+        "Helianthemum almeriense"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2493,7 +3275,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2509,17 +3291,17 @@
     "synonyms": "[\"Helianthemum polifolium var. apenninum\", \"Helianthemum variabile var. apenninum\", \"Cistus apenninus\", \"Helianthemum variabile var. mutabile\", \"Helianthemum polifolium subsp. apenninum\", \"Helianthemum variabile\"]",
     "care": {
       "plant_id": "helianthemum_apenninum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2575,11 +3357,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Apenninen-Sonnenröschen"
+      ],
       "en": [
+        "Helianthemum apenninum",
         "White rock-rose"
+      ],
+      "es": [
+        "Helianthemum apenninum"
+      ],
+      "fr": [
+        "Hélianthème des Apennins"
+      ],
+      "it": [
+        "Helianthemum apenninum"
+      ],
+      "ja": [
+        "ハンニチバナ科"
+      ],
+      "nl": [
+        "Helianthemum apenninum"
+      ],
+      "pl": [
+        "Posłonek apeniński"
+      ],
+      "pt": [
+        "Helianthemum apenninum"
+      ],
+      "ru": [
+        "Helianthemum apenninum"
       ]
     },
     "tags": [],
@@ -2591,7 +3403,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2607,7 +3419,7 @@
     "synonyms": "[\"Helianthemum variabile var. asperum\", \"Helianthemum pilosum var. asperum\", \"Helianthemum vulgare var. asperum\"]",
     "care": {
       "plant_id": "helianthemum_asperum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2673,9 +3485,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Helianthemum asperum"
+      ],
+      "en": [
+        "Helianthemum asperum"
+      ],
+      "es": [
+        "Helianthemum asperum"
+      ],
+      "fr": [
+        "Helianthemum asperum"
+      ],
+      "it": [
+        "Helianthemum asperum"
+      ],
+      "nl": [
+        "Helianthemum asperum"
+      ],
+      "pl": [
+        "Helianthemum asperum"
+      ],
+      "pt": [
+        "Helianthemum asperum"
+      ],
+      "ru": [
+        "Helianthemum asperum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2685,12 +3527,12 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/2300812367c1bc3babee45c54c803e1d.jpg",
-    "description": null,
+    "description": "Helianthemum oelandicum, commonly called hoary rockrose, is a low-growing plant confined to rocky dry calcareous areas especially close to the sea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2701,17 +3543,17 @@
     "synonyms": "[\"Helianthemum myrtifolium\", \"Rhodax canus\", \"Helianthemum oelandicum subsp. canum\", \"Helianthemum oelandicum var. canum\", \"Helianthemum montanum var. canum\", \"Cistus canus\", \"Helianthemum oelandicum subsp. canum\", \"Helianthemum vineale var. canum\", \"Helianthemum marifolium var. canum\", \"Helianthemum rhodax var. canum\"]",
     "care": {
       "plant_id": "helianthemum_canum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2767,9 +3609,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.4
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Graues Sonnenröschen"
+      ],
+      "en": [
+        "Helianthemum canum"
+      ],
+      "es": [
+        "Helianthemum canum"
+      ],
+      "fr": [
+        "Helianthemum canum"
+      ],
+      "it": [
+        "Helianthemum canum"
+      ],
+      "nl": [
+        "Helianthemum canum"
+      ],
+      "pl": [
+        "Helianthemum canum"
+      ],
+      "pt": [
+        "Helianthemum canum"
+      ],
+      "ru": [
+        "Helianthemum canum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2779,7 +3651,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2795,17 +3667,17 @@
     "synonyms": "[\"Cistus cinereus\", \"Helianthemum rhodax var. cinereum\", \"Rhodax cinereus\"]",
     "care": {
       "plant_id": "helianthemum_cinereum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2861,9 +3733,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Helianthemum cinereum"
+      ],
+      "en": [
+        "Helianthemum cinereum"
+      ],
+      "es": [
+        "Helianthemum cinereum"
+      ],
+      "fr": [
+        "Helianthemum cinereum"
+      ],
+      "it": [
+        "Helianthemum cinereum"
+      ],
+      "nl": [
+        "Helianthemum cinereum"
+      ],
+      "pl": [
+        "Helianthemum cinereum"
+      ],
+      "pt": [
+        "Helianthemum cinereum"
+      ],
+      "ru": [
+        "Helianthemum cinereum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2873,12 +3775,12 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fc5b746a5397f6e6a2f6a7a489d02c2c99c413c3",
-    "description": null,
+    "description": "Helianthemum nummularium is a species of rock-rose (Cistaceae), native to most of Europe.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2889,7 +3791,7 @@
     "synonyms": "[\"Helianthemum variabile var. hololeucum\", \"Helianthemum glaucum var. croceum\", \"Helianthemum apenninum subsp. croceum\", \"Cistus croceus\", \"Helianthemum glaucum subsp. croceum\", \"Helianthemum apenninum var. croceum\"]",
     "care": {
       "plant_id": "helianthemum_croceum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2955,9 +3857,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Safrangelbes Sonnenröschen"
+      ],
+      "en": [
+        "Helianthemum croceum"
+      ],
+      "es": [
+        "Helianthemum croceum"
+      ],
+      "fr": [
+        "Helianthemum croceum"
+      ],
+      "it": [
+        "Helianthemum croceum"
+      ],
+      "nl": [
+        "Helianthemum croceum"
+      ],
+      "pl": [
+        "Helianthemum croceum"
+      ],
+      "pt": [
+        "Helianthemum croceum"
+      ],
+      "ru": [
+        "Helianthemum croceum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2967,7 +3899,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2983,17 +3915,17 @@
     "synonyms": "[\"Cistus rosmarinifolius\", \"Helianthemum lippii var. rosmarinifolium\", \"Helianthemum rosmarinifolium\", \"Cistus hirtus\", \"Helianthemum vulgare var. hirtum\", \"Helianthemum variabile var. hirtum\"]",
     "care": {
       "plant_id": "helianthemum_hirtum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3049,9 +3981,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Helianthemum hirtum"
+      ],
+      "en": [
+        "Helianthemum hirtum"
+      ],
+      "es": [
+        "Helianthemum hirtum"
+      ],
+      "fr": [
+        "Helianthemum hirtum"
+      ],
+      "it": [
+        "Helianthemum hirtum"
+      ],
+      "nl": [
+        "Helianthemum hirtum"
+      ],
+      "pl": [
+        "Helianthemum hirtum"
+      ],
+      "pt": [
+        "Helianthemum hirtum"
+      ],
+      "ru": [
+        "Helianthemum hirtum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3061,7 +4023,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3077,17 +4039,17 @@
     "synonyms": "[\"Cistus ledifolius\"]",
     "care": {
       "plant_id": "helianthemum_ledifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3143,9 +4105,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.7
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "رقروق ليدومي الأوراق"
+      ],
+      "de": [
+        "Helianthemum ledifolium"
+      ],
+      "en": [
+        "Helianthemum ledifolium"
+      ],
+      "es": [
+        "Helianthemum ledifolium"
+      ],
+      "fr": [
+        "Helianthemum ledifolium"
+      ],
+      "it": [
+        "Helianthemum ledifolium"
+      ],
+      "nl": [
+        "Helianthemum ledifolium"
+      ],
+      "pl": [
+        "Helianthemum ledifolium"
+      ],
+      "pt": [
+        "Helianthemum ledifolium"
+      ],
+      "ru": [
+        "Helianthemum ledifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3155,7 +4150,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3171,7 +4166,7 @@
     "synonyms": "[\"Cistus lippii\", \"Helianthemum lippii var. velutinum\", \"Helianthemum velutinum\", \"Helianthemum lippii var. intricatum\", \"Helianthemum lippii var. pedicellatum\", \"Helianthemum lippii var. marmaricum\", \"Helianthemum lippii var. angustifolium\", \"Helianthemum albicans\"]",
     "care": {
       "plant_id": "helianthemum_lippii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3237,9 +4232,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "رقروق ليبي"
+      ],
+      "de": [
+        "Helianthemum lippii"
+      ],
+      "en": [
+        "Helianthemum lippii"
+      ],
+      "es": [
+        "Helianthemum lippii"
+      ],
+      "fr": [
+        "Helianthemum lippii"
+      ],
+      "it": [
+        "Helianthemum lippii"
+      ],
+      "nl": [
+        "Helianthemum lippii"
+      ],
+      "pl": [
+        "Helianthemum lippii"
+      ],
+      "pt": [
+        "Helianthemum lippii"
+      ],
+      "ru": [
+        "Helianthemum lippii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3249,12 +4277,12 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0275e963ce841ee75b954cc0a4f50388c2bee690",
-    "description": null,
+    "description": "Helianthemum marifolium is an endangered ornamental plant in the family Cistaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3265,17 +4293,17 @@
     "synonyms": "[\"Rhodax marifolius\", \"Helianthemum oelandicum subsp. marifolium\", \"Cistus marifolius\", \"Helianthemum myrtifolium subsp. marifolium\", \"Helianthemum origanifolium var. marifolium\", \"Helianthemum vineale subsp. marifolium\", \"Helianthemum canum var. marifolium\"]",
     "care": {
       "plant_id": "helianthemum_marifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3331,11 +4359,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Helianthemum marifolium"
+      ],
       "en": [
+        "Helianthemum marifolium",
         "Katzengamander-sonnenröschen"
+      ],
+      "es": [
+        "Helianthemum marifolium"
+      ],
+      "fr": [
+        "Helianthemum marifolium"
+      ],
+      "it": [
+        "Helianthemum marifolium"
+      ],
+      "nl": [
+        "Helianthemum marifolium"
+      ],
+      "pl": [
+        "Helianthemum marifolium"
+      ],
+      "pt": [
+        "Helianthemum marifolium"
+      ],
+      "ru": [
+        "Helianthemum marifolium"
       ]
     },
     "tags": [],
@@ -3347,7 +4402,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3363,17 +4418,17 @@
     "synonyms": "[\"Helianthemum chamaecistus subsp. nummularium\", \"Cistus helianthemum var. nummularius\", \"Helianthemum variabile var. virescens\", \"Helianthemum vulgare var. nummularium\", \"Cistus nummularius\"]",
     "care": {
       "plant_id": "helianthemum_nummularium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3429,11 +4484,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "رقروق درهمي"
+      ],
+      "de": [
+        "Gelbes Sonnenröschen"
+      ],
       "en": [
-        "Common rock-rose"
+        "Common rock-rose",
+        "Helianthemum nummularium"
+      ],
+      "es": [
+        "Helianthemum nummularium"
+      ],
+      "fr": [
+        "Helianthemum nummularium"
+      ],
+      "it": [
+        "Helianthemum nummularium"
+      ],
+      "nl": [
+        "Helianthemum nummularium"
+      ],
+      "pl": [
+        "Posłonek rozesłany"
+      ],
+      "pt": [
+        "Helianthemum nummularium"
+      ],
+      "ru": [
+        "Солнцецвет монетолистный"
+      ],
+      "zh": [
+        "铺地半日花"
       ]
     },
     "tags": [],
@@ -3445,12 +4533,12 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0eb688ba614b572f83f7f82cb8aea4eba3267e07",
-    "description": null,
+    "description": "Helianthemum oelandicum, commonly called hoary rockrose, is a low-growing plant confined to rocky dry calcareous areas especially close to the sea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3461,17 +4549,17 @@
     "synonyms": "[\"Helianthemum montanum var. oelandicum\", \"Helianthemum oelandicum var. glabrum\", \"Helianthemum italicum subsp. oelandicum\", \"Helianthemum italicum var. oelandicum\", \"Cistus oelandicus\"]",
     "care": {
       "plant_id": "helianthemum_oelandicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3527,11 +4615,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.1
     },
     "common_names": {
+      "de": [
+        "Helianthemum oelandicum"
+      ],
       "en": [
+        "Helianthemum oelandicum",
         "Hoary rock-rose"
+      ],
+      "es": [
+        "Helianthemum oelandicum"
+      ],
+      "fr": [
+        "Helianthemum oelandicum"
+      ],
+      "it": [
+        "Helianthemum oelandicum"
+      ],
+      "nl": [
+        "Helianthemum oelandicum"
+      ],
+      "pl": [
+        "Helianthemum oelandicum"
+      ],
+      "pt": [
+        "Helianthemum oelandicum"
+      ],
+      "ru": [
+        "Helianthemum oelandicum"
       ]
     },
     "tags": [],
@@ -3543,7 +4658,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3559,17 +4674,17 @@
     "synonyms": "[\"Helianthemum salicifolium var. vulgare\", \"Aphananthemum salicifolium\", \"Cistus salicifolius\"]",
     "care": {
       "plant_id": "helianthemum_salicifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3625,11 +4740,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.2
     },
     "common_names": {
+      "ar": [
+        "رقروق صفصافي الأوراق"
+      ],
+      "de": [
+        "Weidenblatt-Sonnenröschen"
+      ],
       "en": [
+        "Helianthemum salicifolium",
         "Willowleaf frostweed"
+      ],
+      "es": [
+        "Helianthemum salicifolium"
+      ],
+      "fr": [
+        "Helianthemum salicifolium"
+      ],
+      "it": [
+        "Helianthemum salicifolium"
+      ],
+      "nl": [
+        "Helianthemum salicifolium"
+      ],
+      "pl": [
+        "Helianthemum salicifolium"
+      ],
+      "pt": [
+        "Helianthemum salicifolium"
+      ],
+      "ru": [
+        "Helianthemum salicifolium"
       ]
     },
     "tags": [],
@@ -3641,12 +4786,12 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b1a852301e6fd9ec221111bb44f4b7c77137c12b",
-    "description": null,
+    "description": "Helianthemum squamatum is a species of low woody herbaceous plant native to Spain and Algeria. It is the only known species able to extract water of crystallization from rock and is able to derive up to 90% of its fluid requirements from gypsum using this process.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3657,7 +4802,7 @@
     "synonyms": "[\"Cistus squamatus\"]",
     "care": {
       "plant_id": "helianthemum_squamatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3723,9 +4868,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Helianthemum squamatum"
+      ],
+      "en": [
+        "Helianthemum squamatum"
+      ],
+      "es": [
+        "Helianthemum squamatum"
+      ],
+      "fr": [
+        "Helianthemum squamatum"
+      ],
+      "it": [
+        "Helianthemum squamatum"
+      ],
+      "nl": [
+        "Helianthemum squamatum"
+      ],
+      "pl": [
+        "Helianthemum squamatum"
+      ],
+      "pt": [
+        "Helianthemum squamatum"
+      ],
+      "ru": [
+        "Helianthemum squamatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3735,7 +4910,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3751,17 +4926,17 @@
     "synonyms": "[\"Helianthemum graecum\", \"Helianthemum thibaudii\", \"Helianthemum lavandulifolium\", \"Helianthemum stoechadifolium\", \"Helianthemum racemosum var. syriacum\", \"Helianthemum racemosum var. micranthum\", \"Helianthemum lavandulifolium var. thibaudii\", \"Helianthemum fasciculi\", \"Helianthemum erectum\", \"Cistus lavandulifolius var. syriacus\"]",
     "care": {
       "plant_id": "helianthemum_syriacum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3817,11 +4992,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.7
     },
     "common_names": {
+      "ar": [
+        "رقروق سوري"
+      ],
+      "de": [
+        "Helianthemum syriacum"
+      ],
       "en": [
+        "Helianthemum syriacum",
         "Lavender-leaved rockrose"
+      ],
+      "es": [
+        "Helianthemum syriacum"
+      ],
+      "fr": [
+        "Helianthemum syriacum"
+      ],
+      "it": [
+        "Helianthemum syriacum"
+      ],
+      "nl": [
+        "Helianthemum syriacum"
+      ],
+      "pl": [
+        "Helianthemum syriacum"
+      ],
+      "pt": [
+        "Helianthemum syriacum"
+      ],
+      "ru": [
+        "Helianthemum syriacum"
       ]
     },
     "tags": [],
@@ -3833,7 +5038,7 @@
     "family": "Cistaceae",
     "genus": "Helianthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3849,17 +5054,17 @@
     "synonyms": "[\"Helianthemum thymifolium var. violaceum\", \"Helianthemum variabile var. linearifolium\", \"Helianthemum lineare var. violaceum\", \"Cistus violaceus\", \"Helianthemum pilosum var. violaceum\", \"Helianthemum apenninum subsp. violaceum\", \"Helianthemum pilosum subsp. violaceum\"]",
     "care": {
       "plant_id": "helianthemum_violaceum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3915,9 +5120,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Helianthemum violaceum"
+      ],
+      "en": [
+        "Helianthemum violaceum"
+      ],
+      "es": [
+        "Helianthemum violaceum"
+      ],
+      "fr": [
+        "Helianthemum violaceum"
+      ],
+      "it": [
+        "Helianthemum violaceum"
+      ],
+      "nl": [
+        "Helianthemum violaceum"
+      ],
+      "pl": [
+        "Helianthemum violaceum"
+      ],
+      "pt": [
+        "Helianthemum violaceum"
+      ],
+      "ru": [
+        "Helianthemum violaceum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3927,12 +5162,12 @@
     "family": "Cistaceae",
     "genus": "Hudsonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a9be41810164635679eee0a7613aa08a578e596d",
-    "description": null,
+    "description": "Hudsonia ericoides is a species of flowering plant in the rock-rose family known by the common names pine barren goldenheather, false heather, and golden-heather. It is native to eastern North America, where its distribution extends down the east coast from Newfoundland to Delaware, with a disjunct population in South Carolina.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4009,11 +5244,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hudsonia ericoides"
+      ],
       "en": [
+        "Hudsonia ericoides",
         "Pine barren goldenheather"
+      ],
+      "es": [
+        "Hudsonia ericoides"
+      ],
+      "fr": [
+        "Hudsonia ericoides"
+      ],
+      "it": [
+        "Hudsonia ericoides"
+      ],
+      "nl": [
+        "Hudsonia ericoides"
+      ],
+      "pl": [
+        "Hudsonia ericoides"
+      ],
+      "pt": [
+        "Hudsonia ericoides"
+      ],
+      "ru": [
+        "Hudsonia ericoides"
       ]
     },
     "tags": [],
@@ -4025,12 +5287,12 @@
     "family": "Cistaceae",
     "genus": "Hudsonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c60db9476532d1bc2bd4a2a1d9fcaeaede381bf8",
-    "description": null,
+    "description": "Hudsonia tomentosa is a species of flowering plant in the rockrose family known by the common names woolly beachheather, beach heather, and sand heather. It is native to northeastern North America, including central and eastern Canada and the northeastern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4107,11 +5369,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hudsonia tomentosa"
+      ],
       "en": [
-        "Beach-heath"
+        "Beach-heath",
+        "Hudsonia tomentosa"
+      ],
+      "es": [
+        "Hudsonia tomentosa"
+      ],
+      "fr": [
+        "Hudsonie tomenteuse"
+      ],
+      "it": [
+        "Hudsonia tomentosa"
+      ],
+      "nl": [
+        "Hudsonia tomentosa"
+      ],
+      "pl": [
+        "Hudsonia tomentosa"
+      ],
+      "pt": [
+        "Hudsonia tomentosa"
+      ],
+      "ru": [
+        "Hudsonia tomentosa"
       ]
     },
     "tags": [],
@@ -4123,12 +5412,12 @@
     "family": "Cistaceae",
     "genus": "Lechea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/114837aa8412485e8f885c1710ce9c9a.jpg",
-    "description": null,
+    "description": "Lechea intermedia is a species of pinweed in the family Cistaceae (rock-roses). Common names for this species include large-pod pinweed, large-podded pinweed, intermediate pinweed, and round-fruited pinweed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4205,9 +5494,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lechea intermedia"
+      ],
+      "en": [
+        "Lechea intermedia"
+      ],
+      "es": [
+        "Lechea intermedia"
+      ],
+      "fr": [
+        "Lechea intermedia"
+      ],
+      "it": [
+        "Lechea intermedia"
+      ],
+      "nl": [
+        "Lechea intermedia"
+      ],
+      "pl": [
+        "Lechea intermedia"
+      ],
+      "pt": [
+        "Lechea intermedia"
+      ],
+      "ru": [
+        "Lechea intermedia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4217,12 +5536,12 @@
     "family": "Cistaceae",
     "genus": "Lechea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f7ad66186b610958d2f1baba656f2d66f2957cd6",
-    "description": null,
+    "description": "Lechea minor, commonly known as thymeleaf pinweed, is a perennial forb native to the United States and Canada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4299,11 +5618,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lechea minor"
+      ],
       "en": [
+        "Lechea minor",
         "Thyme-leaf pinweed"
+      ],
+      "es": [
+        "Lechea minor"
+      ],
+      "fr": [
+        "Lechea minor"
+      ],
+      "it": [
+        "Lechea minor"
+      ],
+      "nl": [
+        "Lechea minor"
+      ],
+      "pl": [
+        "Lechea minor"
+      ],
+      "pt": [
+        "Lechea minor"
+      ],
+      "ru": [
+        "Lechea minor"
       ]
     },
     "tags": [],
@@ -4315,12 +5661,12 @@
     "family": "Cistaceae",
     "genus": "Lechea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/582ce2b938b91245e42396bece428d8ef713dceb",
-    "description": null,
+    "description": "Lechea mucronata, commonly known as hairy pinweed, is a perennial forb. It is native to North America and is found from New Hampshire west to Michigan and Oklahoma, south to central peninsular Florida, Texas, and northern Mexico. It grows in open dry habitats, dunes, dry hammocks, woodlands, and longleaf pine sandhills.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4331,9 +5677,9 @@
     "synonyms": "[\"Lechea mucronata var. ramosa\", \"Lechea minor var. villosa\", \"Lechea mucronata var. sessiliflora\", \"Lechea villosa var. macrotheca\", \"Lechea villosa var. schaffneri\", \"Lechea mucronata var. simplex\", \"Lechea villosa var. typica\", \"Lechea villosa\", \"Lechea major var. villosa\"]",
     "care": {
       "plant_id": "lechea_mucronata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -4397,11 +5743,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lechea mucronata"
+      ],
       "en": [
-        "Hairy pinweed"
+        "Hairy pinweed",
+        "Lechea mucronata"
+      ],
+      "es": [
+        "Lechea mucronata"
+      ],
+      "fr": [
+        "Lechea mucronata"
+      ],
+      "it": [
+        "Lechea mucronata"
+      ],
+      "nl": [
+        "Lechea mucronata"
+      ],
+      "pl": [
+        "Lechea mucronata"
+      ],
+      "pt": [
+        "Lechea mucronata"
+      ],
+      "ru": [
+        "Lechea mucronata"
       ]
     },
     "tags": [],
@@ -4413,12 +5786,12 @@
     "family": "Cistaceae",
     "genus": "Lechea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Lechea pulchella is a species of perennial herb native to the eastern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4495,9 +5868,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lechea pulchella"
+      ],
+      "en": [
+        "Lechea pulchella"
+      ],
+      "es": [
+        "Lechea pulchella"
+      ],
+      "fr": [
+        "Lechea pulchella"
+      ],
+      "it": [
+        "Lechea pulchella"
+      ],
+      "nl": [
+        "Lechea pulchella"
+      ],
+      "pl": [
+        "Lechea pulchella"
+      ],
+      "pt": [
+        "Lechea pulchella"
+      ],
+      "ru": [
+        "Lechea pulchella"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4507,12 +5910,12 @@
     "family": "Cistaceae",
     "genus": "Lechea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8a153a62e9fc5fab636245d3db35ec08c29e560d",
-    "description": null,
+    "description": "Lechea racemulosa, common name Illinois pinweed, is a perennial plant native to the United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4589,11 +5992,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Lechea racemulosa"
+      ],
       "en": [
-        "Illinois pinweed"
+        "Illinois pinweed",
+        "Lechea racemulosa"
+      ],
+      "es": [
+        "Lechea racemulosa"
+      ],
+      "fr": [
+        "Lechea racemulosa"
+      ],
+      "it": [
+        "Lechea racemulosa"
+      ],
+      "nl": [
+        "Lechea racemulosa"
+      ],
+      "pl": [
+        "Lechea racemulosa"
+      ],
+      "pt": [
+        "Lechea racemulosa"
+      ],
+      "ru": [
+        "Lechea racemulosa"
       ]
     },
     "tags": [],
@@ -4605,7 +6035,7 @@
     "family": "Cistaceae",
     "genus": "Lechea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4687,9 +6117,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lechea tenuifolia"
+      ],
+      "en": [
+        "Lechea tenuifolia"
+      ],
+      "es": [
+        "Lechea tenuifolia"
+      ],
+      "fr": [
+        "Lechea tenuifolia"
+      ],
+      "it": [
+        "Lechea tenuifolia"
+      ],
+      "nl": [
+        "Lechea tenuifolia"
+      ],
+      "pl": [
+        "Lechea tenuifolia"
+      ],
+      "pt": [
+        "Lechea tenuifolia"
+      ],
+      "ru": [
+        "Lechea tenuifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4699,7 +6159,7 @@
     "family": "Cistaceae",
     "genus": "Tuberaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4715,17 +6175,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "tuberaria_guttata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4781,11 +6241,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "ar": [
+        "توبراريا مبرغلة"
+      ],
+      "de": [
+        "Geflecktes Sandröschen"
+      ],
       "en": [
-        "Spotted rock-rose"
+        "Spotted rock-rose",
+        "Tuberaria guttata"
+      ],
+      "es": [
+        "Tuberaria guttata"
+      ],
+      "fr": [
+        "Tuberaria guttata"
+      ],
+      "it": [
+        "Tuberaria guttata"
+      ],
+      "nl": [
+        "Tuberaria guttata"
+      ],
+      "pl": [
+        "Tuberaria guttata"
+      ],
+      "pt": [
+        "Tuberaria guttata"
+      ],
+      "ru": [
+        "46242"
       ]
     },
     "tags": [],
@@ -4797,7 +6287,7 @@
     "family": "Cistaceae",
     "genus": "Tuberaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4813,17 +6303,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "tuberaria_lignosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4879,9 +6369,33 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Verholztes Sandröschen"
+      ],
+      "fr": [
+        "Tuberaria lignosa"
+      ],
+      "it": [
+        "Tuberaria lignosa"
+      ],
+      "nl": [
+        "Tuberaria lignosa"
+      ],
+      "pl": [
+        "Tuberaria lignosa"
+      ],
+      "pt": [
+        "erva-loba"
+      ],
+      "ru": [
+        "Tuberaria lignosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

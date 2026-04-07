@@ -5,12 +5,12 @@
     "family": "Paracryphiaceae",
     "genus": "Quintinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/0545b6d4746489364e098e58917470c2.jpg",
-    "description": null,
+    "description": "Quintinia serrata, commonly known as tāwheowheo, is a species of evergreen tree in the genus Quintinia. It is endemic to New Zealand.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Quintinia acutifolia"
+      ],
+      "en": [
+        "Quintinia acutifolia"
+      ],
+      "es": [
+        "Quintinia acutifolia"
+      ],
+      "fr": [
+        "Quintinia acutifolia"
+      ],
+      "it": [
+        "Quintinia acutifolia"
+      ],
+      "nl": [
+        "Quintinia acutifolia"
+      ],
+      "pl": [
+        "Quintinia acutifolia"
+      ],
+      "pt": [
+        "Quintinia acutifolia"
+      ],
+      "ru": [
+        "Quintinia acutifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Paracryphiaceae",
     "genus": "Quintinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Quintinia serrata"
+      ],
+      "en": [
+        "Quintinia serrata"
+      ],
+      "es": [
+        "Quintinia serrata"
+      ],
+      "fr": [
+        "Quintinia serrata"
+      ],
+      "it": [
+        "Quintinia serrata"
+      ],
+      "nl": [
+        "Quintinia serrata"
+      ],
+      "pl": [
+        "Quintinia serrata"
+      ],
+      "pt": [
+        "Quintinia serrata"
+      ],
+      "ru": [
+        "Quintinia serrata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

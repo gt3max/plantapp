@@ -5,12 +5,12 @@
     "family": "Nelumbonaceae",
     "genus": "Nelumbo",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bad3361a7db957498dd5b23f060d346642bd693c",
-    "description": "After blooming, nut-like fruits begin to form imbedded in the flat surface of the receptacle. Receptacles turn brown, harden and acquire a woody-like texture as they dry (suggestive of wasps’ nests). Eventually, the receptacle breaks off and falls into the water where it floats as it slowly disintegrates, distributing its seed as it goes. Fruits are available June-October.",
+    "description": "Nelumbo lutea is a species of flowering plant in the family Nelumbonaceae. Common names include American lotus, yellow lotus, water-chinquapin, and volée. It is native to North America. The botanical name Nelumbo lutea Willd. is the currently recognized name for this species, which has been classified under the former names Nelumbium luteum and Nelumbo pentapetala, among others.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nelumbo_lutea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "نيلم أصفر"
+      ],
+      "de": [
+        "Amerikanische Lotosblume"
+      ],
       "en": [
+        "Nelumbo lutea",
         "Volée"
+      ],
+      "es": [
+        "Nelumbo lutea"
+      ],
+      "fr": [
+        "Lotus jaune d'Amérique"
+      ],
+      "it": [
+        "Nelumbo lutea"
+      ],
+      "ja": [
+        "キバナハス"
+      ],
+      "nl": [
+        "Nelumbo lutea"
+      ],
+      "pl": [
+        "Nelumbo lutea"
+      ],
+      "pt": [
+        "Nelumbo lutea"
+      ],
+      "ru": [
+        "Лотос жёлтый"
+      ],
+      "zh": [
+        "美洲黄莲"
       ]
     },
     "tags": [],
@@ -103,7 +139,7 @@
     "family": "Nelumbonaceae",
     "genus": "Nelumbo",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +155,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "nelumbo_nucifera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,11 +221,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "نيلم جوزي"
+      ],
+      "de": [
+        "Indische Lotosblume"
+      ],
       "en": [
-        "East indian lotus"
+        "East indian lotus",
+        "Nelumbo nucifera"
+      ],
+      "es": [
+        "Nelumbo nucifera"
+      ],
+      "fr": [
+        "lotus sacré"
+      ],
+      "hi": [
+        "कमल"
+      ],
+      "it": [
+        "Nelumbo nucifera"
+      ],
+      "ja": [
+        "ハス"
+      ],
+      "ko": [
+        "연꽃"
+      ],
+      "nl": [
+        "heilige lotus"
+      ],
+      "pl": [
+        "Lotos orzechodajny"
+      ],
+      "pt": [
+        "Nelumbo nucifera"
+      ],
+      "ru": [
+        "лотос орехоносный"
+      ],
+      "tr": [
+        "Hint lotusu"
+      ],
+      "zh": [
+        "莲"
       ]
     },
     "tags": [],

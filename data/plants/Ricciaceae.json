@@ -5,7 +5,7 @@
     "family": "Ricciaceae",
     "genus": "Riccia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Riccia bifurca"
+      ],
+      "en": [
+        "Riccia bifurca"
+      ],
+      "es": [
+        "Riccia bifurca"
+      ],
+      "fr": [
+        "Riccia bifurca"
+      ],
+      "it": [
+        "Riccia bifurca"
+      ],
+      "nl": [
+        "Riccia bifurca"
+      ],
+      "pl": [
+        "Riccia bifurca"
+      ],
+      "pt": [
+        "Riccia bifurca"
+      ],
+      "ru": [
+        "Riccia bifurca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Ricciaceae",
     "genus": "Riccia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Riccia_cavernosa_Hoffm._%28AM_AK360441-3%29.jpg",
+    "description": "Riccia cavernosa, also known as cavernous crystalwort, is a species of liverwort which belongs to the family Ricciaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +211,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Riccia cavernosa"
+      ],
+      "en": [
+        "Riccia cavernosa"
+      ],
+      "es": [
+        "Riccia cavernosa"
+      ],
+      "fr": [
+        "Riccia cavernosa"
+      ],
+      "it": [
+        "Riccia cavernosa"
+      ],
+      "nl": [
+        "Riccia cavernosa"
+      ],
+      "pl": [
+        "Riccia cavernosa"
+      ],
+      "pt": [
+        "Riccia cavernosa"
+      ],
+      "ru": [
+        "Riccia cavernosa"
+      ],
+      "zh": [
+        "宽瓣钱苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +256,12 @@
     "family": "Ricciaceae",
     "genus": "Riccia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Riccia fluitans, the floating crystalwort, is an aquatic floating plant of the liverwort genus Riccia which is popular among aquarists as a retreat for young fry and is used in live-bearing tanks. It can be found floating in ponds, and often forms thick mats on and under the water surface.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +338,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Untergetauchtes Sternlebermoos"
+      ],
+      "en": [
+        "Riccia fluitans"
+      ],
+      "es": [
+        "Riccia fluitans"
+      ],
+      "fr": [
+        "Riccia fluitans"
+      ],
+      "it": [
+        "Riccia fluitans"
+      ],
+      "ja": [
+        "ウキゴケ"
+      ],
+      "ko": [
+        "물긴가지이끼"
+      ],
+      "nl": [
+        "Riccia fluitans"
+      ],
+      "pl": [
+        "Wgłębka wodna"
+      ],
+      "pt": [
+        "Riccia fluitans"
+      ],
+      "ru": [
+        "Riccia fluitans"
+      ],
+      "zh": [
+        "叉钱苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +389,7 @@
     "family": "Ricciaceae",
     "genus": "Riccia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +471,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Blaugrünes Sternlebermoos"
+      ],
+      "en": [
+        "Riccia glauca"
+      ],
+      "es": [
+        "Riccia glauca"
+      ],
+      "fr": [
+        "Riccia glauca"
+      ],
+      "it": [
+        "Riccia glauca"
+      ],
+      "ja": [
+        "ハタケゴケ"
+      ],
+      "nl": [
+        "Riccia glauca"
+      ],
+      "pl": [
+        "Riccia glauca"
+      ],
+      "pt": [
+        "Riccia glauca"
+      ],
+      "ru": [
+        "Riccia glauca"
+      ],
+      "zh": [
+        "钱苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,12 +519,12 @@
     "family": "Ricciaceae",
     "genus": "Riccia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Riccia huebeneriana is a species of liverwort belonging to the family Ricciaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -463,9 +601,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Riccia huebeneriana"
+      ],
+      "en": [
+        "Riccia huebeneriana"
+      ],
+      "es": [
+        "Riccia huebeneriana"
+      ],
+      "fr": [
+        "Riccia huebeneriana"
+      ],
+      "it": [
+        "Riccia huebeneriana"
+      ],
+      "nl": [
+        "Riccia huebeneriana"
+      ],
+      "pl": [
+        "Riccia huebeneriana"
+      ],
+      "pt": [
+        "Riccia huebeneriana"
+      ],
+      "ru": [
+        "Riccia huebeneriana"
+      ],
+      "zh": [
+        "稀枝钱苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -475,7 +646,7 @@
     "family": "Ricciaceae",
     "genus": "Riccia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -557,9 +728,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Riccia nigrella"
+      ],
+      "en": [
+        "Riccia nigrella"
+      ],
+      "es": [
+        "Riccia nigrella"
+      ],
+      "fr": [
+        "Riccia nigrella"
+      ],
+      "it": [
+        "Riccia nigrella"
+      ],
+      "nl": [
+        "Riccia nigrella"
+      ],
+      "pl": [
+        "Riccia nigrella"
+      ],
+      "pt": [
+        "Riccia nigrella"
+      ],
+      "ru": [
+        "Riccia nigrella"
+      ],
+      "zh": [
+        "黑鳞钱苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -569,7 +773,7 @@
     "family": "Ricciaceae",
     "genus": "Riccia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -651,9 +855,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Staubfrüchtiges Sternlebermoos"
+      ],
+      "en": [
+        "Riccia sorocarpa"
+      ],
+      "es": [
+        "Riccia sorocarpa"
+      ],
+      "fr": [
+        "Riccia sorocarpa"
+      ],
+      "it": [
+        "Riccia sorocarpa"
+      ],
+      "nl": [
+        "Klein landvorkje"
+      ],
+      "pl": [
+        "Riccia sorocarpa"
+      ],
+      "pt": [
+        "Riccia sorocarpa"
+      ],
+      "ru": [
+        "Riccia sorocarpa"
+      ],
+      "zh": [
+        "肥果钱苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -663,12 +900,12 @@
     "family": "Ricciaceae",
     "genus": "Riccia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Riccia subbifurca, commonly known as least crystalwort, is a species of Liverwort that belongs to the family Ricciaceae. It is mainly found in the British Isles, however it has also been found in Turkey.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -745,9 +982,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Riccia subbifurca"
+      ],
+      "en": [
+        "Riccia subbifurca"
+      ],
+      "es": [
+        "Riccia subbifurca"
+      ],
+      "fr": [
+        "Riccia subbifurca"
+      ],
+      "it": [
+        "Riccia subbifurca"
+      ],
+      "nl": [
+        "Riccia subbifurca"
+      ],
+      "pl": [
+        "Riccia subbifurca"
+      ],
+      "pt": [
+        "Riccia subbifurca"
+      ],
+      "ru": [
+        "Riccia subbifurca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -757,12 +1024,12 @@
     "family": "Ricciaceae",
     "genus": "Ricciocarpos",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/RicciocarposNatans2.jpg",
+    "description": "Ricciocarpos natans is the only species in the genus Ricciocarpos, a genus of liverworts in the family Ricciaceae. It was formerly listed in 1759 as a species of Riccia by Linnaeus, but then assigned to a new genus of its own in 1829 by August Carl Joseph Corda.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -839,9 +1106,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schwimmlebermoos"
+      ],
+      "en": [
+        "Ricciocarpos natans"
+      ],
+      "es": [
+        "Ricciocarpos natans"
+      ],
+      "fr": [
+        "Ricciocarpos natans"
+      ],
+      "it": [
+        "Ricciocarpos natans"
+      ],
+      "ja": [
+        "イチョウウキゴケ"
+      ],
+      "ko": [
+        "은행이끼"
+      ],
+      "nl": [
+        "Ricciocarpos natans"
+      ],
+      "pl": [
+        "wgłębik pływający"
+      ],
+      "pt": [
+        "Ricciocarpos natans"
+      ],
+      "ru": [
+        "Ricciocarpos natans"
+      ],
+      "zh": [
+        "浮苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

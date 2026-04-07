@@ -5,7 +5,7 @@
     "family": "Bruchiaceae",
     "genus": "Trematodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trematodon ambiguus"
+      ],
+      "en": [
+        "Trematodon ambiguus"
+      ],
+      "es": [
+        "Trematodon ambiguus"
+      ],
+      "fr": [
+        "Trematodon ambiguus"
+      ],
+      "it": [
+        "Trematodon ambiguus"
+      ],
+      "nl": [
+        "Trematodon ambiguus"
+      ],
+      "pl": [
+        "Trematodon ambiguus"
+      ],
+      "pt": [
+        "Trematodon ambiguus"
+      ],
+      "ru": [
+        "Trematodon ambiguus"
+      ],
+      "zh": [
+        "长蒴藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Bruchiaceae",
     "genus": "Trematodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trematodon longicollis"
+      ],
+      "en": [
+        "Trematodon longicollis"
+      ],
+      "es": [
+        "Trematodon longicollis"
+      ],
+      "fr": [
+        "Trematodon longicollis"
+      ],
+      "it": [
+        "Trematodon longicollis"
+      ],
+      "nl": [
+        "Trematodon longicollis"
+      ],
+      "pl": [
+        "Trematodon longicollis"
+      ],
+      "pt": [
+        "Trematodon longicollis"
+      ],
+      "ru": [
+        "Trematodon longicollis"
+      ],
+      "zh": [
+        "长蒴藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

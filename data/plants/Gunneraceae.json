@@ -5,12 +5,12 @@
     "family": "Gunneraceae",
     "genus": "Gunnera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/36c9ac418674e35fad4e15bc3fca1538a44f7250",
-    "description": null,
+    "description": "Gunnera tinctoria, known as giant-rhubarb, Chilean rhubarb, quirusilla or nalca, is a flowering plant species native to southern Chile and neighboring zones in Argentina and Bolivia. It is not closely related to rhubarb, as the two plants belong to different orders, but looks similar from a distance and has similar culinary uses. It is a large-leaved perennial plant that grows to more than 2 m (6.6 ft) tall. It has been introduced to many parts of the world as an ornamental plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جونيرة صبغية"
+      ],
+      "de": [
+        "Gunnera tinctoria"
+      ],
       "en": [
-        "Giant-rhubarb"
+        "Giant-rhubarb",
+        "Gunnera tinctoria"
+      ],
+      "es": [
+        "Gunnera tinctoria"
+      ],
+      "fr": [
+        "Gunnera tinctoria"
+      ],
+      "it": [
+        "Gunnera tinctoria"
+      ],
+      "nl": [
+        "Gunnera tinctoria"
+      ],
+      "pl": [
+        "Gunnera tinctoria"
+      ],
+      "pt": [
+        "Gunnera tinctoria"
+      ],
+      "ru": [
+        "Gunnera tinctoria"
+      ],
+      "zh": [
+        "智利大叶草"
       ]
     },
     "tags": [],

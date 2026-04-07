@@ -5,12 +5,12 @@
     "family": "Cytinaceae",
     "genus": "Cytinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fc2f8bd791fee7fba6549f1ef4457d757db8e1c1",
-    "description": null,
+    "description": "Cytinus hypocistis is an ant-pollinated species of obligate parasitic plant in the family Cytinaceae having four subspecies, which is parasitic on Cistus (rock-rose) species. It is found primarily in locations that surround the Mediterranean Sea, and is the type for the genus Cytinus. The binomial has been conserved.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": "[\"Hypocistis hypocistis\", \"Thyrsine hypocistis\", \"Asarum hypocistis\"]",
     "care": {
       "plant_id": "cytinus_hypocistis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 6.5
     },
     "common_names": {
+      "ar": [
+        "دغموس قابض"
+      ],
+      "de": [
+        "Gelber Zistrosenwürger"
+      ],
       "en": [
+        "Cytinus hypocistis",
         "Rockrose parasite"
+      ],
+      "es": [
+        "Cytinus hypocistis"
+      ],
+      "fr": [
+        "Cytinelle"
+      ],
+      "it": [
+        "Cytinus hypocistis"
+      ],
+      "nl": [
+        "gele hypocist"
+      ],
+      "pl": [
+        "Cytinus hypocistis"
+      ],
+      "pt": [
+        "Cytinus hypocistis"
+      ],
+      "ru": [
+        "Подладанник жёлтый"
+      ],
+      "zh": [
+        "岩寄生"
       ]
     },
     "tags": [],
@@ -103,7 +136,7 @@
     "family": "Cytinaceae",
     "genus": "Cytinus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,7 +152,7 @@
     "synonyms": "[\"Cytinus hypocistis subsp. clusii\", \"Cytinus hypocistis var. kermesinus\", \"Cytinus hypocistis subsp. kermesinus\", \"Hypocistis kermesina\", \"Hypocistis hypocistis var. kermesinus\", \"Cytinus clusii\", \"Hypocistis rubra\"]",
     "care": {
       "plant_id": "cytinus_ruber",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -185,9 +218,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "دغموس أحمر"
+      ],
+      "de": [
+        "Cytinus ruber"
+      ],
+      "en": [
+        "Cytinus ruber"
+      ],
+      "es": [
+        "Cytinus ruber"
+      ],
+      "fr": [
+        "Cytinus ruber"
+      ],
+      "it": [
+        "Cytinus ruber"
+      ],
+      "nl": [
+        "Cytinus ruber"
+      ],
+      "pl": [
+        "Cytinus ruber"
+      ],
+      "pt": [
+        "Cytinus ruber"
+      ],
+      "ru": [
+        "Подладанник красный"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

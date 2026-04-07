@@ -5,12 +5,12 @@
     "family": "Martyniaceae",
     "genus": "Martynia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d5f8498c20f241ffd02a69065d60558cde002504",
-    "description": null,
+    "description": "Martynia is a monotypic genus in the Martyniaceae family consisting of a single species, Martynia annua L., which is commonly known as cat's claw, tiger's claw, iceplant. or Devil's claw. However, the name 'iceplant' may also refer to members of the unrelated plant family Aizoaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Einjährige Martynie"
+      ],
       "en": [
+        "Martynia annua",
         "Tiger's-claw"
+      ],
+      "es": [
+        "Martynia annua"
+      ],
+      "fr": [
+        "Martynia annua"
+      ],
+      "hi": [
+        "उलट-कांटा"
+      ],
+      "it": [
+        "Martynia annua"
+      ],
+      "nl": [
+        "Martynia annua"
+      ],
+      "pl": [
+        "Martynia annua"
+      ],
+      "pt": [
+        "Martynia annua"
+      ],
+      "ru": [
+        "Мартиния"
+      ],
+      "zh": [
+        "角胡麻"
       ]
     },
     "tags": [],
@@ -103,12 +136,12 @@
     "family": "Martyniaceae",
     "genus": "Proboscidea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4461c6c8dce842e74ed02911e06ff24d.jpg",
-    "description": null,
+    "description": "Proboscidea althaeifolia is a species of flowering plant in the family Martyniaceae known by the common names desert unicorn-plant and yellow-flowered devil's claw. It is native to the desert southwest of the United States, where it grows in sandy habitat and blooms during the hot summer. This is a perennial herb growing from a thick, tuberlike yellow root. The stem is decumbent, creeping along the ground.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,7 +218,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {},
     "tags": [],
@@ -197,12 +232,12 @@
     "family": "Martyniaceae",
     "genus": "Proboscidea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bcf85c512cc27d4f14049d05d95783f2439929d8",
-    "description": null,
+    "description": "Proboscidea louisianica is a species of flowering plant in the family Martyniaceae. Its true native range is unclear, but probably includes parts of the southwestern United States and Mexico in North America. It occurs in other areas, including other regions in North America, Europe, Australia, and South Africa, as an introduced species. It is the most widely distributed species in its family. Common names it shares with other Proboscidea species include devil's claw and unicorn-plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,11 +314,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Proboscidea louisianica"
+      ],
       "en": [
+        "Proboscidea louisianica",
         "Ram's horn"
+      ],
+      "es": [
+        "Proboscidea louisiana"
+      ],
+      "fr": [
+        "Proboscidea louisiana"
+      ],
+      "it": [
+        "Proboscidea louisiana"
+      ],
+      "nl": [
+        "Proboscidea louisianica"
+      ],
+      "pl": [
+        "Proboscidea louisianica"
+      ],
+      "pt": [
+        "Proboscidea louisianica"
+      ],
+      "ru": [
+        "Proboscidea louisianica"
       ]
     },
     "tags": [],

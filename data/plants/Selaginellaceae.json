@@ -5,7 +5,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -26,12 +26,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -89,9 +89,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella apoda"
+      ],
+      "en": [
+        "Selaginella apoda"
+      ],
+      "es": [
+        "Selaginella apoda"
+      ],
+      "fr": [
+        "Selaginella apoda"
+      ],
+      "it": [
+        "Selaginella apoda"
+      ],
+      "nl": [
+        "Selaginella apoda"
+      ],
+      "pl": [
+        "Selaginella apoda"
+      ],
+      "pt": [
+        "Selaginella apoda"
+      ],
+      "ru": [
+        "Selaginella apoda"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -101,7 +131,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -122,12 +152,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,9 +215,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella bigelovii"
+      ],
+      "en": [
+        "Selaginella bigelovii"
+      ],
+      "es": [
+        "Selaginella bigelovii"
+      ],
+      "fr": [
+        "Selaginella bigelovii"
+      ],
+      "it": [
+        "Selaginella bigelovii"
+      ],
+      "nl": [
+        "Selaginella bigelovii"
+      ],
+      "pl": [
+        "Selaginella bigelovii"
+      ],
+      "pt": [
+        "Selaginella bigelovii"
+      ],
+      "ru": [
+        "Selaginella bigelovii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,7 +257,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -281,9 +341,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella convoluta"
+      ],
+      "en": [
+        "Selaginella convoluta"
+      ],
+      "es": [
+        "Selaginella convoluta"
+      ],
+      "fr": [
+        "Selaginella convoluta"
+      ],
+      "it": [
+        "Selaginella convoluta"
+      ],
+      "nl": [
+        "Selaginella convoluta"
+      ],
+      "pl": [
+        "Selaginella convoluta"
+      ],
+      "pt": [
+        "Selaginella convoluta"
+      ],
+      "ru": [
+        "Selaginella convoluta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -293,7 +383,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -314,12 +404,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -377,9 +467,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella delicatula"
+      ],
+      "en": [
+        "Selaginella delicatula"
+      ],
+      "es": [
+        "Selaginella delicatula"
+      ],
+      "fr": [
+        "Selaginella delicatula"
+      ],
+      "it": [
+        "Selaginella delicatula"
+      ],
+      "nl": [
+        "Selaginella delicatula"
+      ],
+      "pl": [
+        "Selaginella delicatula"
+      ],
+      "pt": [
+        "Selaginella delicatula"
+      ],
+      "ru": [
+        "Selaginella delicatula"
+      ],
+      "zh": [
+        "薄叶卷柏"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,7 +512,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -473,9 +596,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella densa"
+      ],
+      "en": [
+        "Selaginella densa"
+      ],
+      "es": [
+        "Selaginella densa"
+      ],
+      "fr": [
+        "Selaginella densa"
+      ],
+      "it": [
+        "Selaginella densa"
+      ],
+      "nl": [
+        "Selaginella densa"
+      ],
+      "pl": [
+        "Selaginella densa"
+      ],
+      "pt": [
+        "Selaginella densa"
+      ],
+      "ru": [
+        "Selaginella densa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -485,7 +638,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -501,17 +654,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "selaginella_denticulata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -569,9 +722,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 5.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella denticulata"
+      ],
+      "en": [
+        "Selaginella denticulata"
+      ],
+      "es": [
+        "Selaginella denticulata"
+      ],
+      "fr": [
+        "Selaginella denticulata"
+      ],
+      "it": [
+        "Selaginella denticulata"
+      ],
+      "nl": [
+        "Selaginella denticulata"
+      ],
+      "pl": [
+        "Selaginella denticulata"
+      ],
+      "pt": [
+        "Selaginella denticulata"
+      ],
+      "ru": [
+        "Selaginella denticulata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,7 +764,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -665,9 +848,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella diffusa"
+      ],
+      "en": [
+        "Selaginella diffusa"
+      ],
+      "es": [
+        "Selaginella diffusa"
+      ],
+      "fr": [
+        "Selaginella diffusa"
+      ],
+      "it": [
+        "Selaginella diffusa"
+      ],
+      "nl": [
+        "Selaginella diffusa"
+      ],
+      "pl": [
+        "Selaginella diffusa"
+      ],
+      "pt": [
+        "Selaginella diffusa"
+      ],
+      "ru": [
+        "Selaginella diffusa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -677,7 +890,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -761,9 +974,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella doederleinii"
+      ],
+      "en": [
+        "Selaginella doederleinii"
+      ],
+      "es": [
+        "Selaginella doederleinii"
+      ],
+      "fr": [
+        "Selaginella doederleinii"
+      ],
+      "it": [
+        "Selaginella doederleinii"
+      ],
+      "ja": [
+        "オニクラマゴケ"
+      ],
+      "nl": [
+        "Selaginella doederleinii"
+      ],
+      "pl": [
+        "Selaginella doederleinii"
+      ],
+      "pt": [
+        "Selaginella doederleinii"
+      ],
+      "ru": [
+        "Selaginella doederleinii"
+      ],
+      "zh": [
+        "深绿卷柏"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -773,7 +1022,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -857,9 +1106,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella flexuosa"
+      ],
+      "en": [
+        "Selaginella flexuosa"
+      ],
+      "es": [
+        "Selaginella flexuosa"
+      ],
+      "fr": [
+        "Selaginella flexuosa"
+      ],
+      "it": [
+        "Selaginella flexuosa"
+      ],
+      "nl": [
+        "Selaginella flexuosa"
+      ],
+      "pl": [
+        "Selaginella flexuosa"
+      ],
+      "pt": [
+        "Selaginella flexuosa"
+      ],
+      "ru": [
+        "Selaginella flexuosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -869,7 +1148,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -890,12 +1169,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -953,9 +1232,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 5.4
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schweizer Moosfarn"
+      ],
+      "en": [
+        "Selaginella helvetica"
+      ],
+      "es": [
+        "Selaginella helvetica"
+      ],
+      "fr": [
+        "Selaginella helvetica"
+      ],
+      "it": [
+        "Selaginella helvetica"
+      ],
+      "nl": [
+        "Selaginella helvetica"
+      ],
+      "pl": [
+        "Widliczka szwajcarska"
+      ],
+      "pt": [
+        "Selaginella helvetica"
+      ],
+      "ru": [
+        "Selaginella helvetica"
+      ],
+      "zh": [
+        "小卷柏"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -965,7 +1277,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1049,9 +1361,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella heterostachys"
+      ],
+      "en": [
+        "Selaginella heterostachys"
+      ],
+      "es": [
+        "Selaginella heterostachys"
+      ],
+      "fr": [
+        "Selaginella heterostachys"
+      ],
+      "it": [
+        "Selaginella heterostachys"
+      ],
+      "ko": [
+        "각시비늘이끼"
+      ],
+      "nl": [
+        "Selaginella heterostachys"
+      ],
+      "pl": [
+        "Selaginella heterostachys"
+      ],
+      "pt": [
+        "Selaginella heterostachys"
+      ],
+      "ru": [
+        "Selaginella heterostachys"
+      ],
+      "zh": [
+        "异穗卷柏"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1061,7 +1409,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1082,12 +1430,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1145,9 +1493,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella involvens"
+      ],
+      "en": [
+        "Selaginella involens"
+      ],
+      "es": [
+        "Selaginella involvens"
+      ],
+      "fr": [
+        "Selaginella involvens"
+      ],
+      "it": [
+        "Selaginella involvens"
+      ],
+      "ja": [
+        "カタヒバ"
+      ],
+      "ko": [
+        "부처손"
+      ],
+      "nl": [
+        "Selaginella involens"
+      ],
+      "pl": [
+        "Selaginella involvens"
+      ],
+      "pt": [
+        "Selaginella involvens"
+      ],
+      "ru": [
+        "Selaginella involvens"
+      ],
+      "zh": [
+        "兖州卷柏"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1157,7 +1544,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1178,12 +1565,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1239,11 +1626,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.3
     },
     "common_names": {
+      "de": [
+        "Selaginella kraussiana"
+      ],
       "en": [
-        "Garden selaginella"
+        "Garden selaginella",
+        "Selaginella kraussiana"
+      ],
+      "es": [
+        "Selaginella kraussiana"
+      ],
+      "fr": [
+        "Selaginella kraussiana"
+      ],
+      "it": [
+        "Selaginella kraussiana"
+      ],
+      "nl": [
+        "Selaginella kraussiana"
+      ],
+      "pl": [
+        "Widliczka Kraussa"
+      ],
+      "pt": [
+        "Selaginella kraussiana"
+      ],
+      "ru": [
+        "Selaginella kraussiana"
+      ],
+      "zh": [
+        "小翠云"
       ]
     },
     "tags": [],
@@ -1255,7 +1672,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1339,11 +1756,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كفعان"
+      ],
+      "de": [
+        "Unechte Rose von Jericho"
+      ],
       "en": [
-        "Rose-of-jericho"
+        "Rose-of-jericho",
+        "Selaginella lepidophylla"
+      ],
+      "es": [
+        "Selaginella lepidophylla"
+      ],
+      "fr": [
+        "Selaginella lepidophylla"
+      ],
+      "it": [
+        "Selaginella lepidophylla"
+      ],
+      "ja": [
+        "テマリカタヒバ"
+      ],
+      "nl": [
+        "Valse roos van Jericho"
+      ],
+      "pl": [
+        "Róża jerychońska"
+      ],
+      "pt": [
+        "Selaginella lepidophylla"
+      ],
+      "ru": [
+        "селагинелла чешуелистная"
+      ],
+      "tr": [
+        "Selaginella lepidophylla"
       ]
     },
     "tags": [],
@@ -1355,7 +1808,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1439,9 +1892,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella marginata"
+      ],
+      "en": [
+        "Selaginella marginata"
+      ],
+      "es": [
+        "Selaginella marginata"
+      ],
+      "fr": [
+        "Selaginella marginata"
+      ],
+      "it": [
+        "Selaginella marginata"
+      ],
+      "nl": [
+        "Selaginella marginata"
+      ],
+      "pl": [
+        "Selaginella marginata"
+      ],
+      "pt": [
+        "Selaginella marginata"
+      ],
+      "ru": [
+        "Selaginella marginata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1451,7 +1934,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1535,9 +2018,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella moellendorffii"
+      ],
+      "en": [
+        "Selaginella moellendorffii"
+      ],
+      "es": [
+        "Selaginella moellendorffii"
+      ],
+      "fr": [
+        "Selaginella moellendorffii"
+      ],
+      "it": [
+        "Selaginella moellendorffii"
+      ],
+      "ja": [
+        "イヌカタヒバ"
+      ],
+      "nl": [
+        "Selaginella moellendorffii"
+      ],
+      "pl": [
+        "Selaginella moellendorffii"
+      ],
+      "pt": [
+        "Selaginella moellendorffii"
+      ],
+      "ru": [
+        "Selaginella moellendorffii"
+      ],
+      "zh": [
+        "江南卷柏"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1547,7 +2066,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1631,9 +2150,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella muscosa"
+      ],
+      "en": [
+        "Selaginella muscosa"
+      ],
+      "es": [
+        "Selaginella muscosa"
+      ],
+      "fr": [
+        "Selaginella muscosa"
+      ],
+      "it": [
+        "Selaginella muscosa"
+      ],
+      "nl": [
+        "Selaginella muscosa"
+      ],
+      "pl": [
+        "Selaginella muscosa"
+      ],
+      "pt": [
+        "Selaginella muscosa"
+      ],
+      "ru": [
+        "Selaginella muscosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1643,7 +2192,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1727,9 +2276,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella myosurus"
+      ],
+      "en": [
+        "Selaginella myosurus"
+      ],
+      "es": [
+        "Selaginella myosurus"
+      ],
+      "fr": [
+        "Selaginella myosurus"
+      ],
+      "it": [
+        "Selaginella myosurus"
+      ],
+      "nl": [
+        "Selaginella myosurus"
+      ],
+      "pl": [
+        "Selaginella myosurus"
+      ],
+      "pt": [
+        "Selaginella myosurus"
+      ],
+      "ru": [
+        "Selaginella myosurus"
+      ],
+      "zh": [
+        "鼠尾卷柏"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1739,7 +2321,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1760,12 +2342,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1823,9 +2405,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella pallescens"
+      ],
+      "en": [
+        "Selaginella pallescens"
+      ],
+      "es": [
+        "Selaginella pallescens"
+      ],
+      "fr": [
+        "Selaginella pallescens"
+      ],
+      "it": [
+        "Selaginella pallescens"
+      ],
+      "nl": [
+        "Selaginella pallescens"
+      ],
+      "pl": [
+        "Selaginella pallescens"
+      ],
+      "pt": [
+        "Selaginella pallescens"
+      ],
+      "ru": [
+        "Selaginella pallescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1835,7 +2447,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1919,9 +2531,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella parkeri"
+      ],
+      "en": [
+        "Selaginella parkeri"
+      ],
+      "es": [
+        "Selaginella parkeri"
+      ],
+      "fr": [
+        "Selaginella parkeri"
+      ],
+      "it": [
+        "Selaginella parkeri"
+      ],
+      "nl": [
+        "Selaginella parkeri"
+      ],
+      "pl": [
+        "Selaginella parkeri"
+      ],
+      "pt": [
+        "Selaginella parkeri"
+      ],
+      "ru": [
+        "Selaginella parkeri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1931,7 +2573,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2015,9 +2657,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella remotifolia"
+      ],
+      "en": [
+        "Selaginella remotifolia"
+      ],
+      "es": [
+        "Selaginella remotifolia"
+      ],
+      "fr": [
+        "Selaginella remotifolia"
+      ],
+      "it": [
+        "Selaginella remotifolia"
+      ],
+      "ja": [
+        "クラマゴケ"
+      ],
+      "nl": [
+        "Selaginella remotifolia"
+      ],
+      "pl": [
+        "Selaginella remotifolia"
+      ],
+      "pt": [
+        "Selaginella remotifolia"
+      ],
+      "ru": [
+        "Selaginella remotifolia"
+      ],
+      "zh": [
+        "疏叶卷柏"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2027,7 +2705,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2048,12 +2726,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2111,9 +2789,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella rupestris"
+      ],
+      "en": [
+        "Selaginella rupestris"
+      ],
+      "es": [
+        "Selaginella rupestris"
+      ],
+      "fr": [
+        "Selaginella rupestris"
+      ],
+      "it": [
+        "Selaginella rupestris"
+      ],
+      "nl": [
+        "Selaginella rupestris"
+      ],
+      "pl": [
+        "Selaginella rupestris"
+      ],
+      "pt": [
+        "Selaginella rupestris"
+      ],
+      "ru": [
+        "Selaginella rupestris"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2123,7 +2831,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2207,9 +2915,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella sartorii"
+      ],
+      "en": [
+        "Selaginella sartorii"
+      ],
+      "es": [
+        "Selaginella sartorii"
+      ],
+      "fr": [
+        "Selaginella sartorii"
+      ],
+      "it": [
+        "Selaginella sartorii"
+      ],
+      "nl": [
+        "Selaginella sartorii"
+      ],
+      "pl": [
+        "Selaginella sartorii"
+      ],
+      "pt": [
+        "Selaginella sartorii"
+      ],
+      "ru": [
+        "Selaginella sartorii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2219,7 +2957,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2235,17 +2973,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "selaginella_selaginoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2303,11 +3041,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Dorniger Moosfarn"
+      ],
       "en": [
-        "Clubmoss"
+        "Clubmoss",
+        "Selaginella selaginoides"
+      ],
+      "es": [
+        "Selaginella selaginoides"
+      ],
+      "fr": [
+        "Selaginella selaginoides"
+      ],
+      "it": [
+        "Selaginella selaginoides"
+      ],
+      "nl": [
+        "Selaginella selaginoides"
+      ],
+      "pl": [
+        "Widliczka ostrozębna"
+      ],
+      "pt": [
+        "Selaginella selaginoides"
+      ],
+      "ru": [
+        "Selaginella selaginoides"
       ]
     },
     "tags": [],
@@ -2319,7 +3084,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2403,9 +3168,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella stellata"
+      ],
+      "en": [
+        "Selaginella stellata"
+      ],
+      "es": [
+        "Selaginella stellata"
+      ],
+      "fr": [
+        "Selaginella stellata"
+      ],
+      "it": [
+        "Selaginella stellata"
+      ],
+      "nl": [
+        "Selaginella stellata"
+      ],
+      "pl": [
+        "Selaginella stellata"
+      ],
+      "pt": [
+        "Selaginella stellata"
+      ],
+      "ru": [
+        "Selaginella stellata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2415,7 +3210,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2499,9 +3294,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella sulcata"
+      ],
+      "en": [
+        "Selaginella sulcata"
+      ],
+      "es": [
+        "Selaginella sulcata"
+      ],
+      "fr": [
+        "Selaginella sulcata"
+      ],
+      "it": [
+        "Selaginella sulcata"
+      ],
+      "nl": [
+        "Selaginella sulcata"
+      ],
+      "pl": [
+        "Selaginella sulcata"
+      ],
+      "pt": [
+        "Selaginella sulcata"
+      ],
+      "ru": [
+        "Selaginella sulcata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2511,7 +3336,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2532,12 +3357,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2595,11 +3420,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.3
     },
     "common_names": {
+      "de": [
+        "Selaginella tamariscina"
+      ],
       "en": [
-        "Little-club-moss"
+        "Little-club-moss",
+        "Selaginella tamariscina"
+      ],
+      "es": [
+        "Selaginella tamariscina"
+      ],
+      "fr": [
+        "Selaginella tamariscina"
+      ],
+      "it": [
+        "Selaginella tamariscina"
+      ],
+      "ja": [
+        "イワヒバ"
+      ],
+      "ko": [
+        "바위손"
+      ],
+      "nl": [
+        "Selaginella tamariscina"
+      ],
+      "pl": [
+        "Selaginella tamariscina"
+      ],
+      "pt": [
+        "Selaginella tamariscina"
+      ],
+      "ru": [
+        "Selaginella tamariscina"
+      ],
+      "zh": [
+        "卷柏"
       ]
     },
     "tags": [],
@@ -2611,7 +3472,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2632,12 +3493,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2695,9 +3556,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella uliginosa"
+      ],
+      "en": [
+        "Selaginella uliginosa"
+      ],
+      "es": [
+        "Selaginella uliginosa"
+      ],
+      "fr": [
+        "Selaginella uliginosa"
+      ],
+      "it": [
+        "Selaginella uliginosa"
+      ],
+      "nl": [
+        "Selaginella uliginosa"
+      ],
+      "pl": [
+        "Selaginella uliginosa"
+      ],
+      "pt": [
+        "Selaginella uliginosa"
+      ],
+      "ru": [
+        "Selaginella uliginosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2707,7 +3598,7 @@
     "family": "Selaginellaceae",
     "genus": "Selaginella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2728,12 +3619,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2791,9 +3682,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.3
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Selaginella wallacei"
+      ],
+      "en": [
+        "Selaginella wallacei"
+      ],
+      "es": [
+        "Selaginella wallacei"
+      ],
+      "fr": [
+        "Selaginella wallacei"
+      ],
+      "it": [
+        "Selaginella wallacei"
+      ],
+      "nl": [
+        "Selaginella wallacei"
+      ],
+      "pl": [
+        "Selaginella wallacei"
+      ],
+      "pt": [
+        "Selaginella wallacei"
+      ],
+      "ru": [
+        "Selaginella wallacei"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Cynomoriaceae",
     "genus": "Cynomorium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/884a43eb02a2c7af9cb45a65857ca8e38a18f0bb",
-    "description": null,
+    "description": "Cynomorium is a genus of parasitic perennial flowering plants in the family Cynomoriaceae. The genus consists of only one species, Cynomorium coccineum. Its placement in the Saxifragales was resolved in 2016 with the help of nuclear, plastid, and mitochondrial sequences obtained from next-generation sequencing. Common names include the misleading Maltese fungus or Maltese mushroom; also desert thumb, red thumb, tarthuth (Bedouin) and suoyang (Chinese).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,7 +21,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "cynomorium_coccineum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -87,11 +87,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طرثوث"
+      ],
+      "de": [
+        "Malteserschwamm"
+      ],
       "en": [
+        "Cynomorium coccineum",
         "Maltese-mushroom"
+      ],
+      "es": [
+        "Cynomorium coccineum"
+      ],
+      "fr": [
+        "Cynomorium coccineum"
+      ],
+      "it": [
+        "Cynomorium coccineum"
+      ],
+      "ja": [
+        "オシャグジタケ"
+      ],
+      "ko": [
+        "쇄양"
+      ],
+      "nl": [
+        "Cynomorium coccineum"
+      ],
+      "pl": [
+        "Cynomorium szkarłatne"
+      ],
+      "pt": [
+        "Cynomorium coccineum"
+      ],
+      "ru": [
+        "Cynomorium coccineum"
       ]
     },
     "tags": [],

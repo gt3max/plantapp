@@ -5,12 +5,12 @@
     "family": "Diapensiaceae",
     "genus": "Diapensia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fc502dc1459b1574991e2955d16fc181e65a0be7",
-    "description": null,
+    "description": "Diapensia lapponica, the pincushion plant, is a plant in the family Diapensiaceae, the only circumboreal species in the genus Diapensia, the others being mainly in the Himalaya and on mountains in southwestern China. This species likely became circumboreal-circumpolar [Arctic–alpine] after it jumped to arctic habitat from North China and Russia. The most likely candidate for ancestor is a white-flowered D.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": "[\"Diapensia obtusifolia\", \"Diapensia japonica\", \"Diapensia lapponica var. genuina\"]",
     "care": {
       "plant_id": "diapensia_lapponica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,34 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 9.0
     },
     "common_names": {
       "en": [
+        "Diapensia",
+        "pincushion plant"
+      ],
+      "es": [
         "Diapensia"
+      ],
+      "ja": [
+        "イワウメ"
+      ],
+      "ko": [
+        "참돌매화나무"
+      ],
+      "pt": [
+        "Diapensia"
+      ],
+      "ru": [
+        "Diapensia L.",
+        "Диапензия",
+        "Диапенсия лапландская"
+      ],
+      "zh": [
+        "岩梅"
       ]
     },
     "tags": [],
@@ -103,12 +126,12 @@
     "family": "Diapensiaceae",
     "genus": "Galax",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/aee09db30a60759ba09a9996e47d062d14bc7e79",
-    "description": "The capsule contains many seeds. Displays from August to October",
+    "description": "Galax, the wandplant, wandflower, or beetleweed, is a genus in the flowering plant family Diapensiaceae, containing a single species, Galax urceolata. It is native to the southeastern United States from Massachusetts and New York south to northern Alabama, growing mainly in the Appalachian Mountains at altitudes of up to 1,500 m, where it grows in shaded places in forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,11 +208,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bronzeblatt"
+      ],
       "en": [
-        "Beetleweed"
+        "Beetleweed",
+        "Galax urceolata"
+      ],
+      "es": [
+        "Galax urceolata"
+      ],
+      "fr": [
+        "Galax urceolata"
+      ],
+      "it": [
+        "Galax urceolata"
+      ],
+      "nl": [
+        "Galax urceolata"
+      ],
+      "pl": [
+        "Galax urceolata"
+      ],
+      "pt": [
+        "Galax urceolata"
+      ],
+      "ru": [
+        "Galax urceolata"
       ]
     },
     "tags": [],
@@ -201,7 +251,7 @@
     "family": "Diapensiaceae",
     "genus": "Schizocodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -283,9 +333,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Schizocodon soldanelloides"
+      ],
+      "en": [
+        "Schizocodon soldanelloides"
+      ],
+      "es": [
+        "Schizocodon soldanelloides"
+      ],
+      "fr": [
+        "Schizocodon soldanelloides"
+      ],
+      "it": [
+        "Schizocodon soldanelloides"
+      ],
+      "nl": [
+        "Schizocodon soldanelloides"
+      ],
+      "pl": [
+        "Schizocodon soldanelloides"
+      ],
+      "pt": [
+        "Schizocodon soldanelloides"
+      ],
+      "ru": [
+        "Schizocodon soldanelloides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

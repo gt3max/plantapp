@@ -5,7 +5,7 @@
     "family": "Calceolariaceae",
     "genus": "Calceolaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -23,7 +23,7 @@
       "plant_id": "calceolaria_mexicana",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Calceolaria mexicana"
+      ],
+      "en": [
+        "Calceolaria mexicana"
+      ],
+      "es": [
+        "Calceolaria mexicana"
+      ],
+      "fr": [
+        "Calceolaria mexicana"
+      ],
+      "it": [
+        "Calceolaria mexicana"
+      ],
+      "nl": [
+        "Calceolaria mexicana"
+      ],
+      "pl": [
+        "Calceolaria mexicana"
+      ],
+      "pt": [
+        "Calceolaria mexicana"
+      ],
+      "ru": [
+        "Calceolaria mexicana"
+      ],
+      "tr": [
+        "Calceolaria mexicana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Calceolariaceae",
     "genus": "Calceolaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,11 +214,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Calceolaria tripartita"
+      ],
       "en": [
+        "Calceolaria tripartita",
         "Splitleaf slipperwort"
+      ],
+      "es": [
+        "Calceolaria tripartita"
+      ],
+      "fr": [
+        "Calceolaria tripartita"
+      ],
+      "it": [
+        "Calceolaria tripartita"
+      ],
+      "nl": [
+        "Calceolaria tripartita"
+      ],
+      "pl": [
+        "Calceolaria tripartita"
+      ],
+      "pt": [
+        "Calceolaria tripartita"
+      ],
+      "ru": [
+        "Кальцеолярия трёхраздельная"
+      ],
+      "tr": [
+        "Calceolaria tripartita"
       ]
     },
     "tags": [],

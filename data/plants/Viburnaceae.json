@@ -26,12 +26,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 75,
+      "ppfd_max": 200,
+      "dli_min": 3.0,
+      "dli_max": 8.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 4.3
     },
     "common_names": {
+      "ar": [
+        "أدوكسة مسكية"
+      ],
+      "de": [
+        "Moschuskraut"
+      ],
       "en": [
+        "Adoxa moschatellina",
         "Moschatel"
+      ],
+      "es": [
+        "Adoxa"
+      ],
+      "fr": [
+        "Adoxa moschatellina"
+      ],
+      "it": [
+        "Adoxa moschatellina"
+      ],
+      "ja": [
+        "レンプクソウ"
+      ],
+      "ko": [
+        "연복초"
+      ],
+      "nl": [
+        "muskuskruid"
+      ],
+      "pl": [
+        "Piżmaczek wiosenny"
+      ],
+      "pt": [
+        "Adoxa"
+      ],
+      "ru": [
+        "Адокса мускусная"
+      ],
+      "zh": [
+        "五福花"
       ]
     },
     "tags": [],
@@ -103,7 +142,7 @@
     "family": "Viburnaceae",
     "genus": "Sambucus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,7 +158,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sambucus_australis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -191,11 +230,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Sambucus australis"
+      ],
       "en": [
+        "Sambucus australis",
         "Southern elder"
+      ],
+      "es": [
+        "Sambucus australis"
+      ],
+      "fr": [
+        "Sambucus australis"
+      ],
+      "it": [
+        "Sambucus australis"
+      ],
+      "nl": [
+        "Sambucus australis"
+      ],
+      "pl": [
+        "Sambucus australis"
+      ],
+      "pt": [
+        "Sambucus australis"
+      ],
+      "ru": [
+        "Sambucus australis"
       ]
     },
     "tags": [],
@@ -207,7 +273,7 @@
     "family": "Viburnaceae",
     "genus": "Sambucus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -223,17 +289,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sambucus_canadensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -295,11 +361,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "ar": [
+        "خمان كندي"
+      ],
+      "de": [
+        "Sambucus canadensis"
+      ],
       "en": [
-        "Canadian elder"
+        "Canadian elder",
+        "Sambucus canadensis"
+      ],
+      "es": [
+        "Sambucus canadensis"
+      ],
+      "fr": [
+        "Sambucus canadensis"
+      ],
+      "it": [
+        "Sambucus canadensis"
+      ],
+      "nl": [
+        "Amerikaanse vlier"
+      ],
+      "pl": [
+        "Sambucus canadensis"
+      ],
+      "pt": [
+        "Sambucus canadensis"
+      ],
+      "ru": [
+        "Бузина канадская"
+      ],
+      "zh": [
+        "加拿大接骨木"
       ]
     },
     "tags": [],
@@ -311,7 +410,7 @@
     "family": "Viburnaceae",
     "genus": "Sambucus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -327,17 +426,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sambucus_ebulus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -358,9 +457,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Cornus amomum",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": [
         "It has some susceptibility to canker, powdery mildew, leaf spot, borers, spider mites, and aphids.",
         "Its branches are susceptible to damage from high winds and heavy snow or ice in winter.",
@@ -384,8 +483,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Arching",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -399,11 +498,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.4
     },
     "common_names": {
+      "ar": [
+        "خمان قزم"
+      ],
+      "de": [
+        "Zwerg-Holunder"
+      ],
       "en": [
-        "Danewort"
+        "Danewort",
+        "Sambucus ebulus"
+      ],
+      "es": [
+        "Sambucus ebulus"
+      ],
+      "fr": [
+        "Sambucus ebulus"
+      ],
+      "it": [
+        "Sambucus ebulus"
+      ],
+      "ko": [
+        "딱총나무"
+      ],
+      "nl": [
+        "Kruidvlier"
+      ],
+      "pl": [
+        "Bez hebd"
+      ],
+      "pt": [
+        "Sambucus ebulus"
+      ],
+      "ru": [
+        "бузина травянистая"
+      ],
+      "zh": [
+        "矮接骨木"
       ]
     },
     "tags": [],
@@ -415,7 +550,7 @@
     "family": "Viburnaceae",
     "genus": "Sambucus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -431,17 +566,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sambucus_gaudichaudiana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -497,9 +632,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.6
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sambucus gaudichaudiana"
+      ],
+      "en": [
+        "Sambucus gaudichaudiana"
+      ],
+      "es": [
+        "Sambucus gaudichaudiana"
+      ],
+      "fr": [
+        "Sambucus gaudichaudiana"
+      ],
+      "it": [
+        "Sambucus gaudichaudiana"
+      ],
+      "nl": [
+        "Sambucus gaudichaudiana"
+      ],
+      "pl": [
+        "Sambucus gaudichaudiana"
+      ],
+      "pt": [
+        "Sambucus gaudichaudiana"
+      ],
+      "ru": [
+        "Sambucus gaudichaudiana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -509,7 +674,7 @@
     "family": "Viburnaceae",
     "genus": "Sambucus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -525,7 +690,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sambucus_javanica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -597,11 +762,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "خمان جاوي"
+      ],
+      "de": [
+        "Sambucus javanica"
+      ],
       "en": [
-        "Chinese elder"
+        "Chinese elder",
+        "Sambucus javanica"
+      ],
+      "es": [
+        "Sambucus javanica"
+      ],
+      "fr": [
+        "Sambucus javanica"
+      ],
+      "it": [
+        "Sambucus javanica"
+      ],
+      "ja": [
+        "ソクズ"
+      ],
+      "nl": [
+        "Sambucus javanica"
+      ],
+      "pl": [
+        "Sambucus javanica"
+      ],
+      "pt": [
+        "Sambucus javanica"
+      ],
+      "ru": [
+        "Sambucus javanica"
+      ],
+      "zh": [
+        "接骨草"
       ]
     },
     "tags": [],
@@ -613,7 +814,7 @@
     "family": "Viburnaceae",
     "genus": "Sambucus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -629,17 +830,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sambucus_nigra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -660,9 +861,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Cornus officinalis",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": [
         "Cankers, leaf spot, and powdery mildew do occur.",
         "Branches are susceptible to wind and winter snow breakage.",
@@ -686,8 +887,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Multi-stemmed",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -701,11 +902,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "ar": [
+        "خمان أسود"
+      ],
+      "de": [
+        "Schwarzer Holunder"
+      ],
       "en": [
-        "Elder"
+        "Elder",
+        "Sambucus nigra"
+      ],
+      "es": [
+        "Sambucus nigra"
+      ],
+      "fr": [
+        "Sambucus nigra"
+      ],
+      "it": [
+        "Sambucus nigra"
+      ],
+      "ja": [
+        "ニワトコ"
+      ],
+      "ko": [
+        "서양접골목"
+      ],
+      "nl": [
+        "gewone vlier"
+      ],
+      "pl": [
+        "Bez czarny"
+      ],
+      "pt": [
+        "caneleiro"
+      ],
+      "ru": [
+        "бузина чёрная"
+      ],
+      "tr": [
+        "Kara Mürver"
+      ],
+      "zh": [
+        "西洋接骨木"
       ]
     },
     "tags": [],
@@ -717,7 +960,7 @@
     "family": "Viburnaceae",
     "genus": "Sambucus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -733,17 +976,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "sambucus_racemosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -764,9 +1007,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Amelanchier arborea",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: weak toxic. Animal: toxic. Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -784,8 +1027,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Mild",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -799,11 +1042,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 5.9
     },
     "common_names": {
+      "ar": [
+        "بيلسان أحمر"
+      ],
+      "de": [
+        "Roter Holunder"
+      ],
       "en": [
-        "Red-berry elder"
+        "Red-berry elder",
+        "Sambucus racemosa"
+      ],
+      "es": [
+        "Sambucus racemosa"
+      ],
+      "fr": [
+        "Sambucus racemosa"
+      ],
+      "it": [
+        "Sambucus racemosa"
+      ],
+      "ja": [
+        "セイヨウアカミニワトコ"
+      ],
+      "nl": [
+        "trosvlier"
+      ],
+      "pl": [
+        "Bez koralowy"
+      ],
+      "pt": [
+        "Sambucus racemosa"
+      ],
+      "ru": [
+        "Бузина красная"
+      ],
+      "zh": [
+        "紅接骨木莓"
       ]
     },
     "tags": [],
@@ -815,7 +1094,7 @@
     "family": "Viburnaceae",
     "genus": "Sambucus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -831,7 +1110,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "sambucus_sibirica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -897,9 +1176,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sambucus sibirica"
+      ],
+      "en": [
+        "Sambucus sibirica"
+      ],
+      "es": [
+        "Sambucus sibirica"
+      ],
+      "fr": [
+        "Sambucus sibirica"
+      ],
+      "it": [
+        "Sambucus sibirica"
+      ],
+      "nl": [
+        "Sambucus sibirica"
+      ],
+      "pl": [
+        "Sambucus sibirica"
+      ],
+      "pt": [
+        "Sambucus sibirica"
+      ],
+      "ru": [
+        "Sambucus sibirica"
+      ],
+      "tr": [
+        "Sambucus sibirica"
+      ],
+      "zh": [
+        "西伯利亚接骨木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -909,7 +1224,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -925,17 +1240,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_acerifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -991,11 +1306,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "رباطية قيقبية الأوراق"
+      ],
+      "de": [
+        "Viburnum acerifolium"
+      ],
       "en": [
-        "Dockmackie"
+        "Dockmackie",
+        "Viburnum acerifolium"
+      ],
+      "es": [
+        "Viburnum acerifolium"
+      ],
+      "fr": [
+        "Viburnum acerifolium"
+      ],
+      "it": [
+        "Viburnum acerifolium"
+      ],
+      "nl": [
+        "Viburnum acerifolium"
+      ],
+      "pl": [
+        "Viburnum acerifolium"
+      ],
+      "pt": [
+        "Viburnum acerifolium"
+      ],
+      "ru": [
+        "Viburnum acerifolium"
       ]
     },
     "tags": [],
@@ -1007,7 +1352,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1023,7 +1368,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_carlesii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1091,9 +1436,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum carlesii"
+      ],
+      "en": [
+        "Viburnum carlesii"
+      ],
+      "es": [
+        "Viburnum carlesii"
+      ],
+      "fr": [
+        "Viburnum carlesii"
+      ],
+      "it": [
+        "Viburnum carlesii"
+      ],
+      "ko": [
+        "분꽃나무"
+      ],
+      "nl": [
+        "Viburnum carlesii"
+      ],
+      "pl": [
+        "Viburnum carlesii"
+      ],
+      "pt": [
+        "Viburnum carlesii"
+      ],
+      "ru": [
+        "Viburnum carlesii"
+      ],
+      "zh": [
+        "红蕾荚蒾"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1103,7 +1484,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1119,7 +1500,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_cassinoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1185,11 +1566,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Viburnum cassinoides"
+      ],
       "en": [
+        "Viburnum cassinoides",
         "Witherod"
+      ],
+      "es": [
+        "Viburnum cassinoides"
+      ],
+      "fr": [
+        "Viburnum cassinoides"
+      ],
+      "it": [
+        "Viburnum cassinoides"
+      ],
+      "nl": [
+        "Viburnum cassinoides"
+      ],
+      "pl": [
+        "Viburnum cassinoides"
+      ],
+      "pt": [
+        "Viburnum cassinoides"
+      ],
+      "ru": [
+        "Viburnum cassinoides"
       ]
     },
     "tags": [],
@@ -1201,7 +1609,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1217,7 +1625,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_cylindricum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1283,9 +1691,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum cylindricum"
+      ],
+      "en": [
+        "Viburnum cylindricum"
+      ],
+      "es": [
+        "Viburnum cylindricum"
+      ],
+      "fr": [
+        "Viburnum cylindricum"
+      ],
+      "it": [
+        "Viburnum cylindricum"
+      ],
+      "nl": [
+        "Viburnum cylindricum"
+      ],
+      "pl": [
+        "Viburnum cylindricum"
+      ],
+      "pt": [
+        "Viburnum cylindricum"
+      ],
+      "ru": [
+        "Viburnum cylindricum"
+      ],
+      "zh": [
+        "水红木"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1295,7 +1736,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1311,17 +1752,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_dentatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1381,11 +1822,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "رباطية مسننة الأوراق"
+      ],
+      "de": [
+        "Viburnum dentatum"
+      ],
       "en": [
-        "Arrow-wood"
+        "Arrow-wood",
+        "Viburnum dentatum"
+      ],
+      "es": [
+        "Viburnum dentatum"
+      ],
+      "fr": [
+        "Viburnum dentatum"
+      ],
+      "it": [
+        "Viburnum dentatum"
+      ],
+      "nl": [
+        "Viburnum dentatum"
+      ],
+      "pl": [
+        "Viburnum dentatum"
+      ],
+      "pt": [
+        "Viburnum dentatum"
+      ],
+      "ru": [
+        "Viburnum dentatum"
+      ],
+      "zh": [
+        "齿叶荚蒾"
       ]
     },
     "tags": [],
@@ -1397,7 +1871,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1413,17 +1887,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_dilatatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1486,11 +1960,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "de": [
+        "Viburnum dilatatum"
+      ],
       "en": [
-        "Linden viburnum"
+        "Linden viburnum",
+        "Viburnum dilatatum"
+      ],
+      "es": [
+        "Viburnum dilatatum"
+      ],
+      "fr": [
+        "Viburnum dilatatum"
+      ],
+      "it": [
+        "Viburnum dilatatum"
+      ],
+      "ja": [
+        "ガマズミ"
+      ],
+      "ko": [
+        "가막살나무"
+      ],
+      "nl": [
+        "Viburnum dilatatum"
+      ],
+      "pl": [
+        "Viburnum dilatatum"
+      ],
+      "pt": [
+        "Viburnum dilatatum"
+      ],
+      "ru": [
+        "Viburnum dilatatum"
+      ],
+      "zh": [
+        "荚蒾"
       ]
     },
     "tags": [],
@@ -1502,7 +2012,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1518,17 +2028,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_edule",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1584,9 +2094,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum edule"
+      ],
+      "en": [
+        "Viburnum edule"
+      ],
+      "es": [
+        "Viburnum edule"
+      ],
+      "fr": [
+        "Viorne comestible"
+      ],
+      "it": [
+        "Viburnum edule"
+      ],
+      "nl": [
+        "Viburnum edule"
+      ],
+      "pl": [
+        "Viburnum edule"
+      ],
+      "pt": [
+        "Viburnum edule"
+      ],
+      "ru": [
+        "Калина съедобная"
+      ],
+      "tr": [
+        "Viburnum edule"
+      ],
+      "zh": [
+        "可口莢蒾"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1596,7 +2142,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1612,17 +2158,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_erosum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1680,9 +2226,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum erosum"
+      ],
+      "en": [
+        "Viburnum erosum"
+      ],
+      "es": [
+        "Viburnum erosum"
+      ],
+      "fr": [
+        "Viburnum erosum"
+      ],
+      "it": [
+        "Viburnum erosum"
+      ],
+      "ko": [
+        "덜꿩나무"
+      ],
+      "nl": [
+        "Viburnum erosum"
+      ],
+      "pl": [
+        "Viburnum erosum"
+      ],
+      "pt": [
+        "Viburnum erosum"
+      ],
+      "ru": [
+        "Viburnum erosum"
+      ],
+      "zh": [
+        "宜昌荚蒾"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1692,7 +2274,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1708,7 +2290,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_foetidum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1776,9 +2358,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum foetidum"
+      ],
+      "en": [
+        "Viburnum foetidum"
+      ],
+      "es": [
+        "Viburnum foetidum"
+      ],
+      "fr": [
+        "Viburnum foetidum"
+      ],
+      "it": [
+        "Viburnum foetidum"
+      ],
+      "nl": [
+        "Viburnum foetidum"
+      ],
+      "pl": [
+        "Viburnum foetidum"
+      ],
+      "pt": [
+        "Viburnum foetidum"
+      ],
+      "ru": [
+        "Viburnum foetidum"
+      ],
+      "zh": [
+        "臭荚蒾"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1788,7 +2403,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1804,7 +2419,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_furcatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1870,9 +2485,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum furcatum"
+      ],
+      "en": [
+        "Viburnum furcatum"
+      ],
+      "es": [
+        "Viburnum furcatum"
+      ],
+      "fr": [
+        "Viburnum furcatum"
+      ],
+      "it": [
+        "Viburnum furcatum"
+      ],
+      "ja": [
+        "オオカメノキ"
+      ],
+      "nl": [
+        "Viburnum furcatum"
+      ],
+      "pl": [
+        "Viburnum furcatum"
+      ],
+      "pt": [
+        "Viburnum furcatum"
+      ],
+      "ru": [
+        "Viburnum furcatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1882,7 +2530,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1898,17 +2546,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_lantana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1929,9 +2577,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Syringa villosa",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Bark, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": [
         "The Clemson Cooperative Extension Home and Garden Information Center has a"
       ],
@@ -1951,8 +2599,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Bark, leaf (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1966,11 +2614,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.1
     },
     "common_names": {
+      "ar": [
+        "رباطية لانتانية"
+      ],
+      "de": [
+        "Wolliger Schneeball"
+      ],
       "en": [
-        "Mealytree"
+        "Mealytree",
+        "Viburnum lantana"
+      ],
+      "es": [
+        "Viburnum lantana"
+      ],
+      "fr": [
+        "Viburnum lantana"
+      ],
+      "it": [
+        "Viburnum lantana"
+      ],
+      "nl": [
+        "Wollige sneeuwbal"
+      ],
+      "pl": [
+        "kalina hordowina"
+      ],
+      "pt": [
+        "Viburnum lantana"
+      ],
+      "ru": [
+        "Калина гордовина"
+      ],
+      "tr": [
+        "germeşo"
+      ],
+      "zh": [
+        "黑果绣球"
       ]
     },
     "tags": [],
@@ -1982,7 +2666,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1998,17 +2682,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_lantanoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2066,11 +2750,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "رباطية نغثية الأوراق"
+      ],
+      "de": [
+        "Viburnum lantanoides"
+      ],
       "en": [
-        "Hobblebush"
+        "Hobblebush",
+        "Viburnum lantanoides"
+      ],
+      "es": [
+        "Viburnum lantanoides"
+      ],
+      "fr": [
+        "viorne à feuilles d'aulne"
+      ],
+      "it": [
+        "Viburnum lantanoides"
+      ],
+      "nl": [
+        "Viburnum lantanoides"
+      ],
+      "pl": [
+        "Viburnum lantanoides"
+      ],
+      "pt": [
+        "Viburnum lantanoides"
+      ],
+      "ru": [
+        "Viburnum lantanoides"
       ]
     },
     "tags": [],
@@ -2082,7 +2796,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2098,17 +2812,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_lentago",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2164,11 +2878,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "de": [
+        "Viburnum lentago"
+      ],
       "en": [
-        "Sheepberry"
+        "Sheepberry",
+        "Viburnum lentago"
+      ],
+      "es": [
+        "Viburnum lentago"
+      ],
+      "fr": [
+        "Viburnum lentago"
+      ],
+      "it": [
+        "Viburnum lentago"
+      ],
+      "nl": [
+        "Viburnum lentago"
+      ],
+      "pl": [
+        "Viburnum lentago"
+      ],
+      "pt": [
+        "Viburnum lentago"
+      ],
+      "ru": [
+        "Viburnum lentago"
+      ],
+      "zh": [
+        "保姆莓"
       ]
     },
     "tags": [],
@@ -2180,7 +2924,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2196,7 +2940,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_luzonicum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2262,9 +3006,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum luzonicum"
+      ],
+      "en": [
+        "Viburnum luzonicum"
+      ],
+      "es": [
+        "Viburnum luzonicum"
+      ],
+      "fr": [
+        "Viburnum luzonicum"
+      ],
+      "it": [
+        "Viburnum luzonicum"
+      ],
+      "nl": [
+        "Viburnum luzonicum"
+      ],
+      "pl": [
+        "Viburnum luzonicum"
+      ],
+      "pt": [
+        "Viburnum luzonicum"
+      ],
+      "ru": [
+        "Viburnum luzonicum"
+      ],
+      "zh": [
+        "吕宋荚蒾"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2274,7 +3051,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2290,17 +3067,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_nudum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2356,11 +3133,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "رباطية جرداء"
+      ],
+      "de": [
+        "Viburnum nudum"
+      ],
       "en": [
-        "Smooth witherod"
+        "Smooth witherod",
+        "Viburnum nudum"
+      ],
+      "es": [
+        "Viburnum nudum"
+      ],
+      "fr": [
+        "Viburnum nudum"
+      ],
+      "it": [
+        "Viburnum nudum"
+      ],
+      "nl": [
+        "Viburnum nudum"
+      ],
+      "pl": [
+        "Viburnum nudum"
+      ],
+      "pt": [
+        "Viburnum nudum"
+      ],
+      "ru": [
+        "Viburnum nudum"
       ]
     },
     "tags": [],
@@ -2372,7 +3179,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2388,7 +3195,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_obovatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2456,11 +3263,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Viburnum obovatum"
+      ],
       "en": [
+        "Viburnum obovatum",
         "Walter's viburnum"
+      ],
+      "es": [
+        "Viburnum obovatum"
+      ],
+      "fr": [
+        "Viburnum obovatum"
+      ],
+      "it": [
+        "Viburnum obovatum"
+      ],
+      "nl": [
+        "Viburnum obovatum"
+      ],
+      "pl": [
+        "Viburnum obovatum"
+      ],
+      "pt": [
+        "Viburnum obovatum"
+      ],
+      "ru": [
+        "Viburnum obovatum"
       ]
     },
     "tags": [],
@@ -2472,7 +3306,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2488,7 +3322,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_odoratissimum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2556,11 +3390,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Viburnum odoratissimum"
+      ],
       "en": [
-        "Sweet arrowwood"
+        "Sweet arrowwood",
+        "Viburnum odoratissimum"
+      ],
+      "es": [
+        "Viburnum odoratissimum"
+      ],
+      "fr": [
+        "Viburnum odoratissimum"
+      ],
+      "it": [
+        "Viburnum odoratissimum"
+      ],
+      "ja": [
+        "サンゴジュ"
+      ],
+      "ko": [
+        "산호수"
+      ],
+      "nl": [
+        "Viburnum odoratissimum"
+      ],
+      "pl": [
+        "Viburnum odoratissimum"
+      ],
+      "pt": [
+        "Viburnum odoratissimum"
+      ],
+      "ru": [
+        "Viburnum odoratissimum"
+      ],
+      "zh": [
+        "珊瑚树"
       ]
     },
     "tags": [],
@@ -2572,7 +3442,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2588,17 +3458,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_opulus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2619,9 +3489,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Quercus michauxii",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Bark, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": [
         "Some susceptibility to bacterial leaf spot, stem blight and powdery mildew.",
         "It has invasive tendencies and it is now found in the wild from Newfoundland south to Virginia and west to Washington state.",
@@ -2646,8 +3516,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Arching",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Bark, leaf (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -2661,11 +3531,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "رباطية درهمية الأزهار"
+      ],
+      "de": [
+        "Gewöhnlicher Schneeball"
+      ],
       "en": [
-        "Crampbark"
+        "Crampbark",
+        "Viburnum opulus"
+      ],
+      "es": [
+        "Viburnum opulus"
+      ],
+      "fr": [
+        "Viorne obier"
+      ],
+      "it": [
+        "Viburnum opulus"
+      ],
+      "ja": [
+        "カンボク"
+      ],
+      "ko": [
+        "양백당나무"
+      ],
+      "nl": [
+        "Gelderse roos"
+      ],
+      "pl": [
+        "kalina koralowa"
+      ],
+      "pt": [
+        "noveleiro"
+      ],
+      "ru": [
+        "калина обыкновенная"
+      ],
+      "tr": [
+        "Gilaburu"
+      ],
+      "zh": [
+        "欧洲荚蒾"
       ]
     },
     "tags": [],
@@ -2677,7 +3589,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2693,7 +3605,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_phlebotrichum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -2759,9 +3671,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum phlebotrichum"
+      ],
+      "en": [
+        "Viburnum phlebotrichum"
+      ],
+      "es": [
+        "Viburnum phlebotrichum"
+      ],
+      "fr": [
+        "Viburnum phlebotrichum"
+      ],
+      "it": [
+        "Viburnum phlebotrichum"
+      ],
+      "ja": [
+        "オトコヨウゾメ"
+      ],
+      "nl": [
+        "Viburnum phlebotrichum"
+      ],
+      "pl": [
+        "Viburnum phlebotrichum"
+      ],
+      "pt": [
+        "Viburnum phlebotrichum"
+      ],
+      "ru": [
+        "Viburnum phlebotrichum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2771,7 +3716,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2787,17 +3732,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_plicatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2818,9 +3763,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Callicarpa japonica",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Bark, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2838,8 +3783,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Bark, leaf (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -2853,11 +3798,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "de": [
+        "Viburnum plicatum"
+      ],
       "en": [
-        "Japanese snowball"
+        "Japanese snowball",
+        "Viburnum plicatum"
+      ],
+      "es": [
+        "Viburnum plicatum"
+      ],
+      "fr": [
+        "Viburnum plicatum"
+      ],
+      "it": [
+        "Viburnum plicatum"
+      ],
+      "ja": [
+        "ヤブデマリ"
+      ],
+      "ko": [
+        "수구화나무"
+      ],
+      "nl": [
+        "Viburnum plicatum"
+      ],
+      "pl": [
+        "Viburnum plicatum"
+      ],
+      "pt": [
+        "Viburnum plicatum"
+      ],
+      "ru": [
+        "Viburnum plicatum"
+      ],
+      "zh": [
+        "粉团"
       ]
     },
     "tags": [],
@@ -2869,7 +3850,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2885,17 +3866,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_prunifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2951,11 +3932,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "رباطية خوخية الورق"
+      ],
+      "de": [
+        "Viburnum prunifolium"
+      ],
       "en": [
-        "Black haw"
+        "Black haw",
+        "Viburnum prunifolium"
+      ],
+      "es": [
+        "Viburnum prunifolium"
+      ],
+      "fr": [
+        "Viburnum prunifolium"
+      ],
+      "it": [
+        "Viburnum prunifolium"
+      ],
+      "nl": [
+        "Viburnum prunifolium"
+      ],
+      "pl": [
+        "Viburnum prunifolium"
+      ],
+      "pt": [
+        "Viburnum prunifolium"
+      ],
+      "ru": [
+        "Viburnum prunifolium"
+      ],
+      "zh": [
+        "莢迷花"
       ]
     },
     "tags": [],
@@ -2967,7 +3981,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2983,7 +3997,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_rafinesquianum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3049,7 +4063,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {},
     "tags": [],
@@ -3061,7 +4077,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3077,17 +4093,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_recognitum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3143,11 +4159,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "de": [
+        "Viburnum recognitum"
+      ],
       "en": [
-        "Northern arrow-wood"
+        "Northern arrow-wood",
+        "Viburnum recognitum"
+      ],
+      "es": [
+        "Viburnum recognitum"
+      ],
+      "fr": [
+        "Viburnum recognitum"
+      ],
+      "it": [
+        "Viburnum recognitum"
+      ],
+      "nl": [
+        "Viburnum recognitum"
+      ],
+      "pl": [
+        "Viburnum recognitum"
+      ],
+      "pt": [
+        "Viburnum recognitum"
+      ],
+      "ru": [
+        "Viburnum recognitum"
       ]
     },
     "tags": [],
@@ -3159,7 +4202,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3175,17 +4218,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_rhytidophyllum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3206,9 +4249,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Dappled Sunlight (Shade through upper canopy all day)",
       "tips": "Similar plants: Ilex x attenuata Foster Hybrid Group",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Bark, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3226,8 +4269,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Bark, leaf (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -3241,11 +4284,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "ar": [
+        "رباطية مجعدة الأوراق"
+      ],
+      "de": [
+        "Runzelblättriger Schneeball"
+      ],
       "en": [
-        "Leatherleaf viburnum"
+        "Leatherleaf viburnum",
+        "Viburnum rhytidophyllum"
+      ],
+      "es": [
+        "Viburnum rhytidophyllum"
+      ],
+      "fr": [
+        "Viburnum rhytidophyllum"
+      ],
+      "it": [
+        "Viburnum rhytidophyllum"
+      ],
+      "nl": [
+        "Viburnum rhytidophyllum"
+      ],
+      "pl": [
+        "kalina sztywnolistna"
+      ],
+      "pt": [
+        "Viburnum rhytidophyllum"
+      ],
+      "ru": [
+        "Viburnum rhytidophyllum"
+      ],
+      "zh": [
+        "皱叶荚蒾"
       ]
     },
     "tags": [],
@@ -3257,7 +4333,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3273,17 +4349,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_rufidulum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3339,11 +4415,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
     "common_names": {
+      "de": [
+        "Viburnum rufidulum"
+      ],
       "en": [
-        "Blue haw"
+        "Blue haw",
+        "Viburnum rufidulum"
+      ],
+      "es": [
+        "Viburnum rufidulum"
+      ],
+      "fr": [
+        "Viburnum rufidulum"
+      ],
+      "it": [
+        "Viburnum rufidulum"
+      ],
+      "nl": [
+        "Viburnum rufidulum"
+      ],
+      "pl": [
+        "Viburnum rufidulum"
+      ],
+      "pt": [
+        "Viburnum rufidulum"
+      ],
+      "ru": [
+        "Viburnum rufidulum"
       ]
     },
     "tags": [],
@@ -3355,7 +4458,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3371,7 +4474,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_sargentii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3441,11 +4544,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Viburnum sargentii"
+      ],
       "en": [
-        "Sargent's viburnum"
+        "Sargent's viburnum",
+        "Viburnum sargentii"
+      ],
+      "es": [
+        "Viburnum sargentii"
+      ],
+      "fr": [
+        "Viburnum sargentii"
+      ],
+      "it": [
+        "Viburnum sargentii"
+      ],
+      "ja": [
+        "カンボク"
+      ],
+      "ko": [
+        "백당나무"
+      ],
+      "nl": [
+        "Viburnum sargentii"
+      ],
+      "pl": [
+        "Viburnum sargentii"
+      ],
+      "pt": [
+        "Viburnum sargentii"
+      ],
+      "ru": [
+        "Калина Саржента"
+      ],
+      "zh": [
+        "佛头花"
       ]
     },
     "tags": [],
@@ -3457,7 +4596,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3473,7 +4612,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_sieboldii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3539,11 +4678,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Viburnum sieboldii"
+      ],
       "en": [
-        "Siebold's arrowwood"
+        "Siebold's arrowwood",
+        "Viburnum sieboldii"
+      ],
+      "es": [
+        "Viburnum sieboldii"
+      ],
+      "fr": [
+        "Viburnum sieboldii"
+      ],
+      "it": [
+        "Viburnum sieboldii"
+      ],
+      "ja": [
+        "ゴマギ"
+      ],
+      "nl": [
+        "Viburnum sieboldii"
+      ],
+      "pl": [
+        "Viburnum sieboldii"
+      ],
+      "pt": [
+        "Viburnum sieboldii"
+      ],
+      "ru": [
+        "Viburnum sieboldii"
+      ],
+      "zh": [
+        "毛叶荚迷"
       ]
     },
     "tags": [],
@@ -3555,7 +4727,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3571,17 +4743,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_tinus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 300,
+      "dli_min": 4.0,
+      "dli_max": 12.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3602,9 +4774,9 @@
       "watering_guide": null,
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Ilex",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: toxic. Parts: Bark, leaf (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": [
         "The Clemson Cooperative Extension Home and Garden Information Center has a"
       ],
@@ -3624,8 +4796,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Dense",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Bark, leaf (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -3639,11 +4811,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 5.0
     },
     "common_names": {
+      "ar": [
+        "رباطية غارية"
+      ],
+      "de": [
+        "Lorbeerblättriger Schneeball"
+      ],
       "en": [
-        "Laurustinus"
+        "Laurustinus",
+        "Viburnum tinus"
+      ],
+      "es": [
+        "Viburnum tinus"
+      ],
+      "fr": [
+        "Viburnum tinus"
+      ],
+      "it": [
+        "Viburnum tinus"
+      ],
+      "ja": [
+        "トキワガマズミ"
+      ],
+      "nl": [
+        "Viburnum tinus"
+      ],
+      "pl": [
+        "kalina wawrzynowata"
+      ],
+      "pt": [
+        "Viburnum tinus"
+      ],
+      "ru": [
+        "Калина лавролистная"
+      ],
+      "tr": [
+        "Viburnum tinus"
+      ],
+      "zh": [
+        "地中海莢蒾"
       ]
     },
     "tags": [],
@@ -3655,7 +4866,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3671,7 +4882,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_treleasei",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3737,9 +4948,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum treleasei"
+      ],
+      "en": [
+        "Viburnum treleasei"
+      ],
+      "es": [
+        "Viburnum treleasei"
+      ],
+      "fr": [
+        "Viburnum treleasei"
+      ],
+      "it": [
+        "Viburnum treleasei"
+      ],
+      "nl": [
+        "Viburnum treleasei"
+      ],
+      "pl": [
+        "Viburnum treleasei"
+      ],
+      "pt": [
+        "Viburnum treleasei"
+      ],
+      "ru": [
+        "Viburnum treleasei"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3749,7 +4990,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3765,7 +5006,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_triphyllum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3831,9 +5072,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum triphyllum"
+      ],
+      "en": [
+        "Viburnum triphyllum"
+      ],
+      "es": [
+        "Viburnum triphyllum"
+      ],
+      "fr": [
+        "Viburnum triphyllum"
+      ],
+      "it": [
+        "Viburnum triphyllum"
+      ],
+      "nl": [
+        "Viburnum triphyllum"
+      ],
+      "pl": [
+        "Viburnum triphyllum"
+      ],
+      "pt": [
+        "Viburnum triphyllum"
+      ],
+      "ru": [
+        "Viburnum triphyllum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3843,7 +5114,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3859,7 +5130,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_urceolatum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -3925,9 +5196,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum urceolatum"
+      ],
+      "en": [
+        "Viburnum urceolatum"
+      ],
+      "es": [
+        "Viburnum urceolatum"
+      ],
+      "fr": [
+        "Viburnum urceolatum"
+      ],
+      "it": [
+        "Viburnum urceolatum"
+      ],
+      "nl": [
+        "Viburnum urceolatum"
+      ],
+      "pl": [
+        "Viburnum urceolatum"
+      ],
+      "pt": [
+        "Viburnum urceolatum"
+      ],
+      "ru": [
+        "Viburnum urceolatum"
+      ],
+      "zh": [
+        "壶花荚蒾"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3937,7 +5241,7 @@
     "family": "Viburnaceae",
     "genus": "Viburnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3953,17 +5257,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "viburnum_wrightii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4019,9 +5323,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 6.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Viburnum wrightii"
+      ],
+      "en": [
+        "Viburnum wrightii"
+      ],
+      "es": [
+        "Viburnum wrightii"
+      ],
+      "fr": [
+        "Viburnum wrightii"
+      ],
+      "it": [
+        "Viburnum wrightii"
+      ],
+      "ja": [
+        "ミヤマガマズミ"
+      ],
+      "nl": [
+        "Viburnum wrightii"
+      ],
+      "pl": [
+        "Viburnum wrightii"
+      ],
+      "pt": [
+        "Viburnum wrightii"
+      ],
+      "ru": [
+        "Калина Райта"
+      ],
+      "zh": [
+        "浙皖荚蒾"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Ephedraceae",
     "genus": "Ephedra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/202c0d17ee40f3d0dbc7c3b99ddfe6e8.jpg",
-    "description": null,
+    "description": "Ephedra aspera is a species of Ephedra known by the common names rough jointfir, boundary ephedra, and pitamoreal. It is native to the southwestern United States from California to Texas and parts of northern Mexico as far south as Zacatecas. It is a resident of varied woodland and scrub plant communities.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,7 +21,7 @@
     "synonyms": "[\"Ephedra peninsularis\", \"Ephedra reedii\", \"Ephedra nevadensis var. aspera\"]",
     "care": {
       "plant_id": "ephedra_aspera",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ephedra aspera"
+      ],
+      "en": [
+        "Ephedra aspera"
+      ],
+      "es": [
+        "Ephedra aspera"
+      ],
+      "fr": [
+        "Ephedra aspera"
+      ],
+      "it": [
+        "Ephedra aspera"
+      ],
+      "nl": [
+        "Ephedra aspera"
+      ],
+      "pl": [
+        "Ephedra aspera"
+      ],
+      "pt": [
+        "Ephedra aspera"
+      ],
+      "ru": [
+        "Хвойник шероховатый"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Ephedraceae",
     "genus": "Ephedra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3fddbc3d0faf6cb188a7e92fd008d036f50cea43",
-    "description": null,
+    "description": "Ephedra californica is a species of Ephedra, known by the common names California jointfir, California ephedra, desert tea, Mormon tea, and cañatillo.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -115,7 +145,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ephedra_californica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -181,11 +211,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ephedra californica"
+      ],
       "en": [
-        "California mormon tea"
+        "California mormon tea",
+        "Ephedra californica"
+      ],
+      "es": [
+        "Ephedra californica"
+      ],
+      "fr": [
+        "Ephedra californica"
+      ],
+      "it": [
+        "Ephedra californica"
+      ],
+      "nl": [
+        "Ephedra californica"
+      ],
+      "pl": [
+        "Ephedra californica"
+      ],
+      "pt": [
+        "Ephedra californica"
+      ],
+      "ru": [
+        "Ephedra californica"
       ]
     },
     "tags": [],
@@ -197,12 +254,12 @@
     "family": "Ephedraceae",
     "genus": "Ephedra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/710f7d498865ba286541b6c7fc280e56ea0668ca",
-    "description": null,
+    "description": "Ephedra distachya is a shrub in the family Ephedraceae that stands about 25 cm to 50 cm high. The shrub grows in many parts of the world, including southern and central Europe and western and central Asia. Its local names include somlatha. Ephedra distachya lives on grey dunes which are fixed and stable sand dunes that are covered in continuous vegetation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -213,17 +270,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ephedra_distachya",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -279,11 +336,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "ar": [
+        "عنب البحر"
+      ],
+      "de": [
+        "Ephedra distachya"
+      ],
       "en": [
+        "Ephedra distachya",
         "Sea-grape"
+      ],
+      "es": [
+        "Ephedra distachya"
+      ],
+      "fr": [
+        "Ephedra distachya"
+      ],
+      "it": [
+        "Ephedra distachya"
+      ],
+      "ja": [
+        "フタマタマオウ"
+      ],
+      "nl": [
+        "Ephedra distachya"
+      ],
+      "pl": [
+        "przęśl dwukłosowa"
+      ],
+      "pt": [
+        "Ephedra distachya"
+      ],
+      "ru": [
+        "Хвойник двухколосковый"
+      ],
+      "tr": [
+        "Ephedra distachya"
+      ],
+      "zh": [
+        "双穗麻黄"
       ]
     },
     "tags": [],
@@ -295,7 +391,7 @@
     "family": "Ephedraceae",
     "genus": "Ephedra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -311,7 +407,7 @@
     "synonyms": "[\"Ephedra macedonica\", \"Ephedra major\", \"Ephedra fragilis subsp. campylopoda\", \"Ephedra campylopoda\", \"Ephedra fragilis var. campylopoda\"]",
     "care": {
       "plant_id": "ephedra_foeminea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -377,9 +473,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "علندى أنثوية"
+      ],
+      "de": [
+        "Ephedra foeminea"
+      ],
+      "en": [
+        "Ephedra foeminea"
+      ],
+      "es": [
+        "Ephedra foeminea"
+      ],
+      "fr": [
+        "Ephedra foeminea"
+      ],
+      "it": [
+        "Ephedra foeminea"
+      ],
+      "nl": [
+        "Ephedra foeminea"
+      ],
+      "pl": [
+        "Ephedra foeminea"
+      ],
+      "pt": [
+        "Ephedra foeminea"
+      ],
+      "ru": [
+        "Ephedra foeminea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,7 +518,7 @@
     "family": "Ephedraceae",
     "genus": "Ephedra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -405,17 +534,17 @@
     "synonyms": "[\"Ephedra fragilis subsp. desfontainii\"]",
     "care": {
       "plant_id": "ephedra_fragilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -471,11 +600,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "علندى هشة"
+      ],
+      "de": [
+        "Ephedra fragilis"
+      ],
       "en": [
+        "Ephedra fragilis",
         "Joint pine"
+      ],
+      "es": [
+        "Ephedra fragilis"
+      ],
+      "fr": [
+        "Ephedra fragilis"
+      ],
+      "it": [
+        "Ephedra fragilis"
+      ],
+      "nl": [
+        "Ephedra fragilis"
+      ],
+      "pl": [
+        "Ephedra fragilis"
+      ],
+      "pt": [
+        "Ephedra fragilis"
+      ],
+      "ru": [
+        "Ephedra fragilis"
       ]
     },
     "tags": [],
@@ -487,7 +646,7 @@
     "family": "Ephedraceae",
     "genus": "Ephedra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -503,17 +662,17 @@
     "synonyms": "[\"Ephedra macedonica\", \"Ephedra major\", \"Ephedra fragilis subsp. campylopoda\", \"Ephedra campylopoda\", \"Ephedra fragilis var. campylopoda\"]",
     "care": {
       "plant_id": "ephedra_major",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -569,9 +728,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "علندى كبيرة"
+      ],
+      "de": [
+        "Ephedra major"
+      ],
+      "en": [
+        "Ephedra major"
+      ],
+      "es": [
+        "Ephedra major"
+      ],
+      "fr": [
+        "Ephedra major"
+      ],
+      "it": [
+        "Ephedra major"
+      ],
+      "nl": [
+        "Ephedra major"
+      ],
+      "pl": [
+        "Ephedra major"
+      ],
+      "pt": [
+        "Ephedra major"
+      ],
+      "ru": [
+        "Ephedra major"
+      ],
+      "zh": [
+        "山麻黄"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,12 +776,12 @@
     "family": "Ephedraceae",
     "genus": "Ephedra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4a257c59a55ee0493cecf38ae07f94ea.jpg",
-    "description": null,
+    "description": "Ephedra nevadensis, commonly known as Nevada ephedra, gray ephedra, Mormon tea and Nevada jointfir, is a species of gymnosperm native to dry areas of western North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -597,7 +792,7 @@
     "synonyms": "[\"Ephedra antisiphylitica\", \"Ephedra antisyphilitica var. pedunculata\", \"Ephedra nevadensis f. rosea\", \"Ephedra nevadensis subvar. paucibracteata\", \"Ephedra pedunculata\"]",
     "care": {
       "plant_id": "ephedra_nevadensis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -663,9 +858,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ephedra nevadensis"
+      ],
+      "en": [
+        "Ephedra nevadensis"
+      ],
+      "es": [
+        "Ephedra nevadensis"
+      ],
+      "fr": [
+        "Ephedra nevadensis"
+      ],
+      "it": [
+        "Ephedra nevadensis"
+      ],
+      "nl": [
+        "Ephedra nevadensis"
+      ],
+      "pl": [
+        "Ephedra nevadensis"
+      ],
+      "pt": [
+        "Ephedra nevadensis"
+      ],
+      "ru": [
+        "Ephedra nevadensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -675,12 +900,12 @@
     "family": "Ephedraceae",
     "genus": "Ephedra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a047f964d7d6bbf6714dd045a1d2c84b.jpg",
-    "description": null,
+    "description": "Ephedra torreyana, with common names Torrey's jointfir or Torrey's Mormon tea, is a species of Ephedra that is native to the deserts and scrublands of the Southwestern United States and to the State of Chihuahua and northern Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -691,7 +916,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ephedra_torreyana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -757,9 +982,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ephedra torreyana"
+      ],
+      "en": [
+        "Ephedra torreyana"
+      ],
+      "es": [
+        "Ephedra torreyana"
+      ],
+      "fr": [
+        "Ephedra torreyana"
+      ],
+      "it": [
+        "Ephedra torreyana"
+      ],
+      "nl": [
+        "Ephedra torreyana"
+      ],
+      "pl": [
+        "Ephedra torreyana"
+      ],
+      "pt": [
+        "Ephedra torreyana"
+      ],
+      "ru": [
+        "Ephedra torreyana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -769,12 +1024,12 @@
     "family": "Ephedraceae",
     "genus": "Ephedra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/279e86cd3027308acf80e1206f90c126.jpg",
-    "description": null,
+    "description": "Ephedra trifurca is a species of Ephedra known by the common names longleaf jointfir and Mexican tea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -785,7 +1040,7 @@
     "synonyms": "[\"Ephedra trifaria\", \"Ephedra intermixta\"]",
     "care": {
       "plant_id": "ephedra_trifurca",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -851,9 +1106,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ephedra trifurca"
+      ],
+      "en": [
+        "Ephedra trifurca"
+      ],
+      "es": [
+        "Ephedra trifurca"
+      ],
+      "fr": [
+        "Ephedra trifurca"
+      ],
+      "it": [
+        "Ephedra trifurca"
+      ],
+      "nl": [
+        "Ephedra trifurca"
+      ],
+      "pl": [
+        "Ephedra trifurca"
+      ],
+      "pt": [
+        "Ephedra trifurca"
+      ],
+      "ru": [
+        "Ephedra trifurca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -863,12 +1148,12 @@
     "family": "Ephedraceae",
     "genus": "Ephedra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/455f0cb763c65b155f52453cc1c12685e9cd67d7",
-    "description": null,
+    "description": "Ephedra viridis, known by the common names green Mormon tea, Brigham tea, green ephedra, and Indian tea, is a species of Ephedra. It is indigenous to the Western United States, where it is a member of varied scrub, woodland, desert, and open habitats. It grows at 900–2,300 metres (3,000–7,500 ft) elevations.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -879,17 +1164,17 @@
     "synonyms": "[\"Ephedra nevadensis subvar. pluribracteata\", \"Ephedra nevadensis var. viridis\"]",
     "care": {
       "plant_id": "ephedra_viridis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -945,11 +1230,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.4
     },
     "common_names": {
+      "de": [
+        "Ephedra viridis"
+      ],
       "en": [
+        "Ephedra viridis",
         "Green ephedra"
+      ],
+      "es": [
+        "Ephedra viridis"
+      ],
+      "fr": [
+        "Ephedra viridis"
+      ],
+      "it": [
+        "Ephedra viridis"
+      ],
+      "nl": [
+        "Ephedra viridis"
+      ],
+      "pl": [
+        "Ephedra viridis"
+      ],
+      "pt": [
+        "Ephedra viridis"
+      ],
+      "ru": [
+        "Ephedra viridis"
       ]
     },
     "tags": [],

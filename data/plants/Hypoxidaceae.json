@@ -5,12 +5,12 @@
     "family": "Hypoxidaceae",
     "genus": "Curculigo",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7ef3bcce85bdc1e2688f30a06399bb3c.jpg",
-    "description": null,
+    "description": "Curculigo capitulata is a species of stout herb that belongs to the family Hypoxidaceae. It is known by the common names palm grass, whale back, and weevil lily, and by various synonyms, including Molineria capitulata. It ranges from the Himalayas and eastern India through Indochina, southern China, Malesia, and New Guinea to Queensland and the Solomon Islands. The plant has yellow flowers and oblong, papery pleated leaves with very short stems.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Curculigo capitulata"
+      ],
+      "en": [
+        "Curculigo capitulata"
+      ],
+      "es": [
+        "Palma crepe (Mexico)"
+      ],
+      "fr": [
+        "Curculigo capitulata"
+      ],
+      "it": [
+        "Curculigo capitulata"
+      ],
+      "nl": [
+        "Curculigo capitulata"
+      ],
+      "pl": [
+        "Curculigo capitulata"
+      ],
+      "pt": [
+        "Curculigo capitulata"
+      ],
+      "ru": [
+        "Curculigo capitulata"
+      ],
+      "zh": [
+        "大叶仙茅"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Hypoxidaceae",
     "genus": "Hypoxis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/bebf5134e62f3450389257b03a3b27a84d60d7c3",
-    "description": "Rounded capsules display from May to July.  Glossy, black seeds are emitted when the capsules open.  The seeds are covered with rows of projections that resemble warts.",
+    "description": "Hypoxis decumbens, the coquí, is a species of plant in the Hypoxidaceae, considered by some authors to be included within the Liliaceae or Amaryllidaceae. The species is widespread across South America, Central America, Mexico, and the West Indies.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,11 +214,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypoxis decumbens"
+      ],
       "en": [
-        "Coquí"
+        "Coquí",
+        "Hypoxis decumbens"
+      ],
+      "es": [
+        "Hypoxis decumbens"
+      ],
+      "fr": [
+        "Hypoxis decumbens"
+      ],
+      "it": [
+        "Hypoxis decumbens"
+      ],
+      "nl": [
+        "Hypoxis decumbens"
+      ],
+      "pl": [
+        "Hypoxis decumbens"
+      ],
+      "pt": [
+        "Hypoxis decumbens"
+      ],
+      "ru": [
+        "Hypoxis decumbens"
       ]
     },
     "tags": [],
@@ -197,12 +257,12 @@
     "family": "Hypoxidaceae",
     "genus": "Hypoxis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6624b206fc717623df5611fa7a4969ef86a7cd47",
-    "description": "Rounded capsules display from May to July.  Glossy, black seeds are emitted when the capsules open.  The seeds are covered with rows of projections that resemble warts.",
+    "description": "Hypoxis hirsuta, commonly known as common goldstar, common star-grass, eastern yellow stargrass, yellow star grass, or yellow star flower, is a perennial ornamental plant in the family Hypoxidaceae. Sometimes this plant is placed in the family Amaryllidaceae or the family Liliaceae. The species is native to the United States, Canada, and northeastern Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -279,11 +339,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypoxis hirsuta"
+      ],
       "en": [
+        "Hypoxis hirsuta",
         "Yellow star-grass"
+      ],
+      "es": [
+        "Hypoxis hirsuta"
+      ],
+      "fr": [
+        "Hypoxis hirsuta"
+      ],
+      "it": [
+        "Hypoxis hirsuta"
+      ],
+      "nl": [
+        "Hypoxis hirsuta"
+      ],
+      "pl": [
+        "Hypoxis hirsuta"
+      ],
+      "pt": [
+        "Hypoxis hirsuta"
+      ],
+      "ru": [
+        "Hypoxis hirsuta"
       ]
     },
     "tags": [],
@@ -295,12 +382,12 @@
     "family": "Hypoxidaceae",
     "genus": "Hypoxis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Hypoxis hygrometrica, known as the golden weather-grass, is a small herbaceous plant. It is found in south eastern Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -377,9 +464,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypoxis hygrometrica"
+      ],
+      "en": [
+        "Hypoxis hygrometrica"
+      ],
+      "es": [
+        "Hypoxis hygrometrica"
+      ],
+      "fr": [
+        "Hypoxis hygrometrica"
+      ],
+      "it": [
+        "Hypoxis hygrometrica"
+      ],
+      "nl": [
+        "Hypoxis hygrometrica"
+      ],
+      "pl": [
+        "Hypoxis hygrometrica"
+      ],
+      "pt": [
+        "Hypoxis hygrometrica"
+      ],
+      "ru": [
+        "Hypoxis hygrometrica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,7 +506,7 @@
     "family": "Hypoxidaceae",
     "genus": "Pauridia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -471,9 +588,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pauridia capensis"
+      ],
+      "en": [
+        "Pauridia capensis"
+      ],
+      "es": [
+        "Pauridia capensis"
+      ],
+      "fr": [
+        "Pauridia capensis"
+      ],
+      "it": [
+        "Pauridia capensis"
+      ],
+      "nl": [
+        "Pauridia capensis"
+      ],
+      "pl": [
+        "Pauridia capensis"
+      ],
+      "pt": [
+        "Pauridia capensis"
+      ],
+      "ru": [
+        "Pauridia capensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -483,7 +630,7 @@
     "family": "Hypoxidaceae",
     "genus": "Pauridia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -565,9 +712,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pauridia glabella"
+      ],
+      "en": [
+        "Pauridia glabella"
+      ],
+      "es": [
+        "Pauridia glabella"
+      ],
+      "fr": [
+        "Pauridia glabella"
+      ],
+      "it": [
+        "Pauridia glabella"
+      ],
+      "nl": [
+        "Pauridia glabella"
+      ],
+      "pl": [
+        "Pauridia glabella"
+      ],
+      "pt": [
+        "Pauridia glabella"
+      ],
+      "ru": [
+        "Pauridia glabella"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -577,7 +754,7 @@
     "family": "Hypoxidaceae",
     "genus": "Pauridia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -659,9 +836,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pauridia vaginata"
+      ],
+      "en": [
+        "Pauridia vaginata"
+      ],
+      "es": [
+        "Pauridia vaginata"
+      ],
+      "fr": [
+        "Pauridia vaginata"
+      ],
+      "it": [
+        "Pauridia vaginata"
+      ],
+      "nl": [
+        "Pauridia vaginata"
+      ],
+      "pl": [
+        "Pauridia vaginata"
+      ],
+      "pt": [
+        "Pauridia vaginata"
+      ],
+      "ru": [
+        "Pauridia vaginata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

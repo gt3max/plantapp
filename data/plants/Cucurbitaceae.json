@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Actinostemma tenerum"
+      ],
+      "en": [
+        "Actinostemma tenerum"
+      ],
+      "es": [
+        "Actinostemma tenerum"
+      ],
+      "fr": [
+        "Actinostemma tenerum"
+      ],
+      "it": [
+        "Actinostemma tenerum"
+      ],
+      "ja": [
+        "ゴキヅル"
+      ],
+      "nl": [
+        "Actinostemma tenerum"
+      ],
+      "pl": [
+        "Actinostemma tenerum"
+      ],
+      "pt": [
+        "Actinostemma tenerum"
+      ],
+      "ru": [
+        "Actinostemma tenerum"
+      ],
+      "zh": [
+        "合子草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +135,12 @@
     "family": "Cucurbitaceae",
     "genus": "Bryonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a28b66a30f2365509c24fef2fa1f15b197039b32",
-    "description": null,
+    "description": "Bryonia alba is a vigorous vine in the family Cucurbitaceae, found in Europe and Northern Iran. It has a growth habit similar to kudzu, which gives it a highly destructive potential outside its native range as a noxious weed. Other common names include false mandrake, English mandrake, wild vine, and wild hops, wild nep, tamus, ladies' seal, and tetterbury.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -115,17 +151,17 @@
     "synonyms": "[\"Bryonia nigra\", \"Bryonia monoeca\", \"Bryonia dioica\", \"Bryonia vulgaris\"]",
     "care": {
       "plant_id": "bryonia_alba",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -146,9 +182,9 @@
       "watering_guide": null,
       "light_guide": "Climate: temperate",
       "tips": "Native to: IRE NI, BUL OO, KGZ OO, NORTHERN EUROPE, BLT KA",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Animal: very strong toxic. Parts: Whole plant, highest concentrations in fruit, root. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -166,8 +202,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant, highest concentrations in fruit, root",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -181,11 +217,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "ar": [
+        "فاشرا بيضاء"
+      ],
+      "de": [
+        "Weiße Zaunrübe"
+      ],
       "en": [
+        "Bryonia alba",
         "White bryony"
+      ],
+      "es": [
+        "Bryonia alba"
+      ],
+      "fr": [
+        "Bryonia alba"
+      ],
+      "it": [
+        "Bryonia alba"
+      ],
+      "nl": [
+        "White Bryony"
+      ],
+      "pl": [
+        "Przestęp biały"
+      ],
+      "pt": [
+        "Bryonia alba"
+      ],
+      "ru": [
+        "Переступень белый"
       ]
     },
     "tags": [],
@@ -197,7 +263,7 @@
     "family": "Cucurbitaceae",
     "genus": "Bryonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -218,12 +284,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -279,11 +345,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Bryonia cretica"
+      ],
       "en": [
+        "Bryonia cretica",
         "Cretan bryony"
+      ],
+      "es": [
+        "Bryonia cretica"
+      ],
+      "fr": [
+        "Bryonia cretica"
+      ],
+      "it": [
+        "Bryonia cretica"
+      ],
+      "nl": [
+        "Bryonia cretica"
+      ],
+      "pl": [
+        "Bryonia cretica"
+      ],
+      "pt": [
+        "Bryonia cretica"
+      ],
+      "ru": [
+        "Bryonia cretica"
       ]
     },
     "tags": [],
@@ -295,12 +388,12 @@
     "family": "Cucurbitaceae",
     "genus": "Cayaponia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a406054b3b521c55adf89a1a949e6447.jpg",
-    "description": null,
+    "description": "Cayaponia espelina, also known as the São Caetano melon, is a plant native to Brazil. It is a diuretic and aids in the treatment of diarrhea and syphilis. The fruits are occasionally eaten by the maned wolf.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -377,9 +470,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كيابون ساو كايتانو"
+      ],
+      "de": [
+        "Cayaponia espelina"
+      ],
+      "en": [
+        "Cayaponia espelina"
+      ],
+      "es": [
+        "Cayaponia espelina"
+      ],
+      "fr": [
+        "Cayaponia espelina"
+      ],
+      "it": [
+        "Cayaponia espelina"
+      ],
+      "nl": [
+        "Cayaponia espelina"
+      ],
+      "pl": [
+        "Cayaponia espelina"
+      ],
+      "pt": [
+        "Cayaponia espelina"
+      ],
+      "ru": [
+        "Cayaponia espelina"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,7 +515,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cayaponia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -471,11 +597,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cayaponia racemosa"
+      ],
       "en": [
+        "Cayaponia racemosa",
         "Mountain melonleaf"
+      ],
+      "es": [
+        "Cayaponia racemosa"
+      ],
+      "fr": [
+        "Cayaponia racemosa"
+      ],
+      "it": [
+        "Cayaponia racemosa"
+      ],
+      "nl": [
+        "Cayaponia racemosa"
+      ],
+      "pl": [
+        "Cayaponia racemosa"
+      ],
+      "pt": [
+        "Cayaponia racemosa"
+      ],
+      "ru": [
+        "Cayaponia racemosa"
       ]
     },
     "tags": [],
@@ -487,12 +640,12 @@
     "family": "Cucurbitaceae",
     "genus": "Cayaponia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d5da2efdf850e3ce4bc1a6dd871ddefa.jpg",
-    "description": null,
+    "description": "Cayaponia tayuya is a vine that grows in the Amazon region of South America, in the nations of Brazil, Bolivia and Peru. Its roots are used in herbal medicine.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -569,9 +722,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كيابون التاييويا"
+      ],
+      "de": [
+        "Cayaponia tayuya"
+      ],
+      "en": [
+        "Cayaponia tayuya"
+      ],
+      "es": [
+        "Cayaponia tayuya"
+      ],
+      "fr": [
+        "Cayaponia tayuya"
+      ],
+      "it": [
+        "Cayaponia tayuya"
+      ],
+      "nl": [
+        "Cayaponia tayuya"
+      ],
+      "pl": [
+        "Cayaponia tayuya"
+      ],
+      "pt": [
+        "Cayaponia tayuya"
+      ],
+      "ru": [
+        "Cayaponia tayuya"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,12 +767,12 @@
     "family": "Cucurbitaceae",
     "genus": "Citrullus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "The citron melon, also called fodder melon, preserving melon, red-seeded citron, jam melon, stock melon, Kalahari melon or tsamma melon, is a relative of the watermelon. It is from the family Cucurbitaceae which consists of various squashes, melons, and gourds. Native to arid landscapes of sub-Saharan Africa, it has been a wild source of nutrition and hydration for humans for an extraordinarily long time.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -597,7 +783,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "citrullus_amarus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -663,9 +849,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Citrullus amarus"
+      ],
+      "en": [
+        "Citrullus amarus"
+      ],
+      "es": [
+        "Citrullus amarus"
+      ],
+      "fr": [
+        "Citrullus amarus"
+      ],
+      "it": [
+        "Citrullus amarus"
+      ],
+      "nl": [
+        "Citrullus amarus"
+      ],
+      "pl": [
+        "Citrullus amarus"
+      ],
+      "pt": [
+        "Citrullus amarus"
+      ],
+      "ru": [
+        "Citrullus amarus"
+      ],
+      "zh": [
+        "小西瓜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -675,7 +894,7 @@
     "family": "Cucurbitaceae",
     "genus": "Citrullus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -691,17 +910,17 @@
     "synonyms": "[\"Colocynthis officinalis\", \"Colocynthis vulgaris\", \"Cucumis colocynthis\", \"Citrullus colocynthis var. bipinnatifidus\", \"Citrullus colocynthis var. officinalis\", \"Cucumis colocynthoides\", \"Citrullus colocynthoides\", \"Citrullus colocynthis var. wenderothii\", \"Citrullus pseudocolocynthis\", \"Citrullus colocynthis var. indicus\"]",
     "care": {
       "plant_id": "citrullus_colocynthis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -757,11 +976,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "حنظل"
+      ],
+      "de": [
+        "Koloquinte"
+      ],
       "en": [
-        "Bitter-apple"
+        "Bitter-apple",
+        "Citrullus colocynthis"
+      ],
+      "es": [
+        "Citrullus colocynthis"
+      ],
+      "fr": [
+        "Coloquinte"
+      ],
+      "hi": [
+        "इंद्रायन"
+      ],
+      "it": [
+        "Citrullus colocynthis"
+      ],
+      "ja": [
+        "コロシント"
+      ],
+      "nl": [
+        "Citrullus colocynthis"
+      ],
+      "pl": [
+        "Arbuz kolokwinta"
+      ],
+      "pt": [
+        "Citrullus colocynthis"
+      ],
+      "ru": [
+        "колоцинт"
+      ],
+      "tr": [
+        "Ebucehil karpuzu"
+      ],
+      "zh": [
+        "药西瓜"
       ]
     },
     "tags": [],
@@ -773,7 +1034,7 @@
     "family": "Cucurbitaceae",
     "genus": "Citrullus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -789,17 +1050,17 @@
     "synonyms": "[\"Citrullus aquosus\", \"Citrullus lanatus var. variegatus\", \"Cucumis laciniosus\", \"Citrullus lanatus var. viridis\", \"Cucumis purpureus\", \"Cucumis citrullus var. jace\", \"Citrullus chodospermus\", \"Citrullus lanatus var. cordophanus\", \"Citrullus lanatus var. afrorum\", \"Cucumis vulgaris\"]",
     "care": {
       "plant_id": "citrullus_lanatus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -855,11 +1116,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "بطيخ أحمر"
+      ],
+      "de": [
+        "Citrullus lanatus"
+      ],
       "en": [
-        "Afghan-melon"
+        "Afghan-melon",
+        "watermelon"
+      ],
+      "es": [
+        "Citrullus lanatus"
+      ],
+      "fr": [
+        "Citrullus lanatus"
+      ],
+      "hi": [
+        "साइट्रुलस लैनाटस"
+      ],
+      "it": [
+        "Citrullus lanatus"
+      ],
+      "ja": [
+        "スイカ"
+      ],
+      "ko": [
+        "수박"
+      ],
+      "nl": [
+        "Citrullus lanatus"
+      ],
+      "pl": [
+        "arbuz zwyczajny"
+      ],
+      "pt": [
+        "melancia"
+      ],
+      "ru": [
+        "арбуз обыкновенный"
+      ],
+      "tr": [
+        "karpuz"
+      ],
+      "zh": [
+        "西瓜"
       ]
     },
     "tags": [],
@@ -871,12 +1177,12 @@
     "family": "Cucurbitaceae",
     "genus": "Coccinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f3a4455177c376a42f2ff973a188816baeebbd90",
-    "description": null,
+    "description": "Coccinia grandis, the ivy gourd, also known as scarlet gourd, is a tropical vine. It grows primarily in tropical climates and is commonly found in the Indian states where it forms a part of the local cuisine. Coccinia grandis is cooked as a vegetable dish.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -953,11 +1259,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Coccinia grandis"
+      ],
       "en": [
+        "Coccinia grandis",
         "Ivy gourd"
+      ],
+      "es": [
+        "Coccinia grandis"
+      ],
+      "fr": [
+        "Coccinia grandis"
+      ],
+      "hi": [
+        "कुंदुरी"
+      ],
+      "it": [
+        "Coccinia grandis"
+      ],
+      "ja": [
+        "ヤサイカラスウリ"
+      ],
+      "ko": [
+        "아이비고드"
+      ],
+      "nl": [
+        "Tindola"
+      ],
+      "pl": [
+        "Coccinia grandis"
+      ],
+      "pt": [
+        "Coccinia grandis"
+      ],
+      "ru": [
+        "Coccinia grandis"
+      ],
+      "zh": [
+        "红瓜"
       ]
     },
     "tags": [],
@@ -969,7 +1314,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cucumis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -985,7 +1330,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "cucumis_anguria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1055,11 +1400,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قثد حنظلي"
+      ],
+      "de": [
+        "Cucumis anguria"
+      ],
       "en": [
+        "Cucumis anguria",
         "West indian gherkin"
+      ],
+      "es": [
+        "Cucumis anguria"
+      ],
+      "fr": [
+        "Cucumis anguria"
+      ],
+      "it": [
+        "Cucumis anguria"
+      ],
+      "ja": [
+        "ニシインドコキュウリ"
+      ],
+      "nl": [
+        "Surinaamse wilde augurk"
+      ],
+      "pl": [
+        "Cucumis anguria"
+      ],
+      "pt": [
+        "Maxixe"
+      ],
+      "ru": [
+        "Ангурия"
+      ],
+      "zh": [
+        "小刺黄瓜"
       ]
     },
     "tags": [],
@@ -1071,7 +1452,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cucumis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1087,7 +1468,7 @@
     "synonyms": "[\"Momordica dasycarpa\"]",
     "care": {
       "plant_id": "cucumis_dipsaceus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -1153,11 +1534,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cucumis dipsaceus"
+      ],
       "en": [
+        "Cucumis dipsaceus",
         "Teasel gourd"
+      ],
+      "es": [
+        "Cucumis dipsaceus"
+      ],
+      "fr": [
+        "Cucumis dipsaceus"
+      ],
+      "it": [
+        "Cucumis dipsaceus"
+      ],
+      "nl": [
+        "Cucumis dipsaceus"
+      ],
+      "pl": [
+        "Cucumis dipsaceus"
+      ],
+      "pt": [
+        "Cucumis dipsaceus"
+      ],
+      "ru": [
+        "Cucumis dipsaceus"
+      ],
+      "zh": [
+        "刺猬黄瓜"
       ]
     },
     "tags": [],
@@ -1169,7 +1580,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cucumis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1185,17 +1596,17 @@
     "synonyms": "[\"Bryonia scabra\", \"Bryonia micropoda\", \"Bryonia maderaspatana\", \"Bryonia obtusa\", \"Bryonia scabrella\", \"Mukia celebica\", \"Bryonia cordifolia\", \"Melothria maderaspatana\", \"Coccinia cordifolia\", \"Bryonia hispida\"]",
     "care": {
       "plant_id": "cucumis_maderaspatanus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1255,9 +1666,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cucumis maderaspatanus"
+      ],
+      "en": [
+        "Cucumis maderaspatanus"
+      ],
+      "es": [
+        "Cucumis maderaspatanus"
+      ],
+      "fr": [
+        "Cucumis maderaspatanus"
+      ],
+      "it": [
+        "Cucumis maderaspatanus"
+      ],
+      "nl": [
+        "Cucumis maderaspatanus"
+      ],
+      "pl": [
+        "Cucumis maderaspatanus"
+      ],
+      "pt": [
+        "Cucumis maderaspatanus"
+      ],
+      "ru": [
+        "Cucumis maderaspatanus"
+      ],
+      "zh": [
+        "帽儿瓜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1267,7 +1711,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cucumis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1283,17 +1727,17 @@
     "synonyms": "[\"Cucumis melo var. petrosus\", \"Cucumis melo var. fairi\", \"Cucumis conomon var. koreana\", \"Cucumis melo convar. adana\", \"Cucumis melo f. grandifolius\", \"Cucumis melo var. ananas-i-chair-verte\", \"Cucumis melo convar. melitensis\", \"Cucumis pancherianus\", \"Cucumis melo var. sapidissimus\", \"Cucumis dudaim\"]",
     "care": {
       "plant_id": "cucumis_melo",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1353,11 +1797,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "الشمام"
+      ],
+      "de": [
+        "Zuckermelone"
+      ],
       "en": [
+        "Cucumis melo",
         "Melon"
+      ],
+      "es": [
+        "Cucumis melo"
+      ],
+      "fr": [
+        "melon"
+      ],
+      "hi": [
+        "ककड़ी"
+      ],
+      "it": [
+        "Cucumis melo"
+      ],
+      "ja": [
+        "メロン"
+      ],
+      "ko": [
+        "멜론"
+      ],
+      "nl": [
+        "meloen"
+      ],
+      "pl": [
+        "ogórek melon"
+      ],
+      "pt": [
+        "Melão"
+      ],
+      "ru": [
+        "Дыня"
+      ],
+      "tr": [
+        "Kavun"
+      ],
+      "zh": [
+        "甜瓜"
       ]
     },
     "tags": [],
@@ -1369,7 +1858,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cucumis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1385,17 +1874,17 @@
     "synonyms": "[\"Cucumis africanus var. myriocarpus\"]",
     "care": {
       "plant_id": "cucumis_myriocarpus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1455,11 +1944,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "de": [
+        "Cucumis myriocarpus"
+      ],
       "en": [
+        "Cucumis myriocarpus",
         "Gooseberry cucumber"
+      ],
+      "es": [
+        "Cucumis myriocarpus"
+      ],
+      "fr": [
+        "Cucumis myriocarpus"
+      ],
+      "it": [
+        "Cucumis myriocarpus"
+      ],
+      "nl": [
+        "Cucumis myriocarpus"
+      ],
+      "pl": [
+        "Cucumis myriocarpus"
+      ],
+      "pt": [
+        "Cucumis myriocarpus"
+      ],
+      "ru": [
+        "Cucumis myriocarpus"
       ]
     },
     "tags": [],
@@ -1471,7 +1987,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cucumis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1487,17 +2003,17 @@
     "synonyms": "[\"Cucumis sativus f. hardwickii\", \"Cucumis sativus subsp. hardwickii\", \"Cucumis sativus var. hollandicus\", \"Cucumis sativus var. flexuosus\", \"Cucumis sativus var. serotinus\", \"Cucumis sativus var. pallidus\", \"Cucumis sativus var. praecox\", \"Cucumis sativus var. iranoturanicus\", \"Cucumis sativus var. setosus\", \"Cucumis sativus f. borealis\"]",
     "care": {
       "plant_id": "cucumis_sativus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -1519,7 +2035,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: seasonally dry tropical",
       "tips": "Good companions: Beans, Corn, Dill, Nasturtium, Oregano, Peppers, Radish, Sunflowers, Tansy | Similar plants: Cucurbita pepo | Native to: NCB, NCS ST, NWY OO, GEO, GEO OO",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Non-toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses.",
       "common_problems": [
         "There are pest and disease problems that can generally be managed through good cultural practices."
@@ -1542,8 +2058,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Climbing",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"Cosmetic\", \"oil\"]",
@@ -1557,11 +2073,56 @@
       "germination_temp_c": null,
       "good_companions": "[\"Anethum graveolens\", \"Basil\", \"Borage\", \"Carrot\", \"Common Sunflower\", \"Common bean\", \"Kohlrabi\", \"Lactuca sativa\", \"Marjoram\", \"Maximilian Sunflower\"]",
       "bad_companions": "[\"Origanum vulgare\", \"Potato\", \"Sage\", \"Thyme\"]",
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "خيار"
+      ],
+      "de": [
+        "Gurke"
+      ],
       "en": [
-        "Cucumber"
+        "Cucumber",
+        "Cucumis sativus"
+      ],
+      "es": [
+        "Cucumis sativus"
+      ],
+      "fr": [
+        "concombre"
+      ],
+      "hi": [
+        "खीरा"
+      ],
+      "it": [
+        "Cucumis sativus"
+      ],
+      "ja": [
+        "キュウリ"
+      ],
+      "ko": [
+        "오이"
+      ],
+      "nl": [
+        "komkommerplant"
+      ],
+      "pl": [
+        "ogórek siewny"
+      ],
+      "pt": [
+        "Pepino"
+      ],
+      "ru": [
+        "Огурец обыкновенный"
+      ],
+      "tr": [
+        "salatalık"
+      ],
+      "zh": [
+        "黄瓜"
       ]
     },
     "tags": [],
@@ -1573,12 +2134,12 @@
     "family": "Cucurbitaceae",
     "genus": "Cucurbita",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9201e10c305479ddc8ac6f5d4ddc30084a5eeb75",
-    "description": "Various shapes and colors of fruits are used for decorative purposes and seeds are edible.  Often has a lovely striped and speckled pattern.",
+    "description": "Cucurbita argyrosperma, commonly known as cushaw, kershaw, or silver-seed gourd, is a species of squash grown most frequently in North and Central America, and believed to originate from southern Mexico. This annual herbaceous plant is cultivated for its nutritional value: its flowers, shoots, and fruits are all harvested, but it is cultivated commonly in its native range for seeds.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1655,11 +2216,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cucurbita argyrosperma"
+      ],
       "en": [
+        "Cucurbita argyrosperma",
         "Cushaw"
+      ],
+      "es": [
+        "Cucurbita argyrosperma"
+      ],
+      "fr": [
+        "Cucurbita argyrosperma"
+      ],
+      "it": [
+        "Cucurbita argyrosperma"
+      ],
+      "nl": [
+        "Ayote"
+      ],
+      "pl": [
+        "Cucurbita argyrosperma"
+      ],
+      "pt": [
+        "Cucurbita argyrosperma"
+      ],
+      "ru": [
+        "Cucurbita argyrosperma"
+      ],
+      "zh": [
+        "灰籽南瓜"
       ]
     },
     "tags": [],
@@ -1671,12 +2262,12 @@
     "family": "Cucurbitaceae",
     "genus": "Cucurbita",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/887dbc94ce882757e2ff309c52755860a090d1f9",
-    "description": "A pepo (berry with a hard rind) that is mottled white and green.  The inner flesh is white with black seeds.  Known for its incredible storage qualities and for the uniform size and color.",
+    "description": "Cucurbita ficifolia is a species of squash, grown for its edible seeds, fruit, and greens. It has common names including black seed squash, chilacayote, cidra, fig-leaf gourd, and Malabar gourd. This species is grown widely from Argentina and Chile to Mexico. It is also cultivated in regions of the world including India, Japan, Korea, China, the Philippines, Ethiopia, Kenya, Tanzania, and Angola.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1753,11 +2344,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بذر القرع"
+      ],
+      "de": [
+        "Feigenblatt-Kürbis"
+      ],
       "en": [
+        "Cucurbita ficifolia",
         "Figleaf gourd"
+      ],
+      "es": [
+        "Cucurbita ficifolia"
+      ],
+      "fr": [
+        "Courge de Siam"
+      ],
+      "it": [
+        "Cucurbita ficifolia"
+      ],
+      "ja": [
+        "クロダネカボチャ"
+      ],
+      "nl": [
+        "Vijgenbladpompoen"
+      ],
+      "pl": [
+        "Dynia figolistna"
+      ],
+      "pt": [
+        "Chila-caiota"
+      ],
+      "ru": [
+        "Тыква фиголистная"
+      ],
+      "zh": [
+        "魚翅瓜"
       ]
     },
     "tags": [],
@@ -1769,7 +2396,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cucurbita",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1851,11 +2478,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Cucurbita foetidissima"
+      ],
       "en": [
+        "Cucurbita foetidissima",
         "Prairie gourd"
+      ],
+      "es": [
+        "Cucurbita foetidissima"
+      ],
+      "fr": [
+        "Cucurbita foetidissima"
+      ],
+      "it": [
+        "Cucurbita foetidissima"
+      ],
+      "nl": [
+        "Cucurbita foetidissima"
+      ],
+      "pl": [
+        "Cucurbita foetidissima"
+      ],
+      "pt": [
+        "Cucurbita foetidissima"
+      ],
+      "ru": [
+        "Тыква вонючая"
       ]
     },
     "tags": [],
@@ -1867,7 +2521,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cucurbita",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1915,8 +2569,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: subtropical",
       "tips": "Good companions: Beans, Borage, Calendula, Corn, Lovage, Marigold, Nasturtium, Oregano, Radish, Tansy | Similar plants: Cucurbita argyrosperma | Native to: NCB, AGW SJ, NWY OO, GEO, GEO OO",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic (only wild growing plants). Parts: Whole plant. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -1934,8 +2588,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Climbing",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Whole plant",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -1949,11 +2603,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قرع كبير"
+      ],
+      "de": [
+        "Riesen-Kürbis"
+      ],
       "en": [
+        "Cucurbita maxima",
         "Great pumpkin"
+      ],
+      "es": [
+        "calabaza"
+      ],
+      "fr": [
+        "potiron"
+      ],
+      "it": [
+        "Cucurbita maxima"
+      ],
+      "ja": [
+        "セイヨウカボチャ"
+      ],
+      "ko": [
+        "서양호박"
+      ],
+      "nl": [
+        "Reuzenpompoen"
+      ],
+      "pl": [
+        "dynia olbrzymia"
+      ],
+      "pt": [
+        "abóbora-menina"
+      ],
+      "ru": [
+        "Тыква гигантская"
+      ],
+      "tr": [
+        "Helvacı kabağı"
+      ],
+      "zh": [
+        "笋瓜"
       ]
     },
     "tags": [],
@@ -1965,12 +2661,12 @@
     "family": "Cucurbitaceae",
     "genus": "Cucurbita",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/1d4ec9317d0311268495af142518d1704b1e329e",
-    "description": "A type of berry called a pepo that has a hard rind. Fruits may be long or round, large or small, smooth or warty. Comes in a variety of colors, shapes, and sizes.  Fruits and seeds are both edible.",
+    "description": "Cucurbita moschata is a species originating in the tropical Americas which is cultivated for edible flesh, flowers, greens, and seeds. It includes cultivars known in English as squash or pumpkin. Cultivars of C. moschata are generally more tolerant of hot, humid weather than squash of other domesticated species. C. moschata also exhibit a greater resistance to certain disease and insects, notably including to the squash vine borer.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2047,11 +2743,53 @@
       "germination_temp_c": null,
       "good_companions": "[\"Abelmoschus esculentus\", \"Borage\", \"Broad Bean\", \"Common Sunflower\", \"Common bean\", \"Marjoram\", \"Maximilian Sunflower\", \"Runner Bean\", \"Tansy\", \"Zea mays\"]",
       "bad_companions": "[\"Potato\"]",
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قرع مسكي"
+      ],
+      "de": [
+        "Moschus-Kürbis"
+      ],
       "en": [
+        "Cucurbita moschata",
         "Spanish gourd"
+      ],
+      "es": [
+        "Cucurbita moschata"
+      ],
+      "fr": [
+        "courge musquée"
+      ],
+      "it": [
+        "Cucurbita moschata"
+      ],
+      "ja": [
+        "ニホンカボチャ"
+      ],
+      "ko": [
+        "동양계 호박"
+      ],
+      "nl": [
+        "muskaatpompoen"
+      ],
+      "pl": [
+        "dynia piżmowa"
+      ],
+      "pt": [
+        "Cucurbita moschata"
+      ],
+      "ru": [
+        "Тыква мускатная"
+      ],
+      "tr": [
+        "Bal kabağı"
+      ],
+      "zh": [
+        "中国南瓜"
       ]
     },
     "tags": [],
@@ -2063,7 +2801,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cucurbita",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2145,11 +2883,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قرع نخيلي"
+      ],
+      "de": [
+        "Cucurbita palmata"
+      ],
       "en": [
-        "Coyote gourd"
+        "Coyote gourd",
+        "Cucurbita palmata"
+      ],
+      "es": [
+        "Cucurbita palmata"
+      ],
+      "fr": [
+        "Cucurbita palmata"
+      ],
+      "it": [
+        "Cucurbita palmata"
+      ],
+      "ja": [
+        "コヨーテメロン"
+      ],
+      "nl": [
+        "Cucurbita palmata"
+      ],
+      "pl": [
+        "Cucurbita palmata"
+      ],
+      "pt": [
+        "Cucurbita palmata"
+      ],
+      "ru": [
+        "Тыква дланевидная"
+      ],
+      "zh": [
+        "掌葉南瓜"
       ]
     },
     "tags": [],
@@ -2161,7 +2935,7 @@
     "family": "Cucurbitaceae",
     "genus": "Cucurbita",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2209,7 +2983,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: subtropical",
       "tips": "Good companions: Beans, Borage, Calendula, Corn, Lovage, Marigold, Nasturtium, Oregano, Radish, Tansy | Similar plants: Cucurbita argyrosperma | Native to: STH OO, AGW SJ, NWY OO, WAK, NWH OO",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Dogs, Non-Toxic to Cats, Non-Toxic to Horses.",
       "common_problems": null,
       "common_pests": [
@@ -2230,8 +3004,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit (or whole plant)",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"oil\"]",
@@ -2245,11 +3019,53 @@
       "germination_temp_c": null,
       "good_companions": "[\"Marjoram\", \"Nasturtium\", \"Zea mays\"]",
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قرع بلدي"
+      ],
+      "de": [
+        "Cucurbita pepo"
+      ],
       "en": [
-        "Bitter bottle gourd"
+        "Bitter bottle gourd",
+        "Cucurbita pepo"
+      ],
+      "es": [
+        "calabacín"
+      ],
+      "fr": [
+        "Cucurbita pepo"
+      ],
+      "it": [
+        "Cucurbita pepo"
+      ],
+      "ja": [
+        "ペポカボチャ"
+      ],
+      "ko": [
+        "페포호박"
+      ],
+      "nl": [
+        "Cucurbita pepo"
+      ],
+      "pl": [
+        "dynia zwyczajna"
+      ],
+      "pt": [
+        "cabaceiro-amargoso"
+      ],
+      "ru": [
+        "тыква обыкновенная"
+      ],
+      "tr": [
+        "Sakız kabağı"
+      ],
+      "zh": [
+        "美洲南瓜"
       ]
     },
     "tags": [],
@@ -2261,12 +3077,12 @@
     "family": "Cucurbitaceae",
     "genus": "Diplocyclos",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0df7e2afb5be3b9d8ffc1abddfec903d431da6c5",
-    "description": null,
+    "description": "Diplocyclos palmatus is a vine in the family Cucurbitaceae. It is commonly known as native bryony or striped cucumber. In Marathi, it is called shivlingi due to its seed which resembles a lingam.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2343,11 +3159,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Diplocyclos palmatus"
+      ],
       "en": [
+        "Diplocyclos palmatus",
         "Lollipop-climber"
+      ],
+      "es": [
+        "Diplocyclos palmatus"
+      ],
+      "fr": [
+        "Diplocyclos palmatus"
+      ],
+      "it": [
+        "Diplocyclos palmatus"
+      ],
+      "ja": [
+        "オキナワスズメウリ"
+      ],
+      "nl": [
+        "Diplocyclos palmatus"
+      ],
+      "pl": [
+        "Diplocyclos palmatus"
+      ],
+      "pt": [
+        "Diplocyclos palmatus"
+      ],
+      "ru": [
+        "Diplocyclos palmatus"
+      ],
+      "tr": [
+        "Diplocyclos palmatus"
+      ],
+      "zh": [
+        "毒瓜"
       ]
     },
     "tags": [],
@@ -2359,7 +3211,7 @@
     "family": "Cucurbitaceae",
     "genus": "Ecballium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2375,17 +3227,17 @@
     "synonyms": "[\"Bryonia elaterium\", \"Ecballium agreste\", \"Momordica elaterium\", \"Ecballium elaterium var. monoicum\"]",
     "care": {
       "plant_id": "ecballium_elaterium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2407,8 +3259,8 @@
       "light_guide": "Climate: subtropical",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: strong toxic. Parts: Aerial part (or whole plant). (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2426,8 +3278,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Aerial part (or whole plant)",
+      "toxicity_severity": "Severe",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -2441,11 +3293,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "ar": [
+        "قثاء الحمار"
+      ],
+      "de": [
+        "Spritzgurke"
+      ],
       "en": [
+        "Ecballium elaterium",
         "Squirting cucumber"
+      ],
+      "es": [
+        "Ecballium elaterium"
+      ],
+      "fr": [
+        "Concombre d'âne"
+      ],
+      "it": [
+        "Ecballium elaterium"
+      ],
+      "ja": [
+        "テッポウウリ"
+      ],
+      "nl": [
+        "Springkomkommer"
+      ],
+      "pl": [
+        "Tryskawiec sprężysty"
+      ],
+      "pt": [
+        "Ecballium elaterium"
+      ],
+      "ru": [
+        "Бешеный огурец обыкновенный"
+      ],
+      "tr": [
+        "Eşek hıyarı"
+      ],
+      "zh": [
+        "喷瓜"
       ]
     },
     "tags": [],
@@ -2457,12 +3348,12 @@
     "family": "Cucurbitaceae",
     "genus": "Echinocystis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/780c92a88f5a678cb271f4c95176fd0909a2c144",
-    "description": null,
+    "description": "Echinocystis is a monotypic genus in the gourd family, Cucurbitaceae. The sole species is E. lobata, commonly called wild cucumber and prickly cucumber. It is an annual, sprawling plant that is native to North America. Sicyos angulatus, common name \"bur cucumber\", is an annual plant with a similar clinging vine growth but different-appearing flowers and seed pods.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2473,17 +3364,17 @@
     "synonyms": "[\"Sicyos lobatus\", \"Micrampelis lobata\", \"Echinocystis echinata\", \"Hexameria echinata\", \"Momordica echinata\"]",
     "care": {
       "plant_id": "echinocystis_lobata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -2505,8 +3396,8 @@
       "light_guide": "Climate: temperate",
       "tips": null,
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic (unknown strength). Parts: Fruit, root. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -2524,8 +3415,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": null,
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Fruit, root",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -2539,11 +3430,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "de": [
+        "Stachelgurke"
+      ],
       "en": [
+        "Echinocystis lobata",
         "Wild cucumber"
+      ],
+      "es": [
+        "Echinocystis"
+      ],
+      "fr": [
+        "Echinocystis lobata"
+      ],
+      "it": [
+        "Echinocystis lobata"
+      ],
+      "nl": [
+        "Echinocystis"
+      ],
+      "pl": [
+        "Kolczurka klapowana"
+      ],
+      "pt": [
+        "Echinocystis"
+      ],
+      "ru": [
+        "Эхиноцистистис лопастной"
       ]
     },
     "tags": [],
@@ -2555,12 +3473,12 @@
     "family": "Cucurbitaceae",
     "genus": "Echinopepon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Brandegea is a monotypic genus containing the single species Brandegea bigelovii, the desert starvine. This sprawling perennial vine in the squash family is native to the deserts of California, Arizona, and northern Mexico. The distinctive small, dark-green leaves are variable in shape but are usually a deeply lobed long-fingered palmate shape. They are heavily speckled with white oil glands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2637,9 +3555,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Echinopepon bigelovii"
+      ],
+      "en": [
+        "Echinopepon bigelovii"
+      ],
+      "es": [
+        "Echinopepon bigelovii"
+      ],
+      "fr": [
+        "Echinopepon bigelovii"
+      ],
+      "it": [
+        "Echinopepon bigelovii"
+      ],
+      "nl": [
+        "Echinopepon bigelovii"
+      ],
+      "pl": [
+        "Echinopepon bigelovii"
+      ],
+      "pt": [
+        "Echinopepon bigelovii"
+      ],
+      "ru": [
+        "Echinopepon bigelovii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2649,7 +3597,7 @@
     "family": "Cucurbitaceae",
     "genus": "Gurania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2731,9 +3679,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gurania bignoniacea"
+      ],
+      "en": [
+        "Gurania bignoniacea"
+      ],
+      "es": [
+        "Gurania bignoniacea"
+      ],
+      "fr": [
+        "Gurania bignoniacea"
+      ],
+      "it": [
+        "Gurania bignoniacea"
+      ],
+      "nl": [
+        "Gurania bignoniacea"
+      ],
+      "pl": [
+        "Gurania bignoniacea"
+      ],
+      "pt": [
+        "Gurania bignoniacea"
+      ],
+      "ru": [
+        "Gurania bignoniacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2743,7 +3721,7 @@
     "family": "Cucurbitaceae",
     "genus": "Gurania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2825,9 +3803,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gurania lobata"
+      ],
+      "en": [
+        "Gurania lobata"
+      ],
+      "es": [
+        "Gurania lobata"
+      ],
+      "fr": [
+        "Gurania lobata"
+      ],
+      "it": [
+        "Gurania lobata"
+      ],
+      "nl": [
+        "Gurania lobata"
+      ],
+      "pl": [
+        "Gurania lobata"
+      ],
+      "pt": [
+        "Gurania lobata"
+      ],
+      "ru": [
+        "Gurania lobata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2837,12 +3845,12 @@
     "family": "Cucurbitaceae",
     "genus": "Gynostemma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/5c2ee29b812cf1aca5dbb32408459d232903bea4",
-    "description": null,
+    "description": "Gynostemma pentaphyllum, also called jiaogulan, is a dioecious, herbaceous climbing vine of the family Cucurbitaceae widely distributed in South and East Asia as well as New Guinea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2919,11 +3927,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gynostemma pentaphyllum"
+      ],
       "en": [
-        "Gynostemma"
+        "Gynostemma",
+        "Gynostemma pentaphyllum"
+      ],
+      "es": [
+        "Gynostemma pentaphyllum"
+      ],
+      "fr": [
+        "Gynostemma pentaphyllum"
+      ],
+      "it": [
+        "Gynostemma pentaphyllum"
+      ],
+      "ja": [
+        "アマチャヅル"
+      ],
+      "ko": [
+        "돌외"
+      ],
+      "nl": [
+        "Jiaogulan"
+      ],
+      "pl": [
+        "Gynostemma pentaphyllum"
+      ],
+      "pt": [
+        "Gynostemma pentaphyllum"
+      ],
+      "ru": [
+        "Гиностемма пятилистная"
+      ],
+      "zh": [
+        "絞股藍"
       ]
     },
     "tags": [],
@@ -2935,7 +3979,7 @@
     "family": "Cucurbitaceae",
     "genus": "Ibervillea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3017,9 +4061,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ibervillea lindheimeri"
+      ],
+      "en": [
+        "Ibervillea lindheimeri"
+      ],
+      "es": [
+        "Ibervillea lindheimeri"
+      ],
+      "fr": [
+        "Ibervillea lindheimeri"
+      ],
+      "it": [
+        "Ibervillea lindheimeri"
+      ],
+      "nl": [
+        "Ibervillea lindheimeri"
+      ],
+      "pl": [
+        "Ibervillea lindheimeri"
+      ],
+      "pt": [
+        "Ibervillea lindheimeri"
+      ],
+      "ru": [
+        "Ibervillea lindheimeri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3029,12 +4103,12 @@
     "family": "Cucurbitaceae",
     "genus": "Lagenaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/21a1ef423721cd1a536ca6ada26e4542944b3167",
-    "description": "Fruit (a pepo to 3 feet long) has a smooth, light green skin when young, but matures to yellow or light brown. Mature fruits take a variety of shapes, including rounded, dumbbell-shaped, bottle-shaped or crookneck-shaped. The fruit is fleshy and dry but not split open.",
+    "description": "Calabash, also known as bottle gourd, white-flowered gourd, long melon, birdhouse gourd, New Guinea bean, New Guinea butter bean, Tasmania bean, zucca melon and opo squash, is a vine which is grown for its fruit. It belongs to the family Cucurbitaceae, is native to tropical Africa, and cultivated across the tropics. It can be either harvested young to be consumed as a vegetable, or harvested mature to be dried and used as a kitchen utensil, beverage container or a musical instrument.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3111,11 +4185,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كالاباش خياري"
+      ],
+      "de": [
+        "Flaschenkürbis"
+      ],
       "en": [
-        "Calabash"
+        "Calabash",
+        "Lagenaria siceraria"
+      ],
+      "es": [
+        "Lagenaria siceraria"
+      ],
+      "fr": [
+        "Lagenaria siceraria"
+      ],
+      "hi": [
+        "लौकी"
+      ],
+      "it": [
+        "Lagenaria siceraria"
+      ],
+      "ja": [
+        "ヒョウタン"
+      ],
+      "ko": [
+        "박"
+      ],
+      "nl": [
+        "Fleskalebas"
+      ],
+      "pl": [
+        "tykwa pospolita"
+      ],
+      "pt": [
+        "Cabaça"
+      ],
+      "ru": [
+        "Лагенария обыкновенная"
+      ],
+      "tr": [
+        "Su kabağı"
+      ],
+      "zh": [
+        "葫蘆"
       ]
     },
     "tags": [],
@@ -3127,7 +4246,7 @@
     "family": "Cucurbitaceae",
     "genus": "Luffa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3209,9 +4328,54 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "لوف"
+      ],
+      "de": [
+        "Schwammkürbis"
+      ],
+      "en": [
+        "Luffa aegyptiaca"
+      ],
+      "es": [
+        "Luffa aegyptiaca"
+      ],
+      "fr": [
+        "Courge éponge"
+      ],
+      "hi": [
+        "घेवड़ा"
+      ],
+      "it": [
+        "Luffa aegyptiaca"
+      ],
+      "ja": [
+        "ヘチマ"
+      ],
+      "ko": [
+        "수세미오이"
+      ],
+      "nl": [
+        "Sponskomkommer"
+      ],
+      "pl": [
+        "Trukwa egipska"
+      ],
+      "pt": [
+        "Luffa aegyptiaca"
+      ],
+      "ru": [
+        "Люффа египетская"
+      ],
+      "zh": [
+        "丝瓜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3221,12 +4385,12 @@
     "family": "Cucurbitaceae",
     "genus": "Marah",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/3b976f8d5262743285e9010e260035b3be48ceb4",
-    "description": null,
+    "description": "Marah fabacea, the California manroot or bigroot, is the most common of the manroot species native to California. Its range throughout the state subsumes nearly the entire ranges of all the other California native manroots species and intergrades. Hybrids between California manroot and other species of Marah are common.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3303,11 +4467,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Marah fabacea"
+      ],
       "en": [
-        "California manroot"
+        "California manroot",
+        "Marah fabacea"
+      ],
+      "es": [
+        "Marah fabacea"
+      ],
+      "fr": [
+        "Marah fabacea"
+      ],
+      "it": [
+        "Marah fabacea"
+      ],
+      "nl": [
+        "Marah fabacea"
+      ],
+      "pl": [
+        "Marah fabacea"
+      ],
+      "pt": [
+        "Marah fabacea"
+      ],
+      "ru": [
+        "Marah fabacea"
       ]
     },
     "tags": [],
@@ -3319,12 +4510,12 @@
     "family": "Cucurbitaceae",
     "genus": "Marah",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/94c1ccd6006f319aac79ae4e0f6940d132ec40d2",
-    "description": null,
+    "description": "Marah macrocarpa is a species of plant in the genus Marah commonly referred to as chilicothe, wild cucumber, manroot or bigroot. It is a perennial herb with a large tuber native to Southern California and northern Baja California. It grows in a diverse number of habitats in coastal and inland regions. A member of the gourd family, it produces a large, green, prickly fruit. Indigenous peoples traditionally used it for treating hair loss and pain relief.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3401,11 +4592,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Marah macrocarpa"
+      ],
       "en": [
-        "Cucamonga manroot"
+        "Cucamonga manroot",
+        "Marah macrocarpa"
+      ],
+      "es": [
+        "Marah macrocarpa"
+      ],
+      "fr": [
+        "Marah macrocarpa"
+      ],
+      "it": [
+        "Marah macrocarpa"
+      ],
+      "nl": [
+        "Marah macrocarpa"
+      ],
+      "pl": [
+        "Marah macrocarpa"
+      ],
+      "pt": [
+        "Marah macrocarpa"
+      ],
+      "ru": [
+        "Marah macrocarpa"
       ]
     },
     "tags": [],
@@ -3417,12 +4635,12 @@
     "family": "Cucurbitaceae",
     "genus": "Melothria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/17630b930ddf7bf6b9de3c9493de840dec8a9262",
-    "description": null,
+    "description": "Melothria pendula is a plant in the Benincaseae tribe. The plant is especially prominent in the Southeastern United States. The plant resembles the cultivated cucumber, possessing miniature yellow flowers, similar leaf shape, same leaf patterns, as well as similar growth patterns. The unripe berries strongly resemble minuscule watermelons.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3499,11 +4717,44 @@
       "germination_temp_c": null,
       "good_companions": "[\"Allium cepa\", \"Amaranthus cruentus\", \"Anethum graveolens\", \"Asparagus\", \"Broad Bean\", \"Broccoli\", \"Cauliflower\", \"Celery\", \"Common Sunflower\", \"Common bean\"]",
       "bad_companions": "[\"Potato\", \"Sage\"]",
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Melothria pendula"
+      ],
       "en": [
-        "Creeping-cucumber"
+        "Creeping-cucumber",
+        "Melothria pendula"
+      ],
+      "es": [
+        "Melothria pendula"
+      ],
+      "fr": [
+        "Melothria pendula"
+      ],
+      "it": [
+        "Melothria pendula"
+      ],
+      "ja": [
+        "アメリカスズメウリ"
+      ],
+      "nl": [
+        "Melothria pendula"
+      ],
+      "pl": [
+        "Melothria pendula"
+      ],
+      "pt": [
+        "Melothria pendula"
+      ],
+      "ru": [
+        "Melothria pendula"
+      ],
+      "zh": [
+        "垂瓜果"
       ]
     },
     "tags": [],
@@ -3515,12 +4766,12 @@
     "family": "Cucurbitaceae",
     "genus": "Momordica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8b0e9a06aaedfb3034b3610a3e5a1904172d7d18",
-    "description": null,
+    "description": "Momordica balsamina, known by the common name balsam apple, is a species of tendril-bearing annual vine native to tropical regions of Africa, as well as introduced and invasive in parts of Asia, Australia, Central America, and North America. In 1810, Thomas Jefferson planted this vine in his flower borders at his Virginia home of Monticello, along with larkspur, poppies, and nutmeg.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3597,11 +4848,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "معضوضة بلسمية"
+      ],
+      "de": [
+        "Momordica balsamina"
+      ],
       "en": [
-        "Balsam-apple"
+        "Balsam-apple",
+        "Momordica balsamina"
+      ],
+      "es": [
+        "Momordica balsamina"
+      ],
+      "fr": [
+        "Momordica balsamina"
+      ],
+      "it": [
+        "Momordica balsamina"
+      ],
+      "nl": [
+        "Momordica balsamina"
+      ],
+      "pl": [
+        "przepękla pospolita"
+      ],
+      "pt": [
+        "Momordica balsamina"
+      ],
+      "ru": [
+        "Момордика бальзамическая"
+      ],
+      "zh": [
+        "胶苦瓜"
       ]
     },
     "tags": [],
@@ -3613,7 +4897,7 @@
     "family": "Cucurbitaceae",
     "genus": "Momordica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3695,11 +4979,56 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "معضوضة كرمية الأوراق"
+      ],
+      "de": [
+        "Bittermelone"
+      ],
       "en": [
-        "Balsam-apple"
+        "Balsam-apple",
+        "Momordica charantia"
+      ],
+      "es": [
+        "Momordica charantia"
+      ],
+      "fr": [
+        "Momordica charantia"
+      ],
+      "hi": [
+        "करेला"
+      ],
+      "it": [
+        "Momordica charantia"
+      ],
+      "ja": [
+        "ツルレイシ"
+      ],
+      "ko": [
+        "여주"
+      ],
+      "nl": [
+        "Sopropo"
+      ],
+      "pl": [
+        "Przepękla ogórkowata"
+      ],
+      "pt": [
+        "Momordica charantia"
+      ],
+      "ru": [
+        "момордика харанция"
+      ],
+      "tr": [
+        "Kudret narı"
+      ],
+      "zh": [
+        "苦瓜"
       ]
     },
     "tags": [],
@@ -3711,12 +5040,12 @@
     "family": "Cucurbitaceae",
     "genus": "Momordica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fe3d43d9f6f3fb3c1f6f19768c1478441ca835e9",
-    "description": null,
+    "description": "Gac, from the Vietnamese gấc, scientific name Momordica cochinchinensis, is a species of plant in the melon and cucumber family Cucurbitaceae native to countries throughout Southeast Asia and to Queensland, Australia. It is notable for its vivid orange-reddish color resulting from a mix of beta-carotene and lycopene.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3793,11 +5122,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جاك (فاكهة)"
+      ],
+      "de": [
+        "Momordica cochinchinensis"
+      ],
       "en": [
-        "Chinese bitter-cucumber"
+        "Chinese bitter-cucumber",
+        "Momordica cochinchinensis"
+      ],
+      "es": [
+        "Momordica cochinchinensis"
+      ],
+      "fr": [
+        "Momordica cochinchinensis"
+      ],
+      "it": [
+        "Momordica cochinchinensis"
+      ],
+      "ja": [
+        "ナンバンカラスウリ"
+      ],
+      "ko": [
+        "걱"
+      ],
+      "nl": [
+        "Momordica cochinchinensis"
+      ],
+      "pl": [
+        "Przepękla indochińska"
+      ],
+      "pt": [
+        "Momordica cochinchinensis"
+      ],
+      "ru": [
+        "Гак"
+      ],
+      "zh": [
+        "木鱉果"
       ]
     },
     "tags": [],
@@ -3809,12 +5177,12 @@
     "family": "Cucurbitaceae",
     "genus": "Momordica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/efdaabd3a28c51fa17c2fbd945265356.jpg",
-    "description": null,
+    "description": "Momordica foetida is a perennial climbing vine native of tropical Africa, closely related to the bitter melon and balsam apple. Its species name (\"bad-smelling\") refers to its unpleasant smell. It was previously named M. morkorra and M. cordata (Cogn.)",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3891,9 +5259,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "معضوضة منتنة"
+      ],
+      "de": [
+        "Momordica foetida"
+      ],
+      "en": [
+        "Momordica foetida"
+      ],
+      "es": [
+        "Momordica foetida"
+      ],
+      "fr": [
+        "Momordica foetida"
+      ],
+      "it": [
+        "Momordica foetida"
+      ],
+      "nl": [
+        "Momordica foetida"
+      ],
+      "pl": [
+        "Momordica foetida"
+      ],
+      "pt": [
+        "Momordica foetida"
+      ],
+      "ru": [
+        "Момордика вонючая"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3903,7 +5304,7 @@
     "family": "Cucurbitaceae",
     "genus": "Sicydium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3985,9 +5386,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sicydium tamnifolium"
+      ],
+      "en": [
+        "Sicydium tamnifolium"
+      ],
+      "es": [
+        "Sicydium tamnifolium"
+      ],
+      "fr": [
+        "Sicydium tamnifolium"
+      ],
+      "it": [
+        "Sicydium tamnifolium"
+      ],
+      "nl": [
+        "Sicydium tamnifolium"
+      ],
+      "pl": [
+        "Sicydium tamnifolium"
+      ],
+      "pt": [
+        "Sicydium tamnifolium"
+      ],
+      "ru": [
+        "Sicydium tamnifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3997,12 +5428,12 @@
     "family": "Cucurbitaceae",
     "genus": "Sicyos",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/dd383fa9553f15e471af7fe3d69d0bf8d86f1c84",
-    "description": null,
+    "description": "Sicyos angulatus, the oneseed bur cucumber or star-cucumber is an annual vine in the gourd family, Cucurbitaceae, native to eastern North America. The plant forms mats or climbs using tendrils. The leaves are palmately veined and lobed, the flowers are green to yellowish green, and the fruits form clusters of very small pepos.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4079,11 +5510,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Haargurke"
+      ],
       "en": [
-        "Bur-cucumber"
+        "Bur-cucumber",
+        "Sicyos angulatus"
+      ],
+      "es": [
+        "Sicyos angulatus"
+      ],
+      "fr": [
+        "Sicyos angulatus"
+      ],
+      "it": [
+        "Sicyos angulatus"
+      ],
+      "ja": [
+        "アレチウリ"
+      ],
+      "ko": [
+        "가시박"
+      ],
+      "nl": [
+        "Sicyos angulatus"
+      ],
+      "pl": [
+        "harbuźnik kolczasty"
+      ],
+      "pt": [
+        "Sicyos angulatus"
+      ],
+      "ru": [
+        "Сициос угловатый"
+      ],
+      "zh": [
+        "刺果瓜"
       ]
     },
     "tags": [],
@@ -4095,7 +5562,7 @@
     "family": "Cucurbitaceae",
     "genus": "Solena",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4177,9 +5644,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Solena amplexicaulis"
+      ],
+      "en": [
+        "Solena amplexicaulis"
+      ],
+      "es": [
+        "Solena amplexicaulis"
+      ],
+      "fr": [
+        "Solena amplexicaulis"
+      ],
+      "it": [
+        "Solena amplexicaulis"
+      ],
+      "nl": [
+        "Solena amplexicaulis"
+      ],
+      "pl": [
+        "Solena amplexicaulis"
+      ],
+      "pt": [
+        "Solena amplexicaulis"
+      ],
+      "ru": [
+        "Solena amplexicaulis"
+      ],
+      "zh": [
+        "茅瓜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4189,7 +5689,7 @@
     "family": "Cucurbitaceae",
     "genus": "Thladiantha",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4271,11 +5771,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Thladiantha dubia"
+      ],
       "en": [
-        "Red-hailstone"
+        "Red-hailstone",
+        "Thladiantha dubia"
+      ],
+      "es": [
+        "Thladiantha dubia"
+      ],
+      "fr": [
+        "Thladiantha dubia"
+      ],
+      "it": [
+        "Thladiantha dubia"
+      ],
+      "nl": [
+        "Thladiantha dubia"
+      ],
+      "pl": [
+        "Thladiantha dubia"
+      ],
+      "pt": [
+        "Thladiantha dubia"
+      ],
+      "ru": [
+        "Тладианта сомнительная"
+      ],
+      "zh": [
+        "赤瓟"
       ]
     },
     "tags": [],
@@ -4287,7 +5817,7 @@
     "family": "Cucurbitaceae",
     "genus": "Trichosanthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4369,11 +5899,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بدوال"
+      ],
+      "de": [
+        "Schlangenhaargurke"
+      ],
       "en": [
-        "Annual gourd"
+        "Annual gourd",
+        "Trichosanthes cucumerina"
+      ],
+      "es": [
+        "Trichosanthes cucumerina"
+      ],
+      "fr": [
+        "Trichosanthes cucumerina"
+      ],
+      "hi": [
+        "चिचिड़ा"
+      ],
+      "it": [
+        "Trichosanthes cucumerina"
+      ],
+      "nl": [
+        "Trichosanthes cucumerina"
+      ],
+      "pl": [
+        "Gurdlina ogórkowata"
+      ],
+      "pt": [
+        "Trichosanthes cucumerina"
+      ],
+      "ru": [
+        "Трихозант змеевидный"
+      ],
+      "zh": [
+        "瓜叶栝楼"
       ]
     },
     "tags": [],
@@ -4385,7 +5951,7 @@
     "family": "Cucurbitaceae",
     "genus": "Trichosanthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4467,9 +6033,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Trichosanthes cucumeroides"
+      ],
+      "en": [
+        "Trichosanthes cucumeroides"
+      ],
+      "es": [
+        "Trichosanthes cucumeroides"
+      ],
+      "fr": [
+        "Trichosanthes cucumeroides"
+      ],
+      "it": [
+        "Trichosanthes cucumeroides"
+      ],
+      "ja": [
+        "カラスウリ"
+      ],
+      "nl": [
+        "Trichosanthes cucumeroides"
+      ],
+      "pl": [
+        "Trichosanthes cucumeroides"
+      ],
+      "pt": [
+        "Trichosanthes cucumeroides"
+      ],
+      "ru": [
+        "Trichosanthes cucumeroides"
+      ],
+      "zh": [
+        "王瓜"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4479,7 +6081,7 @@
     "family": "Cucurbitaceae",
     "genus": "Trichosanthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4561,11 +6163,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قرع الحية الكريلوي"
+      ],
+      "de": [
+        "Trichosanthes kirilowii"
+      ],
       "en": [
-        "Chinese-cucumber"
+        "Chinese-cucumber",
+        "Trichosanthes kirilowii"
+      ],
+      "es": [
+        "Trichosanthes kirilowii"
+      ],
+      "fr": [
+        "Trichosanthes kirilowii"
+      ],
+      "it": [
+        "Trichosanthes kirilowii"
+      ],
+      "ja": [
+        "キカラスウリ"
+      ],
+      "ko": [
+        "하늘타리"
+      ],
+      "nl": [
+        "Trichosanthes kirilowii"
+      ],
+      "pl": [
+        "Trichosanthes kirilowii"
+      ],
+      "pt": [
+        "Trichosanthes kirilowii"
+      ],
+      "ru": [
+        "Trichosanthes kirilowii"
+      ],
+      "zh": [
+        "栝楼"
       ]
     },
     "tags": [],
@@ -4577,7 +6218,7 @@
     "family": "Cucurbitaceae",
     "genus": "Zehneria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4659,9 +6300,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zehneria japonica"
+      ],
+      "en": [
+        "Zehneria japonica"
+      ],
+      "es": [
+        "Zehneria japonica"
+      ],
+      "fr": [
+        "Zehneria japonica"
+      ],
+      "it": [
+        "Zehneria japonica"
+      ],
+      "ja": [
+        "スズメウリ"
+      ],
+      "ko": [
+        "새박"
+      ],
+      "nl": [
+        "Zehneria japonica"
+      ],
+      "pl": [
+        "Zehneria japonica"
+      ],
+      "pt": [
+        "Zehneria japonica"
+      ],
+      "ru": [
+        "Zehneria japonica"
+      ],
+      "zh": [
+        "马㼎儿"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4671,7 +6351,7 @@
     "family": "Cucurbitaceae",
     "genus": "Zehneria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4753,9 +6433,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zehneria mucronata"
+      ],
+      "en": [
+        "Zehneria mucronata"
+      ],
+      "es": [
+        "Zehneria mucronata"
+      ],
+      "fr": [
+        "Zehneria mucronata"
+      ],
+      "it": [
+        "Zehneria mucronata"
+      ],
+      "nl": [
+        "Zehneria mucronata"
+      ],
+      "pl": [
+        "Zehneria mucronata"
+      ],
+      "pt": [
+        "Zehneria mucronata"
+      ],
+      "ru": [
+        "Zehneria mucronata"
+      ],
+      "tr": [
+        "Zehneria mucronata"
+      ],
+      "zh": [
+        "台湾马㼎儿"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4765,7 +6481,7 @@
     "family": "Cucurbitaceae",
     "genus": "Zehneria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4847,9 +6563,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zehneria scabra"
+      ],
+      "en": [
+        "Zehneria scabra"
+      ],
+      "es": [
+        "Zehneria scabra"
+      ],
+      "fr": [
+        "Zehneria scabra"
+      ],
+      "it": [
+        "Zehneria scabra"
+      ],
+      "nl": [
+        "Zehneria scabra"
+      ],
+      "pl": [
+        "Zehneria scabra"
+      ],
+      "pt": [
+        "Zehneria scabra"
+      ],
+      "ru": [
+        "Zehneria scabra"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

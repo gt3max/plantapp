@@ -5,12 +5,12 @@
     "family": "Cleomaceae",
     "genus": "Cleome",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f7a2cd1f8740b7defa43c0a503a533a271f01611",
-    "description": "The capsule is an elongate, cylindrical 2-valved fruit filled with numerous seeds. Once the pods dry, they pop open to release the small round brown seeds",
+    "description": "Cleome gynandra is a species of Cleome that is used as a leaf vegetable. It is known by many common names including Shona cabbage, African cabbage, spiderwisp, cat's whiskers, and stinkweed. It is an annual wildflower native to Africa but has become widespread in many tropical and sub-tropical parts of the world.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": "[\"Gynandropsis muricata\", \"Pedicellaria gynandra\", \"Gynandropsis ophitocarpa\", \"Gynandropsis pentaphylla\", \"Gynandropsis palmipes\", \"Cleome flexuosa\", \"Cleome heterotricha\", \"Gynandropsis denticulata\", \"Pedicellaria pentaphylla\", \"Gynandropsis glandulosa\"]",
     "care": {
       "plant_id": "cleome_gynandra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -90,11 +90,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "ذفرة زنمردية"
+      ],
+      "de": [
+        "Cleome gynandra"
+      ],
       "en": [
+        "Cleome gynandra",
         "Spiderwisp"
+      ],
+      "es": [
+        "Cleome gynandra"
+      ],
+      "fr": [
+        "Cleome gynandra"
+      ],
+      "it": [
+        "Cleome gynandra"
+      ],
+      "nl": [
+        "Cleome gynandra"
+      ],
+      "pl": [
+        "Cleome gynandra"
+      ],
+      "pt": [
+        "Cleome gynandra"
+      ],
+      "ru": [
+        "Cleome gynandra"
+      ],
+      "zh": [
+        "白花菜"
       ]
     },
     "tags": [],
@@ -106,12 +139,12 @@
     "family": "Cleomaceae",
     "genus": "Cleome",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/12a4f10676350732bf7d44fad7a1b42e5a67b73b",
-    "description": "The capsule is an elongate, cylindrical 2-valved fruit filled with numerous seeds. Once the pods dry, they pop open to release the small round brown seeds",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -122,7 +155,7 @@
     "synonyms": "[\"Sieruela monophylla\", \"Cleome subcordata\", \"Cleome monophylla var. madagascariensis\", \"Cleome massae\", \"Cleome monophylla var. cordata\", \"Cleome cordata\", \"Cleome epilobioides\", \"Sieruela viscosa\"]",
     "care": {
       "plant_id": "cleome_monophylla",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -191,11 +224,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "ذفرة أحادية الأوراق"
+      ],
+      "de": [
+        "Cleome monophylla"
+      ],
       "en": [
+        "Cleome monophylla",
         "Mujakari"
+      ],
+      "es": [
+        "Cleome monophylla"
+      ],
+      "fr": [
+        "Cleome monophylla"
+      ],
+      "it": [
+        "Cleome monophylla"
+      ],
+      "nl": [
+        "Cleome monophylla"
+      ],
+      "pl": [
+        "Cleome monophylla"
+      ],
+      "pt": [
+        "Cleome monophylla"
+      ],
+      "ru": [
+        "Cleome monophylla"
       ]
     },
     "tags": [],
@@ -207,7 +270,7 @@
     "family": "Cleomaceae",
     "genus": "Cleome",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -223,17 +286,17 @@
     "synonyms": "[\"Sieruela rutidosperma\"]",
     "care": {
       "plant_id": "cleome_rutidosperma",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -292,11 +355,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "de": [
+        "Cleome rutidosperma"
+      ],
       "en": [
+        "Cleome rutidosperma",
         "Fringed spiderflower"
+      ],
+      "es": [
+        "Cleome rutidosperma"
+      ],
+      "fr": [
+        "Cleome rutidosperma"
+      ],
+      "it": [
+        "Cleome rutidosperma"
+      ],
+      "ja": [
+        "アフリカフウチョウソウ"
+      ],
+      "nl": [
+        "Cleome rutidosperma"
+      ],
+      "pl": [
+        "Cleome rutidosperma"
+      ],
+      "pt": [
+        "Cleome rutidosperma"
+      ],
+      "ru": [
+        "Cleome rutidosperma"
+      ],
+      "zh": [
+        "皱子白花菜"
       ]
     },
     "tags": [],
@@ -308,12 +404,12 @@
     "family": "Cleomaceae",
     "genus": "Cleome",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/da28ecf11ad47a8aad5cf545e8e0acc7e2261eaf",
-    "description": "The capsule is an elongate, cylindrical 2-valved fruit filled with numerous seeds. Once the pods dry, they pop open to release the small round brown seeds",
+    "description": "Cleome spinosa, called the spiny spiderflower, is a species of flowering plant in the genus Cleome. It is native to the New World Tropics, and has been introduced to the United States, tropical Africa, the Indian Subcontinent, Vietnam, New Caledonia, and Korea. It is pollinated by bats.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -324,7 +420,7 @@
     "synonyms": "[\"Cleome spinosa var. subinermis\", \"Cleome spinosa f. pungens\", \"Cleome tonduzii\", \"Cleome pungens\", \"Cleome spinosa\", \"Neocleome spinosa\", \"Cleome pungens var. swartziana\", \"Cleome viminea\", \"Cleome pubescens\", \"Cleome sandwicensis\"]",
     "care": {
       "plant_id": "cleome_spinosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -393,11 +489,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Spinnenblume"
+      ],
       "en": [
+        "Cleome spinosa",
         "Spider flower"
+      ],
+      "es": [
+        "Cleome spinosa"
+      ],
+      "fr": [
+        "Cleome spinosa"
+      ],
+      "it": [
+        "Cleome spinosa"
+      ],
+      "ko": [
+        "풍접초"
+      ],
+      "nl": [
+        "Kattensnor"
+      ],
+      "pl": [
+        "Cleome spinosa"
+      ],
+      "pt": [
+        "Cleome spinosa"
+      ],
+      "ru": [
+        "Cleome spinosa"
+      ],
+      "zh": [
+        "醉蝶花"
       ]
     },
     "tags": [],
@@ -409,12 +538,12 @@
     "family": "Cleomaceae",
     "genus": "Cleome",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4c9975d3909ee4e01005d465f495f13116d3190f",
-    "description": "The capsule is an elongate, cylindrical 2-valved fruit filled with numerous seeds. Once the pods dry, they pop open to release the small round brown seeds",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -425,7 +554,7 @@
     "synonyms": "[\"Cleome violacea var. ortegae\", \"Diorimasperma violacea\", \"Cleome violacea f. unicolor\", \"Cleome deflexa\", \"Cleome secundiflora\", \"Cleome canadensis\", \"Cleome cardaminoides\"]",
     "care": {
       "plant_id": "cleome_violacea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -494,9 +623,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cleome violacea"
+      ],
+      "en": [
+        "Cleome violacea"
+      ],
+      "es": [
+        "Cleome violacea"
+      ],
+      "fr": [
+        "Cleome violacea"
+      ],
+      "it": [
+        "Cleome violacea"
+      ],
+      "nl": [
+        "Cleome violacea"
+      ],
+      "pl": [
+        "Cleome violacea"
+      ],
+      "pt": [
+        "Cleome violacea"
+      ],
+      "ru": [
+        "Cleome violacea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -506,12 +665,12 @@
     "family": "Cleomaceae",
     "genus": "Cleome",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d15c2016034e09adf5beba7f3378b38741e6d91d",
-    "description": "The capsule is an elongate, cylindrical 2-valved fruit filled with numerous seeds. Once the pods dry, they pop open to release the small round brown seeds",
+    "description": "Cleome viscosa, the Asian spiderflower or tick weed is an annual herb that grows up to a meter high. It belongs to the family Cleomaceae. It is considered an invasive species and is widely distributed in warm and humid habitats across the Americas, Africa and Asia, and in Australia. It is commonly found during the rainy season.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -522,17 +681,17 @@
     "synonyms": "[\"Polanisia viscosa var. genuina\", \"Arivela viscosa\", \"Corynandra viscosa\", \"Polanisia viscosa\", \"Sinapistrum viscosum\"]",
     "care": {
       "plant_id": "cleome_viscosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -591,11 +750,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.5
     },
     "common_names": {
+      "ar": [
+        "ذفرة لزجة"
+      ],
+      "de": [
+        "Cleome viscosa"
+      ],
       "en": [
-        "Asian spiderflower"
+        "Asian spiderflower",
+        "Cleome viscosa"
+      ],
+      "es": [
+        "Cleome viscosa"
+      ],
+      "fr": [
+        "Cleome viscosa"
+      ],
+      "it": [
+        "Cleome viscosa"
+      ],
+      "nl": [
+        "Cleome viscosa"
+      ],
+      "pl": [
+        "Cleome viscosa"
+      ],
+      "pt": [
+        "Cleome viscosa"
+      ],
+      "ru": [
+        "Cleome viscosa"
+      ],
+      "zh": [
+        "黄花草"
       ]
     },
     "tags": [],
@@ -607,12 +799,12 @@
     "family": "Cleomaceae",
     "genus": "Cleomella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/83bd53950e6271c87e4f5c264095fc03.jpg",
-    "description": null,
+    "description": "Cleomella arborea is a perennial shrub or bush in the spiderflower family (Cleomaceae) known by the common names bladderpod, bladderpod spiderflower, and burro-fat. It grows up to 0.5 - 2 meters high. It stems are densely branching and covered in tiny hairs. Leaves are typically composed of three equal leaflets, 15-45mm long, oval to elliptic, and pointed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -689,9 +881,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cleomella arborea"
+      ],
+      "en": [
+        "Cleomella arborea"
+      ],
+      "es": [
+        "Cleomella arborea"
+      ],
+      "fr": [
+        "Cleomella arborea"
+      ],
+      "it": [
+        "Cleomella arborea"
+      ],
+      "nl": [
+        "Cleomella arborea"
+      ],
+      "pl": [
+        "Cleomella arborea"
+      ],
+      "pt": [
+        "Cleomella arborea"
+      ],
+      "ru": [
+        "Cleomella arborea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -701,12 +923,12 @@
     "family": "Cleomaceae",
     "genus": "Cleomella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/df96ad202053298e62b421f30c05b400.jpg",
-    "description": null,
+    "description": "Cleomella lutea is a species of flowering plant known by the common names yellow bee plant and yellow spiderflower. This annual wildflower is native to the western United States where it is most common in desert scrub and plateau habitats. It is a sprawling plant often exceeding 1 metre in height. The erect stem can be branched and has widely spaced leaves all the way along, each leaf made up of three to five leaflets, which are smaller closer to the top of the plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -783,9 +1005,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cleomella lutea"
+      ],
+      "en": [
+        "Cleomella lutea"
+      ],
+      "es": [
+        "Cleomella lutea"
+      ],
+      "fr": [
+        "Cleomella lutea"
+      ],
+      "it": [
+        "Cleomella lutea"
+      ],
+      "nl": [
+        "Cleomella lutea"
+      ],
+      "pl": [
+        "Cleomella lutea"
+      ],
+      "pt": [
+        "Cleomella lutea"
+      ],
+      "ru": [
+        "Cleomella lutea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -795,7 +1047,7 @@
     "family": "Cleomaceae",
     "genus": "Cleomella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -877,9 +1129,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cleomella serrulata"
+      ],
+      "en": [
+        "Cleomella serrulata"
+      ],
+      "es": [
+        "Cleomella serrulata"
+      ],
+      "fr": [
+        "Cleomella serrulata"
+      ],
+      "it": [
+        "Cleomella serrulata"
+      ],
+      "nl": [
+        "Cleomella serrulata"
+      ],
+      "pl": [
+        "Cleomella serrulata"
+      ],
+      "pt": [
+        "Cleomella serrulata"
+      ],
+      "ru": [
+        "Cleomella serrulata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

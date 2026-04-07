@@ -5,7 +5,7 @@
     "family": "Scheuchzeriaceae",
     "genus": "Scheuchzeria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "scheuchzeria_palustris",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 9,
+      "ellenberg_l": 8.8
     },
     "common_names": {
+      "de": [
+        "Blumenbinsen"
+      ],
       "en": [
-        "Rannoch-rush"
+        "Rannoch-rush",
+        "Scheuchzeria palustris"
+      ],
+      "es": [
+        "Scheuchzeria palustris"
+      ],
+      "fr": [
+        "Scheuchzeria palustris"
+      ],
+      "it": [
+        "Scheuchzeria palustris"
+      ],
+      "ja": [
+        "ホロムイソウ"
+      ],
+      "ko": [
+        "장지채"
+      ],
+      "nl": [
+        "Veenbloembies"
+      ],
+      "pl": [
+        "Bagnica torfowa"
+      ],
+      "pt": [
+        "Scheuchzeria"
+      ],
+      "ru": [
+        "Шейхцерия"
+      ],
+      "zh": [
+        "芝菜"
       ]
     },
     "tags": [],

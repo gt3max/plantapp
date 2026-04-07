@@ -5,12 +5,12 @@
     "family": "Quillajaceae",
     "genus": "Quillaja",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/2f4821985fd788e7b316dc880c1d96875b76a0be",
-    "description": null,
+    "description": "Quillaja saponaria, the soap bark tree or soapbark, is an evergreen tree in the family Quillajaceae, native to warm temperate central Chile. In Chile it occurs from 32 to 40° South Latitude approximately and at up to 2000 m (6500 ft) above sea level. It can grow to 15–20 m (50–65 ft) in height.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قلاجة صابونية"
+      ],
+      "de": [
+        "Quillaja saponaria"
+      ],
       "en": [
-        "Murillo's-bark"
+        "Murillo's-bark",
+        "Quillaja saponaria"
+      ],
+      "es": [
+        "Quillaja saponaria"
+      ],
+      "fr": [
+        "Quillaja saponaria"
+      ],
+      "it": [
+        "Quillaja saponaria"
+      ],
+      "ja": [
+        "キラヤ"
+      ],
+      "nl": [
+        "Quillaja saponaria"
+      ],
+      "pl": [
+        "mydłodrzew właściwy"
+      ],
+      "pt": [
+        "Quilaia"
+      ],
+      "ru": [
+        "Квиллайя мыльная"
       ]
     },
     "tags": [],

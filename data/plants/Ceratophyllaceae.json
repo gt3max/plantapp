@@ -5,7 +5,7 @@
     "family": "Ceratophyllaceae",
     "genus": "Ceratophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,17 +21,17 @@
     "synonyms": "[\"Ceratophyllum demersum var. commune\", \"Dichotophyllum demersum\"]",
     "care": {
       "plant_id": "ceratophyllum_demersum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 6.2
     },
     "common_names": {
+      "ar": [
+        "شمبلان مغمور"
+      ],
+      "de": [
+        "Raues Hornblatt"
+      ],
       "en": [
+        "Ceratophyllum demersum",
         "Common hornwort"
+      ],
+      "es": [
+        "Ceratophyllum demersum"
+      ],
+      "fr": [
+        "Cornifle immergé"
+      ],
+      "it": [
+        "Ceratophyllum demersum"
+      ],
+      "ja": [
+        "マツモ"
+      ],
+      "ko": [
+        "붕어마름"
+      ],
+      "nl": [
+        "grof hoornblad"
+      ],
+      "pl": [
+        "Rogatek sztywny"
+      ],
+      "pt": [
+        "Ceratophyllum demersum"
+      ],
+      "ru": [
+        "Ceratophyllum demersum"
+      ],
+      "zh": [
+        "金鱼藻"
       ]
     },
     "tags": [],
@@ -103,12 +142,12 @@
     "family": "Ceratophyllaceae",
     "genus": "Ceratophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/291790f2fc667130d804c22f665fcb8d0c9f1c8f",
-    "description": null,
+    "description": "Ceratophyllum submersum, commonly known as the soft hornwort or tropical hornwort, is a species of Ceratophyllum. It is a submerged, free-floating aquatic plant. It has been reported from Europe, Central Asia, northern Africa, scattered places in tropical Africa, Turkey, Oman, Florida, and the Dominican Republic. It is similar to the submerged macrophyte Ceratophyllum demersum, a congeneric plant that is found in most regions of the world.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -119,17 +158,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ceratophyllum_submersum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -185,11 +224,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 12,
+      "ellenberg_l": 5.6
     },
     "common_names": {
+      "ar": [
+        "بشت القرد"
+      ],
+      "de": [
+        "Zartes Hornblatt"
+      ],
       "en": [
+        "Ceratophyllum submersum",
         "Soft hornwort"
+      ],
+      "es": [
+        "Ceratophyllum submersum"
+      ],
+      "fr": [
+        "Ceratophyllum submersum"
+      ],
+      "it": [
+        "Ceratophyllum submersum"
+      ],
+      "ja": [
+        "セイロンマツモ"
+      ],
+      "nl": [
+        "Fijn hoornblad"
+      ],
+      "pl": [
+        "Rogatek krótkoszyjkowy"
+      ],
+      "pt": [
+        "Ceratophyllum submersum"
+      ],
+      "ru": [
+        "роголистник полупогружённый"
+      ],
+      "zh": [
+        "细金鱼藻"
       ]
     },
     "tags": [],

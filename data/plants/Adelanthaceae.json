@@ -5,7 +5,7 @@
     "family": "Adelanthaceae",
     "genus": "Pseudomarsupidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pseudomarsupidium decipiens"
+      ],
+      "en": [
+        "Pseudomarsupidium decipiens"
+      ],
+      "es": [
+        "Pseudomarsupidium decipiens"
+      ],
+      "fr": [
+        "Pseudomarsupidium decipiens"
+      ],
+      "it": [
+        "Pseudomarsupidium decipiens"
+      ],
+      "nl": [
+        "Pseudomarsupidium decipiens"
+      ],
+      "pl": [
+        "Pseudomarsupidium decipiens"
+      ],
+      "pt": [
+        "Pseudomarsupidium decipiens"
+      ],
+      "ru": [
+        "Pseudomarsupidium decipiens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Adelanthaceae",
     "genus": "Syzygiella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Syzygiella autumnalis"
+      ],
+      "en": [
+        "Syzygiella autumnalis"
+      ],
+      "es": [
+        "Syzygiella autumnalis"
+      ],
+      "fr": [
+        "Syzygiella autumnalis"
+      ],
+      "it": [
+        "Syzygiella autumnalis"
+      ],
+      "nl": [
+        "Syzygiella autumnalis"
+      ],
+      "pl": [
+        "Syzygiella autumnalis"
+      ],
+      "pt": [
+        "Syzygiella autumnalis"
+      ],
+      "ru": [
+        "Syzygiella autumnalis"
+      ],
+      "zh": [
+        "筒萼对耳苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +256,7 @@
     "family": "Adelanthaceae",
     "genus": "Syzygiella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +338,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Syzygiella colorata"
+      ],
+      "en": [
+        "Syzygiella colorata"
+      ],
+      "es": [
+        "Syzygiella colorata"
+      ],
+      "fr": [
+        "Syzygiella colorata"
+      ],
+      "it": [
+        "Syzygiella colorata"
+      ],
+      "nl": [
+        "Syzygiella colorata"
+      ],
+      "pl": [
+        "Syzygiella colorata"
+      ],
+      "pt": [
+        "Syzygiella colorata"
+      ],
+      "ru": [
+        "Syzygiella colorata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Notothyladaceae",
     "genus": "Phaeoceros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Phaeoceros carolinianus is a species of hornwort—a group of simple, non-vascular plants—that is found worldwide in damp, shaded areas. It forms flat, dark green, rosette-shaped patches measuring 10–20 mm in diameter on bare soil and rock surfaces. The plant is characterised by its horn-like spore capsules, which grow 40–60 mm tall, and for producing both male and female reproductive structures on the same plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Einhäusiges Braunhornmoos"
+      ],
+      "en": [
+        "Phaeoceros carolinianus"
+      ],
+      "es": [
+        "Phaeoceros carolinianus"
+      ],
+      "fr": [
+        "Phaeoceros carolinianus"
+      ],
+      "it": [
+        "Phaeoceros carolinianus"
+      ],
+      "nl": [
+        "Phaeoceros carolinianus"
+      ],
+      "pl": [
+        "Phaeoceros carolinianus"
+      ],
+      "pt": [
+        "Phaeoceros carolinianus"
+      ],
+      "ru": [
+        "Phaeoceros carolinianus"
+      ],
+      "zh": [
+        "高领黄角苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Notothyladaceae",
     "genus": "Phaeoceros",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Phaeoceros laevis, the smooth hornwort, is a species of hornwort of the genus Phaeoceros. It is commonly found in areas where moisture is plentiful, such as moist soils in fields, the banks of streams and rivers or inundated beneath the surface of the rivers. It grows to a maximum height of about 5 millimetres and the plants are monoecious; the sex organs are visible on the dorsal surface.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +214,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بنقرن أملس"
+      ],
+      "de": [
+        "Phaeoceros laevis"
+      ],
+      "en": [
+        "Phaeoceros laevis"
+      ],
+      "es": [
+        "Phaeoceros laevis"
+      ],
+      "fr": [
+        "Phaeoceros laevis"
+      ],
+      "it": [
+        "Phaeoceros laevis"
+      ],
+      "ja": [
+        "ニワツノゴケ"
+      ],
+      "nl": [
+        "Phaeoceros laevis"
+      ],
+      "pl": [
+        "Phaeoceros laevis"
+      ],
+      "pt": [
+        "Phaeoceros laevis"
+      ],
+      "ru": [
+        "Феоцерос гладкий"
+      ],
+      "zh": [
+        "黄角苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Nyssaceae",
     "genus": "Nyssa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/425bc3e4c9ba6434a4377f7a0edeaadc215d761c",
-    "description": "Dark purple, oblong fruit (drupes to 1 inch long) mature in fall (September-October). Tough skins with a thin layer of acid flesh over the seed.",
+    "description": "Nyssa aquatica, commonly called the water tupelo, cottongum, wild olive, large tupelo, tupelo-gum, or water-gum, is a large, long-lived tree in the tupelo genus (Nyssa) that grows in swamps and floodplains in the Southeastern United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -92,11 +92,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طوبال مائي"
+      ],
+      "de": [
+        "Nyssa aquatica"
+      ],
       "en": [
+        "Nyssa aquatica",
         "Swamp tupelo"
+      ],
+      "es": [
+        "Nyssa aquatica"
+      ],
+      "fr": [
+        "Nyssa aquatica"
+      ],
+      "it": [
+        "Nyssa aquatica"
+      ],
+      "nl": [
+        "Nyssa aquatica"
+      ],
+      "pl": [
+        "Nyssa aquatica"
+      ],
+      "pt": [
+        "Nyssa aquatica"
+      ],
+      "ru": [
+        "Nyssa aquatica"
+      ],
+      "zh": [
+        "水紫樹"
       ]
     },
     "tags": [],
@@ -108,12 +141,12 @@
     "family": "Nyssaceae",
     "genus": "Nyssa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/26260ef6e93675e34e29b16cac1b4b09.jpg",
-    "description": "dark purplish blue drupe ½-⅝ inch long, They are available August-October.",
+    "description": "Nyssa biflora, commonly referred to as the swamp tupelo, or swamp black-gum is a species of tupelo that lives in wetland habitats in the United States.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -190,9 +223,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "طوبال ثنائي الأزهار"
+      ],
+      "de": [
+        "Sumpf-Tupelobaum"
+      ],
+      "en": [
+        "Nyssa biflora"
+      ],
+      "es": [
+        "Nyssa biflora"
+      ],
+      "fr": [
+        "Nyssa biflora"
+      ],
+      "it": [
+        "Nyssa biflora"
+      ],
+      "nl": [
+        "Nyssa biflora"
+      ],
+      "pl": [
+        "Nyssa biflora"
+      ],
+      "pt": [
+        "Nyssa biflora"
+      ],
+      "ru": [
+        "Nyssa biflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -202,7 +268,7 @@
     "family": "Nyssaceae",
     "genus": "Nyssa",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -284,11 +350,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "طوبال حرجي"
+      ],
+      "de": [
+        "Schwarzer Tupelobaum"
+      ],
       "en": [
-        "Black tupelo"
+        "Black tupelo",
+        "Nyssa sylvatica"
+      ],
+      "it": [
+        "Nyssa sylvatica"
+      ],
+      "ja": [
+        "ヌマミズキ"
+      ],
+      "nl": [
+        "Nyssa sylvatica"
+      ],
+      "pl": [
+        "Błotnia leśna"
+      ],
+      "pt": [
+        "Nyssa sylvatica"
+      ],
+      "ru": [
+        "Нисса лесная"
+      ],
+      "zh": [
+        "黑紫樹"
       ]
     },
     "tags": [],

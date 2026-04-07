@@ -5,12 +5,12 @@
     "family": "Drosophyllaceae",
     "genus": "Drosophyllum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/251a0fdbd31642323515f801b705aabc98418aa0",
-    "description": null,
+    "description": "Drosophyllum is a genus of carnivorous plants containing the single species Drosophyllum lusitanicum, commonly known as Portuguese sundew or dewy pine. In appearance, it is similar to the related genus Drosera, and to the much more distantly related Byblis.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Taublatt"
+      ],
       "en": [
+        "Drosophyllum lusitanicum",
         "Portuguese sundew"
+      ],
+      "es": [
+        "Drosophyllaceae"
+      ],
+      "fr": [
+        "Drosophyllum lusitanicum"
+      ],
+      "it": [
+        "Drosophyllum lusitanicum"
+      ],
+      "ja": [
+        "ドロソフィルム"
+      ],
+      "ko": [
+        "드로소필룸"
+      ],
+      "nl": [
+        "Drosophyllaceae"
+      ],
+      "pl": [
+        "Rosolistnikowate"
+      ],
+      "pt": [
+        "Drosophyllum lusitanicum"
+      ],
+      "ru": [
+        "Росолист"
+      ],
+      "zh": [
+        "露松"
       ]
     },
     "tags": [],

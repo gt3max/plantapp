@@ -5,7 +5,7 @@
     "family": "Helwingiaceae",
     "genus": "Helwingia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Helwingia japonica"
+      ],
+      "en": [
+        "Helwingia japonica"
+      ],
+      "es": [
+        "Helwingia japonica"
+      ],
+      "fr": [
+        "Helwingia japonica"
+      ],
+      "it": [
+        "Helwingia japonica"
+      ],
+      "ja": [
+        "ハナイカダ"
+      ],
+      "nl": [
+        "Helwingia japonica"
+      ],
+      "pl": [
+        "Helwingia japonica"
+      ],
+      "pt": [
+        "Helwingia japonica"
+      ],
+      "ru": [
+        "Helwingia japonica"
+      ],
+      "zh": [
+        "青荚叶"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Doryanthaceae",
     "genus": "Doryanthes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/e87903e0466b0e4c504b1aeaeefd7bcc742f7198",
-    "description": null,
+    "description": "Doryanthes excelsa, commonly known as the gymea lily, is a flowering plant in the family Doryanthaceae that is endemic to coastal areas of New South Wales near Sydney. It has sword-like leaves more than 1 metre (3 ft) long and it grows a flower spike up to 6 metres (20 ft) high. The apex of the spike bears a large cluster of bright red flowers, each 10 centimetres (4 in) across. Its common name is derived from kai'mia in the indigenous Dharawal language.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "رمحية سامية"
+      ],
+      "de": [
+        "Doryanthes excelsa"
+      ],
       "en": [
+        "Doryanthes excelsa",
         "Gymea lily"
+      ],
+      "es": [
+        "Doryanthes excelsa"
+      ],
+      "fr": [
+        "Lys javelot"
+      ],
+      "it": [
+        "Doryanthes excelsa"
+      ],
+      "ja": [
+        "ドリアンテス・エクセルサ"
+      ],
+      "nl": [
+        "Doryanthes excelsa"
+      ],
+      "pl": [
+        "Doryanthes excelsa"
+      ],
+      "pt": [
+        "Doryanthes excelsa"
+      ],
+      "ru": [
+        "Doryanthes excelsa"
       ]
     },
     "tags": [],

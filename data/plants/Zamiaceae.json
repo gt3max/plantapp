@@ -5,12 +5,12 @@
     "family": "Zamiaceae",
     "genus": "Macrozamia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cffb1a20025c579912015353660587ef0304ec97",
-    "description": null,
+    "description": "Macrozamia communis is an Australian cycad found on the east coast of New South Wales. The common name for the species is burrawang, a word derived from the Daruk Australian Aboriginal language; this name is also often applied to other species of Macrozamia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Macrozamia communis"
+      ],
       "en": [
-        "Burrawong"
+        "Burrawong",
+        "Macrozamia communis"
+      ],
+      "es": [
+        "Macrozamia communis"
+      ],
+      "fr": [
+        "Macrozamia communis"
+      ],
+      "it": [
+        "Macrozamia communis"
+      ],
+      "nl": [
+        "Macrozamia communis"
+      ],
+      "pl": [
+        "Macrozamia communis"
+      ],
+      "pt": [
+        "Macrozamia communis"
+      ],
+      "ru": [
+        "Macrozamia communis"
       ]
     },
     "tags": [],
@@ -103,7 +130,7 @@
     "family": "Zamiaceae",
     "genus": "Zamia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,9 +212,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "زامية كاملة الأوراق"
+      ],
+      "de": [
+        "Zamia integrifolia"
+      ],
+      "en": [
+        "Zamia integrifolia"
+      ],
+      "es": [
+        "Zamia integrifolia"
+      ],
+      "fr": [
+        "Zamia integrifolia"
+      ],
+      "it": [
+        "Zamia integrifolia"
+      ],
+      "nl": [
+        "Zamia integrifolia"
+      ],
+      "pl": [
+        "Zamia integrifolia"
+      ],
+      "pt": [
+        "Zamia integrifolia"
+      ],
+      "ru": [
+        "Zamia integrifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

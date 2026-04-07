@@ -5,12 +5,12 @@
     "family": "Marchantiaceae",
     "genus": "Marchantia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Marchantia berteroana is a liverwort species in the genus Marchantia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كبدية لوحية"
+      ],
+      "de": [
+        "Marchantia berteroana"
+      ],
+      "en": [
+        "Marchantia berteroana"
+      ],
+      "es": [
+        "Marchantia berteroana"
+      ],
+      "fr": [
+        "Marchantia berteroana"
+      ],
+      "it": [
+        "Marchantia berteroana"
+      ],
+      "nl": [
+        "Marchantia berteroana"
+      ],
+      "pl": [
+        "Marchantia berteroana"
+      ],
+      "pt": [
+        "Marchantia berteroana"
+      ],
+      "ru": [
+        "Marchantia berteroana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Marchantiaceae",
     "genus": "Marchantia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Marchantia chenopoda"
+      ],
+      "en": [
+        "Marchantia chenopoda"
+      ],
+      "es": [
+        "Marchantia chenopoda"
+      ],
+      "fr": [
+        "Marchantia chenopoda"
+      ],
+      "it": [
+        "Marchantia chenopoda"
+      ],
+      "nl": [
+        "Marchantia chenopoda"
+      ],
+      "pl": [
+        "Marchantia chenopoda"
+      ],
+      "pt": [
+        "Marchantia chenopoda"
+      ],
+      "ru": [
+        "Marchantia chenopoda"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +256,12 @@
     "family": "Marchantiaceae",
     "genus": "Marchantia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Marchantia paleacea is a species of liverwort found in North America, Europe, and eastern Asia. It has been employed as a model organism to study plant-fungal symbioses.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +338,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Marchantia paleacea"
+      ],
+      "en": [
+        "Marchantia paleacea"
+      ],
+      "es": [
+        "Marchantia paleacea"
+      ],
+      "fr": [
+        "Marchantia paleacea"
+      ],
+      "it": [
+        "Marchantia paleacea"
+      ],
+      "nl": [
+        "Marchantia paleacea"
+      ],
+      "pl": [
+        "Marchantia paleacea"
+      ],
+      "pt": [
+        "Marchantia paleacea"
+      ],
+      "ru": [
+        "Marchantia paleacea"
+      ],
+      "zh": [
+        "粗裂地钱"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +383,7 @@
     "family": "Marchantiaceae",
     "genus": "Marchantia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +465,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "كبدية مائية"
+      ],
+      "de": [
+        "Brunnenlebermoos"
+      ],
+      "en": [
+        "Marchantia polymorpha"
+      ],
+      "es": [
+        "Marchantia polymorpha"
+      ],
+      "fr": [
+        "Hépatique des fontaines"
+      ],
+      "it": [
+        "Marchantia polymorpha"
+      ],
+      "ja": [
+        "ゼニゴケ"
+      ],
+      "nl": [
+        "parapluutjesmos"
+      ],
+      "pl": [
+        "Porostnica wielokształtna"
+      ],
+      "pt": [
+        "Marchantia polymorpha"
+      ],
+      "ru": [
+        "Маршанция изменчивая"
+      ],
+      "zh": [
+        "地钱"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

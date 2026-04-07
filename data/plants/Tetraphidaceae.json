@@ -5,7 +5,7 @@
     "family": "Tetraphidaceae",
     "genus": "Tetraphis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Georgsmoos"
+      ],
+      "en": [
+        "Tetraphis pellucida"
+      ],
+      "es": [
+        "Tetraphis pellucida"
+      ],
+      "fr": [
+        "Tetraphis pellucida"
+      ],
+      "it": [
+        "Tetraphis pellucida"
+      ],
+      "nl": [
+        "Tetraphis pellucida"
+      ],
+      "pl": [
+        "Tetraphis pellucida"
+      ],
+      "pt": [
+        "Tetraphis pellucida"
+      ],
+      "ru": [
+        "Tetraphis pellucida"
+      ],
+      "zh": [
+        "四齿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +132,7 @@
     "family": "Tetraphidaceae",
     "genus": "Tetrodontium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tetrodontium brownianum"
+      ],
+      "en": [
+        "Tetrodontium brownianum"
+      ],
+      "es": [
+        "Tetrodontium brownianum"
+      ],
+      "fr": [
+        "Tetrodontium brownianum"
+      ],
+      "it": [
+        "Tetrodontium brownianum"
+      ],
+      "nl": [
+        "Tetrodontium brownianum"
+      ],
+      "pl": [
+        "Tetrodontium brownianum"
+      ],
+      "pt": [
+        "Tetrodontium brownianum"
+      ],
+      "ru": [
+        "Tetrodontium brownianum"
+      ],
+      "zh": [
+        "小四齿藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

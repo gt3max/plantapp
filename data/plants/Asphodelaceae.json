@@ -87,7 +87,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -232,7 +234,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -375,11 +379,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aloe harlana"
+      ],
       "en": [
+        "Aloe harlana",
         "aloe"
+      ],
+      "es": [
+        "Aloe harlana"
+      ],
+      "fr": [
+        "Aloe harlana"
+      ],
+      "it": [
+        "Aloe harlana"
+      ],
+      "nl": [
+        "Aloe harlana"
+      ],
+      "pl": [
+        "Aloe harlana"
+      ],
+      "pt": [
+        "Aloe harlana"
+      ],
+      "ru": [
+        "Aloe harlana"
+      ],
+      "tr": [
+        "Aloe harlana"
       ],
       "zh": [
         "哈兰芦荟"
@@ -481,18 +515,43 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aloe maculata"
+      ],
       "en": [
         "African aloe",
+        "Aloe maculata",
         "Broadleaf aloe",
         "broadleaf aloe",
         "soap aloe",
         "zebra aloe"
       ],
+      "es": [
+        "Aloe maculata"
+      ],
       "fr": [
+        "Aloe maculata",
         "Aloès maculé"
+      ],
+      "it": [
+        "Aloe maculata"
+      ],
+      "nl": [
+        "Aloe maculata"
+      ],
+      "pl": [
+        "Aloe maculata"
+      ],
+      "pt": [
+        "Aloe maculata"
+      ],
+      "ru": [
+        "Aloe maculata"
       ],
       "tr": [
         "Benekli sarısabır"
@@ -593,14 +652,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aloe suzannae"
+      ],
       "en": [
+        "Aloe suzannae",
         "aloe"
+      ],
+      "es": [
+        "Aloe suzannae"
+      ],
+      "fr": [
+        "Aloe suzannae"
+      ],
+      "it": [
+        "Aloe suzannae"
+      ],
+      "nl": [
+        "Aloe suzannae"
+      ],
+      "pl": [
+        "Aloe suzannae"
+      ],
+      "pt": [
+        "Aloe suzannae"
       ],
       "ru": [
         "Алоэ Сюзанны"
+      ],
+      "tr": [
+        "Aloe suzannae"
       ],
       "zh": [
         "索贊蘆薈"
@@ -641,12 +727,12 @@
       "water_demand": "Minimum",
       "start_pct": 7,
       "stop_pct": 50,
-      "light_preferred": "full sun",
-      "light_also_ok": null,
-      "ppfd_min": 74,
-      "ppfd_max": 148,
-      "dli_min": 0.3,
-      "dli_max": 0.6,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 200,
+      "ppfd_max": 800,
+      "dli_min": 8.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 12,
       "humidity_level": "Low (15-80%)",
@@ -677,7 +763,7 @@
         "Scale insects",
         "Drought resistant"
       ],
-      "watering_method": null,
+      "watering_method": "Let soil dry up",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -707,7 +793,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -849,17 +937,17 @@
     "synonyms": "[\"Dorydium luteum\", \"Asphodelus luteus\", \"Asphodelus sibiricus\"]",
     "care": {
       "plant_id": "asphodeline_lutea",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -921,11 +1009,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "ar": [
+        "عصفلدين أصفر"
+      ],
+      "de": [
+        "Gelber Affodill"
+      ],
       "en": [
+        "Asphodeline lutea",
         "King's-spear"
+      ],
+      "es": [
+        "Asphodeline lutea"
+      ],
+      "fr": [
+        "Asphodeline lutea"
+      ],
+      "it": [
+        "Asphodeline lutea"
+      ],
+      "nl": [
+        "Asphodeline lutea"
+      ],
+      "pl": [
+        "Złotnica żółta"
+      ],
+      "pt": [
+        "Asphodeline lutea"
+      ],
+      "ru": [
+        "Асфоделина жёлтая"
+      ],
+      "zh": [
+        "日光兰"
       ]
     },
     "tags": [],
@@ -942,7 +1063,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/455a1055e4994afd9ceb8005bf44ebe019249e12",
-    "description": "Fleshy, indehiscent; a berry",
+    "description": "Asphodelus aestivus, the summer asphodel, is a species of asphodel, a common Western Mediterranean geophyte with a short vertical rhizome and basal leaves. Its flowers are actinomorphic, pinkish-white, with six perianth segments, 14–19 mm long and six stamens of the same length, in two whorls. Its distribution is limited to the Western Mediterranean, mainly found in Portugal and Spain on the European mainland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -958,12 +1079,12 @@
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -1019,9 +1140,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 8.3
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بروق صيفي"
+      ],
+      "de": [
+        "Asphodelus aestivus"
+      ],
+      "en": [
+        "Asphodelus aestivus"
+      ],
+      "es": [
+        "Asphodelus aestivus"
+      ],
+      "fr": [
+        "Asphodelus aestivus"
+      ],
+      "it": [
+        "Asphodelus aestivus"
+      ],
+      "nl": [
+        "Asphodelus aestivus"
+      ],
+      "pl": [
+        "Asphodelus aestivus"
+      ],
+      "pt": [
+        "Asphodelus aestivus"
+      ],
+      "ru": [
+        "Asphodelus aestivus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1052,12 +1206,12 @@
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -1119,11 +1273,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.6
     },
     "common_names": {
+      "ar": [
+        "بروق أبيض"
+      ],
+      "de": [
+        "Weißer Affodill"
+      ],
       "en": [
+        "Asphodelus albus",
         "White asphodel"
+      ],
+      "es": [
+        "Asphodelus albus"
+      ],
+      "fr": [
+        "Asphodèle blanc"
+      ],
+      "it": [
+        "Asphodelus albus"
+      ],
+      "ja": [
+        "アスフォデルス・アルブス"
+      ],
+      "nl": [
+        "Witte affodil"
+      ],
+      "pl": [
+        "Asphodelus albus"
+      ],
+      "pt": [
+        "Asphodelus albus"
+      ],
+      "ru": [
+        "Асфоделус белый"
+      ],
+      "zh": [
+        "白阿福花"
       ]
     },
     "tags": [],
@@ -1140,7 +1330,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/9b67fd8306b345dc2be24a143ab86b79527106ea",
-    "description": "Fleshy, indehiscent; a berry",
+    "description": "Asphodelus ayardii is a species of asphodel found in North Africa and the Middle East.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1151,7 +1341,7 @@
     "synonyms": "[\"Asphodelus fistulosus f. grandiflorus\", \"Asphodelus fistulosus var. atlanticus\", \"Asphodelus fistulosus var. approximatus\", \"Asphodelus fistulosus subsp. cirerae\", \"Asphodelus mauritii\", \"Asphodelus fistulosus subsp. approximatus\", \"Asphodelus cirerae\", \"Asphodelus approximatus\", \"Asphodelus fistulosus subsp. approximatus\", \"Asphodelus fistulosus proles approximatus\"]",
     "care": {
       "plant_id": "asphodelus_ayardii",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -1217,9 +1407,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Asphodelus ayardii"
+      ],
+      "en": [
+        "Asphodelus ayardii"
+      ],
+      "es": [
+        "Asphodelus ayardii"
+      ],
+      "fr": [
+        "Asphodelus ayardii"
+      ],
+      "it": [
+        "Asphodelus ayardii"
+      ],
+      "nl": [
+        "Asphodelus ayardii"
+      ],
+      "pl": [
+        "Asphodelus ayardii"
+      ],
+      "pt": [
+        "Asphodelus ayardii"
+      ],
+      "ru": [
+        "Asphodelus ayardii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1234,7 +1454,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/d4a6e35649263f386855bed0f7e456c7d0104e11",
-    "description": "Fleshy, indehiscent; a berry",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1245,17 +1465,17 @@
     "synonyms": "[\"Asphodelus albus var. glaucescens\", \"Asphodelus virgatus\", \"Asphodelus procerus\", \"Asphodelus proterophyllus\", \"Asphodelus ramosus var. cerasiferus\", \"Asphodelus albus var. comosus\", \"Asphodelus albus var. proterophyllus\", \"Asphodelus glaucescens\", \"Asphodelus albus var. grandiflorus\", \"Asphodelus ramosus var. validus\"]",
     "care": {
       "plant_id": "asphodelus_cerasiferus",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -1311,9 +1531,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.7
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بروق كرزي"
+      ],
+      "de": [
+        "Kirschen-Affodill"
+      ],
+      "en": [
+        "Asphodelus cerasiferus"
+      ],
+      "es": [
+        "Asphodelus cerasiferus"
+      ],
+      "fr": [
+        "Asphodèle porte-cerise"
+      ],
+      "it": [
+        "Asphodelus cerasiferus"
+      ],
+      "nl": [
+        "Asphodelus cerasiferus"
+      ],
+      "pl": [
+        "Asphodelus cerasiferus"
+      ],
+      "pt": [
+        "Asphodelus cerasifer"
+      ],
+      "ru": [
+        "Asphodelus cerasiferus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1339,17 +1592,17 @@
     "synonyms": "[\"Ophioprason fistulosum\", \"Verinea fistulosa\", \"Asphodeloides ramosa\"]",
     "care": {
       "plant_id": "asphodelus_fistulosus",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -1405,11 +1658,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.3
     },
     "common_names": {
+      "ar": [
+        "بروق أجوف"
+      ],
+      "de": [
+        "Röhriger Affodill"
+      ],
       "en": [
+        "Asphodelus fistulosus",
         "Wild onion"
+      ],
+      "es": [
+        "gamoncillo"
+      ],
+      "fr": [
+        "Asphodelus fistulosus"
+      ],
+      "it": [
+        "Asphodelus fistulosus"
+      ],
+      "nl": [
+        "Asphodelus fistulosus"
+      ],
+      "pl": [
+        "Asphodelus fistulosus"
+      ],
+      "pt": [
+        "Asphodelus fistulosus"
+      ],
+      "ru": [
+        "Asphodelus fistulosus"
+      ],
+      "tr": [
+        "Hıdırellezkamçısı"
       ]
     },
     "tags": [],
@@ -1426,7 +1712,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/7ea27c847f699779a9f91e8c787f2e7279753e71",
-    "description": "Fleshy, indehiscent; a berry",
+    "description": "Asphodelus macrocarpus is a herbaceous perennial plant belonging to the genus Asphodelus of the Asphodelaceae family. The Latin name macrocarpus of this species derives from the Greek μακρός and καρπειον, referred to the size of the fruits.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1442,12 +1728,12 @@
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -1503,9 +1789,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.8
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بلسكي"
+      ],
+      "de": [
+        "Asphodelus macrocarpus"
+      ],
+      "en": [
+        "Asphodelus macrocarpus"
+      ],
+      "es": [
+        "Asphodelus macrocarpus"
+      ],
+      "fr": [
+        "Asphodelus macrocarpus"
+      ],
+      "it": [
+        "Asphodelus macrocarpus"
+      ],
+      "nl": [
+        "Asphodelus macrocarpus"
+      ],
+      "pl": [
+        "Asphodelus macrocarpus"
+      ],
+      "pt": [
+        "Asphodelus macrocarpus"
+      ],
+      "ru": [
+        "Asphodelus macrocarpus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1520,7 +1839,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/48752493264c2709afcca2af142c604fb0f829ec",
-    "description": "Fleshy, indehiscent; a berry",
+    "description": "Asphodelus ramosus, the branched asphodel, is a perennial herbaceous plant in the order Asparagales. Similar in appearance to Asphodelus albus and particularly Asphodelus cerasiferus and Asphodelus aestivus, it may be distinguished by its highly branched stem and smaller fruits. There has been a lot of confusion over the nomenclature and taxonomy of the species, owing to its similarity to Asphodelus aestivus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1531,17 +1850,17 @@
     "synonyms": "[\"Asphodelus albus subsp. ramosus\"]",
     "care": {
       "plant_id": "asphodelus_ramosus",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -1597,11 +1916,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 8.0
     },
     "common_names": {
+      "ar": [
+        "بروق متفرع"
+      ],
+      "de": [
+        "Ästiger Affodill"
+      ],
       "en": [
+        "Asphodelus ramosus",
         "Silverrod"
+      ],
+      "es": [
+        "Asphodelus ramosus"
+      ],
+      "fr": [
+        "Asphodèle ramifié"
+      ],
+      "it": [
+        "Asphodelus ramosus"
+      ],
+      "nl": [
+        "Asphodelus ramosus"
+      ],
+      "pl": [
+        "Asphodelus ramosus"
+      ],
+      "pt": [
+        "abrótea"
+      ],
+      "ru": [
+        "Asphodelus ramosus"
       ]
     },
     "tags": [],
@@ -1618,7 +1967,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Asphodelus serotinus is a species of asphodel, endemic to the Iberian Peninsula.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1695,9 +2044,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "بروق ظلي"
+      ],
+      "de": [
+        "Asphodelus serotinus"
+      ],
+      "en": [
+        "Asphodelus serotinus"
+      ],
+      "es": [
+        "Asphodelus serotinus"
+      ],
+      "fr": [
+        "Asphodelus serotinus"
+      ],
+      "it": [
+        "Asphodelus serotinus"
+      ],
+      "nl": [
+        "Asphodelus serotinus"
+      ],
+      "pl": [
+        "Asphodelus serotinus"
+      ],
+      "pt": [
+        "Asphodelus serotinus"
+      ],
+      "ru": [
+        "Asphodelus serotinus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1712,7 +2094,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/e75210e14e87b268b81d81c141e5f8e17a2c2b00",
-    "description": "Fleshy, indehiscent; a berry",
+    "description": "Asphodelus tenuifolius is a species of plant in the asphodel family Asphodelaceae. It is native to North Africa, Southern Europe, the Middle East and South Asia. It has been introduced to Australia and the Mascarene Islands. It is generally present from the Canary Islands, across the Mediterranean to the Middle East and Afghanistan. It has a fibrous root system.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1723,7 +2105,7 @@
     "synonyms": "[\"Asphodelus tenuifolius f. micranthus\", \"Ornithogalum flavum\", \"Asphodelus fistulosus var. tenuifolius\", \"Asphodelus fistulosus subsp. nilotica\", \"Asphodelus serrulatifolius\", \"Asphodelus tenuifolius var. micranthus\", \"Asphodelus fistulosus subsp. faurei\", \"Asphodelus maroccanus\", \"Asphodelus bornmuelleri\", \"Asphodelus clavosus\"]",
     "care": {
       "plant_id": "asphodelus_tenuifolius",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -1789,11 +2171,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "بروق نحيف الأوراق"
+      ],
+      "de": [
+        "Asphodelus tenuifolius"
+      ],
       "en": [
+        "Asphodelus tenuifolius",
         "Onionweed"
+      ],
+      "es": [
+        "Asphodelus tenuifolius"
+      ],
+      "fr": [
+        "Asphodelus tenuifolius"
+      ],
+      "it": [
+        "Asphodelus tenuifolius"
+      ],
+      "nl": [
+        "Asphodelus tenuifolius"
+      ],
+      "pl": [
+        "Asphodelus tenuifolius"
+      ],
+      "pt": [
+        "Asphodelus tenuifolius"
+      ],
+      "ru": [
+        "Asphodelus tenuifolius"
       ]
     },
     "tags": [],
@@ -1810,7 +2222,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/3cfe222654b05a758c0120dd8c068d786d2ad0b6",
-    "description": null,
+    "description": "Bulbine bulbosa, commonly known as bulbine lily, native leek, golden lily, or native onion, is a species of flowering plant in the family Asphodelaceae and is endemic to Australia. It is a perennial herb with thick roots, channelled leaves, and yellow flowers with hairy stamen filaments.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1887,11 +2299,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bulbine bulbosa"
+      ],
       "en": [
+        "Bulbine bulbosa",
         "Golden-lily"
+      ],
+      "es": [
+        "Bulbine bulbosa"
+      ],
+      "fr": [
+        "Bulbine bulbosa"
+      ],
+      "it": [
+        "Bulbine bulbosa"
+      ],
+      "nl": [
+        "Bulbine bulbosa"
+      ],
+      "pl": [
+        "Bulbine bulbosa"
+      ],
+      "pt": [
+        "Bulbine bulbosa"
+      ],
+      "ru": [
+        "Bulbine bulbosa"
       ]
     },
     "tags": [],
@@ -1908,7 +2347,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/54c16ec5fe772a102229a14e7b65e934be207df2",
-    "description": null,
+    "description": "Bulbine semibarbata, commonly known as leek lily, native leek or wild onion, is a species of annual herb native to Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1985,11 +2424,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Bulbine semibarbata"
+      ],
       "en": [
+        "Bulbine semibarbata",
         "Leek lily"
+      ],
+      "es": [
+        "Bulbine semibarbata"
+      ],
+      "fr": [
+        "Bulbine semibarbata"
+      ],
+      "it": [
+        "Bulbine semibarbata"
+      ],
+      "nl": [
+        "Bulbine semibarbata"
+      ],
+      "pl": [
+        "Bulbine semibarbata"
+      ],
+      "pt": [
+        "Bulbine semibarbata"
+      ],
+      "ru": [
+        "Bulbine semibarbata"
       ]
     },
     "tags": [],
@@ -2006,7 +2472,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "",
-    "description": null,
+    "description": "Caesia calliantha, commonly known as the blue grass lily or blue star lily, is a species of herbaceous flowering plant. It is a member of the Asphodelaceae family, subfamily Hemerocallidoideae, native to Australia found predominantly along the East coast in Victoria, New South Wales, South Australia and Tasmania.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2083,9 +2549,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Caesia calliantha"
+      ],
+      "en": [
+        "Caesia calliantha"
+      ],
+      "es": [
+        "Caesia calliantha"
+      ],
+      "fr": [
+        "Caesia calliantha"
+      ],
+      "it": [
+        "Caesia calliantha"
+      ],
+      "nl": [
+        "Caesia calliantha"
+      ],
+      "pl": [
+        "Caesia calliantha"
+      ],
+      "pt": [
+        "Caesia calliantha"
+      ],
+      "ru": [
+        "Caesia calliantha"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2179,9 +2675,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Caesia parviflora"
+      ],
+      "en": [
+        "Caesia parviflora"
+      ],
+      "es": [
+        "Caesia parviflora"
+      ],
+      "fr": [
+        "Caesia parviflora"
+      ],
+      "it": [
+        "Caesia parviflora"
+      ],
+      "nl": [
+        "Caesia parviflora"
+      ],
+      "pl": [
+        "Caesia parviflora"
+      ],
+      "pt": [
+        "Caesia parviflora"
+      ],
+      "ru": [
+        "Caesia parviflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2196,7 +2722,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/12c24d3bce7ad27fb730b4f39a48a1264542147a",
-    "description": null,
+    "description": "Chamaescilla corymbosa, commonly known as blue stars, blue squill or mudrurt, is a tuberous perennial herb species in the genus Chamaescilla. It is endemic to southern Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2273,9 +2799,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Chamaescilla corymbosa"
+      ],
+      "en": [
+        "Chamaescilla corymbosa"
+      ],
+      "es": [
+        "Chamaescilla corymbosa"
+      ],
+      "fr": [
+        "Chamaescilla corymbosa"
+      ],
+      "it": [
+        "Chamaescilla corymbosa"
+      ],
+      "nl": [
+        "Chamaescilla corymbosa"
+      ],
+      "pl": [
+        "Chamaescilla corymbosa"
+      ],
+      "pt": [
+        "Chamaescilla corymbosa"
+      ],
+      "ru": [
+        "Chamaescilla corymbosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2290,7 +2846,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/38aa39ae9252729950940a6c918ff8f2.jpg",
-    "description": null,
+    "description": "Dianella amoena, commonly known as the matted flax-lily, is an endangered, herbaceous, perennial plant endemic to Australia. It belongs to the family Asphodelaceae, subfamily Hemerocallidoideae. It has long grey-green leaves which grow in clumps from an underground rhizome, and displays blue-purple flowers in spring-summer, up to 90 cm in height. The common name Matted Flax-lily refers to its extensively rhizomatous nature, sometimes forming large mats up to 5m wide.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2367,9 +2923,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dianella amoena"
+      ],
+      "en": [
+        "Dianella amoena"
+      ],
+      "es": [
+        "Dianella amoena"
+      ],
+      "fr": [
+        "Dianella amoena"
+      ],
+      "it": [
+        "Dianella amoena"
+      ],
+      "nl": [
+        "Dianella amoena"
+      ],
+      "pl": [
+        "Dianella amoena"
+      ],
+      "pt": [
+        "Dianella amoena"
+      ],
+      "ru": [
+        "Dianella amoena"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2461,9 +3047,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dianella brevicaulis"
+      ],
+      "en": [
+        "Dianella brevicaulis"
+      ],
+      "es": [
+        "Dianella brevicaulis"
+      ],
+      "fr": [
+        "Dianella brevicaulis"
+      ],
+      "it": [
+        "Dianella brevicaulis"
+      ],
+      "nl": [
+        "Dianella brevicaulis"
+      ],
+      "pl": [
+        "Dianella brevicaulis"
+      ],
+      "pt": [
+        "Dianella brevicaulis"
+      ],
+      "ru": [
+        "Dianella brevicaulis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2555,11 +3171,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dianella caerulea"
+      ],
       "en": [
-        "Blue flax-lily"
+        "Blue flax-lily",
+        "Dianella caerulea"
+      ],
+      "es": [
+        "Dianella caerulea"
+      ],
+      "fr": [
+        "Dianella caerulea"
+      ],
+      "it": [
+        "Dianella caerulea"
+      ],
+      "nl": [
+        "Dianella caerulea"
+      ],
+      "pl": [
+        "Dianella caerulea"
+      ],
+      "pt": [
+        "Dianella caerulea"
+      ],
+      "ru": [
+        "Dianella caerulea"
+      ],
+      "zh": [
+        "澳洲山菅"
       ]
     },
     "tags": [],
@@ -2576,7 +3222,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/7510f2ceff78b919f4e5181d104748ef8fb31b30",
-    "description": null,
+    "description": "Dianella ensifolia is a flowering plant, of the family Asphodelaceae. It is native to southern China, India, Japan, Madagascar, Malesia, the Pacific Islands, Singapore, Sri Lanka, Taiwan, and tropical Asia. Its common names include umbrella dracaena, common dianella, siak-siak, and flax lily.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2653,11 +3299,91 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dianella ensifolia"
+      ],
       "en": [
-        "Cerulean flaxlily"
+        "Cerulean flaxlily",
+        "Dianella ensifolia"
+      ],
+      "es": [
+        "Charlwoodia ensata",
+        "Conanthera forsteri",
+        "Cordyline ensifolia",
+        "Dianella albiflora",
+        "Dianella carinata",
+        "Dianella ensata",
+        "Dianella ensifolia",
+        "Dianella ensifolia f. albiflora",
+        "Dianella ensifolia f. racemulifera",
+        "Dianella ensifolia f. straminea",
+        "Dianella flabellata",
+        "Dianella forsteri",
+        "Dianella humilis",
+        "Dianella ledermannii",
+        "Dianella mauritiana",
+        "Dianella montana",
+        "Dianella monticola",
+        "Dianella nemorosa",
+        "Dianella nemorosa f. aspera",
+        "Dianella nemorosa f. caeruloides",
+        "Dianella nemorosa f. gracilis",
+        "Dianella nemorosa f. pallescens",
+        "Dianella nemorosa f. racemulifera",
+        "Dianella nemorosa f. robusta",
+        "Dianella obscura",
+        "Dianella odorata f. racemulifera",
+        "Dianella parviflora",
+        "Dianella pullei",
+        "Dianella robusta",
+        "Dianella sparsiflora",
+        "Dianella sparsiflora var. albiflora",
+        "Dianella sparsiflora var. carinata",
+        "Dianella sparsiflora var. flabellata",
+        "Dianella sparsiflora var. ledermannii",
+        "Dianella sparsiflora var. monticola",
+        "Dianella sparsiflora var. parviflora",
+        "Dianella sparsiflora var. pullei",
+        "Dianella straminea",
+        "Dracaena ensata",
+        "Dracaena ensifolia",
+        "Dracaena nemorosa",
+        "Eustrephus javanicus",
+        "Walleria paniculata"
+      ],
+      "fr": [
+        "Dianella ensifolia"
+      ],
+      "it": [
+        "Dianella ensifolia"
+      ],
+      "ja": [
+        "キキョウラン"
+      ],
+      "nl": [
+        "Dianella ensifolia"
+      ],
+      "pl": [
+        "Dianella ensifolia"
+      ],
+      "pt": [
+        "Dianella ensifolia"
+      ],
+      "ru": [
+        "Dianella ensifolia"
+      ],
+      "zh": [
+        "山交剪",
+        "山猫儿",
+        "山菅",
+        "山菅兰",
+        "桔梗蘭",
+        "老鼠砒"
       ]
     },
     "tags": [],
@@ -2673,8 +3399,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Dianella_sp._aff._longifolia_%28Benambra%29_%2828042287902%29.jpg",
+    "description": "Dianella longifolia, commonly known as blueberry lily, pale flax lily or smooth flax lily, or blue flax-lily, is a species of flowering plant in the family Asphodelaceae and is endemic to non-arid areas of Australia. It is a tufted, rhizomatous, perennial herb with grass-like leaves, pale blue, white or greenish flowers that have pale yellow anthers, and shiny, pale blue berries.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2751,9 +3477,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dianella longifolia"
+      ],
+      "en": [
+        "Dianella longifolia"
+      ],
+      "es": [
+        "Dianella longifolia"
+      ],
+      "fr": [
+        "Dianella longifolia"
+      ],
+      "it": [
+        "Dianella longifolia"
+      ],
+      "nl": [
+        "Dianella longifolia"
+      ],
+      "pl": [
+        "Dianella longifolia"
+      ],
+      "pt": [
+        "Dianella longifolia"
+      ],
+      "ru": [
+        "Dianella longifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2768,7 +3524,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6efddb10531012f50eac554527c9ca2c.jpg",
-    "description": null,
+    "description": "Dianella nigra, commonly known as turutu, inkberry, and the New Zealand blueberry, is a species of flowering plant in the family Asphodelaceae. It is endemic to New Zealand. Its range mainly covers the North and South Islands. It is typically found in coastal to montane environments, and the species can colonise various different habitats. A perennial herb, the species is known for its vibrant violet-blue berries and long green leaves.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2845,9 +3601,40 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dianella nigra"
+      ],
+      "en": [
+        "Dianella nigra",
+        "turutu"
+      ],
+      "es": [
+        "Dianella nigra"
+      ],
+      "fr": [
+        "Dianella nigra"
+      ],
+      "it": [
+        "Dianella nigra"
+      ],
+      "nl": [
+        "Dianella nigra"
+      ],
+      "pl": [
+        "Dianella nigra"
+      ],
+      "pt": [
+        "Dianella nigra"
+      ],
+      "ru": [
+        "Dianella nigra"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2939,9 +3726,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dianella revoluta"
+      ],
+      "en": [
+        "Dianella revoluta"
+      ],
+      "es": [
+        "Dianella revoluta"
+      ],
+      "fr": [
+        "Dianella revoluta"
+      ],
+      "it": [
+        "Dianella revoluta"
+      ],
+      "nl": [
+        "Dianella revoluta"
+      ],
+      "pl": [
+        "Dianella revoluta"
+      ],
+      "pt": [
+        "Dianella revoluta"
+      ],
+      "ru": [
+        "Dianella revoluta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2956,7 +3773,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/95d8d3f26ded6ec26efa958778770866a9ee1413",
-    "description": null,
+    "description": "Dianella tasmanica, commonly known as the Tasman flax-lily or Tasmanian flax-lily, is a herbaceous strappy perennial herb of the family Asphodelaceae, subfamily Hemerocallidoideae, found in southeastern Australia including Tasmania. Its leaves are up to 80 centimetres in length, and the flower stem is up to 1.5 m tall. Blue flowers in spring and summer are followed by violet berries. It adapts readily to cultivation and is commonly seen in Australian gardens.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3033,11 +3850,49 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dianella tasmanica"
+      ],
       "en": [
+        "Dianella tasmanica",
         "Tasman flax-lily"
+      ],
+      "es": [
+        "Dianella archeri",
+        "Dianella densa",
+        "Dianella divaricata f. dentifera",
+        "Dianella hookeri",
+        "Dianella tasmanica",
+        "Dianella tasmanica f. laevis",
+        "Dianella tasmanica var. gigantea",
+        "Dianella tasmanica var. variegata"
+      ],
+      "fr": [
+        "Dianella tasmanica"
+      ],
+      "it": [
+        "Dianella tasmanica"
+      ],
+      "nl": [
+        "Dianella tasmanica"
+      ],
+      "pl": [
+        "Dianella tasmanica"
+      ],
+      "pt": [
+        "Dianella tasmanica"
+      ],
+      "ru": [
+        "Dianella tasmanica"
+      ],
+      "zh": [
+        "塔斯马尼亚山菅",
+        "长果山菅"
       ]
     },
     "tags": [],
@@ -3054,7 +3909,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/efa03d0699b070b0f798a8fc87e8b3f496ea76bd",
-    "description": null,
+    "description": "Geitonoplesium is a genus in the family Asphodelaceae, containing the sole species Geitonoplesium cymosum, commonly known as scrambling lily. The species is a perennial evergreen scrambling vine found in rainforests, sclerophyll forests and woodlands of eastern Australia, and parts of Malesia and Melanesia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3131,9 +3986,40 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Geitonoplesium cymosum"
+      ],
+      "en": [
+        "Geitonoplesium cymosum",
+        "Scrambling Lily"
+      ],
+      "es": [
+        "Geitonoplesium cymosum"
+      ],
+      "fr": [
+        "Geitonoplesium cymosum"
+      ],
+      "it": [
+        "Geitonoplesium cymosum"
+      ],
+      "nl": [
+        "Geitonoplesium cymosum"
+      ],
+      "pl": [
+        "Geitonoplesium cymosum"
+      ],
+      "pt": [
+        "Geitonoplesium cymosum"
+      ],
+      "ru": [
+        "Geitonoplesium cymosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3159,17 +4045,17 @@
     "synonyms": "[\"Haworthia pumila subsp. attenuata\", \"Apicra attenuata\", \"Aloe attenuata\", \"Haworthia attenuata\", \"Catevala attenuata\"]",
     "care": {
       "plant_id": "haworthia_fasciata",
-      "water_frequency": "Every 2-3 weeks, let dry completely",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": "Once a month",
       "water_demand": "",
       "start_pct": 0,
       "stop_pct": 0,
-      "light_preferred": "Bright indirect, some direct morning sun",
-      "light_also_ok": "Medium indirect",
-      "ppfd_min": 150,
-      "ppfd_max": 500,
-      "dli_min": 6.0,
-      "dli_max": 16.0,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Shade",
+      "ppfd_min": 100,
+      "ppfd_max": 400,
+      "dli_min": 4.0,
+      "dli_max": 14.0,
       "temp_min_c": 18,
       "temp_max_c": 27,
       "humidity_level": "Low (30-40%)",
@@ -3202,7 +4088,7 @@
         "Mealybugs",
         "Scale"
       ],
-      "watering_method": null,
+      "watering_method": "Top layer should be dry",
       "watering_avoid": null,
       "temp_opt_low_c": null,
       "temp_opt_high_c": null,
@@ -3232,11 +4118,33 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
+        "Zebra Haworthia",
         "Zebra Plant"
+      ],
+      "es": [
+        "Magueycito sudafricano"
+      ],
+      "fr": [
+        "Haworthie à bande"
+      ],
+      "pl": [
+        "Haworsja wąskolistna"
+      ],
+      "pt": [
+        "Rabo-de-tatu"
+      ],
+      "ru": [
+        "Хавортия оттянутая"
+      ],
+      "zh": [
+        "垂叶鹰爪草",
+        "松之雪"
       ]
     },
     "tags": [
@@ -3267,17 +4175,17 @@
     "synonyms": "[\"Hemerocallis lilioasphodelus var. fulva\", \"Hemerocallis crocea\"]",
     "care": {
       "plant_id": "hemerocallis_fulva",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -3299,7 +4207,7 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Anacis verticillata",
       "toxic_to_pets": 1,
-      "toxic_to_humans": 0,
+      "toxic_to_humans": 1,
       "toxicity_note": "Toxic to Cats Non-Toxic to Dogs. Signs: Cats: Vomiting, inappetence, lethargy, kidney failure, death.",
       "common_problems": null,
       "common_pests": null,
@@ -3318,7 +4226,7 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Arching",
-      "toxic_parts": null,
+      "toxic_parts": "Whole plant",
       "toxicity_severity": "Severe",
       "toxicity_symptoms": "Cats: Vomiting, inappetence, lethargy, kidney failure, death.",
       "toxicity_first_aid": "Remove any remaining plant material from mouth. Rinse with water. Monitor for symptoms (vomiting, drooling, lethargy). Call poison control or vet if symptoms appear.",
@@ -3333,11 +4241,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.3
     },
     "common_names": {
+      "ar": [
+        "زنبق النهار الكهرماني"
+      ],
+      "de": [
+        "Gelbrote Taglilie"
+      ],
       "en": [
-        "Fulvous day-lily"
+        "Fulvous day-lily",
+        "Hemerocallis fulva"
+      ],
+      "es": [
+        "Hemerocallis fulva"
+      ],
+      "fr": [
+        "Hémérocalle fauve"
+      ],
+      "it": [
+        "Hemerocallis fulva"
+      ],
+      "ja": [
+        "ワスレグサ"
+      ],
+      "ko": [
+        "원추리"
+      ],
+      "nl": [
+        "Hemerocallis fulva"
+      ],
+      "pl": [
+        "liliowiec rdzawy"
+      ],
+      "pt": [
+        "Hemerocallis fulva"
+      ],
+      "ru": [
+        "Лилейник буро-жёлтый"
+      ],
+      "tr": [
+        "Turuncu güngüzeli"
+      ],
+      "zh": [
+        "萱草"
       ]
     },
     "tags": [],
@@ -3365,17 +4315,17 @@
     "synonyms": "[\"Hemerocallis flava var. aurantiaca\", \"Hemerocallis lutea\", \"Hemerocallis flava\", \"Hemerocallis lilioasphodelus var. nana\", \"Hemerocallis lilioasphodelus var. flava\", \"Hemerocallis lilioasphodelus f. aurantiaca\", \"Cameraria lilioasphodelus\"]",
     "care": {
       "plant_id": "hemerocallis_lilioasphodelus",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -3431,11 +4381,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": 6.3
     },
     "common_names": {
+      "de": [
+        "Hemerocallis lilioasphodelus"
+      ],
       "en": [
+        "Hemerocallis lilioasphodelus",
         "Lemon day-lily"
+      ],
+      "es": [
+        "Hemerocallis lilioasphodelus"
+      ],
+      "fr": [
+        "Hemerocallis lilioasphodelus"
+      ],
+      "it": [
+        "Hemerocallis lilioasphodelus"
+      ],
+      "ja": [
+        "マンシュウキスゲ"
+      ],
+      "nl": [
+        "Hemerocallis lilioasphodelus"
+      ],
+      "pl": [
+        "Hemerocallis lilioasphodelus"
+      ],
+      "pt": [
+        "Hemerocallis lilioasphodelus"
+      ],
+      "ru": [
+        "лилейник жёлтый"
+      ],
+      "zh": [
+        "北黄花菜"
       ]
     },
     "tags": [],
@@ -3452,7 +4435,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/ac5cb68f2a1af26d20cf5746e9cf082f2bb509be",
-    "description": null,
+    "description": "Hemerocallis middendorffii, known as Amur daylily, is a plant species in the subfamily Hemerocallidoideae of the family Asphodelaceae of the order Asparagales. It is native to the Russian Far East, northwest China, Korea, and Japan. It grows in meadows, mountain slopes, open woods, and scrub. It is cultivated in Asia for its edible flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3463,7 +4446,7 @@
     "synonyms": "[\"Hemerocallis dumortieri subsp. middendorffii\", \"Hemerocallis dumortieri var. middendorffii\"]",
     "care": {
       "plant_id": "hemerocallis_middendorffii",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -3529,11 +4512,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hemerocallis middendorfii"
+      ],
       "en": [
-        "Amur day-lily"
+        "Amur day-lily",
+        "Hemerocallis middendorffii"
+      ],
+      "es": [
+        "Hemerocallis middendorffii"
+      ],
+      "fr": [
+        "Hemerocallis middendorffii"
+      ],
+      "it": [
+        "Hemerocallis middendorfii"
+      ],
+      "ja": [
+        "オオゼンテイカ"
+      ],
+      "nl": [
+        "Hemerocallis middendorffii"
+      ],
+      "pl": [
+        "Liliowiec Middendorffa"
+      ],
+      "pt": [
+        "Hemerocallis middendorffii"
+      ],
+      "ru": [
+        "Лилейник Миддендорфа"
+      ],
+      "zh": [
+        "大苞萱草"
       ]
     },
     "tags": [],
@@ -3550,7 +4566,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/51b5f5dd5ef9a597fa953278c085baa6bb18976e",
-    "description": "3-parted seed capsule",
+    "description": "Hemerocallis minor, is also known as dwarf daylily, grassleaf lily and small daylily. It is native to northern Asia. The plant grows up through 0.5 m high. Its wide yellow flowers are scentless. It is a hermaphroditic species, pollinated by insects such as honey bees.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3561,7 +4577,7 @@
     "synonyms": "[\"Hemerocallis sulphurea\", \"Hemerocallis pumila\", \"Hemerocallis lilioasphodelus var. minor\", \"Hemerocallis graminifolia\", \"Hemerocallis flava var. minor\", \"Hemerocallis graminea\"]",
     "care": {
       "plant_id": "hemerocallis_minor",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
@@ -3629,11 +4645,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 7,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زنبق النهار الأصغر"
+      ],
+      "de": [
+        "Hemerocallis minor"
+      ],
       "en": [
-        "Dwarf yellow day-lily"
+        "Dwarf yellow day-lily",
+        "Hemerocallis minor"
+      ],
+      "es": [
+        "Hemerocallis minor"
+      ],
+      "fr": [
+        "Hemerocallis minor"
+      ],
+      "it": [
+        "Hemerocallis minor"
+      ],
+      "ja": [
+        "ホソバキスゲ"
+      ],
+      "nl": [
+        "Hemerocallis minor"
+      ],
+      "pl": [
+        "Hemerocallis minor"
+      ],
+      "pt": [
+        "Hemerocallis minor"
+      ],
+      "ru": [
+        "Hemerocallis minor"
+      ],
+      "zh": [
+        "小黄花菜"
       ]
     },
     "tags": [],
@@ -3727,11 +4779,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كنيفوفيا عنبية"
+      ],
+      "de": [
+        "Schopf-Fackellilie"
+      ],
       "en": [
+        "Kniphofia uvaria",
         "Pokerplant"
+      ],
+      "es": [
+        "Kniphofia uvaria"
+      ],
+      "fr": [
+        "Kniphofia uvaria"
+      ],
+      "it": [
+        "Kniphofia uvaria"
+      ],
+      "nl": [
+        "Kniphofia uvaria"
+      ],
+      "pl": [
+        "Trytoma groniasta"
+      ],
+      "pt": [
+        "Kniphofia uvaria"
+      ],
+      "ru": [
+        "Книпхофия ягодная"
+      ],
+      "zh": [
+        "火炬花"
       ]
     },
     "tags": [],
@@ -3829,9 +4914,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phormium colensoi"
+      ],
+      "en": [
+        "Phormium colensoi"
+      ],
+      "es": [
+        "Phormium colensoi"
+      ],
+      "fr": [
+        "Phormium colensoi"
+      ],
+      "it": [
+        "Phormium colensoi"
+      ],
+      "nl": [
+        "Phormium colensoi"
+      ],
+      "pl": [
+        "Phormium colensoi"
+      ],
+      "pt": [
+        "Phormium colensoi"
+      ],
+      "ru": [
+        "Phormium colensoi"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3927,11 +5042,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كستان زيلنده الجديدة"
+      ],
+      "de": [
+        "Neuseeländer Flachs"
+      ],
       "en": [
-        "New zealand flax"
+        "New zealand flax",
+        "Phormium tenax"
+      ],
+      "es": [
+        "Phormium tenax"
+      ],
+      "fr": [
+        "Phormium tenax"
+      ],
+      "it": [
+        "Phormium tenax"
+      ],
+      "ja": [
+        "マオラン"
+      ],
+      "ko": [
+        "뉴질랜드삼"
+      ],
+      "nl": [
+        "Phormium tenax"
+      ],
+      "pl": [
+        "Tęgosz mocny"
+      ],
+      "pt": [
+        "Phormium tenax"
+      ],
+      "ru": [
+        "Новозеландский лён"
+      ],
+      "zh": [
+        "新西兰麻"
       ]
     },
     "tags": [],
@@ -3948,7 +5102,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/00ef126adc259c967fc7e838b37b82bb.jpg",
-    "description": null,
+    "description": "Simethis is a genus of plants in the family Asphodelaceae, subfamily Hemerocallidoideae. It contains only one known species, Simethis mattiazzii, commonly called the Kerry lily.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3959,17 +5113,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "simethis_mattiazzii",
-      "water_frequency": "Every 2-3 weeks",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright direct or indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 5,
       "temp_max_c": 35,
       "humidity_level": "Low (30-40%)",
@@ -4025,9 +5179,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 5,
+      "ellenberg_l": 7.2
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Simethis mattiazzii"
+      ],
+      "en": [
+        "Simethis mattiazzii"
+      ],
+      "es": [
+        "Simethis mattiazzii"
+      ],
+      "fr": [
+        "Simethis mattiazzii"
+      ],
+      "it": [
+        "Simethis mattiazzii"
+      ],
+      "nl": [
+        "Simethis mattiazzii"
+      ],
+      "pl": [
+        "Simethis mattiazzii"
+      ],
+      "pt": [
+        "oropesas"
+      ],
+      "ru": [
+        "Simethis mattiazzii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4119,9 +5303,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Stypandra glauca"
+      ],
+      "en": [
+        "Stypandra glauca"
+      ],
+      "es": [
+        "Stypandra glauca"
+      ],
+      "fr": [
+        "Stypandra glauca"
+      ],
+      "it": [
+        "Stypandra glauca"
+      ],
+      "nl": [
+        "Stypandra glauca"
+      ],
+      "pl": [
+        "Stypandra glauca"
+      ],
+      "pt": [
+        "Stypandra glauca"
+      ],
+      "ru": [
+        "Stypandra glauca"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4213,9 +5427,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thelionema caespitosum"
+      ],
+      "en": [
+        "Thelionema caespitosum"
+      ],
+      "es": [
+        "Thelionema caespitosum"
+      ],
+      "fr": [
+        "Thelionema caespitosum"
+      ],
+      "it": [
+        "Thelionema caespitosum"
+      ],
+      "nl": [
+        "Thelionema caespitosum"
+      ],
+      "pl": [
+        "Thelionema caespitosum"
+      ],
+      "pt": [
+        "Thelionema caespitosum"
+      ],
+      "ru": [
+        "Thelionema caespitosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4307,9 +5551,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tricoryne elatior"
+      ],
+      "en": [
+        "Tricoryne elatior"
+      ],
+      "es": [
+        "Tricoryne elatior"
+      ],
+      "fr": [
+        "Tricoryne elatior"
+      ],
+      "it": [
+        "Tricoryne elatior"
+      ],
+      "nl": [
+        "Tricoryne elatior"
+      ],
+      "pl": [
+        "Tricoryne elatior"
+      ],
+      "pt": [
+        "Tricoryne elatior"
+      ],
+      "ru": [
+        "Tricoryne elatior"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4401,9 +5675,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مصفورة شجرية"
+      ],
+      "de": [
+        "Xanthorrhoea arborea"
+      ],
+      "en": [
+        "Xanthorrhoea arborea"
+      ],
+      "es": [
+        "Xanthorrhoea arborea"
+      ],
+      "fr": [
+        "Xanthorrhoea arborea"
+      ],
+      "it": [
+        "Xanthorrhoea arborea"
+      ],
+      "nl": [
+        "Xanthorrhoea arborea"
+      ],
+      "pl": [
+        "Xanthorrhoea arborea"
+      ],
+      "pt": [
+        "Xanthorrhoea arborea"
+      ],
+      "ru": [
+        "Xanthorrhoea arborea"
+      ],
+      "zh": [
+        "树百合"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4418,7 +5728,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/ff65eef229b9c8e469cc581e319782f002bfda63",
-    "description": null,
+    "description": "Xanthorrhoea australis, the grass tree or austral grasstree, is an Australian plant. It is the most commonly seen species of the genus Xanthorrhoea. Its trunk can grow up to several metres tall and is often branched. In certain Aboriginal languages, it is called bukkup, baggup or kawee.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4495,9 +5805,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مصفورة جنوبية"
+      ],
+      "de": [
+        "Xanthorrhoea australis"
+      ],
+      "en": [
+        "Xanthorrhoea australis"
+      ],
+      "es": [
+        "Xanthorrhoea australis"
+      ],
+      "fr": [
+        "Xanthorrhoea australis"
+      ],
+      "it": [
+        "Xanthorrhoea australis"
+      ],
+      "nl": [
+        "Xanthorrhoea australis"
+      ],
+      "pl": [
+        "Xanthorrhoea australis"
+      ],
+      "pt": [
+        "Xanthorrhoea australis"
+      ],
+      "ru": [
+        "Xanthorrhoea australis"
+      ],
+      "zh": [
+        "黑仔树"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4511,8 +5857,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Xanthorrhoea_caespitosa_133991628.jpg",
+    "description": "Xanthorrhoea caespitosa, commonly known as sand-heath grasstree, is a species of grasstree of the genus Xanthorrhoea native to south-eastern Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4589,9 +5935,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مصفورة سبيبية"
+      ],
+      "de": [
+        "Xanthorrhoea caespitosa"
+      ],
+      "en": [
+        "Xanthorrhoea caespitosa"
+      ],
+      "es": [
+        "Xanthorrhoea caespitosa"
+      ],
+      "fr": [
+        "Xanthorrhoea caespitosa"
+      ],
+      "it": [
+        "Xanthorrhoea caespitosa"
+      ],
+      "nl": [
+        "Xanthorrhoea caespitosa"
+      ],
+      "pl": [
+        "Xanthorrhoea caespitosa"
+      ],
+      "pt": [
+        "Xanthorrhoea caespitosa"
+      ],
+      "ru": [
+        "Xanthorrhoea caespitosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4683,9 +6062,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Xanthorrhoea concava"
+      ],
+      "en": [
+        "Xanthorrhoea concava"
+      ],
+      "es": [
+        "Xanthorrhoea concava"
+      ],
+      "fr": [
+        "Xanthorrhoea concava"
+      ],
+      "it": [
+        "Xanthorrhoea concava"
+      ],
+      "nl": [
+        "Xanthorrhoea concava"
+      ],
+      "pl": [
+        "Xanthorrhoea concava"
+      ],
+      "pt": [
+        "Xanthorrhoea concava"
+      ],
+      "ru": [
+        "Xanthorrhoea concava"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4777,11 +6186,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مصفورة زرقاء"
+      ],
+      "de": [
+        "Xanthorrhoea glauca"
+      ],
       "en": [
-        "Grass tree"
+        "Grass tree",
+        "Xanthorrhoea glauca"
+      ],
+      "es": [
+        "Xanthorrhoea glauca"
+      ],
+      "fr": [
+        "Xanthorrhoea glauca"
+      ],
+      "it": [
+        "Xanthorrhoea glauca"
+      ],
+      "nl": [
+        "Xanthorrhoea glauca"
+      ],
+      "pl": [
+        "Xanthorrhoea glauca"
+      ],
+      "pt": [
+        "Xanthorrhoea glauca"
+      ],
+      "ru": [
+        "Xanthorrhoea glauca"
       ]
     },
     "tags": [],
@@ -4875,9 +6314,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مصفورة جونسونية"
+      ],
+      "de": [
+        "Xanthorrhoea johnsonii"
+      ],
+      "en": [
+        "Xanthorrhoea johnsonii"
+      ],
+      "es": [
+        "Xanthorrhoea johnsonii"
+      ],
+      "fr": [
+        "Xanthorrhoea johnsonii"
+      ],
+      "it": [
+        "Xanthorrhoea johnsonii"
+      ],
+      "nl": [
+        "Xanthorrhoea johnsonii"
+      ],
+      "pl": [
+        "Xanthorrhoea johnsonii"
+      ],
+      "pt": [
+        "Xanthorrhoea johnsonii"
+      ],
+      "ru": [
+        "Xanthorrhoea johnsonii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4891,8 +6363,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Xanthorhoea_latifolia.jpg",
+    "description": "Xanthorrhoea latifolia is a species of grasstree of the genus Xanthorrhoea native to New South Wales and Queensland.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4969,9 +6441,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Xanthorrhoea latifolia"
+      ],
+      "en": [
+        "Xanthorrhoea latifolia"
+      ],
+      "es": [
+        "Xanthorrhoea latifolia"
+      ],
+      "fr": [
+        "Xanthorrhoea latifolia"
+      ],
+      "it": [
+        "Xanthorrhoea latifolia"
+      ],
+      "nl": [
+        "Xanthorrhoea latifolia"
+      ],
+      "pl": [
+        "Xanthorrhoea latifolia"
+      ],
+      "pt": [
+        "Xanthorrhoea latifolia"
+      ],
+      "ru": [
+        "Xanthorrhoea latifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5063,9 +6565,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مصفورة كبيرة الأسدية"
+      ],
+      "de": [
+        "Xanthorrhoea macronema"
+      ],
+      "en": [
+        "Xanthorrhoea macronema"
+      ],
+      "es": [
+        "Xanthorrhoea macronema"
+      ],
+      "fr": [
+        "Xanthorrhoea macronema"
+      ],
+      "it": [
+        "Xanthorrhoea macronema"
+      ],
+      "nl": [
+        "Xanthorrhoea macronema"
+      ],
+      "pl": [
+        "Xanthorrhoea macronema"
+      ],
+      "pt": [
+        "Xanthorrhoea macronema"
+      ],
+      "ru": [
+        "Xanthorrhoea macronema"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5157,9 +6692,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مصفورة متوسطة"
+      ],
+      "de": [
+        "Xanthorrhoea media"
+      ],
+      "en": [
+        "Xanthorrhoea media"
+      ],
+      "es": [
+        "Xanthorrhoea media"
+      ],
+      "fr": [
+        "Xanthorrhoea media"
+      ],
+      "it": [
+        "Xanthorrhoea media"
+      ],
+      "nl": [
+        "Xanthorrhoea media"
+      ],
+      "pl": [
+        "Xanthorrhoea media"
+      ],
+      "pt": [
+        "Xanthorrhoea media"
+      ],
+      "ru": [
+        "Xanthorrhoea media"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5174,7 +6742,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f5c7726855c7fe7ea10927c1ccc53c47.jpg",
-    "description": null,
+    "description": "Xanthorrhoea minor is a species of trunkless grasstree in the family Asphodelaceae native to south-eastern Australia. It was one of the many species authored by the Scottish botanist Robert Brown.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5251,9 +6819,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مصفورة صغرى"
+      ],
+      "de": [
+        "Xanthorrhoea minor"
+      ],
+      "en": [
+        "Xanthorrhoea minor"
+      ],
+      "es": [
+        "Xanthorrhoea minor"
+      ],
+      "fr": [
+        "Xanthorrhoea minor"
+      ],
+      "it": [
+        "Xanthorrhoea minor"
+      ],
+      "nl": [
+        "Xanthorrhoea minor"
+      ],
+      "pl": [
+        "Xanthorrhoea minor"
+      ],
+      "pt": [
+        "Xanthorrhoea minor"
+      ],
+      "ru": [
+        "Xanthorrhoea minor"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5268,7 +6869,7 @@
     "has_phases": 0,
     "preset": "Succulents",
     "image_url": "https://bs.plantnet.org/image/o/806c39ccaae1c89ac58c5debabf8246f2778792b",
-    "description": null,
+    "description": "Xanthorrhoea preissii, known as balga, is a widespread species of perennial monocot in Southwest Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5345,11 +6946,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مصفورة بريسية"
+      ],
+      "de": [
+        "Xanthorrhoea preissii"
+      ],
       "en": [
-        "Balga"
+        "Balga",
+        "Xanthorrhoea preissii"
+      ],
+      "es": [
+        "Xanthorrhoea preissii"
+      ],
+      "fr": [
+        "Xanthorrhoea preissii"
+      ],
+      "it": [
+        "Xanthorrhoea preissii"
+      ],
+      "nl": [
+        "Xanthorrhoea preissii"
+      ],
+      "pl": [
+        "Xanthorrhoea preissii"
+      ],
+      "pt": [
+        "Xanthorrhoea preissii"
+      ],
+      "ru": [
+        "Xanthorrhoea preissii"
       ]
     },
     "tags": [],
@@ -5443,11 +7074,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "مصفورة رباعية الأضلاع"
+      ],
+      "de": [
+        "Xanthorrhoea quadrangulata"
+      ],
       "en": [
-        "Grass tree"
+        "Grass tree",
+        "Xanthorrhoea quadrangulata"
+      ],
+      "es": [
+        "Xanthorrhoea quadrangulata"
+      ],
+      "fr": [
+        "Xanthorrhoea quadrangulata"
+      ],
+      "it": [
+        "Xanthorrhoea quadrangulata"
+      ],
+      "nl": [
+        "Xanthorrhoea quadrangulata"
+      ],
+      "pl": [
+        "Xanthorrhoea quadrangulata"
+      ],
+      "pt": [
+        "Xanthorrhoea quadrangulata"
+      ],
+      "ru": [
+        "Xanthorrhoea quadrangulata"
       ]
     },
     "tags": [],
@@ -5541,9 +7202,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مصفورة راتنجية"
+      ],
+      "de": [
+        "Xanthorrhoea resinosa"
+      ],
+      "en": [
+        "Xanthorrhoea resinosa"
+      ],
+      "es": [
+        "Xanthorrhoea resinosa"
+      ],
+      "fr": [
+        "Xanthorrhoea resinosa"
+      ],
+      "it": [
+        "Xanthorrhoea resinosa"
+      ],
+      "nl": [
+        "Xanthorrhoea resinosa"
+      ],
+      "pl": [
+        "Xanthorrhoea resinosa"
+      ],
+      "pt": [
+        "Xanthorrhoea resinosa"
+      ],
+      "ru": [
+        "Xanthorrhoea resinosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5557,8 +7251,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Succulents",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Kangaroo_Island_grass_tree_01.JPG",
+    "description": "Xanthorrhoea semiplana is a species of grass tree found in south-eastern Australia, with two subspecies:",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5635,9 +7329,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "مصفورة شبه مستوية"
+      ],
+      "de": [
+        "Xanthorrhoea semiplana"
+      ],
+      "en": [
+        "Xanthorrhoea semiplana"
+      ],
+      "es": [
+        "Xanthorrhoea semiplana"
+      ],
+      "fr": [
+        "Xanthorrhoea semiplana"
+      ],
+      "it": [
+        "Xanthorrhoea semiplana"
+      ],
+      "nl": [
+        "Xanthorrhoea semiplana"
+      ],
+      "pl": [
+        "Xanthorrhoea semiplana"
+      ],
+      "pt": [
+        "Xanthorrhoea semiplana"
+      ],
+      "ru": [
+        "Xanthorrhoea semiplana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Gnetaceae",
     "genus": "Gnetum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ef5a1c31bedcf75a547ac659e815c6c4ad3e043c",
-    "description": null,
+    "description": "Gnetum gnemon is a gymnosperm species of Gnetum. Its native area spans from Mizoram and Assam in India down south through Malay Peninsula, Malay Archipelago and the Philippines in southeast Asia to the western Pacific islands. Common names include gnetum, joint fir, two leaf, melinjo/belinjo (Indonesian), bago/lumbay (Filipino), hanthu (Karbi) and tulip.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جنيتم جنيمون"
+      ],
+      "de": [
+        "Gnetum gnemon"
+      ],
       "en": [
+        "Gnetum gnemon",
         "Spanish joint-fir"
+      ],
+      "es": [
+        "Gnetum gnemon"
+      ],
+      "fr": [
+        "Gnetum gnemon"
+      ],
+      "it": [
+        "Gnetum gnemon"
+      ],
+      "ja": [
+        "グネモン"
+      ],
+      "nl": [
+        "melindjoe"
+      ],
+      "pl": [
+        "Gnetum gnemon"
+      ],
+      "pt": [
+        "Gnetum gnemon"
+      ],
+      "ru": [
+        "Гнетум гнемон"
+      ],
+      "zh": [
+        "灌状买麻藤"
       ]
     },
     "tags": [],

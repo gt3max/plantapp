@@ -5,12 +5,12 @@
     "family": "Capparaceae",
     "genus": "Boscia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/90268bd413a7cb5eb42628c74b778141c43f4e7f",
-    "description": null,
+    "description": "Boscia senegalensis, commonly known as hanza, is a member of the family Capparaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نبات بوسكيا السنغالية"
+      ],
+      "de": [
+        "Boscia senegalensis"
+      ],
       "en": [
+        "Boscia senegalensis",
         "Senegal boscia"
+      ],
+      "es": [
+        "Boscia senegalensis"
+      ],
+      "fr": [
+        "Boscia senegalensis"
+      ],
+      "it": [
+        "Boscia senegalensis"
+      ],
+      "nl": [
+        "Boscia senegalensis"
+      ],
+      "pl": [
+        "Boscia senegalensis"
+      ],
+      "pt": [
+        "Boscia senegalensis"
+      ],
+      "ru": [
+        "Boscia senegalensis"
       ]
     },
     "tags": [],
@@ -103,12 +133,12 @@
     "family": "Capparaceae",
     "genus": "Cadaba",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a2836a2f1a6cec8baf9a04d4a893fe70b2d1c025",
-    "description": null,
+    "description": "Cadaba farinosa is a 2–8 m (6.6–26.2 ft) high evergreen shrub or small tree that belongs to the caper family. It has simple ovate leaves with entire margins, zygomorphic, spidery, greenish, yellowish, whitish or pinkish flowers, and is covered in powdery hairs or scales, particularly the younger parts. It can be found in a zone from Senegal to India between the desert and the savanna.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,9 +215,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "قضب طحيني"
+      ],
+      "de": [
+        "Cadaba farinosa"
+      ],
+      "en": [
+        "Cadaba farinosa"
+      ],
+      "es": [
+        "Cadaba farinosa"
+      ],
+      "fr": [
+        "Cadaba farinosa"
+      ],
+      "it": [
+        "Cadaba farinosa"
+      ],
+      "nl": [
+        "Cadaba farinosa"
+      ],
+      "pl": [
+        "Cadaba farinosa"
+      ],
+      "pt": [
+        "Cadaba farinosa"
+      ],
+      "ru": [
+        "Cadaba farinosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -197,12 +260,12 @@
     "family": "Capparaceae",
     "genus": "Capparis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/fcec0a96938466ee3c7ca5d73cfaf7ec.jpg",
-    "description": null,
+    "description": "Capparis arborea is a bush or small tree occurring in eastern Australia. Its habitat is rainforest, usually riverine, littoral or the drier rainforests. It is distributed from the Hunter River, New South Wales to Cape Melville in tropical Queensland. Common names include native pomegranate, wild lime, wild lemon and brush caper berry. Capparis arborea is a host plant for the caper white , which migrate across the eastern seaboard in large numbers in the summer. It also feeds the chalky white ",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -213,7 +276,7 @@
     "synonyms": "[\"Capparis nobilis var. laurina\", \"Capparis nobilis var. arborea\", \"Busbeckea arborea\"]",
     "care": {
       "plant_id": "capparis_arborea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -279,9 +342,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "قبار شجري"
+      ],
+      "de": [
+        "Capparis arborea"
+      ],
+      "en": [
+        "Capparis arborea"
+      ],
+      "es": [
+        "Capparis arborea"
+      ],
+      "fr": [
+        "Capparis arborea"
+      ],
+      "it": [
+        "Capparis arborea"
+      ],
+      "nl": [
+        "Capparis arborea"
+      ],
+      "pl": [
+        "Capparis arborea"
+      ],
+      "pt": [
+        "Capparis arborea"
+      ],
+      "ru": [
+        "Capparis arborea"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -291,12 +387,12 @@
     "family": "Capparaceae",
     "genus": "Capparis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Capparis lasiantha is an endemic Australian plant with a range that extends from the Kimberley region through the Northern Territory and Queensland to northern New South Wales, primarily in drier inland areas although the species extends to the coast in Central Queensland. Common names are numerous and include wyjeelah, nepine, split jack, nipang creeper, nipan, native orange and bush caper.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -307,7 +403,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "capparis_lasiantha",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -373,9 +469,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "قبار أشعث الأزهار"
+      ],
+      "de": [
+        "Capparis lasiantha"
+      ],
+      "en": [
+        "Capparis lasiantha"
+      ],
+      "es": [
+        "Capparis lasiantha"
+      ],
+      "fr": [
+        "Capparis lasiantha"
+      ],
+      "it": [
+        "Capparis lasiantha"
+      ],
+      "nl": [
+        "Capparis lasiantha"
+      ],
+      "pl": [
+        "Capparis lasiantha"
+      ],
+      "pt": [
+        "Capparis lasiantha"
+      ],
+      "ru": [
+        "Capparis lasiantha"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -385,12 +514,12 @@
     "family": "Capparaceae",
     "genus": "Capparis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ea010c9eb3cec475476cf6f949ca96144d39a07d",
-    "description": null,
+    "description": "The wild orange is an Australian native plant found in dry inland areas of Australia. Its scientific name is Capparis mitchellii. It is not related to oranges, nor to the Osage-orange which is known as \"wild orange\" in North America, but to capers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -401,7 +530,7 @@
     "synonyms": "[\"Busbeckea mitchellii\"]",
     "care": {
       "plant_id": "capparis_mitchellii",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -467,11 +596,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Capparis mitchellii"
+      ],
       "en": [
+        "Capparis mitchellii",
         "Desert caper"
+      ],
+      "es": [
+        "Capparis mitchellii"
+      ],
+      "fr": [
+        "Capparis mitchellii"
+      ],
+      "it": [
+        "Capparis mitchelii"
+      ],
+      "nl": [
+        "Capparis mitchellii"
+      ],
+      "pl": [
+        "Capparis mitchellii"
+      ],
+      "pt": [
+        "Capparis mitchellii"
+      ],
+      "ru": [
+        "Capparis mitchellii"
       ]
     },
     "tags": [],
@@ -483,12 +639,12 @@
     "family": "Capparaceae",
     "genus": "Capparis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/85857d77912ee345dfab8b9792a6caaaa28af3f4",
-    "description": null,
+    "description": "Capparis sepiaria, also commonly called hedge caper or wild caper bush, is a shrub that has a pantropical distribution, especially in dry deciduous forests, foothills and scrub jungles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -499,13 +655,13 @@
     "synonyms": null,
     "care": {
       "plant_id": "capparis_sepiaria",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
       "ppfd_min": 46,
       "ppfd_max": 92,
       "dli_min": 0.2,
@@ -565,11 +721,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "de": [
+        "Capparis sepiaria"
+      ],
       "en": [
+        "Capparis sepiaria",
         "Hedge caper-bush"
+      ],
+      "es": [
+        "Capparis sepiaria"
+      ],
+      "fr": [
+        "Capparis sepiaria"
+      ],
+      "it": [
+        "Capparis sepiaria"
+      ],
+      "nl": [
+        "Capparis sepiaria"
+      ],
+      "pl": [
+        "Capparis sepiaria"
+      ],
+      "pt": [
+        "Capparis sepiaria"
+      ],
+      "ru": [
+        "Capparis sepiaria"
+      ],
+      "zh": [
+        "青皮刺"
       ]
     },
     "tags": [],
@@ -581,12 +767,12 @@
     "family": "Capparaceae",
     "genus": "Capparis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9326c141237867d5a3e65a00d62cdd023474ce58",
-    "description": null,
+    "description": "Capparis tomentosa, the woolly caper bush or African caper, is a plant in the family Capparaceae and is native to Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -597,7 +783,7 @@
     "synonyms": "[\"Capparis subtomentosa\", \"Capparis biloba\", \"Capparis hypericoides\", \"Capparis alexandrae\", \"Capparis corymbifera\", \"Capparis puberula\", \"Capparis lucens\", \"Capparis tomentosa var. persicifolia\", \"Capparis globifera\", \"Capparis volkensii\"]",
     "care": {
       "plant_id": "capparis_tomentosa",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -663,11 +849,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قبار لبدي"
+      ],
+      "de": [
+        "Capparis tomentosa"
+      ],
       "en": [
-        "African caper"
+        "African caper",
+        "Capparis tomentosa"
+      ],
+      "es": [
+        "Capparis tomentosa"
+      ],
+      "fr": [
+        "Capparis tomentosa"
+      ],
+      "it": [
+        "Capparis tomentosa"
+      ],
+      "nl": [
+        "Capparis tomentosa"
+      ],
+      "pl": [
+        "Capparis tomentosa"
+      ],
+      "pt": [
+        "Capparis tomentosa"
+      ],
+      "ru": [
+        "Capparis tomentosa"
       ]
     },
     "tags": [],
@@ -679,12 +895,12 @@
     "family": "Capparaceae",
     "genus": "Crateva",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/581337376aded2ab91d078d107b48aad22d92ed6",
-    "description": null,
+    "description": "Crateva tapia, commonly known as toco, payaguá, naranjuelo, or beach apple, is a member of the genus Crateva, belonging to the family Capparaceae. It is native from Mexico through Central America into South America as far as south Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -761,11 +977,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كراتيفة السياج"
+      ],
+      "de": [
+        "Crateva tapia"
+      ],
       "en": [
+        "Crateva tapia",
         "Garlic-pear"
+      ],
+      "es": [
+        "Crateva tapia"
+      ],
+      "fr": [
+        "Crateva tapia"
+      ],
+      "it": [
+        "Crateva tapia"
+      ],
+      "nl": [
+        "Crateva tapia"
+      ],
+      "pl": [
+        "Crateva tapia"
+      ],
+      "pt": [
+        "Crateva tapia"
+      ],
+      "ru": [
+        "Crateva tapia"
       ]
     },
     "tags": [],
@@ -777,12 +1023,12 @@
     "family": "Capparaceae",
     "genus": "Maerua",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/232619a166a5eacbacbe3a2abd6558ea26894cba",
-    "description": null,
+    "description": "Maerua angolensis is a 10m tall, occasionally deciduous tree of the Capparaceae or caper family, often growing on termitaria and in thickets fringing seasonal watercourses, up to 1800m. Though never common, it is widespread in tropical Africa and arid regions, being absent from high-rainfall regions.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -859,11 +1105,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Maerua angolensis"
+      ],
       "en": [
-        "Bushveld bead bean"
+        "Bushveld bead bean",
+        "Maerua angolensis"
+      ],
+      "es": [
+        "Maerua angolensis"
+      ],
+      "fr": [
+        "Maerua angolensis"
+      ],
+      "it": [
+        "Maerua angolensis"
+      ],
+      "nl": [
+        "Maerua angolensis"
+      ],
+      "pl": [
+        "Maerua angolensis"
+      ],
+      "pt": [
+        "Maerua angolensis"
+      ],
+      "ru": [
+        "Maerua angolensis"
       ]
     },
     "tags": [],
@@ -875,12 +1148,12 @@
     "family": "Capparaceae",
     "genus": "Maerua",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4c261d63d7b701845004e014572b3c683580ab28",
-    "description": null,
+    "description": "Maerua crassifolia is a species of plant in the Capparaceae family. It is native to Africa, tropical Arabia, and Israel, but is disappearing from Egypt. Foliage from this plant is used as fodder for animals, especially camels, during the dry season in parts of Africa.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -957,11 +1230,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سرح سميك الأوراق"
+      ],
+      "de": [
+        "Maerua crassifolia"
+      ],
       "en": [
-        "Atil"
+        "Atil",
+        "Maerua crassifolia"
+      ],
+      "es": [
+        "Maerua crassifolia"
+      ],
+      "fr": [
+        "Maerua crassifolia"
+      ],
+      "it": [
+        "Maerua crassifolia"
+      ],
+      "nl": [
+        "Maerua crassifolia"
+      ],
+      "pl": [
+        "Maerua crassifolia"
+      ],
+      "pt": [
+        "Maerua crassifolia"
+      ],
+      "ru": [
+        "Maerua crassifolia"
       ]
     },
     "tags": [],
@@ -973,7 +1276,7 @@
     "family": "Capparaceae",
     "genus": "Morisonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1055,11 +1358,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Morisonia americana"
+      ],
       "en": [
+        "Morisonia americana",
         "Ratapple"
+      ],
+      "es": [
+        "Morisonia americana"
+      ],
+      "fr": [
+        "Morisonia americana"
+      ],
+      "it": [
+        "Morisonia americana"
+      ],
+      "nl": [
+        "Morisonia americana"
+      ],
+      "pl": [
+        "Morisonia americana"
+      ],
+      "pt": [
+        "Morisonia americana"
+      ],
+      "ru": [
+        "Morisonia americana"
       ]
     },
     "tags": [],
@@ -1071,7 +1401,7 @@
     "family": "Capparaceae",
     "genus": "Neocalyptrocalyx",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1153,9 +1483,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Neocalyptrocalyx longifolium"
+      ],
+      "en": [
+        "Neocalyptrocalyx longifolium"
+      ],
+      "es": [
+        "Neocalyptrocalyx longifolium"
+      ],
+      "fr": [
+        "Neocalyptrocalyx longifolium"
+      ],
+      "it": [
+        "Neocalyptrocalyx longifolium"
+      ],
+      "nl": [
+        "Neocalyptrocalyx longifolium"
+      ],
+      "pl": [
+        "Neocalyptrocalyx longifolium"
+      ],
+      "pt": [
+        "Neocalyptrocalyx longifolium"
+      ],
+      "ru": [
+        "Neocalyptrocalyx longifolium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1165,7 +1525,7 @@
     "family": "Capparaceae",
     "genus": "Ritchiea",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1247,9 +1607,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ريتشية قبارية"
+      ],
+      "de": [
+        "Ritchiea capparoides"
+      ],
+      "en": [
+        "Ritchiea capparoides"
+      ],
+      "es": [
+        "Ritchiea capparoides"
+      ],
+      "fr": [
+        "Ritchiea capparoides"
+      ],
+      "it": [
+        "Ritchiea capparoides"
+      ],
+      "nl": [
+        "Ritchiea capparoides"
+      ],
+      "pl": [
+        "Ritchiea capparoides"
+      ],
+      "pt": [
+        "Ritchiea capparoides"
+      ],
+      "ru": [
+        "Ritchiea capparoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

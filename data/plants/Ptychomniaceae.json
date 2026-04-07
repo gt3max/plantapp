@@ -5,12 +5,12 @@
     "family": "Ptychomniaceae",
     "genus": "Ptychomnion",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Ptychominon aciculare is a species of moss found predominantly in Australia, New Zealand, New Caledonia, Samoa, Juan Fernandez Islands and Chile. It is easily recognised given its similarity, especially when partially dried, to a pipe-cleaner. This name is commonly accepted across Australia and New Zealand. It has been observed growing from between sea level to sub-alpine altitudes (1200m).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ptychomnion aciculare"
+      ],
+      "en": [
+        "Ptychomnion aciculare"
+      ],
+      "es": [
+        "Ptychomnion aciculare"
+      ],
+      "fr": [
+        "Ptychomnion aciculare"
+      ],
+      "it": [
+        "Ptychomnion aciculare"
+      ],
+      "nl": [
+        "Ptychomnion aciculare"
+      ],
+      "pl": [
+        "Ptychomnion aciculare"
+      ],
+      "pt": [
+        "Ptychomnion aciculare"
+      ],
+      "ru": [
+        "Ptychomnion aciculare"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

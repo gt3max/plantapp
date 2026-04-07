@@ -5,12 +5,12 @@
     "family": "Rhamnaceae",
     "genus": "Alphitonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d3f1075c2e647876e42d0673a22314e9b5049b06",
-    "description": null,
+    "description": "Alphitonia excelsa, commonly known as the red ash or soap tree, is a species of tree in the family Rhamnaceae. It is endemic to Australia, being found in New South Wales, Queensland, Northern Territory and the northeastern tip of Western Australia. It is used in bush regeneration as a pioneer species and for amenity planting.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,10 +87,16 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Alphitonia excelsa"
+      ],
       "en": [
+        "Alphitonia excelsa",
         "Coopers Wood",
         "Leather jacket",
         "Leatherjacket",
@@ -98,12 +104,31 @@
         "Soap Tree"
       ],
       "es": [
+        "Alphitonia excelsa",
         "Alphitonia excelsa var. acutifolia",
         "Ceanothus excelsa",
         "Colubrina excelsa"
       ],
+      "fr": [
+        "Alphitonia excelsa"
+      ],
+      "it": [
+        "Alphitonia excelsa"
+      ],
       "ja": [
         "アルフィトニア・エクセルサ"
+      ],
+      "nl": [
+        "Alphitonia excelsa"
+      ],
+      "pl": [
+        "Alphitonia excelsa"
+      ],
+      "pt": [
+        "Alphitonia excelsa"
+      ],
+      "ru": [
+        "Alphitonia excelsa"
       ],
       "zh": [
         "肥皂树"
@@ -118,12 +143,12 @@
     "family": "Rhamnaceae",
     "genus": "Berchemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/e50b7ff88b888cf4f6bf11ec4dbabc29.jpg",
-    "description": "1/4 inch fleshy, blue-black fruit, longer than wide and slightly flattened, mature in autumn. Fruit displays from August to October.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -202,9 +227,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Berchemia floribunda"
+      ],
+      "en": [
+        "Berchemia floribunda"
+      ],
+      "es": [
+        "Berchemia floribunda"
+      ],
+      "fr": [
+        "Berchemia floribunda"
+      ],
+      "it": [
+        "Berchemia floribunda"
+      ],
+      "nl": [
+        "Berchemia floribunda"
+      ],
+      "pl": [
+        "Berchemia floribunda"
+      ],
+      "pt": [
+        "Berchemia floribunda"
+      ],
+      "ru": [
+        "Berchemia floribunda"
+      ],
+      "zh": [
+        "多花勾儿茶"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -214,7 +272,7 @@
     "family": "Rhamnaceae",
     "genus": "Berchemia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -230,9 +288,9 @@
     "synonyms": "[\"Berchemia scandens\", \"Berchemia volubilis\", \"Oenoplea volubilis\", \"Rhamnus volubilis\", \"Rhamnus scandens\", \"Berchemia repanda\", \"Ziziphus volubilis\"]",
     "care": {
       "plant_id": "berchemia_scandens",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -298,9 +356,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Berchemia scandens"
+      ],
+      "en": [
+        "Berchemia scandens"
+      ],
+      "es": [
+        "Berchemia scandens"
+      ],
+      "fr": [
+        "Berchemia scandens"
+      ],
+      "it": [
+        "Berchemia scandens"
+      ],
+      "nl": [
+        "Berchemia scandens"
+      ],
+      "pl": [
+        "Berchemia scandens"
+      ],
+      "pt": [
+        "Berchemia scandens"
+      ],
+      "ru": [
+        "Berchemia scandens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -310,12 +398,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/fdb60e5302b19042a5e6419ca30be878997b4a5f",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus americanus is a species of Ceanothus shrub native to North America. Common names include New Jersey tea, Jersey tea ceanothus, variations of red root, mountain sweet, and wild snowball. New Jersey tea was a name coined during the American Revolution, because its leaves were used as a substitute for imported tea.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -396,11 +484,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "جذر أحمر / النبقيات"
+      ],
+      "de": [
+        "Ceanothus americanus"
+      ],
       "en": [
+        "Ceanothus americanus",
         "New jersey-tea"
+      ],
+      "es": [
+        "Ceanothus americanus"
+      ],
+      "fr": [
+        "Ceanothus americanus"
+      ],
+      "it": [
+        "Ceanothus americanus"
+      ],
+      "nl": [
+        "Ceanothus americanus"
+      ],
+      "pl": [
+        "Ceanothus americanus"
+      ],
+      "pt": [
+        "Ceanothus americanus"
+      ],
+      "ru": [
+        "Ceanothus americanus"
+      ],
+      "zh": [
+        "美洲茶"
       ]
     },
     "tags": [],
@@ -412,12 +533,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8198138e58c5f1b3753a4b3681a0c41f72d0acfc",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus caeruleus is a species of Ceanothus shrub first described by Mariano Lagasca y Segura. Ceanothus caeruleus is part of the genus Ceanothus and the family Rhamnaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -504,9 +625,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ceanothus caeruleus"
+      ],
+      "en": [
+        "Ceanothus caeruleus"
+      ],
+      "es": [
+        "Ceanothus caeruleus"
+      ],
+      "fr": [
+        "Ceanothus caeruleus"
+      ],
+      "it": [
+        "Ceanothus caeruleus"
+      ],
+      "nl": [
+        "Ceanothus caeruleus"
+      ],
+      "pl": [
+        "Ceanothus caeruleus"
+      ],
+      "pt": [
+        "Ceanothus caeruleus"
+      ],
+      "ru": [
+        "Ceanothus caeruleus"
+      ],
+      "zh": [
+        "墨西哥典萼茶"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -516,12 +670,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f179cc69ef9e6d72f1e2c3ddd3e745dda9d8e2e9",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus cordulatus is a species of shrub in the family Rhamnaceae known by the common names mountain whitethorn and whitethorn ceanothus. It is native to California and adjacent sections of Oregon, Nevada, and Baja California, where it grows on mountain ridges and other forested areas. This is a spreading shrub growing usually wider than tall and up to about 1.5 meters. The stems are gray, with the twigs yellow-green in color and fuzzy in texture when new.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -608,11 +762,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus cordulatus"
+      ],
       "en": [
+        "Ceanothus cordulatus",
         "Mountain whitethorn"
+      ],
+      "es": [
+        "Ceanothus cordulatus"
+      ],
+      "fr": [
+        "Ceanothus cordulatus"
+      ],
+      "it": [
+        "Ceanothus cordulatus"
+      ],
+      "nl": [
+        "Ceanothus cordulatus"
+      ],
+      "pl": [
+        "Ceanothus cordulatus"
+      ],
+      "pt": [
+        "Ceanothus cordulatus"
+      ],
+      "ru": [
+        "Ceanothus cordulatus"
       ]
     },
     "tags": [],
@@ -624,12 +805,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c3019c9554afa3e85cb516f41f83ba4bcfd12df3",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus crassifolius is a species of flowering shrub known by the common name hoaryleaf ceanothus. This Ceanothus is found throughout the coastal mountain ranges of the southern half of California, and its range extends into Baja California.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -716,11 +897,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus crassifolius"
+      ],
       "en": [
+        "Ceanothus crassifolius",
         "Hoary-leaf ceanothus"
+      ],
+      "es": [
+        "Ceanothus crassifolius"
+      ],
+      "fr": [
+        "Ceanothus crassifolius"
+      ],
+      "it": [
+        "Ceanothus crassifolius"
+      ],
+      "nl": [
+        "Ceanothus crassifolius"
+      ],
+      "pl": [
+        "Ceanothus crassifolius"
+      ],
+      "pt": [
+        "Ceanothus crassifolius"
+      ],
+      "ru": [
+        "Ceanothus crassifolius"
       ]
     },
     "tags": [],
@@ -732,12 +940,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/570c97b98967b2259095570a09b1758171c4e66d",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus cuneatus is a species of flowering shrub known by the common names buckbrush and wedgeleaf ceanothus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -824,11 +1032,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus cuneatus"
+      ],
       "en": [
+        "Ceanothus cuneatus",
         "Cuneate ceanothus"
+      ],
+      "es": [
+        "Ceanothus cuneatus"
+      ],
+      "fr": [
+        "Ceanothus cuneatus"
+      ],
+      "it": [
+        "Ceanothus cuneatus"
+      ],
+      "nl": [
+        "Ceanothus cuneatus"
+      ],
+      "pl": [
+        "Ceanothus cuneatus"
+      ],
+      "pt": [
+        "Ceanothus cuneatus"
+      ],
+      "ru": [
+        "Ceanothus cuneatus"
       ]
     },
     "tags": [],
@@ -840,12 +1075,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/5f78c3cf3e8d49ebf028ff5e3e424634.jpg",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus fendleri is a species of flowering shrub native to northern Mexico, Arizona, New Mexico, west Texas and the northeastern Texas panhandle, Utah, Colorado, eastern Wyoming, and western South Dakota. Its typical habitat is pine forests from 1,500 to 3,000 meters in altitude.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -932,9 +1167,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ceanothus fendleri"
+      ],
+      "en": [
+        "Ceanothus fendleri"
+      ],
+      "es": [
+        "Ceanothus fendleri"
+      ],
+      "fr": [
+        "Ceanothus fendleri"
+      ],
+      "it": [
+        "Ceanothus fendleri"
+      ],
+      "nl": [
+        "Ceanothus fendleri"
+      ],
+      "pl": [
+        "Ceanothus fendleri"
+      ],
+      "pt": [
+        "Ceanothus fendleri"
+      ],
+      "ru": [
+        "Ceanothus fendleri"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -944,7 +1209,7 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -960,9 +1225,9 @@
     "synonyms": "[\"Ceanothus glandulosus\", \"Ceanothus americanus var. herbaceus\", \"Ceanothus grandiflorus\", \"Ceanothus fontanesianus\", \"Ceanothus ovatus var. roseus\", \"Ceanothus intermedius\", \"Ceanothus ovatus f. pubescens\", \"Ceanothus ovatus\", \"Ceanothus herbaceus var. pubescens\", \"Pomaderris ovata\"]",
     "care": {
       "plant_id": "ceanothus_herbaceus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "Low",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -1036,11 +1301,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus herbaceus"
+      ],
       "en": [
+        "Ceanothus herbaceus",
         "Redroot"
+      ],
+      "es": [
+        "Ceanothus herbaceus"
+      ],
+      "fr": [
+        "Ceanothus herbaceus"
+      ],
+      "it": [
+        "Ceanothus herbaceus"
+      ],
+      "nl": [
+        "Ceanothus herbaceus"
+      ],
+      "pl": [
+        "Ceanothus herbaceus"
+      ],
+      "pt": [
+        "Ceanothus herbaceus"
+      ],
+      "ru": [
+        "Ceanothus herbaceus"
       ]
     },
     "tags": [],
@@ -1052,12 +1344,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6b864f6ac2be9e9f4a888d7ee75e31d34cd8be5b",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus integerrimus, known by the common name deer brush, is a species of woody shrub in the family Rhamnaceae, native to the western United States in Arizona, New Mexico, California, Oregon, and Washington. It grows in montane chaparral and woodlands regions, in hardwood forests, and in fir, spruce, and Ponderosa pine plant communities, being most abundant in the California chaparral and woodlands and Sierra Nevada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1144,11 +1436,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus integerrimus"
+      ],
       "en": [
+        "Ceanothus integerrimus",
         "Deerbrush ceanothus"
+      ],
+      "es": [
+        "Ceanothus integerrimus"
+      ],
+      "fr": [
+        "Ceanothus integerrimus"
+      ],
+      "it": [
+        "Ceanothus integerrimus"
+      ],
+      "nl": [
+        "Ceanothus integerrimus"
+      ],
+      "pl": [
+        "Ceanothus integerrimus"
+      ],
+      "pt": [
+        "Ceanothus integerrimus"
+      ],
+      "ru": [
+        "Ceanothus integerrimus"
       ]
     },
     "tags": [],
@@ -1160,12 +1479,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ab7087b14f4ea613bab6051e1ffd5fc020a74059",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus leucodermis, with the common names chaparral whitethorn or chaparral white thorn, is a species of shrub in the family Rhamnaceae. This Ceanothus is an importance browse for several types of ungulate, such as the mule deer and bighorn sheep, who prefer the new growth and shoots to the older, spiny parts.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1252,11 +1571,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus leucodermis"
+      ],
       "en": [
+        "Ceanothus leucodermis",
         "Chaparral whitethorn"
+      ],
+      "es": [
+        "Ceanothus leucodermis"
+      ],
+      "fr": [
+        "Ceanothus leucodermis"
+      ],
+      "it": [
+        "Ceanothus leucodermis"
+      ],
+      "nl": [
+        "Ceanothus leucodermis"
+      ],
+      "pl": [
+        "Ceanothus leucodermis"
+      ],
+      "pt": [
+        "Ceanothus leucodermis"
+      ],
+      "ru": [
+        "Ceanothus leucodermis"
       ]
     },
     "tags": [],
@@ -1268,12 +1614,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/81e1d71d396c66edea360238fe2404560e749e82",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus megacarpus is a species of flowering shrub known by the common name bigpod ceanothus. This Ceanothus is endemic to California, where its distribution extends along the Central Coast and includes the Channel Islands.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1360,11 +1706,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus megacarpus"
+      ],
       "en": [
-        "Bigpod ceanothus"
+        "Bigpod ceanothus",
+        "Ceanothus megacarpus"
+      ],
+      "es": [
+        "Ceanothus megacarpus"
+      ],
+      "fr": [
+        "Ceanothus megacarpus"
+      ],
+      "it": [
+        "Ceanothus megacarpus"
+      ],
+      "nl": [
+        "Ceanothus megacarpus"
+      ],
+      "pl": [
+        "Ceanothus megacarpus"
+      ],
+      "pt": [
+        "Ceanothus megacarpus"
+      ],
+      "ru": [
+        "Ceanothus megacarpus"
       ]
     },
     "tags": [],
@@ -1376,12 +1749,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/94075c65d73e757bb8e283eb9b6ae020ab5495c4",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus oliganthus is a species of shrub in the family Rhamnaceae known by the common name hairy ceanothus or hairy-leaf ceanothus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1468,11 +1841,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus oliganthus"
+      ],
       "en": [
+        "Ceanothus oliganthus",
         "Hairy ceanothus"
+      ],
+      "es": [
+        "Ceanothus oliganthus"
+      ],
+      "fr": [
+        "Ceanothus oliganthus"
+      ],
+      "it": [
+        "Ceanothus oliganthus"
+      ],
+      "nl": [
+        "Ceanothus oliganthus"
+      ],
+      "pl": [
+        "Ceanothus oliganthus"
+      ],
+      "pt": [
+        "Ceanothus oliganthus"
+      ],
+      "ru": [
+        "Ceanothus oliganthus"
       ]
     },
     "tags": [],
@@ -1484,12 +1884,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/0e8b65f5c6a3cc2f8a6d33ee6dc6b24e.jpg",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus papillosus, the wartleaf ceanothus, is a species of plant in the genus Ceanothus. It is endemic to California, where it grows in open habitat on the slopes of the coastal mountain ranges, such as woodland and chaparral.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1576,9 +1976,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ceanothus papillosus"
+      ],
+      "en": [
+        "Ceanothus papillosus"
+      ],
+      "es": [
+        "Ceanothus papillosus"
+      ],
+      "fr": [
+        "Ceanothus papillosus"
+      ],
+      "it": [
+        "Ceanothus papillosus"
+      ],
+      "nl": [
+        "Ceanothus papillosus"
+      ],
+      "pl": [
+        "Ceanothus papillosus"
+      ],
+      "pt": [
+        "Ceanothus papillosus"
+      ],
+      "ru": [
+        "Ceanothus papillosus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1588,12 +2018,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/178d8098b15ec55bd3d30833ac3cfd800a1920a2",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus prostratus is a species of shrub in the family Rhamnaceae. Common names include prostrate ceanothus, pinemat, and mahala mat. It is native to the Pacific Northwest of the United States where it grows in coniferous forests and open plateaus.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1680,11 +2110,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus prostratus"
+      ],
       "en": [
+        "Ceanothus prostratus",
         "Mahala-mat"
+      ],
+      "es": [
+        "Ceanothus prostratus"
+      ],
+      "fr": [
+        "Ceanothus prostratus"
+      ],
+      "it": [
+        "Ceanothus prostratus"
+      ],
+      "nl": [
+        "Ceanothus prostratus"
+      ],
+      "pl": [
+        "Ceanothus prostratus"
+      ],
+      "pt": [
+        "Ceanothus prostratus"
+      ],
+      "ru": [
+        "Ceanothus prostratus"
       ]
     },
     "tags": [],
@@ -1696,12 +2153,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d22d0f6e0739b60bc073749e9841cd105c323b75",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus sanguineus is a species of shrub in the family Rhamnaceae known by the common name redstem ceanothus. It is native to western North America from British Columbia to Montana to far northern California; it is also known from Michigan. It grows in temperate coniferous forest habitat in forest openings amidst the conifers. This is an erect shrub approaching 3 meters in maximum height. Its stem is red to purple in color, its woody parts green and hairless when new.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1788,11 +2245,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus sanguineus"
+      ],
       "en": [
+        "Ceanothus sanguineus",
         "Teatree"
+      ],
+      "es": [
+        "Ceanothus sanguineus"
+      ],
+      "fr": [
+        "Ceanothus sanguineus"
+      ],
+      "it": [
+        "Ceanothus sanguineus"
+      ],
+      "nl": [
+        "Ceanothus sanguineus"
+      ],
+      "pl": [
+        "Ceanothus sanguineus"
+      ],
+      "pt": [
+        "Ceanothus sanguineus"
+      ],
+      "ru": [
+        "Ceanothus sanguineus"
       ]
     },
     "tags": [],
@@ -1804,12 +2288,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/45608fcd7853e0c4730d2dcc4b67a27156bcb5fc",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus spinosus, with the common names greenbark and redheart, is a species of Ceanothus. It is native to southern California and northern Baja California, where it grows in the scrub and chaparral of the coastal mountain ranges.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1896,11 +2380,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus spinosus"
+      ],
       "en": [
+        "Ceanothus spinosus",
         "Greenbark ceanothus"
+      ],
+      "es": [
+        "Ceanothus spinosus"
+      ],
+      "fr": [
+        "Ceanothus spinosus"
+      ],
+      "it": [
+        "Ceanothus spinosus"
+      ],
+      "nl": [
+        "Ceanothus spinosus"
+      ],
+      "pl": [
+        "Ceanothus spinosus"
+      ],
+      "pt": [
+        "Ceanothus spinosus"
+      ],
+      "ru": [
+        "Ceanothus spinosus"
       ]
     },
     "tags": [],
@@ -1912,12 +2423,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8619d342b2b58fe0b460d6eb1369e66cb0cc019c",
-    "description": "Seeds ripen from August to October.  Fruit is small, glandular-sticky, slightly lobed.",
+    "description": "Ceanothus thyrsiflorus, known as blueblossom or blue blossom ceanothus, is an evergreen shrub in the buckthorn family Rhamnaceae that is endemic to Oregon and California in the US. The term 'Californian lilac' and ‘Mountain lilac’ is also applied to this and other varieties of ceanothus, though it is not closely related to Syringa, the true lilac.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2004,11 +2515,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus thyrsiflorus"
+      ],
       "en": [
-        "Blueblossom"
+        "Blueblossom",
+        "Ceanothus thyrsiflorus"
+      ],
+      "es": [
+        "Ceanothus thyrsiflorus"
+      ],
+      "fr": [
+        "Ceanothus thyrsiflorus"
+      ],
+      "it": [
+        "Ceanothus thyrsiflorus"
+      ],
+      "nl": [
+        "Ceanothus thyrsiflorus"
+      ],
+      "pl": [
+        "Ceanothus thyrsiflorus"
+      ],
+      "pt": [
+        "Ceanothus thyrsiflorus"
+      ],
+      "ru": [
+        "Ceanothus thyrsiflorus"
+      ],
+      "zh": [
+        "聚花美洲茶"
       ]
     },
     "tags": [],
@@ -2020,12 +2561,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9bc685967643cb43d0c683646c0a0a8ff6177187",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus tomentosus, with the common name woollyleaf ceanothus, is a species of shrub in the family Rhamnaceae. It is characterized by pale-blue to deep blue flowers and wooly leaves. It is native to California and Baja California, having an unusual disjunct distribution in the Peninsular Ranges and the north-central Sierra Nevada.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2112,11 +2653,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus tomentosus"
+      ],
       "en": [
+        "Ceanothus tomentosus",
         "Woolyleaf ceanothus"
+      ],
+      "es": [
+        "Ceanothus tomentosus"
+      ],
+      "fr": [
+        "Ceanothus tomentosus"
+      ],
+      "it": [
+        "Ceanothus tomentosus"
+      ],
+      "nl": [
+        "Ceanothus tomentosus"
+      ],
+      "pl": [
+        "Ceanothus tomentosus"
+      ],
+      "pt": [
+        "Ceanothus tomentosus"
+      ],
+      "ru": [
+        "Ceanothus tomentosus"
       ]
     },
     "tags": [],
@@ -2128,12 +2696,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4855c9bcf756fe007face7f26822dfec9a8b16ca",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus velutinus, with the common names snowbrush ceanothus, red root, tobacco brush, and sticky laurel, is a species of shrub in the family Rhamnaceae. It is native to western North America from British Columbia to California to Colorado.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2220,11 +2788,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus velutinus"
+      ],
       "en": [
+        "Ceanothus velutinus",
         "Snowbrush ceanothus"
+      ],
+      "es": [
+        "Ceanothus velutinus"
+      ],
+      "fr": [
+        "Ceanothus velutinus"
+      ],
+      "it": [
+        "Ceanothus velutinus"
+      ],
+      "nl": [
+        "Ceanothus velutinus"
+      ],
+      "pl": [
+        "Ceanothus velutinus"
+      ],
+      "pt": [
+        "Ceanothus velutinus"
+      ],
+      "ru": [
+        "Ceanothus velutinus"
       ]
     },
     "tags": [],
@@ -2236,12 +2831,12 @@
     "family": "Rhamnaceae",
     "genus": "Ceanothus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/38c455b77d466bee6a173be03ed0e4cdc833d5a1",
-    "description": "3-lobed seed capsules up to ¼  across. They start out green-red mature to dark brown or black and split open to eject 3 seeds several feet. Fruit displays from June to July.",
+    "description": "Ceanothus verrucosus is a species of shrub in the family Rhamnaceae known by the common names wart-stem ceanothus, barranca brush, coast lilac and white coast ceanothus. It is endemic to northwestern Baja California and San Diego County, where it grows in coastal sage scrub and coastal succulent scrub habitats. It is considered a rare species north of the international border, as most of the valuable coastal land that hosts this plant in the San Diego area has been claimed for development.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2328,11 +2923,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ceanothus verrucosus"
+      ],
       "en": [
-        "Barranca brush"
+        "Barranca brush",
+        "Ceanothus verrucosus"
+      ],
+      "es": [
+        "Ceanothus verrucosus"
+      ],
+      "fr": [
+        "Ceanothus verrucosus"
+      ],
+      "it": [
+        "Ceanothus verrucosus"
+      ],
+      "nl": [
+        "Ceanothus verrucosus"
+      ],
+      "pl": [
+        "Ceanothus verrucosus"
+      ],
+      "pt": [
+        "Ceanothus verrucosus"
+      ],
+      "ru": [
+        "Ceanothus verrucosus"
       ]
     },
     "tags": [],
@@ -2344,7 +2966,7 @@
     "family": "Rhamnaceae",
     "genus": "Colubrina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2426,11 +3048,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Colubrina arborescens"
+      ],
       "en": [
+        "Colubrina arborescens",
         "Wild coffee"
+      ],
+      "es": [
+        "Colubrina arborescens"
+      ],
+      "fr": [
+        "Colubrina arborescens"
+      ],
+      "it": [
+        "Colubrina arborescens"
+      ],
+      "nl": [
+        "Colubrina arborescens"
+      ],
+      "pl": [
+        "Colubrina arborescens"
+      ],
+      "pt": [
+        "Colubrina arborescens"
+      ],
+      "ru": [
+        "Colubrina arborescens"
       ]
     },
     "tags": [],
@@ -2442,12 +3091,12 @@
     "family": "Rhamnaceae",
     "genus": "Colubrina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/b7284e6c4c7c180c6dd9c034ec8e245ad1f502cc",
-    "description": null,
+    "description": "Colubrina asiatica is a shrub in the family Rhamnaceae that is native to tropical and subtropical regions of the Old World, from eastern Africa to India, southeast Asia, tropical Australia, and the Pacific Islands. Common names include latherleaf, Asian nakedwood and Asian snakewood.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2524,11 +3173,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Colubrina asiatica"
+      ],
       "en": [
+        "Colubrina asiatica",
         "Wild coffee"
+      ],
+      "es": [
+        "Colubrina asiatica"
+      ],
+      "fr": [
+        "Colubrina asiatica"
+      ],
+      "it": [
+        "Colubrina asiatica"
+      ],
+      "nl": [
+        "Colubrina asiatica"
+      ],
+      "pl": [
+        "Colubrina asiatica"
+      ],
+      "pt": [
+        "Colubrina asiatica"
+      ],
+      "ru": [
+        "Colubrina asiatica"
+      ],
+      "zh": [
+        "蛇藤"
       ]
     },
     "tags": [],
@@ -2540,12 +3219,12 @@
     "family": "Rhamnaceae",
     "genus": "Colubrina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/83813266737e4946e8ed257d33582e1aab0621aa",
-    "description": null,
+    "description": "Colubrina elliptica, also known as mabi or soldierwood, is a species of flowering tree in the family Rhamnaceae that is native to the Florida Keys, the Caribbean, Central America, Mexico, and Venezuela.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2622,11 +3301,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Colubrina elliptica"
+      ],
       "en": [
+        "Colubrina elliptica",
         "Soldierwood"
+      ],
+      "es": [
+        "Colubrina elliptica"
+      ],
+      "fr": [
+        "Colubrina elliptica"
+      ],
+      "it": [
+        "Colubrina elliptica"
+      ],
+      "nl": [
+        "Colubrina elliptica"
+      ],
+      "pl": [
+        "Colubrina elliptica"
+      ],
+      "pt": [
+        "Colubrina elliptica"
+      ],
+      "ru": [
+        "Colubrina elliptica"
       ]
     },
     "tags": [],
@@ -2638,7 +3344,7 @@
     "family": "Rhamnaceae",
     "genus": "Colubrina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2720,11 +3426,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Colubrina glandulosa"
+      ],
       "en": [
+        "Colubrina glandulosa",
         "Glandular nakedwood"
+      ],
+      "es": [
+        "Colubrina glandulosa"
+      ],
+      "fr": [
+        "Colubrina glandulosa"
+      ],
+      "it": [
+        "Colubrina glandulosa"
+      ],
+      "nl": [
+        "Colubrina glandulosa"
+      ],
+      "pl": [
+        "Colubrina glandulosa"
+      ],
+      "pt": [
+        "Colubrina glandulosa"
+      ],
+      "ru": [
+        "Colubrina glandulosa"
       ]
     },
     "tags": [],
@@ -2736,12 +3469,12 @@
     "family": "Rhamnaceae",
     "genus": "Colubrina",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/881b350ff8f6ac32ba6fea7ffde4cf24.jpg",
-    "description": null,
+    "description": "Colubrina texensis, the Texas snakewood or Texas hog plum, is a species of flowering plant in the family Rhamnaceae, native to Texas and northeastern Mexico. A 3 to 6 ft deciduous shrub with zig-zagging branches and patterned bark, it is typically found growing in dry, poor soils.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2818,9 +3551,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Colubrina texensis"
+      ],
+      "en": [
+        "Colubrina texensis"
+      ],
+      "es": [
+        "Colubrina texensis"
+      ],
+      "fr": [
+        "Colubrina texensis"
+      ],
+      "it": [
+        "Colubrina texensis"
+      ],
+      "nl": [
+        "Colubrina texensis"
+      ],
+      "pl": [
+        "Colubrina texensis"
+      ],
+      "pt": [
+        "Colubrina texensis"
+      ],
+      "ru": [
+        "Colubrina texensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2830,12 +3593,12 @@
     "family": "Rhamnaceae",
     "genus": "Condalia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9e3d4b3abe6a4a273fc6cedd4079f43c729f9e88",
-    "description": null,
+    "description": "Condalia hookeri, called the Brazilian bluewood, is a widespread species of flowering plant in the family Rhamnaceae, native to Texas and eastern Mexico. It is a thorny shrub or small tree reaching 6 m (20 ft) but usually much shorter. Typically it is found growing in marginal habitats such as limestone slopes, sandstone bluffs, lunettes, shell ridges, juniper-dominated woodlands, or along watercourses, often in clayey or sandy soils, at elevations from 10 to 400 m.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2912,11 +3675,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Condalia hookeri"
+      ],
       "en": [
-        "Brazilian bluewood"
+        "Brazilian bluewood",
+        "Condalia hookeri"
+      ],
+      "es": [
+        "Condalia hookeri"
+      ],
+      "fr": [
+        "Condalia hookeri"
+      ],
+      "it": [
+        "Condalia hookeri"
+      ],
+      "nl": [
+        "Condalia hookeri"
+      ],
+      "pl": [
+        "Condalia hookeri"
+      ],
+      "pt": [
+        "Condalia hookeri"
+      ],
+      "ru": [
+        "Condalia hookeri"
       ]
     },
     "tags": [],
@@ -2928,12 +3718,12 @@
     "family": "Rhamnaceae",
     "genus": "Cryptandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/1e4d4d649e67e666c7a0da6619075206.jpg",
-    "description": null,
+    "description": "Cryptandra amara, commonly known as bitter cryptandra or pretty pearlflower, is a species of flowering plant in the family Rhamnaceae and is endemic to eastern Australia. It is a densely branched shrub with clustered, more or less linear to egg-shaped or elliptic leaves, and tube-shaped white flowers arranged on the ends of branchlets.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3010,9 +3800,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cryptandra amara"
+      ],
+      "en": [
+        "Cryptandra amara"
+      ],
+      "es": [
+        "Cryptandra amara"
+      ],
+      "fr": [
+        "Cryptandra amara"
+      ],
+      "it": [
+        "Cryptandra amara"
+      ],
+      "nl": [
+        "Cryptandra amara"
+      ],
+      "pl": [
+        "Cryptandra amara"
+      ],
+      "pt": [
+        "Cryptandra amara"
+      ],
+      "ru": [
+        "Cryptandra amara"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3022,7 +3842,7 @@
     "family": "Rhamnaceae",
     "genus": "Cryptandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3104,9 +3924,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cryptandra leucophracta"
+      ],
+      "en": [
+        "Cryptandra leucophracta"
+      ],
+      "es": [
+        "Cryptandra leucophracta"
+      ],
+      "fr": [
+        "Cryptandra leucophracta"
+      ],
+      "it": [
+        "Cryptandra leucophracta"
+      ],
+      "nl": [
+        "Cryptandra leucophracta"
+      ],
+      "pl": [
+        "Cryptandra leucophracta"
+      ],
+      "pt": [
+        "Cryptandra leucophracta"
+      ],
+      "ru": [
+        "Cryptandra leucophracta"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3116,7 +3966,7 @@
     "family": "Rhamnaceae",
     "genus": "Cryptandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3198,9 +4048,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cryptandra parvifolia"
+      ],
+      "en": [
+        "Cryptandra parvifolia"
+      ],
+      "es": [
+        "Cryptandra parvifolia"
+      ],
+      "fr": [
+        "Cryptandra parvifolia"
+      ],
+      "it": [
+        "Cryptandra parvifolia"
+      ],
+      "nl": [
+        "Cryptandra parvifolia"
+      ],
+      "pl": [
+        "Cryptandra parvifolia"
+      ],
+      "pt": [
+        "Cryptandra parvifolia"
+      ],
+      "ru": [
+        "Cryptandra parvifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3210,12 +4090,12 @@
     "family": "Rhamnaceae",
     "genus": "Cryptandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cryptandra_tomentosa.jpg",
+    "description": "Cryptandra tomentosa, commonly known as prickly cryptandra, is a species of flowering plant in the family Rhamnaceae and is endemic to the southern continental Australia. It is a small, straggling, erect to low-lying shrub sometimes with spiny branches, and has cylindrical leaves and loose clusters of white, bell-shaped flowers that turn pink to red as they age.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3292,9 +4172,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Cryptandra tomentosa"
+      ],
+      "en": [
+        "Cryptandra tomentosa"
+      ],
+      "es": [
+        "Cryptandra tomentosa"
+      ],
+      "fr": [
+        "Cryptandra tomentosa"
+      ],
+      "it": [
+        "Cryptandra tomentosa"
+      ],
+      "nl": [
+        "Cryptandra tomentosa"
+      ],
+      "pl": [
+        "Cryptandra tomentosa"
+      ],
+      "pt": [
+        "Cryptandra tomentosa"
+      ],
+      "ru": [
+        "Cryptandra tomentosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3304,12 +4214,12 @@
     "family": "Rhamnaceae",
     "genus": "Discaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/efafe43504e4cd5c3459621acde176c0d375c543",
-    "description": null,
+    "description": "Discaria pubescens, the hairy anchor plant or Australian anchor plant, is a species of flowering plant in the family Rhamnaceae. It is native to Tasmania, Victoria, New South Wales and Queensland in Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3386,9 +4296,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Discaria pubescens"
+      ],
+      "en": [
+        "Discaria pubescens"
+      ],
+      "es": [
+        "Discaria pubescens"
+      ],
+      "fr": [
+        "Discaria pubescens"
+      ],
+      "it": [
+        "Discaria pubescens"
+      ],
+      "nl": [
+        "Discaria pubescens"
+      ],
+      "pl": [
+        "Discaria pubescens"
+      ],
+      "pt": [
+        "Discaria pubescens"
+      ],
+      "ru": [
+        "Discaria pubescens"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3398,12 +4338,12 @@
     "family": "Rhamnaceae",
     "genus": "Discaria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/8336fe27a97583704b332e9f80239045cae91e2e",
-    "description": null,
+    "description": "Discaria toumatou, commonly called matagouri, tūmatakuru, or wild Irishman, is a tangle-branched thorny shrub endemic to New Zealand. It is common throughout the South Island and is less common in the North Island.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3480,11 +4420,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Discaria toumatou"
+      ],
       "en": [
+        "Discaria toumatou",
         "Matagouri"
+      ],
+      "es": [
+        "Discaria toumatou"
+      ],
+      "fr": [
+        "Discaria toumatou"
+      ],
+      "it": [
+        "Discaria toumatou"
+      ],
+      "nl": [
+        "Discaria toumatou"
+      ],
+      "pl": [
+        "Discaria toumatou"
+      ],
+      "pt": [
+        "Discaria toumatou"
+      ],
+      "ru": [
+        "Discaria toumatou"
       ]
     },
     "tags": [],
@@ -3496,7 +4463,7 @@
     "family": "Rhamnaceae",
     "genus": "Frangula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3512,17 +4479,17 @@
     "synonyms": "[\"Frangula dodonei\", \"Frangula vulgaris\", \"Rhamnus frangula\"]",
     "care": {
       "plant_id": "frangula_alnus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-5 days",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 150,
+      "ppfd_max": 400,
+      "dli_min": 6.0,
+      "dli_max": 14.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3543,9 +4510,9 @@
       "watering_guide": "Propagation: Layering",
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day) | Climate: temperate",
       "tips": "Similar plants: Ardisia crenata",
-      "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_pets": 1,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Animal: strong toxic. Parts: Bark, fruit, leaf. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -3563,8 +4530,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Bark, fruit, leaf",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": "[\"The wood is used to make wooden nails\", \"shoe lasts\", \"veneer\", \"and a high quality charcoal used by artists.\"]",
@@ -3578,11 +4545,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 8,
+      "ellenberg_l": 6.3
     },
     "common_names": {
+      "ar": [
+        "فرانغولا ألنوس"
+      ],
+      "de": [
+        "Faulbaum"
+      ],
       "en": [
-        "Alder buckthorn"
+        "Alder buckthorn",
+        "Frangula alnus"
+      ],
+      "es": [
+        "Rhamnus frangula"
+      ],
+      "fr": [
+        "Bourdaine"
+      ],
+      "it": [
+        "Rhamnus frangula"
+      ],
+      "nl": [
+        "sporkehout"
+      ],
+      "pl": [
+        "kruszyna pospolita"
+      ],
+      "pt": [
+        "Sanguinho-das-ribeiras"
+      ],
+      "ru": [
+        "крушина ломкая"
+      ],
+      "tr": [
+        "Barut ağacı"
+      ],
+      "zh": [
+        "欧鼠李"
       ]
     },
     "tags": [],
@@ -3594,12 +4597,12 @@
     "family": "Rhamnaceae",
     "genus": "Frangula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d50e90b2961475fecdd5276617b46ab1468afd84",
-    "description": null,
+    "description": "Frangula azorica is a tall semi-deciduous shrub or small tree in the family Rhamnaceae. It is endemic to the Azores, Portugal. Fossil evidence suggests this species was also native to Madeira but went extinct. It is threatened by habitat loss.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3615,12 +4618,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3676,11 +4679,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Frangula azorica"
+      ],
       "en": [
+        "Frangula azorica",
         "Sanguinho"
+      ],
+      "es": [
+        "Frangula azorica"
+      ],
+      "fr": [
+        "Frangula azorica"
+      ],
+      "it": [
+        "Frangula azorica"
+      ],
+      "nl": [
+        "Frangula azorica"
+      ],
+      "pl": [
+        "Frangula azorica"
+      ],
+      "pt": [
+        "Frangula azorica"
+      ],
+      "ru": [
+        "Frangula azorica"
       ]
     },
     "tags": [],
@@ -3692,12 +4722,12 @@
     "family": "Rhamnaceae",
     "genus": "Frangula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/287a38c1758468085cc909c69c50ad93a00dbc64",
-    "description": null,
+    "description": "Frangula californica is a species of flowering plant in the buckthorn family native to western North America. It produces edible fruits and seeds. It is commonly known as California coffeeberry and California buckthorn.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3713,12 +4743,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3774,11 +4804,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.7
     },
     "common_names": {
+      "de": [
+        "Frangula californica"
+      ],
       "en": [
-        "California buckthorn"
+        "California buckthorn",
+        "Frangula californica"
+      ],
+      "es": [
+        "Frangula californica"
+      ],
+      "fr": [
+        "Frangula californica"
+      ],
+      "it": [
+        "Frangula californica"
+      ],
+      "nl": [
+        "Frangula californica"
+      ],
+      "pl": [
+        "Frangula californica"
+      ],
+      "pt": [
+        "Frangula californica"
+      ],
+      "ru": [
+        "Frangula californica"
       ]
     },
     "tags": [],
@@ -3790,7 +4847,7 @@
     "family": "Rhamnaceae",
     "genus": "Frangula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -3872,9 +4929,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Frangula capreifolia"
+      ],
+      "en": [
+        "Frangula capreifolia"
+      ],
+      "es": [
+        "Frangula capreifolia"
+      ],
+      "fr": [
+        "Frangula capreifolia"
+      ],
+      "it": [
+        "Frangula capreifolia"
+      ],
+      "nl": [
+        "Frangula capreifolia"
+      ],
+      "pl": [
+        "Frangula capreifolia"
+      ],
+      "pt": [
+        "Frangula capreifolia"
+      ],
+      "ru": [
+        "Frangula capreifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3884,12 +4971,12 @@
     "family": "Rhamnaceae",
     "genus": "Frangula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rhamnus_caroliniana.jpg",
+    "description": "Frangula caroliniana, commonly called the Carolina buckthorn, is a deciduous upright shrub or small tree native to the southeastern, south-central, and mid-western parts of the United States, from Texas east to Florida and north as far as Maryland, Ohio, Missouri, and Oklahoma. There is also an isolated population in the State of Nuevo León in northeastern Mexico. It is found in a wide variety of habitats, including barrens, forests, and limestone bluffs.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3905,12 +4992,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -3966,9 +5053,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Frangula caroliniana"
+      ],
+      "en": [
+        "Frangula caroliniana"
+      ],
+      "es": [
+        "Frangula caroliniana"
+      ],
+      "fr": [
+        "Frangula caroliniana"
+      ],
+      "it": [
+        "Frangula caroliniana"
+      ],
+      "nl": [
+        "Frangula caroliniana"
+      ],
+      "pl": [
+        "Frangula caroliniana"
+      ],
+      "pt": [
+        "Frangula caroliniana"
+      ],
+      "ru": [
+        "Frangula caroliniana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3978,7 +5095,7 @@
     "family": "Rhamnaceae",
     "genus": "Frangula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4060,9 +5177,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Frangula crenata"
+      ],
+      "en": [
+        "Frangula crenata"
+      ],
+      "es": [
+        "Frangula crenata"
+      ],
+      "fr": [
+        "Frangula crenata"
+      ],
+      "it": [
+        "Frangula crenata"
+      ],
+      "ja": [
+        "イソノキ"
+      ],
+      "nl": [
+        "Frangula crenata"
+      ],
+      "pl": [
+        "Frangula crenata"
+      ],
+      "pt": [
+        "Frangula crenata"
+      ],
+      "ru": [
+        "Frangula crenata"
+      ],
+      "zh": [
+        "长叶冻绿"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4072,12 +5225,12 @@
     "family": "Rhamnaceae",
     "genus": "Frangula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/c78bf9cea5fe9751e5941a9b6a07e288.jpg",
-    "description": null,
+    "description": "Frangula purshiana is a species of plant in the family Rhamnaceae. It is native to western North America from southern British Columbia south to central California, and eastward to northwestern Montana.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4093,12 +5246,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4154,9 +5307,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": 6.7
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "القشرة المقدسة"
+      ],
+      "de": [
+        "Frangula purshiana"
+      ],
+      "en": [
+        "Frangula purshiana"
+      ],
+      "es": [
+        "Frangula purshiana"
+      ],
+      "fr": [
+        "Frangula purshiana"
+      ],
+      "it": [
+        "Frangula purshiana"
+      ],
+      "ja": [
+        "カスカラサグラダ"
+      ],
+      "ko": [
+        "카스카라 사그라다"
+      ],
+      "nl": [
+        "Frangula purshiana"
+      ],
+      "pl": [
+        "Frangula purshiana"
+      ],
+      "pt": [
+        "Frangula purshiana"
+      ],
+      "ru": [
+        "Каскара"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4166,7 +5358,7 @@
     "family": "Rhamnaceae",
     "genus": "Frangula",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4248,9 +5440,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Frangula sphaerosperma"
+      ],
+      "en": [
+        "Frangula sphaerosperma"
+      ],
+      "es": [
+        "Frangula sphaerosperma"
+      ],
+      "fr": [
+        "Frangula sphaerosperma"
+      ],
+      "it": [
+        "Frangula sphaerosperma"
+      ],
+      "nl": [
+        "Frangula sphaerosperma"
+      ],
+      "pl": [
+        "Frangula sphaerosperma"
+      ],
+      "pt": [
+        "Frangula sphaerosperma"
+      ],
+      "ru": [
+        "Frangula sphaerosperma"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4260,7 +5482,7 @@
     "family": "Rhamnaceae",
     "genus": "Gouania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4342,9 +5564,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Gouania latifolia"
+      ],
+      "en": [
+        "Gouania latifolia"
+      ],
+      "es": [
+        "Gouania latifolia"
+      ],
+      "fr": [
+        "Gouania latifolia"
+      ],
+      "it": [
+        "Gouania latifolia"
+      ],
+      "nl": [
+        "Gouania latifolia"
+      ],
+      "pl": [
+        "Gouania latifolia"
+      ],
+      "pt": [
+        "Gouania latifolia"
+      ],
+      "ru": [
+        "Gouania latifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4354,12 +5606,12 @@
     "family": "Rhamnaceae",
     "genus": "Gouania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/45afde07c828bdfc6457f16fa4d0d202d6a6d15d",
-    "description": null,
+    "description": "Gouania lupuloides, known as chewstick or whiteroot, is a neotropical plant of the family Rhamnaceae. It is occasionally used as a teeth-cleaning implement.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4436,11 +5688,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gouania lupuloides"
+      ],
       "en": [
+        "Gouania lupuloides",
         "Whiteroot"
+      ],
+      "es": [
+        "Gouania lupuloides"
+      ],
+      "fr": [
+        "Gouania lupuloides"
+      ],
+      "it": [
+        "Gouania lupuloides"
+      ],
+      "nl": [
+        "Gouania lupuloides"
+      ],
+      "pl": [
+        "Gouania lupuloides"
+      ],
+      "pt": [
+        "Gouania lupuloides"
+      ],
+      "ru": [
+        "Gouania lupuloides"
       ]
     },
     "tags": [],
@@ -4452,7 +5731,7 @@
     "family": "Rhamnaceae",
     "genus": "Gouania",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -4534,11 +5813,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Gouania polygama"
+      ],
       "en": [
+        "Gouania polygama",
         "Liane savon"
+      ],
+      "es": [
+        "Gouania polygama"
+      ],
+      "fr": [
+        "Gouania polygama"
+      ],
+      "it": [
+        "Gouania polygama"
+      ],
+      "nl": [
+        "Gouania polygama"
+      ],
+      "pl": [
+        "Gouania polygama"
+      ],
+      "pt": [
+        "Gouania polygama"
+      ],
+      "ru": [
+        "Gouania polygama"
       ]
     },
     "tags": [],
@@ -4550,12 +5856,12 @@
     "family": "Rhamnaceae",
     "genus": "Hovenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/6c394276fe036bb387bfb173cec7cac266c1ba51",
-    "description": "Fleshy, red, edible seed capsules can be eaten both raw and cooked.  They can cause a litter problem.",
+    "description": "Hovenia dulcis, or the oriental raisin tree, is a hardy tree found in Asia, from Eastern China and Korea to the Himalayas, growing preferably in a sunny position on moist sandy or loamy soils. The tree known for its health benefits when consumed in tea, introduced as an ornamental tree to several countries, also bears edible fruit. It is considered to be one of the most pervasive invaders in Brazilian subtropical forests.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4632,11 +5938,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "هوفينية حلوة"
+      ],
+      "de": [
+        "Japanischer Rosinenbaum"
+      ],
       "en": [
+        "Hovenia dulcis",
         "Japanese raisintree"
+      ],
+      "es": [
+        "Hovenia dulcis"
+      ],
+      "fr": [
+        "Raisinier de Chine"
+      ],
+      "it": [
+        "Hovenia dulcis"
+      ],
+      "ja": [
+        "ケンポナシ"
+      ],
+      "ko": [
+        "헛개나무"
+      ],
+      "nl": [
+        "Hovenia dulcis"
+      ],
+      "pl": [
+        "howenia słodka"
+      ],
+      "pt": [
+        "Cajueiro-japonês"
+      ],
+      "ru": [
+        "конфетное дерево"
+      ],
+      "tr": [
+        "Hovenia dulcis"
+      ],
+      "zh": [
+        "北枳椇"
       ]
     },
     "tags": [],
@@ -4648,12 +5996,12 @@
     "family": "Rhamnaceae",
     "genus": "Karwinskia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/54cacbc4e67588eb1f9604c0604d1267.jpg",
-    "description": null,
+    "description": "Karwinskia humboldtiana, commonly known as coyotillo, cacachila or Humboldt coyotillo, is a species of flowering shrub or small tree in the family Rhamnaceae. It is native to southern and western Texas in the United States as well as much of Mexico. The seeds and leaves of this plant contain the quinones eleutherin and 7-methoxyeleutherin and chrysophanol and β-amyrin in the fruits that are toxic to humans and livestock.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4730,9 +6078,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "قيوطيل"
+      ],
+      "de": [
+        "Karwinskia humboldtiana"
+      ],
+      "en": [
+        "Karwinskia humboldtiana"
+      ],
+      "es": [
+        "Karwinskia humboldtiana"
+      ],
+      "fr": [
+        "Karwinskia humboldtiana"
+      ],
+      "it": [
+        "Karwinskia humboldtiana"
+      ],
+      "nl": [
+        "Karwinskia humboldtiana"
+      ],
+      "pl": [
+        "Karwinskia humboldtiana"
+      ],
+      "pt": [
+        "Karwinskia humboldtiana"
+      ],
+      "ru": [
+        "Karwinskia humboldtiana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4742,12 +6123,12 @@
     "family": "Rhamnaceae",
     "genus": "Krugiodendron",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d954a15f207ac72480c7760a325393eaefa5ccfc",
-    "description": null,
+    "description": "Krugiodendron ferreum, commonly known as the black ironwood or leadwood, is a species of tree in the family Rhamnaceae. It is found in southern Florida, throughout the Caribbean and from southern Mexico to Honduras. Originally described by Martin Vahl, its specific epithet is the Latin adjective ferreus (\"iron-like\").",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4824,11 +6205,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Krugiodendron ferreum"
+      ],
       "en": [
+        "Krugiodendron ferreum",
         "Leadwood"
+      ],
+      "es": [
+        "Krugiodendron ferreum"
+      ],
+      "fr": [
+        "Krugiodendron ferreum"
+      ],
+      "it": [
+        "Krugiodendron ferreum"
+      ],
+      "nl": [
+        "Krugiodendron ferreum"
+      ],
+      "pl": [
+        "Krugiodendron ferreum"
+      ],
+      "pt": [
+        "Krugiodendron ferreum"
+      ],
+      "ru": [
+        "Krugiodendron ferreum"
       ]
     },
     "tags": [],
@@ -4840,12 +6248,12 @@
     "family": "Rhamnaceae",
     "genus": "Paliurus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9561b352a55671f360660808aa40d69cd5968ca5",
-    "description": null,
+    "description": "Paliurus spina-christi, commonly known as Jerusalem thorn, garland thorn, Christ's thorn, or crown of thorns, is a species of Paliurus native to the northern Mediterranean region, Southwest Asia and Central Asia, from Spain and southern France east to Afghanistan and Tajikistan.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4856,17 +6264,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "paliurus_spina-christi",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -4922,11 +6330,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.5
     },
     "common_names": {
+      "ar": [
+        "شبهان شوك المسيح"
+      ],
+      "de": [
+        "Christusdorn"
+      ],
       "en": [
-        "Christ's-thorn"
+        "Christ's-thorn",
+        "Paliurus spina-christi"
+      ],
+      "es": [
+        "Paliurus spina-christi"
+      ],
+      "fr": [
+        "Paliurus spina-christi"
+      ],
+      "it": [
+        "Paliurus spina-christi"
+      ],
+      "ja": [
+        "セイヨウハマナツメ"
+      ],
+      "nl": [
+        "Paliurus spina-christi"
+      ],
+      "pl": [
+        "Espinavessa"
+      ],
+      "pt": [
+        "Paliurus spina-christi"
+      ],
+      "ru": [
+        "Держидерево тернии Христа"
+      ],
+      "tr": [
+        "Karaçalı"
+      ],
+      "zh": [
+        "滨枣"
       ]
     },
     "tags": [],
@@ -4938,7 +6385,7 @@
     "family": "Rhamnaceae",
     "genus": "Phylica",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5020,9 +6467,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phylica nitida"
+      ],
+      "en": [
+        "Phylica nitida"
+      ],
+      "es": [
+        "Phylica nitida"
+      ],
+      "fr": [
+        "Ambaville bâtard"
+      ],
+      "it": [
+        "Phylica nitida"
+      ],
+      "nl": [
+        "Phylica nitida"
+      ],
+      "pl": [
+        "Phylica nitida"
+      ],
+      "pt": [
+        "Phylica nitida"
+      ],
+      "ru": [
+        "Phylica nitida"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5032,12 +6509,12 @@
     "family": "Rhamnaceae",
     "genus": "Pomaderris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Pomaderris andromedifolia is a species of flowering plant in the family Rhamnaceae and is endemic to south-eastern continental Australia. It is a shrub with lance-shaped to elliptic leaves and cream-coloured to yellow flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5114,9 +6591,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pomaderris andromedifolia"
+      ],
+      "en": [
+        "Pomaderris andromedifolia"
+      ],
+      "es": [
+        "Pomaderris andromedifolia"
+      ],
+      "fr": [
+        "Pomaderris andromedifolia"
+      ],
+      "it": [
+        "Pomaderris andromedifolia"
+      ],
+      "nl": [
+        "Pomaderris andromedifolia"
+      ],
+      "pl": [
+        "Pomaderris andromedifolia"
+      ],
+      "pt": [
+        "Pomaderris andromedifolia"
+      ],
+      "ru": [
+        "Pomaderris andromedifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5126,12 +6633,12 @@
     "family": "Rhamnaceae",
     "genus": "Pomaderris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/f53caa005d8473923f52a06104564a2b.jpg",
-    "description": null,
+    "description": "Pomaderris apetala is a small tree or large shrub from the family Rhamnaceae, growing in Victoria, New Zealand and Tasmania.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5208,9 +6715,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pomaderris apetala"
+      ],
+      "en": [
+        "Pomaderris apetala"
+      ],
+      "es": [
+        "Pomaderris apetala"
+      ],
+      "fr": [
+        "Pomaderris apetala"
+      ],
+      "it": [
+        "Pomaderris apetala"
+      ],
+      "nl": [
+        "Pomaderris apetala"
+      ],
+      "pl": [
+        "Pomaderris apetala"
+      ],
+      "pt": [
+        "Pomaderris apetala"
+      ],
+      "ru": [
+        "Pomaderris apetala"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5220,12 +6757,12 @@
     "family": "Rhamnaceae",
     "genus": "Pomaderris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Pomaderris aspera, commonly known as hazel pomaderris, is a species of flowering plant in the family Rhamnaceae and is endemic to south-eastern Australia. It is a shrub or small tree with elliptic to lance-shaped or egg-shaped leaves and greenish-yellow flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5302,9 +6839,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pomaderris aspera"
+      ],
+      "en": [
+        "Pomaderris aspera"
+      ],
+      "es": [
+        "Pomaderris aspera"
+      ],
+      "fr": [
+        "Pomaderris aspera"
+      ],
+      "it": [
+        "Pomaderris aspera"
+      ],
+      "nl": [
+        "Pomaderris aspera"
+      ],
+      "pl": [
+        "Pomaderris aspera"
+      ],
+      "pt": [
+        "Pomaderris aspera"
+      ],
+      "ru": [
+        "Pomaderris aspera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5314,12 +6881,12 @@
     "family": "Rhamnaceae",
     "genus": "Pomaderris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/4b989013dd2d25bf99187357703ccbc2.jpg",
-    "description": null,
+    "description": "Pomaderris cotoneaster, commonly known as cotoneaster pomaderris, is a species of flowering plant in the family Rhamnaceae and is endemic to south-eastern continental Australia. It is an erect shrub with woolly-hairy stems, elliptic leaves, and leafy panicles of cream-coloured flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5396,9 +6963,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pomaderris cotoneaster"
+      ],
+      "en": [
+        "Pomaderris cotoneaster"
+      ],
+      "es": [
+        "Pomaderris cotoneaster"
+      ],
+      "fr": [
+        "Pomaderris cotoneaster"
+      ],
+      "it": [
+        "Pomaderris cotoneaster"
+      ],
+      "nl": [
+        "Pomaderris cotoneaster"
+      ],
+      "pl": [
+        "Pomaderris cotoneaster"
+      ],
+      "pt": [
+        "Pomaderris cotoneaster"
+      ],
+      "ru": [
+        "Pomaderris cotoneaster"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5408,12 +7005,12 @@
     "family": "Rhamnaceae",
     "genus": "Pomaderris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pomaderris_elliptica.jpg",
+    "description": "Pomaderris elliptica, commonly known as yellow dogwood or smooth pomaderris, is a species of flowering plant in the family Rhamnaceae and is endemic to south-eastern Australia. It is a shrub with densely hairy branchlets, egg-shaped or elliptic leaves, and pale yellow flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5490,9 +7087,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pomaderris elliptica"
+      ],
+      "en": [
+        "Pomaderris elliptica"
+      ],
+      "es": [
+        "Pomaderris elliptica"
+      ],
+      "fr": [
+        "Pomaderris elliptica"
+      ],
+      "it": [
+        "Pomaderris elliptica"
+      ],
+      "nl": [
+        "Pomaderris elliptica"
+      ],
+      "pl": [
+        "Pomaderris elliptica"
+      ],
+      "pt": [
+        "Pomaderris elliptica"
+      ],
+      "ru": [
+        "Pomaderris elliptica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5502,12 +7129,12 @@
     "family": "Rhamnaceae",
     "genus": "Pomaderris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Pomaderris lanigera, commonly known as woolly pomaderris, is a species of flowering plant in the family Rhamnaceae and is endemic to south-eastern continental Australia. It is a shrub or small tree with hairy stems, lance-shaped to egg-shaped or elliptic leaves, and hemispherical clusters of yellow flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5584,9 +7211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pomaderris lanigera"
+      ],
+      "en": [
+        "Pomaderris lanigera"
+      ],
+      "es": [
+        "Pomaderris lanigera"
+      ],
+      "fr": [
+        "Pomaderris lanigera"
+      ],
+      "it": [
+        "Pomaderris lanigera"
+      ],
+      "nl": [
+        "Pomaderris lanigera"
+      ],
+      "pl": [
+        "Pomaderris lanigera"
+      ],
+      "pt": [
+        "Pomaderris lanigera"
+      ],
+      "ru": [
+        "Pomaderris lanigera"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5596,12 +7253,12 @@
     "family": "Rhamnaceae",
     "genus": "Pomaderris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Pomaderris paniculosa, commonly known as scurfy pomaderris, is a species of flowering plant in the family Rhamnaceae and is native to Australia and New Zealand. It is a shrub with hairy branchlets, round to elliptic or egg-shaped leaves with the narrower end towards the base and panicles of hairy, cream-coloured to greenish, sometimes crimson-tinged flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5678,9 +7335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pomaderris paniculosa"
+      ],
+      "en": [
+        "Pomaderris paniculosa"
+      ],
+      "es": [
+        "Pomaderris paniculosa"
+      ],
+      "fr": [
+        "Pomaderris paniculosa"
+      ],
+      "it": [
+        "Pomaderris paniculosa"
+      ],
+      "nl": [
+        "Pomaderris paniculosa"
+      ],
+      "pl": [
+        "Pomaderris paniculosa"
+      ],
+      "pt": [
+        "Pomaderris paniculosa"
+      ],
+      "ru": [
+        "Pomaderris paniculosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5690,12 +7377,12 @@
     "family": "Rhamnaceae",
     "genus": "Pomaderris",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Pomaderris phylicifolia, commonly known as narrow-leaf pomaderris, is a species of flowering plant in the family Rhamnaceae and is to south-eastern Australia and New Zealand. It is a slender shrub with hairy stems, narrowly egg-shaped to linear leaves, and small clusters of cream-coloured to yellow flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5772,9 +7459,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pomaderris phylicifolia"
+      ],
+      "en": [
+        "Pomaderris phylicifolia"
+      ],
+      "es": [
+        "Pomaderris phylicifolia"
+      ],
+      "fr": [
+        "Pomaderris phylicifolia"
+      ],
+      "it": [
+        "Pomaderris phylicifolia"
+      ],
+      "nl": [
+        "Pomaderris phylicifolia"
+      ],
+      "pl": [
+        "Pomaderris phylicifolia"
+      ],
+      "pt": [
+        "Pomaderris phylicifolia"
+      ],
+      "ru": [
+        "Pomaderris phylicifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5784,12 +7501,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/bda29cbf76b88fe42c87007e51c816f6.jpg",
-    "description": "A decorative fruit, yellow in summer, then orange and scarlet in fall and finally ripening to dark purple/black in the fall.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5866,9 +7583,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhamnella franguloides"
+      ],
+      "en": [
+        "Rhamnella franguloides"
+      ],
+      "es": [
+        "Rhamnella franguloides"
+      ],
+      "fr": [
+        "Rhamnella franguloides"
+      ],
+      "it": [
+        "Rhamnella franguloides"
+      ],
+      "nl": [
+        "Rhamnella franguloides"
+      ],
+      "pl": [
+        "Rhamnella franguloides"
+      ],
+      "pt": [
+        "Rhamnella franguloides"
+      ],
+      "ru": [
+        "Rhamnella franguloides"
+      ],
+      "zh": [
+        "猫乳"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5878,7 +7628,7 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5960,9 +7710,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhamnidium elaeocarpum"
+      ],
+      "en": [
+        "Rhamnidium elaeocarpum"
+      ],
+      "es": [
+        "Rhamnidium elaeocarpum"
+      ],
+      "fr": [
+        "Rhamnidium elaeocarpum"
+      ],
+      "it": [
+        "Rhamnidium elaeocarpum"
+      ],
+      "nl": [
+        "Rhamnidium elaeocarpum"
+      ],
+      "pl": [
+        "Rhamnidium elaeocarpum"
+      ],
+      "pt": [
+        "Rhamnidium elaeocarpum"
+      ],
+      "ru": [
+        "Rhamnidium elaeocarpum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5972,7 +7752,7 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -5988,17 +7768,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_alaternus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6054,11 +7834,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.8
     },
     "common_names": {
+      "ar": [
+        "نبق متبادل الأوراق"
+      ],
+      "de": [
+        "Stechpalmen-Kreuzdorn"
+      ],
       "en": [
-        "Mediterranean buckthorn"
+        "Mediterranean buckthorn",
+        "Rhamnus alaternus"
+      ],
+      "es": [
+        "Rhamnus alaternus"
+      ],
+      "fr": [
+        "Nerprun alaterne"
+      ],
+      "it": [
+        "Rhamnus alaternus"
+      ],
+      "nl": [
+        "Rhamnus alaternus"
+      ],
+      "pl": [
+        "Rhamnus alaternus"
+      ],
+      "pt": [
+        "Rhamnus alaternus"
+      ],
+      "ru": [
+        "Rhamnus alaternus"
+      ],
+      "zh": [
+        "義大利鼠李"
       ]
     },
     "tags": [],
@@ -6070,12 +7883,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/cace4bd6cf5cb04c7ba5eb98b7a8c2253d1ab846",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6086,17 +7899,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_alpina",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6118,8 +7931,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Berberis thunbergii",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Bark, fruit. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6137,8 +7950,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Ascending",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Bark, fruit",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -6152,11 +7965,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Rhamnus alpina"
+      ],
       "en": [
-        "Alpine buckthorn"
+        "Alpine buckthorn",
+        "Rhamnus alpina"
+      ],
+      "es": [
+        "Rhamnus alpina"
+      ],
+      "fr": [
+        "Nerprun des Alpes"
+      ],
+      "it": [
+        "Rhamnus alpina"
+      ],
+      "nl": [
+        "Rhamnus alpina"
+      ],
+      "pl": [
+        "Rhamnus alpina"
+      ],
+      "pt": [
+        "Rhamnus alpina"
+      ],
+      "ru": [
+        "Rhamnus alpina"
       ]
     },
     "tags": [],
@@ -6168,7 +8008,7 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6184,17 +8024,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_cathartica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6216,8 +8056,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Ampelopsis glandulosa var. brevipedunculata",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Bark, fruit. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -6235,8 +8075,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Erect",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Bark, fruit",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -6250,11 +8090,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "ar": [
+        "نبق مسهل"
+      ],
+      "de": [
+        "Purgier-Kreuzdorn"
+      ],
       "en": [
-        "European buckthorn"
+        "European buckthorn",
+        "Rhamnus cathartica"
+      ],
+      "es": [
+        "Rhamnus catharticus"
+      ],
+      "fr": [
+        "Rhamnus catharticus"
+      ],
+      "it": [
+        "Rhamnus cathartica"
+      ],
+      "nl": [
+        "Wegedoorn"
+      ],
+      "pl": [
+        "Szakłak pospolity"
+      ],
+      "pt": [
+        "Rhamnus cathartica"
+      ],
+      "ru": [
+        "Крушина слабительная"
+      ],
+      "tr": [
+        "Rhamnus cathartica"
+      ],
+      "zh": [
+        "药鼠李"
       ]
     },
     "tags": [],
@@ -6266,12 +8142,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/d2316713266a496e1d71cfa615c571c3dcf1059f",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": "Rhamnus crocea, the spiny redberry, is a species of plant in the family Rhamnaceae. It is native from California to northern Mexico. As of March 2024, five subspecies are recognized.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6282,17 +8158,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_crocea",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6348,11 +8224,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
     "common_names": {
+      "de": [
+        "Rhamnus crocea"
+      ],
       "en": [
+        "Rhamnus crocea",
         "Spiny redberry"
+      ],
+      "es": [
+        "Rhamnus crocea"
+      ],
+      "fr": [
+        "Rhamnus crocea"
+      ],
+      "it": [
+        "Rhamnus crocea"
+      ],
+      "nl": [
+        "Rhamnus crocea"
+      ],
+      "pl": [
+        "Rhamnus crocea"
+      ],
+      "pt": [
+        "Rhamnus crocea"
+      ],
+      "ru": [
+        "Rhamnus crocea"
       ]
     },
     "tags": [],
@@ -6364,12 +8267,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0fa5cb2f19b97073cad6b37950e3fd03f29acc21",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": "Rhamnus japonica, the Japanese buckthorn, is a species within the genus Rhamnus. It is described as a perennial tree. It was also introduced to the United States at an unknown time. In North America, it is known to live in Illinois. Rhamnus is the ancient Greek name for buckthorn. Japonica means Japanese.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6380,7 +8283,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_japonica",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6446,11 +8349,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Rhamnus japonica"
+      ],
       "en": [
-        "Japanese buckthorn"
+        "Japanese buckthorn",
+        "Rhamnus japonica"
+      ],
+      "es": [
+        "Rhamnus japonica"
+      ],
+      "fr": [
+        "Rhamnus japonica"
+      ],
+      "it": [
+        "Rhamnus japonica"
+      ],
+      "nl": [
+        "Rhamnus japonica"
+      ],
+      "pl": [
+        "Rhamnus japonica"
+      ],
+      "pt": [
+        "Rhamnus japonica"
+      ],
+      "ru": [
+        "Rhamnus japonica"
       ]
     },
     "tags": [],
@@ -6462,7 +8392,7 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -6478,17 +8408,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_lycioides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 300,
+      "ppfd_max": 600,
+      "dli_min": 12.0,
+      "dli_max": 20.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6544,11 +8474,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 3,
+      "ellenberg_l": 7.7
     },
     "common_names": {
+      "de": [
+        "Rhamnus lycioides"
+      ],
       "en": [
-        "Black hawthorn"
+        "Black hawthorn",
+        "Rhamnus lycioides"
+      ],
+      "es": [
+        "Rhamnus lycioides"
+      ],
+      "fr": [
+        "Rhamnus lycioides"
+      ],
+      "it": [
+        "Rhamnus lycioides"
+      ],
+      "nl": [
+        "Rhamnus lycioides"
+      ],
+      "pl": [
+        "Rhamnus lycioides"
+      ],
+      "pt": [
+        "Rhamnus lycioides"
+      ],
+      "ru": [
+        "Rhamnus lycioides"
+      ],
+      "zh": [
+        "毡毛鼠李"
       ]
     },
     "tags": [],
@@ -6560,12 +8520,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/d20a3e547638f88abaf8fa068462a6d0.jpg",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6576,7 +8536,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_myrtifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6642,9 +8602,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhamnus myrtifolia"
+      ],
+      "en": [
+        "Rhamnus myrtifolia"
+      ],
+      "es": [
+        "Rhamnus myrtifolia"
+      ],
+      "fr": [
+        "Rhamnus myrtifolia"
+      ],
+      "it": [
+        "Rhamnus myrtifolia"
+      ],
+      "nl": [
+        "Rhamnus myrtifolia"
+      ],
+      "pl": [
+        "Rhamnus myrtifolia"
+      ],
+      "pt": [
+        "Rhamnus myrtifolia"
+      ],
+      "ru": [
+        "Rhamnus myrtifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6654,12 +8644,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6972b2dca9b458830003ba322a704e8e.jpg",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": "Rhamnus oleoides, known as the olive buckthorn, is a species of flowering plant in the family Rhamnaceae, native from the Mediterranean to the Arabian Peninsula and Iran.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6670,17 +8660,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_oleoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6736,9 +8726,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.0
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhamnus oleoides"
+      ],
+      "en": [
+        "Rhamnus oleoides"
+      ],
+      "es": [
+        "Rhamnus oleoides"
+      ],
+      "fr": [
+        "Rhamnus oleoides"
+      ],
+      "it": [
+        "Rhamnus oleoides"
+      ],
+      "nl": [
+        "Rhamnus oleoides"
+      ],
+      "pl": [
+        "Rhamnus oleoides"
+      ],
+      "pt": [
+        "Rhamnus oleoides"
+      ],
+      "ru": [
+        "Rhamnus oleoides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6748,12 +8768,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/9f6ea2293718b8a9fe4f88cba20c4917.jpg",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6764,7 +8784,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_parvifolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6830,9 +8850,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhamnus parvifolia Newb. (1883) non Bunge (1833)"
+      ],
+      "en": [
+        "Rhamnus parvifolia Newb. (1883) non Bunge (1833)"
+      ],
+      "es": [
+        "Rhamnus parvifolia"
+      ],
+      "fr": [
+        "Rhamnus parvifolia"
+      ],
+      "it": [
+        "Rhamnus parvifolia"
+      ],
+      "ko": [
+        "돌갈매나무"
+      ],
+      "nl": [
+        "Rhamnus parvifolia"
+      ],
+      "pl": [
+        "Rhamnus parvifolia"
+      ],
+      "pt": [
+        "Rhamnus parvifolia"
+      ],
+      "ru": [
+        "Rhamnus parvifolia"
+      ],
+      "zh": [
+        "小叶鼠李"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6842,12 +8898,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/857b9780c2fca98c7fdacc4abcdf64cabc9f9366",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": "Rhamnus prinoides, the shiny-leaf buckthorn, is an African shrub or small tree in the family Rhamnaceae. Commonly referred to as gesho, it was first scientifically described by French botanist Charles Louis L'Héritier de Brutelle in 1789.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6858,7 +8914,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_prinoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -6924,11 +8980,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Afrikanischer Faulbaum"
+      ],
       "en": [
+        "Rhamnus prinoides",
         "Schefflera"
+      ],
+      "es": [
+        "Rhamnus prinoides"
+      ],
+      "fr": [
+        "Rhamnus prinoides"
+      ],
+      "it": [
+        "Rhamnus prinoides"
+      ],
+      "ja": [
+        "ラムヌス・プリノイデス"
+      ],
+      "ko": [
+        "게쇼갈매나무"
+      ],
+      "nl": [
+        "Rhamnus prinoides"
+      ],
+      "pl": [
+        "Rhamnus prinoides"
+      ],
+      "pt": [
+        "Rhamnus prinoides"
+      ],
+      "ru": [
+        "Rhamnus prinoides"
       ]
     },
     "tags": [],
@@ -6940,12 +9029,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/a3f862486c704f58d4fa944ec4a6b3c4a6bc8628",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6956,17 +9045,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_pumila",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 3-4 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -6988,8 +9077,8 @@
       "light_guide": "NC State: Full sun (6 or more hours of direct sunlight a day)",
       "tips": "Similar plants: Berberis thunbergii",
       "toxic_to_pets": 0,
-      "toxic_to_humans": 0,
-      "toxicity_note": null,
+      "toxic_to_humans": 1,
+      "toxicity_note": "Human: toxic. Parts: Bark, fruit. (Source: TPPT/Agroscope)",
       "common_problems": null,
       "common_pests": null,
       "watering_method": null,
@@ -7007,8 +9096,8 @@
       "height_indoor_max_cm": null,
       "spread_max_cm": null,
       "difficulty_note": "Growth habit: Ascending",
-      "toxic_parts": null,
-      "toxicity_severity": null,
+      "toxic_parts": "Bark, fruit",
+      "toxicity_severity": "Moderate",
       "toxicity_symptoms": null,
       "toxicity_first_aid": null,
       "used_for": null,
@@ -7022,9 +9111,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 2,
+      "ellenberg_l": 8.7
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Zwerg-Kreuzdorn"
+      ],
+      "en": [
+        "Rhamnus pumila"
+      ],
+      "es": [
+        "Rhamnus pumila"
+      ],
+      "fr": [
+        "Nerprun nain"
+      ],
+      "it": [
+        "Rhamnus pumila"
+      ],
+      "nl": [
+        "Rhamnus pumila"
+      ],
+      "pl": [
+        "Rhamnus pumila"
+      ],
+      "pt": [
+        "Rhamnus pumila"
+      ],
+      "ru": [
+        "Rhamnus pumila"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7034,12 +9153,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/db5f6abf8cc8e7ae758f80c09dcf3db7cc7a44fb",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7050,17 +9169,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_saxatilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -7116,11 +9235,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 7.2
     },
     "common_names": {
+      "de": [
+        "Felsen-Kreuzdorn"
+      ],
       "en": [
+        "Rhamnus saxatilis",
         "Rock buckthorn"
+      ],
+      "es": [
+        "Rhamnus saxatilis"
+      ],
+      "fr": [
+        "Nerprun des rochers"
+      ],
+      "it": [
+        "Rhamnus saxatilis"
+      ],
+      "nl": [
+        "Rhamnus saxatilis"
+      ],
+      "pl": [
+        "Rhamnus saxatilis"
+      ],
+      "pt": [
+        "Rhamnus saxatilis"
+      ],
+      "ru": [
+        "Rhamnus saxatilis"
       ]
     },
     "tags": [],
@@ -7132,12 +9278,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4a70fdc4ed51ffecf612ae6f6543a482ad76be0a",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7148,7 +9294,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_utilis",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7214,11 +9360,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Rhamnus utilis"
+      ],
       "en": [
-        "Chinese buckthorn"
+        "Chinese buckthorn",
+        "Rhamnus utilis"
+      ],
+      "es": [
+        "Rhamnus utilis"
+      ],
+      "fr": [
+        "Rhamnus utilis"
+      ],
+      "it": [
+        "Rhamnus utilis"
+      ],
+      "nl": [
+        "Rhamnus utilis"
+      ],
+      "pl": [
+        "Rhamnus utilis"
+      ],
+      "pt": [
+        "Rhamnus utilis"
+      ],
+      "ru": [
+        "Rhamnus utilis"
+      ],
+      "zh": [
+        "冻绿"
       ]
     },
     "tags": [],
@@ -7230,12 +9406,12 @@
     "family": "Rhamnaceae",
     "genus": "Rhamnus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/7f7f657e4d7bfdf3905b207264aef213.jpg",
-    "description": "Fleshy, black or red berry-like drupes. Fruits have 2 to 4 stones, obovoid-globose or globose shaped. Seeds have a long, narrow, furrow and fleshy endosperm.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7246,7 +9422,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "rhamnus_yoshinoi",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 2-3 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -7312,9 +9488,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Rhamnus yoshinoi"
+      ],
+      "en": [
+        "Rhamnus yoshinoi"
+      ],
+      "es": [
+        "Rhamnus yoshinoi"
+      ],
+      "fr": [
+        "Rhamnus yoshinoi"
+      ],
+      "it": [
+        "Rhamnus yoshinoi"
+      ],
+      "ko": [
+        "짝자래나무"
+      ],
+      "nl": [
+        "Rhamnus yoshinoi"
+      ],
+      "pl": [
+        "Rhamnus yoshinoi"
+      ],
+      "pt": [
+        "Rhamnus yoshinoi"
+      ],
+      "ru": [
+        "Rhamnus yoshinoi"
+      ],
+      "zh": [
+        "吉野鼠李"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7324,7 +9536,7 @@
     "family": "Rhamnaceae",
     "genus": "Sageretia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7406,11 +9618,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نمت ثيزانس"
+      ],
+      "de": [
+        "Sageretia thea"
+      ],
       "en": [
-        "Pauper's-tea"
+        "Pauper's-tea",
+        "Sageretia thea"
+      ],
+      "es": [
+        "Sageretia thea"
+      ],
+      "fr": [
+        "Sageretia thea"
+      ],
+      "it": [
+        "Sageretia thea"
+      ],
+      "ko": [
+        "상동나무"
+      ],
+      "nl": [
+        "Sageretia thea"
+      ],
+      "pl": [
+        "Sageretia thea"
+      ],
+      "pt": [
+        "Sageretia thea"
+      ],
+      "ru": [
+        "Sageretia thea"
+      ],
+      "tr": [
+        "Sageretia thea"
+      ],
+      "zh": [
+        "雀梅藤"
       ]
     },
     "tags": [],
@@ -7422,7 +9673,7 @@
     "family": "Rhamnaceae",
     "genus": "Sarcomphalus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7504,9 +9755,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sarcomphalus amole"
+      ],
+      "en": [
+        "Sarcomphalus amole"
+      ],
+      "es": [
+        "Sarcomphalus amole"
+      ],
+      "fr": [
+        "Sarcomphalus amole"
+      ],
+      "it": [
+        "Sarcomphalus amole"
+      ],
+      "nl": [
+        "Sarcomphalus amole"
+      ],
+      "pl": [
+        "Sarcomphalus amole"
+      ],
+      "pt": [
+        "Sarcomphalus amole"
+      ],
+      "ru": [
+        "Sarcomphalus amole"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7516,7 +9797,7 @@
     "family": "Rhamnaceae",
     "genus": "Sarcomphalus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7598,9 +9879,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sarcomphalus joazeiro"
+      ],
+      "en": [
+        "Sarcomphalus joazeiro"
+      ],
+      "es": [
+        "Sarcomphalus joazeiro"
+      ],
+      "fr": [
+        "Sarcomphalus joazeiro"
+      ],
+      "it": [
+        "Sarcomphalus joazeiro"
+      ],
+      "nl": [
+        "Sarcomphalus joazeiro"
+      ],
+      "pl": [
+        "Sarcomphalus joazeiro"
+      ],
+      "pt": [
+        "Juazeiro"
+      ],
+      "ru": [
+        "Sarcomphalus joazeiro"
+      ],
+      "zh": [
+        "茹阿澤魯（水果）"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7610,7 +9924,7 @@
     "family": "Rhamnaceae",
     "genus": "Sarcomphalus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7692,9 +10006,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sarcomphalus obtusifolius"
+      ],
+      "en": [
+        "Sarcomphalus obtusifolius"
+      ],
+      "es": [
+        "Sarcomphalus obtusifolius"
+      ],
+      "fr": [
+        "Sarcomphalus obtusifolius"
+      ],
+      "it": [
+        "Sarcomphalus obtusifolius"
+      ],
+      "nl": [
+        "Sarcomphalus obtusifolius"
+      ],
+      "pl": [
+        "Sarcomphalus obtusifolius"
+      ],
+      "pt": [
+        "Sarcomphalus obtusifolius"
+      ],
+      "ru": [
+        "Sarcomphalus obtusifolius"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7704,7 +10048,7 @@
     "family": "Rhamnaceae",
     "genus": "Scutia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7786,9 +10130,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Scutia myrtina"
+      ],
+      "en": [
+        "Scutia myrtina"
+      ],
+      "es": [
+        "Scutia myrtina"
+      ],
+      "fr": [
+        "Scutia myrtina"
+      ],
+      "it": [
+        "Scutia myrtina"
+      ],
+      "nl": [
+        "Scutia myrtina"
+      ],
+      "pl": [
+        "Scutia myrtina"
+      ],
+      "pt": [
+        "Scutia myrtina"
+      ],
+      "ru": [
+        "Scutia myrtina"
+      ],
+      "zh": [
+        "钩刺藤"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7798,7 +10175,7 @@
     "family": "Rhamnaceae",
     "genus": "Spyridium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7880,9 +10257,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Spyridium subochreatum"
+      ],
+      "en": [
+        "Spyridium subochreatum"
+      ],
+      "es": [
+        "Spyridium subochreatum"
+      ],
+      "fr": [
+        "Spyridium subochreatum"
+      ],
+      "it": [
+        "Spyridium subochreatum"
+      ],
+      "nl": [
+        "Spyridium subochreatum"
+      ],
+      "pl": [
+        "Spyridium subochreatum"
+      ],
+      "pt": [
+        "Spyridium subochreatum"
+      ],
+      "ru": [
+        "Spyridium subochreatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7892,7 +10299,7 @@
     "family": "Rhamnaceae",
     "genus": "Ventilago",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -7974,9 +10381,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ventilago viminalis"
+      ],
+      "en": [
+        "Ventilago viminalis"
+      ],
+      "es": [
+        "Ventilago viminalis"
+      ],
+      "fr": [
+        "Ventilago viminalis"
+      ],
+      "it": [
+        "Ventilago viminalis"
+      ],
+      "nl": [
+        "Ventilago viminalis"
+      ],
+      "pl": [
+        "Ventilago viminalis"
+      ],
+      "pt": [
+        "Ventilago viminalis"
+      ],
+      "ru": [
+        "Ventilago viminalis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7986,7 +10423,7 @@
     "family": "Rhamnaceae",
     "genus": "Ziziphus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8002,17 +10439,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ziziphus_jujuba",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8068,11 +10505,53 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "ar": [
+        "عناب"
+      ],
+      "de": [
+        "Ziziphus jujuba"
+      ],
       "en": [
-        "Chinese jujube"
+        "Chinese jujube",
+        "Ziziphus jujuba"
+      ],
+      "es": [
+        "Ziziphus jujuba"
+      ],
+      "fr": [
+        "Ziziphus jujuba"
+      ],
+      "it": [
+        "Ziziphus jujuba"
+      ],
+      "ja": [
+        "ナツメ"
+      ],
+      "ko": [
+        "대추나무"
+      ],
+      "nl": [
+        "Ziziphus jujuba"
+      ],
+      "pl": [
+        "głożyna pospolita"
+      ],
+      "pt": [
+        "Jujuba"
+      ],
+      "ru": [
+        "Ziziphus jujuba"
+      ],
+      "tr": [
+        "Hünnap"
+      ],
+      "zh": [
+        "枣树"
       ]
     },
     "tags": [],
@@ -8084,7 +10563,7 @@
     "family": "Rhamnaceae",
     "genus": "Ziziphus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8100,7 +10579,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ziziphus_lotus",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -8166,11 +10645,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "زفيزف لوطسي"
+      ],
+      "de": [
+        "Ziziphus lotus"
+      ],
       "en": [
-        "Lotus"
+        "Lotus",
+        "Ziziphus lotus"
+      ],
+      "es": [
+        "Ziziphus lotus"
+      ],
+      "fr": [
+        "Jujubier sauvage"
+      ],
+      "it": [
+        "Ziziphus lotus"
+      ],
+      "nl": [
+        "Ziziphus lotus"
+      ],
+      "pl": [
+        "głożyna afrykańska"
+      ],
+      "pt": [
+        "Ziziphus lotus"
+      ],
+      "ru": [
+        "Унаби африканская"
+      ],
+      "tr": [
+        "Gonnara"
+      ],
+      "zh": [
+        "棗蓮"
       ]
     },
     "tags": [],
@@ -8182,7 +10697,7 @@
     "family": "Rhamnaceae",
     "genus": "Ziziphus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8198,17 +10713,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ziziphus_mauritiana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8264,9 +10779,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": 9.0
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "سدر هندي"
+      ],
+      "de": [
+        "Indische Jujube"
+      ],
+      "en": [
+        "Ziziphus mauritiana"
+      ],
+      "es": [
+        "Ziziphus mauritiana"
+      ],
+      "fr": [
+        "Ziziphus mauritiana"
+      ],
+      "hi": [
+        "बेर"
+      ],
+      "it": [
+        "Ziziphus mauritiana"
+      ],
+      "ja": [
+        "インドナツメ"
+      ],
+      "nl": [
+        "Ziziphus mauritiana"
+      ],
+      "pl": [
+        "Głożyna omszona"
+      ],
+      "pt": [
+        "Ziziphus mauritiana"
+      ],
+      "ru": [
+        "Зизифус мавританский"
+      ],
+      "zh": [
+        "滇刺棗"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -8276,7 +10833,7 @@
     "family": "Rhamnaceae",
     "genus": "Ziziphus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8292,17 +10849,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "ziziphus_mucronata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -8358,11 +10915,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": 9.0
     },
     "common_names": {
+      "de": [
+        "Ziziphus mucronata"
+      ],
       "en": [
-        "Buffalo thorn"
+        "Buffalo thorn",
+        "Ziziphus mucronata"
+      ],
+      "es": [
+        "Ziziphus mucronata"
+      ],
+      "fr": [
+        "Ziziphus mucronata"
+      ],
+      "it": [
+        "Ziziphus mucronata"
+      ],
+      "nl": [
+        "Ziziphus mucronata"
+      ],
+      "pl": [
+        "Ziziphus mucronata"
+      ],
+      "pt": [
+        "Ziziphus mucronata"
+      ],
+      "ru": [
+        "Ziziphus mucronata"
+      ],
+      "zh": [
+        "凸棗"
       ]
     },
     "tags": [],
@@ -8374,7 +10961,7 @@
     "family": "Rhamnaceae",
     "genus": "Ziziphus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8390,7 +10977,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ziziphus_oenopolia",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -8456,11 +11043,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ziziphus oenoplia"
+      ],
       "en": [
-        "Jhâribu'"
+        "Jhâribu'",
+        "Ziziphus oenoplia"
+      ],
+      "es": [
+        "Ziziphus oenoplia"
+      ],
+      "fr": [
+        "Ziziphus oenoplia"
+      ],
+      "it": [
+        "Ziziphus oenoplia"
+      ],
+      "nl": [
+        "Ziziphus oenoplia"
+      ],
+      "pl": [
+        "Ziziphus oenopolia"
+      ],
+      "pt": [
+        "Ziziphus oenopolia"
+      ],
+      "ru": [
+        "Ziziphus oenopolia"
+      ],
+      "zh": [
+        "小果枣"
       ]
     },
     "tags": [],
@@ -8472,7 +11089,7 @@
     "family": "Rhamnaceae",
     "genus": "Ziziphus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -8488,7 +11105,7 @@
     "synonyms": null,
     "care": {
       "plant_id": "ziziphus_spina-christi",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 4-5 weeks",
       "water_winter": null,
       "water_demand": "Medium",
       "start_pct": null,
@@ -8554,11 +11171,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 1,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سدر"
+      ],
+      "de": [
+        "Ziziphus spina-christi"
+      ],
       "en": [
-        "Christ's-thorn"
+        "Christ's-thorn",
+        "Ziziphus spina-christi"
+      ],
+      "es": [
+        "Ziziphus spina-christi"
+      ],
+      "fr": [
+        "Ziziphus spina-christi"
+      ],
+      "it": [
+        "Ziziphus spina-christi"
+      ],
+      "ko": [
+        "가시갯대추나무"
+      ],
+      "nl": [
+        "Ziziphus spina-christi"
+      ],
+      "pl": [
+        "Głożyna cierń Chrystusa"
+      ],
+      "pt": [
+        "Ziziphus spina-christi"
+      ],
+      "ru": [
+        "Ziziphus spina-christi"
+      ],
+      "zh": [
+        "基督刺棗"
       ]
     },
     "tags": [],

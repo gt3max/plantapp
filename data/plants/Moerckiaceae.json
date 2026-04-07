@@ -5,7 +5,7 @@
     "family": "Moerckiaceae",
     "genus": "Moerckia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Moerckia blyttii"
+      ],
+      "en": [
+        "Moerckia blyttii"
+      ],
+      "es": [
+        "Moerckia blyttii"
+      ],
+      "fr": [
+        "Moerckia blyttii"
+      ],
+      "it": [
+        "Moerckia blyttii"
+      ],
+      "nl": [
+        "Moerckia blyttii"
+      ],
+      "pl": [
+        "Moerckia blyttii"
+      ],
+      "pt": [
+        "Moerckia blyttii"
+      ],
+      "ru": [
+        "Moerckia blyttii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Moerckiaceae",
     "genus": "Moerckia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Moerckia flotoviana"
+      ],
+      "en": [
+        "Moerckia flotoviana"
+      ],
+      "es": [
+        "Moerckia flotoviana"
+      ],
+      "fr": [
+        "Moerckia flotoviana"
+      ],
+      "it": [
+        "Moerckia flotoviana"
+      ],
+      "nl": [
+        "Moerckia flotoviana"
+      ],
+      "pl": [
+        "Moerckia flotoviana"
+      ],
+      "pt": [
+        "Moerckia flotoviana"
+      ],
+      "ru": [
+        "Moerckia flotoviana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,12 +253,12 @@
     "family": "Moerckiaceae",
     "genus": "Moerckia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Moerckia hibernica is a species of liverwort belonging to the family Moerckiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -275,9 +335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Moerckia hibernica"
+      ],
+      "en": [
+        "Moerckia hibernica"
+      ],
+      "es": [
+        "Moerckia hibernica"
+      ],
+      "fr": [
+        "Moerckia hibernica"
+      ],
+      "it": [
+        "Moerckia hibernica"
+      ],
+      "nl": [
+        "Moerckia hibernica"
+      ],
+      "pl": [
+        "Moerckia hibernica"
+      ],
+      "pt": [
+        "Moerckia hibernica"
+      ],
+      "ru": [
+        "Moerckia hibernica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

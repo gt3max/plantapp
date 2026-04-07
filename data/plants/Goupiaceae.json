@@ -5,7 +5,7 @@
     "family": "Goupiaceae",
     "genus": "Goupia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Goupia glabra"
+      ],
+      "en": [
+        "Goupia glabra"
+      ],
+      "es": [
+        "Goupia glabra"
+      ],
+      "fr": [
+        "Goupi"
+      ],
+      "it": [
+        "Goupia glabra"
+      ],
+      "nl": [
+        "Goupia glabra"
+      ],
+      "pl": [
+        "Goupia glabra"
+      ],
+      "pt": [
+        "Goupia glabra"
+      ],
+      "ru": [
+        "Goupia glabra"
+      ],
+      "zh": [
+        "圭巴卫矛"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

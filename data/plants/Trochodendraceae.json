@@ -5,7 +5,7 @@
     "family": "Trochodendraceae",
     "genus": "Trochodendron",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Radbaum"
+      ],
+      "en": [
+        "Trochodendron aralioides"
+      ],
+      "es": [
+        "Trochodendron aralioides"
+      ],
+      "fr": [
+        "Trochodendron aralioides"
+      ],
+      "it": [
+        "Trochodendron aralioides"
+      ],
+      "ja": [
+        "ヤマグルマ"
+      ],
+      "nl": [
+        "Trochodendron aralioides"
+      ],
+      "pl": [
+        "Trochodendron araliowaty"
+      ],
+      "pt": [
+        "Trochodendron aralioides"
+      ],
+      "ru": [
+        "Троходендрон аралиевидный"
+      ],
+      "zh": [
+        "昆欄樹"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,7 +5,7 @@
     "family": "Hedwigiaceae",
     "genus": "Braunia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Braunia secunda"
+      ],
+      "en": [
+        "Braunia secunda"
+      ],
+      "es": [
+        "Braunia secunda"
+      ],
+      "fr": [
+        "Braunia secunda"
+      ],
+      "it": [
+        "Braunia secunda"
+      ],
+      "nl": [
+        "Braunia secunda"
+      ],
+      "pl": [
+        "Braunia secunda"
+      ],
+      "pt": [
+        "Braunia secunda"
+      ],
+      "ru": [
+        "Braunia secunda"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Hedwigiaceae",
     "genus": "Hedwigia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hedwigia_ciliata_01.jpg",
+    "description": "Hedwigia ciliata is a species of moss belonging to the family Hedwigiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +211,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hedwigia ciliata"
+      ],
+      "en": [
+        "Hedwigia ciliata"
+      ],
+      "es": [
+        "Hedwigia ciliata"
+      ],
+      "fr": [
+        "Hedwigia ciliata"
+      ],
+      "it": [
+        "Hedwigia ciliata"
+      ],
+      "nl": [
+        "Hedwigia ciliata"
+      ],
+      "pl": [
+        "Hedwigia ciliata"
+      ],
+      "pt": [
+        "Hedwigia ciliata"
+      ],
+      "ru": [
+        "Hedwigia ciliata"
+      ],
+      "zh": [
+        "虎尾蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +256,7 @@
     "family": "Hedwigiaceae",
     "genus": "Hedwigia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +338,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hedwigia stellata"
+      ],
+      "en": [
+        "Hedwigia stellata"
+      ],
+      "es": [
+        "Hedwigia stellata"
+      ],
+      "fr": [
+        "Hedwigia stellata"
+      ],
+      "it": [
+        "Hedwigia stellata"
+      ],
+      "nl": [
+        "Hedwigia stellata"
+      ],
+      "pl": [
+        "Hedwigia stellata"
+      ],
+      "pt": [
+        "Hedwigia stellata"
+      ],
+      "ru": [
+        "Hedwigia stellata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,7 +380,7 @@
     "family": "Hedwigiaceae",
     "genus": "Hedwigidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -369,9 +462,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hedwigidium integrifolium"
+      ],
+      "en": [
+        "Hedwigidium integrifolium"
+      ],
+      "es": [
+        "Hedwigidium integrifolium"
+      ],
+      "fr": [
+        "Hedwigidium integrifolium"
+      ],
+      "it": [
+        "Hedwigidium integrifolium"
+      ],
+      "nl": [
+        "Hedwigidium integrifolium"
+      ],
+      "pl": [
+        "Hedwigidium integrifolium"
+      ],
+      "pt": [
+        "Hedwigidium integrifolium"
+      ],
+      "ru": [
+        "Hedwigidium integrifolium"
+      ],
+      "zh": [
+        "钝叶赤枝藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

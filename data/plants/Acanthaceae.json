@@ -10,7 +10,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/e3c8646d37d82d08ac541dbebe567d227e1e6487",
-    "description": "Green oval capsules",
+    "description": "Acanthus ilicifolius, commonly known as holly-leaved acanthus, sea holly, and holly mangrove, is a species of shrubs or herbs, of the plant family Acanthaceae, native to Australia, Australasia, mainland China, Hong Kong, and Southeast Asia. It is used as medicine in asthma and rheumatism.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,7 +21,7 @@
     "synonyms": "[\"Dilivaria ilicifolia\", \"Acanthus ilicifolius var. typica\"]",
     "care": {
       "plant_id": "acanthus_ilicifolius",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": null,
@@ -91,7 +91,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
       "ar": [
@@ -130,7 +132,7 @@
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/09cc2ba9e227a0a99082a948fca14e9d1d8a755c",
-    "description": "Green oval capsules",
+    "description": "Acanthus mollis, commonly known as bear's breeches, sea dock, bear's foot plant, sea holly, gator plant or oyster plant, is a species of plant in the family Acanthaceae and is native to the Mediterranean region. It is a leafy, clump-forming perennial herb, with a rosette of relatively large, lobed or toothed leaves, and purplish and white flowers on an erect spike.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -141,13 +143,13 @@
     "synonyms": null,
     "care": {
       "plant_id": "acanthus_mollis",
-      "water_frequency": "Every 5-7 days",
+      "water_frequency": "Every 11-14 days",
       "water_winter": null,
       "water_demand": "High",
       "start_pct": 15,
       "stop_pct": 60,
-      "light_preferred": "Bright indirect light, no direct sun",
-      "light_also_ok": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
       "ppfd_min": 27,
       "ppfd_max": 57,
       "dli_min": 0.1,
@@ -215,7 +217,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": 6.0
     },
     "common_names": {
       "ar": [
@@ -291,7 +295,7 @@
     "family": "Acanthaceae",
     "genus": "Aphelandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -373,11 +377,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Aphelandra aurantiaca"
+      ],
       "en": [
+        "Aphelandra aurantiaca",
         "Fiery spike"
+      ],
+      "es": [
+        "Aphelandra aurantiaca"
+      ],
+      "fr": [
+        "Aphelandra aurantiaca"
+      ],
+      "it": [
+        "Aphelandra aurantiaca"
+      ],
+      "nl": [
+        "Aphelandra aurantiaca"
+      ],
+      "pl": [
+        "Aphelandra aurantiaca"
+      ],
+      "pt": [
+        "Aphelandra aurantiaca"
+      ],
+      "ru": [
+        "Aphelandra aurantiaca"
       ]
     },
     "tags": [],
@@ -389,7 +420,7 @@
     "family": "Acanthaceae",
     "genus": "Aphelandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -471,9 +502,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aphelandra longiflora"
+      ],
+      "en": [
+        "Aphelandra longiflora"
+      ],
+      "es": [
+        "Aphelandra longiflora"
+      ],
+      "fr": [
+        "Aphelandra longiflora"
+      ],
+      "it": [
+        "Aphelandra longiflora"
+      ],
+      "nl": [
+        "Aphelandra longiflora"
+      ],
+      "pl": [
+        "Aphelandra longiflora"
+      ],
+      "pt": [
+        "Aphelandra longiflora"
+      ],
+      "ru": [
+        "Aphelandra longiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -483,7 +544,7 @@
     "family": "Acanthaceae",
     "genus": "Aphelandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -565,9 +626,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Aphelandra scabra"
+      ],
+      "en": [
+        "Aphelandra scabra"
+      ],
+      "es": [
+        "Aphelandra scabra"
+      ],
+      "fr": [
+        "Aphelandra scabra"
+      ],
+      "it": [
+        "Aphelandra scabra"
+      ],
+      "nl": [
+        "Aphelandra scabra"
+      ],
+      "pl": [
+        "Aphelandra scabra"
+      ],
+      "pt": [
+        "Aphelandra scabra"
+      ],
+      "ru": [
+        "Aphelandra scabra"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -577,7 +668,7 @@
     "family": "Acanthaceae",
     "genus": "Aphelandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -595,7 +686,7 @@
       "plant_id": "aphelandra_squarrosa",
       "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": 15,
       "stop_pct": 60,
       "light_preferred": "part shade",
@@ -668,11 +759,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شمعة الميلاد"
+      ],
+      "de": [
+        "Aphelandra squarrosa"
+      ],
       "en": [
+        "Aphelandra squarrosa",
+        "Zebra Plant",
         "zebra plant"
+      ],
+      "es": [
+        "Aphelandra squarrosa"
+      ],
+      "fr": [
+        "Aphelandra squarrosa"
+      ],
+      "it": [
+        "Aphelandra squarrosa"
+      ],
+      "ja": [
+        "アフェランドラ・スクアロサ"
+      ],
+      "nl": [
+        "Aphelandra squarrosa"
+      ],
+      "pl": [
+        "Afelandra stercząca"
+      ],
+      "pt": [
+        "Aphelandra squarrosa"
+      ],
+      "ru": [
+        "Aphelandra squarrosa"
+      ],
+      "zh": [
+        "金脉单药花"
       ]
     },
     "tags": [
@@ -689,12 +817,12 @@
     "family": "Acanthaceae",
     "genus": "Asystasia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/e86d583c11c9cf8c6406534d5ae823bbe679b6e9",
-    "description": null,
+    "description": "Asystasia gangetica is a species of plant in the family Acanthaceae. It is commonly known as the Chinese violet, coromandel or creeping foxglove. In South Africa this plant may simply be called asystasia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -771,11 +899,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Asystasia gangetica"
+      ],
       "en": [
+        "Asystasia gangetica",
         "Chinese violet"
+      ],
+      "es": [
+        "Asystasia gangetica"
+      ],
+      "fr": [
+        "Asystasia gangetica"
+      ],
+      "it": [
+        "Asystasia gangetica"
+      ],
+      "ja": [
+        "コロマンソウ"
+      ],
+      "nl": [
+        "Asystasia gangetica"
+      ],
+      "pl": [
+        "Asystasia gangetica"
+      ],
+      "pt": [
+        "Asystasia gangetica"
+      ],
+      "ru": [
+        "Asystasia gangetica"
+      ],
+      "zh": [
+        "宽叶十万错"
       ]
     },
     "tags": [],
@@ -787,12 +948,12 @@
     "family": "Acanthaceae",
     "genus": "Avicennia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/6fa6573afaa6578b0739462fc71e3a14114056c8",
-    "description": null,
+    "description": "Avicennia germinans, the black mangrove, is a shrub or small tree growing up to 12 meters in the acanthus family, Acanthaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -869,11 +1030,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 4,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Schwarze Mangrove"
+      ],
       "en": [
+        "Avicennia germinans",
         "Black mangrove"
+      ],
+      "es": [
+        "Avicennia germinans"
+      ],
+      "fr": [
+        "Avicennia germinans"
+      ],
+      "it": [
+        "Avicennia germinans"
+      ],
+      "ja": [
+        "ブラックマングローブ"
+      ],
+      "nl": [
+        "Avicennia germinans"
+      ],
+      "pl": [
+        "Avicennia germinans"
+      ],
+      "pt": [
+        "Sereíba"
+      ],
+      "ru": [
+        "Avicennia germinans"
+      ],
+      "zh": [
+        "黑海榄雌"
       ]
     },
     "tags": [],
@@ -885,12 +1079,12 @@
     "family": "Acanthaceae",
     "genus": "Avicennia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/b297526f4efa107e5801bda2e4eba5eae7c3d5f9",
-    "description": null,
+    "description": "Avicennia marina, commonly known as grey mangrove or white mangrove, is a species of mangrove tree classified in the plant family Acanthaceae. As with other mangroves, it occurs in the intertidal zones of estuarine areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -967,11 +1161,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "قرم بحري"
+      ],
+      "de": [
+        "Avicennia marina"
+      ],
       "en": [
+        "Avicennia marina",
         "Grey mangrove"
+      ],
+      "es": [
+        "Avicennia marina"
+      ],
+      "fr": [
+        "Avicennia marina"
+      ],
+      "it": [
+        "Avicennia marina"
+      ],
+      "ja": [
+        "ヒルギダマシ"
+      ],
+      "nl": [
+        "Avicennia marina"
+      ],
+      "pl": [
+        "Avicennia marina"
+      ],
+      "pt": [
+        "Avicennia marina"
+      ],
+      "ru": [
+        "Авиценния морская"
+      ],
+      "zh": [
+        "海榄雌"
       ]
     },
     "tags": [],
@@ -983,12 +1213,12 @@
     "family": "Acanthaceae",
     "genus": "Avicennia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/aa393fa8c14dac280cb828587049abb5a56fb127",
-    "description": null,
+    "description": "Avicennia schaueriana is a species of tropical mangrove in the family Acanthaceae. It grows in coastal and estuarine locations along the Atlantic coast of northeastern South America, from Venezuela and the Leeward Islands through Trinidad and Tobago, the Windward Islands, the Guianas, and Brazil to Uruguay.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1065,9 +1295,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Avicennia schaueriana"
+      ],
+      "en": [
+        "Avicennia schaueriana"
+      ],
+      "es": [
+        "Avicennia schaueriana"
+      ],
+      "fr": [
+        "Avicennia schaueriana"
+      ],
+      "it": [
+        "Avicennia schaueriana"
+      ],
+      "nl": [
+        "Avicennia schaueriana"
+      ],
+      "pl": [
+        "Avicennia schaueriana"
+      ],
+      "pt": [
+        "Avicennia schaueriana"
+      ],
+      "ru": [
+        "Avicennia schaueriana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1077,12 +1337,12 @@
     "family": "Acanthaceae",
     "genus": "Barleria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/2b704074b36a2a43a0b5af7d27420fc022e3e3d6",
-    "description": null,
+    "description": "Barleria cristata, the Philippine violet, bluebell barleria or crested Philippine violet, is a plant species in the family Acanthaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1159,11 +1419,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "الشخت 5"
+      ],
+      "de": [
+        "Barleria cristata"
+      ],
       "en": [
+        "Barleria cristata",
         "Philippine-violet"
+      ],
+      "es": [
+        "Barleria cristata"
+      ],
+      "fr": [
+        "Barleria cristata"
+      ],
+      "it": [
+        "Barleria cristata"
+      ],
+      "ja": [
+        "クビナガバルレリア"
+      ],
+      "nl": [
+        "Barleria cristata"
+      ],
+      "pl": [
+        "Barleria cristata"
+      ],
+      "pt": [
+        "Barleria cristata"
+      ],
+      "ru": [
+        "Barleria cristata"
+      ],
+      "zh": [
+        "假杜鹃"
       ]
     },
     "tags": [],
@@ -1175,7 +1471,7 @@
     "family": "Acanthaceae",
     "genus": "Barleria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -1257,9 +1553,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Barleria oenotheroides"
+      ],
+      "en": [
+        "Barleria oenotheroides"
+      ],
+      "es": [
+        "Barleria oenotheroides"
+      ],
+      "fr": [
+        "Barleria oenotheroides"
+      ],
+      "it": [
+        "Barleria oenotheroides"
+      ],
+      "nl": [
+        "Barleria oenotheroides"
+      ],
+      "pl": [
+        "Barleria oenotheroides"
+      ],
+      "pt": [
+        "Barleria oenotheroides"
+      ],
+      "ru": [
+        "Barleria oenotheroides"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1269,12 +1595,12 @@
     "family": "Acanthaceae",
     "genus": "Barleria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/6aab7e3b444046261cff1357e1fc35b19d2f528f",
-    "description": null,
+    "description": "Barleria prionitis is a shrub in the family Acanthaceae, native to Island and Mainland Southeast Asia, China, the Indian Subcontinent, the Arabian Peninsula and northeastern Africa. It is widely spread as an ornamental and weed, occurring in naturalised populations around the world. It used not only as an ornamental but also as a hedge and extensively as a component of folk medicines. As a weed it is regarded as problematic in many areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1351,11 +1677,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Barleria prionitis"
+      ],
       "en": [
-        "Barleria"
+        "Barleria",
+        "Barleria prionitis"
+      ],
+      "es": [
+        "Barleria prionitis"
+      ],
+      "fr": [
+        "Picanier jaune"
+      ],
+      "it": [
+        "Barleria prionitis"
+      ],
+      "nl": [
+        "Barleria prionitis"
+      ],
+      "pl": [
+        "Barleria prionitis"
+      ],
+      "pt": [
+        "Barleria prionitis"
+      ],
+      "ru": [
+        "Barleria prionitis"
+      ],
+      "zh": [
+        "黄花假杜鹃"
       ]
     },
     "tags": [],
@@ -1367,12 +1723,12 @@
     "family": "Acanthaceae",
     "genus": "Blepharis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/a97e1b906a90e829b0035fed238015ef5fbd8eb6",
-    "description": null,
+    "description": "Blepharis maderaspatensis is a species of suffrutescent herb in the family Acanthaceae found in seasonally dry to arid habitats from Africa over Arabia to Southeast Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1449,9 +1805,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Blepharis maderaspatensis"
+      ],
+      "en": [
+        "Blepharis maderaspatensis"
+      ],
+      "es": [
+        "Blepharis maderaspatensis"
+      ],
+      "fr": [
+        "Blepharis maderaspatensis"
+      ],
+      "it": [
+        "Blepharis maderaspatensis"
+      ],
+      "nl": [
+        "Blepharis maderaspatensis"
+      ],
+      "pl": [
+        "Blepharis maderaspatensis"
+      ],
+      "pt": [
+        "Blepharis maderaspatensis"
+      ],
+      "ru": [
+        "Blepharis maderaspatensis"
+      ],
+      "zh": [
+        "百簕花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1461,7 +1850,7 @@
     "family": "Acanthaceae",
     "genus": "Bravaisia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -1543,9 +1932,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Bravaisia interregima"
+      ],
+      "en": [
+        "Bravaisia integerrima"
+      ],
+      "es": [
+        "Bravaisia integerrima"
+      ],
+      "fr": [
+        "Bravaisia integerrima"
+      ],
+      "it": [
+        "Bravaisia integerrima"
+      ],
+      "nl": [
+        "Bravaisia integerrima"
+      ],
+      "pl": [
+        "Bravaisia integerrima"
+      ],
+      "pt": [
+        "Bravaisia integerrima"
+      ],
+      "ru": [
+        "Bravaisia integerrima"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1555,12 +1974,12 @@
     "family": "Acanthaceae",
     "genus": "Brunoniella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/53b06bf487306c481840a6193523bdd6.jpg",
-    "description": null,
+    "description": "Brunoniella australis, the blue trumpet or blue yam, is a plant native of Australia. A widespread herbaceous plant, found in moist areas of eucalyptus woodland and forest, particularly on sloping ground. It is a small plant between 2–30 cm (0.8–10 in) tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -1637,9 +2056,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Brunoniella australis"
+      ],
+      "en": [
+        "Brunoniella australis"
+      ],
+      "es": [
+        "Brunoniella australis"
+      ],
+      "fr": [
+        "Brunoniella australis"
+      ],
+      "it": [
+        "Brunoniella australis"
+      ],
+      "nl": [
+        "Brunoniella australis"
+      ],
+      "pl": [
+        "Brunoniella australis"
+      ],
+      "pt": [
+        "Brunoniella australis"
+      ],
+      "ru": [
+        "Brunoniella australis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1649,7 +2098,7 @@
     "family": "Acanthaceae",
     "genus": "Brunoniella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -1731,9 +2180,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Brunoniella pumilio"
+      ],
+      "en": [
+        "Brunoniella pumilio"
+      ],
+      "es": [
+        "Brunoniella pumilio"
+      ],
+      "fr": [
+        "Brunoniella pumilio"
+      ],
+      "it": [
+        "Brunoniella pumilio"
+      ],
+      "nl": [
+        "Brunoniella pumilio"
+      ],
+      "pl": [
+        "Brunoniella pumilio"
+      ],
+      "pt": [
+        "Brunoniella pumilio"
+      ],
+      "ru": [
+        "Brunoniella pumilio"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1743,7 +2222,7 @@
     "family": "Acanthaceae",
     "genus": "Carlowrightia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -1825,9 +2304,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Carlowrightia arizonica"
+      ],
+      "en": [
+        "Carlowrightia arizonica"
+      ],
+      "es": [
+        "Carlowrightia arizonica"
+      ],
+      "fr": [
+        "Carlowrightia arizonica"
+      ],
+      "it": [
+        "Carlowrightia arizonica"
+      ],
+      "nl": [
+        "Carlowrightia arizonica"
+      ],
+      "pl": [
+        "Carlowrightia arizonica"
+      ],
+      "pt": [
+        "Carlowrightia arizonica"
+      ],
+      "ru": [
+        "Carlowrightia arizonica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1837,7 +2346,7 @@
     "family": "Acanthaceae",
     "genus": "Crossandra",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1853,9 +2362,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "crossandra_infundibuliformis",
-      "water_frequency": "Every 2-3 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part shade",
@@ -1923,11 +2432,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "كروسندرة قمعية الشكل"
+      ],
+      "de": [
+        "Crossandra infundibuliformis"
+      ],
       "en": [
+        "Crossandra infundibuliformis",
         "firecracker flower"
+      ],
+      "es": [
+        "Crossandra infundibuliformis"
+      ],
+      "fr": [
+        "Crossandra infundibuliformis"
+      ],
+      "hi": [
+        "अबोली"
+      ],
+      "it": [
+        "Crossandra infundibuliformis"
+      ],
+      "ja": [
+        "クロサンドラ"
+      ],
+      "nl": [
+        "Crossandra infundibuliformis"
+      ],
+      "pl": [
+        "Crossandra infundibuliformis"
+      ],
+      "pt": [
+        "Crossandra infundibuliformis"
+      ],
+      "ru": [
+        "Кроссандра воронковидная"
+      ],
+      "zh": [
+        "鳥尾花"
       ]
     },
     "tags": [
@@ -1944,12 +2492,12 @@
     "family": "Acanthaceae",
     "genus": "Dicliptera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/7e615b4e39e88dba9736caf8439303150577b9fc",
-    "description": "Two wing-like capsules.",
+    "description": "Dicliptera brachiata is a species of plant in the family Acanthaceae. It is an herbaceous perennial native to North America, ranging from the eastern United States to Central America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2026,11 +2574,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dicliptera brachiata"
+      ],
       "en": [
-        "Branched foldwing"
+        "Branched foldwing",
+        "Dicliptera brachiata"
+      ],
+      "es": [
+        "Dicliptera brachiata"
+      ],
+      "fr": [
+        "Dicliptera brachiata"
+      ],
+      "it": [
+        "Dicliptera brachiata"
+      ],
+      "nl": [
+        "Dicliptera brachiata"
+      ],
+      "pl": [
+        "Dicliptera brachiata"
+      ],
+      "pt": [
+        "Dicliptera brachiata"
+      ],
+      "ru": [
+        "Dicliptera brachiata"
       ]
     },
     "tags": [],
@@ -2042,12 +2617,12 @@
     "family": "Acanthaceae",
     "genus": "Dicliptera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/a14d766485d4c53b3f4413915fb26665f0a1bcef",
-    "description": "Two wing-like capsules.",
+    "description": "Dicliptera chinensis, commonly known as Chinese foldwing, is a species of subshrub of the plant family Acanthaceae. It occurs in mainland China, Hong Kong, Taiwan, Japan, and South and Southeast Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2124,11 +2699,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dicliptera chinensis"
+      ],
       "en": [
-        "Chinese foldwing"
+        "Chinese foldwing",
+        "Dicliptera chinensis"
+      ],
+      "es": [
+        "Dicliptera chinensis"
+      ],
+      "fr": [
+        "Dicliptera chinensis"
+      ],
+      "it": [
+        "Dicliptera chinensis"
+      ],
+      "ja": [
+        "ヤンバルハグロソウ"
+      ],
+      "nl": [
+        "Dicliptera chinensis"
+      ],
+      "pl": [
+        "Dicliptera chinensis"
+      ],
+      "pt": [
+        "Dicliptera chinensis"
+      ],
+      "ru": [
+        "Dicliptera chinensis"
+      ],
+      "zh": [
+        "狗肝菜"
       ]
     },
     "tags": [],
@@ -2140,7 +2748,7 @@
     "family": "Acanthaceae",
     "genus": "Dicliptera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -2222,9 +2830,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dicliptera japonica"
+      ],
+      "en": [
+        "Dicliptera japonica"
+      ],
+      "es": [
+        "Dicliptera japonica"
+      ],
+      "fr": [
+        "Dicliptera japonica"
+      ],
+      "it": [
+        "Dicliptera japonica"
+      ],
+      "nl": [
+        "Dicliptera japonica"
+      ],
+      "pl": [
+        "Dicliptera japonica"
+      ],
+      "pt": [
+        "Dicliptera japonica"
+      ],
+      "ru": [
+        "Dicliptera japonica"
+      ],
+      "zh": [
+        "九头狮子草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2234,12 +2875,12 @@
     "family": "Acanthaceae",
     "genus": "Dicliptera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f82f5ee3fa088ac8664e37543a6bdb86ec4c887f",
-    "description": "Two wing-like capsules.",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2316,9 +2957,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dicliptera paniculata"
+      ],
+      "en": [
+        "Dicliptera paniculata"
+      ],
+      "es": [
+        "Dicliptera paniculata"
+      ],
+      "fr": [
+        "Dicliptera paniculata"
+      ],
+      "it": [
+        "Dicliptera paniculata"
+      ],
+      "nl": [
+        "Dicliptera paniculata"
+      ],
+      "pl": [
+        "Dicliptera paniculata"
+      ],
+      "pt": [
+        "Dicliptera paniculata"
+      ],
+      "ru": [
+        "Dicliptera paniculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2328,12 +2999,12 @@
     "family": "Acanthaceae",
     "genus": "Dicliptera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/8d5bbc8954dfe41308f4d9cf3ae737742944c683",
-    "description": "Two wing-like capsules.",
+    "description": "Dicliptera sexangularis, the sixangle foldwing, is a flowering plant in the genus Dicliptera and the family Acanthaceae. It has red blooms and is a perennial. In the United States it grows in Florida and Texas. It has also been reported in parts of the Caribbean, Central America, and Venezuela. It is a dicot.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2410,11 +3081,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Dicliptera sexangularis"
+      ],
       "en": [
+        "Dicliptera sexangularis",
         "Sixangle foldwing"
+      ],
+      "es": [
+        "Dicliptera sexangularis"
+      ],
+      "fr": [
+        "Dicliptera sexangularis"
+      ],
+      "it": [
+        "Dicliptera sexangularis"
+      ],
+      "nl": [
+        "Dicliptera sexangularis"
+      ],
+      "pl": [
+        "Dicliptera sexangularis"
+      ],
+      "pt": [
+        "Dicliptera sexangularis"
+      ],
+      "ru": [
+        "Dicliptera sexangularis"
       ]
     },
     "tags": [],
@@ -2426,12 +3124,12 @@
     "family": "Acanthaceae",
     "genus": "Dicliptera",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/b6815cfb286f84a9eee2670690c77aa5f5d29444",
-    "description": "Two wing-like capsules.",
+    "description": "Dicliptera squarrosa, also known as firecracker plant and Hummingbird plant, is a species of flowering plant in the acanthus family, Acanthaceae. A scrambling subshrub, it is native to central South America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2508,9 +3206,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dicliptera squarrosa"
+      ],
+      "en": [
+        "Dicliptera squarrosa"
+      ],
+      "es": [
+        "Dicliptera squarrosa"
+      ],
+      "fr": [
+        "Dicliptera squarrosa"
+      ],
+      "it": [
+        "Dicliptera squarrosa"
+      ],
+      "nl": [
+        "Dicliptera squarrosa"
+      ],
+      "pl": [
+        "Dicliptera squarrosa"
+      ],
+      "pt": [
+        "Dicliptera squarrosa"
+      ],
+      "ru": [
+        "Dicliptera squarrosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2520,7 +3248,7 @@
     "family": "Acanthaceae",
     "genus": "Dyschoriste",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -2602,9 +3330,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "ضيفد خطي"
+      ],
+      "de": [
+        "Dyschoriste linearis"
+      ],
+      "en": [
+        "Dyschoriste linearis"
+      ],
+      "es": [
+        "Dyschoriste linearis"
+      ],
+      "fr": [
+        "Dyschoriste linearis"
+      ],
+      "it": [
+        "Dyschoriste linearis"
+      ],
+      "nl": [
+        "Dyschoriste linearis"
+      ],
+      "pl": [
+        "Dyschoriste linearis"
+      ],
+      "pt": [
+        "Dyschoriste linearis"
+      ],
+      "ru": [
+        "Dyschoriste linearis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2614,7 +3375,7 @@
     "family": "Acanthaceae",
     "genus": "Dyschoriste",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -2696,9 +3457,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Dyschoriste nagchana"
+      ],
+      "en": [
+        "Dyschoriste nagchana"
+      ],
+      "es": [
+        "Dyschoriste nagchana"
+      ],
+      "fr": [
+        "Dyschoriste nagchana"
+      ],
+      "it": [
+        "Dyschoriste nagchana"
+      ],
+      "nl": [
+        "Dyschoriste nagchana"
+      ],
+      "pl": [
+        "Dyschoriste nagchana"
+      ],
+      "pt": [
+        "Dyschoriste nagchana"
+      ],
+      "ru": [
+        "Dyschoriste nagchana"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -2708,7 +3499,7 @@
     "family": "Acanthaceae",
     "genus": "Elytraria",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -2790,11 +3581,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Elytraria imbricata"
+      ],
       "en": [
+        "Elytraria imbricata",
         "Purple scalystem"
+      ],
+      "es": [
+        "Elytraria imbricata"
+      ],
+      "fr": [
+        "Elytraria imbricata"
+      ],
+      "it": [
+        "Elytraria imbricata"
+      ],
+      "nl": [
+        "Elytraria imbricata"
+      ],
+      "pl": [
+        "Elytraria imbricata"
+      ],
+      "pt": [
+        "Elytraria imbricata"
+      ],
+      "ru": [
+        "Elytraria imbricata"
       ]
     },
     "tags": [],
@@ -2806,7 +3624,7 @@
     "family": "Acanthaceae",
     "genus": "Fittonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -2822,9 +3640,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "fittonia_albivenis_(argyroneura_group)",
-      "water_frequency": "Every 1-2 days",
+      "water_frequency": "Every 7-10 days",
       "water_winter": null,
-      "water_demand": "Average",
+      "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "part shade",
@@ -2888,7 +3706,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -2909,12 +3729,12 @@
     "family": "Acanthaceae",
     "genus": "Hygrophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/41a6a2814ea0e26740de719b5b5f8c6a81c7b641",
-    "description": null,
+    "description": "Hygrophila auriculata is a herbaceous, medicinal plant in the acanthus family that grows in marshy places and is native to tropical Asia and Africa. In India it is commonly known as kokilaksha or gokulakanta, in Sri Lanka as neeramulli. In Kerala and Tamil Nadu it is called vayalchulli (വയൽച്ചുളളി) and Neermulli (நீர்முள்ளி) respectively, and in the Telugu states, it is known as Godugu-gaddi (గొడుగుగడ్డి) or Gruddi-kamanchi (గ్రుడ్డికామంచి).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -2991,11 +3811,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hygrophila auriculata"
+      ],
       "en": [
-        "Hygrophila"
+        "Hygrophila",
+        "Hygrophila auriculata"
+      ],
+      "es": [
+        "Hygrophila auriculata"
+      ],
+      "fr": [
+        "Hygrophila auriculata"
+      ],
+      "hi": [
+        "गोकुलकांता"
+      ],
+      "it": [
+        "Hygrophila auriculata"
+      ],
+      "nl": [
+        "Hygrophila auriculata"
+      ],
+      "pl": [
+        "Hygrophila auriculata"
+      ],
+      "pt": [
+        "Hygrophila schulli"
+      ],
+      "ru": [
+        "Hygrophila auriculata"
       ]
     },
     "tags": [],
@@ -3007,12 +3857,12 @@
     "family": "Acanthaceae",
     "genus": "Hygrophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/36b7769fa8538b6927cd78b152f53c791ab8047f",
-    "description": null,
+    "description": "Hygrophila costata, with the common names glush weed, gulf swampweed, and yerba de hicotea, is an aquatic plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3089,11 +3939,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hygrophila costata"
+      ],
       "en": [
+        "Hygrophila costata",
         "Yerba de hicotea"
+      ],
+      "es": [
+        "Hygrophila costata"
+      ],
+      "fr": [
+        "Hygrophila costata"
+      ],
+      "it": [
+        "Hygrophila costata"
+      ],
+      "nl": [
+        "Hygrophila costata"
+      ],
+      "pl": [
+        "Hygrophila costata"
+      ],
+      "pt": [
+        "Hygrophila costata"
+      ],
+      "ru": [
+        "Hygrophila costata"
       ]
     },
     "tags": [],
@@ -3105,7 +3982,7 @@
     "family": "Acanthaceae",
     "genus": "Hygrophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -3187,9 +4064,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygrophila ringens"
+      ],
+      "en": [
+        "Hygrophila ringens"
+      ],
+      "es": [
+        "Hygrophila ringens"
+      ],
+      "fr": [
+        "Hygrophila ringens"
+      ],
+      "it": [
+        "Hygrophila ringens"
+      ],
+      "ja": [
+        "オギノツメ"
+      ],
+      "nl": [
+        "Hygrophila ringens"
+      ],
+      "pl": [
+        "Hygrophila ringens"
+      ],
+      "pt": [
+        "Hygrophila ringens"
+      ],
+      "ru": [
+        "Hygrophila ringens"
+      ],
+      "zh": [
+        "水蓑衣"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3199,12 +4112,12 @@
     "family": "Acanthaceae",
     "genus": "Hygrophila",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "",
-    "description": null,
+    "description": "Hygrophila auriculata is a herbaceous, medicinal plant in the acanthus family that grows in marshy places and is native to tropical Asia and Africa. In India it is commonly known as kokilaksha or gokulakanta, in Sri Lanka as neeramulli. In Kerala and Tamil Nadu it is called vayalchulli (വയൽച്ചുളളി) and Neermulli (நீர்முள்ளி) respectively, and in the Telugu states, it is known as Godugu-gaddi (గొడుగుగడ్డి) or Gruddi-kamanchi (గ్రుడ్డికామంచి).",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3281,9 +4194,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hygrophila schulli"
+      ],
+      "en": [
+        "Hygrophila schulli"
+      ],
+      "es": [
+        "Hygrophila schulli"
+      ],
+      "fr": [
+        "Hygrophila schulli"
+      ],
+      "it": [
+        "Hygrophila schulli"
+      ],
+      "nl": [
+        "Hygrophila schulli"
+      ],
+      "pl": [
+        "Hygrophila schulli"
+      ],
+      "pt": [
+        "Hygrophila schulli"
+      ],
+      "ru": [
+        "Hygrophila schulli"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3293,7 +4236,7 @@
     "family": "Acanthaceae",
     "genus": "Hypoestes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -3375,11 +4318,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypoestes aristata"
+      ],
       "en": [
+        "Hypoestes aristata",
         "Ribbon bush"
+      ],
+      "es": [
+        "Hypoestes aristata"
+      ],
+      "fr": [
+        "Hypoestes aristata"
+      ],
+      "it": [
+        "Hypoestes aristata"
+      ],
+      "nl": [
+        "Hypoestes aristata"
+      ],
+      "pl": [
+        "Hypoestes aristata"
+      ],
+      "pt": [
+        "Hypoestes aristata"
+      ],
+      "ru": [
+        "Hypoestes aristata"
       ]
     },
     "tags": [],
@@ -3391,12 +4361,12 @@
     "family": "Acanthaceae",
     "genus": "Hypoestes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/570f1da2d583b0afb161be9dd69a43a6.jpg",
-    "description": null,
+    "description": "Hypoestes floribunda is a species of plant in the acanthus family. Growing up to one metre tall, it is found in Australia and islands to the north. This species was one of the many first described by Scottish botanist Robert Brown in his 1810 work Prodromus Florae Novae Hollandiae. Several sub species are recognised.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3473,9 +4443,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Hypoestes floribunda"
+      ],
+      "en": [
+        "Hypoestes floribunda"
+      ],
+      "es": [
+        "Hypoestes floribunda"
+      ],
+      "fr": [
+        "Hypoestes floribunda"
+      ],
+      "it": [
+        "Hypoestes floribunda"
+      ],
+      "nl": [
+        "Hypoestes floribunda"
+      ],
+      "pl": [
+        "Hypoestes floribunda"
+      ],
+      "pt": [
+        "Hypoestes floribunda"
+      ],
+      "ru": [
+        "Hypoestes floribunda"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3485,7 +4485,7 @@
     "family": "Acanthaceae",
     "genus": "Hypoestes",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -3567,11 +4567,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Hypoestes phyllostachya"
+      ],
       "en": [
-        "Flamingo-plant"
+        "Flamingo-plant",
+        "Hypoestes phyllostachya"
+      ],
+      "es": [
+        "Hypoestes phyllostachya"
+      ],
+      "fr": [
+        "Hypoestes phyllostachya"
+      ],
+      "it": [
+        "Hypoestes phyllostachya"
+      ],
+      "nl": [
+        "Hypoestes phyllostachya"
+      ],
+      "pl": [
+        "Niedośpian ognisty"
+      ],
+      "pt": [
+        "Hypoestes phyllostachya"
+      ],
+      "ru": [
+        "Hypoestes phyllostachya"
+      ],
+      "zh": [
+        "嫣红蔓"
       ]
     },
     "tags": [],
@@ -3583,12 +4613,12 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/d4a66a9554db1e639cfa0962eb35ed8715c69d03",
-    "description": null,
+    "description": "Justicia aurea is a species of flowering plant in the family Acanthaceae. It is a shrub native to Mexico and Central America, ranging from northeastern Mexico to Panama.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3665,11 +4695,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شخض ذهبي"
+      ],
+      "de": [
+        "Justicia aurea"
+      ],
       "en": [
+        "Justicia umbrosa",
         "Orange flame justicia"
+      ],
+      "es": [
+        "Justicia aurea"
+      ],
+      "fr": [
+        "Justicia aurea"
+      ],
+      "it": [
+        "Justicia aurea"
+      ],
+      "nl": [
+        "Justicia umbrosa"
+      ],
+      "pl": [
+        "Justicia aurea"
+      ],
+      "pt": [
+        "Justicia umbrosa"
+      ],
+      "ru": [
+        "Justicia aurea"
+      ],
+      "zh": [
+        "金色黑爵床"
       ]
     },
     "tags": [],
@@ -3681,12 +4744,12 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f727bc5997f7908297a91b15038c59600a15a33c",
-    "description": null,
+    "description": "Justicia brandegeeana, the Mexican shrimp plant, shrimp plant or false hop, is an evergreen shrub in the genus Justicia of the acanthus family Acanthaceae, native to Mexico, and also naturalized in Florida.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -3763,11 +4826,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "نبات الجمبري"
+      ],
+      "de": [
+        "Justicia brandegeeana"
+      ],
       "en": [
+        "Justicia brandegeeana",
         "Shrimpplant"
+      ],
+      "es": [
+        "Justicia brandegeeana"
+      ],
+      "fr": [
+        "Justicia brandegeeana"
+      ],
+      "it": [
+        "Justicia brandegeeana"
+      ],
+      "ja": [
+        "コエビソウ"
+      ],
+      "nl": [
+        "Garnalenplant"
+      ],
+      "pl": [
+        "Justicia brandegeeana"
+      ],
+      "pt": [
+        "Flor-camarão"
+      ],
+      "ru": [
+        "Justicia brandegeeana"
+      ],
+      "zh": [
+        "虾衣花"
       ]
     },
     "tags": [],
@@ -3779,7 +4878,7 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -3861,9 +4960,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Justicia brasiliana"
+      ],
+      "en": [
+        "Justicia brasiliana"
+      ],
+      "es": [
+        "Justicia brasiliana"
+      ],
+      "fr": [
+        "Justicia brasiliana"
+      ],
+      "it": [
+        "Justicia brasiliana"
+      ],
+      "nl": [
+        "Justicia brasiliana"
+      ],
+      "pl": [
+        "Justicia brasiliana"
+      ],
+      "pt": [
+        "Justicia brasiliana"
+      ],
+      "ru": [
+        "Justicia brasiliana"
+      ],
+      "zh": [
+        "红唇花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3873,7 +5005,7 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -3955,9 +5087,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "شخض كاليفورني"
+      ],
+      "de": [
+        "Justicia californica"
+      ],
+      "en": [
+        "Justicia californica"
+      ],
+      "es": [
+        "Justicia californica"
+      ],
+      "fr": [
+        "Justicia californica"
+      ],
+      "it": [
+        "Justicia californica"
+      ],
+      "nl": [
+        "Justicia californica"
+      ],
+      "pl": [
+        "Justicia californica"
+      ],
+      "pt": [
+        "Justicia californica"
+      ],
+      "ru": [
+        "Justicia californica"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -3967,7 +5132,7 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -4049,9 +5214,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Justicia candicans"
+      ],
+      "en": [
+        "Justicia candicans"
+      ],
+      "es": [
+        "Justicia candicans"
+      ],
+      "fr": [
+        "Justicia candicans"
+      ],
+      "it": [
+        "Justicia candicans"
+      ],
+      "nl": [
+        "Justicia candicans"
+      ],
+      "pl": [
+        "Justicia candicans"
+      ],
+      "pt": [
+        "Justicia candicans"
+      ],
+      "ru": [
+        "Justicia candicans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4061,12 +5256,12 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/0e1ef0cfd4c9c72763ef883df032d09745e724a0",
-    "description": null,
+    "description": "Justicia carnea, the Brazilian plume flower, Brazilian-plume, flamingo flower, or jacobinia, is a flowering plant in the family Acanthaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4143,11 +5338,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شخض لحمي"
+      ],
+      "de": [
+        "Justicia carnea"
+      ],
       "en": [
-        "Brazilian-plume"
+        "Brazilian-plume",
+        "Justicia carnea"
+      ],
+      "es": [
+        "Justicia carnea"
+      ],
+      "fr": [
+        "Justicia carnea"
+      ],
+      "it": [
+        "Justicia carnea"
+      ],
+      "nl": [
+        "Jacobinia"
+      ],
+      "pl": [
+        "Justicia carnea"
+      ],
+      "pt": [
+        "Justicia carnea"
+      ],
+      "ru": [
+        "Justicia carnea"
+      ],
+      "zh": [
+        "珊瑚花"
       ]
     },
     "tags": [],
@@ -4159,7 +5387,7 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -4241,9 +5469,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Justicia comata"
+      ],
+      "en": [
+        "Justicia comata"
+      ],
+      "es": [
+        "Justicia comata"
+      ],
+      "fr": [
+        "Justicia comata"
+      ],
+      "it": [
+        "Justicia comata"
+      ],
+      "nl": [
+        "Justicia comata"
+      ],
+      "pl": [
+        "Justicia comata"
+      ],
+      "pt": [
+        "Justicia comata"
+      ],
+      "ru": [
+        "Justicia comata"
+      ],
+      "zh": [
+        "水爵床"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4253,7 +5514,7 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -4335,11 +5596,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Justicia flava"
+      ],
       "en": [
+        "Justicia flava",
         "Yellow justicia"
+      ],
+      "es": [
+        "Justicia flava"
+      ],
+      "fr": [
+        "Justicia flava"
+      ],
+      "it": [
+        "Justicia flava"
+      ],
+      "nl": [
+        "Justicia flava"
+      ],
+      "pl": [
+        "Justicia flava"
+      ],
+      "pt": [
+        "Justicia flava"
+      ],
+      "ru": [
+        "Justicia flava"
       ]
     },
     "tags": [],
@@ -4351,12 +5639,12 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/fff1cf1046a6c80d7db95261307eea2f6439cf7b",
-    "description": null,
+    "description": "Justicia gendarussa, commonly known as Willow-leaved justicia, Lapsulis in Creole Seychelles; is a small erect, branched shrub. According to Plants of the World Online it is native to the Indian subcontinent, Indochina, Peninsular Malaysia, Sumatra, the Philippines, and New Guinea, and has been introduced to Nepal, the western Himalayas, Pakistan, southern China including Hainan and Taiwan, eastern Africa, and the Mascarene Islands, Comoro Islands, and Seychelles.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4433,11 +5721,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Justicia gendarussa"
+      ],
       "en": [
+        "Justicia gendarussa",
         "Warer willow"
+      ],
+      "es": [
+        "Justicia gendarussa"
+      ],
+      "fr": [
+        "Justicia gendarussa"
+      ],
+      "it": [
+        "Justicia gendarussa"
+      ],
+      "nl": [
+        "Justicia gendarussa"
+      ],
+      "pl": [
+        "Justicia gendarussa"
+      ],
+      "pt": [
+        "Justicia gendarussa"
+      ],
+      "ru": [
+        "Justicia gendarussa"
+      ],
+      "zh": [
+        "小驳骨"
       ]
     },
     "tags": [],
@@ -4449,7 +5767,7 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -4531,9 +5849,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Justicia laevilinguis"
+      ],
+      "en": [
+        "Justicia laevilinguis"
+      ],
+      "es": [
+        "Justicia laevilinguis"
+      ],
+      "fr": [
+        "Justicia laevilinguis"
+      ],
+      "it": [
+        "Justicia laevilinguis"
+      ],
+      "nl": [
+        "Justicia laevilinguis"
+      ],
+      "pl": [
+        "Justicia laevilinguis"
+      ],
+      "pt": [
+        "Justicia laevilinguis"
+      ],
+      "ru": [
+        "Justicia laevilinguis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4543,12 +5891,12 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/3cc8c802f344dddf0f32470672ebe86d3df3e3cd",
-    "description": null,
+    "description": "Justicia pilosella, the hairy tube-tongue, Gregg's tube tongue, or false honeysuckle, is a species of flowering plant in the family Acanthaceae. It is native to New Mexico, Texas, and east-central Mexico. A perennial herb reaching 1 ft (30 cm), it is typically found growing in clearings and forest edges in rocky or gravelly soils.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4625,11 +5973,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Justicia pilosella"
+      ],
       "en": [
-        "Gregg's tube tongue"
+        "Gregg's tube tongue",
+        "Justicia pilosella"
+      ],
+      "es": [
+        "Justicia pilosella"
+      ],
+      "fr": [
+        "Justicia pilosella"
+      ],
+      "it": [
+        "Justicia pilosella"
+      ],
+      "nl": [
+        "Justicia pilosella"
+      ],
+      "pl": [
+        "Justicia pilosella"
+      ],
+      "pt": [
+        "Justicia pilosella"
+      ],
+      "ru": [
+        "Justicia pilosella"
       ]
     },
     "tags": [],
@@ -4641,12 +6016,12 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/b9485bbe4bbb8d50ae60c4b460063046a14a08e2",
-    "description": null,
+    "description": "Rostellularia procumbens, commonly known as water willow, is a small flowering plant belonging to the Acanthaceae family. It is native to the Indian subcontinent, Indochina, China, Peninsular Malaysia, Sumatra, Java, Sulawesi, the Philippines, Japan, and Korea. It is found in higher elevations, commonly in humid areas.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4723,9 +6098,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "شخض مفترش"
+      ],
+      "de": [
+        "Justicia procumbens"
+      ],
+      "en": [
+        "Justicia procumbens"
+      ],
+      "es": [
+        "Justicia procumbens"
+      ],
+      "fr": [
+        "Justicia procumbens"
+      ],
+      "it": [
+        "Justicia procumbens"
+      ],
+      "ja": [
+        "キツネノマゴ"
+      ],
+      "ko": [
+        "쥐꼬리망초"
+      ],
+      "nl": [
+        "Justicia procumbens"
+      ],
+      "pl": [
+        "Justicia procumbens"
+      ],
+      "pt": [
+        "Justicia procumbens"
+      ],
+      "ru": [
+        "Justicia procumbens"
+      ],
+      "zh": [
+        "爵床"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4735,12 +6152,12 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/263bc57dd15fa87373c036c6e1590a8eb5d3ce8f",
-    "description": null,
+    "description": "Justicia spicigera is an evergreen shrub with tubular orange flowers. The species is native to the Bahamas, Belize, Colombia, Costa Rica, El Salvador, Guatemala, Hispaniola, Honduras, and Mexico.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -4817,11 +6234,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "شخض توابلي"
+      ],
+      "de": [
+        "Justicia spicigera"
+      ],
       "en": [
+        "Justicia spicigera",
         "Mexican-indigo"
+      ],
+      "es": [
+        "Justicia spicigera"
+      ],
+      "fr": [
+        "Justicia spicigera"
+      ],
+      "it": [
+        "Justicia spicigera"
+      ],
+      "nl": [
+        "Justicia spicigera"
+      ],
+      "pl": [
+        "Justicia spicigera"
+      ],
+      "pt": [
+        "Justicia spicigera"
+      ],
+      "ru": [
+        "Justicia spicigera"
+      ],
+      "zh": [
+        "穗花爵床"
       ]
     },
     "tags": [],
@@ -4833,7 +6283,7 @@
     "family": "Acanthaceae",
     "genus": "Justicia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -4915,9 +6365,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Justicia striata"
+      ],
+      "en": [
+        "Justicia striata"
+      ],
+      "es": [
+        "Justicia striata"
+      ],
+      "fr": [
+        "Justicia striata"
+      ],
+      "it": [
+        "Justicia striata"
+      ],
+      "nl": [
+        "Justicia striata"
+      ],
+      "pl": [
+        "Justicia striata"
+      ],
+      "pt": [
+        "Justicia striata"
+      ],
+      "ru": [
+        "Justicia striata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -4927,7 +6407,7 @@
     "family": "Acanthaceae",
     "genus": "Lepidagathis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -5009,9 +6489,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lepidagathis anobrya"
+      ],
+      "en": [
+        "Lepidagathis anobrya"
+      ],
+      "es": [
+        "Lepidagathis anobrya"
+      ],
+      "fr": [
+        "Lepidagathis anobrya"
+      ],
+      "it": [
+        "Lepidagathis anobrya"
+      ],
+      "nl": [
+        "Lepidagathis anobrya"
+      ],
+      "pl": [
+        "Lepidagathis anobrya"
+      ],
+      "pt": [
+        "Lepidagathis anobrya"
+      ],
+      "ru": [
+        "Lepidagathis anobrya"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5021,7 +6531,7 @@
     "family": "Acanthaceae",
     "genus": "Monechma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -5103,9 +6613,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Monechma ciliatum"
+      ],
+      "en": [
+        "Monechma ciliatum"
+      ],
+      "es": [
+        "Monechma ciliatum"
+      ],
+      "fr": [
+        "Monechma ciliatum"
+      ],
+      "it": [
+        "Monechma ciliatum"
+      ],
+      "nl": [
+        "Monechma ciliatum"
+      ],
+      "pl": [
+        "Monechma ciliatum"
+      ],
+      "pt": [
+        "Monechma ciliatum"
+      ],
+      "ru": [
+        "Monechma ciliatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5115,12 +6655,12 @@
     "family": "Acanthaceae",
     "genus": "Nelsonia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/0559b6b7b2ded4ce689cf0db15a3be9eac4fef82",
-    "description": null,
+    "description": "Nelsonia canescens is a herbaceous plant species in the family Acanthaceae, with a substantial number of similar plant specimens now identified as synonyms.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5197,11 +6737,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Nelsonia canescens"
+      ],
       "en": [
-        "Blue pussyleaf"
+        "Blue pussyleaf",
+        "Nelsonia canescens"
+      ],
+      "es": [
+        "Nelsonia canescens"
+      ],
+      "fr": [
+        "Nelsonia canescens"
+      ],
+      "it": [
+        "Nelsonia canescens"
+      ],
+      "nl": [
+        "Nelsonia canescens"
+      ],
+      "pl": [
+        "Nelsonia canescens"
+      ],
+      "pt": [
+        "Nelsonia canescens"
+      ],
+      "ru": [
+        "Nelsonia canescens"
+      ],
+      "zh": [
+        "瘤子草"
       ]
     },
     "tags": [],
@@ -5213,7 +6783,7 @@
     "family": "Acanthaceae",
     "genus": "Odontonema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -5295,11 +6865,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Odontonema callistachyum"
+      ],
       "en": [
-        "Firespike"
+        "Firespike",
+        "Odontonema callistachyum"
+      ],
+      "es": [
+        "Odontonema callistachyum"
+      ],
+      "fr": [
+        "Odontonema callistachyum"
+      ],
+      "it": [
+        "Odontonema callistachyum"
+      ],
+      "nl": [
+        "Odontonema callistachyum"
+      ],
+      "pl": [
+        "Odontonema callistachyum"
+      ],
+      "pt": [
+        "Odontonema callistachyum"
+      ],
+      "ru": [
+        "Odontonema callistachyum"
       ]
     },
     "tags": [],
@@ -5311,7 +6908,7 @@
     "family": "Acanthaceae",
     "genus": "Odontonema",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -5393,11 +6990,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Odontonema tubaeforme"
+      ],
       "en": [
-        "Brazilian firespike"
+        "Brazilian firespike",
+        "Odontonema tubaeforme"
+      ],
+      "es": [
+        "Odontonema tubaeforme"
+      ],
+      "fr": [
+        "Odontonema tubaeforme"
+      ],
+      "it": [
+        "Odontonema tubaeforme"
+      ],
+      "nl": [
+        "Odontonema tubaeforme"
+      ],
+      "pl": [
+        "Odontonema tubaeforme"
+      ],
+      "pt": [
+        "Odontonema tubaeforme"
+      ],
+      "ru": [
+        "Odontonema tubaeforme"
+      ],
+      "zh": [
+        "紅樓花"
       ]
     },
     "tags": [],
@@ -5409,12 +7036,12 @@
     "family": "Acanthaceae",
     "genus": "Pachystachys",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/dd8139a04b3fbc5ec11856809daf3da2c81a8c47",
-    "description": null,
+    "description": "Pachystachys lutea, known as the golden shrimp plant or lollipop plant, is a tropical, soft-stemmed evergreen shrub between 0.5 and 2.5 meters tall, native to Peru. The zygomorphic, long-throated, short-lived white flowers emerge sequentially from overlapping bright yellow bracts on racemes that are produced throughout the warm months.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5491,11 +7118,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pachystachys lutea"
+      ],
       "en": [
-        "Golden shrimp-plant"
+        "Golden shrimp-plant",
+        "Pachystachys lutea"
+      ],
+      "es": [
+        "Pachystachys lutea"
+      ],
+      "fr": [
+        "Pachystachys lutea"
+      ],
+      "it": [
+        "Pachystachys lutea"
+      ],
+      "ja": [
+        "パキスタキス"
+      ],
+      "nl": [
+        "Pachystachys lutea"
+      ],
+      "pl": [
+        "Pachystachys lutea"
+      ],
+      "pt": [
+        "Pachystachys lutea"
+      ],
+      "ru": [
+        "Пахистахис жёлтый"
+      ],
+      "zh": [
+        "金苞花"
       ]
     },
     "tags": [],
@@ -5507,12 +7167,12 @@
     "family": "Acanthaceae",
     "genus": "Phaulopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/a0d63791c549325dcff096c4d0c5eaede8b6a69e",
-    "description": null,
+    "description": "Phaulopsis imbricata is a shrub native to South Africa. Leaves are opposite, one larger than the other in each pair, usually asymmetrical at the base. Phaulopsis imbricata is a good fodder, the young leaves are eaten as a vegetable and the plant-ash in oil is rubbed into scarifications on the back for rheumatism in Tanganyika. The flowers have an unpleasant smell. It is filed as near-threatened by the IUCN.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5589,9 +7249,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Phaulopsis imbricata"
+      ],
+      "en": [
+        "Phaulopsis imbricata"
+      ],
+      "es": [
+        "Phaulopsis imbricata"
+      ],
+      "fr": [
+        "Phaulopsis imbricata"
+      ],
+      "it": [
+        "Phaulopsis imbricata"
+      ],
+      "nl": [
+        "Phaulopsis imbricata"
+      ],
+      "pl": [
+        "Phaulopsis imbricata"
+      ],
+      "pt": [
+        "Phaulopsis imbricata"
+      ],
+      "ru": [
+        "Phaulopsis imbricata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5601,12 +7291,12 @@
     "family": "Acanthaceae",
     "genus": "Pseuderanthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f1a9516fe5aaec31f0abac2c44c8646c13843181",
-    "description": null,
+    "description": "Pseuderanthemum carruthersii, the Carruthers' falseface, is a species of plant in the family Acanthaceae. It is native from the Solomon Islands to Vanuatu.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5683,11 +7373,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pseuderanthemum carruthersii"
+      ],
       "en": [
+        "Pseuderanthemum carruthersii",
         "Purple false eranthemum"
+      ],
+      "es": [
+        "Pseuderanthemum carruthersii"
+      ],
+      "fr": [
+        "Pseuderanthemum carruthersii"
+      ],
+      "it": [
+        "Pseuderanthemum carruthersii"
+      ],
+      "nl": [
+        "Pseuderanthemum carruthersii"
+      ],
+      "pl": [
+        "Pseuderanthemum carruthersii"
+      ],
+      "pt": [
+        "Pseuderanthemum carruthersii"
+      ],
+      "ru": [
+        "Pseuderanthemum carruthersii"
+      ],
+      "zh": [
+        "拟美花"
       ]
     },
     "tags": [],
@@ -5699,12 +7419,12 @@
     "family": "Acanthaceae",
     "genus": "Pseuderanthemum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/7c2ea6459d6836a37b3af196b483a52d76709647",
-    "description": null,
+    "description": "Pseuderanthemum variabile, commonly known as pastel flower or love flower in its native range, or night and afternoon in the US, is a small perennial herb in the family Acanthaceae which is native to Australia, Papua New Guinea and New Caledonia. It can be an unwelcome nuisance in orchid nurseries in Australia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5781,11 +7501,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Pseuderanthemum variabile"
+      ],
       "en": [
-        "Night and afternoon"
+        "Night and afternoon",
+        "Pseuderanthemum variabile"
+      ],
+      "es": [
+        "Pseuderanthemum variabile"
+      ],
+      "fr": [
+        "Pseuderanthemum variabile"
+      ],
+      "it": [
+        "Pseuderanthemum variabile"
+      ],
+      "nl": [
+        "Pseuderanthemum variabile"
+      ],
+      "pl": [
+        "Pseuderanthemum variabile"
+      ],
+      "pt": [
+        "Pseuderanthemum variabile"
+      ],
+      "ru": [
+        "Pseuderanthemum variabile"
       ]
     },
     "tags": [],
@@ -5797,12 +7544,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/efa3cdc01fa68bdf4ea243acb27792e2ea47498e",
-    "description": "Hard mast-fruit June-October",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5879,9 +7626,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ruellia angustiflora"
+      ],
+      "en": [
+        "Ruellia angustiflora"
+      ],
+      "es": [
+        "Ruellia angustiflora"
+      ],
+      "fr": [
+        "Ruellia angustiflora"
+      ],
+      "it": [
+        "Ruellia angustiflora"
+      ],
+      "nl": [
+        "Ruellia angustiflora"
+      ],
+      "pl": [
+        "Ruellia angustiflora"
+      ],
+      "pt": [
+        "Ruellia angustiflora"
+      ],
+      "ru": [
+        "Ruellia angustiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5891,12 +7668,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/d421c5135bfac3a2cef0e01df1de952bcf439f8d",
-    "description": "Hard mast-fruit June-October",
+    "description": "Ruellia asperula is a medicinal plant native to eastern Brazil and growing in Caatinga vegetation and Cerrado vegetation. Flowers, leaves, and roots of this plant are usually macerated and used to treat asthma, bronchitis, fever, flu, and uteral inflammation.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -5973,9 +7750,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ruellia asperula"
+      ],
+      "en": [
+        "Ruellia asperula"
+      ],
+      "es": [
+        "Ruellia asperula"
+      ],
+      "fr": [
+        "Ruellia asperula"
+      ],
+      "it": [
+        "Ruellia asperula"
+      ],
+      "nl": [
+        "Ruellia asperula"
+      ],
+      "pl": [
+        "Ruellia asperula"
+      ],
+      "pt": [
+        "Ruellia asperula"
+      ],
+      "ru": [
+        "Ruellia asperula"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -5985,7 +7792,7 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -6067,9 +7874,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ruellia blechum"
+      ],
+      "en": [
+        "Ruellia blechum"
+      ],
+      "es": [
+        "Ruellia blechum"
+      ],
+      "fr": [
+        "Ruellia blechum"
+      ],
+      "it": [
+        "Ruellia blechum"
+      ],
+      "nl": [
+        "Ruellia blechum"
+      ],
+      "pl": [
+        "Ruellia blechum"
+      ],
+      "pt": [
+        "Ruellia blechum"
+      ],
+      "ru": [
+        "Ruellia blechum"
+      ],
+      "zh": [
+        "赛山蓝"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6079,12 +7919,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/0efc68d5a52aba502eae309fe621e5e2fae31bbc",
-    "description": "Hard mast-fruit June-October",
+    "description": "Ruellia brevifolia, the tropical wild petunia or red Christmas pride, is an ornamental plant in the family Acanthaceae. It is native to South America, from Colombia to southern Brazil and northern Argentina.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6161,11 +8001,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ruellia brevifolia"
+      ],
       "en": [
+        "Ruellia brevifolia",
         "Tropical wild petunia"
+      ],
+      "es": [
+        "Ruellia brevifolia"
+      ],
+      "fr": [
+        "Ruellia brevifolia"
+      ],
+      "it": [
+        "Ruellia brevifolia"
+      ],
+      "nl": [
+        "Ruellia brevifolia"
+      ],
+      "pl": [
+        "Ruellia brevifolia"
+      ],
+      "pt": [
+        "Ruellia brevifolia"
+      ],
+      "ru": [
+        "Ruellia brevifolia"
       ]
     },
     "tags": [],
@@ -6177,12 +8044,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/573dd692c5b31e72cf131b738da0be70.jpg",
-    "description": "Hard mast-fruit June-October",
+    "description": "Ruellia caroliniensis, the Carolina wild petunia, is a wild petunia of the family Acanthaceae native to the southeastern United States. Its native range spans the eastern coast with the northernmost extent reaching New Jersey",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6259,9 +8126,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ruellia caroliniensis"
+      ],
+      "en": [
+        "Ruellia caroliniensis"
+      ],
+      "es": [
+        "Ruellia caroliniensis"
+      ],
+      "fr": [
+        "Ruellia caroliniensis"
+      ],
+      "it": [
+        "Ruellia caroliniensis"
+      ],
+      "nl": [
+        "Ruellia caroliniensis"
+      ],
+      "pl": [
+        "Ruellia caroliniensis"
+      ],
+      "pt": [
+        "Ruellia caroliniensis"
+      ],
+      "ru": [
+        "Ruellia caroliniensis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6271,12 +8168,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/faf489fee4c5807daf15abfd27e6441e794ea1eb",
-    "description": "Hard mast-fruit June-October",
+    "description": "Ruellia geminiflora, known locally as ipecacuanha-da-flor-roxa, is a species native to Argentina; Brazil, typically Caatinga and Cerrado vegetation; Guianas, and Venezuela. The roots of this plant contains possibly toxic substances.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6353,9 +8250,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ruellia geminiflora"
+      ],
+      "en": [
+        "Ruellia geminiflora"
+      ],
+      "es": [
+        "Ruellia geminiflora"
+      ],
+      "fr": [
+        "Ruellia geminiflora"
+      ],
+      "it": [
+        "Ruellia geminiflora"
+      ],
+      "nl": [
+        "Ruellia geminiflora"
+      ],
+      "pl": [
+        "Ruellia geminiflora"
+      ],
+      "pt": [
+        "Ruellia geminiflora"
+      ],
+      "ru": [
+        "Ruellia geminiflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6365,12 +8292,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/aca88f862af2ab10fa9f5eb41ab72684f405bea7",
-    "description": "Hard mast-fruit June-October",
+    "description": "Ruellia humilis is a species of flowering plant in the family Acanthaceae. It is native to the eastern United States. It is grown as an ornamental plant.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6447,11 +8374,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Behaarte Ruellie"
+      ],
       "en": [
-        "Fringe-leaf ruellia"
+        "Fringe-leaf ruellia",
+        "Ruellia humilis"
+      ],
+      "es": [
+        "Ruellia humilis"
+      ],
+      "fr": [
+        "Ruellia humilis"
+      ],
+      "it": [
+        "Ruellia humilis"
+      ],
+      "nl": [
+        "Ruellia humilis"
+      ],
+      "pl": [
+        "Ruellia humilis"
+      ],
+      "pt": [
+        "Ruellia humilis"
+      ],
+      "ru": [
+        "Ruellia humilis"
       ]
     },
     "tags": [],
@@ -6463,12 +8417,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/24b84d8d2e26aa958092e12c9d1b68799ddf7b46",
-    "description": "Hard mast-fruit June-October",
+    "description": "Ruellia inundata is a subshrub plant, in the genus Ruellia, family Acanthaceae and is a perennial herbaceous plant first described by the German botanist Carl Sigismund Kunth.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6545,9 +8499,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ruellia inundata"
+      ],
+      "en": [
+        "Ruellia inundata"
+      ],
+      "es": [
+        "Ruellia inundata"
+      ],
+      "fr": [
+        "Ruellia inundata"
+      ],
+      "it": [
+        "Ruellia inundata"
+      ],
+      "nl": [
+        "Ruellia inundata"
+      ],
+      "pl": [
+        "Ruellia inundata"
+      ],
+      "pt": [
+        "Ruellia inundata"
+      ],
+      "ru": [
+        "Ruellia inundata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6557,12 +8541,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/39c9823add88119799d550b0f5c2fb85c537636c",
-    "description": "Hard mast-fruit June-October",
+    "description": "Ruellia nudiflora, the violet ruellia or violet wild petunia, is a perennial plant in the acanthus family (Acanthaceae) found in North America. Despite the genus Ruellia being known as the wild petunias, they are not true petunias and are not closely related to them. The species thrives in disturbed areas and can sometimes be considered a weed.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6639,11 +8623,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ruellia nudiflora"
+      ],
       "en": [
+        "Ruellia nudiflora",
         "Violet wild petunia"
+      ],
+      "es": [
+        "Ruellia nudiflora"
+      ],
+      "fr": [
+        "Ruellia nudiflora"
+      ],
+      "it": [
+        "Ruellia nudiflora"
+      ],
+      "nl": [
+        "Ruellia nudiflora"
+      ],
+      "pl": [
+        "Ruellia nudiflora"
+      ],
+      "pt": [
+        "Ruellia nudiflora"
+      ],
+      "ru": [
+        "Ruellia nudiflora"
       ]
     },
     "tags": [],
@@ -6655,12 +8666,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/dab2c69598f01f22f0d85a630fa201df677fafba",
-    "description": "Hard mast-fruit June-October",
+    "description": null,
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6737,9 +8748,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Ruellia paniculata"
+      ],
+      "en": [
+        "Ruellia paniculata"
+      ],
+      "es": [
+        "Ruellia paniculata"
+      ],
+      "fr": [
+        "Ruellia paniculata"
+      ],
+      "it": [
+        "Ruellia paniculata"
+      ],
+      "nl": [
+        "Ruellia paniculata"
+      ],
+      "pl": [
+        "Ruellia paniculata"
+      ],
+      "pt": [
+        "Ruellia paniculata"
+      ],
+      "ru": [
+        "Ruellia paniculata"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -6749,12 +8790,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f93ec8c777ab29457474b35cb5703f6f907fc5d0",
-    "description": "The fruit is a cylinder-like capsule or bean-like pod measuring 1-inch long. The capsule contains 4 to 28 seeds that explosively dehisce mature seeds in all directions.",
+    "description": "Ruellia simplex, the Mexican petunia, Mexican bluebell or Britton's wild petunia, is a species of flowering plant in the family Acanthaceae that is native to Mexico, the Caribbean, and South America. It has become a widespread invasive plant in Florida, where it was likely introduced as an ornamental before 1933, as well as in the eastern Mediterranean, South Asia and other parts of the Eastern Hemisphere.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6837,11 +8878,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Ruellia simplex"
+      ],
       "en": [
-        "Britton's wild petunia"
+        "Britton's wild petunia",
+        "Ruellia simplex"
+      ],
+      "es": [
+        "Ruellia simplex"
+      ],
+      "fr": [
+        "Ruellia simplex"
+      ],
+      "it": [
+        "Ruellia simplex"
+      ],
+      "ja": [
+        "ヤナギバルイラソウ"
+      ],
+      "nl": [
+        "Ruellia simplex"
+      ],
+      "pl": [
+        "Ruellia simplex"
+      ],
+      "pt": [
+        "Ruellia simplex"
+      ],
+      "ru": [
+        "Ruellia simplex"
+      ],
+      "zh": [
+        "紫花芦莉草"
       ]
     },
     "tags": [],
@@ -6853,12 +8927,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/f557c61d3094f3642da6689b48064a53730937db",
-    "description": "Hard mast-fruit June-October",
+    "description": "Ruellia strepens, commonly known as limestone wild petunia, limestone ruellia, smooth wild petunia, or wild petunia is a species of flowering plant in the family Acanthaceae, native to warmer parts of the central and eastern United States. A perennial herb, it prefers to grow in moist to mesic, partly shady areas such as streamsides and bottomland forests. In the garden it is hardy to USDA zone 5, and can tolerate nearly full shade.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -6935,11 +9009,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Kahle Ruellie"
+      ],
       "en": [
-        "Limestone wild petunia"
+        "Limestone wild petunia",
+        "Ruellia strepens"
+      ],
+      "es": [
+        "Ruellia strepens"
+      ],
+      "fr": [
+        "Ruellia strepens"
+      ],
+      "it": [
+        "Ruellia strepens"
+      ],
+      "nl": [
+        "Ruellia strepens"
+      ],
+      "pl": [
+        "Ruellia strepens"
+      ],
+      "pt": [
+        "Ruellia strepens"
+      ],
+      "ru": [
+        "Ruellia strepens"
       ]
     },
     "tags": [],
@@ -6951,12 +9052,12 @@
     "family": "Acanthaceae",
     "genus": "Ruellia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
     "image_url": "https://bs.plantnet.org/image/o/cb93d66db0b0ce9f4fc9c2a93b969b3522fe7e9c",
-    "description": "Hard mast-fruit June-October",
+    "description": "Ruellia tuberosa, also known as minnieroot, fever root, snapdragon root and sheep potato, is a species of flowering plant in the family Acanthaceae. Its native range is in Central America but it has become naturalized in Africa, South and Southeast Asia.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -7033,11 +9134,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "رولية برية"
+      ],
+      "de": [
+        "Ruellia tuberosa"
+      ],
       "en": [
-        "Minnieroot"
+        "Minnieroot",
+        "Ruellia tuberosa"
+      ],
+      "es": [
+        "Ruellia tuberosa"
+      ],
+      "fr": [
+        "Ruellia tuberosa"
+      ],
+      "it": [
+        "Ruellia tuberosa"
+      ],
+      "ja": [
+        "ムラサキルエリア"
+      ],
+      "nl": [
+        "Ruellia tuberosa"
+      ],
+      "pl": [
+        "Ruellia tuberosa"
+      ],
+      "pt": [
+        "Ruellia tuberosa"
+      ],
+      "ru": [
+        "Ruellia tuberosa"
+      ],
+      "zh": [
+        "块根芦莉草"
       ]
     },
     "tags": [],
@@ -7049,7 +9186,7 @@
     "family": "Acanthaceae",
     "genus": "Sanchezia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -7131,9 +9268,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Sanchezia oblonga"
+      ],
+      "en": [
+        "Sanchezia oblonga"
+      ],
+      "es": [
+        "Sanchezia oblonga"
+      ],
+      "fr": [
+        "Sanchezia oblonga"
+      ],
+      "it": [
+        "Sanchezia oblonga"
+      ],
+      "ja": [
+        "サンケジア・オブロンガ"
+      ],
+      "nl": [
+        "Sanchezia oblonga"
+      ],
+      "pl": [
+        "Sanchezia oblonga"
+      ],
+      "pt": [
+        "Sanchezia oblonga"
+      ],
+      "ru": [
+        "Sanchezia oblonga"
+      ],
+      "zh": [
+        "黄脉爵床"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7143,7 +9316,7 @@
     "family": "Acanthaceae",
     "genus": "Stenandrium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -7225,11 +9398,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Stenandrium dulce"
+      ],
       "en": [
+        "Stenandrium dulce",
         "Sweet shaggytuft"
+      ],
+      "es": [
+        "Stenandrium dulce"
+      ],
+      "fr": [
+        "Stenandrium dulce"
+      ],
+      "it": [
+        "Stenandrium dulce"
+      ],
+      "nl": [
+        "Stenandrium dulce"
+      ],
+      "pl": [
+        "Stenandrium dulce"
+      ],
+      "pt": [
+        "Stenandrium dulce"
+      ],
+      "ru": [
+        "Stenandrium dulce"
       ]
     },
     "tags": [],
@@ -7241,7 +9441,7 @@
     "family": "Acanthaceae",
     "genus": "Tetramerium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -7323,11 +9523,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Tetramerium nervosum"
+      ],
       "en": [
-        "Hairy fournwort"
+        "Hairy fournwort",
+        "Tetramerium nervosum"
+      ],
+      "es": [
+        "Tetramerium nervosum"
+      ],
+      "fr": [
+        "Tetramerium nervosum"
+      ],
+      "it": [
+        "Tetramerium nervosum"
+      ],
+      "nl": [
+        "Tetramerium nervosum"
+      ],
+      "pl": [
+        "Tetramerium nervosum"
+      ],
+      "pt": [
+        "Tetramerium nervosum"
+      ],
+      "ru": [
+        "Tetramerium nervosum"
       ]
     },
     "tags": [],
@@ -7339,7 +9566,7 @@
     "family": "Acanthaceae",
     "genus": "Thunbergia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -7421,11 +9648,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "تونبرغية جناحية"
+      ],
+      "de": [
+        "Schwarzäugige Susanne"
+      ],
       "en": [
-        "Black-eyed-susan-vine"
+        "Black-eyed-susan-vine",
+        "Thunbergia alata"
+      ],
+      "es": [
+        "Thunbergia alata"
+      ],
+      "fr": [
+        "Thunbergia alata"
+      ],
+      "it": [
+        "Thunbergia alata"
+      ],
+      "ja": [
+        "ヤハズカズラ"
+      ],
+      "nl": [
+        "Suzanne-met-de-mooie-ogen"
+      ],
+      "pl": [
+        "Tunbergia oskrzydlona"
+      ],
+      "pt": [
+        "Thunbergia alata"
+      ],
+      "ru": [
+        "Тунбергия крылатая"
+      ],
+      "zh": [
+        "翼叶山牵牛"
       ]
     },
     "tags": [],
@@ -7437,7 +9700,7 @@
     "family": "Acanthaceae",
     "genus": "Thunbergia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -7519,11 +9782,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Thunbergia erecta"
+      ],
       "en": [
-        "Bush clockvine"
+        "Bush clockvine",
+        "Thunbergia erecta"
+      ],
+      "es": [
+        "Thunbergia erecta"
+      ],
+      "fr": [
+        "Thunbergia erecta"
+      ],
+      "it": [
+        "Thunbergia erecta"
+      ],
+      "ja": [
+        "コダチヤハズカズラ"
+      ],
+      "nl": [
+        "Thunbergia erecta"
+      ],
+      "pl": [
+        "Thunbergia erecta"
+      ],
+      "pt": [
+        "Thunbergia erecta"
+      ],
+      "ru": [
+        "Тунбергия прямостоячая"
+      ],
+      "zh": [
+        "直立山牵牛"
       ]
     },
     "tags": [],
@@ -7535,7 +9831,7 @@
     "family": "Acanthaceae",
     "genus": "Thunbergia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -7617,11 +9913,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Thunbergia fragrans"
+      ],
       "en": [
+        "Thunbergia fragrans",
         "White thunbergia"
+      ],
+      "es": [
+        "Thunbergia fragrans"
+      ],
+      "fr": [
+        "Thunbergia fragrans"
+      ],
+      "it": [
+        "Thunbergia fragrans"
+      ],
+      "ja": [
+        "カオリカズラ"
+      ],
+      "nl": [
+        "Thunbergia fragrans"
+      ],
+      "pl": [
+        "Thunbergia fragrans"
+      ],
+      "pt": [
+        "Thunbergia fragrans"
+      ],
+      "ru": [
+        "Thunbergia fragrans"
+      ],
+      "zh": [
+        "碗花草"
       ]
     },
     "tags": [],
@@ -7633,7 +9962,7 @@
     "family": "Acanthaceae",
     "genus": "Thunbergia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -7715,11 +10044,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "تونبرغية كبيرة الأزهار"
+      ],
+      "de": [
+        "Großblütige Thunbergia"
+      ],
       "en": [
-        "Bengal trumpet"
+        "Bengal trumpet",
+        "Thunbergia grandiflora"
+      ],
+      "es": [
+        "Thunbergia grandiflora"
+      ],
+      "fr": [
+        "Thunbergia grandiflora"
+      ],
+      "it": [
+        "Thunbergia grandiflora"
+      ],
+      "ja": [
+        "ベンガルヤハズカズラ"
+      ],
+      "nl": [
+        "Grootbloemige thunbergia"
+      ],
+      "pl": [
+        "Thunbergia grandiflora"
+      ],
+      "pt": [
+        "Thunbergia grandiflora"
+      ],
+      "ru": [
+        "Тунбергия крупноцветковая"
+      ],
+      "zh": [
+        "山牵牛"
       ]
     },
     "tags": [],
@@ -7731,7 +10096,7 @@
     "family": "Acanthaceae",
     "genus": "Thyrsacanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -7813,9 +10178,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thyrsacanthus callistachyus"
+      ],
+      "en": [
+        "Thyrsacanthus callistachyus"
+      ],
+      "es": [
+        "Thyrsacanthus callistachyus"
+      ],
+      "fr": [
+        "Thyrsacanthus callistachyus"
+      ],
+      "it": [
+        "Thyrsacanthus callistachyus"
+      ],
+      "nl": [
+        "Thyrsacanthus callistachyus"
+      ],
+      "pl": [
+        "Thyrsacanthus callistachyus"
+      ],
+      "pt": [
+        "Thyrsacanthus callistachyus"
+      ],
+      "ru": [
+        "Thyrsacanthus callistachyus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -7825,7 +10220,7 @@
     "family": "Acanthaceae",
     "genus": "Thyrsacanthus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Tropical",
@@ -7907,9 +10302,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thyrsacanthus tubaeformis"
+      ],
+      "en": [
+        "Thyrsacanthus tubaeformis"
+      ],
+      "es": [
+        "Thyrsacanthus tubaeformis"
+      ],
+      "fr": [
+        "Thyrsacanthus tubaeformis"
+      ],
+      "it": [
+        "Thyrsacanthus tubaeformis"
+      ],
+      "nl": [
+        "Thyrsacanthus tubaeformis"
+      ],
+      "pl": [
+        "Thyrsacanthus tubaeformis"
+      ],
+      "pt": [
+        "Thyrsacanthus tubaeformis"
+      ],
+      "ru": [
+        "Thyrsacanthus tubaeformis"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -9,8 +9,8 @@
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Abietinella_abietina_0293.JPG",
+    "description": "Abietinella abietina is a species of moss in the family Thuidiaceae. It is a small, distinctive pleurocarpous moss with erect stems and spreading branches, reminiscent of a tiny conifer. Its extremely rare variety, abietina, occurs along the commoner var. hystricosa on coastal sand dunes. Abietinella abietina is perennial in its growth, meaning it can be observed throughout the year.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,7 +87,9 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
       "en": [
@@ -118,7 +120,7 @@
     "family": "Thuidiaceae",
     "genus": "Pelekium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -200,9 +202,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Pelekium minutulum"
+      ],
+      "en": [
+        "Pelekium minutulum"
+      ],
+      "es": [
+        "Pelekium minutulum"
+      ],
+      "fr": [
+        "Pelekium minutulum"
+      ],
+      "it": [
+        "Pelekium minutulum"
+      ],
+      "nl": [
+        "Pelekium minutulum"
+      ],
+      "pl": [
+        "Pelekium minutulum"
+      ],
+      "pt": [
+        "Pelekium minutulum"
+      ],
+      "ru": [
+        "Pelekium minutulum"
+      ],
+      "zh": [
+        "糙柄鹤嘴藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -212,12 +247,12 @@
     "family": "Thuidiaceae",
     "genus": "Thuidiopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/New_Zealand_Mosses_Am_media-v-838790_%28Thuidiopsis_furfurosa%29.jpg",
+    "description": "Thuidiopsis furfurosa, commonly known as furry thuidium, is a wide-ranging fern moss of the order Hypnales found in southern Australia, New Zealand, and a number of southern Oceania islands as far south as Macquarie Island.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -294,9 +329,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidiopsis furfurosa"
+      ],
+      "en": [
+        "Thuidiopsis furfurosa"
+      ],
+      "es": [
+        "Thuidiopsis furfurosa"
+      ],
+      "fr": [
+        "Thuidiopsis furfurosa"
+      ],
+      "it": [
+        "Thuidiopsis furfurosa"
+      ],
+      "nl": [
+        "Thuidiopsis furfurosa"
+      ],
+      "pl": [
+        "Thuidiopsis furfurosa"
+      ],
+      "pt": [
+        "Thuidiopsis furfurosa"
+      ],
+      "ru": [
+        "Thuidiopsis furfurosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -306,7 +371,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidiopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -388,9 +453,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidiopsis sparsa"
+      ],
+      "en": [
+        "Thuidiopsis sparsa"
+      ],
+      "es": [
+        "Thuidiopsis sparsa"
+      ],
+      "fr": [
+        "Thuidiopsis sparsa"
+      ],
+      "it": [
+        "Thuidiopsis sparsa"
+      ],
+      "nl": [
+        "Thuidiopsis sparsa"
+      ],
+      "pl": [
+        "Thuidiopsis sparsa"
+      ],
+      "pt": [
+        "Thuidiopsis sparsa"
+      ],
+      "ru": [
+        "Thuidiopsis sparsa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -400,7 +495,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -482,9 +577,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidium abietinum"
+      ],
+      "en": [
+        "Thuidium abietinum"
+      ],
+      "es": [
+        "Thuidium abietinum"
+      ],
+      "fr": [
+        "Thuidium abietinum"
+      ],
+      "it": [
+        "Thuidium abietinum"
+      ],
+      "nl": [
+        "Thuidium abietinum"
+      ],
+      "pl": [
+        "Thuidium abietinum"
+      ],
+      "pt": [
+        "Thuidium abietinum"
+      ],
+      "ru": [
+        "Thuidium abietinum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -494,7 +619,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -576,9 +701,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidium assimile"
+      ],
+      "en": [
+        "Thuidium assimile"
+      ],
+      "es": [
+        "Thuidium assimile"
+      ],
+      "fr": [
+        "Thuidium assimile"
+      ],
+      "it": [
+        "Thuidium assimile"
+      ],
+      "nl": [
+        "Thuidium assimile"
+      ],
+      "pl": [
+        "Thuidium assimile"
+      ],
+      "pt": [
+        "Thuidium assimile"
+      ],
+      "ru": [
+        "Thuidium assimile"
+      ],
+      "zh": [
+        "绿羽藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -588,7 +746,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -670,9 +828,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidium cymbifolium"
+      ],
+      "en": [
+        "Thuidium cymbifolium"
+      ],
+      "es": [
+        "Thuidium cymbifolium"
+      ],
+      "fr": [
+        "Thuidium cymbifolium"
+      ],
+      "it": [
+        "Thuidium cymbifolium"
+      ],
+      "nl": [
+        "Thuidium cymbifolium"
+      ],
+      "pl": [
+        "Thuidium cymbifolium"
+      ],
+      "pt": [
+        "Thuidium cymbifolium"
+      ],
+      "ru": [
+        "Thuidium cymbifolium"
+      ],
+      "zh": [
+        "大羽蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -682,12 +873,12 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Thuidium_delicatulum_%28d%2C_144924-481522%29_4154.JPG",
+    "description": "Thuidium delicatulum, also known as the delicate fern moss or common fern moss, is a widespread species of moss in the family Thuidiaceae. It is found in North and South America from Alaska to Brazil.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -764,9 +955,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidium delicatulum"
+      ],
+      "en": [
+        "Thuidium delicatulum"
+      ],
+      "es": [
+        "Thuidium delicatulum"
+      ],
+      "fr": [
+        "Thuidium delicatulum"
+      ],
+      "it": [
+        "Thuidium delicatulum"
+      ],
+      "nl": [
+        "Fraai thujamos"
+      ],
+      "pl": [
+        "Tujowiec delikatny"
+      ],
+      "pt": [
+        "Thuidium delicatulum"
+      ],
+      "ru": [
+        "Thuidium delicatulum"
+      ],
+      "zh": [
+        "细枝羽藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -776,7 +1000,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -858,9 +1082,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidium kanedae"
+      ],
+      "en": [
+        "Thuidium kanedae"
+      ],
+      "es": [
+        "Thuidium kanedae"
+      ],
+      "fr": [
+        "Thuidium kanedae"
+      ],
+      "it": [
+        "Thuidium kanedae"
+      ],
+      "nl": [
+        "Thuidium kanedae"
+      ],
+      "pl": [
+        "Thuidium kanedae"
+      ],
+      "pt": [
+        "Thuidium kanedae"
+      ],
+      "ru": [
+        "Thuidium kanedae"
+      ],
+      "zh": [
+        "短肋羽蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -870,7 +1127,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -952,9 +1209,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidium peruvianum"
+      ],
+      "en": [
+        "Thuidium peruvianum"
+      ],
+      "es": [
+        "Thuidium peruvianum"
+      ],
+      "fr": [
+        "Thuidium peruvianum"
+      ],
+      "it": [
+        "Thuidium peruvianum"
+      ],
+      "nl": [
+        "Thuidium peruvianum"
+      ],
+      "pl": [
+        "Thuidium peruvianum"
+      ],
+      "pt": [
+        "Thuidium peruvianum"
+      ],
+      "ru": [
+        "Thuidium peruvianum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -964,7 +1251,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1046,9 +1333,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidium pristocalyx"
+      ],
+      "en": [
+        "Thuidium pristocalyx"
+      ],
+      "es": [
+        "Thuidium pristocalyx"
+      ],
+      "fr": [
+        "Thuidium pristocalyx"
+      ],
+      "it": [
+        "Thuidium pristocalyx"
+      ],
+      "nl": [
+        "Thuidium pristocalyx"
+      ],
+      "pl": [
+        "Thuidium pristocalyx"
+      ],
+      "pt": [
+        "Thuidium pristocalyx"
+      ],
+      "ru": [
+        "Thuidium pristocalyx"
+      ],
+      "zh": [
+        "苞葉羽蘚"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1058,7 +1378,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1140,9 +1460,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidium recognitum"
+      ],
+      "en": [
+        "Thuidium recognitum"
+      ],
+      "es": [
+        "Thuidium recognitum"
+      ],
+      "fr": [
+        "Thuidium recognitum"
+      ],
+      "it": [
+        "Thuidium recognitum"
+      ],
+      "nl": [
+        "Stug thujamos"
+      ],
+      "pl": [
+        "Tujowiec szerokolistny"
+      ],
+      "pt": [
+        "Thuidium recognitum"
+      ],
+      "ru": [
+        "Thuidium recognitum"
+      ],
+      "zh": [
+        "钩叶羽藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1152,7 +1505,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1234,9 +1587,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Tamarisken-Thujamoos"
+      ],
+      "en": [
+        "Thuidium tamariscinum"
+      ],
+      "es": [
+        "Thuidium tamariscinum"
+      ],
+      "fr": [
+        "Thuidium tamariscinum"
+      ],
+      "it": [
+        "Thuidium tamariscinum"
+      ],
+      "ja": [
+        "オオシノブゴケ"
+      ],
+      "nl": [
+        "Gewoon thujamos"
+      ],
+      "pl": [
+        "tujowiec tamaryszkowaty"
+      ],
+      "pt": [
+        "Thuidium tamariscinum"
+      ],
+      "ru": [
+        "Thuidium tamariscinum"
+      ],
+      "zh": [
+        "羽藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1246,7 +1635,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1328,9 +1717,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidium tomentosum"
+      ],
+      "en": [
+        "Thuidium tomentosum"
+      ],
+      "es": [
+        "Thuidium tomentosum"
+      ],
+      "fr": [
+        "Thuidium tomentosum"
+      ],
+      "it": [
+        "Thuidium tomentosum"
+      ],
+      "nl": [
+        "Thuidium tomentosum"
+      ],
+      "pl": [
+        "Thuidium tomentosum"
+      ],
+      "pt": [
+        "Thuidium tomentosum"
+      ],
+      "ru": [
+        "Thuidium tomentosum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -1340,7 +1759,7 @@
     "family": "Thuidiaceae",
     "genus": "Thuidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -1422,9 +1841,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Thuidium urceolatum"
+      ],
+      "en": [
+        "Thuidium urceolatum"
+      ],
+      "es": [
+        "Thuidium urceolatum"
+      ],
+      "fr": [
+        "Thuidium urceolatum"
+      ],
+      "it": [
+        "Thuidium urceolatum"
+      ],
+      "nl": [
+        "Thuidium urceolatum"
+      ],
+      "pl": [
+        "Thuidium urceolatum"
+      ],
+      "pt": [
+        "Thuidium urceolatum"
+      ],
+      "ru": [
+        "Thuidium urceolatum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

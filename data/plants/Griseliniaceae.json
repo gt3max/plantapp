@@ -5,7 +5,7 @@
     "family": "Griseliniaceae",
     "genus": "Griselinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Griselinia littoralis"
+      ],
       "en": [
+        "Griselinia littoralis",
         "New zealand broadleaf"
+      ],
+      "es": [
+        "Griselinia littoralis"
+      ],
+      "fr": [
+        "Griselinia littoralis"
+      ],
+      "it": [
+        "Griselinia littoralis"
+      ],
+      "nl": [
+        "Griselinia littoralis"
+      ],
+      "pl": [
+        "Griselinia littoralis"
+      ],
+      "pt": [
+        "Griselinia littoralis"
+      ],
+      "ru": [
+        "Griselinia littoralis"
       ]
     },
     "tags": [],
@@ -103,12 +130,12 @@
     "family": "Griseliniaceae",
     "genus": "Griselinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0d740d5d75ca747089ed88979d0e1f1c27cab215",
-    "description": null,
+    "description": "Griselinia lucida, commonly known as puka, akapuka, and shining broadleaf, is a species of shrub in the family Griseliniaceae. It is endemic to New Zealand. Its range mainly covers the North and South Islands. It typically grows epiphytically: the term 'epiphytically', means it grows on other plants, although it can also be found in coastal and rocky environments. It reaches 10 metres in maximum height.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,9 +212,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Griselinia lucida"
+      ],
+      "en": [
+        "Griselinia lucida"
+      ],
+      "es": [
+        "Griselinia lucida"
+      ],
+      "fr": [
+        "Griselinia lucida"
+      ],
+      "it": [
+        "Griselinia lucida"
+      ],
+      "nl": [
+        "Griselinia lucida"
+      ],
+      "pl": [
+        "Griselinia lucida"
+      ],
+      "pt": [
+        "Griselinia lucida"
+      ],
+      "ru": [
+        "Griselinia lucida"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

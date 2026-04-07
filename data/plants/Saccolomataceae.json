@@ -5,7 +5,7 @@
     "family": "Saccolomataceae",
     "genus": "Saccoloma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Saccoloma elegans"
+      ],
+      "en": [
+        "Saccoloma elegans"
+      ],
+      "es": [
+        "Saccoloma elegans"
+      ],
+      "fr": [
+        "Saccoloma elegans"
+      ],
+      "it": [
+        "Saccoloma elegans"
+      ],
+      "nl": [
+        "Saccoloma elegans"
+      ],
+      "pl": [
+        "Saccoloma elegans"
+      ],
+      "pt": [
+        "Saccoloma elegans"
+      ],
+      "ru": [
+        "Saccoloma elegans"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Saccolomataceae",
     "genus": "Saccoloma",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,11 +211,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Saccoloma inaequale"
+      ],
       "en": [
-        "Forest soralpouch fern"
+        "Forest soralpouch fern",
+        "Saccoloma inaequale"
+      ],
+      "es": [
+        "Saccoloma inaequale"
+      ],
+      "fr": [
+        "Saccoloma inaequale"
+      ],
+      "it": [
+        "Saccoloma inaequale"
+      ],
+      "nl": [
+        "Saccoloma inaequale"
+      ],
+      "pl": [
+        "Saccoloma inaequale"
+      ],
+      "pt": [
+        "Saccoloma inaequale"
+      ],
+      "ru": [
+        "Saccoloma inaequale"
       ]
     },
     "tags": [],

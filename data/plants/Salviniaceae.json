@@ -5,12 +5,12 @@
     "family": "Salviniaceae",
     "genus": "Azolla",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/ec7de13ca2a1d36f0aecb0fc8a733fd54895b43e",
-    "description": "No fruits.  Magaspores (female gameophytes) and  microspores  (male gametophyte) appear from June to September.",
+    "description": "Azolla cristata, the Carolina mosquito fern, Carolina azolla, or water velvet, is a species of the Azolla genus native to the Americas, in eastern North America from southern Ontario southward, from the east coast west to Wisconsin and Texas, the Caribbean, and in Central and South America from southeastern Mexico (Chiapas) south to northern Argentina and Uruguay.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -21,17 +21,17 @@
     "synonyms": "[\"Carpanthus axillaris\"]",
     "care": {
       "plant_id": "azolla_caroliniana",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -87,11 +87,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "de": [
+        "Azolla caroliniana"
+      ],
       "en": [
+        "Azolla caroliniana",
         "Mosquito fern"
+      ],
+      "es": [
+        "Azolla caroliniana"
+      ],
+      "fr": [
+        "Azolla caroliniana"
+      ],
+      "it": [
+        "Azolla caroliniana"
+      ],
+      "nl": [
+        "Azolla caroliniana"
+      ],
+      "pl": [
+        "azolla karolińska"
+      ],
+      "pt": [
+        "Azolla caroliniana"
+      ],
+      "ru": [
+        "Azolla caroliniana"
       ]
     },
     "tags": [],
@@ -103,7 +130,7 @@
     "family": "Salviniaceae",
     "genus": "Azolla",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -119,17 +146,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "azolla_filiculoides",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -191,11 +218,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 6.6
     },
     "common_names": {
+      "de": [
+        "Großer Algenfarn"
+      ],
       "en": [
+        "Azolla filiculoides",
         "Pacific azolla"
+      ],
+      "es": [
+        "Azolla filiculoides"
+      ],
+      "fr": [
+        "Azolla filiculoides"
+      ],
+      "it": [
+        "Azolla filiculoides"
+      ],
+      "ja": [
+        "ニシノオオアカウキクサ"
+      ],
+      "nl": [
+        "Azolla filiculoides"
+      ],
+      "pl": [
+        "azolla drobna"
+      ],
+      "pt": [
+        "Azolla filiculoides"
+      ],
+      "ru": [
+        "Азолла папоротниковидная"
+      ],
+      "zh": [
+        "细叶满江红"
       ]
     },
     "tags": [],
@@ -207,12 +267,12 @@
     "family": "Salviniaceae",
     "genus": "Azolla",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9c6268d359f78756dc647bf20d45bc9d83cd804b",
-    "description": "No fruits.  Magaspores (female gameophytes) and  microspores  (male gametophyte) appear from June to September.",
+    "description": "Azolla pinnata is a species of fern known by several common names, including mosquitofern, feathered mosquitofern and water velvet. It is native to much of Africa, Asia and parts of Australia. It is an aquatic plant, it is found floating upon the surface of the water. It grows in quiet and slow-moving water bodies because swift currents and waves break up the plant. At maximum growth rate, it can double its biomass in 1.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -223,17 +283,17 @@
     "synonyms": "[\"Azolla pinnata subsp. pinnata\"]",
     "care": {
       "plant_id": "azolla_pinnata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -289,11 +349,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 6.9
     },
     "common_names": {
+      "de": [
+        "Azolla pinnata"
+      ],
       "en": [
+        "Azolla pinnata",
         "Green azolla"
+      ],
+      "es": [
+        "Azolla pinnata"
+      ],
+      "fr": [
+        "Azolla pinnata"
+      ],
+      "it": [
+        "Azolla pinnata"
+      ],
+      "nl": [
+        "Azolla pinnata"
+      ],
+      "pl": [
+        "Azolla pinnata"
+      ],
+      "pt": [
+        "Azolla pinnata"
+      ],
+      "ru": [
+        "Azolla pinnata"
+      ],
+      "zh": [
+        "羽叶满江红"
       ]
     },
     "tags": [],
@@ -305,7 +395,7 @@
     "family": "Salviniaceae",
     "genus": "Azolla",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -321,9 +411,9 @@
     "synonyms": "[\"Azolla filiculoides var. rubra\"]",
     "care": {
       "plant_id": "azolla_rubra",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -387,9 +477,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Azolla rubra"
+      ],
+      "en": [
+        "Azolla rubra"
+      ],
+      "es": [
+        "Azolla rubra"
+      ],
+      "fr": [
+        "Azolla rubra"
+      ],
+      "it": [
+        "Azolla rubra"
+      ],
+      "nl": [
+        "Azolla rubra"
+      ],
+      "pl": [
+        "Azolla rubra"
+      ],
+      "pt": [
+        "Azolla rubra"
+      ],
+      "ru": [
+        "Azolla rubra"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -399,7 +519,7 @@
     "family": "Salviniaceae",
     "genus": "Salvinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -415,9 +535,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "salvinia_auriculata",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -483,11 +603,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "سلوينية أذينية"
+      ],
+      "de": [
+        "Salvinia auriculata"
+      ],
       "en": [
-        "African payal"
+        "African payal",
+        "Salvinia auriculata"
+      ],
+      "es": [
+        "Salvinia auriculata"
+      ],
+      "fr": [
+        "Salvinia auriculata"
+      ],
+      "it": [
+        "Salvinia auriculata"
+      ],
+      "nl": [
+        "Salvinia auriculata"
+      ],
+      "pl": [
+        "Salvinia auriculata"
+      ],
+      "pt": [
+        "Salvinia auriculata"
+      ],
+      "ru": [
+        "Salvinia auriculata"
       ]
     },
     "tags": [],
@@ -499,7 +649,7 @@
     "family": "Salviniaceae",
     "genus": "Salvinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -515,17 +665,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "salvinia_minima",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -583,11 +733,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.4
     },
     "common_names": {
+      "de": [
+        "Salvinia minima"
+      ],
       "en": [
+        "Salvinia minima",
         "Water spangles"
+      ],
+      "es": [
+        "Salvinia minima"
+      ],
+      "fr": [
+        "Salvinia minima"
+      ],
+      "it": [
+        "Salvinia minima"
+      ],
+      "nl": [
+        "Salvinia minima"
+      ],
+      "pl": [
+        "Salvinia minima"
+      ],
+      "pt": [
+        "Salvinia minima"
+      ],
+      "ru": [
+        "Salvinia minima"
       ]
     },
     "tags": [],
@@ -599,7 +776,7 @@
     "family": "Salviniaceae",
     "genus": "Salvinia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -615,17 +792,17 @@
     "synonyms": null,
     "care": {
       "plant_id": "salvinia_natans",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 1-2 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Part sun",
+      "light_also_ok": "Full sun",
+      "ppfd_min": 200,
+      "ppfd_max": 500,
+      "dli_min": 8.0,
+      "dli_max": 18.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -683,11 +860,50 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 11,
+      "ellenberg_l": 7.4
     },
     "common_names": {
+      "ar": [
+        "سلوينية سابحة"
+      ],
+      "de": [
+        "Gemeiner Schwimmfarn"
+      ],
       "en": [
-        "Floating watermoss"
+        "Floating watermoss",
+        "Salvinia natans"
+      ],
+      "es": [
+        "Salvinia natans"
+      ],
+      "fr": [
+        "Salvinia natans"
+      ],
+      "it": [
+        "Salvinia natans"
+      ],
+      "ja": [
+        "サンショウモ"
+      ],
+      "ko": [
+        "생이가래"
+      ],
+      "nl": [
+        "Kleine vlotvaren"
+      ],
+      "pl": [
+        "Salwinia pływająca"
+      ],
+      "pt": [
+        "Salvinia natans"
+      ],
+      "ru": [
+        "Сальвиния плавающая"
+      ],
+      "zh": [
+        "槐叶蘋"
       ]
     },
     "tags": [],

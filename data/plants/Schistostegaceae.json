@@ -5,7 +5,7 @@
     "family": "Schistostegaceae",
     "genus": "Schistostega",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,48 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Leuchtmoos"
+      ],
+      "en": [
+        "Schistostega pennata"
+      ],
+      "es": [
+        "Schistostega pennata"
+      ],
+      "fr": [
+        "Schistostega pennata"
+      ],
+      "it": [
+        "Schistostega pennata"
+      ],
+      "ja": [
+        "ヒカリゴケ"
+      ],
+      "ko": [
+        "발광이끼"
+      ],
+      "nl": [
+        "Schistostega pennata"
+      ],
+      "pl": [
+        "Schistostega pennata"
+      ],
+      "pt": [
+        "Schistostega pennata"
+      ],
+      "ru": [
+        "Schistostega pennata"
+      ],
+      "zh": [
+        "光藓科"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

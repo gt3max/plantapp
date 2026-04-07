@@ -5,7 +5,7 @@
     "family": "Frankeniaceae",
     "genus": "Frankenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Frankenia corymbosa"
+      ],
+      "en": [
+        "Frankenia corymbosa"
+      ],
+      "es": [
+        "Frankenia corymbosa"
+      ],
+      "fr": [
+        "Frankenia corymbosa"
+      ],
+      "it": [
+        "Frankenia corymbosa"
+      ],
+      "nl": [
+        "Frankenia corymbosa"
+      ],
+      "pl": [
+        "Frankenia corymbosa"
+      ],
+      "pt": [
+        "Frankenia corymbosa"
+      ],
+      "ru": [
+        "Frankenia corymbosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +129,12 @@
     "family": "Frankeniaceae",
     "genus": "Frankenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/9ba690e82824c9a907e4abe413f3e69ce54c5195",
-    "description": null,
+    "description": "Frankenia hirsuta is a species of plant in the family Frankeniaceae. They have a self-supporting growth form, individuals can grow to 17 cm tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -120,12 +150,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -181,11 +211,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.9
     },
     "common_names": {
+      "de": [
+        "Frankenia hirsuta"
+      ],
       "en": [
+        "Frankenia hirsuta",
         "Hairy sea-heath"
+      ],
+      "es": [
+        "Frankenia hirsuta"
+      ],
+      "fr": [
+        "Frankenia hirsuta"
+      ],
+      "it": [
+        "Frankenia hirsuta"
+      ],
+      "nl": [
+        "Frankenia hirsuta"
+      ],
+      "pl": [
+        "Frankenia hirsuta"
+      ],
+      "pt": [
+        "Frankenia hirsuta"
+      ],
+      "ru": [
+        "Frankenia hirsuta"
+      ],
+      "tr": [
+        "Tülpembe"
       ]
     },
     "tags": [],
@@ -197,12 +257,12 @@
     "family": "Frankeniaceae",
     "genus": "Frankenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/c4571b2ab60264dc13f89f4a282c9e06b8af498f",
-    "description": null,
+    "description": "Frankenia laevis, commonly  sea heath, is a low shrub in the family Frankeniaceae. It is native to south-west Europe and Britain and to northwestern Africa, including Macaronesia. It grows on the coast. It is rare in Britain.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -218,12 +278,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -279,11 +339,38 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.7
     },
     "common_names": {
+      "de": [
+        "Frankenia laevis"
+      ],
       "en": [
+        "Frankenia laevis",
         "Sea-heath"
+      ],
+      "es": [
+        "Frankenia laevis"
+      ],
+      "fr": [
+        "Frankénie lisse"
+      ],
+      "it": [
+        "Frankenia laevis"
+      ],
+      "nl": [
+        "Frankenia laevis"
+      ],
+      "pl": [
+        "Frankenia laevis"
+      ],
+      "pt": [
+        "Frankenia laevis"
+      ],
+      "ru": [
+        "Frankenia laevis"
       ]
     },
     "tags": [],
@@ -295,12 +382,12 @@
     "family": "Frankeniaceae",
     "genus": "Frankenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/2318a6af3ec3b7bc119a0dc9bc2e7a01.jpg",
-    "description": null,
+    "description": "Frankenia pauciflora, the common sea-heath or southern sea-heath, is an evergreen shrub native to southern Australia. It is part of the Frankenia genus of the Frankeniaceae family.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -377,9 +464,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "جرمل قليل الأزهار"
+      ],
+      "de": [
+        "Frankenia pauciflora"
+      ],
+      "en": [
+        "Frankenia pauciflora"
+      ],
+      "es": [
+        "Frankenia pauciflora"
+      ],
+      "fr": [
+        "Frankenia pauciflora"
+      ],
+      "it": [
+        "Frankenia pauciflora"
+      ],
+      "nl": [
+        "Frankenia pauciflora"
+      ],
+      "pl": [
+        "Frankenia pauciflora"
+      ],
+      "pt": [
+        "Frankenia pauciflora"
+      ],
+      "ru": [
+        "Frankenia pauciflora"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -389,12 +509,12 @@
     "family": "Frankeniaceae",
     "genus": "Frankenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/f4be88ff3d492f9b1289fc57348f6ea3203598c3",
-    "description": null,
+    "description": "Frankenia pulverulenta, the European seaheath, is a species of annual herb in the family Frankeniaceae. They have a self-supporting growth form and simple, broad leaves. Individuals can grow to 5 cm tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -410,12 +530,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -471,11 +591,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.9
     },
     "common_names": {
+      "ar": [
+        "حمرة"
+      ],
+      "de": [
+        "Einjährige Seeheide"
+      ],
       "en": [
-        "European seaheath"
+        "European seaheath",
+        "Frankenia pulverulenta"
+      ],
+      "es": [
+        "Frankenia pulverulenta"
+      ],
+      "fr": [
+        "Frankenia pulverulenta"
+      ],
+      "it": [
+        "Frankenia pulverulenta"
+      ],
+      "nl": [
+        "Frankenia pulverulenta"
+      ],
+      "pl": [
+        "Frankenia pulverulenta"
+      ],
+      "pt": [
+        "Frankenia pulverulenta"
+      ],
+      "ru": [
+        "Франкения порошистая"
+      ],
+      "zh": [
+        "瓣鳞花"
       ]
     },
     "tags": [],
@@ -487,12 +640,12 @@
     "family": "Frankeniaceae",
     "genus": "Frankenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Frankenia salina, often called alkali heath or alkali seaheath, is a perennial herb native to California, Nevada, Mexico and Chile. It is uncommon even in the region where it is most likely to be found, just north of the San Francisco Bay Area.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -508,12 +661,12 @@
       "water_demand": "Medium",
       "start_pct": null,
       "stop_pct": null,
-      "light_preferred": "Bright indirect light",
-      "light_also_ok": null,
-      "ppfd_min": null,
-      "ppfd_max": null,
-      "dli_min": null,
-      "dli_max": null,
+      "light_preferred": "Full sun",
+      "light_also_ok": "Part sun",
+      "ppfd_min": 400,
+      "ppfd_max": 800,
+      "dli_min": 14.0,
+      "dli_max": 25.0,
       "temp_min_c": 10,
       "temp_max_c": 30,
       "humidity_level": "Average (40-60%)",
@@ -569,9 +722,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": 8.9
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Frankenia salina"
+      ],
+      "en": [
+        "Frankenia salina"
+      ],
+      "es": [
+        "Frankenia salina"
+      ],
+      "fr": [
+        "Frankenia salina"
+      ],
+      "it": [
+        "Frankenia salina"
+      ],
+      "nl": [
+        "Frankenia salina"
+      ],
+      "pl": [
+        "Frankenia salina"
+      ],
+      "pt": [
+        "Frankenia salina"
+      ],
+      "ru": [
+        "Frankenia salina"
+      ],
+      "tr": [
+        "Tülpembe"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -581,12 +767,12 @@
     "family": "Frankeniaceae",
     "genus": "Frankenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/6f8a1480b7b88384250437c22ec8c8e2.jpg",
-    "description": null,
+    "description": "Frankenia serpyllifolia commonly known as bristly sea-heath, is a flowering plant in the family Frankeniaceae and grows in New South Wales, South Australia, Queensland and the Northern Territory. It is a small, spreading shrub with pink flowers.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -663,9 +849,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Frankenia serpyllifolia"
+      ],
+      "en": [
+        "Frankenia serpyllifolia"
+      ],
+      "es": [
+        "Frankenia serpyllifolia"
+      ],
+      "fr": [
+        "Frankenia serpyllifolia"
+      ],
+      "it": [
+        "Frankenia serpyllifolia"
+      ],
+      "nl": [
+        "Frankenia serpyllifolia"
+      ],
+      "pl": [
+        "Frankenia serpyllifolia"
+      ],
+      "pt": [
+        "Frankenia serpyllifolia"
+      ],
+      "ru": [
+        "Frankenia serpyllifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -675,7 +891,7 @@
     "family": "Frankeniaceae",
     "genus": "Frankenia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -757,9 +973,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Frankenia thymifolia"
+      ],
+      "en": [
+        "Frankenia thymifolia"
+      ],
+      "es": [
+        "Frankenia thymifolia"
+      ],
+      "fr": [
+        "Frankenia thymifolia"
+      ],
+      "it": [
+        "Frankenia thymifolia"
+      ],
+      "nl": [
+        "Frankenia thymifolia"
+      ],
+      "pl": [
+        "Frankenia thymifolia"
+      ],
+      "pt": [
+        "Frankenia thymifolia"
+      ],
+      "ru": [
+        "Frankenia thymifolia"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

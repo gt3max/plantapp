@@ -5,12 +5,12 @@
     "family": "Surianaceae",
     "genus": "Suriana",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0970fc7cd40a326843f8e2b094d0a3f191d6ef43",
-    "description": null,
+    "description": "Suriana is a monotypic genus of flowering plants containing only Suriana maritima, which is commonly known as bay cedar.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Suriana maritima"
+      ],
       "en": [
-        "Bay-cedar"
+        "Bay-cedar",
+        "Suriana maritima"
+      ],
+      "es": [
+        "Suriana maritima"
+      ],
+      "fr": [
+        "Suriana maritima"
+      ],
+      "it": [
+        "Suriana maritima"
+      ],
+      "nl": [
+        "Suriana maritima"
+      ],
+      "pl": [
+        "Suriana maritima"
+      ],
+      "pt": [
+        "Suriana"
+      ],
+      "ru": [
+        "Suriana maritima"
+      ],
+      "zh": [
+        "海人树"
       ]
     },
     "tags": [],

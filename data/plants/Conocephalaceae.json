@@ -5,7 +5,7 @@
     "family": "Conocephalaceae",
     "genus": "Conocephalum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Kegelkopfmoos"
+      ],
+      "en": [
+        "Conocephalum conicum"
+      ],
+      "es": [
+        "Conocephalum conicum"
+      ],
+      "fr": [
+        "Hépatique à large thalle"
+      ],
+      "it": [
+        "Conocephalum conicum"
+      ],
+      "ja": [
+        "ジャゴケ"
+      ],
+      "nl": [
+        "Conocephalum conicum"
+      ],
+      "pl": [
+        "Conocephalum conicum"
+      ],
+      "pt": [
+        "Conocephalum conicum"
+      ],
+      "ru": [
+        "Conocephalum conicum"
+      ],
+      "zh": [
+        "蛇苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +135,12 @@
     "family": "Conocephalaceae",
     "genus": "Conocephalum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Conocephalum_salebrosum_%28a%2C_145855-475042%29_7776.JPG",
+    "description": "Conocephalum salebrosum, commonly known as snakewort, is a species of liverwort, a non-vascular land plant, with a broad, holarctic distribution. It is also known as snakeskin liverwort, cat-tongue liverwort, mushroom-headed liverwort, and great scented liverwort.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -181,9 +217,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Conocephalum salebrosum"
+      ],
+      "en": [
+        "Conocephalum salebrosum"
+      ],
+      "es": [
+        "Conocephalum salebrosum"
+      ],
+      "fr": [
+        "Conocephalum salebrosum"
+      ],
+      "it": [
+        "Conocephalum salebrosum"
+      ],
+      "nl": [
+        "Conocephalum salebrosum"
+      ],
+      "pl": [
+        "Conocephalum salebrosum"
+      ],
+      "pt": [
+        "Conocephalum salebrosum"
+      ],
+      "ru": [
+        "Conocephalum salebrosum"
+      ],
+      "zh": [
+        "暗色蛇苔"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Irvingiaceae",
     "genus": "Irvingia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/7a9a4a7760bc9980a669a513c91417da3f2ee42a",
-    "description": null,
+    "description": "Irvingia gabonensis is a species of African trees in the genus Irvingia, sometimes known by the common names wild mango, African mango, or bush mango. They bear edible mango-like fruits, and are especially valued for their fat- and protein-rich nuts.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Irvingia gabonensis"
+      ],
       "en": [
+        "Irvingia gabonensis",
         "Rainy season bush-mango"
+      ],
+      "es": [
+        "Irvingia gabonensis"
+      ],
+      "fr": [
+        "Irvingia gabonensis"
+      ],
+      "it": [
+        "Irvingia gabonensis"
+      ],
+      "nl": [
+        "Irvingia gabonensis"
+      ],
+      "pl": [
+        "Mango afrykańskie"
+      ],
+      "pt": [
+        "Irvingia gabonensis"
+      ],
+      "ru": [
+        "Irvingia gabonensis"
+      ],
+      "zh": [
+        "非洲芒果"
       ]
     },
     "tags": [],

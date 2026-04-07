@@ -5,7 +5,7 @@
     "family": "Mazaceae",
     "genus": "Mazus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,11 +87,44 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Mazus miquelii"
+      ],
       "en": [
+        "Mazus miquelii",
         "Miquel's mazus"
+      ],
+      "es": [
+        "Mazus miquelii"
+      ],
+      "fr": [
+        "Mazus miquelii"
+      ],
+      "it": [
+        "Mazus miquelii"
+      ],
+      "ja": [
+        "ムラサキサギゴケ"
+      ],
+      "nl": [
+        "Mazus miquelii"
+      ],
+      "pl": [
+        "Mazus miquelii"
+      ],
+      "pt": [
+        "Mazus miquelii"
+      ],
+      "ru": [
+        "Mazus miquelii"
+      ],
+      "zh": [
+        "匍茎通泉草"
       ]
     },
     "tags": [],
@@ -103,12 +136,12 @@
     "family": "Mazaceae",
     "genus": "Mazus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/0c0dc441cbf4030c65c8ac6985e1a38913493de8",
-    "description": null,
+    "description": "Mazus pumilus, commonly called Japanese mazus, is a species of flowering plant in the Mazaceae family. It is native to south and east Asia, where it is found in Bhutan, China, India, Pakistan, Bangladesh, Indonesia, Japan, Korea, Nepal, New Guinea, the Philippines, Russia, Taiwan, Thailand, and Vietnam. It is an invasive species in North America.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -185,11 +218,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Mazus pumilus"
+      ],
       "en": [
-        "Japanese mazus"
+        "Japanese mazus",
+        "Mazus pumilus"
+      ],
+      "es": [
+        "Mazus pumilus"
+      ],
+      "fr": [
+        "Mazus pumilus"
+      ],
+      "it": [
+        "Mazus pumilus"
+      ],
+      "ja": [
+        "トキワハゼ"
+      ],
+      "ko": [
+        "주름잎"
+      ],
+      "nl": [
+        "Mazus pumilus"
+      ],
+      "pl": [
+        "Mazus pumilus"
+      ],
+      "pt": [
+        "Mazus pumilus"
+      ],
+      "ru": [
+        "Mazus pumilus"
+      ],
+      "zh": [
+        "通泉草"
       ]
     },
     "tags": [],

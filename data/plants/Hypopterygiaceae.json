@@ -5,7 +5,7 @@
     "family": "Hypopterygiaceae",
     "genus": "Lopidium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Lopidium concinnum"
+      ],
+      "en": [
+        "Lopidium concinnum"
+      ],
+      "es": [
+        "Lopidium concinnum"
+      ],
+      "fr": [
+        "Lopidium concinnum"
+      ],
+      "it": [
+        "Lopidium concinnum"
+      ],
+      "nl": [
+        "Lopidium concinnum"
+      ],
+      "pl": [
+        "Lopidium concinnum"
+      ],
+      "pt": [
+        "Lopidium concinnum"
+      ],
+      "ru": [
+        "Lopidium concinnum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

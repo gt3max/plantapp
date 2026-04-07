@@ -5,7 +5,7 @@
     "family": "Calliergonaceae",
     "genus": "Calliergon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -21,9 +21,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "calliergon_cordifolium",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Calliergon cordifolium"
+      ],
+      "en": [
+        "Calliergon cordifolium"
+      ],
+      "es": [
+        "Calliergon cordifolium"
+      ],
+      "fr": [
+        "Calliergon cordifolium"
+      ],
+      "it": [
+        "Calliergon cordifolium"
+      ],
+      "nl": [
+        "Calliergon cordifolium"
+      ],
+      "pl": [
+        "Calliergon cordifolium"
+      ],
+      "pt": [
+        "Calliergon cordifolium"
+      ],
+      "ru": [
+        "Calliergon cordifolium"
+      ],
+      "zh": [
+        "湿原藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,12 +132,12 @@
     "family": "Calliergonaceae",
     "genus": "Calliergon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Calliergon_giganteum.jpeg",
+    "description": "Calliergon giganteum, the giant spearmoss, giant calliergon moss, or arctic moss, is an aquatic plant found on lake beds in tundra regions. It has no wood stems or flowers, and has small rootlets instead of roots.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -115,9 +148,9 @@
     "synonyms": null,
     "care": {
       "plant_id": "calliergon_giganteum",
-      "water_frequency": "Every 7-10 days",
+      "water_frequency": "Every 5-7 days",
       "water_winter": null,
-      "water_demand": "Medium",
+      "water_demand": "High",
       "start_pct": null,
       "stop_pct": null,
       "light_preferred": "Bright indirect light",
@@ -181,9 +214,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Calliergon giganteum"
+      ],
+      "en": [
+        "Calliergon giganteum"
+      ],
+      "es": [
+        "Calliergon giganteum"
+      ],
+      "fr": [
+        "Calliergon giganteum"
+      ],
+      "it": [
+        "Calliergon giganteum"
+      ],
+      "nl": [
+        "Calliergon giganteum"
+      ],
+      "pl": [
+        "Calliergon giganteum"
+      ],
+      "pt": [
+        "Calliergon giganteum"
+      ],
+      "ru": [
+        "Calliergon giganteum"
+      ],
+      "zh": [
+        "大叶湿原藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +259,7 @@
     "family": "Calliergonaceae",
     "genus": "Calliergon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +341,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Calliergon richardsonii"
+      ],
+      "en": [
+        "Calliergon richardsonii"
+      ],
+      "es": [
+        "Calliergon richardsonii"
+      ],
+      "fr": [
+        "Calliergon richardsonii"
+      ],
+      "it": [
+        "Calliergon richardsonii"
+      ],
+      "nl": [
+        "Calliergon richardsonii"
+      ],
+      "pl": [
+        "Calliergon richardsonii"
+      ],
+      "pt": [
+        "Calliergon richardsonii"
+      ],
+      "ru": [
+        "Calliergon richardsonii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,12 +383,12 @@
     "family": "Calliergonaceae",
     "genus": "Hamatocaulis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Hamatocaulis vernicosus, the varnished hook-moss, is a species of moss belonging to the family Amblystegiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -369,9 +465,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Firnisglänzendes Sichelmoos"
+      ],
+      "en": [
+        "Hamatocaulis vernicosus"
+      ],
+      "es": [
+        "Hamatocaulis vernicosus"
+      ],
+      "fr": [
+        "Hamatocaulis vernicosus"
+      ],
+      "it": [
+        "Hamatocaulis vernicosus"
+      ],
+      "nl": [
+        "Hamatocaulis vernicosus"
+      ],
+      "pl": [
+        "Hamatocaulis vernicosus"
+      ],
+      "pt": [
+        "Hamatocaulis vernicosus"
+      ],
+      "ru": [
+        "Hamatocaulis vernicosus"
+      ],
+      "zh": [
+        "钩茎藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,7 +510,7 @@
     "family": "Calliergonaceae",
     "genus": "Loeskypnum",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -463,9 +592,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Loeskypnum badium"
+      ],
+      "en": [
+        "Loeskypnum badium"
+      ],
+      "es": [
+        "Loeskypnum badium"
+      ],
+      "fr": [
+        "Loeskypnum badium"
+      ],
+      "it": [
+        "Loeskypnum badium"
+      ],
+      "nl": [
+        "Loeskypnum badium"
+      ],
+      "pl": [
+        "Loeskypnum badium"
+      ],
+      "pt": [
+        "Loeskypnum badium"
+      ],
+      "ru": [
+        "Loeskypnum badium"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -475,7 +634,7 @@
     "family": "Calliergonaceae",
     "genus": "Straminergon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -557,9 +716,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Straminergon stramineum"
+      ],
+      "en": [
+        "Straminergon stramineum"
+      ],
+      "es": [
+        "Straminergon stramineum"
+      ],
+      "fr": [
+        "Straminergon stramineum"
+      ],
+      "it": [
+        "Straminergon stramineum"
+      ],
+      "nl": [
+        "Straminergon stramineum"
+      ],
+      "pl": [
+        "słomiaczek złotawy"
+      ],
+      "pt": [
+        "Straminergon stramineum"
+      ],
+      "ru": [
+        "Straminergon stramineum"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -569,7 +758,7 @@
     "family": "Calliergonaceae",
     "genus": "Warnstorfia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -651,9 +840,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Warnstorfia exannulata"
+      ],
+      "en": [
+        "Warnstorfia exannulata"
+      ],
+      "es": [
+        "Warnstorfia exannulata"
+      ],
+      "fr": [
+        "Warnstorfia exannulata"
+      ],
+      "it": [
+        "Warnstorfia exannulata"
+      ],
+      "nl": [
+        "Warnstorfia exannulata"
+      ],
+      "pl": [
+        "Warnstorfia exannulata"
+      ],
+      "pt": [
+        "Warnstorfia exannulata"
+      ],
+      "ru": [
+        "Warnstorfia exannulata"
+      ],
+      "zh": [
+        "范氏藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -663,12 +885,12 @@
     "family": "Calliergonaceae",
     "genus": "Warnstorfia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Warnstorfia_fluitans_%28a%2C_141238-472431%29_5407.JPG",
+    "description": "Warnstorfia fluitans, the floating hook-moss or water hook-moss, is a species of moss found in acidic habitats across all continents except Antarctica.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -745,9 +967,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Warnstorfia fluitans"
+      ],
+      "en": [
+        "Warnstorfia fluitans"
+      ],
+      "es": [
+        "Warnstorfia fluitans"
+      ],
+      "fr": [
+        "Warnstorfia fluitans"
+      ],
+      "it": [
+        "Warnstorfia fluitans"
+      ],
+      "nl": [
+        "Warnstorfia fluitans"
+      ],
+      "pl": [
+        "warnstorfia pływająca"
+      ],
+      "pt": [
+        "Warnstorfia fluitans"
+      ],
+      "ru": [
+        "Warnstorfia fluitans"
+      ],
+      "zh": [
+        "浮生范氏藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -757,7 +1012,7 @@
     "family": "Calliergonaceae",
     "genus": "Warnstorfia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -839,9 +1094,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Warnstorfia sarmentosa"
+      ],
+      "en": [
+        "Warnstorfia sarmentosa"
+      ],
+      "es": [
+        "Warnstorfia sarmentosa"
+      ],
+      "fr": [
+        "Warnstorfia sarmentosa"
+      ],
+      "it": [
+        "Warnstorfia sarmentosa"
+      ],
+      "nl": [
+        "Warnstorfia sarmentosa"
+      ],
+      "pl": [
+        "Warnstorfia sarmentosa"
+      ],
+      "pt": [
+        "Warnstorfia sarmentosa"
+      ],
+      "ru": [
+        "Warnstorfia sarmentosa"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

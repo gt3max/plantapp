@@ -5,12 +5,12 @@
     "family": "Meesiaceae",
     "genus": "Amblyodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Amblyodon dealbatus, short-tooth hump-moss, is a species of mosses belonging to the family Meesiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,15 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Amblyodon dealbatus"
+      ],
       "en": [
+        "Amblyodon dealbatus",
         "amblyodon moss",
         "short-toothed hump moss"
       ],
+      "es": [
+        "Amblyodon dealbatus"
+      ],
+      "fr": [
+        "Amblyodon dealbatus"
+      ],
+      "it": [
+        "Amblyodon dealbatus"
+      ],
+      "nl": [
+        "Amblyodon dealbatus"
+      ],
       "pl": [
         "Tępoząb białawy"
+      ],
+      "pt": [
+        "Amblyodon dealbatus"
+      ],
+      "ru": [
+        "Amblyodon dealbatus"
       ],
       "zh": [
         "拟寒藓"
@@ -110,12 +134,12 @@
     "family": "Meesiaceae",
     "genus": "Meesia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Meesia longiseta is a species of moss belonging to the family Meesiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -192,9 +216,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Meesia longiseta"
+      ],
+      "en": [
+        "Meesia longiseta"
+      ],
+      "es": [
+        "Meesia longiseta"
+      ],
+      "fr": [
+        "Meesia longiseta"
+      ],
+      "it": [
+        "Meesia longiseta"
+      ],
+      "nl": [
+        "Meesia longiseta"
+      ],
+      "pl": [
+        "Meesia longiseta"
+      ],
+      "pt": [
+        "Meesia longiseta"
+      ],
+      "ru": [
+        "Meesia longiseta"
+      ],
+      "zh": [
+        "寒藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -204,7 +261,7 @@
     "family": "Meesiaceae",
     "genus": "Meesia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -286,9 +343,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Meesia triquetra"
+      ],
+      "en": [
+        "Meesia triquetra"
+      ],
+      "es": [
+        "Meesia triquetra"
+      ],
+      "fr": [
+        "Meesia triquetra"
+      ],
+      "it": [
+        "Meesia triquetra"
+      ],
+      "nl": [
+        "Meesia triquetra"
+      ],
+      "pl": [
+        "Meesia triquetra"
+      ],
+      "pt": [
+        "Meesia triquetra"
+      ],
+      "ru": [
+        "Meesia triquetra"
+      ],
+      "zh": [
+        "三叶寒藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -298,11 +388,11 @@
     "family": "Meesiaceae",
     "genus": "Meesia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Meesia_uliginosa_%28a%2C_133307-471445%29_4189.JPG",
     "description": null,
     "wikidata_id": null,
     "sources": [
@@ -380,9 +470,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Meesia uliginosa"
+      ],
+      "en": [
+        "Meesia uliginosa"
+      ],
+      "es": [
+        "Meesia uliginosa"
+      ],
+      "fr": [
+        "Meesia uliginosa"
+      ],
+      "it": [
+        "Meesia uliginosa"
+      ],
+      "nl": [
+        "Meesia uliginosa"
+      ],
+      "pl": [
+        "Meesia uliginosa"
+      ],
+      "pt": [
+        "Meesia uliginosa"
+      ],
+      "ru": [
+        "Meesia uliginosa"
+      ],
+      "zh": [
+        "钝叶寒藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -392,12 +515,12 @@
     "family": "Meesiaceae",
     "genus": "Paludella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "",
-    "description": null,
+    "description": "Paludella squarrosa, the angled paludella moss, is a species of moss belonging to the family Meesiaceae.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -474,9 +597,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Paludella squarrosa"
+      ],
+      "en": [
+        "Paludella squarrosa"
+      ],
+      "es": [
+        "Paludella squarrosa"
+      ],
+      "fr": [
+        "Paludella squarrosa"
+      ],
+      "it": [
+        "Paludella squarrosa"
+      ],
+      "nl": [
+        "Paludella squarrosa"
+      ],
+      "pl": [
+        "Paludella squarrosa"
+      ],
+      "pt": [
+        "Paludella squarrosa"
+      ],
+      "ru": [
+        "Paludella squarrosa"
+      ],
+      "zh": [
+        "沼寒藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

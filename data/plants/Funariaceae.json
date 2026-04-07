@@ -5,7 +5,7 @@
     "family": "Funariaceae",
     "genus": "Entosthodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -87,9 +87,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Entosthodon attenuatus"
+      ],
+      "en": [
+        "Entosthodon attenuatus"
+      ],
+      "es": [
+        "Entosthodon attenuatus"
+      ],
+      "fr": [
+        "Entosthodon attenuatus"
+      ],
+      "it": [
+        "Entosthodon attenuatus"
+      ],
+      "nl": [
+        "Entosthodon attenuatus"
+      ],
+      "pl": [
+        "Entosthodon attenuatus"
+      ],
+      "pt": [
+        "Entosthodon attenuatus"
+      ],
+      "ru": [
+        "Entosthodon attenuatus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -99,7 +129,7 @@
     "family": "Funariaceae",
     "genus": "Entosthodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -181,9 +211,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Entosthodon muhlenbergii"
+      ],
+      "en": [
+        "Entosthodon muhlenbergii"
+      ],
+      "es": [
+        "Entosthodon muhlenbergii"
+      ],
+      "fr": [
+        "Entosthodon muhlenbergii"
+      ],
+      "it": [
+        "Entosthodon muhlenbergii"
+      ],
+      "nl": [
+        "Entosthodon muhlenbergii"
+      ],
+      "pl": [
+        "Entosthodon muhlenbergii"
+      ],
+      "pt": [
+        "Entosthodon muhlenbergii"
+      ],
+      "ru": [
+        "Entosthodon muhlenbergii"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -193,7 +253,7 @@
     "family": "Funariaceae",
     "genus": "Entosthodon",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -275,9 +335,39 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Entosthodon obtusus"
+      ],
+      "en": [
+        "Entosthodon obtusus"
+      ],
+      "es": [
+        "Entosthodon obtusus"
+      ],
+      "fr": [
+        "Entosthodon obtusus"
+      ],
+      "it": [
+        "Entosthodon obtusus"
+      ],
+      "nl": [
+        "Entosthodon obtusus"
+      ],
+      "pl": [
+        "Entosthodon obtusus"
+      ],
+      "pt": [
+        "Entosthodon obtusus"
+      ],
+      "ru": [
+        "Entosthodon obtusus"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -287,12 +377,12 @@
     "family": "Funariaceae",
     "genus": "Physcomitrella",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
-    "image_url": "",
-    "description": null,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Physcomitrella.jpg",
+    "description": "Physcomitrella patens is a synonym of Physcomitrium patens, the spreading earthmoss. It is a moss, a bryophyte used as a model organism for studies on plant evolution, development, and physiology.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -369,9 +459,45 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Kleines Blasenmützenmoos"
+      ],
+      "en": [
+        "Physcomitrella patens"
+      ],
+      "es": [
+        "Physcomitrella patens"
+      ],
+      "fr": [
+        "Physcomitrella patens"
+      ],
+      "it": [
+        "Physcomitrella patens"
+      ],
+      "ja": [
+        "ヒメツリガネゴケ"
+      ],
+      "nl": [
+        "Physcomitrella patens"
+      ],
+      "pl": [
+        "Physcomitrella patens"
+      ],
+      "pt": [
+        "Physcomitrella patens"
+      ],
+      "ru": [
+        "Physcomitrella patens"
+      ],
+      "zh": [
+        "小立碗藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   },
@@ -381,7 +507,7 @@
     "family": "Funariaceae",
     "genus": "Physcomitrium",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -463,9 +589,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Birnförmiges Blasenmützenmoos"
+      ],
+      "en": [
+        "Physcomitrium pyriforme"
+      ],
+      "es": [
+        "Physcomitrium pyriforme"
+      ],
+      "fr": [
+        "Physcomitrium pyriforme"
+      ],
+      "it": [
+        "Physcomitrium pyriforme"
+      ],
+      "nl": [
+        "gewoon knikkertjesmos"
+      ],
+      "pl": [
+        "Physcomitrium pyriforme"
+      ],
+      "pt": [
+        "Physcomitrium pyriforme"
+      ],
+      "ru": [
+        "Physcomitrium pyriforme"
+      ],
+      "zh": [
+        "梨蒴立碗藓"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

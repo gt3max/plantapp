@@ -5,12 +5,12 @@
     "family": "Saururaceae",
     "genus": "Anemopsis",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://bs.plantnet.org/image/o/4d983d62abaf3a690aa3511dc435a04179991dfa",
-    "description": null,
+    "description": "The monotypic genus Anemopsis has only one species, Anemopsis californica, with the common names yerba mansa or lizard tail.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,11 +87,41 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": 6,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Anemopsis californica"
+      ],
       "en": [
+        "Anemopsis californica",
         "Apache-beads"
+      ],
+      "es": [
+        "Anemopsis"
+      ],
+      "fr": [
+        "Anemopsis"
+      ],
+      "it": [
+        "Anemopsis"
+      ],
+      "nl": [
+        "Anemopsis"
+      ],
+      "pl": [
+        "Anemopsis californica"
+      ],
+      "pt": [
+        "Anemopsis"
+      ],
+      "ru": [
+        "Anemopsis californica"
+      ],
+      "zh": [
+        "曄洏芭蔓薩"
       ]
     },
     "tags": [],
@@ -103,7 +133,7 @@
     "family": "Saururaceae",
     "genus": "Houttuynia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -185,11 +215,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "de": [
+        "Houttuynia cordata"
+      ],
       "en": [
-        "Chameleon-plant"
+        "Chameleon-plant",
+        "Houttuynia cordata"
+      ],
+      "es": [
+        "Houttuynia"
+      ],
+      "fr": [
+        "Plante caméléon"
+      ],
+      "it": [
+        "Houttuynia cordata"
+      ],
+      "ja": [
+        "ドクダミ"
+      ],
+      "ko": [
+        "약모밀"
+      ],
+      "nl": [
+        "Houttuynia cordata"
+      ],
+      "pl": [
+        "Pstrolistka sercowata"
+      ],
+      "pt": [
+        "Houttuynia"
+      ],
+      "ru": [
+        "Houttuynia cordata"
+      ],
+      "zh": [
+        "鱼腥草"
       ]
     },
     "tags": [],
@@ -201,7 +267,7 @@
     "family": "Saururaceae",
     "genus": "Saururus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -287,11 +353,47 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
     "common_names": {
+      "ar": [
+        "صروة منحنية"
+      ],
+      "de": [
+        "Saururus cernuus"
+      ],
       "en": [
-        "Lizard's-tail"
+        "Lizard's-tail",
+        "Saururus cernuus"
+      ],
+      "es": [
+        "Saururus cernuus"
+      ],
+      "fr": [
+        "Saururus cernuus"
+      ],
+      "it": [
+        "Saururus cernuus"
+      ],
+      "nl": [
+        "Saururus cernuus"
+      ],
+      "pl": [
+        "Saururus cernuus"
+      ],
+      "pt": [
+        "Saururus cernuus"
+      ],
+      "ru": [
+        "Saururus cernuus"
+      ],
+      "tr": [
+        "Saururus cernuus"
+      ],
+      "zh": [
+        "蜥尾草"
       ]
     },
     "tags": [],
@@ -303,7 +405,7 @@
     "family": "Saururaceae",
     "genus": "Saururus",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
@@ -389,9 +491,51 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "ar": [
+        "صروة صينية"
+      ],
+      "de": [
+        "Saururus chinensis"
+      ],
+      "en": [
+        "Saururus chinensis"
+      ],
+      "es": [
+        "Saururus chinensis"
+      ],
+      "fr": [
+        "Saururus chinensis"
+      ],
+      "it": [
+        "Saururus chinensis"
+      ],
+      "ja": [
+        "ハンゲショウ"
+      ],
+      "ko": [
+        "삼백초"
+      ],
+      "nl": [
+        "Saururus chinensis"
+      ],
+      "pl": [
+        "Saururus chinensis"
+      ],
+      "pt": [
+        "Saururus chinensis"
+      ],
+      "ru": [
+        "Saururus chinensis"
+      ],
+      "zh": [
+        "三白草"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }

@@ -5,12 +5,12 @@
     "family": "Bruniaceae",
     "genus": "Berzelia",
     "category": "decorative",
-    "indoor": 1,
+    "indoor": 0,
     "edible": 0,
     "has_phases": 0,
     "preset": "Standard",
     "image_url": "https://d2seqvvyy3b8p2.cloudfront.net/a686ba07d19dfe272b0cc48e8e96cb8e.jpg",
-    "description": null,
+    "description": "Berzelia lanuginosa, commonly known as common button bush, is a species of flowering plant in the family Bruniaceae native to the Western Cape region of South Africa. It is a perennial shrub that is hardy from USDA hardiness zones 9a to 11. It grows to be 4 to 6 feet tall.",
     "wikidata_id": null,
     "sources": [
       "trefle"
@@ -87,9 +87,42 @@
       "germination_temp_c": null,
       "good_companions": null,
       "bad_companions": null,
-      "companion_note": null
+      "companion_note": null,
+      "ellenberg_f": null,
+      "ellenberg_l": null
     },
-    "common_names": {},
+    "common_names": {
+      "de": [
+        "Berzelia lanuginosa"
+      ],
+      "en": [
+        "Berzelia lanuginosa"
+      ],
+      "es": [
+        "Berzelia lanuginosa"
+      ],
+      "fr": [
+        "Berzelia lanuginosa"
+      ],
+      "it": [
+        "Berzelia lanuginosa"
+      ],
+      "nl": [
+        "Berzelia lanuginosa"
+      ],
+      "pl": [
+        "Berzelia lanuginosa"
+      ],
+      "pt": [
+        "Berzelia lanuginosa"
+      ],
+      "ru": [
+        "Berzelia lanuginosa"
+      ],
+      "zh": [
+        "絨毛飾球花"
+      ]
+    },
     "tags": [],
     "external_ids": {}
   }
