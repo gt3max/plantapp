@@ -947,21 +947,29 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                     // ══════ GROUP: Toxicity ══════
                     _groupHeader('Toxicity'),
 
-                    // ── 8. Toxicity (RN: toxic alert+chips OR non-toxic green) ──
+                    // ── 8. Toxicity (severity-aware: Severe=red, Moderate=orange, Mild=yellow, Safe=green) ──
                     _buildSection('toxicity', 'Toxicity', [
                       if (_isToxic) ...[
-                        _InfoRow(
-                          icon: Icons.warning_amber_outlined,
-                          text: 'Toxic${_lib?.toxicitySeverity.isNotEmpty == true ? ' (${_lib!.toxicitySeverity})' : _dbStr('toxicity_severity').isNotEmpty ? ' (${_dbStr('toxicity_severity')})' : ''}',
-                          iconColor: AppColors.error,
-                        ),
+                        () {
+                          final severity = _lib?.toxicitySeverity ?? _dbStr('toxicity_severity');
+                          final isSevere = severity.toLowerCase() == 'severe';
+                          final isMild = severity.toLowerCase() == 'mild';
+                          final color = isSevere ? AppColors.error : isMild ? const Color(0xFFF59E0B) : const Color(0xFFEA580C);
+                          final icon = isSevere ? Icons.dangerous_outlined : isMild ? Icons.info_outlined : Icons.warning_amber_outlined;
+                          return _InfoRow(
+                            icon: icon,
+                            text: severity.isNotEmpty ? '$severity toxicity' : 'Toxic',
+                            sub: _dbStr('toxic_parts').isNotEmpty ? 'Parts: ${_dbStr('toxic_parts')}' : null,
+                            iconColor: color,
+                          );
+                        }(),
                         _ChipRow(chips: [
                           if (_userPlant?.poisonousToHumans == true || _dbCare['toxic_to_humans'] == true || _dbCare['toxic_to_humans'] == 1 || _lib?.poisonousToHumans == true) 'Humans',
                           if (_userPlant?.poisonousToPets == true || _dbCare['toxic_to_pets'] == true || _dbCare['toxic_to_pets'] == 1 || _lib?.poisonousToPets == true) 'Animals',
-                        ]),
+                        ], red: true),
                       ] else
                         _InfoRow(icon: Icons.check_circle_outline, text: 'Non-toxic to humans and pets', iconColor: AppColors.success),
-                    ], guideLabel: _isToxic ? 'Toxicity details' : null),
+                    ], guideLabel: 'Toxicity details'),
 
                     const SizedBox(height: AppSpacing.lg),
                     // ══════ GROUP: Growing ══════
@@ -1531,57 +1539,85 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
         ];
       // ═══ TOXICITY GUIDE (RN 1:1) ═══
       case 'toxicity':
+        final toxSeverity = p?.toxicitySeverity ?? _dbStr('toxicity_severity');
+        final toxParts = p?.toxicParts ?? _dbStr('toxic_parts');
+        final toxSymptoms = p?.toxicitySymptoms ?? _dbStr('toxicity_symptoms');
+        final toxFirstAid = p?.toxicityFirstAid ?? _dbStr('toxicity_first_aid');
+        final toxNote = p?.toxicityNote ?? _dbStr('toxicity_note');
+        final toxHumans = p?.poisonousToHumans == true || _dbCare['toxic_to_humans'] == true || _dbCare['toxic_to_humans'] == 1;
+        final toxPets = p?.poisonousToPets == true || _dbCare['toxic_to_pets'] == true || _dbCare['toxic_to_pets'] == 1;
+        final isSevere = toxSeverity.toLowerCase() == 'severe';
+        final isMild = toxSeverity.toLowerCase() == 'mild';
+
+        if (!_isToxic) {
+          return [
+            _InfoRow(icon: Icons.check_circle_outline, text: 'Non-toxic to humans and pets', iconColor: AppColors.success),
+            if (toxNote.isNotEmpty)
+              InfoBox(text: toxNote, variant: 'info'),
+            _guideSectionTitle('Disclaimer'),
+            InfoBox(text: 'Toxicity information is compiled from multiple botanical sources (ASPCA, TPPT/Agroscope, CBIF). Individual reactions vary. If you or your pet ingested any plant material and feel unwell, contact poison control immediately.', variant: 'info'),
+          ];
+        }
+
         return [
-          _guideSection('Toxicity of $_title', ''),
-          _InfoRow(icon: Icons.warning_amber_outlined, text: p?.toxicitySeverity.isNotEmpty == true ? '${p!.toxicitySeverity} toxicity' : 'Toxic', iconColor: AppColors.error),
+          // Severity header with color coding
+          _InfoRow(
+            icon: isSevere ? Icons.dangerous_outlined : isMild ? Icons.info_outlined : Icons.warning_amber_outlined,
+            text: toxSeverity.isNotEmpty ? '$toxSeverity toxicity' : 'Toxic',
+            iconColor: isSevere ? AppColors.error : isMild ? const Color(0xFFF59E0B) : const Color(0xFFEA580C),
+          ),
+          if (isSevere)
+            InfoBox(text: 'This plant is highly dangerous. Keep away from children and pets. Ingestion may require immediate medical attention.', variant: 'warning'),
           _ChipRow(chips: [
-            if (p?.poisonousToHumans == true) 'Humans',
-            if (p?.poisonousToPets == true) ...'Cats,Dogs'.split(','),
-          ]),
-          if (p?.toxicParts.isNotEmpty == true) ...[
+            if (toxHumans) 'Humans',
+            if (toxPets) ...'Cats,Dogs'.split(','),
+          ], red: true),
+          if (toxParts.isNotEmpty) ...[
             _guideSectionTitle('Toxic parts'),
-            _guideSection('', p!.toxicParts),
+            _guideSection('', toxParts),
           ],
-          if (p?.edible == true && p?.edibleParts.isNotEmpty == true) ...[
+          if (p?.edible == true && (p?.edibleParts.isNotEmpty == true || _dbStr('edible_parts').isNotEmpty)) ...[
             _guideSectionTitle('Edible parts'),
-            _InfoRow(icon: Icons.restaurant_outlined, text: p!.edibleParts, iconColor: AppColors.success),
+            _InfoRow(icon: Icons.restaurant_outlined, text: p?.edibleParts ?? _dbStr('edible_parts'), iconColor: AppColors.success),
           ],
-          if (p?.toxicitySymptoms.isNotEmpty == true) ...[
+          if (toxSymptoms.isNotEmpty) ...[
             _guideSectionTitle('Symptoms by exposure'),
-            ...p!.toxicitySymptoms.split('\n').where((l) => l.isNotEmpty).map((line) {
+            ...toxSymptoms.split('\n').where((l) => l.isNotEmpty).map((line) {
               final parts = line.split(': ');
               if (parts.length >= 2) {
                 return Padding(
                   padding: const EdgeInsets.only(bottom: AppSpacing.sm),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     Text(parts[0], style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
-                    Text(parts.sublist(1).join(': '), style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4)),
+                    SelectableText(parts.sublist(1).join(': '), style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4)),
                   ]),
                 );
               }
               return _guideSection('', line);
             }),
           ],
-          if (p?.toxicityFirstAid.isNotEmpty == true) ...[
+          if (toxFirstAid.isNotEmpty) ...[
             _guideSectionTitle('What to do'),
-            ...p!.toxicityFirstAid.split('\n').where((l) => l.isNotEmpty).map((line) {
+            if (isSevere)
+              InfoBox(text: 'Call poison control or emergency services immediately.', variant: 'warning'),
+            ...toxFirstAid.split('\n').where((l) => l.isNotEmpty).map((line) {
               final parts = line.split(': ');
               if (parts.length >= 2) {
                 return Padding(
                   padding: const EdgeInsets.only(bottom: AppSpacing.sm),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                     Text(parts[0], style: TextStyle(fontSize: AppFontSize.sm, fontWeight: FontWeight.w600, color: AppColors.text)),
-                    Text(parts.sublist(1).join(': '), style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4)),
+                    SelectableText(parts.sublist(1).join(': '), style: TextStyle(fontSize: AppFontSize.sm, color: AppColors.textSecondary, height: 1.4)),
                   ]),
                 );
               }
               return _guideSection('', line);
             }),
           ],
-          if (p?.toxicityNote.isNotEmpty == true)
-            InfoBox(text: p!.toxicityNote, variant: 'warning'),
+          if (toxNote.isNotEmpty)
+            InfoBox(text: toxNote, variant: isSevere ? 'warning' : 'info'),
           _guideSectionTitle('Disclaimer'),
-          InfoBox(text: 'Toxicity information is compiled from multiple botanical sources and may not be exhaustive. Individual reactions vary \u2014 allergies and sensitivities are not covered here. If you or your pet ingested any plant material and feel unwell, contact a medical professional or poison control center immediately. This is not medical advice.', variant: 'info'),
+          InfoBox(text: 'Toxicity information is compiled from multiple botanical sources (ASPCA, TPPT/Agroscope, CBIF). Individual reactions vary \u2014 allergies and sensitivities are not covered here. If you or your pet ingested any plant material and feel unwell, contact a medical professional or poison control center immediately.', variant: 'info'),
         ];
       // ═══ SOIL / REPOTTING GUIDE (RN 1:1) ═══
       case 'soil':
