@@ -76,13 +76,13 @@ def verify_photo(image_url, expected_scientific):
 
 def main():
     photos = turso_query("""
-        SELECT pi.plant_id, pi.image_url, p.scientific
+        SELECT pi.plant_id, pi.image_url, p.scientific, pi.sort_order
         FROM plant_images pi
         JOIN plants p ON pi.plant_id = p.plant_id
-        GROUP BY pi.plant_id
+        WHERE pi.image_type != 'flagged'
         ORDER BY
             CASE WHEN pi.image_url LIKE '%doqqrf8z7%' THEN 0 ELSE 1 END,
-            pi.plant_id
+            pi.plant_id, pi.sort_order
     """)
 
     print(f"Verifying {len(photos)} plants (1st photo each)...", flush=True)
