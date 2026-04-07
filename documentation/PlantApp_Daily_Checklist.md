@@ -43,11 +43,11 @@ ps aux | grep python3 | grep -v grep | grep -v Dropbox | wc -l
 ## 4. Хранилище (Cloudinary)
 
 ```bash
+# Credentials in .env — never hardcode here!
 # Account 1
-curl -s "https://api.cloudinary.com/v1_1/dmvvh57hg/usage" -u "563499834541895:HSq5fZSQEqJuuDPW--BBk1lTCek" | python3 -c "import sys,json; d=json.loads(sys.stdin.read()); c=d.get('credits',{}); print(f'Acc1: {c.get(\"usage\",0):.1f}/{c.get(\"limit\",0):.0f}')"
+python3 -c "import os; from pathlib import Path; [os.environ.setdefault(k.strip(),v.strip()) for k,v in (l.split('=',1) for l in Path('.env').read_text().splitlines() if '=' in l and not l.startswith('#'))]; import urllib.request,json; r=urllib.request.urlopen(urllib.request.Request(f'https://api.cloudinary.com/v1_1/{os.environ[\"CLOUDINARY_CLOUD_NAME\"]}/usage',headers={'Authorization':'Basic '+__import__('base64').b64encode(f'{os.environ[\"CLOUDINARY_API_KEY\"]}:{os.environ[\"CLOUDINARY_API_SECRET\"]}'.encode()).decode()})); d=json.loads(r.read()); c=d.get('credits',{}); print(f'Acc1: {c.get(\"usage\",0):.1f}/{c.get(\"limit\",0):.0f}')"
 
-# Account 2
-curl -s "https://api.cloudinary.com/v1_1/doqqrf8z7/usage" -u "873768492189863:Jl3JRi_cLGTnvhWvpfz5m4zvpKQ" | python3 -c "import sys,json; d=json.loads(sys.stdin.read()); c=d.get('credits',{}); print(f'Acc2: {c.get(\"usage\",0):.1f}/{c.get(\"limit\",0):.0f}')"
+# Account 2 — same approach with CLOUDINARY2_* vars
 ```
 
 ---
