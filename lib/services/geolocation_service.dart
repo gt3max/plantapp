@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:math' as math;
 import 'package:geolocator/geolocator.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:http/http.dart' as http;
@@ -126,6 +127,37 @@ class GeolocationService {
     } catch (e) {
       return LocationData.error(e.toString());
     }
+  }
+
+  // ─── Daylight hours ──────────────────────────────────────────
+
+  /// Calculate daylight hours for a given latitude and month.
+  /// Uses astronomical formula based on solar declination.
+  /// Returns hours of daylight (e.g. 8.5 in December at 51°N).
+  static double getDaylightHours(double latitude, int month) {
+    // Day of year for middle of each month
+    const midMonthDay = [15, 46, 74, 105, 135, 166, 196, 227, 258, 288, 319, 349];
+    final dayOfYear = midMonthDay[month.clamp(0, 11)];
+
+    // Solar declination (degrees)
+    final declination = 23.45 * math.sin(2 * math.pi / 365 * (284 + dayOfYear));
+
+    // Hour angle at sunrise/sunset
+    final latRad = latitude * math.pi / 180;
+    final declRad = declination * math.pi / 180;
+    final cosHourAngle = -math.tan(latRad) * math.tan(declRad);
+
+    // Clamp for polar regions (midnight sun / polar night)
+    if (cosHourAngle < -1) return 24.0; // midnight sun
+    if (cosHourAngle > 1) return 0.0;   // polar night
+
+    final hourAngle = math.acos(cosHourAngle) * 180 / math.pi;
+    return (2.0 * hourAngle / 15.0).clamp(0.0, 24.0);
+  }
+
+  /// Get monthly daylight hours for a latitude (12 values).
+  static List<double> getMonthlyDaylightHours(double latitude) {
+    return List.generate(12, (m) => getDaylightHours(latitude, m));
   }
 
   // ─── Outdoor months ──────────────────────────────────────────
