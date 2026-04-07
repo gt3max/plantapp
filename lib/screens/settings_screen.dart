@@ -228,6 +228,12 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             _sourceRow('Blossom', 'Peer-reviewed care guides', 'Berlin Botanical Garden'),
             _sourceRow('OpenFarm', 'Growing guides (open-source)', 'openfarm.cc'),
             _sourceRow('Old Farmer\'s Almanac', 'Companion planting', 'almanac.com'),
+            _sourceRow('Ellenberg Indicator Values', 'Light & moisture classification', 'Tich\u00fd et al. 2023'),
+            _sourceRow('TPPT (Agroscope)', 'Toxicity data (844 species)', 'agroscope.admin.ch'),
+            _sourceRow('USDA PLANTS', 'Drought tolerance', 'plants.usda.gov'),
+            _sourceRow('CBIF Canada', 'Poisonous plants', 'cbif.gc.ca'),
+            _sourceRow('Plant.id (Kindwise)', 'Photo verification', 'plant.id'),
+            _sourceRow('Niinemets & Valladares', 'Drought tolerance (806 species)', 'Ecological Monographs'),
             const SizedBox(height: AppSpacing.md),
             Text(
               'Some data is licensed under Creative Commons (CC-BY-SA 4.0). '
