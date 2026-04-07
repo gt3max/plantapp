@@ -51,60 +51,83 @@ const _months = [
   'July', 'August', 'September', 'October', 'November', 'December',
 ];
 
-// Preset care data (matches RN presets.ts)
+// Preset care data — scientific classification (7 types)
 const _presetCare = {
-  'Succulents': _PresetCare(
-    startPct: 15,
-    stopPct: 25,
+  'succulent': _PresetCare(
+    startPct: 15, stopPct: 25,
     watering: 'Every 2-3 weeks',
     light: 'Bright direct or indirect light',
-    temperature: '18-27°C',
-    humidity: 'Low (30-40%)',
+    temperature: '18-27°C', humidity: 'Low (30-40%)',
     soil: 'Well-draining cactus/succulent mix',
     repot: 'Every 2-3 years',
-    fertilizer: 'Once in spring and summer',
-    fertilizerSeason: 'Spring-Summer only',
+    fertilizer: 'Once in spring and summer', fertilizerSeason: 'Spring-Summer only',
     tips: 'Let soil dry completely between waterings.',
   ),
-  'Standard': _PresetCare(
-    startPct: 35,
-    stopPct: 55,
-    watering: 'Every 7-10 days',
-    light: 'Bright indirect light',
-    temperature: '18-24°C',
-    humidity: 'Average (40-60%)',
-    soil: 'Standard potting mix with perlite',
-    repot: 'Every 1-2 years',
-    fertilizer: 'Monthly during growing season',
-    fertilizerSeason: 'Spring-Summer',
-    tips: 'Water when top inch of soil is dry.',
-  ),
-  'Tropical': _PresetCare(
-    startPct: 55,
-    stopPct: 75,
+  'tropical': _PresetCare(
+    startPct: 55, stopPct: 75,
     watering: 'Every 5-7 days',
     light: 'Bright indirect, no direct sun',
-    temperature: '20-28°C',
-    humidity: 'High (60-80%)',
+    temperature: '20-28°C', humidity: 'High (60-80%)',
     soil: 'Rich, well-draining tropical mix',
     repot: 'Every 1-2 years',
-    fertilizer: 'Every 2 weeks during growing season',
-    fertilizerSeason: 'Spring-Autumn',
+    fertilizer: 'Every 2 weeks during growing season', fertilizerSeason: 'Spring-Autumn',
     tips: 'Keep soil consistently moist but not soggy.',
   ),
-  'Herbs': _PresetCare(
-    startPct: 30,
-    stopPct: 45,
+  'fern': _PresetCare(
+    startPct: 50, stopPct: 70,
+    watering: 'Every 5-7 days',
+    light: 'Indirect light, no direct sun',
+    temperature: '16-24°C', humidity: 'High (60-80%)',
+    soil: 'Peat-based mix with perlite',
+    repot: 'Every 1-2 years',
+    fertilizer: 'Monthly during growing season', fertilizerSeason: 'Spring-Autumn',
+    tips: 'Keep soil consistently moist. Mist regularly for humidity.',
+  ),
+  'epiphyte': _PresetCare(
+    startPct: 20, stopPct: 40,
+    watering: 'Every 7-14 days (soak method)',
+    light: 'Bright indirect light',
+    temperature: '18-27°C', humidity: 'High (50-70%)',
+    soil: 'Bark-based or orchid mix (not soil)',
+    repot: 'Every 2-3 years when medium breaks down',
+    fertilizer: 'Weakly weekly (dilute fertilizer)', fertilizerSeason: 'Year-round (less in winter)',
+    tips: 'Soak roots in water for 10-15 min, then drain completely.',
+  ),
+  'herb': _PresetCare(
+    startPct: 30, stopPct: 45,
     watering: 'Every 2-3 days',
     light: 'Full sun (6+ hours)',
-    temperature: '15-25°C',
-    humidity: 'Average (40-60%)',
+    temperature: '15-25°C', humidity: 'Average (40-60%)',
     soil: 'Light, well-draining herb mix',
     repot: 'When root-bound',
-    fertilizer: 'Every 2 weeks',
-    fertilizerSeason: 'All growing season',
+    fertilizer: 'Every 2 weeks', fertilizerSeason: 'All growing season',
     tips: 'Harvest regularly to promote bushier growth.',
   ),
+  'aquatic': _PresetCare(
+    startPct: 80, stopPct: 100,
+    watering: 'Keep soil constantly wet or submerged',
+    light: 'Full sun to part shade',
+    temperature: '18-28°C', humidity: 'High (70%+)',
+    soil: 'Heavy clay or aquatic soil, no drainage needed',
+    repot: 'When outgrows container',
+    fertilizer: 'Aquatic fertilizer tabs', fertilizerSeason: 'Spring-Summer',
+    tips: 'Never let soil dry out. Water level should cover soil surface.',
+  ),
+  'standard': _PresetCare(
+    startPct: 35, stopPct: 55,
+    watering: 'Every 7-10 days',
+    light: 'Bright indirect light',
+    temperature: '18-24°C', humidity: 'Average (40-60%)',
+    soil: 'Standard potting mix with perlite',
+    repot: 'Every 1-2 years',
+    fertilizer: 'Monthly during growing season', fertilizerSeason: 'Spring-Summer',
+    tips: 'Water when top inch of soil is dry.',
+  ),
+  // Legacy uppercase aliases (for plants not yet migrated)
+  'Succulents': _PresetCare(startPct: 15, stopPct: 25, watering: 'Every 2-3 weeks', light: 'Bright direct or indirect light', temperature: '18-27°C', humidity: 'Low (30-40%)', soil: 'Well-draining cactus/succulent mix', repot: 'Every 2-3 years', fertilizer: 'Once in spring and summer', fertilizerSeason: 'Spring-Summer only', tips: 'Let soil dry completely between waterings.'),
+  'Tropical': _PresetCare(startPct: 55, stopPct: 75, watering: 'Every 5-7 days', light: 'Bright indirect, no direct sun', temperature: '20-28°C', humidity: 'High (60-80%)', soil: 'Rich, well-draining tropical mix', repot: 'Every 1-2 years', fertilizer: 'Every 2 weeks during growing season', fertilizerSeason: 'Spring-Autumn', tips: 'Keep soil consistently moist but not soggy.'),
+  'Herbs': _PresetCare(startPct: 30, stopPct: 45, watering: 'Every 2-3 days', light: 'Full sun (6+ hours)', temperature: '15-25°C', humidity: 'Average (40-60%)', soil: 'Light, well-draining herb mix', repot: 'When root-bound', fertilizer: 'Every 2 weeks', fertilizerSeason: 'All growing season', tips: 'Harvest regularly to promote bushier growth.'),
+  'Standard': _PresetCare(startPct: 35, stopPct: 55, watering: 'Every 7-10 days', light: 'Bright indirect light', temperature: '18-24°C', humidity: 'Average (40-60%)', soil: 'Standard potting mix with perlite', repot: 'Every 1-2 years', fertilizer: 'Monthly during growing season', fertilizerSeason: 'Spring-Summer', tips: 'Water when top inch of soil is dry.'),
 };
 
 class _PresetCare {
@@ -375,7 +398,11 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   }
 
   int get _presetWateringDays {
-    const days = {'Succulents': 21, 'Standard': 10, 'Tropical': 10, 'Herbs': 3};
+    const days = {
+      'succulent': 21, 'tropical': 10, 'fern': 7, 'epiphyte': 14,
+      'herb': 3, 'aquatic': 2, 'standard': 10,
+      'Succulents': 21, 'Tropical': 10, 'Herbs': 3, 'Standard': 10,
+    };
     return days[_preset] ?? 10;
   }
 
@@ -414,6 +441,14 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
   static const _seasonCoeffs = {
     //                    Jan   Feb   Mar   Apr   May   Jun   Jul   Aug   Sep   Oct   Nov   Dec
     // Calibrated against Planta Water Charts (32 reference plants, 2026-04-06)
+    'succulent':  [1.80, 1.60, 1.40, 1.20, 1.10, 1.00, 1.00, 1.10, 1.20, 1.40, 1.60, 1.80],
+    'tropical':   [1.80, 1.60, 1.40, 1.20, 1.05, 1.00, 1.00, 1.05, 1.20, 1.40, 1.60, 1.80],
+    'fern':       [1.80, 1.60, 1.40, 1.20, 1.05, 1.00, 1.00, 1.05, 1.20, 1.40, 1.60, 1.80],
+    'epiphyte':   [1.80, 1.60, 1.40, 1.20, 1.10, 1.00, 1.00, 1.10, 1.20, 1.40, 1.60, 1.80],
+    'herb':       [1.80, 1.60, 1.30, 1.10, 1.05, 1.00, 1.00, 1.05, 1.10, 1.30, 1.60, 1.80],
+    'aquatic':    [1.40, 1.30, 1.20, 1.10, 1.05, 1.00, 1.00, 1.05, 1.10, 1.20, 1.30, 1.40],
+    'standard':   [1.80, 1.60, 1.30, 1.10, 1.05, 1.00, 1.00, 1.05, 1.10, 1.30, 1.60, 1.80],
+    // Legacy uppercase aliases
     'Succulents': [1.80, 1.60, 1.40, 1.20, 1.10, 1.00, 1.00, 1.10, 1.20, 1.40, 1.60, 1.80],
     'Tropical':   [1.80, 1.60, 1.40, 1.20, 1.05, 1.00, 1.00, 1.05, 1.20, 1.40, 1.60, 1.80],
     'Herbs':      [1.80, 1.60, 1.30, 1.10, 1.05, 1.00, 1.00, 1.05, 1.10, 1.30, 1.60, 1.80],
