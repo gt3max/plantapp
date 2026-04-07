@@ -177,11 +177,11 @@ def fetch_photos_for_plant(plant_id: str, scientific: str) -> int:
         print(f"    {plant_id}: taxon not found on iNaturalist", flush=True)
         return 0
 
-    time.sleep(0.5)
+    time.sleep(2)
 
     # Step 2: Get research-grade observations
     observations = _inat_get_observations(taxon_id, per_page=needed * 3)  # fetch extra in case some fail
-    time.sleep(0.5)
+    time.sleep(2)
 
     # Step 3: Validate and select photos from DIFFERENT observations
     valid_photos = []
@@ -219,7 +219,7 @@ def fetch_photos_for_plant(plant_id: str, scientific: str) -> int:
             ))
             added += 1
 
-        time.sleep(0.3)
+        time.sleep(1)
 
     if stmts:
         turso_batch(stmts)
