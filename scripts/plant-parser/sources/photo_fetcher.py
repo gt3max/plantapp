@@ -236,36 +236,24 @@ def fetch_all(limit: int = 100, single_plant: str | None = None):
             return
         plants = plant
     else:
-        # Indoor plants first, prioritized by family importance
-        plants = turso_query('''
-            SELECT p.plant_id, p.scientific FROM plants p
-            WHERE p.scientific IS NOT NULL AND p.scientific != ''
-            AND p.indoor = 1
-            AND (SELECT COUNT(*) FROM plant_images pi WHERE pi.plant_id = p.plant_id) < ?
-            ORDER BY
-                CASE p.family
-                    WHEN 'Araceae' THEN 1
-                    WHEN 'Cactaceae' THEN 2
-                    WHEN 'Crassulaceae' THEN 3
-                    WHEN 'Orchidaceae' THEN 4
-                    WHEN 'Arecaceae' THEN 5
-                    WHEN 'Marantaceae' THEN 6
-                    WHEN 'Asphodelaceae' THEN 7
-                    WHEN 'Moraceae' THEN 8
-                    WHEN 'Asparagaceae' THEN 9
-                    WHEN 'Piperaceae' THEN 10
-                    WHEN 'Bromeliaceae' THEN 11
-                    WHEN 'Begoniaceae' THEN 12
-                    WHEN 'Commelinaceae' THEN 13
-                    WHEN 'Gesneriaceae' THEN 14
-                    WHEN 'Lamiaceae' THEN 15
-                    WHEN 'Apiaceae' THEN 16
-                    WHEN 'Solanaceae' THEN 17
-                    ELSE 50
-                END,
-                p.plant_id
-            LIMIT ?
-        ''', [PHOTOS_PER_PLANT, limit])
+        # Round-robin by lifeform: equal number from each type
+        LIFEFORMS = ['tree','shrub','subshrub','perennial','annual','succulent',
+                     'epiphyte','climber','bulb','aquatic','bamboo','parasitic','fern']
+        per_type = max(limit // len(LIFEFORMS), 5)
+        plants = []
+        for lf in LIFEFORMS:
+            batch = turso_query('''
+                SELECT p.plant_id, p.scientific FROM plants p
+                WHERE p.scientific IS NOT NULL AND p.scientific != ''
+                AND p.preset = ?
+                AND (SELECT COUNT(*) FROM plant_images pi WHERE pi.plant_id = p.plant_id) < ?
+                ORDER BY RANDOM()
+                LIMIT ?
+            ''', [lf, PHOTOS_PER_PLANT, per_type])
+            plants.extend(batch)
+            if batch:
+                print(f"  {lf}: {len(batch)} candidates", flush=True)
+        plants = plants[:limit]
 
     total = len(plants)
     print(f"[photo_fetcher] {total} plants need photos", flush=True)
