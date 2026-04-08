@@ -234,6 +234,8 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             _sourceRow('CBIF Canada', 'Poisonous plants', 'cbif.gc.ca'),
             _sourceRow('Plant.id (Kindwise)', 'Photo verification', 'plant.id'),
             _sourceRow('Niinemets & Valladares', 'Drought tolerance (806 species)', 'Ecological Monographs'),
+            _sourceRow('Open Plantbook', 'Light, moisture, temperature data', 'open.plantbook.io'),
+            _sourceRow('WCVP (Kew Gardens)', 'Lifeform & climate classification', 'powo.science.kew.org'),
             const SizedBox(height: AppSpacing.md),
             Text(
               'Some data is licensed under Creative Commons (CC-BY-SA 4.0). '

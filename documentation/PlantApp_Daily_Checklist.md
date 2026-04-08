@@ -20,6 +20,7 @@
 | Сервис | Лимит | Скрипт | Приоритет |
 |--------|-------|--------|-----------|
 | **Perenual** | 100 req/день | `perenual_smart_check.py` | Конфликтные → featured → indoor |
+| **Open Plantbook** | 200 req/день | (новый скрипт) | Indoor без MiFloraDB данных → lux + moisture + temp + humidity |
 | **iNaturalist CV** | безлимит (с JWT) | `verify_photos_batch.py` | Новые фото, непроверенные |
 | **SerpAPI Google Lens** | 250/мес | ручной | Выборочная проверка фото |
 
