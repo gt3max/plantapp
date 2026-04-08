@@ -77,16 +77,44 @@ print('Conflicts:', turso_query(\"SELECT COUNT(DISTINCT plant_id) as c FROM sour
 
 ---
 
-## 7. Открытые проблемы (обновлять)
+## 7. Открытые проблемы (обновлено 2026-04-08)
 
-- [ ] **Полив**: 63% Medium demand — нет массового источника для раскидывания
-- [ ] **Свет**: 40% "Bright indirect light" дефолт
-- [ ] **Фото**: 947/4,084 indoor с фото (23%), хранилище ограничено
-- [ ] **Имена**: 17,700 не проверены через POWO/GBIF
-- [ ] **62 flagged фото** — разобрать вручную
-- [ ] **49 water conflicts** — Ellenberg vs MiFloraDB
-- [ ] **861 sanity flags** — preset vs demand конфликты
-- [ ] **PlantNet DNS** — мониторить https://plantnet.github.io/status/
+### Полив
+- [ ] **58% Medium demand** (11,794/20,261) — нет массового источника. Lifeform+climate раскидали часть, но 58% осталось
+- [ ] **49 water conflicts** (Ellenberg vs MiFloraDB) — помечены, не разобраны
+- [ ] **10 sanity flags** — lifeform vs demand (было 861, пересчитано с WCVP)
+- [ ] **watering_avoid**: 4,181 (20%) — остальные пусто
+
+### Свет
+- [ ] **33% "Bright indirect light"** (6,774) — дефолт без данных
+- [ ] **PPFD**: 53% заполнен, 47% нет
+- [ ] **Hours**: 45% рассчитан
+- [ ] **Daylight calculator** готов в GeolocationService — не в UI
+
+### Токсичность
+- [ ] **85% unknown** (~17K) — нет данных ни из одного источника
+- [ ] ASPCA ~1K + TPPT ~700 + family ~1,600 = ~3,000 с данными
+
+### Фото
+- [ ] **960 растений с фото** из 20K (5%), загружаются ещё 240
+- [ ] **62 + ~130 flagged/mismatch** — не разобраны
+- [ ] **~1,300 error** при верификации (iNat CV timeout) — не проверены
+- [ ] Cloudinary usage API не работает с новыми ключами
+
+### Описания
+- [ ] **33% без описания** (~6,700) — Wikipedia статей не существует
+
+### Имена
+- [ ] **~6,700 не проверены** через POWO/GBIF (~13,500 проверены, 0 flagged)
+- [ ] **53% common name = копия scientific** (нет народного имени)
+
+### Классификация
+- [ ] **15% без WCVP** (~2,900) — гибриды/культивары, fallback по семейству
+
+### Инфраструктура
+- [ ] **PlantNet DNS мёртв** — мониторить https://plantnet.github.io/status/
+- [ ] **iNaturalist JWT** — обновлять ежедневно
+- [ ] **Cloudinary usage endpoint** — permissions не настроены
 
 ---
 
