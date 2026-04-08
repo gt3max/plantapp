@@ -104,8 +104,11 @@ def fetch_perenual(plant_id, perenual_id):
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode())
 
+        # Always save common_name if available
         if data.get('common_name'):
             fields['common_name'] = data['common_name']
+        if data.get('family'):
+            fields['family'] = data['family']
         sunlight = data.get('sunlight', [])
         if sunlight:
             fields['sunlight'] = ', '.join(sunlight) if isinstance(sunlight, list) else str(sunlight)
@@ -216,9 +219,12 @@ def run(dry_run=False):
             print(f"  [{i+1}] Rate limited. Stopping.", flush=True)
             break
 
+        if data is None:
+            print(f"  [{i+1}] Rate limited. Stopping.", flush=True)
+            break
         if not data:
-            stats['error'] += 1
-            continue
+            # Still count as checked even if empty
+            pass
 
         credits_used += CREDITS_PER_PLANT
 
