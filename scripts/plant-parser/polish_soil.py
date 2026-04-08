@@ -115,6 +115,9 @@ def polish_soil(mode='featured'):
     elif mode == 'with-photos':
         rows = turso_query("SELECT DISTINCT plant_id FROM plant_images")
         plant_ids = [r['plant_id'] for r in rows]
+    elif mode == 'indoor':
+        rows = turso_query("SELECT plant_id FROM plants WHERE indoor = 1")
+        plant_ids = [r['plant_id'] for r in rows]
     else:
         plant_ids = []
 
@@ -225,5 +228,7 @@ if __name__ == '__main__':
         polish_soil(mode='featured')
     elif '--with-photos' in sys.argv:
         polish_soil(mode='with-photos')
+    elif '--indoor' in sys.argv:
+        polish_soil(mode='indoor')
     else:
         polish_soil(mode='featured')
