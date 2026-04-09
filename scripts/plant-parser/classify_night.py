@@ -103,10 +103,12 @@ def map_lifeform(raw):
 
 
 def powo_lookup(scientific):
-    """POWO API: search + detail. Returns (lifeform, climate, family) or (None, None, None)."""
+    """IPNI search → POWO detail. Returns (lifeform, climate, family) or (None, None, None).
+    POWO search API is broken (always returns 0), so we use IPNI to get fqId first."""
     try:
+        # Step 1: IPNI search (Kew Gardens) → get fqId
         q = urllib.parse.quote(scientific)
-        url = f'https://powo.science.kew.org/api/2/search?q={q}&pageSize=1'
+        url = f'https://www.ipni.org/api/1/search?q={q}&perPage=1'
         req = urllib.request.Request(url, headers={'Accept': 'application/json', 'User-Agent': 'PlantApp/1.0'})
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode())
@@ -115,21 +117,25 @@ def powo_lookup(scientific):
         if not results:
             return None, None, None
 
-        r = results[0]
-        # Follow synonym
-        if r.get('synonymOf'):
-            fqId = r['synonymOf'].get('fqId', r.get('fqId', ''))
-        else:
-            fqId = r.get('fqId', '')
-
+        fqId = results[0].get('fqId', '')
         if not fqId:
             return None, None, None
 
-        # Detail endpoint
+        # Step 2: POWO detail with fqId from IPNI
         detail_url = f'https://powo.science.kew.org/api/2/taxon/{fqId}'
         req2 = urllib.request.Request(detail_url, headers={'Accept': 'application/json', 'User-Agent': 'PlantApp/1.0'})
         with urllib.request.urlopen(req2, timeout=15) as resp2:
             detail = json.loads(resp2.read().decode())
+
+        # Follow accepted name if this is a synonym
+        if detail.get('synonym') and detail.get('accepted'):
+            acc_fqId = detail['accepted'].get('fqId', '')
+            if acc_fqId:
+                req3 = urllib.request.Request(
+                    f'https://powo.science.kew.org/api/2/taxon/{acc_fqId}',
+                    headers={'Accept': 'application/json', 'User-Agent': 'PlantApp/1.0'})
+                with urllib.request.urlopen(req3, timeout=15) as resp3:
+                    detail = json.loads(resp3.read().decode())
 
         raw_lf = detail.get('lifeform', '') or ''
         raw_cl = detail.get('climate', '') or ''
