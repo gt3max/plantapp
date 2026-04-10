@@ -1718,11 +1718,10 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
         return [
           _guideSection('Fertilizing $_title', ''),
           _InfoRow(icon: Icons.eco_outlined, text: fertType, sub: fertFreq),
-          if (fertNpk.isNotEmpty && fertNpk != 'N/A') ...[
-            _guideSectionTitle('NPK ratio'),
-            _InfoRow(icon: Icons.science_outlined, text: fertNpk, sub: 'Nitrogen \u2013 Phosphorus \u2013 Potassium'),
-            InfoBox(text: 'NPK is the three numbers on every fertilizer bottle. N (nitrogen) = leaf growth. P (phosphorus) = roots and flowers. K (potassium) = overall health and fruit. Match the ratio to what your plant needs most.', variant: 'info'),
-          ],
+          _guideSectionTitle('NPK ratio'),
+          if (fertNpk.isNotEmpty && fertNpk != 'N/A')
+            _InfoRow(icon: Icons.science_outlined, text: fertNpk, sub: 'Recommended for $_title'),
+          InfoBox(text: 'NPK is the three numbers on every fertilizer bottle. N (nitrogen) = leaf growth. P (phosphorus) = roots and flowers. K (potassium) = overall health and fruit. Match the ratio to what your plant needs most.', variant: 'info'),
           if (fertWarning.isNotEmpty) ...[
             _guideSectionTitle('Warnings'),
             InfoBox(text: fertWarning, variant: 'warning'),
