@@ -916,7 +916,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                         }
                         return inSeason
                             ? _InfoRow(icon: Icons.eco_outlined, text: '$fertText \u2014 active season now', sub: _lib?.care.fertilizerSeason ?? care.fertilizerSeason)
-                            : _InfoRow(icon: Icons.eco_outlined, text: 'No fertilizing needed in ${_months[m]}', sub: 'Resume in ${_lib?.care.fertilizerSeason ?? care.fertilizerSeason}');
+                            : _InfoRow(icon: Icons.eco_outlined, text: 'No fertilizing in ${_months[m]}', sub: 'Resume in ${_lib?.care.fertilizerSeason ?? care.fertilizerSeason}');
                       }(),
                     ], guideLabel: 'Fertilizing guide'),
 
