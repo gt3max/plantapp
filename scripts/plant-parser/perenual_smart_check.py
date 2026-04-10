@@ -118,6 +118,30 @@ def fetch_perenual(plant_id, perenual_id):
             fields['toxic_to_pets'] = str(int(data['poisonous_to_pets']))
         if data.get('poisonous_to_humans') is not None:
             fields['toxic_to_humans'] = str(int(data['poisonous_to_humans']))
+        if data.get('poisonous_to_pets_symptoms'):
+            fields['toxicity_symptoms_pets'] = str(data['poisonous_to_pets_symptoms'])
+        if data.get('poisonous_to_humans_symptoms'):
+            fields['toxicity_symptoms_humans'] = str(data['poisonous_to_humans_symptoms'])
+        if data.get('drought_tolerant') is not None:
+            fields['drought_tolerant'] = str(data['drought_tolerant'])
+        if data.get('salt_tolerant') is not None:
+            fields['salt_tolerant'] = str(data['salt_tolerant'])
+        if data.get('indoor') is not None:
+            fields['indoor'] = str(data['indoor'])
+        if data.get('care_level'):
+            fields['care_level'] = str(data['care_level'])
+        if data.get('flowers') is not None:
+            fields['flowers'] = str(data['flowers'])
+        if data.get('fruits') is not None:
+            fields['fruits'] = str(data['fruits'])
+        if data.get('leaf') is not None:
+            fields['leaf'] = str(data['leaf'])
+        if data.get('growth_rate'):
+            fields['growth_rate'] = str(data['growth_rate'])
+        if data.get('type'):
+            fields['type'] = str(data['type'])
+        if data.get('cycle'):
+            fields['cycle'] = str(data['cycle'])
         if data.get('propagation'):
             fields['propagation'] = ', '.join(data['propagation']) if isinstance(data['propagation'], list) else str(data['propagation'])
         if data.get('hardiness', {}).get('min'):
@@ -185,14 +209,35 @@ def compare_with_existing(plant_id, perenual_data):
     if per_water and 'upgrade' not in per_water:
         results.append(('watering', 'info', f'perenual={per_water}, ours={our_demand}'))
 
-    # Toxicity
-    per_toxic = perenual_data.get('toxic_to_pets')
-    our_toxic = c.get('toxic_to_pets')
-    if per_toxic is not None:
-        if str(per_toxic) == str(our_toxic or 0):
-            results.append(('toxicity', 'match', f'both={per_toxic}'))
+    # Toxicity — pets
+    per_toxic_pets = perenual_data.get('toxic_to_pets')
+    our_toxic_pets = c.get('toxic_to_pets')
+    if per_toxic_pets is not None:
+        if str(per_toxic_pets) == str(our_toxic_pets or 0):
+            results.append(('toxicity_pets', 'match', f'both={per_toxic_pets}'))
         else:
-            results.append(('toxicity', 'conflict', f'perenual={per_toxic}, ours={our_toxic}'))
+            results.append(('toxicity_pets', 'conflict', f'perenual={per_toxic_pets}, ours={our_toxic_pets}'))
+
+    # Toxicity — humans
+    per_toxic_humans = perenual_data.get('toxic_to_humans')
+    our_toxic_humans = c.get('toxic_to_humans')
+    if per_toxic_humans is not None:
+        if str(per_toxic_humans) == str(our_toxic_humans or 0):
+            results.append(('toxicity_humans', 'match', f'both={per_toxic_humans}'))
+        else:
+            results.append(('toxicity_humans', 'conflict', f'perenual={per_toxic_humans}, ours={our_toxic_humans}'))
+
+    # Care level vs difficulty
+    per_care = perenual_data.get('care_level', '')
+    our_diff = c.get('difficulty', '')
+    if per_care:
+        results.append(('difficulty', 'info', f'perenual={per_care}, ours={our_diff}'))
+
+    # Cycle vs lifecycle
+    per_cycle = perenual_data.get('cycle', '')
+    our_lifecycle = c.get('lifecycle', '')
+    if per_cycle:
+        results.append(('lifecycle', 'info', f'perenual={per_cycle}, ours={our_lifecycle}'))
 
     return results
 
