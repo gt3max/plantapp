@@ -1716,20 +1716,36 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
             ? _dbStr('fertilizer_warning')
             : p?.fertilizerWarning ?? '';
         return [
-          _guideSection('Fertilizing $_title', ''),
-          _InfoRow(icon: Icons.eco_outlined, text: fertType, sub: fertFreq),
+          _guideSection('Fertilizing $_title', fertType),
+          _InfoRow(icon: Icons.calendar_today_outlined, text: fertFreq, sub: 'Recommended schedule'),
+          if (fertWarning.isNotEmpty) ...[
+            InfoBox(text: fertWarning, variant: 'warning'),
+          ],
+
+          _guideSectionTitle('What is fertilizer?'),
+          _guideSection('', 'Fertilizer is food for plants. Soil nutrients deplete over time, especially in pots. Fertilizer replenishes what the plant needs to grow leaves, roots, and flowers.'),
+
+          _guideSectionTitle('Types of fertilizer'),
+          _guideSection('Organic', 'Made from natural sources: compost, worm castings, fish emulsion, bone meal. Releases nutrients slowly, improves soil structure. Safer \u2014 hard to over-fertilize. Best for edible plants.'),
+          _guideSection('Synthetic (mineral)', 'Manufactured chemicals with precise NPK ratios. Works fast, easy to dose. But easy to over-fertilize and can burn roots. Does not improve soil.'),
+
+          _guideSectionTitle('Forms'),
+          _guideSection('', '\u2022 Liquid \u2014 dilute in water, apply when watering. Most common for houseplants. Fast-acting.\n\u2022 Granular (slow-release) \u2014 sprinkle on soil, releases over weeks. Good for outdoor plants and trees.\n\u2022 Sticks \u2014 push into soil near roots. Convenient but uneven distribution.\n\u2022 Foliar spray \u2014 spray on leaves. Quick absorption, good for micronutrients.'),
+
           _guideSectionTitle('NPK ratio'),
           if (fertNpk.isNotEmpty && fertNpk != 'N/A')
             _InfoRow(icon: Icons.science_outlined, text: fertNpk, sub: 'Recommended for $_title'),
-          InfoBox(text: 'NPK is the three numbers on every fertilizer bottle. N (nitrogen) = leaf growth. P (phosphorus) = roots and flowers. K (potassium) = overall health and fruit. Match the ratio to what your plant needs most.', variant: 'info'),
-          if (fertWarning.isNotEmpty) ...[
-            _guideSectionTitle('Warnings'),
-            InfoBox(text: fertWarning, variant: 'warning'),
-          ],
+          InfoBox(text: 'NPK is the three numbers on every fertilizer bottle (e.g. 10-10-10). N (nitrogen) = leaf and stem growth. P (phosphorus) = roots, flowers, and fruit. K (potassium) = overall health, disease resistance, and stress tolerance.\n\nBalanced (10-10-10) \u2014 general purpose, most houseplants.\nHigh N (20-10-10) \u2014 leafy plants, foliage growth.\nHigh P (10-20-10) \u2014 flowering and fruiting plants.\nLow N (2-7-7) \u2014 succulents and cacti (slow growers).', variant: 'info'),
+
           _guideSectionTitle('When NOT to fertilize'),
           _guideSection('', '\u2022 Winter \u2014 plant is dormant, nutrients accumulate and burn roots\n\u2022 Right after repotting \u2014 fresh soil has nutrients for 2\u20134 weeks\n\u2022 Sick or stressed plant \u2014 fix the problem first, then feed\n\u2022 Dry soil \u2014 always water before fertilizing to avoid root burn'),
+
+          _guideSectionTitle('How to fertilize'),
+          _guideSection('', '1. Water the plant first \u2014 never fertilize dry soil\n2. Dilute liquid fertilizer according to instructions (when in doubt, use half strength)\n3. Pour evenly over soil, not on leaves or stems\n4. Let excess drain out\n5. Do not fertilize more often than recommended \u2014 more is not better'),
+
           _guideSectionTitle('Signs of over-fertilizing'),
-          _guideSection('', '\u2022 White crust on soil surface (salt buildup)\n\u2022 Brown, crispy leaf tips and edges\n\u2022 Wilting despite moist soil\n\u2022 Slow growth or dropping leaves'),
+          _guideSection('', '\u2022 White crust on soil surface (salt buildup)\n\u2022 Brown, crispy leaf tips and edges\n\u2022 Wilting despite moist soil\n\u2022 Slow growth or dropping leaves\n\nFix: flush soil with plain water several times to wash out excess salts.'),
+
           _guideSectionTitle('Signs of under-fertilizing'),
           _guideSection('', '\u2022 Pale or yellow leaves (especially older ones)\n\u2022 Slow or stunted growth\n\u2022 Small new leaves\n\u2022 No flowers on a flowering plant'),
         ];
