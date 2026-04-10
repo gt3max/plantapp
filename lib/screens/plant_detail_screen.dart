@@ -895,28 +895,44 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       ),
                     ], guideLabel: 'Repotting guide'),
 
-                    // ── 3. Fertilizing (RN: seasonal logic — active/inactive) ──
+                    // ── 3. Fertilizing ──
                     _buildSection('fertilizing', 'Fertilizing', [
                       () {
-                        final fertText = _dbCareStr('fertilizer').isNotEmpty
+                        final intervalDays = _dbInt('fertilizer_interval_days');
+                        final activeMonthsRaw = _dbStr('fertilizer_active_months');
+                        final m = DateTime.now().month; // 1-indexed
+                        final monthName = _months[m - 1];
+
+                        // Parse active months JSON array
+                        List<int> activeMonths = [];
+                        if (activeMonthsRaw.isNotEmpty) {
+                          try {
+                            activeMonths = activeMonthsRaw
+                                .replaceAll('[', '').replaceAll(']', '')
+                                .split(',')
+                                .map((s) => int.parse(s.trim()))
+                                .toList();
+                          } catch (_) {}
+                        }
+
+                        // No fertilizer needed at all
+                        if (intervalDays == 0) {
+                          return _InfoRow(icon: Icons.eco_outlined, text: 'No fertilizer needed', sub: null);
+                        }
+
+                        final fertType = _dbCareStr('fertilizer').isNotEmpty
                             ? _dbCareStr('fertilizer')
                             : _lib?.care.fertilizer.isNotEmpty == true ? _lib!.care.fertilizer : care.fertilizer;
-                        final seasonText = (_lib?.care.fertilizerSeason ?? care.fertilizerSeason).toLowerCase();
-                        final m = DateTime.now().month - 1;
-                        final isSpring = m >= 2 && m <= 4;
-                        final isSummer = m >= 5 && m <= 7;
-                        bool inSeason = true;
-                        if (seasonText.contains('spring') && seasonText.contains('summer')) {
-                          inSeason = isSpring || isSummer;
-                        } else if (seasonText.contains('spring')) {
-                          inSeason = isSpring;
+                        final npk = _dbStr('fertilizer_npk');
+                        final sub = npk.isNotEmpty && npk != 'N/A' ? '$fertType \u00B7 $npk' : fertType;
+
+                        final inSeason = activeMonths.isEmpty || activeMonths.contains(m);
+
+                        if (inSeason) {
+                          return _InfoRow(icon: Icons.eco_outlined, text: 'Every ~$intervalDays days in $monthName', sub: sub);
+                        } else {
+                          return _InfoRow(icon: Icons.eco_outlined, text: 'No fertilizing in $monthName', sub: null);
                         }
-                        if (seasonText.contains('winter') == false && (m <= 1 || m == 11)) {
-                          inSeason = false;
-                        }
-                        return inSeason
-                            ? _InfoRow(icon: Icons.eco_outlined, text: '$fertText \u2014 active season now', sub: _lib?.care.fertilizerSeason ?? care.fertilizerSeason)
-                            : _InfoRow(icon: Icons.eco_outlined, text: 'No fertilizing in ${_months[m]}', sub: 'Resume in ${_lib?.care.fertilizerSeason ?? care.fertilizerSeason}');
                       }(),
                     ], guideLabel: 'Fertilizing guide'),
 
@@ -1685,23 +1701,31 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
           _guideSectionTitle('Cleaning'),
           _guideSection('', 'Wipe leaves with a damp cloth regularly. Dust blocks light absorption and slows photosynthesis. For fuzzy-leaved plants, use a soft brush instead.'),
         ];
-      // ═══ FERTILIZING GUIDE (RN 1:1) ═══
+      // ═══ FERTILIZING GUIDE ═══
       case 'fertilizing':
+        final fertType = _dbCareStr('fertilizer').isNotEmpty
+            ? _dbCareStr('fertilizer')
+            : c?.fertilizer ?? care.fertilizer;
+        final fertFreq = _dbStr('fertilizer_freq').isNotEmpty
+            ? _dbStr('fertilizer_freq')
+            : c?.fertilizerSeason ?? care.fertilizerSeason;
+        final fertNpk = _dbStr('fertilizer_npk').isNotEmpty
+            ? _dbStr('fertilizer_npk')
+            : p?.fertilizerNpk ?? '';
+        final fertWarning = _dbStr('fertilizer_warning').isNotEmpty
+            ? _dbStr('fertilizer_warning')
+            : p?.fertilizerWarning ?? '';
         return [
           _guideSection('Fertilizing $_title', ''),
-          _InfoRow(icon: Icons.eco_outlined, text: c?.fertilizer ?? care.fertilizer, sub: c?.fertilizerSeason ?? care.fertilizerSeason),
-          if (p?.fertilizerTypes.isNotEmpty == true) ...[
-            _guideSectionTitle('Recommended fertilizers'),
-            _ChipRow(chips: p!.fertilizerTypes),
-          ],
-          if (p?.fertilizerNpk.isNotEmpty == true) ...[
+          _InfoRow(icon: Icons.eco_outlined, text: fertType, sub: fertFreq),
+          if (fertNpk.isNotEmpty && fertNpk != 'N/A') ...[
             _guideSectionTitle('NPK ratio'),
-            _InfoRow(icon: Icons.science_outlined, text: p!.fertilizerNpk, sub: 'Nitrogen \u2013 Phosphorus \u2013 Potassium'),
+            _InfoRow(icon: Icons.science_outlined, text: fertNpk, sub: 'Nitrogen \u2013 Phosphorus \u2013 Potassium'),
             InfoBox(text: 'NPK is the three numbers on every fertilizer bottle. N (nitrogen) = leaf growth. P (phosphorus) = roots and flowers. K (potassium) = overall health and fruit. Match the ratio to what your plant needs most.', variant: 'info'),
           ],
-          if (p?.fertilizerWarning.isNotEmpty == true) ...[
+          if (fertWarning.isNotEmpty) ...[
             _guideSectionTitle('Warnings'),
-            InfoBox(text: p!.fertilizerWarning, variant: 'warning'),
+            InfoBox(text: fertWarning, variant: 'warning'),
           ],
           _guideSectionTitle('When NOT to fertilize'),
           _guideSection('', '\u2022 Winter \u2014 plant is dormant, nutrients accumulate and burn roots\n\u2022 Right after repotting \u2014 fresh soil has nutrients for 2\u20134 weeks\n\u2022 Sick or stressed plant \u2014 fix the problem first, then feed\n\u2022 Dry soil \u2014 always water before fertilizing to avoid root burn'),
