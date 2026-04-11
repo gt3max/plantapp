@@ -972,6 +972,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       if (_locationData?.hasData == true && _locationData!.currentHumidity > 0)
                         () {
                           final regionHum = _locationData!.currentHumidity;
+                          final city = _locationData!.cityName.isNotEmpty ? _locationData!.cityName : 'your region';
                           final humLevel = (_dbCareStr('humidity').isNotEmpty ? _dbCareStr('humidity') : _lib?.care.humidity ?? care.humidity);
                           // Parse min % from level text like "High (60-80%)"
                           final nums = RegExp(r'(\d+)').allMatches(humLevel).map((m) => int.parse(m.group(0)!)).toList();
@@ -981,7 +982,7 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                           final isOk = regionHum >= plantMin && regionHum <= plantMax;
                           return _InfoRow(
                             icon: Icons.location_on_outlined,
-                            text: 'Your region now: $regionHum%',
+                            text: 'Relative humidity in $city: $regionHum%',
                             sub: isLow ? 'Below plant needs ($plantMin\u2013$plantMax%)' : isOk ? 'Within plant range' : 'Above plant needs',
                             iconColor: isLow ? const Color(0xFFEF4444) : isOk ? const Color(0xFF16A34A) : const Color(0xFFF59E0B),
                           );
