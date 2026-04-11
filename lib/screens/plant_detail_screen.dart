@@ -950,9 +950,42 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       ),
                     ], guideLabel: 'Understanding light', action: _buildMeasureButton()),
 
-                    // ── 5. Humidity (RN: HumidityBar only) ──
+                    // ── 5. Humidity ──
                     _buildSection('humidity', 'Air Humidity', [
                       HumidityBar(level: _dbCareStr('humidity').isNotEmpty ? _dbCareStr('humidity') : _lib?.care.humidity ?? care.humidity),
+                      () {
+                        final humText = (_dbCareStr('humidity').isNotEmpty ? _dbCareStr('humidity') : _lib?.care.humidity ?? care.humidity).toLowerCase();
+                        final humAction = _dbStr('humidity_action').isNotEmpty
+                            ? _dbStr('humidity_action')
+                            : '';
+                        if (humAction.isNotEmpty) {
+                          return _InfoRow(icon: Icons.water_drop_outlined, text: humAction, sub: null);
+                        }
+                        if (humText.contains('high') || humText.contains('70') || humText.contains('80') || humText.contains('90')) {
+                          return _InfoRow(icon: Icons.water_drop_outlined, text: 'Use humidifier or pebble tray', sub: 'Dry air causes brown leaf tips');
+                        }
+                        if (humText.contains('low') || humText.contains('20')) {
+                          return _InfoRow(icon: Icons.water_drop_outlined, text: 'Prefers dry air, do not mist', sub: null);
+                        }
+                        return _InfoRow(icon: Icons.water_drop_outlined, text: 'Normal room humidity is fine', sub: null);
+                      }(),
+                      if (_locationData?.hasData == true && _locationData!.currentHumidity > 0)
+                        () {
+                          final regionHum = _locationData!.currentHumidity;
+                          final humLevel = (_dbCareStr('humidity').isNotEmpty ? _dbCareStr('humidity') : _lib?.care.humidity ?? care.humidity);
+                          // Parse min % from level text like "High (60-80%)"
+                          final nums = RegExp(r'(\d+)').allMatches(humLevel).map((m) => int.parse(m.group(0)!)).toList();
+                          final plantMin = nums.isNotEmpty ? nums[0] : 40;
+                          final plantMax = nums.length >= 2 ? nums[1] : 60;
+                          final isLow = regionHum < plantMin;
+                          final isOk = regionHum >= plantMin && regionHum <= plantMax;
+                          return _InfoRow(
+                            icon: Icons.location_on_outlined,
+                            text: 'Your region now: $regionHum%',
+                            sub: isLow ? 'Below plant needs ($plantMin\u2013$plantMax%)' : isOk ? 'Within plant range' : 'Above plant needs',
+                            iconColor: isLow ? const Color(0xFFEF4444) : isOk ? const Color(0xFF16A34A) : const Color(0xFFF59E0B),
+                          );
+                        }(),
                     ], guideLabel: 'Managing humidity'),
 
                     // ── 6. Temperature (RN: TempRangeBar + InfoRow survival) ──

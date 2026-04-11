@@ -105,7 +105,7 @@ class GeolocationService {
         _reverseGeocode(lat, lon),
       ]);
 
-      final currentTemp = results[0] as double;
+      final weather = results[0] as Map<String, double>;
       final monthlyTemps = results[1] as List<double>;
       final cityName = results[2] as String;
 
@@ -116,7 +116,8 @@ class GeolocationService {
         latitude: lat,
         longitude: lon,
         cityName: cityName,
-        currentTemp: currentTemp,
+        currentTemp: weather['temperature'] ?? 0,
+        currentHumidity: (weather['humidity'] ?? 0).round(),
         monthlyAvgTemps: monthlyTemps,
         hardinessZone: hardinessZone,
       );
@@ -211,12 +212,15 @@ class GeolocationService {
 
   // ─── API calls ───────────────────────────────────────────────
 
-  Future<double> _fetchCurrentWeather(double lat, double lon) async {
-    final url = 'https://api.open-meteo.com/v1/forecast?latitude=$lat&longitude=$lon&current=temperature_2m';
+  Future<Map<String, double>> _fetchCurrentWeather(double lat, double lon) async {
+    final url = 'https://api.open-meteo.com/v1/forecast?latitude=$lat&longitude=$lon&current=temperature_2m,relative_humidity_2m';
     final response = await http.get(Uri.parse(url));
     if (response.statusCode != 200) throw Exception('Weather API error: ${response.statusCode}');
     final data = json.decode(response.body) as Map<String, dynamic>;
-    return (data['current']?['temperature_2m'] as num?)?.toDouble() ?? 0;
+    return {
+      'temperature': (data['current']?['temperature_2m'] as num?)?.toDouble() ?? 0,
+      'humidity': (data['current']?['relative_humidity_2m'] as num?)?.toDouble() ?? 0,
+    };
   }
 
   Future<List<double>> _fetchMonthlyAverages(double lat, double lon) async {
@@ -291,6 +295,7 @@ class LocationData {
   final double longitude;
   final String cityName;
   final double currentTemp;
+  final int currentHumidity;   // relative humidity % in user's region
   final List<double> monthlyAvgTemps;
   final String hardinessZone;
   final bool isLoading;
@@ -301,6 +306,7 @@ class LocationData {
     required this.longitude,
     required this.cityName,
     required this.currentTemp,
+    this.currentHumidity = 0,
     required this.monthlyAvgTemps,
     required this.hardinessZone,
     this.isLoading = false,
