@@ -1190,13 +1190,31 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
             ],
           ),
 
-          // ═══ ADD TO MY PLANTS (floating) ═══
+          // ═══ ADD TO MY PLANTS (floating, bottom with gradient backdrop) ═══
           if (!_isInCollection)
             Positioned(
-              left: AppSpacing.lg,
-              right: AppSpacing.lg,
-              bottom: MediaQuery.of(context).padding.bottom + AppSpacing.lg,
-              child: SafeArea(
+              left: 0,
+              right: 0,
+              bottom: 0,
+              child: Container(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [
+                      Theme.of(context).scaffoldBackgroundColor.withValues(alpha: 0),
+                      Theme.of(context).scaffoldBackgroundColor.withValues(alpha: 0.8),
+                      Theme.of(context).scaffoldBackgroundColor,
+                    ],
+                    stops: const [0.0, 0.4, 1.0],
+                  ),
+                ),
+                padding: EdgeInsets.fromLTRB(
+                  AppSpacing.lg,
+                  AppSpacing.xl,
+                  AppSpacing.lg,
+                  MediaQuery.of(context).padding.bottom + AppSpacing.md,
+                ),
                 child: SizedBox(
                   width: double.infinity,
                   height: 48,
