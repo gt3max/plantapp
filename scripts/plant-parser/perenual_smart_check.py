@@ -273,10 +273,10 @@ def run(dry_run=False):
 
         credits_used += CREDITS_PER_PLANT
 
-        # Store in source_data
+        # Store raw data in source_data (always)
         store_source_data(pid, 'perenual_smart', data)
 
-        # Compare
+        # Compare with existing
         comparisons = compare_with_existing(pid, data)
         has_conflict = any(s == 'conflict' for _, s, _ in comparisons)
 
@@ -291,6 +291,40 @@ def run(dry_run=False):
         for field, status, detail in comparisons:
             if status == 'conflict':
                 store_source_data(pid, 'conflict', {f'perenual_vs_{field}': detail})
+
+        # Fill empty care fields from Perenual (source logged above)
+        fill = {}
+        care_row = turso_query("SELECT * FROM care WHERE plant_id = ?", [pid])
+        if care_row:
+            c = care_row[0]
+            # Map Perenual fields → care fields (only fill if empty)
+            FIELD_MAP = {
+                'care_level': ('difficulty', None),
+                'cycle': ('lifecycle', None),
+                'growth_rate': ('growth_rate', None),
+                'propagation': ('propagation_methods', None),
+                'watering_guide': ('watering_guide', None),
+                'pruning_guide': ('pruning_info', None),
+            }
+            for per_field, (care_field, _) in FIELD_MAP.items():
+                per_val = data.get(per_field, '')
+                if per_val and 'Upgrade' not in str(per_val):
+                    cur_val = c.get(care_field) or ''
+                    if not cur_val:
+                        fill[care_field] = str(per_val)
+
+            # Toxicity — fill if empty
+            if data.get('toxic_to_pets') is not None and not (c.get('toxic_to_pets') or ''):
+                fill['toxic_to_pets'] = 'Toxic' if str(data['toxic_to_pets']) == '1' else 'Non-toxic'
+            if data.get('toxic_to_humans') is not None and not (c.get('toxic_to_humans') or ''):
+                fill['toxic_to_humans'] = 'Toxic' if str(data['toxic_to_humans']) == '1' else 'Non-toxic'
+            if data.get('toxicity_symptoms_pets') and not (c.get('toxicity_symptoms') or ''):
+                fill['toxicity_symptoms'] = str(data['toxicity_symptoms_pets'])
+
+            if fill:
+                stmts = [(f"UPDATE care SET {col} = ? WHERE plant_id = ?", [val, pid]) for col, val in fill.items()]
+                turso_batch(stmts)
+                stats['filled'] = stats.get('filled', 0) + len(fill)
 
         time.sleep(1)
 

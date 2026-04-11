@@ -155,7 +155,7 @@ def run(limit=200, dry_run=False):
         if data.get('display_pid'):
             fields['display_pid'] = data['display_pid']
 
-        # Store in source_data
+        # Store raw data in source_data (always)
         store_source_data(c['plant_id'], 'openplantbook', fields)
 
         # Compare light
@@ -179,6 +179,33 @@ def run(limit=200, dry_run=False):
             else:
                 stats['demand_conflict'] += 1
                 store_source_data(c['plant_id'], 'conflict', {'openplantbook_vs_demand': f'OPB={opb} (moist {moist_min}-{moist_max}%), ours={ours}'})
+
+        # Fill empty care fields from Open Plantbook
+        pid = c['plant_id']
+        care_row = turso_query("SELECT * FROM care WHERE plant_id = ?", [pid])
+        if care_row:
+            cr = care_row[0]
+            fill_stmts = []
+            # PPFD from lux (1 lux ≈ 0.015 µmol for sunlight)
+            if lux_min and lux_max and not (cr.get('ppfd_min') or 0):
+                ppfd_min = round(lux_min * 0.015)
+                ppfd_max = round(lux_max * 0.015)
+                fill_stmts.append(("UPDATE care SET ppfd_min = ?, ppfd_max = ? WHERE plant_id = ?", [ppfd_min, ppfd_max, pid]))
+            # Humidity min pct
+            env_min = data.get('min_env_humid') or 0
+            env_max = data.get('max_env_humid') or 0
+            if env_min and not (cr.get('humidity_min_pct') or 0):
+                fill_stmts.append(("UPDATE care SET humidity_min_pct = ? WHERE plant_id = ?", [env_min, pid]))
+            # Temperature
+            temp_min = data.get('min_temp')
+            temp_max = data.get('max_temp')
+            if temp_min is not None and not (cr.get('temp_min_c') or 0):
+                fill_stmts.append(("UPDATE care SET temp_min_c = ? WHERE plant_id = ?", [temp_min, pid]))
+            if temp_max is not None and not (cr.get('temp_max_c') or 0):
+                fill_stmts.append(("UPDATE care SET temp_max_c = ? WHERE plant_id = ?", [temp_max, pid]))
+            if fill_stmts:
+                turso_batch(fill_stmts)
+                stats['filled'] = stats.get('filled', 0) + len(fill_stmts)
 
         if (i + 1) % 20 == 0:
             print(f"  [{i+1}/{len(candidates)}] found={stats['found']} miss={stats['not_found']} l_ok={stats['light_match']} l_conflict={stats['light_conflict']} d_ok={stats['demand_match']} d_conflict={stats['demand_conflict']}", flush=True)
