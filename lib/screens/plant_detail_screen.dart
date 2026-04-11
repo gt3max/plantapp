@@ -968,17 +968,14 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                       HumidityBar(level: _dbCareStr('humidity').isNotEmpty ? _dbCareStr('humidity') : _lib?.care.humidity ?? care.humidity),
                       () {
                         final humText = (_dbCareStr('humidity').isNotEmpty ? _dbCareStr('humidity') : _lib?.care.humidity ?? care.humidity).toLowerCase();
-                        final humAction = _dbStr('humidity_action').isNotEmpty
-                            ? _dbStr('humidity_action')
-                            : '';
-                        if (humAction.isNotEmpty) {
-                          return _InfoRow(icon: Icons.water_drop_outlined, text: humAction, sub: null);
+                        if (humText.contains('very high') || humText.contains('90')) {
+                          return _InfoRow(icon: Icons.water_drop_outlined, text: 'Mist daily + use humidifier', sub: 'Needs constant high humidity');
                         }
-                        if (humText.contains('high') || humText.contains('70') || humText.contains('80') || humText.contains('90')) {
-                          return _InfoRow(icon: Icons.water_drop_outlined, text: 'Use humidifier or pebble tray', sub: 'Dry air causes brown leaf tips');
+                        if (humText.contains('high') || humText.contains('70') || humText.contains('80')) {
+                          return _InfoRow(icon: Icons.water_drop_outlined, text: 'Mist 2\u20133 times per week or use humidifier', sub: 'Dry air causes brown leaf tips');
                         }
                         if (humText.contains('low') || humText.contains('20')) {
-                          return _InfoRow(icon: Icons.water_drop_outlined, text: 'Prefers dry air, do not mist', sub: null);
+                          return _InfoRow(icon: Icons.water_drop_outlined, text: 'Do not mist, prefers dry air', sub: null);
                         }
                         return _InfoRow(icon: Icons.water_drop_outlined, text: 'Normal room humidity is fine', sub: null);
                       }(),
