@@ -1490,25 +1490,69 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
         ];
       // ═══ HUMIDITY GUIDE (RN 1:1) ═══
       case 'humidity':
-        final humText = (c?.humidity ?? care.humidity).toLowerCase();
+        final humLevel = _dbCareStr('humidity').isNotEmpty
+            ? _dbCareStr('humidity')
+            : c?.humidity ?? care.humidity;
+        final humText = humLevel.toLowerCase();
+        final humAction = _dbStr('humidity_action').isNotEmpty
+            ? _dbStr('humidity_action')
+            : c?.humidityAction ?? '';
+        final origin = _lib?.origin ?? _dbStr('origin');
+        final isHigh = humText.contains('high') || humText.contains('60') || humText.contains('70') || humText.contains('80') || humText.contains('90');
+        final isLow = humText.contains('low') || humText.contains('20') || humText.contains('dry');
         return [
-          _guideSection('Humidity for $_title', c?.humidity ?? care.humidity),
-          if (c?.humidityAction.isNotEmpty == true)
-            _guideSection('', c!.humidityAction),
-          _guideSectionTitle('Warnings'),
-          if (humText.contains('high') || humText.contains('60') || humText.contains('70') || humText.contains('80')) ...[
-            InfoBox(text: '$_title needs high humidity. In dry apartments (especially with central heating in winter), leaf tips will turn brown and crispy.', variant: 'warning'),
-            InfoBox(text: 'Low humidity also attracts spider mites \u2014 the #1 indoor pest for tropical plants.', variant: 'warning'),
-          ] else if (humText.contains('low') || humText.contains('dry')) ...[
-            InfoBox(text: '$_title prefers dry air. High humidity causes fungal issues and root rot. Do not mist this plant.', variant: 'warning'),
-            InfoBox(text: 'Avoid placing in bathrooms or near humidifiers.', variant: 'warning'),
+          _guideSection('Air humidity for $_title', humLevel),
+
+          // Origin context
+          if (origin.isNotEmpty) ...[
+            _guideSection('', '$_title originates from $origin. ${isHigh ? 'In its natural habitat, air humidity is typically 60\u201390%. Indoors, you need to compensate for dry air.' : isLow ? 'In its natural habitat, air is dry. It is well adapted to low indoor humidity.' : 'It adapts well to typical indoor humidity levels.'}'),
+          ],
+
+          if (humAction.isNotEmpty)
+            _InfoRow(icon: Icons.water_outlined, text: humAction, sub: 'Recommended action'),
+
+          // Warnings by level
+          if (isHigh) ...[
+            _guideSectionTitle('Warnings'),
+            InfoBox(text: '$_title needs high humidity. In dry apartments (especially with central heating in winter), leaf tips will turn brown and crispy. This is the #1 complaint for tropical plants indoors.', variant: 'warning'),
+            InfoBox(text: 'Low humidity attracts spider mites \u2014 tiny pests that thrive in dry air. Check the undersides of leaves regularly.', variant: 'warning'),
+          ] else if (isLow) ...[
+            _guideSectionTitle('Warnings'),
+            InfoBox(text: '$_title prefers dry air. High humidity causes fungal issues, root rot, and leaf spots. Do not mist this plant.', variant: 'warning'),
+            InfoBox(text: 'Avoid placing in bathrooms, kitchens, or near humidifiers.', variant: 'warning'),
           ] else ...[
             InfoBox(text: '$_title does fine in average room humidity (40\u201360%). No special measures needed in most homes.', variant: 'info'),
           ],
-          _guideSectionTitle('How to increase humidity'),
-          _guideSection('', '\u2022 Group plants together \u2014 they create a shared humid microclimate\n\u2022 Place pot on a tray with pebbles and water (not touching pot bottom)\n\u2022 Mist leaves in the morning (not evening \u2014 fungal risk)\n\u2022 Use a humidifier in the room'),
-          _guideSectionTitle('How to decrease humidity'),
-          _guideSection('', '\u2022 Improve air circulation \u2014 open a window, use a small fan\n\u2022 Reduce misting\n\u2022 Move plant to a drier room\n\u2022 Avoid overcrowding plants'),
+
+          // What is air humidity
+          _guideSectionTitle('What is air humidity?'),
+          _guideSection('', 'Air humidity is the amount of moisture in the air, measured as a percentage (relative humidity). It is different from soil moisture \u2014 you can have wet soil and dry air at the same time.\n\nTypical indoor humidity:\n\u2022 Summer: 40\u201360% (comfortable)\n\u2022 Winter with heating: 20\u201330% (very dry!)\n\u2022 Bathroom: 60\u201380% (humid)'),
+
+          // Humidity levels explained
+          _guideSectionTitle('Humidity levels'),
+          _guideSection('Low (20\u201340%)', 'Succulents, cacti, desert plants. These evolved in arid climates and store water inside. High humidity causes rot. Most apartments in winter are naturally in this range.'),
+          _guideSection('Average (40\u201360%)', 'Most common houseplants. Standard room conditions work fine. No special equipment needed.'),
+          _guideSection('High (60\u201380%)', 'Tropical plants, ferns, orchids, calatheas. They come from humid forests and struggle in dry air. Leaf tips go brown, growth slows. Need active humidity management indoors.'),
+          _guideSection('Very high (70\u201390%)', 'Mosses, aquatic plants, carnivorous plants. Often need terrariums or closed environments to maintain humidity.'),
+
+          // How to manage
+          if (isHigh) ...[
+            _guideSectionTitle('How to increase humidity'),
+            _guideSection('Most effective (ranked)', '\u2022 Humidifier \u2014 the only reliable way to raise room humidity significantly. Place near plants.\n\u2022 Pebble tray \u2014 fill a tray with pebbles, add water to just below pebble tops, place pot on top. Water evaporates slowly.\n\u2022 Group plants together \u2014 plants transpire and create a shared humid microclimate.\n\u2022 Move to bathroom or kitchen \u2014 naturally more humid rooms.\n\u2022 Glass cabinet or terrarium \u2014 for very demanding plants.'),
+            _guideSectionTitle('What about misting?'),
+            _guideSection('', 'Misting is popular but barely effective. It raises humidity for 5\u201310 minutes, then evaporates. Mist in the morning only \u2014 wet leaves at night cause fungal problems. Use it as a supplement, not a solution.'),
+          ] else if (isLow) ...[
+            _guideSectionTitle('How to keep humidity low'),
+            _guideSection('', '\u2022 Good air circulation \u2014 open a window, use a small fan\n\u2022 Terracotta pots \u2014 they absorb moisture and dry faster than plastic\n\u2022 Do not mist\n\u2022 Keep away from other plants that need misting\n\u2022 Avoid bathrooms and kitchens'),
+          ] else ...[
+            _guideSectionTitle('Tips'),
+            _guideSection('', 'No special humidity measures needed. If you notice brown leaf tips in winter, the air may be too dry from central heating \u2014 try grouping plants together or placing a water tray nearby.'),
+          ],
+
+          // Signs
+          _guideSectionTitle('Signs of incorrect humidity'),
+          _guideSection('Too dry', '\u2022 Brown, crispy leaf tips and edges\n\u2022 Leaves curling inward\n\u2022 Flower buds dropping before opening\n\u2022 Spider mites (tiny webs on undersides)'),
+          _guideSection('Too humid', '\u2022 Mold or white fuzz on soil surface\n\u2022 Black spots on leaves (fungal)\n\u2022 Soft, mushy stems\n\u2022 Musty smell from soil'),
         ];
       // ═══ TEMPERATURE GUIDE (RN 1:1) ═══
       case 'temperature':
