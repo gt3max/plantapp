@@ -699,6 +699,19 @@ class _PlantDetailScreenState extends ConsumerState<PlantDetailScreen> {
                   onPressed: () => Navigator.pop(context),
                 ),
                 flexibleSpace: FlexibleSpaceBar(
+                  title: Text(
+                    _title,
+                    style: TextStyle(
+                      fontSize: AppFontSize.md,
+                      fontWeight: FontWeight.w600,
+                      color: AppColors.text,
+                    ),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  centerTitle: true,
+                  titlePadding: const EdgeInsets.only(bottom: 14),
+                  collapseMode: CollapseMode.pin,
                   background: _buildPhotoCarousel(),
                 ),
               ),
